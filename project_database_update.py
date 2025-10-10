@@ -93,7 +93,7 @@ CORRECT_PROJECT_ENTRY = True
 
 # Filepath of correction files for project_entry.
 FILEPATH_PROJECT_ENTRY_CORR1 = './data/datetool_202501170947.csv'
-FILEPATH_PROJECT_ENTRY_CORR2 = './data/chronotool_202501170947.csv'
+FILEPATH_PROJECT_ENTRY_CORR2 = './data/chronotool_202507081549.csv'
 
 # Filepath for source for project_entry.{source,sourceOrigin}.
 FILEPATH_SOURCE = './data/20241108_entry_source.csv'
@@ -117,7 +117,7 @@ FILEPATH_SPECIALTYPE = './data/20241030_dossier_specialtype.xlsx'
 FILEPATH_PROJECT_RELATIONSHIP = './data/20250205_dossier_relationship.csv'
 
 # Filepath for correction file for project_period.
-FILEPATH_PROJECT_PERIOD = './data/20250220_dossier_period.csv'
+FILEPATH_PROJECT_PERIOD = './data/20250708_dossier_period.csv'
 
 # Define direction of the backup file.
 BACKUP_DIR = '/mnt/research-storage/Projekt_HGB/DB_Dump/hgb'
