@@ -202,7 +202,9 @@ def create_schema(dbname, user, password, host, port=5432):
         language VARCHAR(20),
         source VARCHAR(100),
         sourceOrigin VARCHAR(30),
-        keyLatestTranscript VARCHAR(30)[] NOT NULL)
+        keyLatestTranscript VARCHAR(30)[] NOT NULL,
+        annotationManual xml,
+        annotationAutomated xml)
     """
                    )
     cursor.execute("""

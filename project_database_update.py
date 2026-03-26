@@ -98,6 +98,14 @@ FILEPATH_PROJECT_ENTRY_CORR2 = './data/chronotool_202603251453.csv'
 # Filepath for source for project_entry.{source,sourceOrigin}.
 FILEPATH_SOURCE = './data/20260325_entry_source.csv'
 
+# Filepath for source for project_entry.annotationManual.
+FILEPATH_ANNOTATION_MANUAL = './data/20250821_annotation_manual'
+
+# Filepath for source for project_entry.annotationAutomated.
+FILEPATH_ANNOTATION_AUTOMATED = (
+    './data/hgb_corpus_25_10_23_full_normalized_3.xml'
+    )
+
 # Filepath of correction file for project_dossier.
 FILEPATH_PROJECT_DOSSIER_GEOM = './data/dossiergeom_202603250922.csv'
 
@@ -892,7 +900,12 @@ def processing_project(dbname, db_password, db_user='postgres',
                        filepath_projectrelationship='',
                        filepath_source='',
                        filepath_specialtype='',
-                       filepath_projectperiod=''):
+                       filepath_projectperiod='',
+                       filepath_annotationmanual='',
+                       attribut_annotationmanual='annotationmanual',
+                       filepath_annotationautomated='',
+                       attribut_annotationautomated='annotationautomated'
+                       ):
     """Processes the project data within the project database.
 
     This function processes all tables of the project database with the prefix
@@ -981,6 +994,9 @@ def processing_project(dbname, db_password, db_user='postgres',
     4. Based on a CSV file, the entries for the project_relationship entity
     are generated (if available).
 
+    5. Based on XML files, add manually and automatically generated
+    annotations to the entries.
+
     Args:
         dbname (str): Name of the project database.
         db_password (str): Password for the database connection.
@@ -1006,6 +1022,14 @@ def processing_project(dbname, db_password, db_user='postgres',
         for dossier special types.
         filepath_projectperiod (str): Filepath of the correction file for
         dossier periods.
+        filepath_annotationmanual (str): File paths of XML files containing
+        manual annotations.
+        attribut_annotationmanual (str): Name of the attribute of the
+        'project_entry' entity used to store manual annotations.
+        filepath_annotationautomated (str): File path of the XML file
+        containing automatic annotations.
+        attribut_annotationautomated (str): Name of the attribute of the
+        'project_entry' entity used to store automatic annotations.
 
     Returns:
         None.
@@ -1018,12 +1042,12 @@ def processing_project(dbname, db_password, db_user='postgres',
         columns=['dossierId', 'serieId', 'stabsId', 'title', 'link',
                  'houseName', 'oldHousenumber', 'owner1862', 'descriptiveNote'
                  ])
-    document = pd.DataFrame(
+    transkribus_document = pd.DataFrame(
         read_table(dbname=dbname, dbtable='transkribus_document',
                    user=db_user, password=db_password,
                    host=db_host, port=db_port),
         columns=['docId', 'colId', 'title', 'nrOfPages'])
-    page = pd.DataFrame(
+    transkribus_page = pd.DataFrame(
         read_table(dbname=dbname, dbtable='transkribus_page',
                    user=db_user, password=db_password,
                    host=db_host, port=db_port),
@@ -1050,7 +1074,9 @@ def processing_project(dbname, db_password, db_user='postgres',
         entry_correction2 = pd.read_csv(filepath_corr2)
 
     # Order the pages by docid and pagenr (might not be ordered in database).
-    page = page.sort_values(by=['docId', 'pageNr'], ascending=[True, True])
+    transkribus_page = transkribus_page.sort_values(
+        by=['docId', 'pageNr'], ascending=[True, True]
+        )
 
     # Generate entries of table project_entry.
     entry = pd.DataFrame(columns=['dossierId', 'pageId',
@@ -1059,14 +1085,16 @@ def processing_project(dbname, db_password, db_user='postgres',
                                   'manuallyCorrected',
                                   'language',
                                   'source', 'sourceOrigin',
-                                  'keyLatestTranscript'])
+                                  'keyLatestTranscript',
+                                  'annotationManual', 'annotationAutomated'
+                                  ])
     entry['manuallyCorrected'] = entry['manuallyCorrected'].astype(bool)
     entry_prev_docid = None
     page_prev_has_credit = None
     page_prev_status = None
-    for row in page.iterrows():
-        dossierid = document[
-                document['docId'] == row[1]['docId']
+    for row in transkribus_page.iterrows():
+        dossierid = transkribus_document[
+                transkribus_document['docId'] == row[1]['docId']
                 ]['title'].values[0]
 
         # Determine corrections if requested.
@@ -1140,7 +1168,10 @@ def processing_project(dbname, db_password, db_user='postgres',
                                        'manuallyCorrected',
                                        'language',
                                        'source', 'sourceOrigin',
-                                       'keyLatestTranscript'])
+                                       'keyLatestTranscript',
+                                       'annotationManual',
+                                       'annotationAutomated'
+                                       ])
                  ], ignore_index=True)
             entry_prev_docid = row[1]['docId']
 
@@ -1613,6 +1644,155 @@ def processing_project(dbname, db_password, db_user='postgres',
     else:
         logging.warning('No data for entity project_relationship available.')
 
+    # Integrate manual annotations.
+    if filepath_annotationmanual:
+        filenames_xml = os.listdir(filepath_annotationmanual)
+
+        conn = psycopg2.connect(
+            dbname=dbname,
+            user=db_user, password=db_password,
+            host=db_host, port=db_port
+            )
+        conn.autocommit = True
+        cursor = conn.cursor()
+
+        for filename in filenames_xml:
+            # Get dossierid and pagenr from filename.
+            name_without_extension = filename.rsplit('.', 1)[0]
+            parts = name_without_extension.rsplit('_', 1)
+            dossierid = parts[0]
+            pagenr = int(parts[1])
+
+            # Determine pageid.
+            docid = transkribus_document[
+                transkribus_document['title'] == dossierid
+                ]['docId'].values[0]
+            doc = transkribus_page[transkribus_page['docId'] == docid]
+            page = doc[doc['pageNr'] == pagenr]
+            if page.empty:
+                logging.warning(
+                    f'No page found for manual annotation {filename}.'
+                    )
+                continue
+            pageid = str(page['pageId'].values[0])
+
+            # Read XML content.
+            filepath = os.path.join(filepath_annotationmanual, filename)
+            with open(filepath, 'r', encoding='utf-8') as f:
+                xml_content = f.read()
+
+            # Check if pageid and annotation exists for this entry.
+            cursor.execute(
+                f"""
+                SELECT {attribut_annotationmanual}
+                FROM project_entry
+                WHERE %s = ANY(pageid)
+                """,
+                (pageid,)
+            )
+            entry = cursor.fetchall()
+            if not entry:
+                logging.warning(
+                    f'No entry found for manual annotation {filename} '
+                    f'(pageid {pageid}).'
+                    )
+                continue
+            elif entry[0] != (None,):
+                logging.warning(
+                    f'Manual annotation already exists for {filename} '
+                    f'(pageid {pageid}).'
+                    )
+
+            # Write XML content to database.
+            cursor.execute(
+                f"""
+                UPDATE project_entry
+                SET {attribut_annotationmanual} = XMLPARSE(DOCUMENT %s)
+                WHERE %s = ANY(pageid);
+                """,
+                (xml_content, pageid)
+            )
+
+        conn.close()
+
+        logging.info('Manual annotation added in project_entry.')
+
+    # Integrate automated annotations.
+    if filepath_annotationautomated:
+        conn = psycopg2.connect(
+            dbname=dbname,
+            user=db_user, password=db_password,
+            host=db_host, port=db_port
+            )
+        conn.autocommit = True
+        cursor = conn.cursor()
+
+        for event, elem in et.iterparse(filepath_annotationautomated):
+            if event == 'end' and elem.tag == 'document':
+                # Get the raw XML (as bytes).
+                xml_bytes = et.tostring(elem, encoding="utf-8")
+
+                # Decode to string.
+                xml_string = xml_bytes.decode("utf-8")
+
+                # Find metadata and get dossierid and pagenr.
+                metadata = elem.find('metadata')
+                dossierid = metadata.get('dossier')
+                pagenr_list = [
+                    int(pagenr) for pagenr in metadata.get('pages').split(',')
+                    ]
+                pagenr = pagenr_list[0]
+
+                # Determine pageid.
+                docid = transkribus_document[
+                    transkribus_document['title'] == dossierid
+                    ]['docId'].values[0]
+                doc = transkribus_page[transkribus_page['docId'] == docid]
+                page = doc[doc['pageNr'] == pagenr]
+                if page.empty:
+                    logging.warning(
+                        'No page found for automated annotation of '
+                        f'{dossierid}_{pagenr}.'
+                        )
+                    continue
+                pageid = str(page['pageId'].values[0])
+
+                # Check if pageid and annotation exists for this entry.
+                cursor.execute(
+                    f"""
+                    SELECT {attribut_annotationautomated}
+                    FROM project_entry
+                    WHERE %s = ANY(pageid)
+                    """,
+                    (pageid,)
+                )
+                entry = cursor.fetchall()
+                if not entry:
+                    logging.warning(
+                        f'No entry found for automated annotation of '
+                        f'{dossierid}_{pagenr} (pageid {pageid}).'
+                        )
+                    continue
+                elif entry[0] != (None,):
+                    logging.warning(
+                        'Automated annotation already exists for '
+                        f'{dossierid}_{pagenr} (pageid {pageid}).'
+                        )
+
+                # Write XML content to database.
+                cursor.execute(
+                    f"""
+                    UPDATE project_entry
+                    SET {attribut_annotationautomated} = XMLPARSE(DOCUMENT %s)
+                    WHERE %s = ANY(pageid);
+                    """,
+                    (xml_string, pageid)
+                )
+
+        conn.close()
+
+        logging.info('Automated annotation added in project_entry.')
+
 
 def import_shapefile(dbname, dbtable,
                      shapefile_path, shapefile_epsg,
@@ -2055,7 +2235,9 @@ def main():
                 filepath_projectrelationship=FILEPATH_PROJECT_RELATIONSHIP,
                 filepath_source=FILEPATH_SOURCE,
                 filepath_specialtype=FILEPATH_SPECIALTYPE,
-                filepath_projectperiod=FILEPATH_PROJECT_PERIOD
+                filepath_projectperiod=FILEPATH_PROJECT_PERIOD,
+                filepath_annotationmanual=FILEPATH_ANNOTATION_MANUAL,
+                filepath_annotationautomated=FILEPATH_ANNOTATION_AUTOMATED
                 )
             logging.info('Project data are processed.')
         elif db_exist:
@@ -2087,7 +2269,8 @@ def main():
             AS t(entryid text, dossierid text, pageid integer[], year integer,
             yearsource text, comment text, manuallycorrected boolean,
             language text, source text, sourceorigin text,
-            keylatesttranscript text[])
+            keylatesttranscript text[],
+            annotationManual xml, annotationAutomated xml)
             """)
             cursor.execute(f"""
             INSERT INTO project_relationship
