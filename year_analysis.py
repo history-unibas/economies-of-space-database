@@ -54,16 +54,20 @@ def main():
                    host=db_host, port=db_port),
         columns=['entryId', 'dossierId', 'pageId',
                  'year', 'yearSource',
-                 'comment', 'manuallyCorrected'])
+                 'comment', 'manuallyCorrected', 'language',
+                 'source', 'sourceOrigin', 'keyLatestTranscript'])
     dossier = pd.DataFrame(
         read_table(dbname=DB_NAME, dbtable='project_dossier',
                    user=db_user, password=db_password,
                    host=db_host, port=db_port),
-        columns=['dossierId', 'yearFrom_stabs', 'yearTo_stabs',
-                 'yearFrom2', 'yearTo2',
-                 'locationAccuracy', 'locationOrigin', 'location'])
-    dossier = dossier.drop(['locationAccuracy', 'locationOrigin', 'location'],
-                           axis=1)
+        columns=['dossierId', 'locationAccuracy', 'locationOrigin', 'location',
+                 'locationshifted', 'locationshiftedorigin',
+                 'clusterid', 'addressmatchingtype', 'specialtype'])
+    dossier = dossier.drop(
+        ['locationAccuracy', 'locationOrigin', 'location',
+         'locationshifted', 'locationshiftedorigin',
+         'clusterid', 'addressmatchingtype', 'specialtype'
+         ], axis=1)
     document = pd.DataFrame(
         read_table(dbname=DB_NAME, dbtable='transkribus_document',
                    user=db_user, password=db_password,
@@ -73,7 +77,7 @@ def main():
         read_table(dbname=DB_NAME, dbtable='transkribus_page',
                    user=db_user, password=db_password,
                    host=db_host, port=db_port),
-        columns=['pageId', 'key', 'docId', 'pageNr', 'urlImage'])
+        columns=['pageId', 'key', 'docId', 'pageNr', 'urlImage', 'entryId'])
     transcript = pd.DataFrame(
         read_table(dbname=DB_NAME, dbtable='transkribus_transcript',
                    user=db_user, password=db_password,

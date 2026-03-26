@@ -92,32 +92,32 @@ CORRECT_LINE_ORDER = True
 CORRECT_PROJECT_ENTRY = True
 
 # Filepath of correction files for project_entry.
-FILEPATH_PROJECT_ENTRY_CORR1 = './data/datetool_202501170947.csv'
-FILEPATH_PROJECT_ENTRY_CORR2 = './data/chronotool_202507081549.csv'
+FILEPATH_PROJECT_ENTRY_CORR1 = './data/datetool_202603251627.csv'
+FILEPATH_PROJECT_ENTRY_CORR2 = './data/chronotool_202603251453.csv'
 
 # Filepath for source for project_entry.{source,sourceOrigin}.
-FILEPATH_SOURCE = './data/20241108_entry_source.csv'
+FILEPATH_SOURCE = './data/20260325_entry_source.csv'
 
 # Filepath of correction file for project_dossier.
-FILEPATH_PROJECT_DOSSIER_GEOM = './data/dossiergeom_202406181114.csv'
+FILEPATH_PROJECT_DOSSIER_GEOM = './data/dossiergeom_202603250922.csv'
 
 # Filepath for source of project_dossier.locationShifted.
-FILEPATH_LOCATIONSHIFTED = './data/dossiergeomshifted_20241106.csv'
+FILEPATH_LOCATIONSHIFTED = './data/dossiergeomshifted_202603251454.csv'
 
 # Filepath for source of project_dossier.clusterId.
-FILEPATH_CLUSTERID = './data/20240502_cluster.csv'
+FILEPATH_CLUSTERID = './data/20260116_cluster.csv'
 
 # Filepath for source of project_dossier.addressMatchingType.
-FILEPATH_ADDRESSMATCHINGTYPE = './data/20241101_dossier_type.xlsx'
+FILEPATH_ADDRESSMATCHINGTYPE = './data/20260325_dossier_type.xlsx'
 
 # Filepath for source of project_dossier.specialType.
-FILEPATH_SPECIALTYPE = './data/20241030_dossier_specialtype.xlsx'
+FILEPATH_SPECIALTYPE = './data/20251203_dossier_specialtype.xlsx'
 
 # Filepath for source of project_relationship.
-FILEPATH_PROJECT_RELATIONSHIP = './data/20250205_dossier_relationship.csv'
+FILEPATH_PROJECT_RELATIONSHIP = './data/20260116_dossier_relationship.csv'
 
 # Filepath for correction file for project_period.
-FILEPATH_PROJECT_PERIOD = './data/20250708_dossier_period.csv'
+FILEPATH_PROJECT_PERIOD = './data/20260318_dossier_period.csv'
 
 # Define direction of the backup file.
 BACKUP_DIR = '/mnt/research-storage/Projekt_HGB/DB_Dump/hgb'
@@ -1479,6 +1479,11 @@ def processing_project(dbname, db_password, db_user='postgres',
 
         # Not condiser dossier with no location.
         locationshifted = locationshifted.dropna(subset=['locationshifted'])
+
+        # Only consider existing dossier.
+        locationshifted = locationshifted[
+            locationshifted['dossierid'].isin(dossier['dossierId'])
+            ]
 
         for row in locationshifted.iterrows():
             dossierid = row[1]['dossierid']
