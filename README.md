@@ -93,6 +93,8 @@ Elements of the Project_Entry table represent an entry recorded in the HGB. Seve
 | source | VARCHAR(100) | no |  | Origin of the entry |
 | sourceOrigin | VARCHAR(30) | no |  | Information on the determination of source |
 | keyLatestTranscript | VARCHAR(30)[] | yes |  | List of keys of the latest associated transcripts (Transkribus_Transcript.key) |
+| annotationManual | xml | no |  | XML containing manually defined annotations |
+| annotationAutomated | xml | no |  | XML containing automatically generated annotations |
 
 ### Project_Period
 The elements of the Project_Period entity represent the validity period of the dossier that exists in the Project_Dossier entity. A dossier can have several entries or validity periods.
