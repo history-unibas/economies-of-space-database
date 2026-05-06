@@ -181,7 +181,7 @@ This script contains functions creating the project database and its schema and 
 ## connectDatabase.py
 Functions to read and write to database tables as well as functions to check if a database exist or a table is empty are defined in this script.
 
-## dossier_realtionship.py
+## dossier_realationship.py
 This script is used to determine relationships between dossiers. On the one hand, relationships between dossiers that follow one another in time. On the other hand, clusters of dossiers that are related to each other by address.
 
 ## dossier_validity_range.py

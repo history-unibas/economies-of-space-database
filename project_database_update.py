@@ -52,6 +52,7 @@ import math
 import geopandas
 from lingua import Language, LanguageDetectorBuilder
 from shapely import wkt
+import gc
 
 
 from administrateDatabase import (
@@ -93,7 +94,7 @@ CORRECT_PROJECT_ENTRY = True
 
 # Filepath of correction files for project_entry.
 FILEPATH_PROJECT_ENTRY_CORR1 = './data/datetool_202603251627.csv'
-FILEPATH_PROJECT_ENTRY_CORR2 = './data/chronotool_202603251453.csv'
+FILEPATH_PROJECT_ENTRY_CORR2 = './data/chronotool_202605061259.csv'
 
 # Filepath for source for project_entry.{source,sourceOrigin}.
 FILEPATH_SOURCE = './data/20260325_entry_source.csv'
@@ -119,7 +120,7 @@ FILEPATH_CLUSTERID = './data/20260116_cluster.csv'
 FILEPATH_ADDRESSMATCHINGTYPE = './data/20260325_dossier_type.xlsx'
 
 # Filepath for source of project_dossier.specialType.
-FILEPATH_SPECIALTYPE = './data/20251203_dossier_specialtype.xlsx'
+FILEPATH_SPECIALTYPE = './data/20260506_dossier_specialtype.xlsx'
 
 # Filepath for source of project_relationship.
 FILEPATH_PROJECT_RELATIONSHIP = './data/20260116_dossier_relationship.csv'
@@ -1160,7 +1161,9 @@ def processing_project(dbname, db_password, db_user='postgres',
                                 False,
                                 None,
                                 None, None,
-                                [ts_latest['key']]
+                                [ts_latest['key']],
+                                None,
+                                None
                                 ]],
                               columns=['dossierId', 'pageId',
                                        'year', 'yearSource',
@@ -1628,6 +1631,16 @@ def processing_project(dbname, db_password, db_user='postgres',
                    host=db_host, port=db_port
                    )
 
+    # Free up memory.
+    del stabs_dossier
+    del transcript
+    del textregion
+    del geo_address
+    del entry
+    del dossier
+    del period
+    gc.collect()
+
     # Generate the entity project_relationship.
     if filepath_projectrelationship:
         relationship = pd.read_csv(
@@ -1724,10 +1737,17 @@ def processing_project(dbname, db_password, db_user='postgres',
             user=db_user, password=db_password,
             host=db_host, port=db_port
             )
-        conn.autocommit = True
+        conn.autocommit = False
         cursor = conn.cursor()
+        batch_size = 500
+        counter = 0
 
-        for event, elem in et.iterparse(filepath_annotationautomated):
+        context = et.iterparse(
+            filepath_annotationautomated, events=('start', 'end')
+            )
+        event, root = next(context)
+
+        for event, elem in context:
             if event == 'end' and elem.tag == 'document':
                 # Get the raw XML (as bytes).
                 xml_bytes = et.tostring(elem, encoding="utf-8")
@@ -1744,18 +1764,21 @@ def processing_project(dbname, db_password, db_user='postgres',
                 pagenr = pagenr_list[0]
 
                 # Determine pageid.
-                docid = transkribus_document[
-                    transkribus_document['title'] == dossierid
-                    ]['docId'].values[0]
-                doc = transkribus_page[transkribus_page['docId'] == docid]
-                page = doc[doc['pageNr'] == pagenr]
-                if page.empty:
+                docid = transkribus_document.loc[
+                    transkribus_document['title'] == dossierid, 'docId'
+                    ].iloc[0]
+                page_row = transkribus_page.loc[
+                    (transkribus_page['docId'] == docid)
+                    & (transkribus_page['pageNr'] == pagenr),
+                    'pageId'
+                    ]
+                if page_row.empty:
                     logging.warning(
                         'No page found for automated annotation of '
                         f'{dossierid}_{pagenr}.'
                         )
                     continue
-                pageid = str(page['pageId'].values[0])
+                pageid = str(page_row.iloc[0])
 
                 # Check if pageid and annotation exists for this entry.
                 cursor.execute(
@@ -1766,6 +1789,7 @@ def processing_project(dbname, db_password, db_user='postgres',
                     """,
                     (pageid,)
                 )
+                counter += 1
                 entry = cursor.fetchall()
                 if not entry:
                     logging.warning(
@@ -1788,7 +1812,15 @@ def processing_project(dbname, db_password, db_user='postgres',
                     """,
                     (xml_string, pageid)
                 )
+                counter += 1
 
+                if counter % batch_size == 0:
+                    conn.commit()
+
+                elem.clear()
+                root.remove(elem)
+
+        conn.commit()
         conn.close()
 
         logging.info('Automated annotation added in project_entry.')
