@@ -159,7 +159,7 @@ def create_schema(dbname, user, password, host, port=5432):
         tsId INTEGER UNIQUE NOT NULL,
         pageId INTEGER NOT NULL REFERENCES Transkribus_Page(pageId),
         parentTsId INTEGER NOT NULL,
-        urlPageXml VARCHAR(100) NOT NULL,
+        pageXml xml NOT NULL,
         status VARCHAR(15) NOT NULL,
         timestamp TIMESTAMP NOT NULL,
         htrModel VARCHAR(1000))

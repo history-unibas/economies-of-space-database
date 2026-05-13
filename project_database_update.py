@@ -420,7 +420,7 @@ def processing_transkribus(series_data, dossiers_data, dbname,
             columns=['pageId', 'key', 'docId', 'pageNr', 'urlImage'
                      ])
         all_transcript = pd.DataFrame(
-            columns=['key', 'tsId', 'pageId', 'parentTsId', 'urlPageXml',
+            columns=['key', 'tsId', 'pageId', 'parentTsId', 'pageXml',
                      'status', 'timestamp', 'htrModel'
                      ])
         all_textregion = pd.DataFrame(
@@ -448,7 +448,8 @@ def processing_transkribus(series_data, dossiers_data, dbname,
                     )
 
                 # Query the page xml and extract the data of interest.
-                page_xml = et.fromstring(get_page_xml(url_page_xml, sid))
+                page_xml_raw = get_page_xml(url_page_xml, sid)
+                page_xml = et.fromstring(page_xml_raw)
                 creator_content = page_xml.find(
                     './/{http://schema.primaresearch.org/PAGE/gts/pagecontent/'
                     '2013-07-15}Creator').text
@@ -458,11 +459,11 @@ def processing_transkribus(series_data, dossiers_data, dbname,
                      pd.DataFrame([
                          [key_transcript, transcript['tsId'],
                           transcript['pageId'], transcript['parentTsId'],
-                          url_page_xml, transcript['status'], timestamp,
+                          page_xml_raw, transcript['status'], timestamp,
                           htr_model]
                           ],
                           columns=['key', 'tsId', 'pageId', 'parentTsId',
-                                   'urlPageXml', 'status', 'timestamp',
+                                   'pageXml', 'status', 'timestamp',
                                    'htrModel'])], ignore_index=True)
 
                 # Iterate over text regions.
@@ -1057,7 +1058,7 @@ def processing_project(dbname, db_password, db_user='postgres',
         read_table(dbname=dbname, dbtable='transkribus_transcript',
                    user=db_user, password=db_password,
                    host=db_host, port=db_port),
-        columns=['key', 'tsId', 'pageId', 'parentTsId', 'urlPageXml', 'status',
+        columns=['key', 'tsId', 'pageId', 'parentTsId', 'pageXml', 'status',
                  'timestamp', 'htrModel'])
     textregion = pd.DataFrame(
         read_table(dbname=dbname, dbtable='transkribus_textregion',
@@ -2201,10 +2202,10 @@ def main():
             cursor.execute(f"""
             INSERT INTO transkribus_transcript
             SELECT * FROM dblink('{dblink_connname}',
-            'SELECT key,tsid,pageid,parenttsid,urlpagexml,status,timestamp,
+            'SELECT key,tsid,pageid,parenttsid,pagexml,status,timestamp,
             htrmodel FROM transkribus_transcript')
             AS t(key text, tsid integer, pageid integer, parenttsid integer,
-            urlpagexml text, status text, timestamp timestamp, htrmodel text)
+            pagexml xml, status text, timestamp timestamp, htrmodel text)
             """)
             cursor.execute(f"""
             INSERT INTO transkribus_textregion

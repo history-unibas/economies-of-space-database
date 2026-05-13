@@ -41,7 +41,7 @@ Elements of the entity StABS_Dossier represent a building, address or further in
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
 |---------------|---------------|---------------|---------------|---------------|
-| dossierId | VARCHAR(15) | yes | PRIMARY KEY | Project identifier, derived from serieId |
+| dossierId | VARCHAR(15) | yes | PRIMARY KEY | Project identifier, derived from stabsId |
 | serieId | VARCHAR(10) | yes | FOREIGN KEY | Project identifier of the linked series |
 | stabsId | VARCHAR(15) | yes | UNIQUE | Identifier of the State Archives |
 | title | VARCHAR(200) | yes |  | Title of the dossier, often correspondend to the address according to the address book of 1862 |
@@ -155,7 +155,7 @@ Transcriptions of a page are saved as page xml on Transkribus. Each time a chang
 | tsId | INTEGER | yes | UNIQUE | Identifier Transkribus transcript (UUID) |
 | pageId | INTEGER | yes | FOREIGN KEY | Identifier to the linked page |
 | parentTsId | INTEGER | yes |  | Identifier of the previous transcription version |
-| urlPageXml | VARCHAR(100) | yes |  | URI to the page xml of the transcription |
+| pageXml | xml | yes |  | Page xml of the transcription |
 | status | VARCHAR(15) | yes |  | Defined status of the transcription. Possible values: NEW, IN_PROGRESS, DONE, FINAL, GROUND_TRUTH |
 | timestamp | TIMESTAMP | yes |  | Time of transcription, Unix time stamp in milliseconds since 01.01.1970 UTC |
 | htrModel | VARCHAR(1000) | no |  | Type of HTR model used for the transcription |
