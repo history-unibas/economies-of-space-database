@@ -1037,13 +1037,6 @@ def processing_project(dbname, db_password, db_user='postgres',
         None.
     """
     # Read necessary database tables.
-    stabs_dossier = pd.DataFrame(
-        read_table(dbname=dbname, dbtable='stabs_dossier',
-                   user=db_user, password=db_password,
-                   host=db_host, port=db_port),
-        columns=['dossierId', 'serieId', 'stabsId', 'title', 'link',
-                 'houseName', 'oldHousenumber', 'owner1862', 'descriptiveNote'
-                 ])
     transkribus_document = pd.DataFrame(
         read_table(dbname=dbname, dbtable='transkribus_document',
                    user=db_user, password=db_password,
@@ -1057,8 +1050,13 @@ def processing_project(dbname, db_password, db_user='postgres',
     transcript = pd.DataFrame(
         read_table(dbname=dbname, dbtable='transkribus_transcript',
                    user=db_user, password=db_password,
-                   host=db_host, port=db_port),
-        columns=['key', 'tsId', 'pageId', 'parentTsId', 'pageXml', 'status',
+                   host=db_host, port=db_port,
+                   columns=(
+                       'key, tsid, pageid, parenttsid, '
+                       'status, timestamp, htrmodel'
+                       )
+                   ),
+        columns=['key', 'tsId', 'pageId', 'parentTsId', 'status',
                  'timestamp', 'htrModel'])
     textregion = pd.DataFrame(
         read_table(dbname=dbname, dbtable='transkribus_textregion',
@@ -1255,6 +1253,9 @@ def processing_project(dbname, db_password, db_user='postgres',
         axis=1,
         result_type='expand'
         )
+    del transcript
+    del textregion
+    gc.collect()
 
     # Determine the origin of the entry.
     if filepath_source:
@@ -1301,10 +1302,19 @@ def processing_project(dbname, db_password, db_user='postgres',
     logging.info('Entity project_entry generated.')
 
     # Reduce the elements to the dossier referenced in project_entry.
+    stabs_dossier = pd.DataFrame(
+        read_table(dbname=dbname, dbtable='stabs_dossier',
+                   user=db_user, password=db_password,
+                   host=db_host, port=db_port),
+        columns=['dossierId', 'serieId', 'stabsId', 'title', 'link',
+                 'houseName', 'oldHousenumber', 'owner1862', 'descriptiveNote'
+                 ])
     stabs_dossier_reduced = stabs_dossier[
         stabs_dossier['dossierId'].isin(entry['dossierId'])
         ].copy()
     dossier = stabs_dossier_reduced[['dossierId', 'descriptiveNote']].copy()
+    del stabs_dossier_reduced
+    gc.collect()
 
     # Generate the entity project_period.
     period = pd.DataFrame(columns=['dossierId',
@@ -1443,6 +1453,9 @@ def processing_project(dbname, db_password, db_user='postgres',
             dossier.at[row[0], 'locationOrigin'] = (
                 'Grundbuch- und Vermessungsamt Basel-Stadt')
             dossier.at[row[0], 'location'] = location.values[0]
+    del stabs_dossier
+    del geo_address
+    gc.collect()
 
     # Correct locations of the dossier.
     if correct_dossier:
@@ -1633,10 +1646,6 @@ def processing_project(dbname, db_password, db_user='postgres',
                    )
 
     # Free up memory.
-    del stabs_dossier
-    del transcript
-    del textregion
-    del geo_address
     del entry
     del dossier
     del period
@@ -1920,19 +1929,22 @@ def processing_geodata(shapefile_path, shapefile_epsg,
         )
 
     # Add foreign key for geo_address to stabs_dossier.
-    conn = psycopg2.connect(dbname=dbname,
-                            user=db_user, password=db_password,
-                            host=db_host, port=db_port
-                            )
-    conn.autocommit = True
-    cursor = conn.cursor()
-    cursor.execute("""
-    ALTER TABLE geo_address
-    ADD CONSTRAINT stabs_dossier_stabsid_fkey
-    FOREIGN KEY (signatur) REFERENCES stabs_dossier(stabsid)
-    """
-                   )
-    conn.close()
+    try:
+        conn = psycopg2.connect(dbname=dbname,
+                                user=db_user, password=db_password,
+                                host=db_host, port=db_port
+                                )
+        conn.autocommit = True
+        cursor = conn.cursor()
+        cursor.execute("""
+        ALTER TABLE geo_address
+        ADD CONSTRAINT stabs_dossier_stabsid_fkey
+        FOREIGN KEY (signatur) REFERENCES stabs_dossier(stabsid)
+        """
+                    )
+        conn.close()
+    except psycopg2.errors.DuplicateObject as e:
+        logging.warning(f'Duplicate object error: {e}.')
 
 
 def create_worktable(dbname, user, password, host, port=5432):

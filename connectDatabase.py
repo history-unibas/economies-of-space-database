@@ -9,13 +9,17 @@ import logging
 import geopandas
 
 
-def read_table(dbname, dbtable, user, password, host, port=5432):
+def read_table(dbname, dbtable, user, password, host, port=5432, columns='*'):
     # Read a PostgreSQL data table
-    
-    conn = psycopg2.connect(dbname=dbname, user=user, password=password, host=host, port=port)
+
+    conn = psycopg2.connect(
+        dbname=dbname,
+        user=user, password=password,
+        host=host, port=port
+        )
     conn.autocommit = True
     cursor = conn.cursor()
-    cursor.execute(f'SELECT * FROM {dbtable}')
+    cursor.execute(f'SELECT {columns} FROM {dbtable}')
     result = cursor.fetchall()
     conn.close()
     return result
