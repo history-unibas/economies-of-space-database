@@ -223,7 +223,8 @@ def processing_stabs(filepath_serie, filepath_dossier, dbname,
     # Get all dossiers from all series.
     all_dossiers = pd.DataFrame(
         columns=['dossierId', 'title', 'houseName', 'oldHousenumber',
-                 'owner1862', 'descriptiveNote', 'link'
+                 'owner1862', 'descriptiveNote', 'linkRecord',
+                 'linkInstantiation', 'linkManifest', 'linkViewer'
                  ])
     for row in series_data.iterrows():
         logging.info('Query dossier %s ...', row[1]['link'])
@@ -1306,9 +1307,11 @@ def processing_project(dbname, db_password, db_user='postgres',
         read_table(dbname=dbname, dbtable='stabs_dossier',
                    user=db_user, password=db_password,
                    host=db_host, port=db_port),
-        columns=['dossierId', 'serieId', 'stabsId', 'title', 'link',
+        columns=['dossierId', 'serieId', 'stabsId', 'title', 'linkRecord',
+                 'linkInstantiation', 'linkManifest', 'linkViewer',
                  'houseName', 'oldHousenumber', 'owner1862', 'descriptiveNote'
-                 ])
+                 ]
+        )
     stabs_dossier_reduced = stabs_dossier[
         stabs_dossier['dossierId'].isin(entry['dossierId'])
         ].copy()
@@ -2121,11 +2124,13 @@ def main():
             cursor.execute(f"""
             INSERT INTO stabs_dossier
             SELECT * FROM dblink('{dblink_connname}',
-            'SELECT dossierid,serieid,stabsid,title,link,housename,
+            'SELECT dossierid,serieid,stabsid,title,linkrecord,
+            linkinstantiation,linkmanifest,linkviewer,housename,
             oldhousenumber,owner1862,descriptivenote FROM stabs_dossier')
             AS t(dossierid text, serieid text, stabsid text, title text,
-            link text, housename text, oldhousenumber text, owner1862 text,
-            descriptivenote text)
+            linkrecord text, linkinstantiation text, linkmanifest text,
+            linkviewer text, housename text, oldhousenumber text,
+            owner1862 text, descriptivenote text)
             """)
             cursor.execute(f"""
             INSERT INTO stabs_klingental_regest
