@@ -120,13 +120,13 @@ def create_schema(dbname, user, password, host, port=5432):
         descriptiveNote VARCHAR(600))
     """
                    )
+    # TODO canvasId VARCHAR(50) UNIQUE NOT NULL,
     cursor.execute("""
-    CREATE TABLE StABS_klingental_regest(
-        link VARCHAR(50) PRIMARY KEY,
-        identifier VARCHAR(100) NOT NULL,
-        title VARCHAR(1000) NOT NULL,
-        descriptiveNote VARCHAR(300),
-        expressedDate VARCHAR(50) NOT NULL)
+    CREATE TABLE StABS_Page(
+        pageId VARCHAR(20) PRIMARY KEY,
+        dossierId VARCHAR(15) NOT NULL REFERENCES StABS_Dossier(dossierId),
+        pageNr SMALLINT NOT NULL,
+        linkViewer VARCHAR(100) NOT NULL)
     """
                    )
 

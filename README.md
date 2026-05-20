@@ -54,16 +54,15 @@ Elements of the entity StABS_Dossier represent a building, address or further in
 | owner1862 | VARCHAR(100) | no |  | Owner of the house in the year 1862 |
 | descriptiveNote | VARCHAR(600) | no |  | Remarks |
 
-### StABS_Klingental_Regest
-This entity contains metadata from the State Archives on the "Regesten Klingental" series.
+### StABS_Page
+Elements of the StABS_Page entity represent a scanned page. Pages from dossiers that have an entry in the StABS_Dossier entity are mapped.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
 |---------------|---------------|---------------|---------------|---------------|
-| link | VARCHAR(50) | yes | PRIMARY KEY | URI of the linked open data entry of the State Archives |
-| identifier | VARCHAR(100) | yes |  | Identifier of the State Archives |
-| title | VARCHAR(1000) | yes |  | Title of the document |
-| descriptiveNote | VARCHAR(300) | no |  | Remarks |
-| expressedDate | VARCHAR(50) | yes |  | Expressed date of the document |
+| pageId | VARCHAR(20) | yes | PRIMARY KEY |  Project identifier, composed of dossierId and pageNr according to the following scheme: [dossierId]_{int([pageNr]):03} |
+| dossierId | VARCHAR(15) | yes | FOREIGN KEY | Project identifier of the linked dossier |
+| pageNr | SMALLINT | yes |  | Page number of the page in the dossier |
+| linkViewer | VARCHAR(100) | yes |  | URL of the State Archives viewer |
 
 ### Project_Dossier
 Elements of the Project_Dossier table represent a dossier of HGB analogous to the elements in the entity StABS_Dossier. Only dossiers relevant to our project are mapped in this entity. This means dossiers that are referenced in the Project_Dossier entity.

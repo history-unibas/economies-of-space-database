@@ -158,8 +158,7 @@ def download_script(url):
 download_script(URI_QUERY_METADATA)
 download_script(URI_CONNECT_TRANSKRIBUS)
 from queryMetadata import (query_series, get_series, get_serie_id,
-                           get_dossiers, get_dossier_id,
-                           query_documents, get_date)
+                           get_dossiers, get_dossier_id, get_page_id)
 from connect_transkribus import (get_sid, list_collections, list_documents,
                                  get_document_content, get_page_xml)
 
@@ -208,9 +207,7 @@ def processing_stabs(filepath_serie, filepath_dossier, dbname,
         None.
     """
     # Query all series.
-    logging.info('Query series...')
     series_data = query_series()
-    logging.info('Series queried.')
 
     # Extract attributes of interest.
     series_data = get_series(series_data)
@@ -219,6 +216,7 @@ def processing_stabs(filepath_serie, filepath_dossier, dbname,
     series_data['serieId'] = series_data.apply(
         lambda row: get_serie_id(row['stabsId']), axis=1
         )
+    logging.info('Series queried.')
 
     # Get all dossiers from all series.
     all_dossiers = pd.DataFrame(
@@ -227,8 +225,9 @@ def processing_stabs(filepath_serie, filepath_dossier, dbname,
                  'linkInstantiation', 'linkManifest', 'linkViewer'
                  ])
     for row in series_data.iterrows():
-        logging.info('Query dossier %s ...', row[1]['link'])
-        dossiers = get_dossiers(row[1]['link'])
+        link = row[1]['link']
+        logging.info(f'Query dossier {link} ...')
+        dossiers = get_dossiers(link)
 
         # Case if serie does not have any dossier.
         if not isinstance(dossiers, pd.DataFrame):
@@ -246,6 +245,37 @@ def processing_stabs(filepath_serie, filepath_dossier, dbname,
         lambda row: get_dossier_id(row['stabsId']), axis=1)
     logging.info('Dossiers queried.')
 
+
+    # Get all pages from all dossiers.
+    all_pages = []
+    for row in all_dossiers.iterrows():
+        dossier_id = row[1]['dossierId']
+        logging.info(f'Query dossier {dossier_id} ...')
+
+        response = requests.get(row[1]['linkManifest'])
+        response.raise_for_status()
+        response_json = response.json()
+
+        canvases = response_json['sequences'][0]['canvases']
+        dossier_linkviewer = row[1]['linkViewer']
+        for canvas in canvases:
+            canvas_label = canvas.get('label')
+            page_nr = int(canvas_label.removeprefix('page '))
+            page_id = get_page_id(dossier_id, page_nr)
+            # TODO canvas_id = canvas.get('@id')
+            link_viewer = f'{dossier_linkviewer}?viewer_page={page_nr}'
+
+            new_page = {
+                'pageId': page_id,
+                'dossierId': dossier_id,
+                'pageNr': page_nr,
+                # TODO 'canvasId': canvas_id,
+                'linkViewer': link_viewer
+                }
+            all_pages.append(new_page)
+    stabs_page = pd.DataFrame(all_pages)
+    logging.info('Pages queried.')
+
     # Write data created to project database.
     populate_table(df=series_data, dbname=dbname, dbtable='stabs_serie',
                    user=db_user, password=db_password,
@@ -253,28 +283,16 @@ def processing_stabs(filepath_serie, filepath_dossier, dbname,
                    )
     populate_table(df=all_dossiers, dbname=dbname, dbtable='stabs_dossier',
                    user=db_user, password=db_password,
-                   host=db_host, port=db_port)
+                   host=db_host, port=db_port
+                   )
+    populate_table(df=stabs_page, dbname=dbname, dbtable='stabs_page',
+                   user=db_user, password=db_password,
+                   host=db_host, port=db_port
+                   )
 
     # Write data created to csv.
     series_data.to_csv(filepath_serie, index=False, header=True)
     all_dossiers.to_csv(filepath_dossier, index=False, header=True)
-
-    # Get and write documents of the serie "Regesten Klingental".
-    logging.info('Query Klingental regest...')
-    url_klingental_regest = 'https://ld.bs.ch/ais/Record/751516'
-    klingental_regest = pd.DataFrame(query_documents(url_klingental_regest))
-    klingental_regest['expresseddate'] = klingental_regest.apply(
-        lambda row: get_date(row['isassociatedwithdate']), axis=1
-        )
-    klingental_regest = klingental_regest.drop(
-        ['isassociatedwithdate', 'type'], axis=1
-        )
-    populate_table(df=klingental_regest, dbname=dbname,
-                   dbtable='stabs_klingental_regest',
-                   user=db_user, password=db_password,
-                   host=db_host, port=db_port
-                   )
-    logging.info('Klingental regest queried.')
 
 
 def processing_transkribus(series_data, dossiers_data, dbname,
@@ -2132,13 +2150,13 @@ def main():
             linkviewer text, housename text, oldhousenumber text,
             owner1862 text, descriptivenote text)
             """)
+            # TODO canvasid
+            # TODO canvasid text
             cursor.execute(f"""
-            INSERT INTO stabs_klingental_regest
+            INSERT INTO stabs_page
             SELECT * FROM dblink('{dblink_connname}',
-            'SELECT link,identifier,title,descriptivenote,expresseddate
-            FROM stabs_klingental_regest')
-            AS t(link text, identifier text, title text, descriptivenote text,
-            expresseddate text)
+            'SELECT pageid,dossierid,pagenr,linkviewer FROM stabs_page')
+            AS t(pageid text, dossierid text, pagenr integer, linkviewer text)
             """)
             conn.close()
             logging.info('Metadata are copied from current database.')
