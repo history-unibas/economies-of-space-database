@@ -2333,7 +2333,8 @@ def main():
             SELECT * FROM dblink('{dblink_connname}',
             'SELECT entryid,dossierid,pageid,year,yearsource,comment,
             manuallycorrected,language,source,sourceorigin,
-            keylatesttranscript FROM project_entry')
+            keylatesttranscript,annotationmanual,annotationautomated
+            FROM project_entry')
             AS t(entryid text, dossierid text, pageid integer[], year integer,
             yearsource text, comment text, manuallycorrected boolean,
             language text, source text, sourceorigin text,

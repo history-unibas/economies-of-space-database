@@ -18,13 +18,16 @@ The following figure shows all entities defined in the project database and thei
 
 ![entityRelations](entityRelations.drawio.svg)
 
-The tables StABS_Series and StABS_Dossier containing metadata from the Historical Land Registry (HGB) available as linked open data by the State Archives of Basel.
+The tables StABS_Series, StABS_Dossier and StABS_Page containing metadata from the Historical Land Registry (HGB) available as linked open data by the State Archives of Basel.
 
 The tables with the prefix project contain processed data relevant to our research project.
 
 For our research project, the images of the register cards of the historical land registry are stored and processed on the platform Transkribus (https://readcoop.eu/transkribus/). Selected information from Transkribus is additionally written into the tables Transkribus_Collection, Transkribus_Document, Transkribus_Page, Transkribus_Page, and Transkribus_TextRegion respectively, for analyses.
 
 Entities with the prefix Geo contain geodata.
+
+### Geo_Address
+Elements contained in this entity represent the spatial location of HGB dossiers. Not all dossiers are included. This entity is generated based on a shapefile including all attributes contained therein. The elements of the Geo_Address table are linked as follows using geo_address.signature = stabs_dossier.stabsid.
 
 ### StABS_Serie
 Elements of the StABS_Series entity represent streets. They are at the "Series" level at the State Archives. Series that do not have subordinate units at the State Archives are not represented in this table. Collections created on Transkribus for training models are also not represented in this and the following derived table.
@@ -64,6 +67,25 @@ Elements of the StABS_Page entity represent a scanned page. Pages from dossiers 
 | pageNr | SMALLINT | yes |  | Page number of the page in the dossier |
 | linkViewer | VARCHAR(100) | yes |  | URL of the State Archives viewer |
 
+### Project_Period
+The elements of the Project_Period entity represent the validity period of the dossier that exists in the Project_Dossier entity. A dossier can have several entries or validity periods.
+
+| **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
+|---------------|---------------|---------------|---------------|---------------|
+| dossierId | VARCHAR(15) | yes | FOREIGN KEY | Identifier to the linked project dossier |
+| yearFrom | SMALLINT | no |  | Year from when dossier is valid |
+| yearTo | SMALLINT | no |  | Year until when dossier is valid |
+| yearFromManuallyCorrected | BOOLEAN | yes |  | Indication if the attribute yearFrom is manually corrected |
+| yearToManuallyCorrected | BOOLEAN | yes |  | Indication if the attribute yearFrom is manually corrected |
+
+### Project_Relationship
+This entity maps direct temporal relationships between HGB dossiers (represented as a direct edge list). The relationships were determined on the basis of the cluster information (project_dossier.clusterId) using a rule-based approach and manual editing. Dossier represented by identifier in sourceDossierId has as descendant dossier with identifier in targetDossierId. Conversely, dossier represented by identifier in targetDossierId has dossier with identifier in sourceDossierId as previous dossier. Dossier can have several descendants or preceding dossiers due to a split or merge.
+
+| **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
+|---------------|---------------|---------------|---------------|---------------|
+| sourceDossierId | VARCHAR(15) | yes | FOREIGN KEY | Identifier to source project dossier |
+| targetDossierId | VARCHAR(15) | yes | FOREIGN KEY | Identifier to target project dossier |
+
 ### Project_Dossier
 Elements of the Project_Dossier table represent a dossier of HGB analogous to the elements in the entity StABS_Dossier. Only dossiers relevant to our project are mapped in this entity. This means dossiers that are referenced in the Project_Dossier entity.
 
@@ -97,25 +119,6 @@ Elements of the Project_Entry table represent an entry recorded in the HGB. Seve
 | keyLatestTranscript | VARCHAR(30)[] | yes |  | List of keys of the latest associated transcripts (Transkribus_Transcript.key) |
 | annotationManual | xml | no |  | XML containing manually defined annotations |
 | annotationAutomated | xml | no |  | XML containing automatically generated annotations |
-
-### Project_Period
-The elements of the Project_Period entity represent the validity period of the dossier that exists in the Project_Dossier entity. A dossier can have several entries or validity periods.
-
-| **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
-|---------------|---------------|---------------|---------------|---------------|
-| dossierId | VARCHAR(15) | yes | FOREIGN KEY | Identifier to the linked project dossier |
-| yearFrom | SMALLINT | no |  | Year from when dossier is valid |
-| yearTo | SMALLINT | no |  | Year until when dossier is valid |
-| yearFromManuallyCorrected | BOOLEAN | yes |  | Indication if the attribute yearFrom is manually corrected |
-| yearToManuallyCorrected | BOOLEAN | yes |  | Indication if the attribute yearFrom is manually corrected |
-
-### Project_Relationship
-This entity maps direct temporal relationships between HGB dossiers (represented as a direct edge list). The relationships were determined on the basis of the cluster information (project_dossier.clusterId) using a rule-based approach and manual editing. Dossier represented by identifier in sourceDossierId has as descendant dossier with identifier in targetDossierId. Conversely, dossier represented by identifier in targetDossierId has dossier with identifier in sourceDossierId as previous dossier. Dossier can have several descendants or preceding dossiers due to a split or merge.
-
-| **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
-|---------------|---------------|---------------|---------------|---------------|
-| sourceDossierId | VARCHAR(15) | yes | FOREIGN KEY | Identifier to source project dossier |
-| targetDossierId | VARCHAR(15) | yes | FOREIGN KEY | Identifier to target project dossier |
 
 ### Transkribus_Collection
 Elements of the Transkribus_Collection entity represent a street and are stored as collection on Transkribus.
@@ -173,9 +176,6 @@ Transcriptions of texts are stored on Transkribus within the page xmls in text r
 | type | VARCHAR(15) | no |  | Type assigned to the text region. Examples: marginalia, header, paragraph, credit, footer |
 | textLine | VARCHAR(200)[] | yes |  | Transcribed text per line saved as a list |
 | text | VARCHAR(10000) | yes |  | Entire transcribed text of the text region, indexed in the database |
-
-### Geo_Address
-Elements contained in this entity represent the spatial location of HGB dossiers. Not all dossiers are included. Currently, this entity is generated based on a shapefile including all attributes contained therein. The elements of the Geo_Address table are linked as follows using geo_address.signature = stabs_dossier.stabsid.
 
 ## administrateDatabase.py
 This script contains functions creating the project database and its schema and to administrate it using Python scripts.
