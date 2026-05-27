@@ -101,7 +101,7 @@ def create_schema(dbname, user, password, host, port=5432):
         serieId VARCHAR(10) PRIMARY KEY,
         stabsId VARCHAR(10) UNIQUE NOT NULL,
         title VARCHAR(100) NOT NULL,
-        link VARCHAR(50) NOT NULL)
+        linkRecord VARCHAR(50) NOT NULL)
     """
                    )
     cursor.execute("""
@@ -120,7 +120,6 @@ def create_schema(dbname, user, password, host, port=5432):
         descriptiveNote VARCHAR(600))
     """
                    )
-    # TODO canvasId VARCHAR(50) UNIQUE NOT NULL,
     cursor.execute("""
     CREATE TABLE StABS_Page(
         pageId VARCHAR(20) PRIMARY KEY,
@@ -183,13 +182,11 @@ def create_schema(dbname, user, password, host, port=5432):
     cursor.execute("""
     CREATE TABLE Project_Dossier(
         dossierId VARCHAR(15) PRIMARY KEY REFERENCES StABS_Dossier(dossierId),
-        locationAccuracy VARCHAR(50),
-        locationOrigin VARCHAR(100),
+        locationUncorrectedAccuracy VARCHAR(50),
+        locationUncorrectedOrigin VARCHAR(100),
+        locationUncorrected geometry(Point, 2056),
         location geometry(Point, 2056),
-        locationShifted geometry(Point, 2056),
-        locationShiftedOrigin VARCHAR(30),
-        clusterId SMALLINT,
-        addressMatchingType VARCHAR(20),
+        locationOrigin VARCHAR(30),
         specialType VARCHAR(50))
     """
                    )

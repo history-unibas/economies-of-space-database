@@ -39,8 +39,7 @@ Das Präfix der Bezeichnung jeder Entität entspricht der Gruppenbezeichnung. In
 |--------|--------|--------|
 | [StABS_Serie](#411-entität-stabs_serie) | Metadaten des HGB einer Strasse | 231 |
 | [StABS_Dossier](#412-entität-stabs_dossier) | Metadaten des HGB einer Adresse, Gebäude oder weitere Informationen | 6'056 |
-| [StABS_Page](TODO) TODO | TODO | 193'406 |9
-| [StABS_Klingental_Regest](#413-entität-stabs_klingental_regest) | Metadaten zu Klosterurkunden des Klosters Klingental | 2'803 |
+| [StABS_Page](#413-entität-stabs_page) | Metadaten des HGB einer Seite (Digitalisats) | 193'406 |
 | [Transkribus_Collection](#421-entität-transkribus_collection) | Daten von Transkribus einer Strasse | 207 |
 | [Transkribus_Document](#422-entität-transkribus_document) | Daten von Transkribus einer Adresse, Gebäude oder weitere Informationen | 6'057 |
 | [Transkribus_Page](#423-entität-transkribus_page) | Daten von Transkribus eines Digitalisats | 193'409 |
@@ -68,7 +67,7 @@ Dieses Kapitel dokumentiert pro Gruppe von Entitäten die Aufbereitung der Daten
 
 
 ## 4.1 HGB-Metadaten in Projektdatenbank integrieren
-Das Staatsarchiv Basel-Stadt (StABS) stellt via des [Linked Open Data Portals](https://ld.bs.ch/) Metadaten zum HGB zur Verfügung. Mithilfe eines [Skripts](https://github.com/history-unibas/Postgresql-Project-Database/blob/main/project_database_update.py) werden Metadaten des HGB gelesen und in der Projektdatenbank als Entitäten [StABS_Serie](#411-entität-stabs_serie) und [StABS_Dossier](#412-entität-stabs_dossier) gespeichert. Zusätzlich werden Metadaten zu Klosterurkunden des Klosters Klingental in der Entität [StABS_Klingental_Regest](#413-entität-stabs_klingental_regest) geschrieben.
+Das Staatsarchiv Basel-Stadt (StABS) stellt via des [Linked Open Data Portals](https://ld.bs.ch/) Metadaten zum HGB zur Verfügung. Mithilfe eines [Skripts](https://github.com/history-unibas/Postgresql-Project-Database/blob/main/project_database_update.py) werden Metadaten des HGB gelesen und in der Projektdatenbank als Entitäten [StABS_Serie](#411-entität-stabs_serie), [StABS_Dossier](#412-entität-stabs_dossier) und [StABS_Page](#413-entität-stabs_page) gespeichert.
 
 
 ### 4.1.1 Entität StABS_Serie
@@ -97,16 +96,16 @@ Dabei entspricht die URI https://ld.bs.ch/ais/Record/1027330 dem HGB 1-Bestand.
 Gewisse Serien haben keine zugehörige Dossiers (Objekte der Entität [StABS_Dossier](#412-entität-stabs_dossier)). Im Attribut "title" haben diese Serien den Präfix "[leer]".
 
 #### 4.1.1.4 Fehler
-Bei der Datenaufbereitung wurden einzelne Fehler entdeckt und durch das Staatsarchiv korrigiert.
+Bei der Datenaufbereitung wurden einzelne Fehler entdeckt und durch das Staatsarchiv in der Zwischenzeit korrigiert.
 
 #### 4.1.1.5 Beschreibung der Attribute
 
-| Attribut | Bedeutung | Entstehung |
-|--------|--------|--------|
-| serieId | Projekt-Identifikator einer Serie | Direkt abgeleitet aus der stabsId, ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter |
-| stabsId | Durch das Staatsarchiv definierter Identifikator einer Serie |  |
-| title | Titel der Serie, üblicherweise eine oder mehrere Strasse- oder Ortsbezeichnung |  |
-| link | URI des entsprechenden Eintrags im Linked Data Portal Basel-Stadt |  |
+| Attribut | Bedeutung |
+|--------|--------|
+| serieId | Projekt-Identifikator einer Serie. Direkt abgeleitet aus der stabsId, ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter |
+| stabsId | Durch das Staatsarchiv definierter Identifikator einer Serie |
+| title | Titel der Serie, üblicherweise eine oder mehrere Strassen- oder Ortsbezeichnung |
+| link | URI des entsprechenden Eintrags im Linked Data Portal Basel-Stadt |
 
 
 ### 4.1.2 Entität StABS_Dossier
@@ -146,73 +145,45 @@ keine Anmerkung.
 Bei der Datenaufbereitung wurden einzelne Fehler entdeckt und durch das Staatsarchiv korrigiert.
 
 #### 4.1.2.5 Beschreibung der Attribute
-TODD
 
-| Attribut | Bedeutung | Entstehung |
-|--------|--------|--------|
-| dossierId | Projekt-Identifikator eines Dossier | Direkt abgeleitet aus StABS_Dossier.stabsId, ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter |
-| serieId | Identifikator der zugehörigen Serie (Attribut 'StABS_Serie.serieId') |  |
-| stabsId | Durch das Staatsarchiv definierter Identifikator eines Dossier |  |
-| title | Title of the dossier, often correspondend to the address according to the address book of 1862  |  |
-| linkRecord | URI of the linked open data record of the State Archives |  |
-| linkInstantiation | URI of the linked open data instantiation |  |
-| linkManifest | URL of the linked open data manifest |  |
-| linkViewer | URL of the State Archives viewer |  |
-| houseName | Name of the house |  |
-| oldHousenumber | Old house number |  |
-| owner1862 | Owner of the house in the year 1862 |  |
-| descriptiveNote | Remarks |  |
+| Attribut | Bedeutung |
+|--------|--------|
+| dossierId | Projekt-Identifikator eines Dossier. Direkt abgeleitet aus StABS_Dossier.stabsId, ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter |
+| serieId | Identifikator der zugehörigen Serie (Attribut 'StABS_Serie.serieId') |
+| stabsId | Durch das Staatsarchiv definierter Identifikator eines Dossier |
+| title | Titel des Dossiers, häufig entsprechend der Adresse gemäss dem Adressbuch des Jahres 1862 |
+| linkRecord | URI des entsprechenden Eintrags im Linked Data Portal Basel-Stadt |
+| linkInstantiation | URI zur Instantiation im Linked Data Portal Basel-Stadt |
+| linkManifest | URL zum IIIF Manifest (REST-Schnittstelle) |
+| linkViewer | URL zum Dokumenten-Viewer des Staatsarchivs Basel-Stadt |
+| houseName | Name des Hauses |
+| oldHousenumber | Alte Hausnummer |
+| owner1862 | Besitzer des Hauses im Jahr 1862 |
+| descriptiveNote | Auf der Titelseite des Dossier angebrachte Bemerkung |
 
 
 ### 4.1.3 Entität StABS_Page
 
 #### 4.1.3.1 Bedeutung
-TODO
-
-Elemente der Entität StABS_Dossier ("Dossier") repräsentieren Gebäude, Adressen, Teile eines Gebäudes sowie weitere Objekte oder Informationen zu einer bestimmten Strasse. Das Staatsarchiv hat diese Elemente als Stufe "Dossier" klassiert.
+Die Elemente der Entität StABS_Page ("Seite") repräsentieren jeweils ein Digitalisat und entsprechen der Vorder- oder Rückseite einer HGB-Karteikarte.
 
 #### 4.1.3.2 Entstehung
-TODO
-
-Metadaten zu Dossier wurden mithilfe folgender Query bezogen, wobei der Parameter LINK_SERIE die URI der verknüpften Serie eingesetzt wird:
-
-```
-PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
-PREFIX stabs-rico: <https://ld.bs.ch/ontologies/StABS-RiC/>
-PREFIX schema: <http://schema.org/>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT ?link ?identifier ?title ?note ?housenamebs ?oldhousenumber
-    ?owner1862 ?instantiation_url ?manifest_url ?viewer_url
-WHERE {{
-    ?link rico:identifier ?identifier ;
-    rico:title ?title ;
-    rico:type "Akte"@ger ;
-    rico:isDirectlyIncludedIn <{LINK_SERIE}> ;
-    ^rico:isOrWasDigitalInstantiationOf ?instantiation_url .
-    ?instantiation_url schema:url ?manifest_url ;
-    rdfs:seeAlso ?viewer_url .
-    OPTIONAL {{?link rico:note ?note .}}
-    OPTIONAL {{?link stabs-rico:houseNameBS ?housenamebs .}}
-    OPTIONAL {{?link stabs-rico:oldHousenumber ?oldhousenumber .}}
-    OPTIONAL {{?link stabs-rico:owner1862 ?owner1862 .}}
-}}
-```
+Die Metadaten der Seiten werden aus dem IIIF Manifest des zugehörigen Dossier extrahiert sowie aus den Metadaten des entsprechenden Dossiers abgeleitet.
 
 #### 4.1.3.3 Spezialfälle
-TODO
+Auf einer Seite befindet sich häufig einen Auszug aus einem Archivdokument ("Eintrag"). Teilweise befinden sich mehrere Einträge auf einer einzelnen Seite, teils erstreckt sich ein einzelner Eintrag über mehrere Seiten.
 
 #### 4.1.3.4 Fehler
-TODO
+keine Anmerkung.
 
 #### 4.1.3.5 Beschreibung der Attribute
-TODO
 
-| Attribut | Bedeutung | Entstehung |
-|--------|--------|--------|
-| pageId | Project identifier, composed of dossierId and pageNr according to the following scheme: [dossierId]_{int([pageNr]):03} |  |
-| dossierId | Project identifier of the linked dossier |  |
-| pageNr | Page number of the page in the dossier |  |
-| linkViewer | URL of the State Archives viewer |  |
+| Attribut | Bedeutung |
+|--------|--------|
+| pageId | Projekt-Identifikator einer Seite. ID wird zusammengesetzt aus StABS_Dossier.dossierId und StABS_Page.pageNr nach dem folgendem Schema: [dossierId]_{int([pageNr]):03} |
+| dossierId | Identifikator des zugehörigen Dossiers (Attribut 'StABS_Dossier.dossierId') |
+| pageNr | Seitenzahl der Seite im Dossier |
+| linkViewer | URL zum Dokumenten-Viewer des Staatsarchivs Basel-Stadt |
 
 
 ## 4.2 Verarbeitung der Digitalisate
@@ -233,11 +204,11 @@ Elements of the Transkribus_Collection entity represent a street and are stored 
 
 #### 4.2.1.4 Beschreibung der Attribute
 
-| Attribut | Bedeutung | Entstehung |
-|--------|--------|--------|
-| colId | Identifier Transkribus collection (UUID) |  |
-| colName | Name of the collection, correspond to StABS_Serie.serieId |  |
-| nrOfDocuments | Number of documents linked to the collection |  |
+| Attribut | Bedeutung |
+|--------|--------|
+| colId | Identifier Transkribus collection (UUID) |
+| colName | Name of the collection, correspond to StABS_Serie.serieId |
+| nrOfDocuments | Number of documents linked to the collection |
 
 
 ### 4.2.2 Entität Transkribus_Document
@@ -253,12 +224,12 @@ Elements of the Transkribus_Document entity represent a building or address. On 
 
 #### 4.2.2.4 Beschreibung der Attribute
 
-| Attribut | Bedeutung | Entstehung |
-|--------|--------|--------|
-| docId | Identifier Transkribus document (UUID) |  |
-| colId | Identifier to the linked collection |  |
-| title | Title of the Document, correspond to StABS_Dossier.dossierId. In particular cases there is no entry in StABS_Dossier |  |
-| nrOfPages | Number of pages linked to the document |  |
+| Attribut | Bedeutung |
+|--------|--------|
+| docId | Identifier Transkribus document (UUID) |
+| colId | Identifier to the linked collection |
+| title | Title of the Document, correspond to StABS_Dossier.dossierId. In particular cases there is no entry in StABS_Dossier |
+| nrOfPages | Number of pages linked to the document |
 
 
 ### 4.2.3 Entität Transkribus_Page
@@ -274,14 +245,14 @@ Documents on Transkribus can contain several pages. Each element of the entity T
 
 #### 4.2.3.4 Beschreibung der Attribute
 
-| Attribut | Bedeutung | Entstehung |
-|--------|--------|--------|
-| pageId | Identifier Transkribus page (UUID) |  |
-| key | Key of the page (UUID) |  |
-| docId | Identifier to the linked document |  |
-| pageNr | Page number in the document |  |
-| urlImage | URI of the image of the page stored in Transkribus |  |
-| entryId | Identifier to Project_Entry.entryId |  |
+| Attribut | Bedeutung |
+|--------|--------|
+| pageId | Identifier Transkribus page (UUID) |
+| key | Key of the page (UUID) |
+| docId | Identifier to the linked document |
+| pageNr | Page number in the document |
+| urlImage | URI of the image of the page stored in Transkribus |
+| entryId | Identifier to Project_Entry.entryId |
 
 
 ### 4.2.4 Entität Transkribus_Transcript
@@ -297,16 +268,16 @@ Transcriptions of a page are saved as page xml on Transkribus. Each time a chang
 
 #### 4.2.4.4 Beschreibung der Attribute
 
-| Attribut | Bedeutung | Entstehung |
-|--------|--------|--------|
-| key | Key of the transcription |  |
-| tsId | Identifier Transkribus transcript (UUID) |  |
-| pageId | Identifier to the linked page |  |
-| parentTsId | Identifier of the previous transcription version |  |
-| urlPageXml | URI to the page xml of the transcription |  |
-| status | Defined status of the transcription. Possible values: NEW, IN_PROGRESS, DONE, FINAL, GROUND_TRUTH |  |
-| timestamp | Time of transcription, Unix time stamp in milliseconds since 01.01.1970 UTC |  |
-| htrModel | Type of HTR model used for the transcription |  |
+| Attribut | Bedeutung |
+|--------|--------|
+| key | Key of the transcription |
+| tsId | Identifier Transkribus transcript (UUID) |
+| pageId | Identifier to the linked page |
+| parentTsId | Identifier of the previous transcription version |
+| pageXML | Page xml of the transcription |
+| status | Defined status of the transcription. Possible values: NEW, IN_PROGRESS, DONE, FINAL, GROUND_TRUTH |
+| timestamp | Time of transcription, Unix time stamp in milliseconds since 01.01.1970 UTC |
+| htrModel | Type of HTR model used for the transcription |
 
 
 ### 4.2.5 Entität Transkribus_TextRegion

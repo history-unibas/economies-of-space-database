@@ -50,8 +50,8 @@ Elements of the entity StABS_Dossier represent a building, address or further in
 | title | VARCHAR(200) | yes |  | Title of the dossier, often correspondend to the address according to the address book of 1862 |
 | linkRecord | VARCHAR(50) | yes |  | URI of the linked open data record |
 | linkInstantiation | VARCHAR(60) | yes |  | URI of the linked open data instantiation |
-| linkManifest | VARCHAR(80) | yes |  | URL of the linked open data manifest |
-| linkViewer | VARCHAR(70) | yes |  | URL of the State Archives viewer |
+| linkManifest | VARCHAR(80) | yes |  | URL of the manifest |
+| linkViewer | VARCHAR(70) | yes |  | URL of the viewer |
 | houseName | VARCHAR(100) | no |  | Name of the house |
 | oldHousenumber | VARCHAR(100) | no |  | Old house number |
 | owner1862 | VARCHAR(100) | no |  | Owner of the house in the year 1862 |

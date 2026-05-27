@@ -113,12 +113,6 @@ FILEPATH_PROJECT_DOSSIER_GEOM = './data/dossiergeom_202603250922.csv'
 # Filepath for source of project_dossier.locationShifted.
 FILEPATH_LOCATIONSHIFTED = './data/dossiergeomshifted_202603251454.csv'
 
-# Filepath for source of project_dossier.clusterId.
-FILEPATH_CLUSTERID = './data/20260116_cluster.csv'
-
-# Filepath for source of project_dossier.addressMatchingType.
-FILEPATH_ADDRESSMATCHINGTYPE = './data/20260325_dossier_type.xlsx'
-
 # Filepath for source of project_dossier.specialType.
 FILEPATH_SPECIALTYPE = './data/20260506_dossier_specialtype.xlsx'
 
@@ -187,11 +181,9 @@ def processing_stabs(filepath_serie, filepath_dossier, dbname,
                      db_host, db_port=5432):
     """Process metadata of the State Archives of Basel.
 
-    This function processes all series and dossiers of the Historical Land
-    Registry (HGB) and write them to the project database. In addition, CSV
-    files thereof will be written.
-    Furthermore, metadata of the documents containing in the Serie "Regesten
-    Klingental" are queried and stored in the database.
+    This function processes all series, dossiers, and pages of the Historical
+    Land Registry (HGB) and write them to the project database. In addition,
+    CSV files of the series and dossiers will be written.
 
     Args:
         filepath_serie (str): Filepath of destination csv containing series.
@@ -262,14 +254,12 @@ def processing_stabs(filepath_serie, filepath_dossier, dbname,
             canvas_label = canvas.get('label')
             page_nr = int(canvas_label.removeprefix('page '))
             page_id = get_page_id(dossier_id, page_nr)
-            # TODO canvas_id = canvas.get('@id')
             link_viewer = f'{dossier_linkviewer}?viewer_page={page_nr}'
 
             new_page = {
                 'pageId': page_id,
                 'dossierId': dossier_id,
                 'pageNr': page_nr,
-                # TODO 'canvasId': canvas_id,
                 'linkViewer': link_viewer
                 }
             all_pages.append(new_page)
@@ -916,8 +906,6 @@ def processing_project(dbname, db_password, db_user='postgres',
                        correct_dossier=False,
                        filepath_dossiergeom='',
                        filepath_locationshifted='',
-                       filepath_clusterid='',
-                       filepath_addressmatchingtype='',
                        filepath_projectrelationship='',
                        filepath_source='',
                        filepath_specialtype='',
@@ -999,15 +987,6 @@ def processing_project(dbname, db_password, db_user='postgres',
     locationShiftedOrigin are defined.
     - Dossier shifted locations are harmonized if their distance is less than
     one metre taking into account location within one metre.
-    - The cluster ids will be included if provided. This ids are derifed from
-    dossier_relationship.py
-    - The address matching type will be included if provided. This
-    categorisation is based on StABS_Dossier.title. The following values are
-    available:
-        - partOf: Dossier comprises a part of a house number.
-        - joined: Dossier includes more than one house number.
-        - partOfAndJoined: Dossier is partOf and Joined.
-        - unchanged: Dossier is neither part of nor joined.
     - If available, special dossiers are identified by an entry in
     project_dossier.specialType. The values are based on a simple search with
     selected terms in StABS_Dossier.title.
@@ -1032,9 +1011,6 @@ def processing_project(dbname, db_password, db_user='postgres',
         project_dossier should be applied.
         filepath_dossiergeom (str): Filepath of location correction file.
         filepath_locationshifted (str): Filepath of shifted location file.
-        filepath_clusterid (str): Filepath of file containing cluster id.
-        filepath_addressmatchingtype (str): Filepath of file containing the
-        type for address matching.
         filepath_projectrelationship (str): Filepath of the file containing
         the data for entity project_relationship.
         filepath_source (str): Filepath of the file containing the data for
@@ -1456,8 +1432,8 @@ def processing_project(dbname, db_password, db_user='postgres',
     dossier = dossier.drop('descriptiveNote', axis=1)
     dossier[['locationAccuracy', 'locationOrigin', 'location',
              'locationShifted', 'locationShiftedOrigin',
-             'clusterId', 'addressMatchingType', 'specialType']
-            ] = [None, None, None, None, None, None, None, None]
+             'specialType']
+            ] = [None, None, None, None, None, None]
     dossier = geopandas.GeoDataFrame(data=dossier, geometry='location',
                                      crs='EPSG:2056')
 
@@ -1621,26 +1597,6 @@ def processing_project(dbname, db_password, db_user='postgres',
         dossier.loc[
             location_equal.index, 'locationShiftedOrigin'
             ] = 'keine Verschiebung'
-
-    # Add cluster id if available.
-    if filepath_clusterid:
-        dossier_cluster = pd.read_csv(filepath_clusterid)
-        dossier_cluster = dossier_cluster[
-            dossier_cluster['cluster_id'].notna()]
-        dossier_cluster['cluster_id'] = dossier_cluster[
-            'cluster_id'].astype(int)
-        for row in dossier_cluster.iterrows():
-            dossier.loc[
-                dossier['dossierId'] == row[1]['dossierId'],
-                'clusterId'] = row[1]['cluster_id']
-
-    # Add the type for address matching.
-    if filepath_addressmatchingtype:
-        dossier_type = pd.read_excel(filepath_addressmatchingtype)
-        for row in dossier_type.iterrows():
-            dossier.loc[
-                dossier['dossierId'] == row[1]['dossierId'],
-                'addressMatchingType'] = row[1]['type']
 
     # Add information about special dossier.
     if filepath_specialtype:
@@ -1968,73 +1924,6 @@ def processing_geodata(shapefile_path, shapefile_epsg,
         logging.warning(f'Duplicate object error: {e}.')
 
 
-def create_worktable(dbname, user, password, host, port=5432):
-    """Create particular database table.
-
-    Args:
-        dbname (str): Name of the database.
-        user (str): Database user.
-        password (str): Passwort for database user.
-        host (str): Host of the database connection.
-        port (str): Port of the database connection.
-
-    Returns:
-        None.
-    """
-    table_name = 'transcript_date_geom'
-    dbview_exist = check_dbtable_exist(dbname=dbname, dbtable=table_name,
-                                       user=user, password=password,
-                                       host=host, port=port
-                                       )
-    if dbview_exist:
-        logging.warning(f'Table {table_name} already exist in database '
-                        f'{dbname}. The table will not be new created.')
-    else:
-        conn = psycopg2.connect(dbname=dbname,
-                                user=user, password=password,
-                                host=host, port=port)
-        conn.autocommit = True
-        cursor = conn.cursor()
-        cursor.execute(f"""
-        CREATE TABLE {table_name} AS
-        SELECT
-            td.title AS hgb_dossier,
-            tp.pagenr AS seite,
-            tp.pageid,
-            tt.text AS transkript,
-            tt.type AS layout_typ,
-            pe.year AS jahr,
-            pe.entryid,
-            pd.locationshifted,
-            CASE
-                WHEN pd.locationshiftedorigin = 'keine Verschiebung'
-                    THEN pd.locationorigin
-                ELSE pd.locationshiftedorigin
-            END AS herkunft_standort,
-            tp.urlimage AS bild_link
-        FROM transkribus_textregion tt
-        JOIN transkribus_transcript tt2 ON tt.key::text = tt2.key::text
-        JOIN transkribus_page tp ON tt2.pageid = tp.pageid
-        JOIN transkribus_document td ON tp.docid = td.docid
-        JOIN project_dossier pd ON td.title::text = pd.dossierid::text
-        LEFT JOIN project_entry pe ON tp.pageid = ANY (pe.pageid)
-        """
-                       )
-        cursor.execute(f"""
-        CREATE INDEX transkript_idx
-        ON {table_name}
-        USING gist (transkript gist_trgm_ops)"""
-                       )
-        cursor.execute(f"""
-        GRANT SELECT
-        ON TABLE {table_name}
-        TO read_only"""
-                       )
-        conn.close()
-
-        logging.info(f'Work table {table_name} created.')
-
-
 def main():
     datetime_started = datetime.now()
 
@@ -2136,8 +2025,8 @@ def main():
             cursor.execute(f"""
             INSERT INTO stabs_serie
             SELECT * FROM dblink('{dblink_connname}',
-            'SELECT serieid,stabsid,title,link FROM stabs_serie')
-            AS t(serieid text, stabsid text, title text, link text)
+            'SELECT serieid,stabsid,title,linkrecord FROM stabs_serie')
+            AS t(serieid text, stabsid text, title text, linkrecord text)
             """)
             cursor.execute(f"""
             INSERT INTO stabs_dossier
@@ -2150,8 +2039,6 @@ def main():
             linkviewer text, housename text, oldhousenumber text,
             owner1862 text, descriptivenote text)
             """)
-            # TODO canvasid
-            # TODO canvasid text
             cursor.execute(f"""
             INSERT INTO stabs_page
             SELECT * FROM dblink('{dblink_connname}',
@@ -2298,8 +2185,6 @@ def main():
                 correct_dossier=True,
                 filepath_dossiergeom=FILEPATH_PROJECT_DOSSIER_GEOM,
                 filepath_locationshifted=FILEPATH_LOCATIONSHIFTED,
-                filepath_clusterid=FILEPATH_CLUSTERID,
-                filepath_addressmatchingtype=FILEPATH_ADDRESSMATCHINGTYPE,
                 filepath_projectrelationship=FILEPATH_PROJECT_RELATIONSHIP,
                 filepath_source=FILEPATH_SOURCE,
                 filepath_specialtype=FILEPATH_SPECIALTYPE,
@@ -2322,11 +2207,11 @@ def main():
             'SELECT dossierid,
             locationaccuracy,locationorigin,location,
             locationshifted,locationshiftedorigin,
-            clusterid,addressmatchingtype,specialtype FROM project_dossier')
+            specialtype FROM project_dossier')
             AS t(dossierid text, locationaccuracy text,
             locationorigin text, location geometry,
             locationshifted geometry, locationshiftedorigin text,
-            clusterid integer, addressmatchingtype text, specialtype text)
+            specialtype text)
             """)
             cursor.execute(f"""
             INSERT INTO project_entry
@@ -2378,12 +2263,6 @@ def main():
         WHERE tp.pageid = pe.pageid;
         """)
         conn.close()
-
-    # Create view.
-    create_worktable(dbname=dbname_temp,
-                     user=DB_USER, password=db_password,
-                     host=DB_HOST, port=db_port
-                     )
 
     if do_test:
         # Rename the database.
