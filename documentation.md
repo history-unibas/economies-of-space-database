@@ -101,33 +101,12 @@ Bei der Datenaufbereitung wurden einzelne Fehler entdeckt und durch das Staatsar
 
 #### 4.1.1.5 Beschreibung der Attribute
 
-| serieId |  |
-|--------|--------|
-| Bedeutung | Projekt-Identifikator einer Serie. |
-| Entstehung | Direkt abgeleitet aus der stabsId, ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter. |
-| Spezialfälle | - |
-| Statistik | - |
-
-| stabsId |  |
-|--------|--------|
-| Bedeutung | Durch das Staatsarchiv definierter Identifikator einer Serie. |
-| Entstehung | - |
-| Spezialfälle | - |
-| Statistik | - |
-
-| title |  |
-|--------|--------|
-| Bedeutung | Titel der Serie, üblicherweise eine oder mehrere Strasse- oder Ortsbezeichnung. |
-| Entstehung | - |
-| Spezialfälle | Serien ohne zugehörige Dossier (Objekte der Entität [StABS_Dossier](#412-entität-stabs_dossier)) besitzen Präfix "[leer]". |
-| Statistik | - |
-
-| link |  |
-|--------|--------|
-| Bedeutung | URI des entsprechenden Eintrags im Linked Data Portal Basel-Stadt. |
-| Entstehung | - |
-| Spezialfälle |  |
-| Statistik |  |
+| Attribut | Bedeutung | Entstehung |
+|--------|--------|--------|
+| serieId | Projekt-Identifikator einer Serie | Direkt abgeleitet aus der stabsId, ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter |
+| stabsId | Durch das Staatsarchiv definierter Identifikator einer Serie |  |
+| title | Titel der Serie, üblicherweise eine oder mehrere Strasse- oder Ortsbezeichnung |  |
+| link | URI des entsprechenden Eintrags im Linked Data Portal Basel-Stadt |  |
 
 
 ### 4.1.2 Entität StABS_Dossier
@@ -140,22 +119,24 @@ Metadaten zu Dossier wurden mithilfe folgender Query bezogen, wobei der Paramete
 
 ```
 PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
-        PREFIX stabs-rico:
-            <https://ld.bs.ch/ontologies/StABS-RiC/>
-        SELECT ?link ?identifier ?title ?note ?housenamebs ?oldhousenumber
-            ?owner1862
-            WHERE {{
-                    {{
-                    ?link rico:identifier ?identifier ;
-                    rico:title ?title ;
-                    rico:type "Akte"@ger ;
-                    rico:isDirectlyIncludedIn <{LINK_SERIE}> .
-                    }}
-                OPTIONAL {{?link rico:generalDescription ?note .}}
-                OPTIONAL {{?link stabs-rico:houseNameBS ?housenamebs .}}
-                OPTIONAL {{?link stabs-rico:oldHousenumber ?oldhousenumber .}}
-                OPTIONAL {{?link stabs-rico:owner1862 ?owner1862 .}}
-            }}
+PREFIX stabs-rico: <https://ld.bs.ch/ontologies/StABS-RiC/>
+PREFIX schema: <http://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?link ?identifier ?title ?note ?housenamebs ?oldhousenumber
+    ?owner1862 ?instantiation_url ?manifest_url ?viewer_url
+WHERE {{
+    ?link rico:identifier ?identifier ;
+    rico:title ?title ;
+    rico:type "Akte"@ger ;
+    rico:isDirectlyIncludedIn <{LINK_SERIE}> ;
+    ^rico:isOrWasDigitalInstantiationOf ?instantiation_url .
+    ?instantiation_url schema:url ?manifest_url ;
+    rdfs:seeAlso ?viewer_url .
+    OPTIONAL {{?link rico:note ?note .}}
+    OPTIONAL {{?link stabs-rico:houseNameBS ?housenamebs .}}
+    OPTIONAL {{?link stabs-rico:oldHousenumber ?oldhousenumber .}}
+    OPTIONAL {{?link stabs-rico:owner1862 ?owner1862 .}}
+}}
 ```
 
 #### 4.1.2.3 Spezialfälle
@@ -165,121 +146,73 @@ keine Anmerkung.
 Bei der Datenaufbereitung wurden einzelne Fehler entdeckt und durch das Staatsarchiv korrigiert.
 
 #### 4.1.2.5 Beschreibung der Attribute
+TODD
 
-| dossierId |  |
-|--------|--------|
-| Bedeutung | Projekt-Identifikator eines Dossier. |
-| Entstehung | Direkt abgeleitet aus StABS_Dossier.stabsId, ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter. |
-| Spezialfälle | - |
-| Statistik | - |
-
-| serieId |  |
-|--------|--------|
-| Bedeutung | Identifikator der zugehörigen Serie (Attribut 'StABS_Serie.serieId') |
-| Entstehung | - |
-| Spezialfälle | - |
-| Statistik | - |
-
-| stabsId |  |
-|--------|--------|
-| Bedeutung | Durch das Staatsarchiv definierter Identifikator eines Dossier. |
-| Entstehung | - |
-| Spezialfälle | - |
-| Statistik | - |
-
-| title | TODO | 
-|--------|--------|
-| Bedeutung | Title of the dossier, often correspondend to the address according to the address book of 1862 |
-| Entstehung |  |
-| Spezialfälle |  |
-| Statistik |  |
-
-| link |  |
-|--------|--------|
-| Bedeutung | URI of the linked open data entry of the State Archives |
-| Entstehung |  |
-| Spezialfälle |  |
-| Statistik |  |
-
-| houseName |  |
-|--------|--------|
-| Bedeutung | Name of the house |
-| Entstehung |  |
-| Spezialfälle |  |
-| Statistik |  |
-
-| oldHousenumber |  |
-|--------|--------|
-| Bedeutung | Old house number |
-| Entstehung |  |
-| Spezialfälle |  |
-| Statistik |  |
-
-| owner1862 |  |
-|--------|--------|
-| Bedeutung | Owner of the house in the year 1862 |
-| Entstehung |  |
-| Spezialfälle |  |
-| Statistik |  |
-
-| descriptiveNote |  |
-|--------|--------|
-| Bedeutung | Remarks |
-| Entstehung |  |
-| Spezialfälle |  |
-| Statistik |  |
+| Attribut | Bedeutung | Entstehung |
+|--------|--------|--------|
+| dossierId | Projekt-Identifikator eines Dossier | Direkt abgeleitet aus StABS_Dossier.stabsId, ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter |
+| serieId | Identifikator der zugehörigen Serie (Attribut 'StABS_Serie.serieId') |  |
+| stabsId | Durch das Staatsarchiv definierter Identifikator eines Dossier |  |
+| title | Title of the dossier, often correspondend to the address according to the address book of 1862  |  |
+| linkRecord | URI of the linked open data record of the State Archives |  |
+| linkInstantiation | URI of the linked open data instantiation |  |
+| linkManifest | URL of the linked open data manifest |  |
+| linkViewer | URL of the State Archives viewer |  |
+| houseName | Name of the house |  |
+| oldHousenumber | Old house number |  |
+| owner1862 | Owner of the house in the year 1862 |  |
+| descriptiveNote | Remarks |  |
 
 
-### 4.1.3 Entität StABS_Klingental_Regest
+### 4.1.3 Entität StABS_Page
 
 #### 4.1.3.1 Bedeutung
-This entity contains metadata from the State Archives on the "Regesten Klingental" series.
+TODO
+
+Elemente der Entität StABS_Dossier ("Dossier") repräsentieren Gebäude, Adressen, Teile eines Gebäudes sowie weitere Objekte oder Informationen zu einer bestimmten Strasse. Das Staatsarchiv hat diese Elemente als Stufe "Dossier" klassiert.
 
 #### 4.1.3.2 Entstehung
+TODO
 
+Metadaten zu Dossier wurden mithilfe folgender Query bezogen, wobei der Parameter LINK_SERIE die URI der verknüpften Serie eingesetzt wird:
+
+```
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+PREFIX stabs-rico: <https://ld.bs.ch/ontologies/StABS-RiC/>
+PREFIX schema: <http://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?link ?identifier ?title ?note ?housenamebs ?oldhousenumber
+    ?owner1862 ?instantiation_url ?manifest_url ?viewer_url
+WHERE {{
+    ?link rico:identifier ?identifier ;
+    rico:title ?title ;
+    rico:type "Akte"@ger ;
+    rico:isDirectlyIncludedIn <{LINK_SERIE}> ;
+    ^rico:isOrWasDigitalInstantiationOf ?instantiation_url .
+    ?instantiation_url schema:url ?manifest_url ;
+    rdfs:seeAlso ?viewer_url .
+    OPTIONAL {{?link rico:note ?note .}}
+    OPTIONAL {{?link stabs-rico:houseNameBS ?housenamebs .}}
+    OPTIONAL {{?link stabs-rico:oldHousenumber ?oldhousenumber .}}
+    OPTIONAL {{?link stabs-rico:owner1862 ?owner1862 .}}
+}}
+```
 
 #### 4.1.3.3 Spezialfälle
-
+TODO
 
 #### 4.1.3.4 Fehler
-
+TODO
 
 #### 4.1.3.5 Beschreibung der Attribute
+TODO
 
-| link |  |
-|--------|--------|
-| Bedeutung | URI of the linked open data entry of the State Archives |
-| Entstehung |  |
-| Spezialfälle |  |
-| Statistik |  |
-
-| identifier |  |
-|--------|--------|
-| Bedeutung | Identifier of the State Archives |
-| Entstehung |  |
-| Spezialfälle |  |
-| Statistik |  |
-
-| title |  |
-|--------|--------|
-| Bedeutung | Title of the document |
-| Entstehung |  |
-| Spezialfälle |  |
-| Statistik |  |
-
-| descriptiveNote |  |
-|--------|--------|
-| Bedeutung | Remarks |
-| Entstehung |  |
-| Spezialfälle |  |
-| Statistik |  |
-
-| expressedDate |  |
-|--------|--------|
-| Bedeutung | Expressed date of the document |
-| Entstehung |  |
-| Spezialfälle |  |
-| Statistik |  |
+| Attribut | Bedeutung | Entstehung |
+|--------|--------|--------|
+| pageId | Project identifier, composed of dossierId and pageNr according to the following scheme: [dossierId]_{int([pageNr]):03} |  |
+| dossierId | Project identifier of the linked dossier |  |
+| pageNr | Page number of the page in the dossier |  |
+| linkViewer | URL of the State Archives viewer |  |
 
 
 ## 4.2 Verarbeitung der Digitalisate
@@ -300,29 +233,11 @@ Elements of the Transkribus_Collection entity represent a street and are stored 
 
 #### 4.2.1.4 Beschreibung der Attribute
 
-| colId |  |
-|--------|--------|
-| Bedeutung | Identifier Transkribus collection (UUID) |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| colName |  |
-|--------|--------|
-| Bedeutung | Name of the collection, correspond to StABS_Serie.serieId |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| nrOfDocuments |  |
-|--------|--------|
-| Bedeutung | Number of documents linked to the collection |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
+| Attribut | Bedeutung | Entstehung |
+|--------|--------|--------|
+| colId | Identifier Transkribus collection (UUID) |  |
+| colName | Name of the collection, correspond to StABS_Serie.serieId |  |
+| nrOfDocuments | Number of documents linked to the collection |  |
 
 
 ### 4.2.2 Entität Transkribus_Document
@@ -338,37 +253,12 @@ Elements of the Transkribus_Document entity represent a building or address. On 
 
 #### 4.2.2.4 Beschreibung der Attribute
 
-| docId |  |
-|--------|--------|
-| Bedeutung | Identifier Transkribus document (UUID) |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| colId |  |
-|--------|--------|
-| Bedeutung | Identifier to the linked collection |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| title |  |
-|--------|--------|
-| Bedeutung | Title of the Document, correspond to StABS_Dossier.dossierId. In particular cases there is no entry in StABS_Dossier. |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| nrOfPages |  |
-|--------|--------|
-| Bedeutung | Number of pages linked to the document |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
+| Attribut | Bedeutung | Entstehung |
+|--------|--------|--------|
+| docId | Identifier Transkribus document (UUID) |  |
+| colId | Identifier to the linked collection |  |
+| title | Title of the Document, correspond to StABS_Dossier.dossierId. In particular cases there is no entry in StABS_Dossier |  |
+| nrOfPages | Number of pages linked to the document |  |
 
 
 ### 4.2.3 Entität Transkribus_Page
@@ -384,53 +274,14 @@ Documents on Transkribus can contain several pages. Each element of the entity T
 
 #### 4.2.3.4 Beschreibung der Attribute
 
-| pageId |  |
-|--------|--------|
-| Bedeutung | Identifier Transkribus page (UUID) |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| key |  |
-|--------|--------|
-| Bedeutung | Key of the page (UUID) |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| docId |  |
-|--------|--------|
-| Bedeutung | Identifier to the linked document |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| pageNr |  |
-|--------|--------|
-| Bedeutung | Page number in the document |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| urlImage |  |
-|--------|--------|
-| Bedeutung | URI of the image of the page stored in Transkribus |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| entryId |  |
-|--------|--------|
-| Bedeutung | Identifier to Project_Entry.entryId |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
+| Attribut | Bedeutung | Entstehung |
+|--------|--------|--------|
+| pageId | Identifier Transkribus page (UUID) |  |
+| key | Key of the page (UUID) |  |
+| docId | Identifier to the linked document |  |
+| pageNr | Page number in the document |  |
+| urlImage | URI of the image of the page stored in Transkribus |  |
+| entryId | Identifier to Project_Entry.entryId |  |
 
 
 ### 4.2.4 Entität Transkribus_Transcript
@@ -446,69 +297,16 @@ Transcriptions of a page are saved as page xml on Transkribus. Each time a chang
 
 #### 4.2.4.4 Beschreibung der Attribute
 
-| key |  |
-|--------|--------|
-| Bedeutung | Key of the transcription |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| tsId |  |
-|--------|--------|
-| Bedeutung | 	Identifier Transkribus transcript (UUID) |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| pageId |  |
-|--------|--------|
-| Bedeutung | Identifier to the linked page |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| parentTsId |  |
-|--------|--------|
-| Bedeutung | Identifier of the previous transcription version |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| urlPageXml |  |
-|--------|--------|
-| Bedeutung | URI to the page xml of the transcription |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| status |  |
-|--------|--------|
-| Bedeutung | Defined status of the transcription. Possible values: NEW, IN_PROGRESS, DONE, FINAL, GROUND_TRUTH |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| timestamp |  |
-|--------|--------|
-| Bedeutung | Time of transcription, Unix time stamp in milliseconds since 01.01.1970 UTC |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| htrModel |  |
-|--------|--------|
-| Bedeutung | Type of HTR model used for the transcription |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
+| Attribut | Bedeutung | Entstehung |
+|--------|--------|--------|
+| key | Key of the transcription |  |
+| tsId | Identifier Transkribus transcript (UUID) |  |
+| pageId | Identifier to the linked page |  |
+| parentTsId | Identifier of the previous transcription version |  |
+| urlPageXml | URI to the page xml of the transcription |  |
+| status | Defined status of the transcription. Possible values: NEW, IN_PROGRESS, DONE, FINAL, GROUND_TRUTH |  |
+| timestamp | Time of transcription, Unix time stamp in milliseconds since 01.01.1970 UTC |  |
+| htrModel | Type of HTR model used for the transcription |  |
 
 
 ### 4.2.5 Entität Transkribus_TextRegion
@@ -524,53 +322,14 @@ Transcriptions of a page are saved as page xml on Transkribus. Each time a chang
 
 #### 4.2.5.4 Beschreibung der Attribute
 
-| textRegionId |  |
-|--------|--------|
-| Bedeutung | Transcriptions of texts are stored on Transkribus within the page xmls in text regions. Each element of the Transkribus_TextRegion entity represents a non-empty text region of an element of the Transkribus_Transcript entity. |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| key |  |
-|--------|--------|
-| Bedeutung | Generated text region identifier according to the following structure: {key}_{int(index):02} (UUID) |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| index | Key of the transcription |
-|--------|--------|
-| Bedeutung | Index of the text region |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| type |  |
-|--------|--------|
-| Bedeutung | Type assigned to the text region. Examples: marginalia, header, paragraph, credit, footer  |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| textLine |  |
-|--------|--------|
-| Bedeutung | Transcribed text per line saved as a list |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
-
-| text |  |
-|--------|--------|
-| Bedeutung | Entire transcribed text of the text region, indexed in the database |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
+| Attribut | Bedeutung | Entstehung |
+|--------|--------|--------|
+| textRegionId | Transcriptions of texts are stored on Transkribus within the page xmls in text regions. Each element of the Transkribus_TextRegion entity represents a non-empty text region of an element of the Transkribus_Transcript entity. |  |
+| key | Generated text region identifier according to the following structure: {key}_{int(index):02} (UUID) |  |
+| index | Index of the text region |  |
+| type | Type assigned to the text region. Examples: marginalia, header, paragraph, credit, footer |  |
+| textLine | Transcribed text per line saved as a list |  |
+| text | Entire transcribed text of the text region, indexed in the database |  |
 
 
 ## 4.3 HGB-Dossier georeferenzieren
