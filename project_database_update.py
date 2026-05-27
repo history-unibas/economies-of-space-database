@@ -1608,6 +1608,16 @@ def processing_project(dbname, db_password, db_user='postgres',
 
     logging.info('Entity project_dossier generated.')
 
+    # Rename the attributes of project_dossier to new database schema.
+    mapping = {
+        'locationAccuracy': 'locationUncorrectedAccuracy',
+        'locationOrigin': 'locationUncorrectedOrigin',
+        'location': 'locationUncorrected',
+        'locationShifted': 'location',
+        'locationShiftedOrigin': 'locationOrigin'
+        }
+    dossier = dossier.rename(columns=mapping)
+
     # Write data created to project database.
     populate_geotable(df=dossier, dbname=dbname, dbtable='project_dossier',
                       user=db_user, password=db_password,
@@ -2205,12 +2215,14 @@ def main():
             INSERT INTO project_dossier
             SELECT * FROM dblink('{dblink_connname}',
             'SELECT dossierid,
-            locationaccuracy,locationorigin,location,
-            locationshifted,locationshiftedorigin,
+            locationuncorrectedaccuracy,locationuncorrectedorigin,
+            locationuncorrected,
+            location,locationorigin,
             specialtype FROM project_dossier')
-            AS t(dossierid text, locationaccuracy text,
-            locationorigin text, location geometry,
-            locationshifted geometry, locationshiftedorigin text,
+            AS t(dossierid text,
+            locationuncorrectedaccuracy text, locationuncorrectedorigin text,
+            locationuncorrected geometry,
+            location geometry, locationorigin text,
             specialtype text)
             """)
             cursor.execute(f"""
