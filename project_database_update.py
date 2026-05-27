@@ -217,7 +217,7 @@ def processing_stabs(filepath_serie, filepath_dossier, dbname,
                  'linkInstantiation', 'linkManifest', 'linkViewer'
                  ])
     for row in series_data.iterrows():
-        link = row[1]['link']
+        link = row[1]['linkRecord']
         logging.info(f'Query dossier {link} ...')
         dossiers = get_dossiers(link)
 
