@@ -105,7 +105,7 @@ Bei der Datenaufbereitung wurden einzelne Fehler entdeckt und durch das Staatsar
 | serieId | Projekt-Identifikator einer Serie. Direkt abgeleitet aus der stabsId, ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter |
 | stabsId | Durch das Staatsarchiv definierter Identifikator einer Serie |
 | title | Titel der Serie, üblicherweise eine oder mehrere Strassen- oder Ortsbezeichnung |
-| link | URI des entsprechenden Eintrags im Linked Data Portal Basel-Stadt |
+| linkRecord | URI des entsprechenden Eintrags im Linked Data Portal Basel-Stadt |
 
 
 ### 4.1.2 Entität StABS_Dossier
@@ -304,7 +304,7 @@ Transcriptions of a page are saved as page xml on Transkribus. Each time a chang
 
 
 ## 4.3 HGB-Dossier georeferenzieren
-Um Erkenntnisse aus dem HGB räumlich analysieren zu können und Ergebnisse im Raum darzustellen, soll jedes für das Projekt relevante Dossier räumlich verortet werden. Zur Erreichung dieses Ziels, wurde in einem ersten Schritt HGB-Dossier durch das [Grundbuch- und Vermessungsamt des Kantons Basel-Stadt](https://www.bs.ch/bvd/grundbuch-und-vermessungsamt) georeferenziert. Dieser Prozess wird in diesem Kapitel beschrieben. Im zweiten Schritt wurde im Rahmen des Projekts weitere geographische Standorte ermittelt sowie Standorte verbessert. Dieser Prozess ist in Kapitel [4.4.1.4 Beschreibung der Attribute](#4414-beschreibung-der-attribute) in den Attributen 'location' und 'locationShifted' dokumentiert.
+Um Erkenntnisse aus dem HGB räumlich analysieren zu können und Ergebnisse im Raum darzustellen, soll jedes für das Projekt relevante Dossier räumlich verortet werden. Zur Erreichung dieses Ziels, wurde in einem ersten Schritt HGB-Dossier durch das [Grundbuch- und Vermessungsamt des Kantons Basel-Stadt](https://www.bs.ch/bvd/grundbuch-und-vermessungsamt) georeferenziert. Dieser Prozess wird in diesem Kapitel beschrieben. Im zweiten Schritt wurde im Rahmen des Projekts weitere geographische Standorte ermittelt sowie Standorte verbessert. Dieser Prozess ist in Kapitel [4.4.1.4 Beschreibung der Attribute](#4414-beschreibung-der-attribute) in den Attributen 'locationUncorrected' und 'location' dokumentiert.
 
 
 ### 4.3.1 Entität Geo_Address
@@ -373,18 +373,18 @@ Es werden ausschliesslich Dossier in dieser Entität abgebildet, welche mindeste
 | Fehler | - |
 | Statistik | - |
 
-| locationAccuracy |  |
+| locationUncorrectedAccuracy |  |
 |--------|--------|
-| Bedeutung | Für in diesem Projekt manuell gesetzte Standorte (Attribut 'location') wird in diesem Attribut eine Aussage gemacht, wie genau dieser Standort definiert werden konnte. Standorte auf Basis von Standorten des Grundbuch- und Vermessungsamt sind als "unbekannt" gekennzeichnet, Dossier ohne Standorte als "nicht lokalisierbar". |
-| Entstehung | siehe Entstehung des Attributs 'location' |
+| Bedeutung | Für in diesem Projekt manuell gesetzte Standorte (Attribut 'locationUncorrected') wird in diesem Attribut eine Aussage gemacht, wie genau dieser Standort definiert werden konnte. Standorte auf Basis von Standorten des Grundbuch- und Vermessungsamt sind als "unbekannt" gekennzeichnet, Dossier ohne Standorte als "nicht lokalisierbar". |
+| Entstehung | siehe Entstehung des Attributs 'locationUncorrected' |
 | Spezialfälle | - |
 | Fehler | - |
 | Statistik | unbekannt: 3'475<br>genau gesetzt: 397<br>ungefähre Ortsangabe: 328<br>ungefähr gesetzt: 123<br>grob geschätzt: 18<br>nicht lokalisierbar: 6 |
 
-| locationOrigin |  |
+| locationUncorrectedOrigin |  |
 |--------|--------|
-| Bedeutung | Dieses Attribut beschreibt, auf welcher Basis der Standort des Dossier (Attribut 'location') entstanden ist. |
-| Entstehung | siehe Entstehung des Attributs 'location' |
+| Bedeutung | Dieses Attribut beschreibt, auf welcher Basis der Standort des Dossier (Attribut 'locationUncorrected') entstanden ist. |
+| Entstehung | siehe Entstehung des Attributs 'locationUncorrected' |
 | Spezialfälle | - |
 | Fehler | - |
 | Statistik | Grundbuch- und Vermessungsamt Basel-Stadt: 3'089<br>manuell gesetzt: 866<br>mithilfe von Skript generiert basierend auf Standorte von Grundbuch- und Vermessungsamt: 306<br>manuell geprüft: 80<br>[NULL]: 6 |
@@ -393,65 +393,41 @@ TODO Benjamin:
 - Wie wurden die Dossier ausgewählt, welche in hgb_edit.dossiergeom vorhanden sind? (dossiergeom erstellt am 18.12.2023, erweitert am 07.06.2024) -> Die Mehrzahl der Dossiers in dieser Tabelle sind solche, für die keine Daten des Vermessungsamtes vorhanden sind (weder direkt noch durch die unsererseits durchgeführte Ergänzung). Ergänzt wurden alle Dossiers, die innerhalb von 20 Metern Distanz kein weiteres Dossier aus der gleichen Strasse aufwiesen, weil hier der Verdacht auf einen Fehler besonders gross war. Dazu kamen Dossiers aus der Hebelstrasse, deren Lokalalisierung fraglich war, sowie einzelne weitere falsch lokalisierte Dossiers, die bei einer Durchsicht aufgefallen waren.
 - Wie wurde entschieden, welche Dossier in hgb_edit.dossiergeom manuell geprüft oder bearbeitet werden? -> siehe oben
 
-| location |  |
+| locationUncorrected |  |
 |--------|--------|
 | Bedeutung | Dieses Attribut beinhaltet der geografische Standort des Dossiers im Koordinatensystem LV95 (EPSG:2056). |
-| Entstehung | Die Standorte basierend auf Daten des Grundbuch- und Vermessungsamt des Kantons Basel-Stadt. Für ausgewählte Dossier sowie für Dossier ohne vorhandenen Standort wurden mithilfe eines Skripts Standorte generiert basierend auf Dossier mit vorhandenem Standort. Anschliessend wurden die Standorte einiger dieser Dossier manuell geprüft oder bearbeitet. Die Herkunft jedes Dossier-Standortes kann dem Attribut 'locationOrigin' entnommen werden. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
-| Spezialfälle | 6 Dossier haben keinen definierten Standort (locationAccuracy='nicht lokalisierbar') und beinhalten Informationen zu Gewässer, Teich oder Mauer (siehe Attribut 'specialType'). |
-| Fehler | Für Dossier, dessen Standort manuell festgelegt wurde, beinhaltet das Attribut 'locationAccuracy' eine Aussage über die Genaugikeit des Standortes. Für Standorte, welche vom Grundbuch- und Vermessungsamt übernommen worden sind, können wir keine Angabe machen (locationAccuracy='unbekannt'). |
+| Entstehung | Die Standorte basierend auf Daten des Grundbuch- und Vermessungsamt des Kantons Basel-Stadt. Für ausgewählte Dossier sowie für Dossier ohne vorhandenen Standort wurden mithilfe eines Skripts Standorte generiert basierend auf Dossier mit vorhandenem Standort. Anschliessend wurden die Standorte einiger dieser Dossier manuell geprüft oder bearbeitet. Die Herkunft jedes Dossier-Standortes kann dem Attribut 'locationUncorrectedOrigin' entnommen werden. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
+| Spezialfälle | 6 Dossier haben keinen definierten Standort (locationUncorrectedAccuracy='nicht lokalisierbar') und beinhalten Informationen zu Gewässer, Teich oder Mauer (siehe Attribut 'specialType'). |
+| Fehler | Für Dossier, dessen Standort manuell festgelegt wurde, beinhaltet das Attribut 'locationUncorrectedAccuracy' eine Aussage über die Genaugikeit des Standortes. Für Standorte, welche vom Grundbuch- und Vermessungsamt übernommen worden sind, können wir keine Angabe machen (locationUncorrectedAccuracy='unbekannt'). |
 | Statistik | - |
 
 
 TODO Benjamin:
-- Wie wurde entschieden, welche Dossier in hgb_edit.dossiergeomshifted manuell bearbeitet werden? Sicher wenn Spalte toCheck=True, es gibt jedoch zusätzliche Dossier, welche bearbeitet worden sind. Hat eventuell mit Spalte "representation" zu tun, welche später hinzugekommen ist. -> geprüft wurden diejenigen, die per Skript verschoben wurden, sowie diejenigen, wo der Typ eine Verschiebung notwendig erscheinen liess, per Skript aber keine Verschiebung dazukam. Insbesondere wurde die Unterscheidung in Vorder- und Hinterhäuser zusätzlich getroffen, wenn sie ersichtlich war (was skriptbasiert nicht möglich war, weil dazu die Orientierung vorne-hinten vonnöten gewesen wäre). Der grösste Teil dieser Korrekturen war folglich durch den addressmatchingtype bedingt. Bei der abschliessenden manuellen Durchsicht sind noch viele Dossiers aufgefallen, die nicht ganz korrekt lokalisiert waren, weshalb auch Dossiers des Typs "unchanged" noch korrigiert wurden. Händische Korrekturen erfolgten vornehmlich (aber nicht nur) dort, wo die Strassen um 1862 stark vom früheren Strassenbild abwichen (z.B. Eisengasse, untere Freie Strasse, Fischmarkt). In diesen Fällen wurden die im HGB hinterlegten Planzeichnungen konsultiert. 
-- Kannst du eine Angabe über Fehler / Genauigkeit machen für locationShifted? -> Die Genauigkeit ist bei diesen Angaben kein eigentliches Ziel. Die Dossiers wurden zwar in eine plausible Richtung verschoben und sind somit wohl in den meisten Fällen genauer platziert als zuvor, das lässt sich aber nicht messen. Das Ziel, Überlappungen von Punkten zu reduzieren und die Darstellung so insgesamt zu verbessern. Entsprechend diesen Vorgaben wurde auch die händische Verschiebung nach Augenmass und nicht mit einer korrekten Messung vorgenommen.
+- Wie wurde entschieden, welche Dossier in hgb_edit.dossiergeomshifted manuell bearbeitet werden? Sicher wenn Spalte toCheck=True, es gibt jedoch zusätzliche Dossier, welche bearbeitet worden sind. Hat eventuell mit Spalte "representation" zu tun, welche später hinzugekommen ist. -> geprüft wurden diejenigen, die per Skript verschoben wurden, sowie diejenigen, wo der Typ eine Verschiebung notwendig erscheinen liess, per Skript aber keine Verschiebung dazukam. Insbesondere wurde die Unterscheidung in Vorder- und Hinterhäuser zusätzlich getroffen, wenn sie ersichtlich war (was skriptbasiert nicht möglich war, weil dazu die Orientierung vorne-hinten vonnöten gewesen wäre). Der grösste Teil dieser Korrekturen war folglich durch den addressmatchingtype (HINWEIS: aus DB entfernt) bedingt. Bei der abschliessenden manuellen Durchsicht sind noch viele Dossiers aufgefallen, die nicht ganz korrekt lokalisiert waren, weshalb auch Dossiers des Typs "unchanged" noch korrigiert wurden. Händische Korrekturen erfolgten vornehmlich (aber nicht nur) dort, wo die Strassen um 1862 stark vom früheren Strassenbild abwichen (z.B. Eisengasse, untere Freie Strasse, Fischmarkt). In diesen Fällen wurden die im HGB hinterlegten Planzeichnungen konsultiert. 
+- Kannst du eine Angabe über Fehler / Genauigkeit machen für location (vorher locationShifted)? -> Die Genauigkeit ist bei diesen Angaben kein eigentliches Ziel. Die Dossiers wurden zwar in eine plausible Richtung verschoben und sind somit wohl in den meisten Fällen genauer platziert als zuvor, das lässt sich aber nicht messen. Das Ziel, Überlappungen von Punkten zu reduzieren und die Darstellung so insgesamt zu verbessern. Entsprechend diesen Vorgaben wurde auch die händische Verschiebung nach Augenmass und nicht mit einer korrekten Messung vorgenommen.
 
-| locationShifted |  |
+| location |  |
 |--------|--------|
-| Bedeutung | Dieses Attribut beinhaltet den geschobenen geografischen Standort des Dossiers im Koordinatensystem LV95 (EPSG:2056). Im Vergleich zum Attribut 'location' wurden der Standort für ausgewählte Dossier verschoben mit dem Ziel, dass weniger Dossier denselben Standort haben. |
-| Entstehung | Der geschobene Standort basiert auf dem Attribut 'location'. Mithilfe eines Algorithmus wurde für Dossier, in welchen im Titel (Attribut 'stabs_dossier.title') "neben" erwähnt ist, ein entsprechendes Dossier gesucht. Ist ein "neben-Dossier" verfügbar, wurde der Standort um 1/4 der Distanz in Richtung des neben-Dossier verschoben. Beispiel: "St. Alban-Vorstadt Theil von 17 neben 15" (Dossier: HGB_1_010_041, neben-Dossier: "St. Alban-Vorstadt 15", HGB_1_010_039). Die Distanz von einem Viertel ist willkürlich gewählt, muss aber deutlich weniger als die Hälfte sein, weil sonst «Teil von 15 neben 17» auf den gleichen Punkt zu liegen käme. Für Dossier, welche im Titel mehrere Adressen umfassen ("verbundene Dossier"), wurden entsprechende Dossier gesucht, welche je eine Adresse abbildet. Wurden entsprechende Dossier gefunden, ist als verschobener Standort des verbundenen Dossiers der geometrischer Schwerpunkt der entsprechenden Dossier definiert worden. Beispiel: "St. Alban-Graben 8, 10" (Dossier: HGB_1_005_020, entsprechende Dossier: "St. Alban-Graben 8", HGB_1_005_019 und "St. Alban-Graben 10", HGB_1_005_021).<br>Ausgewählte Dossier wurden anschliessend manuell verschoben. Im Attribut 'locationShiftedOrigin' ist festgehalten, welche Dossier mit dem Algorithmus respektive manuell verschoben worden sind. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
+| Bedeutung | Dieses Attribut beinhaltet den geschobenen geografischen Standort des Dossiers im Koordinatensystem LV95 (EPSG:2056). Im Vergleich zum Attribut 'locationUncorrected' wurden der Standort für ausgewählte Dossier verschoben mit dem Ziel, dass weniger Dossier denselben Standort haben. |
+| Entstehung | Der geschobene Standort basiert auf dem Attribut 'locationUncorrected'. Mithilfe eines Algorithmus wurde für Dossier, in welchen im Titel (Attribut 'stabs_dossier.title') "neben" erwähnt ist, ein entsprechendes Dossier gesucht. Ist ein "neben-Dossier" verfügbar, wurde der Standort um 1/4 der Distanz in Richtung des neben-Dossier verschoben. Beispiel: "St. Alban-Vorstadt Theil von 17 neben 15" (Dossier: HGB_1_010_041, neben-Dossier: "St. Alban-Vorstadt 15", HGB_1_010_039). Die Distanz von einem Viertel ist willkürlich gewählt, muss aber deutlich weniger als die Hälfte sein, weil sonst «Teil von 15 neben 17» auf den gleichen Punkt zu liegen käme. Für Dossier, welche im Titel mehrere Adressen umfassen ("verbundene Dossier"), wurden entsprechende Dossier gesucht, welche je eine Adresse abbildet. Wurden entsprechende Dossier gefunden, ist als verschobener Standort des verbundenen Dossiers der geometrischer Schwerpunkt der entsprechenden Dossier definiert worden. Beispiel: "St. Alban-Graben 8, 10" (Dossier: HGB_1_005_020, entsprechende Dossier: "St. Alban-Graben 8", HGB_1_005_019 und "St. Alban-Graben 10", HGB_1_005_021).<br>Ausgewählte Dossier wurden anschliessend manuell verschoben. Im Attribut 'locationOrigin' ist festgehalten, welche Dossier mit dem Algorithmus respektive manuell verschoben worden sind. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
 | Spezialfälle | 6 Dossier haben keinen definierten Standort und beinhalten Informationen zu Gewässer, Teich oder Mauer (siehe Attribut specialType). |
 | Fehler | TODO |
 | Statistik | - |
 
-| locationShiftedOrigin |  |
+| locationOrigin |  |
 |--------|--------|
-| Bedeutung | Dieses Attribut dokumentiert die Verschiebung des verschobenen Standortes (Attribut 'locationShifted') im Vergleich zum Standort (Attribut 'location'). |
-| Entstehung | siehe Entstehung des Attributs 'locationShifted' |
+| Bedeutung | Dieses Attribut dokumentiert die Verschiebung des verschobenen Standortes (Attribut 'location') im Vergleich zum Standort (Attribut 'locationUncorrected'). |
+| Entstehung | siehe Entstehung des Attributs 'location' |
 | Spezialfälle | Dossier ohne verschobenen Standort haben keinen Wert. |
 | Fehler | - |
 | Statistik | keine Verschiebung: 2'753<br>Verschiebung mit Algorithmus: 807<br>manuelle Verschiebung: 781<br>[NULL]: 6 |
-
-TODO Benjamin:
-- Gibt es Spezialfälle betreffend clusterId, welche wir erwähnen sollten? -> nein
-- Kannst du eine Angabe über Fehler / Genauigkeit machen für clusterId? -> Bei der händischen Durchsicht zeigte sich, dass die Clusterbildung im Grossen und Ganzen stimmig ist. Im Einzelfall finden sich immer wieder Dossiers, die schlussendlich gar nicht mit den anderen in Beziehung stehen, oder auch vereinzelte Beziehungen ausserhalb der Cluster. Die Cluster waren aber nur ein Arbeitsinstrument für die Prüfung der weiteren Bearbeitung von Beziehungen. Deshalb ist Fehlerfreiheit kein Ziel. Die aktualisierten Cluster liessen sich als Komponenten des Beziehungsnetzwerks neu bestimmen, wenn der Wunsch dazu bestünde.
-
-| clusterId |  |
-|--------|--------|
-| Bedeutung | Cluster von Dossiers werden in diesem Attribut durch Ganzzahlen repräsentiert. Ein Dossier gehört zu einem Cluster von Dossiers, wenn dieselbe Strasse und Hausnummern erwähnt ist. Zum Beispiel bilden folgende Dossiers ein Cluster:<br>"Aeschengraben 20" (HGB_1_001_027),<br>"Aeschengraben 20, 24" (HGB_1_001_028),<br>"Aeschengraben 24" (HGB_1_001_029). |
-| Entstehung | Mithilfe des Skripts 'dossier_relationship.py' wurden Clusters ermittelt. Zuerst wurden basierend auf dem Attribut 'stabs_dossier.title' Adressen der Dossier ermittelt. Weitere Adressen wurden manuell aufbereitet und integriert. Auf Basis der Adressen wurden aus Dossiers mit derselben Adresse oder derselben Adresse erwähnt in einem Dossier geclustert. |
-| Spezialfälle | TODO |
-| Fehler | TODO |
-| Statistik | Anzahl Dossier mit Clusterzuordnung: 2'672<br>Anzahl Dossier ohne Clusterzuordnung: 1'675 |
-
-TODO Benjamin:
-- addressMatchingType basiert, wenn ich richtig verstanden habe, auf 20240416_DossierZwischenresultat_BH.xlsx. Wie hast du diese Werte für dieses Attribut erzeugt? -> Der addressMatchingType wurde durch händisches Filtern der Tabelle der Dossiers nach bestimmten Suchbegriffen erstellt, z.B. Varianten von "Teil von" wie "Theil v.", "Th. v." etc. Zusammengelegte Dossiers wurden vornehmlich über das Vorhandensein eines Kommas in der Adresszeile identifiziert. Jede Zuweisung wurde kontrolliert. Am Schluss wurden alle "unchanged"-Dossiers durchgeschaut, um das Resultat zu plausibilisieren.
-- Kannst du eine Angabe über Fehler / Genauigkeit machen für addressMatchingType? -> Eine Fehlerquelle besteht dort, wo die alte Hausnummer aufgeteilt ist, die von 1862 jedoch nicht. Allerdings sind diese Dossiers inzwischen händisch geprüft und sollten nicht mehr als "partOf" gekennzeichnet sein. Ansonsten ist die Fehlerwahrscheinlichkeit tief.
-
-| addressMatchingType |  |
-|--------|--------|
-| Bedeutung | Basierend auf dem Attribut 'stabs_dossier.title' klassiert dieses Attribut das Dossier in folgende Kategorien:<br>- partOf: Das Dossier umfasst einen Teil der Hausnummer. Beispiel: "Gerbergasse Theil von 1" (HGB_1_063_014)<br>- joined: Das Dossier umfasst mehr als eine Hausnummer. Beispiel: "Gerbergasse 1, 3" (HGB_1_063_016)<br>- partOfAndJoined: Dossier umfasst einen Teil einer Hausnummer als auch mehrere Hausnummern. Beispiel: "Gerbergasse Theil von 1, 3" (HGB_1_063_015)<br>- unchanged: Dossier ist weder 'partOf' noch 'joined'. Beispiel: "Gerbergasse 3" (HGB_1_063_017) |
-| Entstehung | TODO |
-| Spezialfälle | - |
-| Fehler | TODO |
-| Statistik | unchanged: 2'652<br>partOf: 1'095<br>joined: 548<br>partOfAndJoined: 52<br> |
 
 | specialType |  |
 |--------|--------|
 | Bedeutung | Mit diesem Attribut werden Dossier markiert, welche nicht ein Gebäude repräsentieren, zum Beispiel ein Gewässer. |
 | Entstehung | Mit einfachen Stichwortsuchen (z.B. nach dem Begriff "Laden") im Attribut 'stabs_dossier.title' wurden Dossier identifiziert, welche kein Gebäude abbildet. |
 | Spezialfälle | - |
-| Fehler | Bei der visuellen Kontrolle des Attributs 'stabs_dossier.title' von Dossier ohne Zugehörigkeit zu einem Cluster (Attribut 'addressMatchingType') und ohne Wert im Attribut 'specialType' wurden keine weiteren spezielle Dossier gefunden. In dieser Teilmenge existieren jedoch Dossier mit einem Strassennamen aber ohne Hausnummer, beispielsweise in der Freien Strasse. Diese Dossier besitzen teilweise eine alte Hausnummer (Attribut 'stabs_dossier.oldhousenumber'), es könnte jedoch auch einen Hinweis sein auf weitere "Spezial-Dossier", welche in diesem Attribut nicht berücksichtigt sind. |
+| Fehler | Bei der visuellen Kontrolle des Attributs 'stabs_dossier.title' von Dossier ohne Zugehörigkeit zu einem Cluster (Skript dossier_relationship.py) und ohne Wert im Attribut 'specialType' wurden keine weiteren spezielle Dossier gefunden. In dieser Teilmenge existieren jedoch Dossier mit einem Strassennamen aber ohne Hausnummer, beispielsweise in der Freien Strasse. Diese Dossier besitzen teilweise eine alte Hausnummer (Attribut 'stabs_dossier.oldhousenumber'), es könnte jedoch auch einen Hinweis sein auf weitere "Spezial-Dossier", welche in diesem Attribut nicht berücksichtigt sind. |
 | Statistik | [NULL]: 3'937<br>Unbestimmte Liegenschaften: 98 <br>Strassenkörper: 92<br>Brunnen: 50<br>Dohle: 41<br>Unbestimmt: 27 TODO SOLL<br>Gewässer: 16<br>Keller: 12<br>Garten: 10<br>Laden: 9<br>Sammeldossier: 9<br>Boden: 5<br>Graben: 5<br>Zins: 5<br>Brotbank: 4<br>Bank: 3<br>Graben, Mauer: 3<br>Nachträge: 3<br>Teich: 3<br>Mauer: 2<br>Quartier: 2<br>Tor: 2<br>Abort: 1<br>Allmend : 1<br>Brunnen, Unbestimmte Liegenschaften: 1<br>Brücke: 1<br>Halseisen, Heisserstein: 1<br>Häuserverzeichnis: 1<br>Platz: 1<br>Salzkasten: 1 <br>Schutzrein: 1|
 
 
@@ -666,14 +642,14 @@ TODO
 Elemente der Entität Project_Relationship repräsentieren "Beziehungen" zwischen Dossiers (Elemente von Project_Dossier). Ein Beziehung besteht zwischen zwei Dossiers, wenn das eine Dossier aus dem anderen Dossier hervorgeht. Beispielsweise existieren zwei Beziehungen, wenn ein Gebäude in zwei Teile geteilt wird. Zeitlich "existiert" zuerst ein Dossier, nach der Teilung existieren zwei Dossiers. Das ursprüngliche Dossier hat somit je eine Beziehung zu den Dossier nach der Teilung.
 Das Attribut 'sourceDossierId enthaltet die dossierId des Dossiers, von welcher die Beziehung ausgeht ("Quelldossier", "Vorgänger"). Das Attribut 'targetDossierId' enthaltet die dossierID des Dossiers, welche zeitlich auf das Quelldossier folgt ("Zieldossier", "Nachfolger"). Ein Dossier kann mit einem oder mehreren Quelldossier als auch Zieldossier verknüpft sein.
 
-This entity maps direct temporal relationships between HGB dossiers (represented as a direct edge list). The relationships were determined on the basis of the cluster information (project_dossier.clusterId) using a rule-based approach and manual editing. Dossier represented by identifier in sourceDossierId has as descendant dossier with identifier in targetDossierId. Conversely, dossier represented by identifier in targetDossierId has dossier with identifier in sourceDossierId as previous dossier. Dossier can have several descendants or preceding dossiers due to a split or merge.
+This entity maps direct temporal relationships between HGB dossiers (represented as a direct edge list). The relationships were determined on the basis of the cluster information (see dossier_relationship.py) using a rule-based approach and manual editing. Dossier represented by identifier in sourceDossierId has as descendant dossier with identifier in targetDossierId. Conversely, dossier represented by identifier in targetDossierId has dossier with identifier in sourceDossierId as previous dossier. Dossier can have several descendants or preceding dossiers due to a split or merge.
 
 #### 4.4.4.2 Entstehung
 TODO Benjamin:
 - Kannst du bitte ergänzen, wie der type des Dossiers entstanden ist? -> kommt doch woanders vor...
 - Gibt es ein Muster, für welche Dossier die Beziehungen manuell erstellt worden sind? -> Wenn nicht alle Dossiers eines Clusters eine Beziehung aufwiesen, wurde manuell geprüft. Später haben wir auch noch die restlichen Cluster einer manuellen Prüfung unterzogen.
 
-Mithilfe des Skripts 'dossier_relationship.py' wurden Beziehungen ermittelt. Einerseits basierend auf den Adressen (Attribut 'StABS_Dossier.title') sowie des Attributs 'StABS_Dossier.deskriptiveNote'. Andererseits basierend auf ermittelte Cluster (Attribut 'Project_Dossier.clusterId') und der Art des Dossiers. Mit dem Algorithmus konnten viele Beziehungen nicht erkannt werden. Aus diesem Grund wurden anschliessend Beziehungen manuell ermittelt.
+Mithilfe des Skripts 'dossier_relationship.py' wurden Beziehungen ermittelt. Einerseits basierend auf den Adressen (Attribut 'StABS_Dossier.title') sowie des Attributs 'StABS_Dossier.deskriptiveNote'. Andererseits basierend auf ermittelte Cluster und der Art des Dossiers. Mit dem Algorithmus konnten viele Beziehungen nicht erkannt werden. Aus diesem Grund wurden anschliessend Beziehungen manuell ermittelt.
 
 #### 4.4.4.3 Spezialfälle
 TODO Benjamin: Existieren Spezialfälle? -> Wenn ein Dossier ab einem bestimmten Zeitpunkt (oder bis zu einem bestimmten Zeitpunkt) bei einem anderen Dossier eingeschlossen war, lässt sich zwar die Beziehung korrekt bestimmen, aber es ist dann eigentlich nicht korrekt, von einem Folgedossier auszugehen (in dem Sinne, dass ein Dossier endet und danach ein anderes beginnt, also keine Überschneidungen bestehen). Deshalb wurden diese Beziehungen separat erfasst.
