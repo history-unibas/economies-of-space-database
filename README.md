@@ -37,7 +37,7 @@ Elements of the StABS_Series entity represent streets. They are at the "Series" 
 | serieId | VARCHAR(10) | yes | PRIMARY KEY | Project identifier, derived from stabsId |
 | stabsId | VARCHAR(10) | yes | UNIQUE | Identifier of the State Archives |
 | title | VARCHAR(100) | yes |  | Street name |
-| link | VARCHAR(50) | yes |  | URI of the linked open data entry of the State Archives |
+| linkRecord | VARCHAR(50) | yes |  | URI of the linked open data record |
 
 ### StABS_Dossier
 Elements of the entity StABS_Dossier represent a building, address or further information of a street. The elements are at the "Dossier" level at the State Archives. Dossiers that do not have subordinate units at the State Archives are not represented in this table.
@@ -79,7 +79,7 @@ The elements of the Project_Period entity represent the validity period of the d
 | yearToManuallyCorrected | BOOLEAN | yes |  | Indication if the attribute yearFrom is manually corrected |
 
 ### Project_Relationship
-This entity maps direct temporal relationships between HGB dossiers (represented as a direct edge list). The relationships were determined on the basis of the cluster information (project_dossier.clusterId) using a rule-based approach and manual editing. Dossier represented by identifier in sourceDossierId has as descendant dossier with identifier in targetDossierId. Conversely, dossier represented by identifier in targetDossierId has dossier with identifier in sourceDossierId as previous dossier. Dossier can have several descendants or preceding dossiers due to a split or merge.
+This entity maps direct temporal relationships between HGB dossiers (represented as a direct edge list). The relationships were determined on the basis of the cluster information (see dossier_relationship.py) using a rule-based approach and manual editing. Dossier represented by identifier in sourceDossierId has as descendant dossier with identifier in targetDossierId. Conversely, dossier represented by identifier in targetDossierId has dossier with identifier in sourceDossierId as previous dossier. Dossier can have several descendants or preceding dossiers due to a split or merge.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
 |---------------|---------------|---------------|---------------|---------------|
@@ -92,13 +92,11 @@ Elements of the Project_Dossier table represent a dossier of HGB analogous to th
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
 |---------------|---------------|---------------|---------------|---------------|
 | dossierId | VARCHAR(15) | yes | PRIMARY KEY, FOREIGN KEY | Identifier of dossier |
-| locationAccuracy | VARCHAR(50) | no |  | Statement on the accuracy of the geographical location of the dossier |
-| locationOrigin | VARCHAR(100) | no |  | Statement on the origin of the geographical location of the dossier |
-| location | geometry(Point, 2056) | no |  | Geographical location of the dossier |
-| locationShifted | geometry(Point, 2056) | no |  | Shifted geographical location of the dossier based on location |
-| locationShiftedOrigin | VARCHAR(30) | no |  | Statement on the type of location shift |
-| clusterId | SMALLINT | no |  | ID of related dossiers, defined by dossier_realtionship.py based on StABS_Dossier.title |
-| addressMatchingType | VARCHAR(20) | no |  | Categorisation of the dossier based on StABS_Dossier.title |
+| locationUncorrectedAccuracy | VARCHAR(50) | no |  | Statement on the accuracy of the uncorrected geographical location of the dossier |
+| locationUncorrectedOrigin | VARCHAR(100) | no |  | Statement on the origin of the uncorrected geographical location of the dossier |
+| locationUncorrected | geometry(Point, 2056) | no |  | Uncorrected geographical location of the dossier |
+| location | geometry(Point, 2056) | no |  | Geographical location of the dossier based on uncorrected location |
+| locationOrigin | VARCHAR(30) | no |  | Statement on the type of location |
 | specialType | VARCHAR(50) | no |  | Identification of special dossiers based on StABS_Dossier.title |
 
 ### Project_Entry
