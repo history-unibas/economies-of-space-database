@@ -43,8 +43,8 @@ Das Präfix der Bezeichnung jeder Entität entspricht der Gruppenbezeichnung. In
 | [Transkribus_Collection](#421-entität-transkribus_collection) | Daten von Transkribus einer Strasse | 207 |
 | [Transkribus_Document](#422-entität-transkribus_document) | Daten von Transkribus einer Adresse, Gebäude oder weitere Informationen | 6'057 |
 | [Transkribus_Page](#423-entität-transkribus_page) | Daten von Transkribus eines Digitalisats | 193'409 |
-| [Transkribus_Transcript](#424-entität-transkribus_transcript) | Daten von Transkribus einer Transkriptions-Version | 751'078 |
-| [Transkribus_TextRegion](#425-entität-transkribus_textregion) | Daten von Transkribus einer transkribierten Textregion | 607'769 |
+| [Transkribus_Transcript](#424-entität-transkribus_transcript) | Daten von Transkribus einer Transkriptions-Version | 751'079 |
+| [Transkribus_TextRegion](#425-entität-transkribus_textregion) | Daten von Transkribus einer transkribierten Textregion | 607'771 |
 | [Geo_Address](#431-entität-geo_address) | Geographische Standorte von HGB-Dossier | 3'785 |
 | [Project_Dossier](#441-entität-project_dossier) | Aufbereitete Informationen zu Adressen | 4'347 |
 | [Project_Entry](#442-entität-project_entry) | Aufbereitete Informationen zu HGB-Einträgen | 125'405 |
@@ -99,7 +99,6 @@ Gewisse Serien haben keine zugehörige Dossiers (Objekte der Entität [StABS_Dos
 Bei der Datenaufbereitung wurden einzelne Fehler entdeckt und durch das Staatsarchiv in der Zwischenzeit korrigiert.
 
 #### 4.1.1.5 Beschreibung der Attribute
-
 | Attribut | Bedeutung |
 |--------|--------|
 | serieId | Projekt-Identifikator einer Serie. Direkt abgeleitet aus der stabsId, ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter |
@@ -139,13 +138,12 @@ WHERE {{
 ```
 
 #### 4.1.2.3 Spezialfälle
-keine Anmerkung.
+keine Anmerkung
 
 #### 4.1.2.4 Fehler
 Bei der Datenaufbereitung wurden einzelne Fehler entdeckt und durch das Staatsarchiv korrigiert.
 
 #### 4.1.2.5 Beschreibung der Attribute
-
 | Attribut | Bedeutung |
 |--------|--------|
 | dossierId | Projekt-Identifikator eines Dossier. Direkt abgeleitet aus StABS_Dossier.stabsId, ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter |
@@ -174,13 +172,12 @@ Die Metadaten der Seiten werden aus dem IIIF Manifest des zugehörigen Dossier e
 Auf einer Seite befindet sich häufig einen Auszug aus einem Archivdokument ("Eintrag"). Teilweise befinden sich mehrere Einträge auf einer einzelnen Seite, teils erstreckt sich ein einzelner Eintrag über mehrere Seiten.
 
 #### 4.1.3.4 Fehler
-keine Anmerkung.
+keine Anmerkung
 
 #### 4.1.3.5 Beschreibung der Attribute
-
 | Attribut | Bedeutung |
 |--------|--------|
-| pageId | Projekt-Identifikator einer Seite. ID wird zusammengesetzt aus StABS_Dossier.dossierId und StABS_Page.pageNr nach dem folgendem Schema: [dossierId]_{int([pageNr]):03} |
+| pageId | Projekt-Identifikator einer Seite. ID wird zusammengesetzt aus 'StABS_Dossier.dossierId' und 'StABS_Page.pageNr' nach dem folgendem Schema: [dossierId]_{int([pageNr]):03} |
 | dossierId | Identifikator des zugehörigen Dossiers (Attribut 'StABS_Dossier.dossierId') |
 | pageNr | Seitenzahl der Seite im Dossier |
 | linkViewer | URL zum Dokumenten-Viewer des Staatsarchivs Basel-Stadt |
@@ -194,113 +191,137 @@ TODO
 ### 4.2.1 Entität Transkribus_Collection
 
 #### 4.2.1.1 Bedeutung
-Elements of the Transkribus_Collection entity represent a street and are stored as collection on Transkribus.
+Elemente der Entität Transkribus_Collection ("Kollektion") repräsentieren Strassen. In der Transkribus Plattform sind diese Objekte als Collections gespeichert. 
 
 #### 4.2.1.2 Entstehung
-
+Auf Basis der Serien (Elemente der Entität StABS_Serie) wurden die Kollektionen auf Transkribus definiert.
 
 #### 4.2.1.3 Spezialfälle
-
+Es wurden nur für Serien entsprechende Kollektionen auf Transkribus generiert, für welche Dossier existieren. Aus diesem Grund existieren folgende 24 Serien nicht als Kollektionen:
+- HGB_1_011
+- HGB_1_019
+- HGB_1_021
+- HGB_1_022
+- HGB_1_030
+- HGB_1_033
+- HGB_1_045
+- HGB_1_046
+- HGB_1_049
+- HGB_1_054
+- HGB_1_055
+- HGB_1_057
+- HGB_1_067
+- HGB_1_077
+- HGB_1_081
+- HGB_1_102
+- HGB_1_107
+- HGB_1_110
+- HGB_1_127
+- HGB_1_140
+- HGB_1_158
+- HGB_1_186
+- HGB_1_187
+- HGB_1_200
 
 #### 4.2.1.4 Beschreibung der Attribute
-
 | Attribut | Bedeutung |
 |--------|--------|
-| colId | Identifier Transkribus collection (UUID) |
-| colName | Name of the collection, correspond to StABS_Serie.serieId |
-| nrOfDocuments | Number of documents linked to the collection |
+| colId | Identifikation der Kollektion |
+| colName | Name der Kollektion, entspricht dem Identifikation der Serie (Attribut 'StABS_Serie.serieId') |
+| nrOfDocuments | Anzahl mit der Kollektion verknüpfter Dokumente |
 
 
 ### 4.2.2 Entität Transkribus_Document
 
 #### 4.2.2.1 Bedeutung
-Elements of the Transkribus_Document entity represent a building or address. On Transkribus, they are stored as documents.
+Elemente der Entität Transkribus_Document ("Dokument") repräsentieren Gebäude, Adressen, Teile eines Gebäudes sowie weitere Objekte oder Informationen zu einer bestimmten Strasse. In der Transkribus Plattform sind diese Objekte als Documents gespeichert.
 
 #### 4.2.2.2 Entstehung
-
+Auf Basis der Dossier (Elemente der Entität StABS_Dossier) wurden Dokumente auf Transkribus definiert.
 
 #### 4.2.2.3 Spezialfälle
-
+Das Dokument HGB_1_003_001 wird in StABS_Dossier nicht als Dossier betrachtet. Aus diesem Grund existiert in Transkribus_Document ein Element mehr als in StABS_Dossier.
 
 #### 4.2.2.4 Beschreibung der Attribute
-
 | Attribut | Bedeutung |
 |--------|--------|
-| docId | Identifier Transkribus document (UUID) |
-| colId | Identifier to the linked collection |
-| title | Title of the Document, correspond to StABS_Dossier.dossierId. In particular cases there is no entry in StABS_Dossier |
-| nrOfPages | Number of pages linked to the document |
+| docId | Identifikation des Dokuments |
+| colId | Identifikator der zugehörigen Kollektion (Attribut 'Transkribus_Collection.colId') |
+| title | Name des Dokument, entspricht dem Identifikation des Dossiers (Attribut 'StABS_Dossier.dossierId') |
+| nrOfPages | Anzahl im Dokument vorhandener Seiten |
 
 
 ### 4.2.3 Entität Transkribus_Page
 
 #### 4.2.3.1 Bedeutung
-Documents on Transkribus can contain several pages. Each element of the entity Transkribus_Page represent one page on Transkribus respectively a page of a file card of the historical land registry.
+Dokument auf Transkribus bestehen aus einer oder mehreren Pages ("Seiten"). Elemente der Entität Transkribus_Page repräsentieren eine Digitalisat auf Transkribus. Mithilfe von Transkribus_Document.title ("Dossier-ID") und Transkribus_Page.pageNr ("Seitenzahl") ist eine Verknüpfung zu den Elementen in StABS_Page möglich mithilfe der Attribute 'StABS_Page.dossierId' und 'StABS_Page.pageNr'.
 
 #### 4.2.3.2 Entstehung
-
+Die vom Staatsarchiv erhaltene Digitalisate wurden auf die Transkribus Plattform hochgeladen.
 
 #### 4.2.3.3 Spezialfälle
-
+In Transkribus_Page existieren drei Seiten im Dokument HGB_1_003_001, welche nicht in der Entität StABS_Page verfügbar sind. Grund: Dieses Dokument ist beim Staatsarchiv nicht als Dossier abgebildet.
 
 #### 4.2.3.4 Beschreibung der Attribute
-
 | Attribut | Bedeutung |
 |--------|--------|
-| pageId | Identifier Transkribus page (UUID) |
-| key | Key of the page (UUID) |
-| docId | Identifier to the linked document |
-| pageNr | Page number in the document |
-| urlImage | URI of the image of the page stored in Transkribus |
-| entryId | Identifier to Project_Entry.entryId |
+| pageId | Identifikation der Seite |
+| key | Schlüssel der Seite |
+| docId | Identifikator des zugehörigen Dokuments (Attribut 'Transkribus_Document.docId') |
+| pageNr | Seitenzahl der Seite im Dokument |
+| urlImage | URI des Digitalisats auf der Transkribus Plattform |
+| entryId | Identifikator des zugehörigen Eintrags (Attribut 'Project_Entry.entryId') |
 
 
 ### 4.2.4 Entität Transkribus_Transcript
 
 #### 4.2.4.1 Bedeutung
-Transcriptions of a page are saved as page xml on Transkribus. Each time a change is made on Transkribus, a new version is generated. Elements of the entity Transkribus_Transcript represent selected information of a page xml.
+Jeder auf Transkribus durchgeführte Schritt einer Seite wird als "pageXML"s gespeichert ("Transkript"). In der Entität Transkribus_Transcript wird jede pageXML-Version zusammen mit Metadaten gespeichert.
 
 #### 4.2.4.2 Entstehung
-
+Jede Bearbeitung einer Seite auf Transkribus wie beispielsweise eine Layoutanalyse oder Durchführung einer Transkription erzeugt eine neue Version eines pageXMLs.
 
 #### 4.2.4.3 Spezialfälle
+TODO: Nicht bearbeitete Seiten auflisten -> gekennzeichnet mit Status DONE
+- Brandlagerbücher
+- Reichspfennigverzeichnisse
+- Titelseiten (erste zwei Seiten eines Dossiers) -> Status NEW
+- Dossier ausserhalb Stadtmauern
 
 
 #### 4.2.4.4 Beschreibung der Attribute
-
 | Attribut | Bedeutung |
 |--------|--------|
-| key | Key of the transcription |
-| tsId | Identifier Transkribus transcript (UUID) |
-| pageId | Identifier to the linked page |
-| parentTsId | Identifier of the previous transcription version |
-| pageXML | Page xml of the transcription |
-| status | Defined status of the transcription. Possible values: NEW, IN_PROGRESS, DONE, FINAL, GROUND_TRUTH |
-| timestamp | Time of transcription, Unix time stamp in milliseconds since 01.01.1970 UTC |
-| htrModel | Type of HTR model used for the transcription |
+| key | Schlüssel des Transkripts |
+| tsId | Identifikator des Transkripts |
+| pageId | Identifikator der zugehörigen Seite (Attribut 'Transkribus_Page.pageId') |
+| parentTsId | Identifikator der vorheriger Transkript-Version (Wert ist "-1", wenn keine vorherige Version existiert) |
+| pageXML | pageXML des Transkripts |
+| status | Definierter Status der Transkripts. Bedeutung der Werte:<br>- NEW: Seite wurde auf Transkribus hochgeladen <br>- IN_PROGRESS: Seite wurde bearbeitet <br>- DONE: Seite wird von weiterer Verarbeitung ausgeschlossen |
+| timestamp | Zeitpunkt der Erstellung des Transkripts |
+| htrModel | Für die durchgeführte Trankription oder Bearbeitung der Seite verwendetes Modell. <br> TODO: Beschreiben, welche Modelle benutzt worden sind (oder verlinken) |
 
 
 ### 4.2.5 Entität Transkribus_TextRegion
 
 #### 4.2.5.1 Bedeutung
-
+Elemente der Entität Transkribus_TextRegion repräsentieren eine "Textregion" eines bestimmten Transkrips.
 
 #### 4.2.5.2 Entstehung
-
+Für jede Seite wird vor der Transkription der Texte eine Layouterkennung durchgeführt. Die dadurch erhaltenen Textregionen werden in den pageXML abgebildet und die Text-Transkriptionen pro Textregion ermittelt.
 
 #### 4.2.5.3 Spezialfälle
-
+Textregionen ohne transkribierten Text sind von dieser Entität ausgeschlossen. Basierend auf den im pageXML verfügbaren Koordinaten werden automatisiert Zeilenreihenfolgen korrigiert.
 
 #### 4.2.5.4 Beschreibung der Attribute
-
-| Attribut | Bedeutung | Entstehung |
-|--------|--------|--------|
-| textRegionId | Transcriptions of texts are stored on Transkribus within the page xmls in text regions. Each element of the Transkribus_TextRegion entity represents a non-empty text region of an element of the Transkribus_Transcript entity. |  |
-| key | Generated text region identifier according to the following structure: {key}_{int(index):02} (UUID) |  |
-| index | Index of the text region |  |
-| type | Type assigned to the text region. Examples: marginalia, header, paragraph, credit, footer |  |
-| textLine | Transcribed text per line saved as a list |  |
-| text | Entire transcribed text of the text region, indexed in the database |  |
+| Attribut | Bedeutung |
+|--------|--------|
+| textRegionId | Generierter Identifikator nach dem folgendem Schema: [key]_{int([index]):02} |
+| key | Schlüssel der Textregion |
+| index | Index der Textregion |
+| type | Identifizierte Art der Textregion. Mögliche Kategorien: paragraph, header, marginalia, credit, footer |
+| textLine | Transkribierter Text pro Zeile als Liste |
+| text | Transkribierter Text der Textregion |
 
 
 ## 4.3 HGB-Dossier georeferenzieren
@@ -364,7 +385,6 @@ Es werden ausschliesslich Dossier in dieser Entität abgebildet, welche mindeste
 Üblicherweise repräsentiert ein Dossier ein Gebäude. Spezielle Dossier enthalten im Attribut "specialType" einen Wert.
 
 #### 4.4.1.4 Beschreibung der Attribute
-
 | dossierId |  |
 |--------|--------|
 | Bedeutung | Identifikator des Dossiers |
@@ -454,7 +474,6 @@ Manuell wurden Einträge bearbeitet, namentlich die Jahreszahl und die Definitio
 Zusätzlich wurden 862 manuell ausgewählte Seiten für die Generierung dieser Entität ausgeschlossen.
 
 #### 4.4.2.4 Beschreibung der Attribute
-
 | entryId |  |
 |--------|--------|
 | Bedeutung | Identifikator des Eintrags |

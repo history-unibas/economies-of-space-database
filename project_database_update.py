@@ -1617,6 +1617,8 @@ def processing_project(dbname, db_password, db_user='postgres',
         'locationShiftedOrigin': 'locationOrigin'
         }
     dossier = dossier.rename(columns=mapping)
+    dossier = geopandas.GeoDataFrame(data=dossier, geometry='location',
+                                     crs='EPSG:2056')
 
     # Write data created to project database.
     populate_geotable(df=dossier, dbname=dbname, dbtable='project_dossier',
@@ -2123,8 +2125,7 @@ def main():
             AS t(docid integer, colid integer, title text, nrofpages integer)
             """)
             cursor.execute(f"""
-            INSERT INTO transkribus_page (pageid, key, docid, pagenr, urlimage)
-            SELECT pageid, key, docid, pagenr, urlimage
+            INSERT INTO transkribus_page
             FROM dblink('{dblink_connname}',
             'SELECT pageid, key, docid, pagenr, urlimage
             FROM transkribus_page')
