@@ -329,16 +329,11 @@ Um Erkenntnisse aus dem HGB räumlich analysieren zu können und Ergebnisse im R
 
 
 ### 4.3.1 Entität Geo_Address
-TODO Benjamin: Ist es sinnvoll, Inhalte aus deinem Workshop-Paper (https://drive.switch.ch/index.php/f/6566228811) in dieses Kapitel zu integrieren? -> ist m.E. nicht unbedingt nötig.
 
 #### 4.3.1.1 Bedeutung
 Jeder Eintrag der Entität Geo_Address repräsentiert ein HGB-Dossier und beinhaltet der geographische Standort des im Dossier abgebildeten Gebäudes als Punktgeometrie. 
 
-Elements contained in this entity represent the spatial location of HGB dossiers. Not all dossiers are included. Currently, this entity is generated based on a shapefile including all attributes contained therein. The elements of the Geo_Address table are linked as follows using geo_address.signature = stabs_dossier.stabsid.
-
 #### 4.3.1.2 Entstehung
-TODO Benjamin: Sind hier weitere Details zur Aufbereitung von Andreas notwendig? Allenfalls kann ich diese aus Notizen herausnehmen oder werde ihn fragen. -> das wäre sicher schön, aber vielleicht auch ein wenig zu weit gehend, weil wir sowieso schwer nachvollziehen können, wie er vorging.
-
 Die Georeferenzierung von HGB-Dossiers kann durch folgende Teilprozesse beschrieben werden.
 
 ![Prozess Geo](prozess_geo.svg)
@@ -359,7 +354,7 @@ Viele HGB-Dossier konnten in diesem Prozess nicht geolokalisiert werden:
 #### 4.3.1.4 Fehler
 Bei einzelnen Metadaten wurden Fehler in den Adressen festgestellt. Beispiele: falsch erfasste Attribute, Fehler in Gross-/Kleinschreibung, Hausnummer "4/6" statt "416". Das Staatsarchiv wurde über diese Fehler informiert.
 
-TODO Benjamin: Kannst du eine Aussage über die Genauigkeit der Daten von Andreas machen? -> Leider nein. Die Daten des Vermessungsamtes basieren vornehmlich auf den alten Hausnummern, und deshalb ist die zum Teil feinere Gliederung, die das Adressverzeichnis von 1862 aufweist, nicht abgebildet.
+Die Georeferenzierung durch das Vermessungsamt basiert hauptsächlich auf den alten Hausnummern. Deshalb ist die zum Teil feinere Gliederung, die das Adressverzeichnis von 1862 aufweist, nicht abgebildet.
 
 #### 4.3.1.5 Statistik
 Von den 6'057 HGB-Dossier, über welche Metadaten verfügbar sind, konnten im Rahmen dieser Geolokalisierung für 3'785 Dossier einen Standort ermittelt werden. Es existieren Dossier, welche denselben Standort besitzen.
@@ -376,8 +371,6 @@ Auf Basis der Entitäten der Gruppen "StABS", "Transkribus" und "Geo" ([3 Modell
 #### 4.4.1.1 Bedeutung
 Jedes Element dieser Entität ("Dossier") repräsentiert ein Dossier im Historisches Grundbuch der Stadt Basel (HGB). Alle Dossier sind ebenfalls in der Tabelle StABS_Dossier abgebildet.
 
-Elements of the Project_Dossier table represent a dossier of HGB analogous to the elements in the entity StABS_Dossier. Only dossiers relevant to our project are mapped in this entity. This means dossiers that are referenced in the Project_Dossier entity.
-
 #### 4.4.1.2 Entstehung
 Es werden ausschliesslich Dossier in dieser Entität abgebildet, welche mindestens einen Eintrag in der Entität Project_Entry mit Bezug zum entsprechenden Dossier besitzt.
 
@@ -387,38 +380,34 @@ Es werden ausschliesslich Dossier in dieser Entität abgebildet, welche mindeste
 #### 4.4.1.4 Beschreibung der Attribute
 | dossierId |  |
 |--------|--------|
-| Bedeutung | Identifikator des Dossiers |
-| Entstehung | Die dossierId ist abgeleitet von StABS_Dossier.stabsId, welcher der Signatur des Staatsarchivs entspricht. |
+| Bedeutung | Projekt-Identifikator eines Dossier |
+| Entstehung | Entspricht dem Attribut 'StABS_Dossier.dossierId' |
 | Spezialfälle | - |
 | Fehler | - |
 | Statistik | - |
 
 | locationUncorrectedAccuracy |  |
 |--------|--------|
-| Bedeutung | Für in diesem Projekt manuell gesetzte Standorte (Attribut 'locationUncorrected') wird in diesem Attribut eine Aussage gemacht, wie genau dieser Standort definiert werden konnte. Standorte auf Basis von Standorten des Grundbuch- und Vermessungsamt sind als "unbekannt" gekennzeichnet, Dossier ohne Standorte als "nicht lokalisierbar". |
-| Entstehung | siehe Entstehung des Attributs 'locationUncorrected' |
+| Bedeutung | Für in diesem Projekt manuell gesetzte Standorte (Attribut 'Project_Dossier.locationUncorrected') wird in diesem Attribut eine Aussage gemacht, wie genau dieser Standort definiert werden konnte. Standorte auf Basis von Standorten des Grundbuch- und Vermessungsamt sind als "unbekannt" gekennzeichnet, Dossier ohne Standorte als "nicht lokalisierbar". |
+| Entstehung | siehe Entstehung des Attributs 'Project_Dossier.locationUncorrected' |
 | Spezialfälle | - |
 | Fehler | - |
 | Statistik | unbekannt: 3'475<br>genau gesetzt: 397<br>ungefähre Ortsangabe: 328<br>ungefähr gesetzt: 123<br>grob geschätzt: 18<br>nicht lokalisierbar: 6 |
 
 | locationUncorrectedOrigin |  |
 |--------|--------|
-| Bedeutung | Dieses Attribut beschreibt, auf welcher Basis der Standort des Dossier (Attribut 'locationUncorrected') entstanden ist. |
-| Entstehung | siehe Entstehung des Attributs 'locationUncorrected' |
-| Spezialfälle | - |
+| Bedeutung | Dieses Attribut beschreibt, auf welcher Basis der Standort des Dossier (Attribut 'Project_Dossier.locationUncorrected') entstanden ist. |
+| Entstehung | siehe Entstehung des Attributs 'Project_Dossier.locationUncorrected' |
+| Spezialfälle | Dossier ohne Standort besitzen keinen Wert |
 | Fehler | - |
 | Statistik | Grundbuch- und Vermessungsamt Basel-Stadt: 3'089<br>manuell gesetzt: 866<br>mithilfe von Skript generiert basierend auf Standorte von Grundbuch- und Vermessungsamt: 306<br>manuell geprüft: 80<br>[NULL]: 6 |
-
-TODO Benjamin:
-- Wie wurden die Dossier ausgewählt, welche in hgb_edit.dossiergeom vorhanden sind? (dossiergeom erstellt am 18.12.2023, erweitert am 07.06.2024) -> Die Mehrzahl der Dossiers in dieser Tabelle sind solche, für die keine Daten des Vermessungsamtes vorhanden sind (weder direkt noch durch die unsererseits durchgeführte Ergänzung). Ergänzt wurden alle Dossiers, die innerhalb von 20 Metern Distanz kein weiteres Dossier aus der gleichen Strasse aufwiesen, weil hier der Verdacht auf einen Fehler besonders gross war. Dazu kamen Dossiers aus der Hebelstrasse, deren Lokalalisierung fraglich war, sowie einzelne weitere falsch lokalisierte Dossiers, die bei einer Durchsicht aufgefallen waren.
-- Wie wurde entschieden, welche Dossier in hgb_edit.dossiergeom manuell geprüft oder bearbeitet werden? -> siehe oben
 
 | locationUncorrected |  |
 |--------|--------|
 | Bedeutung | Dieses Attribut beinhaltet der geografische Standort des Dossiers im Koordinatensystem LV95 (EPSG:2056). |
-| Entstehung | Die Standorte basierend auf Daten des Grundbuch- und Vermessungsamt des Kantons Basel-Stadt. Für ausgewählte Dossier sowie für Dossier ohne vorhandenen Standort wurden mithilfe eines Skripts Standorte generiert basierend auf Dossier mit vorhandenem Standort. Anschliessend wurden die Standorte einiger dieser Dossier manuell geprüft oder bearbeitet. Die Herkunft jedes Dossier-Standortes kann dem Attribut 'locationUncorrectedOrigin' entnommen werden. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
-| Spezialfälle | 6 Dossier haben keinen definierten Standort (locationUncorrectedAccuracy='nicht lokalisierbar') und beinhalten Informationen zu Gewässer, Teich oder Mauer (siehe Attribut 'specialType'). |
-| Fehler | Für Dossier, dessen Standort manuell festgelegt wurde, beinhaltet das Attribut 'locationUncorrectedAccuracy' eine Aussage über die Genaugikeit des Standortes. Für Standorte, welche vom Grundbuch- und Vermessungsamt übernommen worden sind, können wir keine Angabe machen (locationUncorrectedAccuracy='unbekannt'). |
+| Entstehung | Die Standorte basierend mehrheitlich auf Daten des Grundbuch- und Vermessungsamt des Kantons Basel-Stadt (Entität Geo_Address). Für ausgewählte Dossier sowie für Dossier ohne Standort in der Entität Geo_Address wurde mithilfe eines Skripts Standorte ermittelt basierend auf vorhandenen Standorte (Entität Geo_Address). Um Fehler zu reduzieren und den Datensatz zu vervollständigen, wurden anschliessend Standorte von Dossier manuell geprüft und gesetzt. Manuell definiert oder kontrolliert wurden Standorte von Dossier, welche nach der Anwendung des Skripts keinen Standort besassen, sich innerhalb von 20 Meter kein weiteres Dossier derselben Strasse befindet aufgrund des Verdachtes auf einen fehlerhaften Standort, alle Dossier der Hebelstrasse aufgrund fraglicher Geolokalisierung sowie einzelne bei der Durchsicht aufgefallene Dossier. Die Herkunft jedes Dossier-Standortes kann dem Attribut 'Project_Dossier.locationUncorrectedOrigin' entnommen werden. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
+| Spezialfälle | 6 Dossier haben keinen definierten Standort (locationUncorrectedAccuracy='nicht lokalisierbar') und beinhalten Informationen zu Gewässer, Teich oder Mauer (siehe Attribut 'Project_Dossier.specialType'). |
+| Fehler | Für Dossier, dessen Standort manuell festgelegt wurde, beinhaltet das Attribut 'Project_Dossier.locationUncorrectedAccuracy' eine Aussage über die Genaugikeit des Standortes. Für Standorte, welche vom Grundbuch- und Vermessungsamt übernommen worden sind, können wir keine Angabe machen (locationUncorrectedAccuracy='unbekannt').<br>Bei der Entwicklung des Attributs 'Project_Dossier.location' wurden manuell die Standorte einzelner Dossier verbessert. Diese Korrekturen wurden nicht im Attribut 'Project_Dossier.locationUncorrected' umgesetzt. |
 | Statistik | - |
 
 
@@ -428,16 +417,16 @@ TODO Benjamin:
 
 | location |  |
 |--------|--------|
-| Bedeutung | Dieses Attribut beinhaltet den geschobenen geografischen Standort des Dossiers im Koordinatensystem LV95 (EPSG:2056). Im Vergleich zum Attribut 'locationUncorrected' wurden der Standort für ausgewählte Dossier verschoben mit dem Ziel, dass weniger Dossier denselben Standort haben. |
-| Entstehung | Der geschobene Standort basiert auf dem Attribut 'locationUncorrected'. Mithilfe eines Algorithmus wurde für Dossier, in welchen im Titel (Attribut 'stabs_dossier.title') "neben" erwähnt ist, ein entsprechendes Dossier gesucht. Ist ein "neben-Dossier" verfügbar, wurde der Standort um 1/4 der Distanz in Richtung des neben-Dossier verschoben. Beispiel: "St. Alban-Vorstadt Theil von 17 neben 15" (Dossier: HGB_1_010_041, neben-Dossier: "St. Alban-Vorstadt 15", HGB_1_010_039). Die Distanz von einem Viertel ist willkürlich gewählt, muss aber deutlich weniger als die Hälfte sein, weil sonst «Teil von 15 neben 17» auf den gleichen Punkt zu liegen käme. Für Dossier, welche im Titel mehrere Adressen umfassen ("verbundene Dossier"), wurden entsprechende Dossier gesucht, welche je eine Adresse abbildet. Wurden entsprechende Dossier gefunden, ist als verschobener Standort des verbundenen Dossiers der geometrischer Schwerpunkt der entsprechenden Dossier definiert worden. Beispiel: "St. Alban-Graben 8, 10" (Dossier: HGB_1_005_020, entsprechende Dossier: "St. Alban-Graben 8", HGB_1_005_019 und "St. Alban-Graben 10", HGB_1_005_021).<br>Ausgewählte Dossier wurden anschliessend manuell verschoben. Im Attribut 'locationOrigin' ist festgehalten, welche Dossier mit dem Algorithmus respektive manuell verschoben worden sind. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
-| Spezialfälle | 6 Dossier haben keinen definierten Standort und beinhalten Informationen zu Gewässer, Teich oder Mauer (siehe Attribut specialType). |
+| Bedeutung | Dieses Attribut beinhaltet den geschobenen geografischen Standort des Dossiers im Koordinatensystem LV95 (EPSG:2056). Im Vergleich zum Attribut 'Project_Dossier.locationUncorrected' wurden der Standort für ausgewählte Dossier verschoben mit dem Ziel, dass weniger Dossier denselben Standort bestitzen. |
+| Entstehung | Der geschobene Standort basiert auf dem Attribut 'Project_Dossier.locationUncorrected'. Mithilfe eines Algorithmus wurde für Dossier, in welchen im Titel (Attribut 'StABS_Dossier.title') "neben" erwähnt ist, ein entsprechendes Dossier gesucht. Ist ein "neben-Dossier" verfügbar, wurde der Standort um 1/4 der Distanz in Richtung des neben-Dossier verschoben. Beispiel: "St. Alban-Vorstadt Theil von 17 neben 15" (Dossier: HGB_1_010_041, neben-Dossier: "St. Alban-Vorstadt 15", HGB_1_010_039). Die Distanz von einem Viertel ist willkürlich gewählt, muss aber deutlich weniger als die Hälfte sein, weil sonst «Teil von 15 neben 17» auf den gleichen Punkt zu liegen käme. Für Dossier, welche im Titel mehrere Adressen umfassen ("verbundene Dossier"), wurden entsprechende Dossier gesucht, welche je eine Adresse abbildet. Wurden entsprechende Dossier gefunden, ist als verschobener Standort des verbundenen Dossiers der geometrischer Schwerpunkt der entsprechenden Dossier definiert worden. Beispiel: "St. Alban-Graben 8, 10" (Dossier: HGB_1_005_020, entsprechende Dossier: "St. Alban-Graben 8", HGB_1_005_019 und "St. Alban-Graben 10", HGB_1_005_021).<br>Ausgewählte Dossier wurden anschliessend manuell verschoben. Im Attribut 'Project_Dossier.locationOrigin' ist festgehalten, welche Dossier mit dem Algorithmus respektive manuell verschoben worden sind. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
+| Spezialfälle | 6 Dossier haben keinen definierten Standort und beinhalten Informationen zu Gewässer, Teich oder Mauer (siehe Attribut 'Project_Dossier.specialType'). |
 | Fehler | TODO |
 | Statistik | - |
 
 | locationOrigin |  |
 |--------|--------|
-| Bedeutung | Dieses Attribut dokumentiert die Verschiebung des verschobenen Standortes (Attribut 'location') im Vergleich zum Standort (Attribut 'locationUncorrected'). |
-| Entstehung | siehe Entstehung des Attributs 'location' |
+| Bedeutung | Dieses Attribut dokumentiert die Verschiebung des verschobenen Standortes (Attribut 'Project_Dossier.location') im Vergleich zum Standort (Attribut 'Project_Dossier.locationUncorrected'). |
+| Entstehung | siehe Entstehung des Attributs 'Project_Dossier.location' |
 | Spezialfälle | Dossier ohne verschobenen Standort haben keinen Wert. |
 | Fehler | - |
 | Statistik | keine Verschiebung: 2'753<br>Verschiebung mit Algorithmus: 807<br>manuelle Verschiebung: 781<br>[NULL]: 6 |
@@ -445,9 +434,9 @@ TODO Benjamin:
 | specialType |  |
 |--------|--------|
 | Bedeutung | Mit diesem Attribut werden Dossier markiert, welche nicht ein Gebäude repräsentieren, zum Beispiel ein Gewässer. |
-| Entstehung | Mit einfachen Stichwortsuchen (z.B. nach dem Begriff "Laden") im Attribut 'stabs_dossier.title' wurden Dossier identifiziert, welche kein Gebäude abbildet. |
+| Entstehung | Mit einfachen Stichwortsuchen (z.B. nach dem Begriff "Laden") im Attribut 'StABS_Dossier.title' wurden Dossier identifiziert, welche kein Gebäude abbildet. |
 | Spezialfälle | - |
-| Fehler | Bei der visuellen Kontrolle des Attributs 'stabs_dossier.title' von Dossier ohne Zugehörigkeit zu einem Cluster (Skript dossier_relationship.py) und ohne Wert im Attribut 'specialType' wurden keine weiteren spezielle Dossier gefunden. In dieser Teilmenge existieren jedoch Dossier mit einem Strassennamen aber ohne Hausnummer, beispielsweise in der Freien Strasse. Diese Dossier besitzen teilweise eine alte Hausnummer (Attribut 'stabs_dossier.oldhousenumber'), es könnte jedoch auch einen Hinweis sein auf weitere "Spezial-Dossier", welche in diesem Attribut nicht berücksichtigt sind. |
+| Fehler | Bei der visuellen Kontrolle des Attributs 'StABS_Dossier.title' von Dossier ohne Zugehörigkeit zu einem Cluster (Skript dossier_relationship.py) und ohne Wert im Attribut 'Project_Dossier.specialType' wurden keine weiteren spezielle Dossier gefunden. In dieser Teilmenge existieren jedoch Dossier mit einem Strassennamen aber ohne Hausnummer, beispielsweise in der Freien Strasse. Diese Dossier besitzen teilweise eine alte Hausnummer (Attribut 'StABS_Dossier.oldhousenumber'), es könnte jedoch auch einen Hinweis sein auf weitere "Spezial-Dossier", welche in diesem Attribut nicht berücksichtigt sind. |
 | Statistik | [NULL]: 3'937<br>Unbestimmte Liegenschaften: 98 <br>Strassenkörper: 92<br>Brunnen: 50<br>Dohle: 41<br>Unbestimmt: 27 TODO SOLL<br>Gewässer: 16<br>Keller: 12<br>Garten: 10<br>Laden: 9<br>Sammeldossier: 9<br>Boden: 5<br>Graben: 5<br>Zins: 5<br>Brotbank: 4<br>Bank: 3<br>Graben, Mauer: 3<br>Nachträge: 3<br>Teich: 3<br>Mauer: 2<br>Quartier: 2<br>Tor: 2<br>Abort: 1<br>Allmend : 1<br>Brunnen, Unbestimmte Liegenschaften: 1<br>Brücke: 1<br>Halseisen, Heisserstein: 1<br>Häuserverzeichnis: 1<br>Platz: 1<br>Salzkasten: 1 <br>Schutzrein: 1|
 
 
@@ -492,13 +481,12 @@ Zusätzlich wurden 862 manuell ausgewählte Seiten für die Generierung dieser E
 
 TODO Benjamin
 - Ist es möglich, dass in der pageId Fehler existieren? -> Siehe oben, es kann z.T. Parzelleninformationen haben, die fälschlicherweise als Folgeseite identifiziert wurden. Ansonsten ist die Fehlerwarscheinlichkeit klein, da die automatisierte Zuweisung von Folgeseiten sehr konservativen Mustern folgte (erste Seite mit header, aber ohne footer/credit, folgende Seite ohne header, aber mit credit) und viele Folgeseiten händisch identifiziert wurden.
-- Gibt es Spezialfälle für pageId? -> nein.
 
 | pageId |  |
 |--------|--------|
 | Bedeutung | Identifikatoren der zum Eintrag gehörender Seiten gespeichert als Liste. |
 | Entstehung | Die pageId wurde durch die Transkribus-Plattform generiert. |
-| Spezialfälle | TODO |
+| Spezialfälle | - |
 | Fehler | TODO |
 | Statistik | Anzahl Einträge mit einer Seite: 119'610<br>Anzahl Einträge mit zwei Seiten: 5'611<br>Anzahl Einträge mit drei Seiten: 149<br>Anzahl Einträge mit vier Seiten: 31<br>Anzahl Einträge mit fünf Seiten: 1<br>Anzahl Einträge mit sechs Seiten: 2<br>Anzahl Einträge mit sieben Seiten: 0<br>Anzahl Einträge mit acht Seiten: 1 |
 
