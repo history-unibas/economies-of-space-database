@@ -146,7 +146,7 @@ Bei der Datenaufbereitung wurden einzelne Fehler entdeckt und durch das Staatsar
 #### 4.1.2.5 Beschreibung der Attribute
 | Attribut | Bedeutung |
 |--------|--------|
-| dossierId | Projekt-Identifikator eines Dossier. Direkt abgeleitet aus StABS_Dossier.stabsId, ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter |
+| dossierId | Projekt-Identifikator eines Dossier. Direkt abgeleitet aus 'StABS_Dossier.stabsId', ohne Leerzeichen und Vereinheitlichung der Anzahl Charakter |
 | serieId | Identifikator der zugehörigen Serie (Attribut 'StABS_Serie.serieId') |
 | stabsId | Durch das Staatsarchiv definierter Identifikator eines Dossier |
 | title | Titel des Dossiers, häufig entsprechend der Adresse gemäss dem Adressbuch des Jahres 1862 |
@@ -187,6 +187,8 @@ keine Anmerkung
 TODO
 - Prozess beschreiben (https://drive.switch.ch/index.php/f/6566052981) -> Transkribus
 - inkl. Paper, Kapitel 5
+- Auf ausgeschlossene Seiten hinweisen -> #### 4.2.4.3 Spezialfälle
+
 
 ### 4.2.1 Entität Transkribus_Collection
 
@@ -287,6 +289,9 @@ TODO: Nicht bearbeitete Seiten auflisten -> gekennzeichnet mit Status DONE
 - Reichspfennigverzeichnisse
 - Titelseiten (erste zwei Seiten eines Dossiers) -> Status NEW
 - Dossier ausserhalb Stadtmauern
+
+
+Anmerkung Benjamin: Grundsätzlich ausgeschlossen wurden Brandlagerbücher, die alle aus dem 19. Jahrhundert stammen, sowie die Karteikarten des Reichspfennigs von 1497 (weil hier keine Transaktion festzustellen ist). Die zwei Typen von Karten wurden mit dem Bilder-Clustering identifiziert und ausgeschlossen
 
 
 #### 4.2.4.4 Beschreibung der Attribute
@@ -405,29 +410,24 @@ Es werden ausschliesslich Dossier in dieser Entität abgebildet, welche mindeste
 | locationUncorrected |  |
 |--------|--------|
 | Bedeutung | Dieses Attribut beinhaltet der geografische Standort des Dossiers im Koordinatensystem LV95 (EPSG:2056). |
-| Entstehung | Die Standorte basierend mehrheitlich auf Daten des Grundbuch- und Vermessungsamt des Kantons Basel-Stadt (Entität Geo_Address). Für ausgewählte Dossier sowie für Dossier ohne Standort in der Entität Geo_Address wurde mithilfe eines Skripts Standorte ermittelt basierend auf vorhandenen Standorte (Entität Geo_Address). Um Fehler zu reduzieren und den Datensatz zu vervollständigen, wurden anschliessend Standorte von Dossier manuell geprüft und gesetzt. Manuell definiert oder kontrolliert wurden Standorte von Dossier, welche nach der Anwendung des Skripts keinen Standort besassen, sich innerhalb von 20 Meter kein weiteres Dossier derselben Strasse befindet aufgrund des Verdachtes auf einen fehlerhaften Standort, alle Dossier der Hebelstrasse aufgrund fraglicher Geolokalisierung sowie einzelne bei der Durchsicht aufgefallene Dossier. Die Herkunft jedes Dossier-Standortes kann dem Attribut 'Project_Dossier.locationUncorrectedOrigin' entnommen werden. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
+| Entstehung | Die Standorte basierend mehrheitlich auf Daten des Grundbuch- und Vermessungsamt des Kantons Basel-Stadt (Entität Geo_Address). Für ausgewählte Dossier sowie für Dossier ohne Standort in der Entität Geo_Address wurde mithilfe eines Skripts Standorte ermittelt basierend auf vorhandenen Standorte (Entität Geo_Address). Um Fehler zu reduzieren und den Datensatz zu vervollständigen, wurden anschliessend Standorte von Dossier manuell geprüft und gesetzt basierend auf dem Löffelplan von 1862 (https://www.bs.ch/bvd/grundbuch-und-vermessungsamt/vermessung/historische-plaene). Manuell definiert oder kontrolliert wurden Standorte von Dossier, welche nach der Anwendung des Skripts keinen Standort besassen, sich innerhalb von 20 Meter kein weiteres Dossier derselben Strasse befindet aufgrund des Verdachtes auf einen fehlerhaften Standort, alle Dossier der Hebelstrasse aufgrund fraglicher Geolokalisierung sowie einzelne bei der Durchsicht aufgefallene Dossier. Die Herkunft jedes Dossier-Standortes kann dem Attribut 'Project_Dossier.locationUncorrectedOrigin' entnommen werden. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
 | Spezialfälle | 6 Dossier haben keinen definierten Standort (locationUncorrectedAccuracy='nicht lokalisierbar') und beinhalten Informationen zu Gewässer, Teich oder Mauer (siehe Attribut 'Project_Dossier.specialType'). |
 | Fehler | Für Dossier, dessen Standort manuell festgelegt wurde, beinhaltet das Attribut 'Project_Dossier.locationUncorrectedAccuracy' eine Aussage über die Genaugikeit des Standortes. Für Standorte, welche vom Grundbuch- und Vermessungsamt übernommen worden sind, können wir keine Angabe machen (locationUncorrectedAccuracy='unbekannt').<br>Bei der Entwicklung des Attributs 'Project_Dossier.location' wurden manuell die Standorte einzelner Dossier verbessert. Diese Korrekturen wurden nicht im Attribut 'Project_Dossier.locationUncorrected' umgesetzt. |
 | Statistik | - |
 
-
-TODO Benjamin:
-- Wie wurde entschieden, welche Dossier in hgb_edit.dossiergeomshifted manuell bearbeitet werden? Sicher wenn Spalte toCheck=True, es gibt jedoch zusätzliche Dossier, welche bearbeitet worden sind. Hat eventuell mit Spalte "representation" zu tun, welche später hinzugekommen ist. -> geprüft wurden diejenigen, die per Skript verschoben wurden, sowie diejenigen, wo der Typ eine Verschiebung notwendig erscheinen liess, per Skript aber keine Verschiebung dazukam. Insbesondere wurde die Unterscheidung in Vorder- und Hinterhäuser zusätzlich getroffen, wenn sie ersichtlich war (was skriptbasiert nicht möglich war, weil dazu die Orientierung vorne-hinten vonnöten gewesen wäre). Der grösste Teil dieser Korrekturen war folglich durch den addressmatchingtype (HINWEIS: aus DB entfernt) bedingt. Bei der abschliessenden manuellen Durchsicht sind noch viele Dossiers aufgefallen, die nicht ganz korrekt lokalisiert waren, weshalb auch Dossiers des Typs "unchanged" noch korrigiert wurden. Händische Korrekturen erfolgten vornehmlich (aber nicht nur) dort, wo die Strassen um 1862 stark vom früheren Strassenbild abwichen (z.B. Eisengasse, untere Freie Strasse, Fischmarkt). In diesen Fällen wurden die im HGB hinterlegten Planzeichnungen konsultiert. 
-- Kannst du eine Angabe über Fehler / Genauigkeit machen für location (vorher locationShifted)? -> Die Genauigkeit ist bei diesen Angaben kein eigentliches Ziel. Die Dossiers wurden zwar in eine plausible Richtung verschoben und sind somit wohl in den meisten Fällen genauer platziert als zuvor, das lässt sich aber nicht messen. Das Ziel, Überlappungen von Punkten zu reduzieren und die Darstellung so insgesamt zu verbessern. Entsprechend diesen Vorgaben wurde auch die händische Verschiebung nach Augenmass und nicht mit einer korrekten Messung vorgenommen.
-
 | location |  |
 |--------|--------|
-| Bedeutung | Dieses Attribut beinhaltet den geschobenen geografischen Standort des Dossiers im Koordinatensystem LV95 (EPSG:2056). Im Vergleich zum Attribut 'Project_Dossier.locationUncorrected' wurden der Standort für ausgewählte Dossier verschoben mit dem Ziel, dass weniger Dossier denselben Standort bestitzen. |
-| Entstehung | Der geschobene Standort basiert auf dem Attribut 'Project_Dossier.locationUncorrected'. Mithilfe eines Algorithmus wurde für Dossier, in welchen im Titel (Attribut 'StABS_Dossier.title') "neben" erwähnt ist, ein entsprechendes Dossier gesucht. Ist ein "neben-Dossier" verfügbar, wurde der Standort um 1/4 der Distanz in Richtung des neben-Dossier verschoben. Beispiel: "St. Alban-Vorstadt Theil von 17 neben 15" (Dossier: HGB_1_010_041, neben-Dossier: "St. Alban-Vorstadt 15", HGB_1_010_039). Die Distanz von einem Viertel ist willkürlich gewählt, muss aber deutlich weniger als die Hälfte sein, weil sonst «Teil von 15 neben 17» auf den gleichen Punkt zu liegen käme. Für Dossier, welche im Titel mehrere Adressen umfassen ("verbundene Dossier"), wurden entsprechende Dossier gesucht, welche je eine Adresse abbildet. Wurden entsprechende Dossier gefunden, ist als verschobener Standort des verbundenen Dossiers der geometrischer Schwerpunkt der entsprechenden Dossier definiert worden. Beispiel: "St. Alban-Graben 8, 10" (Dossier: HGB_1_005_020, entsprechende Dossier: "St. Alban-Graben 8", HGB_1_005_019 und "St. Alban-Graben 10", HGB_1_005_021).<br>Ausgewählte Dossier wurden anschliessend manuell verschoben. Im Attribut 'Project_Dossier.locationOrigin' ist festgehalten, welche Dossier mit dem Algorithmus respektive manuell verschoben worden sind. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
+| Bedeutung | Dieses Attribut beinhaltet den geschobenen geografischen Standort des Dossiers im Koordinatensystem LV95 (EPSG:2056). Im Vergleich zum Attribut 'Project_Dossier.locationUncorrected' wurden der Standort für ausgewählte Dossier verschoben mit dem Ziel, dass weniger Dossier denselben Standort besitzen und damit die Darstellung der Dossier auf einer Karte zu verbessern. |
+| Entstehung | Der geschobene Standort basiert auf dem Attribut 'Project_Dossier.locationUncorrected'. Mithilfe eines Algorithmus wurde für Dossier, in welchen im Titel (Attribut 'StABS_Dossier.title') "neben" erwähnt ist, ein entsprechendes Dossier gesucht. Ist ein "neben-Dossier" verfügbar, wurde der Standort um 1/4 der Distanz in Richtung des neben-Dossier verschoben. Beispiel: "St. Alban-Vorstadt Theil von 17 neben 15" (Dossier: HGB_1_010_041, neben-Dossier: "St. Alban-Vorstadt 15", HGB_1_010_039). Die Distanz von einem Viertel ist willkürlich gewählt, muss aber deutlich weniger als die Hälfte sein, weil sonst «Teil von 15 neben 17» auf den gleichen Punkt zu liegen käme. Für Dossier, welche im Titel mehrere Adressen umfassen ("verbundene Dossier"), wurden entsprechende Dossier gesucht, welche je eine Adresse abbildet. Wurden entsprechende Dossier gefunden, ist als verschobener Standort des verbundenen Dossiers der geometrischer Schwerpunkt der entsprechenden Dossier definiert worden. Beispiel: "St. Alban-Graben 8, 10" (Dossier: HGB_1_005_020, entsprechende Dossier: "St. Alban-Graben 8", HGB_1_005_019 und "St. Alban-Graben 10", HGB_1_005_021).<br>Ausgewählte Dossier wurden anschliessend manuell geprüft und verschoben basierend auf dem Löffelplan von 1862 (https://www.bs.ch/bvd/grundbuch-und-vermessungsamt/vermessung/historische-plaene). Manuell geprüft wurden Standorte von Dossier, welche mit dem Skript verschoben worden sind sowie Dossier, welche aufgrund des Titels (Attribut 'StABS_Dossier.title') eine Verschiebung erwartet wurde. Insbesondere wurde die Unterscheidung in Vorder- und Hinterhäuser zusätzlich getroffen, wenn sie ersichtlich war. Bei der abschliessenden manuellen Durchsicht sind viele Dossiers aufgefallen, die nicht ganz korrekt lokalisiert waren. Händische Korrekturen erfolgten vornehmlich (aber nicht nur) dort, wo die Strassen um 1862 stark vom früheren Strassenbild abwichen (Beispiele: Eisengasse, untere Freie Strasse, Fischmarkt). In diesen Fällen wurden die im HGB hinterlegten Planzeichnungen konsultiert. Im Attribut 'Project_Dossier.locationOrigin' ist festgehalten, welche Dossier mit dem Algorithmus respektive manuell verschoben worden sind. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
 | Spezialfälle | 6 Dossier haben keinen definierten Standort und beinhalten Informationen zu Gewässer, Teich oder Mauer (siehe Attribut 'Project_Dossier.specialType'). |
-| Fehler | TODO |
+| Fehler | Die Genauigkeit war bei der Defintion der Standorte kein eigentliches Ziel. Die Dossiers wurden zwar in eine plausible Richtung verschoben und sind in den meisten Fällen genauer platziert als zuvor (Attribut 'Project_Dossier.locationUncorrected'), das lässt sich aber nicht messen. Die händische Verschiebung wurde nach Augenmass und nicht mit einer korrekten Messung vorgenommen. |
 | Statistik | - |
 
 | locationOrigin |  |
 |--------|--------|
 | Bedeutung | Dieses Attribut dokumentiert die Verschiebung des verschobenen Standortes (Attribut 'Project_Dossier.location') im Vergleich zum Standort (Attribut 'Project_Dossier.locationUncorrected'). |
 | Entstehung | siehe Entstehung des Attributs 'Project_Dossier.location' |
-| Spezialfälle | Dossier ohne verschobenen Standort haben keinen Wert. |
+| Spezialfälle | Dossier ohne Standort haben keinen Wert. |
 | Fehler | - |
 | Statistik | keine Verschiebung: 2'753<br>Verschiebung mit Algorithmus: 807<br>manuelle Verschiebung: 781<br>[NULL]: 6 |
 
@@ -437,30 +437,21 @@ TODO Benjamin:
 | Entstehung | Mit einfachen Stichwortsuchen (z.B. nach dem Begriff "Laden") im Attribut 'StABS_Dossier.title' wurden Dossier identifiziert, welche kein Gebäude abbildet. |
 | Spezialfälle | - |
 | Fehler | Bei der visuellen Kontrolle des Attributs 'StABS_Dossier.title' von Dossier ohne Zugehörigkeit zu einem Cluster (Skript dossier_relationship.py) und ohne Wert im Attribut 'Project_Dossier.specialType' wurden keine weiteren spezielle Dossier gefunden. In dieser Teilmenge existieren jedoch Dossier mit einem Strassennamen aber ohne Hausnummer, beispielsweise in der Freien Strasse. Diese Dossier besitzen teilweise eine alte Hausnummer (Attribut 'StABS_Dossier.oldhousenumber'), es könnte jedoch auch einen Hinweis sein auf weitere "Spezial-Dossier", welche in diesem Attribut nicht berücksichtigt sind. |
-| Statistik | [NULL]: 3'937<br>Unbestimmte Liegenschaften: 98 <br>Strassenkörper: 92<br>Brunnen: 50<br>Dohle: 41<br>Unbestimmt: 27 TODO SOLL<br>Gewässer: 16<br>Keller: 12<br>Garten: 10<br>Laden: 9<br>Sammeldossier: 9<br>Boden: 5<br>Graben: 5<br>Zins: 5<br>Brotbank: 4<br>Bank: 3<br>Graben, Mauer: 3<br>Nachträge: 3<br>Teich: 3<br>Mauer: 2<br>Quartier: 2<br>Tor: 2<br>Abort: 1<br>Allmend : 1<br>Brunnen, Unbestimmte Liegenschaften: 1<br>Brücke: 1<br>Halseisen, Heisserstein: 1<br>Häuserverzeichnis: 1<br>Platz: 1<br>Salzkasten: 1 <br>Schutzrein: 1|
+| Statistik | [NULL]: 3'937<br>Unbestimmte Liegenschaften: 98 <br>Strassenkörper: 92<br>Brunnen: 50<br>Dohle: 41<br>Unbestimmt: 27<br>Gewässer: 16<br>Keller: 12<br>Garten: 10<br>Laden: 9<br>Sammeldossier: 9<br>Boden: 5<br>Graben: 5<br>Zins: 5<br>Brotbank: 4<br>Bank: 3<br>Graben, Mauer: 3<br>Nachträge: 3<br>Teich: 3<br>Mauer: 2<br>Quartier: 2<br>Tor: 2<br>Abort: 1<br>Allmend : 1<br>Brunnen, Unbestimmte Liegenschaften: 1<br>Brücke: 1<br>Halseisen, Heisserstein: 1<br>Häuserverzeichnis: 1<br>Platz: 1<br>Salzkasten: 1 <br>Schutzrein: 1|
 
 
 ### 4.4.2 Entität Project_Entry
 
 #### 4.4.2.1 Bedeutung
-Jedes Element dieser Entität ("Eintrag") repräsentiert einen im HGB erfassten Eintrag. Es können mehrere Einträge auf einer Registerkarte ("Seite") des HGB dokumentiert sein, oder ein Eintrag kann sich über mehrere Seiten erstrecken. Eine Seite im HGB wird durch ein Element in der Tabelle Transkribus_Seite repräsentiert. Befinden sich mehrere Einträge auf einer Registerkarte, so werden diese Einträge nicht durch mehrere Elemente in dieser Entität repräsentiert. Jeder Eintrag ist einem Dossier (Element in Project_Dossier) zugewiesen.
-
-Elements of the Project_Entry table represent an entry recorded in the HGB. Several entries can be documented on one register card of the HGB or one entry can extend over several pages/register cards. A page in the HGB is represented by an element in the table Transkribus_Page. If there are several entries on a register card, these entries are not currently represented by several elements in this table.
+Jedes Element dieser Entität ("Eintrag") repräsentiert einen im HGB erfassten Eintrag. Es können mehrere Einträge auf einer Registerkarte ("Seite") des HGB dokumentiert sein, oder ein Eintrag kann sich über mehrere Seiten erstrecken. Eine Seite im HGB wird durch ein Element in den Entitäten 'StABS_Page' respektive 'Transkribus_Page' repräsentiert. Befinden sich mehrere Einträge auf einer Registerkarte, so werden diese Einträge nicht durch mehrere Elemente in dieser Entität repräsentiert. Eine Seite wird als Folgeseite eines Eintrags betrachtet, wenn die Seite keine Textregion (Entität 'Transkribus_TextRegion') des Typs "header" und "marginalia" besitzt und die vorhergehende Seite keine Textregion des Typs "credit" hat. Einen Eintrag basiert nur auf Seiten desselben Dossiers.
 
 #### 4.4.2.2 Entstehung
-Es werden Seiten des HGB betrachtet, welche transkribiert worden sind (Entität transkribus_transcript). Für die Generierung der Einträge wird das aktuellste Transkript einer Seite verwendet (Attribut 'transkribus_transcript.timestamp'). Hat das aktuellste Transkript den Status "DONE" (Attribut 'status') hat, wird diese Seite nicht berücksichtigt. Ebenfalls werden Seiten ausgeschlossen, welche einem Dossier verbunden ist, welches sich ausserhalb der Stadtmauern befindet. Seiten ohne Textregionen (Entität transkribus_textregion) sind ebenfalls ausgenommen.
+Es werden Seiten des HGB betrachtet, welche transkribiert worden sind (Entität 'Transkribus_Transcript'). Für die Generierung der Einträge wird das aktuellste Transkript einer Seite verwendet (Attribut 'Transkribus_Transcript.timestamp'). Hat das aktuellste Transkript den Status "DONE" (Attribut 'Transkribus_Transcript.status'), wird diese Seite nicht berücksichtigt. Ebenfalls werden Seiten ausgeschlossen, welche einem Dossier verbunden ist, welches sich ausserhalb der Stadtmauern befindet. Seiten ohne Textregionen (Entität 'Transkribus_TextRegion') sind ebenfalls ausgenommen. Manuell wurden 3'202 Seiten für die Generierung dieser Entität ausgeschlossen. Darunter fallen insbesondere Karteikarten, die Parzelleninformationen enthalten (Angaben zu zeitweise zusammengelegte Dossiers, oder auch Angaben zur Baugeschichte wie gefundene Jahreszahlen). Identifiziert wurden diese Seiten hauptsächlich bei der händischen Datierung (siehe nächster Abschnitt) oder der händischen Zuweisung von Quellenbelegen von Einträgen (Attribut 'Project_Entry.source').
 
-Eine Seite wird als Folgeseite eines Eintrags betrachtet, wenn die Seite keine Textregion (Entität transkribus_textregion) des Typs "header" und "marginalia" besitzt und die vorhergehende Seite keine Textregion des Typs "credit" hat. Einen Eintrag basiert nur auf Seiten desselben Dossiers.
+Manuell wurden Einträge bearbeitet, namentlich die Jahreszahl (Attribut 'Project_Entry.year') und die Definition von Seiten als Folgeseiten. Alle undatierte Einträge wurden händisch durchgesehen. Basierend auf einer Analyse unter der Annahme, dass Einträge chronologisch in einem Dossier abgelegt sind, wurden weitere Jahreszahlen überprüft. Bei weiteren Analysen und Prüfungen wurden weitere Datierungen überprüft und korrigiert. Manuell bearbeitete Einträge haben im Attribut 'Project_Entry.manuallyCorrected' den Wert "True". Weitere Angaben zur Jahreszahl enthaltet das Attribut 'Project_Entry.comment', insbesondere für Einträge ohne eine Jahreszahl.
 
 #### 4.4.2.3 Spezialfälle
-
-TODO Benjamin:
-- Wie wurde definiert, welche Einträge manuell bearbeitet werden? (Tabellen datetool und chronotool) -> Für Datetool wurden alle undatierten Karteikarten übernommen. Wir haben dabei schon begonnen, Folgeseiten anhand bestimmter Kombinationen von Layoutregionen zu definieren. Diese haben wir von der Datierung ausgeschlossen. Chronotool-Einträge wurden nach per Skript ausgeführten Checks der chronologischen Reihenfolge generiert. Weitere Einräge kamen im Verlauf von verschiedenen Kontrollen und Analysen dazu.
-- Welche Art von Seiten wurden für die Generierung von project_entry ausgeschlossen? -> Grundsätzlich ausgeschlossen wurden Brandlagerbücher, die alle aus dem 19. Jahrhundert stammen, sowie die Karteikarten des Reichspfennigs von 1497 (weil hier keine Transaktion festzustellen ist), und schliesslich alle Karteikarten, die Parzelleninformationen enthalten (also Angaben zu zeitweise zusammengelegten Dossiers, oder auch Angaben zur Baugeschichte wie gefundene Jahreszahlen etc.). Die ersten zwei Typen von Karten wurden mit dem Bilder-Clustering identifiziert und ausgeschlossen, die Parzelleninformationen händisch, wenn sie bei der händischen Datierung von Karteikarten oder bei der händischen Zuweisung eines Quellenbelegs auftauchte. Dank diesen Nachkorrekturen ist die Fehlerhäufigkeit beim Ausschluss solcher Karteikarten sehr tief anzusetzen, mit einer Ausnahme: Es ist zu erwarten, dass einige Folgeseiten von mehrseitigen Dossiers eigentlich Parzelleninformationen sind und ausgeschlossen werden müssten. Auf eine händische Durchsicht aller mehrseitigen Dossiers wurde verzichtet, da sich der Aufwand nicht rechtfertigen lässt. Insbesondere enthalten die Parzelleninformationen kaum Textelemente, die von der Entitäten- oder Eventerkennung fälschlicherweise annotiert würden.
-
-Manuell wurden Einträge bearbeitet, namentlich die Jahreszahl und die Definition von Seiten als Folgeseiten. Diese Einträge haben im Attribut 'manuallyCorrected' den Wert "True". Weitere Angaben zur Jahreszahl enthaltet das Attribut 'comment', insbesondere für Einträge ohne eine Jahreszahl.
-
-Zusätzlich wurden 862 manuell ausgewählte Seiten für die Generierung dieser Entität ausgeschlossen.
+keine Anmerkung
 
 #### 4.4.2.4 Beschreibung der Attribute
 | entryId |  |
@@ -474,66 +465,54 @@ Zusätzlich wurden 862 manuell ausgewählte Seiten für die Generierung dieser E
 | dossierId |  |
 |--------|--------|
 | Bedeutung | Identifikator des zugehörigen Dossier (Attribut 'Project_Dossier.dossierId') |
-| Entstehung | Die dossierId ist abgeleitet von StABS_Dossier.stabsId, welcher der Signatur des Staatsarchivs entspricht. |
+| Entstehung | Direkt abgeleitet von 'StABS_Dossier.stabsId' |
 | Spezialfälle | - |
 | Fehler | - |
 | Statistik | - |
-
-TODO Benjamin
-- Ist es möglich, dass in der pageId Fehler existieren? -> Siehe oben, es kann z.T. Parzelleninformationen haben, die fälschlicherweise als Folgeseite identifiziert wurden. Ansonsten ist die Fehlerwarscheinlichkeit klein, da die automatisierte Zuweisung von Folgeseiten sehr konservativen Mustern folgte (erste Seite mit header, aber ohne footer/credit, folgende Seite ohne header, aber mit credit) und viele Folgeseiten händisch identifiziert wurden.
 
 | pageId |  |
 |--------|--------|
 | Bedeutung | Identifikatoren der zum Eintrag gehörender Seiten gespeichert als Liste. |
 | Entstehung | Die pageId wurde durch die Transkribus-Plattform generiert. |
 | Spezialfälle | - |
-| Fehler | TODO |
-| Statistik | Anzahl Einträge mit einer Seite: 119'610<br>Anzahl Einträge mit zwei Seiten: 5'611<br>Anzahl Einträge mit drei Seiten: 149<br>Anzahl Einträge mit vier Seiten: 31<br>Anzahl Einträge mit fünf Seiten: 1<br>Anzahl Einträge mit sechs Seiten: 2<br>Anzahl Einträge mit sieben Seiten: 0<br>Anzahl Einträge mit acht Seiten: 1 |
-
-TODO Benjamin
-- Welche Aussage bezüglich Fehler ist möglich für year? -> Dank der Prüfung der Chronologie sind grössere Fehler weitgehend eliminiert, wenn ein Eintrag nicht am Anfang oder am Ende eines Dossiers steht. Kleinere Fehler, die die chronologische Ordnung nicht verletzen, sind möglich, meist handelt sich dabei um falsche Lesarten der Einer oder Zehner einer Jahreszahl. Bei Dossiers, die Lücken in der Überlieferung aufweisen, kann der Fehler beträchtlich sein, was jedoch eher selten zu erwarten ist. Einträge am Anfang eines Dossiers, die vor 1300 datiert sind, sowie von Dossiers, wo die Differenz zwischen erster und zweiter Karte mehr als 50 Jahre betrug, wurden händisch überprüft. Bei einer Differenz von 50 Jahren sowie gegen 1300 sank die Fehlerquote stark, so dass auf weitere Überprüfungen verzichtet wurde. Insgesamt also sind kleinere Fehler immer noch möglich, Falschdatierungen mit mehreren Jahrzehnten Differenz aber nur sehr selten zu erwarten.
+| Fehler | Es ist zu erwarten, dass einige Folgeseiten von mehrseitigen Einträge eigentlich Parzelleninformationen sind und ausgeschlossen werden müssten. Auf eine händische Durchsicht aller mehrseitigen Einträge wurde verzichtet, da sich der Aufwand nicht rechtfertigen lässt. Insbesondere enthalten Parzelleninformationen kaum Textelemente, die von der Entitäten- oder Eventerkennung fälschlicherweise annotiert würden. Ansonsten ist die Fehlerwarscheinlichkeit bei der Identifizierung von Folgeseiten klein, da die automatisierte Zuweisung von Folgeseiten sehr konservativen Mustern folgte (erste Seite mit Textregion "header", aber ohne "footer" und "credit", folgende Seite(n) ohne "header", aber mit "credit") und viele Folgeseiten händisch identifiziert wurden. |
+| Statistik | Anzahl Einträge mit einer Seite: 119'610<br>Anzahl Einträge mit zwei Seiten: 5'611<br>Anzahl Einträge mit drei Seiten: 149<br>Anzahl Einträge mit vier Seiten: 31<br>Anzahl Einträge mit fünf Seiten: 1<br>Anzahl Einträge mit sechs Seiten: 2<br>Anzahl Einträge mit sieben Seiten: 0<br>Anzahl Einträge mit acht Seiten: 1<br>Anzahl Einträge mit mehr als acht Seiten: 0 |
 
 | year |  |
 |--------|--------|
 | Bedeutung | Dieses Attribut beschreibt die Jahreszahl des Eintrags. |
-| Entstehung | Die Jahreszahl wird auf Basis der aktuellster Transkription jeder Seite ermittelt, welche mit dem Eintrag verknüpft ist (Attribut 'pageId'). Existieren Textregionen des Typs "header" (Attribut 'Transkribus_TextRegion.type'), dann entspricht die Jahreszahl der ersten Übereinstimmung des Musters "1[0-9]{3}". Der Identifikator der Textregion mit der ersten Übereinstimmung des Musters wird im Attribut 'yearSource' gespeichert. Falls keine Jahreszahl gefunden wird und in einer Textregion der Suchbegriff "Zins" vorkommt (Muster "[Zz][iü]n[n]?s"), dann wird die erste Jahreszahl nach demselben Muster aus den Textregionen "paragraph" übernommen. Annahme: der entsprechende Eintrag stammt aus dem "Zinsverzeichnis".<br>Ausgewählte Jahreszahlen wurden manuell definiert, siehe [4.4.2.3 Spezialfälle](#4423-spezialfälle). Manuell definierte Jahreszahlen haben keinen Wert im Attribut 'yearSource' und "TRUE" im Attribut 'manuallyCorrected'. |
-| Spezialfälle | Einträge ohne Jahreszahl enthalten weitere Informationen im Attribut 'comment'. |
-| Fehler | TODO |
+| Entstehung | Die Jahreszahl wird auf Basis der aktuellster Transkription jeder Seite ermittelt, welche mit dem Eintrag verknüpft ist (Attribut 'Project_Entry.pageId'). Existieren Textregionen des Typs "header" (Attribut 'Transkribus_TextRegion.type'), dann entspricht die Jahreszahl der ersten Übereinstimmung des Musters "1[0-9]{3}". Der Identifikator der Textregion mit der ersten Übereinstimmung des Musters wird im Attribut 'Project_Entry.yearSource' gespeichert. Falls keine Jahreszahl gefunden wird und in einer Textregion der Suchbegriff "Zins" vorkommt (Muster "[Zz][iü]n[n]?s"), dann wird die erste Jahreszahl nach demselben Muster aus den Textregionen "paragraph" übernommen. Annahme: der entsprechende Eintrag stammt aus dem "Zinsverzeichnis".<br>Ausgewählte Jahreszahlen wurden manuell definiert, siehe [4.4.2.2 Entstehung](#4422-entstehung). Manuell definierte Jahreszahlen haben keinen Wert im Attribut 'Project_Entry.yearSource' und "TRUE" im Attribut 'Project_Entry.manuallyCorrected'. |
+| Spezialfälle | Einträge ohne Jahreszahl enthalten weitere Informationen im Attribut 'Project_Entry.comment'. |
+| Fehler | Dank der Prüfung der Chronologie der Datierungen innerhalb desselben Dossier sind grössere Fehler weitgehend eliminiert, wenn ein Eintrag nicht am Anfang oder am Ende eines Dossiers steht. Kleinere Fehler, welche die chronologische Ordnung nicht verletzen, sind möglich, meist handelt sich dabei um falsche Lesarten der Einer oder Zehner einer Jahreszahl. Bei Dossiers, die Lücken in der Überlieferung aufweisen, kann der Fehler beträchtlich sein, was jedoch eher selten zu erwarten ist. Einträge am Anfang eines Dossiers, die vor dem Jahr 1300 datiert sind, sowie von Dossiers, mit einer Differenz der Jahreszahlen zweier nachfolgenden Einträgen von mehr als 50 Jahren, wurden händisch überprüft. Bei einer Differenz von 50 Jahren sowie gegen das Jahr 1300 sank die Fehlerquote stark, so dass auf weitere Überprüfungen verzichtet wurde. Insgesamt sind kleinere Fehler möglich, Falschdatierungen mit mehreren Jahrzehnten Differenz aber nur sehr selten zu erwarten. |
 | Statistik | Anzahl Einträge mit Jahreszahl: 124'348<br>Anzahl Einträge mit manuell definierter Jahreszahl: 9'474<br>Anzahl Einträge ohne Jahreszahl: 1'057<br>minimale Jahreszahl: 1002<br>maximale Jahreszahl: 1936 |
 
 | yearSource |  |
 |--------|--------|
-| Bedeutung | Identifikator der Textregion (Attribut 'Transkribus_TextRegion.textRegionId'), aus welcher die Jahreszahl (Attribut 'year') extrahiert worden ist. |
-| Entstehung | siehe Entstehung des Attributs 'year' |
+| Bedeutung | Identifikator der Textregion (Attribut 'Transkribus_TextRegion.textRegionId'), aus welcher die Jahreszahl (Attribut 'Project_Entry.year') extrahiert worden ist. |
+| Entstehung | siehe Entstehung des Attributs 'Project_Entry.year' |
 | Spezialfälle | Einträge ohne Quellenangabe für die Jahreszahl wurden entweder manuell definiert oder keine Jahreszahl ist verfügbar. |
 | Fehler | - |
 | Statistik | Anzahl Einträge mit Quelle der Jahreszahl: 114'874<br>Anzahl Einträge ohne Quelle der Jahreszahl: 10'531 |
 
-
-TODO Benjamin:
-- 4bb4dfc4-2e40-42e7-8fe1-5f87d1c0071d_20241108: Kommentar ist "undatiert", jedoch Jahreszahl ist vorhanden. Muss die Jahreszahl in den Daten entfernt werden? -> Die Entry ist hier falsch definiert: ab S. 37 ist das ein Dokument. Damit wird auch die Frage nach der Datierung hinfällig.
-- Gibt es Werte in comment, welche genauer beschrieben werden sollen? -> Es gibt in datetool und chronotool vier wichtige Kategorien von Kommentaren: 1. ungefähr für Angaben, die mit "um" oder einer ähnlichen Formulierung versehen sind. Hier steht im Feld Jahr eine genaue Zahl, nur der Kommentar lässt erkennen, dass diese Datierung nicht präzise ist. 2. Angaben des Jahrhunderts. Bei undatierten Einträgen, die auf ein Jahrhundert datiert wurden, wird das Jahrhundert im Kommentar erwähnt. 3. Korrekturen: wenn die Karteikarte handschriftlich korrigiert wurde, wurde das ursprüngliche Datum erfasst und die Korrektur als Kommentar. 4. undatiert für die Karteikarten, wo keine Datierung erkenntlich ist, oder die als nicht datierbar gekennzeichnet sind.
-- Existieren Spezialfälle? -> abgesehen von den oben genannten nicht.
-
 | comment |  |
 |--------|--------|
-| Bedeutung | Kommentar ergänzend zur Jahreszahl des Eintrags. |
+| Bedeutung | Kommentar ergänzend zur Jahreszahl des Eintrags. Die meisten Kommentare können einer der folgenden Kategorien zugewiesen werden:<br>- "undatiert": Auf der Karteikarte ist keine Datierung ersichtlich oder als nicht datiert gekennzeichnet.<br>- "ungefähr": Jahreszahl wird im Eintrag ist mit einer Formulierung "um" oder ähnlich versehen. Im Attribut 'Project_Entry.year' wird die Jahreszahl erfasst. Aus dem Kommentar ist ersichtlich, dass diese Datierung nicht präzise ist.<br> - Angabe eines Jahrhunderts, z.B. 15. Jh.: Karteikarte enthaltet statt einer genauen Jahreszahl als Datierung ein Jahrhundert. Das Jahrhundert wird im Kommentar erwähnt.<br>- Korrektur: Wenn die Karteikarte handschriftlich korrigiert wurde, wurde das ursprüngliche Datum in 'Project_Entry.year' erfasst und die Korrektur als Kommentar. |
 | Entstehung | Die Kommentare wurden bei der manuellen Bearbeitung von Jahreszahlen erfasst. |
-| Spezialfälle | Einträge ohne Jahreszahl erhalten immer einen Kommentar in diesem Attribut. |
+| Spezialfälle | Einträge ohne Jahreszahl erhalten immer eine Bemerkung. |
 | Fehler | - |
-| Statistik | Anzahl Einträge mit Kommentar: 1'860<br>Anzahl Einträge ohne Kommentar: 123'545<br>Häufigste Kommentare: undatiert (Anzahl: 733), ungefähr (Anzahl: 627) |
+| Statistik | Anzahl Einträge ohne Kommentar: 123'545<br>Anzahl Einträge mit Kommentar: 1'860<br>Häufigste Kommentare: undatiert (Anzahl: 733), ungefähr (Anzahl: 627) |
 
 | manuallyCorrected |  |
 |--------|--------|
-| Bedeutung | Wenn der Wert "True" ist, wurde die Jahreszahl und/oder Folgeseiten manuell definiert. |
-| Entstehung | Durch die Integration manueller Bearbeitungen wird dieses Attribut generiert. |
+| Bedeutung | Wenn der Wert "True" ist, wurde die Jahreszahl (Attribut 'Project_Entry.year') und/oder Folgeseiten manuell definiert oder bearbeitet, siehe auch [4.4.2.2 Entstehung](#4422-entstehung). |
+| Entstehung | Mit der Integration manueller Bearbeitungen wird dieses Attribut generiert |
 | Spezialfälle | - |
 | Fehler | - |
 | Statistik | False: 114'444<br>True: 10'961 |
 
 | language |  |
 |--------|--------|
-| Bedeutung | Dieses Attribut enthaltet die Sprache des Eintrags der Textregionen (Entität Transkribus_TextRegion) vom Typ "paragraph". Folgende Werte sind verfügbar:<br>- german: Die Textregion(en) umfasst wahrscheinlich Text in deutscher Sprache<br>- latin: Die Textregion(en) umfasst wahrscheinlich Text in lateinischer Sprache<br>- mixed: Die Textregion(en) umfasst Texte in deutscher und lateinischer Sprache oder die Sprache konnte nicht eindeutig bestimmt werden.|
+| Bedeutung | Dieses Attribut enthaltet die Sprache des Eintrags der Textregionen (Entität 'Transkribus_TextRegion') vom Typ "paragraph". Folgende Werte sind verfügbar:<br>- "german": Die Textregion(en) umfasst wahrscheinlich Text in deutscher Sprache<br>- "latin": Die Textregion(en) umfasst wahrscheinlich Text in lateinischer Sprache<br>- "mixed": Die Textregion(en) umfasst Texte in deutscher und lateinischer Sprache oder die Sprache konnte nicht eindeutig bestimmt werden.|
 | Entstehung | Basierend auf den Textregionen vom Typ "paragraph" wird die Sprache mithilfe eines Algorithmus bestummen. Mithilfe der berechneter Konfidenz wurde der Prozess für dieses Projekt optimiert, um die Anzahl falscher Klassierungen in Deutsch und Latein zu minimieren. |
 | Spezialfälle | Fünf Einträge mit pageId in {47446933, 47471458, 47506281, 47573580, 47590707} haben keine Sprache, da für diese pageIds keine Textregion des Typs Paragraph existiert. |
 | Fehler | - Stichprobe für Klasse "german" (n=200): 1% der Stichprobe ist "mixed" statt "german". Diese Fälle beinhalten mehrheitlich Text in Deutsch.<br>- Stichprobe für Klasse "latin" (n=100): 3% der Stichprobe ist "mixed" statt "latin". Diese Fälle beinhalten mehrheitlich Text in Latein.<br>- Stichprobe für Klasse "mixed" (n=100): 19% der Stichprobe ist "german" statt "mixed", 65% der Stichprobe ist "latin" statt "mixed". Diese Fälle sind alle kurze Zeichenfolgen. |
@@ -542,10 +521,10 @@ TODO Benjamin:
 | source |  |
 |--------|--------|
 | Bedeutung | Dieses Attribut beschreibt, aus welchem Quellenbestand der Eintrag stammt. |
-| Entstehung | Die Quellenverweise wurden in der Layout-Erkennung als eigene Textregion erfasst und trainiert. Allerdings stellte sich heraus, dass die Erkennung in rund 15% der Karteikarten gar nicht funktionierte, und auch sonst teilweise fehlerhaft war. Anhand eines Samples von 2'000 erkannten Quellenverweisen (wovon 1894 einer Institution bzw. einem Quellenbestand zugewiesen werden konnten) ergänzt um 65 mehrzeilige Quellenverweise (als Spezialfall) wurde ein Modell trainiert, das aus dem ganzen Text eines Eintrags den Quellenverweis herausliest und diesen einem Quellenbestand bzw. einer Institution zuweist.  |
+| Entstehung | Die Quellenverweise wurden in der Layout-Erkennung als eigene Textregion erfasst und trainiert. Allerdings stellte sich heraus, dass die Erkennung in rund 15% der Karteikarten gar nicht funktionierte, und auch sonst teilweise fehlerhaft war. Anhand eines Samples von 2'000 erkannten Quellenverweisen (wovon 1'894 einer Institution bzw. einem Quellenbestand zugewiesen werden konnten) ergänzt um 65 mehrzeilige Quellenverweise (als Spezialfall), wurde ein Modell trainiert, das aus dem ganzen Text eines Eintrags den Quellenverweis herausliest und diesen einem Quellenbestand bzw. einer Institution zuweist.  |
 | Spezialfälle | 546 Karteikarten sind mehr als einem Quellenbestand zuweisbar. Die Werte sind mit einem Semikolon getrennt. <br>Für Einträge ohne Quellenangabe wurde der Attributwert "fehlt" benutzt.|
 | Fehler | Das Modell erwies sich als sehr zuverlässig, eine Stichprobe von 200 zufällig ausgewählten Einträgen ergab keinen einzigen Fehler.|
-| Statistik | Anzahl unterschiedliche Quellenangaben: 112 distinke Quellenangaben in 244 unterschiedlichen Nennungen (aufgrund der mehr als einem Quellenbestand zuweisbaren Einträgen)<br>Häufigste Quellenangaben: Gerichtsarchiv (Anzahl: 41'317), Notariatsarchiv (9'500), St. Peter (7'682); die 10 häufigsten Nennungen machen 73.2% aller Belege aus.|
+| Statistik | Anzahl unterschiedliche Quellenangaben: 112 distinke Quellenangaben in 244 unterschiedlichen Nennungen (aufgrund der mehr als einem Quellenbestand zuweisbaren Einträgen)<br>Häufigste Quellenangaben:<br>- Gerichtsarchiv (Anzahl: 41'317)<br>- Notariatsarchiv (9'500)<br>- St. Peter (7'682)<br>Die 10 häufigsten Nennungen machen 73.2% aller Belege aus.|
 
 | sourceOrigin |  |
 |--------|--------|
@@ -558,22 +537,22 @@ TODO Benjamin:
 | keyLatestTranscript |  |
 |--------|--------|
 | Bedeutung | Identifikatoren der aktuellster Transkription der zum Eintrag gehörender Seiten (Attribut 'Transkribus_Transcript.key'), gespeichert als Liste. |
-| Entstehung | Das Attribut 'key' wurde durch die Transkribus-Plattform generiert. |
+| Entstehung | Das Attribut 'Transkribus_Transcript.key' wurde durch die Transkribus-Plattform generiert. |
 | Spezialfälle | - |
 | Fehler | - |
 | Statistik | - |
 
 | annotationManual |  |
 |--------|--------|
-| Bedeutung | TODO |
-| Entstehung | TODO Der Datenstand ist 21.08.2025. Quelle: https://zenodo.org/records/16919653. |
+| Bedeutung | Manuell definierte Annotationen des transkribierten Textes im XML-Format (Ground Truth). |
+| Entstehung | Siehe Dokumentation unter https://zenodo.org/records/16919653 |
 | Spezialfälle | - |
 | Fehler | - |
 | Statistik | - |
 
 | annotationAutomated |  |
 |--------|--------|
-| Bedeutung | TODO |
+| Bedeutung | Automatisch generierte Annotationen des transkribierten Textes im XML-Format. |
 | Entstehung | TODO |
 | Spezialfälle | - |
 | Fehler | - |
@@ -646,9 +625,10 @@ TODO
 ### 4.4.4 Entität Project_Relationship
 
 #### 4.4.4.1 Bedeutung
-Elemente der Entität Project_Relationship repräsentieren "Beziehungen" zwischen Dossiers (Elemente von Project_Dossier). Ein Beziehung besteht zwischen zwei Dossiers, wenn das eine Dossier aus dem anderen Dossier hervorgeht. Beispielsweise existieren zwei Beziehungen, wenn ein Gebäude in zwei Teile geteilt wird. Zeitlich "existiert" zuerst ein Dossier, nach der Teilung existieren zwei Dossiers. Das ursprüngliche Dossier hat somit je eine Beziehung zu den Dossier nach der Teilung.
-Das Attribut 'sourceDossierId enthaltet die dossierId des Dossiers, von welcher die Beziehung ausgeht ("Quelldossier", "Vorgänger"). Das Attribut 'targetDossierId' enthaltet die dossierID des Dossiers, welche zeitlich auf das Quelldossier folgt ("Zieldossier", "Nachfolger"). Ein Dossier kann mit einem oder mehreren Quelldossier als auch Zieldossier verknüpft sein.
+Elemente der Entität 'Project_Relationship' repräsentieren "Beziehungen" zwischen Dossiers (Elemente der Entität 'Project_Dossier'). Eine Beziehung besteht zwischen zwei Dossiers, wenn das eine Dossier aus dem anderen Dossier hervorgeht. Beispielsweise existieren zwei Beziehungen, wenn ein Gebäude in zwei Teile geteilt wird. Zeitlich "existiert" zuerst ein Dossier, nach der Teilung existieren zwei Dossiers. Das ursprüngliche Dossier hat somit je eine Beziehung zu den Dossier nach der Teilung.
+Das Attribut 'Project_Relationship.sourceDossierId' enthaltet die "dossierId" des Dossiers, von welcher die Beziehung ausgeht ("Quelldossier", "Vorgänger"). Das Attribut 'Project_Relationship.targetDossierId' enthaltet die "dossierId" des Dossiers, welche zeitlich auf das Quelldossier folgt ("Zieldossier", "Nachfolger"). Ein Dossier kann mit einem oder mehreren Quelldossier als auch Zieldossier verknüpft sein.
 
+TODO
 This entity maps direct temporal relationships between HGB dossiers (represented as a direct edge list). The relationships were determined on the basis of the cluster information (see dossier_relationship.py) using a rule-based approach and manual editing. Dossier represented by identifier in sourceDossierId has as descendant dossier with identifier in targetDossierId. Conversely, dossier represented by identifier in targetDossierId has dossier with identifier in sourceDossierId as previous dossier. Dossier can have several descendants or preceding dossiers due to a split or merge.
 
 #### 4.4.4.2 Entstehung
