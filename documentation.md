@@ -3,10 +3,17 @@ Dokumentation Projektdatenbank
 
 
 # 1 Einleitung
-TODO
-- Hinweis auf Projekt, in welchem diese Datenbank erstellt worden ist
-- Ziel von diesem Dokument: Dokumentiert die im Projekt entwickelte Datenbank ("Projektdatenbank").
-- Inhalt von diesem Dokument (Übersicht) 
+Dieses Dokument beschreibt die Entwicklung der relationalen "Projektdatenbank", welche im Rahmen es Projekts "Ökonomien des Raums" zwischen 2022 und 2026 entstanden ist (https://dg.philhist.unibas.ch/de/bereiche/mittelalter/forschung/oekonomien-des-raums/).
+
+Datengrundlage ist das "Historische Grundbuch der Stadt Basel" (HGB). Das HGB umfasst Auszüge aus Archivdokumenten zu Liegenschaften der Basler Altstadt in einer strukturierten Form. Die Einträge reichen von 11. Jahrhundert bis ins 19. Jahrhundert. Ziel bei der Erstellung des HGB war eine möglichst vollständige Sammlung verfügbarer Informationen der Liegenschaften. Insbesondere Angaben zu Verkäufen, Frönungen und Zinszahlungen sind im HGB dokumentiert. Das HGB wurde durch das Staatsarchiv Basel-Stadt digitalisiert und online zur Verfügung gestellt. Die Digitalisate werden durch detailreiche Metadaten bereichert (https://blog.staatsarchiv-bs.ch/neu-online-einsehbar-das-historische-grundbuch/).
+
+Die vorliegenden Daten ermöglichen eine detaillierte raum-zeitliche Analyse der Basler Altstadt vom 11. bis ins 19. Jahrhundert. Da der Datensatz umfassende Informationen über die historischen Akteure dieser Liegenschaften enthält, lassen sich spezifische Muster und Dynamiken auf dem damaligen Immobilienmarkt präzise untersuchen. Auf dieser soliden Datenbasis können in der Folge konkrete, eigene Fragestellungen und theoretische Ansätze fundiert bearbeitet werden.
+
+TODO Verweis auf publizierte Datenbank (Zenodo) folgt
+
+Basierend auf der relationalen Projektdatenbank wird einen Graph entwickelt, so dass diese Daten ebenfalls als Linked Open Data (LOD) zur Verfügung stehen. Weitere Informationen zu diesem Prozess sind im Repository [economies-of-space-lod](https://github.com/history-unibas/economies-of-space-lod) zu finden. 
+
+Diese Dokumentation ist wie folgt aufgebaut: Kapitel [2 Systemarchitektur](#2-systemarchitektur) beschreibt die für die Erstellung der Datenbank verwendeten Daten. Einen Überblick über das Datenmodell liefert Kapitel [3 Modellbeschreibung](#3-modellbeschreibung). Das Kapitel [4 Prozesse](#4-prozesse) beschreibt im Detail die Datenaufbereitung sowie die nun verfügbaren Daten. Schliesslich beschreibt Kapitel [5 Glossar](#5-glossar) im Dokument verwendete Begiffe.
 
 
 # 2 Systemarchitektur
@@ -17,12 +24,12 @@ Für die Befüllung der Projektdatenbank werden Daten aus unterschiedlichen Quel
 Folgende Stellen und Hilfsmittel sind am Datenfluss beteiligt:
 - Das Staatsarchiv stellt Digitalisate sowie Metadaten des historischen Grundbuchs Basel (HGB) zur Verfügung.
 - Auf der Transkribus Plattform wird das Layout analysiert und semantisch angereichert (Identifikation des Typs einer Textregion, beispielsweise Datumszeile, Quellenverweis oder Haupttext) und Texte automatisiert erkannt.
-- Das Grundbuch- und Vermessungsamt ermittelt auf der Basis der Adresse pro HGB-Dossier einen geographischen Standort, insofern dies ermittelbar ist. 
+- Das Grundbuch- und Vermessungsamt des Kantons Basel-Stadt ermittelt auf der Basis der Adresse pro HGB-Dossier einen geographischen Standort, insofern dies ermittelbar ist. 
 - In der Projektdatenbank werden die für die Forschung zentralen Informationen gespeichert und zur Verfügung gestellt. Weitere Details zur Datenbank sind im nachfolgenden Kapitel [3 Modellbeschreibung](#3-modellbeschreibung) dokumentiert.
 
 Zentrale Prozesse des Datenflusses sind in Kapitel [4 Prozesse](#4-prozesse) beschrieben.
 
-Für den gesamten Datenfluss ist die Replizierbarkeit sichergestellt, da alle Prozesse über Skripte angestossen werden (u.a. mit Zugriff auf die API von Transkribus). Insbesondere wird die Projektdatenbank mit einem [Skript](https://github.com/history-unibas/Postgresql-Project-Database/blob/main/project_database_update.py) erstellt, befüllt und aktualisiert .
+Für den gesamten Datenfluss ist die Replizierbarkeit sichergestellt, da alle Prozesse über Skripte angestossen werden (u.a. mit Zugriff auf die API von Transkribus). Insbesondere wird die Projektdatenbank mit einem Skript [project_database_update.py](https://github.com/history-unibas/Postgresql-Project-Database/blob/main/project_database_update.py) erstellt, befüllt und aktualisiert .
 
 
 # 3 Modellbeschreibung
@@ -32,7 +39,7 @@ Die Projektdatenbank ist unterteilt in folgende Gruppen von Entitäten:
 - **StABS**: Die Entitäten enthalten Metadaten des HGB, basierend auf Daten des [Linked Open Data Portals](https://ld.bs.ch/).
 - **Transkribus**: Entitäten dieser Gruppe enthalten ausgewählte Daten der Plattform [Transkribus](https://readcoop.eu/transkribus/), insbesondere Transkriptionen ausgewählter Digitalisate sowie Informationen zur Kategorisierung visueller Einheiten (Textregionen, die als "Paragraph"/"Quellenangabe"/"Titulatur" etc. definiert werden).
 - **Geo**: Daten mit geographischer Informationen werden in Entitäten dieser Gruppe gespeichert.
-- **Project**: Entitäten enthalten aufbereitete Daten basierend auf Daten aus den anderen Gruppen.
+- **Project**: Entitäten enthalten automatisiert als auch händisch aufbereitete Daten basierend auf Daten aus den anderen Gruppen.
 
 Das Präfix der Bezeichnung jeder Entität entspricht der Gruppenbezeichnung. In der nachfolgender Tabelle sind alle Entitäten aufgeführt. In Kapitel [4 Prozesse](#4-prozesse) werden die Entitäten genauer umschrieben.
 | Bezeichnung | Bedeutung | Anzahl Elemente |
@@ -47,28 +54,29 @@ Das Präfix der Bezeichnung jeder Entität entspricht der Gruppenbezeichnung. In
 | [Transkribus_TextRegion](#425-entität-transkribus_textregion) | Daten von Transkribus einer transkribierten Textregion | 607'771 |
 | [Geo_Address](#431-entität-geo_address) | Geographische Standorte von HGB-Dossier | 3'785 |
 | [Project_Dossier](#441-entität-project_dossier) | Aufbereitete Informationen zu Adressen | 4'347 |
-| [Project_Entry](#442-entität-project_entry) | Aufbereitete Informationen zu HGB-Einträgen | 125'405 |
+| [Project_Entry](#442-entität-project_entry) | Aufbereitete Informationen zu HGB-Einträge | 125'405 |
 | [Project_Period](#443-entität-project_period) | Gültigkeitszeiträume der Dossier | 4'724 |
-| [Project_Relationship](#444-entität-project_relationship) | Aufbereitete Beziehungen zwischen Dossier | 2'176 |
+| [Project_Relationship](#444-entität-project_relationship) | Beziehungen zwischen Dossier | 2'176 |
 
-Die folgende Grafik zeigt, wie diese Entitäten in Beziehung gesetzt werden können. Lesebeispiel für die Beziehung zwischen StABS_Serie und StABS_Dossier: Ein Element der Entität StABS_Serie ist verbunden zu einem oder mehreren Elementen der Entität StABS_Dossier. Umgekehrt, ein Element der Entität StABS_Dossier ist mit genau einem Element der Entität StABS_Serie verbunden.
+Die folgende Grafik zeigt die zentralen Beziehungen zwischen den Entitäten. Lesebeispiel für die Beziehung zwischen StABS_Serie und StABS_Dossier: Ein Element der Entität StABS_Serie ist verbunden zu einem oder mehreren Elementen der Entität StABS_Dossier. Umgekehrt, ein Element der Entität StABS_Dossier ist mit genau einem Element der Entität StABS_Serie verbunden.
 
 ![Beziehungen](entityRelations.drawio.svg)
 
-Eine formale Beschreibung der Entitäten in der Datenbank ist im [Readme des Github-Repositories](https://github.com/history-unibas/Postgresql-Project-Database/blob/main/README.md#database-schema) dokumentiert. 
+Eine formale Beschreibung der Entitäten in der Datenbank ist im [Readme](https://github.com/history-unibas/Postgresql-Project-Database/blob/main/README.md#database-schema) des Github-Repositories dokumentiert. 
 
 
 # 4 Prozesse
 Dieses Kapitel dokumentiert pro Gruppe von Entitäten die Aufbereitung der Daten aus dem HGB:
-- Gruppe StABS: [4.1 HGB-Metadaten in Projektdatenbank integrieren](#41_hgb-metadaten_in_projektdatenbank_integrieren)
-- Gruppe Transkribus: [4.2 Verarbeitung der Digitalisate](#42_verarbeitung_der_digitalisate)
-- Gruppe Geo: [4.3 HGB-Dossier georeferenzieren](#43_hgb-dossier_georeferenzieren)
-- Gruppe Project: [4.4 Anreicherung von Daten](#44_anreicherung_von_daten)
+- Gruppe StABS: [4.1 HGB-Metadaten in Projektdatenbank integrieren](#41-hgb-metadaten-in-projektdatenbank-integrieren)
+- Gruppe Transkribus: [4.2 Verarbeitung der Digitalisate](#42-verarbeitung-der-digitalisate)
+- Gruppe Geo: [4.3 HGB-Dossier georeferenzieren](#43-hgb-dossier-georeferenzieren)
+- Gruppe Project: [4.4 Anreicherung von Daten](#44-anreicherung-von-daten)
 
 
 ## 4.1 HGB-Metadaten in Projektdatenbank integrieren
-Das Staatsarchiv Basel-Stadt (StABS) stellt via des [Linked Open Data Portals](https://ld.bs.ch/) Metadaten zum HGB zur Verfügung. Mithilfe eines [Skripts](https://github.com/history-unibas/Postgresql-Project-Database/blob/main/project_database_update.py) werden Metadaten des HGB gelesen und in der Projektdatenbank als Entitäten [StABS_Serie](#411-entität-stabs_serie), [StABS_Dossier](#412-entität-stabs_dossier) und [StABS_Page](#413-entität-stabs_page) gespeichert.
-
+Das Staatsarchiv Basel-Stadt (StABS) stellt via des [Linked Open Data Portals](https://ld.bs.ch/) Metadaten zum HGB zur Verfügung. Mithilfe eines Skripts [project_database_update.py](https://github.com/history-unibas/Postgresql-Project-Database/blob/main/project_database_update.py) werden Metadaten des HGB gelesen und in der Projektdatenbank als Entitäten [StABS_Serie](#411-entität-stabs_serie), [StABS_Dossier](#412-entität-stabs_dossier) und [StABS_Page](#413-entität-stabs_page) gespeichert. In diesem Prozess werden ebenfalls Funktionen aus dem Repository [
+economies-of-space-metadata
+](https://github.com/history-unibas/economies-of-space-metadata) verwendet.
 
 ### 4.1.1 Entität StABS_Serie
 
@@ -188,7 +196,7 @@ TODO
 - Prozess beschreiben (https://drive.switch.ch/index.php/f/6566052981) -> Transkribus
 - inkl. Paper, Kapitel 5
 - Auf ausgeschlossene Seiten hinweisen -> #### 4.2.4.3 Spezialfälle
-
+- Auf https://github.com/history-unibas/economies-of-space-transkribus verlinken
 
 ### 4.2.1 Entität Transkribus_Collection
 
@@ -285,7 +293,7 @@ Jede Bearbeitung einer Seite auf Transkribus wie beispielsweise eine Layoutanaly
 
 #### 4.2.4.3 Spezialfälle
 TODO: Nicht bearbeitete Seiten auflisten -> gekennzeichnet mit Status DONE
-- Brandlagerbücher
+- Brandlagerbücher (Verweis auf https://github.com/history-unibas/economies-of-space-pix-plot anfügen)
 - Reichspfennigverzeichnisse
 - Titelseiten (erste zwei Seiten eines Dossiers) -> Status NEW
 - Dossier ausserhalb Stadtmauern
@@ -304,7 +312,7 @@ Anmerkung Benjamin: Grundsätzlich ausgeschlossen wurden Brandlagerbücher, die 
 | pageXML | pageXML des Transkripts |
 | status | Definierter Status der Transkripts. Bedeutung der Werte:<br>- NEW: Seite wurde auf Transkribus hochgeladen <br>- IN_PROGRESS: Seite wurde bearbeitet <br>- DONE: Seite wird von weiterer Verarbeitung ausgeschlossen |
 | timestamp | Zeitpunkt der Erstellung des Transkripts |
-| htrModel | Für die durchgeführte Trankription oder Bearbeitung der Seite verwendetes Modell. <br> TODO: Beschreiben, welche Modelle benutzt worden sind (oder verlinken) |
+| htrModel | Für die durchgeführte Trankription oder Bearbeitung der Seite verwendetes Modell. <br> TODO Beschreiben, welche Modelle benutzt worden sind (oder verlinken) |
 
 
 ### 4.2.5 Entität Transkribus_TextRegion
@@ -332,7 +340,6 @@ Textregionen ohne transkribierten Text sind von dieser Entität ausgeschlossen. 
 ## 4.3 HGB-Dossier georeferenzieren
 Um Erkenntnisse aus dem HGB räumlich analysieren zu können und Ergebnisse im Raum darzustellen, soll jedes für das Projekt relevante Dossier räumlich verortet werden. Zur Erreichung dieses Ziels, wurde in einem ersten Schritt HGB-Dossier durch das [Grundbuch- und Vermessungsamt des Kantons Basel-Stadt](https://www.bs.ch/bvd/grundbuch-und-vermessungsamt) georeferenziert. Dieser Prozess wird in diesem Kapitel beschrieben. Im zweiten Schritt wurde im Rahmen des Projekts weitere geographische Standorte ermittelt sowie Standorte verbessert. Dieser Prozess ist in Kapitel [4.4.1.4 Beschreibung der Attribute](#4414-beschreibung-der-attribute) in den Attributen 'locationUncorrected' und 'location' dokumentiert.
 
-
 ### 4.3.1 Entität Geo_Address
 
 #### 4.3.1.1 Bedeutung
@@ -345,7 +352,7 @@ Die Georeferenzierung von HGB-Dossiers kann durch folgende Teilprozesse beschrie
 
 - **HGB-Metadaten beziehen**: Mithilfe des [Linked Data Portal Basel-Stadt](https://ld.bs.ch/) werden Metadaten zum HGB bezogen.
 - **Dossier georeferenzieren**: Auf Basis eines Datensatzes von geolokalisierten historischen Adressen der Stadt Basel und den HGB-Metadaten ("Titel" und "Alte Hausnummer") hat das Grundbuch- und Vermessungsamt mit einem [FME-Skript](https://fme.safe.com/) eine Shape-Datei erstellt. Ein HGB-Dossier wird durch einen Punkt im Koordinatensystem LV95 ([EPSG:2056](https://epsg.io/2056)) repräsentiert.
-- **Daten in Projektdatenbank integrieren**: Mithilfe eines [Skript](https://github.com/history-unibas/Postgresql-Project-Database/blob/main/project_database_update.py) werden die Daten der Shape-Datei gelesen und in der Projektdatenbank gespeichert.
+- **Daten in Projektdatenbank integrieren**: Mithilfe des Skripts [project_database_update.py](https://github.com/history-unibas/Postgresql-Project-Database/blob/main/project_database_update.py) werden die Daten der Shape-Datei gelesen und in der Projektdatenbank gespeichert.
 
 #### 4.3.1.3 Spezialfälle
 Umfasst ein HGB-Dossier mehr als eine Hausnummer, wird für die Geolokalisierung die erste Hausnummer verwendet.
@@ -371,10 +378,12 @@ Die vom Grundbuch- und Vermessungsamt erhaltene Shape-Datei wird ohne Veränderu
 ## 4.4 Anreicherung von Daten
 Auf Basis der Entitäten der Gruppen "StABS", "Transkribus" und "Geo" ([3 Modellbeschreibung](#3-modellbeschreibung)) wurden die Entitäten der Gruppe "Project" iterativ mithilfe von Skripts und manueller Bearbeitung entwickelt.
 
+Auf inhaltlicher Ebene erfolgte eine automatisierte Annotation durch Maschine-Learning-Modelle. Diese Annotationen erfassen verschachtelte Entitäten, Ereignisse und Beziehungen, wodurch die komplexen Interaktionen zwischen den verschiedenen Akteuren und Eigenschaften präzise widergespiegelt werden. Die annotierten Daten sind im XML-Format im Attribut 'Project_Entry.annotationAutomated' gespeichert.
+
 ### 4.4.1 Entität Project_Dossier
 
 #### 4.4.1.1 Bedeutung
-Jedes Element dieser Entität ("Dossier") repräsentiert ein Dossier im Historisches Grundbuch der Stadt Basel (HGB). Alle Dossier sind ebenfalls in der Tabelle StABS_Dossier abgebildet.
+Jedes Element dieser Entität ("Dossier") repräsentiert ein Dossier im Historisches Grundbuch der Stadt Basel (HGB). Alle Dossier sind ebenfalls in der Entität 'StABS_Dossier' abgebildet.
 
 #### 4.4.1.2 Entstehung
 Es werden ausschliesslich Dossier in dieser Entität abgebildet, welche mindestens einen Eintrag in der Entität Project_Entry mit Bezug zum entsprechenden Dossier besitzt.
@@ -410,7 +419,7 @@ Es werden ausschliesslich Dossier in dieser Entität abgebildet, welche mindeste
 | locationUncorrected |  |
 |--------|--------|
 | Bedeutung | Dieses Attribut beinhaltet der geografische Standort des Dossiers im Koordinatensystem LV95 (EPSG:2056). |
-| Entstehung | Die Standorte basierend mehrheitlich auf Daten des Grundbuch- und Vermessungsamt des Kantons Basel-Stadt (Entität Geo_Address). Für ausgewählte Dossier sowie für Dossier ohne Standort in der Entität Geo_Address wurde mithilfe eines Skripts Standorte ermittelt basierend auf vorhandenen Standorte (Entität Geo_Address). Um Fehler zu reduzieren und den Datensatz zu vervollständigen, wurden anschliessend Standorte von Dossier manuell geprüft und gesetzt basierend auf dem Löffelplan von 1862 (https://www.bs.ch/bvd/grundbuch-und-vermessungsamt/vermessung/historische-plaene). Manuell definiert oder kontrolliert wurden Standorte von Dossier, welche nach der Anwendung des Skripts keinen Standort besassen, sich innerhalb von 20 Meter kein weiteres Dossier derselben Strasse befindet aufgrund des Verdachtes auf einen fehlerhaften Standort, alle Dossier der Hebelstrasse aufgrund fraglicher Geolokalisierung sowie einzelne bei der Durchsicht aufgefallene Dossier. Die Herkunft jedes Dossier-Standortes kann dem Attribut 'Project_Dossier.locationUncorrectedOrigin' entnommen werden. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
+| Entstehung | Die Standorte basierend mehrheitlich auf Daten des Grundbuch- und Vermessungsamt des Kantons Basel-Stadt (Entität Geo_Address). Für ausgewählte Dossier sowie für Dossier ohne Standort in der Entität Geo_Address wurde mithilfe eines Skripts Standorte ermittelt basierend auf vorhandenen Standorte (Entität Geo_Address). Um Fehler zu reduzieren und den Datensatz zu vervollständigen, wurden anschliessend Standorte von Dossier manuell geprüft und gesetzt basierend auf dem [Löffelplan](https://www.bs.ch/bvd/grundbuch-und-vermessungsamt/vermessung/historische-plaene) des Jahres 1862. Manuell definiert oder kontrolliert wurden Standorte von Dossier, welche nach der Anwendung des Skripts keinen Standort besassen, sich innerhalb von 20 Meter kein weiteres Dossier derselben Strasse befindet aufgrund des Verdachtes auf einen fehlerhaften Standort, alle Dossier der Hebelstrasse aufgrund fraglicher Geolokalisierung sowie einzelne bei der Durchsicht aufgefallene Dossier. Die Herkunft jedes Dossier-Standortes kann dem Attribut 'Project_Dossier.locationUncorrectedOrigin' entnommen werden. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
 | Spezialfälle | 6 Dossier haben keinen definierten Standort (locationUncorrectedAccuracy='nicht lokalisierbar') und beinhalten Informationen zu Gewässer, Teich oder Mauer (siehe Attribut 'Project_Dossier.specialType'). |
 | Fehler | Für Dossier, dessen Standort manuell festgelegt wurde, beinhaltet das Attribut 'Project_Dossier.locationUncorrectedAccuracy' eine Aussage über die Genaugikeit des Standortes. Für Standorte, welche vom Grundbuch- und Vermessungsamt übernommen worden sind, können wir keine Angabe machen (locationUncorrectedAccuracy='unbekannt').<br>Bei der Entwicklung des Attributs 'Project_Dossier.location' wurden manuell die Standorte einzelner Dossier verbessert. Diese Korrekturen wurden nicht im Attribut 'Project_Dossier.locationUncorrected' umgesetzt. |
 | Statistik | - |
@@ -418,7 +427,7 @@ Es werden ausschliesslich Dossier in dieser Entität abgebildet, welche mindeste
 | location |  |
 |--------|--------|
 | Bedeutung | Dieses Attribut beinhaltet den geschobenen geografischen Standort des Dossiers im Koordinatensystem LV95 (EPSG:2056). Im Vergleich zum Attribut 'Project_Dossier.locationUncorrected' wurden der Standort für ausgewählte Dossier verschoben mit dem Ziel, dass weniger Dossier denselben Standort besitzen und damit die Darstellung der Dossier auf einer Karte zu verbessern. |
-| Entstehung | Der geschobene Standort basiert auf dem Attribut 'Project_Dossier.locationUncorrected'. Mithilfe eines Algorithmus wurde für Dossier, in welchen im Titel (Attribut 'StABS_Dossier.title') "neben" erwähnt ist, ein entsprechendes Dossier gesucht. Ist ein "neben-Dossier" verfügbar, wurde der Standort um 1/4 der Distanz in Richtung des neben-Dossier verschoben. Beispiel: "St. Alban-Vorstadt Theil von 17 neben 15" (Dossier: HGB_1_010_041, neben-Dossier: "St. Alban-Vorstadt 15", HGB_1_010_039). Die Distanz von einem Viertel ist willkürlich gewählt, muss aber deutlich weniger als die Hälfte sein, weil sonst «Teil von 15 neben 17» auf den gleichen Punkt zu liegen käme. Für Dossier, welche im Titel mehrere Adressen umfassen ("verbundene Dossier"), wurden entsprechende Dossier gesucht, welche je eine Adresse abbildet. Wurden entsprechende Dossier gefunden, ist als verschobener Standort des verbundenen Dossiers der geometrischer Schwerpunkt der entsprechenden Dossier definiert worden. Beispiel: "St. Alban-Graben 8, 10" (Dossier: HGB_1_005_020, entsprechende Dossier: "St. Alban-Graben 8", HGB_1_005_019 und "St. Alban-Graben 10", HGB_1_005_021).<br>Ausgewählte Dossier wurden anschliessend manuell geprüft und verschoben basierend auf dem Löffelplan von 1862 (https://www.bs.ch/bvd/grundbuch-und-vermessungsamt/vermessung/historische-plaene). Manuell geprüft wurden Standorte von Dossier, welche mit dem Skript verschoben worden sind sowie Dossier, welche aufgrund des Titels (Attribut 'StABS_Dossier.title') eine Verschiebung erwartet wurde. Insbesondere wurde die Unterscheidung in Vorder- und Hinterhäuser zusätzlich getroffen, wenn sie ersichtlich war. Bei der abschliessenden manuellen Durchsicht sind viele Dossiers aufgefallen, die nicht ganz korrekt lokalisiert waren. Händische Korrekturen erfolgten vornehmlich (aber nicht nur) dort, wo die Strassen um 1862 stark vom früheren Strassenbild abwichen (Beispiele: Eisengasse, untere Freie Strasse, Fischmarkt). In diesen Fällen wurden die im HGB hinterlegten Planzeichnungen konsultiert. Im Attribut 'Project_Dossier.locationOrigin' ist festgehalten, welche Dossier mit dem Algorithmus respektive manuell verschoben worden sind. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
+| Entstehung | Der geschobene Standort basiert auf dem Attribut 'Project_Dossier.locationUncorrected'. Mithilfe eines Algorithmus wurde für Dossier, in welchen im Titel (Attribut 'StABS_Dossier.title') "neben" erwähnt ist, ein entsprechendes Dossier gesucht. Ist ein "neben-Dossier" verfügbar, wurde der Standort um 1/4 der Distanz in Richtung des neben-Dossier verschoben. Beispiel: "St. Alban-Vorstadt Theil von 17 neben 15" (Dossier: HGB_1_010_041, neben-Dossier: "St. Alban-Vorstadt 15", HGB_1_010_039). Die Distanz von einem Viertel ist willkürlich gewählt, muss aber deutlich weniger als die Hälfte sein, weil sonst «Teil von 15 neben 17» auf den gleichen Punkt zu liegen käme. Für Dossier, welche im Titel mehrere Adressen umfassen ("verbundene Dossier"), wurden entsprechende Dossier gesucht, welche je eine Adresse abbildet. Wurden entsprechende Dossier gefunden, ist als verschobener Standort des verbundenen Dossiers der geometrischer Schwerpunkt der entsprechenden Dossier definiert worden. Beispiel: "St. Alban-Graben 8, 10" (Dossier: HGB_1_005_020, entsprechende Dossier: "St. Alban-Graben 8", HGB_1_005_019 und "St. Alban-Graben 10", HGB_1_005_021).<br>Ausgewählte Dossier wurden anschliessend manuell geprüft und verschoben basierend auf dem [Löffelplan](https://www.bs.ch/bvd/grundbuch-und-vermessungsamt/vermessung/historische-plaene) des Jahres 1862. Manuell geprüft wurden Standorte von Dossier, welche mit dem Skript verschoben worden sind sowie Dossier, welche aufgrund des Titels (Attribut 'StABS_Dossier.title') eine Verschiebung erwartet wurde. Insbesondere wurde die Unterscheidung in Vorder- und Hinterhäuser zusätzlich getroffen, wenn sie ersichtlich war. Bei der abschliessenden manuellen Durchsicht sind viele Dossiers aufgefallen, die nicht ganz korrekt lokalisiert waren. Händische Korrekturen erfolgten vornehmlich (aber nicht nur) dort, wo die Strassen um 1862 stark vom früheren Strassenbild abwichen (Beispiele: Eisengasse, untere Freie Strasse, Fischmarkt). In diesen Fällen wurden die im HGB hinterlegten Planzeichnungen konsultiert. Im Attribut 'Project_Dossier.locationOrigin' ist festgehalten, welche Dossier mit dem Algorithmus respektive manuell verschoben worden sind. Unterschiedliche Standorte, welche sich weniger als einen Meter voneinander entfernt befinden, wurden harmonisiert. |
 | Spezialfälle | 6 Dossier haben keinen definierten Standort und beinhalten Informationen zu Gewässer, Teich oder Mauer (siehe Attribut 'Project_Dossier.specialType'). |
 | Fehler | Die Genauigkeit war bei der Defintion der Standorte kein eigentliches Ziel. Die Dossiers wurden zwar in eine plausible Richtung verschoben und sind in den meisten Fällen genauer platziert als zuvor (Attribut 'Project_Dossier.locationUncorrected'), das lässt sich aber nicht messen. Die händische Verschiebung wurde nach Augenmass und nicht mit einer korrekten Messung vorgenommen. |
 | Statistik | - |
@@ -436,7 +445,7 @@ Es werden ausschliesslich Dossier in dieser Entität abgebildet, welche mindeste
 | Bedeutung | Mit diesem Attribut werden Dossier markiert, welche nicht ein Gebäude repräsentieren, zum Beispiel ein Gewässer. |
 | Entstehung | Mit einfachen Stichwortsuchen (z.B. nach dem Begriff "Laden") im Attribut 'StABS_Dossier.title' wurden Dossier identifiziert, welche kein Gebäude abbildet. |
 | Spezialfälle | - |
-| Fehler | Bei der visuellen Kontrolle des Attributs 'StABS_Dossier.title' von Dossier ohne Zugehörigkeit zu einem Cluster (Skript dossier_relationship.py) und ohne Wert im Attribut 'Project_Dossier.specialType' wurden keine weiteren spezielle Dossier gefunden. In dieser Teilmenge existieren jedoch Dossier mit einem Strassennamen aber ohne Hausnummer, beispielsweise in der Freien Strasse. Diese Dossier besitzen teilweise eine alte Hausnummer (Attribut 'StABS_Dossier.oldhousenumber'), es könnte jedoch auch einen Hinweis sein auf weitere "Spezial-Dossier", welche in diesem Attribut nicht berücksichtigt sind. |
+| Fehler | Bei der visuellen Kontrolle des Attributs 'StABS_Dossier.title' von Dossier ohne Zugehörigkeit zu einem Cluster (Skript [dossier_relationship.py](https://github.com/history-unibas/economies-of-space-database/blob/main/dossier_relationship.py)) und ohne Wert im Attribut 'Project_Dossier.specialType' wurden keine weiteren spezielle Dossier gefunden. In dieser Teilmenge existieren jedoch Dossier mit einem Strassennamen aber ohne Hausnummer, beispielsweise in der Freien Strasse. Diese Dossier besitzen teilweise eine alte Hausnummer (Attribut 'StABS_Dossier.oldhousenumber'), es könnte jedoch auch einen Hinweis sein auf weitere "Spezial-Dossier", welche in diesem Attribut nicht berücksichtigt sind. |
 | Statistik | [NULL]: 3'937<br>Unbestimmte Liegenschaften: 98 <br>Strassenkörper: 92<br>Brunnen: 50<br>Dohle: 41<br>Unbestimmt: 27<br>Gewässer: 16<br>Keller: 12<br>Garten: 10<br>Laden: 9<br>Sammeldossier: 9<br>Boden: 5<br>Graben: 5<br>Zins: 5<br>Brotbank: 4<br>Bank: 3<br>Graben, Mauer: 3<br>Nachträge: 3<br>Teich: 3<br>Mauer: 2<br>Quartier: 2<br>Tor: 2<br>Abort: 1<br>Allmend : 1<br>Brunnen, Unbestimmte Liegenschaften: 1<br>Brücke: 1<br>Halseisen, Heisserstein: 1<br>Häuserverzeichnis: 1<br>Platz: 1<br>Salzkasten: 1 <br>Schutzrein: 1|
 
 
@@ -448,7 +457,7 @@ Jedes Element dieser Entität ("Eintrag") repräsentiert einen im HGB erfassten 
 #### 4.4.2.2 Entstehung
 Es werden Seiten des HGB betrachtet, welche transkribiert worden sind (Entität 'Transkribus_Transcript'). Für die Generierung der Einträge wird das aktuellste Transkript einer Seite verwendet (Attribut 'Transkribus_Transcript.timestamp'). Hat das aktuellste Transkript den Status "DONE" (Attribut 'Transkribus_Transcript.status'), wird diese Seite nicht berücksichtigt. Ebenfalls werden Seiten ausgeschlossen, welche einem Dossier verbunden ist, welches sich ausserhalb der Stadtmauern befindet. Seiten ohne Textregionen (Entität 'Transkribus_TextRegion') sind ebenfalls ausgenommen. Manuell wurden 3'202 Seiten für die Generierung dieser Entität ausgeschlossen. Darunter fallen insbesondere Karteikarten, die Parzelleninformationen enthalten (Angaben zu zeitweise zusammengelegte Dossiers, oder auch Angaben zur Baugeschichte wie gefundene Jahreszahlen). Identifiziert wurden diese Seiten hauptsächlich bei der händischen Datierung (siehe nächster Abschnitt) oder der händischen Zuweisung von Quellenbelegen von Einträgen (Attribut 'Project_Entry.source').
 
-Manuell wurden Einträge bearbeitet, namentlich die Jahreszahl (Attribut 'Project_Entry.year') und die Definition von Seiten als Folgeseiten. Alle undatierte Einträge wurden händisch durchgesehen. Basierend auf einer Analyse unter der Annahme, dass Einträge chronologisch in einem Dossier abgelegt sind, wurden weitere Jahreszahlen überprüft. Bei weiteren Analysen und Prüfungen wurden weitere Datierungen überprüft und korrigiert. Manuell bearbeitete Einträge haben im Attribut 'Project_Entry.manuallyCorrected' den Wert "True". Weitere Angaben zur Jahreszahl enthaltet das Attribut 'Project_Entry.comment', insbesondere für Einträge ohne eine Jahreszahl.
+Manuell wurden Einträge bearbeitet, namentlich die Jahreszahl (Attribut 'Project_Entry.year') und die Definition von Seiten als Folgeseiten. Alle undatierte Einträge wurden händisch durchgesehen. Basierend auf einer Analyse (Skript [year_analysis.py](https://github.com/history-unibas/economies-of-space-database/blob/main/year_analysis.py)) unter der Annahme, dass Einträge chronologisch in einem Dossier abgelegt sind, wurden weitere Jahreszahlen überprüft. Bei weiteren Analysen und Prüfungen wurden weitere Datierungen überprüft und korrigiert. Manuell bearbeitete Einträge haben im Attribut 'Project_Entry.manuallyCorrected' den Wert "True". Weitere Angaben zur Jahreszahl enthaltet das Attribut 'Project_Entry.comment', insbesondere für Einträge ohne eine Jahreszahl.
 
 #### 4.4.2.3 Spezialfälle
 keine Anmerkung
@@ -544,107 +553,89 @@ keine Anmerkung
 
 | annotationManual |  |
 |--------|--------|
-| Bedeutung | Manuell definierte Annotationen des transkribierten Textes im XML-Format (Ground Truth). |
-| Entstehung | Siehe Dokumentation unter https://zenodo.org/records/16919653 |
+| Bedeutung | Manuell definierte Annotationen des transkribierten Textes im XML-Format (Ground Truth). Diese Daten sind ebenfalls publiziert auf [Hugging Face](https://huggingface.co/datasets/dh-unibe/image-text_historisches-grundbuch-basel_xix-xx_train). |
+| Entstehung | Siehe Dokumentation unter [Zenodo](https://zenodo.org/records/16919653) |
 | Spezialfälle | - |
 | Fehler | - |
-| Statistik | - |
+| Statistik | Anzahl Einträge ohne XML: 124'576<br>Anzahl Einträge mit XML: 829 |
 
 | annotationAutomated |  |
 |--------|--------|
 | Bedeutung | Automatisch generierte Annotationen des transkribierten Textes im XML-Format. |
-| Entstehung | TODO |
-| Spezialfälle | - |
+| Entstehung | TODO folgt |
+| Spezialfälle | TODO folgt |
 | Fehler | - |
-| Statistik | - |
+| Statistik | Anzahl Einträge ohne XML: TODO folgt<br>Anzahl Einträge mit XML: TODO folgt |
 
 
 ### 4.4.3 Entität Project_Period
 
 #### 4.4.3.1 Bedeutung
-TODO
-
-The elements of the Project_Period entity represent the validity period of the dossier that exists in the Project_Dossier entity. A dossier can have several entries or validity periods.
+Elemente der Entität 'Project_Period' repräsentieren "Gültigkeitszeiträume" von Dossiers (Elemente der Entität 'Project_Dossier') an. Mit dieser Angabe ist es möglich zu bestimmen, wie viele Dossier in einem bestimmten Jahr existieren sowie Dossiers über die Zeit zu visualisieren. Ein Dossier kann mehrere Gültigkeitszeiträume besitzen. Es sind nur Dossier abgebildet, welche einen Eintrag in der Entität 'Project_Dossier' besitzen.
 
 #### 4.4.3.2 Entstehung
-TODO
+Basierend auf dem Attribut 'StABS_Dossier.descriptiveNote' werden Gültigkeitszeiträume (Attribute 'Project_Period.{yearFrom,yearTo}') für die häufigsten Muster gesucht. Wurde keine Jahreszahl gefunden, wird die minimale respektive maximale Jahreszahl der diesem Dossier zugehörigen Einträge (Attribut 'Project_Entry.year') verwendet. Basierend auf dem Skripts [year_analysis.py](https://github.com/history-unibas/economies-of-space-database/blob/main/year_analysis.py) und [dossier_validity_range.py](https://github.com/history-unibas/economies-of-space-database/blob/main/dossier_validity_range.py)
+ und weiteren Analysen wurden Jahreszahlen manuell korrigiert und Gültigkeitszeiträume definiert.
 
 #### 4.4.3.3 Spezialfälle
-TODO
+Bei der manuellen Bearbeitung wurde unter Berücksichtigung der Beziehungen (Entität 'Project_Relationship') darauf geachtet, dass zeitlich direkt nachfolgende Dossier keine Lücke im Gültigkeitszeitraum existieren und umgekehrt, dass nachfolgende Dossier nicht zum selben Zeitpunkt gültig sind. Wenn eine zeitliche Lücke zwischen Vorgänger und Nachfolger-Dossier existiert, wurde das Attribut 'Project_Period.yearTo' des Vorgängers definiert als 'Project_Period.yearFrom' des Nachfolgers (Zeitraum des Vorgängers ist grösser definiert als Daten vorhanden sind). 
 
-#### 4.4.3.4 Fehler
-TODO
-
-#### 4.4.3.5 Statistik
-TODO
-
-#### 4.4.3.6 Beschreibung der Attribute
-TODO
+#### 4.4.3.4 Beschreibung der Attribute
 
 | dossierId |  |
 |--------|--------|
-| Bedeutung | Identifier to the linked project dossier |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
+| Bedeutung | Identifikator des zugehörigen Dossier (Attribut 'Project_Dossier.dossierId') |
+| Entstehung | Direkt abgeleitet von 'StABS_Dossier.stabsId' |
+| Spezialfälle | - |
+| Fehler | - |
+| Statistik | - |
 
 | yearFrom |  |
 |--------|--------|
-| Bedeutung | Year from when dossier is valid |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
+| Bedeutung | Jahreszahl, ab welchem Zeitpunkt das Dossier existiert |
+| Entstehung | siehe [4.4.3.2 Entstehung](#4432-entstehung) |
+| Spezialfälle | In Einzelfällen können Jahreszahlen nicht definiert werden |
+| Fehler | Fehler sind aufgrund falsch definierter Beziehungen zu erwarten, siehe [4.4.4.4 Fehler](#4444-fehler). |
+| Statistik | Anzahl Werte mit Jahreszahl: 4'695<br>Anzahl Werte ohne Jahreszahl ([NULL]): 29 |
 
 | yearTo |  |
 |--------|--------|
-| Bedeutung | Year until when dossier is valid |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
+| Bedeutung | Jahreszahl, bis zu welchem Zeitpunkt das Dossier existiert |
+| Entstehung | siehe [4.4.3.2 Entstehung](#4432-entstehung) |
+| Spezialfälle | In Einzelfällen können Jahreszahlen nicht definiert werden |
+| Fehler | Fehler sind aufgrund falsch definierter Beziehungen zu erwarten, siehe [4.4.4.4 Fehler](#4444-fehler). |
+| Statistik | Anzahl Werte mit Jahreszahl: 4'701<br>Anzahl Werte ohne Jahreszahl ([NULL]): 23 |
 
 | yearFromManuallyCorrected |  |
 |--------|--------|
-| Bedeutung | Indication if the attribute yearFrom is manually corrected |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
+| Bedeutung | Angabe, ob das Attribut 'Project_Period.yearFrom' manuell korrigiert wurde |
+| Entstehung | Bei der Generierung der Entität wird der Wert auf "True" gesetzt, wenn die Jahreszahl manuell definiert worden ist. |
+| Spezialfälle | - |
+| Fehler | - |
+| Statistik | False: 3'823<br>True: 901 |
 
 | yearToManuallyCorrected |  |
 |--------|--------|
-| Bedeutung | Indication if the attribute yearFrom is manually corrected |
-| Entstehung |  |
-| Spezialfälle |  |
-| Fehler |  |
-| Statistik |  |
+| Bedeutung | Angabe, ob das Attribut 'Project_Period.yearTo' manuell korrigiert wurde |
+| Entstehung | Bei der Generierung der Entität wird der Wert auf "True" gesetzt, wenn die Jahreszahl manuell definiert worden ist. |
+| Spezialfälle | - |
+| Fehler | - |
+| Statistik | False: 3'706<br>True: 1'018 |
 
 
 ### 4.4.4 Entität Project_Relationship
 
 #### 4.4.4.1 Bedeutung
-Elemente der Entität 'Project_Relationship' repräsentieren "Beziehungen" zwischen Dossiers (Elemente der Entität 'Project_Dossier'). Eine Beziehung besteht zwischen zwei Dossiers, wenn das eine Dossier aus dem anderen Dossier hervorgeht. Beispielsweise existieren zwei Beziehungen, wenn ein Gebäude in zwei Teile geteilt wird. Zeitlich "existiert" zuerst ein Dossier, nach der Teilung existieren zwei Dossiers. Das ursprüngliche Dossier hat somit je eine Beziehung zu den Dossier nach der Teilung.
-Das Attribut 'Project_Relationship.sourceDossierId' enthaltet die "dossierId" des Dossiers, von welcher die Beziehung ausgeht ("Quelldossier", "Vorgänger"). Das Attribut 'Project_Relationship.targetDossierId' enthaltet die "dossierId" des Dossiers, welche zeitlich auf das Quelldossier folgt ("Zieldossier", "Nachfolger"). Ein Dossier kann mit einem oder mehreren Quelldossier als auch Zieldossier verknüpft sein.
-
-TODO
-This entity maps direct temporal relationships between HGB dossiers (represented as a direct edge list). The relationships were determined on the basis of the cluster information (see dossier_relationship.py) using a rule-based approach and manual editing. Dossier represented by identifier in sourceDossierId has as descendant dossier with identifier in targetDossierId. Conversely, dossier represented by identifier in targetDossierId has dossier with identifier in sourceDossierId as previous dossier. Dossier can have several descendants or preceding dossiers due to a split or merge.
+Elemente der Entität 'Project_Relationship' repräsentieren "Beziehungen" zwischen Dossiers (Elemente der Entität 'Project_Dossier'). Eine Beziehung besteht zwischen zwei Dossiers, wenn das eine Dossier aus dem anderen Dossier hervorgeht. Beispielsweise existieren zwei Beziehungen, wenn ein Gebäude in zwei Teile geteilt wird. Zeitlich "existiert" zuerst ein Dossier, nach der Teilung existieren zwei Dossiers. Das ursprüngliche Dossier hat somit je eine Beziehung zu den Dossier nach der Teilung. Das Attribut 'Project_Relationship.sourceDossierId' enthaltet die "dossierId" des Dossiers, von welcher die Beziehung ausgeht ("Quelldossier", "Vorgänger"). Das Attribut 'Project_Relationship.targetDossierId' enthaltet die "dossierId" des Dossiers, welche zeitlich auf das Quelldossier folgt ("Zieldossier", "Nachfolger"). Ein Dossier kann mit einem oder mehreren Quelldossier als auch Zieldossier verknüpft sein. Es sind nur Beziehungen zwischen Dossier abgebildet, welche einen Eintrag in der Entität 'Project_Dossier' besitzen.
 
 #### 4.4.4.2 Entstehung
-TODO Benjamin:
-- Kannst du bitte ergänzen, wie der type des Dossiers entstanden ist? -> kommt doch woanders vor...
-- Gibt es ein Muster, für welche Dossier die Beziehungen manuell erstellt worden sind? -> Wenn nicht alle Dossiers eines Clusters eine Beziehung aufwiesen, wurde manuell geprüft. Später haben wir auch noch die restlichen Cluster einer manuellen Prüfung unterzogen.
-
-Mithilfe des Skripts 'dossier_relationship.py' wurden Beziehungen ermittelt. Einerseits basierend auf den Adressen (Attribut 'StABS_Dossier.title') sowie des Attributs 'StABS_Dossier.deskriptiveNote'. Andererseits basierend auf ermittelte Cluster und der Art des Dossiers. Mit dem Algorithmus konnten viele Beziehungen nicht erkannt werden. Aus diesem Grund wurden anschliessend Beziehungen manuell ermittelt.
+Mithilfe des Skripts [dossier_relationship.py](https://github.com/history-unibas/economies-of-space-database/blob/main/dossier_relationship.py) wurden Beziehungen ermittelt. Einerseits basierend auf den Adressen (Attribut 'StABS_Dossier.title') sowie des Attributs 'StABS_Dossier.deskriptiveNote'. Andererseits basierend auf ermittelte Cluster und der Art des Dossiers. Mit dem Algorithmus konnten viele Beziehungen nicht erkannt werden. Aus diesem Grund wurden anschliessend Beziehungen manuell ermittelt.
 
 #### 4.4.4.3 Spezialfälle
-TODO Benjamin: Existieren Spezialfälle? -> Wenn ein Dossier ab einem bestimmten Zeitpunkt (oder bis zu einem bestimmten Zeitpunkt) bei einem anderen Dossier eingeschlossen war, lässt sich zwar die Beziehung korrekt bestimmen, aber es ist dann eigentlich nicht korrekt, von einem Folgedossier auszugehen (in dem Sinne, dass ein Dossier endet und danach ein anderes beginnt, also keine Überschneidungen bestehen). Deshalb wurden diese Beziehungen separat erfasst.
+Wenn ein Dossier ab einem bestimmten Zeitpunkt (oder bis zu einem bestimmten Zeitpunkt) bei einem anderen Dossier eingeschlossen war, lässt sich zwar die Beziehung korrekt bestimmen, aber es ist dann eigentlich nicht korrekt, von einem Folgedossier auszugehen (in dem Sinne, dass ein Dossier endet und danach ein anderes beginnt, also keine Überschneidungen bestehen). Deshalb wurden diese Beziehungen separat erfasst.
 
 #### 4.4.4.4 Fehler
-TODO Benjamin: Welche Aussage können wir über Fehler machen? -> Die automatisierte Erkennung war durchaus fehlerhaft, weshalb schlussendlich alle Beziehungen manuell angeschaut wurden. Die Metadaten des HGB sind aber in vielen Fällen nicht eindeutig, weshalb diese Beziehungen gar nicht ganz korrekt erfasst werden können. Eine gewisse Fehlerquote ist also inhärent.
-
-Nachricht von Benjamin 23.1.2025 (Ausschnitt): Insgesamt sind diese Dossierbeziehungen mit zweierlei Unsicherheit behaftet: Wir können die HGB-Entscheide oft nicht nachvollziehen, und sie scheinen auch von unterschiedlicher Qualität zu sein. Und wir machen selbst weitere Fehler (wo das HGB eigentlich verständlich wäre). Weil das Ziel bloss eine ungefähre Abschätzung der Anzahl Dossiers zu einem Zeitpunkt war, würde ich hier nicht mehr allzu viel investieren. 
+Die automatisierte Erkennung von Beziehungen war fehlerhaft, weshalb alle Beziehungen manuell angeschaut wurden. Die Metadaten des HGB (Entität 'StABS_Dossier') sind in vielen Fällen nicht eindeutig und scheinen von unterschiedlicher Qualität zu sein, weshalb diese Beziehungen gar nicht ganz korrekt erfasst werden können. Eine gewisse Fehlerquote ist daher inhärent.
 
 #### 4.4.4.5 Statistik
 Anzahl Dossier mit
@@ -669,20 +660,18 @@ Anzahl Dossier mit
 
 
 # 5 Glossar
-TODO: prüfen, ob einzelne Einträge überflüssig sind oder weitere in der Tabelle ergänzt werden müssen.
-
 | Bezeichnung | Beschreibung |
 |--------|--------|
 | Attribut | Eine Information oder Eigenschaft eines Eintrages einer Entität. In einer relationalen Datenbank entspricht eine Spalte einem Attribut. |
 | CER | Character Error Rate, Zeichenfehlerrate, siehe Neudecker, Clemens; Baierer, Konstantin; Gerber, Mike u. a.: A survey of OCR evaluation tools and metrics, in: The 6th International Workshop on Historical Document Imaging and Processing, Lausanne Switzerland 2021, S. 13–18. Online: <https://doi.org/10.1145/3476887.3476888>. |
 | Entität | Ein Objekt in der Projektdatenbank, welches in einer Datenbank durch eine Tabelle repräsentiert wird. |
-| Falknerplan | Historischer Grundbuchplan der Basler Innenstadt. Erstellt durch Geometer Rudolf Falkner in den Jahren 1865-1872.<br><br> Weitere Informationen: https://www.gva.bs.ch/vermessung/historische-plaene/georeferenzierte-plaene.html |
-| HGB | Historisches Grundbuch des Stadt Basel.<br><br> Weitere Informationen: https://www.staatsarchiv.bs.ch/benutzung/recherche/suche-gedruckte-kataloge/historisches-grundbuch.html |
 | HTR | Handwritten Text Recognition (oder Automatic Text Recognition). Automatisierte Erkennung von textuellen Elementen auf Basis von segmentierten Linien.<br>Basierend auf *machine learning* Algorithmen |
-| P2PaLA | Pixelannotation auf Trainingsbasis (Computer Vision Algorithmus). Entwickelt durch die Technische Universität Valencia (im Rahmen von READ).<br><br> Weitere Informationen: https://readcoop.eu/transkribus/docu/p2pala/ |
+| Hugging Face | TODO https://huggingface.co/ |
+| P2PaLA | Pixelannotation auf Trainingsbasis (Computer Vision Algorithmus). Entwickelt durch die Technische Universität Valencia (im Rahmen von READ).<br><br> Weitere Informationen: https://blog.transkribus.org/en/transkribus/docu/p2pala |
 | Projektdatenbank | Relationale Datenbank (PostgreSQL mit PostGIS-Erweiterung) zur Speicherung und Analyse der für das Projekt relevanten Informationen des HGBs.<br><br> Weitere Informationen: https://github.com/history-unibas/Postgresql-Project-Database/tree/main#postgresql-project-database |
 | Shape-Datei | Dateiformat zur Speicherung und Austausch von Daten mit geografischer Information. |
 | SPARQL | SPARQL Protocol and RDF Query Language: Sprache für die Abfrage von Linked Open Data.<br><br> Weitere Informationen: https://www.opendata.bs.ch/ld.html |
 | SQL-Abfrage | Structured Query Language (SQL) ist eine Sprache, um Daten in einer Datenbank aufzurufen oder bearbeiten. Eine Abfrage ist eine (konkrete) Aussage, welche auf einer Datenbank ausgeführt werden kann. |
-| Transkribus Plattform | Digitale Plattform zur Erkennung von Dokumenten. Geführt durch die READ COOP.<br><br> Weitere Informationen: https://readcoop.eu/transkribus/ |
+| Transkribus Plattform | Digitale Plattform zur Erkennung von Dokumenten. Geführt durch die READ COOP.<br><br> Weitere Informationen: https://www.transkribus.org |
 | WER | Word Error Rate: Wortfehlerrate, siehe Neudecker, Clemens; Baierer, Konstantin; Gerber, Mike u. a.: A survey of OCR evaluation tools and metrics, in: The 6th International Workshop on Historical Document Imaging and Processing, Lausanne Switzerland 2021, S. 13–18. Online: <https://doi.org/10.1145/3476887.3476888>. |
+| Zenodo | TODO https://zenodo.org/ |
