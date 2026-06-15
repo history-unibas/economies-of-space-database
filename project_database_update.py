@@ -2124,7 +2124,7 @@ def main():
             """)
             cursor.execute(f"""
             INSERT INTO transkribus_page
-            FROM dblink('{dblink_connname}',
+            SELECT * FROM dblink('{dblink_connname}',
             'SELECT pageid, key, docid, pagenr, urlimage
             FROM transkribus_page')
             AS t(pageid integer, key text, docid integer, pagenr integer,
