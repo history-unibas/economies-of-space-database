@@ -103,9 +103,7 @@ FILEPATH_SOURCE = './data/20260325_entry_source.csv'
 FILEPATH_ANNOTATION_MANUAL = './data/20250821_annotation_manual'
 
 # Filepath for source for project_entry.annotationAutomated.
-FILEPATH_ANNOTATION_AUTOMATED = (
-    './data/hgb_corpus_25_10_23_full_normalized_3.xml'
-    )
+FILEPATH_ANNOTATION_AUTOMATED = './data/hgb_full_26_05_29_05.xml'
 
 # Filepath of correction file for project_dossier.
 FILEPATH_PROJECT_DOSSIER_GEOM = './data/dossiergeom_202603250922.csv'
