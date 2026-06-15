@@ -1754,7 +1754,7 @@ def processing_project(dbname, db_password, db_user='postgres',
 
                 # Find metadata and get dossierid and pagenr.
                 metadata = elem.find('metadata')
-                dossierid = metadata.get('dossier')
+                dossierid = metadata.get('dossierid')
                 pagenr_list = [
                     int(pagenr) for pagenr in metadata.get('pages').split(',')
                     ]
