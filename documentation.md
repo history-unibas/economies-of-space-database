@@ -74,7 +74,7 @@ Dieses Kapitel dokumentiert pro Gruppe von Entitäten die Aufbereitung der Daten
 
 
 ## 4.1 HGB-Metadaten in Projektdatenbank integrieren
-Das Staatsarchiv Basel-Stadt (StABS) stellt via des [Linked Open Data Portals](https://ld.bs.ch/) Metadaten zum HGB zur Verfügung. Mithilfe eines Skripts [project_database_update.py](https://github.com/history-unibas/Postgresql-Project-Database/blob/main/project_database_update.py) werden Metadaten des HGB gelesen und in der Projektdatenbank als Entitäten [StABS_Serie](#411-entität-stabs_serie), [StABS_Dossier](#412-entität-stabs_dossier) und [StABS_Page](#413-entität-stabs_page) gespeichert. In diesem Prozess werden ebenfalls Funktionen aus dem Repository [
+Das Staatsarchiv Basel-Stadt (StABS) stellt via des [Linked Open Data Portals](https://ld.bs.ch/) Metadaten zum HGB zur Verfügung. Mithilfe eines Skripts [project_database_update.py](https://github.com/history-unibas/Postgresql-Project-Database/blob/main/project_database_update.py) werden Metadaten des HGB gelesen und in der Projektdatenbank als Entitäten [StABS_Serie](#411-entität-stabs_serie), [StABS_Dossier](#412-entität-stabs_dossier) und [StABS_Page](#413-entität-stabs_page) gespeichert. In diesem Prozess werden Funktionen aus dem Repository [
 economies-of-space-metadata
 ](https://github.com/history-unibas/economies-of-space-metadata) verwendet.
 
@@ -192,11 +192,72 @@ keine Anmerkung
 
 
 ## 4.2 Verarbeitung der Digitalisate
-TODO
-- Prozess beschreiben (https://drive.switch.ch/index.php/f/6566052981) -> Transkribus
-- inkl. Paper, Kapitel 5
-- Auf ausgeschlossene Seiten hinweisen -> #### 4.2.4.3 Spezialfälle
-- Auf https://github.com/history-unibas/economies-of-space-transkribus verlinken
+Mithilfe der Plattform [Transkribus](https://readcoop.eu/transkribus/) wurden handgeschriebene Texte von ausgewählten Seiten des HGB transkribiert. Die Transkription sowie ausgewählte Metadaten von Transkribus werden anschliessend in der Projektdatenbank gespeichert. Nachfolgende Schritte wurden in diesem Prozess ausgeführt. Für die Schritte 2 bis 4 wurde das Skrript [collection_transcription.py](https://github.com/history-unibas/economies-of-space-transkribus/blob/main/collection_transcription.py) entwickelt.
+
+**1. Schritt: Auswahl der Digitalisate**
+
+Folgende Seiten wurden für die Transkription (Schritte 2 bis 4) ausgeschlossen:
+- Titelseiten, das heisst Seitenzahlen 1 und 2
+- Seiten zugehörig zu Dossier, welche basierend auf dem Titel (Attribut 'StABS_Dossier_title') als "Personenregister" oder "Situationsplan" identifiziert wurden
+- Brandlagerbücher, welche alle aus dem 19. Jahrhundert stammen
+- Karteikarten des Reichspfennigs ("Reichspfennigverzeichnisse") von 1497, da auf diesen keine Transaktion festzustellen ist
+
+Die Brandlagerbücher und Reichspfennigverzeichnisse wurden mit einem Bilder-Chlustering [PixPlot](https://github.com/YaleDHLab/pix-plot) identifiziert und mit dem Skript [clusterImages.py](https://github.com/history-unibas/economies-of-space-pix-plot/blob/main/clusterImages.py) validiert. Anschliessend wurde dem Skript [status_change.py](https://github.com/history-unibas/economies-of-space-transkribus/blob/main/status_change.py) der Status der identifizierten Seiten auf "DONE" gesetzt. Seiten mit dem Status "DONE" wurden von der Transkription ausgeschlossen.
+
+**2. Schritt: Erkennen von Textregionen**
+
+- Methode: P2PaLA
+- Modell: HGB_M3
+    - Structure Types = {Credit, Footer, Header, Marginalia, Paragraph}
+    - Min-Error = 0.10
+    - N-Train = 1131 (N bezieht sich auf die Anzahl vollständig annotierter Registerkarten)
+    - N-Validation = 128 (N bezieht sich auf die Anzahl vollständig annotierter Registerkarten)
+    - Min-Error = 0.1044
+- usgewählter Parameter: Rectify regions = True
+
+**3. Schritt: Finden von Textlinien**
+
+- Methode: Transkribus Layout Analysis (LA)
+- Modell: HGB_Baseline_M1
+    - Technology = Baselines
+    - nrOfWords = 72'291
+    - CER Train = 4.31%
+    - CER Validation = 3.79%
+- Ausgewählte Parameter
+    - Find Text-Regions = False (Textregionen sind bereits durch P2PaLA identifiziert und semantisch angereichter)
+    - Find Lines = True
+    - Split lines on regions = False 
+
+Teilweise überlappen sich Textregionen, insbesondere bei den Quellennachweisen, weshalb das Splitting problematisch wäre. Bei diesem Modell handelt es sich um ein eigens trainiertes Baseline Model.
+
+**4. Schritt: Texterkennung**
+
+- Methode: HTR (PyLaia)
+- Modell: HGB_FT_M5.2 
+    - Language = German
+    - Technology = PyLaia HTR
+    - nrOfWords = 101'992
+    - CER Train = 2.50%
+    - CER Validation = 4.00%
+- Ausgewählte Parameter
+    - Language Model = 'Language model from training data'
+    - Compute line polygons = True
+
+Das benutzte HTR-Modell wurde nach dem Training mittels Skript [htr_model_validation.py](https://github.com/history-unibas/economies-of-space-transkribus/blob/main/htr_model_validation.py) validiert. Ziel der unterschiedlichen Evaluation ist nachzuweisen, dass zentrale Textregionen (Paragraph und Titel, jedoch nicht Marginalie) zuverlässig erkannt werden. Hintergrund ist, dass häufig Teile falsch/inkorrekt erkannt werden, die von niederer Wichtigkeit sind (insbesondere Marginalien, die Metadaten enthalten, die bereits bekannt sind). Die folgende Tabelle dokumentiert die CER- und WER-Werte pro Textregionsart sowie über alle Textregionen.
+
+| Art der Textregion | CER | WER |
+|--------|--------|--------|
+| global (alle Textregionen) | 0.042 | 0.173 |
+| marginalia | 0.114 | 0.362 |
+| header | 0.079 | 0.261 |
+| paragraph | 0.036 | 0.160 |
+| credit | 0.074 | 0.385 |
+| footer | 0.066 | 0.194 |
+
+**5. Schritt: Integration in Projektdatenbank**
+
+Mithilfe der Skripts [project_database_update.py](https://github.com/history-unibas/economies-of-space-database/blob/main/project_database_update.py) und [connect_transkribus.py](https://github.com/history-unibas/economies-of-space-transkribus/blob/main/connect_transkribus.py) wurde der transkribierte Text sowie ausgewählte Metadaten von Transkribus in die Projektdatenbank in Entitäten mit Präfix "Transkribus" übernommen.
+
 
 ### 4.2.1 Entität Transkribus_Collection
 
@@ -292,15 +353,7 @@ Jeder auf Transkribus durchgeführte Schritt einer Seite wird als "pageXML"s ges
 Jede Bearbeitung einer Seite auf Transkribus wie beispielsweise eine Layoutanalyse oder Durchführung einer Transkription erzeugt eine neue Version eines pageXMLs.
 
 #### 4.2.4.3 Spezialfälle
-TODO: Nicht bearbeitete Seiten auflisten -> gekennzeichnet mit Status DONE
-- Brandlagerbücher (Verweis auf https://github.com/history-unibas/economies-of-space-pix-plot anfügen)
-- Reichspfennigverzeichnisse
-- Titelseiten (erste zwei Seiten eines Dossiers) -> Status NEW
-- Dossier ausserhalb Stadtmauern
-
-
-Anmerkung Benjamin: Grundsätzlich ausgeschlossen wurden Brandlagerbücher, die alle aus dem 19. Jahrhundert stammen, sowie die Karteikarten des Reichspfennigs von 1497 (weil hier keine Transaktion festzustellen ist). Die zwei Typen von Karten wurden mit dem Bilder-Clustering identifiziert und ausgeschlossen
-
+Es wurden nur ausgewählte Seiten transkribiert. Details siehe Kapitel [4.2 Verarbeitung der Digitalisate, "1. Schritt: Auswahl der Digitalisate"](#42-verarbeitung-der-digitalisate).
 
 #### 4.2.4.4 Beschreibung der Attribute
 | Attribut | Bedeutung |
@@ -312,8 +365,7 @@ Anmerkung Benjamin: Grundsätzlich ausgeschlossen wurden Brandlagerbücher, die 
 | pageXML | pageXML des Transkripts |
 | status | Definierter Status der Transkripts. Bedeutung der Werte:<br>- NEW: Seite wurde auf Transkribus hochgeladen <br>- IN_PROGRESS: Seite wurde bearbeitet <br>- DONE: Seite wird von weiterer Verarbeitung ausgeschlossen |
 | timestamp | Zeitpunkt der Erstellung des Transkripts |
-| htrModel | Für die durchgeführte Trankription oder Bearbeitung der Seite verwendetes Modell. <br> TODO Beschreiben, welche Modelle benutzt worden sind (oder verlinken) |
-
+| htrModel | Für die durchgeführte Trankription oder Bearbeitung der Seite verwendetes Modell. Details zu den verwendeten Modellen siehe [4.2 Verarbeitung der Digitalisate, Schritte 2-4](#42-verarbeitung-der-digitalisate) |
 
 ### 4.2.5 Entität Transkribus_TextRegion
 
@@ -455,7 +507,7 @@ Es werden ausschliesslich Dossier in dieser Entität abgebildet, welche mindeste
 Jedes Element dieser Entität ("Eintrag") repräsentiert einen im HGB erfassten Eintrag. Es können mehrere Einträge auf einer Registerkarte ("Seite") des HGB dokumentiert sein, oder ein Eintrag kann sich über mehrere Seiten erstrecken. Eine Seite im HGB wird durch ein Element in den Entitäten 'StABS_Page' respektive 'Transkribus_Page' repräsentiert. Befinden sich mehrere Einträge auf einer Registerkarte, so werden diese Einträge nicht durch mehrere Elemente in dieser Entität repräsentiert. Eine Seite wird als Folgeseite eines Eintrags betrachtet, wenn die Seite keine Textregion (Entität 'Transkribus_TextRegion') des Typs "header" und "marginalia" besitzt und die vorhergehende Seite keine Textregion des Typs "credit" hat. Einen Eintrag basiert nur auf Seiten desselben Dossiers.
 
 #### 4.4.2.2 Entstehung
-Es werden Seiten des HGB betrachtet, welche transkribiert worden sind (Entität 'Transkribus_Transcript'). Für die Generierung der Einträge wird das aktuellste Transkript einer Seite verwendet (Attribut 'Transkribus_Transcript.timestamp'). Hat das aktuellste Transkript den Status "DONE" (Attribut 'Transkribus_Transcript.status'), wird diese Seite nicht berücksichtigt. Ebenfalls werden Seiten ausgeschlossen, welche einem Dossier verbunden ist, welches sich ausserhalb der Stadtmauern befindet. Seiten ohne Textregionen (Entität 'Transkribus_TextRegion') sind ebenfalls ausgenommen. Manuell wurden 3'202 Seiten für die Generierung dieser Entität ausgeschlossen. Darunter fallen insbesondere Karteikarten, die Parzelleninformationen enthalten (Angaben zu zeitweise zusammengelegte Dossiers, oder auch Angaben zur Baugeschichte wie gefundene Jahreszahlen). Identifiziert wurden diese Seiten hauptsächlich bei der händischen Datierung (siehe nächster Abschnitt) oder der händischen Zuweisung von Quellenbelegen von Einträgen (Attribut 'Project_Entry.source').
+Es werden Seiten des HGB betrachtet, welche transkribiert worden sind (Kapitel [4.2 Verarbeitung der Digitalisate](#42-verarbeitung-der-digitalisate)). Für die Generierung der Einträge wird das aktuellste Transkript einer Seite verwendet (Attribut 'Transkribus_Transcript.timestamp'). Hat das aktuellste Transkript den Status "DONE" (Attribut 'Transkribus_Transcript.status'), wird diese Seite nicht berücksichtigt. Ebenfalls werden Seiten ausgeschlossen, welche einem Dossier verbunden ist, welches sich ausserhalb der Stadtmauern befindet. Seiten ohne Textregionen (Entität 'Transkribus_TextRegion') sind ebenfalls ausgenommen. Manuell wurden 3'202 Seiten für die Generierung dieser Entität ausgeschlossen. Darunter fallen insbesondere Karteikarten, die Parzelleninformationen enthalten (Angaben zu zeitweise zusammengelegte Dossiers, oder auch Angaben zur Baugeschichte wie gefundene Jahreszahlen). Identifiziert wurden diese Seiten hauptsächlich bei der händischen Datierung (siehe nächster Abschnitt) oder der händischen Zuweisung von Quellenbelegen von Einträgen (Attribut 'Project_Entry.source').
 
 Manuell wurden Einträge bearbeitet, namentlich die Jahreszahl (Attribut 'Project_Entry.year') und die Definition von Seiten als Folgeseiten. Alle undatierte Einträge wurden händisch durchgesehen. Basierend auf einer Analyse (Skript [year_analysis.py](https://github.com/history-unibas/economies-of-space-database/blob/main/year_analysis.py)) unter der Annahme, dass Einträge chronologisch in einem Dossier abgelegt sind, wurden weitere Jahreszahlen überprüft. Bei weiteren Analysen und Prüfungen wurden weitere Datierungen überprüft und korrigiert. Manuell bearbeitete Einträge haben im Attribut 'Project_Entry.manuallyCorrected' den Wert "True". Weitere Angaben zur Jahreszahl enthaltet das Attribut 'Project_Entry.comment', insbesondere für Einträge ohne eine Jahreszahl.
 
@@ -562,10 +614,10 @@ keine Anmerkung
 | annotationAutomated |  |
 |--------|--------|
 | Bedeutung | Automatisch generierte Annotationen des transkribierten Textes im XML-Format. |
-| Entstehung | TODO folgt |
-| Spezialfälle | TODO folgt |
+| Entstehung | Es wurden Einträge annotiert, welche eine Datierung im Zeitraum 1400 - 1700 besitzen (Attribut 'project_entry.year') und in deutscher Spracher verfasst sind (Attribut 'project_entry.language'). TODO Link für weitere Informationen folgt |
+| Spezialfälle | - |
 | Fehler | - |
-| Statistik | Anzahl Einträge ohne XML: TODO folgt<br>Anzahl Einträge mit XML: TODO folgt |
+| Statistik | Anzahl Einträge mit XML: 75'447<br>Anzahl Einträge ohne XML: 49'958 |
 
 
 ### 4.4.3 Entität Project_Period
@@ -663,15 +715,27 @@ Anzahl Dossier mit
 | Bezeichnung | Beschreibung |
 |--------|--------|
 | Attribut | Eine Information oder Eigenschaft eines Eintrages einer Entität. In einer relationalen Datenbank entspricht eine Spalte einem Attribut. |
+| Brandlagerbuch | Auszug aus Brandversicherungsakten. Für die Analyse von Transaktionen nicht relevant und deshalb nicht transkribiert. |
 | CER | Character Error Rate, Zeichenfehlerrate, siehe Neudecker, Clemens; Baierer, Konstantin; Gerber, Mike u. a.: A survey of OCR evaluation tools and metrics, in: The 6th International Workshop on Historical Document Imaging and Processing, Lausanne Switzerland 2021, S. 13–18. Online: <https://doi.org/10.1145/3476887.3476888>. |
 | Entität | Ein Objekt in der Projektdatenbank, welches in einer Datenbank durch eine Tabelle repräsentiert wird. |
-| HTR | Handwritten Text Recognition (oder Automatic Text Recognition). Automatisierte Erkennung von textuellen Elementen auf Basis von segmentierten Linien.<br>Basierend auf *machine learning* Algorithmen |
-| Hugging Face | TODO https://huggingface.co/ |
+| Frönung | Beschlagnahmungsverfahren |
+| Graph / Graphdatenbank | Daten werden in einem Netzwerkmodell abgebildet / gespeichert statt in Tabellen. |
+| HGB | Abkürzung für Historische Grundbuch der Stadt Basel.<br><br> Weitere Informationen: https://blog.staatsarchiv-bs.ch/neu-online-einsehbar-das-historische-grundbuch  |
+| HTR | Handwritten Text Recognition (oder Automatic Text Recognition). Automatisierte Erkennung von textuellen Elementen auf Basis von segmentierten Linien.Basierend auf *machine learning*-Algorithmen |
+| Hugging Face | Eine Plattform zur Publikation von Machine Learning-Modellen und Daten.<br><br> Weitere Informationen: https://huggingface.co |
+| IIIF Manifest | Eine standardisierte JSON-Datei, die alle Metadaten, Beschreibungen und die logische Reihenfolge der Digitalisate (Bilder) eines Objekts (z. B. eines HGB-Dossiers) enthält. Es dient als universelle Schnittstelle, um hochauflösende Bilder direkt vom Server des Staatsarchivs in externen Tools (wie Dokumenten-Viewern) plattformübergreifend und performant anzuzeigen, ohne die Bilddateien physisch kopieren zu müssen. IIIF steht für International Image Interoperability Framework. |
+| Linked Open Data (LOD) | Linked Data ist eine Methode Daten in einer Form verfügbar zu machen, so dass die Nutzbarkeit für Menschen als auch Maschinen möglich ist. Linked Open Data sind Linked Data, welche zur freien Verfügung veröffentlicht werden.<br><br> Weitere Informationen: https://www.stadt-zuerich.ch/de/politik-und-verwaltung/statistik-und-daten/linked-open-data.html |
+| Löffelplan | Situationsplan aufgenommen von L.H. Löffel aus dem Jahr 1862<br><br> Weitere Informationen: https://www.bs.ch/bvd/grundbuch-und-vermessungsamt/vermessung/historische-plaene#nachdrucke-historischer-plaene |
+| LV95 / EPSG:2056 | Schweizer Koordinatensystem basierend auf der Landervermessung des Jahres 1995 (LV95).<br><br> Weitere Informationen: https://www.swisstopo.admin.ch/de/landesvermessung-lv95, https://epsg.io/2056 |
 | P2PaLA | Pixelannotation auf Trainingsbasis (Computer Vision Algorithmus). Entwickelt durch die Technische Universität Valencia (im Rahmen von READ).<br><br> Weitere Informationen: https://blog.transkribus.org/en/transkribus/docu/p2pala |
 | Projektdatenbank | Relationale Datenbank (PostgreSQL mit PostGIS-Erweiterung) zur Speicherung und Analyse der für das Projekt relevanten Informationen des HGBs.<br><br> Weitere Informationen: https://github.com/history-unibas/Postgresql-Project-Database/tree/main#postgresql-project-database |
+| PyLaia | Toolkit basierend auf PyTorch (Deep Learning) zur Analyse handschriftlicher Dokumente.<br><br> Weitere Informationen: https://github.com/jpuigcerver/PyLaia |
+| Reichspfennigverzeichnis | Angabe zur Reichssteuer von 1497. Für die Analyse von Transaktionen nicht relevant und deshalb nicht transkribiert. |
 | Shape-Datei | Dateiformat zur Speicherung und Austausch von Daten mit geografischer Information. |
 | SPARQL | SPARQL Protocol and RDF Query Language: Sprache für die Abfrage von Linked Open Data.<br><br> Weitere Informationen: https://www.opendata.bs.ch/ld.html |
-| SQL-Abfrage | Structured Query Language (SQL) ist eine Sprache, um Daten in einer Datenbank aufzurufen oder bearbeiten. Eine Abfrage ist eine (konkrete) Aussage, welche auf einer Datenbank ausgeführt werden kann. |
+| StABS | Abkürzung für das Staatsarchiv Basel-Stadt. |
+| Stufe (Serie / Dossier) | Die hierarchische Gliederung der Archivdaten basierend auf dem internationalen Standard RiC (Records in Contexts). Im Projekt entspricht eine Serie der übergeordneten Ebene (z. B. einer historischen Strasse), während ein Dossier die darunterliegende, spezifische Einheit abbildet (z. B. ein einzelnes Gebäude oder eine Adresse auf dieser Strasse). |
 | Transkribus Plattform | Digitale Plattform zur Erkennung von Dokumenten. Geführt durch die READ COOP.<br><br> Weitere Informationen: https://www.transkribus.org |
+| UUID | Abkürzung für Universally Unique Identifier, also einen eindeutiger Identifikator für ein Objekt. |
 | WER | Word Error Rate: Wortfehlerrate, siehe Neudecker, Clemens; Baierer, Konstantin; Gerber, Mike u. a.: A survey of OCR evaluation tools and metrics, in: The 6th International Workshop on Historical Document Imaging and Processing, Lausanne Switzerland 2021, S. 13–18. Online: <https://doi.org/10.1145/3476887.3476888>. |
-| Zenodo | TODO https://zenodo.org/ |
+| Zenodo | Open-Access-Repository zur Veröffentlichung und Archivierung von Forschungsdaten.<br><br> Weitere Informationen: https://zenodo.org |
