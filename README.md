@@ -1,5 +1,5 @@
 # Postgresql-Project-Database
-This repository contains Python scripts to administrate the the project database.
+This repository contains Python scripts to administrate the the project database. Information on the development of the database and the available data can be found in the [documentation](https://github.com/history-unibas/economies-of-space-database/blob/main/documentation.md)  (in German).
 
 ## Requirements
 - Python 3.10 or newer (only on Python 3.10 tested)
@@ -8,7 +8,8 @@ This repository contains Python scripts to administrate the the project database
 - Packages: see requirements.txt
 
 ## Notes
-- These scripts were developed as part of the following research project: https://dg.philhist.unibas.ch/de/bereiche/mittelalter/forschung/oekonomien-des-raums/
+- These scripts were developed as part of the following research project: https://dg.philhist.unibas.ch/de/bereiche/mittelalter/forschung/oekonomien-des-raums
+- An overview of all the repositories for this project can be found at https://history-unibas.github.io/economies-of-space.
 - A Postgresql database (https://www.postgresql.org/) was used for the project. Details about...
     - data types: https://www.postgresql.org/docs/current/datatype.html
     - the pg_trgm module: https://www.postgresql.org/docs/current/pgtrgm.html
@@ -25,6 +26,8 @@ The tables with the prefix project contain processed data relevant to our resear
 For our research project, the images of the register cards of the historical land registry are stored and processed on the platform Transkribus (https://readcoop.eu/transkribus/). Selected information from Transkribus is additionally written into the tables Transkribus_Collection, Transkribus_Document, Transkribus_Page, Transkribus_Page, and Transkribus_TextRegion respectively, for analyses.
 
 Entities with the prefix Geo contain geodata.
+
+A detailed description of all entities and attributes can be found in the [documentation](https://github.com/history-unibas/economies-of-space-database/blob/main/documentation.md) (in German).
 
 ### Geo_Address
 Elements contained in this entity represent the spatial location of HGB dossiers. Not all dossiers are included. This entity is generated based on a shapefile including all attributes contained therein. The elements of the Geo_Address table are linked as follows using geo_address.signature = stabs_dossier.stabsid.
@@ -194,6 +197,3 @@ This script allows to create and update the project database. The data sources u
 
 ## year_analysis.py
 This module analyses a variable year based on transcribed text. In the project database, this attribute is stored in the entity project_entry.
-
-## Contact
-For questions please contact jonas.aeby@unibas.ch.
