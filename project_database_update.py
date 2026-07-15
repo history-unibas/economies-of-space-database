@@ -109,7 +109,7 @@ FILEPATH_ANNOTATION_AUTOMATED = './data/hgb_full_26_05_29_05.xml'
 FILEPATH_PROJECT_DOSSIER_GEOM = './data/dossiergeom_202603250922.csv'
 
 # Filepath for source of project_dossier.locationShifted.
-FILEPATH_LOCATIONSHIFTED = './data/dossiergeomshifted_202603251454.csv'
+FILEPATH_LOCATIONSHIFTED = './data/dossiergeomshifted_202607151617.csv'
 
 # Filepath for source of project_dossier.specialType.
 FILEPATH_SPECIALTYPE = './data/20260506_dossier_specialtype.xlsx'
