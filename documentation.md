@@ -407,7 +407,7 @@ Das Dokument HGB_1_003_001 wird in StABS_Dossier nicht als Dossier betrachtet. A
 ### 4.2.3 Entität Transkribus_Page
 
 #### 4.2.3.1 Bedeutung
-Dokument auf Transkribus bestehen aus einer oder mehreren Pages ("Seiten"). Elemente der Entität Transkribus_Page repräsentieren ein Digitalisat auf Transkribus. Mithilfe von Transkribus_Document.title ("Dossier-ID") und Transkribus_Page.pageNr ("Seitenzahl") ist eine Verknüpfung zu den Elementen in StABS_Page möglich mithilfe der Attribute 'StABS_Page.dossierId' und 'StABS_Page.pageNr'.
+Ein Dokument auf Transkribus bestehen aus einer oder mehreren Pages ("Seiten"). Elemente der Entität Transkribus_Page repräsentieren ein Digitalisat auf Transkribus. Mithilfe von Transkribus_Document.title ("Dossier-ID") und Transkribus_Page.pageNr ("Seitenzahl") ist eine Verknüpfung zu den Elementen in StABS_Page möglich mithilfe der Attribute 'StABS_Page.dossierId' und 'StABS_Page.pageNr'.
 
 #### 4.2.3.2 Entstehung
 Die vom Staatsarchiv erhaltene Digitalisate wurden auf die Transkribus-Plattform hochgeladen.
@@ -664,15 +664,15 @@ keine Anmerkung
 | source |  |
 |--------|--------|
 | Bedeutung | Dieses Attribut beschreibt, aus welchem Quellenbestand der Eintrag stammt. |
-| Entstehung | Die Quellenverweise wurden in der Layout-Erkennung als eigene Textregion erfasst und trainiert. Allerdings stellte sich heraus, dass die Erkennung in rund 15% der Karteikarten gar nicht funktionierte, und auch sonst teilweise fehlerhaft war. Anhand eines Samples von 2'000 erkannten Quellenverweisen (wovon 1'894 einer Institution bzw. einem Quellenbestand zugewiesen werden konnten) ergänzt um 65 mehrzeilige Quellenverweise (als Spezialfall), wurde ein Modell trainiert, das aus dem ganzen Text eines Eintrags den Quellenverweis herausliest und diesen einem Quellenbestand bzw. einer Institution zuweist.  |
+| Entstehung | Die Quellenverweise wurden in der Layout-Erkennung als eigene Textregion erfasst und trainiert. Allerdings stellte sich heraus, dass die Erkennung in rund 15% der Karteikarten nicht funktionierte und auch sonst teilweise fehlerhaft war. Anhand eines Samples von 2'000 erkannten Quellenverweisen (wovon 1'894 einer Institution bzw. einem Quellenbestand zugewiesen werden konnten) ergänzt um 65 mehrzeilige Quellenverweise (als Spezialfall), wurde ein Modell trainiert, das aus dem ganzen Text eines Eintrags den Quellenverweis herausliest und diesen einem Quellenbestand bzw. einer Institution zuweist.<br> Die Fälle, in der die automatische Erkennung mehrere Quellenverweise zuwies, wurden durchgeschaut und plausibilisiert, daher der Wert "händisch durchgeschaut" (Attribut 'Project_Entry.sourceOrigin'). Die restlichen Fälle von Einträgen ohne erkanntem Quellenverweis oder erkanntem Quellenverweis ohne zugewiesene Institution wurden händisch ergänzt. Es handelt sich hier einerseits um schwer lesbare Verweise (aufgrund des schlechten Zustandes vieler Karteikarten) und um Verweise auf selten vorkommende Bestände, die im Trainingsmaterial nicht vorkamen und deshalb korrekterweise nicht zugewiesen wurden. |
 | Spezialfälle | 546 Karteikarten sind mehr als einem Quellenbestand zuweisbar. Die Werte sind mit einem Semikolon getrennt. <br>Für Einträge ohne Quellenangabe wurde der Attributwert "fehlt" benutzt. |
 | Fehler | Das Modell erwies sich als sehr zuverlässig, eine Stichprobe von 200 zufällig ausgewählten Einträgen ergab keinen einzigen Fehler. |
 | Statistik | Anzahl unterschiedliche Quellenangaben: 112 distinkte Quellenangaben in 244 unterschiedlichen Nennungen (aufgrund der mehr als einem Quellenbestand zuweisbaren Einträgen)<br>Häufigste Quellenangaben:<br>- Gerichtsarchiv (Anzahl: 41'317)<br>- Notariatsarchiv (9'500)<br>- St. Peter (7'682)<br>Die 10 häufigsten Nennungen machen 73.2% aller Belege aus. |
 
 | sourceOrigin |  |
 |--------|--------|
-| Bedeutung | Dieses Attribut gibt an, auf welche Art der Quellenbeleg zugewiesen wurde. |
-| Entstehung | Die grosse Mehrheit wurde automatisch erkannt. Die Fälle, in der die automatische Erkennung mehrere Quellenverweise zuwies, wurden durchgeschaut und plausibilisiert, daher der Wert "händisch durchgeschaut". Die restlichen Fälle von Einträgen ohne erkanntem Quellenverweis oder erkanntem Quellenverweis ohne zugewiesene Institution wurden händisch ergänzt. Es handelt sich hier einerseits um schwer lesbare Verweise (aufgrund des schlechten Zustandes vieler Karteikarten) und um Verweise auf selten vorkommende Bestände, die im Trainingsmaterial nicht vorkamen und deshalb korrekterweise nicht zugewiesen wurden. |
+| Bedeutung | Dieses Attribut gibt an, auf welche Art der Quellenbeleg (Attribut 'Project_Entry.source') zugewiesen wurde. |
+| Entstehung | siehe Attribut 'Project_Entry.source' |
 | Spezialfälle | keine |
 | Fehler | keine |
 | Statistik | automatisch erkannt: 110'251<br>händisch erfasst: 14'547<br>händisch durchgeschaut: 607 |
@@ -705,7 +705,7 @@ keine Anmerkung
 ### 4.4.3 Entität Project_Period
 
 #### 4.4.3.1 Bedeutung
-Elemente der Entität 'Project_Period' repräsentieren "Gültigkeitszeiträume" von Dossiers (Elemente der Entität 'Project_Dossier') an. Mit dieser Angabe ist es möglich zu bestimmen, wie viele Dossier in einem bestimmten Jahr existieren sowie Dossiers über die Zeit zu visualisieren. Ein Dossier kann mehrere Gültigkeitszeiträume besitzen. Es sind nur Dossier abgebildet, welche einen Eintrag in der Entität 'Project_Dossier' besitzen.
+Elemente der Entität 'Project_Period' repräsentieren "Gültigkeitszeiträume" von Dossiers (Elemente der Entität 'Project_Dossier'). Mit dieser Angabe ist es möglich zu bestimmen, wie viele Dossier in einem bestimmten Jahr existieren sowie Dossiers über die Zeit zu visualisieren. Ein Dossier kann mehrere Gültigkeitszeiträume besitzen. Es sind nur Dossier abgebildet, welche einen Eintrag in der Entität 'Project_Dossier' besitzen.
 
 #### 4.4.3.2 Entstehung
 Basierend auf dem Attribut 'StABS_Dossier.descriptiveNote' werden Gültigkeitszeiträume (Attribute 'Project_Period.{yearFrom,yearTo}') für die häufigsten Muster gesucht. Wurde keine Jahreszahl gefunden, wird die minimale respektive maximale Jahreszahl der diesem Dossier zugehörigen Einträge (Attribut 'Project_Entry.year') verwendet. Basierend auf den Skripts [year_analysis.py](https://github.com/history-unibas/economies-of-space-database/blob/main/year_analysis.py) und [dossier_validity_range.py](https://github.com/history-unibas/economies-of-space-database/blob/main/dossier_validity_range.py)
