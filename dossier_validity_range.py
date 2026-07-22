@@ -45,10 +45,12 @@ ANALYZE_DESCRIPTIVENOTE = False
 
 # File name for file containing dossierId of dossier for which no time
 # analysis with previous dossier is to be made.
-FILENAME_INCLUDINGDOSSIER = './data/20240911_dossier_einschliesslich.csv'
+FILENAME_INCLUDINGDOSSIER = (
+    './data/dossier_validity_range/20240911_dossier_einschliesslich.csv'
+    )
 
 # Filepath for saving the results.
-FILEPATH_RESULT = './data/'
+FILEPATH_RESULT = './'
 
 # Filenames of the output files.
 FILENAME_NOTEANALYSIS = 'dossierFurterMatchesNote.csv'

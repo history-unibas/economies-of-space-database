@@ -1,20 +1,50 @@
-# Postgresql-Project-Database
+Postgresql-Project-Database
+==============
+
 This repository contains Python scripts to administrate the the project database. Information on the development of the database and the available data can be found in the [documentation](https://github.com/history-unibas/economies-of-space-database/blob/main/documentation.md)  (in German).
 
-## Requirements
+- [Postgresql-Project-Database](#postgresql-project-database)
+- [Requirements](#requirements)
+- [Notes](#notes)
+- [Database Schema](#database-schema)
+  - [Geo\_Address](#geo_address)
+  - [StABS\_Serie](#stabs_serie)
+  - [StABS\_Dossier](#stabs_dossier)
+  - [StABS\_Page](#stabs_page)
+  - [Project\_Period](#project_period)
+  - [Project\_Relationship](#project_relationship)
+  - [Project\_Dossier](#project_dossier)
+  - [Project\_Entry](#project_entry)
+  - [Transkribus\_Collection](#transkribus_collection)
+  - [Transkribus\_Document](#transkribus_document)
+  - [Transkribus\_Page](#transkribus_page)
+  - [Transkribus\_Transcript](#transkribus_transcript)
+  - [Transkribus\_TextRegion](#transkribus_textregion)
+- [Scripts](#scripts)
+  - [administrateDatabase.py](#administratedatabasepy)
+  - [connectDatabase.py](#connectdatabasepy)
+  - [dossier\_realationship.py](#dossier_realationshippy)
+  - [dossier\_validity\_range.py](#dossier_validity_rangepy)
+  - [project\_database\_update.py](#project_database_updatepy)
+  - [year\_analysis.py](#year_analysispy)
+- [Data](#data)
+  - [./data/dossier\_relationship](#datadossier_relationship)
+  - [./data/dossier\_validity\_range](#datadossier_validity_range)
+  - [./data/project\_database\_update](#dataproject_database_update)
+
+
+# Requirements
 - Python 3.10 or newer (only on Python 3.10 tested)
 - PostgreSQL (only on PostgreSQL 14.8 tested)
 - PostgreSQL extensions uuid-ossp 1.1, pg_trgm 1.6, fuzzystrmatch 1.1, dblink 1.2, and postgis 3.2.0
 - Packages: see requirements.txt
 
-## Notes
+# Notes
 - These scripts were developed as part of the following research project: https://dg.philhist.unibas.ch/de/bereiche/mittelalter/forschung/oekonomien-des-raums
 - An overview of all the repositories for this project can be found at https://history-unibas.github.io/economies-of-space.
-- A Postgresql database (https://www.postgresql.org/) was used for the project. Details about...
-    - data types: https://www.postgresql.org/docs/current/datatype.html
-    - the pg_trgm module: https://www.postgresql.org/docs/current/pgtrgm.html
+- A Postgresql database (https://www.postgresql.org/) was used for the project.
 
-## Database Schema 
+# Database Schema 
 The following figure shows all entities defined in the project database and their links to each other. Reading example for the link between StABS_Series and StABS_Dossier: An entry of the entity StABS_Series is connected to one or more entries of the entity StABS_Dossier. Conversely, an entry of the StABS_Dossier entity is related to exactly one entry of the StABS_Series entity.
 
 ![entityRelations](entityRelations.drawio.svg)
@@ -29,10 +59,10 @@ Entities with the prefix Geo contain geodata.
 
 A detailed description of all entities and attributes can be found in the [documentation](https://github.com/history-unibas/economies-of-space-database/blob/main/documentation.md) (in German).
 
-### Geo_Address
+## Geo_Address
 Elements contained in this entity represent the spatial location of HGB dossiers. Not all dossiers are included. This entity is generated based on a shapefile including all attributes contained therein. The elements of the Geo_Address table are linked as follows using geo_address.signature = stabs_dossier.stabsid.
 
-### StABS_Serie
+## StABS_Serie
 Elements of the StABS_Series entity represent streets. They are at the "Series" level at the State Archives. Series that do not have subordinate units at the State Archives are not represented in this table. Collections created on Transkribus for training models are also not represented in this and the following derived table.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
@@ -42,7 +72,7 @@ Elements of the StABS_Series entity represent streets. They are at the "Series" 
 | title | VARCHAR(100) | yes |  | Street name |
 | linkRecord | VARCHAR(50) | yes |  | URI of the linked open data record |
 
-### StABS_Dossier
+## StABS_Dossier
 Elements of the entity StABS_Dossier represent a building, address or further information of a street. The elements are at the "Dossier" level at the State Archives. Dossiers that do not have subordinate units at the State Archives are not represented in this table.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
@@ -60,7 +90,7 @@ Elements of the entity StABS_Dossier represent a building, address or further in
 | owner1862 | VARCHAR(100) | no |  | Owner of the house in the year 1862 |
 | descriptiveNote | VARCHAR(600) | no |  | Remarks |
 
-### StABS_Page
+## StABS_Page
 Elements of the StABS_Page entity represent a scanned page. Pages from dossiers that have an entry in the StABS_Dossier entity are mapped.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
@@ -70,7 +100,7 @@ Elements of the StABS_Page entity represent a scanned page. Pages from dossiers 
 | pageNr | SMALLINT | yes |  | Page number of the page in the dossier |
 | linkViewer | VARCHAR(100) | yes |  | URL of the State Archives viewer |
 
-### Project_Period
+## Project_Period
 The elements of the Project_Period entity represent the validity period of the dossier that exists in the Project_Dossier entity. A dossier can have several entries or validity periods.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
@@ -81,7 +111,7 @@ The elements of the Project_Period entity represent the validity period of the d
 | yearFromManuallyCorrected | BOOLEAN | yes |  | Indication if the attribute yearFrom is manually corrected |
 | yearToManuallyCorrected | BOOLEAN | yes |  | Indication if the attribute yearFrom is manually corrected |
 
-### Project_Relationship
+## Project_Relationship
 This entity maps direct temporal relationships between HGB dossiers (represented as a direct edge list). The relationships were determined on the basis of the cluster information (see dossier_relationship.py) using a rule-based approach and manual editing. Dossier represented by identifier in sourceDossierId has as descendant dossier with identifier in targetDossierId. Conversely, dossier represented by identifier in targetDossierId has dossier with identifier in sourceDossierId as previous dossier. Dossier can have several descendants or preceding dossiers due to a split or merge.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
@@ -89,7 +119,7 @@ This entity maps direct temporal relationships between HGB dossiers (represented
 | sourceDossierId | VARCHAR(15) | yes | FOREIGN KEY | Identifier to source project dossier |
 | targetDossierId | VARCHAR(15) | yes | FOREIGN KEY | Identifier to target project dossier |
 
-### Project_Dossier
+## Project_Dossier
 Elements of the Project_Dossier table represent a dossier of HGB analogous to the elements in the entity StABS_Dossier. Only dossiers relevant to our project are mapped in this entity. This means dossiers that are referenced in the Project_Dossier entity.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
@@ -102,7 +132,7 @@ Elements of the Project_Dossier table represent a dossier of HGB analogous to th
 | locationOrigin | VARCHAR(30) | no |  | Statement on the type of location |
 | specialType | VARCHAR(50) | no |  | Identification of special dossiers based on StABS_Dossier.title |
 
-### Project_Entry
+## Project_Entry
 Elements of the Project_Entry table represent an entry recorded in the HGB. Several entries can be documented on one register card of the HGB or one entry can extend over several pages/register cards. A page in the HGB is represented by an element in the table Transkribus_Page. If there are several entries on a register card, these entries are not currently represented by several elements in this table.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
@@ -121,7 +151,7 @@ Elements of the Project_Entry table represent an entry recorded in the HGB. Seve
 | annotationManual | xml | no |  | XML containing manually defined annotations |
 | annotationAutomated | xml | no |  | XML containing automatically generated annotations |
 
-### Transkribus_Collection
+## Transkribus_Collection
 Elements of the Transkribus_Collection entity represent a street and are stored as collection on Transkribus.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
@@ -130,7 +160,7 @@ Elements of the Transkribus_Collection entity represent a street and are stored 
 | colName | VARCHAR(10) | yes | FOREIGN KEY | Name of the collection, correspond to StABS_Serie.serieId |
 | nrOfDocuments | SMALLINT | yes |  | Number of documents linked to the collection |
 
-### Transkribus_Document
+## Transkribus_Document
 Elements of the Transkribus_Document entity represent a building or address. On Transkribus, they are stored as documents.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
@@ -140,7 +170,7 @@ Elements of the Transkribus_Document entity represent a building or address. On 
 | title | VARCHAR(15) | yes |  | Title of the Document, correspond to StABS_Dossier.dossierId. In particular cases there is no entry in StABS_Dossier. |
 | nrOfPages | SMALLINT | yes |  | Number of pages linked to the document |
 
-### Transkribus_Page
+## Transkribus_Page
 Documents on Transkribus can contain several pages. Each element of the entity Transkribus_Page represent one page on Transkribus respectively a page of a file card of the historical land registry.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
@@ -152,7 +182,7 @@ Documents on Transkribus can contain several pages. Each element of the entity T
 | urlImage | VARCHAR(100) | yes |  | URI of the image of the page stored in Transkribus |
 | entryId | VARCHAR(45) | no | FOREIGN KEY | Identifier to Project_Entry.entryId |
 
-### Transkribus_Transcript
+## Transkribus_Transcript
 Transcriptions of a page are saved as page xml on Transkribus. Each time a change is made on Transkribus, a new version is generated. Elements of the entity Transkribus_Transcript represent selected information of a page xml.
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
@@ -166,7 +196,7 @@ Transcriptions of a page are saved as page xml on Transkribus. Each time a chang
 | timestamp | TIMESTAMP | yes |  | Time of transcription, Unix time stamp in milliseconds since 01.01.1970 UTC |
 | htrModel | VARCHAR(1000) | no |  | Type of HTR model used for the transcription |
 
-### Transkribus_TextRegion
+## Transkribus_TextRegion
 Transcriptions of texts are stored on Transkribus within the page xmls in text regions. Each element of the Transkribus_TextRegion entity represents a non-empty text region of an element of the Transkribus_Transcript entity. 
 
 | **Column name** | **Data type** | **Not NULL?** | **Additional Requirement** | **Description** |
@@ -177,6 +207,8 @@ Transcriptions of texts are stored on Transkribus within the page xmls in text r
 | type | VARCHAR(15) | no |  | Type assigned to the text region. Examples: marginalia, header, paragraph, credit, footer |
 | textLine | VARCHAR(200)[] | yes |  | Transcribed text per line saved as a list |
 | text | VARCHAR(10000) | yes |  | Entire transcribed text of the text region, indexed in the database |
+
+# Scripts
 
 ## administrateDatabase.py
 This script contains functions creating the project database and its schema and to administrate it using Python scripts.
@@ -197,3 +229,38 @@ This script allows to create and update the project database. The data sources u
 
 ## year_analysis.py
 This module analyses a variable year based on transcribed text. In the project database, this attribute is stored in the entity project_entry.
+
+# Data
+
+## ./data/dossier_relationship
+The following files are used by the script 'dossier_relationship.py'.
+| File name | Description |
+|--------|--------|
+| 20240221 year_analysis_dossier.csv | TODO |
+| 20240420 dossier_type.xlsx | TODO |
+| 20240420_DossierZwischenresultat_BH.xlsx | TODO |
+| Korrektur_Adressen.xlsx | TODO |
+
+## ./data/dossier_validity_range
+The following files are used by the script 'dossier_validity_range.py'.
+| File name | Description |
+|--------|--------|
+| 20240911_dossier_einschliesslich.csv | TODO |
+
+## ./data/project_database_update
+The following files are used by the script 'project_database_update.py'.
+| File name | Description |
+|--------|--------|
+| 20250821_annotation_manual/*.xml | TODO |
+| 20260116_dossier_relationship.csv | TODO |
+| 20260318_dossier_period.csv | TODO |
+| 20260325_entry_source.csv | TODO |
+| 20260506_dossier_specialtype.xlsx | TODO |
+| chronotool_202605061259.csv | TODO |
+| datetool_202603251627.csv | TODO |
+| dossiergeom_202603250922.csv | TODO |
+| dossiergeomshifted_202607151617.csv | TODO |
+| hgb_full_26_05_29_05.xml | TODO<br>TODO Update and link to published XML |
+| HGB_Mappen_Liste_Staatsarchiv.* | TODO |
+| stabs_dossier.csv | TODO |
+| stabs_serie.csv | TODO |

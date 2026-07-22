@@ -72,11 +72,13 @@ DB_USER = 'postgres'
 DB_HOST = 'localhost'
 
 # Set filepaths for HGB metadata.
-FILEPATH_SERIE = './data/stabs_serie.csv'
-FILEPATH_DOSSIER = './data/stabs_dossier.csv'
+FILEPATH_SERIE = './data/project_database_update/stabs_serie.csv'
+FILEPATH_DOSSIER = './data/project_database_update/stabs_dossier.csv'
 
 # Set parameter for geodata to be imported.
-SHAPEFILE_PATH = 'data/HGB_Mappen_Liste_Staatsarchiv.shp'
+SHAPEFILE_PATH = (
+    'data/project_database_update/HGB_Mappen_Liste_Staatsarchiv.shp'
+    )
 SHAPEFILE_EPSG = 'EPSG:2056'
 
 # Define url to necessary repositories.
@@ -93,32 +95,52 @@ CORRECT_LINE_ORDER = True
 CORRECT_PROJECT_ENTRY = True
 
 # Filepath of correction files for project_entry.
-FILEPATH_PROJECT_ENTRY_CORR1 = './data/datetool_202603251627.csv'
-FILEPATH_PROJECT_ENTRY_CORR2 = './data/chronotool_202605061259.csv'
+FILEPATH_PROJECT_ENTRY_CORR1 = (
+    './data/project_database_update/datetool_202603251627.csv'
+    )
+FILEPATH_PROJECT_ENTRY_CORR2 = (
+    './data/project_database_update/chronotool_202605061259.csv'
+    )
 
 # Filepath for source for project_entry.{source,sourceOrigin}.
-FILEPATH_SOURCE = './data/20260325_entry_source.csv'
+FILEPATH_SOURCE = (
+    './data/project_database_update/20260325_entry_source.csv'
+    )
 
 # Filepath for source for project_entry.annotationManual.
-FILEPATH_ANNOTATION_MANUAL = './data/20250821_annotation_manual'
+FILEPATH_ANNOTATION_MANUAL = (
+    './data/project_database_update/20250821_annotation_manual'
+    )
 
 # Filepath for source for project_entry.annotationAutomated.
-FILEPATH_ANNOTATION_AUTOMATED = './data/hgb_full_26_05_29_05.xml'
+FILEPATH_ANNOTATION_AUTOMATED = (
+    './data/project_database_update/hgb_full_26_05_29_05.xml'
+    )
 
 # Filepath of correction file for project_dossier.
-FILEPATH_PROJECT_DOSSIER_GEOM = './data/dossiergeom_202603250922.csv'
+FILEPATH_PROJECT_DOSSIER_GEOM = (
+    './data/project_database_update/dossiergeom_202603250922.csv'
+    )
 
 # Filepath for source of project_dossier.locationShifted.
-FILEPATH_LOCATIONSHIFTED = './data/dossiergeomshifted_202607151617.csv'
+FILEPATH_LOCATIONSHIFTED = (
+    './data/project_database_update/dossiergeomshifted_202607151617.csv'
+    )
 
 # Filepath for source of project_dossier.specialType.
-FILEPATH_SPECIALTYPE = './data/20260506_dossier_specialtype.xlsx'
+FILEPATH_SPECIALTYPE = (
+    './data/project_database_update/20260506_dossier_specialtype.xlsx'
+    )
 
 # Filepath for source of project_relationship.
-FILEPATH_PROJECT_RELATIONSHIP = './data/20260116_dossier_relationship.csv'
+FILEPATH_PROJECT_RELATIONSHIP = (
+    './data/project_database_update/20260116_dossier_relationship.csv'
+    )
 
 # Filepath for correction file for project_period.
-FILEPATH_PROJECT_PERIOD = './data/20260318_dossier_period.csv'
+FILEPATH_PROJECT_PERIOD = (
+    './data/project_database_update/20260318_dossier_period.csv'
+    )
 
 # Define direction of the backup file.
 BACKUP_DIR = '/mnt/research-storage/Projekt_HGB/DB_Dump/hgb'
