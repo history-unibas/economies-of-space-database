@@ -1,0 +1,482 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 117/28 S. [39, 40]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Lindenberg 8, 12 u. Riehenthorstr. 1 (8, 12, 16 u. Riehenthorstr. 1 laut Löffelschem Plan)</tei:title>
+            <tei:idno>HGB 1 117/28</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494494</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Hausurkunden</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1576">1576</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611723.450385718 1267578.7043857311</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Es</token>
+    <token token_id="5">verkauft</token>
+    <token token_id="6">und</token>
+    <token token_id="7">gibt</token>
+    <token token_id="8">zu</token>
+    <token token_id="9">kaufen</token>
+    <token token_id="10">der</token>
+    <token token_id="11">ersam</token>
+    <token token_id="12">herr</token>
+    <token token_id="13">Hans</token>
+    <token token_id="14">Jacob</token>
+    <token token_id="15">Frey</token>
+    <token token_id="16">Burger</token>
+    <token token_id="17">ze</token>
+    <token token_id="18">Basel</token>
+    <token token_id="19">und</token>
+    <token token_id="20">seine</token>
+    <token token_id="21">Ehefrau</token>
+    <token token_id="22">Susa</token>
+    <token token_id="23">-</token>
+    <token token_id="24">na</token>
+    <token token_id="25">von</token>
+    <token token_id="26">Waldtkilch</token>
+    <token token_id="27">für</token>
+    <token token_id="28">sich</token>
+    <token token_id="29">und</token>
+    <token token_id="30">ihrer</token>
+    <token token_id="31">beiden</token>
+    <token token_id="32">Erben</token>
+    <token token_id="33">,</token>
+    <token token_id="34">dem</token>
+    <token token_id="35">edten</token>
+    <token token_id="36">gestringen</token>
+    <token token_id="37">herrn</token>
+    <token token_id="38">Clausen</token>
+    <token token_id="39">von</token>
+    <token token_id="40">Hatstatt</token>
+    <token token_id="41">Kriegs</token>
+    <token token_id="42">Obersten</token>
+    <token token_id="43">etc</token>
+    <token token_id="44">.</token>
+    <token token_id="45">Burger</token>
+    <token token_id="46">zu</token>
+    <token token_id="47">Basel</token>
+    <token token_id="48">und</token>
+    <token token_id="49">seinen</token>
+    <token token_id="50">Erben</token>
+    <token token_id="51">den</token>
+    <token token_id="52">hof</token>
+    <token token_id="53">mit</token>
+    <token token_id="54">seiner</token>
+    <token token_id="55">behausung</token>
+    <token token_id="56">und</token>
+    <token token_id="57">hofstatt</token>
+    <token token_id="58">mit</token>
+    <token token_id="59">Garten</token>
+    <token token_id="60">,</token>
+    <token token_id="61">Stallen</token>
+    <token token_id="62">Scheunen</token>
+    <token token_id="63">und</token>
+    <token token_id="64">aller</token>
+    <token token_id="65">zugehörd</token>
+    <token token_id="66">,</token>
+    <token token_id="67">etwann</token>
+    <token token_id="68">der</token>
+    <token token_id="69">mittel</token>
+    <token token_id="70">und</token>
+    <token token_id="71">auch</token>
+    <token token_id="72">der</token>
+    <token token_id="73">ober</token>
+    <token token_id="74">Ziegelhof</token>
+    <token token_id="75">,</token>
+    <token token_id="76">jetzund</token>
+    <token token_id="77">aber</token>
+    <token token_id="78">zum</token>
+    <token token_id="79">Diergarten</token>
+    <token token_id="80">genant</token>
+    <token token_id="81">zu</token>
+    <token token_id="82">mindern</token>
+    <token token_id="83">Basel</token>
+    <token token_id="84">in</token>
+    <token token_id="85">der</token>
+    <token token_id="86">obern</token>
+    <token token_id="87">Rheingasse</token>
+    <token token_id="88">oben</token>
+    <token token_id="89">an</token>
+    <token token_id="90">der</token>
+    <token token_id="91">Stadt</token>
+    <token token_id="92">Ringmauren</token>
+    <token token_id="93">,</token>
+    <token token_id="94">anderseits</token>
+    <token token_id="95">an</token>
+    <token token_id="96">dauli</token>
+    <token token_id="97">Freuw</token>
+    <token token_id="98">¬</token>
+    <token token_id="99">ler</token>
+    <token token_id="100">dem</token>
+    <token token_id="101">rebman</token>
+    <token token_id="102">,</token>
+    <token token_id="103">so</token>
+    <token token_id="104">man</token>
+    <token token_id="105">Läsersthurnli</token>
+    <token token_id="106">zugeht</token>
+    <token token_id="107">gelegen</token>
+    <token token_id="108">,</token>
+    <token token_id="109">und</token>
+    <token token_id="110">stosst</token>
+    <token token_id="111">unten</token>
+    <token token_id="112">an</token>
+    <token token_id="113">das</token>
+    <token token_id="114">Roschtgesslin</token>
+    <token token_id="115">oben</token>
+    <token token_id="116">an</token>
+    <token token_id="117">der</token>
+    <token token_id="118">herrn</token>
+    <token token_id="119">Alment</token>
+    <token token_id="120">;</token>
+    <token token_id="121">ist</token>
+    <token token_id="122">aller</token>
+    <token token_id="123">Zinsen</token>
+    <token token_id="124">frei</token>
+    <token token_id="125">.</token>
+    <token token_id="126">Kaufpreis</token>
+    <token token_id="127">3500</token>
+    <token token_id="128">guld</token>
+    <token token_id="129">für</token>
+    <token token_id="130">jeden</token>
+    <token token_id="131">1</token>
+    <token token_id="132">℔</token>
+    <token token_id="133">5ß</token>
+    <token token_id="134">gerechnet</token>
+    <token token_id="135">.</token>
+  </text>
+  <spans>
+    <span id="2346" start="5" end="5" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2328" start="10" end="26" text="der ersam herr&#10;Hans Jacob Frey Burger ze Basel und seine Ehefrau Susa -&#10;na von Waldtkilch" element="list" class="per" subclass="">
+      <span id="1945" start="10" end="18" text="der ersam herr&#10;Hans Jacob Frey Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1987" start="11" end="12" text="ersam herr" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1987_head" start="11" end="12" element="head" class="title" text="ersam herr" subclass=""/>
+        </span>
+        <span id="1951" start="13" end="15" text="Hans Jacob Frey" element="head" class="nam" subclass=""/>
+        <span id="1957" start="16" end="18" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1963" start="16" end="16" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="1969" start="18" end="18" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1969_head" start="18" end="18" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1975" start="20" end="26" text="seine Ehefrau Susa -&#10;na von Waldtkilch" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1993" start="20" end="21" text="seine Ehefrau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2005" start="20" end="20" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2005_head" start="20" end="20" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1999" start="21" end="21" text="Ehefrau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1981" start="22" end="26" text="Susa -&#10;na von Waldtkilch" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="2334" start="28" end="32" text="sich und ihrer beiden Erben" element="list" class="per" subclass="">
+      <span id="2018" start="28" end="28" text="sich" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2018_head" start="28" end="28" element="head" class="pro" text="sich" subclass=""/>
+      </span>
+      <span id="2038" start="30" end="32" text="ihrer beiden Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2050" start="30" end="30" text="ihrer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2050_head" start="30" end="30" element="head" class="pro" text="ihrer" subclass=""/>
+        </span>
+        <span id="2044" start="32" end="32" text="Erben" element="head" class="heir" subclass=""/>
+      </span>
+    </span>
+    <span id="2340" start="34" end="50" text="dem&#10;edten gestringen herrn Clausen von Hatstatt Kriegs&#10;Obersten etc . Burger zu Basel und seinen Erben" element="list" class="per" subclass="">
+      <span id="2063" start="34" end="47" text="dem&#10;edten gestringen herrn Clausen von Hatstatt Kriegs&#10;Obersten etc . Burger zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2075" start="35" end="37" text="edten gestringen herrn" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2075_head" start="35" end="37" element="head" class="title" text="edten gestringen herrn" subclass=""/>
+        </span>
+        <span id="2069" start="38" end="40" text="Clausen von Hatstatt" element="head" class="nam" subclass=""/>
+        <span id="2081" start="41" end="42" text="Kriegs&#10;Obersten" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2081_head" start="41" end="42" element="head" class="occ" text="Kriegs Obersten" subclass=""/>
+        </span>
+        <span id="2087" start="45" end="47" text="Burger zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2093" start="45" end="45" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="2099" start="47" end="47" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2099_head" start="47" end="47" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2105" start="49" end="50" text="seinen Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2117" start="49" end="49" text="seinen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2117_head" start="49" end="49" element="head" class="pro" text="seinen" subclass=""/>
+        </span>
+        <span id="2111" start="50" end="50" text="Erben" element="head" class="heir" subclass=""/>
+      </span>
+    </span>
+    <span id="2130" start="51" end="124" text="den hof&#10;mit seiner behausung und hofstatt mit Garten , Stallen&#10;Scheunen und aller zugehörd , etwann der mittel und&#10;auch der ober Ziegelhof , jetzund aber zum Diergarten&#10;genant zu mindern Basel in der obern Rheingasse oben&#10;an der Stadt Ringmauren , anderseits an dauli Freuw ¬&#10;ler dem rebman , so man Läsersthurnli zugeht gelegen ,&#10;und stosst unten an das Roschtgesslin oben an der&#10;herrn Alment ; ist aller Zinsen frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2136" start="52" end="52" text="hof" element="head" class="type" subclass=""/>
+      <span id="2142" start="53" end="65" text="mit seiner behausung und hofstatt mit Garten , Stallen&#10;Scheunen und aller zugehörd" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2154" start="55" end="57" text="behausung und hofstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2148" start="55" end="57" text="behausung und hofstatt" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2160" start="59" end="59" text="Garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2160_head" start="59" end="59" element="head" class="type" text="Garten" subclass=""/>
+        </span>
+        <span id="2166" start="61" end="61" text="Stallen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2166_head" start="61" end="61" element="head" class="type" text="Stallen" subclass=""/>
+        </span>
+        <span id="2172" start="62" end="62" text="Scheunen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2172_head" start="62" end="62" element="head" class="type" text="Scheunen" subclass=""/>
+        </span>
+      </span>
+      <span id="2178" start="68" end="74" text="der mittel und&#10;auch der ober Ziegelhof" element="appo" class="nam" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+        <span id="2178_head" start="68" end="74" element="head" class="nam" text="der mittel und auch der ober Ziegelhof" subclass=""/>
+      </span>
+      <span id="2184" start="78" end="79" text="zum Diergarten" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2184_head" start="78" end="79" element="head" class="nam" text="zum Diergarten" subclass=""/>
+      </span>
+      <span id="2190" start="81" end="119" text="zu mindern Basel in der obern Rheingasse oben&#10;an der Stadt Ringmauren , anderseits an dauli Freuw ¬&#10;ler dem rebman , so man Läsersthurnli zugeht gelegen ,&#10;und stosst unten an das Roschtgesslin oben an der&#10;herrn Alment" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2196" start="82" end="83" text="mindern Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2196_head" start="82" end="83" element="head" class="nam" text="mindern Basel" subclass=""/>
+        </span>
+        <span id="2202" start="85" end="87" text="der obern Rheingasse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="2208" start="86" end="87" text="obern Rheingasse" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2214" start="90" end="92" text="der Stadt Ringmauren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="defense">
+          <span id="2226" start="91" end="91" text="Stadt" element="attr" class="part-of" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2232" start="91" end="91" text="Stadt" element="reference" class="gpe-gpe" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2232_head" start="91" end="91" element="head" class="type" text="Stadt" subclass=""/>
+            </span>
+          </span>
+          <span id="2220" start="92" end="92" text="Ringmauren" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2238" start="96" end="101" text="dauli Freuw ¬&#10;ler dem rebman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2244" start="96" end="99" text="dauli Freuw ¬&#10;ler" element="head" class="nam" subclass=""/>
+          <span id="2250" start="100" end="101" text="dem rebman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2256" start="101" end="101" text="rebman" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="2262" start="105" end="105" text="Läsersthurnli" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2262_head" start="105" end="105" element="head" class="nam" text="Läsersthurnli" subclass=""/>
+        </span>
+        <span id="2268" start="113" end="114" text="das Roschtgesslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="2274" start="114" end="114" text="Roschtgesslin" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2280" start="117" end="119" text="der&#10;herrn Alment" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2304" start="117" end="118" text="der&#10;herrn" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2292" start="117" end="118" text="der&#10;herrn" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2298" start="118" end="118" text="herrn" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+          <span id="2286" start="119" end="119" text="Alment" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="2310" start="121" end="124" text="ist aller Zinsen frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2365" start="124" end="124" text="frei" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+      </span>
+    </span>
+    <span id="2316" start="127" end="128" text="3500 guld" element="value" class="money" subclass=""/>
+    <span id="2359" start="129" end="134" text="für jeden 1 ℔ 5ß gerechnet" element="other" class="other" subclass="">
+      <span id="2322" start="131" end="133" text="1 ℔ 5ß" element="value" class="money" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2011" from="2005" to="1945" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2031" from="2018" to="1945" class="comp" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2024" from="2018" to="1975" class="comp" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2352" from="2328" to="2334" class="per-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2056" from="2050" to="2018" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2123" from="2117" to="2063" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2365_role" from="2365" to="2130" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="30" end="32" ref="2038" type="event">
+      <trigger start="32" end="32" text="Erben" ref="2044"/>
+      <event event_id="0.0">
+        <role role="heir" ref="2038" text="ihrer beiden Erben"/>
+        <role role="decedent" ref="2050" text="ihrer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="inheritance" polarity="pos" tense="pres" modality="ass" start="49" end="50" ref="2105" type="event">
+      <trigger start="50" end="50" text="Erben" ref="2111"/>
+      <event event_id="1.0">
+        <role role="heir" ref="2105" text="seinen Erben"/>
+        <role role="decedent" ref="2117" text="seinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="16" end="18" ref="1957" type="state">
+      <trigger start="16" end="16" text="Burger" ref="1963"/>
+      <event event_id="2.0">
+        <role role="resident" ref="1945" text="der ersam herr&#10;Hans Jacob Frey Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="1969" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="20" end="21" ref="1993" type="state">
+      <trigger start="21" end="21" text="Ehefrau" ref="1999"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1975" text="seine Ehefrau Susa -&#10;na von Waldtkilch"/>
+        <role role="family-b" ref="2005" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="45" end="47" ref="2087" type="state">
+      <trigger start="45" end="45" text="Burger" ref="2093"/>
+      <event event_id="4.0">
+        <role role="resident" ref="2063" text="dem&#10;edten gestringen herrn Clausen von Hatstatt Kriegs&#10;Obersten etc . Burger zu Basel"/>
+        <role role="geopolitical-entity" ref="2099" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" start="53" end="65" ref="2142" type="state">
+      <event event_id="5.0">
+        <role role="whole" ref="2130" text="den hof&#10;mit seiner behausung und hofstatt mit Garten , Stallen&#10;Scheunen und aller zugehörd , etwann der mittel und&#10;auch der ober Ziegelhof , jetzund aber zum Diergarten&#10;genant zu mindern Basel in der obern Rheingasse oben&#10;an der Stadt Ringmauren , anderseits an dauli Freuw ¬&#10;ler dem rebman , so man Läsersthurnli zugeht gelegen ,&#10;und stosst unten an das Roschtgesslin oben an der&#10;herrn Alment ; ist aller Zinsen frei"/>
+        <role role="part" ref="2154" text="behausung und hofstatt"/>
+        <role role="part" ref="2160" text="Garten"/>
+        <role role="part" ref="2166" text="Stallen"/>
+        <role role="part" ref="2172" text="Scheunen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="81" end="119" ref="2190" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="2130" text="den hof&#10;mit seiner behausung und hofstatt mit Garten , Stallen&#10;Scheunen und aller zugehörd , etwann der mittel und&#10;auch der ober Ziegelhof , jetzund aber zum Diergarten&#10;genant zu mindern Basel in der obern Rheingasse oben&#10;an der Stadt Ringmauren , anderseits an dauli Freuw ¬&#10;ler dem rebman , so man Läsersthurnli zugeht gelegen ,&#10;und stosst unten an das Roschtgesslin oben an der&#10;herrn Alment ; ist aller Zinsen frei"/>
+        <role role="location-b" ref="2196" text="mindern Basel"/>
+        <role role="location-b" ref="2202" text="der obern Rheingasse"/>
+        <role role="location-b" ref="2214" text="der Stadt Ringmauren"/>
+        <role role="location-b" ref="2238" text="dauli Freuw ¬&#10;ler dem rebman"/>
+        <role role="location-b" ref="2262" text="Läsersthurnli"/>
+        <role role="location-b" ref="2268" text="das Roschtgesslin"/>
+        <role role="location-b" ref="2280" text="der&#10;herrn Alment"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="part_whole" polarity="pos" tense="pres" modality="ass" start="91" end="91" ref="2226" type="state">
+      <event event_id="7.0">
+        <role role="part" ref="2214" text="der Stadt Ringmauren"/>
+        <role role="whole" ref="2232" text="Stadt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="ownership" polarity="pos" tense="pres" modality="ass" start="117" end="118" ref="2304" type="state">
+      <event event_id="8.0">
+        <role role="property" ref="2280" text="der&#10;herrn Alment"/>
+        <role role="owner" ref="2292" text="der&#10;herrn"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="10" end="5" ref="" type="event">
+      <trigger start="5" end="5" text="verkauft" ref="2346"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1945" text="der ersam herr&#10;Hans Jacob Frey Burger ze Basel"/>
+        <role role="seller" ref="1975" text="seine Ehefrau Susa -&#10;na von Waldtkilch"/>
+        <role role="buyer" ref="2063" text="dem&#10;edten gestringen herrn Clausen von Hatstatt Kriegs&#10;Obersten etc . Burger zu Basel"/>
+        <role role="buyer" ref="2105" text="seinen Erben"/>
+        <role role="property" ref="2130" text="den hof&#10;mit seiner behausung und hofstatt mit Garten , Stallen&#10;Scheunen und aller zugehörd , etwann der mittel und&#10;auch der ober Ziegelhof , jetzund aber zum Diergarten&#10;genant zu mindern Basel in der obern Rheingasse oben&#10;an der Stadt Ringmauren , anderseits an dauli Freuw ¬&#10;ler dem rebman , so man Läsersthurnli zugeht gelegen ,&#10;und stosst unten an das Roschtgesslin oben an der&#10;herrn Alment ; ist aller Zinsen frei"/>
+        <role role="price" ref="2316" text="3500 guld"/>
+        <role role="detail_price-conv" ref="2359" text="für jeden 1 ℔ 5ß gerechnet"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="124" end="124" ref="2310" type="state">
+      <trigger start="124" end="124" text="frei" ref="2365"/>
+      <event event_id="10.0">
+        <role role="property" ref="2130" text="den hof&#10;mit seiner behausung und hofstatt mit Garten , Stallen&#10;Scheunen und aller zugehörd , etwann der mittel und&#10;auch der ober Ziegelhof , jetzund aber zum Diergarten&#10;genant zu mindern Basel in der obern Rheingasse oben&#10;an der Stadt Ringmauren , anderseits an dauli Freuw ¬&#10;ler dem rebman , so man Läsersthurnli zugeht gelegen ,&#10;und stosst unten an das Roschtgesslin oben an der&#10;herrn Alment ; ist aller Zinsen frei"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="11.0">
+        <role role="whole" ref="2018" text="sich"/>
+        <role role="part" ref="1945" text="der ersam herr&#10;Hans Jacob Frey Burger ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="12.0">
+        <role role="whole" ref="2018" text="sich"/>
+        <role role="part" ref="1975" text="seine Ehefrau Susa -&#10;na von Waldtkilch"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="13.0">
+        <role role="representative" ref="1945" text="der ersam herr&#10;Hans Jacob Frey Burger ze Basel"/>
+        <role role="represented" ref="2018" text="sich"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="14.0">
+        <role role="representative" ref="1945" text="der ersam herr&#10;Hans Jacob Frey Burger ze Basel"/>
+        <role role="represented" ref="2038" text="ihrer beiden Erben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="15" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="15.0">
+        <role role="representative" ref="1975" text="seine Ehefrau Susa -&#10;na von Waldtkilch"/>
+        <role role="represented" ref="2018" text="sich"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="16" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="16.0">
+        <role role="representative" ref="1975" text="seine Ehefrau Susa -&#10;na von Waldtkilch"/>
+        <role role="represented" ref="2038" text="ihrer beiden Erben"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

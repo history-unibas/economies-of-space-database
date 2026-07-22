@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 120/62 S. [5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Malzgasse Th. v. 24, 6. Stück v. 22</tei:title>
+            <tei:idno>HGB 1 120/62</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494620</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1463">1463</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611906.792649891 1266939.1059839737</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Martins</token>
+    <token token_id="1">Zinse</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Item</token>
+    <token token_id="4">Clewe</token>
+    <token token_id="5">Kellerman</token>
+    <token token_id="6">git</token>
+    <token token_id="7">7ß</token>
+    <token token_id="8">1</token>
+    <token token_id="9">/</token>
+    <token token_id="10">2</token>
+    <token token_id="11">hun</token>
+    <token token_id="12">wisung</token>
+    <token token_id="13">git</token>
+    <token token_id="14">Cunrat</token>
+    <token token_id="15">Schmider</token>
+    <token token_id="16">.</token>
+    <token token_id="17">1464</token>
+    <token token_id="18">Cunratt</token>
+    <token token_id="19">Schnider</token>
+    <token token_id="20">in</token>
+    <token token_id="21">der</token>
+    <token token_id="22">Maltzgassen</token>
+    <token token_id="23">gitt</token>
+    <token token_id="24">7ß</token>
+    <token token_id="25">1</token>
+    <token token_id="26">/</token>
+    <token token_id="27">2</token>
+    <token token_id="28">hun</token>
+    <token token_id="29">zu</token>
+    <token token_id="30">wisung</token>
+    <token token_id="31">ouch</token>
+    <token token_id="32">von</token>
+    <token token_id="33">Kuttern</token>
+    <token token_id="34">do</token>
+    <token token_id="35">selbs</token>
+    <token token_id="36">.</token>
+    <token token_id="37">1465</token>
+    <token token_id="38">fehlt</token>
+    <token token_id="39">.</token>
+    <token token_id="40">1466</token>
+    <token token_id="41">wie</token>
+    <token token_id="42">oben</token>
+    <token token_id="43">.</token>
+  </text>
+  <spans>
+    <span id="678" start="4" end="5" text="Clewe Kellerman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="678_head" start="4" end="5" element="head" class="nam" text="Clewe Kellerman" subclass=""/>
+    </span>
+    <span id="756" start="6" end="6" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="684" start="7" end="7" text="7ß" element="value" class="money" subclass=""/>
+    <span id="690" start="8" end="11" text="1 / 2 hun" element="value" class="money" subclass=""/>
+    <span id="787" start="12" end="12" text="wisung" element="other" class="other" subclass=""/>
+    <span id="696" start="14" end="15" text="Cunrat Schmider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="696_head" start="14" end="15" element="head" class="nam" text="Cunrat Schmider" subclass=""/>
+    </span>
+    <span id="702" start="17" end="17" text="1464" element="value" class="date" subclass=""/>
+    <span id="708" start="18" end="22" text="Cunratt Schnider in der Maltzgassen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="768" start="18" end="19" text="Cunratt Schnider" element="head" class="nam" subclass=""/>
+      <span id="714" start="20" end="22" text="in der Maltzgassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="720" start="21" end="22" text="der Maltzgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="726" start="22" end="22" text="Maltzgassen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="762" start="23" end="23" text="gitt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="732" start="24" end="24" text="7ß" element="value" class="money" subclass=""/>
+    <span id="738" start="25" end="28" text="1 / 2 hun" element="value" class="money" subclass=""/>
+    <span id="781" start="29" end="30" text="zu wisung" element="other" class="other" subclass=""/>
+    <span id="744" start="37" end="37" text="1465" element="value" class="date" subclass=""/>
+    <span id="750" start="40" end="40" text="1466" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="774" from="708" to="696" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="22" ref="714" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="708" text="Cunratt Schnider in der Maltzgassen"/>
+        <role role="location-b" ref="720" text="der Maltzgassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="4" end="6" ref="" type="state">
+      <trigger start="6" end="6" text="git" ref="756"/>
+      <event event_id="1.0">
+        <role role="payer" ref="678" text="Clewe Kellerman"/>
+        <role role="interest" ref="684" text="7ß"/>
+        <role role="detail_effective-payer" ref="696" text="Cunrat Schmider"/>
+      </event>
+      <event event_id="1.1">
+        <role role="payer" ref="678" text="Clewe Kellerman"/>
+        <role role="interest" ref="690" text="1 / 2 hun"/>
+        <role role="cause" ref="787" text="wisung"/>
+        <role role="detail_effective-payer" ref="696" text="Cunrat Schmider"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="17" end="40" ref="" type="event">
+      <trigger start="23" end="23" text="gitt" ref="762"/>
+      <event event_id="2.0">
+        <role role="date" ref="702" text="1464"/>
+        <role role="payer" ref="708" text="Cunratt Schnider in der Maltzgassen"/>
+        <role role="interest" ref="732" text="7ß"/>
+        <role role="date-missing" ref="744" text="1465"/>
+        <role role="date" ref="750" text="1466"/>
+      </event>
+      <event event_id="2.1">
+        <role role="date" ref="702" text="1464"/>
+        <role role="payer" ref="708" text="Cunratt Schnider in der Maltzgassen"/>
+        <role role="interest" ref="738" text="1 / 2 hun"/>
+        <role role="cause" ref="781" text="zu wisung"/>
+        <role role="date-missing" ref="744" text="1465"/>
+        <role role="date" ref="750" text="1466"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

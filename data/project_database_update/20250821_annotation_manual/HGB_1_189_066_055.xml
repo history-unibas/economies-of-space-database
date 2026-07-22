@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 189/66 S. [55]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schützenmattstrasse 16</tei:title>
+            <tei:idno>HGB 1 189/66</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1513770</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Prediger</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1679">1679</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610797.210880817 1267369.272435143</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">herren</token>
+    <token token_id="2">D</token>
+    <token token_id="3">Brandmüllers</token>
+    <token token_id="4">seligen</token>
+    <token token_id="5">erben</token>
+    <token token_id="6">vorhin</token>
+    <token token_id="7">die</token>
+    <token token_id="8">hh</token>
+    <token token_id="9">.</token>
+    <token token_id="10">Liechtenhanen</token>
+    <token token_id="11">von</token>
+    <token token_id="12">einter</token>
+    <token token_id="13">scheuren</token>
+    <token token_id="14">in</token>
+    <token token_id="15">der</token>
+    <token token_id="16">Fröschgaßen</token>
+    <token token_id="17">.</token>
+    <token token_id="18">6ß</token>
+    <token token_id="19">.</token>
+    <token token_id="20">Ebenso</token>
+    <token token_id="21">1680</token>
+    <token token_id="22">.</token>
+    <token token_id="23">Ebenso</token>
+    <token token_id="24">1681</token>
+    <token token_id="25">.</token>
+    <token token_id="26">Ebenso</token>
+    <token token_id="27">1682</token>
+    <token token_id="28">.</token>
+    <token token_id="29">1683</token>
+    <token token_id="30">h</token>
+    <token token_id="31">:</token>
+    <token token_id="32">burgermeister</token>
+    <token token_id="33">Johan</token>
+    <token token_id="34">Ludwig</token>
+    <token token_id="35">Krugen</token>
+    <token token_id="36">seligen</token>
+    <token token_id="37">fre</token>
+    <token token_id="38">.</token>
+    <token token_id="39">wittib</token>
+    <token token_id="40">gibt</token>
+    <token token_id="41">obigen</token>
+    <token token_id="42">Zins</token>
+    <token token_id="43">.</token>
+  </text>
+  <spans>
+    <span id="914" start="0" end="0" text="Item" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="776" start="1" end="5" text="herren D Brandmüllers seligen erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="788" start="1" end="4" text="herren D Brandmüllers seligen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="806" start="2" end="2" text="D" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="806_head" start="2" end="2" element="head" class="title" text="D" subclass=""/>
+        </span>
+        <span id="794" start="3" end="3" text="Brandmüllers" element="head" class="nam" subclass=""/>
+        <span id="812" start="4" end="4" text="seligen" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="782" start="5" end="5" text="erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="800" start="8" end="10" text="hh . Liechtenhanen" element="reference" class="per" numerus="sgl" specificity="uspc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="800_head" start="8" end="10" element="head" class="nam" text="hh . Liechtenhanen" subclass=""/>
+    </span>
+    <span id="818" start="12" end="16" text="einter&#10;scheuren in der Fröschgaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="824" start="13" end="13" text="scheuren" element="head" class="type" subclass=""/>
+      <span id="830" start="14" end="16" text="in der Fröschgaßen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="836" start="15" end="16" text="der Fröschgaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="842" start="16" end="16" text="Fröschgaßen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="848" start="18" end="19" text="6ß ." element="value" class="money" subclass=""/>
+    <span id="854" start="21" end="21" text="1680" element="value" class="date" subclass=""/>
+    <span id="860" start="24" end="24" text="1681" element="value" class="date" subclass=""/>
+    <span id="866" start="27" end="27" text="1682" element="value" class="date" subclass=""/>
+    <span id="872" start="29" end="29" text="1683" element="value" class="date" subclass=""/>
+    <span id="878" start="32" end="39" text="burgermeister Johan Ludwig Krugen&#10;seligen fre . wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="890" start="32" end="36" text="burgermeister Johan Ludwig Krugen&#10;seligen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="896" start="32" end="32" text="burgermeister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="896_head" start="32" end="32" element="head" class="title" text="burgermeister" subclass=""/>
+        </span>
+        <span id="902" start="33" end="35" text="Johan Ludwig Krugen" element="head" class="nam" subclass=""/>
+        <span id="908" start="36" end="36" text="seligen" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="884" start="37" end="39" text="fre . wittib" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="926" start="40" end="40" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="932" start="42" end="42" text="Zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="938" from="932" to="914" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="1" end="5" ref="776" type="event">
+      <trigger start="5" end="5" text="erben" ref="782"/>
+      <event event_id="0.0">
+        <role role="heir" ref="776" text="herren D Brandmüllers seligen erben"/>
+        <role role="decedent" ref="788" text="herren D Brandmüllers seligen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="32" end="39" ref="878" type="state">
+      <trigger start="37" end="39" text="fre . wittib" ref="884"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="878" text="burgermeister Johan Ludwig Krugen&#10;seligen fre . wittib"/>
+        <role role="family-b" ref="890" text="burgermeister Johan Ludwig Krugen&#10;seligen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="14" end="16" ref="830" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="818" text="einter&#10;scheuren in der Fröschgaßen"/>
+        <role role="location-b" ref="836" text="der Fröschgaßen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="27" ref="" type="event">
+      <trigger start="0" end="0" text="Item" ref="914"/>
+      <event event_id="3.0">
+        <role role="payer" ref="776" text="herren D Brandmüllers seligen erben"/>
+        <role role="previous-payer" ref="800" text="hh . Liechtenhanen"/>
+        <role role="property" ref="818" text="einter&#10;scheuren in der Fröschgaßen"/>
+        <role role="interest" ref="848" text="6ß ."/>
+        <role role="date" ref="854" text="1680"/>
+        <role role="date" ref="860" text="1681"/>
+        <role role="date" ref="866" text="1682"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="pos" tense="pres" modality="ass" start="29" end="42" ref="" type="event">
+      <trigger start="40" end="40" text="gibt" ref="926"/>
+      <event event_id="4.0">
+        <role role="date" ref="872" text="1683"/>
+        <role role="payer" ref="878" text="burgermeister Johan Ludwig Krugen&#10;seligen fre . wittib"/>
+        <role role="previous-due" ref="932" text="Zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-payment" polarity="pos" tense="pres" modality="ass" start="42" end="42" ref="" type="event">
+      <trigger start="42" end="42" text="Zins" ref="932"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

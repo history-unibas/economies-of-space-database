@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 216/22 S. [13]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Sternengasse 6</tei:title>
+            <tei:idno>HGB 1 216/22</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532709</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Klara</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1521">1521</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611623.0797135346 1266831.3810290322</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1521</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Ulm</token>
+    <token token_id="3">Hussman</token>
+    <token token_id="4">git</token>
+    <token token_id="5">1</token>
+    <token token_id="6">℔</token>
+    <token token_id="7">6ß</token>
+    <token token_id="8">uf</token>
+    <token token_id="9">Pfingsten</token>
+    <token token_id="10">von</token>
+    <token token_id="11">sinem</token>
+    <token token_id="12">Huss</token>
+    <token token_id="13">in</token>
+    <token token_id="14">Eschemerorstatt</token>
+    <token token_id="15">Im</token>
+    <token token_id="16">Nebent</token>
+    <token token_id="17">Gesslin</token>
+    <token token_id="18">gegen</token>
+    <token token_id="19">der</token>
+    <token token_id="20">Schuren</token>
+    <token token_id="21">zum</token>
+    <token token_id="22">Hirtzen</token>
+    <token token_id="23">über</token>
+    <token token_id="24">(</token>
+    <token token_id="25">1522</token>
+    <token token_id="26">/</token>
+    <token token_id="27">1533</token>
+    <token token_id="28">fehlen</token>
+    <token token_id="29">.</token>
+    <token token_id="30">)</token>
+  </text>
+  <spans>
+    <span id="669" start="0" end="0" text="1521" element="value" class="date" subclass=""/>
+    <span id="584" start="2" end="3" text="Ulm Hussman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="584_head" start="2" end="3" element="head" class="nam" text="Ulm Hussman" subclass=""/>
+    </span>
+    <span id="693" start="4" end="4" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="590" start="5" end="7" text="1 ℔ 6ß" element="value" class="money" subclass=""/>
+    <span id="596" start="8" end="9" text="uf Pfingsten" element="value" class="date" subclass=""/>
+    <span id="602" start="11" end="23" text="sinem Huss in Eschemerorstatt&#10;Im Nebent Gesslin gegen der Schuren&#10;zum Hirtzen über" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="675" start="11" end="11" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="614" start="11" end="11" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="614_head" start="11" end="11" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="608" start="12" end="12" text="Huss" element="head" class="type" subclass=""/>
+      <span id="627" start="13" end="23" text="in Eschemerorstatt&#10;Im Nebent Gesslin gegen der Schuren&#10;zum Hirtzen über" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="633" start="14" end="14" text="Eschemerorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="633_head" start="14" end="14" element="head" class="nam" text="Eschemerorstatt" subclass=""/>
+        </span>
+        <span id="681" start="15" end="17" text="Im Nebent Gesslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="639" start="16" end="17" text="Nebent Gesslin" element="head" class="type" subclass=""/>
+        </span>
+        <span id="645" start="19" end="22" text="der Schuren&#10;zum Hirtzen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="651" start="20" end="22" text="Schuren&#10;zum Hirtzen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="657" start="25" end="25" text="1522" element="value" class="date" subclass=""/>
+    <span id="663" start="27" end="27" text="1533" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="620" from="614" to="584" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="11" end="11" ref="675" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="602" text="sinem Huss in Eschemerorstatt&#10;Im Nebent Gesslin gegen der Schuren&#10;zum Hirtzen über"/>
+        <role role="owner" ref="614" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="23" ref="627" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="602" text="sinem Huss in Eschemerorstatt&#10;Im Nebent Gesslin gegen der Schuren&#10;zum Hirtzen über"/>
+        <role role="location-b" ref="633" text="Eschemerorstatt"/>
+        <role role="location-b" ref="681" text="Im Nebent Gesslin"/>
+        <role role="location-b" ref="645" text="der Schuren&#10;zum Hirtzen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="4" ref="" type="event">
+      <trigger start="4" end="4" text="git" ref="693"/>
+      <event event_id="2.0">
+        <role role="date" ref="669" text="1521"/>
+        <role role="payer" ref="584" text="Ulm Hussman"/>
+        <role role="interest" ref="590" text="1 ℔ 6ß"/>
+        <role role="due-date" ref="596" text="uf Pfingsten"/>
+        <role role="property" ref="602" text="sinem Huss in Eschemerorstatt&#10;Im Nebent Gesslin gegen der Schuren&#10;zum Hirtzen über"/>
+        <role role="date-missing" ref="657" text="1522"/>
+        <role role="date-missing" ref="663" text="1533"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

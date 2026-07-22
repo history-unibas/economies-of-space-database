@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/55 S. [21]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt Theil von 25, Mitte (Vorderhaus)</tei:title>
+            <tei:idno>HGB 1 10/55</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433428</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Alban</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1669">1669</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611888.611156034 1267116.4144424826</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1669</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Jacob</token>
+    <token token_id="3">Scherrer</token>
+    <token token_id="4">,</token>
+    <token token_id="5">der</token>
+    <token token_id="6">Hohsetzer</token>
+    <token token_id="7">.</token>
+    <token token_id="8">1670</token>
+    <token token_id="9">.</token>
+    <token token_id="10">Jacob</token>
+    <token token_id="11">Specker</token>
+    <token token_id="12">,</token>
+    <token token_id="13">absonderlich</token>
+    <token token_id="14">auf</token>
+    <token token_id="15">Jacobi</token>
+    <token token_id="16">1</token>
+    <token token_id="17">℔</token>
+    <token token_id="18">5ß</token>
+    <token token_id="19">.</token>
+    <token token_id="20">von</token>
+    <token token_id="21">seinem</token>
+    <token token_id="22">Haus</token>
+    <token token_id="23">.</token>
+    <token token_id="24">)</token>
+    <token token_id="25">Ebenso</token>
+    <token token_id="26">:</token>
+    <token token_id="27">1671</token>
+    <token token_id="28">.</token>
+    <token token_id="29">1672</token>
+    <token token_id="30">.</token>
+    <token token_id="31">1673</token>
+    <token token_id="32">.</token>
+    <token token_id="33">1674</token>
+    <token token_id="34">.</token>
+    <token token_id="35">1675</token>
+    <token token_id="36">.</token>
+    <token token_id="37">1678</token>
+    <token token_id="38">.</token>
+    <token token_id="39">1677</token>
+    <token token_id="40">.</token>
+    <token token_id="41">1678</token>
+    <token token_id="42">.</token>
+    <token token_id="43">1679</token>
+    <token token_id="44">.</token>
+    <token token_id="45">1680</token>
+    <token token_id="46">.</token>
+    <token token_id="47">1681</token>
+    <token token_id="48">.</token>
+    <token token_id="49">1682</token>
+    <token token_id="50">.</token>
+    <token token_id="51">1683</token>
+    <token token_id="52">.</token>
+    <token token_id="53">1684</token>
+    <token token_id="54">.</token>
+    <token token_id="55">1685</token>
+    <token token_id="56">.</token>
+    <token token_id="57">1686</token>
+    <token token_id="58">.</token>
+    <token token_id="59">1687</token>
+    <token token_id="60">.</token>
+    <token token_id="61">1688</token>
+    <token token_id="62">.</token>
+    <token token_id="63">1689</token>
+    <token token_id="64">.</token>
+    <token token_id="65">1690</token>
+    <token token_id="66">.</token>
+    <token token_id="67">1691</token>
+    <token token_id="68">.</token>
+    <token token_id="69">1692</token>
+    <token token_id="70">.</token>
+  </text>
+  <spans>
+    <span id="1443" start="0" end="7" text="1669 .&#10;Jacob Scherrer , der Hohsetzer ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1226" start="0" end="0" text="1669" element="value" class="date" subclass=""/>
+      <span id="1232" start="2" end="6" text="Jacob Scherrer , der Hohsetzer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1238" start="2" end="3" text="Jacob Scherrer" element="head" class="nam" subclass=""/>
+        <span id="1244" start="5" end="6" text="der Hohsetzer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1250" start="6" end="6" text="Hohsetzer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1455" start="8" end="70" text="1670 .&#10;Jacob Specker , absonderlich auf Jacobi 1 ℔ 5ß .&#10;von seinem Haus .)&#10;Ebenso : 1671 . 1672 . 1673 . 1674 . 1675 . 1678 . 1677 . 1678 . 1679 .&#10;1680 . 1681 . 1682 . 1683 . 1684 . 1685 . 1686 . 1687 . 1688 . 1689 . 1690 .&#10;1691 . 1692 ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1256" start="8" end="8" text="1670" element="value" class="date" subclass=""/>
+      <span id="1262" start="10" end="11" text="Jacob Specker" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1262_head" start="10" end="11" element="head" class="nam" text="Jacob Specker" subclass=""/>
+      </span>
+      <span id="1268" start="14" end="15" text="auf Jacobi" element="value" class="date" subclass=""/>
+      <span id="1274" start="16" end="19" text="1 ℔ 5ß ." element="value" class="money" subclass=""/>
+      <span id="1280" start="21" end="22" text="seinem Haus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1449" start="21" end="21" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1286" start="21" end="21" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1286_head" start="21" end="21" element="head" class="pro" text="seinem" subclass=""/>
+          </span>
+        </span>
+        <span id="1299" start="22" end="22" text="Haus" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1305" start="27" end="27" text="1671" element="value" class="date" subclass=""/>
+      <span id="1311" start="29" end="29" text="1672" element="value" class="date" subclass=""/>
+      <span id="1317" start="31" end="31" text="1673" element="value" class="date" subclass=""/>
+      <span id="1323" start="33" end="33" text="1674" element="value" class="date" subclass=""/>
+      <span id="1329" start="35" end="35" text="1675" element="value" class="date" subclass=""/>
+      <span id="1335" start="37" end="37" text="1678" element="value" class="date" subclass=""/>
+      <span id="1341" start="39" end="39" text="1677" element="value" class="date" subclass=""/>
+      <span id="1347" start="41" end="41" text="1678" element="value" class="date" subclass=""/>
+      <span id="1353" start="43" end="43" text="1679" element="value" class="date" subclass=""/>
+      <span id="1419" start="45" end="45" text="1680" element="value" class="date" subclass=""/>
+      <span id="1413" start="47" end="47" text="1681" element="value" class="date" subclass=""/>
+      <span id="1407" start="49" end="49" text="1682" element="value" class="date" subclass=""/>
+      <span id="1401" start="51" end="51" text="1683" element="value" class="date" subclass=""/>
+      <span id="1395" start="53" end="53" text="1684" element="value" class="date" subclass=""/>
+      <span id="1389" start="55" end="55" text="1685" element="value" class="date" subclass=""/>
+      <span id="1383" start="57" end="57" text="1686" element="value" class="date" subclass=""/>
+      <span id="1377" start="59" end="59" text="1687" element="value" class="date" subclass=""/>
+      <span id="1371" start="61" end="61" text="1688" element="value" class="date" subclass=""/>
+      <span id="1365" start="63" end="63" text="1689" element="value" class="date" subclass=""/>
+      <span id="1359" start="65" end="65" text="1690" element="value" class="date" subclass=""/>
+      <span id="1425" start="67" end="67" text="1691" element="value" class="date" subclass=""/>
+      <span id="1431" start="69" end="69" text="1692" element="value" class="date" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1292" from="1286" to="1262" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="7" ref="1443" type="event">
+      <event event_id="0.0">
+        <role role="date" ref="1226" text="1669"/>
+        <role role="payer" ref="1232" text="Jacob Scherrer , der Hohsetzer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="8" end="70" ref="1455" type="event">
+      <event event_id="1.0">
+        <role role="date" ref="1256" text="1670"/>
+        <role role="payer" ref="1262" text="Jacob Specker"/>
+        <role role="due-date" ref="1268" text="auf Jacobi"/>
+        <role role="interest" ref="1274" text="1 ℔ 5ß ."/>
+        <role role="property" ref="1280" text="seinem Haus"/>
+        <role role="date" ref="1305" text="1671"/>
+        <role role="date" ref="1311" text="1672"/>
+        <role role="date" ref="1317" text="1673"/>
+        <role role="date" ref="1323" text="1674"/>
+        <role role="date" ref="1329" text="1675"/>
+        <role role="date" ref="1335" text="1678"/>
+        <role role="date" ref="1341" text="1677"/>
+        <role role="date" ref="1347" text="1678"/>
+        <role role="date" ref="1353" text="1679"/>
+        <role role="date" ref="1419" text="1680"/>
+        <role role="date" ref="1413" text="1681"/>
+        <role role="date" ref="1407" text="1682"/>
+        <role role="date" ref="1401" text="1683"/>
+        <role role="date" ref="1395" text="1684"/>
+        <role role="date" ref="1389" text="1685"/>
+        <role role="date" ref="1383" text="1686"/>
+        <role role="date" ref="1377" text="1687"/>
+        <role role="date" ref="1371" text="1688"/>
+        <role role="date" ref="1365" text="1689"/>
+        <role role="date" ref="1359" text="1690"/>
+        <role role="date" ref="1425" text="1691"/>
+        <role role="date" ref="1431" text="1692"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="21" end="21" ref="1449" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1280" text="seinem Haus"/>
+        <role role="owner" ref="1286" text="seinem"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

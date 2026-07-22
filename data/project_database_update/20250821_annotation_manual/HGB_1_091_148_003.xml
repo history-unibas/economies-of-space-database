@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 91/148 S. [3]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Johanns-Vorstadt 60</tei:title>
+            <tei:idno>HGB 1 91/148</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1482603</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1447">1447</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610920.3861782667 1268220.9074102272</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">git</token>
+    <token token_id="2">ze</token>
+    <token token_id="3">kaufen</token>
+    <token token_id="4">Clar</token>
+    <token token_id="5">Ringglerin</token>
+    <token token_id="6">Hansen</token>
+    <token token_id="7">tässlin</token>
+    <token token_id="8">von</token>
+    <token token_id="9">Bartenheim</token>
+    <token token_id="10">,</token>
+    <token token_id="11">u</token>
+    <token token_id="12">.</token>
+    <token token_id="13">Merzin</token>
+    <token token_id="14">siner</token>
+    <token token_id="15">ewirtin</token>
+    <token token_id="16">,</token>
+    <token token_id="17">daz</token>
+    <token token_id="18">Hus</token>
+    <token token_id="19">&amp;</token>
+    <token token_id="20">Hofstatt</token>
+    <token token_id="21">so</token>
+    <token token_id="22">gelegen</token>
+    <token token_id="23">ist</token>
+    <token token_id="24">.</token>
+    <token token_id="25">in</token>
+    <token token_id="26">der</token>
+    <token token_id="27">vorstatt</token>
+    <token token_id="28">ze</token>
+    <token token_id="29">crutz</token>
+    <token token_id="30">nebent</token>
+    <token token_id="31">Rudi</token>
+    <token token_id="32">des</token>
+    <token token_id="33">Vischers</token>
+    <token token_id="34">hus</token>
+    <token token_id="35">ze</token>
+    <token token_id="36">einer</token>
+    <token token_id="37">siten</token>
+    <token token_id="38">,</token>
+    <token token_id="39">u</token>
+    <token token_id="40">Crützli</token>
+    <token token_id="41">Besserers</token>
+    <token token_id="42">hus</token>
+    <token token_id="43">ouch</token>
+    <token token_id="44">ein</token>
+    <token token_id="45">vischers</token>
+    <token token_id="46">zer</token>
+    <token token_id="47">andern</token>
+    <token token_id="48">siten</token>
+    <token token_id="49">,</token>
+    <token token_id="50">zinset</token>
+    <token token_id="51">voneig</token>
+    <token token_id="52">dem</token>
+    <token token_id="53">contur</token>
+    <token token_id="54">des</token>
+    <token token_id="55">gotshus</token>
+    <token token_id="56">s</token>
+    <token token_id="57">.</token>
+    <token token_id="58">Johans</token>
+    <token token_id="59">7sh</token>
+    <token token_id="60">.</token>
+    <token token_id="61">u</token>
+    <token token_id="62">.</token>
+    <token token_id="63">7sh</token>
+    <token token_id="64">.</token>
+    <token token_id="65">sum</token>
+    <token token_id="66">51</token>
+    <token token_id="67">fl</token>
+    <token token_id="68">.</token>
+  </text>
+  <spans>
+    <span id="1461" start="3" end="3" text="kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1249" start="4" end="5" text="Clar Ringglerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1249_head" start="4" end="5" element="head" class="nam" text="Clar Ringglerin" subclass=""/>
+    </span>
+    <span id="1455" start="6" end="15" text="Hansen tässlin&#10;von Bartenheim , u . Merzin siner ewirtin" element="list" class="per" subclass="">
+      <span id="1255" start="6" end="9" text="Hansen tässlin&#10;von Bartenheim" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1261" start="6" end="7" text="Hansen tässlin" element="head" class="nam" subclass=""/>
+        <span id="1267" start="8" end="9" text="von Bartenheim" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1273" start="9" end="9" text="Bartenheim" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1273_head" start="9" end="9" element="head" class="nam" text="Bartenheim" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1279" start="13" end="15" text="Merzin siner ewirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1285" start="13" end="13" text="Merzin" element="head" class="nam" subclass=""/>
+        <span id="1291" start="14" end="15" text="siner ewirtin" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1303" start="14" end="14" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1303_head" start="14" end="14" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="1297" start="15" end="15" text="ewirtin" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1328" start="17" end="64" text="daz Hus&#10;&amp; Hofstatt so gelegen ist . in der vorstatt ze crutz&#10;nebent Rudi des Vischers hus ze einer siten , u Crützli&#10;Besserers hus ouch ein vischers zer andern siten , zinset&#10;voneig dem contur des gotshus s . Johans 7sh . u . 7sh ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1346" start="18" end="20" text="Hus&#10;&amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1352" start="21" end="48" text="so gelegen ist . in der vorstatt ze crutz&#10;nebent Rudi des Vischers hus ze einer siten , u Crützli&#10;Besserers hus ouch ein vischers zer andern siten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1358" start="26" end="29" text="der vorstatt ze crutz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1358_head" start="26" end="29" element="head" class="nam" text="der vorstatt ze crutz" subclass=""/>
+        </span>
+        <span id="1364" start="31" end="34" text="Rudi des Vischers hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1364_desc_owner" start="31" end="33" text="Rudi des Vischers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1376" start="31" end="33" text="Rudi des Vischers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1382" start="31" end="31" text="Rudi" element="head" class="nam" subclass=""/>
+              <span id="1388" start="32" end="33" text="des Vischers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1388_head" start="32" end="33" element="head" class="occ" text="des Vischers" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1370" start="34" end="34" text="hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1394" start="40" end="45" text="Crützli&#10;Besserers hus ouch ein vischers" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1406" start="40" end="41" text="Crützli&#10;Besserers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1412" start="40" end="41" text="Crützli&#10;Besserers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1412_head" start="40" end="41" element="head" class="nam" text="Crützli Besserers" subclass=""/>
+            </span>
+          </span>
+          <span id="1400" start="42" end="42" text="hus" element="head" class="type" subclass=""/>
+          <span id="1418" start="44" end="45" text="ein vischers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1418_head" start="44" end="45" element="head" class="occ" text="ein vischers" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1449" start="50" end="64" text="zinset&#10;voneig dem contur des gotshus s . Johans 7sh . u . 7sh ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1467" start="50" end="50" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1479" start="51" end="51" text="voneig" element="other" class="other" subclass=""/>
+        <span id="1431" start="52" end="58" text="dem contur des gotshus s . Johans" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1473" start="53" end="58" text="contur des gotshus s . Johans" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1437" start="59" end="60" text="7sh ." element="value" class="money" subclass=""/>
+        <span id="1443" start="63" end="64" text="7sh ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1340" start="66" end="68" text="51 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1309" from="1303" to="1255" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1424" from="1418" to="1412" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1467_role" from="1467" to="1328" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="14" end="15" ref="1291" type="state">
+      <trigger start="15" end="15" text="ewirtin" ref="1297"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1279" text="Merzin siner ewirtin"/>
+        <role role="employer" ref="1303" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="8" end="9" ref="1267" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1255" text="Hansen tässlin&#10;von Bartenheim"/>
+        <role role="location-b" ref="1273" text="Bartenheim"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="21" end="48" ref="1352" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1328" text="daz Hus&#10;&amp; Hofstatt so gelegen ist . in der vorstatt ze crutz&#10;nebent Rudi des Vischers hus ze einer siten , u Crützli&#10;Besserers hus ouch ein vischers zer andern siten , zinset&#10;voneig dem contur des gotshus s . Johans 7sh . u . 7sh ."/>
+        <role role="location-b" ref="1358" text="der vorstatt ze crutz"/>
+        <role role="location-b" ref="1364" text="Rudi des Vischers hus"/>
+        <role role="location-b" ref="1394" text="Crützli&#10;Besserers hus ouch ein vischers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="31" end="33" ref="1364_desc_owner" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1364" text="Rudi des Vischers hus"/>
+        <role role="owner" ref="1376" text="Rudi des Vischers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="40" end="41" ref="1406" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1394" text="Crützli&#10;Besserers hus ouch ein vischers"/>
+        <role role="owner" ref="1412" text="Crützli&#10;Besserers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="68" ref="" type="event">
+      <trigger start="3" end="3" text="kaufen" ref="1461"/>
+      <event event_id="6.0">
+        <role role="seller" ref="1249" text="Clar Ringglerin"/>
+        <role role="buyer" ref="1255" text="Hansen tässlin&#10;von Bartenheim"/>
+        <role role="buyer" ref="1279" text="Merzin siner ewirtin"/>
+        <role role="property" ref="1328" text="daz Hus&#10;&amp; Hofstatt so gelegen ist . in der vorstatt ze crutz&#10;nebent Rudi des Vischers hus ze einer siten , u Crützli&#10;Besserers hus ouch ein vischers zer andern siten , zinset&#10;voneig dem contur des gotshus s . Johans 7sh . u . 7sh ."/>
+        <role role="price" ref="1340" text="51 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="17" end="64" ref="1449" type="state">
+      <trigger start="50" end="50" text="zinset" ref="1467"/>
+      <event event_id="7.0">
+        <role role="cause" ref="1479" text="voneig"/>
+        <role role="beneficiary" ref="1431" text="dem contur des gotshus s . Johans"/>
+        <role role="interest" ref="1437" text="7sh ."/>
+        <role role="property" ref="1328" text="daz Hus&#10;&amp; Hofstatt so gelegen ist . in der vorstatt ze crutz&#10;nebent Rudi des Vischers hus ze einer siten , u Crützli&#10;Besserers hus ouch ein vischers zer andern siten , zinset&#10;voneig dem contur des gotshus s . Johans 7sh . u . 7sh ."/>
+      </event>
+      <event event_id="7.1">
+        <role role="beneficiary" ref="1431" text="dem contur des gotshus s . Johans"/>
+        <role role="interest" ref="1443" text="7sh ."/>
+        <role role="property" ref="1328" text="daz Hus&#10;&amp; Hofstatt so gelegen ist . in der vorstatt ze crutz&#10;nebent Rudi des Vischers hus ze einer siten , u Crützli&#10;Besserers hus ouch ein vischers zer andern siten , zinset&#10;voneig dem contur des gotshus s . Johans 7sh . u . 7sh ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

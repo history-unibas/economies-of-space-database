@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 137/63 S. [47]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Nadelberg 12</tei:title>
+            <tei:idno>HGB 1 137/63</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1500807</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Hausurkunden</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1665">1665</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611049.1676013973 1267491.8601720273</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Privaturkunde</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Vögtlicher</token>
+    <token token_id="3">dis</token>
+    <token token_id="4">von</token>
+    <token token_id="5">für</token>
+    <token token_id="6">Samull</token>
+    <token token_id="7">Jselins</token>
+    <token token_id="8">,</token>
+    <token token_id="9">gewesten</token>
+    <token token_id="10">Kaufhausschreiber</token>
+    <token token_id="11">,</token>
+    <token token_id="12">alda</token>
+    <token token_id="13">seel</token>
+    <token token_id="14">.</token>
+    <token token_id="15">hinder</token>
+    <token token_id="16">l</token>
+    <token token_id="17">.</token>
+    <token token_id="18">u</token>
+    <token token_id="19">.</token>
+    <token token_id="20">2</token>
+    <token token_id="21">Ehe</token>
+    <token token_id="22">verkauft</token>
+    <token token_id="23">eine</token>
+    <token token_id="24">Behausung</token>
+    <token token_id="25">sambt</token>
+    <token token_id="26">dem</token>
+    <token token_id="27">Hooff</token>
+    <token token_id="28">u</token>
+    <token token_id="29">.</token>
+    <token token_id="30">Garten</token>
+    <token token_id="31">darhinder</token>
+    <token token_id="32">in</token>
+    <token token_id="33">Basel</token>
+    <token token_id="34">auf</token>
+    <token token_id="35">dem</token>
+    <token token_id="36">Nodelberg</token>
+    <token token_id="37">seit</token>
+    <token token_id="38">Jacob</token>
+    <token token_id="39">Brandmüller</token>
+    <token token_id="40">,</token>
+    <token token_id="41">der</token>
+    <token token_id="42">Rechten</token>
+    <token token_id="43">Doctor</token>
+    <token token_id="44">,</token>
+    <token token_id="45">anderseits</token>
+    <token token_id="46">Rudolff</token>
+    <token token_id="47">Werenfels</token>
+    <token token_id="48">hunstnaler</token>
+    <token token_id="49">,</token>
+    <token token_id="50">hinden</token>
+    <token token_id="51">der</token>
+    <token token_id="52">mere</token>
+    <token token_id="53">Stadtgraben</token>
+    <token token_id="54">,</token>
+    <token token_id="55">gibt</token>
+    <token token_id="56">jährlichen</token>
+    <token token_id="57">von</token>
+    <token token_id="58">dem</token>
+    <token token_id="59">Statt</token>
+    <token token_id="60">¬</token>
+    <token token_id="61">graben</token>
+    <token token_id="62">Zins</token>
+    <token token_id="63">was</token>
+    <token token_id="64">sich</token>
+    <token token_id="65">erfindet</token>
+    <token token_id="66">,</token>
+    <token token_id="67">sonsten</token>
+    <token token_id="68">frey</token>
+    <token token_id="69">,</token>
+    <token token_id="70">beig</token>
+    <token token_id="71">u</token>
+    <token token_id="72">.</token>
+    <token token_id="73">eigen</token>
+    <token token_id="74">,</token>
+    <token token_id="75">an</token>
+    <token token_id="76">Frantz</token>
+    <token token_id="77">Satzi</token>
+    <token token_id="78">Burger</token>
+    <token token_id="79">u</token>
+    <token token_id="80">.</token>
+    <token token_id="81">Handelsmans</token>
+    <token token_id="82">Basel</token>
+    <token token_id="83">für</token>
+    <token token_id="84">2000</token>
+    <token token_id="85">fl</token>
+    <token token_id="86">.</token>
+    <token token_id="87">zu</token>
+    <token token_id="88">15</token>
+    <token token_id="89">Batzen</token>
+    <token token_id="90">oder</token>
+    <token token_id="91">60</token>
+    <token token_id="92">hrentzern</token>
+    <token token_id="93">,</token>
+    <token token_id="94">woran</token>
+    <token token_id="95">je</token>
+    <token token_id="96">auf</token>
+    <token token_id="97">38</token>
+    <token token_id="98">.</token>
+    <token token_id="99">März</token>
+    <token token_id="100">u</token>
+    <token token_id="101">.</token>
+    <token token_id="102">Michaelis</token>
+    <token token_id="103">Schun</token>
+    <token token_id="104">1668</token>
+    <token token_id="105">u</token>
+    <token token_id="106">.</token>
+    <token token_id="107">1667</token>
+    <token token_id="108">500</token>
+    <token token_id="109">fl</token>
+    <token token_id="110">.</token>
+    <token token_id="111">abzahlen</token>
+    <token token_id="112">die</token>
+    <token token_id="113">Naufenne</token>
+    <token token_id="114">zwischen</token>
+    <token token_id="115">mit</token>
+    <token token_id="116">4</token>
+    <token token_id="117">verzulet</token>
+    <token token_id="118">,</token>
+    <token token_id="119">die</token>
+    <token token_id="120">unter</token>
+    <token token_id="121">Verpfändung</token>
+    <token token_id="122">der</token>
+    <token token_id="123">Liegenschaft</token>
+    <token token_id="124">.</token>
+    <token token_id="125">2</token>
+    <token token_id="126">Staatsarchiv</token>
+    <token token_id="127">.</token>
+    <token token_id="128">Hausurkunden</token>
+    <token token_id="129">X</token>
+    <token token_id="130">.</token>
+    <token token_id="131">Auf</token>
+    <token token_id="132">einem</token>
+    <token token_id="133">der</token>
+    <token token_id="134">vorhendenen</token>
+    <token token_id="135">Dappell</token>
+    <token token_id="136">der</token>
+    <token token_id="137">Urkunde</token>
+    <token token_id="138">.</token>
+    <token token_id="139">Quittung</token>
+    <token token_id="140">über</token>
+    <token token_id="141">die</token>
+    <token token_id="142">2000</token>
+    <token token_id="143">fl</token>
+    <token token_id="144">.</token>
+    <token token_id="145">,</token>
+    <token token_id="146">nachdem</token>
+    <token token_id="147">dieselben</token>
+    <token token_id="148">mehrer</token>
+    <token token_id="149">Jhrottentlich</token>
+    <token token_id="150">verzinst</token>
+    <token token_id="151">wid</token>
+    <token token_id="152">.</token>
+    <token token_id="153">S</token>
+    <token token_id="154">.</token>
+    <token token_id="155">October</token>
+    <token token_id="156">1672</token>
+    <token token_id="157">.</token>
+  </text>
+  <spans>
+    <span id="2246" start="6" end="21" text="Samull Jselins , gewesten Kaufhausschreiber ,&#10;alda seel . hinder l . u . 2 Ehe" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2258" start="6" end="14" text="Samull Jselins , gewesten Kaufhausschreiber ,&#10;alda seel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2264" start="6" end="7" text="Samull Jselins" element="head" class="nam" subclass=""/>
+        <span id="2270" start="9" end="10" text="gewesten Kaufhausschreiber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+          <span id="2276" start="10" end="10" text="Kaufhausschreiber" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="2282" start="13" end="14" text="seel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="2252" start="15" end="15" text="hinder" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="2535" start="22" end="22" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2288" start="23" end="73" text="eine Behausung sambt&#10;dem Hooff u . Garten darhinder in Basel auf dem Nodelberg seit&#10;Jacob Brandmüller , der Rechten Doctor , anderseits Rudolff Werenfels&#10;hunstnaler , hinden der mere Stadtgraben , gibt jährlichen von dem Statt ¬&#10;graben Zins was sich erfindet , sonsten frey , beig u . eigen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2294" start="24" end="24" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="2300" start="25" end="31" text="sambt&#10;dem Hooff u . Garten darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2324" start="26" end="30" text="dem Hooff u . Garten" element="list" class="fac" subclass="">
+          <span id="2306" start="26" end="27" text="dem Hooff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2312" start="27" end="27" text="Hooff" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2318" start="30" end="30" text="Garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2318_head" start="30" end="30" element="head" class="type" text="Garten" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2330" start="32" end="53" text="in Basel auf dem Nodelberg seit&#10;Jacob Brandmüller , der Rechten Doctor , anderseits Rudolff Werenfels&#10;hunstnaler , hinden der mere Stadtgraben" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2336" start="33" end="33" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2336_head" start="33" end="33" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="2342" start="35" end="36" text="dem Nodelberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2348" start="36" end="36" text="Nodelberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2354" start="38" end="43" text="Jacob Brandmüller , der Rechten Doctor" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2360" start="38" end="39" text="Jacob Brandmüller" element="head" class="nam" subclass=""/>
+          <span id="2366" start="41" end="43" text="der Rechten Doctor" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="edu">
+            <span id="2372" start="42" end="43" text="Rechten Doctor" element="head" class="title" subclass="edu"/>
+          </span>
+        </span>
+        <span id="2378" start="46" end="48" text="Rudolff Werenfels&#10;hunstnaler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2384" start="46" end="47" text="Rudolff Werenfels" element="head" class="nam" subclass=""/>
+          <span id="2390" start="48" end="48" text="hunstnaler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2390_head" start="48" end="48" element="head" class="occ" text="hunstnaler" subclass=""/>
+          </span>
+        </span>
+        <span id="2396" start="51" end="53" text="der mere Stadtgraben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="defense">
+          <span id="2402" start="53" end="53" text="Stadtgraben" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="2408" start="55" end="73" text="gibt jährlichen von dem Statt ¬&#10;graben Zins was sich erfindet , sonsten frey , beig u . eigen" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2547" start="55" end="55" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2414" start="56" end="56" text="jährlichen" element="value" class="time" subclass="rec"/>
+        <span id="2420" start="58" end="61" text="dem Statt ¬&#10;graben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="defense">
+          <span id="2426" start="59" end="61" text="Statt ¬&#10;graben" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2439" start="76" end="82" text="Frantz Satzi Burger u . Handelsmans Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2445" start="76" end="77" text="Frantz Satzi" element="head" class="nam" subclass=""/>
+      <span id="2451" start="78" end="78" text="Burger" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2451_head" start="78" end="78" element="head" class="org-aff" text="Burger" subclass=""/>
+      </span>
+      <span id="2469" start="81" end="81" text="Handelsmans" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2469_head" start="81" end="81" element="head" class="occ" text="Handelsmans" subclass=""/>
+      </span>
+      <span id="2463" start="82" end="82" text="Basel" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2457" start="82" end="82" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2457_head" start="82" end="82" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2475" start="84" end="86" text="2000 fl ." element="value" class="money" subclass=""/>
+    <span id="2541" start="87" end="117" text="zu&#10;15 Batzen oder 60 hrentzern , woran je auf 38 . März u . Michaelis&#10;Schun&#10;1668 u . 1667 500 fl . abzahlen die Naufenne zwischen mit 4 verzulet" element="other" class="other" subclass="">
+      <span id="2481" start="88" end="89" text="15 Batzen" element="value" class="money" subclass=""/>
+      <span id="2487" start="91" end="92" text="60 hrentzern" element="value" class="money" subclass=""/>
+      <span id="2493" start="96" end="99" text="auf 38 . März" element="value" class="date" subclass=""/>
+      <span id="2499" start="102" end="102" text="Michaelis" element="value" class="date" subclass=""/>
+      <span id="2505" start="104" end="104" text="1668" element="value" class="date" subclass=""/>
+      <span id="2511" start="107" end="107" text="1667" element="value" class="date" subclass=""/>
+      <span id="2517" start="108" end="110" text="500 fl ." element="value" class="money" subclass=""/>
+    </span>
+    <span id="2523" start="142" end="144" text="2000 fl ." element="value" class="money" subclass=""/>
+    <span id="2529" start="155" end="157" text="October 1672 ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2432" from="2420" to="2396" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="6" end="21" ref="2246" type="state">
+      <trigger start="15" end="15" text="hinder" ref="2252"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="2246" text="Samull Jselins , gewesten Kaufhausschreiber ,&#10;alda seel . hinder l . u . 2 Ehe"/>
+        <role role="family-b" ref="2258" text="Samull Jselins , gewesten Kaufhausschreiber ,&#10;alda seel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="part_whole" polarity="pos" tense="pres" modality="ass" start="25" end="31" ref="2300" type="state">
+      <event event_id="1.0">
+        <role role="whole" ref="2288" text="eine Behausung sambt&#10;dem Hooff u . Garten darhinder in Basel auf dem Nodelberg seit&#10;Jacob Brandmüller , der Rechten Doctor , anderseits Rudolff Werenfels&#10;hunstnaler , hinden der mere Stadtgraben , gibt jährlichen von dem Statt ¬&#10;graben Zins was sich erfindet , sonsten frey , beig u . eigen"/>
+        <role role="part" ref="2306" text="dem Hooff"/>
+        <role role="part" ref="2318" text="Garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="32" end="53" ref="2330" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="2288" text="eine Behausung sambt&#10;dem Hooff u . Garten darhinder in Basel auf dem Nodelberg seit&#10;Jacob Brandmüller , der Rechten Doctor , anderseits Rudolff Werenfels&#10;hunstnaler , hinden der mere Stadtgraben , gibt jährlichen von dem Statt ¬&#10;graben Zins was sich erfindet , sonsten frey , beig u . eigen"/>
+        <role role="location-b" ref="2336" text="Basel"/>
+        <role role="location-b" ref="2342" text="dem Nodelberg"/>
+        <role role="location-b" ref="2354" text="Jacob Brandmüller , der Rechten Doctor"/>
+        <role role="location-b" ref="2378" text="Rudolff Werenfels&#10;hunstnaler"/>
+        <role role="location-b" ref="2396" text="der mere Stadtgraben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="55" end="73" ref="2408" type="state">
+      <trigger start="55" end="55" text="gibt" ref="2547"/>
+      <event event_id="3.0">
+        <role role="interval" ref="2414" text="jährlichen"/>
+        <role role="property" ref="2420" text="dem Statt ¬&#10;graben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="82" end="82" ref="2463" type="state">
+      <event event_id="4.0">
+        <role role="resident" ref="2439" text="Frantz Satzi Burger u . Handelsmans Basel"/>
+        <role role="geopolitical-entity" ref="2457" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="22" end="22" ref="" type="event">
+      <trigger start="22" end="22" text="verkauft" ref="2535"/>
+      <event event_id="5.0">
+        <role role="seller" ref="2246" text="Samull Jselins , gewesten Kaufhausschreiber ,&#10;alda seel . hinder l . u . 2 Ehe"/>
+        <role role="property" ref="2288" text="eine Behausung sambt&#10;dem Hooff u . Garten darhinder in Basel auf dem Nodelberg seit&#10;Jacob Brandmüller , der Rechten Doctor , anderseits Rudolff Werenfels&#10;hunstnaler , hinden der mere Stadtgraben , gibt jährlichen von dem Statt ¬&#10;graben Zins was sich erfindet , sonsten frey , beig u . eigen"/>
+        <role role="buyer" ref="2439" text="Frantz Satzi Burger u . Handelsmans Basel"/>
+        <role role="price" ref="2475" text="2000 fl ."/>
+        <role role="detail_payment-detail" ref="2541" text="zu&#10;15 Batzen oder 60 hrentzern , woran je auf 38 . März u . Michaelis&#10;Schun&#10;1668 u . 1667 500 fl . abzahlen die Naufenne zwischen mit 4 verzulet"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

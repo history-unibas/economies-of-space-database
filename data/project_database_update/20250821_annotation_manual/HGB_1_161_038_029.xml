@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 161/38 S. [29, 30]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheinsprung Theil von 16, 3tes Haus von 18</tei:title>
+            <tei:idno>HGB 1 161/38</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1509065</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Martin</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1535">1535</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611357.20974774 1267544.0690849684</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">ein</token>
+    <token token_id="1">brief</token>
+    <token token_id="2">weist</token>
+    <token token_id="3">30</token>
+    <token token_id="4">℔</token>
+    <token token_id="5">stebler</token>
+    <token token_id="6">Hauptguts</token>
+    <token token_id="7">,</token>
+    <token token_id="8">davon</token>
+    <token token_id="9">10ß</token>
+    <token token_id="10">uf</token>
+    <token token_id="11">Juvocavit</token>
+    <token token_id="12">und</token>
+    <token token_id="13">1</token>
+    <token token_id="14">℔</token>
+    <token token_id="15">gemelter</token>
+    <token token_id="16">werung</token>
+    <token token_id="17">.</token>
+    <token token_id="18">zinses</token>
+    <token token_id="19">auf</token>
+    <token token_id="20">Georgen</token>
+    <token token_id="21">tag</token>
+    <token token_id="22">fallend</token>
+    <token token_id="23">,</token>
+    <token token_id="24">von</token>
+    <token token_id="25">auf</token>
+    <token token_id="26">und</token>
+    <token token_id="27">ab</token>
+    <token token_id="28">dem</token>
+    <token token_id="29">Haus</token>
+    <token token_id="30">und</token>
+    <token token_id="31">Hofstatt</token>
+    <token token_id="32">mit</token>
+    <token token_id="33">allen</token>
+    <token token_id="34">rechten</token>
+    <token token_id="35">und</token>
+    <token token_id="36">zu</token>
+    <token token_id="37">¬</token>
+    <token token_id="38">gehörden</token>
+    <token token_id="39">,</token>
+    <token token_id="40">als</token>
+    <token token_id="41">das</token>
+    <token token_id="42">bym</token>
+    <token token_id="43">Collegio</token>
+    <token token_id="44">und</token>
+    <token token_id="45">davor</token>
+    <token token_id="46">über</token>
+    <token token_id="47">zu</token>
+    <token token_id="48">beiden</token>
+    <token token_id="49">seithen</token>
+    <token token_id="50">zwüschen</token>
+    <token token_id="51">der</token>
+    <token token_id="52">Reichen</token>
+    <token token_id="53">Hof</token>
+    <token token_id="54">glegen</token>
+    <token token_id="55">,</token>
+    <token token_id="56">sind</token>
+    <token token_id="57">widerkeufg</token>
+    <token token_id="58">.</token>
+    <token token_id="59">dabei</token>
+    <token token_id="60">noch</token>
+    <token token_id="61">ein</token>
+    <token token_id="62">brief</token>
+    <token token_id="63">weist</token>
+    <token token_id="64">1</token>
+    <token token_id="65">℔</token>
+    <token token_id="66">von</token>
+    <token token_id="67">eigenschaft</token>
+    <token token_id="68">ewiges</token>
+    <token token_id="69">zinses</token>
+    <token token_id="70">,</token>
+    <token token_id="71">ein</token>
+    <token token_id="72">Vierling</token>
+    <token token_id="73">pfeffer</token>
+    <token token_id="74">zur</token>
+    <token token_id="75">wisung</token>
+    <token token_id="76">und</token>
+    <token token_id="77">5ß</token>
+    <token token_id="78">er</token>
+    <token token_id="79">¬</token>
+    <token token_id="80">schatz</token>
+    <token token_id="81">.</token>
+    <token token_id="82">gibt</token>
+    <token token_id="83">disen</token>
+    <token token_id="84">zins</token>
+    <token token_id="85">Hans</token>
+    <token token_id="86">Ruch</token>
+    <token token_id="87">der</token>
+    <token token_id="88">Blaser</token>
+    <token token_id="89">,</token>
+    <token token_id="90">Emanuel</token>
+    <token token_id="91">Scherb</token>
+    <token token_id="92">.</token>
+    <token token_id="93">Hans</token>
+    <token token_id="94">Georg</token>
+    <token token_id="95">Bressler</token>
+    <token token_id="96">der</token>
+    <token token_id="97">schreiner</token>
+    <token token_id="98">gibt</token>
+    <token token_id="99">2</token>
+    <token token_id="100">℔</token>
+    <token token_id="101">10ß</token>
+    <token token_id="102">.</token>
+    <token token_id="103">der</token>
+    <token token_id="104">neue</token>
+    <token token_id="105">besitzer</token>
+    <token token_id="106">Jacob</token>
+    <token token_id="107">Landis</token>
+    <token token_id="108">der</token>
+    <token token_id="109">schneider</token>
+    <token token_id="110">.</token>
+    <token token_id="111">den</token>
+    <token token_id="112">3</token>
+    <token token_id="113">.</token>
+    <token token_id="114">Martii</token>
+    <token token_id="115">1683</token>
+    <token token_id="116">seind</token>
+    <token token_id="117">obige</token>
+    <token token_id="118">30</token>
+    <token token_id="119">℔</token>
+    <token token_id="120">Capital</token>
+    <token token_id="121">durch</token>
+    <token token_id="122">Jacob</token>
+    <token token_id="123">Landis</token>
+    <token token_id="124">abgelöst</token>
+    <token token_id="125">worden</token>
+    <token token_id="126">und</token>
+    <token token_id="127">also</token>
+    <token token_id="128">hinfaro</token>
+    <token token_id="129">mer</token>
+    <token token_id="130">nicht</token>
+    <token token_id="131">an</token>
+    <token token_id="132">disem</token>
+    <token token_id="133">posten</token>
+    <token token_id="134">gültig</token>
+    <token token_id="135">als</token>
+    <token token_id="136">1</token>
+    <token token_id="137">℔</token>
+    <token token_id="138">und</token>
+    <token token_id="139">1</token>
+    <token token_id="140">Viertel</token>
+    <token token_id="141">pfeffer</token>
+    <token token_id="142">von</token>
+    <token token_id="143">eigenschaft</token>
+    <token token_id="144">wegen</token>
+    <token token_id="145">,</token>
+    <token token_id="146">welches</token>
+    <token token_id="147">er</token>
+    <token token_id="148">Landis</token>
+    <token token_id="149">und</token>
+    <token token_id="150">seine</token>
+    <token token_id="151">Nack</token>
+    <token token_id="152">¬</token>
+  </text>
+  <spans>
+    <span id="2228" start="3" end="5" text="30 ℔ stebler" element="value" class="money" subclass=""/>
+    <span id="2234" start="9" end="9" text="10ß" element="value" class="money" subclass=""/>
+    <span id="2240" start="10" end="11" text="uf Juvocavit" element="value" class="date" subclass=""/>
+    <span id="2246" start="13" end="17" text="1 ℔ gemelter werung ." element="value" class="money" subclass=""/>
+    <span id="2252" start="19" end="21" text="auf Georgen tag" element="value" class="date" subclass=""/>
+    <span id="2523" start="24" end="24" text="von" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2258" start="28" end="54" text="dem Haus und Hofstatt mit allen rechten und zu ¬&#10;gehörden , als das bym Collegio und davor über zu&#10;beiden seithen zwüschen der Reichen Hof glegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2264" start="29" end="31" text="Haus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="2270" start="40" end="54" text="als das bym Collegio und davor über zu&#10;beiden seithen zwüschen der Reichen Hof glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2276" start="42" end="43" text="bym Collegio" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2282" start="43" end="43" text="Collegio" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2288" start="51" end="53" text="der Reichen Hof" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2300" start="51" end="52" text="der Reichen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2306" start="51" end="52" text="der Reichen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2312" start="52" end="52" text="Reichen" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+          <span id="2294" start="53" end="53" text="Hof" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2468" start="57" end="57" text="widerkeufg" element="other" class="other" subclass=""/>
+    <span id="2529" start="63" end="63" text="weist" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2318" start="64" end="65" text="1 ℔" element="value" class="money" subclass=""/>
+    <span id="2474" start="66" end="67" text="von eigenschaft" element="other" class="other" subclass=""/>
+    <span id="2324" start="71" end="73" text="ein Vierling pfeffer" element="value" class="money" subclass=""/>
+    <span id="2480" start="74" end="75" text="zur wisung" element="other" class="other" subclass=""/>
+    <span id="2330" start="77" end="77" text="5ß" element="value" class="money" subclass=""/>
+    <span id="2486" start="78" end="80" text="er ¬&#10;schatz" element="other" class="other" subclass=""/>
+    <span id="2492" start="82" end="82" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2535" start="84" end="84" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2336" start="85" end="88" text="Hans Ruch der Blaser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2342" start="85" end="86" text="Hans Ruch" element="head" class="nam" subclass=""/>
+      <span id="2348" start="87" end="88" text="der Blaser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2354" start="88" end="88" text="Blaser" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2360" start="90" end="91" text="Emanuel Scherb" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2360_head" start="90" end="91" element="head" class="nam" text="Emanuel Scherb" subclass=""/>
+    </span>
+    <span id="2366" start="93" end="97" text="Hans Georg Bressler der schreiner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2372" start="93" end="95" text="Hans Georg Bressler" element="head" class="nam" subclass=""/>
+      <span id="2378" start="96" end="97" text="der schreiner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2384" start="97" end="97" text="schreiner" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2390" start="99" end="102" text="2 ℔ 10ß ." element="value" class="money" subclass=""/>
+    <span id="2396" start="103" end="109" text="der neue besitzer Jacob Landis der schneider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2420" start="103" end="105" text="der neue besitzer" element="appo" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2426" start="105" end="105" text="besitzer" element="head" class="owner" subclass=""/>
+      </span>
+      <span id="2402" start="106" end="107" text="Jacob Landis" element="head" class="nam" subclass=""/>
+      <span id="2408" start="108" end="109" text="der schneider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2414" start="109" end="109" text="schneider" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2432" start="111" end="115" text="den 3 . Martii 1683" element="value" class="date" subclass=""/>
+    <span id="2438" start="118" end="119" text="30 ℔" element="value" class="money" subclass=""/>
+    <span id="2444" start="122" end="123" text="Jacob&#10;Landis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2444_head" start="122" end="123" element="head" class="nam" text="Jacob Landis" subclass=""/>
+    </span>
+    <span id="2498" start="124" end="124" text="abgelöst" element="trigger" class="redemption" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2504" start="134" end="134" text="gültig" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2450" start="136" end="137" text="1 ℔" element="value" class="money" subclass=""/>
+    <span id="2456" start="139" end="141" text="1 Viertel pfeffer" element="value" class="money" subclass=""/>
+    <span id="2510" start="142" end="144" text="von&#10;eigenschaft wegen" element="other" class="other" subclass=""/>
+    <span id="2462" start="148" end="148" text="Landis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2462_head" start="148" end="148" element="head" class="nam" text="Landis" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2541" from="2535" to="2523" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2548" from="2444" to="2396" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2516" from="2462" to="2444" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="40" end="54" ref="2270" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="2258" text="dem Haus und Hofstatt mit allen rechten und zu ¬&#10;gehörden , als das bym Collegio und davor über zu&#10;beiden seithen zwüschen der Reichen Hof glegen"/>
+        <role role="location-b" ref="2276" text="bym Collegio"/>
+        <role role="location-b" ref="2288" text="der Reichen Hof"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="51" end="52" ref="2300" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="2288" text="der Reichen Hof"/>
+        <role role="owner" ref="2306" text="der Reichen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="24" end="57" ref="" type="state">
+      <trigger start="24" end="24" text="von" ref="2523"/>
+      <event event_id="2.0">
+        <role role="capital" ref="2228" text="30 ℔ stebler"/>
+        <role role="interest" ref="2234" text="10ß"/>
+        <role role="due-date" ref="2240" text="uf Juvocavit"/>
+        <role role="property" ref="2258" text="dem Haus und Hofstatt mit allen rechten und zu ¬&#10;gehörden , als das bym Collegio und davor über zu&#10;beiden seithen zwüschen der Reichen Hof glegen"/>
+        <role role="interest-redeemable" ref="2468" text="widerkeufg"/>
+      </event>
+      <event event_id="2.1">
+        <role role="capital" ref="2228" text="30 ℔ stebler"/>
+        <role role="interest" ref="2246" text="1 ℔ gemelter werung ."/>
+        <role role="due-date" ref="2252" text="auf Georgen tag"/>
+        <role role="property" ref="2258" text="dem Haus und Hofstatt mit allen rechten und zu ¬&#10;gehörden , als das bym Collegio und davor über zu&#10;beiden seithen zwüschen der Reichen Hof glegen"/>
+        <role role="interest-redeemable" ref="2468" text="widerkeufg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="63" end="80" ref="" type="state">
+      <trigger start="63" end="63" text="weist" ref="2529"/>
+      <event event_id="3.0">
+        <role role="interest" ref="2318" text="1 ℔"/>
+        <role role="cause" ref="2474" text="von eigenschaft"/>
+      </event>
+      <event event_id="3.1">
+        <role role="interest" ref="2324" text="ein Vierling pfeffer"/>
+        <role role="cause" ref="2480" text="zur wisung"/>
+      </event>
+      <event event_id="3.2">
+        <role role="interest" ref="2330" text="5ß"/>
+        <role role="cause" ref="2486" text="er ¬&#10;schatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="82" end="82" ref="" type="state">
+      <trigger start="82" end="82" text="gibt" ref="2492"/>
+      <event event_id="4.0">
+        <role role="interest" ref="2535" text="zins"/>
+        <role role="payer" ref="2336" text="Hans Ruch der Blaser"/>
+      </event>
+      <event event_id="4.1">
+        <role role="interest" ref="2535" text="zins"/>
+        <role role="payer" ref="2360" text="Emanuel Scherb"/>
+      </event>
+      <event event_id="4.2">
+        <role role="interest" ref="2535" text="zins"/>
+        <role role="payer" ref="2366" text="Hans Georg Bressler der schreiner"/>
+      </event>
+      <event event_id="4.3">
+        <role role="interest" ref="2535" text="zins"/>
+        <role role="interest" ref="2390" text="2 ℔ 10ß ."/>
+        <role role="payer" ref="2396" text="der neue besitzer Jacob Landis der schneider"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-payment" polarity="pos" tense="pres" modality="ass" start="84" end="84" ref="" type="event">
+      <trigger start="84" end="84" text="zins" ref="2535"/>
+    </eventGroup>
+    <eventGroup event_id="6" class="redemption" polarity="pos" tense="pres" modality="ass" start="111" end="124" ref="" type="event">
+      <trigger start="124" end="124" text="abgelöst" ref="2498"/>
+      <event event_id="6.0">
+        <role role="date" ref="2432" text="den 3 . Martii 1683"/>
+        <role role="capital" ref="2438" text="30 ℔"/>
+        <role role="redeemer" ref="2444" text="Jacob&#10;Landis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="134" end="148" ref="" type="state">
+      <trigger start="134" end="134" text="gültig" ref="2504"/>
+      <event event_id="7.0">
+        <role role="interest" ref="2450" text="1 ℔"/>
+        <role role="interest" ref="2456" text="1 Viertel pfeffer"/>
+        <role role="cause" ref="2510" text="von&#10;eigenschaft wegen"/>
+        <role role="payer" ref="2462" text="Landis"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 133/27 S. [29]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Münsterberg 4</tei:title>
+            <tei:idno>HGB 1 133/27</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1497140</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Steinenkloster</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1512">1512</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611481.114762606 1267180.284221819</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Mr</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Heinrich</token>
+    <token token_id="3">Glutz</token>
+    <token token_id="4">der</token>
+    <token token_id="5">Schumacher</token>
+    <token token_id="6">zinst</token>
+    <token token_id="7">järl</token>
+    <token token_id="8">.</token>
+    <token token_id="9">auff</token>
+    <token token_id="10">sant</token>
+    <token token_id="11">Andreas</token>
+    <token token_id="12">tag</token>
+    <token token_id="13">4</token>
+    <token token_id="14">℔</token>
+    <token token_id="15">.</token>
+    <token token_id="16">5</token>
+    <token token_id="17">sh</token>
+    <token token_id="18">.</token>
+    <token token_id="19">von</token>
+    <token token_id="20">und</token>
+    <token token_id="21">ab</token>
+    <token token_id="22">einer</token>
+    <token token_id="23">Behausung</token>
+    <token token_id="24">zum</token>
+    <token token_id="25">nidren</token>
+    <token token_id="26">Vogelgsang</token>
+    <token token_id="27">genannt</token>
+    <token token_id="28">,</token>
+    <token token_id="29">unten</token>
+    <token token_id="30">an</token>
+    <token token_id="31">dem</token>
+    <token token_id="32">Spit</token>
+    <token token_id="33">talsprung</token>
+    <token token_id="34">,</token>
+    <token token_id="35">gegen</token>
+    <token token_id="36">dem</token>
+    <token token_id="37">Spittal</token>
+    <token token_id="38">über</token>
+    <token token_id="39">,</token>
+    <token token_id="40">einsit</token>
+    <token token_id="41">neben</token>
+    <token token_id="42">dem</token>
+    <token token_id="43">Hus</token>
+    <token token_id="44">zum</token>
+    <token token_id="45">obern</token>
+    <token token_id="46">Vogelgsang</token>
+    <token token_id="47">,</token>
+    <token token_id="48">andersits</token>
+    <token token_id="49">dem</token>
+    <token token_id="50">Hus</token>
+    <token token_id="51">zum</token>
+    <token token_id="52">Horn</token>
+    <token token_id="53">gelegen</token>
+    <token token_id="54">,</token>
+    <token token_id="55">zinst</token>
+    <token token_id="56">zuvor</token>
+    <token token_id="57">dem</token>
+    <token token_id="58">Spittal</token>
+    <token token_id="59">von</token>
+    <token token_id="60">eigensch</token>
+    <token token_id="61">.</token>
+    <token token_id="62">wegen</token>
+    <token token_id="63">15</token>
+    <token token_id="64">sh</token>
+    <token token_id="65">.</token>
+    <token token_id="66">sonst</token>
+    <token token_id="67">ledig</token>
+    <token token_id="68">,</token>
+    <token token_id="69">eigen</token>
+    <token token_id="70">.</token>
+  </text>
+  <spans>
+    <span id="1112" start="0" end="5" text="Mr . Heinrich Glutz der Schumacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1257" start="0" end="1" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1257_head" start="0" end="1" element="head" class="title" text="Mr ." subclass=""/>
+      </span>
+      <span id="1118" start="2" end="3" text="Heinrich Glutz" element="head" class="nam" subclass=""/>
+      <span id="1124" start="4" end="5" text="der Schumacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1130" start="5" end="5" text="Schumacher" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1263" start="6" end="6" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1136" start="7" end="7" text="järl" element="value" class="time" subclass="rec"/>
+    <span id="1142" start="9" end="12" text="auff&#10;sant Andreas tag" element="value" class="date" subclass=""/>
+    <span id="1226" start="13" end="18" text="4 ℔. 5 sh ." element="value" class="money" subclass=""/>
+    <span id="1245" start="22" end="70" text="einer Behausung&#10;zum nidren Vogelgsang genannt , unten an dem Spit&#10;talsprung , gegen dem Spittal über , einsit neben dem&#10;Hus zum obern Vogelgsang , andersits dem Hus zum&#10;Horn gelegen , zinst zuvor dem Spittal von eigensch .&#10;wegen 15 sh . sonst ledig , eigen ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1148" start="23" end="23" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="1154" start="24" end="26" text="zum nidren Vogelgsang" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1154_head" start="24" end="26" element="head" class="nam" text="zum nidren Vogelgsang" subclass=""/>
+      </span>
+      <span id="1160" start="29" end="53" text="unten an dem Spit&#10;talsprung , gegen dem Spittal über , einsit neben dem&#10;Hus zum obern Vogelgsang , andersits dem Hus zum&#10;Horn gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1166" start="31" end="33" text="dem Spit&#10;talsprung" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1172" start="32" end="33" text="Spit&#10;talsprung" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1178" start="36" end="37" text="dem Spittal" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1184" start="37" end="37" text="Spittal" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1190" start="42" end="46" text="dem&#10;Hus zum obern Vogelgsang" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1196" start="43" end="46" text="Hus zum obern Vogelgsang" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1202" start="49" end="52" text="dem Hus zum&#10;Horn" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1208" start="50" end="52" text="Hus zum&#10;Horn" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1251" start="55" end="70" text="zinst zuvor dem Spittal von eigensch .&#10;wegen 15 sh . sonst ledig , eigen ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1269" start="55" end="55" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1214" start="57" end="58" text="dem Spittal" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1232" start="58" end="58" text="Spittal" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1275" start="59" end="60" text="von eigensch" element="other" class="other" subclass=""/>
+        <span id="1220" start="63" end="65" text="15 sh ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1238" from="1214" to="1178" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1269_role" from="1269" to="1245" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="29" end="53" ref="1160" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="1245" text="einer Behausung&#10;zum nidren Vogelgsang genannt , unten an dem Spit&#10;talsprung , gegen dem Spittal über , einsit neben dem&#10;Hus zum obern Vogelgsang , andersits dem Hus zum&#10;Horn gelegen , zinst zuvor dem Spittal von eigensch .&#10;wegen 15 sh . sonst ledig , eigen ."/>
+        <role role="location-b" ref="1166" text="dem Spit&#10;talsprung"/>
+        <role role="location-b" ref="1178" text="dem Spittal"/>
+        <role role="location-b" ref="1190" text="dem&#10;Hus zum obern Vogelgsang"/>
+        <role role="location-b" ref="1202" text="dem Hus zum&#10;Horn"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="0" end="70" ref="" type="state">
+      <trigger start="6" end="6" text="zinst" ref="1263"/>
+      <event event_id="1.0">
+        <role role="payer" ref="1112" text="Mr . Heinrich Glutz der Schumacher"/>
+        <role role="interval" ref="1136" text="järl"/>
+        <role role="due-date" ref="1142" text="auff&#10;sant Andreas tag"/>
+        <role role="interest" ref="1226" text="4 ℔. 5 sh ."/>
+        <role role="property" ref="1245" text="einer Behausung&#10;zum nidren Vogelgsang genannt , unten an dem Spit&#10;talsprung , gegen dem Spittal über , einsit neben dem&#10;Hus zum obern Vogelgsang , andersits dem Hus zum&#10;Horn gelegen , zinst zuvor dem Spittal von eigensch .&#10;wegen 15 sh . sonst ledig , eigen ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="22" end="70" ref="1251" type="state">
+      <trigger start="55" end="55" text="zinst" ref="1269"/>
+      <event event_id="2.0">
+        <role role="beneficiary" ref="1214" text="dem Spittal"/>
+        <role role="cause" ref="1275" text="von eigensch"/>
+        <role role="interest" ref="1220" text="15 sh ."/>
+        <role role="property" ref="1245" text="einer Behausung&#10;zum nidren Vogelgsang genannt , unten an dem Spit&#10;talsprung , gegen dem Spittal über , einsit neben dem&#10;Hus zum obern Vogelgsang , andersits dem Hus zum&#10;Horn gelegen , zinst zuvor dem Spittal von eigensch .&#10;wegen 15 sh . sonst ledig , eigen ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 74/21 S. [15]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hebelstrasse 9</tei:title>
+            <tei:idno>HGB 1 74/21</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1478095</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1503">1503</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610878.7537035164 1267750.3431140874</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">ist</token>
+    <token token_id="2">uff</token>
+    <token token_id="3">anrueffen</token>
+    <token token_id="4">Egidy</token>
+    <token token_id="5">Richolffs</token>
+    <token token_id="6">Schaffner</token>
+    <token token_id="7">zu</token>
+    <token token_id="8">sannt</token>
+    <token token_id="9">Peter</token>
+    <token token_id="10">,</token>
+    <token token_id="11">das</token>
+    <token token_id="12">Hus</token>
+    <token token_id="13">und</token>
+    <token token_id="14">Hoff</token>
+    <token token_id="15">mit</token>
+    <token token_id="16">dem</token>
+    <token token_id="17">Gertlin</token>
+    <token token_id="18">darhinder</token>
+    <token token_id="19">,</token>
+    <token token_id="20">so</token>
+    <token token_id="21">gelegen</token>
+    <token token_id="22">ist</token>
+    <token token_id="23">jun</token>
+    <token token_id="24">¬</token>
+    <token token_id="25">der</token>
+    <token token_id="26">Nüwen</token>
+    <token token_id="27">Vorstatt</token>
+    <token token_id="28">,</token>
+    <token token_id="29">zwischen</token>
+    <token token_id="30">purhaus</token>
+    <token token_id="31">den</token>
+    <token token_id="32">Rebknecht</token>
+    <token token_id="33">Hus</token>
+    <token token_id="34">und</token>
+    <token token_id="35">Jr</token>
+    <token token_id="36">.</token>
+    <token token_id="37">Jorgen</token>
+    <token token_id="38">Schonkinds</token>
+    <token token_id="39">Stall</token>
+    <token token_id="40">,</token>
+    <token token_id="41">und</token>
+    <token token_id="42">Margreth</token>
+    <token token_id="43">Winterbachin</token>
+    <token token_id="44">gewesen</token>
+    <token token_id="45">,</token>
+    <token token_id="46">und</token>
+    <token token_id="47">die</token>
+    <token token_id="48">dann</token>
+    <token token_id="49">flüchtig</token>
+    <token token_id="50">worden</token>
+    <token token_id="51">ist</token>
+    <token token_id="52">,</token>
+    <token token_id="53">zinst</token>
+    <token token_id="54">von</token>
+    <token token_id="55">Eigenschafft</token>
+    <token token_id="56">24</token>
+    <token token_id="57">der</token>
+    <token token_id="58">Schaffnerye</token>
+    <token token_id="59">zu</token>
+    <token token_id="60">sannt</token>
+    <token token_id="61">Peter</token>
+    <token token_id="62">,</token>
+    <token token_id="63">gefrönt</token>
+    <token token_id="64">.</token>
+  </text>
+  <spans>
+    <span id="1092" start="4" end="9" text="Egidy Richolffs Schaffner zu sannt Peter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1098" start="4" end="5" text="Egidy Richolffs" element="head" class="nam" subclass=""/>
+      <span id="1104" start="6" end="9" text="Schaffner zu sannt Peter" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-repr">
+        <span id="1110" start="6" end="6" text="Schaffner" element="head" class="occ" subclass="org-repr"/>
+        <span id="1116" start="8" end="9" text="sannt Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1116_head" start="8" end="9" element="head" class="nam" text="sannt Peter" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1122" start="11" end="61" text="das Hus und Hoff mit dem Gertlin darhinder , so gelegen ist jun ¬&#10;der Nüwen Vorstatt , zwischen purhaus den Rebknecht Hus und&#10;Jr . Jorgen Schonkinds Stall , und Margreth Winterbachin gewesen , und&#10;die dann flüchtig worden ist , zinst von Eigenschafft 24 der&#10;Schaffnerye zu sannt Peter" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1128" start="12" end="14" text="Hus und Hoff" element="head" class="type" subclass=""/>
+      <span id="1134" start="15" end="18" text="mit dem Gertlin darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1140" start="16" end="17" text="dem Gertlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1146" start="17" end="17" text="Gertlin" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1152" start="20" end="39" text="so gelegen ist jun ¬&#10;der Nüwen Vorstatt , zwischen purhaus den Rebknecht Hus und&#10;Jr . Jorgen Schonkinds Stall" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1158" start="25" end="27" text="der Nüwen Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1164" start="26" end="27" text="Nüwen Vorstatt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1242" start="30" end="39" text="purhaus den Rebknecht Hus und&#10;Jr . Jorgen Schonkinds Stall" element="list" class="fac" subclass="">
+          <span id="1170" start="30" end="33" text="purhaus den Rebknecht Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1206" start="30" end="32" text="purhaus den Rebknecht" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1182" start="30" end="32" text="purhaus den Rebknecht" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1188" start="30" end="30" text="purhaus" element="head" class="nam" subclass=""/>
+                <span id="1194" start="31" end="32" text="den Rebknecht" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1200" start="32" end="32" text="Rebknecht" element="head" class="occ" subclass=""/>
+                </span>
+              </span>
+            </span>
+            <span id="1176" start="33" end="33" text="Hus" element="head" class="type" subclass=""/>
+          </span>
+          <span id="1212" start="35" end="39" text="Jr . Jorgen Schonkinds Stall" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1236" start="35" end="38" text="Jr . Jorgen Schonkinds" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1224" start="35" end="38" text="Jr . Jorgen Schonkinds" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1230" start="37" end="38" text="Jorgen Schonkinds" element="head" class="nam" subclass=""/>
+              </span>
+            </span>
+            <span id="1218" start="39" end="39" text="Stall" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1304" start="41" end="51" text="und Margreth Winterbachin gewesen , und&#10;die dann flüchtig worden ist" element="attr" class="owner" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+        <span id="1248" start="42" end="43" text="Margreth Winterbachin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1248_head" start="42" end="43" element="head" class="nam" text="Margreth Winterbachin" subclass=""/>
+        </span>
+        <span id="1254" start="47" end="47" text="die" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1254_head" start="47" end="47" element="head" class="pro" text="die" subclass=""/>
+        </span>
+      </span>
+      <span id="1267" start="53" end="61" text="zinst von Eigenschafft 24 der&#10;Schaffnerye zu sannt Peter" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1310" start="53" end="53" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1316" start="55" end="55" text="Eigenschafft" element="other" class="other" subclass=""/>
+        <span id="1273" start="56" end="56" text="24" element="value" class="money" subclass=""/>
+        <span id="1279" start="57" end="61" text="der&#10;Schaffnerye zu sannt Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1285" start="60" end="61" text="sannt Peter" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1298" start="63" end="63" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1291" from="1279" to="1116" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1260" from="1254" to="1248" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1310_role" from="1310" to="1122" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="6" end="9" ref="1104" type="state">
+      <trigger start="6" end="6" text="Schaffner" ref="1110"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1092" text="Egidy Richolffs Schaffner zu sannt Peter"/>
+        <role role="employer" ref="1116" text="sannt Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="part_whole" polarity="pos" tense="pres" modality="ass" start="15" end="18" ref="1134" type="state">
+      <event event_id="1.0">
+        <role role="whole" ref="1122" text="das Hus und Hoff mit dem Gertlin darhinder , so gelegen ist jun ¬&#10;der Nüwen Vorstatt , zwischen purhaus den Rebknecht Hus und&#10;Jr . Jorgen Schonkinds Stall , und Margreth Winterbachin gewesen , und&#10;die dann flüchtig worden ist , zinst von Eigenschafft 24 der&#10;Schaffnerye zu sannt Peter"/>
+        <role role="part" ref="1140" text="dem Gertlin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="39" ref="1152" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1122" text="das Hus und Hoff mit dem Gertlin darhinder , so gelegen ist jun ¬&#10;der Nüwen Vorstatt , zwischen purhaus den Rebknecht Hus und&#10;Jr . Jorgen Schonkinds Stall , und Margreth Winterbachin gewesen , und&#10;die dann flüchtig worden ist , zinst von Eigenschafft 24 der&#10;Schaffnerye zu sannt Peter"/>
+        <role role="location-b" ref="1158" text="der Nüwen Vorstatt"/>
+        <role role="location-b" ref="1170" text="purhaus den Rebknecht Hus"/>
+        <role role="location-b" ref="1212" text="Jr . Jorgen Schonkinds Stall"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="30" end="32" ref="1206" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1170" text="purhaus den Rebknecht Hus"/>
+        <role role="owner" ref="1182" text="purhaus den Rebknecht"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="35" end="38" ref="1236" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1212" text="Jr . Jorgen Schonkinds Stall"/>
+        <role role="owner" ref="1224" text="Jr . Jorgen Schonkinds"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="past" modality="ass" start="41" end="51" ref="1304" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1122" text="das Hus und Hoff mit dem Gertlin darhinder , so gelegen ist jun ¬&#10;der Nüwen Vorstatt , zwischen purhaus den Rebknecht Hus und&#10;Jr . Jorgen Schonkinds Stall , und Margreth Winterbachin gewesen , und&#10;die dann flüchtig worden ist , zinst von Eigenschafft 24 der&#10;Schaffnerye zu sannt Peter"/>
+        <role role="owner" ref="1248" text="Margreth Winterbachin"/>
+        <role role="owner" ref="1254" text="die"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="11" end="61" ref="1267" type="state">
+      <trigger start="53" end="53" text="zinst" ref="1310"/>
+      <event event_id="6.0">
+        <role role="cause" ref="1316" text="Eigenschafft"/>
+        <role role="interest" ref="1273" text="24"/>
+        <role role="beneficiary" ref="1279" text="der&#10;Schaffnerye zu sannt Peter"/>
+        <role role="property" ref="1122" text="das Hus und Hoff mit dem Gertlin darhinder , so gelegen ist jun ¬&#10;der Nüwen Vorstatt , zwischen purhaus den Rebknecht Hus und&#10;Jr . Jorgen Schonkinds Stall , und Margreth Winterbachin gewesen , und&#10;die dann flüchtig worden ist , zinst von Eigenschafft 24 der&#10;Schaffnerye zu sannt Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="seizure" polarity="pos" tense="pres" modality="ass" start="4" end="63" ref="" type="event">
+      <trigger start="63" end="63" text="gefrönt" ref="1298"/>
+      <event event_id="7.0">
+        <role role="claimant" ref="1092" text="Egidy Richolffs Schaffner zu sannt Peter"/>
+        <role role="property" ref="1122" text="das Hus und Hoff mit dem Gertlin darhinder , so gelegen ist jun ¬&#10;der Nüwen Vorstatt , zwischen purhaus den Rebknecht Hus und&#10;Jr . Jorgen Schonkinds Stall , und Margreth Winterbachin gewesen , und&#10;die dann flüchtig worden ist , zinst von Eigenschafft 24 der&#10;Schaffnerye zu sannt Peter"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

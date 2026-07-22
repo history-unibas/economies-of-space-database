@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 122/21 S. [16, 17]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Marktplatz Theil von Th. v. 3 neben Th. v. 3</tei:title>
+            <tei:idno>HGB 1 122/21</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494799</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1413">1413</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611262.39652061 1267485.6508738901</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">do</token>
+    <token token_id="2">gab</token>
+    <token token_id="3">ze</token>
+    <token token_id="4">kouffende</token>
+    <token token_id="5">Hans</token>
+    <token token_id="6">von</token>
+    <token token_id="7">Altdorff</token>
+    <token token_id="8">genant</token>
+    <token token_id="9">Schriberli</token>
+    <token token_id="10">burger</token>
+    <token token_id="11">ze</token>
+    <token token_id="12">Basel</token>
+    <token token_id="13">daz</token>
+    <token token_id="14">huse</token>
+    <token token_id="15">und</token>
+    <token token_id="16">hofstat</token>
+    <token token_id="17">gele</token>
+    <token token_id="18">¬</token>
+    <token token_id="19">gen</token>
+    <token token_id="20">ze</token>
+    <token token_id="21">Basel</token>
+    <token token_id="22">in</token>
+    <token token_id="23">der</token>
+    <token token_id="24">statt</token>
+    <token token_id="25">zwuschent</token>
+    <token token_id="26">den</token>
+    <token token_id="27">husern</token>
+    <token token_id="28">ze</token>
+    <token token_id="29">Nuwenburg</token>
+    <token token_id="30">und</token>
+    <token token_id="31">zem</token>
+    <token token_id="32">kalten</token>
+    <token token_id="33">Kelr</token>
+    <token token_id="34">Hensli</token>
+    <token token_id="35">Richen</token>
+    <token token_id="36">von</token>
+    <token token_id="37">Zegingen</token>
+    <token token_id="38">dem</token>
+    <token token_id="39">winryffer</token>
+    <token token_id="40">ouch</token>
+    <token token_id="41">burger</token>
+    <token token_id="42">ze</token>
+    <token token_id="43">Basel</token>
+    <token token_id="44">und</token>
+    <token token_id="45">Margareth</token>
+    <token token_id="46">siner</token>
+    <token token_id="47">elichen</token>
+    <token token_id="48">frowen</token>
+    <token token_id="49">so</token>
+    <token token_id="50">wilent</token>
+    <token token_id="51">eliche</token>
+    <token token_id="52">frowe</token>
+    <token token_id="53">was</token>
+    <token token_id="54">Thürings</token>
+    <token token_id="55">von</token>
+    <token token_id="56">Sengen</token>
+    <token token_id="57">seligen</token>
+    <token token_id="58">wi</token>
+    <token token_id="59">¬</token>
+    <token token_id="60">lent</token>
+    <token token_id="61">der</token>
+    <token token_id="62">herren</token>
+    <token token_id="63">und</token>
+    <token token_id="64">geselschafft</token>
+    <token token_id="65">zer</token>
+    <token token_id="66">Mugke</token>
+    <token token_id="67">diener</token>
+    <token token_id="68">ist</token>
+    <token token_id="69">erbe</token>
+    <token token_id="70">von</token>
+    <token token_id="71">einem</token>
+    <token token_id="72">caplane</token>
+    <token token_id="73">so</token>
+    <token token_id="74">ie</token>
+    <token token_id="75">ze</token>
+    <token token_id="76">ziten</token>
+    <token token_id="77">ist</token>
+    <token token_id="78">der</token>
+    <token token_id="79">pfrunde</token>
+    <token token_id="80">des</token>
+    <token token_id="81">heiligen</token>
+    <token token_id="82">crützes</token>
+    <token token_id="83">altar</token>
+    <token token_id="84">in</token>
+    <token token_id="85">unser</token>
+    <token token_id="86">frowen</token>
+    <token token_id="87">münster</token>
+    <token token_id="88">ze</token>
+    <token token_id="89">Basel</token>
+    <token token_id="90">gelegen</token>
+    <token token_id="91">dem</token>
+    <token token_id="92">da</token>
+    <token token_id="93">von</token>
+    <token token_id="94">gangent</token>
+    <token token_id="95">und</token>
+    <token token_id="96">man</token>
+    <token token_id="97">geben</token>
+    <token token_id="98">sol</token>
+    <token token_id="99">3</token>
+    <token token_id="100">℔</token>
+    <token token_id="101">gewonlicher</token>
+    <token token_id="102">zinsph</token>
+    <token token_id="103">und</token>
+    <token token_id="104">ist</token>
+    <token token_id="105">in</token>
+    <token token_id="106">dem</token>
+    <token token_id="107">kouffe</token>
+    <token token_id="108">bedinget</token>
+    <token token_id="109">und</token>
+    <token token_id="110">berett</token>
+    <token token_id="111">dz</token>
+    <token token_id="112">az</token>
+    <token token_id="113">dasselb</token>
+    <token token_id="114">huse</token>
+    <token token_id="115">recht</token>
+    <token token_id="116">hatte</token>
+    <token token_id="117">vormalz</token>
+    <token token_id="118">hinderus</token>
+    <token token_id="119">über</token>
+    <token token_id="120">die</token>
+    <token token_id="121">pneten</token>
+    <token token_id="122">so</token>
+    <token token_id="123">da</token>
+    <token token_id="124">ist</token>
+    <token token_id="125">hinder</token>
+    <token token_id="126">dem</token>
+    <token token_id="127">huse</token>
+    <token token_id="128">ze</token>
+    <token token_id="129">Nuwenburg</token>
+    <token token_id="130">und</token>
+    <token token_id="131">dem</token>
+    <token token_id="132">selben</token>
+    <token token_id="133">huse</token>
+    <token token_id="134">daz</token>
+    <token token_id="135">daz</token>
+    <token token_id="136">selb</token>
+    <token token_id="137">huse</token>
+    <token token_id="138">kein</token>
+    <token token_id="139">recht</token>
+    <token token_id="140">füren</token>
+  </text>
+  <spans>
+    <span id="2465" start="4" end="4" text="kouffende" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2028" start="5" end="12" text="Hans von Altdorff genant&#10;Schriberli burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2034" start="5" end="5" text="Hans" element="head" class="nam" subclass=""/>
+      <span id="2040" start="6" end="7" text="von Altdorff" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2046" start="7" end="7" text="Altdorff" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2046_head" start="7" end="7" element="head" class="nam" text="Altdorff" subclass=""/>
+        </span>
+      </span>
+      <span id="2052" start="9" end="9" text="Schriberli" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2052_head" start="9" end="9" element="head" class="nam" text="Schriberli" subclass=""/>
+      </span>
+      <span id="2058" start="10" end="12" text="burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2064" start="10" end="10" text="burger" element="head" class="org-aff" subclass=""/>
+        <span id="2070" start="12" end="12" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2070_head" start="12" end="12" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2076" start="13" end="33" text="daz huse und hofstat gele ¬&#10;gen ze Basel in der statt zwuschent den husern ze&#10;Nuwenburg und zem kalten Kelr" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2082" start="14" end="16" text="huse und hofstat" element="head" class="type" subclass=""/>
+      <span id="2088" start="17" end="33" text="gele ¬&#10;gen ze Basel in der statt zwuschent den husern ze&#10;Nuwenburg und zem kalten Kelr" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2094" start="21" end="21" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2094_head" start="21" end="21" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="2100" start="23" end="24" text="der statt" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2106" start="24" end="24" text="statt" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2112" start="26" end="33" text="den husern ze&#10;Nuwenburg und zem kalten Kelr" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2118" start="27" end="27" text="husern" element="head" class="type" subclass=""/>
+          <span id="2124" start="28" end="33" text="ze&#10;Nuwenburg und zem kalten Kelr" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2130" start="29" end="29" text="Nuwenburg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2130_head" start="29" end="29" element="head" class="nam" text="Nuwenburg" subclass=""/>
+            </span>
+            <span id="2136" start="31" end="33" text="zem kalten Kelr" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2136_head" start="31" end="33" element="head" class="nam" text="zem kalten Kelr" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2233" start="34" end="67" text="Hensli Richen&#10;von Zegingen dem winryffer ouch burger ze Basel&#10;und Margareth siner elichen frowen so wilent&#10;eliche frowe was Thürings von Sengen seligen wi ¬&#10;lent der herren und geselschafft zer Mugke diener" element="list" class="per" subclass="">
+      <span id="2142" start="34" end="43" text="Hensli Richen&#10;von Zegingen dem winryffer ouch burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2148" start="34" end="35" text="Hensli Richen" element="head" class="nam" subclass=""/>
+        <span id="2154" start="36" end="37" text="von Zegingen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2160" start="37" end="37" text="Zegingen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2160_head" start="37" end="37" element="head" class="nam" text="Zegingen" subclass=""/>
+          </span>
+        </span>
+        <span id="2166" start="38" end="39" text="dem winryffer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2172" start="39" end="39" text="winryffer" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="2178" start="41" end="43" text="burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2184" start="41" end="41" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="2190" start="43" end="43" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2190_head" start="43" end="43" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2196" start="45" end="67" text="Margareth siner elichen frowen so wilent&#10;eliche frowe was Thürings von Sengen seligen wi ¬&#10;lent der herren und geselschafft zer Mugke diener" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2202" start="45" end="45" text="Margareth" element="head" class="nam" subclass=""/>
+        <span id="2208" start="46" end="48" text="siner elichen frowen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2220" start="46" end="46" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2220_head" start="46" end="46" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="2214" start="47" end="48" text="elichen frowen" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="2239" start="49" end="67" text="so wilent&#10;eliche frowe was Thürings von Sengen seligen wi ¬&#10;lent der herren und geselschafft zer Mugke diener" element="appo" class="fam" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+          <span id="2245" start="51" end="52" text="eliche frowe" element="head" class="fam" subclass=""/>
+          <span id="2251" start="54" end="67" text="Thürings von Sengen seligen wi ¬&#10;lent der herren und geselschafft zer Mugke diener" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2257" start="54" end="54" text="Thürings" element="head" class="nam" subclass=""/>
+            <span id="2263" start="55" end="56" text="von Sengen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2269" start="56" end="56" text="Sengen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2269_head" start="56" end="56" element="head" class="nam" text="Sengen" subclass=""/>
+              </span>
+            </span>
+            <span id="2275" start="57" end="57" text="seligen" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+            <span id="2281" start="58" end="67" text="wi ¬&#10;lent der herren und geselschafft zer Mugke diener" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+              <span id="2293" start="61" end="66" text="der herren und geselschafft zer Mugke" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+                <span id="2299" start="62" end="66" text="herren und geselschafft zer Mugke" element="head" class="nam" subclass=""/>
+              </span>
+              <span id="2287" start="67" end="67" text="diener" element="head" class="occ" subclass="org-job"/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2471" start="68" end="102" text="ist erbe von einem caplane so ie ze ziten ist der&#10;pfrunde des heiligen crützes altar in unser frowen&#10;münster ze Basel gelegen dem da von gangent und&#10;man geben sol 3 ℔ gewonlicher zinsph" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2311" start="71" end="90" text="einem caplane so ie ze ziten ist der&#10;pfrunde des heiligen crützes altar in unser frowen&#10;münster ze Basel gelegen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2317" start="72" end="72" text="caplane" element="head" class="occ" subclass=""/>
+        <span id="2330" start="78" end="90" text="der&#10;pfrunde des heiligen crützes altar in unser frowen&#10;münster ze Basel gelegen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2336" start="79" end="83" text="pfrunde des heiligen crützes altar" element="head" class="type" subclass=""/>
+          <span id="2342" start="84" end="90" text="in unser frowen&#10;münster ze Basel gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2348" start="85" end="90" text="unser frowen&#10;münster ze Basel gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2354" start="86" end="87" text="frowen&#10;münster" element="head" class="nam" subclass=""/>
+              <span id="2360" start="88" end="90" text="ze Basel gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2366" start="89" end="89" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="2366_head" start="89" end="89" element="head" class="nam" text="Basel" subclass=""/>
+                </span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2477" start="92" end="93" text="da von" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2477_head" start="92" end="93" element="head" class="pro" text="da von" subclass=""/>
+      </span>
+      <span id="2305" start="99" end="102" text="3 ℔ gewonlicher zinsph" element="value" class="money" subclass=""/>
+    </span>
+    <span id="2490" start="104" end="140" text="ist in&#10;dem kouffe bedinget und berett dz az dasselb huse&#10;recht hatte vormalz hinderus über die pneten so&#10;da ist hinder dem huse ze Nuwenburg und dem&#10;selben huse daz daz selb huse kein recht füren" element="other" class="other" subclass="">
+      <span id="2372" start="112" end="114" text="az dasselb huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2378" start="114" end="114" text="huse" element="head" class="type" subclass=""/>
+      </span>
+      <span id="2397" start="120" end="133" text="die pneten so&#10;da ist hinder dem huse ze Nuwenburg und dem&#10;selben huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2403" start="121" end="121" text="pneten" element="head" class="type" subclass=""/>
+        <span id="2409" start="122" end="133" text="so&#10;da ist hinder dem huse ze Nuwenburg und dem&#10;selben huse" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2415" start="126" end="129" text="dem huse ze Nuwenburg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2421" start="127" end="129" text="huse ze Nuwenburg" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="2427" start="131" end="133" text="dem&#10;selben huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2433" start="133" end="133" text="huse" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2446" start="135" end="137" text="daz selb huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2452" start="137" end="137" text="huse" element="head" class="type" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2323" from="2311" to="2076" class="owner" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2384" from="2372" to="2076" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2483" from="2477" to="2076" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2226" from="2220" to="2142" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2439" from="2427" to="2372" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2458" from="2446" to="2372" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="68" end="102" ref="2471" type="state">
+      <event event_id="0.0">
+        <role role="beneficiary" ref="2311" text="einem caplane so ie ze ziten ist der&#10;pfrunde des heiligen crützes altar in unser frowen&#10;münster ze Basel gelegen"/>
+        <role role="interest" ref="2305" text="3 ℔ gewonlicher zinsph"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="71" end="90" ref="2311" type="state">
+      <trigger start="72" end="72" text="caplane" ref="2317"/>
+      <event event_id="1.0">
+        <role role="employee" ref="2311" text="einem caplane so ie ze ziten ist der&#10;pfrunde des heiligen crützes altar in unser frowen&#10;münster ze Basel gelegen"/>
+        <role role="employer" ref="2330" text="der&#10;pfrunde des heiligen crützes altar in unser frowen&#10;münster ze Basel gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="10" end="12" ref="2058" type="state">
+      <trigger start="10" end="10" text="burger" ref="2064"/>
+      <event event_id="2.0">
+        <role role="resident" ref="2028" text="Hans von Altdorff genant&#10;Schriberli burger ze Basel"/>
+        <role role="geopolitical-entity" ref="2070" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="41" end="43" ref="2178" type="state">
+      <trigger start="41" end="41" text="burger" ref="2184"/>
+      <event event_id="3.0">
+        <role role="resident" ref="2142" text="Hensli Richen&#10;von Zegingen dem winryffer ouch burger ze Basel"/>
+        <role role="geopolitical-entity" ref="2190" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="family" polarity="pos" tense="pres" modality="ass" start="46" end="48" ref="2208" type="state">
+      <trigger start="47" end="48" text="elichen frowen" ref="2214"/>
+      <event event_id="4.0">
+        <role role="family-a" ref="2196" text="Margareth siner elichen frowen so wilent&#10;eliche frowe was Thürings von Sengen seligen wi ¬&#10;lent der herren und geselschafft zer Mugke diener"/>
+        <role role="family-b" ref="2220" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="family" polarity="pos" tense="past" modality="ass" start="49" end="67" ref="2239" type="state">
+      <trigger start="51" end="52" text="eliche frowe" ref="2245"/>
+      <event event_id="5.0">
+        <role role="family-a" ref="2196" text="Margareth siner elichen frowen so wilent&#10;eliche frowe was Thürings von Sengen seligen wi ¬&#10;lent der herren und geselschafft zer Mugke diener"/>
+        <role role="family-b" ref="2251" text="Thürings von Sengen seligen wi ¬&#10;lent der herren und geselschafft zer Mugke diener"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="employment" polarity="pos" tense="pres" modality="ass" start="58" end="67" ref="2281" type="state">
+      <trigger start="67" end="67" text="diener" ref="2287"/>
+      <event event_id="6.0">
+        <role role="employee" ref="2251" text="Thürings von Sengen seligen wi ¬&#10;lent der herren und geselschafft zer Mugke diener"/>
+        <role role="employer" ref="2293" text="der herren und geselschafft zer Mugke"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="6" end="7" ref="2040" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="2028" text="Hans von Altdorff genant&#10;Schriberli burger ze Basel"/>
+        <role role="location-b" ref="2046" text="Altdorff"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="33" ref="2088" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="2076" text="daz huse und hofstat gele ¬&#10;gen ze Basel in der statt zwuschent den husern ze&#10;Nuwenburg und zem kalten Kelr"/>
+        <role role="location-b" ref="2094" text="Basel"/>
+        <role role="location-b" ref="2100" text="der statt"/>
+        <role role="location-b" ref="2112" text="den husern ze&#10;Nuwenburg und zem kalten Kelr"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="part_whole" polarity="pos" tense="pres" modality="ass" start="28" end="33" ref="2124" type="state">
+      <event event_id="9.0">
+        <role role="whole" ref="2112" text="den husern ze&#10;Nuwenburg und zem kalten Kelr"/>
+        <role role="part" ref="2130" text="Nuwenburg"/>
+        <role role="part" ref="2136" text="zem kalten Kelr"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="topological" polarity="pos" tense="pres" modality="ass" start="36" end="37" ref="2154" type="state">
+      <event event_id="10.0">
+        <role role="location-a" ref="2142" text="Hensli Richen&#10;von Zegingen dem winryffer ouch burger ze Basel"/>
+        <role role="location-b" ref="2160" text="Zegingen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="topological" polarity="pos" tense="pres" modality="ass" start="55" end="56" ref="2263" type="state">
+      <event event_id="11.0">
+        <role role="location-a" ref="2251" text="Thürings von Sengen seligen wi ¬&#10;lent der herren und geselschafft zer Mugke diener"/>
+        <role role="location-b" ref="2269" text="Sengen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="topological" polarity="pos" tense="pres" modality="ass" start="84" end="90" ref="2342" type="state">
+      <event event_id="12.0">
+        <role role="location-a" ref="2330" text="der&#10;pfrunde des heiligen crützes altar in unser frowen&#10;münster ze Basel gelegen"/>
+        <role role="location-b" ref="2348" text="unser frowen&#10;münster ze Basel gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="topological" polarity="pos" tense="pres" modality="ass" start="88" end="90" ref="2360" type="state">
+      <event event_id="13.0">
+        <role role="location-a" ref="2348" text="unser frowen&#10;münster ze Basel gelegen"/>
+        <role role="location-b" ref="2366" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="topological" polarity="pos" tense="pres" modality="ass" start="122" end="133" ref="2409" type="state">
+      <event event_id="14.0">
+        <role role="location-a" ref="2397" text="die pneten so&#10;da ist hinder dem huse ze Nuwenburg und dem&#10;selben huse"/>
+        <role role="location-b" ref="2415" text="dem huse ze Nuwenburg"/>
+        <role role="location-b" ref="2427" text="dem&#10;selben huse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="15" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="4" end="4" ref="" type="event">
+      <trigger start="4" end="4" text="kouffende" ref="2465"/>
+      <event event_id="15.0">
+        <role role="seller" ref="2028" text="Hans von Altdorff genant&#10;Schriberli burger ze Basel"/>
+        <role role="property" ref="2076" text="daz huse und hofstat gele ¬&#10;gen ze Basel in der statt zwuschent den husern ze&#10;Nuwenburg und zem kalten Kelr"/>
+        <role role="buyer" ref="2142" text="Hensli Richen&#10;von Zegingen dem winryffer ouch burger ze Basel"/>
+        <role role="buyer" ref="2196" text="Margareth siner elichen frowen so wilent&#10;eliche frowe was Thürings von Sengen seligen wi ¬&#10;lent der herren und geselschafft zer Mugke diener"/>
+        <role role="detail_rights" ref="2490" text="ist in&#10;dem kouffe bedinget und berett dz az dasselb huse&#10;recht hatte vormalz hinderus über die pneten so&#10;da ist hinder dem huse ze Nuwenburg und dem&#10;selben huse daz daz selb huse kein recht füren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="16" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="16.0">
+        <role role="owner" ref="2311" text="einem caplane so ie ze ziten ist der&#10;pfrunde des heiligen crützes altar in unser frowen&#10;münster ze Basel gelegen"/>
+        <role role="property" ref="2076" text="daz huse und hofstat gele ¬&#10;gen ze Basel in der statt zwuschent den husern ze&#10;Nuwenburg und zem kalten Kelr"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

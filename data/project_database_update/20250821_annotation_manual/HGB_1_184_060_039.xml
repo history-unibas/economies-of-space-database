@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 184/60 S. [39]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schneidergasse 30</tei:title>
+            <tei:idno>HGB 1 184/60</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1512677</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1633">1633</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611143.9928496047 1267458.66705554</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1633</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Bartholonians</token>
+    <token token_id="3">Gynath</token>
+    <token token_id="4">.</token>
+    <token token_id="5">1634</token>
+    <token token_id="6">.</token>
+    <token token_id="7">Bartholomans</token>
+    <token token_id="8">Guth</token>
+    <token token_id="9">.</token>
+    <token token_id="10">uf</token>
+    <token token_id="11">Joh</token>
+    <token token_id="12">.</token>
+    <token token_id="13">Bapt</token>
+    <token token_id="14">5</token>
+    <token token_id="15">℔</token>
+    <token token_id="16">.</token>
+    <token token_id="17">Ebenso</token>
+    <token token_id="18">:</token>
+    <token token_id="19">1638</token>
+    <token token_id="20">1639</token>
+  </text>
+  <spans>
+    <span id="custom_0" start="0" end="20" text="1633 .&#10;Bartholonians Gynath .&#10;1634 .&#10;Bartholomans Guth .&#10;uf Joh . Bapt 5 ℔.&#10;Ebenso : 1638 1639" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="501" start="0" end="0" text="1633" element="value" class="date" subclass=""/>
+      <span id="513" start="2" end="3" text="Bartholonians Gynath" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="513_head" start="2" end="3" element="head" class="nam" text="Bartholonians Gynath" subclass=""/>
+      </span>
+      <span id="507" start="5" end="5" text="1634" element="value" class="date" subclass=""/>
+      <span id="519" start="7" end="8" text="Bartholomans Guth" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="519_head" start="7" end="8" element="head" class="nam" text="Bartholomans Guth" subclass=""/>
+      </span>
+      <span id="525" start="10" end="13" text="uf Joh . Bapt" element="value" class="date" subclass=""/>
+      <span id="531" start="14" end="16" text="5 ℔." element="value" class="money" subclass=""/>
+      <span id="537" start="19" end="19" text="1638" element="value" class="date" subclass=""/>
+      <span id="543" start="20" end="20" text="1639" element="value" class="date" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="custom_1" from="519" to="513" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="20" ref="custom_0" type="event">
+      <event event_id="0.0">
+        <role role="date" ref="501" text="1633"/>
+        <role role="date" ref="507" text="1634"/>
+        <role role="payer" ref="519" text="Bartholomans Guth"/>
+        <role role="due-date" ref="525" text="uf Joh . Bapt"/>
+        <role role="interest" ref="531" text="5 ℔."/>
+        <role role="date" ref="537" text="1638"/>
+        <role role="date" ref="543" text="1639"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

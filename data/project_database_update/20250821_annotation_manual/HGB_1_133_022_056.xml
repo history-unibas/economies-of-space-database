@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 133/22 S. [56]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Münsterberg 13</tei:title>
+            <tei:idno>HGB 1 133/22</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1497135</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1641">1641</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611495.359936571 1267235.1730439966</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">in</token>
+    <token token_id="1">sant</token>
+    <token token_id="2">Albani</token>
+    <token token_id="3">.</token>
+    <token token_id="4">1641</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Lorentz</token>
+    <token token_id="7">Jährlin</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Hutmacher</token>
+    <token token_id="10">,</token>
+    <token token_id="11">gibt</token>
+    <token token_id="12">von</token>
+    <token token_id="13">seinem</token>
+    <token token_id="14">Haus</token>
+    <token token_id="15">am</token>
+    <token token_id="16">Spittalsprung</token>
+    <token token_id="17">in</token>
+    <token token_id="18">der</token>
+    <token token_id="19">Gast</token>
+    <token token_id="20">Herberig</token>
+    <token token_id="21">genant</token>
+    <token token_id="22">underhalb</token>
+    <token token_id="23">des</token>
+    <token token_id="24">Siegristen</token>
+    <token token_id="25">Haus</token>
+    <token token_id="26">gelegen</token>
+    <token token_id="27">,</token>
+    <token token_id="28">fronfastenlich</token>
+    <token token_id="29">3</token>
+    <token token_id="30">sh</token>
+    <token token_id="31">.</token>
+    <token token_id="32">3</token>
+    <token token_id="33">dn</token>
+    <token token_id="34">.</token>
+    <token token_id="35">Ebenso</token>
+    <token token_id="36">.</token>
+    <token token_id="37">1642</token>
+    <token token_id="38">.</token>
+    <token token_id="39">1643</token>
+    <token token_id="40">.</token>
+    <token token_id="41">1644</token>
+    <token token_id="42">.</token>
+    <token token_id="43">1645</token>
+    <token token_id="44">.</token>
+    <token token_id="45">1646</token>
+    <token token_id="46">.</token>
+    <token token_id="47">1647</token>
+    <token token_id="48">.</token>
+    <token token_id="49">1648</token>
+    <token token_id="50">.</token>
+    <token token_id="51">1649</token>
+    <token token_id="52">.</token>
+    <token token_id="53">1650</token>
+    <token token_id="54">.</token>
+    <token token_id="55">1651</token>
+    <token token_id="56">.</token>
+    <token token_id="57">Ebenso</token>
+    <token token_id="58">.</token>
+    <token token_id="59">1652</token>
+    <token token_id="60">.</token>
+    <token token_id="61">1653</token>
+    <token token_id="62">.</token>
+    <token token_id="63">1654</token>
+    <token token_id="64">.</token>
+    <token token_id="65">1655</token>
+    <token token_id="66">.</token>
+    <token token_id="67">1656</token>
+    <token token_id="68">.</token>
+    <token token_id="69">1657</token>
+    <token token_id="70">.</token>
+    <token token_id="71">1658</token>
+    <token token_id="72">.</token>
+    <token token_id="73">1659</token>
+    <token token_id="74">.</token>
+    <token token_id="75">1660</token>
+    <token token_id="76">.</token>
+  </text>
+  <spans>
+    <span id="1112" start="1" end="2" text="sant Albani" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+      <span id="1112_head" start="1" end="2" element="head" class="nam" text="sant Albani" subclass=""/>
+    </span>
+    <span id="1118" start="4" end="4" text="1641" element="value" class="date" subclass=""/>
+    <span id="1124" start="6" end="9" text="Lorentz Jährlin der Hutmacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1130" start="6" end="7" text="Lorentz Jährlin" element="head" class="nam" subclass=""/>
+      <span id="1136" start="8" end="9" text="der Hutmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1142" start="9" end="9" text="Hutmacher" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1359" start="11" end="11" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1148" start="13" end="26" text="seinem&#10;Haus am Spittalsprung in der Gast Herberig genant&#10;underhalb des Siegristen Haus gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1160" start="13" end="13" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1166" start="13" end="13" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1166_head" start="13" end="13" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1154" start="14" end="14" text="Haus" element="head" class="type" subclass=""/>
+      <span id="1179" start="15" end="16" text="am Spittalsprung" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1185" start="15" end="16" text="am Spittalsprung" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1191" start="16" end="16" text="Spittalsprung" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1197" start="17" end="20" text="in der Gast Herberig" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1197_head" start="17" end="20" element="head" class="nam" text="in der Gast Herberig" subclass=""/>
+      </span>
+      <span id="1203" start="22" end="26" text="underhalb des Siegristen Haus gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1209" start="23" end="25" text="des Siegristen Haus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1209_desc_owner" start="23" end="24" text="des Siegristen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1221" start="23" end="24" text="des Siegristen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1227" start="24" end="24" text="Siegristen" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+          <span id="1215" start="25" end="25" text="Haus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1233" start="28" end="28" text="fronfastenlich" element="value" class="date" subclass=""/>
+    <span id="1239" start="29" end="34" text="3 sh . 3 dn ." element="value" class="money" subclass=""/>
+    <span id="1245" start="37" end="37" text="1642" element="value" class="date" subclass=""/>
+    <span id="1263" start="39" end="39" text="1643" element="value" class="date" subclass=""/>
+    <span id="1251" start="41" end="41" text="1644" element="value" class="date" subclass=""/>
+    <span id="1257" start="43" end="43" text="1645" element="value" class="date" subclass=""/>
+    <span id="1293" start="45" end="45" text="1646" element="value" class="date" subclass=""/>
+    <span id="1299" start="47" end="47" text="1647" element="value" class="date" subclass=""/>
+    <span id="1305" start="49" end="49" text="1648" element="value" class="date" subclass=""/>
+    <span id="1311" start="51" end="51" text="1649" element="value" class="date" subclass=""/>
+    <span id="1317" start="53" end="53" text="1650" element="value" class="date" subclass=""/>
+    <span id="1323" start="55" end="55" text="1651" element="value" class="date" subclass=""/>
+    <span id="1269" start="59" end="59" text="1652" element="value" class="date" subclass=""/>
+    <span id="1275" start="61" end="61" text="1653" element="value" class="date" subclass=""/>
+    <span id="1281" start="63" end="63" text="1654" element="value" class="date" subclass=""/>
+    <span id="1287" start="65" end="65" text="1655" element="value" class="date" subclass=""/>
+    <span id="1329" start="67" end="67" text="1656" element="value" class="date" subclass=""/>
+    <span id="1335" start="69" end="69" text="1657" element="value" class="date" subclass=""/>
+    <span id="1341" start="71" end="71" text="1658" element="value" class="date" subclass=""/>
+    <span id="1347" start="73" end="73" text="1659" element="value" class="date" subclass=""/>
+    <span id="1353" start="75" end="75" text="1660" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1172" from="1166" to="1124" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="13" end="13" ref="1160" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1148" text="seinem&#10;Haus am Spittalsprung in der Gast Herberig genant&#10;underhalb des Siegristen Haus gelegen"/>
+        <role role="owner" ref="1166" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="16" ref="1179" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1148" text="seinem&#10;Haus am Spittalsprung in der Gast Herberig genant&#10;underhalb des Siegristen Haus gelegen"/>
+        <role role="location-b" ref="1185" text="am Spittalsprung"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="22" end="26" ref="1203" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1148" text="seinem&#10;Haus am Spittalsprung in der Gast Herberig genant&#10;underhalb des Siegristen Haus gelegen"/>
+        <role role="location-b" ref="1209" text="des Siegristen Haus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="23" end="24" ref="1209_desc_owner" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1209" text="des Siegristen Haus"/>
+        <role role="owner" ref="1221" text="des Siegristen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="pos" tense="pres" modality="ass" start="11" end="75" ref="" type="event">
+      <trigger start="11" end="11" text="gibt" ref="1359"/>
+      <event event_id="4.0">
+        <role role="date" ref="1118" text="1641"/>
+        <role role="payer" ref="1124" text="Lorentz Jährlin der Hutmacher"/>
+        <role role="property" ref="1148" text="seinem&#10;Haus am Spittalsprung in der Gast Herberig genant&#10;underhalb des Siegristen Haus gelegen"/>
+        <role role="interval" ref="1233" text="fronfastenlich"/>
+        <role role="interest" ref="1239" text="3 sh . 3 dn ."/>
+        <role role="date" ref="1245" text="1642"/>
+        <role role="date" ref="1263" text="1643"/>
+        <role role="date" ref="1251" text="1644"/>
+        <role role="date" ref="1257" text="1645"/>
+        <role role="date" ref="1293" text="1646"/>
+        <role role="date" ref="1299" text="1647"/>
+        <role role="date" ref="1305" text="1648"/>
+        <role role="date" ref="1311" text="1649"/>
+        <role role="date" ref="1317" text="1650"/>
+        <role role="date" ref="1323" text="1651"/>
+        <role role="date" ref="1269" text="1652"/>
+        <role role="date" ref="1275" text="1653"/>
+        <role role="date" ref="1281" text="1654"/>
+        <role role="date" ref="1287" text="1655"/>
+        <role role="date" ref="1329" text="1656"/>
+        <role role="date" ref="1335" text="1657"/>
+        <role role="date" ref="1341" text="1658"/>
+        <role role="date" ref="1347" text="1659"/>
+        <role role="date" ref="1353" text="1660"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

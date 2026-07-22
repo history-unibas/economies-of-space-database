@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 159/93 S. [18, 19]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheingasse 14</tei:title>
+            <tei:idno>HGB 1 159/93</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1508747</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1525">1525</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611528.988398041 1267730.8213527268</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">da</token>
+    <token token_id="2">hat</token>
+    <token token_id="3">der</token>
+    <token token_id="4">erber</token>
+    <token token_id="5">Balthasar</token>
+    <token token_id="6">Hocher</token>
+    <token token_id="7">tuchscherer</token>
+    <token token_id="8">burger</token>
+    <token token_id="9">zu</token>
+    <token token_id="10">minderenn</token>
+    <token token_id="11">Basel</token>
+    <token token_id="12">ze</token>
+    <token token_id="13">kouffen</token>
+    <token token_id="14">geben</token>
+    <token token_id="15">,</token>
+    <token token_id="16">dem</token>
+    <token token_id="17">bescheidenen</token>
+    <token token_id="18">Thie</token>
+    <token token_id="19">¬</token>
+    <token token_id="20">boltten</token>
+    <token token_id="21">Halbsod</token>
+    <token token_id="22">dem</token>
+    <token token_id="23">tischmacher</token>
+    <token token_id="24">burger</token>
+    <token token_id="25">zu</token>
+    <token token_id="26">mindern</token>
+    <token token_id="27">Basel</token>
+    <token token_id="28">Thoratheen</token>
+    <token token_id="29">Luxenho</token>
+    <token token_id="30">¬</token>
+    <token token_id="31">ferin</token>
+    <token token_id="32">siner</token>
+    <token token_id="33">eefrowen</token>
+    <token token_id="34">,</token>
+    <token token_id="35">ein</token>
+    <token token_id="36">hus</token>
+    <token token_id="37">in</token>
+    <token token_id="38">der</token>
+    <token token_id="39">minderenn</token>
+    <token token_id="40">stat</token>
+    <token token_id="41">Basel</token>
+    <token token_id="42">an</token>
+    <token token_id="43">der</token>
+    <token token_id="44">Ringassen</token>
+    <token token_id="45">zu</token>
+    <token token_id="46">eyner</token>
+    <token token_id="47">an</token>
+    <token token_id="48">Hans</token>
+    <token token_id="49">Mentzinger</token>
+    <token token_id="50">und</token>
+    <token token_id="51">zu</token>
+    <token token_id="52">der</token>
+    <token token_id="53">andern</token>
+    <token token_id="54">sytten</token>
+    <token token_id="55">nebent</token>
+    <token token_id="56">dem</token>
+    <token token_id="57">gesslin</token>
+    <token token_id="58">und</token>
+    <token token_id="59">dem</token>
+    <token token_id="60">brugklin</token>
+    <token token_id="61">da</token>
+    <token token_id="62">der</token>
+    <token token_id="63">bach</token>
+    <token token_id="64">zusamenn</token>
+    <token token_id="65">und</token>
+    <token token_id="66">inn</token>
+    <token token_id="67">den</token>
+    <token token_id="68">Rin</token>
+    <token token_id="69">loufft</token>
+    <token token_id="70">zinset</token>
+    <token token_id="71">von</token>
+    <token token_id="72">eigen</token>
+    <token token_id="73">schafft</token>
+    <token token_id="74">der</token>
+    <token token_id="75">presentz</token>
+    <token token_id="76">uff</token>
+    <token token_id="77">Burg</token>
+    <token token_id="78">funfftzehen</token>
+    <token token_id="79">schilling</token>
+    <token token_id="80">und</token>
+    <token token_id="81">zwen</token>
+    <token token_id="82">ring</token>
+    <token token_id="83">brots</token>
+    <token token_id="84">ze</token>
+    <token token_id="85">wysung</token>
+    <token token_id="86">und</token>
+    <token token_id="87">fünff</token>
+    <token token_id="88">schilling</token>
+    <token token_id="89">zu</token>
+    <token token_id="90">erschatz</token>
+    <token token_id="91">so</token>
+    <token token_id="92">sich</token>
+    <token token_id="93">die</token>
+    <token token_id="94">hand</token>
+    <token token_id="95">verwandlet</token>
+    <token token_id="96">deß</token>
+    <token token_id="97">einpfahenden</token>
+    <token token_id="98">halb</token>
+    <token token_id="99">von</token>
+    <token token_id="100">wegen</token>
+    <token token_id="101">der</token>
+    <token token_id="102">eigenschafft</token>
+    <token token_id="103">,</token>
+  </text>
+  <spans>
+    <span id="1627" start="3" end="11" text="der erber Balthasar&#10;Hocher&#10;tuchscherer burger zu minderenn&#10;Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1633" start="5" end="6" text="Balthasar&#10;Hocher" element="head" class="nam" subclass=""/>
+      <span id="1639" start="7" end="7" text="tuchscherer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1639_head" start="7" end="7" element="head" class="occ" text="tuchscherer" subclass=""/>
+      </span>
+      <span id="1645" start="8" end="11" text="burger zu minderenn&#10;Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1651" start="8" end="8" text="burger" element="head" class="org-aff" subclass=""/>
+        <span id="1657" start="10" end="11" text="minderenn&#10;Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1657_head" start="10" end="11" element="head" class="nam" text="minderenn Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1924" start="13" end="13" text="kouffen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1742" start="16" end="33" text="dem bescheidenen Thie ¬&#10;boltten Halbsod dem tischmacher burger&#10;zu mindern Basel Thoratheen Luxenho ¬&#10;ferin siner eefrowen" element="list" class="per" subclass="">
+      <span id="1663" start="16" end="27" text="dem bescheidenen Thie ¬&#10;boltten Halbsod dem tischmacher burger&#10;zu mindern Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1669" start="18" end="21" text="Thie ¬&#10;boltten Halbsod" element="head" class="nam" subclass=""/>
+        <span id="1675" start="22" end="23" text="dem tischmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1681" start="23" end="23" text="tischmacher" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1687" start="24" end="27" text="burger&#10;zu mindern Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1693" start="24" end="24" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="1699" start="26" end="27" text="mindern Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1699_head" start="26" end="27" element="head" class="nam" text="mindern Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1705" start="28" end="33" text="Thoratheen Luxenho ¬&#10;ferin siner eefrowen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1711" start="28" end="31" text="Thoratheen Luxenho ¬&#10;ferin" element="head" class="nam" subclass=""/>
+        <span id="1717" start="32" end="33" text="siner eefrowen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1729" start="32" end="32" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1729_head" start="32" end="32" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="1723" start="33" end="33" text="eefrowen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1748" start="35" end="102" text="ein hus in der&#10;minderenn stat Basel an der Ringassen&#10;zu eyner an Hans Mentzinger und zu&#10;der andern sytten nebent dem gesslin und&#10;dem brugklin da der bach zusamenn&#10;und inn den Rin loufft zinset von eigen&#10;schafft der presentz uff Burg funfftzehen&#10;schilling und zwen ring brots ze wysung&#10;und fünff schilling zu erschatz so sich&#10;die hand verwandlet deß einpfahenden halb&#10;von wegen der eigenschafft" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1760" start="36" end="36" text="hus" element="head" class="type" subclass=""/>
+      <span id="1766" start="37" end="69" text="in der&#10;minderenn stat Basel an der Ringassen&#10;zu eyner an Hans Mentzinger und zu&#10;der andern sytten nebent dem gesslin und&#10;dem brugklin da der bach zusamenn&#10;und inn den Rin loufft" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1772" start="38" end="41" text="der&#10;minderenn stat Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1778" start="39" end="41" text="minderenn stat Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1798" start="43" end="44" text="der Ringassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1804" start="44" end="44" text="Ringassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1810" start="48" end="49" text="Hans Mentzinger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1810_head" start="48" end="49" element="head" class="nam" text="Hans Mentzinger" subclass=""/>
+        </span>
+        <span id="1840" start="56" end="69" text="dem gesslin und&#10;dem brugklin da der bach zusamenn&#10;und inn den Rin loufft" element="list" class="fac" subclass="">
+          <span id="1816" start="56" end="57" text="dem gesslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="1822" start="57" end="57" text="gesslin" element="head" class="type" subclass=""/>
+          </span>
+          <span id="1828" start="59" end="69" text="dem brugklin da der bach zusamenn&#10;und inn den Rin loufft" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="1834" start="60" end="60" text="brugklin" element="head" class="type" subclass=""/>
+            <span id="1846" start="61" end="69" text="da der bach zusamenn&#10;und inn den Rin loufft" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1852" start="62" end="63" text="der bach" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1858" start="63" end="63" text="bach" element="head" class="type" subclass=""/>
+              </span>
+              <span id="1864" start="67" end="68" text="den Rin" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1870" start="68" end="68" text="Rin" element="head" class="nam" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1876" start="70" end="102" text="zinset von eigen&#10;schafft der presentz uff Burg funfftzehen&#10;schilling und zwen ring brots ze wysung&#10;und fünff schilling zu erschatz so sich&#10;die hand verwandlet deß einpfahenden halb&#10;von wegen der eigenschafft" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1930" start="70" end="70" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1936" start="71" end="73" text="von eigen&#10;schafft" element="other" class="other" subclass=""/>
+        <span id="1882" start="74" end="77" text="der presentz uff Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1888" start="75" end="75" text="presentz" element="head" class="type" subclass=""/>
+          <span id="1894" start="76" end="77" text="uff Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1900" start="77" end="77" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1900_head" start="77" end="77" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1906" start="78" end="79" text="funfftzehen&#10;schilling" element="value" class="money" subclass=""/>
+        <span id="1912" start="81" end="83" text="zwen ring brots" element="value" class="money" subclass=""/>
+        <span id="1942" start="84" end="85" text="ze wysung" element="other" class="other" subclass=""/>
+        <span id="1918" start="87" end="88" text="fünff schilling" element="value" class="money" subclass=""/>
+        <span id="1948" start="89" end="90" text="zu erschatz" element="other" class="other" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1791" from="1699" to="1657" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1735" from="1729" to="1663" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1784" from="1772" to="1699" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="8" end="11" ref="1645" type="state">
+      <trigger start="8" end="8" text="burger" ref="1651"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1627" text="der erber Balthasar&#10;Hocher&#10;tuchscherer burger zu minderenn&#10;Basel"/>
+        <role role="geopolitical-entity" ref="1657" text="minderenn&#10;Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="24" end="27" ref="1687" type="state">
+      <trigger start="24" end="24" text="burger" ref="1693"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1663" text="dem bescheidenen Thie ¬&#10;boltten Halbsod dem tischmacher burger&#10;zu mindern Basel"/>
+        <role role="geopolitical-entity" ref="1699" text="mindern Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="32" end="33" ref="1717" type="state">
+      <trigger start="33" end="33" text="eefrowen" ref="1723"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1705" text="Thoratheen Luxenho ¬&#10;ferin siner eefrowen"/>
+        <role role="family-b" ref="1729" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="37" end="69" ref="1766" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1748" text="ein hus in der&#10;minderenn stat Basel an der Ringassen&#10;zu eyner an Hans Mentzinger und zu&#10;der andern sytten nebent dem gesslin und&#10;dem brugklin da der bach zusamenn&#10;und inn den Rin loufft zinset von eigen&#10;schafft der presentz uff Burg funfftzehen&#10;schilling und zwen ring brots ze wysung&#10;und fünff schilling zu erschatz so sich&#10;die hand verwandlet deß einpfahenden halb&#10;von wegen der eigenschafft"/>
+        <role role="location-b" ref="1772" text="der&#10;minderenn stat Basel"/>
+        <role role="location-b" ref="1798" text="der Ringassen"/>
+        <role role="location-b" ref="1810" text="Hans Mentzinger"/>
+        <role role="location-b" ref="1816" text="dem gesslin"/>
+        <role role="location-b" ref="1828" text="dem brugklin da der bach zusamenn&#10;und inn den Rin loufft"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="61" end="69" ref="1846" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1828" text="dem brugklin da der bach zusamenn&#10;und inn den Rin loufft"/>
+        <role role="location-b" ref="1852" text="der bach"/>
+        <role role="location-b" ref="1864" text="den Rin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="70" end="102" ref="1876" type="state">
+      <trigger start="70" end="70" text="zinset" ref="1930"/>
+      <event event_id="5.0">
+        <role role="property" ref="1748" text="ein hus in der&#10;minderenn stat Basel an der Ringassen&#10;zu eyner an Hans Mentzinger und zu&#10;der andern sytten nebent dem gesslin und&#10;dem brugklin da der bach zusamenn&#10;und inn den Rin loufft zinset von eigen&#10;schafft der presentz uff Burg funfftzehen&#10;schilling und zwen ring brots ze wysung&#10;und fünff schilling zu erschatz so sich&#10;die hand verwandlet deß einpfahenden halb&#10;von wegen der eigenschafft"/>
+        <role role="cause" ref="1936" text="von eigen&#10;schafft"/>
+        <role role="beneficiary" ref="1882" text="der presentz uff Burg"/>
+        <role role="interest" ref="1906" text="funfftzehen&#10;schilling"/>
+        <role role="interest" ref="1912" text="zwen ring brots"/>
+        <role role="cause" ref="1942" text="ze wysung"/>
+      </event>
+      <event event_id="5.1">
+        <role role="property" ref="1748" text="ein hus in der&#10;minderenn stat Basel an der Ringassen&#10;zu eyner an Hans Mentzinger und zu&#10;der andern sytten nebent dem gesslin und&#10;dem brugklin da der bach zusamenn&#10;und inn den Rin loufft zinset von eigen&#10;schafft der presentz uff Burg funfftzehen&#10;schilling und zwen ring brots ze wysung&#10;und fünff schilling zu erschatz so sich&#10;die hand verwandlet deß einpfahenden halb&#10;von wegen der eigenschafft"/>
+        <role role="beneficiary" ref="1882" text="der presentz uff Burg"/>
+        <role role="interest" ref="1918" text="fünff schilling"/>
+        <role role="cause" ref="1948" text="zu erschatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="76" end="77" ref="1894" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1882" text="der presentz uff Burg"/>
+        <role role="location-b" ref="1900" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="13" end="13" ref="" type="event">
+      <trigger start="13" end="13" text="kouffen" ref="1924"/>
+      <event event_id="7.0">
+        <role role="seller" ref="1627" text="der erber Balthasar&#10;Hocher&#10;tuchscherer burger zu minderenn&#10;Basel"/>
+        <role role="buyer" ref="1663" text="dem bescheidenen Thie ¬&#10;boltten Halbsod dem tischmacher burger&#10;zu mindern Basel"/>
+        <role role="buyer" ref="1705" text="Thoratheen Luxenho ¬&#10;ferin siner eefrowen"/>
+        <role role="property" ref="1748" text="ein hus in der&#10;minderenn stat Basel an der Ringassen&#10;zu eyner an Hans Mentzinger und zu&#10;der andern sytten nebent dem gesslin und&#10;dem brugklin da der bach zusamenn&#10;und inn den Rin loufft zinset von eigen&#10;schafft der presentz uff Burg funfftzehen&#10;schilling und zwen ring brots ze wysung&#10;und fünff schilling zu erschatz so sich&#10;die hand verwandlet deß einpfahenden halb&#10;von wegen der eigenschafft"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

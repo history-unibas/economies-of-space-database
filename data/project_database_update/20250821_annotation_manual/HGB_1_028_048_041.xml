@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 28/48 S. [41]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Blumenrain 2</tei:title>
+            <tei:idno>HGB 1 28/48</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1464821</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1593">1593</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611223.0500243213 1267723.9044605747</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Lux</token>
+    <token token_id="2">Hagenbach</token>
+    <token token_id="3">Schaffner</token>
+    <token token_id="4">der</token>
+    <token token_id="5">Stifft</token>
+    <token token_id="6">zu</token>
+    <token token_id="7">s</token>
+    <token token_id="8">.</token>
+    <token token_id="9">Peter</token>
+    <token token_id="10">,</token>
+    <token token_id="11">hat</token>
+    <token token_id="12">Caspar</token>
+    <token token_id="13">Mürer</token>
+    <token token_id="14">,</token>
+    <token token_id="15">des</token>
+    <token token_id="16">Messerschmids</token>
+    <token token_id="17">Haus</token>
+    <token token_id="18">und</token>
+    <token token_id="19">Hofstatt</token>
+    <token token_id="20">,</token>
+    <token token_id="21">einseit</token>
+    <token token_id="22">neben</token>
+    <token token_id="23">dem</token>
+    <token token_id="24">Saltzhaus</token>
+    <token token_id="25">,</token>
+    <token token_id="26">anderseiten</token>
+    <token token_id="27">Andres</token>
+    <token token_id="28">Schnyder</token>
+    <token token_id="29">gelegen</token>
+    <token token_id="30">,</token>
+    <token token_id="31">hinden</token>
+    <token token_id="32">uff</token>
+    <token token_id="33">Niclaus</token>
+    <token token_id="34">Hönen</token>
+    <token token_id="35">stossend</token>
+    <token token_id="36">,</token>
+    <token token_id="37">versessener</token>
+    <token token_id="38">zinsen</token>
+    <token token_id="39">wegen</token>
+    <token token_id="40">,</token>
+    <token token_id="41">als</token>
+    <token token_id="42">der</token>
+    <token token_id="43">Stifft</token>
+    <token token_id="44">jährl</token>
+    <token token_id="45">.</token>
+    <token token_id="46">darab</token>
+    <token token_id="47">5</token>
+    <token token_id="48">℔</token>
+    <token token_id="49">.</token>
+    <token token_id="50">zinst</token>
+    <token token_id="51">wird</token>
+    <token token_id="52">,</token>
+    <token token_id="53">gefrönt</token>
+    <token token_id="54">.</token>
+  </text>
+  <spans>
+    <span id="855" start="0" end="9" text="Hanns Lux Hagenbach Schaffner der Stifft zu s . Peter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="861" start="0" end="2" text="Hanns Lux Hagenbach" element="head" class="nam" subclass=""/>
+      <span id="867" start="3" end="9" text="Schaffner der Stifft zu s . Peter" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="873" start="3" end="3" text="Schaffner" element="head" class="occ" subclass="org-job"/>
+        <span id="879" start="4" end="9" text="der Stifft zu s . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="885" start="5" end="9" text="Stifft zu s . Peter" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="891" start="12" end="35" text="Caspar&#10;Mürer , des Messerschmids Haus und Hofstatt , einseit neben&#10;dem Saltzhaus , anderseiten Andres Schnyder gelegen , hinden uff&#10;Niclaus Hönen stossend" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="903" start="12" end="16" text="Caspar&#10;Mürer , des Messerschmids" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="909" start="12" end="16" text="Caspar&#10;Mürer , des Messerschmids" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="915" start="12" end="13" text="Caspar&#10;Mürer" element="head" class="nam" subclass=""/>
+          <span id="921" start="15" end="16" text="des Messerschmids" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="927" start="16" end="16" text="Messerschmids" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="897" start="17" end="19" text="Haus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="933" start="21" end="35" text="einseit neben&#10;dem Saltzhaus , anderseiten Andres Schnyder gelegen , hinden uff&#10;Niclaus Hönen stossend" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="939" start="23" end="24" text="dem Saltzhaus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="945" start="24" end="24" text="Saltzhaus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="951" start="27" end="28" text="Andres Schnyder" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="951_head" start="27" end="28" element="head" class="nam" text="Andres Schnyder" subclass=""/>
+        </span>
+        <span id="957" start="33" end="34" text="Niclaus Hönen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="957_head" start="33" end="34" element="head" class="nam" text="Niclaus Hönen" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1007" start="38" end="38" text="zinsen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="963" start="42" end="43" text="der Stifft" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="963_head" start="42" end="43" element="head" class="type" text="der Stifft" subclass=""/>
+    </span>
+    <span id="976" start="44" end="44" text="jährl" element="value" class="time" subclass="rec"/>
+    <span id="982" start="46" end="46" text="darab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="982_head" start="46" end="46" element="head" class="pro" text="darab" subclass=""/>
+    </span>
+    <span id="995" start="47" end="49" text="5 ℔." element="value" class="money" subclass=""/>
+    <span id="1013" start="50" end="50" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1001" start="53" end="53" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="969" from="963" to="879" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="988" from="982" to="939" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1019" from="1013" to="1007" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="3" end="9" ref="867" type="state">
+      <trigger start="3" end="3" text="Schaffner" ref="873"/>
+      <event event_id="0.0">
+        <role role="employee" ref="855" text="Hanns Lux Hagenbach Schaffner der Stifft zu s . Peter"/>
+        <role role="employer" ref="879" text="der Stifft zu s . Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="12" end="16" ref="903" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="891" text="Caspar&#10;Mürer , des Messerschmids Haus und Hofstatt , einseit neben&#10;dem Saltzhaus , anderseiten Andres Schnyder gelegen , hinden uff&#10;Niclaus Hönen stossend"/>
+        <role role="owner" ref="909" text="Caspar&#10;Mürer , des Messerschmids"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="21" end="35" ref="933" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="891" text="Caspar&#10;Mürer , des Messerschmids Haus und Hofstatt , einseit neben&#10;dem Saltzhaus , anderseiten Andres Schnyder gelegen , hinden uff&#10;Niclaus Hönen stossend"/>
+        <role role="location-b" ref="939" text="dem Saltzhaus"/>
+        <role role="location-b" ref="951" text="Andres Schnyder"/>
+        <role role="location-b" ref="957" text="Niclaus Hönen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="neg" tense="pres" modality="ass" start="38" end="38" ref="" type="event">
+      <trigger start="38" end="38" text="zinsen" ref="1007"/>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="42" end="50" ref="" type="state">
+      <trigger start="50" end="50" text="zinst" ref="1013"/>
+      <event event_id="4.0">
+        <role role="beneficiary" ref="963" text="der Stifft"/>
+        <role role="interval" ref="976" text="jährl"/>
+        <role role="property" ref="982" text="darab"/>
+        <role role="interest" ref="995" text="5 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="53" ref="" type="event">
+      <trigger start="53" end="53" text="gefrönt" ref="1001"/>
+      <event event_id="5.0">
+        <role role="claimant" ref="855" text="Hanns Lux Hagenbach Schaffner der Stifft zu s . Peter"/>
+        <role role="property" ref="891" text="Caspar&#10;Mürer , des Messerschmids Haus und Hofstatt , einseit neben&#10;dem Saltzhaus , anderseiten Andres Schnyder gelegen , hinden uff&#10;Niclaus Hönen stossend"/>
+        <role role="cause" ref="1007" text="zinsen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

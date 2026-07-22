@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/24 S. [22]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 17</tei:title>
+            <tei:idno>HGB 1 194/24</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1513990</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1606">1606</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611123.529650235 1267392.6325895672</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Dr</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Nicolai</token>
+    <token token_id="3">Stuban</token>
+    <token token_id="4">,</token>
+    <token token_id="5">hat</token>
+    <token token_id="6">Stehan</token>
+    <token token_id="7">Kürtlins</token>
+    <token token_id="8">,</token>
+    <token token_id="9">des</token>
+    <token token_id="10">Weinmans</token>
+    <token token_id="11">und</token>
+    <token token_id="12">seiner</token>
+    <token token_id="13">Frau</token>
+    <token token_id="14">Elisabeth</token>
+    <token token_id="15">Martin</token>
+    <token token_id="16">,</token>
+    <token token_id="17">Behausung</token>
+    <token token_id="18">,</token>
+    <token token_id="19">an</token>
+    <token token_id="20">der</token>
+    <token token_id="21">niedern</token>
+    <token token_id="22">Spalen</token>
+    <token token_id="23">gelegen</token>
+    <token token_id="24">,</token>
+    <token token_id="25">oben</token>
+    <token token_id="26">.</token>
+    <token token_id="27">vor</token>
+    <token token_id="28">an</token>
+    <token token_id="29">Paul</token>
+    <token token_id="30">Beckhelm</token>
+    <token token_id="31">,</token>
+    <token token_id="32">undervor</token>
+    <token token_id="33">an</token>
+    <token token_id="34">Jacob</token>
+    <token token_id="35">Frewlern</token>
+    <token token_id="36">,</token>
+    <token token_id="37">stosst</token>
+    <token token_id="38">hinden</token>
+    <token token_id="39">aus</token>
+    <token token_id="40">an</token>
+    <token token_id="41">des</token>
+    <token token_id="42">Schnabels</token>
+    <token token_id="43">stall</token>
+    <token token_id="44">,</token>
+    <token token_id="45">vornen</token>
+    <token token_id="46">an</token>
+    <token token_id="47">die</token>
+    <token token_id="48">Landstrass</token>
+    <token token_id="49">und</token>
+    <token token_id="50">zum</token>
+    <token token_id="51">gälen</token>
+    <token token_id="52">,</token>
+    <token token_id="53">Horn</token>
+    <token token_id="54">genannt</token>
+    <token token_id="55">ist</token>
+    <token token_id="56">,</token>
+    <token token_id="57">versessener</token>
+    <token token_id="58">zinsen</token>
+    <token token_id="59">wegen</token>
+    <token token_id="60">,</token>
+    <token token_id="61">als</token>
+    <token token_id="62">ihm</token>
+    <token token_id="63">jährl</token>
+    <token token_id="64">.</token>
+    <token token_id="65">darab</token>
+    <token token_id="66">30</token>
+    <token token_id="67">fl</token>
+    <token token_id="68">.</token>
+    <token token_id="69">zinst</token>
+    <token token_id="70">wird</token>
+    <token token_id="71">,</token>
+    <token token_id="72">gefrönt</token>
+    <token token_id="73">.</token>
+  </text>
+  <spans>
+    <span id="1094" start="0" end="3" text="Dr . Nicolai Stuban" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1100" start="0" end="1" text="Dr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1100_head" start="0" end="1" element="head" class="title" text="Dr ." subclass=""/>
+      </span>
+      <span id="1106" start="2" end="3" text="Nicolai Stuban" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1251" start="6" end="55" text="Stehan Kürtlins , des Weinmans und seiner&#10;Frau Elisabeth Martin , Behausung , an der niedern Spalen gelegen , oben .&#10;vor an Paul Beckhelm , undervor an Jacob Frewlern , stosst hinden&#10;aus an des Schnabels stall , vornen an die Landstrass und zum gälen ,&#10;Horn genannt ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1257" start="6" end="15" text="Stehan Kürtlins , des Weinmans und seiner&#10;Frau Elisabeth Martin" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1112" start="6" end="15" text="Stehan Kürtlins , des Weinmans und seiner&#10;Frau Elisabeth Martin" element="list" class="per" subclass="">
+          <span id="1118" start="6" end="10" text="Stehan Kürtlins , des Weinmans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1124" start="6" end="7" text="Stehan Kürtlins" element="head" class="nam" subclass=""/>
+            <span id="1130" start="9" end="10" text="des Weinmans" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1136" start="10" end="10" text="Weinmans" element="head" class="occ" subclass=""/>
+            </span>
+          </span>
+          <span id="1155" start="12" end="15" text="seiner&#10;Frau Elisabeth Martin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1161" start="12" end="13" text="seiner&#10;Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1142" start="12" end="12" text="seiner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1142_head" start="12" end="12" element="head" class="pro" text="seiner" subclass=""/>
+              </span>
+              <span id="1167" start="13" end="13" text="Frau" element="head" class="fam" subclass=""/>
+            </span>
+            <span id="1173" start="14" end="15" text="Elisabeth Martin" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1179" start="17" end="17" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="1245" start="19" end="48" text="an der niedern Spalen gelegen , oben .&#10;vor an Paul Beckhelm , undervor an Jacob Frewlern , stosst hinden&#10;aus an des Schnabels stall , vornen an die Landstrass" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1185" start="20" end="22" text="der niedern Spalen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1191" start="21" end="22" text="niedern Spalen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1197" start="29" end="30" text="Paul Beckhelm" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1197_head" start="29" end="30" element="head" class="nam" text="Paul Beckhelm" subclass=""/>
+        </span>
+        <span id="1203" start="34" end="35" text="Jacob Frewlern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1203_head" start="34" end="35" element="head" class="nam" text="Jacob Frewlern" subclass=""/>
+        </span>
+        <span id="1209" start="41" end="43" text="des Schnabels stall" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1215" start="42" end="43" text="Schnabels stall" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1221" start="47" end="48" text="die Landstrass" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1263" start="48" end="48" text="Landstrass" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1227" start="50" end="53" text="zum gälen ,&#10;Horn" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1227_head" start="50" end="53" element="head" class="nam" text="zum gälen , Horn" subclass=""/>
+      </span>
+    </span>
+    <span id="1269" start="57" end="59" text="versessener zinsen wegen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1307" start="62" end="62" text="ihm" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1307_head" start="62" end="62" element="head" class="pro" text="ihm" subclass=""/>
+    </span>
+    <span id="1233" start="63" end="64" text="jährl ." element="value" class="time" subclass="rec"/>
+    <span id="1294" start="65" end="65" text="darab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1294_head" start="65" end="65" element="head" class="pro" text="darab" subclass=""/>
+    </span>
+    <span id="1239" start="66" end="68" text="30 fl ." element="value" class="money" subclass=""/>
+    <span id="1275" start="69" end="69" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1288" start="72" end="72" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1313" from="1307" to="1094" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1300" from="1294" to="1251" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1148" from="1142" to="1118" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1281" from="1275" to="1269" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="12" end="13" ref="1161" type="state">
+      <trigger start="13" end="13" text="Frau" ref="1167"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1155" text="seiner&#10;Frau Elisabeth Martin"/>
+        <role role="family-b" ref="1142" text="seiner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="6" end="15" ref="1257" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1251" text="Stehan Kürtlins , des Weinmans und seiner&#10;Frau Elisabeth Martin , Behausung , an der niedern Spalen gelegen , oben .&#10;vor an Paul Beckhelm , undervor an Jacob Frewlern , stosst hinden&#10;aus an des Schnabels stall , vornen an die Landstrass und zum gälen ,&#10;Horn genannt ist"/>
+        <role role="owner" ref="1118" text="Stehan Kürtlins , des Weinmans"/>
+        <role role="owner" ref="1155" text="seiner&#10;Frau Elisabeth Martin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="19" end="48" ref="1245" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1251" text="Stehan Kürtlins , des Weinmans und seiner&#10;Frau Elisabeth Martin , Behausung , an der niedern Spalen gelegen , oben .&#10;vor an Paul Beckhelm , undervor an Jacob Frewlern , stosst hinden&#10;aus an des Schnabels stall , vornen an die Landstrass und zum gälen ,&#10;Horn genannt ist"/>
+        <role role="location-b" ref="1185" text="der niedern Spalen"/>
+        <role role="location-b" ref="1197" text="Paul Beckhelm"/>
+        <role role="location-b" ref="1203" text="Jacob Frewlern"/>
+        <role role="location-b" ref="1209" text="des Schnabels stall"/>
+        <role role="location-b" ref="1221" text="die Landstrass"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="neg" tense="pres" modality="ass" start="57" end="59" ref="" type="event">
+      <trigger start="57" end="59" text="versessener zinsen wegen" ref="1269"/>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="62" end="69" ref="" type="state">
+      <trigger start="69" end="69" text="zinst" ref="1275"/>
+      <event event_id="4.0">
+        <role role="beneficiary" ref="1307" text="ihm"/>
+        <role role="interval" ref="1233" text="jährl ."/>
+        <role role="property" ref="1294" text="darab"/>
+        <role role="interest" ref="1239" text="30 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="72" ref="" type="event">
+      <trigger start="72" end="72" text="gefrönt" ref="1288"/>
+      <event event_id="5.0">
+        <role role="claimant" ref="1094" text="Dr . Nicolai Stuban"/>
+        <role role="property" ref="1251" text="Stehan Kürtlins , des Weinmans und seiner&#10;Frau Elisabeth Martin , Behausung , an der niedern Spalen gelegen , oben .&#10;vor an Paul Beckhelm , undervor an Jacob Frewlern , stosst hinden&#10;aus an des Schnabels stall , vornen an die Landstrass und zum gälen ,&#10;Horn genannt ist"/>
+        <role role="cause" ref="1269" text="versessener zinsen wegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

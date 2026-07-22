@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/21 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 3</tei:title>
+            <tei:idno>HGB 1 58/21</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467804</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1488">1488</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611284.8859377317 1267445.7386366418</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Antheng</token>
+    <token token_id="1">Waltenhein</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Kremer</token>
+    <token token_id="4">,</token>
+    <token token_id="5">u</token>
+    <token token_id="6">.</token>
+    <token token_id="7">seine</token>
+    <token token_id="8">Frau</token>
+    <token token_id="9">Magdalena</token>
+    <token token_id="10">,</token>
+    <token token_id="11">als</token>
+    <token token_id="12">Hptverk</token>
+    <token token_id="13">.</token>
+    <token token_id="14">sodan</token>
+    <token token_id="15">Panthelin</token>
+    <token token_id="16">Zschnpp</token>
+    <token token_id="17">der</token>
+    <token token_id="18">messerschmid</token>
+    <token token_id="19">u</token>
+    <token token_id="20">.</token>
+    <token token_id="21">Johanns</token>
+    <token token_id="22">Harder</token>
+    <token token_id="23">der</token>
+    <token token_id="24">schriber</token>
+    <token token_id="25">als</token>
+    <token token_id="26">Mitverk</token>
+    <token token_id="27">.</token>
+    <token token_id="28">verkaufen</token>
+    <token token_id="29">an</token>
+    <token token_id="30">die</token>
+    <token token_id="31">fromen</token>
+    <token token_id="32">zu</token>
+    <token token_id="33">Gnadental</token>
+    <token token_id="34">15</token>
+    <token token_id="35">fl</token>
+    <token token_id="36">gells</token>
+    <token token_id="37">ab</token>
+    <token token_id="38">der</token>
+    <token token_id="39">Hptverk</token>
+    <token token_id="40">.</token>
+    <token token_id="41">Hus</token>
+    <token token_id="42">&amp;</token>
+    <token token_id="43">Hofstatt</token>
+    <token token_id="44">zem</token>
+    <token token_id="45">Monen</token>
+    <token token_id="46">under</token>
+    <token token_id="47">den</token>
+    <token token_id="48">Becheren</token>
+    <token token_id="49">,</token>
+    <token token_id="50">zwüschen</token>
+    <token token_id="51">der</token>
+    <token token_id="52">obgemelten</token>
+    <token token_id="53">Huet</token>
+    <token token_id="54">Hus</token>
+    <token token_id="55">genant</token>
+    <token token_id="56">zer</token>
+    <token token_id="57">Gilgen</token>
+    <token token_id="58">ư</token>
+    <token token_id="59">dem</token>
+    <token token_id="60">Hus</token>
+    <token token_id="61">genant</token>
+    <token token_id="62">Appenzel</token>
+    <token token_id="63">gelegen</token>
+    <token token_id="64">ist</token>
+    <token token_id="65">zinset</token>
+    <token token_id="66">vormals</token>
+    <token token_id="67">2</token>
+    <token token_id="68">1</token>
+    <token token_id="69">/</token>
+    <token token_id="70">2</token>
+    <token token_id="71">sh</token>
+    <token token_id="72">.</token>
+    <token token_id="73">novor</token>
+    <token token_id="74">.</token>
+    <token token_id="75">voneig</token>
+    <token token_id="76">.</token>
+    <token token_id="77">Iter</token>
+    <token token_id="78">Bernharts</token>
+    <token token_id="79">von</token>
+    <token token_id="80">Louffen</token>
+    <token token_id="81">sel</token>
+    <token token_id="82">.</token>
+    <token token_id="83">Erben</token>
+    <token token_id="84">sonstfrei</token>
+    <token token_id="85">,</token>
+    <token token_id="86">sum</token>
+    <token token_id="87">300</token>
+    <token token_id="88">fl</token>
+    <token token_id="89">widerk</token>
+    <token token_id="90">.</token>
+  </text>
+  <spans>
+    <span id="1374" start="0" end="9" text="Antheng Waltenhein der Kremer , u . seine Frau&#10;Magdalena" element="list" class="per" subclass="">
+      <span id="1380" start="0" end="3" text="Antheng Waltenhein der Kremer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1386" start="0" end="1" text="Antheng Waltenhein" element="head" class="nam" subclass=""/>
+        <span id="1392" start="2" end="3" text="der Kremer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1398" start="3" end="3" text="Kremer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1404" start="7" end="9" text="seine Frau&#10;Magdalena" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1423" start="7" end="8" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1410" start="7" end="7" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1410_head" start="7" end="7" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1429" start="8" end="8" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1435" start="9" end="9" text="Magdalena" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1441" start="12" end="13" text="Hptverk ." element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1441_head" start="12" end="13" element="head" class="role" text="Hptverk ." subclass=""/>
+    </span>
+    <span id="1454" start="15" end="24" text="Panthelin Zschnpp&#10;der messerschmid u . Johanns Harder der schriber" element="list" class="per" subclass="">
+      <span id="1460" start="15" end="18" text="Panthelin Zschnpp&#10;der messerschmid" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1466" start="15" end="16" text="Panthelin Zschnpp" element="head" class="nam" subclass=""/>
+        <span id="1472" start="17" end="18" text="der messerschmid" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1478" start="18" end="18" text="messerschmid" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1484" start="21" end="24" text="Johanns Harder der schriber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1490" start="21" end="22" text="Johanns Harder" element="head" class="nam" subclass=""/>
+        <span id="1496" start="23" end="24" text="der schriber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1502" start="24" end="24" text="schriber" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1508" start="26" end="27" text="Mitverk ." element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1508_head" start="26" end="27" element="head" class="role" text="Mitverk ." subclass=""/>
+    </span>
+    <span id="1696" start="28" end="28" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1521" start="30" end="33" text="die fromen zu Gnadental" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1527" start="31" end="33" text="fromen zu Gnadental" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1708" start="34" end="36" text="15 fl gells" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1533" start="34" end="35" text="15 fl" element="value" class="money" subclass=""/>
+      <span id="1702" start="36" end="36" text="gells" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1539" start="38" end="84" text="der Hptverk . Hus &amp; Hofstatt zem&#10;Monen under den Becheren , zwüschen der obgemelten&#10;Huet Hus genant zer Gilgen ư dem Hus genant&#10;Appenzel gelegen ist zinset vormals 2 1 / 2 sh . novor .&#10;voneig . Iter Bernharts von Louffen sel . Erben sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1551" start="38" end="40" text="der Hptverk ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1557" start="39" end="40" text="Hptverk ." element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1557_head" start="39" end="40" element="head" class="role" text="Hptverk ." subclass=""/>
+        </span>
+      </span>
+      <span id="1545" start="41" end="45" text="Hus &amp; Hofstatt zem&#10;Monen" element="head" class="nam" subclass=""/>
+      <span id="1570" start="46" end="64" text="under den Becheren , zwüschen der obgemelten&#10;Huet Hus genant zer Gilgen ư dem Hus genant&#10;Appenzel gelegen ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1576" start="47" end="48" text="den Becheren" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1582" start="48" end="48" text="Becheren" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1594" start="51" end="57" text="der obgemelten&#10;Huet Hus genant zer Gilgen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1606" start="51" end="53" text="der obgemelten&#10;Huet" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1612" start="53" end="53" text="Huet" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1612_head" start="53" end="53" element="head" class="type" text="Huet" subclass=""/>
+            </span>
+          </span>
+          <span id="1600" start="54" end="54" text="Hus" element="head" class="type" subclass=""/>
+          <span id="1624" start="56" end="57" text="zer Gilgen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1624_head" start="56" end="57" element="head" class="nam" text="zer Gilgen" subclass=""/>
+          </span>
+        </span>
+        <span id="1630" start="59" end="62" text="dem Hus genant&#10;Appenzel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1636" start="60" end="60" text="Hus" element="head" class="type" subclass=""/>
+          <span id="1642" start="62" end="62" text="Appenzel" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1642_head" start="62" end="62" element="head" class="nam" text="Appenzel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1690" start="65" end="84" text="zinset vormals 2 1 / 2 sh . novor .&#10;voneig . Iter Bernharts von Louffen sel . Erben sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1648" start="67" end="72" text="2 1 / 2 sh ." element="value" class="money" subclass=""/>
+        <span id="1654" start="78" end="83" text="Bernharts von Louffen sel . Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1666" start="78" end="82" text="Bernharts von Louffen sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1672" start="78" end="80" text="Bernharts von Louffen" element="head" class="nam" subclass=""/>
+            <span id="1678" start="81" end="82" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="1660" start="83" end="83" text="Erben" element="head" class="heir" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1684" start="87" end="88" text="300 fl" element="value" class="money" subclass=""/>
+    <span id="1714" start="89" end="90" text="widerk ." element="other" class="other" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1447" from="1441" to="1374" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1416" from="1410" to="1380" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1563" from="1557" to="1441" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1514" from="1508" to="1454" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="34" end="36" ref="1708" type="state">
+      <trigger start="36" end="36" text="gells" ref="1702"/>
+      <event event_id="0.0">
+        <role role="interest" ref="1533" text="15 fl"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="inheritance" polarity="pos" tense="pres" modality="ass" start="78" end="83" ref="1654" type="event">
+      <trigger start="83" end="83" text="Erben" ref="1660"/>
+      <event event_id="1.0">
+        <role role="heir" ref="1654" text="Bernharts von Louffen sel . Erben"/>
+        <role role="decedent" ref="1666" text="Bernharts von Louffen sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="8" ref="1423" type="state">
+      <trigger start="8" end="8" text="Frau" ref="1429"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1404" text="seine Frau&#10;Magdalena"/>
+        <role role="family-b" ref="1410" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="38" end="40" ref="1551" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1539" text="der Hptverk . Hus &amp; Hofstatt zem&#10;Monen under den Becheren , zwüschen der obgemelten&#10;Huet Hus genant zer Gilgen ư dem Hus genant&#10;Appenzel gelegen ist zinset vormals 2 1 / 2 sh . novor .&#10;voneig . Iter Bernharts von Louffen sel . Erben sonstfrei"/>
+        <role role="owner" ref="1557" text="Hptverk ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="46" end="64" ref="1570" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1539" text="der Hptverk . Hus &amp; Hofstatt zem&#10;Monen under den Becheren , zwüschen der obgemelten&#10;Huet Hus genant zer Gilgen ư dem Hus genant&#10;Appenzel gelegen ist zinset vormals 2 1 / 2 sh . novor .&#10;voneig . Iter Bernharts von Louffen sel . Erben sonstfrei"/>
+        <role role="location-b" ref="1576" text="den Becheren"/>
+        <role role="location-b" ref="1594" text="der obgemelten&#10;Huet Hus genant zer Gilgen"/>
+        <role role="location-b" ref="1630" text="dem Hus genant&#10;Appenzel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="51" end="53" ref="1606" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1594" text="der obgemelten&#10;Huet Hus genant zer Gilgen"/>
+        <role role="owner" ref="1612" text="Huet"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="65" end="84" ref="1690" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1539" text="der Hptverk . Hus &amp; Hofstatt zem&#10;Monen under den Becheren , zwüschen der obgemelten&#10;Huet Hus genant zer Gilgen ư dem Hus genant&#10;Appenzel gelegen ist zinset vormals 2 1 / 2 sh . novor .&#10;voneig . Iter Bernharts von Louffen sel . Erben sonstfrei"/>
+        <role role="interest" ref="1648" text="2 1 / 2 sh ."/>
+        <role role="beneficiary" ref="1654" text="Bernharts von Louffen sel . Erben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="90" ref="" type="event">
+      <trigger start="28" end="28" text="verkaufen" ref="1696"/>
+      <event event_id="7.0">
+        <role role="seller" ref="1380" text="Antheng Waltenhein der Kremer"/>
+        <role role="seller" ref="1404" text="seine Frau&#10;Magdalena"/>
+        <role role="seller" ref="1460" text="Panthelin Zschnpp&#10;der messerschmid"/>
+        <role role="seller" ref="1484" text="Johanns Harder der schriber"/>
+        <role role="buyer" ref="1521" text="die fromen zu Gnadental"/>
+        <role role="due" ref="1708" text="15 fl gells"/>
+        <role role="collateral" ref="1539" text="der Hptverk . Hus &amp; Hofstatt zem&#10;Monen under den Becheren , zwüschen der obgemelten&#10;Huet Hus genant zer Gilgen ư dem Hus genant&#10;Appenzel gelegen ist zinset vormals 2 1 / 2 sh . novor .&#10;voneig . Iter Bernharts von Louffen sel . Erben sonstfrei"/>
+        <role role="price" ref="1684" text="300 fl"/>
+        <role role="interest-redeemable" ref="1714" text="widerk ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 159/141 S. [22]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheingasse 84</tei:title>
+            <tei:idno>HGB 1 159/141</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1508803</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1521">1521</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611683.4341079155 1267587.181438226</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">in</token>
+    <token token_id="1">sant</token>
+    <token token_id="2">Theodori</token>
+    <token token_id="3">.</token>
+    <token token_id="4">1521</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Mathis</token>
+    <token token_id="7">Wistenlis</token>
+    <token token_id="8">Erben</token>
+    <token token_id="9">gend</token>
+    <token token_id="10">mehr</token>
+    <token token_id="11">von</token>
+    <token token_id="12">dem</token>
+    <token token_id="13">Hus</token>
+    <token token_id="14">an</token>
+    <token token_id="15">Zins</token>
+    <token token_id="16">.</token>
+    <token token_id="17">5</token>
+    <token token_id="18">sh</token>
+    <token token_id="19">.</token>
+    <token token_id="20">2</token>
+    <token token_id="21">ring</token>
+    <token token_id="22">.</token>
+    <token token_id="23">1522</token>
+    <token token_id="24">.</token>
+    <token token_id="25">Herr</token>
+    <token token_id="26">Jacob</token>
+    <token token_id="27">Zessinger</token>
+    <token token_id="28">gibt</token>
+    <token token_id="29">nun</token>
+    <token token_id="30">den</token>
+    <token token_id="31">zins</token>
+    <token token_id="32">.</token>
+  </text>
+  <spans>
+    <span id="603" start="0" end="22" text="in sant Theodori .&#10;1521 . Mathis Wistenlis Erben gend mehr von dem Hus an&#10;Zins . 5 sh . 2 ring ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="525" start="1" end="2" text="sant Theodori" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="525_head" start="1" end="2" element="head" class="nam" text="sant Theodori" subclass=""/>
+      </span>
+      <span id="531" start="4" end="4" text="1521" element="value" class="date" subclass=""/>
+      <span id="537" start="6" end="8" text="Mathis Wistenlis Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="549" start="6" end="7" text="Mathis Wistenlis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="549_head" start="6" end="7" element="head" class="nam" text="Mathis Wistenlis" subclass=""/>
+        </span>
+        <span id="543" start="8" end="8" text="Erben" element="head" class="heir" subclass=""/>
+      </span>
+      <span id="597" start="9" end="9" text="gend" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      <span id="555" start="12" end="13" text="dem Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="561" start="13" end="13" text="Hus" element="head" class="type" subclass=""/>
+      </span>
+      <span id="573" start="17" end="19" text="5 sh ." element="value" class="money" subclass=""/>
+      <span id="567" start="20" end="21" text="2 ring" element="value" class="money" subclass=""/>
+    </span>
+    <span id="609" start="23" end="32" text="1522 . Herr Jacob Zessinger gibt nun den zins ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="change">
+      <span id="579" start="23" end="23" text="1522" element="value" class="date" subclass=""/>
+      <span id="585" start="25" end="27" text="Herr Jacob Zessinger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="591" start="26" end="27" text="Jacob Zessinger" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="615" start="28" end="28" text="gibt" element="trigger" class="type" subclass=""/>
+      <span id="621" start="30" end="31" text="den zins" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="627" start="31" end="31" text="zins" element="trigger" class="type" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="633" from="621" to="603" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="22" ref="603" type="event">
+      <trigger start="9" end="9" text="gend" ref="597"/>
+      <event event_id="0.0">
+        <role role="place" ref="525" text="sant Theodori"/>
+        <role role="date" ref="531" text="1521"/>
+        <role role="payer" ref="537" text="Mathis Wistenlis Erben"/>
+        <role role="property" ref="555" text="dem Hus"/>
+        <role role="interest" ref="573" text="5 sh ."/>
+        <role role="interest" ref="567" text="2 ring"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="23" end="32" ref="609" type="event">
+      <trigger start="28" end="28" text="gibt" ref="615"/>
+      <event event_id="1.0">
+        <role role="date" ref="579" text="1522"/>
+        <role role="payer" ref="585" text="Herr Jacob Zessinger"/>
+        <role role="previous-due" ref="621" text="den zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="30" end="31" ref="621" type="event">
+      <trigger start="31" end="31" text="zins" ref="627"/>
+    </eventGroup>
+    <eventGroup event_id="3" class="inheritance" polarity="pos" tense="pres" modality="ass" start="6" end="8" ref="537" type="event">
+      <trigger start="8" end="8" text="Erben" ref="543"/>
+      <event event_id="3.0">
+        <role role="heir" ref="537" text="Mathis Wistenlis Erben"/>
+        <role role="decedent" ref="549" text="Mathis Wistenlis"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

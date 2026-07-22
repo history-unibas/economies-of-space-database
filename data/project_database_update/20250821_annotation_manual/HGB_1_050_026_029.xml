@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 50/26 S. [29]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Eisengasse 17</tei:title>
+            <tei:idno>HGB 1 50/26</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1465051</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1609">1609</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611234.3984736972 1267614.4841725791</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1609</token>
+    <token token_id="1">Joachim</token>
+    <token token_id="2">Ull</token>
+    <token token_id="3">,</token>
+    <token token_id="4">der</token>
+    <token token_id="5">Glaser</token>
+    <token token_id="6">,</token>
+    <token token_id="7">zuvor</token>
+    <token token_id="8">Jacob</token>
+    <token token_id="9">Heitzmann</token>
+    <token token_id="10">alle</token>
+    <token token_id="11">Frawfasten</token>
+    <token token_id="12">1</token>
+    <token token_id="13">℔</token>
+    <token token_id="14">5ß</token>
+    <token token_id="15">,</token>
+    <token token_id="16">thut</token>
+    <token token_id="17">das</token>
+    <token token_id="18">Jahr</token>
+    <token token_id="19">5</token>
+    <token token_id="20">℔</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Ebenso</token>
+    <token token_id="23">:</token>
+    <token token_id="24">1610</token>
+    <token token_id="25">1611</token>
+    <token token_id="26">1612</token>
+    <token token_id="27">1613</token>
+    <token token_id="28">1614</token>
+    <token token_id="29">1615</token>
+    <token token_id="30">1616</token>
+    <token token_id="31">1617</token>
+    <token token_id="32">1618</token>
+    <token token_id="33">1619</token>
+    <token token_id="34">1600</token>
+    <token token_id="35">1621</token>
+    <token token_id="36">1622</token>
+    <token token_id="37">1623</token>
+    <token token_id="38">/</token>
+    <token token_id="39">1624</token>
+    <token token_id="40">1625</token>
+    <token token_id="41">1628</token>
+    <token token_id="42">1627</token>
+    <token token_id="43">1628</token>
+    <token token_id="44">ab</token>
+    <token token_id="45">hier</token>
+    <token token_id="46">die</token>
+    <token token_id="47">Erben</token>
+  </text>
+  <spans>
+    <span id="772" start="0" end="0" text="1609" element="value" class="date" subclass=""/>
+    <span id="766" start="1" end="5" text="Joachim Ull , der Glaser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="778" start="1" end="2" text="Joachim Ull" element="head" class="nam" subclass=""/>
+      <span id="784" start="4" end="5" text="der Glaser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="790" start="5" end="5" text="Glaser" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="796" start="8" end="9" text="Jacob Heitzmann" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="796_head" start="8" end="9" element="head" class="nam" text="Jacob Heitzmann" subclass=""/>
+    </span>
+    <span id="802" start="10" end="11" text="alle Frawfasten" element="value" class="date" subclass=""/>
+    <span id="808" start="12" end="14" text="1 ℔ 5ß" element="value" class="money" subclass=""/>
+    <span id="952" start="16" end="16" text="thut" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="814" start="18" end="18" text="Jahr" element="value" class="time" subclass="rec"/>
+    <span id="820" start="19" end="21" text="5 ℔." element="value" class="money" subclass=""/>
+    <span id="826" start="24" end="24" text="1610" element="value" class="date" subclass=""/>
+    <span id="832" start="25" end="25" text="1611" element="value" class="date" subclass=""/>
+    <span id="838" start="26" end="26" text="1612" element="value" class="date" subclass=""/>
+    <span id="844" start="27" end="27" text="1613" element="value" class="date" subclass=""/>
+    <span id="850" start="28" end="28" text="1614" element="value" class="date" subclass=""/>
+    <span id="856" start="29" end="29" text="1615" element="value" class="date" subclass=""/>
+    <span id="862" start="30" end="30" text="1616" element="value" class="date" subclass=""/>
+    <span id="868" start="31" end="31" text="1617" element="value" class="date" subclass=""/>
+    <span id="874" start="32" end="32" text="1618" element="value" class="date" subclass=""/>
+    <span id="880" start="33" end="33" text="1619" element="value" class="date" subclass=""/>
+    <span id="886" start="34" end="34" text="1600" element="value" class="date" subclass=""/>
+    <span id="892" start="35" end="35" text="1621" element="value" class="date" subclass=""/>
+    <span id="898" start="36" end="36" text="1622" element="value" class="date" subclass=""/>
+    <span id="904" start="37" end="37" text="1623" element="value" class="date" subclass=""/>
+    <span id="910" start="39" end="39" text="1624" element="value" class="date" subclass=""/>
+    <span id="916" start="40" end="40" text="1625" element="value" class="date" subclass=""/>
+    <span id="922" start="41" end="41" text="1628" element="value" class="date" subclass=""/>
+    <span id="928" start="42" end="42" text="1627" element="value" class="date" subclass=""/>
+    <span id="934" start="43" end="43" text="1628" element="value" class="date" subclass=""/>
+    <span id="964" start="44" end="47" text="ab hier die Erben" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="change">
+      <span id="940" start="46" end="47" text="die Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="946" start="47" end="47" text="Erben" element="head" class="heir" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="44" end="47" ref="964" type="state">
+      <event event_id="0.0">
+        <role role="payer" ref="940" text="die Erben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="43" ref="" type="event">
+      <trigger start="16" end="16" text="thut" ref="952"/>
+      <event event_id="1.0">
+        <role role="date" ref="772" text="1609"/>
+        <role role="payer" ref="766" text="Joachim Ull , der Glaser"/>
+        <role role="previous-payer" ref="796" text="Jacob Heitzmann"/>
+        <role role="due-date" ref="802" text="alle Frawfasten"/>
+        <role role="interest" ref="808" text="1 ℔ 5ß"/>
+        <role role="interval" ref="814" text="Jahr"/>
+        <role role="interest" ref="820" text="5 ℔."/>
+        <role role="date" ref="826" text="1610"/>
+        <role role="date" ref="832" text="1611"/>
+        <role role="date" ref="838" text="1612"/>
+        <role role="date" ref="844" text="1613"/>
+        <role role="date" ref="850" text="1614"/>
+        <role role="date" ref="856" text="1615"/>
+        <role role="date" ref="862" text="1616"/>
+        <role role="date" ref="868" text="1617"/>
+        <role role="date" ref="874" text="1618"/>
+        <role role="date" ref="880" text="1619"/>
+        <role role="date" ref="886" text="1600"/>
+        <role role="date" ref="892" text="1621"/>
+        <role role="date" ref="898" text="1622"/>
+        <role role="date" ref="904" text="1623"/>
+        <role role="date" ref="910" text="1624"/>
+        <role role="date" ref="916" text="1625"/>
+        <role role="date" ref="922" text="1628"/>
+        <role role="date" ref="928" text="1627"/>
+        <role role="date" ref="934" text="1628"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

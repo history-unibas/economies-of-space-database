@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 215/88 S. [10]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Steinenvorstadt 54</tei:title>
+            <tei:idno>HGB 1 215/88</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532676</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1548">1548</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611232.8107390585 1266835.7529939236</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Lienhardt</token>
+    <token token_id="1">Keinheny</token>
+    <token token_id="2">hat</token>
+    <token token_id="3">von</token>
+    <token token_id="4">wegen</token>
+    <token token_id="5">der</token>
+    <token token_id="6">7</token>
+    <token token_id="7">℔</token>
+    <token token_id="8">.</token>
+    <token token_id="9">so</token>
+    <token token_id="10">im</token>
+    <token token_id="11">Galli</token>
+    <token token_id="12">Rütlinger</token>
+    <token token_id="13">der</token>
+    <token token_id="14">Wäber</token>
+    <token token_id="15">und</token>
+    <token token_id="16">sin</token>
+    <token token_id="17">Eefrow</token>
+    <token token_id="18">zu</token>
+    <token token_id="19">thun</token>
+    <token token_id="20">schuldig</token>
+    <token token_id="21">sind</token>
+    <token token_id="22">,</token>
+    <token token_id="23">derselben</token>
+    <token token_id="24">beider</token>
+    <token token_id="25">Eegemechten</token>
+    <token token_id="26">Hus</token>
+    <token token_id="27">und</token>
+    <token token_id="28">Hofstatt</token>
+    <token token_id="29">,</token>
+    <token token_id="30">sampt</token>
+    <token token_id="31">dem</token>
+    <token token_id="32">Höfli</token>
+    <token token_id="33">darvor</token>
+    <token token_id="34">,</token>
+    <token token_id="35">jnn</token>
+    <token token_id="36">Steinen</token>
+    <token token_id="37">Vorstatt</token>
+    <token token_id="38">,</token>
+    <token token_id="39">an</token>
+    <token token_id="40">der</token>
+    <token token_id="41">Schüren</token>
+    <token token_id="42">Osterrych</token>
+    <token token_id="43">genannt</token>
+    <token token_id="44">gelegen</token>
+    <token token_id="45">,</token>
+    <token token_id="46">stosst</token>
+    <token token_id="47">hinden</token>
+    <token token_id="48">uff</token>
+    <token token_id="49">den</token>
+    <token token_id="50">mittlen</token>
+    <token token_id="51">Tych</token>
+    <token token_id="52">und</token>
+    <token token_id="53">zum</token>
+    <token token_id="54">halben</token>
+    <token token_id="55">hindern</token>
+    <token token_id="56">sehönen</token>
+    <token token_id="57">Eckh</token>
+    <token token_id="58">genannt</token>
+    <token token_id="59">ist</token>
+    <token token_id="60">,</token>
+    <token token_id="61">wie</token>
+    <token token_id="62">ein</token>
+    <token token_id="63">färendt</token>
+    <token token_id="64">gut</token>
+    <token token_id="65">,</token>
+    <token token_id="66">gefrönt</token>
+    <token token_id="67">.</token>
+  </text>
+  <spans>
+    <span id="1016" start="0" end="1" text="Lienhardt Keinheny" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1016_head" start="0" end="1" element="head" class="nam" text="Lienhardt Keinheny" subclass=""/>
+    </span>
+    <span id="1205" start="5" end="21" text="der 7 ℔. so im Galli Rütlinger&#10;der Wäber und sin Eefrow zu thun schuldig sind" element="eventspan" class="due" tense="pres" polarity="neg" modality="ass" subclass="">
+      <span id="1022" start="6" end="8" text="7 ℔." element="value" class="money" subclass=""/>
+      <span id="1028" start="10" end="10" text="im" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1028_head" start="10" end="10" element="head" class="pro" text="im" subclass=""/>
+      </span>
+      <span id="1047" start="11" end="17" text="Galli Rütlinger&#10;der Wäber und sin Eefrow" element="list" class="per" subclass="">
+        <span id="1041" start="11" end="14" text="Galli Rütlinger&#10;der Wäber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1053" start="11" end="12" text="Galli Rütlinger" element="head" class="nam" subclass=""/>
+          <span id="1059" start="13" end="14" text="der Wäber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1065" start="14" end="14" text="Wäber" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1071" start="16" end="17" text="sin Eefrow" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1083" start="16" end="16" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1083_head" start="16" end="16" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1077" start="17" end="17" text="Eefrow" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+      <span id="1217" start="20" end="20" text="schuldig" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1096" start="23" end="59" text="derselben beider&#10;Eegemechten Hus und Hofstatt , sampt dem Höfli darvor , jnn&#10;Steinen Vorstatt , an der Schüren Osterrych genannt gelegen , stosst&#10;hinden uff den mittlen Tych und zum halben hindern sehönen&#10;Eckh genannt ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1108" start="23" end="25" text="derselben beider&#10;Eegemechten" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1114" start="23" end="25" text="derselben beider&#10;Eegemechten" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1127" start="25" end="25" text="Eegemechten" element="head" class="pro" subclass=""/>
+        </span>
+      </span>
+      <span id="1102" start="26" end="28" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1139" start="30" end="33" text="sampt dem Höfli darvor" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1151" start="31" end="32" text="dem Höfli" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1145" start="32" end="32" text="Höfli" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1157" start="35" end="51" text="jnn&#10;Steinen Vorstatt , an der Schüren Osterrych genannt gelegen , stosst&#10;hinden uff den mittlen Tych" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1163" start="36" end="37" text="Steinen Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1163_head" start="36" end="37" element="head" class="nam" text="Steinen Vorstatt" subclass=""/>
+        </span>
+        <span id="1169" start="40" end="43" text="der Schüren Osterrych genannt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1175" start="41" end="41" text="Schüren" element="head" class="type" subclass=""/>
+          <span id="1181" start="42" end="42" text="Osterrych" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1181_head" start="42" end="42" element="head" class="nam" text="Osterrych" subclass=""/>
+          </span>
+        </span>
+        <span id="1187" start="49" end="51" text="den mittlen Tych" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1193" start="50" end="51" text="mittlen Tych" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1199" start="53" end="57" text="zum halben hindern sehönen&#10;Eckh" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1199_head" start="53" end="57" element="head" class="nam" text="zum halben hindern sehönen Eckh" subclass=""/>
+      </span>
+    </span>
+    <span id="1223" start="61" end="64" text="wie ein färendt gut" element="other" class="other" subclass=""/>
+    <span id="1211" start="66" end="66" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1034" from="1028" to="1016" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1120" from="1114" to="1047" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1089" from="1083" to="1041" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="5" end="21" ref="1205" type="state">
+      <trigger start="20" end="20" text="schuldig" ref="1217"/>
+      <event event_id="0.0">
+        <role role="interest" ref="1022" text="7 ℔."/>
+        <role role="beneficiary" ref="1028" text="im"/>
+        <role role="payer" ref="1041" text="Galli Rütlinger&#10;der Wäber"/>
+        <role role="payer" ref="1071" text="sin Eefrow"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="16" end="17" ref="1071" type="state">
+      <trigger start="17" end="17" text="Eefrow" ref="1077"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1071" text="sin Eefrow"/>
+        <role role="family-b" ref="1083" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="23" end="25" ref="1108" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1096" text="derselben beider&#10;Eegemechten Hus und Hofstatt , sampt dem Höfli darvor , jnn&#10;Steinen Vorstatt , an der Schüren Osterrych genannt gelegen , stosst&#10;hinden uff den mittlen Tych und zum halben hindern sehönen&#10;Eckh genannt ist"/>
+        <role role="owner" ref="1114" text="derselben beider&#10;Eegemechten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="30" end="33" ref="1139" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1096" text="derselben beider&#10;Eegemechten Hus und Hofstatt , sampt dem Höfli darvor , jnn&#10;Steinen Vorstatt , an der Schüren Osterrych genannt gelegen , stosst&#10;hinden uff den mittlen Tych und zum halben hindern sehönen&#10;Eckh genannt ist"/>
+        <role role="part" ref="1151" text="dem Höfli"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="51" ref="1157" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1096" text="derselben beider&#10;Eegemechten Hus und Hofstatt , sampt dem Höfli darvor , jnn&#10;Steinen Vorstatt , an der Schüren Osterrych genannt gelegen , stosst&#10;hinden uff den mittlen Tych und zum halben hindern sehönen&#10;Eckh genannt ist"/>
+        <role role="location-b" ref="1163" text="Steinen Vorstatt"/>
+        <role role="location-b" ref="1169" text="der Schüren Osterrych genannt"/>
+        <role role="location-b" ref="1187" text="den mittlen Tych"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="66" ref="" type="event">
+      <trigger start="66" end="66" text="gefrönt" ref="1211"/>
+      <event event_id="5.0">
+        <role role="claimant" ref="1016" text="Lienhardt Keinheny"/>
+        <role role="cause" ref="1205" text="der 7 ℔. so im Galli Rütlinger&#10;der Wäber und sin Eefrow zu thun schuldig sind"/>
+        <role role="property" ref="1096" text="derselben beider&#10;Eegemechten Hus und Hofstatt , sampt dem Höfli darvor , jnn&#10;Steinen Vorstatt , an der Schüren Osterrych genannt gelegen , stosst&#10;hinden uff den mittlen Tych und zum halben hindern sehönen&#10;Eckh genannt ist"/>
+        <role role="detail_other" ref="1223" text="wie ein färendt gut"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

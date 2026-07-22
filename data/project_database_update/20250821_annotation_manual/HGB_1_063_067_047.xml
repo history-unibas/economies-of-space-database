@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/67 S. [47]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 75</tei:title>
+            <tei:idno>HGB 1 63/67</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472932</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1657">1657</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611317.0536243427 1267185.6560759982</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Fronfasten</token>
+    <token token_id="1">Zinse</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Item</token>
+    <token token_id="4">Benedict</token>
+    <token token_id="5">Bachoffen</token>
+    <token token_id="6">,</token>
+    <token token_id="7">zuvor</token>
+    <token token_id="8">Jacob</token>
+    <token token_id="9">Säger</token>
+    <token token_id="10">der</token>
+    <token token_id="11">Schneider</token>
+    <token token_id="12">,</token>
+    <token token_id="13">zinßt</token>
+    <token token_id="14">fronfastenlich</token>
+    <token token_id="15">von</token>
+    <token token_id="16">seinem</token>
+    <token token_id="17">hauß</token>
+    <token token_id="18">zum</token>
+    <token token_id="19">Fürst</token>
+    <token token_id="20">genant</token>
+    <token token_id="21">an</token>
+    <token token_id="22">der</token>
+    <token token_id="23">Gerbergaßen</token>
+    <token token_id="24">,</token>
+    <token token_id="25">gelegen</token>
+    <token token_id="26">thut</token>
+    <token token_id="27">5ß</token>
+    <token token_id="28">zu</token>
+    <token token_id="29">weisung</token>
+    <token token_id="30">-</token>
+    <token token_id="31">1ring</token>
+    <token token_id="32">brodt</token>
+    <token token_id="33">.</token>
+    <token token_id="34">ehrschatz</token>
+    <token token_id="35">-</token>
+    <token token_id="36">1ß</token>
+    <token token_id="37">.</token>
+    <token token_id="38">Ebenso</token>
+    <token token_id="39">1658</token>
+    <token token_id="40">.</token>
+    <token token_id="41">1659</token>
+    <token token_id="42">Jacob</token>
+    <token token_id="43">Rietman</token>
+    <token token_id="44">der</token>
+    <token token_id="45">Wollenwaber</token>
+    <token token_id="46">,</token>
+    <token token_id="47">vor</token>
+    <token token_id="48">ihme</token>
+    <token token_id="49">Benedict</token>
+    <token token_id="50">Bachoffen</token>
+    <token token_id="51">,</token>
+    <token token_id="52">zinßt</token>
+    <token token_id="53">fronfastenlich</token>
+    <token token_id="54">von</token>
+    <token token_id="55">seinem</token>
+    <token token_id="56">hauß</token>
+    <token token_id="57">zue</token>
+    <token token_id="58">Fürst</token>
+    <token token_id="59">genant</token>
+    <token token_id="60">an</token>
+    <token token_id="61">der</token>
+    <token token_id="62">Gerber</token>
+    <token token_id="63">¬</token>
+    <token token_id="64">gaßen</token>
+    <token token_id="65">gelegen</token>
+    <token token_id="66">thut</token>
+    <token token_id="67">-</token>
+    <token token_id="68">5ß</token>
+    <token token_id="69">,</token>
+    <token token_id="70">ehrschatz</token>
+    <token token_id="71">-</token>
+    <token token_id="72">1ß</token>
+    <token token_id="73">.</token>
+  </text>
+  <spans>
+    <span id="1098" start="4" end="5" text="Benedict Bachoffen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1098_head" start="4" end="5" element="head" class="nam" text="Benedict Bachoffen" subclass=""/>
+    </span>
+    <span id="1104" start="8" end="11" text="Jacob Säger&#10;der Schneider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1110" start="8" end="9" text="Jacob Säger" element="head" class="nam" subclass=""/>
+      <span id="1116" start="10" end="11" text="der Schneider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1122" start="11" end="11" text="Schneider" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1329" start="13" end="13" text="zinßt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1335" start="14" end="14" text="fronfastenlich" element="value" class="date" subclass=""/>
+    <span id="1128" start="16" end="25" text="seinem&#10;hauß zum Fürst genant an der Gerbergaßen ,&#10;gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1140" start="16" end="16" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1146" start="16" end="16" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1146_head" start="16" end="16" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1134" start="17" end="17" text="hauß" element="head" class="type" subclass=""/>
+      <span id="1275" start="18" end="19" text="zum Fürst" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1275_head" start="18" end="19" element="head" class="nam" text="zum Fürst" subclass=""/>
+      </span>
+      <span id="1281" start="21" end="23" text="an der Gerbergaßen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1287" start="22" end="23" text="der Gerbergaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1293" start="23" end="23" text="Gerbergaßen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1159" start="27" end="27" text="5ß" element="value" class="money" subclass=""/>
+    <span id="1341" start="28" end="29" text="zu weisung" element="other" class="other" subclass=""/>
+    <span id="1165" start="31" end="32" text="1ring brodt" element="value" class="money" subclass=""/>
+    <span id="1347" start="34" end="34" text="ehrschatz" element="other" class="other" subclass=""/>
+    <span id="1171" start="36" end="37" text="1ß ." element="value" class="money" subclass=""/>
+    <span id="1177" start="39" end="39" text="1658" element="other" class="other" subclass=""/>
+    <span id="1183" start="41" end="41" text="1659" element="value" class="date" subclass=""/>
+    <span id="1189" start="42" end="45" text="Jacob Rietman der Wollenwaber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1195" start="42" end="43" text="Jacob Rietman" element="head" class="nam" subclass=""/>
+      <span id="1201" start="44" end="45" text="der Wollenwaber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1207" start="45" end="45" text="Wollenwaber" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1219" start="48" end="48" text="ihme" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1219_head" start="48" end="48" element="head" class="pro" text="ihme" subclass=""/>
+    </span>
+    <span id="1213" start="49" end="50" text="Benedict Bachoffen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1213_head" start="49" end="50" element="head" class="nam" text="Benedict Bachoffen" subclass=""/>
+    </span>
+    <span id="1353" start="52" end="52" text="zinßt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1232" start="53" end="53" text="fronfastenlich" element="value" class="date" subclass=""/>
+    <span id="1238" start="55" end="65" text="seinem hauß zue Fürst genant an der Gerber ¬&#10;gaßen gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1250" start="55" end="55" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1256" start="55" end="55" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1256_head" start="55" end="55" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1244" start="56" end="56" text="hauß" element="head" class="type" subclass=""/>
+      <span id="1269" start="57" end="58" text="zue Fürst" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1269_head" start="57" end="58" element="head" class="nam" text="zue Fürst" subclass=""/>
+      </span>
+      <span id="1299" start="60" end="65" text="an der Gerber ¬&#10;gaßen gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1305" start="61" end="64" text="der Gerber ¬&#10;gaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1311" start="62" end="64" text="Gerber ¬&#10;gaßen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1317" start="68" end="68" text="5ß" element="value" class="money" subclass=""/>
+    <span id="1366" start="70" end="70" text="ehrschatz" element="other" class="other" subclass=""/>
+    <span id="1323" start="72" end="73" text="1ß ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1152" from="1146" to="1098" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1359" from="1213" to="1098" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1372" from="1238" to="1128" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1225" from="1219" to="1189" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1262" from="1256" to="1213" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="16" end="16" ref="1140" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1128" text="seinem&#10;hauß zum Fürst genant an der Gerbergaßen ,&#10;gelegen"/>
+        <role role="owner" ref="1146" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="21" end="23" ref="1281" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1128" text="seinem&#10;hauß zum Fürst genant an der Gerbergaßen ,&#10;gelegen"/>
+        <role role="location-b" ref="1287" text="der Gerbergaßen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="55" end="55" ref="1250" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1238" text="seinem hauß zue Fürst genant an der Gerber ¬&#10;gaßen gelegen"/>
+        <role role="owner" ref="1256" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="60" end="65" ref="1299" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1238" text="seinem hauß zue Fürst genant an der Gerber ¬&#10;gaßen gelegen"/>
+        <role role="location-b" ref="1305" text="der Gerber ¬&#10;gaßen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="pos" tense="pres" modality="ass" start="13" end="39" ref="" type="event">
+      <trigger start="13" end="13" text="zinßt" ref="1329"/>
+      <event event_id="4.0">
+        <role role="payer" ref="1098" text="Benedict Bachoffen"/>
+        <role role="previous-payer" ref="1104" text="Jacob Säger&#10;der Schneider"/>
+        <role role="interval" ref="1335" text="fronfastenlich"/>
+        <role role="property" ref="1128" text="seinem&#10;hauß zum Fürst genant an der Gerbergaßen ,&#10;gelegen"/>
+        <role role="interest" ref="1159" text="5ß"/>
+        <role role="date" ref="1177" text="1658"/>
+      </event>
+      <event event_id="4.1">
+        <role role="payer" ref="1098" text="Benedict Bachoffen"/>
+        <role role="previous-payer" ref="1104" text="Jacob Säger&#10;der Schneider"/>
+        <role role="property" ref="1128" text="seinem&#10;hauß zum Fürst genant an der Gerbergaßen ,&#10;gelegen"/>
+        <role role="cause" ref="1341" text="zu weisung"/>
+        <role role="interest" ref="1165" text="1ring brodt"/>
+        <role role="date" ref="1177" text="1658"/>
+      </event>
+      <event event_id="4.2">
+        <role role="payer" ref="1098" text="Benedict Bachoffen"/>
+        <role role="previous-payer" ref="1104" text="Jacob Säger&#10;der Schneider"/>
+        <role role="property" ref="1128" text="seinem&#10;hauß zum Fürst genant an der Gerbergaßen ,&#10;gelegen"/>
+        <role role="cause" ref="1347" text="ehrschatz"/>
+        <role role="interest" ref="1171" text="1ß ."/>
+        <role role="date" ref="1177" text="1658"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-payment" polarity="pos" tense="pres" modality="ass" start="41" end="73" ref="" type="event">
+      <trigger start="52" end="52" text="zinßt" ref="1353"/>
+      <event event_id="5.0">
+        <role role="date" ref="1183" text="1659"/>
+        <role role="payer" ref="1189" text="Jacob Rietman der Wollenwaber"/>
+        <role role="previous-payer" ref="1213" text="Benedict Bachoffen"/>
+        <role role="interval" ref="1232" text="fronfastenlich"/>
+        <role role="property" ref="1238" text="seinem hauß zue Fürst genant an der Gerber ¬&#10;gaßen gelegen"/>
+        <role role="interest" ref="1317" text="5ß"/>
+      </event>
+      <event event_id="5.1">
+        <role role="date" ref="1183" text="1659"/>
+        <role role="payer" ref="1189" text="Jacob Rietman der Wollenwaber"/>
+        <role role="previous-payer" ref="1213" text="Benedict Bachoffen"/>
+        <role role="interval" ref="1232" text="fronfastenlich"/>
+        <role role="property" ref="1238" text="seinem hauß zue Fürst genant an der Gerber ¬&#10;gaßen gelegen"/>
+        <role role="cause" ref="1366" text="ehrschatz"/>
+        <role role="interest" ref="1323" text="1ß ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

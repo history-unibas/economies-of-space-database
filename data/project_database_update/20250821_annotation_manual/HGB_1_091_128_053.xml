@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 91/128 S. [53, 54]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Johanns-Vorstadt 34</tei:title>
+            <tei:idno>HGB 1 91/128</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1482583</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Schaffneien</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1692">1692</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610986.04219531 1268098.1508427518</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hauss</token>
+    <token token_id="1">Georg</token>
+    <token token_id="2">Weitnauer</token>
+    <token token_id="3">der</token>
+    <token token_id="4">Commet</token>
+    <token token_id="5">Sattler</token>
+    <token token_id="6">soll</token>
+    <token token_id="7">10</token>
+    <token token_id="8">℔</token>
+    <token token_id="9">-</token>
+    <token token_id="10">ß</token>
+    <token token_id="11">-</token>
+    <token token_id="12">ȡ</token>
+    <token token_id="13">auf</token>
+    <token token_id="14">dem</token>
+    <token token_id="15">6</token>
+    <token token_id="16">.</token>
+    <token token_id="17">July</token>
+    <token token_id="18">von</token>
+    <token token_id="19">250</token>
+    <token token_id="20">℔</token>
+    <token token_id="21">Capithal</token>
+    <token token_id="22">ab</token>
+    <token token_id="23">seinem</token>
+    <token token_id="24">Eckhhauss</token>
+    <token token_id="25">in</token>
+    <token token_id="26">St</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Johann</token>
+    <token token_id="29">Vorstatt</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Als</token>
+    <token token_id="32">den</token>
+    <token token_id="33">24</token>
+    <token token_id="34">.</token>
+    <token token_id="35">July</token>
+    <token token_id="36">1694</token>
+    <token token_id="37">das</token>
+    <token token_id="38">hierumben</token>
+    <token token_id="39">zum</token>
+    <token token_id="40">Underpfandt</token>
+    <token token_id="41">verschriebene</token>
+    <token token_id="42">Hauss</token>
+    <token token_id="43">in</token>
+    <token token_id="44">St</token>
+    <token token_id="45">.</token>
+    <token token_id="46">Johanns</token>
+    <token token_id="47">Vorstatt</token>
+    <token token_id="48">,</token>
+    <token token_id="49">aus</token>
+    <token token_id="50">guf</token>
+    <token token_id="51">.</token>
+    <token token_id="52">Befehl</token>
+    <token token_id="53">und</token>
+    <token token_id="54">Erkhautnus</token>
+    <token token_id="55">meiner</token>
+    <token token_id="56">gul</token>
+    <token token_id="57">.</token>
+    <token token_id="58">Herren</token>
+    <token token_id="59">an</token>
+    <token token_id="60">der</token>
+    <token token_id="61">Rechen</token>
+    <token token_id="62">Kammer</token>
+    <token token_id="63">,</token>
+    <token token_id="64">an</token>
+    <token token_id="65">E</token>
+    <token token_id="66">.</token>
+    <token token_id="67">E</token>
+    <token token_id="68">.</token>
+    <token token_id="69">Statt</token>
+    <token token_id="70">ge</token>
+    <token token_id="71">¬</token>
+    <token token_id="72">richt</token>
+    <token token_id="73">pr</token>
+    <token token_id="74">.</token>
+    <token token_id="75">560</token>
+    <token token_id="76">℔</token>
+    <token token_id="77">.</token>
+    <token token_id="78">-</token>
+    <token token_id="79">.</token>
+    <token token_id="80">erkhaufft</token>
+    <token token_id="81">,</token>
+    <token token_id="82">Seindt</token>
+    <token token_id="83">darauff</token>
+    <token token_id="84">ferners</token>
+    <token token_id="85">lth</token>
+    <token token_id="86">.</token>
+    <token token_id="87">Anweisung</token>
+    <token token_id="88">ansbezahlt</token>
+    <token token_id="89">,</token>
+    <token token_id="90">worden</token>
+    <token token_id="91">an</token>
+    <token token_id="92">Mr</token>
+    <token token_id="93">.</token>
+    <token token_id="94">Jacob</token>
+    <token token_id="95">Baslers</token>
+    <token token_id="96">des</token>
+    <token token_id="97">Schumachers</token>
+    <token token_id="98">sel</token>
+    <token token_id="99">.</token>
+    <token token_id="100">Wittib</token>
+    <token token_id="101">als</token>
+    <token token_id="102">erster</token>
+    <token token_id="103">Creditorin</token>
+    <token token_id="104">449</token>
+    <token token_id="105">℔</token>
+    <token token_id="106">10ß</token>
+    <token token_id="107">-</token>
+    <token token_id="108">ȡ</token>
+    <token token_id="109">B</token>
+    <token token_id="110">dem</token>
+    <token token_id="111">Gottespfenning</token>
+    <token token_id="112">.</token>
+    <token token_id="113">1</token>
+    <token token_id="114">℔</token>
+    <token token_id="115">11ß</token>
+    <token token_id="116">-</token>
+    <token token_id="117">ȡ</token>
+  </text>
+  <spans>
+    <span id="2038" start="0" end="5" text="Hauss Georg Weitnauer der Commet Sattler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2044" start="0" end="2" text="Hauss Georg Weitnauer" element="head" class="nam" subclass=""/>
+      <span id="2050" start="3" end="5" text="der Commet Sattler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2056" start="4" end="5" text="Commet Sattler" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2262" start="6" end="6" text="soll" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2062" start="7" end="12" text="10 ℔ - ß - ȡ" element="value" class="money" subclass=""/>
+    <span id="2068" start="13" end="17" text="auf dem 6 . July" element="value" class="date" subclass=""/>
+    <span id="2074" start="19" end="20" text="250 ℔" element="value" class="money" subclass=""/>
+    <span id="2080" start="23" end="29" text="seinem Eckhhauss in St . Johann Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2104" start="23" end="23" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2110" start="23" end="23" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2110_head" start="23" end="23" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="2086" start="24" end="24" text="Eckhhauss" element="head" class="type" subclass=""/>
+      <span id="2092" start="25" end="29" text="in St . Johann Vorstatt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2098" start="26" end="29" text="St . Johann Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="2098_head" start="26" end="29" element="head" class="nam" text="St . Johann Vorstatt" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2123" start="32" end="36" text="den 24 . July 1694" element="value" class="date" subclass=""/>
+    <span id="2129" start="37" end="47" text="das hierumben zum&#10;Underpfandt verschriebene Hauss in St . Johanns&#10;Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2142" start="42" end="42" text="Hauss" element="head" class="type" subclass=""/>
+      <span id="2148" start="43" end="47" text="in St . Johanns&#10;Vorstatt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2154" start="44" end="47" text="St . Johanns&#10;Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="2154_head" start="44" end="47" element="head" class="nam" text="St . Johanns Vorstatt" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2274" start="54" end="54" text="Erkhautnus" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2280" start="55" end="72" text="meiner&#10;gul . Herren an der Rechen Kammer , an E . E . Statt ge ¬&#10;richt" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="2160" start="58" end="62" text="Herren an der Rechen Kammer" element="head" class="type" subclass=""/>
+      <span id="2286" start="64" end="72" text="an E . E . Statt ge ¬&#10;richt" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2166" start="65" end="72" text="E . E . Statt ge ¬&#10;richt" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="2172" start="69" end="70" text="Statt ge" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2178" start="75" end="78" text="560 ℔.-" element="value" class="money" subclass=""/>
+    <span id="2268" start="80" end="80" text="erkhaufft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2292" start="88" end="88" text="ansbezahlt" element="trigger" class="payment" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2184" start="92" end="103" text="Mr . Jacob Baslers des Schumachers sel . Wittib&#10;als erster Creditorin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2208" start="92" end="99" text="Mr . Jacob Baslers des Schumachers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2238" start="92" end="93" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2238_head" start="92" end="93" element="head" class="title" text="Mr ." subclass=""/>
+        </span>
+        <span id="2214" start="94" end="95" text="Jacob Baslers" element="head" class="nam" subclass=""/>
+        <span id="2220" start="96" end="97" text="des Schumachers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2226" start="97" end="97" text="Schumachers" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="2232" start="98" end="99" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="2190" start="100" end="100" text="Wittib" element="head" class="fam" subclass=""/>
+      <span id="2196" start="102" end="103" text="erster Creditorin" element="appo" class="creditor" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2202" start="103" end="103" text="Creditorin" element="head" class="creditor" subclass=""/>
+      </span>
+    </span>
+    <span id="2244" start="104" end="108" text="449 ℔ 10ß - ȡ" element="value" class="money" subclass=""/>
+    <span id="2250" start="113" end="117" text="1 ℔ 11ß - ȡ" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2116" from="2110" to="2038" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2135" from="2129" to="2080" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="92" end="103" ref="2184" type="state">
+      <trigger start="100" end="100" text="Wittib" ref="2190"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="2184" text="Mr . Jacob Baslers des Schumachers sel . Wittib&#10;als erster Creditorin"/>
+        <role role="family-b" ref="2208" text="Mr . Jacob Baslers des Schumachers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="23" end="23" ref="2104" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="2080" text="seinem Eckhhauss in St . Johann Vorstatt"/>
+        <role role="owner" ref="2110" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="25" end="29" ref="2092" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="2080" text="seinem Eckhhauss in St . Johann Vorstatt"/>
+        <role role="location-b" ref="2098" text="St . Johann Vorstatt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="43" end="47" ref="2148" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="2129" text="das hierumben zum&#10;Underpfandt verschriebene Hauss in St . Johanns&#10;Vorstatt"/>
+        <role role="location-b" ref="2154" text="St . Johanns&#10;Vorstatt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="64" end="72" ref="2286" type="state">
+      <event event_id="4.0">
+        <role role="part" ref="2280" text="meiner&#10;gul . Herren an der Rechen Kammer , an E . E . Statt ge ¬&#10;richt"/>
+        <role role="whole" ref="2166" text="E . E . Statt ge ¬&#10;richt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="0" end="6" ref="" type="state">
+      <trigger start="6" end="6" text="soll" ref="2262"/>
+      <event event_id="5.0">
+        <role role="payer" ref="2038" text="Hauss Georg Weitnauer der Commet Sattler"/>
+        <role role="interest" ref="2062" text="10 ℔ - ß - ȡ"/>
+        <role role="due-date" ref="2068" text="auf dem 6 . July"/>
+        <role role="capital" ref="2074" text="250 ℔"/>
+        <role role="property" ref="2080" text="seinem Eckhhauss in St . Johann Vorstatt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="litigation" polarity="pos" tense="pres" modality="ass" start="54" end="72" ref="" type="event">
+      <trigger start="54" end="54" text="Erkhautnus" ref="2274"/>
+      <event event_id="6.0">
+        <role role="court" ref="2280" text="meiner&#10;gul . Herren an der Rechen Kammer , an E . E . Statt ge ¬&#10;richt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="32" end="80" ref="" type="event">
+      <trigger start="80" end="80" text="erkhaufft" ref="2268"/>
+      <event event_id="7.0">
+        <role role="date" ref="2123" text="den 24 . July 1694"/>
+        <role role="property" ref="2129" text="das hierumben zum&#10;Underpfandt verschriebene Hauss in St . Johanns&#10;Vorstatt"/>
+        <role role="cause" ref="2274" text="Erkhautnus"/>
+        <role role="price" ref="2178" text="560 ℔.-"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="payment" polarity="pos" tense="pres" modality="ass" start="88" end="88" ref="" type="event">
+      <trigger start="88" end="88" text="ansbezahlt" ref="2292"/>
+      <event event_id="8.0">
+        <role role="beneficiary" ref="2184" text="Mr . Jacob Baslers des Schumachers sel . Wittib&#10;als erster Creditorin"/>
+        <role role="sum" ref="2244" text="449 ℔ 10ß - ȡ"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

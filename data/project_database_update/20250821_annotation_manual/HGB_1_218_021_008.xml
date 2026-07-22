@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 218/21 S. [8]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Streitgasse 6</tei:title>
+            <tei:idno>HGB 1 218/21</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532949</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1420">1420</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611429.246063502 1267186.8707861444</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">am</token>
+    <token token_id="1">Kande</token>
+    <token token_id="2">:</token>
+    <token token_id="3">1421</token>
+    <token token_id="4">Sabrots</token>
+    <token token_id="5">Corp</token>
+    <token token_id="6">.</token>
+    <token token_id="7">Ei</token>
+    <token token_id="8">.</token>
+    <token token_id="9">git</token>
+    <token token_id="10">ze</token>
+    <token token_id="11">kaufen</token>
+    <token token_id="12">Heinrich</token>
+    <token token_id="13">Keyser</token>
+    <token token_id="14">der</token>
+    <token token_id="15">gerwer</token>
+    <token token_id="16">,</token>
+    <token token_id="17">als</token>
+    <token token_id="18">vogt</token>
+    <token token_id="19">Eclien</token>
+    <token token_id="20">wil</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Stephaus</token>
+    <token token_id="23">genant</token>
+    <token token_id="24">zem</token>
+    <token token_id="25">hggkhus</token>
+    <token token_id="26">etzwen</token>
+    <token token_id="27">eins</token>
+    <token token_id="28">Spenglers</token>
+    <token token_id="29">eb</token>
+    <token token_id="30">.</token>
+    <token token_id="31">kindes</token>
+    <token token_id="32">,</token>
+    <token token_id="33">ein</token>
+    <token token_id="34">Hus</token>
+    <token token_id="35">u</token>
+    <token token_id="36">.</token>
+    <token token_id="37">Hofstatt</token>
+    <token token_id="38">gelegen</token>
+    <token token_id="39">an</token>
+    <token token_id="40">den</token>
+    <token token_id="41">Swellen</token>
+    <token token_id="42">,</token>
+    <token token_id="43">zwuschen</token>
+    <token token_id="44">den</token>
+    <token token_id="45">Husern</token>
+    <token token_id="46">Thauen</token>
+    <token token_id="47">berg</token>
+    <token token_id="48">,</token>
+    <token token_id="49">ư</token>
+    <token token_id="50">zem</token>
+    <token token_id="51">gulden</token>
+    <token token_id="52">Spiess</token>
+    <token token_id="53">,</token>
+    <token token_id="54">ist</token>
+    <token token_id="55">erb</token>
+    <token token_id="56">von</token>
+    <token token_id="57">dem</token>
+    <token token_id="58">Spital</token>
+    <token token_id="59">dem</token>
+    <token token_id="60">man</token>
+    <token token_id="61">gibt</token>
+    <token token_id="62">2</token>
+    <token token_id="63">℔</token>
+    <token token_id="64">Rrigbrdt</token>
+    <token token_id="65">wisung</token>
+    <token token_id="66">,</token>
+    <token token_id="67">u</token>
+    <token token_id="68">.</token>
+    <token token_id="69">1</token>
+    <token token_id="70">sh</token>
+    <token token_id="71">.</token>
+    <token token_id="72">erschatzs</token>
+    <token token_id="73">an</token>
+    <token token_id="74">Angnesen</token>
+    <token token_id="75">Sinklerin</token>
+    <token token_id="76">relt</token>
+    <token token_id="77">zud</token>
+    <token token_id="78">Juntzin</token>
+    <token token_id="79">Rüfllers</token>
+    <token token_id="80">sartori</token>
+    <token token_id="81">:</token>
+    <token token_id="82">sum</token>
+    <token token_id="83">22</token>
+    <token token_id="84">flor</token>
+    <token token_id="85">.</token>
+  </text>
+  <spans>
+    <span id="1417" start="3" end="8" text="1421 Sabrots Corp . Ei ." element="value" class="date" subclass=""/>
+    <span id="1550" start="11" end="11" text="kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1327" start="12" end="15" text="Heinrich Keyser der gerwer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1333" start="12" end="13" text="Heinrich Keyser" element="head" class="nam" subclass=""/>
+      <span id="1339" start="14" end="15" text="der gerwer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1345" start="15" end="15" text="gerwer" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1423" start="18" end="31" text="vogt&#10;Eclien wil . Stephaus genant zem hggkhus etzwen&#10;eins Spenglers eb . kindes" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1429" start="18" end="18" text="vogt" element="head" class="repr" subclass=""/>
+      <span id="1435" start="19" end="31" text="Eclien wil . Stephaus genant zem hggkhus etzwen&#10;eins Spenglers eb . kindes" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1441" start="19" end="19" text="Eclien" element="head" class="nam" subclass=""/>
+        <span id="1447" start="20" end="31" text="wil . Stephaus genant zem hggkhus etzwen&#10;eins Spenglers eb . kindes" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1459" start="20" end="28" text="wil . Stephaus genant zem hggkhus etzwen&#10;eins Spenglers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1465" start="22" end="22" text="Stephaus" element="head" class="nam" subclass=""/>
+            <span id="1471" start="24" end="25" text="zem hggkhus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1471_head" start="24" end="25" element="head" class="nam" text="zem hggkhus" subclass=""/>
+            </span>
+            <span id="1477" start="27" end="28" text="eins Spenglers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1483" start="28" end="28" text="Spenglers" element="head" class="occ" subclass=""/>
+            </span>
+          </span>
+          <span id="1453" start="29" end="31" text="eb . kindes" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1574" start="33" end="72" text="ein Hus u . Hofstatt&#10;gelegen an den Swellen , zwuschen den Husern Thauen&#10;berg , ư zem gulden Spiess , ist erb von dem&#10;Spital dem man gibt 2 ℔ Rrigbrdt wisung , u .&#10;1 sh . erschatzs" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1357" start="34" end="37" text="Hus u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1363" start="38" end="52" text="gelegen an den Swellen , zwuschen den Husern Thauen&#10;berg , ư zem gulden Spiess" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1369" start="40" end="41" text="den Swellen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1375" start="41" end="41" text="Swellen" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1495" start="44" end="52" text="den Husern Thauen&#10;berg , ư zem gulden Spiess" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1489" start="45" end="45" text="Husern" element="head" class="type" subclass=""/>
+          <span id="1495_comp" start="46" end="52" text="" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1381" start="46" end="47" text="Thauen&#10;berg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1381_head" start="46" end="47" element="head" class="nam" text="Thauen berg" subclass=""/>
+            </span>
+            <span id="1387" start="50" end="52" text="zem gulden Spiess" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1387_head" start="50" end="52" element="head" class="nam" text="zem gulden Spiess" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1580" start="54" end="72" text="ist erb von dem&#10;Spital dem man gibt 2 ℔ Rrigbrdt wisung , u .&#10;1 sh . erschatzs" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1605" start="54" end="58" text="ist erb von dem&#10;Spital" element="other" class="other" subclass="">
+          <span id="1393" start="57" end="58" text="dem&#10;Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="1399" start="58" end="58" text="Spital" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+        <span id="1592" start="59" end="59" text="dem" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1592_head" start="59" end="59" element="head" class="pro" text="dem" subclass=""/>
+        </span>
+        <span id="1556" start="61" end="61" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1405" start="62" end="64" text="2 ℔ Rrigbrdt" element="value" class="money" subclass=""/>
+        <span id="1562" start="65" end="65" text="wisung" element="other" class="other" subclass=""/>
+        <span id="1411" start="69" end="70" text="1 sh" element="value" class="money" subclass=""/>
+        <span id="1568" start="72" end="72" text="erschatzs" element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="1586" start="74" end="80" text="Angnesen Sinklerin relt zud&#10;Juntzin Rüfllers sartori" element="list" class="per" subclass="">
+      <span id="1532" start="74" end="76" text="Angnesen Sinklerin relt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1538" start="74" end="75" text="Angnesen Sinklerin" element="head" class="nam" subclass=""/>
+        <span id="1544" start="76" end="76" text="relt" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="1501" start="78" end="80" text="Juntzin Rüfllers sartori" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1507" start="78" end="79" text="Juntzin Rüfllers" element="head" class="nam" subclass=""/>
+        <span id="1513" start="80" end="80" text="sartori" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1513_head" start="80" end="80" element="head" class="occ" text="sartori" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1519" start="83" end="85" text="22 flor ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1525" from="1423" to="1327" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1598" from="1592" to="1393" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1556_role" from="1556" to="1574" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="representation" polarity="pos" tense="pres" modality="ass" start="18" end="31" ref="1423" type="state">
+      <trigger start="18" end="18" text="vogt" ref="1429"/>
+      <event event_id="0.0">
+        <role role="representative" ref="1423" text="vogt&#10;Eclien wil . Stephaus genant zem hggkhus etzwen&#10;eins Spenglers eb . kindes"/>
+        <role role="represented" ref="1435" text="Eclien wil . Stephaus genant zem hggkhus etzwen&#10;eins Spenglers eb . kindes"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="20" end="31" ref="1447" type="state">
+      <trigger start="29" end="31" text="eb . kindes" ref="1453"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1435" text="Eclien wil . Stephaus genant zem hggkhus etzwen&#10;eins Spenglers eb . kindes"/>
+        <role role="family-b" ref="1459" text="wil . Stephaus genant zem hggkhus etzwen&#10;eins Spenglers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="38" end="52" ref="1363" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1574" text="ein Hus u . Hofstatt&#10;gelegen an den Swellen , zwuschen den Husern Thauen&#10;berg , ư zem gulden Spiess , ist erb von dem&#10;Spital dem man gibt 2 ℔ Rrigbrdt wisung , u .&#10;1 sh . erschatzs"/>
+        <role role="location-b" ref="1369" text="den Swellen"/>
+        <role role="location-b" ref="1495" text="den Husern Thauen&#10;berg , ư zem gulden Spiess"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="46" end="52" ref="1495_comp" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1495" text="den Husern Thauen&#10;berg , ư zem gulden Spiess"/>
+        <role role="part" ref="1381" text="Thauen&#10;berg"/>
+        <role role="part" ref="1387" text="zem gulden Spiess"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="11" end="85" ref="" type="event">
+      <trigger start="11" end="11" text="kaufen" ref="1550"/>
+      <event event_id="4.0">
+        <role role="seller" ref="1327" text="Heinrich Keyser der gerwer"/>
+        <role role="property" ref="1574" text="ein Hus u . Hofstatt&#10;gelegen an den Swellen , zwuschen den Husern Thauen&#10;berg , ư zem gulden Spiess , ist erb von dem&#10;Spital dem man gibt 2 ℔ Rrigbrdt wisung , u .&#10;1 sh . erschatzs"/>
+        <role role="buyer" ref="1532" text="Angnesen Sinklerin relt"/>
+        <role role="buyer" ref="1501" text="Juntzin Rüfllers sartori"/>
+        <role role="price" ref="1519" text="22 flor ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="33" end="72" ref="1580" type="state">
+      <trigger start="61" end="61" text="gibt" ref="1556"/>
+      <event event_id="5.0">
+        <role role="detail_hereditary-owner" ref="1605" text="ist erb von dem&#10;Spital"/>
+        <role role="beneficiary" ref="1592" text="dem"/>
+        <role role="interest" ref="1405" text="2 ℔ Rrigbrdt"/>
+        <role role="cause" ref="1562" text="wisung"/>
+        <role role="property" ref="1574" text="ein Hus u . Hofstatt&#10;gelegen an den Swellen , zwuschen den Husern Thauen&#10;berg , ư zem gulden Spiess , ist erb von dem&#10;Spital dem man gibt 2 ℔ Rrigbrdt wisung , u .&#10;1 sh . erschatzs"/>
+      </event>
+      <event event_id="5.1">
+        <role role="detail_hereditary-owner" ref="1605" text="ist erb von dem&#10;Spital"/>
+        <role role="beneficiary" ref="1592" text="dem"/>
+        <role role="interest" ref="1411" text="1 sh"/>
+        <role role="cause" ref="1568" text="erschatzs"/>
+        <role role="property" ref="1574" text="ein Hus u . Hofstatt&#10;gelegen an den Swellen , zwuschen den Husern Thauen&#10;berg , ư zem gulden Spiess , ist erb von dem&#10;Spital dem man gibt 2 ℔ Rrigbrdt wisung , u .&#10;1 sh . erschatzs"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

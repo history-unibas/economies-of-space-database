@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 24/115 S. [15]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Barfüsserplatz 28</tei:title>
+            <tei:idno>HGB 1 24/115</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1463043</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1487">1487</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611327.614136818 1267149.1169899958</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Martins</token>
+    <token token_id="1">Zinse</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Item</token>
+    <token token_id="4">unser</token>
+    <token token_id="5">frouwen</token>
+    <token token_id="6">Buwmeister</token>
+    <token token_id="7">uf</token>
+    <token token_id="8">Burg</token>
+    <token token_id="9">gitt</token>
+    <token token_id="10">8ß</token>
+    <token token_id="11">vom</token>
+    <token token_id="12">hus</token>
+    <token token_id="13">zum</token>
+    <token token_id="14">Harren</token>
+    <token token_id="15">git</token>
+    <token token_id="16">nun</token>
+    <token token_id="17">Peter</token>
+    <token token_id="18">Hiltzbach</token>
+    <token token_id="19">der</token>
+    <token token_id="20">Steinmetz</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Ebenso</token>
+    <token token_id="23">1488</token>
+    <token token_id="24">.</token>
+    <token token_id="25">1489</token>
+    <token token_id="26">-</token>
+    <token token_id="27">1490</token>
+    <token token_id="28">fehlen</token>
+    <token token_id="29">.</token>
+    <token token_id="30">1491</token>
+    <token token_id="31">Peter</token>
+    <token token_id="32">Hiltzbach</token>
+    <token token_id="33">der</token>
+    <token token_id="34">Steinmetz</token>
+    <token token_id="35">git</token>
+    <token token_id="36">8ß</token>
+    <token token_id="37">vom</token>
+    <token token_id="38">hus</token>
+    <token token_id="39">zem</token>
+    <token token_id="40">Naren</token>
+    <token token_id="41">gab</token>
+    <token token_id="42">vor</token>
+    <token token_id="43">unser</token>
+    <token token_id="44">frowen</token>
+    <token token_id="45">Bammeister</token>
+    <token token_id="46">.</token>
+    <token token_id="47">1492</token>
+    <token token_id="48">Peter</token>
+    <token token_id="49">Hiltzbach</token>
+    <token token_id="50">Steinmetz</token>
+    <token token_id="51">git</token>
+    <token token_id="52">8ß</token>
+    <token token_id="53">vonn</token>
+    <token token_id="54">hus</token>
+    <token token_id="55">zem</token>
+    <token token_id="56">Narren</token>
+    <token token_id="57">in</token>
+    <token token_id="58">der</token>
+    <token token_id="59">Barfüßen</token>
+    <token token_id="60">geslin</token>
+    <token token_id="61">.</token>
+    <token token_id="62">1494</token>
+    <token token_id="63">-</token>
+    <token token_id="64">1497</token>
+    <token token_id="65">fehlen</token>
+    <token token_id="66">.</token>
+    <token token_id="67">Ebenso</token>
+    <token token_id="68">1493</token>
+    <token token_id="69">.</token>
+    <token token_id="70">1498</token>
+    <token token_id="71">wie</token>
+    <token token_id="72">oben</token>
+    <token token_id="73">.</token>
+    <token token_id="74">1499</token>
+    <token token_id="75">fehlt</token>
+    <token token_id="76">.</token>
+    <token token_id="77">1500</token>
+    <token token_id="78">wie</token>
+    <token token_id="79">oben</token>
+    <token token_id="80">.</token>
+    <token token_id="81">Ebenso</token>
+    <token token_id="82">1501</token>
+    <token token_id="83">.</token>
+    <token token_id="84">1502</token>
+    <token token_id="85">fehlt</token>
+    <token token_id="86">.</token>
+    <token token_id="87">1503</token>
+    <token token_id="88">Hans</token>
+    <token token_id="89">Hablützel</token>
+    <token token_id="90">gibt</token>
+    <token token_id="91">obigen</token>
+    <token token_id="92">zins</token>
+    <token token_id="93">.</token>
+  </text>
+  <spans>
+    <span id="1378" start="4" end="8" text="unser frouwen Buwmeister uf Burg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1402" start="4" end="5" text="unser frouwen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1408" start="5" end="5" text="frouwen" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1384" start="6" end="6" text="Buwmeister" element="head" class="occ" subclass="org-job"/>
+      <span id="1390" start="7" end="8" text="uf Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1396" start="8" end="8" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1396_head" start="8" end="8" element="head" class="nam" text="Burg" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1696" start="9" end="9" text="gitt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1414" start="10" end="10" text="8ß" element="value" class="money" subclass=""/>
+    <span id="1420" start="11" end="14" text="vom hus zum Harren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1426" start="12" end="14" text="hus zum Harren" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1702" start="15" end="15" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1432" start="17" end="20" text="Peter Hiltzbach der&#10;Steinmetz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1438" start="17" end="18" text="Peter Hiltzbach" element="head" class="nam" subclass=""/>
+      <span id="1444" start="19" end="20" text="der&#10;Steinmetz" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1450" start="20" end="20" text="Steinmetz" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1456" start="23" end="23" text="1488" element="value" class="date" subclass=""/>
+    <span id="1462" start="25" end="27" text="1489 - 1490" element="value" class="date" subclass=""/>
+    <span id="1468" start="30" end="30" text="1491" element="value" class="date" subclass=""/>
+    <span id="1480" start="31" end="34" text="Peter Hiltzbach der Steinmetz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1486" start="31" end="32" text="Peter Hiltzbach" element="head" class="nam" subclass=""/>
+      <span id="1492" start="33" end="34" text="der Steinmetz" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1498" start="34" end="34" text="Steinmetz" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1708" start="35" end="35" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1511" start="36" end="36" text="8ß" element="value" class="money" subclass=""/>
+    <span id="1517" start="37" end="40" text="vom hus&#10;zem Naren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1523" start="38" end="40" text="hus&#10;zem Naren" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1529" start="43" end="45" text="unser frowen Bammeister" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1541" start="43" end="44" text="unser frowen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1547" start="44" end="44" text="frowen" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1535" start="45" end="45" text="Bammeister" element="head" class="occ" subclass="org-job"/>
+    </span>
+    <span id="1474" start="47" end="47" text="1492" element="value" class="date" subclass=""/>
+    <span id="1567" start="48" end="50" text="Peter Hiltzbach Steinmetz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1573" start="48" end="49" text="Peter Hiltzbach" element="head" class="nam" subclass=""/>
+      <span id="1579" start="50" end="50" text="Steinmetz" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1579_head" start="50" end="50" element="head" class="occ" text="Steinmetz" subclass=""/>
+      </span>
+    </span>
+    <span id="1714" start="51" end="51" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1592" start="52" end="52" text="8ß" element="value" class="money" subclass=""/>
+    <span id="1605" start="54" end="60" text="hus&#10;zem Narren in der Barfüßen geslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1611" start="54" end="56" text="hus&#10;zem Narren" element="head" class="nam" subclass=""/>
+      <span id="1617" start="57" end="60" text="in der Barfüßen geslin" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1623" start="58" end="60" text="der Barfüßen geslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1629" start="59" end="60" text="Barfüßen geslin" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1642" start="62" end="64" text="1494 - 1497" element="value" class="date" subclass=""/>
+    <span id="1648" start="68" end="68" text="1493" element="value" class="date" subclass=""/>
+    <span id="1654" start="70" end="70" text="1498" element="value" class="date" subclass=""/>
+    <span id="1660" start="74" end="74" text="1499" element="value" class="date" subclass=""/>
+    <span id="1666" start="77" end="77" text="1500" element="value" class="date" subclass=""/>
+    <span id="1672" start="82" end="82" text="1501" element="value" class="date" subclass=""/>
+    <span id="1678" start="84" end="84" text="1502" element="value" class="date" subclass=""/>
+    <span id="1684" start="87" end="87" text="1503" element="value" class="date" subclass=""/>
+    <span id="1690" start="88" end="89" text="Hans Hablützel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1690_head" start="88" end="89" element="head" class="nam" text="Hans Hablützel" subclass=""/>
+    </span>
+    <span id="1720" start="90" end="90" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1726" start="91" end="92" text="obigen zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1553" from="1529" to="1378" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1560" from="1541" to="1402" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1598" from="1517" to="1420" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1504" from="1480" to="1432" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1585" from="1567" to="1480" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1635" from="1605" to="1517" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1732" from="1726" to="1714" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="4" end="8" ref="1378" type="state">
+      <trigger start="6" end="6" text="Buwmeister" ref="1384"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1378" text="unser frouwen Buwmeister uf Burg"/>
+        <role role="employer" ref="1402" text="unser frouwen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="43" end="45" ref="1529" type="state">
+      <trigger start="45" end="45" text="Bammeister" ref="1535"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1529" text="unser frowen Bammeister"/>
+        <role role="employer" ref="1541" text="unser frowen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="7" end="8" ref="1390" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1378" text="unser frouwen Buwmeister uf Burg"/>
+        <role role="location-b" ref="1396" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="57" end="60" ref="1617" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1605" text="hus&#10;zem Narren in der Barfüßen geslin"/>
+        <role role="location-b" ref="1623" text="der Barfüßen geslin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="4" end="9" ref="" type="state">
+      <trigger start="9" end="9" text="gitt" ref="1696"/>
+      <event event_id="4.0">
+        <role role="payer" ref="1378" text="unser frouwen Buwmeister uf Burg"/>
+        <role role="interest" ref="1414" text="8ß"/>
+        <role role="property" ref="1420" text="vom hus zum Harren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-payment" polarity="pos" tense="pres" modality="ass" start="11" end="27" ref="" type="event">
+      <trigger start="15" end="15" text="git" ref="1702"/>
+      <event event_id="5.0">
+        <role role="property" ref="1420" text="vom hus zum Harren"/>
+        <role role="payer" ref="1432" text="Peter Hiltzbach der&#10;Steinmetz"/>
+        <role role="date" ref="1456" text="1488"/>
+        <role role="date-missing" ref="1462" text="1489 - 1490"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-payment" polarity="pos" tense="pres" modality="ass" start="30" end="45" ref="" type="event">
+      <trigger start="35" end="35" text="git" ref="1708"/>
+      <event event_id="6.0">
+        <role role="date" ref="1468" text="1491"/>
+        <role role="payer" ref="1480" text="Peter Hiltzbach der Steinmetz"/>
+        <role role="interest" ref="1511" text="8ß"/>
+        <role role="property" ref="1517" text="vom hus&#10;zem Naren"/>
+        <role role="previous-payer" ref="1529" text="unser frowen Bammeister"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-payment" polarity="pos" tense="pres" modality="ass" start="47" end="84" ref="" type="event">
+      <trigger start="51" end="51" text="git" ref="1714"/>
+      <event event_id="7.0">
+        <role role="date" ref="1474" text="1492"/>
+        <role role="payer" ref="1567" text="Peter Hiltzbach Steinmetz"/>
+        <role role="interest" ref="1592" text="8ß"/>
+        <role role="property" ref="1605" text="hus&#10;zem Narren in der Barfüßen geslin"/>
+        <role role="date-missing" ref="1642" text="1494 - 1497"/>
+        <role role="date" ref="1648" text="1493"/>
+        <role role="date" ref="1654" text="1498"/>
+        <role role="date-missing" ref="1660" text="1499"/>
+        <role role="date" ref="1666" text="1500"/>
+        <role role="date" ref="1672" text="1501"/>
+        <role role="date-missing" ref="1678" text="1502"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-payment" polarity="pos" tense="pres" modality="ass" start="87" end="92" ref="" type="event">
+      <trigger start="90" end="90" text="gibt" ref="1720"/>
+      <event event_id="8.0">
+        <role role="date" ref="1684" text="1503"/>
+        <role role="payer" ref="1690" text="Hans Hablützel"/>
+        <role role="previous-due" ref="1726" text="obigen zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-payment" polarity="pos" tense="pres" modality="ass" start="91" end="92" ref="" type="event">
+      <trigger start="91" end="92" text="obigen zins" ref="1726"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

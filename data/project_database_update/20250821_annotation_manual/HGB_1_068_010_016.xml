@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 68/10 S. [16]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Grünpfahlgasse 6</tei:title>
+            <tei:idno>HGB 1 68/10</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1478034</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Hausurkunden</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1477">1477</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611241.964706863 1267339.989504892</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissenurkunde</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Hans</token>
+    <token token_id="3">Beklin</token>
+    <token token_id="4">der</token>
+    <token token_id="5">Lovitbruk</token>
+    <token token_id="6">,</token>
+    <token token_id="7">burger</token>
+    <token token_id="8">zu</token>
+    <token token_id="9">Basel</token>
+    <token token_id="10">.</token>
+    <token token_id="11">und</token>
+    <token token_id="12">Margreth</token>
+    <token token_id="13">,</token>
+    <token token_id="14">sin</token>
+    <token token_id="15">fffrau</token>
+    <token token_id="16">verkaufen</token>
+    <token token_id="17">hern</token>
+    <token token_id="18">Burckhart</token>
+    <token token_id="19">Segenser</token>
+    <token token_id="20">,</token>
+    <token token_id="21">Schultheisen</token>
+    <token token_id="22">zu</token>
+    <token token_id="23">bapel</token>
+    <token token_id="24">zu</token>
+    <token token_id="25">handen</token>
+    <token token_id="26">der</token>
+    <token token_id="27">Ratt</token>
+    <token token_id="28">¬</token>
+    <token token_id="29">frorn</token>
+    <token token_id="30">,</token>
+    <token token_id="31">Brister</token>
+    <token token_id="32">,</token>
+    <token token_id="33">Fachter</token>
+    <token token_id="34">und</token>
+    <token token_id="35">gman</token>
+    <token token_id="36">Schmiden</token>
+    <token token_id="37">Zunft</token>
+    <token token_id="38">2</token>
+    <token token_id="39">Guldin</token>
+    <token token_id="40">Gelts</token>
+    <token token_id="41">und</token>
+    <token token_id="42">sin</token>
+    <token token_id="43">Ort</token>
+    <token token_id="44">Rynischr</token>
+    <token token_id="45">guter</token>
+    <token token_id="46">und</token>
+    <token token_id="47">giner</token>
+    <token token_id="48">an</token>
+    <token token_id="49">Gold</token>
+    <token token_id="50">und</token>
+    <token token_id="51">Zwist</token>
+    <token token_id="52">zu</token>
+    <token token_id="53">Basel</token>
+    <token token_id="54">jerlig</token>
+    <token token_id="55">von</token>
+    <token token_id="56">uff</token>
+    <token token_id="57">und</token>
+    <token token_id="58">ab</token>
+    <token token_id="59">irn</token>
+    <token token_id="60">Stock</token>
+    <token token_id="61">,</token>
+    <token token_id="62">als</token>
+    <token token_id="63">der</token>
+    <token token_id="64">in</token>
+    <token token_id="65">der</token>
+    <token token_id="66">Statt</token>
+    <token token_id="67">¬</token>
+    <token token_id="68">bafl</token>
+    <token token_id="69">an</token>
+    <token token_id="70">der</token>
+    <token token_id="71">Schmiden</token>
+    <token token_id="72">am</token>
+    <token token_id="73">Schus</token>
+    <token token_id="74">gelegen</token>
+    <token token_id="75">ist</token>
+    <token token_id="76">,</token>
+    <token token_id="77">vrich</token>
+    <token token_id="78">an</token>
+    <token token_id="79">das</token>
+    <token token_id="80">Geßlin</token>
+    <token token_id="81">by</token>
+    <token token_id="82">der</token>
+    <token token_id="83">Badstuben</token>
+    <token token_id="84">zem</token>
+    <token token_id="85">Müllstein</token>
+    <token token_id="86">über</token>
+    <token token_id="87">zwischen</token>
+    <token token_id="88">dem</token>
+    <token token_id="89">huß</token>
+    <token token_id="90">zem</token>
+    <token token_id="91">Mören</token>
+    <token token_id="92">zu</token>
+    <token token_id="93">einer</token>
+    <token token_id="94">und</token>
+    <token token_id="95">Hans</token>
+    <token token_id="96">Lüpoltz</token>
+    <token token_id="97">huß</token>
+    <token token_id="98">des</token>
+    <token token_id="99">Metzgers</token>
+    <token token_id="100">zur</token>
+    <token token_id="101">andern</token>
+    <token token_id="102">sytin</token>
+    <token token_id="103">,</token>
+    <token token_id="104">ist</token>
+    <token token_id="105">fry</token>
+    <token token_id="106">.</token>
+    <token token_id="107">ledig</token>
+    <token token_id="108">,</token>
+    <token token_id="109">eigen</token>
+    <token token_id="110">,</token>
+    <token token_id="111">um</token>
+    <token token_id="112">45</token>
+    <token token_id="113">nischer</token>
+    <token token_id="114">Guldin</token>
+    <token token_id="115">unter</token>
+    <token token_id="116">an</token>
+    <token token_id="117">Gold</token>
+    <token token_id="118">und</token>
+    <token token_id="119">Obrof</token>
+    <token token_id="120">zu</token>
+    <token token_id="121">bapel</token>
+    <token token_id="122">.</token>
+  </text>
+  <spans>
+    <span id="1933" start="2" end="15" text="Hans Beklin der Lovitbruk , burger zu Basel .&#10;und Margreth , sin fffrau" element="list" class="per" subclass="">
+      <span id="1854" start="2" end="9" text="Hans Beklin der Lovitbruk , burger zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1860" start="2" end="3" text="Hans Beklin" element="head" class="nam" subclass=""/>
+        <span id="1866" start="4" end="5" text="der Lovitbruk" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1872" start="5" end="5" text="Lovitbruk" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1878" start="7" end="9" text="burger zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1884" start="7" end="7" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="1890" start="9" end="9" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1890_head" start="9" end="9" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1896" start="12" end="15" text="Margreth , sin fffrau" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1902" start="12" end="12" text="Margreth" element="head" class="nam" subclass=""/>
+        <span id="1908" start="14" end="15" text="sin fffrau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1920" start="14" end="14" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1920_head" start="14" end="14" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1914" start="15" end="15" text="fffrau" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2224" start="16" end="16" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1939" start="17" end="23" text="hern Burckhart&#10;Segenser , Schultheisen zu bapel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1945" start="18" end="19" text="Burckhart&#10;Segenser" element="head" class="nam" subclass=""/>
+      <span id="1951" start="21" end="23" text="Schultheisen zu bapel" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1957" start="21" end="21" text="Schultheisen" element="head" class="occ" subclass="org-job"/>
+        <span id="1963" start="23" end="23" text="bapel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1963_head" start="23" end="23" element="head" class="nam" text="bapel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1969" start="26" end="37" text="der Ratt ¬&#10;frorn , Brister , Fachter und gman Schmiden&#10;Zunft" element="list" class="org;per" subclass="">
+      <span id="1975" start="26" end="33" text="der Ratt ¬&#10;frorn , Brister , Fachter" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1981" start="27" end="29" text="Ratt ¬&#10;frorn" element="head" class="occ" subclass="org-job"/>
+        <span id="1987" start="31" end="33" text="Brister , Fachter" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2005" start="31" end="33" text="Brister , Fachter" element="list" class="per" subclass="">
+            <span id="1993" start="31" end="31" text="Brister" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1993_head" start="31" end="31" element="head" class="nam" text="Brister" subclass=""/>
+            </span>
+            <span id="1999" start="33" end="33" text="Fachter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1999_head" start="33" end="33" element="head" class="nam" text="Fachter" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2011" start="36" end="37" text="Schmiden&#10;Zunft" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+        <span id="2011_head" start="36" end="37" element="head" class="nam" text="Schmiden Zunft" subclass=""/>
+      </span>
+    </span>
+    <span id="2218" start="38" end="39" text="2 Guldin" element="value" class="money" subclass=""/>
+    <span id="2230" start="42" end="53" text="sin Ort Rynischr guter&#10;und giner an Gold und Zwist zu Basel" element="value" class="money" subclass=""/>
+    <span id="2023" start="54" end="54" text="jerlig" element="value" class="time" subclass="rec"/>
+    <span id="2035" start="59" end="109" text="irn Stock , als der in der Statt ¬&#10;bafl an der Schmiden am Schus gelegen ist , vrich&#10;an das Geßlin by der Badstuben zem Müllstein über&#10;zwischen dem huß zem Mören zu einer und Hans&#10;Lüpoltz huß des Metzgers zur andern sytin , ist fry .&#10;ledig , eigen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2053" start="59" end="59" text="irn" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2047" start="59" end="59" text="irn" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2047_head" start="59" end="59" element="head" class="pro" text="irn" subclass=""/>
+        </span>
+      </span>
+      <span id="2041" start="60" end="60" text="Stock" element="head" class="type" subclass=""/>
+      <span id="2066" start="62" end="102" text="als der in der Statt ¬&#10;bafl an der Schmiden am Schus gelegen ist , vrich&#10;an das Geßlin by der Badstuben zem Müllstein über&#10;zwischen dem huß zem Mören zu einer und Hans&#10;Lüpoltz huß des Metzgers zur andern sytin" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2078" start="65" end="68" text="der Statt ¬&#10;bafl" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2084" start="68" end="68" text="bafl" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2090" start="70" end="71" text="der Schmiden" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2096" start="71" end="71" text="Schmiden" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2102" start="72" end="73" text="am Schus" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2108" start="73" end="73" text="Schus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2114" start="79" end="86" text="das Geßlin by der Badstuben zem Müllstein über" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="2120" start="80" end="80" text="Geßlin" element="head" class="type" subclass=""/>
+          <span id="2126" start="81" end="86" text="by der Badstuben zem Müllstein über" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2132" start="82" end="85" text="der Badstuben zem Müllstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2138" start="83" end="85" text="Badstuben zem Müllstein" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2144" start="88" end="91" text="dem huß zem Mören" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2150" start="89" end="91" text="huß zem Mören" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2156" start="95" end="99" text="Hans&#10;Lüpoltz huß des Metzgers" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2168" start="95" end="96" text="Hans&#10;Lüpoltz" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2174" start="95" end="96" text="Hans&#10;Lüpoltz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2174_head" start="95" end="96" element="head" class="nam" text="Hans Lüpoltz" subclass=""/>
+            </span>
+          </span>
+          <span id="2162" start="97" end="97" text="huß" element="head" class="type" subclass=""/>
+          <span id="2180_owner" start="98" end="99" text="des Metzgers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2180" start="98" end="99" text="des Metzgers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2180_head" start="98" end="99" element="head" class="occ" text="des Metzgers" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2193" start="104" end="109" text="ist fry .&#10;ledig , eigen" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="2199" start="112" end="121" text="45 nischer Guldin unter an&#10;Gold und Obrof zu bapel" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2059" from="2047" to="1933" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1926" from="1920" to="1854" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2211" from="1939" to="1969" class="org-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2186" from="2180" to="2174" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="7" end="9" ref="1878" type="state">
+      <trigger start="7" end="7" text="burger" ref="1884"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1854" text="Hans Beklin der Lovitbruk , burger zu Basel"/>
+        <role role="geopolitical-entity" ref="1890" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="14" end="15" ref="1908" type="state">
+      <trigger start="15" end="15" text="fffrau" ref="1914"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1896" text="Margreth , sin fffrau"/>
+        <role role="family-b" ref="1920" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="employment" polarity="pos" tense="pres" modality="ass" start="21" end="23" ref="1951" type="state">
+      <trigger start="21" end="21" text="Schultheisen" ref="1957"/>
+      <event event_id="2.0">
+        <role role="employee" ref="1939" text="hern Burckhart&#10;Segenser , Schultheisen zu bapel"/>
+        <role role="employer" ref="1963" text="bapel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="31" end="33" ref="1987" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1975" text="der Ratt ¬&#10;frorn , Brister , Fachter"/>
+        <role role="part" ref="1993" text="Brister"/>
+        <role role="part" ref="1999" text="Fachter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="59" end="59" ref="2053" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="2035" text="irn Stock , als der in der Statt ¬&#10;bafl an der Schmiden am Schus gelegen ist , vrich&#10;an das Geßlin by der Badstuben zem Müllstein über&#10;zwischen dem huß zem Mören zu einer und Hans&#10;Lüpoltz huß des Metzgers zur andern sytin , ist fry .&#10;ledig , eigen"/>
+        <role role="owner" ref="2047" text="irn"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="62" end="102" ref="2066" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2035" text="irn Stock , als der in der Statt ¬&#10;bafl an der Schmiden am Schus gelegen ist , vrich&#10;an das Geßlin by der Badstuben zem Müllstein über&#10;zwischen dem huß zem Mören zu einer und Hans&#10;Lüpoltz huß des Metzgers zur andern sytin , ist fry .&#10;ledig , eigen"/>
+        <role role="location-b" ref="2078" text="der Statt ¬&#10;bafl"/>
+        <role role="location-b" ref="2090" text="der Schmiden"/>
+        <role role="location-b" ref="2102" text="am Schus"/>
+        <role role="location-b" ref="2114" text="das Geßlin by der Badstuben zem Müllstein über"/>
+        <role role="location-b" ref="2144" text="dem huß zem Mören"/>
+        <role role="location-b" ref="2156" text="Hans&#10;Lüpoltz huß des Metzgers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="81" end="86" ref="2126" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="2114" text="das Geßlin by der Badstuben zem Müllstein über"/>
+        <role role="location-b" ref="2132" text="der Badstuben zem Müllstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="95" end="96" ref="2168" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="2156" text="Hans&#10;Lüpoltz huß des Metzgers"/>
+        <role role="owner" ref="2174" text="Hans&#10;Lüpoltz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="ownership" polarity="pos" tense="pres" modality="ass" start="98" end="99" ref="2180_owner" type="state">
+      <event event_id="8.0">
+        <role role="property" ref="2156" text="Hans&#10;Lüpoltz huß des Metzgers"/>
+        <role role="owner" ref="2180" text="des Metzgers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="16" end="16" ref="" type="event">
+      <trigger start="16" end="16" text="verkaufen" ref="2224"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1854" text="Hans Beklin der Lovitbruk , burger zu Basel"/>
+        <role role="seller" ref="1896" text="Margreth , sin fffrau"/>
+        <role role="buyer" ref="1939" text="hern Burckhart&#10;Segenser , Schultheisen zu bapel"/>
+        <role role="interest" ref="2218" text="2 Guldin"/>
+        <role role="interest" ref="2230" text="sin Ort Rynischr guter&#10;und giner an Gold und Zwist zu Basel"/>
+        <role role="interval" ref="2023" text="jerlig"/>
+        <role role="collateral" ref="2035" text="irn Stock , als der in der Statt ¬&#10;bafl an der Schmiden am Schus gelegen ist , vrich&#10;an das Geßlin by der Badstuben zem Müllstein über&#10;zwischen dem huß zem Mören zu einer und Hans&#10;Lüpoltz huß des Metzgers zur andern sytin , ist fry .&#10;ledig , eigen"/>
+        <role role="price" ref="2199" text="45 nischer Guldin unter an&#10;Gold und Obrof zu bapel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="10.0">
+        <role role="representative" ref="1939" text="hern Burckhart&#10;Segenser , Schultheisen zu bapel"/>
+        <role role="represented" ref="1975" text="der Ratt ¬&#10;frorn , Brister , Fachter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="11.0">
+        <role role="representative" ref="1939" text="hern Burckhart&#10;Segenser , Schultheisen zu bapel"/>
+        <role role="represented" ref="2011" text="Schmiden&#10;Zunft"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

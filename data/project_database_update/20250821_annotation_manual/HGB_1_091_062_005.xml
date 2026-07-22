@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 91/62 S. [5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Johanns-Vorstadt 37</tei:title>
+            <tei:idno>HGB 1 91/62</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1482207</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1437">1437</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610927.758045406 1268177.4391394071</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Peter</token>
+    <token token_id="1">Hans</token>
+    <token token_id="2">Wentikon</token>
+    <token token_id="3">der</token>
+    <token token_id="4">Wirt</token>
+    <token token_id="5">zem</token>
+    <token token_id="6">Blumen</token>
+    <token token_id="7">ư</token>
+    <token token_id="8">Gred</token>
+    <token token_id="9">sin</token>
+    <token token_id="10">ewirtin</token>
+    <token token_id="11">,</token>
+    <token token_id="12">verkaufen</token>
+    <token token_id="13">an</token>
+    <token token_id="14">Clausen</token>
+    <token token_id="15">Wertenberg</token>
+    <token token_id="16">,</token>
+    <token token_id="17">daz</token>
+    <token token_id="18">Hus</token>
+    <token token_id="19">&amp;</token>
+    <token token_id="20">Hofstatt</token>
+    <token token_id="21">genant</token>
+    <token token_id="22">zem</token>
+    <token token_id="23">Eber</token>
+    <token token_id="24">unt</token>
+    <token token_id="25">der</token>
+    <token token_id="26">schuren</token>
+    <token token_id="27">u</token>
+    <token token_id="28">dem</token>
+    <token token_id="29">garten</token>
+    <token token_id="30">derhinder</token>
+    <token token_id="31">,</token>
+    <token token_id="32">gelegen</token>
+    <token token_id="33">in</token>
+    <token token_id="34">der</token>
+    <token token_id="35">vorstatt</token>
+    <token token_id="36">ze</token>
+    <token token_id="37">crütz</token>
+    <token token_id="38">,</token>
+    <token token_id="39">u</token>
+    <token token_id="40">.</token>
+    <token token_id="41">reichet</token>
+    <token token_id="42">hinderus</token>
+    <token token_id="43">an</token>
+    <token token_id="44">die</token>
+    <token token_id="45">lostergassen</token>
+    <token token_id="46">,</token>
+    <token token_id="47">zwuschers</token>
+    <token token_id="48">s</token>
+    <token token_id="49">.</token>
+    <token token_id="50">Anthonen</token>
+    <token token_id="51">gesess</token>
+    <token token_id="52">,</token>
+    <token token_id="53">u</token>
+    <token token_id="54">.</token>
+    <token token_id="55">Per</token>
+    <token token_id="56">Burkart</token>
+    <token token_id="57">Sintzen</token>
+    <token token_id="58">sel</token>
+    <token token_id="59">husen</token>
+    <token token_id="60">u</token>
+    <token token_id="61">.</token>
+    <token token_id="62">garten</token>
+    <token token_id="63">,</token>
+    <token token_id="64">zinst</token>
+    <token token_id="65">Jkrn</token>
+    <token token_id="66">Hans</token>
+    <token token_id="67">Heinr</token>
+    <token token_id="68">von</token>
+    <token token_id="69">Eptingen</token>
+    <token token_id="70">von</token>
+    <token token_id="71">sins</token>
+    <token token_id="72">lehens</token>
+    <token token_id="73">wegen</token>
+    <token token_id="74">um</token>
+    <token token_id="75">300</token>
+    <token token_id="76">fl</token>
+    <token token_id="77">.</token>
+  </text>
+  <spans>
+    <span id="1414" start="0" end="10" text="Peter Hans Wentikon der Wirt zem Blumen&#10;ư Gred sin ewirtin" element="list" class="per" subclass="">
+      <span id="1335" start="0" end="6" text="Peter Hans Wentikon der Wirt zem Blumen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1341" start="0" end="2" text="Peter Hans Wentikon" element="head" class="nam" subclass=""/>
+        <span id="1347" start="3" end="6" text="der Wirt zem Blumen" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1353" start="4" end="4" text="Wirt" element="head" class="occ" subclass=""/>
+          <span id="1359" start="5" end="6" text="zem Blumen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1365" start="5" end="6" text="zem Blumen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1371" start="6" end="6" text="Blumen" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1377" start="8" end="10" text="Gred sin ewirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1383" start="8" end="8" text="Gred" element="head" class="nam" subclass=""/>
+        <span id="1389" start="9" end="10" text="sin ewirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1401" start="9" end="9" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1401_head" start="9" end="9" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1395" start="10" end="10" text="ewirtin" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1606" start="12" end="12" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1420" start="14" end="15" text="Clausen&#10;Wertenberg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1420_head" start="14" end="15" element="head" class="nam" text="Clausen Wertenberg" subclass=""/>
+    </span>
+    <span id="1426" start="17" end="73" text="daz Hus &amp; Hofstatt genant zem Eber&#10;unt der schuren u dem garten derhinder , gelegen in&#10;der vorstatt ze crütz , u . reichet hinderus an die&#10;lostergassen , zwuschers s . Anthonen gesess , u . Per&#10;Burkart Sintzen sel husen u . garten , zinst Jkrn&#10;Hans Heinr von Eptingen von sins lehens wegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1450" start="18" end="20" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1456" start="22" end="23" text="zem Eber" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1456_head" start="22" end="23" element="head" class="nam" text="zem Eber" subclass=""/>
+      </span>
+      <span id="1486" start="24" end="30" text="unt der schuren u dem garten derhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1462" start="25" end="26" text="der schuren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1468" start="26" end="26" text="schuren" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1474" start="28" end="29" text="dem garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1480" start="29" end="29" text="garten" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1492" start="32" end="62" text="gelegen in&#10;der vorstatt ze crütz , u . reichet hinderus an die&#10;lostergassen , zwuschers s . Anthonen gesess , u . Per&#10;Burkart Sintzen sel husen u . garten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1504" start="34" end="37" text="der vorstatt ze crütz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1510" start="35" end="37" text="vorstatt ze crütz" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1516" start="44" end="45" text="die&#10;lostergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1522" start="45" end="45" text="lostergassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1528" start="48" end="51" text="s . Anthonen gesess" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1540" start="48" end="50" text="s . Anthonen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1546" start="48" end="50" text="s . Anthonen" element="reference" class="unk" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1546_head" start="48" end="50" element="head" class="nam" text="s . Anthonen" subclass=""/>
+            </span>
+          </span>
+          <span id="1534" start="51" end="51" text="gesess" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1552" start="55" end="62" text="Per&#10;Burkart Sintzen sel husen u . garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1582" start="55" end="58" text="Per&#10;Burkart Sintzen sel" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1564" start="55" end="58" text="Per&#10;Burkart Sintzen sel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1570" start="56" end="57" text="Burkart Sintzen" element="head" class="nam" subclass=""/>
+              <span id="1576" start="58" end="58" text="sel" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+            </span>
+          </span>
+          <span id="1558" start="59" end="62" text="husen u . garten" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1498" start="64" end="73" text="zinst Jkrn&#10;Hans Heinr von Eptingen von sins lehens wegen" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1612" start="64" end="64" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1588" start="65" end="69" text="Jkrn&#10;Hans Heinr von Eptingen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1600" start="65" end="65" text="Jkrn" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1600_head" start="65" end="65" element="head" class="title" text="Jkrn" subclass=""/>
+          </span>
+          <span id="1594" start="66" end="69" text="Hans Heinr von Eptingen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1618" start="70" end="73" text="von sins lehens wegen" element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="1432" start="75" end="77" text="300 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1407" from="1401" to="1335" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1612_role" from="1612" to="1426" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="9" end="10" ref="1389" type="state">
+      <trigger start="10" end="10" text="ewirtin" ref="1395"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1377" text="Gred sin ewirtin"/>
+        <role role="family-b" ref="1401" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="5" end="6" ref="1359" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1335" text="Peter Hans Wentikon der Wirt zem Blumen"/>
+        <role role="location-b" ref="1365" text="zem Blumen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="part_whole" polarity="pos" tense="pres" modality="ass" start="24" end="30" ref="1486" type="state">
+      <event event_id="2.0">
+        <role role="whole" ref="1426" text="daz Hus &amp; Hofstatt genant zem Eber&#10;unt der schuren u dem garten derhinder , gelegen in&#10;der vorstatt ze crütz , u . reichet hinderus an die&#10;lostergassen , zwuschers s . Anthonen gesess , u . Per&#10;Burkart Sintzen sel husen u . garten , zinst Jkrn&#10;Hans Heinr von Eptingen von sins lehens wegen"/>
+        <role role="part" ref="1462" text="der schuren"/>
+        <role role="part" ref="1474" text="dem garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="32" end="62" ref="1492" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1426" text="daz Hus &amp; Hofstatt genant zem Eber&#10;unt der schuren u dem garten derhinder , gelegen in&#10;der vorstatt ze crütz , u . reichet hinderus an die&#10;lostergassen , zwuschers s . Anthonen gesess , u . Per&#10;Burkart Sintzen sel husen u . garten , zinst Jkrn&#10;Hans Heinr von Eptingen von sins lehens wegen"/>
+        <role role="location-b" ref="1504" text="der vorstatt ze crütz"/>
+        <role role="location-b" ref="1516" text="die&#10;lostergassen"/>
+        <role role="location-b" ref="1528" text="s . Anthonen gesess"/>
+        <role role="location-b" ref="1552" text="Per&#10;Burkart Sintzen sel husen u . garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="48" end="50" ref="1540" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1528" text="s . Anthonen gesess"/>
+        <role role="owner" ref="1546" text="s . Anthonen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="55" end="58" ref="1582" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1552" text="Per&#10;Burkart Sintzen sel husen u . garten"/>
+        <role role="owner" ref="1564" text="Per&#10;Burkart Sintzen sel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="77" ref="" type="event">
+      <trigger start="12" end="12" text="verkaufen" ref="1606"/>
+      <event event_id="6.0">
+        <role role="seller" ref="1335" text="Peter Hans Wentikon der Wirt zem Blumen"/>
+        <role role="seller" ref="1377" text="Gred sin ewirtin"/>
+        <role role="buyer" ref="1420" text="Clausen&#10;Wertenberg"/>
+        <role role="property" ref="1426" text="daz Hus &amp; Hofstatt genant zem Eber&#10;unt der schuren u dem garten derhinder , gelegen in&#10;der vorstatt ze crütz , u . reichet hinderus an die&#10;lostergassen , zwuschers s . Anthonen gesess , u . Per&#10;Burkart Sintzen sel husen u . garten , zinst Jkrn&#10;Hans Heinr von Eptingen von sins lehens wegen"/>
+        <role role="price" ref="1432" text="300 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="17" end="73" ref="1498" type="state">
+      <trigger start="64" end="64" text="zinst" ref="1612"/>
+      <event event_id="7.0">
+        <role role="beneficiary" ref="1588" text="Jkrn&#10;Hans Heinr von Eptingen"/>
+        <role role="cause" ref="1618" text="von sins lehens wegen"/>
+        <role role="property" ref="1426" text="daz Hus &amp; Hofstatt genant zem Eber&#10;unt der schuren u dem garten derhinder , gelegen in&#10;der vorstatt ze crütz , u . reichet hinderus an die&#10;lostergassen , zwuschers s . Anthonen gesess , u . Per&#10;Burkart Sintzen sel husen u . garten , zinst Jkrn&#10;Hans Heinr von Eptingen von sins lehens wegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

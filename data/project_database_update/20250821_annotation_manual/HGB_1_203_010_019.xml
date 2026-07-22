@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 203/10 S. [19]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Sporengasse 5</tei:title>
+            <tei:idno>HGB 1 203/10</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1526994</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1476">1476</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611227.6930255853 1267548.9301921634</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Burkhart</token>
+    <token token_id="1">Erenfels</token>
+    <token token_id="2">&amp;</token>
+    <token token_id="3">seine</token>
+    <token token_id="4">Frau</token>
+    <token token_id="5">Ennelin</token>
+    <token token_id="6">Ebin</token>
+    <token token_id="7">,</token>
+    <token token_id="8">&amp;</token>
+    <token token_id="9">Meister</token>
+    <token token_id="10">Lienhart</token>
+    <token token_id="11">Mornach</token>
+    <token token_id="12">der</token>
+    <token token_id="13">Metzger</token>
+    <token token_id="14">als</token>
+    <token token_id="15">Vogt</token>
+    <token token_id="16">Ulin</token>
+    <token token_id="17">Mornachs</token>
+    <token token_id="18">wyl</token>
+    <token token_id="19">.</token>
+    <token token_id="20">Ulrich</token>
+    <token token_id="21">Mornach</token>
+    <token token_id="22">sins</token>
+    <token token_id="23">hinders</token>
+    <token token_id="24">sel</token>
+    <token token_id="25">.</token>
+    <token token_id="26">sund</token>
+    <token token_id="27">der</token>
+    <token token_id="28">gedachten</token>
+    <token token_id="29">Ennelin</token>
+    <token token_id="30">el</token>
+    <token token_id="31">sun</token>
+    <token token_id="32">,</token>
+    <token token_id="33">verkaufen</token>
+    <token token_id="34">an</token>
+    <token token_id="35">Symon</token>
+    <token token_id="36">Sumer</token>
+    <token token_id="37">den</token>
+    <token token_id="38">Brotbecken</token>
+    <token token_id="39">&amp;</token>
+    <token token_id="40">seine</token>
+    <token token_id="41">Frau</token>
+    <token token_id="42">Clara</token>
+    <token token_id="43">,</token>
+    <token token_id="44">das</token>
+    <token token_id="45">Hus</token>
+    <token token_id="46">&amp;</token>
+    <token token_id="47">Hofstatt</token>
+    <token token_id="48">mit</token>
+    <token token_id="49">dem</token>
+    <token token_id="50">hindern</token>
+    <token token_id="51">hus</token>
+    <token token_id="52">Höflin</token>
+    <token token_id="53">&amp;</token>
+    <token token_id="54">dem</token>
+    <token token_id="55">gang</token>
+    <token token_id="56">,</token>
+    <token token_id="57">genant</token>
+    <token token_id="58">zer</token>
+    <token token_id="59">Lemlis</token>
+    <token token_id="60">hus</token>
+    <token token_id="61">uff</token>
+    <token token_id="62">Yengassen</token>
+    <token token_id="63">zwushen</token>
+    <token token_id="64">den</token>
+    <token token_id="65">Hüsern</token>
+    <token token_id="66">zum</token>
+    <token token_id="67">agstein</token>
+    <token token_id="68">ze</token>
+    <token token_id="69">einer</token>
+    <token token_id="70">u</token>
+    <token token_id="71">dem</token>
+    <token token_id="72">Roten</token>
+    <token token_id="73">hus</token>
+    <token token_id="74">zer</token>
+    <token token_id="75">andern</token>
+    <token token_id="76">siten</token>
+    <token token_id="77">gelegen</token>
+    <token token_id="78">ist</token>
+    <token token_id="79">,</token>
+    <token token_id="80">stosst</token>
+    <token token_id="81">hinden</token>
+    <token token_id="82">uff</token>
+    <token token_id="83">s</token>
+    <token token_id="84">.</token>
+    <token token_id="85">Martiilchof</token>
+    <token token_id="86">zinset</token>
+    <token token_id="87">vonerbsch</token>
+    <token token_id="88">.</token>
+    <token token_id="89">der</token>
+    <token token_id="90">Andidian</token>
+    <token token_id="91">der</token>
+    <token token_id="92">hohen</token>
+    <token token_id="93">Stift</token>
+    <token token_id="94">,</token>
+    <token token_id="95">2</token>
+    <token token_id="96">℔</token>
+    <token token_id="97">&amp;</token>
+    <token token_id="98">5</token>
+    <token token_id="99">sh</token>
+    <token token_id="100">erschatz</token>
+    <token token_id="101">&amp;</token>
+    <token token_id="102">12</token>
+    <token token_id="103">becher</token>
+    <token token_id="104">Ölis</token>
+    <token token_id="105">an</token>
+    <token token_id="106">die</token>
+    <token token_id="107">lutkilchen</token>
+    <token token_id="108">sartin</token>
+    <token token_id="109">,</token>
+    <token token_id="110">sonstfrei</token>
+    <token token_id="111">,</token>
+    <token token_id="112">sum</token>
+    <token token_id="113">625</token>
+    <token token_id="114">fl</token>
+    <token token_id="115">.</token>
+    <token token_id="116">4</token>
+    <token token_id="117">fl</token>
+    <token token_id="118">gelts</token>
+    <token token_id="119">&amp;</token>
+    <token token_id="120">80fl</token>
+    <token token_id="121">.</token>
+    <token token_id="122">Hptg</token>
+    <token token_id="123">.</token>
+    <token token_id="124">soll</token>
+    <token token_id="125">den</token>
+    <token token_id="126">Käufer</token>
+    <token token_id="127">abtragen</token>
+    <token token_id="128">gegen</token>
+    <token token_id="129">Mr</token>
+    <token token_id="130">Heinrich</token>
+    <token token_id="131">Spiegen</token>
+    <token token_id="132">die</token>
+    <token token_id="133">übrigen</token>
+    <token token_id="134">545</token>
+    <token token_id="135">fl</token>
+    <token token_id="136">.</token>
+    <token token_id="137">sint</token>
+    <token token_id="138">bezalt</token>
+  </text>
+  <spans>
+    <span id="2333" start="0" end="13" text="Burkhart Erenfels &amp; seine Frau Ennelin Ebin , &amp;&#10;Meister Lienhart Mornach der Metzger" element="list" class="per" subclass="">
+      <span id="2031" start="0" end="1" text="Burkhart Erenfels" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2031_head" start="0" end="1" element="head" class="nam" text="Burkhart Erenfels" subclass=""/>
+      </span>
+      <span id="2037" start="3" end="6" text="seine Frau Ennelin Ebin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2049" start="3" end="4" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2061" start="3" end="3" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2061_head" start="3" end="3" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="2055" start="4" end="4" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="2043" start="5" end="6" text="Ennelin Ebin" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="2074" start="9" end="13" text="Meister Lienhart Mornach der Metzger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2080" start="9" end="9" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2080_head" start="9" end="9" element="head" class="title" text="Meister" subclass=""/>
+        </span>
+        <span id="2086" start="10" end="11" text="Lienhart Mornach" element="head" class="nam" subclass=""/>
+        <span id="2092" start="12" end="13" text="der Metzger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2098" start="13" end="13" text="Metzger" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2339" start="16" end="31" text="Ulin&#10;Mornachs wyl . Ulrich Mornach sins hinders sel . sund der&#10;gedachten Ennelin el sun" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2345" start="16" end="17" text="Ulin&#10;Mornachs" element="head" class="nam" subclass=""/>
+      <span id="2357" start="18" end="31" text="wyl . Ulrich Mornach sins hinders sel . sund der&#10;gedachten Ennelin el sun" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2375" start="18" end="29" text="wyl . Ulrich Mornach sins hinders sel . sund der&#10;gedachten Ennelin" element="list" class="per" subclass="">
+          <span id="2351" start="18" end="25" text="wyl . Ulrich Mornach sins hinders sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2369" start="20" end="21" text="Ulrich Mornach" element="head" class="nam" subclass=""/>
+            <span id="2381" start="22" end="23" text="sins hinders" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2393" start="22" end="22" text="sins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2393_head" start="22" end="22" element="head" class="pro" text="sins" subclass=""/>
+              </span>
+              <span id="2387" start="23" end="23" text="hinders" element="head" class="fam" subclass=""/>
+            </span>
+            <span id="2413" start="24" end="25" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="2419" start="27" end="29" text="der&#10;gedachten Ennelin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2425" start="29" end="29" text="Ennelin" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+        <span id="2363" start="31" end="31" text="sun" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="2468" start="33" end="33" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2104" start="35" end="42" text="Symon Sumer den&#10;Brotbecken &amp; seine Frau Clara" element="list" class="per" subclass="">
+      <span id="2110" start="35" end="38" text="Symon Sumer den&#10;Brotbecken" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2116" start="35" end="36" text="Symon Sumer" element="head" class="nam" subclass=""/>
+        <span id="2122" start="37" end="38" text="den&#10;Brotbecken" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2128" start="38" end="38" text="Brotbecken" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="2134" start="40" end="42" text="seine Frau Clara" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2146" start="40" end="41" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2158" start="40" end="40" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2158_head" start="40" end="40" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="2152" start="41" end="41" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="2140" start="42" end="42" text="Clara" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="2171" start="44" end="110" text="das Hus &amp; Hofstatt mit&#10;dem hindern hus Höflin &amp; dem gang , genant zer Lemlis hus&#10;uff Yengassen zwushen den Hüsern zum agstein ze einer&#10;u dem Roten hus zer andern siten gelegen ist , stosst&#10;hinden uff s . Martiilchof zinset vonerbsch . der Andidian&#10;der hohen Stift , 2 ℔ &amp; 5 sh erschatz &amp; 12 becher Ölis an die&#10;lutkilchen sartin , sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2177" start="45" end="47" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="2183" start="48" end="55" text="mit&#10;dem hindern hus Höflin &amp; dem gang" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2438" start="49" end="55" text="dem hindern hus Höflin &amp; dem gang" element="list" class="fac" subclass="">
+          <span id="2189" start="49" end="51" text="dem hindern hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2195" start="50" end="51" text="hindern hus" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2201" start="52" end="52" text="Höflin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2201_head" start="52" end="52" element="head" class="type" text="Höflin" subclass=""/>
+          </span>
+          <span id="2207" start="54" end="55" text="dem gang" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2213" start="55" end="55" text="gang" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2219" start="58" end="60" text="zer Lemlis hus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2219_head" start="58" end="60" element="head" class="nam" text="zer Lemlis hus" subclass=""/>
+      </span>
+      <span id="2225" start="61" end="85" text="uff Yengassen zwushen den Hüsern zum agstein ze einer&#10;u dem Roten hus zer andern siten gelegen ist , stosst&#10;hinden uff s . Martiilchof" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2231" start="62" end="62" text="Yengassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="2231_head" start="62" end="62" element="head" class="nam" text="Yengassen" subclass=""/>
+        </span>
+        <span id="2450" start="64" end="67" text="den Hüsern zum agstein" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2444" start="65" end="67" text="Hüsern zum agstein" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2237" start="71" end="73" text="dem Roten hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2243" start="72" end="73" text="Roten hus" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2249" start="83" end="85" text="s . Martiilchof" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2249_head" start="83" end="85" element="head" class="nam" text="s . Martiilchof" subclass=""/>
+        </span>
+      </span>
+      <span id="2255" start="86" end="110" text="zinset vonerbsch . der Andidian&#10;der hohen Stift , 2 ℔ &amp; 5 sh erschatz &amp; 12 becher Ölis an die&#10;lutkilchen sartin , sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2480" start="86" end="86" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2523" start="87" end="88" text="vonerbsch ." element="other" class="other" subclass=""/>
+        <span id="2261" start="89" end="93" text="der Andidian&#10;der hohen Stift" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2267" start="90" end="93" text="Andidian&#10;der hohen Stift" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2273" start="95" end="96" text="2 ℔" element="value" class="money" subclass=""/>
+        <span id="2279" start="98" end="99" text="5 sh" element="value" class="money" subclass=""/>
+        <span id="2486" start="100" end="100" text="erschatz" element="other" class="other" subclass=""/>
+        <span id="2285" start="102" end="104" text="12 becher Ölis" element="value" class="money" subclass=""/>
+        <span id="2456" start="106" end="108" text="die&#10;lutkilchen sartin" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2462" start="107" end="108" text="lutkilchen sartin" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2291" start="113" end="115" text="625 fl ." element="value" class="money" subclass=""/>
+    <span id="2499" start="116" end="117" text="4 fl" element="value" class="money" subclass=""/>
+    <span id="2505" start="118" end="118" text="gelts" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2297" start="120" end="121" text="80fl ." element="value" class="money" subclass=""/>
+    <span id="2303" start="125" end="126" text="den Käufer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2309" start="126" end="126" text="Käufer" element="head" class="role" subclass=""/>
+    </span>
+    <span id="2511" start="127" end="127" text="abtragen" element="trigger" class="payment" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2315" start="129" end="131" text="Mr Heinrich Spiegen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2474" start="129" end="129" text="Mr" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2474_head" start="129" end="129" element="head" class="title" text="Mr" subclass=""/>
+      </span>
+      <span id="2321" start="130" end="131" text="Heinrich Spiegen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2327" start="134" end="136" text="545 fl ." element="value" class="money" subclass=""/>
+    <span id="2517" start="138" end="138" text="bezalt" element="trigger" class="payment" tense="past" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2067" from="2061" to="2031" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2431" from="2419" to="2037" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2399" from="2393" to="2074" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2406" from="2074" to="2339" class="per-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2492" from="2303" to="2104" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2164" from="2158" to="2110" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="3" end="4" ref="2049" type="state">
+      <trigger start="4" end="4" text="Frau" ref="2055"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="2037" text="seine Frau Ennelin Ebin"/>
+        <role role="family-b" ref="2061" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="18" end="31" ref="2357" type="state">
+      <trigger start="31" end="31" text="sun" ref="2363"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="2339" text="Ulin&#10;Mornachs wyl . Ulrich Mornach sins hinders sel . sund der&#10;gedachten Ennelin el sun"/>
+        <role role="family-b" ref="2351" text="wyl . Ulrich Mornach sins hinders sel ."/>
+        <role role="family-b" ref="2419" text="der&#10;gedachten Ennelin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="22" end="23" ref="2381" type="state">
+      <trigger start="23" end="23" text="hinders" ref="2387"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="2351" text="wyl . Ulrich Mornach sins hinders sel ."/>
+        <role role="family-b" ref="2393" text="sins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="40" end="41" ref="2146" type="state">
+      <trigger start="41" end="41" text="Frau" ref="2152"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="2134" text="seine Frau Clara"/>
+        <role role="family-b" ref="2158" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="48" end="55" ref="2183" type="state">
+      <event event_id="4.0">
+        <role role="whole" ref="2171" text="das Hus &amp; Hofstatt mit&#10;dem hindern hus Höflin &amp; dem gang , genant zer Lemlis hus&#10;uff Yengassen zwushen den Hüsern zum agstein ze einer&#10;u dem Roten hus zer andern siten gelegen ist , stosst&#10;hinden uff s . Martiilchof zinset vonerbsch . der Andidian&#10;der hohen Stift , 2 ℔ &amp; 5 sh erschatz &amp; 12 becher Ölis an die&#10;lutkilchen sartin , sonstfrei"/>
+        <role role="part" ref="2189" text="dem hindern hus"/>
+        <role role="part" ref="2201" text="Höflin"/>
+        <role role="part" ref="2207" text="dem gang"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="61" end="85" ref="2225" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2171" text="das Hus &amp; Hofstatt mit&#10;dem hindern hus Höflin &amp; dem gang , genant zer Lemlis hus&#10;uff Yengassen zwushen den Hüsern zum agstein ze einer&#10;u dem Roten hus zer andern siten gelegen ist , stosst&#10;hinden uff s . Martiilchof zinset vonerbsch . der Andidian&#10;der hohen Stift , 2 ℔ &amp; 5 sh erschatz &amp; 12 becher Ölis an die&#10;lutkilchen sartin , sonstfrei"/>
+        <role role="location-b" ref="2231" text="Yengassen"/>
+        <role role="location-b" ref="2450" text="den Hüsern zum agstein"/>
+        <role role="location-b" ref="2237" text="dem Roten hus"/>
+        <role role="location-b" ref="2249" text="s . Martiilchof"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="86" end="110" ref="2255" type="state">
+      <trigger start="86" end="86" text="zinset" ref="2480"/>
+      <event event_id="6.0">
+        <role role="property" ref="2171" text="das Hus &amp; Hofstatt mit&#10;dem hindern hus Höflin &amp; dem gang , genant zer Lemlis hus&#10;uff Yengassen zwushen den Hüsern zum agstein ze einer&#10;u dem Roten hus zer andern siten gelegen ist , stosst&#10;hinden uff s . Martiilchof zinset vonerbsch . der Andidian&#10;der hohen Stift , 2 ℔ &amp; 5 sh erschatz &amp; 12 becher Ölis an die&#10;lutkilchen sartin , sonstfrei"/>
+        <role role="cause" ref="2523" text="vonerbsch ."/>
+        <role role="beneficiary" ref="2261" text="der Andidian&#10;der hohen Stift"/>
+        <role role="interest" ref="2273" text="2 ℔"/>
+      </event>
+      <event event_id="6.1">
+        <role role="property" ref="2171" text="das Hus &amp; Hofstatt mit&#10;dem hindern hus Höflin &amp; dem gang , genant zer Lemlis hus&#10;uff Yengassen zwushen den Hüsern zum agstein ze einer&#10;u dem Roten hus zer andern siten gelegen ist , stosst&#10;hinden uff s . Martiilchof zinset vonerbsch . der Andidian&#10;der hohen Stift , 2 ℔ &amp; 5 sh erschatz &amp; 12 becher Ölis an die&#10;lutkilchen sartin , sonstfrei"/>
+        <role role="cause" ref="2523" text="vonerbsch ."/>
+        <role role="beneficiary" ref="2261" text="der Andidian&#10;der hohen Stift"/>
+        <role role="interest" ref="2279" text="5 sh"/>
+        <role role="cause" ref="2486" text="erschatz"/>
+      </event>
+      <event event_id="6.2">
+        <role role="property" ref="2171" text="das Hus &amp; Hofstatt mit&#10;dem hindern hus Höflin &amp; dem gang , genant zer Lemlis hus&#10;uff Yengassen zwushen den Hüsern zum agstein ze einer&#10;u dem Roten hus zer andern siten gelegen ist , stosst&#10;hinden uff s . Martiilchof zinset vonerbsch . der Andidian&#10;der hohen Stift , 2 ℔ &amp; 5 sh erschatz &amp; 12 becher Ölis an die&#10;lutkilchen sartin , sonstfrei"/>
+        <role role="interest" ref="2285" text="12 becher Ölis"/>
+        <role role="beneficiary" ref="2456" text="die&#10;lutkilchen sartin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="33" ref="" type="event">
+      <trigger start="33" end="33" text="verkaufen" ref="2468"/>
+      <event event_id="7.0">
+        <role role="seller" ref="2031" text="Burkhart Erenfels"/>
+        <role role="seller" ref="2037" text="seine Frau Ennelin Ebin"/>
+        <role role="seller" ref="2074" text="Meister Lienhart Mornach der Metzger"/>
+        <role role="buyer" ref="2110" text="Symon Sumer den&#10;Brotbecken"/>
+        <role role="buyer" ref="2134" text="seine Frau Clara"/>
+        <role role="property" ref="2171" text="das Hus &amp; Hofstatt mit&#10;dem hindern hus Höflin &amp; dem gang , genant zer Lemlis hus&#10;uff Yengassen zwushen den Hüsern zum agstein ze einer&#10;u dem Roten hus zer andern siten gelegen ist , stosst&#10;hinden uff s . Martiilchof zinset vonerbsch . der Andidian&#10;der hohen Stift , 2 ℔ &amp; 5 sh erschatz &amp; 12 becher Ölis an die&#10;lutkilchen sartin , sonstfrei"/>
+        <role role="price" ref="2291" text="625 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="116" end="121" ref="" type="state">
+      <trigger start="118" end="118" text="gelts" ref="2505"/>
+      <event event_id="8.0">
+        <role role="interest" ref="2499" text="4 fl"/>
+        <role role="capital" ref="2297" text="80fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="payment" polarity="pos" tense="pres" modality="ass" start="118" end="131" ref="" type="event">
+      <trigger start="127" end="127" text="abtragen" ref="2511"/>
+      <event event_id="9.0">
+        <role role="sum" ref="2505" text="gelts"/>
+        <role role="payer" ref="2303" text="den Käufer"/>
+        <role role="beneficiary" ref="2315" text="Mr Heinrich Spiegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="payment" polarity="pos" tense="past" modality="ass" start="134" end="138" ref="" type="event">
+      <trigger start="138" end="138" text="bezalt" ref="2517"/>
+      <event event_id="10.0">
+        <role role="sum" ref="2327" text="545 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="11.0">
+        <role role="representative" ref="2074" text="Meister Lienhart Mornach der Metzger"/>
+        <role role="represented" ref="2339" text="Ulin&#10;Mornachs wyl . Ulrich Mornach sins hinders sel . sund der&#10;gedachten Ennelin el sun"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

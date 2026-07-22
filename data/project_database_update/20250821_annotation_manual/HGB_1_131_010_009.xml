@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 131/10 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Mühlenberg 7</tei:title>
+            <tei:idno>HGB 1 131/10</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1497005</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1439">1439</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611995.373092155 1267123.6312293515</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">ordnet</token>
+    <token token_id="2">u</token>
+    <token token_id="3">.</token>
+    <token token_id="4">gab</token>
+    <token token_id="5">Martin</token>
+    <token token_id="6">Vorabend</token>
+    <token token_id="7">der</token>
+    <token token_id="8">schlosser</token>
+    <token token_id="9">um</token>
+    <token token_id="10">gottes</token>
+    <token token_id="11">u</token>
+    <token token_id="12">.</token>
+    <token token_id="13">siner</token>
+    <token token_id="14">sel</token>
+    <token token_id="15">heil</token>
+    <token token_id="16">willen</token>
+    <token token_id="17">des</token>
+    <token token_id="18">huser</token>
+    <token token_id="19">u</token>
+    <token token_id="20">.</token>
+    <token token_id="21">an</token>
+    <token token_id="22">under</token>
+    <token token_id="23">an</token>
+    <token token_id="24">lütt</token>
+    <token token_id="25">ze</token>
+    <token token_id="26">teilen</token>
+    <token token_id="27">sodenn</token>
+    <token token_id="28">zur</token>
+    <token token_id="29">garten</token>
+    <token token_id="30">dergegen</token>
+    <token token_id="31">über</token>
+    <token token_id="32">gelegen</token>
+    <token token_id="33">(</token>
+    <token token_id="34">gegen</token>
+    <token token_id="35">dem</token>
+    <token token_id="36">Hus</token>
+    <token token_id="37">zer</token>
+    <token token_id="38">Eych</token>
+    <token token_id="39">ze</token>
+    <token token_id="40">s</token>
+    <token token_id="41">.</token>
+    <token token_id="42">Alban</token>
+    <token token_id="43">am</token>
+    <token token_id="44">Kilchand</token>
+    <token token_id="45">die</token>
+    <token token_id="46">da</token>
+    <token token_id="47">stossent</token>
+    <token token_id="48">weg</token>
+    <token token_id="49">an</token>
+    <token token_id="50">den</token>
+    <token token_id="51">Kener</token>
+    <token token_id="52">da</token>
+    <token token_id="53">das</token>
+    <token token_id="54">wasser</token>
+    <token token_id="55">hinab</token>
+    <token token_id="56">lofft</token>
+    <token token_id="57">ze</token>
+    <token token_id="58">einerstten</token>
+    <token token_id="59">u</token>
+    <token token_id="60">.</token>
+    <token token_id="61">stossent</token>
+    <token token_id="62">hunf</token>
+    <token token_id="63">an</token>
+    <token token_id="64">das</token>
+    <token token_id="65">Rynthurlin</token>
+  </text>
+  <spans>
+    <span id="1121" start="1" end="1" text="ordnet" element="trigger" class="testament" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="995" start="5" end="8" text="Martin Vorabend der schlosser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1001" start="5" end="6" text="Martin Vorabend" element="head" class="nam" subclass=""/>
+      <span id="1007" start="7" end="8" text="der schlosser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1013" start="8" end="8" text="schlosser" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1127" start="9" end="16" text="um gottes u . siner sel heil willen" element="other" class="other" subclass=""/>
+    <span id="1019" start="17" end="18" text="des huser" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1025" start="18" end="18" text="huser" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1031" start="23" end="24" text="an lütt" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1037" start="24" end="24" text="lütt" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1043" start="28" end="65" text="zur garten dergegen über gelegen ( gegen dem Hus&#10;zer Eych ze s . Alban am Kilchand die da stossent weg&#10;an den Kener da das wasser hinab lofft ze einerstten&#10;u . stossent hunf an das Rynthurlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1049" start="29" end="29" text="garten" element="head" class="type" subclass=""/>
+      <span id="1055" start="30" end="65" text="dergegen über gelegen ( gegen dem Hus&#10;zer Eych ze s . Alban am Kilchand die da stossent weg&#10;an den Kener da das wasser hinab lofft ze einerstten&#10;u . stossent hunf an das Rynthurlin" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1061" start="35" end="44" text="dem Hus&#10;zer Eych ze s . Alban am Kilchand" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1067" start="36" end="38" text="Hus&#10;zer Eych" element="head" class="nam" subclass=""/>
+          <span id="1073" start="39" end="44" text="ze s . Alban am Kilchand" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1079" start="40" end="42" text="s . Alban" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+              <span id="1079_head" start="40" end="42" element="head" class="type" text="s . Alban" subclass=""/>
+            </span>
+            <span id="1085" start="43" end="44" text="am Kilchand" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1091" start="44" end="44" text="Kilchand" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1097" start="50" end="56" text="den Kener da das wasser hinab lofft" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1103" start="51" end="51" text="Kener" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1109" start="64" end="65" text="das Rynthurlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gate">
+          <span id="1115" start="65" end="65" text="Rynthurlin" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="65" ref="1055" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="1043" text="zur garten dergegen über gelegen ( gegen dem Hus&#10;zer Eych ze s . Alban am Kilchand die da stossent weg&#10;an den Kener da das wasser hinab lofft ze einerstten&#10;u . stossent hunf an das Rynthurlin"/>
+        <role role="location-b" ref="1061" text="dem Hus&#10;zer Eych ze s . Alban am Kilchand"/>
+        <role role="location-b" ref="1097" text="den Kener da das wasser hinab lofft"/>
+        <role role="location-b" ref="1109" text="das Rynthurlin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="39" end="44" ref="1073" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1061" text="dem Hus&#10;zer Eych ze s . Alban am Kilchand"/>
+        <role role="location-b" ref="1079" text="s . Alban"/>
+        <role role="location-b" ref="1085" text="am Kilchand"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="testament" polarity="pos" tense="pres" modality="ass" start="1" end="65" ref="" type="event">
+      <trigger start="1" end="1" text="ordnet" ref="1121"/>
+      <event event_id="2.0">
+        <role role="bequeather" ref="995" text="Martin Vorabend der schlosser"/>
+        <role role="cause" ref="1127" text="um gottes u . siner sel heil willen"/>
+        <role role="property" ref="1019" text="des huser"/>
+        <role role="beneficiary" ref="1031" text="an lütt"/>
+        <role role="property" ref="1043" text="zur garten dergegen über gelegen ( gegen dem Hus&#10;zer Eych ze s . Alban am Kilchand die da stossent weg&#10;an den Kener da das wasser hinab lofft ze einerstten&#10;u . stossent hunf an das Rynthurlin"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

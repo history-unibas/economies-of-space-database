@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 74/55 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hebelstrasse Theil von 2 neben 4</tei:title>
+            <tei:idno>HGB 1 74/55</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1478266</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1475">1475</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610946.7333173873 1267726.8334833342</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Heinrich</token>
+    <token token_id="1">Eckboltzmiler</token>
+    <token token_id="2">hat</token>
+    <token token_id="3">um</token>
+    <token token_id="4">versessenen</token>
+    <token token_id="5">zins</token>
+    <token token_id="6">,</token>
+    <token token_id="7">Hanns</token>
+    <token token_id="8">Ebis</token>
+    <token token_id="9">sel</token>
+    <token token_id="10">.</token>
+    <token token_id="11">Hus</token>
+    <token token_id="12">und</token>
+    <token token_id="13">Garten</token>
+    <token token_id="14">,</token>
+    <token token_id="15">gelegen</token>
+    <token token_id="16">in</token>
+    <token token_id="17">der</token>
+    <token token_id="18">nüwen</token>
+    <token token_id="19">Vorstatt</token>
+    <token token_id="20">,</token>
+    <token token_id="21">zwüschen</token>
+    <token token_id="22">Frow</token>
+    <token token_id="23">Greden</token>
+    <token token_id="24">von</token>
+    <token token_id="25">Berenfels</token>
+    <token token_id="26">zu</token>
+    <token token_id="27">einer</token>
+    <token token_id="28">und</token>
+    <token token_id="29">Hanns</token>
+    <token token_id="30">Ebissel</token>
+    <token token_id="31">.</token>
+    <token token_id="32">Hus</token>
+    <token token_id="33">,</token>
+    <token token_id="34">zinst</token>
+    <token token_id="35">vor</token>
+    <token token_id="36">¬</token>
+    <token token_id="37">mals</token>
+    <token token_id="38">der</token>
+    <token token_id="39">dritten</token>
+    <token token_id="40">Pfrund</token>
+    <token token_id="41">unserer</token>
+    <token token_id="42">lieben</token>
+    <token token_id="43">Frowen</token>
+    <token token_id="44">Altar</token>
+    <token token_id="45">zu</token>
+    <token token_id="46">sant</token>
+    <token token_id="47">Peter</token>
+    <token token_id="48">2</token>
+    <token token_id="49">℔</token>
+    <token token_id="50">und</token>
+    <token token_id="51">Sürlin</token>
+    <token token_id="52">15</token>
+    <token token_id="53">sh</token>
+    <token token_id="54">.</token>
+    <token token_id="55">sodann</token>
+    <token token_id="56">aber</token>
+    <token token_id="57">2</token>
+    <token token_id="58">fl</token>
+    <token token_id="59">.</token>
+    <token token_id="60">Hanns</token>
+    <token token_id="61">Heinrich</token>
+    <token token_id="62">Grieben</token>
+    <token token_id="63">,</token>
+    <token token_id="64">gefrönt</token>
+    <token token_id="65">.</token>
+  </text>
+  <spans>
+    <span id="1003" start="0" end="1" text="Heinrich Eckboltzmiler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1003_head" start="0" end="1" element="head" class="nam" text="Heinrich Eckboltzmiler" subclass=""/>
+    </span>
+    <span id="1165" start="5" end="5" text="zins" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1009" start="7" end="62" text="Hanns Ebis sel .&#10;Hus und Garten , gelegen in der nüwen Vorstatt , zwüschen Frow&#10;Greden von Berenfels zu einer und Hanns Ebissel . Hus , zinst vor ¬&#10;mals der dritten Pfrund unserer lieben Frowen Altar zu sant Peter&#10;2 ℔ und Sürlin 15 sh . sodann aber 2 fl . Hanns Heinrich Grieben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1021" start="7" end="10" text="Hanns Ebis sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1027" start="7" end="10" text="Hanns Ebis sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1033" start="7" end="8" text="Hanns Ebis" element="head" class="nam" subclass=""/>
+          <span id="1039" start="9" end="10" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+      </span>
+      <span id="1015" start="11" end="13" text="Hus und Garten" element="head" class="type" subclass=""/>
+      <span id="1045" start="15" end="32" text="gelegen in der nüwen Vorstatt , zwüschen Frow&#10;Greden von Berenfels zu einer und Hanns Ebissel . Hus" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1051" start="17" end="19" text="der nüwen Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1057" start="18" end="19" text="nüwen Vorstatt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1063" start="22" end="25" text="Frow&#10;Greden von Berenfels" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1069" start="23" end="25" text="Greden von Berenfels" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1075" start="29" end="32" text="Hanns Ebissel . Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1081" start="29" end="30" text="Hanns Ebissel" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1087" start="29" end="30" text="Hanns Ebissel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1087_head" start="29" end="30" element="head" class="nam" text="Hanns Ebissel" subclass=""/>
+            </span>
+          </span>
+          <span id="1093" start="32" end="32" text="Hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1099" start="34" end="62" text="zinst vor ¬&#10;mals der dritten Pfrund unserer lieben Frowen Altar zu sant Peter&#10;2 ℔ und Sürlin 15 sh . sodann aber 2 fl . Hanns Heinrich Grieben" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1171" start="34" end="34" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1153" start="38" end="47" text="der dritten Pfrund unserer lieben Frowen Altar zu sant Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1159" start="39" end="44" text="dritten Pfrund unserer lieben Frowen Altar" element="head" class="nam" subclass=""/>
+          <span id="1135" start="45" end="47" text="zu sant Peter" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1141" start="46" end="47" text="sant Peter" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="1141_head" start="46" end="47" element="head" class="nam" text="sant Peter" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1105" start="48" end="49" text="2 ℔" element="value" class="money" subclass=""/>
+        <span id="1111" start="51" end="51" text="Sürlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1111_head" start="51" end="51" element="head" class="nam" text="Sürlin" subclass=""/>
+        </span>
+        <span id="1117" start="52" end="54" text="15 sh ." element="value" class="money" subclass=""/>
+        <span id="1123" start="57" end="59" text="2 fl ." element="value" class="money" subclass=""/>
+        <span id="1129" start="60" end="62" text="Hanns Heinrich Grieben" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1129_head" start="60" end="62" element="head" class="nam" text="Hanns Heinrich Grieben" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1147" start="64" end="64" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="7" end="10" ref="1021" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1009" text="Hanns Ebis sel .&#10;Hus und Garten , gelegen in der nüwen Vorstatt , zwüschen Frow&#10;Greden von Berenfels zu einer und Hanns Ebissel . Hus , zinst vor ¬&#10;mals der dritten Pfrund unserer lieben Frowen Altar zu sant Peter&#10;2 ℔ und Sürlin 15 sh . sodann aber 2 fl . Hanns Heinrich Grieben"/>
+        <role role="owner" ref="1027" text="Hanns Ebis sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="32" ref="1045" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1009" text="Hanns Ebis sel .&#10;Hus und Garten , gelegen in der nüwen Vorstatt , zwüschen Frow&#10;Greden von Berenfels zu einer und Hanns Ebissel . Hus , zinst vor ¬&#10;mals der dritten Pfrund unserer lieben Frowen Altar zu sant Peter&#10;2 ℔ und Sürlin 15 sh . sodann aber 2 fl . Hanns Heinrich Grieben"/>
+        <role role="location-b" ref="1051" text="der nüwen Vorstatt"/>
+        <role role="location-b" ref="1063" text="Frow&#10;Greden von Berenfels"/>
+        <role role="location-b" ref="1075" text="Hanns Ebissel . Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="29" end="30" ref="1081" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1075" text="Hanns Ebissel . Hus"/>
+        <role role="owner" ref="1087" text="Hanns Ebissel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="34" end="62" ref="1099" type="state">
+      <trigger start="34" end="34" text="zinst" ref="1171"/>
+      <event event_id="3.0">
+        <role role="property" ref="1009" text="Hanns Ebis sel .&#10;Hus und Garten , gelegen in der nüwen Vorstatt , zwüschen Frow&#10;Greden von Berenfels zu einer und Hanns Ebissel . Hus , zinst vor ¬&#10;mals der dritten Pfrund unserer lieben Frowen Altar zu sant Peter&#10;2 ℔ und Sürlin 15 sh . sodann aber 2 fl . Hanns Heinrich Grieben"/>
+        <role role="beneficiary" ref="1153" text="der dritten Pfrund unserer lieben Frowen Altar zu sant Peter"/>
+        <role role="interest" ref="1105" text="2 ℔"/>
+      </event>
+      <event event_id="3.1">
+        <role role="property" ref="1009" text="Hanns Ebis sel .&#10;Hus und Garten , gelegen in der nüwen Vorstatt , zwüschen Frow&#10;Greden von Berenfels zu einer und Hanns Ebissel . Hus , zinst vor ¬&#10;mals der dritten Pfrund unserer lieben Frowen Altar zu sant Peter&#10;2 ℔ und Sürlin 15 sh . sodann aber 2 fl . Hanns Heinrich Grieben"/>
+        <role role="beneficiary" ref="1111" text="Sürlin"/>
+        <role role="interest" ref="1117" text="15 sh ."/>
+      </event>
+      <event event_id="3.2">
+        <role role="property" ref="1009" text="Hanns Ebis sel .&#10;Hus und Garten , gelegen in der nüwen Vorstatt , zwüschen Frow&#10;Greden von Berenfels zu einer und Hanns Ebissel . Hus , zinst vor ¬&#10;mals der dritten Pfrund unserer lieben Frowen Altar zu sant Peter&#10;2 ℔ und Sürlin 15 sh . sodann aber 2 fl . Hanns Heinrich Grieben"/>
+        <role role="interest" ref="1123" text="2 fl ."/>
+        <role role="beneficiary" ref="1129" text="Hanns Heinrich Grieben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="45" end="47" ref="1135" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1153" text="der dritten Pfrund unserer lieben Frowen Altar zu sant Peter"/>
+        <role role="location-b" ref="1141" text="sant Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-payment" polarity="neg" tense="pres" modality="ass" start="5" end="5" ref="" type="event">
+      <trigger start="5" end="5" text="zins" ref="1165"/>
+    </eventGroup>
+    <eventGroup event_id="6" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="64" ref="" type="event">
+      <trigger start="64" end="64" text="gefrönt" ref="1147"/>
+      <event event_id="6.0">
+        <role role="claimant" ref="1003" text="Heinrich Eckboltzmiler"/>
+        <role role="cause" ref="1165" text="zins"/>
+        <role role="property" ref="1009" text="Hanns Ebis sel .&#10;Hus und Garten , gelegen in der nüwen Vorstatt , zwüschen Frow&#10;Greden von Berenfels zu einer und Hanns Ebissel . Hus , zinst vor ¬&#10;mals der dritten Pfrund unserer lieben Frowen Altar zu sant Peter&#10;2 ℔ und Sürlin 15 sh . sodann aber 2 fl . Hanns Heinrich Grieben"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 2/97 S. [46]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Aeschenvorstadt 20</tei:title>
+            <tei:idno>HGB 1 2/97</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1432898</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1512">1512</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611609.416751304 1266927.1729340872</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">hat</token>
+    <token token_id="2">Johannes</token>
+    <token token_id="3">Helbling</token>
+    <token token_id="4">,</token>
+    <token token_id="5">Spitalschriber</token>
+    <token token_id="6">,</token>
+    <token token_id="7">jnnamen</token>
+    <token token_id="8">des</token>
+    <token token_id="9">Spitals</token>
+    <token token_id="10">um</token>
+    <token token_id="11">versessenen</token>
+    <token token_id="12">zins</token>
+    <token token_id="13">,</token>
+    <token token_id="14">als</token>
+    <token token_id="15">dann</token>
+    <token token_id="16">der</token>
+    <token token_id="17">Spital</token>
+    <token token_id="18">jährl</token>
+    <token token_id="19">.</token>
+    <token token_id="20">2</token>
+    <token token_id="21">℔</token>
+    <token token_id="22">.</token>
+    <token token_id="23">6sh</token>
+    <token token_id="24">.</token>
+    <token token_id="25">uff</token>
+    <token token_id="26">Fridlin</token>
+    <token token_id="27">Molero</token>
+    <token token_id="28">des</token>
+    <token token_id="29">Schuchmachers</token>
+    <token token_id="30">Hus</token>
+    <token token_id="31">und</token>
+    <token token_id="32">Hofstatt</token>
+    <token token_id="33">hat</token>
+    <token token_id="34">,</token>
+    <token token_id="35">als</token>
+    <token token_id="36">das</token>
+    <token token_id="37">jnn</token>
+    <token token_id="38">Eschamer</token>
+    <token token_id="39">Vorstatt</token>
+    <token token_id="40">,</token>
+    <token token_id="41">zwischen</token>
+    <token token_id="42">dem</token>
+    <token token_id="43">Hus</token>
+    <token token_id="44">zum</token>
+    <token token_id="45">Tracken</token>
+    <token token_id="46">zu</token>
+    <token token_id="47">einer</token>
+    <token token_id="48">und</token>
+    <token token_id="49">Conrat</token>
+    <token token_id="50">Bomhart</token>
+    <token token_id="51">des</token>
+    <token token_id="52">Brotbecken</token>
+    <token token_id="53">Hus</token>
+    <token token_id="54">gelegen</token>
+    <token token_id="55">is</token>
+    <token token_id="56">,</token>
+    <token token_id="57">dasselb</token>
+    <token token_id="58">,</token>
+    <token token_id="59">Hus</token>
+    <token token_id="60">gefrönt</token>
+    <token token_id="61">.</token>
+  </text>
+  <spans>
+    <span id="951" start="2" end="5" text="Johannes Helbling , Spitalschriber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="957" start="2" end="3" text="Johannes Helbling" element="head" class="nam" subclass=""/>
+      <span id="963" start="5" end="5" text="Spitalschriber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="963_head" start="5" end="5" element="head" class="occ" text="Spitalschriber" subclass="org-job"/>
+      </span>
+    </span>
+    <span id="969" start="8" end="9" text="des Spitals" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="981" start="9" end="9" text="Spitals" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1158" start="12" end="12" text="zins" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="975" start="16" end="17" text="der Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="987" start="17" end="17" text="Spital" element="head" class="type" subclass=""/>
+    </span>
+    <span id="993" start="18" end="19" text="jährl ." element="value" class="time" subclass=""/>
+    <span id="999" start="20" end="24" text="2 ℔. 6sh ." element="value" class="money" subclass=""/>
+    <span id="1005" start="26" end="32" text="Fridlin Molero des Schuchmachers Hus und Hofstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1017" start="26" end="29" text="Fridlin Molero des Schuchmachers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1023" start="26" end="29" text="Fridlin Molero des Schuchmachers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1029" start="26" end="27" text="Fridlin Molero" element="head" class="nam" subclass=""/>
+          <span id="1035" start="28" end="29" text="des Schuchmachers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1041" start="29" end="29" text="Schuchmachers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1011" start="30" end="32" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1047" start="35" end="55" text="als&#10;das jnn Eschamer Vorstatt , zwischen dem Hus zum Tracken&#10;zu einer und Conrat Bomhart des Brotbecken Hus gelegen is" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1053" start="36" end="36" text="das" element="head" class="pro" subclass=""/>
+      <span id="1066" start="37" end="55" text="jnn Eschamer Vorstatt , zwischen dem Hus zum Tracken&#10;zu einer und Conrat Bomhart des Brotbecken Hus gelegen is" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1072" start="38" end="39" text="Eschamer Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1072_head" start="38" end="39" element="head" class="nam" text="Eschamer Vorstatt" subclass=""/>
+        </span>
+        <span id="1078" start="42" end="45" text="dem Hus zum Tracken" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1084" start="43" end="45" text="Hus zum Tracken" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1090" start="49" end="53" text="Conrat Bomhart des Brotbecken Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1090_desc_owner" start="49" end="52" text="Conrat Bomhart des Brotbecken" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1102" start="49" end="52" text="Conrat Bomhart des Brotbecken" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1108" start="49" end="50" text="Conrat Bomhart" element="head" class="nam" subclass=""/>
+              <span id="1114" start="51" end="52" text="des Brotbecken" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1120" start="52" end="52" text="Brotbecken" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1096" start="53" end="53" text="Hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1126" start="57" end="59" text="dasselb , Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1132" start="59" end="59" text="Hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1152" start="60" end="60" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1145" from="951" to="969" class="org_repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1059" from="1047" to="1005" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1138" from="1126" to="1005" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="26" end="29" ref="1017" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1005" text="Fridlin Molero des Schuchmachers Hus und Hofstatt"/>
+        <role role="owner" ref="1023" text="Fridlin Molero des Schuchmachers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="37" end="55" ref="1066" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1047" text="als&#10;das jnn Eschamer Vorstatt , zwischen dem Hus zum Tracken&#10;zu einer und Conrat Bomhart des Brotbecken Hus gelegen is"/>
+        <role role="location-b" ref="1072" text="Eschamer Vorstatt"/>
+        <role role="location-b" ref="1078" text="dem Hus zum Tracken"/>
+        <role role="location-b" ref="1090" text="Conrat Bomhart des Brotbecken Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="49" end="52" ref="1090_desc_owner" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1090" text="Conrat Bomhart des Brotbecken Hus"/>
+        <role role="owner" ref="1102" text="Conrat Bomhart des Brotbecken"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="12" end="32" ref="" type="state">
+      <trigger start="12" end="12" text="zins" ref="1158"/>
+      <event event_id="3.0">
+        <role role="beneficiary" ref="975" text="der Spital"/>
+        <role role="interval" ref="993" text="jährl ."/>
+        <role role="interest" ref="999" text="2 ℔. 6sh ."/>
+        <role role="property" ref="1005" text="Fridlin Molero des Schuchmachers Hus und Hofstatt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="60" ref="" type="event">
+      <trigger start="60" end="60" text="gefrönt" ref="1152"/>
+      <event event_id="4.0">
+        <role role="claimant" ref="951" text="Johannes Helbling , Spitalschriber"/>
+        <role role="cause" ref="1158" text="zins"/>
+        <role role="property" ref="1126" text="dasselb , Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="5.0">
+        <role role="representative" ref="951" text="Johannes Helbling , Spitalschriber"/>
+        <role role="represented" ref="969" text="des Spitals"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

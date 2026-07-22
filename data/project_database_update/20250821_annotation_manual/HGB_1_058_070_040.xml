@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/70 S. [40]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 79</tei:title>
+            <tei:idno>HGB 1 58/70</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467853</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1592">1592</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611452.672265297 1267202.46676235</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Geörg</token>
+    <token token_id="1">Werlin</token>
+    <token token_id="2">Pfarrherr</token>
+    <token token_id="3">zu</token>
+    <token token_id="4">Hauwingen</token>
+    <token token_id="5">,</token>
+    <token token_id="6">hat</token>
+    <token token_id="7">Christen</token>
+    <token token_id="8">Mürrer</token>
+    <token token_id="9">,</token>
+    <token token_id="10">des</token>
+    <token token_id="11">Raths</token>
+    <token token_id="12">,</token>
+    <token token_id="13">Haus</token>
+    <token token_id="14">und</token>
+    <token token_id="15">Hofstatt</token>
+    <token token_id="16">,</token>
+    <token token_id="17">an</token>
+    <token token_id="18">der</token>
+    <token token_id="19">Freyenstrass</token>
+    <token token_id="20">,</token>
+    <token token_id="21">einseit</token>
+    <token token_id="22">neben</token>
+    <token token_id="23">dem</token>
+    <token token_id="24">Haus</token>
+    <token token_id="25">zum</token>
+    <token token_id="26">Schaltenbrand</token>
+    <token token_id="27">,</token>
+    <token token_id="28">anderseiten</token>
+    <token token_id="29">dem</token>
+    <token token_id="30">Haus</token>
+    <token token_id="31">zum</token>
+    <token token_id="32">Weinberg</token>
+    <token token_id="33">,</token>
+    <token token_id="34">gelegen</token>
+    <token token_id="35">,</token>
+    <token token_id="36">versessener</token>
+    <token token_id="37">zinsen</token>
+    <token token_id="38">wegen</token>
+    <token token_id="39">,</token>
+    <token token_id="40">als</token>
+    <token token_id="41">ihm</token>
+    <token token_id="42">jährl</token>
+    <token token_id="43">.</token>
+    <token token_id="44">darab</token>
+    <token token_id="45">5</token>
+    <token token_id="46">fl</token>
+    <token token_id="47">.</token>
+    <token token_id="48">zinst</token>
+    <token token_id="49">wird</token>
+    <token token_id="50">,</token>
+    <token token_id="51">gefrönt</token>
+    <token token_id="52">.</token>
+  </text>
+  <spans>
+    <span id="816" start="0" end="4" text="Geörg Werlin Pfarrherr zu Hauwingen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="822" start="0" end="1" text="Geörg Werlin" element="head" class="nam" subclass=""/>
+      <span id="828" start="2" end="4" text="Pfarrherr zu Hauwingen" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="834" start="2" end="2" text="Pfarrherr" element="head" class="occ" subclass=""/>
+        <span id="840" start="3" end="4" text="zu Hauwingen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="846" start="4" end="4" text="Hauwingen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="846_head" start="4" end="4" element="head" class="nam" text="Hauwingen" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="876" start="7" end="34" text="Christen Mürrer , des Raths ,&#10;Haus und Hofstatt , an der Freyenstrass , einseit neben dem Haus&#10;zum Schaltenbrand , anderseiten dem Haus zum Weinberg , gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="882" start="7" end="11" text="Christen Mürrer , des Raths" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="852" start="7" end="11" text="Christen Mürrer , des Raths" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="858" start="7" end="8" text="Christen Mürrer" element="head" class="nam" subclass=""/>
+          <span id="864" start="10" end="11" text="des Raths" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="870" start="11" end="11" text="Raths" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+              <span id="870_head" start="11" end="11" element="head" class="nam" text="Raths" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="888" start="13" end="15" text="Haus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="894" start="17" end="34" text="an der Freyenstrass , einseit neben dem Haus&#10;zum Schaltenbrand , anderseiten dem Haus zum Weinberg , gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="900" start="18" end="19" text="der Freyenstrass" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="906" start="19" end="19" text="Freyenstrass" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="912" start="23" end="26" text="dem Haus&#10;zum Schaltenbrand" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="918" start="24" end="26" text="Haus&#10;zum Schaltenbrand" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="924" start="29" end="32" text="dem Haus zum Weinberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="930" start="30" end="32" text="Haus zum Weinberg" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="980" start="37" end="37" text="zinsen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="986" start="40" end="49" text="als ihm jährl . darab 5 fl . zinst wird" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="936" start="41" end="41" text="ihm" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="936_head" start="41" end="41" element="head" class="pro" text="ihm" subclass=""/>
+      </span>
+      <span id="949" start="42" end="43" text="jährl ." element="value" class="time" subclass="rec"/>
+      <span id="955" start="44" end="44" text="darab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="955_head" start="44" end="44" element="head" class="pro" text="darab" subclass=""/>
+      </span>
+      <span id="968" start="45" end="47" text="5 fl ." element="value" class="money" subclass=""/>
+      <span id="992" start="48" end="48" text="zinst" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="974" start="51" end="51" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="942" from="936" to="816" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="961" from="955" to="876" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="998" from="986" to="980" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="40" end="49" ref="986" type="state">
+      <trigger start="48" end="48" text="zinst" ref="992"/>
+      <event event_id="0.0">
+        <role role="beneficiary" ref="936" text="ihm"/>
+        <role role="interval" ref="949" text="jährl ."/>
+        <role role="property" ref="955" text="darab"/>
+        <role role="interest" ref="968" text="5 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="3" end="4" ref="840" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="816" text="Geörg Werlin Pfarrherr zu Hauwingen"/>
+        <role role="location-b" ref="846" text="Hauwingen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="7" end="11" ref="882" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="876" text="Christen Mürrer , des Raths ,&#10;Haus und Hofstatt , an der Freyenstrass , einseit neben dem Haus&#10;zum Schaltenbrand , anderseiten dem Haus zum Weinberg , gelegen"/>
+        <role role="owner" ref="852" text="Christen Mürrer , des Raths"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="membership" polarity="pos" tense="pres" modality="ass" start="10" end="11" ref="864" type="state">
+      <event event_id="3.0">
+        <role role="member" ref="852" text="Christen Mürrer , des Raths"/>
+        <role role="organization" ref="870" text="Raths"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="34" ref="894" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="876" text="Christen Mürrer , des Raths ,&#10;Haus und Hofstatt , an der Freyenstrass , einseit neben dem Haus&#10;zum Schaltenbrand , anderseiten dem Haus zum Weinberg , gelegen"/>
+        <role role="location-b" ref="900" text="der Freyenstrass"/>
+        <role role="location-b" ref="912" text="dem Haus&#10;zum Schaltenbrand"/>
+        <role role="location-b" ref="924" text="dem Haus zum Weinberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-payment" polarity="neg" tense="pres" modality="ass" start="37" end="37" ref="" type="event">
+      <trigger start="37" end="37" text="zinsen" ref="980"/>
+    </eventGroup>
+    <eventGroup event_id="6" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="51" ref="" type="event">
+      <trigger start="51" end="51" text="gefrönt" ref="974"/>
+      <event event_id="6.0">
+        <role role="claimant" ref="816" text="Geörg Werlin Pfarrherr zu Hauwingen"/>
+        <role role="property" ref="876" text="Christen Mürrer , des Raths ,&#10;Haus und Hofstatt , an der Freyenstrass , einseit neben dem Haus&#10;zum Schaltenbrand , anderseiten dem Haus zum Weinberg , gelegen"/>
+        <role role="cause" ref="980" text="zinsen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

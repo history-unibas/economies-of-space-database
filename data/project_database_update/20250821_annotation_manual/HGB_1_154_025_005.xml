@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 154/25 S. [5, 6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rebgasse 19</tei:title>
+            <tei:idno>HGB 1 154/25</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1505553</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Theodor</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1450">1450</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611763.3566863947 1267749.6046857263</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">es</token>
+    <token token_id="1">hatt</token>
+    <token token_id="2">geben</token>
+    <token token_id="3">meister</token>
+    <token token_id="4">Herman</token>
+    <token token_id="5">Sattler</token>
+    <token token_id="6">von</token>
+    <token token_id="7">Heidensfelt</token>
+    <token token_id="8">zu</token>
+    <token token_id="9">siner</token>
+    <token token_id="10">,</token>
+    <token token_id="11">Elsin</token>
+    <token token_id="12">siner</token>
+    <token token_id="13">ewirtin</token>
+    <token token_id="14">und</token>
+    <token token_id="15">aller</token>
+    <token token_id="16">ir</token>
+    <token token_id="17">vordern</token>
+    <token token_id="18">Jarzit</token>
+    <token token_id="19">10ß</token>
+    <token token_id="20">nuwer</token>
+    <token token_id="21">pfennig</token>
+    <token token_id="22">geltz</token>
+    <token token_id="23">von</token>
+    <token token_id="24">und</token>
+    <token token_id="25">ab</token>
+    <token token_id="26">2</token>
+    <token token_id="27">Hüsern</token>
+    <token token_id="28">und</token>
+    <token token_id="29">Hofstetten</token>
+    <token token_id="30">mit</token>
+    <token token_id="31">den</token>
+    <token token_id="32">gerttlin</token>
+    <token token_id="33">darhinder</token>
+    <token token_id="34">,</token>
+    <token token_id="35">sind</token>
+    <token token_id="36">gelegen</token>
+    <token token_id="37">ze</token>
+    <token token_id="38">mindern</token>
+    <token token_id="39">Ba</token>
+    <token token_id="40">-</token>
+    <token token_id="41">sel</token>
+    <token token_id="42">in</token>
+    <token token_id="43">der</token>
+    <token token_id="44">rebgassen</token>
+    <token token_id="45">an</token>
+    <token token_id="46">einander</token>
+    <token token_id="47">zwischen</token>
+    <token token_id="48">Henni</token>
+    <token token_id="49">Leimers</token>
+    <token token_id="50">sel</token>
+    <token token_id="51">.</token>
+    <token token_id="52">schüren</token>
+    <token token_id="53">,</token>
+    <token token_id="54">genant</token>
+    <token token_id="55">zem</token>
+    <token token_id="56">Steinkeller</token>
+    <token token_id="57">und</token>
+    <token token_id="58">Utingers</token>
+    <token token_id="59">Hus</token>
+    <token token_id="60">,</token>
+    <token token_id="61">das</token>
+    <token token_id="62">etro</token>
+    <token token_id="63">Gredlin</token>
+    <token token_id="64">Richartz</token>
+    <token token_id="65">Ao</token>
+    <token token_id="66">wesen</token>
+    <token token_id="67">ist</token>
+    <token token_id="68">,</token>
+    <token token_id="69">den</token>
+    <token token_id="70">zins</token>
+    <token token_id="71">gend</token>
+    <token token_id="72">yetz</token>
+    <token token_id="73">die</token>
+    <token token_id="74">frowen</token>
+    <token token_id="75">von</token>
+    <token token_id="76">blin</token>
+    <token token_id="77">¬</token>
+    <token token_id="78">genthal</token>
+    <token token_id="79">als</token>
+    <token token_id="80">si</token>
+    <token token_id="81">die</token>
+    <token token_id="82">Hüser</token>
+    <token token_id="83">bezogen</token>
+    <token token_id="84">hand</token>
+    <token token_id="85">,</token>
+    <token token_id="86">und</token>
+    <token token_id="87">sol</token>
+    <token token_id="88">man</token>
+    <token token_id="89">das</token>
+    <token token_id="90">Jarzit</token>
+    <token token_id="91">begon</token>
+    <token token_id="92">uf</token>
+    <token token_id="93">Sunentag</token>
+    <token token_id="94">vor</token>
+    <token token_id="95">dem</token>
+    <token token_id="96">20</token>
+    <token token_id="97">.</token>
+    <token token_id="98">daron</token>
+    <token token_id="99">gehören</token>
+    <token token_id="100">einem</token>
+    <token token_id="101">lutpiester</token>
+    <token token_id="102">und</token>
+    <token token_id="103">sinen</token>
+    <token token_id="104">priesten</token>
+    <token token_id="105">die</token>
+    <token token_id="106">mes</token>
+    <token token_id="107">sprechend</token>
+    <token token_id="108">6ß</token>
+    <token token_id="109">noworum</token>
+    <token token_id="110">d</token>
+    <token token_id="111">und</token>
+    <token token_id="112">einem</token>
+    <token token_id="113">segisten</token>
+    <token token_id="114">6ȡ</token>
+    <token token_id="115">und</token>
+    <token token_id="116">dem</token>
+    <token token_id="117">gotzhus</token>
+    <token token_id="118">an</token>
+    <token token_id="119">den</token>
+    <token token_id="120">buw</token>
+    <token token_id="121">3</token>
+    <token token_id="122">1</token>
+    <token token_id="123">/</token>
+    <token token_id="124">2</token>
+    <token token_id="125">ß</token>
+    <token token_id="126">ȡ</token>
+    <token token_id="127">.</token>
+  </text>
+  <spans>
+    <span id="2362" start="2" end="2" text="geben" element="trigger" class="endowment" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2025" start="3" end="7" text="meister Herman Sattler&#10;von Heidensfelt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2037" start="3" end="3" text="meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2037_head" start="3" end="3" element="head" class="title" text="meister" subclass=""/>
+      </span>
+      <span id="2031" start="4" end="5" text="Herman Sattler" element="head" class="nam" subclass=""/>
+      <span id="2043" start="6" end="7" text="von Heidensfelt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2049" start="7" end="7" text="Heidensfelt" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2049_head" start="7" end="7" element="head" class="nam" text="Heidensfelt" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2055" start="9" end="13" text="siner , Elsin siner ewirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2067" start="9" end="9" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2067_head" start="9" end="9" element="head" class="pro" text="siner" subclass=""/>
+      </span>
+      <span id="2061" start="11" end="11" text="Elsin" element="head" class="nam" subclass=""/>
+      <span id="2080" start="12" end="13" text="siner ewirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2092" start="12" end="12" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2092_head" start="12" end="12" element="head" class="pro" text="siner" subclass=""/>
+        </span>
+        <span id="2086" start="13" end="13" text="ewirtin" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="2105" start="16" end="16" text="ir" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2105_head" start="16" end="16" element="head" class="pro" text="ir" subclass=""/>
+    </span>
+    <span id="2368" start="19" end="21" text="10ß nuwer pfennig" element="value" class="money" subclass=""/>
+    <span id="2374" start="22" end="22" text="geltz" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2118" start="26" end="84" text="2 Hüsern und Hofstetten mit den&#10;gerttlin darhinder , sind gelegen ze mindern Ba -&#10;sel in der rebgassen an einander zwischen Henni&#10;Leimers sel . schüren , genant zem Steinkeller&#10;und Utingers Hus , das etro Gredlin Richartz Ao&#10;wesen ist , den zins gend yetz die frowen von blin ¬&#10;genthal als si die Hüser bezogen hand" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2124" start="26" end="29" text="2 Hüsern und Hofstetten" element="head" class="type" subclass=""/>
+      <span id="2130" start="30" end="33" text="mit den&#10;gerttlin darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2136" start="31" end="32" text="den&#10;gerttlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2136_head" start="31" end="32" element="head" class="type" text="den gerttlin" subclass=""/>
+        </span>
+      </span>
+      <span id="2173" start="35" end="52" text="sind gelegen ze mindern Ba -&#10;sel in der rebgassen an einander zwischen Henni&#10;Leimers sel . schüren" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2142" start="38" end="41" text="mindern Ba -&#10;sel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2142_head" start="38" end="41" element="head" class="nam" text="mindern Ba - sel" subclass=""/>
+        </span>
+        <span id="2148" start="43" end="44" text="der rebgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="2154" start="44" end="44" text="rebgassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2160" start="46" end="46" text="einander" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2160_head" start="46" end="46" element="head" class="pro" text="einander" subclass=""/>
+        </span>
+      </span>
+      <span id="2179" start="55" end="56" text="zem Steinkeller" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2179_head" start="55" end="56" element="head" class="nam" text="zem Steinkeller" subclass=""/>
+      </span>
+      <span id="2185" start="58" end="59" text="Utingers Hus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2191" start="58" end="59" text="Utingers Hus" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="2197" start="61" end="67" text="das etro Gredlin Richartz Ao&#10;wesen ist" element="attr" class="owner" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+        <span id="2209" start="63" end="64" text="Gredlin Richartz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2209_head" start="63" end="64" element="head" class="nam" text="Gredlin Richartz" subclass=""/>
+        </span>
+      </span>
+      <span id="2215" start="69" end="84" text="den zins gend yetz die frowen von blin ¬&#10;genthal als si die Hüser bezogen hand" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2221" start="73" end="78" text="die frowen von blin ¬&#10;genthal" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2227" start="74" end="78" text="frowen von blin ¬&#10;genthal" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2233" start="80" end="80" text="si" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2233_head" start="80" end="80" element="head" class="pro" text="si" subclass=""/>
+        </span>
+        <span id="2246" start="81" end="82" text="die Hüser" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2252" start="82" end="82" text="Hüser" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2283" start="92" end="97" text="uf Sunentag vor dem 20 ." element="value" class="date" subclass=""/>
+    <span id="2380" start="98" end="98" text="daron" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2393" start="100" end="104" text="einem lutpiester und&#10;sinen priesten" element="list" class="per" subclass="">
+      <span id="2271" start="100" end="101" text="einem lutpiester" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2277" start="101" end="101" text="lutpiester" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="2289" start="103" end="104" text="sinen priesten" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2301" start="103" end="103" text="sinen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2301_head" start="103" end="103" element="head" class="pro" text="sinen" subclass=""/>
+        </span>
+        <span id="2295" start="104" end="104" text="priesten" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2314" start="108" end="110" text="6ß noworum d" element="value" class="money" subclass=""/>
+    <span id="2320" start="112" end="113" text="einem segisten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2326" start="113" end="113" text="segisten" element="head" class="occ" subclass=""/>
+    </span>
+    <span id="2332" start="114" end="114" text="6ȡ" element="value" class="money" subclass=""/>
+    <span id="2338" start="116" end="120" text="dem gotzhus an den&#10;buw" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="2344" start="117" end="120" text="gotzhus an den&#10;buw" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2350" start="121" end="127" text="3 1 / 2 ß ȡ ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2073" from="2067" to="2025" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2098" from="2092" to="2025" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2111" from="2105" to="2055" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2386" from="2380" to="2374" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2166" from="2160" to="2118" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2258" from="2246" to="2118" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2239" from="2233" to="2221" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2307" from="2301" to="2271" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="103" end="104" ref="2289" type="state">
+      <trigger start="104" end="104" text="priesten" ref="2295"/>
+      <event event_id="1.0">
+        <role role="employee" ref="2289" text="sinen priesten"/>
+        <role role="employer" ref="2301" text="sinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="12" end="13" ref="2080" type="state">
+      <trigger start="13" end="13" text="ewirtin" ref="2086"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="2055" text="siner , Elsin siner ewirtin"/>
+        <role role="family-b" ref="2092" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="6" end="7" ref="2043" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="2025" text="meister Herman Sattler&#10;von Heidensfelt"/>
+        <role role="location-b" ref="2049" text="Heidensfelt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="30" end="33" ref="2130" type="state">
+      <event event_id="4.0">
+        <role role="whole" ref="2118" text="2 Hüsern und Hofstetten mit den&#10;gerttlin darhinder , sind gelegen ze mindern Ba -&#10;sel in der rebgassen an einander zwischen Henni&#10;Leimers sel . schüren , genant zem Steinkeller&#10;und Utingers Hus , das etro Gredlin Richartz Ao&#10;wesen ist , den zins gend yetz die frowen von blin ¬&#10;genthal als si die Hüser bezogen hand"/>
+        <role role="part" ref="2136" text="den&#10;gerttlin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="52" ref="2173" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2118" text="2 Hüsern und Hofstetten mit den&#10;gerttlin darhinder , sind gelegen ze mindern Ba -&#10;sel in der rebgassen an einander zwischen Henni&#10;Leimers sel . schüren , genant zem Steinkeller&#10;und Utingers Hus , das etro Gredlin Richartz Ao&#10;wesen ist , den zins gend yetz die frowen von blin ¬&#10;genthal als si die Hüser bezogen hand"/>
+        <role role="location-b" ref="2142" text="mindern Ba -&#10;sel"/>
+        <role role="location-b" ref="2148" text="der rebgassen"/>
+        <role role="location-b" ref="2160" text="einander"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="past" modality="ass" start="61" end="67" ref="2197" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="2118" text="2 Hüsern und Hofstetten mit den&#10;gerttlin darhinder , sind gelegen ze mindern Ba -&#10;sel in der rebgassen an einander zwischen Henni&#10;Leimers sel . schüren , genant zem Steinkeller&#10;und Utingers Hus , das etro Gredlin Richartz Ao&#10;wesen ist , den zins gend yetz die frowen von blin ¬&#10;genthal als si die Hüser bezogen hand"/>
+        <role role="owner" ref="2209" text="Gredlin Richartz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="69" end="84" ref="2215" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="2118" text="2 Hüsern und Hofstetten mit den&#10;gerttlin darhinder , sind gelegen ze mindern Ba -&#10;sel in der rebgassen an einander zwischen Henni&#10;Leimers sel . schüren , genant zem Steinkeller&#10;und Utingers Hus , das etro Gredlin Richartz Ao&#10;wesen ist , den zins gend yetz die frowen von blin ¬&#10;genthal als si die Hüser bezogen hand"/>
+        <role role="beneficiary" ref="2221" text="die frowen von blin ¬&#10;genthal"/>
+        <role role="beneficiary" ref="2233" text="si"/>
+        <role role="property" ref="2246" text="die Hüser"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="endowment" polarity="pos" tense="pres" modality="ass" start="2" end="22" ref="" type="event">
+      <trigger start="2" end="2" text="geben" ref="2362"/>
+      <event event_id="8.0">
+        <role role="benefactor" ref="2025" text="meister Herman Sattler&#10;von Heidensfelt"/>
+        <role role="property" ref="2374" text="geltz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="19" end="84" ref="" type="state">
+      <trigger start="22" end="22" text="geltz" ref="2374"/>
+      <event event_id="9.0">
+        <role role="interest" ref="2368" text="10ß nuwer pfennig"/>
+        <role role="property" ref="2118" text="2 Hüsern und Hofstetten mit den&#10;gerttlin darhinder , sind gelegen ze mindern Ba -&#10;sel in der rebgassen an einander zwischen Henni&#10;Leimers sel . schüren , genant zem Steinkeller&#10;und Utingers Hus , das etro Gredlin Richartz Ao&#10;wesen ist , den zins gend yetz die frowen von blin ¬&#10;genthal als si die Hüser bezogen hand"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="100" end="98" ref="" type="state">
+      <trigger start="98" end="98" text="daron" ref="2380"/>
+      <event event_id="10.0">
+        <role role="beneficiary" ref="2271" text="einem lutpiester"/>
+        <role role="beneficiary" ref="2289" text="sinen priesten"/>
+        <role role="interest" ref="2314" text="6ß noworum d"/>
+      </event>
+      <event event_id="10.1">
+        <role role="interest" ref="2314" text="6ß noworum d"/>
+        <role role="beneficiary" ref="2320" text="einem segisten"/>
+        <role role="interest" ref="2332" text="6ȡ"/>
+      </event>
+      <event event_id="10.2">
+        <role role="interest" ref="2314" text="6ß noworum d"/>
+        <role role="beneficiary" ref="2338" text="dem gotzhus an den&#10;buw"/>
+        <role role="interest" ref="2350" text="3 1 / 2 ß ȡ ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

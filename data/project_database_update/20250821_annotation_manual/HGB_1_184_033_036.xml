@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 184/33 S. [36]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schneidergasse Theil von 33 neben 31</tei:title>
+            <tei:idno>HGB 1 184/33</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1512602</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1632">1632</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611153.262545171 1267448.579348384</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Auf</token>
+    <token token_id="1">Jorael</token>
+    <token token_id="2">Hörtlins</token>
+    <token token_id="3">Behausung</token>
+    <token token_id="4">,</token>
+    <token token_id="5">an</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Schneidergassen</token>
+    <token token_id="8">,</token>
+    <token token_id="9">verbie</token>
+    <token token_id="10">¬</token>
+    <token token_id="11">ten</token>
+    <token token_id="12">:</token>
+    <token token_id="13">Das</token>
+    <token token_id="14">Gottshaus</token>
+    <token token_id="15">Gnadenthal</token>
+    <token token_id="16">100</token>
+    <token token_id="17">℔</token>
+    <token token_id="18">.</token>
+    <token token_id="19">Davon</token>
+    <token token_id="20">zins</token>
+    <token token_id="21">.</token>
+    <token token_id="22">25</token>
+    <token token_id="23">fl</token>
+    <token token_id="24">.</token>
+    <token token_id="25">Angustin</token>
+    <token token_id="26">Gebhart</token>
+    <token token_id="27">,</token>
+    <token token_id="28">vermög</token>
+    <token token_id="29">Oblig</token>
+    <token token_id="30">.</token>
+    <token token_id="31">100</token>
+    <token token_id="32">fl</token>
+    <token token_id="33">.</token>
+    <token token_id="34">Niclaus</token>
+    <token token_id="35">Passavant</token>
+    <token token_id="36">und</token>
+    <token token_id="37">Sohn</token>
+    <token token_id="38">379</token>
+    <token token_id="39">fl</token>
+    <token token_id="40">.</token>
+    <token token_id="41">10sh</token>
+    <token token_id="42">.</token>
+    <token token_id="43">Reinhard</token>
+    <token token_id="44">Karger</token>
+    <token token_id="45">Hptg</token>
+    <token token_id="46">.</token>
+    <token token_id="47">100</token>
+    <token token_id="48">℔</token>
+    <token token_id="49">.</token>
+    <token token_id="50">Sodann</token>
+    <token token_id="51">ein</token>
+    <token token_id="52">zins</token>
+    <token token_id="53">.</token>
+    <token token_id="54">5</token>
+    <token token_id="55">℔</token>
+    <token token_id="56">.</token>
+  </text>
+  <spans>
+    <span id="892" start="1" end="7" text="Jorael Hörtlins Behausung , an der Schneidergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="922" start="1" end="2" text="Jorael Hörtlins" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="928" start="1" end="2" text="Jorael Hörtlins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="928_head" start="1" end="2" element="head" class="nam" text="Jorael Hörtlins" subclass=""/>
+        </span>
+      </span>
+      <span id="898" start="3" end="3" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="904" start="5" end="7" text="an der Schneidergassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="910" start="6" end="7" text="der Schneidergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="916" start="7" end="7" text="Schneidergassen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1025" start="9" end="11" text="verbie ¬&#10;ten" element="trigger" class="other" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="934" start="13" end="15" text="Das Gottshaus Gnadenthal" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="940" start="14" end="15" text="Gottshaus Gnadenthal" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="946" start="16" end="18" text="100 ℔." element="value" class="money" subclass=""/>
+    <span id="952" start="22" end="24" text="25 fl ." element="value" class="money" subclass=""/>
+    <span id="958" start="25" end="26" text="Angustin Gebhart" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="958_head" start="25" end="26" element="head" class="nam" text="Angustin Gebhart" subclass=""/>
+    </span>
+    <span id="964" start="31" end="33" text="100 fl ." element="value" class="money" subclass=""/>
+    <span id="982" start="34" end="37" text="Niclaus Passavant und Sohn" element="list" class="per" subclass="">
+      <span id="970" start="34" end="35" text="Niclaus Passavant" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="970_head" start="34" end="35" element="head" class="nam" text="Niclaus Passavant" subclass=""/>
+      </span>
+      <span id="976" start="37" end="37" text="Sohn" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="976_head" start="37" end="37" element="head" class="fam" text="Sohn" subclass=""/>
+      </span>
+    </span>
+    <span id="988" start="38" end="40" text="379 fl ." element="value" class="money" subclass=""/>
+    <span id="994" start="41" end="42" text="10sh ." element="value" class="money" subclass=""/>
+    <span id="1000" start="43" end="44" text="Reinhard Karger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1000_head" start="43" end="44" element="head" class="nam" text="Reinhard Karger" subclass=""/>
+    </span>
+    <span id="1006" start="47" end="49" text="100 ℔." element="value" class="money" subclass=""/>
+    <span id="1012" start="54" end="56" text="5 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1018" from="976" to="970" class="fam" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="1" end="2" ref="922" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="892" text="Jorael Hörtlins Behausung , an der Schneidergassen"/>
+        <role role="owner" ref="928" text="Jorael Hörtlins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="5" end="7" ref="904" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="892" text="Jorael Hörtlins Behausung , an der Schneidergassen"/>
+        <role role="location-b" ref="910" text="der Schneidergassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="other" polarity="pos" tense="pres" modality="ass" start="1" end="56" ref="" type="event">
+      <trigger start="9" end="11" text="verbie ¬&#10;ten" ref="1025"/>
+      <event event_id="2.0">
+        <role role="property" ref="892" text="Jorael Hörtlins Behausung , an der Schneidergassen"/>
+        <role role="claimant" ref="934" text="Das Gottshaus Gnadenthal"/>
+        <role role="capital" ref="946" text="100 ℔."/>
+        <role role="interest" ref="952" text="25 fl ."/>
+      </event>
+      <event event_id="2.1">
+        <role role="property" ref="892" text="Jorael Hörtlins Behausung , an der Schneidergassen"/>
+        <role role="claimant" ref="958" text="Angustin Gebhart"/>
+        <role role="capital" ref="964" text="100 fl ."/>
+      </event>
+      <event event_id="2.2">
+        <role role="property" ref="892" text="Jorael Hörtlins Behausung , an der Schneidergassen"/>
+        <role role="claimant" ref="970" text="Niclaus Passavant"/>
+        <role role="claimant" ref="976" text="Sohn"/>
+        <role role="capital" ref="988" text="379 fl ."/>
+        <role role="interest" ref="994" text="10sh ."/>
+      </event>
+      <event event_id="2.3">
+        <role role="property" ref="892" text="Jorael Hörtlins Behausung , an der Schneidergassen"/>
+        <role role="claimant" ref="1000" text="Reinhard Karger"/>
+        <role role="capital" ref="1006" text="100 ℔."/>
+        <role role="interest" ref="1012" text="5 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="3.0">
+        <role role="family-a" ref="976" text="Sohn"/>
+        <role role="family-b" ref="970" text="Niclaus Passavant"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

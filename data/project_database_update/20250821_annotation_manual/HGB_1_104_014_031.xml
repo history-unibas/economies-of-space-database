@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 104/14 S. [31]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Kohlenberggasse 29</tei:title>
+            <tei:idno>HGB 1 104/14</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1493353</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Almosenamt</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1608">1608</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611200.3269042405 1266840.3674339894</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Emanuel</token>
+    <token token_id="1">Linders</token>
+    <token token_id="2">sel</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Erben</token>
+    <token token_id="5">in</token>
+    <token token_id="6">ɋ</token>
+    <token token_id="7">1620</token>
+    <token token_id="8">/</token>
+    <token token_id="9">1</token>
+    <token token_id="10">:</token>
+    <token token_id="11">des</token>
+    <token token_id="12">Bleichers</token>
+    <token token_id="13">Steinenvorstadt</token>
+    <token token_id="14">.</token>
+    <token token_id="15">1</token>
+    <token token_id="16">℔</token>
+    <token token_id="17">.</token>
+    <token token_id="18">Zinsen</token>
+    <token token_id="19">auf</token>
+    <token token_id="20">Nicolai</token>
+    <token token_id="21">.</token>
+    <token token_id="22">(</token>
+    <token token_id="23">1609</token>
+    <token token_id="24">fehlt</token>
+    <token token_id="25">.</token>
+    <token token_id="26">)</token>
+    <token token_id="27">Wie</token>
+    <token token_id="28">oben</token>
+    <token token_id="29">:</token>
+    <token token_id="30">1610</token>
+    <token token_id="31">/</token>
+    <token token_id="32">1</token>
+    <token token_id="33">1611</token>
+    <token token_id="34">/</token>
+    <token token_id="35">2</token>
+    <token token_id="36">.</token>
+    <token token_id="37">(</token>
+    <token token_id="38">1612</token>
+    <token token_id="39">/</token>
+    <token token_id="40">3</token>
+    <token token_id="41">fehlt</token>
+    <token token_id="42">.</token>
+    <token token_id="43">)</token>
+    <token token_id="44">1613</token>
+    <token token_id="45">/</token>
+    <token token_id="46">4</token>
+    <token token_id="47">,</token>
+    <token token_id="48">1614</token>
+    <token token_id="49">/</token>
+    <token token_id="50">5</token>
+    <token token_id="51">161516</token>
+    <token token_id="52">(</token>
+    <token token_id="53">1616</token>
+    <token token_id="54">/</token>
+    <token token_id="55">7</token>
+    <token token_id="56">fehlt</token>
+    <token token_id="57">.</token>
+    <token token_id="58">1618</token>
+    <token token_id="59">/</token>
+    <token token_id="60">9</token>
+    <token token_id="61">.</token>
+    <token token_id="62">(</token>
+    <token token_id="63">1619</token>
+    <token token_id="64">/</token>
+    <token token_id="65">20fehlt</token>
+    <token token_id="66">)</token>
+    <token token_id="67">"</token>
+    <token token_id="68">1617</token>
+    <token token_id="69">.</token>
+    <token token_id="70">Wie</token>
+    <token token_id="71">oben</token>
+    <token token_id="72">:</token>
+    <token token_id="73">1620</token>
+    <token token_id="74">/</token>
+    <token token_id="75">1</token>
+    <token token_id="76">1621</token>
+    <token token_id="77">/</token>
+    <token token_id="78">2</token>
+    <token token_id="79">1622</token>
+    <token token_id="80">/</token>
+    <token token_id="81">3</token>
+    <token token_id="82">1623</token>
+    <token token_id="83">/</token>
+    <token token_id="84">4</token>
+    <token token_id="85">1624</token>
+    <token token_id="86">/</token>
+    <token token_id="87">5</token>
+    <token token_id="88">1625</token>
+    <token token_id="89">/</token>
+    <token token_id="90">6</token>
+    <token token_id="91">1626</token>
+    <token token_id="92">/</token>
+    <token token_id="93">7</token>
+    <token token_id="94">fehlt</token>
+    <token token_id="95">.</token>
+    <token token_id="96">)</token>
+    <token token_id="97">Wie</token>
+    <token token_id="98">oben</token>
+    <token token_id="99">:</token>
+    <token token_id="100">1627</token>
+    <token token_id="101">/</token>
+    <token token_id="102">8</token>
+    <token token_id="103">1623</token>
+    <token token_id="104">/</token>
+    <token token_id="105">9</token>
+    <token token_id="106">1629</token>
+    <token token_id="107">/</token>
+    <token token_id="108">30</token>
+    <token token_id="109">(</token>
+    <token token_id="110">1631</token>
+    <token token_id="111">/</token>
+    <token token_id="112">41</token>
+    <token token_id="113">fehlen</token>
+    <token token_id="114">.</token>
+    <token token_id="115">)</token>
+  </text>
+  <spans>
+    <span id="1649" start="0" end="4" text="Emanuel Linders sel . Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1661" start="0" end="3" text="Emanuel Linders sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1667" start="0" end="1" text="Emanuel Linders" element="head" class="nam" subclass=""/>
+        <span id="1673" start="2" end="3" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="1655" start="4" end="4" text="Erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="1679" start="7" end="7" text="1620" element="value" class="date" subclass=""/>
+    <span id="1685" start="9" end="9" text="1" element="value" class="date" subclass=""/>
+    <span id="1715" start="11" end="12" text="des Bleichers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1721" start="12" end="12" text="Bleichers" element="head" class="occ" subclass=""/>
+    </span>
+    <span id="1709" start="13" end="13" text="Steinenvorstadt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+      <span id="1709_head" start="13" end="13" element="head" class="nam" text="Steinenvorstadt" subclass=""/>
+    </span>
+    <span id="1691" start="15" end="17" text="1 ℔." element="value" class="money" subclass=""/>
+    <span id="1973" start="18" end="18" text="Zinsen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1697" start="19" end="20" text="auf Nicolai" element="value" class="date" subclass=""/>
+    <span id="1703" start="23" end="23" text="1609" element="value" class="date" subclass=""/>
+    <span id="1727" start="30" end="30" text="1610" element="value" class="date" subclass=""/>
+    <span id="1733" start="32" end="32" text="1" element="value" class="date" subclass=""/>
+    <span id="1739" start="33" end="33" text="1611" element="value" class="date" subclass=""/>
+    <span id="1745" start="35" end="35" text="2" element="value" class="date" subclass=""/>
+    <span id="1751" start="38" end="38" text="1612" element="value" class="date" subclass=""/>
+    <span id="1757" start="40" end="40" text="3" element="value" class="date" subclass=""/>
+    <span id="1763" start="44" end="44" text="1613" element="value" class="date" subclass=""/>
+    <span id="1769" start="46" end="46" text="4" element="value" class="date" subclass=""/>
+    <span id="1775" start="48" end="48" text="1614" element="value" class="date" subclass=""/>
+    <span id="1781" start="50" end="50" text="5" element="value" class="date" subclass=""/>
+    <span id="1787" start="51" end="51" text="161516" element="value" class="date" subclass=""/>
+    <span id="1793" start="53" end="53" text="1616" element="value" class="date" subclass=""/>
+    <span id="1799" start="55" end="55" text="7" element="value" class="date" subclass=""/>
+    <span id="1805" start="58" end="58" text="1618" element="value" class="date" subclass=""/>
+    <span id="1811" start="60" end="60" text="9" element="value" class="date" subclass=""/>
+    <span id="1817" start="63" end="63" text="1619" element="value" class="date" subclass=""/>
+    <span id="1823" start="65" end="65" text="20fehlt" element="value" class="date" subclass=""/>
+    <span id="1829" start="68" end="68" text="1617" element="value" class="date" subclass=""/>
+    <span id="1835" start="73" end="73" text="1620" element="value" class="date" subclass=""/>
+    <span id="1841" start="75" end="75" text="1" element="value" class="date" subclass=""/>
+    <span id="1847" start="76" end="76" text="1621" element="value" class="date" subclass=""/>
+    <span id="1853" start="78" end="78" text="2" element="value" class="date" subclass=""/>
+    <span id="1859" start="79" end="79" text="1622" element="value" class="date" subclass=""/>
+    <span id="1865" start="81" end="81" text="3" element="value" class="date" subclass=""/>
+    <span id="1871" start="82" end="82" text="1623" element="value" class="date" subclass=""/>
+    <span id="1883" start="84" end="84" text="4" element="value" class="date" subclass=""/>
+    <span id="1877" start="85" end="85" text="1624" element="value" class="date" subclass=""/>
+    <span id="1889" start="87" end="87" text="5" element="value" class="date" subclass=""/>
+    <span id="1895" start="88" end="88" text="1625" element="value" class="date" subclass=""/>
+    <span id="1901" start="90" end="90" text="6" element="value" class="date" subclass=""/>
+    <span id="1907" start="91" end="91" text="1626" element="value" class="date" subclass=""/>
+    <span id="1913" start="93" end="93" text="7" element="value" class="date" subclass=""/>
+    <span id="1919" start="100" end="100" text="1627" element="value" class="date" subclass=""/>
+    <span id="1925" start="102" end="102" text="8" element="value" class="date" subclass=""/>
+    <span id="1931" start="103" end="103" text="1623" element="value" class="date" subclass=""/>
+    <span id="1937" start="105" end="105" text="9" element="value" class="date" subclass=""/>
+    <span id="1943" start="106" end="106" text="1629" element="value" class="date" subclass=""/>
+    <span id="1949" start="108" end="108" text="30" element="value" class="date" subclass=""/>
+    <span id="1955" start="110" end="110" text="1631" element="value" class="date" subclass=""/>
+    <span id="1961" start="112" end="112" text="41" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="0" end="4" ref="1649" type="event">
+      <trigger start="4" end="4" text="Erben" ref="1655"/>
+      <event event_id="0.0">
+        <role role="heir" ref="1649" text="Emanuel Linders sel . Erben"/>
+        <role role="decedent" ref="1661" text="Emanuel Linders sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="18" ref="" type="event">
+      <trigger start="18" end="18" text="Zinsen" ref="1973"/>
+      <event event_id="1.0">
+        <role role="payer" ref="1649" text="Emanuel Linders sel . Erben"/>
+        <role role="date" ref="1679" text="1620"/>
+        <role role="date" ref="1685" text="1"/>
+        <role role="place" ref="1709" text="Steinenvorstadt"/>
+        <role role="interest" ref="1691" text="1 ℔."/>
+        <role role="due-date" ref="1697" text="auf Nicolai"/>
+        <role role="date-missing" ref="1703" text="1609"/>
+        <role role="date" ref="1727" text="1610"/>
+        <role role="date" ref="1733" text="1"/>
+        <role role="date" ref="1739" text="1611"/>
+        <role role="date" ref="1745" text="2"/>
+        <role role="date-missing" ref="1751" text="1612"/>
+        <role role="date-missing" ref="1757" text="3"/>
+        <role role="date" ref="1763" text="1613"/>
+        <role role="date" ref="1769" text="4"/>
+        <role role="date" ref="1775" text="1614"/>
+        <role role="date" ref="1781" text="5"/>
+        <role role="date" ref="1787" text="161516"/>
+        <role role="date-missing" ref="1793" text="1616"/>
+        <role role="date-missing" ref="1799" text="7"/>
+        <role role="date" ref="1805" text="1618"/>
+        <role role="date" ref="1811" text="9"/>
+        <role role="date-missing" ref="1817" text="1619"/>
+        <role role="date-missing" ref="1823" text="20fehlt"/>
+        <role role="date" ref="1829" text="1617"/>
+        <role role="date" ref="1835" text="1620"/>
+        <role role="date" ref="1841" text="1"/>
+        <role role="date" ref="1847" text="1621"/>
+        <role role="date" ref="1853" text="2"/>
+        <role role="date" ref="1859" text="1622"/>
+        <role role="date" ref="1865" text="3"/>
+        <role role="date" ref="1871" text="1623"/>
+        <role role="date" ref="1883" text="4"/>
+        <role role="date" ref="1877" text="1624"/>
+        <role role="date" ref="1889" text="5"/>
+        <role role="date" ref="1895" text="1625"/>
+        <role role="date" ref="1901" text="6"/>
+        <role role="date-missing" ref="1907" text="1626"/>
+        <role role="date-missing" ref="1913" text="7"/>
+        <role role="date" ref="1919" text="1627"/>
+        <role role="date" ref="1925" text="8"/>
+        <role role="date" ref="1931" text="1623"/>
+        <role role="date" ref="1937" text="9"/>
+        <role role="date" ref="1943" text="1629"/>
+        <role role="date" ref="1949" text="30"/>
+        <role role="date-missing" ref="1955" text="1631"/>
+        <role role="date-missing" ref="1961" text="41"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

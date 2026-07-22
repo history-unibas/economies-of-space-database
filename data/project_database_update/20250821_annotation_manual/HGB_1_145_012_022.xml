@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 145/12 S. [22]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Ochsengasse 3</tei:title>
+            <tei:idno>HGB 1 145/12</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1501394</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1385">1385</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611535.1544020716 1267849.3902063211</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Her</token>
+    <token token_id="4">Burkart</token>
+    <token token_id="5">von</token>
+    <token token_id="6">Awe</token>
+    <token token_id="7">von</token>
+    <token token_id="8">Stoka</token>
+    <token token_id="9">Kilchherre</token>
+    <token token_id="10">zu</token>
+    <token token_id="11">Mins</token>
+    <token token_id="12">tzach</token>
+    <token token_id="13">und</token>
+    <token token_id="14">Caplan</token>
+    <token token_id="15">der</token>
+    <token token_id="16">Stift</token>
+    <token token_id="17">zu</token>
+    <token token_id="18">Basel</token>
+    <token token_id="19">,</token>
+    <token token_id="20">empfängt</token>
+    <token token_id="21">von</token>
+    <token token_id="22">dem</token>
+    <token token_id="23">Closter</token>
+    <token token_id="24">zu</token>
+    <token token_id="25">Klingental</token>
+    <token token_id="26">zu</token>
+    <token token_id="27">minren</token>
+    <token token_id="28">Basel</token>
+    <token token_id="29">das</token>
+    <token token_id="30">Hus</token>
+    <token token_id="31">und</token>
+    <token token_id="32">Gesesse</token>
+    <token token_id="33">genant</token>
+    <token token_id="34">zu</token>
+    <token token_id="35">Lörach</token>
+    <token token_id="36">,</token>
+    <token token_id="37">so</token>
+    <token token_id="38">sin</token>
+    <token token_id="39">Erbe</token>
+    <token token_id="40">ist</token>
+    <token token_id="41">und</token>
+    <token token_id="42">gelegen</token>
+    <token token_id="43">in</token>
+    <token token_id="44">der</token>
+    <token token_id="45">minren</token>
+    <token token_id="46">Statt</token>
+    <token token_id="47">zu</token>
+    <token token_id="48">Basel</token>
+    <token token_id="49">zwischend</token>
+    <token token_id="50">dem</token>
+    <token token_id="51">Hus</token>
+    <token token_id="52">ze</token>
+    <token token_id="53">dem</token>
+    <token token_id="54">Rottenfagel</token>
+    <token token_id="55">und</token>
+    <token token_id="56">Elli</token>
+    <token token_id="57">Schererin</token>
+    <token token_id="58">Huse</token>
+    <token token_id="59">,</token>
+    <token token_id="60">ze</token>
+    <token token_id="61">einem</token>
+    <token token_id="62">Erbe</token>
+    <token token_id="63">,</token>
+    <token token_id="64">umb</token>
+    <token token_id="65">30sh</token>
+    <token token_id="66">.</token>
+    <token token_id="67">Zinspfg</token>
+    <token token_id="68">.</token>
+    <token token_id="69">ze</token>
+    <token token_id="70">Zinse</token>
+    <token token_id="71">und</token>
+    <token token_id="72">umb</token>
+    <token token_id="73">2</token>
+    <token token_id="74">Ring</token>
+    <token token_id="75">Brote</token>
+    <token token_id="76">ze</token>
+    <token token_id="77">Wisung</token>
+    <token token_id="78">und</token>
+    <token token_id="79">umb</token>
+    <token token_id="80">2</token>
+    <token token_id="81">sh</token>
+    <token token_id="82">.</token>
+    <token token_id="83">zu</token>
+    <token token_id="84">Erschatz</token>
+    <token token_id="85">,</token>
+    <token token_id="86">sodenn</token>
+    <token token_id="87">sich</token>
+    <token token_id="88">die</token>
+    <token token_id="89">Hant</token>
+    <token token_id="90">verwandelt</token>
+    <token token_id="91">,</token>
+    <token token_id="92">und</token>
+    <token token_id="93">dazu</token>
+    <token token_id="94">umb</token>
+    <token token_id="95">3</token>
+    <token token_id="96">Zinsphg</token>
+    <token token_id="97">.</token>
+    <token token_id="98">den</token>
+    <token token_id="99">Herren</token>
+    <token token_id="100">von</token>
+    <token token_id="101">sant</token>
+    <token token_id="102">Alban</token>
+    <token token_id="103">von</token>
+    <token token_id="104">der</token>
+    <token token_id="105">Eigenschaft</token>
+    <token token_id="106">ze</token>
+    <token token_id="107">geben</token>
+    <token token_id="108">ze</token>
+    <token token_id="109">Zinse</token>
+    <token token_id="110">und</token>
+    <token token_id="111">als</token>
+    <token token_id="112">vil</token>
+    <token token_id="113">Erschatz</token>
+    <token token_id="114">,</token>
+    <token token_id="115">so</token>
+    <token token_id="116">sich</token>
+    <token token_id="117">die</token>
+    <token token_id="118">Hant</token>
+    <token token_id="119">verwandelt</token>
+    <token token_id="120">,</token>
+  </text>
+  <spans>
+    <span id="1837" start="3" end="18" text="Her Burkart von Awe von Stoka Kilchherre zu Mins&#10;tzach und Caplan der Stift zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1843" start="3" end="8" text="Her Burkart von Awe von Stoka" element="head" class="nam" subclass=""/>
+      <span id="1849" start="9" end="12" text="Kilchherre zu Mins&#10;tzach" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1855" start="9" end="9" text="Kilchherre" element="head" class="occ" subclass=""/>
+        <span id="1861" start="10" end="12" text="zu Mins&#10;tzach" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1867" start="11" end="12" text="Mins&#10;tzach" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1867_head" start="11" end="12" element="head" class="nam" text="Mins tzach" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1873" start="14" end="18" text="Caplan der Stift zu Basel" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1879" start="14" end="14" text="Caplan" element="head" class="occ" subclass="org-job"/>
+        <span id="1885" start="15" end="18" text="der Stift zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1891" start="16" end="16" text="Stift" element="head" class="type" subclass=""/>
+          <span id="1897" start="17" end="18" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1903" start="18" end="18" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1903_head" start="18" end="18" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2060" start="20" end="20" text="empfängt" element="trigger" class="hereditary" tense="pres" polarity="pos" modality="ass" subclass="lease"/>
+    <span id="1909" start="22" end="28" text="dem&#10;Closter zu Klingental zu minren Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1927" start="23" end="25" text="Closter zu Klingental" element="head" class="nam" subclass=""/>
+      <span id="1915" start="26" end="28" text="zu minren Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1921" start="27" end="28" text="minren Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1921_head" start="27" end="28" element="head" class="nam" text="minren Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2054" start="29" end="58" text="das Hus und&#10;Gesesse genant zu Lörach , so sin Erbe ist und gelegen&#10;in der minren Statt zu Basel zwischend dem Hus ze&#10;dem Rottenfagel und Elli Schererin Huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1933" start="30" end="32" text="Hus und&#10;Gesesse" element="head" class="type" subclass=""/>
+      <span id="1939" start="34" end="35" text="zu Lörach" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1939_head" start="34" end="35" element="head" class="nam" text="zu Lörach" subclass=""/>
+      </span>
+      <span id="1945" start="37" end="40" text="so sin Erbe ist" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1951" start="38" end="38" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1951_head" start="38" end="38" element="head" class="pro" text="sin" subclass=""/>
+        </span>
+      </span>
+      <span id="1964" start="41" end="58" text="und gelegen&#10;in der minren Statt zu Basel zwischend dem Hus ze&#10;dem Rottenfagel und Elli Schererin Huse" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1970" start="44" end="48" text="der minren Statt zu Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1976" start="45" end="48" text="minren Statt zu Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1982" start="50" end="54" text="dem Hus ze&#10;dem Rottenfagel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1988" start="51" end="54" text="Hus ze&#10;dem Rottenfagel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1994" start="56" end="58" text="Elli Schererin Huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2006" start="56" end="57" text="Elli Schererin" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2012" start="56" end="57" text="Elli Schererin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2012_head" start="56" end="57" element="head" class="nam" text="Elli Schererin" subclass=""/>
+            </span>
+          </span>
+          <span id="2000" start="58" end="58" text="Huse" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2066" start="64" end="90" text="umb 30sh . Zinspfg . ze Zinse und umb 2 Ring Brote&#10;ze Wisung und umb 2 sh . zu Erschatz , sodenn sich die&#10;Hant verwandelt" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2018" start="65" end="68" text="30sh . Zinspfg ." element="value" class="money" subclass=""/>
+      <span id="2078" start="70" end="70" text="Zinse" element="other" class="other" subclass=""/>
+      <span id="2024" start="73" end="75" text="2 Ring Brote" element="value" class="money" subclass=""/>
+      <span id="2072" start="77" end="77" text="Wisung" element="other" class="other" subclass=""/>
+      <span id="2030" start="80" end="82" text="2 sh ." element="value" class="money" subclass=""/>
+      <span id="2084" start="84" end="84" text="Erschatz" element="other" class="other" subclass=""/>
+    </span>
+    <span id="2090" start="94" end="119" text="umb 3 Zinsphg . den Herren&#10;von sant Alban von der Eigenschaft ze geben ze Zinse und&#10;als vil Erschatz , so sich die Hant verwandelt" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2036" start="95" end="97" text="3 Zinsphg ." element="value" class="money" subclass=""/>
+      <span id="2042" start="98" end="102" text="den Herren&#10;von sant Alban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="2048" start="99" end="102" text="Herren&#10;von sant Alban" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="2096" start="105" end="105" text="Eigenschaft" element="other" class="other" subclass=""/>
+      <span id="2108" start="107" end="107" text="geben" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      <span id="2102" start="113" end="113" text="Erschatz" element="other" class="other" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1957" from="1951" to="1837" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="64" end="90" ref="2066" type="state">
+      <event event_id="0.0">
+        <role role="interest" ref="2018" text="30sh . Zinspfg ."/>
+        <role role="cause" ref="2078" text="Zinse"/>
+      </event>
+      <event event_id="0.1">
+        <role role="interest" ref="2024" text="2 Ring Brote"/>
+        <role role="cause" ref="2072" text="Wisung"/>
+      </event>
+      <event event_id="0.2">
+        <role role="interest" ref="2030" text="2 sh ."/>
+        <role role="cause" ref="2084" text="Erschatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="94" end="119" ref="2090" type="state">
+      <trigger start="107" end="107" text="geben" ref="2108"/>
+      <event event_id="1.0">
+        <role role="interest" ref="2036" text="3 Zinsphg ."/>
+        <role role="beneficiary" ref="2042" text="den Herren&#10;von sant Alban"/>
+        <role role="cause" ref="2096" text="Eigenschaft"/>
+      </event>
+      <event event_id="1.1">
+        <role role="interest" ref="2036" text="3 Zinsphg ."/>
+        <role role="beneficiary" ref="2042" text="den Herren&#10;von sant Alban"/>
+        <role role="cause" ref="2102" text="Erschatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="employment" polarity="pos" tense="pres" modality="ass" start="14" end="18" ref="1873" type="state">
+      <trigger start="14" end="14" text="Caplan" ref="1879"/>
+      <event event_id="2.0">
+        <role role="employee" ref="1837" text="Her Burkart von Awe von Stoka Kilchherre zu Mins&#10;tzach und Caplan der Stift zu Basel"/>
+        <role role="employer" ref="1885" text="der Stift zu Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="10" end="12" ref="1861" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1837" text="Her Burkart von Awe von Stoka Kilchherre zu Mins&#10;tzach und Caplan der Stift zu Basel"/>
+        <role role="location-b" ref="1867" text="Mins&#10;tzach"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="18" ref="1897" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1885" text="der Stift zu Basel"/>
+        <role role="location-b" ref="1903" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="26" end="28" ref="1915" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1909" text="dem&#10;Closter zu Klingental zu minren Basel"/>
+        <role role="location-b" ref="1921" text="minren Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="37" end="40" ref="1945" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="2054" text="das Hus und&#10;Gesesse genant zu Lörach , so sin Erbe ist und gelegen&#10;in der minren Statt zu Basel zwischend dem Hus ze&#10;dem Rottenfagel und Elli Schererin Huse"/>
+        <role role="owner" ref="1951" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="41" end="58" ref="1964" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="2054" text="das Hus und&#10;Gesesse genant zu Lörach , so sin Erbe ist und gelegen&#10;in der minren Statt zu Basel zwischend dem Hus ze&#10;dem Rottenfagel und Elli Schererin Huse"/>
+        <role role="location-b" ref="1970" text="der minren Statt zu Basel"/>
+        <role role="location-b" ref="1982" text="dem Hus ze&#10;dem Rottenfagel"/>
+        <role role="location-b" ref="1994" text="Elli Schererin Huse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="ownership" polarity="pos" tense="pres" modality="ass" start="56" end="57" ref="2006" type="state">
+      <event event_id="8.0">
+        <role role="property" ref="1994" text="Elli Schererin Huse"/>
+        <role role="owner" ref="2012" text="Elli Schererin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="heritable-lease-grant" polarity="pos" tense="pres" modality="ass" start="20" end="20" ref="" type="event">
+      <trigger start="20" end="20" text="empfängt" ref="2060"/>
+      <event event_id="9.0">
+        <role role="lessee" ref="1837" text="Her Burkart von Awe von Stoka Kilchherre zu Mins&#10;tzach und Caplan der Stift zu Basel"/>
+        <role role="grantor" ref="1909" text="dem&#10;Closter zu Klingental zu minren Basel"/>
+        <role role="property" ref="2054" text="das Hus und&#10;Gesesse genant zu Lörach , so sin Erbe ist und gelegen&#10;in der minren Statt zu Basel zwischend dem Hus ze&#10;dem Rottenfagel und Elli Schererin Huse"/>
+        <role role="due" ref="2066" text="umb 30sh . Zinspfg . ze Zinse und umb 2 Ring Brote&#10;ze Wisung und umb 2 sh . zu Erschatz , sodenn sich die&#10;Hant verwandelt"/>
+        <role role="due" ref="2090" text="umb 3 Zinsphg . den Herren&#10;von sant Alban von der Eigenschaft ze geben ze Zinse und&#10;als vil Erschatz , so sich die Hant verwandelt"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

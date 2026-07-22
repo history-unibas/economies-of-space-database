@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 91/125 S. [42]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Johanns-Vorstadt 28</tei:title>
+            <tei:idno>HGB 1 91/125</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1482357</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1642">1642</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610994.2891264027 1268081.3113505715</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">in</token>
+    <token token_id="1">sant</token>
+    <token token_id="2">Petri</token>
+    <token token_id="3">.</token>
+    <token token_id="4">1642</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Jacob</token>
+    <token token_id="7">Küen</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Rebmann</token>
+    <token token_id="10">gibt</token>
+    <token token_id="11">von</token>
+    <token token_id="12">seinem</token>
+    <token token_id="13">Haus</token>
+    <token token_id="14">in</token>
+    <token token_id="15">sant</token>
+    <token token_id="16">Johanns</token>
+    <token token_id="17">Vorstatt</token>
+    <token token_id="18">gelegen</token>
+    <token token_id="19">,</token>
+    <token token_id="20">uff</token>
+    <token token_id="21">den</token>
+    <token token_id="22">ersten</token>
+    <token token_id="23">Monats</token>
+    <token token_id="24">tag</token>
+    <token token_id="25">.</token>
+    <token token_id="26">Februari</token>
+    <token token_id="27">10</token>
+    <token token_id="28">℔</token>
+    <token token_id="29">.</token>
+    <token token_id="30">Ebenso</token>
+    <token token_id="31">.</token>
+    <token token_id="32">1643</token>
+    <token token_id="33">.</token>
+    <token token_id="34">1644</token>
+    <token token_id="35">.</token>
+    <token token_id="36">1645</token>
+    <token token_id="37">.</token>
+    <token token_id="38">1646</token>
+    <token token_id="39">.</token>
+    <token token_id="40">1647</token>
+    <token token_id="41">.</token>
+    <token token_id="42">1648</token>
+    <token token_id="43">.</token>
+    <token token_id="44">1649</token>
+    <token token_id="45">.</token>
+    <token token_id="46">1650</token>
+    <token token_id="47">.</token>
+    <token token_id="48">1651</token>
+    <token token_id="49">.</token>
+    <token token_id="50">Ebenso</token>
+    <token token_id="51">.</token>
+    <token token_id="52">1652</token>
+    <token token_id="53">.</token>
+    <token token_id="54">1653</token>
+    <token token_id="55">.</token>
+    <token token_id="56">1654</token>
+    <token token_id="57">.</token>
+    <token token_id="58">1655</token>
+    <token token_id="59">.</token>
+    <token token_id="60">1656</token>
+    <token token_id="61">.</token>
+    <token token_id="62">Peter</token>
+    <token token_id="63">Brandt</token>
+    <token token_id="64">der</token>
+    <token token_id="65">Rebmann</token>
+    <token token_id="66">gibt</token>
+    <token token_id="67">nun</token>
+    <token token_id="68">den</token>
+    <token token_id="69">zins</token>
+    <token token_id="70">.</token>
+  </text>
+  <spans>
+    <span id="1034" start="1" end="2" text="sant Petri" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1034_head" start="1" end="2" element="head" class="nam" text="sant Petri" subclass=""/>
+    </span>
+    <span id="1040" start="4" end="4" text="1642" element="value" class="date" subclass=""/>
+    <span id="1136" start="6" end="9" text="Jacob Küen der Rebmann" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1142" start="6" end="7" text="Jacob Küen" element="head" class="nam" subclass=""/>
+      <span id="1148" start="8" end="9" text="der Rebmann" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1154" start="9" end="9" text="Rebmann" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1233" start="10" end="10" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1160" start="12" end="18" text="seinem Haus&#10;in sant Johanns Vorstatt gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1172" start="12" end="12" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1178" start="12" end="12" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1178_head" start="12" end="12" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1166" start="13" end="13" text="Haus" element="head" class="type" subclass=""/>
+      <span id="1191" start="14" end="18" text="in sant Johanns Vorstatt gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1197" start="15" end="17" text="sant Johanns Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1197_head" start="15" end="17" element="head" class="nam" text="sant Johanns Vorstatt" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1076" start="20" end="26" text="uff den ersten Monats&#10;tag . Februari" element="value" class="date" subclass=""/>
+    <span id="1203" start="27" end="29" text="10 ℔." element="value" class="money" subclass=""/>
+    <span id="1046" start="32" end="32" text="1643" element="value" class="date" subclass=""/>
+    <span id="1052" start="34" end="34" text="1644" element="value" class="date" subclass=""/>
+    <span id="1058" start="36" end="36" text="1645" element="value" class="date" subclass=""/>
+    <span id="1064" start="38" end="38" text="1646" element="value" class="date" subclass=""/>
+    <span id="1070" start="40" end="40" text="1647" element="value" class="date" subclass=""/>
+    <span id="1082" start="42" end="42" text="1648" element="value" class="date" subclass=""/>
+    <span id="1088" start="44" end="44" text="1649" element="value" class="date" subclass=""/>
+    <span id="1094" start="46" end="46" text="1650" element="value" class="date" subclass=""/>
+    <span id="1100" start="48" end="48" text="1651" element="value" class="date" subclass=""/>
+    <span id="1106" start="52" end="52" text="1652" element="value" class="date" subclass=""/>
+    <span id="1112" start="54" end="54" text="1653" element="value" class="date" subclass=""/>
+    <span id="1118" start="56" end="56" text="1654" element="value" class="date" subclass=""/>
+    <span id="1124" start="58" end="58" text="1655" element="value" class="date" subclass=""/>
+    <span id="1130" start="60" end="60" text="1656" element="value" class="date" subclass=""/>
+    <span id="1209" start="62" end="65" text="Peter Brandt der Rebmann" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1215" start="62" end="63" text="Peter Brandt" element="head" class="nam" subclass=""/>
+      <span id="1221" start="64" end="65" text="der Rebmann" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1227" start="65" end="65" text="Rebmann" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1245" start="66" end="66" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="1251" start="69" end="69" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1184" from="1178" to="1136" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1257" from="1251" to="1233" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="12" end="12" ref="1172" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1160" text="seinem Haus&#10;in sant Johanns Vorstatt gelegen"/>
+        <role role="owner" ref="1178" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="14" end="18" ref="1191" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1160" text="seinem Haus&#10;in sant Johanns Vorstatt gelegen"/>
+        <role role="location-b" ref="1197" text="sant Johanns Vorstatt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="1" end="58" ref="" type="event">
+      <trigger start="10" end="10" text="gibt" ref="1233"/>
+      <event event_id="2.0">
+        <role role="place" ref="1034" text="sant Petri"/>
+        <role role="date" ref="1040" text="1642"/>
+        <role role="payer" ref="1136" text="Jacob Küen der Rebmann"/>
+        <role role="property" ref="1160" text="seinem Haus&#10;in sant Johanns Vorstatt gelegen"/>
+        <role role="due-date" ref="1076" text="uff den ersten Monats&#10;tag . Februari"/>
+        <role role="interest" ref="1203" text="10 ℔."/>
+        <role role="date" ref="1046" text="1643"/>
+        <role role="date" ref="1052" text="1644"/>
+        <role role="date" ref="1058" text="1645"/>
+        <role role="date" ref="1064" text="1646"/>
+        <role role="date" ref="1070" text="1647"/>
+        <role role="date" ref="1082" text="1648"/>
+        <role role="date" ref="1088" text="1649"/>
+        <role role="date" ref="1094" text="1650"/>
+        <role role="date" ref="1100" text="1651"/>
+        <role role="date" ref="1106" text="1652"/>
+        <role role="date" ref="1112" text="1653"/>
+        <role role="date" ref="1118" text="1654"/>
+        <role role="date" ref="1124" text="1655"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="60" end="69" ref="" type="event">
+      <trigger start="66" end="66" text="gibt" ref="1245"/>
+      <event event_id="3.0">
+        <role role="date" ref="1130" text="1656"/>
+        <role role="payer" ref="1209" text="Peter Brandt der Rebmann"/>
+        <role role="previous-due" ref="1251" text="zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="pos" tense="pres" modality="ass" start="69" end="69" ref="" type="event">
+      <trigger start="69" end="69" text="zins" ref="1251"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

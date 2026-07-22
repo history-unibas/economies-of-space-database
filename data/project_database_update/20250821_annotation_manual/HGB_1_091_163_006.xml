@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 91/163 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Johanns-Vorstadt Th. v. 78 neben 76</tei:title>
+            <tei:idno>HGB 1 91/163</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1482618</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1577">1577</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610891.1634262167 1268281.0114638465</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Euseb</token>
+    <token token_id="1">Bischoff</token>
+    <token token_id="2">Buchdrucker</token>
+    <token token_id="3">hat</token>
+    <token token_id="4">wyl</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Hansen</token>
+    <token token_id="7">Meiders</token>
+    <token token_id="8">,</token>
+    <token token_id="9">oder</token>
+    <token token_id="10">Widmers</token>
+    <token token_id="11">des</token>
+    <token token_id="12">Surmans</token>
+    <token token_id="13">u</token>
+    <token token_id="14">.</token>
+    <token token_id="15">seiner</token>
+    <token token_id="16">Frau</token>
+    <token token_id="17">Elsbetha</token>
+    <token token_id="18">Schön</token>
+    <token token_id="19">,</token>
+    <token token_id="20">beider</token>
+    <token token_id="21">sel</token>
+    <token token_id="22">.</token>
+    <token token_id="23">Erben</token>
+    <token token_id="24">,</token>
+    <token token_id="25">Hus</token>
+    <token token_id="26">und</token>
+    <token token_id="27">Hofstatt</token>
+    <token token_id="28">,</token>
+    <token token_id="29">in</token>
+    <token token_id="30">vorstatt</token>
+    <token token_id="31">ze</token>
+    <token token_id="32">crütz</token>
+    <token token_id="33">,</token>
+    <token token_id="34">zu</token>
+    <token token_id="35">usserst</token>
+    <token token_id="36">by</token>
+    <token token_id="37">Sand</token>
+    <token token_id="38">Johansthor</token>
+    <token token_id="39">,</token>
+    <token token_id="40">zwüschen</token>
+    <token token_id="41">Martha</token>
+    <token token_id="42">,</token>
+    <token token_id="43">Hansen</token>
+    <token token_id="44">oder</token>
+    <token token_id="45">des</token>
+    <token token_id="46">Goldt</token>
+    <token token_id="47">¬</token>
+    <token token_id="48">schmidts</token>
+    <token token_id="49">sel</token>
+    <token token_id="50">.</token>
+    <token token_id="51">Witwen</token>
+    <token token_id="52">,</token>
+    <token token_id="53">u</token>
+    <token token_id="54">.</token>
+    <token token_id="55">Hans</token>
+    <token token_id="56">Hürtzen</token>
+    <token token_id="57">der</token>
+    <token token_id="58">Rebmanns</token>
+    <token token_id="59">husern</token>
+    <token token_id="60">gelegen</token>
+    <token token_id="61">,</token>
+    <token token_id="62">stosst</token>
+    <token token_id="63">hinden</token>
+    <token token_id="64">uff</token>
+    <token token_id="65">den</token>
+    <token token_id="66">Rhyn</token>
+    <token token_id="67">,</token>
+    <token token_id="68">versessener</token>
+    <token token_id="69">Zinsen</token>
+    <token token_id="70">wegen</token>
+    <token token_id="71">,</token>
+    <token token_id="72">als</token>
+    <token token_id="73">ihme</token>
+    <token token_id="74">darab</token>
+    <token token_id="75">jährl</token>
+    <token token_id="76">.</token>
+    <token token_id="77">2</token>
+    <token token_id="78">℔</token>
+    <token token_id="79">15sh</token>
+    <token token_id="80">.</token>
+    <token token_id="81">verzinst</token>
+    <token token_id="82">wirt</token>
+    <token token_id="83">,</token>
+    <token token_id="84">gefrönt</token>
+    <token token_id="85">,</token>
+    <token token_id="86">und</token>
+    <token token_id="87">kauft</token>
+    <token token_id="88">sie</token>
+    <token token_id="89">sum</token>
+    <token token_id="90">1</token>
+    <token token_id="91">℔</token>
+    <token token_id="92">3sh</token>
+    <token token_id="93">.</token>
+    <token token_id="94">zinspfl</token>
+    <token token_id="95">.</token>
+  </text>
+  <spans>
+    <span id="1390" start="0" end="2" text="Euseb Bischoff Buchdrucker" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1396" start="0" end="1" text="Euseb Bischoff" element="head" class="nam" subclass=""/>
+      <span id="1402" start="2" end="2" text="Buchdrucker" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1402_head" start="2" end="2" element="head" class="occ" text="Buchdrucker" subclass=""/>
+      </span>
+    </span>
+    <span id="1408" start="4" end="66" text="wyl . Hansen Meiders , oder&#10;Widmers des Surmans u . seiner Frau Elsbetha Schön , beider&#10;sel . Erben , Hus und Hofstatt , in vorstatt ze crütz , zu usserst&#10;by Sand Johansthor , zwüschen Martha , Hansen oder des Goldt ¬&#10;schmidts sel . Witwen , u . Hans Hürtzen der Rebmanns husern&#10;gelegen , stosst hinden uff den Rhyn" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1420" start="4" end="23" text="wyl . Hansen Meiders , oder&#10;Widmers des Surmans u . seiner Frau Elsbetha Schön , beider&#10;sel . Erben" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1426" start="4" end="7" text="wyl . Hansen Meiders" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1438" start="4" end="5" text="wyl ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          <span id="1432" start="6" end="7" text="Hansen Meiders" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1517" start="10" end="23" text="Widmers des Surmans u . seiner Frau Elsbetha Schön , beider&#10;sel . Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1505" start="10" end="22" text="Widmers des Surmans u . seiner Frau Elsbetha Schön , beider&#10;sel ." element="list" class="per" subclass="">
+            <span id="1444" start="10" end="12" text="Widmers des Surmans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1450" start="10" end="10" text="Widmers" element="head" class="nam" subclass=""/>
+              <span id="1456" start="11" end="12" text="des Surmans" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1462" start="12" end="12" text="Surmans" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+            <span id="1468" start="15" end="18" text="seiner Frau Elsbetha Schön" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1480" start="15" end="16" text="seiner Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1492" start="15" end="15" text="seiner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1492_head" start="15" end="15" element="head" class="pro" text="seiner" subclass=""/>
+                </span>
+                <span id="1486" start="16" end="16" text="Frau" element="head" class="fam" subclass=""/>
+              </span>
+              <span id="1474" start="17" end="18" text="Elsbetha Schön" element="head" class="nam" subclass=""/>
+            </span>
+            <span id="1511" start="20" end="22" text="beider&#10;sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="1523" start="23" end="23" text="Erben" element="head" class="heir" subclass=""/>
+        </span>
+      </span>
+      <span id="1414" start="25" end="27" text="Hus und Hofstatt" element="head" class="nam" subclass=""/>
+      <span id="1529" start="29" end="66" text="in vorstatt ze crütz , zu usserst&#10;by Sand Johansthor , zwüschen Martha , Hansen oder des Goldt ¬&#10;schmidts sel . Witwen , u . Hans Hürtzen der Rebmanns husern&#10;gelegen , stosst hinden uff den Rhyn" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1535" start="30" end="32" text="vorstatt ze crütz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1535_head" start="30" end="32" element="head" class="nam" text="vorstatt ze crütz" subclass=""/>
+        </span>
+        <span id="1541" start="37" end="38" text="Sand Johansthor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gate">
+          <span id="1541_head" start="37" end="38" element="head" class="nam" text="Sand Johansthor" subclass=""/>
+        </span>
+        <span id="1547" start="41" end="59" text="Martha , Hansen oder des Goldt ¬&#10;schmidts sel . Witwen , u . Hans Hürtzen der Rebmanns husern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1559" start="41" end="58" text="Martha , Hansen oder des Goldt ¬&#10;schmidts sel . Witwen , u . Hans Hürtzen der Rebmanns" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1565" start="41" end="51" text="Martha , Hansen oder des Goldt ¬&#10;schmidts sel . Witwen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1571" start="41" end="41" text="Martha" element="head" class="nam" subclass=""/>
+              <span id="1577" start="43" end="51" text="Hansen oder des Goldt ¬&#10;schmidts sel . Witwen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1589" start="43" end="50" text="Hansen oder des Goldt ¬&#10;schmidts sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1595" start="43" end="43" text="Hansen" element="head" class="nam" subclass=""/>
+                  <span id="1601" start="45" end="48" text="des Goldt ¬&#10;schmidts" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                    <span id="1607" start="46" end="48" text="Goldt ¬&#10;schmidts" element="head" class="occ" subclass=""/>
+                  </span>
+                  <span id="1613" start="49" end="50" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+                </span>
+                <span id="1583" start="51" end="51" text="Witwen" element="head" class="fam" subclass=""/>
+              </span>
+            </span>
+            <span id="1619" start="55" end="58" text="Hans Hürtzen der Rebmanns" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1625" start="55" end="56" text="Hans Hürtzen" element="head" class="nam" subclass=""/>
+              <span id="1631" start="57" end="58" text="der Rebmanns" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1637" start="58" end="58" text="Rebmanns" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1553" start="59" end="59" text="husern" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1643" start="65" end="66" text="den Rhyn" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="river">
+          <span id="1649" start="66" end="66" text="Rhyn" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1711" start="69" end="69" text="Zinsen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1655" start="73" end="73" text="ihme" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1655_head" start="73" end="73" element="head" class="pro" text="ihme" subclass=""/>
+    </span>
+    <span id="1668" start="74" end="74" text="darab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1668_head" start="74" end="74" element="head" class="pro" text="darab" subclass=""/>
+    </span>
+    <span id="1681" start="75" end="76" text="jährl ." element="value" class="time" subclass="rec"/>
+    <span id="1687" start="77" end="80" text="2 ℔ 15sh ." element="value" class="money" subclass=""/>
+    <span id="1705" start="81" end="81" text="verzinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1699" start="84" end="84" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1730" start="87" end="87" text="kauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1717" start="88" end="88" text="sie" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1717_head" start="88" end="88" element="head" class="pro" text="sie" subclass=""/>
+    </span>
+    <span id="1693" start="90" end="95" text="1 ℔ 3sh . zinspfl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1661" from="1655" to="1390" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1674" from="1668" to="1408" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1723" from="1717" to="1408" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1498" from="1492" to="1444" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1736" from="1705" to="1711" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="10" end="23" ref="1517" type="event">
+      <trigger start="23" end="23" text="Erben" ref="1523"/>
+      <event event_id="0.0">
+        <role role="heir" ref="1517" text="Widmers des Surmans u . seiner Frau Elsbetha Schön , beider&#10;sel . Erben"/>
+        <role role="decedent" ref="1444" text="Widmers des Surmans"/>
+        <role role="decedent" ref="1468" text="seiner Frau Elsbetha Schön"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="15" end="16" ref="1480" type="state">
+      <trigger start="16" end="16" text="Frau" ref="1486"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1468" text="seiner Frau Elsbetha Schön"/>
+        <role role="family-b" ref="1492" text="seiner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="43" end="51" ref="1577" type="state">
+      <trigger start="51" end="51" text="Witwen" ref="1583"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1565" text="Martha , Hansen oder des Goldt ¬&#10;schmidts sel . Witwen"/>
+        <role role="family-b" ref="1589" text="Hansen oder des Goldt ¬&#10;schmidts sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="4" end="23" ref="1420" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1408" text="wyl . Hansen Meiders , oder&#10;Widmers des Surmans u . seiner Frau Elsbetha Schön , beider&#10;sel . Erben , Hus und Hofstatt , in vorstatt ze crütz , zu usserst&#10;by Sand Johansthor , zwüschen Martha , Hansen oder des Goldt ¬&#10;schmidts sel . Witwen , u . Hans Hürtzen der Rebmanns husern&#10;gelegen , stosst hinden uff den Rhyn"/>
+        <role role="owner" ref="1426" text="wyl . Hansen Meiders"/>
+        <role role="owner" ref="1517" text="Widmers des Surmans u . seiner Frau Elsbetha Schön , beider&#10;sel . Erben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="29" end="66" ref="1529" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1408" text="wyl . Hansen Meiders , oder&#10;Widmers des Surmans u . seiner Frau Elsbetha Schön , beider&#10;sel . Erben , Hus und Hofstatt , in vorstatt ze crütz , zu usserst&#10;by Sand Johansthor , zwüschen Martha , Hansen oder des Goldt ¬&#10;schmidts sel . Witwen , u . Hans Hürtzen der Rebmanns husern&#10;gelegen , stosst hinden uff den Rhyn"/>
+        <role role="location-b" ref="1535" text="vorstatt ze crütz"/>
+        <role role="location-b" ref="1541" text="Sand Johansthor"/>
+        <role role="location-b" ref="1547" text="Martha , Hansen oder des Goldt ¬&#10;schmidts sel . Witwen , u . Hans Hürtzen der Rebmanns husern"/>
+        <role role="location-b" ref="1643" text="den Rhyn"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="41" end="58" ref="1559" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1547" text="Martha , Hansen oder des Goldt ¬&#10;schmidts sel . Witwen , u . Hans Hürtzen der Rebmanns husern"/>
+        <role role="owner" ref="1565" text="Martha , Hansen oder des Goldt ¬&#10;schmidts sel . Witwen"/>
+        <role role="owner" ref="1619" text="Hans Hürtzen der Rebmanns"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-payment" polarity="neg" tense="pres" modality="ass" start="69" end="69" ref="" type="event">
+      <trigger start="69" end="69" text="Zinsen" ref="1711"/>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="73" end="81" ref="" type="state">
+      <trigger start="81" end="81" text="verzinst" ref="1705"/>
+      <event event_id="7.0">
+        <role role="beneficiary" ref="1655" text="ihme"/>
+        <role role="property" ref="1668" text="darab"/>
+        <role role="interval" ref="1681" text="jährl ."/>
+        <role role="interest" ref="1687" text="2 ℔ 15sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="84" ref="" type="event">
+      <trigger start="84" end="84" text="gefrönt" ref="1699"/>
+      <event event_id="8.0">
+        <role role="claimant" ref="1390" text="Euseb Bischoff Buchdrucker"/>
+        <role role="property" ref="1408" text="wyl . Hansen Meiders , oder&#10;Widmers des Surmans u . seiner Frau Elsbetha Schön , beider&#10;sel . Erben , Hus und Hofstatt , in vorstatt ze crütz , zu usserst&#10;by Sand Johansthor , zwüschen Martha , Hansen oder des Goldt ¬&#10;schmidts sel . Witwen , u . Hans Hürtzen der Rebmanns husern&#10;gelegen , stosst hinden uff den Rhyn"/>
+        <role role="cause" ref="1711" text="Zinsen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="95" ref="" type="event">
+      <trigger start="87" end="87" text="kauft" ref="1730"/>
+      <event event_id="9.0">
+        <role role="buyer" ref="1390" text="Euseb Bischoff Buchdrucker"/>
+        <role role="property" ref="1717" text="sie"/>
+        <role role="price" ref="1693" text="1 ℔ 3sh . zinspfl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

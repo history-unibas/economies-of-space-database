@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 173/8 S. [18]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rüdengasse Theil von 1, Ecke</tei:title>
+            <tei:idno>HGB 1 173/8</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1511151</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1453">1453</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611330.89934507 1267354.6648618774</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">koufft</token>
+    <token token_id="2">Frau</token>
+    <token token_id="3">Ennelin</token>
+    <token token_id="4">Frygin</token>
+    <token token_id="5">von</token>
+    <token token_id="6">Waltzach</token>
+    <token token_id="7">Clausen</token>
+    <token token_id="8">Stören</token>
+    <token token_id="9">des</token>
+    <token token_id="10">vogtes</token>
+    <token token_id="11">ehl</token>
+    <token token_id="12">.</token>
+    <token token_id="13">Husfl</token>
+    <token token_id="14">daz</token>
+    <token token_id="15">Hus</token>
+    <token token_id="16">zem</token>
+    <token token_id="17">Nawen</token>
+    <token token_id="18">um</token>
+    <token token_id="19">zwen</token>
+    <token token_id="20">versessen</token>
+    <token token_id="21">zinse</token>
+    <token token_id="22">elle</token>
+    <token token_id="23">vor</token>
+    <token token_id="24">12</token>
+    <token token_id="25">1</token>
+    <token token_id="26">/</token>
+    <token token_id="27">2</token>
+    <token token_id="28">fl</token>
+    <token token_id="29">als</token>
+    <token token_id="30">jr</token>
+    <token token_id="31">underpfand</token>
+    <token token_id="32">,</token>
+    <token token_id="33">gefrönet</token>
+    <token token_id="34">,</token>
+    <token token_id="35">ist</token>
+    <token token_id="36">gelegen</token>
+    <token token_id="37">by</token>
+    <token token_id="38">Steblis</token>
+    <token token_id="39">brunnen</token>
+    <token token_id="40">,</token>
+    <token token_id="41">an</token>
+    <token token_id="42">dem</token>
+    <token token_id="43">ort</token>
+    <token token_id="44">,</token>
+    <token token_id="45">nebend</token>
+    <token token_id="46">dem</token>
+    <token token_id="47">Hus</token>
+    <token token_id="48">zem</token>
+    <token token_id="49">Socin</token>
+    <token token_id="50">,</token>
+  </text>
+  <spans>
+    <span id="946" start="1" end="1" text="koufft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="847" start="2" end="13" text="Frau Ennelin Frygin von Waltzach&#10;Clausen Stören des vogtes ehl . Husfl" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="829" start="3" end="4" text="Ennelin Frygin" element="head" class="nam" subclass=""/>
+      <span id="835" start="5" end="6" text="von Waltzach" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="841" start="6" end="6" text="Waltzach" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="841_head" start="6" end="6" element="head" class="nam" text="Waltzach" subclass=""/>
+        </span>
+      </span>
+      <span id="901" start="7" end="13" text="Clausen Stören des vogtes ehl . Husfl" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="853" start="7" end="10" text="Clausen Stören des vogtes" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="859" start="7" end="8" text="Clausen Stören" element="head" class="nam" subclass=""/>
+          <span id="865" start="9" end="10" text="des vogtes" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+            <span id="871" start="10" end="10" text="vogtes" element="head" class="occ" subclass="org-job"/>
+          </span>
+        </span>
+        <span id="907" start="13" end="13" text="Husfl" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="913" start="14" end="17" text="daz Hus zem&#10;Nawen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="913_head" start="14" end="17" element="head" class="nam" text="daz Hus zem Nawen" subclass=""/>
+    </span>
+    <span id="952" start="20" end="20" text="versessen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="877" start="24" end="28" text="12 1 / 2 fl" element="value" class="money" subclass=""/>
+    <span id="919" start="30" end="30" text="jr" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="919_head" start="30" end="30" element="head" class="pro" text="jr" subclass=""/>
+    </span>
+    <span id="958" start="33" end="33" text="gefrönet" element="trigger" class="seizure" tense="past" polarity="pos" modality="ass" subclass=""/>
+    <span id="883" start="38" end="39" text="Steblis&#10;brunnen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="883_head" start="38" end="39" element="head" class="nam" text="Steblis brunnen" subclass=""/>
+    </span>
+    <span id="889" start="46" end="49" text="dem Hus zem Socin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="895" start="47" end="49" text="Hus zem Socin" element="head" class="nam" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="925" from="919" to="847" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="932" from="913" to="883" class="loc" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="939" from="913" to="889" class="loc" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="13" ref="901" type="state">
+      <trigger start="13" end="13" text="Husfl" ref="907"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="847" text="Frau Ennelin Frygin von Waltzach&#10;Clausen Stören des vogtes ehl . Husfl"/>
+        <role role="family-b" ref="853" text="Clausen Stören des vogtes"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="5" end="6" ref="835" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="847" text="Frau Ennelin Frygin von Waltzach&#10;Clausen Stören des vogtes ehl . Husfl"/>
+        <role role="location-b" ref="841" text="Waltzach"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="1" end="17" ref="" type="event">
+      <trigger start="1" end="1" text="koufft" ref="946"/>
+      <event event_id="2.0">
+        <role role="buyer" ref="847" text="Frau Ennelin Frygin von Waltzach&#10;Clausen Stören des vogtes ehl . Husfl"/>
+        <role role="property" ref="913" text="daz Hus zem&#10;Nawen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="20" end="28" ref="" type="state">
+      <trigger start="20" end="20" text="versessen" ref="952"/>
+      <event event_id="3.0">
+        <role role="interest" ref="877" text="12 1 / 2 fl"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="past" modality="ass" start="14" end="33" ref="" type="event">
+      <trigger start="33" end="33" text="gefrönet" ref="958"/>
+      <event event_id="4.0">
+        <role role="property" ref="913" text="daz Hus zem&#10;Nawen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="913" text="daz Hus zem&#10;Nawen"/>
+        <role role="location-b" ref="883" text="Steblis&#10;brunnen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="913" text="daz Hus zem&#10;Nawen"/>
+        <role role="location-b" ref="889" text="dem Hus zem Socin"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

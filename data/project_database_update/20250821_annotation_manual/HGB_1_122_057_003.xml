@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 122/57 S. [3]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Marktplatz Theil von 16, Ecke</tei:title>
+            <tei:idno>HGB 1 122/57</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494836</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1455">1455</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611202.6728325277 1267499.6706221516</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Heinrich</token>
+    <token token_id="4">Halbysen</token>
+    <token token_id="5">Burger</token>
+    <token token_id="6">ze</token>
+    <token token_id="7">Basel</token>
+    <token token_id="8">,</token>
+    <token token_id="9">verkauft</token>
+    <token token_id="10">Johans</token>
+    <token token_id="11">Zschegkenbürlin</token>
+    <token token_id="12">,</token>
+    <token token_id="13">Burger</token>
+    <token token_id="14">ze</token>
+    <token token_id="15">Basel</token>
+    <token token_id="16">,</token>
+    <token token_id="17">die</token>
+    <token token_id="18">6</token>
+    <token token_id="19">sh</token>
+    <token token_id="20">.</token>
+    <token token_id="21">und</token>
+    <token token_id="22">9</token>
+    <token token_id="23">Phg</token>
+    <token token_id="24">.</token>
+    <token token_id="25">ewigs</token>
+    <token token_id="26">Gelts</token>
+    <token token_id="27">,</token>
+    <token token_id="28">so</token>
+    <token token_id="29">Heinrich</token>
+    <token token_id="30">Halbysen</token>
+    <token token_id="31">hat</token>
+    <token token_id="32">uff</token>
+    <token token_id="33">dem</token>
+    <token token_id="34">Ort</token>
+    <token token_id="35">¬</token>
+    <token token_id="36">hüselin</token>
+    <token token_id="37">und</token>
+    <token token_id="38">der</token>
+    <token token_id="39">Hofstatt</token>
+    <token token_id="40">so</token>
+    <token token_id="41">da</token>
+    <token token_id="42">lyt</token>
+    <token token_id="43">zwüschen</token>
+    <token token_id="44">zweyn</token>
+    <token token_id="45">1</token>
+    <token token_id="46">ebenfalls</token>
+    <token token_id="47">an</token>
+    <token token_id="48">Johanns</token>
+    <token token_id="49">Zschegkenburlin</token>
+    <token token_id="50">verkoufften</token>
+    <token token_id="51">Hüsern</token>
+    <token token_id="52">als</token>
+    <token token_id="53">die</token>
+    <token token_id="54">Hüsere</token>
+    <token token_id="55">alle</token>
+    <token token_id="56">drey</token>
+    <token token_id="57">under</token>
+    <token token_id="58">ein</token>
+    <token token_id="59">Tach</token>
+    <token token_id="60">gebuwen</token>
+    <token token_id="61">sint</token>
+    <token token_id="62">bi</token>
+    <token token_id="63">der</token>
+    <token token_id="64">Bleischschale</token>
+    <token token_id="65">gelegen</token>
+    <token token_id="66">,</token>
+    <token token_id="67">sodann</token>
+    <token token_id="68">diese</token>
+    <token token_id="69">beiden</token>
+    <token token_id="70">Hauser</token>
+    <token token_id="71">,</token>
+    <token token_id="72">um</token>
+    <token token_id="73">65</token>
+    <token token_id="74">Gld</token>
+    <token token_id="75">.</token>
+  </text>
+  <spans>
+    <span id="1210" start="3" end="7" text="Heinrich Halbysen Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1216" start="3" end="4" text="Heinrich Halbysen" element="head" class="nam" subclass=""/>
+      <span id="1222" start="5" end="7" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1228" start="5" end="5" text="Burger" element="head" class="org-aff" subclass=""/>
+        <span id="1240" start="7" end="7" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1240_head" start="7" end="7" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1387" start="9" end="9" text="verkauft" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1234" start="10" end="15" text="Johans&#10;Zschegkenbürlin , Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1246" start="10" end="11" text="Johans&#10;Zschegkenbürlin" element="head" class="nam" subclass=""/>
+      <span id="1252" start="13" end="15" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1258" start="13" end="13" text="Burger" element="head" class="org-aff" subclass=""/>
+        <span id="1264" start="15" end="15" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1264_head" start="15" end="15" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1270" start="18" end="24" text="6 sh . und 9 Phg ." element="value" class="money" subclass=""/>
+    <span id="1276" start="29" end="30" text="Heinrich Halbysen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1276_head" start="29" end="30" element="head" class="nam" text="Heinrich Halbysen" subclass=""/>
+    </span>
+    <span id="1393" start="31" end="31" text="hat" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1289" start="33" end="65" text="dem Ort ¬&#10;hüselin und der Hofstatt so da lyt zwüschen zweyn&#10;1 ebenfalls an Johanns Zschegkenburlin verkoufften Hüsern&#10;als die Hüsere alle drey under ein Tach gebuwen sint&#10;bi der&#10;Bleischschale gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1295" start="34" end="39" text="Ort ¬&#10;hüselin und der Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1301" start="40" end="65" text="so da lyt zwüschen zweyn&#10;1 ebenfalls an Johanns Zschegkenburlin verkoufften Hüsern&#10;als die Hüsere alle drey under ein Tach gebuwen sint&#10;bi der&#10;Bleischschale gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1307" start="44" end="61" text="zweyn&#10;1 ebenfalls an Johanns Zschegkenburlin verkoufften Hüsern&#10;als die Hüsere alle drey under ein Tach gebuwen sint" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1412" start="46" end="50" text="ebenfalls an Johanns Zschegkenburlin verkoufften" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1399" start="48" end="49" text="Johanns Zschegkenburlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1399_head" start="48" end="49" element="head" class="nam" text="Johanns Zschegkenburlin" subclass=""/>
+            </span>
+          </span>
+          <span id="1313" start="51" end="51" text="Hüsern" element="head" class="type" subclass=""/>
+          <span id="1319" start="52" end="61" text="als die Hüsere alle drey under ein Tach gebuwen sint" element="attr" class="unk" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1325" start="53" end="54" text="die Hüsere" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1344" start="54" end="54" text="Hüsere" element="head" class="type" subclass=""/>
+            </span>
+            <span id="1331" start="55" end="56" text="alle drey" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1331_head" start="55" end="56" element="head" class="pro" text="alle drey" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1350" start="63" end="64" text="der&#10;Bleischschale" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1356" start="64" end="64" text="Bleischschale" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1362" start="68" end="70" text="diese beiden&#10;Hauser" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1368" start="70" end="70" text="Hauser" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1381" start="73" end="75" text="65 Gld ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1282" from="1276" to="1210" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1405" from="1399" to="1234" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1374" from="1362" to="1307" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1337" from="1331" to="1325" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="5" end="7" ref="1222" type="state">
+      <trigger start="5" end="5" text="Burger" ref="1228"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1210" text="Heinrich Halbysen Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="1240" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="13" end="15" ref="1252" type="state">
+      <trigger start="13" end="13" text="Burger" ref="1258"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1234" text="Johans&#10;Zschegkenbürlin , Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="1264" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="40" end="65" ref="1301" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1289" text="dem Ort ¬&#10;hüselin und der Hofstatt so da lyt zwüschen zweyn&#10;1 ebenfalls an Johanns Zschegkenburlin verkoufften Hüsern&#10;als die Hüsere alle drey under ein Tach gebuwen sint&#10;bi der&#10;Bleischschale gelegen"/>
+        <role role="location-b" ref="1307" text="zweyn&#10;1 ebenfalls an Johanns Zschegkenburlin verkoufften Hüsern&#10;als die Hüsere alle drey under ein Tach gebuwen sint"/>
+        <role role="location-b" ref="1350" text="der&#10;Bleischschale"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="46" end="50" ref="1412" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1307" text="zweyn&#10;1 ebenfalls an Johanns Zschegkenburlin verkoufften Hüsern&#10;als die Hüsere alle drey under ein Tach gebuwen sint"/>
+        <role role="owner" ref="1399" text="Johanns Zschegkenburlin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="9" ref="" type="event">
+      <trigger start="9" end="9" text="verkauft" ref="1387"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1210" text="Heinrich Halbysen Burger ze Basel"/>
+        <role role="buyer" ref="1234" text="Johans&#10;Zschegkenbürlin , Burger ze Basel"/>
+        <role role="due" ref="1393" text="hat"/>
+        <role role="collateral" ref="1362" text="diese beiden&#10;Hauser"/>
+        <role role="price" ref="1381" text="65 Gld ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="18" end="65" ref="" type="state">
+      <trigger start="31" end="31" text="hat" ref="1393"/>
+      <event event_id="6.0">
+        <role role="interest" ref="1270" text="6 sh . und 9 Phg ."/>
+        <role role="beneficiary" ref="1276" text="Heinrich Halbysen"/>
+        <role role="property" ref="1289" text="dem Ort ¬&#10;hüselin und der Hofstatt so da lyt zwüschen zweyn&#10;1 ebenfalls an Johanns Zschegkenburlin verkoufften Hüsern&#10;als die Hüsere alle drey under ein Tach gebuwen sint&#10;bi der&#10;Bleischschale gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

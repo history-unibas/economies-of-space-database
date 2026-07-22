@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/119 S. [4]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt 24</tei:title>
+            <tei:idno>HGB 1 10/119</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1458471</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1413">1413</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611859.538436481 1267106.3011522144</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Der</token>
+    <token token_id="5">Convent</token>
+    <token token_id="6">des</token>
+    <token token_id="7">Closters</token>
+    <token token_id="8">ze</token>
+    <token token_id="9">den</token>
+    <token token_id="10">Barfüssen</token>
+    <token token_id="11">ze</token>
+    <token token_id="12">Basel</token>
+    <token token_id="13">verleiht</token>
+    <token token_id="14">Henmann</token>
+    <token token_id="15">Telsperg</token>
+    <token token_id="16">dem</token>
+    <token token_id="17">Snider</token>
+    <token token_id="18">,</token>
+    <token token_id="19">Burger</token>
+    <token token_id="20">ze</token>
+    <token token_id="21">Basel</token>
+    <token token_id="22">,</token>
+    <token token_id="23">das</token>
+    <token token_id="24">Huse</token>
+    <token token_id="25">und</token>
+    <token token_id="26">Hoffstatt</token>
+    <token token_id="27">,</token>
+    <token token_id="28">gelegen</token>
+    <token token_id="29">in</token>
+    <token token_id="30">der</token>
+    <token token_id="31">Vorstatt</token>
+    <token token_id="32">ze</token>
+    <token token_id="33">Sant</token>
+    <token token_id="34">Alban</token>
+    <token token_id="35">,</token>
+    <token token_id="36">Basel</token>
+    <token token_id="37">,</token>
+    <token token_id="38">zwüschent</token>
+    <token token_id="39">Herr</token>
+    <token token_id="40">Furkhart</token>
+    <token token_id="41">Kellers</token>
+    <token token_id="42">eins</token>
+    <token token_id="43">Cappellans</token>
+    <token token_id="44">der</token>
+    <token token_id="45">Stifte</token>
+    <token token_id="46">ze</token>
+    <token token_id="47">Sant</token>
+    <token token_id="48">Peter</token>
+    <token token_id="49">und</token>
+    <token token_id="50">Hanns</token>
+    <token token_id="51">Zifeners</token>
+    <token token_id="52">von</token>
+    <token token_id="53">Grellin</token>
+    <token token_id="54">,</token>
+    <token token_id="55">gen</token>
+    <token token_id="56">des</token>
+    <token token_id="57">Vischers</token>
+    <token token_id="58">Hüsere</token>
+    <token token_id="59">,</token>
+    <token token_id="60">ze</token>
+    <token token_id="61">einem</token>
+    <token token_id="62">Erbe</token>
+    <token token_id="63">,</token>
+    <token token_id="64">umb</token>
+    <token token_id="65">4</token>
+    <token token_id="66">1</token>
+    <token token_id="67">/</token>
+    <token token_id="68">2</token>
+    <token token_id="69">℔</token>
+    <token token_id="70">.</token>
+    <token token_id="71">Zinsphg</token>
+    <token token_id="72">.</token>
+    <token token_id="73">ze</token>
+    <token token_id="74">Zins</token>
+    <token token_id="75">,</token>
+    <token token_id="76">2</token>
+    <token token_id="77">Ring</token>
+    <token token_id="78">Brotes</token>
+    <token token_id="79">ze</token>
+    <token token_id="80">Wisunge</token>
+    <token token_id="81">und</token>
+    <token token_id="82">umbe</token>
+    <token token_id="83">3</token>
+    <token token_id="84">1</token>
+    <token token_id="85">/</token>
+    <token token_id="86">2</token>
+    <token token_id="87">sh</token>
+    <token token_id="88">.</token>
+    <token token_id="89">ze</token>
+    <token token_id="90">Er</token>
+    <token token_id="91">¬</token>
+    <token token_id="92">schatze</token>
+    <token token_id="93">,</token>
+    <token token_id="94">wenne</token>
+    <token token_id="95">sich</token>
+    <token token_id="96">die</token>
+    <token token_id="97">Hande</token>
+    <token token_id="98">verwandelt</token>
+    <token token_id="99">,</token>
+    <token token_id="100">davon</token>
+    <token token_id="101">gehören</token>
+    <token token_id="102">dem</token>
+    <token token_id="103">Spitale</token>
+    <token token_id="104">zer</token>
+    <token token_id="105">armen</token>
+    <token token_id="106">Lüten</token>
+    <token token_id="107">ze</token>
+    <token token_id="108">Basel</token>
+    <token token_id="109">1</token>
+    <token token_id="110">℔</token>
+    <token token_id="111">.</token>
+    <token token_id="112">und</token>
+    <token token_id="113">Wisung</token>
+    <token token_id="114">und</token>
+    <token token_id="115">Diserschatz</token>
+    <token token_id="116">,</token>
+    <token token_id="117">von</token>
+    <token token_id="118">eins</token>
+    <token token_id="119">Selgeretes</token>
+    <token token_id="120">wegen</token>
+    <token token_id="121">1</token>
+    <token token_id="122">sh</token>
+    <token token_id="123">.</token>
+    <token token_id="124">dem</token>
+    <token token_id="125">Closter</token>
+    <token token_id="126">ze</token>
+    <token token_id="127">St</token>
+    <token token_id="128">.</token>
+    <token token_id="129">Alban</token>
+    <token token_id="130">,</token>
+  </text>
+  <spans>
+    <span id="1912" start="4" end="12" text="Der Convent des Closters ze den Barfüssen ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="2200" start="5" end="7" text="Convent des Closters" element="attr" class="type" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      <span id="1918" start="8" end="10" text="ze den Barfüssen" element="head" class="nam" subclass=""/>
+      <span id="1924" start="11" end="12" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1930" start="12" end="12" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1930_head" start="12" end="12" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2212" start="13" end="13" text="verleiht" element="trigger" class="hereditary" tense="pres" polarity="pos" modality="ass" subclass="lease"/>
+    <span id="1936" start="14" end="21" text="Henmann Telsperg dem Snider , Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1942" start="14" end="15" text="Henmann Telsperg" element="head" class="nam" subclass=""/>
+      <span id="1948" start="16" end="17" text="dem Snider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1954" start="17" end="17" text="Snider" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1960" start="19" end="21" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1966" start="19" end="19" text="Burger" element="head" class="org-aff" subclass=""/>
+        <span id="1972" start="21" end="21" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1972_head" start="21" end="21" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1978" start="23" end="58" text="das&#10;Huse und Hoffstatt , gelegen in der Vorstatt ze Sant Alban ,&#10;Basel , zwüschent Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter und Hanns Zifeners von Grellin ,&#10;gen des Vischers Hüsere" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1984" start="24" end="26" text="Huse und Hoffstatt" element="head" class="type" subclass=""/>
+      <span id="1990" start="28" end="58" text="gelegen in der Vorstatt ze Sant Alban ,&#10;Basel , zwüschent Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter und Hanns Zifeners von Grellin ,&#10;gen des Vischers Hüsere" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2020" start="30" end="36" text="der Vorstatt ze Sant Alban ,&#10;Basel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1996" start="31" end="31" text="Vorstatt" element="head" class="type" subclass=""/>
+          <span id="2002" start="32" end="34" text="ze Sant Alban" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2008" start="33" end="34" text="Sant Alban" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="2008_head" start="33" end="34" element="head" class="nam" text="Sant Alban" subclass=""/>
+            </span>
+          </span>
+          <span id="2026" start="36" end="36" text="Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2014" start="36" end="36" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2014_head" start="36" end="36" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2110" start="39" end="58" text="Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter und Hanns Zifeners von Grellin ,&#10;gen des Vischers Hüsere" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2122" start="39" end="57" text="Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter und Hanns Zifeners von Grellin ,&#10;gen des Vischers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2116" start="39" end="57" text="Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter und Hanns Zifeners von Grellin ,&#10;gen des Vischers" element="list" class="per" subclass="">
+              <span id="2032" start="39" end="48" text="Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2038" start="40" end="41" text="Furkhart Kellers" element="head" class="nam" subclass=""/>
+                <span id="2044" start="42" end="48" text="eins Cappellans&#10;der Stifte ze Sant Peter" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+                  <span id="2050" start="43" end="43" text="Cappellans" element="head" class="occ" subclass="org-job"/>
+                  <span id="2056" start="44" end="48" text="der Stifte ze Sant Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+                    <span id="2062" start="46" end="48" text="ze Sant Peter" element="head" class="nam" subclass=""/>
+                  </span>
+                </span>
+              </span>
+              <span id="2074" start="50" end="57" text="Hanns Zifeners von Grellin ,&#10;gen des Vischers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2068" start="50" end="51" text="Hanns Zifeners" element="head" class="nam" subclass=""/>
+                <span id="2080" start="52" end="55" text="von Grellin ,&#10;gen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="2086" start="53" end="55" text="Grellin ,&#10;gen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                    <span id="2086_head" start="53" end="55" element="head" class="nam" text="Grellin , gen" subclass=""/>
+                  </span>
+                </span>
+                <span id="2092" start="56" end="57" text="des Vischers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="2098" start="57" end="57" text="Vischers" element="head" class="occ" subclass=""/>
+                </span>
+              </span>
+            </span>
+          </span>
+          <span id="2104" start="58" end="58" text="Hüsere" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2128" start="65" end="72" text="4 1 / 2 ℔. Zinsphg ." element="value" class="money" subclass=""/>
+    <span id="2218" start="73" end="74" text="ze Zins" element="other" class="other" subclass=""/>
+    <span id="2134" start="76" end="78" text="2 Ring Brotes" element="value" class="money" subclass=""/>
+    <span id="2224" start="79" end="80" text="ze Wisunge" element="other" class="other" subclass=""/>
+    <span id="2140" start="83" end="88" text="3 1 / 2 sh ." element="value" class="money" subclass=""/>
+    <span id="2230" start="89" end="92" text="ze Er ¬&#10;schatze" element="other" class="other" subclass=""/>
+    <span id="2236" start="100" end="129" text="davon gehören dem Spitale zer armen Lüten ze Basel 1 ℔. und Wisung und Diserschatz , von eins Selgeretes wegen 1 sh . dem Closter ze St . Alban" element="other" class="other" subclass="">
+      <span id="2152" start="102" end="108" text="dem Spitale zer armen Lüten ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2158" start="103" end="106" text="Spitale zer armen Lüten" element="head" class="type" subclass=""/>
+        <span id="2164" start="107" end="108" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2170" start="108" end="108" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2170_head" start="108" end="108" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2176" start="109" end="111" text="1 ℔." element="value" class="money" subclass=""/>
+      <span id="2182" start="121" end="123" text="1 sh ." element="value" class="money" subclass=""/>
+      <span id="2188" start="124" end="129" text="dem Closter ze St . Alban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="2194" start="126" end="129" text="ze St . Alban" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="19" end="21" ref="1960" type="state">
+      <trigger start="19" end="19" text="Burger" ref="1966"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1936" text="Henmann Telsperg dem Snider , Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="1972" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="42" end="48" ref="2044" type="state">
+      <trigger start="43" end="43" text="Cappellans" ref="2050"/>
+      <event event_id="1.0">
+        <role role="employee" ref="2032" text="Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter"/>
+        <role role="employer" ref="2056" text="der Stifte ze Sant Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="11" end="12" ref="1924" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1912" text="Der Convent des Closters ze den Barfüssen ze Basel"/>
+        <role role="location-b" ref="1930" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="28" end="58" ref="1990" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1978" text="das&#10;Huse und Hoffstatt , gelegen in der Vorstatt ze Sant Alban ,&#10;Basel , zwüschent Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter und Hanns Zifeners von Grellin ,&#10;gen des Vischers Hüsere"/>
+        <role role="location-b" ref="2020" text="der Vorstatt ze Sant Alban ,&#10;Basel"/>
+        <role role="location-b" ref="2110" text="Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter und Hanns Zifeners von Grellin ,&#10;gen des Vischers Hüsere"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="32" end="34" ref="2002" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="2020" text="der Vorstatt ze Sant Alban ,&#10;Basel"/>
+        <role role="location-b" ref="2008" text="Sant Alban"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="36" end="36" ref="2026" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2020" text="der Vorstatt ze Sant Alban ,&#10;Basel"/>
+        <role role="location-b" ref="2014" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="39" end="57" ref="2122" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="2110" text="Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter und Hanns Zifeners von Grellin ,&#10;gen des Vischers Hüsere"/>
+        <role role="owner" ref="2032" text="Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter"/>
+        <role role="owner" ref="2074" text="Hanns Zifeners von Grellin ,&#10;gen des Vischers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="52" end="55" ref="2080" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="2074" text="Hanns Zifeners von Grellin ,&#10;gen des Vischers"/>
+        <role role="location-b" ref="2086" text="Grellin ,&#10;gen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="107" end="108" ref="2164" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="2152" text="dem Spitale zer armen Lüten ze Basel"/>
+        <role role="location-b" ref="2170" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="heritable-lease-grant" polarity="pos" tense="pres" modality="ass" start="13" end="13" ref="" type="event">
+      <trigger start="13" end="13" text="verleiht" ref="2212"/>
+      <event event_id="9.0">
+        <role role="grantor" ref="1912" text="Der Convent des Closters ze den Barfüssen ze Basel"/>
+        <role role="lessee" ref="1936" text="Henmann Telsperg dem Snider , Burger ze Basel"/>
+        <role role="property" ref="1978" text="das&#10;Huse und Hoffstatt , gelegen in der Vorstatt ze Sant Alban ,&#10;Basel , zwüschent Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter und Hanns Zifeners von Grellin ,&#10;gen des Vischers Hüsere"/>
+        <role role="interest" ref="2128" text="4 1 / 2 ℔. Zinsphg ."/>
+        <role role="cause" ref="2218" text="ze Zins"/>
+        <role role="detail_distribution" ref="2236" text="davon gehören dem Spitale zer armen Lüten ze Basel 1 ℔. und Wisung und Diserschatz , von eins Selgeretes wegen 1 sh . dem Closter ze St . Alban"/>
+      </event>
+      <event event_id="9.1">
+        <role role="grantor" ref="1912" text="Der Convent des Closters ze den Barfüssen ze Basel"/>
+        <role role="lessee" ref="1936" text="Henmann Telsperg dem Snider , Burger ze Basel"/>
+        <role role="property" ref="1978" text="das&#10;Huse und Hoffstatt , gelegen in der Vorstatt ze Sant Alban ,&#10;Basel , zwüschent Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter und Hanns Zifeners von Grellin ,&#10;gen des Vischers Hüsere"/>
+        <role role="interest" ref="2134" text="2 Ring Brotes"/>
+        <role role="cause" ref="2224" text="ze Wisunge"/>
+        <role role="detail_distribution" ref="2236" text="davon gehören dem Spitale zer armen Lüten ze Basel 1 ℔. und Wisung und Diserschatz , von eins Selgeretes wegen 1 sh . dem Closter ze St . Alban"/>
+      </event>
+      <event event_id="9.2">
+        <role role="grantor" ref="1912" text="Der Convent des Closters ze den Barfüssen ze Basel"/>
+        <role role="lessee" ref="1936" text="Henmann Telsperg dem Snider , Burger ze Basel"/>
+        <role role="property" ref="1978" text="das&#10;Huse und Hoffstatt , gelegen in der Vorstatt ze Sant Alban ,&#10;Basel , zwüschent Herr Furkhart Kellers eins Cappellans&#10;der Stifte ze Sant Peter und Hanns Zifeners von Grellin ,&#10;gen des Vischers Hüsere"/>
+        <role role="interest" ref="2140" text="3 1 / 2 sh ."/>
+        <role role="cause" ref="2230" text="ze Er ¬&#10;schatze"/>
+        <role role="detail_distribution" ref="2236" text="davon gehören dem Spitale zer armen Lüten ze Basel 1 ℔. und Wisung und Diserschatz , von eins Selgeretes wegen 1 sh . dem Closter ze St . Alban"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

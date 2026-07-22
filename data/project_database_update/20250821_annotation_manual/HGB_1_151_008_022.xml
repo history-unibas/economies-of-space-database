@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 151/8 S. [22]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Pfluggässlein 3</tei:title>
+            <tei:idno>HGB 1 151/8</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1503485</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1512">1512</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611346.024888396 1267263.5075447802</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Syfid</token>
+    <token token_id="1">Vorbürger</token>
+    <token token_id="2">von</token>
+    <token token_id="3">Telsperg</token>
+    <token token_id="4">,</token>
+    <token token_id="5">verkauft</token>
+    <token token_id="6">an</token>
+    <token token_id="7">Rudolfen</token>
+    <token token_id="8">Huseneck</token>
+    <token token_id="9">,</token>
+    <token token_id="10">u</token>
+    <token token_id="11">.</token>
+    <token token_id="12">seine</token>
+    <token token_id="13">Frau</token>
+    <token token_id="14">Katherinen</token>
+    <token token_id="15">,</token>
+    <token token_id="16">das</token>
+    <token token_id="17">Hus</token>
+    <token token_id="18">&amp;</token>
+    <token token_id="19">Hofstatt</token>
+    <token token_id="20">genant</token>
+    <token token_id="21">grossen</token>
+    <token token_id="22">Costentz</token>
+    <token token_id="23">,</token>
+    <token token_id="24">in</token>
+    <token token_id="25">der</token>
+    <token token_id="26">wyssengassen</token>
+    <token token_id="27">,</token>
+    <token token_id="28">zwüschen</token>
+    <token token_id="29">dem</token>
+    <token token_id="30">Hus</token>
+    <token token_id="31">zur</token>
+    <token token_id="32">Kellen</token>
+    <token token_id="33">zu</token>
+    <token token_id="34">einer</token>
+    <token token_id="35">,</token>
+    <token token_id="36">ư</token>
+    <token token_id="37">dem</token>
+    <token token_id="38">Hus</token>
+    <token token_id="39">clemen</token>
+    <token token_id="40">costentz</token>
+    <token token_id="41">zur</token>
+    <token token_id="42">andern</token>
+    <token token_id="43">siten</token>
+    <token token_id="44">gelegen</token>
+    <token token_id="45">ist</token>
+    <token token_id="46">,</token>
+    <token token_id="47">zinst</token>
+    <token token_id="48">jährl</token>
+    <token token_id="49">dem</token>
+    <token token_id="50">Spital</token>
+    <token token_id="51">2fl</token>
+    <token token_id="52">.</token>
+    <token token_id="53">u</token>
+    <token token_id="54">.</token>
+    <token token_id="55">dem</token>
+    <token token_id="56">gotshus</token>
+    <token token_id="57">s</token>
+    <token token_id="58">.</token>
+    <token token_id="59">Jacob</token>
+    <token token_id="60">auch</token>
+    <token token_id="61">2fl</token>
+    <token token_id="62">u</token>
+    <token token_id="63">.</token>
+    <token token_id="64">willigen</token>
+    <token token_id="65">der</token>
+    <token token_id="66">Spitalschuber</token>
+    <token token_id="67">u</token>
+    <token token_id="68">.</token>
+    <token token_id="69">der</token>
+    <token token_id="70">Busmeister</token>
+    <token token_id="71">ein</token>
+    <token token_id="72">,</token>
+    <token token_id="73">sonst</token>
+    <token token_id="74">frei</token>
+    <token token_id="75">,</token>
+    <token token_id="76">sum</token>
+    <token token_id="77">20</token>
+    <token token_id="78">fl</token>
+    <token token_id="79">.</token>
+  </text>
+  <spans>
+    <span id="1177" start="0" end="3" text="Syfid Vorbürger von Telsperg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1183" start="0" end="1" text="Syfid Vorbürger" element="head" class="nam" subclass=""/>
+      <span id="1189" start="2" end="3" text="von Telsperg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1195" start="3" end="3" text="Telsperg" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1195_head" start="3" end="3" element="head" class="nam" text="Telsperg" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1382" start="5" end="5" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1244" start="7" end="14" text="Rudolfen&#10;Huseneck , u . seine Frau Katherinen" element="list" class="per" subclass="">
+      <span id="1201" start="7" end="8" text="Rudolfen&#10;Huseneck" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1201_head" start="7" end="8" element="head" class="nam" text="Rudolfen Huseneck" subclass=""/>
+      </span>
+      <span id="1207" start="12" end="14" text="seine Frau Katherinen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1213" start="12" end="13" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1225" start="12" end="12" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1225_head" start="12" end="12" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1219" start="13" end="13" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1238" start="14" end="14" text="Katherinen" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1250" start="16" end="74" text="das Hus &amp; Hofstatt&#10;genant grossen Costentz , in der wyssengassen , zwüschen dem Hus&#10;zur Kellen zu einer , ư dem Hus clemen costentz zur andern&#10;siten gelegen ist , zinst jährl dem Spital 2fl . u . dem gotshus&#10;s . Jacob auch 2fl u . willigen der Spitalschuber u . der Busmeister&#10;ein , sonst frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1256" start="17" end="19" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1262" start="21" end="22" text="grossen Costentz" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1262_head" start="21" end="22" element="head" class="nam" text="grossen Costentz" subclass=""/>
+      </span>
+      <span id="1310" start="24" end="45" text="in der wyssengassen , zwüschen dem Hus&#10;zur Kellen zu einer , ư dem Hus clemen costentz zur andern&#10;siten gelegen ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1268" start="25" end="26" text="der wyssengassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1274" start="26" end="26" text="wyssengassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1280" start="29" end="32" text="dem Hus&#10;zur Kellen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1286" start="30" end="32" text="Hus&#10;zur Kellen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1292" start="37" end="40" text="dem Hus clemen costentz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1298" start="38" end="40" text="Hus clemen costentz" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1316" start="47" end="74" text="zinst jährl dem Spital 2fl . u . dem gotshus&#10;s . Jacob auch 2fl u . willigen der Spitalschuber u . der Busmeister&#10;ein , sonst frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1388" start="47" end="47" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1304" start="48" end="48" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="1322" start="49" end="50" text="dem Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1328" start="50" end="50" text="Spital" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1334" start="51" end="52" text="2fl ." element="value" class="money" subclass=""/>
+        <span id="1340" start="55" end="59" text="dem gotshus&#10;s . Jacob" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1394" start="56" end="59" text="gotshus&#10;s . Jacob" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1346" start="61" end="61" text="2fl" element="value" class="money" subclass=""/>
+        <span id="1352" start="65" end="66" text="der Spitalschuber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1358" start="66" end="66" text="Spitalschuber" element="head" class="occ" subclass="org-job"/>
+        </span>
+        <span id="1364" start="69" end="70" text="der Busmeister" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1370" start="70" end="70" text="Busmeister" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1376" start="77" end="79" text="20 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1231" from="1225" to="1201" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1388_role" from="1388" to="1250" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="12" end="13" ref="1213" type="state">
+      <trigger start="13" end="13" text="Frau" ref="1219"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1207" text="seine Frau Katherinen"/>
+        <role role="family-b" ref="1225" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="2" end="3" ref="1189" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1177" text="Syfid Vorbürger von Telsperg"/>
+        <role role="location-b" ref="1195" text="Telsperg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="24" end="45" ref="1310" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1250" text="das Hus &amp; Hofstatt&#10;genant grossen Costentz , in der wyssengassen , zwüschen dem Hus&#10;zur Kellen zu einer , ư dem Hus clemen costentz zur andern&#10;siten gelegen ist , zinst jährl dem Spital 2fl . u . dem gotshus&#10;s . Jacob auch 2fl u . willigen der Spitalschuber u . der Busmeister&#10;ein , sonst frei"/>
+        <role role="location-b" ref="1268" text="der wyssengassen"/>
+        <role role="location-b" ref="1280" text="dem Hus&#10;zur Kellen"/>
+        <role role="location-b" ref="1292" text="dem Hus clemen costentz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="79" ref="" type="event">
+      <trigger start="5" end="5" text="verkauft" ref="1382"/>
+      <event event_id="3.0">
+        <role role="seller" ref="1177" text="Syfid Vorbürger von Telsperg"/>
+        <role role="buyer" ref="1201" text="Rudolfen&#10;Huseneck"/>
+        <role role="buyer" ref="1207" text="seine Frau Katherinen"/>
+        <role role="property" ref="1250" text="das Hus &amp; Hofstatt&#10;genant grossen Costentz , in der wyssengassen , zwüschen dem Hus&#10;zur Kellen zu einer , ư dem Hus clemen costentz zur andern&#10;siten gelegen ist , zinst jährl dem Spital 2fl . u . dem gotshus&#10;s . Jacob auch 2fl u . willigen der Spitalschuber u . der Busmeister&#10;ein , sonst frei"/>
+        <role role="price" ref="1376" text="20 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="16" end="74" ref="1316" type="state">
+      <trigger start="47" end="47" text="zinst" ref="1388"/>
+      <event event_id="4.0">
+        <role role="interval" ref="1304" text="jährl"/>
+        <role role="beneficiary" ref="1322" text="dem Spital"/>
+        <role role="interest" ref="1334" text="2fl ."/>
+        <role role="consenting" ref="1352" text="der Spitalschuber"/>
+        <role role="consenting" ref="1364" text="der Busmeister"/>
+        <role role="property" ref="1250" text="das Hus &amp; Hofstatt&#10;genant grossen Costentz , in der wyssengassen , zwüschen dem Hus&#10;zur Kellen zu einer , ư dem Hus clemen costentz zur andern&#10;siten gelegen ist , zinst jährl dem Spital 2fl . u . dem gotshus&#10;s . Jacob auch 2fl u . willigen der Spitalschuber u . der Busmeister&#10;ein , sonst frei"/>
+      </event>
+      <event event_id="4.1">
+        <role role="interval" ref="1304" text="jährl"/>
+        <role role="beneficiary" ref="1340" text="dem gotshus&#10;s . Jacob"/>
+        <role role="interest" ref="1346" text="2fl"/>
+        <role role="consenting" ref="1352" text="der Spitalschuber"/>
+        <role role="consenting" ref="1364" text="der Busmeister"/>
+        <role role="property" ref="1250" text="das Hus &amp; Hofstatt&#10;genant grossen Costentz , in der wyssengassen , zwüschen dem Hus&#10;zur Kellen zu einer , ư dem Hus clemen costentz zur andern&#10;siten gelegen ist , zinst jährl dem Spital 2fl . u . dem gotshus&#10;s . Jacob auch 2fl u . willigen der Spitalschuber u . der Busmeister&#10;ein , sonst frei"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

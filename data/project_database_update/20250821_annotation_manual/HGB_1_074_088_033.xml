@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 74/88 S. [33]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hebelstrasse 22</tei:title>
+            <tei:idno>HGB 1 74/88</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1478304</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1632">1632</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610801.7088916455 1267802.915121635</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Rudolph</token>
+    <token token_id="1">Karin</token>
+    <token token_id="2">,</token>
+    <token token_id="3">hat</token>
+    <token token_id="4">wegen</token>
+    <token token_id="5">der</token>
+    <token token_id="6">300</token>
+    <token token_id="7">℔</token>
+    <token token_id="8">restieren</token>
+    <token token_id="9">der</token>
+    <token token_id="10">Hauptgut</token>
+    <token token_id="11">,</token>
+    <token token_id="12">auch</token>
+    <token token_id="13">der</token>
+    <token token_id="14">davon</token>
+    <token token_id="15">verfallenen</token>
+    <token token_id="16">zinsen</token>
+    <token token_id="17">,</token>
+    <token token_id="18">so</token>
+    <token token_id="19">ihme</token>
+    <token token_id="20">Jeremias</token>
+    <token token_id="21">Gattischuldi</token>
+    <token token_id="22">¬</token>
+    <token token_id="23">ist</token>
+    <token token_id="24">,</token>
+    <token token_id="25">desselben</token>
+    <token token_id="26">Gattis</token>
+    <token token_id="27">hierumb</token>
+    <token token_id="28">zum</token>
+    <token token_id="29">Unterpfand</token>
+    <token token_id="30">verschriebene</token>
+    <token token_id="31">Behausung</token>
+    <token token_id="32">und</token>
+    <token token_id="33">Hofstatt</token>
+    <token token_id="34">,</token>
+    <token token_id="35">in</token>
+    <token token_id="36">der</token>
+    <token token_id="37">Newen</token>
+    <token token_id="38">vorstatt</token>
+    <token token_id="39">,</token>
+    <token token_id="40">einseit</token>
+    <token token_id="41">neben</token>
+    <token token_id="42">Heinrich</token>
+    <token token_id="43">Lätten</token>
+    <token token_id="44">,</token>
+    <token token_id="45">anderseit</token>
+    <token token_id="46">Martin</token>
+    <token token_id="47">Werenfelsen</token>
+    <token token_id="48">gelegen</token>
+    <token token_id="49">,</token>
+    <token token_id="50">hinden</token>
+    <token token_id="51">auf</token>
+    <token token_id="52">Dr</token>
+    <token token_id="53">.</token>
+    <token token_id="54">Caspar</token>
+    <token token_id="55">Bauhinen</token>
+    <token token_id="56">stossend</token>
+    <token token_id="57">,</token>
+    <token token_id="58">gefrönt</token>
+    <token token_id="59">.</token>
+  </text>
+  <spans>
+    <span id="912" start="0" end="1" text="Rudolph Karin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="912_head" start="0" end="1" element="head" class="nam" text="Rudolph Karin" subclass=""/>
+    </span>
+    <span id="918" start="6" end="7" text="300 ℔" element="value" class="money" subclass=""/>
+    <span id="924" start="19" end="19" text="ihme" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="924_head" start="19" end="19" element="head" class="pro" text="ihme" subclass=""/>
+    </span>
+    <span id="937" start="20" end="21" text="Jeremias Gattischuldi" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="937_head" start="20" end="21" element="head" class="nam" text="Jeremias Gattischuldi" subclass=""/>
+    </span>
+    <span id="1034" start="23" end="23" text="ist" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="943" start="25" end="56" text="desselben Gattis hierumb zum Unterpfand verschriebene&#10;Behausung und Hofstatt , in der Newen vorstatt , einseit&#10;neben Heinrich Lätten , anderseit Martin Werenfelsen gelegen ,&#10;hinden auf Dr . Caspar Bauhinen stossend" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="955" start="25" end="26" text="desselben Gattis" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="961" start="25" end="26" text="desselben Gattis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="967" start="26" end="26" text="Gattis" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="949" start="31" end="33" text="Behausung und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="980" start="35" end="56" text="in der Newen vorstatt , einseit&#10;neben Heinrich Lätten , anderseit Martin Werenfelsen gelegen ,&#10;hinden auf Dr . Caspar Bauhinen stossend" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="986" start="36" end="38" text="der Newen vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="992" start="37" end="38" text="Newen vorstatt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="998" start="42" end="43" text="Heinrich Lätten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="998_head" start="42" end="43" element="head" class="nam" text="Heinrich Lätten" subclass=""/>
+        </span>
+        <span id="1004" start="46" end="47" text="Martin Werenfelsen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1004_head" start="46" end="47" element="head" class="nam" text="Martin Werenfelsen" subclass=""/>
+        </span>
+        <span id="1010" start="52" end="55" text="Dr . Caspar Bauhinen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1016" start="52" end="53" text="Dr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1016_head" start="52" end="53" element="head" class="title" text="Dr ." subclass=""/>
+          </span>
+          <span id="1022" start="54" end="55" text="Caspar Bauhinen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1028" start="58" end="58" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="930" from="924" to="912" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="973" from="961" to="937" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="25" end="26" ref="955" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="943" text="desselben Gattis hierumb zum Unterpfand verschriebene&#10;Behausung und Hofstatt , in der Newen vorstatt , einseit&#10;neben Heinrich Lätten , anderseit Martin Werenfelsen gelegen ,&#10;hinden auf Dr . Caspar Bauhinen stossend"/>
+        <role role="owner" ref="961" text="desselben Gattis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="56" ref="980" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="943" text="desselben Gattis hierumb zum Unterpfand verschriebene&#10;Behausung und Hofstatt , in der Newen vorstatt , einseit&#10;neben Heinrich Lätten , anderseit Martin Werenfelsen gelegen ,&#10;hinden auf Dr . Caspar Bauhinen stossend"/>
+        <role role="location-b" ref="986" text="der Newen vorstatt"/>
+        <role role="location-b" ref="998" text="Heinrich Lätten"/>
+        <role role="location-b" ref="1004" text="Martin Werenfelsen"/>
+        <role role="location-b" ref="1010" text="Dr . Caspar Bauhinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="23" end="23" ref="" type="state">
+      <trigger start="23" end="23" text="ist" ref="1034"/>
+      <event event_id="2.0">
+        <role role="capital" ref="918" text="300 ℔"/>
+        <role role="beneficiary" ref="924" text="ihme"/>
+        <role role="payer" ref="937" text="Jeremias Gattischuldi"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="58" ref="" type="event">
+      <trigger start="58" end="58" text="gefrönt" ref="1028"/>
+      <event event_id="3.0">
+        <role role="claimant" ref="912" text="Rudolph Karin"/>
+        <role role="cause" ref="1034" text="ist"/>
+        <role role="property" ref="943" text="desselben Gattis hierumb zum Unterpfand verschriebene&#10;Behausung und Hofstatt , in der Newen vorstatt , einseit&#10;neben Heinrich Lätten , anderseit Martin Werenfelsen gelegen ,&#10;hinden auf Dr . Caspar Bauhinen stossend"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

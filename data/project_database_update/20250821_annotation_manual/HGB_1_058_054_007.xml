@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/54 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse Theil von 51</tei:title>
+            <tei:idno>HGB 1 58/54</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467837</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1404">1404</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611408.880195439 1267278.9871398073</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">do</token>
+    <token token_id="2">gab</token>
+    <token token_id="3">ze</token>
+    <token token_id="4">koffende</token>
+    <token token_id="5">Angnese</token>
+    <token token_id="6">wilent</token>
+    <token token_id="7">eliche</token>
+    <token token_id="8">frow</token>
+    <token token_id="9">Henman</token>
+    <token token_id="10">Juss</token>
+    <token token_id="11">seligen</token>
+    <token token_id="12">deß</token>
+    <token token_id="13">watmans</token>
+    <token token_id="14">mit</token>
+    <token token_id="15">Heintzman</token>
+    <token token_id="16">Fusin</token>
+    <token token_id="17">demme</token>
+    <token token_id="18">gerwer</token>
+    <token token_id="19">burger</token>
+    <token token_id="20">ze</token>
+    <token token_id="21">Ba</token>
+    <token token_id="22">-</token>
+    <token token_id="23">sel</token>
+    <token token_id="24">irem</token>
+    <token token_id="25">sun</token>
+    <token token_id="26">und</token>
+    <token token_id="27">vogt</token>
+    <token token_id="28">Angnesen</token>
+    <token token_id="29">wilent</token>
+    <token token_id="30">elicher</token>
+    <token token_id="31">frowe</token>
+    <token token_id="32">Peter</token>
+    <token token_id="33">Niesen</token>
+    <token token_id="34">seligen</token>
+    <token token_id="35">wi</token>
+    <token token_id="36">¬</token>
+    <token token_id="37">lent</token>
+    <token token_id="38">burgers</token>
+    <token token_id="39">ze</token>
+    <token token_id="40">Basel</token>
+    <token token_id="41">ir</token>
+    <token token_id="42">zwene</token>
+    <token token_id="43">teil</token>
+    <token token_id="44">und</token>
+    <token token_id="45">alle</token>
+    <token token_id="46">die</token>
+    <token token_id="47">reht</token>
+    <token token_id="48">so</token>
+    <token token_id="49">si</token>
+    <token token_id="50">geerbt</token>
+    <token token_id="51">het</token>
+    <token token_id="52">von</token>
+    <token token_id="53">demme</token>
+    <token token_id="54">obgl</token>
+    <token token_id="55">.</token>
+    <token token_id="56">Peter</token>
+    <token token_id="57">seeligen</token>
+    <token token_id="58">und</token>
+    <token token_id="59">het</token>
+    <token token_id="60">an</token>
+    <token token_id="61">demme</token>
+    <token token_id="62">huse</token>
+    <token token_id="63">und</token>
+    <token token_id="64">höfli</token>
+    <token token_id="65">ze</token>
+    <token token_id="66">Büschemberg</token>
+    <token token_id="67">gelegen</token>
+    <token token_id="68">an</token>
+    <token token_id="69">der</token>
+    <token token_id="70">frien</token>
+    <token token_id="71">strass</token>
+    <token token_id="72">zwüschent</token>
+    <token token_id="73">Valkenberg</token>
+    <token token_id="74">und</token>
+    <token token_id="75">(</token>
+    <token token_id="76">Lüke</token>
+    <token token_id="77">)</token>
+    <token token_id="78">pro</token>
+    <token token_id="79">40</token>
+    <token token_id="80">gl</token>
+    <token token_id="81">und</token>
+    <token token_id="82">ist</token>
+    <token token_id="83">erbe</token>
+    <token token_id="84">von</token>
+    <token token_id="85">Spital</token>
+    <token token_id="86">,</token>
+    <token token_id="87">Hein</token>
+    <token token_id="88">¬</token>
+    <token token_id="89">Osterricher</token>
+    <token token_id="90">consensit</token>
+  </text>
+  <spans>
+    <span id="1696" start="4" end="4" text="koffende" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1397" start="5" end="13" text="Angnese wilent eliche&#10;frow Henman Juss seligen deß watmans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1728" start="5" end="5" text="Angnese" element="head" class="nam" subclass=""/>
+      <span id="1464" start="6" end="13" text="wilent eliche&#10;frow Henman Juss seligen deß watmans" element="appo" class="fam" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+        <span id="1470" start="7" end="8" text="eliche&#10;frow" element="head" class="fam" subclass=""/>
+        <span id="1476" start="9" end="13" text="Henman Juss seligen deß watmans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1482" start="9" end="10" text="Henman Juss" element="head" class="nam" subclass=""/>
+          <span id="1488" start="11" end="11" text="seligen" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          <span id="1494" start="12" end="13" text="deß watmans" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1500" start="13" end="13" text="watmans" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1403" start="15" end="27" text="Heintzman Fusin demme gerwer burger ze Ba -&#10;sel irem sun und vogt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1506" start="15" end="16" text="Heintzman Fusin" element="head" class="nam" subclass=""/>
+      <span id="1512" start="17" end="18" text="demme gerwer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1518" start="18" end="18" text="gerwer" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1524" start="19" end="23" text="burger ze Ba -&#10;sel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1530" start="19" end="19" text="burger" element="head" class="org-aff" subclass=""/>
+        <span id="1536" start="21" end="23" text="Ba -&#10;sel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1536_head" start="21" end="23" element="head" class="nam" text="Ba - sel" subclass=""/>
+        </span>
+      </span>
+      <span id="1542" start="24" end="27" text="irem sun und vogt" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1548" start="24" end="24" text="irem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1548_head" start="24" end="24" element="head" class="pro" text="irem" subclass=""/>
+        </span>
+        <span id="1561" start="25" end="25" text="sun" element="head" class="fam" subclass=""/>
+        <span id="1567" start="27" end="27" text="vogt" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1415" start="28" end="40" text="Angnesen&#10;wilent elicher frowe Peter Niesen seligen wi ¬&#10;lent burgers ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1597" start="28" end="28" text="Angnesen" element="head" class="nam" subclass=""/>
+      <span id="1684" start="29" end="40" text="wilent elicher frowe Peter Niesen seligen wi ¬&#10;lent burgers ze Basel" element="appo" class="fam" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+        <span id="1603" start="30" end="31" text="elicher frowe" element="head" class="fam" subclass=""/>
+        <span id="1427" start="32" end="40" text="Peter Niesen seligen wi ¬&#10;lent burgers ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1609" start="32" end="33" text="Peter Niesen" element="head" class="nam" subclass=""/>
+          <span id="1615" start="34" end="34" text="seligen" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          <span id="1621" start="35" end="40" text="wi ¬&#10;lent burgers ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+            <span id="1627" start="38" end="38" text="burgers" element="head" class="org-aff" subclass=""/>
+            <span id="1633" start="40" end="40" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1633_head" start="40" end="40" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1639" start="41" end="41" text="ir" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1639_head" start="41" end="41" element="head" class="pro" text="ir" subclass=""/>
+    </span>
+    <span id="1652" start="49" end="49" text="si" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1652_head" start="49" end="49" element="head" class="pro" text="si" subclass=""/>
+    </span>
+    <span id="1702" start="50" end="50" text="geerbt" element="trigger" class="inheritance" tense="past" polarity="pos" modality="ass" subclass=""/>
+    <span id="1421" start="53" end="57" text="demme obgl .&#10;Peter seeligen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1665" start="56" end="56" text="Peter" element="head" class="nam" subclass=""/>
+      <span id="1671" start="57" end="57" text="seeligen" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1440" start="61" end="77" text="demme huse und&#10;höfli ze Büschemberg gelegen an der frien&#10;strass zwüschent Valkenberg und ( Lüke )" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1690" start="62" end="66" text="huse und&#10;höfli ze Büschemberg" element="head" class="type" subclass=""/>
+      <span id="1573" start="67" end="77" text="gelegen an der frien&#10;strass zwüschent Valkenberg und ( Lüke )" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1579" start="69" end="71" text="der frien&#10;strass" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1585" start="70" end="71" text="frien&#10;strass" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1591" start="73" end="73" text="Valkenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1591_head" start="73" end="73" element="head" class="nam" text="Valkenberg" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1458" start="79" end="80" text="40 gl" element="value" class="money" subclass=""/>
+    <span id="1452" start="85" end="85" text="Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1452_head" start="85" end="85" element="head" class="type" text="Spital" subclass=""/>
+    </span>
+    <span id="1446" start="87" end="89" text="Hein ¬&#10;Osterricher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1446_head" start="87" end="89" element="head" class="nam" text="Hein ¬ Osterricher" subclass=""/>
+    </span>
+    <span id="1722" start="90" end="90" text="consensit" element="trigger" class="consent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1645" from="1639" to="1397" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1677" from="1403" to="1397" class="per-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1554" from="1397" to="1548" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1658" from="1652" to="1639" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1433" from="1427" to="1421" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1708" from="1639" to="1440" class="owner" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1715" from="1452" to="1440" class="owner" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="past" modality="ass" start="6" end="13" ref="1464" type="state">
+      <trigger start="7" end="8" text="eliche&#10;frow" ref="1470"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1397" text="Angnese wilent eliche&#10;frow Henman Juss seligen deß watmans"/>
+        <role role="family-b" ref="1476" text="Henman Juss seligen deß watmans"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="19" end="23" ref="1524" type="state">
+      <trigger start="19" end="19" text="burger" ref="1530"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1403" text="Heintzman Fusin demme gerwer burger ze Ba -&#10;sel irem sun und vogt"/>
+        <role role="geopolitical-entity" ref="1536" text="Ba -&#10;sel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="24" end="27" ref="1542" type="state">
+      <trigger start="25" end="25" text="sun" ref="1561"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1403" text="Heintzman Fusin demme gerwer burger ze Ba -&#10;sel irem sun und vogt"/>
+        <role role="family-b" ref="1548" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="past" modality="ass" start="29" end="40" ref="1684" type="state">
+      <trigger start="30" end="31" text="elicher frowe" ref="1603"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1415" text="Angnesen&#10;wilent elicher frowe Peter Niesen seligen wi ¬&#10;lent burgers ze Basel"/>
+        <role role="family-b" ref="1427" text="Peter Niesen seligen wi ¬&#10;lent burgers ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="civic-affiliation" polarity="pos" tense="past" modality="ass" start="35" end="40" ref="1621" type="state">
+      <trigger start="38" end="38" text="burgers" ref="1627"/>
+      <event event_id="4.0">
+        <role role="resident" ref="1427" text="Peter Niesen seligen wi ¬&#10;lent burgers ze Basel"/>
+        <role role="geopolitical-entity" ref="1633" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="67" end="77" ref="1573" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1440" text="demme huse und&#10;höfli ze Büschemberg gelegen an der frien&#10;strass zwüschent Valkenberg und ( Lüke )"/>
+        <role role="location-b" ref="1579" text="der frien&#10;strass"/>
+        <role role="location-b" ref="1591" text="Valkenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="4" end="80" ref="" type="event">
+      <trigger start="4" end="4" text="koffende" ref="1696"/>
+      <event event_id="6.0">
+        <role role="seller" ref="1397" text="Angnese wilent eliche&#10;frow Henman Juss seligen deß watmans"/>
+        <role role="buyer" ref="1415" text="Angnesen&#10;wilent elicher frowe Peter Niesen seligen wi ¬&#10;lent burgers ze Basel"/>
+        <role role="property" ref="1440" text="demme huse und&#10;höfli ze Büschemberg gelegen an der frien&#10;strass zwüschent Valkenberg und ( Lüke )"/>
+        <role role="price" ref="1458" text="40 gl"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="inheritance" polarity="pos" tense="past" modality="ass" start="49" end="77" ref="" type="event">
+      <trigger start="50" end="50" text="geerbt" ref="1702"/>
+      <event event_id="7.0">
+        <role role="heir" ref="1652" text="si"/>
+        <role role="decedent" ref="1421" text="demme obgl .&#10;Peter seeligen"/>
+        <role role="property" ref="1440" text="demme huse und&#10;höfli ze Büschemberg gelegen an der frien&#10;strass zwüschent Valkenberg und ( Lüke )"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="consent" polarity="pos" tense="pres" modality="ass" start="4" end="90" ref="" type="event">
+      <trigger start="90" end="90" text="consensit" ref="1722"/>
+      <event event_id="8.0">
+        <role role="subject" ref="1696" text="koffende"/>
+        <role role="consenting" ref="1446" text="Hein ¬&#10;Osterricher"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="9.0">
+        <role role="representative" ref="1403" text="Heintzman Fusin demme gerwer burger ze Ba -&#10;sel irem sun und vogt"/>
+        <role role="represented" ref="1397" text="Angnese wilent eliche&#10;frow Henman Juss seligen deß watmans"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="10.0">
+        <role role="owner" ref="1639" text="ir"/>
+        <role role="property" ref="1440" text="demme huse und&#10;höfli ze Büschemberg gelegen an der frien&#10;strass zwüschent Valkenberg und ( Lüke )"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="11.0">
+        <role role="owner" ref="1452" text="Spital"/>
+        <role role="property" ref="1440" text="demme huse und&#10;höfli ze Büschemberg gelegen an der frien&#10;strass zwüschent Valkenberg und ( Lüke )"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

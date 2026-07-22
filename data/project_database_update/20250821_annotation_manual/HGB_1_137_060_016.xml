@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 137/60 S. [16]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Nadelberg 8</tei:title>
+            <tei:idno>HGB 1 137/60</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1500804</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1545">1545</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611050.0624419255 1267518.7289464436</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">J</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Hans</token>
+    <token token_id="3">Heinrich</token>
+    <token token_id="4">Sürli</token>
+    <token token_id="5">,</token>
+    <token token_id="6">u</token>
+    <token token_id="7">.</token>
+    <token token_id="8">seine</token>
+    <token token_id="9">Frau</token>
+    <token token_id="10">Barbara</token>
+    <token token_id="11">Fischerin</token>
+    <token token_id="12">,</token>
+    <token token_id="13">sodan</token>
+    <token token_id="14">J</token>
+    <token token_id="15">.</token>
+    <token token_id="16">Jacob</token>
+    <token token_id="17">Sürlin</token>
+    <token token_id="18">,</token>
+    <token token_id="19">u</token>
+    <token token_id="20">.</token>
+    <token token_id="21">seine</token>
+    <token token_id="22">Frau</token>
+    <token token_id="23">Barbara</token>
+    <token token_id="24">Sutterin</token>
+    <token token_id="25">,</token>
+    <token token_id="26">u</token>
+    <token token_id="27">.</token>
+    <token token_id="28">a</token>
+    <token token_id="29">.</token>
+    <token token_id="30">verkaufen</token>
+    <token token_id="31">an</token>
+    <token token_id="32">Blesin</token>
+    <token token_id="33">Schöllin</token>
+    <token token_id="34">des</token>
+    <token token_id="35">Rats</token>
+    <token token_id="36">,</token>
+    <token token_id="37">u</token>
+    <token token_id="38">.</token>
+    <token token_id="39">seine</token>
+    <token token_id="40">Frau</token>
+    <token token_id="41">Veren</token>
+    <token token_id="42">Rysin</token>
+    <token token_id="43">,</token>
+    <token token_id="44">das</token>
+    <token token_id="45">Hus</token>
+    <token token_id="46">,</token>
+    <token token_id="47">Hof</token>
+    <token token_id="48">u</token>
+    <token token_id="49">.</token>
+    <token token_id="50">Hofstatt</token>
+    <token token_id="51">,</token>
+    <token token_id="52">mit</token>
+    <token token_id="53">samt</token>
+    <token token_id="54">den</token>
+    <token token_id="55">hindern</token>
+    <token token_id="56">und</token>
+    <token token_id="57">vordern</token>
+    <token token_id="58">hüsern</token>
+    <token token_id="59">,</token>
+    <token token_id="60">u</token>
+    <token token_id="61">.</token>
+    <token token_id="62">Gartten</token>
+    <token token_id="63">,</token>
+    <token token_id="64">samt</token>
+    <token token_id="65">den</token>
+    <token token_id="66">Grechtigkeit</token>
+    <token token_id="67">des</token>
+    <token token_id="68">Kellers</token>
+    <token token_id="69">,</token>
+    <token token_id="70">u</token>
+    <token token_id="71">.</token>
+    <token token_id="72">des</token>
+    <token token_id="73">Brunners</token>
+    <token token_id="74">dorn</token>
+    <token token_id="75">,</token>
+    <token token_id="76">uff</token>
+    <token token_id="77">sant</token>
+    <token token_id="78">Pettersberg</token>
+    <token token_id="79">.</token>
+    <token token_id="80">zwüschen</token>
+    <token token_id="81">dem</token>
+    <token token_id="82">vordern</token>
+    <token token_id="83">schönen</token>
+    <token token_id="84">hoff</token>
+    <token token_id="85">,</token>
+    <token token_id="86">und</token>
+    <token token_id="87">dem</token>
+    <token token_id="88">Hof</token>
+    <token token_id="89">zum</token>
+    <token token_id="90">Hagen</token>
+    <token token_id="91">¬</token>
+    <token token_id="92">dorn</token>
+    <token token_id="93">gelegen</token>
+    <token token_id="94">,</token>
+    <token token_id="95">stosst</token>
+    <token token_id="96">hinden</token>
+    <token token_id="97">anden</token>
+    <token token_id="98">jnnern</token>
+    <token token_id="99">stattgraben</token>
+    <token token_id="100">,</token>
+    <token token_id="101">und</token>
+    <token token_id="102">zum</token>
+    <token token_id="103">hindern</token>
+    <token token_id="104">Schönenhus</token>
+    <token token_id="105">genant</token>
+    <token token_id="106">,</token>
+    <token token_id="107">ist</token>
+    <token token_id="108">zins</token>
+    <token token_id="109">frei</token>
+    <token token_id="110">,</token>
+    <token token_id="111">um</token>
+    <token token_id="112">1040</token>
+    <token token_id="113">fl</token>
+    <token token_id="114">.</token>
+  </text>
+  <spans>
+    <span id="1690" start="0" end="29" text="J . Hans Heinrich Sürli , u . seine Frau Barbara Fischerin ,&#10;sodan J . Jacob Sürlin , u . seine Frau Barbara Sutterin , u . a ." element="list" class="per;unk" subclass="">
+      <span id="1647" start="0" end="4" text="J . Hans Heinrich Sürli" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1708" start="2" end="4" text="Hans Heinrich Sürli" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1653" start="8" end="11" text="seine Frau Barbara Fischerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1665" start="8" end="9" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1671" start="8" end="8" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1671_head" start="8" end="8" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1684" start="9" end="9" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1659" start="10" end="11" text="Barbara Fischerin" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1696" start="14" end="17" text="J . Jacob Sürlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1702" start="16" end="17" text="Jacob Sürlin" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1714" start="21" end="24" text="seine Frau Barbara Sutterin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1732" start="21" end="22" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1738" start="21" end="21" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1738_head" start="21" end="21" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1726" start="22" end="22" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1720" start="23" end="24" text="Barbara Sutterin" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1751" start="28" end="29" text="a ." element="reference" class="unk" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1751_head" start="28" end="29" element="head" class="pro" text="a ." subclass=""/>
+      </span>
+    </span>
+    <span id="1950" start="30" end="30" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1757" start="32" end="42" text="Blesin Schöllin des Rats , u . seine Frau Veren&#10;Rysin" element="list" class="per" subclass="">
+      <span id="1763" start="32" end="35" text="Blesin Schöllin des Rats" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1769" start="32" end="33" text="Blesin Schöllin" element="head" class="nam" subclass=""/>
+        <span id="1775" start="34" end="35" text="des Rats" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1781" start="35" end="35" text="Rats" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+            <span id="1781_head" start="35" end="35" element="head" class="type" text="Rats" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1787" start="39" end="42" text="seine Frau Veren&#10;Rysin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1799" start="39" end="40" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1805" start="39" end="39" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1805_head" start="39" end="39" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1793" start="40" end="40" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1818" start="41" end="42" text="Veren&#10;Rysin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1824" start="44" end="109" text="das Hus , Hof u . Hofstatt , mit samt den hindern&#10;und vordern hüsern , u . Gartten , samt den Grechtigkeit des&#10;Kellers , u . des Brunners dorn ,&#10;uff sant Pettersberg .&#10;zwüschen dem vordern schönen hoff , und dem Hof zum Hagen ¬&#10;dorn gelegen , stosst hinden anden jnnern stattgraben , und&#10;zum hindern Schönenhus genant , ist zins frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1830" start="45" end="50" text="Hus , Hof u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1836" start="52" end="74" text="mit samt den hindern&#10;und vordern hüsern , u . Gartten , samt den Grechtigkeit des&#10;Kellers , u . des Brunners dorn" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1842" start="54" end="58" text="den hindern&#10;und vordern hüsern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1848" start="58" end="58" text="hüsern" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1854" start="62" end="62" text="Gartten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1854_head" start="62" end="62" element="head" class="type" text="Gartten" subclass=""/>
+        </span>
+        <span id="1860" start="65" end="68" text="den Grechtigkeit des&#10;Kellers" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1866" start="66" end="68" text="Grechtigkeit des&#10;Kellers" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1872" start="72" end="74" text="des Brunners dorn" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="fountain">
+          <span id="1878" start="73" end="74" text="Brunners dorn" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1884" start="76" end="99" text="uff sant Pettersberg .&#10;zwüschen dem vordern schönen hoff , und dem Hof zum Hagen ¬&#10;dorn gelegen , stosst hinden anden jnnern stattgraben" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1890" start="77" end="78" text="sant Pettersberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1890_head" start="77" end="78" element="head" class="nam" text="sant Pettersberg" subclass=""/>
+        </span>
+        <span id="1896" start="81" end="92" text="dem vordern schönen hoff , und dem Hof zum Hagen ¬&#10;dorn" element="list" class="loc" subclass="">
+          <span id="1902" start="81" end="84" text="dem vordern schönen hoff" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1908" start="82" end="84" text="vordern schönen hoff" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1914" start="87" end="92" text="dem Hof zum Hagen ¬&#10;dorn" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1920" start="88" end="92" text="Hof zum Hagen ¬&#10;dorn" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+        <span id="1926" start="98" end="99" text="jnnern stattgraben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1926_head" start="98" end="99" element="head" class="type" text="jnnern stattgraben" subclass=""/>
+        </span>
+      </span>
+      <span id="1932" start="102" end="104" text="zum hindern Schönenhus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1932_head" start="102" end="104" element="head" class="nam" text="zum hindern Schönenhus" subclass=""/>
+      </span>
+      <span id="1944" start="107" end="109" text="ist zins frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1938" start="112" end="114" text="1040 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1677" from="1671" to="1647" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1744" from="1738" to="1696" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1811" from="1805" to="1763" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="8" end="9" ref="1665" type="state">
+      <trigger start="9" end="9" text="Frau" ref="1684"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1653" text="seine Frau Barbara Fischerin"/>
+        <role role="family-b" ref="1671" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="21" end="22" ref="1732" type="state">
+      <trigger start="22" end="22" text="Frau" ref="1726"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1714" text="seine Frau Barbara Sutterin"/>
+        <role role="family-b" ref="1738" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="39" end="40" ref="1799" type="state">
+      <trigger start="40" end="40" text="Frau" ref="1793"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1787" text="seine Frau Veren&#10;Rysin"/>
+        <role role="family-b" ref="1805" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="membership" polarity="pos" tense="pres" modality="ass" start="34" end="35" ref="1775" type="state">
+      <event event_id="3.0">
+        <role role="member" ref="1763" text="Blesin Schöllin des Rats"/>
+        <role role="organization" ref="1781" text="Rats"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="52" end="74" ref="1836" type="state">
+      <event event_id="4.0">
+        <role role="whole" ref="1824" text="das Hus , Hof u . Hofstatt , mit samt den hindern&#10;und vordern hüsern , u . Gartten , samt den Grechtigkeit des&#10;Kellers , u . des Brunners dorn ,&#10;uff sant Pettersberg .&#10;zwüschen dem vordern schönen hoff , und dem Hof zum Hagen ¬&#10;dorn gelegen , stosst hinden anden jnnern stattgraben , und&#10;zum hindern Schönenhus genant , ist zins frei"/>
+        <role role="part" ref="1842" text="den hindern&#10;und vordern hüsern"/>
+        <role role="part" ref="1854" text="Gartten"/>
+        <role role="part" ref="1860" text="den Grechtigkeit des&#10;Kellers"/>
+        <role role="part" ref="1872" text="des Brunners dorn"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="76" end="99" ref="1884" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1824" text="das Hus , Hof u . Hofstatt , mit samt den hindern&#10;und vordern hüsern , u . Gartten , samt den Grechtigkeit des&#10;Kellers , u . des Brunners dorn ,&#10;uff sant Pettersberg .&#10;zwüschen dem vordern schönen hoff , und dem Hof zum Hagen ¬&#10;dorn gelegen , stosst hinden anden jnnern stattgraben , und&#10;zum hindern Schönenhus genant , ist zins frei"/>
+        <role role="location-b" ref="1890" text="sant Pettersberg"/>
+        <role role="location-b" ref="1902" text="dem vordern schönen hoff"/>
+        <role role="location-b" ref="1914" text="dem Hof zum Hagen ¬&#10;dorn"/>
+        <role role="location-b" ref="1926" text="jnnern stattgraben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="30" ref="" type="event">
+      <trigger start="30" end="30" text="verkaufen" ref="1950"/>
+      <event event_id="6.0">
+        <role role="seller" ref="1647" text="J . Hans Heinrich Sürli"/>
+        <role role="seller" ref="1653" text="seine Frau Barbara Fischerin"/>
+        <role role="seller" ref="1696" text="J . Jacob Sürlin"/>
+        <role role="seller" ref="1714" text="seine Frau Barbara Sutterin"/>
+        <role role="seller" ref="1751" text="a ."/>
+        <role role="buyer" ref="1763" text="Blesin Schöllin des Rats"/>
+        <role role="buyer" ref="1787" text="seine Frau Veren&#10;Rysin"/>
+        <role role="property" ref="1824" text="das Hus , Hof u . Hofstatt , mit samt den hindern&#10;und vordern hüsern , u . Gartten , samt den Grechtigkeit des&#10;Kellers , u . des Brunners dorn ,&#10;uff sant Pettersberg .&#10;zwüschen dem vordern schönen hoff , und dem Hof zum Hagen ¬&#10;dorn gelegen , stosst hinden anden jnnern stattgraben , und&#10;zum hindern Schönenhus genant , ist zins frei"/>
+        <role role="price" ref="1938" text="1040 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

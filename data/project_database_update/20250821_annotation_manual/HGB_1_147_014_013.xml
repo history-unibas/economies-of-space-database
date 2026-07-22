@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 147/14 S. [13]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Petersgasse 9</tei:title>
+            <tei:idno>HGB 1 147/14</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1502447</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Städtische Urkunden</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1401">1401</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611124.4202796505 1267770.3500542627</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Frow</token>
+    <token token_id="4">Anna</token>
+    <token token_id="5">Gratzen</token>
+    <token token_id="6">Losen</token>
+    <token token_id="7">Henmans</token>
+    <token token_id="8">sel</token>
+    <token token_id="9">.</token>
+    <token token_id="10">zem</token>
+    <token token_id="11">Rosen</token>
+    <token token_id="12">wilent</token>
+    <token token_id="13">Sun</token>
+    <token token_id="14">,</token>
+    <token token_id="15">eins</token>
+    <token token_id="16">Burgers</token>
+    <token token_id="17">ze</token>
+    <token token_id="18">Basel</token>
+    <token token_id="19">eliche</token>
+    <token token_id="20">Frow</token>
+    <token token_id="21">bekennt</token>
+    <token token_id="22">,</token>
+    <token token_id="23">dass</token>
+    <token token_id="24">Conrist</token>
+    <token token_id="25">zem</token>
+    <token token_id="26">Rosen</token>
+    <token token_id="27">ir</token>
+    <token token_id="28">elich</token>
+    <token token_id="29">Haan</token>
+    <token token_id="30">das</token>
+    <token token_id="31">Huse</token>
+    <token token_id="32">und</token>
+    <token token_id="33">Gesesse</token>
+    <token token_id="34">genant</token>
+    <token token_id="35">Brugkenfels</token>
+    <token token_id="36">so</token>
+    <token token_id="37">gelegen</token>
+    <token token_id="38">ist</token>
+    <token token_id="39">ze</token>
+    <token token_id="40">Basel</token>
+    <token token_id="41">in</token>
+    <token token_id="42">der</token>
+    <token token_id="43">Stat</token>
+    <token token_id="44">uff</token>
+    <token token_id="45">sant</token>
+    <token token_id="46">Petersberg</token>
+    <token token_id="47">zwüschent</token>
+    <token token_id="48">den</token>
+    <token token_id="49">Hüsern</token>
+    <token token_id="50">zem</token>
+    <token token_id="51">guldin</token>
+    <token token_id="52">ung</token>
+    <token token_id="53">und</token>
+    <token token_id="54">ze</token>
+    <token token_id="55">Schürberg</token>
+    <token token_id="56">so</token>
+    <token token_id="57">er</token>
+    <token token_id="58">müntingen</token>
+    <token token_id="59">geköft</token>
+    <token token_id="60">het</token>
+    <token token_id="61">,</token>
+    <token token_id="62">gelhoffethede</token>
+    <token token_id="63">wisser</token>
+    <token token_id="64">sine</token>
+    <token token_id="65">Geit</token>
+    <token token_id="66">,</token>
+    <token token_id="67">so</token>
+    <token token_id="68">in</token>
+    <token token_id="69">sin</token>
+    <token token_id="70">Ostur</token>
+    <token token_id="71">ligen</token>
+    <token token_id="72">solle</token>
+    <token token_id="73">und</token>
+    <token token_id="74">dass</token>
+    <token token_id="75">sie</token>
+    <token token_id="76">auf</token>
+    <token token_id="77">das</token>
+    <token token_id="78">gekaufte</token>
+    <token token_id="79">Haus</token>
+    <token token_id="80">keinen</token>
+    <token token_id="81">Anspruch</token>
+    <token token_id="82">erheben</token>
+    <token token_id="83">wolle</token>
+  </text>
+  <spans>
+    <span id="1322" start="3" end="20" text="Frow Anna Gratzen Losen Henmans sel . zem&#10;Rosen wilent Sun , eins Burgers ze Basel eliche Frow" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1328" start="4" end="4" text="Anna" element="head" class="nam" subclass=""/>
+      <span id="1334" start="5" end="20" text="Gratzen Losen Henmans sel . zem&#10;Rosen wilent Sun , eins Burgers ze Basel eliche Frow" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1358" start="5" end="18" text="Gratzen Losen Henmans sel . zem&#10;Rosen wilent Sun , eins Burgers ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1346" start="5" end="6" text="Gratzen Losen" element="head" class="nam" subclass=""/>
+          <span id="1382" start="7" end="13" text="Henmans sel . zem&#10;Rosen wilent Sun" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1598" start="7" end="11" text="Henmans sel . zem&#10;Rosen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1586" start="7" end="7" text="Henmans" element="head" class="nam" subclass=""/>
+              <span id="1352" start="8" end="9" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              <span id="1592" start="10" end="11" text="zem&#10;Rosen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1592_head" start="10" end="11" element="head" class="nam" text="zem Rosen" subclass=""/>
+              </span>
+            </span>
+            <span id="1388" start="13" end="13" text="Sun" element="head" class="fam" subclass=""/>
+          </span>
+          <span id="1364" start="15" end="18" text="eins Burgers ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1370" start="16" end="16" text="Burgers" element="head" class="org-aff" subclass=""/>
+            <span id="1376" start="18" end="18" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1376_head" start="18" end="18" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1340" start="19" end="20" text="eliche Frow" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1622" start="21" end="21" text="bekennt" element="trigger" class="declaration" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1628" start="23" end="83" text="dass Conrist zem Rosen ir elich Haan das&#10;Huse und Gesesse genant Brugkenfels so gelegen ist&#10;ze Basel in der Stat uff sant Petersberg zwüschent&#10;den Hüsern zem guldin ung und ze Schürberg&#10;so er müntingen geköft het , gelhoffethede wisser sine&#10;Geit , so in sin Ostur ligen solle und dass sie auf das&#10;gekaufte Haus keinen Anspruch erheben wolle" element="other" class="other" subclass="">
+      <span id="1394" start="24" end="29" text="Conrist zem Rosen ir elich Haan" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1400" start="24" end="26" text="Conrist zem Rosen" element="head" class="nam" subclass=""/>
+        <span id="1419" start="27" end="29" text="ir elich Haan" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1406" start="27" end="27" text="ir" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1406_head" start="27" end="27" element="head" class="pro" text="ir" subclass=""/>
+          </span>
+          <span id="1425" start="28" end="29" text="elich Haan" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+      <span id="1560" start="30" end="60" text="das&#10;Huse und Gesesse genant Brugkenfels so gelegen ist&#10;ze Basel in der Stat uff sant Petersberg zwüschent&#10;den Hüsern zem guldin ung und ze Schürberg&#10;so er müntingen geköft het" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1431" start="31" end="33" text="Huse und Gesesse" element="head" class="type" subclass=""/>
+        <span id="1437" start="35" end="35" text="Brugkenfels" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1437_head" start="35" end="35" element="head" class="nam" text="Brugkenfels" subclass=""/>
+        </span>
+        <span id="1443" start="36" end="55" text="so gelegen ist&#10;ze Basel in der Stat uff sant Petersberg zwüschent&#10;den Hüsern zem guldin ung und ze Schürberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1449" start="40" end="40" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1449_head" start="40" end="40" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+          <span id="1455" start="42" end="43" text="der Stat" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1461" start="43" end="43" text="Stat" element="head" class="type" subclass=""/>
+          </span>
+          <span id="1467" start="45" end="46" text="sant Petersberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1467_head" start="45" end="46" element="head" class="nam" text="sant Petersberg" subclass=""/>
+          </span>
+          <span id="1479" start="48" end="55" text="den Hüsern zem guldin ung und ze Schürberg" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1473" start="49" end="49" text="Hüsern" element="head" class="type" subclass=""/>
+            <span id="1485" start="50" end="55" text="zem guldin ung und ze Schürberg" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1491" start="50" end="52" text="zem guldin ung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1491_head" start="50" end="52" element="head" class="nam" text="zem guldin ung" subclass=""/>
+              </span>
+              <span id="1497" start="54" end="55" text="ze Schürberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1497_head" start="54" end="55" element="head" class="nam" text="ze Schürberg" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+        <span id="1610" start="56" end="60" text="so er müntingen geköft het" element="attr" class="sale" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1573" start="57" end="57" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1573_head" start="57" end="57" element="head" class="pro" text="er" subclass=""/>
+          </span>
+          <span id="1604" start="58" end="58" text="müntingen" element="value" class="time" subclass=""/>
+          <span id="1616" start="59" end="59" text="geköft" element="trigger" class="sale" tense="past" polarity="pos" modality="ass" subclass=""/>
+        </span>
+      </span>
+      <span id="1503" start="62" end="62" text="gelhoffethede" element="unclear" class="unclear" subclass=""/>
+      <span id="1540" start="64" end="64" text="sine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1540_head" start="64" end="64" element="head" class="pro" text="sine" subclass=""/>
+      </span>
+      <span id="1534" start="69" end="69" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1534_head" start="69" end="69" element="head" class="pro" text="sin" subclass=""/>
+      </span>
+      <span id="1521" start="75" end="75" text="sie" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1521_head" start="75" end="75" element="head" class="pro" text="sie" subclass=""/>
+      </span>
+      <span id="1509" start="77" end="79" text="das&#10;gekaufte Haus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1515" start="79" end="79" text="Haus" element="head" class="type" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1412" from="1406" to="1322" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1527" from="1521" to="1322" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1546" from="1540" to="1394" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1579" from="1573" to="1394" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1566" from="1509" to="1560" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1553" from="1534" to="1540" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="5" end="20" ref="1334" type="state">
+      <trigger start="19" end="20" text="eliche Frow" ref="1340"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1322" text="Frow Anna Gratzen Losen Henmans sel . zem&#10;Rosen wilent Sun , eins Burgers ze Basel eliche Frow"/>
+        <role role="family-b" ref="1358" text="Gratzen Losen Henmans sel . zem&#10;Rosen wilent Sun , eins Burgers ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="13" ref="1382" type="state">
+      <trigger start="13" end="13" text="Sun" ref="1388"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1358" text="Gratzen Losen Henmans sel . zem&#10;Rosen wilent Sun , eins Burgers ze Basel"/>
+        <role role="family-b" ref="1598" text="Henmans sel . zem&#10;Rosen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="15" end="18" ref="1364" type="state">
+      <trigger start="16" end="16" text="Burgers" ref="1370"/>
+      <event event_id="2.0">
+        <role role="resident" ref="1358" text="Gratzen Losen Henmans sel . zem&#10;Rosen wilent Sun , eins Burgers ze Basel"/>
+        <role role="geopolitical-entity" ref="1376" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="27" end="29" ref="1419" type="state">
+      <trigger start="28" end="29" text="elich Haan" ref="1425"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1394" text="Conrist zem Rosen ir elich Haan"/>
+        <role role="family-b" ref="1406" text="ir"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="36" end="55" ref="1443" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1560" text="das&#10;Huse und Gesesse genant Brugkenfels so gelegen ist&#10;ze Basel in der Stat uff sant Petersberg zwüschent&#10;den Hüsern zem guldin ung und ze Schürberg&#10;so er müntingen geköft het"/>
+        <role role="location-b" ref="1449" text="Basel"/>
+        <role role="location-b" ref="1455" text="der Stat"/>
+        <role role="location-b" ref="1467" text="sant Petersberg"/>
+        <role role="location-b" ref="1479" text="den Hüsern zem guldin ung und ze Schürberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" start="50" end="55" ref="1485" type="state">
+      <event event_id="5.0">
+        <role role="whole" ref="1479" text="den Hüsern zem guldin ung und ze Schürberg"/>
+        <role role="part" ref="1491" text="zem guldin ung"/>
+        <role role="part" ref="1497" text="ze Schürberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="56" end="60" ref="1610" type="event">
+      <trigger start="59" end="59" text="geköft" ref="1616"/>
+      <event event_id="6.0">
+        <role role="property" ref="1560" text="das&#10;Huse und Gesesse genant Brugkenfels so gelegen ist&#10;ze Basel in der Stat uff sant Petersberg zwüschent&#10;den Hüsern zem guldin ung und ze Schürberg&#10;so er müntingen geköft het"/>
+        <role role="buyer" ref="1573" text="er"/>
+        <role role="detail_time-past" ref="1604" text="müntingen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="declaration" polarity="pos" tense="pres" modality="ass" start="21" end="83" ref="" type="event">
+      <trigger start="21" end="21" text="bekennt" ref="1622"/>
+      <event event_id="7.0">
+        <role role="proclaimer" ref="1322" text="Frow Anna Gratzen Losen Henmans sel . zem&#10;Rosen wilent Sun , eins Burgers ze Basel eliche Frow"/>
+        <role role="content" ref="1628" text="dass Conrist zem Rosen ir elich Haan das&#10;Huse und Gesesse genant Brugkenfels so gelegen ist&#10;ze Basel in der Stat uff sant Petersberg zwüschent&#10;den Hüsern zem guldin ung und ze Schürberg&#10;so er müntingen geköft het , gelhoffethede wisser sine&#10;Geit , so in sin Ostur ligen solle und dass sie auf das&#10;gekaufte Haus keinen Anspruch erheben wolle"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

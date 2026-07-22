@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 18/12 S. [11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Bäumleingasse Theil von 1 neben 3</tei:title>
+            <tei:idno>HGB 1 18/12</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1461053</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv;Hausurkunden</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1469">1469</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611535.164923406 1267142.2134092208</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">ist</token>
+    <token token_id="2">zum</token>
+    <token token_id="3">dritten</token>
+    <token token_id="4">gericht</token>
+    <token token_id="5">verkofft</token>
+    <token token_id="6">,</token>
+    <token token_id="7">Peter</token>
+    <token token_id="8">Sweglers</token>
+    <token token_id="9">des</token>
+    <token token_id="10">Küffers</token>
+    <token token_id="11">hus</token>
+    <token token_id="12">als</token>
+    <token token_id="13">das</token>
+    <token token_id="14">gelegen</token>
+    <token token_id="15">,</token>
+    <token token_id="16">unden</token>
+    <token token_id="17">an</token>
+    <token token_id="18">siner</token>
+    <token token_id="19">frowen</token>
+    <token token_id="20">Münchin</token>
+    <token token_id="21">hoff</token>
+    <token token_id="22">,</token>
+    <token token_id="23">u</token>
+    <token token_id="24">.</token>
+    <token token_id="25">hatt</token>
+    <token token_id="26">Heinrich</token>
+    <token token_id="27">Besenfeld</token>
+    <token token_id="28">,</token>
+    <token token_id="29">Camerer</token>
+    <token token_id="30">s</token>
+    <token token_id="31">.</token>
+    <token token_id="32">Johanns</token>
+    <token token_id="33">brudersch</token>
+    <token token_id="34">uff</token>
+    <token token_id="35">Burg</token>
+    <token token_id="36">darum</token>
+    <token token_id="37">gebotten</token>
+    <token token_id="38">1</token>
+    <token token_id="39">℔</token>
+    <token token_id="40">3sh</token>
+    <token token_id="41">.</token>
+    <token token_id="42">um</token>
+    <token token_id="43">dri</token>
+    <token token_id="44">versessen</token>
+    <token token_id="45">Jarzins</token>
+    <token token_id="46">nemb</token>
+    <token token_id="47">jars</token>
+    <token token_id="48">3</token>
+    <token token_id="49">fl</token>
+    <token token_id="50">.</token>
+    <token token_id="51">gelts</token>
+    <token token_id="52">.</token>
+  </text>
+  <spans>
+    <span id="996" start="2" end="4" text="zum dritten gericht" element="other" class="other" subclass=""/>
+    <span id="990" start="5" end="5" text="verkofft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="852" start="7" end="21" text="Peter Sweglers&#10;des Küffers hus als das gelegen , unden an siner&#10;frowen Münchin hoff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="882" start="7" end="10" text="Peter Sweglers&#10;des Küffers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="888" start="7" end="10" text="Peter Sweglers&#10;des Küffers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="894" start="7" end="8" text="Peter Sweglers" element="head" class="nam" subclass=""/>
+          <span id="900" start="9" end="10" text="des Küffers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="906" start="10" end="10" text="Küffers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="858" start="11" end="11" text="hus" element="head" class="type" subclass=""/>
+      <span id="864" start="13" end="21" text="das gelegen , unden an siner&#10;frowen Münchin hoff" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="876" start="18" end="21" text="siner&#10;frowen Münchin hoff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="924" start="18" end="19" text="siner&#10;frowen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="930" start="18" end="19" text="siner&#10;frowen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="930_head" start="18" end="19" element="head" class="type" text="siner frowen" subclass=""/>
+            </span>
+          </span>
+          <span id="912" start="20" end="21" text="Münchin hoff" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="936" start="26" end="35" text="Heinrich Besenfeld ,&#10;Camerer s . Johanns brudersch uff Burg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="942" start="26" end="27" text="Heinrich Besenfeld" element="head" class="nam" subclass=""/>
+      <span id="948" start="29" end="35" text="Camerer s . Johanns brudersch uff Burg" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="954" start="29" end="29" text="Camerer" element="head" class="occ" subclass="org-job"/>
+        <span id="960" start="30" end="35" text="s . Johanns brudersch uff Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="966" start="30" end="33" text="s . Johanns brudersch" element="head" class="nam" subclass=""/>
+          <span id="972" start="34" end="35" text="uff Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="978" start="35" end="35" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="978_head" start="35" end="35" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1008" start="36" end="36" text="darum" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1008_head" start="36" end="36" element="head" class="pro" text="darum" subclass=""/>
+    </span>
+    <span id="1002" start="37" end="37" text="gebotten" element="trigger" class="offer" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="984" start="38" end="41" text="1 ℔ 3sh ." element="value" class="money" subclass=""/>
+    <span id="1027" start="43" end="43" text="dri" element="other" class="other" subclass=""/>
+    <span id="1021" start="45" end="45" text="Jarzins" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1033" start="47" end="47" text="jars" element="value" class="time" subclass="rec"/>
+    <span id="1039" start="48" end="50" text="3 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1014" from="1008" to="852" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="29" end="35" ref="948" type="state">
+      <trigger start="29" end="29" text="Camerer" ref="954"/>
+      <event event_id="0.0">
+        <role role="employee" ref="936" text="Heinrich Besenfeld ,&#10;Camerer s . Johanns brudersch uff Burg"/>
+        <role role="employer" ref="960" text="s . Johanns brudersch uff Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="7" end="10" ref="882" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="852" text="Peter Sweglers&#10;des Küffers hus als das gelegen , unden an siner&#10;frowen Münchin hoff"/>
+        <role role="owner" ref="888" text="Peter Sweglers&#10;des Küffers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="21" ref="864" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="852" text="Peter Sweglers&#10;des Küffers hus als das gelegen , unden an siner&#10;frowen Münchin hoff"/>
+        <role role="location-b" ref="876" text="siner&#10;frowen Münchin hoff"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="18" end="19" ref="924" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="876" text="siner&#10;frowen Münchin hoff"/>
+        <role role="owner" ref="930" text="siner&#10;frowen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="34" end="35" ref="972" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="960" text="s . Johanns brudersch uff Burg"/>
+        <role role="location-b" ref="978" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="2" end="5" ref="" type="event">
+      <trigger start="5" end="5" text="verkofft" ref="990"/>
+      <event event_id="5.0">
+        <role role="detail_event" ref="996" text="zum dritten gericht"/>
+        <role role="property" ref="852" text="Peter Sweglers&#10;des Küffers hus als das gelegen , unden an siner&#10;frowen Münchin hoff"/>
+        <role role="detail_offer" ref="1002" text="gebotten"/>
+        <role role="price" ref="984" text="1 ℔ 3sh ."/>
+        <role role="cause" ref="1021" text="Jarzins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="offer" polarity="pos" tense="pres" modality="ass" start="26" end="37" ref="" type="event">
+      <trigger start="37" end="37" text="gebotten" ref="1002"/>
+      <event event_id="6.0">
+        <role role="offeror" ref="936" text="Heinrich Besenfeld ,&#10;Camerer s . Johanns brudersch uff Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="43" end="50" ref="" type="state">
+      <trigger start="45" end="45" text="Jarzins" ref="1021"/>
+      <event event_id="7.0">
+        <role role="detail_quant" ref="1027" text="dri"/>
+        <role role="interval" ref="1033" text="jars"/>
+        <role role="interest" ref="1039" text="3 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

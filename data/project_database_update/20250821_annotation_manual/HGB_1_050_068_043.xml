@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 50/68 S. [43]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Eisengasse 38</tei:title>
+            <tei:idno>HGB 1 50/68</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1465177</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1501">1501</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611204.946608928 1267571.6001178664</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">in</token>
+    <token token_id="1">sant</token>
+    <token token_id="2">Martini</token>
+    <token token_id="3">.</token>
+    <token token_id="4">1501</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Conrat</token>
+    <token token_id="7">Winsperger</token>
+    <token token_id="8">gibt</token>
+    <token token_id="9">vonn</token>
+    <token token_id="10">sinem</token>
+    <token token_id="11">Hus</token>
+    <token token_id="12">Rechstein</token>
+    <token token_id="13">.</token>
+    <token token_id="14">8</token>
+    <token token_id="15">sh</token>
+    <token token_id="16">.</token>
+    <token token_id="17">3</token>
+    <token token_id="18">dn</token>
+    <token token_id="19">.</token>
+    <token token_id="20">2</token>
+    <token token_id="21">ung</token>
+    <token token_id="22">zur</token>
+    <token token_id="23">wisung</token>
+    <token token_id="24">und</token>
+    <token token_id="25">5</token>
+    <token token_id="26">sh</token>
+    <token token_id="27">erschatz</token>
+    <token token_id="28">.</token>
+    <token token_id="29">Ebenso</token>
+    <token token_id="30">.</token>
+    <token token_id="31">1502</token>
+    <token token_id="32">.</token>
+    <token token_id="33">1503</token>
+    <token token_id="34">.</token>
+    <token token_id="35">Hanns</token>
+    <token token_id="36">Sust</token>
+    <token token_id="37">der</token>
+    <token token_id="38">Träger</token>
+    <token token_id="39">gibt</token>
+    <token token_id="40">nun</token>
+    <token token_id="41">den</token>
+    <token token_id="42">zins</token>
+    <token token_id="43">.</token>
+  </text>
+  <spans>
+    <span id="673" start="1" end="2" text="sant Martini" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="673_head" start="1" end="2" element="head" class="nam" text="sant Martini" subclass=""/>
+    </span>
+    <span id="679" start="4" end="4" text="1501" element="value" class="date" subclass=""/>
+    <span id="685" start="6" end="7" text="Conrat Winsperger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="685_head" start="6" end="7" element="head" class="nam" text="Conrat Winsperger" subclass=""/>
+    </span>
+    <span id="776" start="8" end="8" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="691" start="10" end="12" text="sinem Hus Rechstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="703" start="10" end="10" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="709" start="10" end="10" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="709_head" start="10" end="10" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="697" start="11" end="12" text="Hus Rechstein" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="722" start="14" end="19" text="8 sh .&#10;3 dn ." element="value" class="money" subclass=""/>
+    <span id="728" start="20" end="21" text="2 ung" element="value" class="money" subclass=""/>
+    <span id="782" start="22" end="23" text="zur wisung" element="other" class="other" subclass=""/>
+    <span id="734" start="25" end="26" text="5 sh" element="value" class="money" subclass=""/>
+    <span id="788" start="27" end="27" text="erschatz" element="other" class="other" subclass=""/>
+    <span id="740" start="31" end="31" text="1502" element="value" class="date" subclass=""/>
+    <span id="746" start="33" end="33" text="1503" element="value" class="date" subclass=""/>
+    <span id="752" start="35" end="38" text="Hanns Sust der Träger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="758" start="35" end="36" text="Hanns Sust" element="head" class="nam" subclass=""/>
+      <span id="764" start="37" end="38" text="der Träger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="770" start="38" end="38" text="Träger" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="794" start="39" end="39" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="800" start="41" end="42" text="den zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="715" from="709" to="685" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="806" from="800" to="776" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="10" end="10" ref="703" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="691" text="sinem Hus Rechstein"/>
+        <role role="owner" ref="709" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="4" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="gibt" ref="776"/>
+      <event event_id="1.0">
+        <role role="date" ref="679" text="1501"/>
+        <role role="payer" ref="685" text="Conrat Winsperger"/>
+        <role role="property" ref="691" text="sinem Hus Rechstein"/>
+        <role role="interest" ref="722" text="8 sh .&#10;3 dn ."/>
+        <role role="date" ref="740" text="1502"/>
+      </event>
+      <event event_id="1.1">
+        <role role="date" ref="679" text="1501"/>
+        <role role="payer" ref="685" text="Conrat Winsperger"/>
+        <role role="property" ref="691" text="sinem Hus Rechstein"/>
+        <role role="interest" ref="728" text="2 ung"/>
+        <role role="cause" ref="782" text="zur wisung"/>
+        <role role="date" ref="740" text="1502"/>
+      </event>
+      <event event_id="1.2">
+        <role role="date" ref="679" text="1501"/>
+        <role role="payer" ref="685" text="Conrat Winsperger"/>
+        <role role="property" ref="691" text="sinem Hus Rechstein"/>
+        <role role="interest" ref="734" text="5 sh"/>
+        <role role="cause" ref="788" text="erschatz"/>
+        <role role="date" ref="740" text="1502"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="33" end="42" ref="" type="event">
+      <trigger start="39" end="39" text="gibt" ref="794"/>
+      <event event_id="2.0">
+        <role role="date" ref="746" text="1503"/>
+        <role role="payer" ref="752" text="Hanns Sust der Träger"/>
+        <role role="previous-due" ref="800" text="den zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="41" end="42" ref="" type="event">
+      <trigger start="41" end="42" text="den zins" ref="800"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

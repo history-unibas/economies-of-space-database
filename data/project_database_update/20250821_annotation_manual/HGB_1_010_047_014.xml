@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/47 S. [14]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt 19</tei:title>
+            <tei:idno>HGB 1 10/47</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433420</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Alban</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1544">1544</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611860.613016914 1267120.6357381272</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1544</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Die</token>
+    <token token_id="3">Kalbysen</token>
+    <token token_id="4">1545</token>
+    <token token_id="5">Peter</token>
+    <token token_id="6">Halten</token>
+    <token token_id="7">git</token>
+    <token token_id="8">von</token>
+    <token token_id="9">dreyen</token>
+    <token token_id="10">Hüsern</token>
+    <token token_id="11">in</token>
+    <token token_id="12">St</token>
+    <token token_id="13">.</token>
+    <token token_id="14">Albanvorstatt</token>
+    <token token_id="15">aneinander</token>
+    <token token_id="16">10ß</token>
+    <token token_id="17">,</token>
+    <token token_id="18">3</token>
+    <token token_id="19">Vassnachth</token>
+    <token token_id="20">.</token>
+    <token token_id="21">,</token>
+    <token token_id="22">Hewerth</token>
+    <token token_id="23">.</token>
+    <token token_id="24">Ebenso</token>
+    <token token_id="25">:</token>
+    <token token_id="26">1546</token>
+    <token token_id="27">1547</token>
+    <token token_id="28">1548</token>
+    <token token_id="29">1649</token>
+  </text>
+  <spans>
+    <span id="558" start="0" end="0" text="1544" element="value" class="date" subclass=""/>
+    <span id="564" start="2" end="3" text="Die Kalbysen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="570" start="3" end="3" text="Kalbysen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="576" start="4" end="4" text="1545" element="value" class="date" subclass=""/>
+    <span id="582" start="5" end="6" text="Peter Halten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="582_head" start="5" end="6" element="head" class="nam" text="Peter Halten" subclass=""/>
+    </span>
+    <span id="654" start="7" end="7" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="588" start="9" end="15" text="dreyen Hüsern in St . Albanvorstatt&#10;aneinander" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="594" start="10" end="10" text="Hüsern" element="head" class="type" subclass=""/>
+      <span id="600" start="11" end="15" text="in St . Albanvorstatt&#10;aneinander" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="606" start="12" end="14" text="St . Albanvorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="606_head" start="12" end="14" element="head" class="nam" text="St . Albanvorstatt" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="612" start="16" end="16" text="10ß" element="value" class="money" subclass=""/>
+    <span id="618" start="18" end="20" text="3 Vassnachth ." element="value" class="money" subclass=""/>
+    <span id="624" start="22" end="22" text="Hewerth" element="value" class="money" subclass=""/>
+    <span id="630" start="26" end="26" text="1546" element="value" class="date" subclass=""/>
+    <span id="636" start="27" end="27" text="1547" element="value" class="date" subclass=""/>
+    <span id="642" start="28" end="28" text="1548" element="value" class="date" subclass=""/>
+    <span id="648" start="29" end="29" text="1649" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="11" end="15" ref="600" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="588" text="dreyen Hüsern in St . Albanvorstatt&#10;aneinander"/>
+        <role role="location-b" ref="606" text="St . Albanvorstatt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="7" ref="" type="event">
+      <trigger start="7" end="7" text="git" ref="654"/>
+      <event event_id="1.0">
+        <role role="date" ref="558" text="1544"/>
+        <role role="payer" ref="564" text="Die Kalbysen"/>
+        <role role="property" ref="588" text="dreyen Hüsern in St . Albanvorstatt&#10;aneinander"/>
+        <role role="interest" ref="612" text="10ß"/>
+        <role role="interest" ref="618" text="3 Vassnachth ."/>
+        <role role="interest" ref="624" text="Hewerth"/>
+      </event>
+      <event event_id="1.1">
+        <role role="date" ref="576" text="1545"/>
+        <role role="payer" ref="582" text="Peter Halten"/>
+        <role role="property" ref="588" text="dreyen Hüsern in St . Albanvorstatt&#10;aneinander"/>
+        <role role="interest" ref="612" text="10ß"/>
+        <role role="interest" ref="618" text="3 Vassnachth ."/>
+        <role role="interest" ref="624" text="Hewerth"/>
+        <role role="date" ref="630" text="1546"/>
+        <role role="date" ref="636" text="1547"/>
+        <role role="date" ref="642" text="1548"/>
+        <role role="date" ref="648" text="1649"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

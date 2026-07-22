@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 56/15 S. [14]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Fischmarkt Th. v. 9, Hinterhaus</tei:title>
+            <tei:idno>HGB 1 56/15</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467577</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Steinenkloster</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1363">1363</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611135.765169176 1267612.1404958295</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Pfrundpfennig</token>
+    <token token_id="1">in</token>
+    <token token_id="2">Gross</token>
+    <token token_id="3">Basel</token>
+    <token token_id="4">.</token>
+    <token token_id="5">item</token>
+    <token token_id="6">ein</token>
+    <token token_id="7">lat</token>
+    <token token_id="8">.</token>
+    <token token_id="9">Brieff</token>
+    <token token_id="10">weisende</token>
+    <token token_id="11">wie</token>
+    <token token_id="12">die</token>
+    <token token_id="13">Pflegerheren</token>
+    <token token_id="14">in</token>
+    <token token_id="15">namen</token>
+    <token token_id="16">der</token>
+    <token token_id="17">Frauen</token>
+    <token token_id="18">des</token>
+    <token token_id="19">Closters</token>
+    <token token_id="20">an</token>
+    <token token_id="21">den</token>
+    <token token_id="22">Steinen</token>
+    <token token_id="23">,</token>
+    <token token_id="24">an</token>
+    <token token_id="25">Hein</token>
+    <token token_id="26">¬</token>
+    <token token_id="27">sich</token>
+    <token token_id="28">Pfilman</token>
+    <token token_id="29">burger</token>
+    <token token_id="30">zu</token>
+    <token token_id="31">Basel</token>
+    <token token_id="32">und</token>
+    <token token_id="33">Elsine</token>
+    <token token_id="34">seine</token>
+    <token token_id="35">Eefrau</token>
+    <token token_id="36">zu</token>
+    <token token_id="37">einem</token>
+    <token token_id="38">stethen</token>
+    <token token_id="39">Erbrecht</token>
+    <token token_id="40">verlichen</token>
+    <token token_id="41">haben</token>
+    <token token_id="42">,</token>
+    <token token_id="43">ein</token>
+    <token token_id="44">Hoff</token>
+    <token token_id="45">¬</token>
+    <token token_id="46">statt</token>
+    <token token_id="47">genannt</token>
+    <token token_id="48">zum</token>
+    <token token_id="49">hindern</token>
+    <token token_id="50">Schluch</token>
+    <token token_id="51">,</token>
+    <token token_id="52">gelegen</token>
+    <token token_id="53">in</token>
+    <token token_id="54">der</token>
+    <token token_id="55">Statt</token>
+    <token token_id="56">Basel</token>
+    <token token_id="57">,</token>
+    <token token_id="58">am</token>
+    <token token_id="59">Vischmarkht</token>
+    <token token_id="60">,</token>
+    <token token_id="61">zwischen</token>
+    <token token_id="62">dem</token>
+    <token token_id="63">Haus</token>
+    <token token_id="64">ge</token>
+    <token token_id="65">-</token>
+    <token token_id="66">nannt</token>
+    <token token_id="67">zem</token>
+    <token token_id="68">Rosen</token>
+    <token token_id="69">und</token>
+    <token token_id="70">dem</token>
+    <token token_id="71">grossen</token>
+    <token token_id="72">Keller</token>
+    <token token_id="73">,</token>
+    <token token_id="74">zinset</token>
+    <token token_id="75">dem</token>
+    <token token_id="76">Capitel</token>
+    <token token_id="77">zu</token>
+    <token token_id="78">sant</token>
+    <token token_id="79">Peter</token>
+    <token token_id="80">jährl</token>
+    <token token_id="81">.</token>
+    <token token_id="82">12</token>
+    <token token_id="83">sh</token>
+    <token token_id="84">.</token>
+    <token token_id="85">sonst</token>
+    <token token_id="86">frey</token>
+    <token token_id="87">.</token>
+    <token token_id="88">um</token>
+    <token token_id="89">einen</token>
+    <token token_id="90">jährlichen</token>
+    <token token_id="91">Zinns</token>
+    <token token_id="92">von</token>
+    <token token_id="93">3</token>
+    <token token_id="94">℔</token>
+    <token token_id="95">.</token>
+  </text>
+  <spans>
+    <span id="1639" start="2" end="3" text="Gross Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1639_head" start="2" end="3" element="head" class="nam" text="Gross Basel" subclass=""/>
+    </span>
+    <span id="1452" start="12" end="13" text="die Pflegerheren" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1458" start="13" end="13" text="Pflegerheren" element="head" class="occ" subclass=""/>
+    </span>
+    <span id="1657" start="16" end="22" text="der Frauen des Closters an den Steinen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1663" start="19" end="19" text="Closters" element="head" class="type" subclass=""/>
+      <span id="1464" start="20" end="22" text="an den Steinen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1645" start="21" end="22" text="den Steinen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1651" start="22" end="22" text="Steinen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1470" start="25" end="35" text="Hein ¬&#10;sich Pfilman burger zu Basel und Elsine seine Eefrau" element="list" class="per" subclass="">
+      <span id="1476" start="25" end="31" text="Hein ¬&#10;sich Pfilman burger zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1482" start="25" end="28" text="Hein ¬&#10;sich Pfilman" element="head" class="nam" subclass=""/>
+        <span id="1488" start="29" end="31" text="burger zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1494" start="29" end="29" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="1500" start="31" end="31" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1500_head" start="31" end="31" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1506" start="33" end="35" text="Elsine seine Eefrau" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1512" start="33" end="33" text="Elsine" element="head" class="nam" subclass=""/>
+        <span id="1531" start="34" end="35" text="seine Eefrau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1518" start="34" end="34" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1518_head" start="34" end="34" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1537" start="35" end="35" text="Eefrau" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1706" start="40" end="40" text="verlichen" element="trigger" class="hereditary" tense="pres" polarity="pos" modality="ass" subclass="lease"/>
+    <span id="1543" start="43" end="86" text="ein Hoff ¬&#10;statt genannt zum hindern Schluch , gelegen in der&#10;Statt Basel , am Vischmarkht , zwischen dem Haus ge -&#10;nannt zem Rosen und dem grossen Keller , zinset dem&#10;Capitel zu sant Peter jährl . 12 sh . sonst frey" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1549" start="44" end="46" text="Hoff ¬&#10;statt" element="head" class="type" subclass=""/>
+      <span id="1555" start="48" end="50" text="zum hindern Schluch" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1555_head" start="48" end="50" element="head" class="nam" text="zum hindern Schluch" subclass=""/>
+      </span>
+      <span id="1561" start="52" end="72" text="gelegen in der&#10;Statt Basel , am Vischmarkht , zwischen dem Haus ge -&#10;nannt zem Rosen und dem grossen Keller" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1567" start="54" end="56" text="der&#10;Statt Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1694" start="55" end="56" text="Statt Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1676" start="58" end="59" text="am Vischmarkht" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="1682" start="59" end="59" text="Vischmarkht" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1573" start="62" end="72" text="dem Haus ge -&#10;nannt zem Rosen und dem grossen Keller" element="list" class="fac" subclass="">
+          <span id="1579" start="62" end="68" text="dem Haus ge -&#10;nannt zem Rosen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1585" start="63" end="63" text="Haus" element="head" class="type" subclass=""/>
+            <span id="1591" start="67" end="68" text="zem Rosen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1591_head" start="67" end="68" element="head" class="nam" text="zem Rosen" subclass=""/>
+            </span>
+          </span>
+          <span id="1597" start="70" end="72" text="dem grossen Keller" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1603" start="71" end="72" text="grossen Keller" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1609" start="74" end="86" text="zinset dem&#10;Capitel zu sant Peter jährl . 12 sh . sonst frey" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1712" start="74" end="74" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1688" start="75" end="79" text="dem&#10;Capitel zu sant Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1700" start="76" end="79" text="Capitel zu sant Peter" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1621" start="80" end="81" text="jährl ." element="value" class="time" subclass="rec"/>
+        <span id="1615" start="82" end="84" text="12 sh ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1627" start="90" end="90" text="jährlichen" element="value" class="time" subclass="rec"/>
+    <span id="1633" start="93" end="95" text="3 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1669" from="1452" to="1657" class="org-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1524" from="1518" to="1476" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1712_role" from="1712" to="1543" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="29" end="31" ref="1488" type="state">
+      <trigger start="29" end="29" text="burger" ref="1494"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1476" text="Hein ¬&#10;sich Pfilman burger zu Basel"/>
+        <role role="geopolitical-entity" ref="1500" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="34" end="35" ref="1531" type="state">
+      <trigger start="35" end="35" text="Eefrau" ref="1537"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1506" text="Elsine seine Eefrau"/>
+        <role role="family-b" ref="1518" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="22" ref="1464" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1657" text="der Frauen des Closters an den Steinen"/>
+        <role role="location-b" ref="1645" text="den Steinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="52" end="72" ref="1561" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1543" text="ein Hoff ¬&#10;statt genannt zum hindern Schluch , gelegen in der&#10;Statt Basel , am Vischmarkht , zwischen dem Haus ge -&#10;nannt zem Rosen und dem grossen Keller , zinset dem&#10;Capitel zu sant Peter jährl . 12 sh . sonst frey"/>
+        <role role="location-b" ref="1567" text="der&#10;Statt Basel"/>
+        <role role="location-b" ref="1676" text="am Vischmarkht"/>
+        <role role="location-b" ref="1579" text="dem Haus ge -&#10;nannt zem Rosen"/>
+        <role role="location-b" ref="1597" text="dem grossen Keller"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="heritable-lease-grant" polarity="pos" tense="pres" modality="ass" start="12" end="95" ref="" type="event">
+      <trigger start="40" end="40" text="verlichen" ref="1706"/>
+      <event event_id="4.0">
+        <role role="grantor" ref="1452" text="die Pflegerheren"/>
+        <role role="lessee" ref="1476" text="Hein ¬&#10;sich Pfilman burger zu Basel"/>
+        <role role="lessee" ref="1506" text="Elsine seine Eefrau"/>
+        <role role="property" ref="1543" text="ein Hoff ¬&#10;statt genannt zum hindern Schluch , gelegen in der&#10;Statt Basel , am Vischmarkht , zwischen dem Haus ge -&#10;nannt zem Rosen und dem grossen Keller , zinset dem&#10;Capitel zu sant Peter jährl . 12 sh . sonst frey"/>
+        <role role="interval" ref="1627" text="jährlichen"/>
+        <role role="interest" ref="1633" text="3 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="43" end="86" ref="1609" type="state">
+      <trigger start="74" end="74" text="zinset" ref="1712"/>
+      <event event_id="5.0">
+        <role role="beneficiary" ref="1688" text="dem&#10;Capitel zu sant Peter"/>
+        <role role="interval" ref="1621" text="jährl ."/>
+        <role role="interest" ref="1615" text="12 sh ."/>
+        <role role="property" ref="1543" text="ein Hoff ¬&#10;statt genannt zum hindern Schluch , gelegen in der&#10;Statt Basel , am Vischmarkht , zwischen dem Haus ge -&#10;nannt zem Rosen und dem grossen Keller , zinset dem&#10;Capitel zu sant Peter jährl . 12 sh . sonst frey"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="6.0">
+        <role role="representative" ref="1452" text="die Pflegerheren"/>
+        <role role="represented" ref="1657" text="der Frauen des Closters an den Steinen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

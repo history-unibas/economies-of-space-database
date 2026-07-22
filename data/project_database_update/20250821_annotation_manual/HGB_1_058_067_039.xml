@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/67 S. [39]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 73</tei:title>
+            <tei:idno>HGB 1 58/67</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467850</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1540">1540</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611443.6153886304 1267219.1250583658</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Taturhen</token>
+    <token token_id="1">von</token>
+    <token token_id="2">Liechtenfels</token>
+    <token token_id="3">,</token>
+    <token token_id="4">propst</token>
+    <token token_id="5">zu</token>
+    <token token_id="6">Münster</token>
+    <token token_id="7">ine</token>
+    <token token_id="8">gränfeld</token>
+    <token token_id="9">,</token>
+    <token token_id="10">verkauft</token>
+    <token token_id="11">an</token>
+    <token token_id="12">Batt</token>
+    <token token_id="13">Huber</token>
+    <token token_id="14">den</token>
+    <token token_id="15">goldschmid</token>
+    <token token_id="16">,</token>
+    <token token_id="17">u</token>
+    <token token_id="18">.</token>
+    <token token_id="19">seine</token>
+    <token token_id="20">Frau</token>
+    <token token_id="21">Barbara</token>
+    <token token_id="22">Frygin</token>
+    <token token_id="23">,</token>
+    <token token_id="24">das</token>
+    <token token_id="25">Hus</token>
+    <token token_id="26">u</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Hofstatt</token>
+    <token token_id="29">,</token>
+    <token token_id="30">hinden</token>
+    <token token_id="31">u</token>
+    <token token_id="32">.</token>
+    <token token_id="33">vor</token>
+    <token token_id="34">,</token>
+    <token token_id="35">an</token>
+    <token token_id="36">der</token>
+    <token token_id="37">Frygenstross</token>
+    <token token_id="38">,</token>
+    <token token_id="39">zwüschen</token>
+    <token token_id="40">der</token>
+    <token token_id="41">scherer</token>
+    <token token_id="42">Zunfthus</token>
+    <token token_id="43">genant</token>
+    <token token_id="44">zum</token>
+    <token token_id="45">gulden</token>
+    <token token_id="46">sternen</token>
+    <token token_id="47">,</token>
+    <token token_id="48">u</token>
+    <token token_id="49">.</token>
+    <token token_id="50">dem</token>
+    <token token_id="51">Hus</token>
+    <token token_id="52">zur</token>
+    <token token_id="53">obern</token>
+    <token token_id="54">wellt</token>
+    <token token_id="55">gelegen</token>
+    <token token_id="56">,</token>
+    <token token_id="57">u</token>
+    <token token_id="58">.</token>
+    <token token_id="59">zur</token>
+    <token token_id="60">nidern</token>
+    <token token_id="61">welt</token>
+    <token token_id="62">genant</token>
+    <token token_id="63">ist</token>
+    <token token_id="64">,</token>
+    <token token_id="65">stosst</token>
+    <token token_id="66">hinden</token>
+    <token token_id="67">an</token>
+    <token token_id="68">s</token>
+    <token token_id="69">.</token>
+    <token token_id="70">Vingenzenhof</token>
+    <token token_id="71">zinst</token>
+    <token token_id="72">jährl</token>
+    <token token_id="73">.</token>
+    <token token_id="74">dem</token>
+    <token token_id="75">Augustinercloster</token>
+    <token token_id="76">uf</token>
+    <token token_id="77">Lucie</token>
+    <token token_id="78">1</token>
+    <token token_id="79">℔</token>
+    <token token_id="80">3sh</token>
+    <token token_id="81">.</token>
+    <token token_id="82">u</token>
+    <token token_id="83">.</token>
+    <token token_id="84">uf</token>
+    <token token_id="85">Barthol</token>
+    <token token_id="86">.</token>
+    <token token_id="87">1</token>
+    <token token_id="88">℔</token>
+    <token token_id="89">3sh</token>
+    <token token_id="90">.</token>
+    <token token_id="91">desgl</token>
+    <token token_id="92">.</token>
+    <token token_id="93">Jacob</token>
+    <token token_id="94">Richer</token>
+    <token token_id="95">2</token>
+    <token token_id="96">1</token>
+    <token token_id="97">/</token>
+    <token token_id="98">2</token>
+    <token token_id="99">℔</token>
+    <token token_id="100">,</token>
+    <token token_id="101">sind</token>
+    <token token_id="102">beid</token>
+    <token token_id="103">letzt</token>
+    <token token_id="104">zins</token>
+    <token token_id="105">abl</token>
+    <token token_id="106">.</token>
+    <token token_id="107">sonstfrei</token>
+    <token token_id="108">,</token>
+    <token token_id="109">sum</token>
+    <token token_id="110">200</token>
+    <token token_id="111">fl</token>
+    <token token_id="112">.</token>
+  </text>
+  <spans>
+    <span id="1616" start="0" end="8" text="Taturhen von Liechtenfels , propst zu Münster ine gränfeld" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1622" start="0" end="2" text="Taturhen von Liechtenfels" element="head" class="nam" subclass=""/>
+      <span id="1857" start="4" end="8" text="propst zu Münster ine gränfeld" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1779" start="4" end="4" text="propst" element="head" class="occ" subclass="org-job"/>
+        <span id="1869" start="5" end="8" text="zu Münster ine gränfeld" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1863" start="6" end="8" text="Münster ine gränfeld" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1863_head" start="6" end="8" element="head" class="nam" text="Münster ine gränfeld" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1875" start="10" end="10" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1628" start="12" end="22" text="Batt Huber den goldschmid , u . seine Frau&#10;Barbara Frygin" element="list" class="per" subclass="">
+      <span id="1640" start="12" end="15" text="Batt Huber den goldschmid" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1634" start="12" end="13" text="Batt Huber" element="head" class="nam" subclass=""/>
+        <span id="1646" start="14" end="15" text="den goldschmid" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1652" start="15" end="15" text="goldschmid" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1658" start="19" end="22" text="seine Frau&#10;Barbara Frygin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1677" start="19" end="20" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1664" start="19" end="19" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1664_head" start="19" end="19" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1683" start="20" end="20" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1689" start="21" end="22" text="Barbara Frygin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1845" start="24" end="107" text="das Hus u . Hofstatt , hinden u . vor , an&#10;der Frygenstross , zwüschen der scherer Zunfthus genant zum&#10;gulden sternen , u . dem Hus zur obern wellt gelegen , u . zur&#10;nidern welt genant ist , stosst hinden an s . Vingenzenhof&#10;zinst jährl . dem Augustinercloster uf Lucie 1 ℔ 3sh . u . uf Barthol .&#10;1 ℔ 3sh . desgl . Jacob Richer 2 1 / 2 ℔, sind beid letzt zins abl .&#10;sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1695" start="25" end="28" text="Hus u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1887" start="35" end="55" text="an&#10;der Frygenstross , zwüschen der scherer Zunfthus genant zum&#10;gulden sternen , u . dem Hus zur obern wellt gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1701" start="36" end="37" text="der Frygenstross" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1707" start="37" end="37" text="Frygenstross" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1809" start="40" end="54" text="der scherer Zunfthus genant zum&#10;gulden sternen , u . dem Hus zur obern wellt" element="list" class="fac" subclass="">
+          <span id="1713" start="40" end="46" text="der scherer Zunfthus genant zum&#10;gulden sternen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1791" start="40" end="41" text="der scherer" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1797" start="40" end="41" text="der scherer" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+                <span id="1803" start="41" end="41" text="scherer" element="head" class="nam" subclass=""/>
+              </span>
+            </span>
+            <span id="1785" start="42" end="42" text="Zunfthus" element="head" class="type" subclass=""/>
+            <span id="1719" start="45" end="46" text="gulden sternen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1719_head" start="45" end="46" element="head" class="nam" text="gulden sternen" subclass=""/>
+            </span>
+          </span>
+          <span id="1815" start="50" end="54" text="dem Hus zur obern wellt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1821" start="51" end="54" text="Hus zur obern wellt" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1725" start="59" end="61" text="zur&#10;nidern welt" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1725_head" start="59" end="61" element="head" class="nam" text="zur nidern welt" subclass=""/>
+      </span>
+      <span id="1893" start="65" end="70" text="stosst hinden an s . Vingenzenhof" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1731" start="68" end="70" text="s . Vingenzenhof" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1731_head" start="68" end="70" element="head" class="nam" text="s . Vingenzenhof" subclass=""/>
+        </span>
+      </span>
+      <span id="1851" start="71" end="107" text="zinst jährl . dem Augustinercloster uf Lucie 1 ℔ 3sh . u . uf Barthol .&#10;1 ℔ 3sh . desgl . Jacob Richer 2 1 / 2 ℔, sind beid letzt zins abl .&#10;sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1881" start="71" end="71" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1737" start="72" end="73" text="jährl ." element="value" class="time" subclass="rec"/>
+        <span id="1827" start="74" end="75" text="dem Augustinercloster" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1833" start="75" end="75" text="Augustinercloster" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1743" start="76" end="77" text="uf Lucie" element="value" class="date" subclass=""/>
+        <span id="1749" start="78" end="81" text="1 ℔ 3sh ." element="value" class="money" subclass=""/>
+        <span id="1839" start="84" end="86" text="uf Barthol ." element="value" class="date" subclass=""/>
+        <span id="1755" start="87" end="90" text="1 ℔ 3sh ." element="value" class="money" subclass=""/>
+        <span id="1761" start="93" end="94" text="Jacob Richer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1761_head" start="93" end="94" element="head" class="nam" text="Jacob Richer" subclass=""/>
+        </span>
+        <span id="1767" start="95" end="99" text="2 1 / 2 ℔" element="value" class="money" subclass=""/>
+        <span id="1899" start="105" end="106" text="abl ." element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="1773" start="110" end="112" text="200 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1670" from="1664" to="1640" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1881_role" from="1881" to="1845" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="19" end="20" ref="1677" type="state">
+      <trigger start="20" end="20" text="Frau" ref="1683"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1658" text="seine Frau&#10;Barbara Frygin"/>
+        <role role="family-b" ref="1664" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="5" end="8" ref="1869" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1616" text="Taturhen von Liechtenfels , propst zu Münster ine gränfeld"/>
+        <role role="location-b" ref="1863" text="Münster ine gränfeld"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="55" ref="1887" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1845" text="das Hus u . Hofstatt , hinden u . vor , an&#10;der Frygenstross , zwüschen der scherer Zunfthus genant zum&#10;gulden sternen , u . dem Hus zur obern wellt gelegen , u . zur&#10;nidern welt genant ist , stosst hinden an s . Vingenzenhof&#10;zinst jährl . dem Augustinercloster uf Lucie 1 ℔ 3sh . u . uf Barthol .&#10;1 ℔ 3sh . desgl . Jacob Richer 2 1 / 2 ℔, sind beid letzt zins abl .&#10;sonstfrei"/>
+        <role role="location-b" ref="1701" text="der Frygenstross"/>
+        <role role="location-b" ref="1713" text="der scherer Zunfthus genant zum&#10;gulden sternen"/>
+        <role role="location-b" ref="1815" text="dem Hus zur obern wellt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="40" end="41" ref="1791" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1713" text="der scherer Zunfthus genant zum&#10;gulden sternen"/>
+        <role role="owner" ref="1797" text="der scherer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="65" end="70" ref="1893" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1845" text="das Hus u . Hofstatt , hinden u . vor , an&#10;der Frygenstross , zwüschen der scherer Zunfthus genant zum&#10;gulden sternen , u . dem Hus zur obern wellt gelegen , u . zur&#10;nidern welt genant ist , stosst hinden an s . Vingenzenhof&#10;zinst jährl . dem Augustinercloster uf Lucie 1 ℔ 3sh . u . uf Barthol .&#10;1 ℔ 3sh . desgl . Jacob Richer 2 1 / 2 ℔, sind beid letzt zins abl .&#10;sonstfrei"/>
+        <role role="location-b" ref="1731" text="s . Vingenzenhof"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="112" ref="" type="event">
+      <trigger start="10" end="10" text="verkauft" ref="1875"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1616" text="Taturhen von Liechtenfels , propst zu Münster ine gränfeld"/>
+        <role role="buyer" ref="1640" text="Batt Huber den goldschmid"/>
+        <role role="buyer" ref="1658" text="seine Frau&#10;Barbara Frygin"/>
+        <role role="property" ref="1845" text="das Hus u . Hofstatt , hinden u . vor , an&#10;der Frygenstross , zwüschen der scherer Zunfthus genant zum&#10;gulden sternen , u . dem Hus zur obern wellt gelegen , u . zur&#10;nidern welt genant ist , stosst hinden an s . Vingenzenhof&#10;zinst jährl . dem Augustinercloster uf Lucie 1 ℔ 3sh . u . uf Barthol .&#10;1 ℔ 3sh . desgl . Jacob Richer 2 1 / 2 ℔, sind beid letzt zins abl .&#10;sonstfrei"/>
+        <role role="price" ref="1773" text="200 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="24" end="71" ref="1851" type="state">
+      <trigger start="71" end="71" text="zinst" ref="1881"/>
+      <event event_id="6.0">
+        <role role="interval" ref="1737" text="jährl ."/>
+        <role role="beneficiary" ref="1827" text="dem Augustinercloster"/>
+        <role role="due-date" ref="1743" text="uf Lucie"/>
+        <role role="interest" ref="1749" text="1 ℔ 3sh ."/>
+        <role role="interest-redeemable" ref="1899" text="abl ."/>
+        <role role="property" ref="1845" text="das Hus u . Hofstatt , hinden u . vor , an&#10;der Frygenstross , zwüschen der scherer Zunfthus genant zum&#10;gulden sternen , u . dem Hus zur obern wellt gelegen , u . zur&#10;nidern welt genant ist , stosst hinden an s . Vingenzenhof&#10;zinst jährl . dem Augustinercloster uf Lucie 1 ℔ 3sh . u . uf Barthol .&#10;1 ℔ 3sh . desgl . Jacob Richer 2 1 / 2 ℔, sind beid letzt zins abl .&#10;sonstfrei"/>
+      </event>
+      <event event_id="6.1">
+        <role role="interval" ref="1737" text="jährl ."/>
+        <role role="beneficiary" ref="1827" text="dem Augustinercloster"/>
+        <role role="due-date" ref="1839" text="uf Barthol ."/>
+        <role role="interest" ref="1755" text="1 ℔ 3sh ."/>
+        <role role="interest-redeemable" ref="1899" text="abl ."/>
+        <role role="property" ref="1845" text="das Hus u . Hofstatt , hinden u . vor , an&#10;der Frygenstross , zwüschen der scherer Zunfthus genant zum&#10;gulden sternen , u . dem Hus zur obern wellt gelegen , u . zur&#10;nidern welt genant ist , stosst hinden an s . Vingenzenhof&#10;zinst jährl . dem Augustinercloster uf Lucie 1 ℔ 3sh . u . uf Barthol .&#10;1 ℔ 3sh . desgl . Jacob Richer 2 1 / 2 ℔, sind beid letzt zins abl .&#10;sonstfrei"/>
+      </event>
+      <event event_id="6.2">
+        <role role="interval" ref="1737" text="jährl ."/>
+        <role role="beneficiary" ref="1761" text="Jacob Richer"/>
+        <role role="interest" ref="1767" text="2 1 / 2 ℔"/>
+        <role role="property" ref="1845" text="das Hus u . Hofstatt , hinden u . vor , an&#10;der Frygenstross , zwüschen der scherer Zunfthus genant zum&#10;gulden sternen , u . dem Hus zur obern wellt gelegen , u . zur&#10;nidern welt genant ist , stosst hinden an s . Vingenzenhof&#10;zinst jährl . dem Augustinercloster uf Lucie 1 ℔ 3sh . u . uf Barthol .&#10;1 ℔ 3sh . desgl . Jacob Richer 2 1 / 2 ℔, sind beid letzt zins abl .&#10;sonstfrei"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

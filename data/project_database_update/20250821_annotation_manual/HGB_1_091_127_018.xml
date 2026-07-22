@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 91/127 S. [18]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Johanns-Vorstadt 32</tei:title>
+            <tei:idno>HGB 1 91/127</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1482359</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1493">1493</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610987.3868048554 1268094.8372120857</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">hat</token>
+    <token token_id="2">Werlin</token>
+    <token token_id="3">Vesch</token>
+    <token token_id="4">der</token>
+    <token token_id="5">Wagner</token>
+    <token token_id="6">,</token>
+    <token token_id="7">Hans</token>
+    <token token_id="8">Bren</token>
+    <token token_id="9">des</token>
+    <token token_id="10">Vischer</token>
+    <token token_id="11">Hus</token>
+    <token token_id="12">,</token>
+    <token token_id="13">jnn</token>
+    <token token_id="14">sant</token>
+    <token token_id="15">Johann</token>
+    <token token_id="16">Vorstatt</token>
+    <token token_id="17">,</token>
+    <token token_id="18">neben</token>
+    <token token_id="19">der</token>
+    <token token_id="20">Medern</token>
+    <token token_id="21">Hus</token>
+    <token token_id="22">gelegen</token>
+    <token token_id="23">ist</token>
+    <token token_id="24">,</token>
+    <token token_id="25">um</token>
+    <token token_id="26">die</token>
+    <token token_id="27">Schuld</token>
+    <token token_id="28">so</token>
+    <token token_id="29">er</token>
+    <token token_id="30">jm</token>
+    <token token_id="31">noch</token>
+    <token token_id="32">an</token>
+    <token token_id="33">denselben</token>
+    <token token_id="34">Hus</token>
+    <token token_id="35">zu</token>
+    <token token_id="36">thun</token>
+    <token token_id="37">ist</token>
+    <token token_id="38">,</token>
+    <token token_id="39">gefrönt</token>
+    <token token_id="40">.</token>
+  </text>
+  <spans>
+    <span id="692" start="2" end="5" text="Werlin Vesch der Wagner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="698" start="2" end="3" text="Werlin Vesch" element="head" class="nam" subclass=""/>
+      <span id="704" start="4" end="5" text="der Wagner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="710" start="5" end="5" text="Wagner" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="716" start="7" end="23" text="Hans Bren des Vischer&#10;Hus , jnn sant Johann Vorstatt , neben der Medern Hus&#10;gelegen ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="728" start="7" end="10" text="Hans Bren des Vischer" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="734" start="7" end="10" text="Hans Bren des Vischer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="740" start="7" end="8" text="Hans Bren" element="head" class="nam" subclass=""/>
+          <span id="746" start="9" end="10" text="des Vischer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="752" start="10" end="10" text="Vischer" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="722" start="11" end="11" text="Hus" element="head" class="type" subclass=""/>
+      <span id="758" start="13" end="23" text="jnn sant Johann Vorstatt , neben der Medern Hus&#10;gelegen ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="764" start="14" end="16" text="sant Johann Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="764_head" start="14" end="16" element="head" class="nam" text="sant Johann Vorstatt" subclass=""/>
+        </span>
+        <span id="770" start="19" end="21" text="der Medern Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="776" start="20" end="21" text="Medern Hus" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="833" start="27" end="27" text="Schuld" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="782" start="29" end="29" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="782_head" start="29" end="29" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="795" start="30" end="30" text="jm" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="795_head" start="30" end="30" element="head" class="pro" text="jm" subclass=""/>
+    </span>
+    <span id="808" start="33" end="34" text="denselben Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="814" start="34" end="34" text="Hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="827" start="39" end="39" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="801" from="795" to="692" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="820" from="808" to="716" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="788" from="782" to="734" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="7" end="10" ref="728" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="716" text="Hans Bren des Vischer&#10;Hus , jnn sant Johann Vorstatt , neben der Medern Hus&#10;gelegen ist"/>
+        <role role="owner" ref="734" text="Hans Bren des Vischer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="23" ref="758" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="716" text="Hans Bren des Vischer&#10;Hus , jnn sant Johann Vorstatt , neben der Medern Hus&#10;gelegen ist"/>
+        <role role="location-b" ref="764" text="sant Johann Vorstatt"/>
+        <role role="location-b" ref="770" text="der Medern Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="27" end="34" ref="" type="state">
+      <trigger start="27" end="27" text="Schuld" ref="833"/>
+      <event event_id="2.0">
+        <role role="payer" ref="782" text="er"/>
+        <role role="beneficiary" ref="795" text="jm"/>
+        <role role="property" ref="808" text="denselben Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="39" ref="" type="event">
+      <trigger start="39" end="39" text="gefrönt" ref="827"/>
+      <event event_id="3.0">
+        <role role="claimant" ref="692" text="Werlin Vesch der Wagner"/>
+        <role role="property" ref="716" text="Hans Bren des Vischer&#10;Hus , jnn sant Johann Vorstatt , neben der Medern Hus&#10;gelegen ist"/>
+        <role role="cause" ref="833" text="Schuld"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

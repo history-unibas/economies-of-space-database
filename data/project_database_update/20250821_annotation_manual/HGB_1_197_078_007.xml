@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 197/78 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenvorstadt 26</tei:title>
+            <tei:idno>HGB 1 197/78</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1526868</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1400">1400</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610811.356468359 1267447.4471237722</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">do</token>
+    <token token_id="2">gabent</token>
+    <token token_id="3">ze</token>
+    <token token_id="4">kouffende</token>
+    <token token_id="5">Hüglin</token>
+    <token token_id="6">von</token>
+    <token token_id="7">Mumpf</token>
+    <token token_id="8">und</token>
+    <token token_id="9">dar</token>
+    <token token_id="10">sin</token>
+    <token token_id="11">eliche</token>
+    <token token_id="12">wirtin</token>
+    <token token_id="13">Volmar</token>
+    <token token_id="14">von</token>
+    <token token_id="15">Utingen</token>
+    <token token_id="16">ire</token>
+    <token token_id="17">huse</token>
+    <token token_id="18">gelegen</token>
+    <token token_id="19">by</token>
+    <token token_id="20">¬</token>
+    <token token_id="21">dem</token>
+    <token token_id="22">ussern</token>
+    <token token_id="23">Spalen</token>
+    <token token_id="24">thor</token>
+    <token token_id="25">und</token>
+    <token token_id="26">der</token>
+    <token token_id="27">stoghsie</token>
+    <token token_id="28">matten</token>
+    <token token_id="29">dar</token>
+    <token token_id="30">ine</token>
+    <token token_id="31">und</token>
+    <token token_id="32">die</token>
+    <token token_id="33">schüren</token>
+    <token token_id="34">dar</token>
+    <token token_id="35">¬</token>
+    <token token_id="36">hinder</token>
+    <token token_id="37">zwüschen</token>
+    <token token_id="38">der</token>
+    <token token_id="39">Phlugerin</token>
+    <token token_id="40">und</token>
+    <token token_id="41">Henslins</token>
+    <token token_id="42">von</token>
+    <token token_id="43">Bern</token>
+    <token token_id="44">husern</token>
+    <token token_id="45">umb</token>
+    <token token_id="46">anderhalb</token>
+    <token token_id="47">hun</token>
+    <token token_id="48">¬</token>
+    <token token_id="49">dert</token>
+    <token token_id="50">guldin</token>
+    <token token_id="51">gevertiget</token>
+    <token token_id="52">mit</token>
+    <token token_id="53">Ulman</token>
+    <token token_id="54">Roser</token>
+    <token token_id="55">dominorum</token>
+    <token token_id="56">vie</token>
+    <token token_id="57">zins</token>
+    <token token_id="58">in</token>
+    <token token_id="59">Gnadental</token>
+    <token token_id="60">und</token>
+    <token token_id="61">Velten</token>
+    <token token_id="62">geli</token>
+    <token token_id="63">¬</token>
+    <token token_id="64">cen</token>
+    <token token_id="65">nach</token>
+    <token token_id="66">der</token>
+    <token token_id="67">alten</token>
+    <token token_id="68">by</token>
+    <token token_id="69">sage</token>
+  </text>
+  <spans>
+    <span id="1281" start="4" end="4" text="kouffende" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1142" start="5" end="12" text="Hüglin von&#10;Mumpf und dar sin eliche wirtin" element="list" class="per" subclass="">
+      <span id="1111" start="5" end="7" text="Hüglin von&#10;Mumpf" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1111_head" start="5" end="7" element="head" class="nam" text="Hüglin von Mumpf" subclass=""/>
+      </span>
+      <span id="1117" start="10" end="12" text="sin eliche wirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1129" start="10" end="10" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1129_head" start="10" end="10" element="head" class="pro" text="sin" subclass=""/>
+        </span>
+        <span id="1123" start="11" end="12" text="eliche wirtin" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1148" start="13" end="15" text="Volmar von Utingen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1148_head" start="13" end="15" element="head" class="nam" text="Volmar von Utingen" subclass=""/>
+    </span>
+    <span id="1287" start="16" end="44" text="ire huse gelegen by ¬&#10;dem ussern Spalen thor und der stoghsie&#10;matten dar ine und die schüren dar ¬&#10;hinder zwüschen der Phlugerin und Henslins&#10;von Bern husern" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1160" start="16" end="16" text="ire" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1166" start="16" end="16" text="ire" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1166_head" start="16" end="16" element="head" class="pro" text="ire" subclass=""/>
+        </span>
+      </span>
+      <span id="1154" start="17" end="17" text="huse" element="head" class="type" subclass=""/>
+      <span id="1293" start="18" end="24" text="gelegen by ¬&#10;dem ussern Spalen thor" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1179" start="21" end="24" text="dem ussern Spalen thor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gate">
+          <span id="1185" start="22" end="24" text="ussern Spalen thor" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1299" start="26" end="30" text="der stoghsie&#10;matten dar ine" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1191" start="26" end="28" text="der stoghsie&#10;matten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1197" start="27" end="28" text="stoghsie&#10;matten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1311" start="32" end="36" text="die schüren dar ¬&#10;hinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1317" start="32" end="36" text="die schüren dar ¬&#10;hinder" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1203" start="33" end="33" text="schüren" element="head" class="type" subclass=""/>
+          <span id="1305" start="34" end="36" text="dar ¬&#10;hinder" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+      </span>
+      <span id="1323" start="37" end="44" text="zwüschen der Phlugerin und Henslins&#10;von Bern husern" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1227" start="38" end="44" text="der Phlugerin und Henslins&#10;von Bern husern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1239" start="38" end="43" text="der Phlugerin und Henslins&#10;von Bern" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1329" start="38" end="43" text="der Phlugerin und Henslins&#10;von Bern" element="list" class="per" subclass="">
+              <span id="1209" start="38" end="39" text="der Phlugerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1215" start="39" end="39" text="Phlugerin" element="head" class="nam" subclass=""/>
+              </span>
+              <span id="1221" start="41" end="43" text="Henslins&#10;von Bern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1221_head" start="41" end="43" element="head" class="nam" text="Henslins von Bern" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1233" start="44" end="44" text="husern" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1245" start="46" end="50" text="anderhalb hun ¬&#10;dert guldin" element="value" class="money" subclass=""/>
+    <span id="1257" start="53" end="59" text="Ulman Roser&#10;dominorum&#10;vie zins in Gnadental" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1251" start="53" end="54" text="Ulman Roser" element="head" class="nam" subclass=""/>
+      <span id="1263" start="55" end="59" text="dominorum&#10;vie zins in Gnadental" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1269" start="55" end="57" text="dominorum&#10;vie zins" element="head" class="occ" subclass="org-job"/>
+        <span id="1275" start="59" end="59" text="Gnadental" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1275_head" start="59" end="59" element="head" class="nam" text="Gnadental" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1335" start="61" end="61" text="Velten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1335_head" start="61" end="61" element="head" class="nam" text="Velten" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1172" from="1166" to="1142" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1135" from="1129" to="1111" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="10" end="12" ref="1117" type="state">
+      <trigger start="11" end="12" text="eliche wirtin" ref="1123"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1117" text="sin eliche wirtin"/>
+        <role role="family-b" ref="1129" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="55" end="59" ref="1263" type="state">
+      <trigger start="55" end="57" text="dominorum&#10;vie zins" ref="1269"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1257" text="Ulman Roser&#10;dominorum&#10;vie zins in Gnadental"/>
+        <role role="employer" ref="1275" text="Gnadental"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="16" end="16" ref="1160" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1287" text="ire huse gelegen by ¬&#10;dem ussern Spalen thor und der stoghsie&#10;matten dar ine und die schüren dar ¬&#10;hinder zwüschen der Phlugerin und Henslins&#10;von Bern husern"/>
+        <role role="owner" ref="1166" text="ire"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="18" end="24" ref="1293" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1287" text="ire huse gelegen by ¬&#10;dem ussern Spalen thor und der stoghsie&#10;matten dar ine und die schüren dar ¬&#10;hinder zwüschen der Phlugerin und Henslins&#10;von Bern husern"/>
+        <role role="location-b" ref="1179" text="dem ussern Spalen thor"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="26" end="30" ref="1299" type="state">
+      <event event_id="4.0">
+        <role role="whole" ref="1287" text="ire huse gelegen by ¬&#10;dem ussern Spalen thor und der stoghsie&#10;matten dar ine und die schüren dar ¬&#10;hinder zwüschen der Phlugerin und Henslins&#10;von Bern husern"/>
+        <role role="part" ref="1191" text="der stoghsie&#10;matten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" start="32" end="36" ref="1311" type="state">
+      <event event_id="5.0">
+        <role role="whole" ref="1287" text="ire huse gelegen by ¬&#10;dem ussern Spalen thor und der stoghsie&#10;matten dar ine und die schüren dar ¬&#10;hinder zwüschen der Phlugerin und Henslins&#10;von Bern husern"/>
+        <role role="part" ref="1317" text="die schüren dar ¬&#10;hinder"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="37" end="44" ref="1323" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1287" text="ire huse gelegen by ¬&#10;dem ussern Spalen thor und der stoghsie&#10;matten dar ine und die schüren dar ¬&#10;hinder zwüschen der Phlugerin und Henslins&#10;von Bern husern"/>
+        <role role="location-b" ref="1227" text="der Phlugerin und Henslins&#10;von Bern husern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="38" end="43" ref="1239" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1227" text="der Phlugerin und Henslins&#10;von Bern husern"/>
+        <role role="owner" ref="1209" text="der Phlugerin"/>
+        <role role="owner" ref="1221" text="Henslins&#10;von Bern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="4" end="59" ref="" type="event">
+      <trigger start="4" end="4" text="kouffende" ref="1281"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1111" text="Hüglin von&#10;Mumpf"/>
+        <role role="seller" ref="1117" text="sin eliche wirtin"/>
+        <role role="buyer" ref="1148" text="Volmar von Utingen"/>
+        <role role="property" ref="1287" text="ire huse gelegen by ¬&#10;dem ussern Spalen thor und der stoghsie&#10;matten dar ine und die schüren dar ¬&#10;hinder zwüschen der Phlugerin und Henslins&#10;von Bern husern"/>
+        <role role="price" ref="1245" text="anderhalb hun ¬&#10;dert guldin"/>
+        <role role="witness" ref="1257" text="Ulman Roser&#10;dominorum&#10;vie zins in Gnadental"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

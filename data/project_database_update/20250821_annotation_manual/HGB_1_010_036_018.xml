@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/36 S. [18]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt 9</tei:title>
+            <tei:idno>HGB 1 10/36</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433409</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Alban</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1500">1500</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611807.4381328574 1267126.0138284906</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Zins</token>
+    <token token_id="1">in</token>
+    <token token_id="2">den</token>
+    <token token_id="3">Mülinen</token>
+    <token token_id="4">uff</token>
+    <token token_id="5">sant</token>
+    <token token_id="6">Albanberg</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Item</token>
+    <token token_id="9">Mattheus</token>
+    <token token_id="10">der</token>
+    <token token_id="11">vogt</token>
+    <token token_id="12">von</token>
+    <token token_id="13">Birsega</token>
+    <token token_id="14">git</token>
+    <token token_id="15">jerlichen</token>
+    <token token_id="16">6ȡ</token>
+    <token token_id="17">nonore</token>
+    <token token_id="18">und</token>
+    <token token_id="19">als</token>
+    <token token_id="20">vil</token>
+    <token token_id="21">zu</token>
+    <token token_id="22">erschatz</token>
+    <token token_id="23">ouch</token>
+    <token token_id="24">ein</token>
+    <token token_id="25">vasnacht</token>
+    <token token_id="26">hun</token>
+    <token token_id="27">und</token>
+    <token token_id="28">ein</token>
+    <token token_id="29">höwer</token>
+    <token token_id="30">tag</token>
+    <token token_id="31">von</token>
+    <token token_id="32">einem</token>
+    <token token_id="33">huß</token>
+    <token token_id="34">genant</token>
+    <token token_id="35">kleinen</token>
+    <token token_id="36">Eptingen</token>
+    <token token_id="37">lyt</token>
+    <token token_id="38">zwüschen</token>
+    <token token_id="39">Schouwenburg</token>
+    <token token_id="40">und</token>
+    <token token_id="41">Gesingen</token>
+    <token token_id="42">gitt</token>
+    <token token_id="43">her</token>
+    <token token_id="44">Ludwig</token>
+    <token token_id="45">Wytnower</token>
+    <token token_id="46">jetz</token>
+    <token token_id="47">Kristoffel</token>
+    <token token_id="48">Behen</token>
+  </text>
+  <spans>
+    <span id="967" start="0" end="41" text="Zins in den Mülinen uff sant Albanberg .&#10;Item Mattheus der vogt von Birsega&#10;git jerlichen 6ȡ nonore und als vil zu&#10;erschatz ouch ein vasnacht hun und ein&#10;höwer tag von einem huß genant kleinen&#10;Eptingen lyt zwüschen Schouwenburg&#10;und Gesingen" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="810" start="2" end="6" text="den Mülinen uff sant Albanberg" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="816" start="3" end="3" text="Mülinen" element="head" class="type" subclass=""/>
+        <span id="828" start="4" end="6" text="uff sant Albanberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="822" start="5" end="6" text="sant Albanberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="822_head" start="5" end="6" element="head" class="nam" text="sant Albanberg" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="834" start="9" end="13" text="Mattheus der vogt von Birsega" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="840" start="9" end="9" text="Mattheus" element="head" class="nam" subclass=""/>
+        <span id="846" start="10" end="13" text="der vogt von Birsega" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="852" start="11" end="11" text="vogt" element="head" class="occ" subclass=""/>
+          <span id="858" start="13" end="13" text="Birsega" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="858_head" start="13" end="13" element="head" class="nam" text="Birsega" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="942" start="14" end="14" text="git" element="trigger" class="type" subclass=""/>
+      <span id="864" start="15" end="15" text="jerlichen" element="value" class="time" subclass="rec"/>
+      <span id="870" start="16" end="16" text="6ȡ" element="value" class="money" subclass=""/>
+      <span id="948" start="19" end="20" text="als vil" element="value" class="money" subclass=""/>
+      <span id="961" start="21" end="22" text="zu&#10;erschatz" element="other" class="other" subclass=""/>
+      <span id="876" start="24" end="26" text="ein vasnacht hun" element="value" class="money" subclass=""/>
+      <span id="882" start="28" end="30" text="ein&#10;höwer tag" element="value" class="money" subclass=""/>
+      <span id="888" start="32" end="41" text="einem huß genant kleinen&#10;Eptingen lyt zwüschen Schouwenburg&#10;und Gesingen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="894" start="33" end="33" text="huß" element="head" class="type" subclass=""/>
+        <span id="900" start="35" end="36" text="kleinen&#10;Eptingen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="900_head" start="35" end="36" element="head" class="nam" text="kleinen Eptingen" subclass=""/>
+        </span>
+        <span id="912" start="37" end="41" text="lyt zwüschen Schouwenburg&#10;und Gesingen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="906" start="39" end="39" text="Schouwenburg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="906_head" start="39" end="39" element="head" class="nam" text="Schouwenburg" subclass=""/>
+          </span>
+          <span id="918" start="41" end="41" text="Gesingen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="918_head" start="41" end="41" element="head" class="nam" text="Gesingen" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="979" start="42" end="45" text="gitt her Ludwig Wytnower" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="973" start="42" end="42" text="gitt" element="trigger" class="type" subclass=""/>
+      <span id="930" start="43" end="45" text="her Ludwig Wytnower" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="924" start="44" end="45" text="Ludwig Wytnower" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="985" start="46" end="48" text="jetz Kristoffel Behen" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="936" start="47" end="48" text="Kristoffel Behen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="936_head" start="47" end="48" element="head" class="nam" text="Kristoffel Behen" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="954" from="948" to="870" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="0" end="41" ref="967" type="state">
+      <trigger start="14" end="14" text="git" ref="942"/>
+      <event event_id="0.0">
+        <role role="place" ref="810" text="den Mülinen uff sant Albanberg"/>
+        <role role="payer" ref="834" text="Mattheus der vogt von Birsega"/>
+        <role role="interval" ref="864" text="jerlichen"/>
+        <role role="interest" ref="870" text="6ȡ"/>
+        <role role="property" ref="888" text="einem huß genant kleinen&#10;Eptingen lyt zwüschen Schouwenburg&#10;und Gesingen"/>
+      </event>
+      <event event_id="0.1">
+        <role role="place" ref="810" text="den Mülinen uff sant Albanberg"/>
+        <role role="payer" ref="834" text="Mattheus der vogt von Birsega"/>
+        <role role="interest" ref="948" text="als vil"/>
+        <role role="cause" ref="961" text="zu&#10;erschatz"/>
+        <role role="interest" ref="876" text="ein vasnacht hun"/>
+        <role role="interest" ref="882" text="ein&#10;höwer tag"/>
+        <role role="property" ref="888" text="einem huß genant kleinen&#10;Eptingen lyt zwüschen Schouwenburg&#10;und Gesingen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="42" end="45" ref="979" type="state">
+      <trigger start="42" end="42" text="gitt" ref="973"/>
+      <event event_id="1.0">
+        <role role="payer" ref="930" text="her Ludwig Wytnower"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="46" end="48" ref="985" type="state">
+      <event event_id="2.0">
+        <role role="payer" ref="936" text="Kristoffel Behen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="employment" polarity="pos" tense="pres" modality="ass" start="10" end="13" ref="846" type="state">
+      <trigger start="11" end="11" text="vogt" ref="852"/>
+      <event event_id="3.0">
+        <role role="employee" ref="834" text="Mattheus der vogt von Birsega"/>
+        <role role="employer" ref="858" text="Birsega"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="4" end="6" ref="828" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="810" text="den Mülinen uff sant Albanberg"/>
+        <role role="location-b" ref="822" text="sant Albanberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="37" end="41" ref="912" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="888" text="einem huß genant kleinen&#10;Eptingen lyt zwüschen Schouwenburg&#10;und Gesingen"/>
+        <role role="location-b" ref="906" text="Schouwenburg"/>
+        <role role="location-b" ref="918" text="Gesingen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

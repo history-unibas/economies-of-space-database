@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 4/6 S. [4]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Albanthorgraben 1</tei:title>
+            <tei:idno>HGB 1 4/6</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433042</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Notariatsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1738">1738</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611761.625687721 1266783.6840342686</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Obligatio</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Es</token>
+    <token token_id="3">verschreiben</token>
+    <token token_id="4">sich</token>
+    <token token_id="5">Hans</token>
+    <token token_id="6">Heinrich</token>
+    <token token_id="7">Fischer</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Holtzsetzer</token>
+    <token token_id="10">und</token>
+    <token token_id="11">seine</token>
+    <token token_id="12">Frau</token>
+    <token token_id="13">Anna</token>
+    <token token_id="14">Margaretha</token>
+    <token token_id="15">Schaubin</token>
+    <token token_id="16">,</token>
+    <token token_id="17">gegen</token>
+    <token token_id="18">Johannes</token>
+    <token token_id="19">Schweig</token>
+    <token token_id="20">hauser</token>
+    <token token_id="21">des</token>
+    <token token_id="22">gehennen</token>
+    <token token_id="23">Raths</token>
+    <token token_id="24">für</token>
+    <token token_id="25">900</token>
+    <token token_id="26">℔</token>
+    <token token_id="27">um</token>
+    <token token_id="28">einen</token>
+    <token token_id="29">järlichen</token>
+    <token token_id="30">zins</token>
+    <token token_id="31">.</token>
+    <token token_id="32">von</token>
+    <token token_id="33">27</token>
+    <token token_id="34">℔</token>
+    <token token_id="35">.</token>
+    <token token_id="36">und</token>
+    <token token_id="37">setzen</token>
+    <token token_id="38">zum</token>
+    <token token_id="39">Unterpfand</token>
+    <token token_id="40">ein</token>
+    <token token_id="41">:</token>
+    <token token_id="42">Erstlich</token>
+    <token token_id="43">ihre</token>
+    <token token_id="44">Be</token>
+    <token token_id="45">¬</token>
+    <token token_id="46">hausung</token>
+    <token token_id="47">,</token>
+    <token token_id="48">Hooffstatt</token>
+    <token token_id="49">und</token>
+    <token token_id="50">Höflin</token>
+    <token token_id="51">in</token>
+    <token token_id="52">der</token>
+    <token token_id="53">Aschemer</token>
+    <token token_id="54">Vorstatt</token>
+    <token token_id="55">am</token>
+    <token token_id="56">Graben</token>
+    <token token_id="57">,</token>
+    <token token_id="58">gegen</token>
+    <token token_id="59">der</token>
+    <token token_id="60">Ringsmanen</token>
+    <token token_id="61">hinüber</token>
+    <token token_id="62">,</token>
+    <token token_id="63">ein</token>
+    <token token_id="64">und</token>
+    <token token_id="65">ande</token>
+    <token token_id="66">seits</token>
+    <token token_id="67">neben</token>
+    <token token_id="68">dem</token>
+    <token token_id="69">Verkauffer</token>
+    <token token_id="70">selbst</token>
+    <token token_id="71">,</token>
+    <token token_id="72">fürhin</token>
+    <token token_id="73">an</token>
+    <token token_id="74">die</token>
+    <token token_id="75">Gass</token>
+    <token token_id="76">oder</token>
+    <token token_id="77">Strass</token>
+    <token token_id="78">.</token>
+    <token token_id="79">hinden</token>
+    <token token_id="80">mit</token>
+    <token token_id="81">der</token>
+    <token token_id="82">Höflin</token>
+    <token token_id="83">Mauren</token>
+    <token token_id="84">an</token>
+    <token token_id="85">Jacob</token>
+    <token token_id="86">Schmid</token>
+    <token token_id="87">den</token>
+    <token token_id="88">Schman</token>
+    <token token_id="89">stossend</token>
+    <token token_id="90">;</token>
+    <token token_id="91">wegen</token>
+    <token token_id="92">den</token>
+    <token token_id="93">Versatzungen</token>
+    <token token_id="94">siehe</token>
+    <token token_id="95">das</token>
+    <token token_id="96">Concept</token>
+    <token token_id="97">im</token>
+    <token token_id="98">Bund</token>
+    <token token_id="99">.</token>
+  </text>
+  <spans>
+    <span id="1706" start="3" end="3" text="verschreiben" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1518" start="5" end="15" text="Hans Heinrich Fischer der Holtzsetzer und&#10;seine Frau Anna Margaretha Schaubin" element="list" class="per" subclass="">
+      <span id="1457" start="5" end="9" text="Hans Heinrich Fischer der Holtzsetzer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1463" start="5" end="7" text="Hans Heinrich Fischer" element="head" class="nam" subclass=""/>
+        <span id="1469" start="8" end="9" text="der Holtzsetzer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1475" start="9" end="9" text="Holtzsetzer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1481" start="11" end="15" text="seine Frau Anna Margaretha Schaubin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1499" start="11" end="12" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1493" start="11" end="11" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1493_head" start="11" end="11" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1505" start="12" end="12" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1487" start="13" end="15" text="Anna Margaretha Schaubin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1524" start="18" end="23" text="Johannes Schweig&#10;hauser des gehennen Raths" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1530" start="18" end="20" text="Johannes Schweig&#10;hauser" element="head" class="nam" subclass=""/>
+      <span id="1536" start="21" end="23" text="des gehennen Raths" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1542" start="21" end="23" text="des gehennen Raths" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="1548" start="22" end="23" text="gehennen Raths" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1554" start="25" end="26" text="900 ℔" element="value" class="money" subclass=""/>
+    <span id="1712" start="29" end="29" text="järlichen" element="other" class="other" subclass=""/>
+    <span id="1560" start="33" end="35" text="27 ℔." element="value" class="money" subclass=""/>
+    <span id="1566" start="43" end="89" text="ihre Be ¬&#10;hausung , Hooffstatt und Höflin in der Aschemer Vorstatt&#10;am Graben , gegen der Ringsmanen hinüber , ein und ande&#10;seits neben dem Verkauffer selbst , fürhin an die Gass oder Strass .&#10;hinden mit der Höflin Mauren an Jacob Schmid den Schman&#10;stossend" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1572" start="43" end="43" text="ihre" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1578" start="43" end="43" text="ihre" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1578_head" start="43" end="43" element="head" class="pro" text="ihre" subclass=""/>
+        </span>
+      </span>
+      <span id="1591" start="44" end="50" text="Be ¬&#10;hausung , Hooffstatt und Höflin" element="head" class="type" subclass=""/>
+      <span id="1597" start="51" end="89" text="in der Aschemer Vorstatt&#10;am Graben , gegen der Ringsmanen hinüber , ein und ande&#10;seits neben dem Verkauffer selbst , fürhin an die Gass oder Strass .&#10;hinden mit der Höflin Mauren an Jacob Schmid den Schman&#10;stossend" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1603" start="52" end="54" text="der Aschemer Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1609" start="53" end="54" text="Aschemer Vorstatt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1615" start="55" end="56" text="am Graben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1621" start="56" end="56" text="Graben" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1627" start="59" end="60" text="der Ringsmanen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1633" start="60" end="60" text="Ringsmanen" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1639" start="68" end="69" text="dem Verkauffer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1645" start="69" end="69" text="Verkauffer" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1658" start="74" end="77" text="die Gass oder Strass" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1664" start="75" end="77" text="Gass oder Strass" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1694" start="81" end="83" text="der Höflin Mauren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1700" start="82" end="83" text="Höflin Mauren" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1670" start="85" end="88" text="Jacob Schmid den Schman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1676" start="85" end="86" text="Jacob Schmid" element="head" class="nam" subclass=""/>
+          <span id="1682" start="87" end="88" text="den Schman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1688" start="88" end="88" text="Schman" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1584" from="1578" to="1518" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1511" from="1493" to="1457" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1651" from="1639" to="1524" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="11" end="12" ref="1499" type="state">
+      <trigger start="12" end="12" text="Frau" ref="1505"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1481" text="seine Frau Anna Margaretha Schaubin"/>
+        <role role="family-b" ref="1493" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="membership" polarity="pos" tense="pres" modality="ass" start="21" end="23" ref="1536" type="state">
+      <event event_id="1.0">
+        <role role="member" ref="1524" text="Johannes Schweig&#10;hauser des gehennen Raths"/>
+        <role role="organization" ref="1542" text="des gehennen Raths"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="43" end="43" ref="1572" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1566" text="ihre Be ¬&#10;hausung , Hooffstatt und Höflin in der Aschemer Vorstatt&#10;am Graben , gegen der Ringsmanen hinüber , ein und ande&#10;seits neben dem Verkauffer selbst , fürhin an die Gass oder Strass .&#10;hinden mit der Höflin Mauren an Jacob Schmid den Schman&#10;stossend"/>
+        <role role="owner" ref="1578" text="ihre"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="51" end="89" ref="1597" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1566" text="ihre Be ¬&#10;hausung , Hooffstatt und Höflin in der Aschemer Vorstatt&#10;am Graben , gegen der Ringsmanen hinüber , ein und ande&#10;seits neben dem Verkauffer selbst , fürhin an die Gass oder Strass .&#10;hinden mit der Höflin Mauren an Jacob Schmid den Schman&#10;stossend"/>
+        <role role="location-b" ref="1603" text="der Aschemer Vorstatt"/>
+        <role role="location-b" ref="1615" text="am Graben"/>
+        <role role="location-b" ref="1627" text="der Ringsmanen"/>
+        <role role="location-b" ref="1639" text="dem Verkauffer"/>
+        <role role="location-b" ref="1658" text="die Gass oder Strass"/>
+        <role role="location-b" ref="1694" text="der Höflin Mauren"/>
+        <role role="location-b" ref="1670" text="Jacob Schmid den Schman"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="89" ref="" type="event">
+      <trigger start="3" end="3" text="verschreiben" ref="1706"/>
+      <event event_id="4.0">
+        <role role="seller" ref="1457" text="Hans Heinrich Fischer der Holtzsetzer"/>
+        <role role="seller" ref="1481" text="seine Frau Anna Margaretha Schaubin"/>
+        <role role="buyer" ref="1524" text="Johannes Schweig&#10;hauser des gehennen Raths"/>
+        <role role="price" ref="1554" text="900 ℔"/>
+        <role role="interval" ref="1712" text="järlichen"/>
+        <role role="interest" ref="1560" text="27 ℔."/>
+        <role role="collateral" ref="1566" text="ihre Be ¬&#10;hausung , Hooffstatt und Höflin in der Aschemer Vorstatt&#10;am Graben , gegen der Ringsmanen hinüber , ein und ande&#10;seits neben dem Verkauffer selbst , fürhin an die Gass oder Strass .&#10;hinden mit der Höflin Mauren an Jacob Schmid den Schman&#10;stossend"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

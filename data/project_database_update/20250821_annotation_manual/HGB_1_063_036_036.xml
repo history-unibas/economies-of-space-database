@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/36 S. [36]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 31</tei:title>
+            <tei:idno>HGB 1 63/36</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472891</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1472">1472</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611295.6058395486 1267291.1017383002</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Fronfastenzinse</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Item</token>
+    <token token_id="3">von</token>
+    <token token_id="4">dem</token>
+    <token token_id="5">hus</token>
+    <token token_id="6">zem</token>
+    <token token_id="7">Bapst</token>
+    <token token_id="8">under</token>
+    <token token_id="9">den</token>
+    <token token_id="10">Gerwern</token>
+    <token token_id="11">4</token>
+    <token token_id="12">1</token>
+    <token token_id="13">/</token>
+    <token token_id="14">2ß</token>
+    <token token_id="15">,</token>
+    <token token_id="16">1</token>
+    <token token_id="17">1</token>
+    <token token_id="18">/</token>
+    <token token_id="19">2</token>
+    <token token_id="20">ȡ</token>
+    <token token_id="21">4</token>
+    <token token_id="22">ring</token>
+    <token token_id="23">wisung</token>
+    <token token_id="24">und</token>
+    <token token_id="25">5ß</token>
+    <token token_id="26">erschatz</token>
+    <token token_id="27">das</token>
+    <token token_id="28">git</token>
+    <token token_id="29">1473</token>
+    <token token_id="30">,</token>
+    <token token_id="31">1474</token>
+    <token token_id="32">,</token>
+    <token token_id="33">1475</token>
+    <token token_id="34">,</token>
+    <token token_id="35">1476</token>
+    <token token_id="36">fehlen</token>
+    <token token_id="37">.</token>
+    <token token_id="38">1477</token>
+    <token token_id="39">wie</token>
+    <token token_id="40">oben</token>
+    <token token_id="41">mit</token>
+    <token token_id="42">dem</token>
+    <token token_id="43">Zusatz</token>
+    <token token_id="44">:</token>
+    <token token_id="45">gent</token>
+    <token token_id="46">Cleinemans</token>
+    <token token_id="47">erben</token>
+    <token token_id="48">,</token>
+    <token token_id="49">1478</token>
+    <token token_id="50">-</token>
+    <token token_id="51">1484</token>
+    <token token_id="52">fehlen</token>
+    <token token_id="53">.</token>
+  </text>
+  <spans>
+    <span id="891" start="3" end="3" text="von" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="795" start="4" end="10" text="dem hus zem Bapst under den Gerwern" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="801" start="5" end="7" text="hus zem Bapst" element="head" class="nam" subclass=""/>
+      <span id="807" start="8" end="10" text="under den Gerwern" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="813" start="9" end="10" text="den Gerwern" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="819" start="10" end="10" text="Gerwern" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="825" start="11" end="14" text="4 1 / 2ß" element="value" class="money" subclass=""/>
+    <span id="909" start="16" end="20" text="1 1 / 2 ȡ" element="value" class="money" subclass=""/>
+    <span id="915" start="21" end="22" text="4 ring" element="value" class="money" subclass=""/>
+    <span id="897" start="23" end="23" text="wisung" element="other" class="other" subclass=""/>
+    <span id="831" start="25" end="25" text="5ß" element="value" class="money" subclass=""/>
+    <span id="903" start="26" end="26" text="erschatz" element="other" class="other" subclass=""/>
+    <span id="837" start="29" end="29" text="1473" element="value" class="date" subclass=""/>
+    <span id="843" start="31" end="31" text="1474" element="value" class="date" subclass=""/>
+    <span id="849" start="33" end="33" text="1475" element="value" class="date" subclass=""/>
+    <span id="855" start="35" end="35" text="1476" element="value" class="date" subclass=""/>
+    <span id="861" start="38" end="38" text="1477" element="value" class="date" subclass=""/>
+    <span id="927" start="45" end="45" text="gent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="873" start="46" end="47" text="Cleinemans erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="879" start="46" end="46" text="Cleinemans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="879_head" start="46" end="46" element="head" class="nam" text="Cleinemans" subclass=""/>
+      </span>
+      <span id="885" start="47" end="47" text="erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="867" start="49" end="51" text="1478 - 1484" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="46" end="47" ref="873" type="event">
+      <trigger start="47" end="47" text="erben" ref="885"/>
+      <event event_id="0.0">
+        <role role="heir" ref="873" text="Cleinemans erben"/>
+        <role role="decedent" ref="879" text="Cleinemans"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="8" end="10" ref="807" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="795" text="dem hus zem Bapst under den Gerwern"/>
+        <role role="location-b" ref="813" text="den Gerwern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="3" end="35" ref="" type="state">
+      <trigger start="3" end="3" text="von" ref="891"/>
+      <event event_id="2.0">
+        <role role="property" ref="795" text="dem hus zem Bapst under den Gerwern"/>
+        <role role="interest" ref="825" text="4 1 / 2ß"/>
+      </event>
+      <event event_id="2.1">
+        <role role="property" ref="795" text="dem hus zem Bapst under den Gerwern"/>
+        <role role="interest" ref="909" text="1 1 / 2 ȡ"/>
+        <role role="interest" ref="915" text="4 ring"/>
+        <role role="cause" ref="897" text="wisung"/>
+        <role role="date-missing" ref="837" text="1473"/>
+        <role role="date-missing" ref="843" text="1474"/>
+        <role role="date-missing" ref="849" text="1475"/>
+        <role role="date-missing" ref="855" text="1476"/>
+      </event>
+      <event event_id="2.2">
+        <role role="property" ref="795" text="dem hus zem Bapst under den Gerwern"/>
+        <role role="interest" ref="831" text="5ß"/>
+        <role role="cause" ref="903" text="erschatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="38" end="51" ref="" type="event">
+      <trigger start="45" end="45" text="gent" ref="927"/>
+      <event event_id="3.0">
+        <role role="date" ref="861" text="1477"/>
+        <role role="payer" ref="873" text="Cleinemans erben"/>
+        <role role="date-missing" ref="867" text="1478 - 1484"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

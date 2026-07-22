@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/116 S. [35]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 60</tei:title>
+            <tei:idno>HGB 1 63/116</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472999</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1638">1638</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611291.8635758166 1267221.4850099862</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Melchior</token>
+    <token token_id="1">Steiger</token>
+    <token token_id="2">,</token>
+    <token token_id="3">der</token>
+    <token token_id="4">Handelsmann</token>
+    <token token_id="5">,</token>
+    <token token_id="6">hat</token>
+    <token token_id="7">wegen</token>
+    <token token_id="8">der</token>
+    <token token_id="9">40</token>
+    <token token_id="10">fl</token>
+    <token token_id="11">.</token>
+    <token token_id="12">2</token>
+    <token token_id="13">sh</token>
+    <token token_id="14">.</token>
+    <token token_id="15">auch</token>
+    <token token_id="16">der</token>
+    <token token_id="17">davon</token>
+    <token token_id="18">verfallenen</token>
+    <token token_id="19">zinsen</token>
+    <token token_id="20">,</token>
+    <token token_id="21">welches</token>
+    <token token_id="22">ihm</token>
+    <token token_id="23">weil</token>
+    <token token_id="24">.</token>
+    <token token_id="25">Michael</token>
+    <token token_id="26">Haners</token>
+    <token token_id="27">Wittib</token>
+    <token token_id="28">zu</token>
+    <token token_id="29">thun</token>
+    <token token_id="30">schuldig</token>
+    <token token_id="31">ist</token>
+    <token token_id="32">,</token>
+    <token token_id="33">derselben</token>
+    <token token_id="34">hierumb</token>
+    <token token_id="35">zum</token>
+    <token token_id="36">Unterpf</token>
+    <token token_id="37">.</token>
+    <token token_id="38">verschriebenen</token>
+    <token token_id="39">Behausung</token>
+    <token token_id="40">,</token>
+    <token token_id="41">an</token>
+    <token token_id="42">der</token>
+    <token token_id="43">Gerbergassen</token>
+    <token token_id="44">,</token>
+    <token token_id="45">einseits</token>
+    <token token_id="46">Mr</token>
+    <token token_id="47">.</token>
+    <token token_id="48">An</token>
+    <token token_id="49">-</token>
+    <token token_id="50">dreas</token>
+    <token token_id="51">Scheltner</token>
+    <token token_id="52">dem</token>
+    <token token_id="53">Wullenwäber</token>
+    <token token_id="54">,</token>
+    <token token_id="55">Anderseit</token>
+    <token token_id="56">Rudolph</token>
+    <token token_id="57">Basler</token>
+    <token token_id="58">des</token>
+    <token token_id="59">Raths</token>
+    <token token_id="60">gelegen</token>
+    <token token_id="61">und</token>
+    <token token_id="62">hinden</token>
+    <token token_id="63">an</token>
+    <token token_id="64">das</token>
+    <token token_id="65">klein</token>
+    <token token_id="66">Gärbergässlin</token>
+    <token token_id="67">stossend</token>
+    <token token_id="68">;</token>
+    <token token_id="69">gefrönt</token>
+    <token token_id="70">.</token>
+  </text>
+  <spans>
+    <span id="1060" start="0" end="4" text="Melchior Steiger , der Handelsmann" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1066" start="0" end="1" text="Melchior Steiger" element="head" class="nam" subclass=""/>
+      <span id="1072" start="3" end="4" text="der Handelsmann" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1078" start="4" end="4" text="Handelsmann" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1084" start="9" end="14" text="40 fl . 2 sh ." element="value" class="money" subclass=""/>
+    <span id="1253" start="19" end="19" text="zinsen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1090" start="23" end="27" text="weil . Michael Haners&#10;Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1102" start="23" end="26" text="weil . Michael Haners" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1114" start="23" end="24" text="weil ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1108" start="25" end="26" text="Michael Haners" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1096" start="27" end="27" text="Wittib" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="1259" start="30" end="30" text="schuldig" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1126" start="33" end="67" text="derselben hierumb zum Unterpf .&#10;verschriebenen Behausung , an der Gerbergassen , einseits Mr . An -&#10;dreas Scheltner dem Wullenwäber , Anderseit Rudolph Basler des&#10;Raths gelegen und hinden an das klein Gärbergässlin stossend" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1138" start="33" end="33" text="derselben" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1144" start="33" end="33" text="derselben" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1144_head" start="33" end="33" element="head" class="pro" text="derselben" subclass=""/>
+        </span>
+      </span>
+      <span id="1132" start="39" end="39" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="1157" start="41" end="67" text="an der Gerbergassen , einseits Mr . An -&#10;dreas Scheltner dem Wullenwäber , Anderseit Rudolph Basler des&#10;Raths gelegen und hinden an das klein Gärbergässlin stossend" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1163" start="42" end="43" text="der Gerbergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1169" start="43" end="43" text="Gerbergassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1175" start="46" end="53" text="Mr . An -&#10;dreas Scheltner dem Wullenwäber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1181" start="46" end="47" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1181_head" start="46" end="47" element="head" class="title" text="Mr ." subclass=""/>
+          </span>
+          <span id="1187" start="48" end="51" text="An -&#10;dreas Scheltner" element="head" class="nam" subclass=""/>
+          <span id="1193" start="52" end="53" text="dem Wullenwäber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1199" start="53" end="53" text="Wullenwäber" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1205" start="56" end="59" text="Rudolph Basler des&#10;Raths" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1211" start="56" end="57" text="Rudolph Basler" element="head" class="nam" subclass=""/>
+          <span id="1217" start="58" end="59" text="des&#10;Raths" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1223" start="58" end="59" text="des&#10;Raths" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+              <span id="1229" start="59" end="59" text="Raths" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1235" start="64" end="66" text="das klein Gärbergässlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1241" start="65" end="66" text="klein Gärbergässlin" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1247" start="69" end="69" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1150" from="1144" to="1090" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="23" end="27" ref="1090" type="state">
+      <trigger start="27" end="27" text="Wittib" ref="1096"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1090" text="weil . Michael Haners&#10;Wittib"/>
+        <role role="family-b" ref="1102" text="weil . Michael Haners"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="33" end="33" ref="1138" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1126" text="derselben hierumb zum Unterpf .&#10;verschriebenen Behausung , an der Gerbergassen , einseits Mr . An -&#10;dreas Scheltner dem Wullenwäber , Anderseit Rudolph Basler des&#10;Raths gelegen und hinden an das klein Gärbergässlin stossend"/>
+        <role role="owner" ref="1144" text="derselben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="41" end="67" ref="1157" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1126" text="derselben hierumb zum Unterpf .&#10;verschriebenen Behausung , an der Gerbergassen , einseits Mr . An -&#10;dreas Scheltner dem Wullenwäber , Anderseit Rudolph Basler des&#10;Raths gelegen und hinden an das klein Gärbergässlin stossend"/>
+        <role role="location-b" ref="1163" text="der Gerbergassen"/>
+        <role role="location-b" ref="1175" text="Mr . An -&#10;dreas Scheltner dem Wullenwäber"/>
+        <role role="location-b" ref="1205" text="Rudolph Basler des&#10;Raths"/>
+        <role role="location-b" ref="1235" text="das klein Gärbergässlin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="membership" polarity="pos" tense="pres" modality="ass" start="58" end="59" ref="1217" type="state">
+      <event event_id="3.0">
+        <role role="member" ref="1205" text="Rudolph Basler des&#10;Raths"/>
+        <role role="organization" ref="1223" text="des&#10;Raths"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="neg" tense="pres" modality="ass" start="19" end="19" ref="" type="event">
+      <trigger start="19" end="19" text="zinsen" ref="1253"/>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="30" end="30" ref="" type="state">
+      <trigger start="30" end="30" text="schuldig" ref="1259"/>
+      <event event_id="5.0">
+        <role role="capital" ref="1084" text="40 fl . 2 sh ."/>
+        <role role="payer" ref="1090" text="weil . Michael Haners&#10;Wittib"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="69" ref="" type="event">
+      <trigger start="69" end="69" text="gefrönt" ref="1247"/>
+      <event event_id="6.0">
+        <role role="claimant" ref="1060" text="Melchior Steiger , der Handelsmann"/>
+        <role role="cause" ref="1253" text="zinsen"/>
+        <role role="cause" ref="1259" text="schuldig"/>
+        <role role="property" ref="1126" text="derselben hierumb zum Unterpf .&#10;verschriebenen Behausung , an der Gerbergassen , einseits Mr . An -&#10;dreas Scheltner dem Wullenwäber , Anderseit Rudolph Basler des&#10;Raths gelegen und hinden an das klein Gärbergässlin stossend"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

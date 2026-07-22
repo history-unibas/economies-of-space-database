@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/31 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 27</tei:title>
+            <tei:idno>HGB 1 194/31</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1513997</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Theodor</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1367">1367</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611081.394954074 1267363.457500399</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Vro</token>
+    <token token_id="4">Engin</token>
+    <token token_id="5">Jacob</token>
+    <token token_id="6">Fribogks</token>
+    <token token_id="7">,</token>
+    <token token_id="8">eins</token>
+    <token token_id="9">Burgers</token>
+    <token token_id="10">von</token>
+    <token token_id="11">Basel</token>
+    <token token_id="12">,</token>
+    <token token_id="13">eli</token>
+    <token token_id="14">¬</token>
+    <token token_id="15">che</token>
+    <token token_id="16">Wirtin</token>
+    <token token_id="17">verkauft</token>
+    <token token_id="18">Johans</token>
+    <token token_id="19">Zschope</token>
+    <token token_id="20">von</token>
+    <token token_id="21">Werre</token>
+    <token token_id="22">die</token>
+    <token token_id="23">2</token>
+    <token token_id="24">℔</token>
+    <token token_id="25">.</token>
+    <token token_id="26">Geltes</token>
+    <token token_id="27">Zinses</token>
+    <token token_id="28">,</token>
+    <token token_id="29">2</token>
+    <token token_id="30">Ringe</token>
+    <token token_id="31">Wisunge</token>
+    <token token_id="32">und</token>
+    <token token_id="33">10</token>
+    <token token_id="34">sh</token>
+    <token token_id="35">.</token>
+    <token token_id="36">Erschatz</token>
+    <token token_id="37">das</token>
+    <token token_id="38">si</token>
+    <token token_id="39">hatte</token>
+    <token token_id="40">von</token>
+    <token token_id="41">ir</token>
+    <token token_id="42">Mörgengab</token>
+    <token token_id="43">wegen</token>
+    <token token_id="44">uf</token>
+    <token token_id="45">der</token>
+    <token token_id="46">Eygen</token>
+    <token token_id="47">¬</token>
+    <token token_id="48">schaft</token>
+    <token token_id="49">des</token>
+    <token token_id="50">Huses</token>
+    <token token_id="51">so</token>
+    <token token_id="52">gelegen</token>
+    <token token_id="53">ist</token>
+    <token token_id="54">ze</token>
+    <token token_id="55">Basel</token>
+    <token token_id="56">in</token>
+    <token token_id="57">der</token>
+    <token token_id="58">Stat</token>
+    <token token_id="59">wider</token>
+    <token token_id="60">Spaln</token>
+    <token token_id="61">zwüschent</token>
+    <token token_id="62">dem</token>
+    <token token_id="63">Huse</token>
+    <token token_id="64">zem</token>
+    <token token_id="65">Schaffe</token>
+    <token token_id="66">und</token>
+    <token token_id="67">dem</token>
+    <token token_id="68">Huse</token>
+    <token token_id="69">zem</token>
+    <token token_id="70">Phile</token>
+    <token token_id="71">,</token>
+    <token token_id="72">für</token>
+    <token token_id="73">lidig</token>
+    <token token_id="74">eygen</token>
+    <token token_id="75">,</token>
+    <token token_id="76">umbe</token>
+    <token token_id="77">46</token>
+    <token token_id="78">℔</token>
+    <token token_id="79">.</token>
+  </text>
+  <spans>
+    <span id="1286" start="3" end="16" text="Vro Engin Jacob Fribogks , eins Burgers von Basel , eli ¬&#10;che Wirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1292" start="4" end="4" text="Engin" element="head" class="nam" subclass=""/>
+      <span id="1298" start="5" end="16" text="Jacob Fribogks , eins Burgers von Basel , eli ¬&#10;che Wirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1304" start="5" end="11" text="Jacob Fribogks , eins Burgers von Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1316" start="5" end="6" text="Jacob Fribogks" element="head" class="nam" subclass=""/>
+          <span id="1322" start="8" end="11" text="eins Burgers von Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1328" start="9" end="9" text="Burgers" element="head" class="org-aff" subclass=""/>
+            <span id="1334" start="11" end="11" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1334_head" start="11" end="11" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1310" start="13" end="16" text="eli ¬&#10;che Wirtin" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1493" start="17" end="17" text="verkauft" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1340" start="18" end="21" text="Johans Zschope von Werre" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1346" start="18" end="19" text="Johans Zschope" element="head" class="nam" subclass=""/>
+      <span id="1352" start="20" end="21" text="von Werre" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1358" start="21" end="21" text="Werre" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1358_head" start="21" end="21" element="head" class="nam" text="Werre" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="custom_0" start="22" end="43" text="die&#10;2 ℔. Geltes Zinses , 2 Ringe Wisunge und 10 sh . Erschatz&#10;das si hatte von ir Mörgengab wegen" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1364" start="23" end="25" text="2 ℔." element="value" class="money" subclass=""/>
+      <span id="1499" start="26" end="27" text="Geltes Zinses" element="other" class="other" subclass=""/>
+      <span id="1370" start="29" end="30" text="2 Ringe" element="value" class="money" subclass=""/>
+      <span id="1505" start="31" end="31" text="Wisunge" element="other" class="other" subclass=""/>
+      <span id="1376" start="33" end="35" text="10 sh ." element="value" class="money" subclass=""/>
+      <span id="1511" start="36" end="36" text="Erschatz" element="other" class="other" subclass=""/>
+      <span id="1517" start="37" end="43" text="das si hatte von ir Mörgengab wegen" element="other" class="other" subclass="">
+        <span id="1382" start="38" end="38" text="si" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1382_head" start="38" end="38" element="head" class="pro" text="si" subclass=""/>
+        </span>
+        <span id="1395" start="41" end="41" text="ir" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1395_head" start="41" end="41" element="head" class="pro" text="ir" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1408" start="49" end="74" text="des Huses so gelegen ist ze Basel in der Stat&#10;wider Spaln zwüschent dem Huse zem Schaffe und&#10;dem Huse zem Phile , für lidig eygen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1420" start="50" end="50" text="Huses" element="head" class="type" subclass=""/>
+      <span id="1426" start="51" end="70" text="so gelegen ist ze Basel in der Stat&#10;wider Spaln zwüschent dem Huse zem Schaffe und&#10;dem Huse zem Phile" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1438" start="55" end="55" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1438_head" start="55" end="55" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="1444" start="57" end="58" text="der Stat" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1450" start="58" end="58" text="Stat" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1456" start="60" end="60" text="Spaln" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1456_head" start="60" end="60" element="head" class="nam" text="Spaln" subclass=""/>
+        </span>
+        <span id="1462" start="62" end="65" text="dem Huse zem Schaffe" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1468" start="63" end="65" text="Huse zem Schaffe" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1474" start="67" end="70" text="dem Huse zem Phile" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1480" start="68" end="70" text="Huse zem Phile" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1432" start="72" end="74" text="für lidig eygen" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1414" start="77" end="79" text="46 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1388" from="1382" to="1286" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1401" from="1395" to="1382" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1486" from="1444" to="1438" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="22" end="43" ref="custom_0" type="state">
+      <event event_id="0.0">
+        <role role="interest" ref="1364" text="2 ℔."/>
+        <role role="cause" ref="1499" text="Geltes Zinses"/>
+        <role role="detail_other" ref="1517" text="das si hatte von ir Mörgengab wegen"/>
+      </event>
+      <event event_id="0.1">
+        <role role="interest" ref="1370" text="2 Ringe"/>
+        <role role="cause" ref="1505" text="Wisunge"/>
+        <role role="detail_other" ref="1517" text="das si hatte von ir Mörgengab wegen"/>
+      </event>
+      <event event_id="0.2">
+        <role role="interest" ref="1376" text="10 sh ."/>
+        <role role="cause" ref="1511" text="Erschatz"/>
+        <role role="detail_other" ref="1517" text="das si hatte von ir Mörgengab wegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="5" end="16" ref="1298" type="state">
+      <trigger start="13" end="16" text="eli ¬&#10;che Wirtin" ref="1310"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1286" text="Vro Engin Jacob Fribogks , eins Burgers von Basel , eli ¬&#10;che Wirtin"/>
+        <role role="family-b" ref="1304" text="Jacob Fribogks , eins Burgers von Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="8" end="11" ref="1322" type="state">
+      <trigger start="9" end="9" text="Burgers" ref="1328"/>
+      <event event_id="2.0">
+        <role role="resident" ref="1304" text="Jacob Fribogks , eins Burgers von Basel"/>
+        <role role="geopolitical-entity" ref="1334" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="21" ref="1352" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1340" text="Johans Zschope von Werre"/>
+        <role role="location-b" ref="1358" text="Werre"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="51" end="70" ref="1426" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1408" text="des Huses so gelegen ist ze Basel in der Stat&#10;wider Spaln zwüschent dem Huse zem Schaffe und&#10;dem Huse zem Phile , für lidig eygen"/>
+        <role role="location-b" ref="1438" text="Basel"/>
+        <role role="location-b" ref="1444" text="der Stat"/>
+        <role role="location-b" ref="1456" text="Spaln"/>
+        <role role="location-b" ref="1462" text="dem Huse zem Schaffe"/>
+        <role role="location-b" ref="1474" text="dem Huse zem Phile"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="17" end="79" ref="" type="event">
+      <trigger start="17" end="17" text="verkauft" ref="1493"/>
+      <event event_id="5.0">
+        <role role="detail_prev-creditor" ref="1286" text="Vro Engin Jacob Fribogks , eins Burgers von Basel , eli ¬&#10;che Wirtin"/>
+        <role role="buyer" ref="1340" text="Johans Zschope von Werre"/>
+        <role role="due" ref="custom_0" text="die&#10;2 ℔. Geltes Zinses , 2 Ringe Wisunge und 10 sh . Erschatz&#10;das si hatte von ir Mörgengab wegen"/>
+        <role role="collateral" ref="1408" text="des Huses so gelegen ist ze Basel in der Stat&#10;wider Spaln zwüschent dem Huse zem Schaffe und&#10;dem Huse zem Phile , für lidig eygen"/>
+        <role role="price" ref="1414" text="46 ℔."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

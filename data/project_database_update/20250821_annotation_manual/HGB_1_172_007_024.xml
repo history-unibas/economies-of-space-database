@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 172/7 S. [24]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rosshofgasse 3</tei:title>
+            <tei:idno>HGB 1 172/7</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1511110</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1700">1700</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611009.246242001 1267413.5659193345</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Bericht</token>
+    <token token_id="1">über</token>
+    <token token_id="2">einen</token>
+    <token token_id="3">Brand</token>
+    <token token_id="4">in</token>
+    <token token_id="5">Matthis</token>
+    <token token_id="6">Füninger</token>
+    <token token_id="7">Haus</token>
+    <token token_id="8">auf</token>
+    <token token_id="9">dem</token>
+    <token token_id="10">Nodelberg</token>
+    <token token_id="11">neben</token>
+    <token token_id="12">des</token>
+    <token token_id="13">Schnabels</token>
+    <token token_id="14">Trotten</token>
+    <token token_id="15">,</token>
+  </text>
+  <spans>
+    <span id="346" start="5" end="14" text="Matthis Füninger&#10;Haus auf dem Nodelberg neben des Schnabels Trotten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="358" start="5" end="6" text="Matthis Füninger" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="352" start="5" end="6" text="Matthis Füninger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="352_head" start="5" end="6" element="head" class="nam" text="Matthis Füninger" subclass=""/>
+        </span>
+      </span>
+      <span id="364" start="7" end="7" text="Haus" element="head" class="type" subclass=""/>
+      <span id="custom_desc_loc" start="8" end="14" text="auf dem Nodelberg neben des Schnabels Trotten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="370" start="9" end="10" text="dem Nodelberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="376" start="10" end="10" text="Nodelberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="382" start="12" end="14" text="des Schnabels Trotten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="custom_0" start="13" end="13" text="Schnabels" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="394" start="13" end="13" text="Schnabels" element="reference" class="unk" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="394_head" start="13" end="13" element="head" class="nam" text="Schnabels" subclass=""/>
+            </span>
+          </span>
+          <span id="388" start="14" end="14" text="Trotten" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="5" end="6" ref="358" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="346" text="Matthis Füninger&#10;Haus auf dem Nodelberg neben des Schnabels Trotten"/>
+        <role role="owner" ref="352" text="Matthis Füninger"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="8" end="14" ref="custom_desc_loc" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="346" text="Matthis Füninger&#10;Haus auf dem Nodelberg neben des Schnabels Trotten"/>
+        <role role="location-b" ref="370" text="dem Nodelberg"/>
+        <role role="location-b" ref="382" text="des Schnabels Trotten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="13" end="13" ref="custom_0" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="382" text="des Schnabels Trotten"/>
+        <role role="owner" ref="394" text="Schnabels"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

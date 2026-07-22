@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 85/54 S. [50]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hutgasse 20</tei:title>
+            <tei:idno>HGB 1 85/54</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1481918</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Schaffneien</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1692">1692</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611166.7714525554 1267439.054899543</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Philipp</token>
+    <token token_id="1">Hersperger</token>
+    <token token_id="2">soll</token>
+    <token token_id="3">2</token>
+    <token token_id="4">℔</token>
+    <token token_id="5">-</token>
+    <token token_id="6">ß</token>
+    <token token_id="7">-</token>
+    <token token_id="8">ȡ</token>
+    <token token_id="9">jährlich</token>
+    <token token_id="10">auff</token>
+    <token token_id="11">Pfingsten</token>
+    <token token_id="12">vom</token>
+    <token token_id="13">Hauss</token>
+    <token token_id="14">Magstatt</token>
+    <token token_id="15">anjetzo</token>
+    <token token_id="16">zum</token>
+    <token token_id="17">Guldenen</token>
+    <token token_id="18">Schwerth</token>
+    <token token_id="19">genant</token>
+    <token token_id="20">an</token>
+    <token token_id="21">der</token>
+    <token token_id="22">Kutgassen</token>
+    <token token_id="23">.</token>
+    <token token_id="24">Gibt</token>
+    <token token_id="25">Ehrschatz</token>
+    <token token_id="26">3ß</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Zur</token>
+    <token token_id="29">Weisung</token>
+    <token token_id="30">1</token>
+    <token token_id="31">℔</token>
+    <token token_id="32">Pfeffer</token>
+    <token token_id="33">,</token>
+    <token token_id="34">Anjezo</token>
+    <token token_id="35">Andreas</token>
+    <token token_id="36">Keller</token>
+    <token token_id="37">der</token>
+    <token token_id="38">Spenglen</token>
+    <token token_id="39">seit</token>
+    <token token_id="40">1696</token>
+    <token token_id="41">.</token>
+    <token token_id="42">Anjezo</token>
+    <token token_id="43">H</token>
+    <token token_id="44">.</token>
+    <token token_id="45">Niclaus</token>
+    <token token_id="46">Bischoff</token>
+  </text>
+  <spans>
+    <span id="727" start="0" end="1" text="Philipp Hersperger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="727_head" start="0" end="1" element="head" class="nam" text="Philipp Hersperger" subclass=""/>
+    </span>
+    <span id="841" start="2" end="2" text="soll" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="733" start="3" end="8" text="2 ℔ - ß - ȡ" element="value" class="money" subclass=""/>
+    <span id="739" start="9" end="9" text="jährlich" element="value" class="time" subclass="rec"/>
+    <span id="745" start="10" end="11" text="auff Pfingsten" element="value" class="date" subclass=""/>
+    <span id="751" start="12" end="22" text="vom&#10;Hauss Magstatt anjetzo zum Guldenen&#10;Schwerth genant an der Kutgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="757" start="13" end="14" text="Hauss Magstatt" element="head" class="nam" subclass=""/>
+      <span id="763" start="16" end="18" text="zum Guldenen&#10;Schwerth" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="763_head" start="16" end="18" element="head" class="nam" text="zum Guldenen Schwerth" subclass=""/>
+      </span>
+      <span id="769" start="20" end="22" text="an der Kutgassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="775" start="21" end="22" text="der Kutgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="781" start="22" end="22" text="Kutgassen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="847" start="25" end="25" text="Ehrschatz" element="other" class="other" subclass=""/>
+    <span id="787" start="26" end="27" text="3ß ." element="value" class="money" subclass=""/>
+    <span id="853" start="29" end="29" text="Weisung" element="other" class="other" subclass=""/>
+    <span id="793" start="30" end="32" text="1 ℔ Pfeffer" element="value" class="money" subclass=""/>
+    <span id="859" start="34" end="34" text="Anjezo" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="799" start="35" end="38" text="Andreas Keller der Spenglen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="805" start="35" end="36" text="Andreas Keller" element="head" class="nam" subclass=""/>
+      <span id="811" start="37" end="38" text="der Spenglen" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="817" start="38" end="38" text="Spenglen" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="823" start="40" end="40" text="1696" element="value" class="date" subclass=""/>
+    <span id="865" start="42" end="42" text="Anjezo" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="829" start="43" end="46" text="H . Niclaus Bischoff" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="835" start="45" end="46" text="Niclaus Bischoff" element="head" class="nam" subclass=""/>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="22" ref="769" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="751" text="vom&#10;Hauss Magstatt anjetzo zum Guldenen&#10;Schwerth genant an der Kutgassen"/>
+        <role role="location-b" ref="775" text="der Kutgassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="0" end="32" ref="" type="state">
+      <trigger start="2" end="2" text="soll" ref="841"/>
+      <event event_id="1.0">
+        <role role="payer" ref="727" text="Philipp Hersperger"/>
+        <role role="interest" ref="733" text="2 ℔ - ß - ȡ"/>
+        <role role="interval" ref="739" text="jährlich"/>
+        <role role="due-date" ref="745" text="auff Pfingsten"/>
+        <role role="property" ref="751" text="vom&#10;Hauss Magstatt anjetzo zum Guldenen&#10;Schwerth genant an der Kutgassen"/>
+        <role role="cause" ref="847" text="Ehrschatz"/>
+        <role role="interest" ref="787" text="3ß ."/>
+      </event>
+      <event event_id="1.1">
+        <role role="payer" ref="727" text="Philipp Hersperger"/>
+        <role role="interest" ref="733" text="2 ℔ - ß - ȡ"/>
+        <role role="interval" ref="739" text="jährlich"/>
+        <role role="due-date" ref="745" text="auff Pfingsten"/>
+        <role role="property" ref="751" text="vom&#10;Hauss Magstatt anjetzo zum Guldenen&#10;Schwerth genant an der Kutgassen"/>
+        <role role="cause" ref="853" text="Weisung"/>
+        <role role="interest" ref="793" text="1 ℔ Pfeffer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="2" end="46" ref="" type="event">
+      <trigger start="34" end="34" text="Anjezo" ref="859"/>
+      <event event_id="2.0">
+        <role role="previous-due" ref="841" text="soll"/>
+        <role role="payer" ref="799" text="Andreas Keller der Spenglen"/>
+        <role role="date" ref="823" text="1696"/>
+        <role role="payer" ref="829" text="H . Niclaus Bischoff"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="34" end="42" ref="" type="state">
+      <trigger start="42" end="42" text="Anjezo" ref="865"/>
+      <event event_id="3.0">
+        <role role="previous-due" ref="859" text="Anjezo"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

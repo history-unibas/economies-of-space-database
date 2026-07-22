@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/63 S. [27]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt 35</tei:title>
+            <tei:idno>HGB 1 10/63</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433436</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Alban</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1581">1581</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611922.1131307743 1267111.9937902438</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Privat</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Die</token>
+    <token token_id="5">Gesellschafft</token>
+    <token token_id="6">zu</token>
+    <token token_id="7">dem</token>
+    <token token_id="8">hochen</token>
+    <token token_id="9">Dolden</token>
+    <token token_id="10">genant</token>
+    <token token_id="11">zum</token>
+    <token token_id="12">Esel</token>
+    <token token_id="13">in</token>
+    <token token_id="14">St</token>
+    <token token_id="15">.</token>
+    <token token_id="16">Albans</token>
+    <token token_id="17">Vorstatt</token>
+    <token token_id="18">gelegen</token>
+    <token token_id="19">verkauft</token>
+    <token token_id="20">den</token>
+    <token token_id="21">Pflegern</token>
+    <token token_id="22">des</token>
+    <token token_id="23">Gottshuses</token>
+    <token token_id="24">zu</token>
+    <token token_id="25">St</token>
+    <token token_id="26">.</token>
+    <token token_id="27">Alban</token>
+    <token token_id="28">10</token>
+    <token token_id="29">Gulden</token>
+    <token token_id="30">Gelts</token>
+    <token token_id="31">jerliches</token>
+    <token token_id="32">anses</token>
+    <token token_id="33">von</token>
+    <token token_id="34">uff</token>
+    <token token_id="35">und</token>
+    <token token_id="36">ab</token>
+    <token token_id="37">der</token>
+    <token token_id="38">obgemelten</token>
+    <token token_id="39">Geselschafft</token>
+    <token token_id="40">Hus</token>
+    <token token_id="41">zum</token>
+    <token token_id="42">hochen</token>
+    <token token_id="43">Dolden</token>
+    <token token_id="44">,</token>
+    <token token_id="45">sonst</token>
+    <token token_id="46">zum</token>
+    <token token_id="47">Esell</token>
+    <token token_id="48">genant</token>
+    <token token_id="49">,</token>
+    <token token_id="50">wie</token>
+    <token token_id="51">das</token>
+    <token token_id="52">ier</token>
+    <token token_id="53">Sanet</token>
+    <token token_id="54">Albans</token>
+    <token token_id="55">Vorstatt</token>
+    <token token_id="56">zu</token>
+    <token token_id="57">einer</token>
+    <token token_id="58">neben</token>
+    <token token_id="59">Hans</token>
+    <token token_id="60">Martin</token>
+    <token token_id="61">dem</token>
+    <token token_id="62">Rebman</token>
+    <token token_id="63">und</token>
+    <token token_id="64">zu</token>
+    <token token_id="65">der</token>
+    <token token_id="66">andern</token>
+    <token token_id="67">Syten</token>
+    <token token_id="68">neben</token>
+    <token token_id="69">Ursel</token>
+    <token token_id="70">Ersam</token>
+    <token token_id="71">gelegen</token>
+    <token token_id="72">ist</token>
+    <token token_id="73">,</token>
+    <token token_id="74">stosst</token>
+    <token token_id="75">hinden</token>
+    <token token_id="76">uff</token>
+    <token token_id="77">die</token>
+    <token token_id="78">Rynhalden</token>
+    <token token_id="79">,</token>
+    <token token_id="80">niemandenm</token>
+    <token token_id="81">versetzt</token>
+    <token token_id="82">und</token>
+    <token token_id="83">zinshafft</token>
+    <token token_id="84">,</token>
+    <token token_id="85">umb</token>
+    <token token_id="86">200</token>
+    <token token_id="87">Gld</token>
+    <token token_id="88">.</token>
+  </text>
+  <spans>
+    <span id="1317" start="4" end="18" text="Die Gesellschafft zu dem hochen Dolden genant zum Esel in&#10;St . Albans Vorstatt gelegen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1323" start="5" end="9" text="Gesellschafft zu dem hochen Dolden" element="head" class="nam" subclass=""/>
+      <span id="1329" start="11" end="12" text="zum Esel" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1329_head" start="11" end="12" element="head" class="nam" text="zum Esel" subclass=""/>
+      </span>
+      <span id="1335" start="13" end="18" text="in&#10;St . Albans Vorstatt gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1341" start="14" end="17" text="St . Albans Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1341_head" start="14" end="17" element="head" class="nam" text="St . Albans Vorstatt" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1480" start="19" end="19" text="verkauft" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1347" start="20" end="27" text="den Pflegern des Gottshuses&#10;zu St . Alban" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1353" start="21" end="21" text="Pflegern" element="head" class="occ" subclass="org-repr"/>
+      <span id="1359" start="22" end="27" text="des Gottshuses&#10;zu St . Alban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1365" start="23" end="27" text="Gottshuses&#10;zu St . Alban" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1474" start="28" end="29" text="10 Gulden" element="value" class="money" subclass=""/>
+    <span id="1371" start="31" end="31" text="jerliches" element="value" class="time" subclass="rec"/>
+    <span id="1377" start="37" end="83" text="der obgemelten Geselschafft Hus zum hochen Dolden , sonst&#10;zum Esell genant , wie das ier Sanet Albans Vorstatt zu einer&#10;neben Hans Martin dem Rebman und zu der andern&#10;Syten neben Ursel Ersam gelegen ist , stosst hinden uff die&#10;Rynhalden , niemandenm versetzt und zinshafft" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1389" start="37" end="39" text="der obgemelten Geselschafft" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1395" start="37" end="39" text="der obgemelten Geselschafft" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1395_head" start="37" end="39" element="head" class="type" text="der obgemelten Geselschafft" subclass=""/>
+        </span>
+      </span>
+      <span id="1383" start="40" end="43" text="Hus zum hochen Dolden" element="head" class="nam" subclass=""/>
+      <span id="1408" start="46" end="47" text="zum Esell" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1408_head" start="46" end="47" element="head" class="nam" text="zum Esell" subclass=""/>
+      </span>
+      <span id="1414" start="51" end="72" text="das ier Sanet Albans Vorstatt zu einer&#10;neben Hans Martin dem Rebman und zu der andern&#10;Syten neben Ursel Ersam gelegen ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1438" start="52" end="55" text="ier Sanet Albans Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1444" start="53" end="55" text="Sanet Albans Vorstatt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1420" start="59" end="62" text="Hans Martin dem Rebman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1432" start="59" end="60" text="Hans Martin" element="head" class="nam" subclass=""/>
+          <span id="1426" start="61" end="62" text="dem Rebman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1426_head" start="61" end="62" element="head" class="occ" text="dem Rebman" subclass=""/>
+          </span>
+        </span>
+        <span id="1450" start="69" end="70" text="Ursel Ersam" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1450_head" start="69" end="70" element="head" class="nam" text="Ursel Ersam" subclass=""/>
+        </span>
+      </span>
+      <span id="1456" start="74" end="78" text="stosst hinden uff die&#10;Rynhalden" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1462" start="77" end="78" text="die&#10;Rynhalden" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1492" start="78" end="78" text="Rynhalden" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1504" start="80" end="83" text="niemandenm versetzt und zinshafft" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1498" start="80" end="83" text="niemandenm versetzt und zinshafft" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+      </span>
+    </span>
+    <span id="1468" start="86" end="88" text="200 Gld ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1401" from="1395" to="1317" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1498_role" from="1498" to="1377" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="20" end="27" ref="1347" type="state">
+      <trigger start="21" end="21" text="Pflegern" ref="1353"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1347" text="den Pflegern des Gottshuses&#10;zu St . Alban"/>
+        <role role="employer" ref="1359" text="des Gottshuses&#10;zu St . Alban"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="18" ref="1335" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1317" text="Die Gesellschafft zu dem hochen Dolden genant zum Esel in&#10;St . Albans Vorstatt gelegen"/>
+        <role role="location-b" ref="1341" text="St . Albans Vorstatt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="37" end="39" ref="1389" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1377" text="der obgemelten Geselschafft Hus zum hochen Dolden , sonst&#10;zum Esell genant , wie das ier Sanet Albans Vorstatt zu einer&#10;neben Hans Martin dem Rebman und zu der andern&#10;Syten neben Ursel Ersam gelegen ist , stosst hinden uff die&#10;Rynhalden , niemandenm versetzt und zinshafft"/>
+        <role role="owner" ref="1395" text="der obgemelten Geselschafft"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="51" end="72" ref="1414" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1377" text="der obgemelten Geselschafft Hus zum hochen Dolden , sonst&#10;zum Esell genant , wie das ier Sanet Albans Vorstatt zu einer&#10;neben Hans Martin dem Rebman und zu der andern&#10;Syten neben Ursel Ersam gelegen ist , stosst hinden uff die&#10;Rynhalden , niemandenm versetzt und zinshafft"/>
+        <role role="location-b" ref="1438" text="ier Sanet Albans Vorstatt"/>
+        <role role="location-b" ref="1420" text="Hans Martin dem Rebman"/>
+        <role role="location-b" ref="1450" text="Ursel Ersam"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="74" end="78" ref="1456" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1377" text="der obgemelten Geselschafft Hus zum hochen Dolden , sonst&#10;zum Esell genant , wie das ier Sanet Albans Vorstatt zu einer&#10;neben Hans Martin dem Rebman und zu der andern&#10;Syten neben Ursel Ersam gelegen ist , stosst hinden uff die&#10;Rynhalden , niemandenm versetzt und zinshafft"/>
+        <role role="location-b" ref="1462" text="die&#10;Rynhalden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="19" end="88" ref="" type="event">
+      <trigger start="19" end="19" text="verkauft" ref="1480"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1317" text="Die Gesellschafft zu dem hochen Dolden genant zum Esel in&#10;St . Albans Vorstatt gelegen"/>
+        <role role="buyer" ref="1347" text="den Pflegern des Gottshuses&#10;zu St . Alban"/>
+        <role role="interest" ref="1474" text="10 Gulden"/>
+        <role role="interval" ref="1371" text="jerliches"/>
+        <role role="collateral" ref="1377" text="der obgemelten Geselschafft Hus zum hochen Dolden , sonst&#10;zum Esell genant , wie das ier Sanet Albans Vorstatt zu einer&#10;neben Hans Martin dem Rebman und zu der andern&#10;Syten neben Ursel Ersam gelegen ist , stosst hinden uff die&#10;Rynhalden , niemandenm versetzt und zinshafft"/>
+        <role role="price" ref="1468" text="200 Gld ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="37" end="83" ref="1504" type="state">
+      <trigger start="80" end="83" text="niemandenm versetzt und zinshafft" ref="1498"/>
+      <event event_id="6.0">
+        <role role="property" ref="1377" text="der obgemelten Geselschafft Hus zum hochen Dolden , sonst&#10;zum Esell genant , wie das ier Sanet Albans Vorstatt zu einer&#10;neben Hans Martin dem Rebman und zu der andern&#10;Syten neben Ursel Ersam gelegen ist , stosst hinden uff die&#10;Rynhalden , niemandenm versetzt und zinshafft"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

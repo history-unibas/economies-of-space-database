@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 151/8 S. [14]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Pfluggässlein 3</tei:title>
+            <tei:idno>HGB 1 151/8</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1503485</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1489">1489</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611346.024888396 1267263.5075447802</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Frow</token>
+    <token token_id="5">Ennelin</token>
+    <token token_id="6">Werlin</token>
+    <token token_id="7">mit</token>
+    <token token_id="8">Werlin</token>
+    <token token_id="9">Vesch</token>
+    <token token_id="10">dem</token>
+    <token token_id="11">Wagner</token>
+    <token token_id="12">irem</token>
+    <token token_id="13">elichen</token>
+    <token token_id="14">Man</token>
+    <token token_id="15">verkauft</token>
+    <token token_id="16">dem</token>
+    <token token_id="17">Spittel</token>
+    <token token_id="18">zu</token>
+    <token token_id="19">Basel</token>
+    <token token_id="20">2</token>
+    <token token_id="21">Gld</token>
+    <token token_id="22">.</token>
+    <token token_id="23">Geltz</token>
+    <token token_id="24">von</token>
+    <token token_id="25">uff</token>
+    <token token_id="26">und</token>
+    <token token_id="27">ab</token>
+    <token token_id="28">irem</token>
+    <token token_id="29">Eckhus</token>
+    <token token_id="30">in</token>
+    <token token_id="31">der</token>
+    <token token_id="32">Statt</token>
+    <token token_id="33">Basel</token>
+    <token token_id="34">in</token>
+    <token token_id="35">der</token>
+    <token token_id="36">wissen</token>
+    <token token_id="37">Gassen</token>
+    <token token_id="38">by</token>
+    <token token_id="39">der</token>
+    <token token_id="40">Bruggen</token>
+    <token token_id="41">gele</token>
+    <token token_id="42">¬</token>
+    <token token_id="43">gen</token>
+    <token token_id="44">,</token>
+    <token token_id="45">das</token>
+    <token token_id="46">man</token>
+    <token token_id="47">nembt</token>
+    <token token_id="48">grossen</token>
+    <token token_id="49">Costentz</token>
+    <token token_id="50">,</token>
+    <token token_id="51">zinset</token>
+    <token token_id="52">dem</token>
+    <token token_id="53">armen</token>
+    <token token_id="54">Sundersiechen</token>
+    <token token_id="55">zu</token>
+    <token token_id="56">St</token>
+    <token token_id="57">.</token>
+    <token token_id="58">Jacob</token>
+    <token token_id="59">an</token>
+    <token token_id="60">der</token>
+    <token token_id="61">Buss</token>
+    <token token_id="62">2</token>
+    <token token_id="63">Gld</token>
+    <token token_id="64">.</token>
+    <token token_id="65">umb</token>
+    <token token_id="66">40</token>
+    <token token_id="67">Gld</token>
+    <token token_id="68">.</token>
+  </text>
+  <spans>
+    <span id="1065" start="4" end="14" text="Frow Ennelin Werlin mit Werlin Vesch dem Wagner&#10;irem elichen Man" element="list" class="per" subclass="">
+      <span id="1071" start="4" end="6" text="Frow Ennelin Werlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1077" start="5" end="6" text="Ennelin Werlin" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1083" start="8" end="14" text="Werlin Vesch dem Wagner&#10;irem elichen Man" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1089" start="8" end="9" text="Werlin Vesch" element="head" class="nam" subclass=""/>
+        <span id="1095" start="10" end="11" text="dem Wagner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1101" start="11" end="11" text="Wagner" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1107" start="12" end="14" text="irem elichen Man" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1119" start="12" end="12" text="irem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1119_head" start="12" end="12" element="head" class="pro" text="irem" subclass=""/>
+          </span>
+          <span id="1113" start="13" end="14" text="elichen Man" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1253" start="15" end="15" text="verkauft" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1132" start="16" end="19" text="dem Spittel zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1138" start="17" end="17" text="Spittel" element="head" class="type" subclass=""/>
+      <span id="1229" start="18" end="19" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1144" start="19" end="19" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1144_head" start="19" end="19" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1259" start="20" end="22" text="2 Gld ." element="value" class="money" subclass=""/>
+    <span id="1235" start="28" end="64" text="irem Eckhus in der Statt&#10;Basel in der wissen Gassen by der Bruggen gele ¬&#10;gen , das man nembt grossen Costentz , zinset dem&#10;armen Sundersiechen zu St . Jacob an der Buss 2 Gld ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1265" start="28" end="28" text="irem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1156" start="28" end="28" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1156_head" start="28" end="28" element="head" class="pro" text="irem" subclass=""/>
+        </span>
+      </span>
+      <span id="1150" start="29" end="29" text="Eckhus" element="head" class="type" subclass=""/>
+      <span id="1169" start="30" end="43" text="in der Statt&#10;Basel in der wissen Gassen by der Bruggen gele ¬&#10;gen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1175" start="31" end="33" text="der Statt&#10;Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1181" start="32" end="33" text="Statt&#10;Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1187" start="35" end="37" text="der wissen Gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1193" start="36" end="37" text="wissen Gassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1199" start="39" end="40" text="der Bruggen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1205" start="40" end="40" text="Bruggen" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1211" start="48" end="49" text="grossen Costentz" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1211_head" start="48" end="49" element="head" class="nam" text="grossen Costentz" subclass=""/>
+      </span>
+      <span id="1241" start="51" end="64" text="zinset dem&#10;armen Sundersiechen zu St . Jacob an der Buss 2 Gld ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1271" start="52" end="61" text="dem&#10;armen Sundersiechen zu St . Jacob an der Buss" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1247" start="53" end="58" text="armen Sundersiechen zu St . Jacob" element="head" class="nam" subclass=""/>
+          <span id="1247" start="59" end="61" text="an der Buss" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1277" start="60" end="61" text="der Buss" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="river">
+              <span id="1277_head" start="61" end="61" text="Buss" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1217" start="62" end="64" text="2 Gld ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1223" start="66" end="68" text="40 Gld ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1162" from="1156" to="1065" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1125" from="1119" to="1071" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="12" end="14" ref="1107" type="state">
+      <trigger start="13" end="14" text="elichen Man" ref="1113"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1083" text="Werlin Vesch dem Wagner&#10;irem elichen Man"/>
+        <role role="family-b" ref="1119" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="18" end="19" ref="1229" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1132" text="dem Spittel zu Basel"/>
+        <role role="location-b" ref="1144" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="28" end="28" ref="1265" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1235" text="irem Eckhus in der Statt&#10;Basel in der wissen Gassen by der Bruggen gele ¬&#10;gen , das man nembt grossen Costentz , zinset dem&#10;armen Sundersiechen zu St . Jacob an der Buss 2 Gld ."/>
+        <role role="owner" ref="1156" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="43" ref="1169" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1235" text="irem Eckhus in der Statt&#10;Basel in der wissen Gassen by der Bruggen gele ¬&#10;gen , das man nembt grossen Costentz , zinset dem&#10;armen Sundersiechen zu St . Jacob an der Buss 2 Gld ."/>
+        <role role="location-b" ref="1175" text="der Statt&#10;Basel"/>
+        <role role="location-b" ref="1187" text="der wissen Gassen"/>
+        <role role="location-b" ref="1199" text="der Bruggen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="51" end="64" ref="1241" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1235" text="irem Eckhus in der Statt&#10;Basel in der wissen Gassen by der Bruggen gele ¬&#10;gen , das man nembt grossen Costentz , zinset dem&#10;armen Sundersiechen zu St . Jacob an der Buss 2 Gld ."/>
+        <role role="interest" ref="1217" text="2 Gld ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="59" end="61" ref="1247" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1271" text="dem&#10;armen Sundersiechen zu St . Jacob an der Buss"/>
+        <role role="location-b" ref="1277" text="der Buss"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="15" end="68" ref="" type="event">
+      <trigger start="15" end="15" text="verkauft" ref="1253"/>
+      <event event_id="6.0">
+        <role role="seller" ref="1071" text="Frow Ennelin Werlin"/>
+        <role role="seller" ref="1083" text="Werlin Vesch dem Wagner&#10;irem elichen Man"/>
+        <role role="buyer" ref="1132" text="dem Spittel zu Basel"/>
+        <role role="interest" ref="1259" text="2 Gld ."/>
+        <role role="collateral" ref="1235" text="irem Eckhus in der Statt&#10;Basel in der wissen Gassen by der Bruggen gele ¬&#10;gen , das man nembt grossen Costentz , zinset dem&#10;armen Sundersiechen zu St . Jacob an der Buss 2 Gld ."/>
+        <role role="price" ref="1223" text="40 Gld ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

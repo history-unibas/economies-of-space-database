@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 197/49 S. [17]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenvorstadt 29</tei:title>
+            <tei:idno>HGB 1 197/49</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1526801</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1560">1560</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610801.797739312 1267431.901283823</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Jn</token>
+    <token token_id="1">Hans</token>
+    <token token_id="2">Andres</token>
+    <token token_id="3">von</token>
+    <token token_id="4">Liechtenfels</token>
+    <token token_id="5">hat</token>
+    <token token_id="6">Peter</token>
+    <token token_id="7">Fuchsen</token>
+    <token token_id="8">von</token>
+    <token token_id="9">Ober</token>
+    <token token_id="10">Michelbach</token>
+    <token token_id="11">Hus</token>
+    <token token_id="12">und</token>
+    <token token_id="13">Hofstatt</token>
+    <token token_id="14">zu</token>
+    <token token_id="15">Spalenvorstatt</token>
+    <token token_id="16">zwüschen</token>
+    <token token_id="17">Steffan</token>
+    <token token_id="18">Wagner</token>
+    <token token_id="19">und</token>
+    <token token_id="20">Jacob</token>
+    <token token_id="21">Gebhart</token>
+    <token token_id="22">dem</token>
+    <token token_id="23">seyler</token>
+    <token token_id="24">glegen</token>
+    <token token_id="25">,</token>
+    <token token_id="26">und</token>
+    <token token_id="27">zum</token>
+    <token token_id="28">Steinen</token>
+    <token token_id="29">crütz</token>
+    <token token_id="30">genannt</token>
+    <token token_id="31">ist</token>
+    <token token_id="32">,</token>
+    <token token_id="33">versessener</token>
+    <token token_id="34">zinsen</token>
+    <token token_id="35">wegen</token>
+    <token token_id="36">,</token>
+    <token token_id="37">als</token>
+    <token token_id="38">ihm</token>
+    <token token_id="39">jährl</token>
+    <token token_id="40">.</token>
+    <token token_id="41">zu</token>
+    <token token_id="42">ein</token>
+    <token token_id="43">Lehen</token>
+    <token token_id="44">,</token>
+    <token token_id="45">so</token>
+    <token token_id="46">er</token>
+    <token token_id="47">von</token>
+    <token token_id="48">Birthumb</token>
+    <token token_id="49">Basel</token>
+    <token token_id="50">treyt</token>
+    <token token_id="51">1</token>
+    <token token_id="52">℔</token>
+    <token token_id="53">7</token>
+    <token token_id="54">sh</token>
+    <token token_id="55">.</token>
+    <token token_id="56">zins</token>
+    <token token_id="57">u</token>
+    <token token_id="58">.</token>
+    <token token_id="59">3</token>
+    <token token_id="60">Huner</token>
+    <token token_id="61">zinste</token>
+    <token token_id="62">,</token>
+    <token token_id="63">gefrönt</token>
+    <token token_id="64">,</token>
+    <token token_id="65">und</token>
+    <token token_id="66">kauft</token>
+    <token token_id="67">sie</token>
+    <token token_id="68">sum</token>
+    <token token_id="69">1</token>
+    <token token_id="70">℔</token>
+    <token token_id="71">3sh</token>
+    <token token_id="72">.</token>
+    <token token_id="73">zinspfl</token>
+    <token token_id="74">.</token>
+  </text>
+  <spans>
+    <span id="1112" start="0" end="4" text="Jn Hans Andres von Liechtenfels" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1124" start="0" end="0" text="Jn" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1124_head" start="0" end="0" element="head" class="title" text="Jn" subclass=""/>
+      </span>
+      <span id="1118" start="1" end="4" text="Hans Andres von Liechtenfels" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1270" start="6" end="31" text="Peter Fuchsen&#10;von Ober Michelbach Hus und Hofstatt zu Spalenvorstatt&#10;zwüschen Steffan Wagner und Jacob Gebhart dem seyler&#10;glegen , und zum Steinen crütz genannt ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1276" start="6" end="10" text="Peter Fuchsen&#10;von Ober Michelbach" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1130" start="6" end="10" text="Peter Fuchsen&#10;von Ober Michelbach" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1136" start="6" end="7" text="Peter Fuchsen" element="head" class="nam" subclass=""/>
+          <span id="1142" start="8" end="10" text="von Ober Michelbach" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1148" start="9" end="10" text="Ober Michelbach" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1148_head" start="9" end="10" element="head" class="nam" text="Ober Michelbach" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1154" start="11" end="13" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1160" start="14" end="24" text="zu Spalenvorstatt&#10;zwüschen Steffan Wagner und Jacob Gebhart dem seyler&#10;glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1166" start="15" end="15" text="Spalenvorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1166_head" start="15" end="15" element="head" class="nam" text="Spalenvorstatt" subclass=""/>
+        </span>
+        <span id="1172" start="17" end="18" text="Steffan Wagner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1172_head" start="17" end="18" element="head" class="nam" text="Steffan Wagner" subclass=""/>
+        </span>
+        <span id="1178" start="20" end="23" text="Jacob Gebhart dem seyler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1184" start="20" end="21" text="Jacob Gebhart" element="head" class="nam" subclass=""/>
+          <span id="1190" start="22" end="23" text="dem seyler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1196" start="23" end="23" text="seyler" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1202" start="27" end="29" text="zum Steinen crütz" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1202_head" start="27" end="29" element="head" class="nam" text="zum Steinen crütz" subclass=""/>
+      </span>
+    </span>
+    <span id="1301" start="34" end="34" text="zinsen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1208" start="38" end="38" text="ihm" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1208_head" start="38" end="38" element="head" class="pro" text="ihm" subclass=""/>
+    </span>
+    <span id="1221" start="39" end="40" text="jährl ." element="value" class="time" subclass="rec"/>
+    <span id="1313" start="41" end="43" text="zu ein Lehen" element="other" class="other" subclass=""/>
+    <span id="1227" start="46" end="46" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1227_head" start="46" end="46" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="1240" start="48" end="49" text="Birthumb&#10;Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1240_head" start="48" end="49" element="head" class="nam" text="Birthumb Basel" subclass=""/>
+    </span>
+    <span id="1258" start="51" end="55" text="1 ℔ 7 sh ." element="value" class="money" subclass=""/>
+    <span id="1246" start="59" end="60" text="3 Huner" element="value" class="money" subclass=""/>
+    <span id="1307" start="61" end="61" text="zinste" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1264" start="63" end="63" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1295" start="66" end="66" text="kauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1282" start="67" end="67" text="sie" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1282_head" start="67" end="67" element="head" class="pro" text="sie" subclass=""/>
+    </span>
+    <span id="1252" start="69" end="74" text="1 ℔ 3sh . zinspfl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1214" from="1208" to="1112" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1288" from="1282" to="1270" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1319" from="1307" to="1301" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1233" from="1227" to="1208" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="6" end="10" ref="1276" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1270" text="Peter Fuchsen&#10;von Ober Michelbach Hus und Hofstatt zu Spalenvorstatt&#10;zwüschen Steffan Wagner und Jacob Gebhart dem seyler&#10;glegen , und zum Steinen crütz genannt ist"/>
+        <role role="owner" ref="1130" text="Peter Fuchsen&#10;von Ober Michelbach"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="8" end="10" ref="1142" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1130" text="Peter Fuchsen&#10;von Ober Michelbach"/>
+        <role role="location-b" ref="1148" text="Ober Michelbach"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="14" end="24" ref="1160" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1270" text="Peter Fuchsen&#10;von Ober Michelbach Hus und Hofstatt zu Spalenvorstatt&#10;zwüschen Steffan Wagner und Jacob Gebhart dem seyler&#10;glegen , und zum Steinen crütz genannt ist"/>
+        <role role="location-b" ref="1166" text="Spalenvorstatt"/>
+        <role role="location-b" ref="1172" text="Steffan Wagner"/>
+        <role role="location-b" ref="1178" text="Jacob Gebhart dem seyler"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="neg" tense="pres" modality="ass" start="34" end="34" ref="" type="event">
+      <trigger start="34" end="34" text="zinsen" ref="1301"/>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="38" end="61" ref="" type="state">
+      <trigger start="61" end="61" text="zinste" ref="1307"/>
+      <event event_id="4.0">
+        <role role="detail_proxy" ref="1208" text="ihm"/>
+        <role role="interval" ref="1221" text="jährl ."/>
+        <role role="cause" ref="1313" text="zu ein Lehen"/>
+        <role role="beneficiary" ref="1240" text="Birthumb&#10;Basel"/>
+        <role role="interest" ref="1258" text="1 ℔ 7 sh ."/>
+        <role role="interest" ref="1246" text="3 Huner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="63" ref="" type="event">
+      <trigger start="63" end="63" text="gefrönt" ref="1264"/>
+      <event event_id="5.0">
+        <role role="claimant" ref="1112" text="Jn Hans Andres von Liechtenfels"/>
+        <role role="property" ref="1270" text="Peter Fuchsen&#10;von Ober Michelbach Hus und Hofstatt zu Spalenvorstatt&#10;zwüschen Steffan Wagner und Jacob Gebhart dem seyler&#10;glegen , und zum Steinen crütz genannt ist"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="74" ref="" type="event">
+      <trigger start="66" end="66" text="kauft" ref="1295"/>
+      <event event_id="6.0">
+        <role role="buyer" ref="1112" text="Jn Hans Andres von Liechtenfels"/>
+        <role role="property" ref="1282" text="sie"/>
+        <role role="price" ref="1252" text="1 ℔ 3sh . zinspfl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

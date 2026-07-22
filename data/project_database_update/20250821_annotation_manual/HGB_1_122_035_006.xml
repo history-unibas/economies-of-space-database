@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 122/35 S. [6, 7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Marktplatz Theil von 11 neben 10</tei:title>
+            <tei:idno>HGB 1 122/35</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494813</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1464">1464</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611217.180389093 1267473.9589920673</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Frau</token>
+    <token token_id="1">egnes</token>
+    <token token_id="2">Hoffasiin</token>
+    <token token_id="3">u</token>
+    <token token_id="4">.</token>
+    <token token_id="5">Enelin</token>
+    <token token_id="6">is</token>
+    <token token_id="7">tochter</token>
+    <token token_id="8">ond</token>
+    <token token_id="9">Heurnhen</token>
+    <token token_id="10">Pämlin</token>
+    <token token_id="11">dem</token>
+    <token token_id="12">gewantman</token>
+    <token token_id="13">derselben</token>
+    <token token_id="14">Eenelie</token>
+    <token token_id="15">Eeman</token>
+    <token token_id="16">verkaufen</token>
+    <token token_id="17">an</token>
+    <token token_id="18">Hannsen</token>
+    <token token_id="19">Ysenlin</token>
+    <token token_id="20">den</token>
+    <token token_id="21">Krämer</token>
+    <token token_id="22">,</token>
+    <token token_id="23">ư</token>
+    <token token_id="24">seine</token>
+    <token token_id="25">Frau</token>
+    <token token_id="26">Agnesen</token>
+    <token token_id="27">,</token>
+    <token token_id="28">das</token>
+    <token token_id="29">Hus</token>
+    <token token_id="30">&amp;</token>
+    <token token_id="31">Hofstatt</token>
+    <token token_id="32">hinder</token>
+    <token token_id="33">&amp;</token>
+    <token token_id="34">vor</token>
+    <token token_id="35">genant</token>
+    <token token_id="36">zem</token>
+    <token token_id="37">Herhorn</token>
+    <token token_id="38">ugelegen</token>
+    <token token_id="39">am</token>
+    <token token_id="40">Kornmargt</token>
+    <token token_id="41">.</token>
+    <token token_id="42">einsit</token>
+    <token token_id="43">neben</token>
+    <token token_id="44">dem</token>
+    <token token_id="45">Huse</token>
+    <token token_id="46">genant</token>
+    <token token_id="47">zer</token>
+    <token token_id="48">feyssen</token>
+    <token token_id="49">Hennen</token>
+    <token token_id="50">u</token>
+    <token token_id="51">.</token>
+    <token token_id="52">andersite</token>
+    <token token_id="53">neben</token>
+    <token token_id="54">des</token>
+    <token token_id="55">Kaufers</token>
+    <token token_id="56">huse</token>
+    <token token_id="57">genant</token>
+    <token token_id="58">Berners</token>
+    <token token_id="59">zinset</token>
+    <token token_id="60">jährl</token>
+    <token token_id="61">voeig</token>
+    <token token_id="62">.</token>
+    <token token_id="63">Peter</token>
+    <token token_id="64">Pden</token>
+    <token token_id="65">ritter</token>
+    <token token_id="66">6</token>
+    <token token_id="67">℔</token>
+    <token token_id="68">.</token>
+    <token token_id="69">u</token>
+    <token token_id="70">2ring</token>
+    <token token_id="71">brotze</token>
+    <token token_id="72">wisung</token>
+    <token token_id="73">,</token>
+    <token token_id="74">u</token>
+    <token token_id="75">6sherschatz</token>
+    <token token_id="76">,</token>
+    <token token_id="77">sonstfrei</token>
+    <token token_id="78">.</token>
+    <token token_id="79">um</token>
+    <token token_id="80">550</token>
+    <token token_id="81">fl</token>
+    <token token_id="82">.</token>
+  </text>
+  <spans>
+    <span id="1623" start="0" end="15" text="Frau egnes Hoffasiin u . Enelin is tochter ond&#10;Heurnhen Pämlin dem gewantman derselben Eenelie Eeman" element="list" class="per" subclass="">
+      <span id="1301" start="0" end="2" text="Frau egnes Hoffasiin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1313" start="1" end="1" text="egnes" element="head" class="nam" subclass=""/>
+        <span id="1319" start="2" end="2" text="Hoffasiin" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1307" start="5" end="7" text="Enelin is tochter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1325" start="5" end="5" text="Enelin" element="head" class="nam" subclass=""/>
+        <span id="1465" start="6" end="7" text="is tochter" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1452" start="6" end="6" text="is" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1452_head" start="6" end="6" element="head" class="pro" text="is" subclass=""/>
+          </span>
+          <span id="1471" start="7" end="7" text="tochter" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+      <span id="1477" start="9" end="15" text="Heurnhen Pämlin dem gewantman derselben Eenelie Eeman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1343" start="9" end="10" text="Heurnhen Pämlin" element="head" class="nam" subclass=""/>
+        <span id="1331" start="11" end="12" text="dem gewantman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1337" start="12" end="12" text="gewantman" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1483" start="13" end="15" text="derselben Eenelie Eeman" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1495" start="13" end="14" text="derselben Eenelie" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1501" start="14" end="14" text="Eenelie" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1489" start="15" end="15" text="Eeman" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1629" start="16" end="16" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1635" start="18" end="26" text="Hannsen Ysenlin den Krämer , ư&#10;seine Frau Agnesen" element="list" class="per" subclass="">
+      <span id="1349" start="18" end="21" text="Hannsen Ysenlin den Krämer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1355" start="18" end="19" text="Hannsen Ysenlin" element="head" class="nam" subclass=""/>
+        <span id="1361" start="20" end="21" text="den Krämer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1367" start="21" end="21" text="Krämer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1373" start="24" end="26" text="seine Frau Agnesen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1514" start="24" end="25" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1379" start="24" end="24" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1379_head" start="24" end="24" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1520" start="25" end="25" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1617" start="26" end="26" text="Agnesen" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1392" start="28" end="78" text="das Hus &amp; Hofstatt hinder &amp; vor&#10;genant zem Herhorn ugelegen am Kornmargt .&#10;einsit neben dem Huse genant zer feyssen Hennen&#10;u . andersite neben des Kaufers huse genant Berners&#10;zinset jährl voeig . Peter Pden ritter 6 ℔.&#10;u 2ring brotze wisung , u 6sherschatz , sonstfrei ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1398" start="29" end="31" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1404" start="36" end="37" text="zem Herhorn" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1404_head" start="36" end="37" element="head" class="nam" text="zem Herhorn" subclass=""/>
+      </span>
+      <span id="1446" start="38" end="58" text="ugelegen am Kornmargt .&#10;einsit neben dem Huse genant zer feyssen Hennen&#10;u . andersite neben des Kaufers huse genant Berners" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1526" start="39" end="41" text="am Kornmargt ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="1532" start="40" end="40" text="Kornmargt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1538" start="44" end="49" text="dem Huse genant zer feyssen Hennen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1544" start="45" end="45" text="Huse" element="head" class="type" subclass=""/>
+          <span id="1550" start="47" end="49" text="zer feyssen Hennen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1550_head" start="47" end="49" element="head" class="nam" text="zer feyssen Hennen" subclass=""/>
+          </span>
+        </span>
+        <span id="1556" start="54" end="58" text="des Kaufers huse genant Berners" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1568" start="54" end="55" text="des Kaufers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1574" start="54" end="55" text="des Kaufers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1580" start="55" end="55" text="Kaufers" element="head" class="role" subclass=""/>
+            </span>
+          </span>
+          <span id="1562" start="56" end="56" text="huse" element="head" class="type" subclass=""/>
+          <span id="1410" start="58" end="58" text="Berners" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1410_head" start="58" end="58" element="head" class="nam" text="Berners" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1593" start="59" end="77" text="zinset jährl voeig . Peter Pden ritter 6 ℔.&#10;u 2ring brotze wisung , u 6sherschatz , sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1647" start="59" end="59" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1416" start="60" end="60" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="1653" start="61" end="62" text="voeig ." element="other" class="other" subclass=""/>
+        <span id="1599" start="63" end="65" text="Peter Pden ritter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1605" start="63" end="64" text="Peter Pden" element="head" class="nam" subclass=""/>
+          <span id="1611" start="65" end="65" text="ritter" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1611_head" start="65" end="65" element="head" class="title" text="ritter" subclass=""/>
+          </span>
+        </span>
+        <span id="1422" start="66" end="68" text="6 ℔." element="value" class="money" subclass=""/>
+        <span id="1440" start="70" end="71" text="2ring brotze" element="value" class="money" subclass=""/>
+        <span id="1659" start="72" end="72" text="wisung" element="other" class="other" subclass=""/>
+        <span id="1434" start="75" end="75" text="6sherschatz" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1428" start="80" end="82" text="550 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1458" from="1452" to="1301" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1507" from="1495" to="1307" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1385" from="1379" to="1349" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1586" from="1574" to="1349" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1647_role" from="1647" to="1392" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="6" end="7" ref="1465" type="state">
+      <trigger start="7" end="7" text="tochter" ref="1471"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1307" text="Enelin is tochter"/>
+        <role role="family-b" ref="1452" text="is"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="13" end="15" ref="1483" type="state">
+      <trigger start="15" end="15" text="Eeman" ref="1489"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1477" text="Heurnhen Pämlin dem gewantman derselben Eenelie Eeman"/>
+        <role role="family-b" ref="1495" text="derselben Eenelie"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="24" end="25" ref="1514" type="state">
+      <trigger start="25" end="25" text="Frau" ref="1520"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1373" text="seine Frau Agnesen"/>
+        <role role="family-b" ref="1379" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="38" end="58" ref="1446" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1392" text="das Hus &amp; Hofstatt hinder &amp; vor&#10;genant zem Herhorn ugelegen am Kornmargt .&#10;einsit neben dem Huse genant zer feyssen Hennen&#10;u . andersite neben des Kaufers huse genant Berners&#10;zinset jährl voeig . Peter Pden ritter 6 ℔.&#10;u 2ring brotze wisung , u 6sherschatz , sonstfrei ."/>
+        <role role="location-b" ref="1526" text="am Kornmargt ."/>
+        <role role="location-b" ref="1538" text="dem Huse genant zer feyssen Hennen"/>
+        <role role="location-b" ref="1556" text="des Kaufers huse genant Berners"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="54" end="55" ref="1568" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1556" text="des Kaufers huse genant Berners"/>
+        <role role="owner" ref="1574" text="des Kaufers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="82" ref="" type="event">
+      <trigger start="16" end="16" text="verkaufen" ref="1629"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1301" text="Frau egnes Hoffasiin"/>
+        <role role="seller" ref="1307" text="Enelin is tochter"/>
+        <role role="seller" ref="1477" text="Heurnhen Pämlin dem gewantman derselben Eenelie Eeman"/>
+        <role role="buyer" ref="1349" text="Hannsen Ysenlin den Krämer"/>
+        <role role="buyer" ref="1373" text="seine Frau Agnesen"/>
+        <role role="property" ref="1392" text="das Hus &amp; Hofstatt hinder &amp; vor&#10;genant zem Herhorn ugelegen am Kornmargt .&#10;einsit neben dem Huse genant zer feyssen Hennen&#10;u . andersite neben des Kaufers huse genant Berners&#10;zinset jährl voeig . Peter Pden ritter 6 ℔.&#10;u 2ring brotze wisung , u 6sherschatz , sonstfrei ."/>
+        <role role="price" ref="1428" text="550 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="28" end="78" ref="1593" type="state">
+      <trigger start="59" end="59" text="zinset" ref="1647"/>
+      <event event_id="6.0">
+        <role role="interval" ref="1416" text="jährl"/>
+        <role role="cause" ref="1653" text="voeig ."/>
+        <role role="beneficiary" ref="1599" text="Peter Pden ritter"/>
+        <role role="interest" ref="1422" text="6 ℔."/>
+        <role role="property" ref="1392" text="das Hus &amp; Hofstatt hinder &amp; vor&#10;genant zem Herhorn ugelegen am Kornmargt .&#10;einsit neben dem Huse genant zer feyssen Hennen&#10;u . andersite neben des Kaufers huse genant Berners&#10;zinset jährl voeig . Peter Pden ritter 6 ℔.&#10;u 2ring brotze wisung , u 6sherschatz , sonstfrei ."/>
+      </event>
+      <event event_id="6.1">
+        <role role="interval" ref="1416" text="jährl"/>
+        <role role="beneficiary" ref="1599" text="Peter Pden ritter"/>
+        <role role="interest" ref="1440" text="2ring brotze"/>
+        <role role="cause" ref="1659" text="wisung"/>
+        <role role="property" ref="1392" text="das Hus &amp; Hofstatt hinder &amp; vor&#10;genant zem Herhorn ugelegen am Kornmargt .&#10;einsit neben dem Huse genant zer feyssen Hennen&#10;u . andersite neben des Kaufers huse genant Berners&#10;zinset jährl voeig . Peter Pden ritter 6 ℔.&#10;u 2ring brotze wisung , u 6sherschatz , sonstfrei ."/>
+      </event>
+      <event event_id="6.2">
+        <role role="interval" ref="1416" text="jährl"/>
+        <role role="beneficiary" ref="1599" text="Peter Pden ritter"/>
+        <role role="interest" ref="1434" text="6sherschatz"/>
+        <role role="cause" ref="1434" text="6sherschatz"/>
+        <role role="property" ref="1392" text="das Hus &amp; Hofstatt hinder &amp; vor&#10;genant zem Herhorn ugelegen am Kornmargt .&#10;einsit neben dem Huse genant zer feyssen Hennen&#10;u . andersite neben des Kaufers huse genant Berners&#10;zinset jährl voeig . Peter Pden ritter 6 ℔.&#10;u 2ring brotze wisung , u 6sherschatz , sonstfrei ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 106/10 S. [18]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Kronengasse 5</tei:title>
+            <tei:idno>HGB 1 106/10</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1493447</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1461">1461</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611217.894593662 1267653.2419525795</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">verzeich</token>
+    <token token_id="2">sich</token>
+    <token token_id="3">Heinr</token>
+    <token token_id="4">Stönlin</token>
+    <token token_id="5">der</token>
+    <token token_id="6">underkäufer</token>
+    <token token_id="7">aller</token>
+    <token token_id="8">der</token>
+    <token token_id="9">rechten</token>
+    <token token_id="10">so</token>
+    <token token_id="11">er</token>
+    <token token_id="12">hat</token>
+    <token token_id="13">an</token>
+    <token token_id="14">dem</token>
+    <token token_id="15">Huse</token>
+    <token token_id="16">zem</token>
+    <token token_id="17">Meigen</token>
+    <token token_id="18">am</token>
+    <token token_id="19">Vischmerkt</token>
+    <token token_id="20">gelegen</token>
+    <token token_id="21">,</token>
+    <token token_id="22">als</token>
+    <token token_id="23">er</token>
+    <token token_id="24">das</token>
+    <token token_id="25">alhie</token>
+    <token token_id="26">für</token>
+    <token token_id="27">64</token>
+    <token token_id="28">fl</token>
+    <token token_id="29">kauft</token>
+    <token token_id="30">hat</token>
+    <token token_id="31">,</token>
+    <token token_id="32">ư</token>
+    <token token_id="33">gab</token>
+    <token token_id="34">das</token>
+    <token token_id="35">lidiclich</token>
+    <token token_id="36">uff</token>
+    <token token_id="37">zugerichts</token>
+    <token token_id="38">im</token>
+    <token token_id="39">Hanns</token>
+    <token token_id="40">Obresten</token>
+    <token token_id="41">hand</token>
+    <token token_id="42">der</token>
+    <token token_id="43">ouch</token>
+    <token token_id="44">des</token>
+    <token token_id="45">namen</token>
+    <token token_id="46">der</token>
+    <token token_id="47">herren</token>
+    <token token_id="48">s</token>
+    <token token_id="49">.</token>
+    <token token_id="50">Martins</token>
+    <token token_id="51">Lutkilchen</token>
+    <token token_id="52">an</token>
+    <token token_id="53">sich</token>
+    <token token_id="54">genommen</token>
+    <token token_id="55">hat</token>
+    <token token_id="56">,</token>
+    <token token_id="57">als</token>
+    <token token_id="58">es</token>
+    <token token_id="59">Strönlin</token>
+    <token token_id="60">kauft</token>
+    <token token_id="61">hat</token>
+  </text>
+  <spans>
+    <span id="951" start="3" end="6" text="Heinr Stönlin der underkäufer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="957" start="3" end="4" text="Heinr Stönlin" element="head" class="nam" subclass=""/>
+      <span id="963" start="5" end="6" text="der underkäufer" element="appo" class="role" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="969" start="6" end="6" text="underkäufer" element="head" class="role" subclass=""/>
+      </span>
+    </span>
+    <span id="975" start="11" end="11" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="975_head" start="11" end="11" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="988" start="14" end="20" text="dem Huse zem Meigen am&#10;Vischmerkt gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="994" start="15" end="17" text="Huse zem Meigen" element="head" class="nam" subclass=""/>
+      <span id="1000" start="18" end="20" text="am&#10;Vischmerkt gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1006" start="18" end="19" text="am&#10;Vischmerkt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="1012" start="19" end="19" text="Vischmerkt" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1018" start="23" end="23" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1018_head" start="23" end="23" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="1031" start="24" end="24" text="das" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1031_head" start="24" end="24" element="head" class="pro" text="das" subclass=""/>
+    </span>
+    <span id="1044" start="27" end="28" text="64 fl" element="value" class="money" subclass=""/>
+    <span id="1050" start="39" end="40" text="Hanns Obresten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1050_head" start="39" end="40" element="head" class="nam" text="Hanns Obresten" subclass=""/>
+    </span>
+    <span id="1062" start="42" end="42" text="der" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1062_head" start="42" end="42" element="head" class="pro" text="der" subclass=""/>
+    </span>
+    <span id="1056" start="46" end="51" text="der herren s . Martins Lutkilchen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1101" start="47" end="51" text="herren s . Martins Lutkilchen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1088" start="58" end="58" text="es" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1088_head" start="58" end="58" element="head" class="pro" text="es" subclass=""/>
+    </span>
+    <span id="1075" start="59" end="59" text="Strönlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1075_head" start="59" end="59" element="head" class="nam" text="Strönlin" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="981" from="975" to="951" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1081" from="1075" to="951" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1024" from="1018" to="975" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1037" from="1031" to="988" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1094" from="1088" to="988" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1068" from="1062" to="1050" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="18" end="20" ref="1000" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="988" text="dem Huse zem Meigen am&#10;Vischmerkt gelegen"/>
+        <role role="location-b" ref="1006" text="am&#10;Vischmerkt"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

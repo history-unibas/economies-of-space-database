@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 85/35 S. [31]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hutgasse Theil von 2, Mitte an d. Hutgasse und neben 4</tei:title>
+            <tei:idno>HGB 1 85/35</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1481899</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Peter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1527">1527</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611218.853541554 1267451.0985128325</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Lienhart</token>
+    <token token_id="1">Kreps</token>
+    <token token_id="2">uff</token>
+    <token token_id="3">Phi</token>
+    <token token_id="4">.</token>
+    <token token_id="5">lippi</token>
+    <token token_id="6">und</token>
+    <token token_id="7">Jacobi</token>
+    <token token_id="8">vom</token>
+    <token token_id="9">hus</token>
+    <token token_id="10">zum</token>
+    <token token_id="11">Reff</token>
+    <token token_id="12">4</token>
+    <token token_id="13">℔</token>
+    <token token_id="14">der</token>
+    <token token_id="15">Capplanen</token>
+    <token token_id="16">zins</token>
+    <token token_id="17">.</token>
+    <token token_id="18">1528</token>
+    <token token_id="19">primus</token>
+    <token token_id="20">census</token>
+    <token token_id="21">.</token>
+  </text>
+  <spans>
+    <span id="496" start="0" end="1" text="Lienhart Kreps" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="496_head" start="0" end="1" element="head" class="nam" text="Lienhart Kreps" subclass=""/>
+    </span>
+    <span id="526" start="2" end="7" text="uff Phi .&#10;lippi und Jacobi" element="value" class="date" subclass=""/>
+    <span id="502" start="8" end="11" text="vom hus zum Reff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="508" start="9" end="11" text="hus zum Reff" element="head" class="type" subclass=""/>
+    </span>
+    <span id="514" start="12" end="13" text="4 ℔" element="value" class="money" subclass=""/>
+    <span id="532" start="16" end="16" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="520" start="18" end="18" text="1528" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="18" ref="" type="event">
+      <trigger start="16" end="16" text="zins" ref="532"/>
+      <event event_id="0.0">
+        <role role="payer" ref="496" text="Lienhart Kreps"/>
+        <role role="due-date" ref="526" text="uff Phi .&#10;lippi und Jacobi"/>
+        <role role="property" ref="502" text="vom hus zum Reff"/>
+        <role role="interest" ref="514" text="4 ℔"/>
+        <role role="date" ref="520" text="1528"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

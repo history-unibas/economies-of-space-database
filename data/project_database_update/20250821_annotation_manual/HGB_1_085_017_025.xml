@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 85/17 S. [25]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hutgasse 13</tei:title>
+            <tei:idno>HGB 1 85/17</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1481881</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Prediger</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="None">None</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611201.1958272685 1267437.3666291423</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Ein</token>
+    <token token_id="1">brief</token>
+    <token token_id="2">,</token>
+    <token token_id="3">wie</token>
+    <token token_id="4">Urben</token>
+    <token token_id="5">Schwitzlin</token>
+    <token token_id="6">und</token>
+    <token token_id="7">Brida</token>
+    <token token_id="8">sinchefrow</token>
+    <token token_id="9">,</token>
+    <token token_id="10">den</token>
+    <token token_id="11">Predigern</token>
+    <token token_id="12">1</token>
+    <token token_id="13">℔</token>
+    <token token_id="14">5ß</token>
+    <token token_id="15">uf</token>
+    <token token_id="16">Petri</token>
+    <token token_id="17">und</token>
+    <token token_id="18">Pauli</token>
+    <token token_id="19">zins</token>
+    <token token_id="20">von</token>
+    <token token_id="21">uf</token>
+    <token token_id="22">und</token>
+    <token token_id="23">ab</token>
+    <token token_id="24">irem</token>
+    <token token_id="25">Hus</token>
+    <token token_id="26">hinder</token>
+    <token token_id="27">und</token>
+    <token token_id="28">vor</token>
+    <token token_id="29">als</token>
+    <token token_id="30">das</token>
+    <token token_id="31">in</token>
+    <token token_id="32">Winhartsgassen</token>
+    <token token_id="33">,</token>
+    <token token_id="34">zwischen</token>
+    <token token_id="35">der</token>
+    <token token_id="36">Herberg</token>
+    <token token_id="37">zum</token>
+    <token token_id="38">schwartzen</token>
+    <token token_id="39">Sternen</token>
+    <token token_id="40">und</token>
+    <token token_id="41">Melchior</token>
+    <token token_id="42">Harnest</token>
+    <token token_id="43">des</token>
+    <token token_id="44">Hutmachers</token>
+    <token token_id="45">Hus</token>
+    <token token_id="46">gelegen</token>
+    <token token_id="47">,</token>
+    <token token_id="48">und</token>
+    <token token_id="49">Schulers</token>
+    <token token_id="50">Hus</token>
+    <token token_id="51">genandt</token>
+    <token token_id="52">,</token>
+    <token token_id="53">ist</token>
+    <token token_id="54">,</token>
+    <token token_id="55">umb</token>
+    <token token_id="56">25</token>
+    <token token_id="57">℔</token>
+    <token token_id="58">ablösigs</token>
+    <token token_id="59">Hauptgut</token>
+    <token token_id="60">ze</token>
+    <token token_id="61">kouffen</token>
+    <token token_id="62">ge</token>
+    <token token_id="63">¬</token>
+    <token token_id="64">ben</token>
+    <token token_id="65">haben</token>
+    <token token_id="66">.</token>
+    <token token_id="67">Datum</token>
+    <token token_id="68">den</token>
+    <token token_id="69">H</token>
+    <token token_id="70">.</token>
+    <token token_id="71">Heumonat</token>
+    <token token_id="72">Ao</token>
+    <token token_id="73">1535</token>
+    <token token_id="74">.</token>
+    <token token_id="75">Disen</token>
+    <token token_id="76">zins</token>
+    <token token_id="77">gibt</token>
+    <token token_id="78">Wolf</token>
+    <token token_id="79">Rosenstockh</token>
+    <token token_id="80">der</token>
+    <token token_id="81">gürtler</token>
+    <token token_id="82">1</token>
+    <token token_id="83">℔</token>
+    <token token_id="84">5ß</token>
+    <token token_id="85">.</token>
+    <token token_id="86">Jetz</token>
+    <token token_id="87">Symon</token>
+    <token token_id="88">Dus</token>
+    <token token_id="89">der</token>
+    <token token_id="90">Hosenlismer</token>
+    <token token_id="91">;</token>
+    <token token_id="92">jetz</token>
+    <token token_id="93">Johannes</token>
+    <token token_id="94">Preiswerckh</token>
+    <token token_id="95">,</token>
+    <token token_id="96">jetz</token>
+    <token token_id="97">Heinrich</token>
+    <token token_id="98">Rüdi</token>
+    <token token_id="99">;</token>
+    <token token_id="100">jetz</token>
+    <token token_id="101">Jacob</token>
+    <token token_id="102">Lündel</token>
+    <token token_id="103">der</token>
+    <token token_id="104">Rohtgerwer</token>
+  </text>
+  <spans>
+    <span id="1460" start="4" end="8" text="Urben Schwitzlin und Brida&#10;sinchefrow" element="list" class="per" subclass="">
+      <span id="1454" start="4" end="5" text="Urben Schwitzlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1454_head" start="4" end="5" element="head" class="nam" text="Urben Schwitzlin" subclass=""/>
+      </span>
+      <span id="1472" start="7" end="8" text="Brida&#10;sinchefrow" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1466" start="7" end="7" text="Brida" element="head" class="nam" subclass=""/>
+        <span id="1478" start="8" end="8" text="sinchefrow" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1478_head" start="8" end="8" element="head" class="fam" text="sinchefrow" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1484" start="10" end="11" text="den Predigern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1490" start="11" end="11" text="Predigern" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1719" start="12" end="19" text="1 ℔ 5ß uf Petri und&#10;Pauli zins" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1496" start="12" end="14" text="1 ℔ 5ß" element="value" class="money" subclass=""/>
+      <span id="1502" start="15" end="18" text="uf Petri und&#10;Pauli" element="value" class="date" subclass=""/>
+      <span id="1725" start="19" end="19" text="zins" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1508" start="24" end="53" text="irem Hus hinder und vor&#10;als das in Winhartsgassen , zwischen der Herberg&#10;zum schwartzen Sternen und Melchior Harnest des&#10;Hutmachers Hus gelegen , und Schulers Hus genandt ,&#10;ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1526" start="24" end="24" text="irem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1520" start="24" end="24" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1520_head" start="24" end="24" element="head" class="pro" text="irem" subclass=""/>
+        </span>
+      </span>
+      <span id="1514" start="25" end="25" text="Hus" element="head" class="type" subclass=""/>
+      <span id="1539" start="30" end="46" text="das in Winhartsgassen , zwischen der Herberg&#10;zum schwartzen Sternen und Melchior Harnest des&#10;Hutmachers Hus gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1545" start="32" end="32" text="Winhartsgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1545_head" start="32" end="32" element="head" class="nam" text="Winhartsgassen" subclass=""/>
+        </span>
+        <span id="1551" start="35" end="45" text="der Herberg&#10;zum schwartzen Sternen und Melchior Harnest des&#10;Hutmachers Hus" element="list" class="fac" subclass="">
+          <span id="1557" start="35" end="39" text="der Herberg&#10;zum schwartzen Sternen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1563" start="36" end="39" text="Herberg&#10;zum schwartzen Sternen" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1593" start="41" end="45" text="Melchior Harnest des&#10;Hutmachers Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1593_desc_owner" start="41" end="44" text="Melchior Harnest des&#10;Hutmachers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1569" start="41" end="44" text="Melchior Harnest des&#10;Hutmachers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1575" start="41" end="42" text="Melchior Harnest" element="head" class="nam" subclass=""/>
+                <span id="1581" start="43" end="44" text="des&#10;Hutmachers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1587" start="44" end="44" text="Hutmachers" element="head" class="occ" subclass=""/>
+                </span>
+              </span>
+            </span>
+            <span id="1599" start="45" end="45" text="Hus" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1605" start="49" end="50" text="Schulers Hus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1605_head" start="49" end="50" element="head" class="nam" text="Schulers Hus" subclass=""/>
+      </span>
+    </span>
+    <span id="1611" start="56" end="57" text="25 ℔" element="value" class="money" subclass=""/>
+    <span id="1731" start="61" end="61" text="kouffen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1737" start="67" end="85" text="Datum den H . Heumonat Ao 1535 .&#10;Disen zins gibt Wolf Rosenstockh der gürtler&#10;1 ℔ 5ß ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="change">
+      <span id="1617" start="68" end="73" text="den H . Heumonat Ao 1535" element="value" class="date" subclass=""/>
+      <span id="1749" start="75" end="76" text="Disen zins" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1755" start="76" end="76" text="zins" element="trigger" class="type" subclass=""/>
+      </span>
+      <span id="1743" start="77" end="77" text="gibt" element="trigger" class="type" subclass=""/>
+      <span id="1623" start="78" end="81" text="Wolf Rosenstockh der gürtler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1629" start="78" end="79" text="Wolf Rosenstockh" element="head" class="nam" subclass=""/>
+        <span id="1635" start="80" end="81" text="der gürtler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1641" start="81" end="81" text="gürtler" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1647" start="82" end="85" text="1 ℔ 5ß ." element="value" class="money" subclass=""/>
+    </span>
+    <span id="1768" start="86" end="90" text="Jetz Symon Dus der Hosenlismer" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="change">
+      <span id="1653" start="87" end="90" text="Symon Dus der Hosenlismer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1659" start="87" end="88" text="Symon Dus" element="head" class="nam" subclass=""/>
+        <span id="1665" start="89" end="90" text="der Hosenlismer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1671" start="90" end="90" text="Hosenlismer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1774" start="92" end="94" text="jetz Johannes&#10;Preiswerckh" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="change">
+      <span id="1677" start="93" end="94" text="Johannes&#10;Preiswerckh" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1677_head" start="93" end="94" element="head" class="nam" text="Johannes Preiswerckh" subclass=""/>
+      </span>
+    </span>
+    <span id="1780" start="96" end="98" text="jetz Heinrich Rüdi" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="change">
+      <span id="1683" start="97" end="98" text="Heinrich Rüdi" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1683_head" start="97" end="98" element="head" class="nam" text="Heinrich Rüdi" subclass=""/>
+      </span>
+    </span>
+    <span id="1786" start="100" end="104" text="jetz Jacob Lündel&#10;der Rohtgerwer" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="change">
+      <span id="1689" start="101" end="104" text="Jacob Lündel&#10;der Rohtgerwer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1695" start="101" end="102" text="Jacob Lündel" element="head" class="nam" subclass=""/>
+        <span id="1701" start="103" end="104" text="der Rohtgerwer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1707" start="104" end="104" text="Rohtgerwer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1532" from="1520" to="1460" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1761" from="1749" to="1719" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="12" end="19" ref="1719" type="state">
+      <trigger start="19" end="19" text="zins" ref="1725"/>
+      <event event_id="0.0">
+        <role role="interest" ref="1496" text="1 ℔ 5ß"/>
+        <role role="due-date" ref="1502" text="uf Petri und&#10;Pauli"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="67" end="85" ref="1737" type="event">
+      <trigger start="77" end="77" text="gibt" ref="1743"/>
+      <event event_id="1.0">
+        <role role="date" ref="1617" text="den H . Heumonat Ao 1535"/>
+        <role role="previous-due" ref="1749" text="Disen zins"/>
+        <role role="payer" ref="1623" text="Wolf Rosenstockh der gürtler"/>
+        <role role="interest" ref="1647" text="1 ℔ 5ß ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="75" end="76" ref="1749" type="event">
+      <trigger start="76" end="76" text="zins" ref="1755"/>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="86" end="90" ref="1768" type="state">
+      <event event_id="3.0">
+        <role role="payer" ref="1653" text="Symon Dus der Hosenlismer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="92" end="94" ref="1774" type="state">
+      <event event_id="4.0">
+        <role role="payer" ref="1677" text="Johannes&#10;Preiswerckh"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="96" end="98" ref="1780" type="state">
+      <event event_id="5.0">
+        <role role="payer" ref="1683" text="Heinrich Rüdi"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="100" end="104" ref="1786" type="state">
+      <event event_id="6.0">
+        <role role="payer" ref="1689" text="Jacob Lündel&#10;der Rohtgerwer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="24" end="24" ref="1526" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1508" text="irem Hus hinder und vor&#10;als das in Winhartsgassen , zwischen der Herberg&#10;zum schwartzen Sternen und Melchior Harnest des&#10;Hutmachers Hus gelegen , und Schulers Hus genandt ,&#10;ist"/>
+        <role role="owner" ref="1520" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="46" ref="1539" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="1508" text="irem Hus hinder und vor&#10;als das in Winhartsgassen , zwischen der Herberg&#10;zum schwartzen Sternen und Melchior Harnest des&#10;Hutmachers Hus gelegen , und Schulers Hus genandt ,&#10;ist"/>
+        <role role="location-b" ref="1545" text="Winhartsgassen"/>
+        <role role="location-b" ref="1557" text="der Herberg&#10;zum schwartzen Sternen"/>
+        <role role="location-b" ref="1593" text="Melchior Harnest des&#10;Hutmachers Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="ownership" polarity="pos" tense="pres" modality="ass" start="41" end="44" ref="1593_desc_owner" type="state">
+      <event event_id="9.0">
+        <role role="property" ref="1593" text="Melchior Harnest des&#10;Hutmachers Hus"/>
+        <role role="owner" ref="1569" text="Melchior Harnest des&#10;Hutmachers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="4" end="61" ref="" type="event">
+      <trigger start="61" end="61" text="kouffen" ref="1731"/>
+      <event event_id="10.0">
+        <role role="seller" ref="1454" text="Urben Schwitzlin"/>
+        <role role="seller" ref="1472" text="Brida&#10;sinchefrow"/>
+        <role role="buyer" ref="1484" text="den Predigern"/>
+        <role role="due" ref="1719" text="1 ℔ 5ß uf Petri und&#10;Pauli zins"/>
+        <role role="collateral" ref="1508" text="irem Hus hinder und vor&#10;als das in Winhartsgassen , zwischen der Herberg&#10;zum schwartzen Sternen und Melchior Harnest des&#10;Hutmachers Hus gelegen , und Schulers Hus genandt ,&#10;ist"/>
+        <role role="price" ref="1611" text="25 ℔"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/104 S. [28]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 44</tei:title>
+            <tei:idno>HGB 1 63/104</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472969</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1511">1511</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611284.3088644636 1267289.101646712</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Franz</token>
+    <token token_id="1">Gallion</token>
+    <token token_id="2">der</token>
+    <token token_id="3">cremer</token>
+    <token token_id="4">,</token>
+    <token token_id="5">verkauft</token>
+    <token token_id="6">an</token>
+    <token token_id="7">Jacob</token>
+    <token token_id="8">Steiner</token>
+    <token token_id="9">den</token>
+    <token token_id="10">Fischmacher</token>
+    <token token_id="11">,</token>
+    <token token_id="12">u</token>
+    <token token_id="13">.</token>
+    <token token_id="14">seine</token>
+    <token token_id="15">Frau</token>
+    <token token_id="16">Barbara</token>
+    <token token_id="17">Herrin</token>
+    <token token_id="18">,</token>
+    <token token_id="19">das</token>
+    <token token_id="20">Hus</token>
+    <token token_id="21">u</token>
+    <token token_id="22">.</token>
+    <token token_id="23">Hofstatt</token>
+    <token token_id="24">genant</token>
+    <token token_id="25">zu</token>
+    <token token_id="26">dem</token>
+    <token token_id="27">Ritter</token>
+    <token token_id="28">mit</token>
+    <token token_id="29">samt</token>
+    <token token_id="30">dem</token>
+    <token token_id="31">hindern</token>
+    <token token_id="32">huse</token>
+    <token token_id="33">,</token>
+    <token token_id="34">under</token>
+    <token token_id="35">den</token>
+    <token token_id="36">Gerwern</token>
+    <token token_id="37">hinder</token>
+    <token token_id="38">u</token>
+    <token token_id="39">.</token>
+    <token token_id="40">vor</token>
+    <token token_id="41">,</token>
+    <token token_id="42">ander</token>
+    <token token_id="43">Gerwer</token>
+    <token token_id="44">Zunfthus</token>
+    <token token_id="45">zuhet</token>
+    <token token_id="46">in</token>
+    <token token_id="47">das</token>
+    <token token_id="48">hinder</token>
+    <token token_id="49">Gerwergessli</token>
+    <token token_id="50">,</token>
+    <token token_id="51">zinset</token>
+    <token token_id="52">des</token>
+    <token token_id="53">vorder</token>
+    <token token_id="54">hus</token>
+    <token token_id="55">zu</token>
+    <token token_id="56">s</token>
+    <token token_id="57">.</token>
+    <token token_id="58">Alban</token>
+    <token token_id="59">3sh</token>
+    <token token_id="60">.</token>
+    <token token_id="61">jtem</token>
+    <token token_id="62">einem</token>
+    <token token_id="63">Caplan</token>
+    <token token_id="64">sant</token>
+    <token token_id="65">pfund</token>
+    <token token_id="66">sodan</token>
+    <token token_id="67">git</token>
+    <token token_id="68">das</token>
+    <token token_id="69">hinder</token>
+    <token token_id="70">hus</token>
+    <token token_id="71">uff</token>
+    <token token_id="72">Burg</token>
+    <token token_id="73">der</token>
+    <token token_id="74">hohen</token>
+    <token token_id="75">Stift</token>
+    <token token_id="76">auch</token>
+    <token token_id="77">3sh</token>
+    <token token_id="78">.</token>
+    <token token_id="79">jährl</token>
+    <token token_id="80">32</token>
+    <token token_id="81">sh</token>
+    <token token_id="82">.</token>
+    <token token_id="83">zu</token>
+    <token token_id="84">s</token>
+    <token token_id="85">.</token>
+    <token token_id="86">Peter</token>
+    <token token_id="87">,</token>
+    <token token_id="88">sonst</token>
+    <token token_id="89">frei</token>
+    <token token_id="90">,</token>
+    <token token_id="91">um</token>
+    <token token_id="92">60</token>
+    <token token_id="93">℔</token>
+    <token token_id="94">.</token>
+  </text>
+  <spans>
+    <span id="1452" start="0" end="3" text="Franz Gallion der cremer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1458" start="0" end="1" text="Franz Gallion" element="head" class="nam" subclass=""/>
+      <span id="1464" start="2" end="3" text="der cremer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1470" start="3" end="3" text="cremer" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1735" start="5" end="5" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1488" start="7" end="17" text="Jacob Steiner&#10;den Fischmacher , u . seine Frau Barbara Herrin" element="list" class="per" subclass="">
+      <span id="1476" start="7" end="10" text="Jacob Steiner&#10;den Fischmacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1482" start="7" end="8" text="Jacob Steiner" element="head" class="nam" subclass=""/>
+        <span id="1494" start="9" end="10" text="den Fischmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1500" start="10" end="10" text="Fischmacher" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1506" start="14" end="17" text="seine Frau Barbara Herrin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1512" start="14" end="15" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1518" start="14" end="14" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1531" start="14" end="14" text="seine" element="head" class="pro" subclass=""/>
+          </span>
+          <span id="1537" start="15" end="15" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1543" start="16" end="17" text="Barbara Herrin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1549" start="19" end="89" text="das Hus u .&#10;Hofstatt genant zu dem Ritter mit samt dem hindern huse ,&#10;under den Gerwern hinder u . vor , ander Gerwer Zunfthus&#10;zuhet in das hinder Gerwergessli , zinset des vorder hus&#10;zu s . Alban 3sh . jtem einem Caplan sant&#10;pfund&#10;sodan git das hinder hus&#10;uff Burg der hohen Stift auch 3sh .&#10;jährl 32 sh . zu s . Peter , sonst frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1555" start="20" end="23" text="Hus u .&#10;Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1561" start="25" end="27" text="zu dem Ritter" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1561_head" start="25" end="27" element="head" class="nam" text="zu dem Ritter" subclass=""/>
+      </span>
+      <span id="1567" start="28" end="32" text="mit samt dem hindern huse" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1573" start="30" end="32" text="dem hindern huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1579" start="31" end="32" text="hindern huse" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1603" start="34" end="49" text="under den Gerwern hinder u . vor , ander Gerwer Zunfthus&#10;zuhet in das hinder Gerwergessli" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1585" start="35" end="36" text="den Gerwern" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1591" start="36" end="36" text="Gerwern" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1597" start="42" end="44" text="ander Gerwer Zunfthus" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+          <span id="1609" start="43" end="44" text="Gerwer Zunfthus" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1615" start="47" end="49" text="das hinder Gerwergessli" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1621" start="48" end="49" text="hinder Gerwergessli" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1741" start="51" end="65" text="zinset des vorder hus&#10;zu s . Alban 3sh . jtem einem Caplan sant&#10;pfund" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1747" start="51" end="51" text="zinset" element="trigger" class="type" subclass=""/>
+        <span id="1627" start="52" end="54" text="des vorder hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1633" start="53" end="54" text="vorder hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1639" start="56" end="58" text="s . Alban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1639_head" start="56" end="58" element="head" class="nam" text="s . Alban" subclass=""/>
+        </span>
+        <span id="1663" start="59" end="60" text="3sh ." element="value" class="money" subclass=""/>
+        <span id="1645" start="62" end="63" text="einem Caplan" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1651" start="63" end="63" text="Caplan" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1657" start="65" end="65" text="pfund" element="value" class="money" subclass=""/>
+      </span>
+      <span id="1773" start="67" end="86" text="git das hinder hus&#10;uff Burg der hohen Stift auch 3sh .&#10;jährl 32 sh . zu s . Peter" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1767" start="67" end="67" text="git" element="trigger" class="type" subclass=""/>
+        <span id="1669" start="68" end="70" text="das hinder hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1675" start="69" end="70" text="hinder hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1681" start="72" end="72" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1681_head" start="72" end="72" element="head" class="nam" text="Burg" subclass=""/>
+        </span>
+        <span id="1687" start="73" end="75" text="der hohen Stift" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1693" start="74" end="75" text="hohen Stift" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1699" start="77" end="78" text="3sh ." element="value" class="money" subclass=""/>
+        <span id="1705" start="79" end="79" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="1711" start="80" end="82" text="32 sh ." element="value" class="money" subclass=""/>
+        <span id="1717" start="84" end="86" text="s . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1717_head" start="84" end="86" element="head" class="nam" text="s . Peter" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1723" start="92" end="94" text="60 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1524" from="1518" to="1476" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1760" from="1627" to="1549" class="part-of" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1753" from="1669" to="1573" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="14" end="15" ref="1512" type="state">
+      <trigger start="15" end="15" text="Frau" ref="1537"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1506" text="seine Frau Barbara Herrin"/>
+        <role role="family-b" ref="1518" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="part_whole" polarity="pos" tense="pres" modality="ass" start="28" end="32" ref="1567" type="state">
+      <event event_id="1.0">
+        <role role="whole" ref="1549" text="das Hus u .&#10;Hofstatt genant zu dem Ritter mit samt dem hindern huse ,&#10;under den Gerwern hinder u . vor , ander Gerwer Zunfthus&#10;zuhet in das hinder Gerwergessli , zinset des vorder hus&#10;zu s . Alban 3sh . jtem einem Caplan sant&#10;pfund&#10;sodan git das hinder hus&#10;uff Burg der hohen Stift auch 3sh .&#10;jährl 32 sh . zu s . Peter , sonst frei"/>
+        <role role="part" ref="1573" text="dem hindern huse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="34" end="49" ref="1603" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1549" text="das Hus u .&#10;Hofstatt genant zu dem Ritter mit samt dem hindern huse ,&#10;under den Gerwern hinder u . vor , ander Gerwer Zunfthus&#10;zuhet in das hinder Gerwergessli , zinset des vorder hus&#10;zu s . Alban 3sh . jtem einem Caplan sant&#10;pfund&#10;sodan git das hinder hus&#10;uff Burg der hohen Stift auch 3sh .&#10;jährl 32 sh . zu s . Peter , sonst frei"/>
+        <role role="location-b" ref="1585" text="den Gerwern"/>
+        <role role="location-b" ref="1597" text="ander Gerwer Zunfthus"/>
+        <role role="location-b" ref="1615" text="das hinder Gerwergessli"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="51" end="65" ref="1741" type="state">
+      <trigger start="51" end="51" text="zinset" ref="1747"/>
+      <event event_id="3.0">
+        <role role="property" ref="1627" text="des vorder hus"/>
+        <role role="beneficiary" ref="1639" text="s . Alban"/>
+        <role role="interest" ref="1663" text="3sh ."/>
+      </event>
+      <event event_id="3.1">
+        <role role="property" ref="1627" text="des vorder hus"/>
+        <role role="beneficiary" ref="1645" text="einem Caplan"/>
+        <role role="interest" ref="1657" text="pfund"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="67" end="86" ref="1773" type="state">
+      <trigger start="67" end="67" text="git" ref="1767"/>
+      <event event_id="4.0">
+        <role role="property" ref="1669" text="das hinder hus"/>
+        <role role="place" ref="1681" text="Burg"/>
+        <role role="beneficiary" ref="1687" text="der hohen Stift"/>
+        <role role="interest" ref="1699" text="3sh ."/>
+        <role role="interval" ref="1705" text="jährl"/>
+      </event>
+      <event event_id="4.1">
+        <role role="property" ref="1669" text="das hinder hus"/>
+        <role role="interval" ref="1705" text="jährl"/>
+        <role role="interest" ref="1711" text="32 sh ."/>
+        <role role="beneficiary" ref="1717" text="s . Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="94" ref="" type="event">
+      <trigger start="5" end="5" text="verkauft" ref="1735"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1452" text="Franz Gallion der cremer"/>
+        <role role="buyer" ref="1476" text="Jacob Steiner&#10;den Fischmacher"/>
+        <role role="buyer" ref="1506" text="seine Frau Barbara Herrin"/>
+        <role role="property" ref="1549" text="das Hus u .&#10;Hofstatt genant zu dem Ritter mit samt dem hindern huse ,&#10;under den Gerwern hinder u . vor , ander Gerwer Zunfthus&#10;zuhet in das hinder Gerwergessli , zinset des vorder hus&#10;zu s . Alban 3sh . jtem einem Caplan sant&#10;pfund&#10;sodan git das hinder hus&#10;uff Burg der hohen Stift auch 3sh .&#10;jährl 32 sh . zu s . Peter , sonst frei"/>
+        <role role="price" ref="1723" text="60 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="6.0">
+        <role role="part" ref="1627" text="des vorder hus"/>
+        <role role="whole" ref="1549" text="das Hus u .&#10;Hofstatt genant zu dem Ritter mit samt dem hindern huse ,&#10;under den Gerwern hinder u . vor , ander Gerwer Zunfthus&#10;zuhet in das hinder Gerwergessli , zinset des vorder hus&#10;zu s . Alban 3sh . jtem einem Caplan sant&#10;pfund&#10;sodan git das hinder hus&#10;uff Burg der hohen Stift auch 3sh .&#10;jährl 32 sh . zu s . Peter , sonst frei"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

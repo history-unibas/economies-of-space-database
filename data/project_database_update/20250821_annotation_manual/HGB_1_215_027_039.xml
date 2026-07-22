@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 215/27 S. [39]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Steinenvorstadt 27</tei:title>
+            <tei:idno>HGB 1 215/27</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532608</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1499">1499</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611316.165520715 1266946.2029768846</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Johannes</token>
+    <token token_id="1">Hegelin</token>
+    <token token_id="2">Spitalschriber</token>
+    <token token_id="3">des</token>
+    <token token_id="4">hinder</token>
+    <token token_id="5">Ampts</token>
+    <token token_id="6">,</token>
+    <token token_id="7">hatt</token>
+    <token token_id="8">jnnamen</token>
+    <token token_id="9">des</token>
+    <token token_id="10">Spittals</token>
+    <token token_id="11">,</token>
+    <token token_id="12">Anthonien</token>
+    <token token_id="13">Grünenwalds</token>
+    <token token_id="14">Hus</token>
+    <token token_id="15">und</token>
+    <token token_id="16">Hofstatt</token>
+    <token token_id="17">an</token>
+    <token token_id="18">den</token>
+    <token token_id="19">Steinen</token>
+    <token token_id="20">gelegen</token>
+    <token token_id="21">,</token>
+    <token token_id="22">und</token>
+    <token token_id="23">Kupfernagels</token>
+    <token token_id="24">Hus</token>
+    <token token_id="25">genannt</token>
+    <token token_id="26">ist</token>
+    <token token_id="27">,</token>
+    <token token_id="28">umb</token>
+    <token token_id="29">verse</token>
+    <token token_id="30">ssenen</token>
+    <token token_id="31">zins</token>
+    <token token_id="32">,</token>
+    <token token_id="33">als</token>
+    <token token_id="34">der</token>
+    <token token_id="35">Spittal</token>
+    <token token_id="36">alle</token>
+    <token token_id="37">Fronfasten</token>
+    <token token_id="38">1</token>
+    <token token_id="39">℔</token>
+    <token token_id="40">darab</token>
+    <token token_id="41">hatt</token>
+    <token token_id="42">,</token>
+    <token token_id="43">gefrönt</token>
+    <token token_id="44">.</token>
+  </text>
+  <spans>
+    <span id="720" start="0" end="5" text="Johannes Hegelin Spitalschriber des hinder Ampts" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="726" start="0" end="1" text="Johannes Hegelin" element="head" class="nam" subclass=""/>
+      <span id="732" start="2" end="5" text="Spitalschriber des hinder Ampts" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="738" start="2" end="2" text="Spitalschriber" element="head" class="occ" subclass="org-job"/>
+        <span id="744" start="3" end="5" text="des hinder Ampts" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="750" start="4" end="5" text="hinder Ampts" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="756" start="9" end="10" text="des Spittals" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="762" start="10" end="10" text="Spittals" element="head" class="type" subclass=""/>
+    </span>
+    <span id="768" start="12" end="26" text="Anthonien Grünenwalds Hus und Hofstatt an den&#10;Steinen gelegen , und Kupfernagels Hus genannt ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="780" start="12" end="13" text="Anthonien Grünenwalds" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="786" start="12" end="13" text="Anthonien Grünenwalds" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="786_head" start="12" end="13" element="head" class="nam" text="Anthonien Grünenwalds" subclass=""/>
+        </span>
+      </span>
+      <span id="774" start="14" end="16" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="792" start="17" end="20" text="an den&#10;Steinen gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="798" start="18" end="19" text="den&#10;Steinen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="804" start="19" end="19" text="Steinen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="810" start="23" end="24" text="Kupfernagels Hus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="810_head" start="23" end="24" element="head" class="nam" text="Kupfernagels Hus" subclass=""/>
+      </span>
+    </span>
+    <span id="860" start="31" end="31" text="zins" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="816" start="34" end="35" text="der Spittal" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="822" start="35" end="35" text="Spittal" element="head" class="type" subclass=""/>
+    </span>
+    <span id="835" start="36" end="37" text="alle Fronfasten" element="value" class="date" subclass=""/>
+    <span id="841" start="38" end="39" text="1 ℔" element="value" class="money" subclass=""/>
+    <span id="854" start="43" end="43" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="828" from="816" to="756" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="847" from="720" to="756" class="org-repr" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="2" end="5" ref="732" type="state">
+      <trigger start="2" end="2" text="Spitalschriber" ref="738"/>
+      <event event_id="0.0">
+        <role role="employee" ref="720" text="Johannes Hegelin Spitalschriber des hinder Ampts"/>
+        <role role="employer" ref="744" text="des hinder Ampts"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="12" end="13" ref="780" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="768" text="Anthonien Grünenwalds Hus und Hofstatt an den&#10;Steinen gelegen , und Kupfernagels Hus genannt ist"/>
+        <role role="owner" ref="786" text="Anthonien Grünenwalds"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="20" ref="792" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="768" text="Anthonien Grünenwalds Hus und Hofstatt an den&#10;Steinen gelegen , und Kupfernagels Hus genannt ist"/>
+        <role role="location-b" ref="798" text="den&#10;Steinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="31" end="39" ref="" type="state">
+      <trigger start="31" end="31" text="zins" ref="860"/>
+      <event event_id="3.0">
+        <role role="beneficiary" ref="816" text="der Spittal"/>
+        <role role="interval" ref="835" text="alle Fronfasten"/>
+        <role role="interest" ref="841" text="1 ℔"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="43" ref="" type="event">
+      <trigger start="43" end="43" text="gefrönt" ref="854"/>
+      <event event_id="4.0">
+        <role role="claimant" ref="720" text="Johannes Hegelin Spitalschriber des hinder Ampts"/>
+        <role role="property" ref="768" text="Anthonien Grünenwalds Hus und Hofstatt an den&#10;Steinen gelegen , und Kupfernagels Hus genannt ist"/>
+        <role role="cause" ref="860" text="zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="5.0">
+        <role role="representative" ref="720" text="Johannes Hegelin Spitalschriber des hinder Ampts"/>
+        <role role="represented" ref="756" text="des Spittals"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 85/27 S. [32]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hutgasse 21</tei:title>
+            <tei:idno>HGB 1 85/27</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1481891</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1491">1491</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611173.379628188 1267430.3927718778</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Das</token>
+    <token token_id="1">Carthuser</token>
+    <token token_id="2">closter</token>
+    <token token_id="3">kauft</token>
+    <token token_id="4">in</token>
+    <token token_id="5">gericht</token>
+    <token token_id="6">um</token>
+    <token token_id="7">versessen</token>
+    <token token_id="8">Zins</token>
+    <token token_id="9">.</token>
+    <token token_id="10">das</token>
+    <token token_id="11">Hus</token>
+    <token token_id="12">zum</token>
+    <token token_id="13">Rintzhuss</token>
+    <token token_id="14">als</token>
+    <token token_id="15">das</token>
+    <token token_id="16">in</token>
+    <token token_id="17">der</token>
+    <token token_id="18">Winharts</token>
+    <token token_id="19">gassen</token>
+    <token token_id="20">,</token>
+    <token token_id="21">am</token>
+    <token token_id="22">Egk</token>
+    <token token_id="23">,</token>
+    <token token_id="24">by</token>
+    <token token_id="25">dem</token>
+    <token token_id="26">Stampf</token>
+    <token token_id="27">gelegen</token>
+    <token token_id="28">ist</token>
+    <token token_id="29">,</token>
+    <token token_id="30">als</token>
+    <token token_id="31">dasselb</token>
+    <token token_id="32">Closter</token>
+    <token token_id="33">6</token>
+    <token token_id="34">fl</token>
+    <token token_id="35">ewiger</token>
+    <token token_id="36">fl</token>
+    <token token_id="37">daruff</token>
+    <token token_id="38">hand</token>
+    <token token_id="39">.</token>
+    <token token_id="40">u</token>
+    <token token_id="41">.</token>
+    <token token_id="42">bot</token>
+    <token token_id="43">darum</token>
+    <token token_id="44">1</token>
+    <token token_id="45">℔</token>
+    <token token_id="46">3sh</token>
+    <token token_id="47">.</token>
+  </text>
+  <spans>
+    <span id="774" start="0" end="2" text="Das Carthuser closter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="780" start="1" end="2" text="Carthuser closter" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="889" start="3" end="3" text="kauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="883" start="4" end="5" text="in gericht" element="other" class="other" subclass=""/>
+    <span id="895" start="8" end="8" text="Zins" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="786" start="10" end="28" text="das Hus zum Rintzhuss&#10;als das in der Winharts gassen ,&#10;am Egk , by dem Stampf gelegen ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="792" start="11" end="13" text="Hus zum Rintzhuss" element="head" class="nam" subclass=""/>
+      <span id="798" start="14" end="28" text="als das in der Winharts gassen ,&#10;am Egk , by dem Stampf gelegen ist" element="appo" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="804" start="15" end="15" text="das" element="head" class="loc" subclass=""/>
+        <span id="810" start="17" end="19" text="der Winharts gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="816" start="18" end="19" text="Winharts gassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="822" start="21" end="22" text="am Egk" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="828" start="22" end="22" text="Egk" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="834" start="25" end="26" text="dem Stampf" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="840" start="26" end="26" text="Stampf" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="846" start="30" end="38" text="als dasselb Closter&#10;6 fl ewiger fl daruff hand" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="852" start="31" end="32" text="dasselb Closter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="865" start="32" end="32" text="Closter" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="877" start="33" end="36" text="6 fl ewiger fl" element="value" class="money" subclass=""/>
+      <span id="907" start="37" end="37" text="daruff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="907_head" start="37" end="37" element="head" class="pro" text="daruff" subclass=""/>
+      </span>
+      <span id="901" start="38" end="38" text="hand" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="913" start="42" end="42" text="bot" element="trigger" class="offer" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="919" start="43" end="43" text="darum" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="919_head" start="43" end="43" element="head" class="pro" text="darum" subclass=""/>
+    </span>
+    <span id="871" start="44" end="47" text="1 ℔ 3sh ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="858" from="852" to="774" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="925" from="919" to="786" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="custom_coref" from="907" to="786" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="14" end="28" ref="798" type="state">
+      <trigger start="15" end="15" text="das" ref="804"/>
+      <event event_id="0.0">
+        <role role="location-a" ref="786" text="das Hus zum Rintzhuss&#10;als das in der Winharts gassen ,&#10;am Egk , by dem Stampf gelegen ist"/>
+        <role role="location-b" ref="810" text="der Winharts gassen"/>
+        <role role="location-b" ref="822" text="am Egk"/>
+        <role role="location-b" ref="834" text="dem Stampf"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="42" ref="" type="event">
+      <trigger start="3" end="3" text="kauft" ref="889"/>
+      <event event_id="1.0">
+        <role role="buyer" ref="774" text="Das Carthuser closter"/>
+        <role role="detail_context" ref="883" text="in gericht"/>
+        <role role="property" ref="786" text="das Hus zum Rintzhuss&#10;als das in der Winharts gassen ,&#10;am Egk , by dem Stampf gelegen ist"/>
+        <role role="detail_offer" ref="913" text="bot"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="neg" tense="pres" modality="ass" start="8" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="Zins" ref="895"/>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="30" end="38" ref="" type="event">
+      <trigger start="30" end="38" text="als dasselb Closter&#10;6 fl ewiger fl daruff hand" ref="846"/>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="31" end="38" ref="846" type="state">
+      <trigger start="38" end="38" text="hand" ref="901"/>
+      <event event_id="4.0">
+        <role role="beneficiary" ref="852" text="dasselb Closter"/>
+        <role role="interest" ref="877" text="6 fl ewiger fl"/>
+        <role role="property" ref="907" text="daruff"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="offer" polarity="pos" tense="pres" modality="ass" start="42" end="47" ref="" type="event">
+      <trigger start="42" end="42" text="bot" ref="913"/>
+      <event event_id="5.0">
+        <role role="price" ref="871" text="1 ℔ 3sh ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

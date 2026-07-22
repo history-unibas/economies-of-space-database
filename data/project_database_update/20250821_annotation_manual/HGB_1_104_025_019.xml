@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 104/25 S. [19, 20]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Kohlenberggasse Th. v. 2 neben 4 u. Th. v. 2 2tes Haus v. 4</tei:title>
+            <tei:idno>HGB 1 104/25</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1493364</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1455">1455</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611237.7124221288 1267024.521239835</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Einest</token>
+    <token token_id="1">Zinse</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Item</token>
+    <token token_id="4">Baselhans</token>
+    <token token_id="5">der</token>
+    <token token_id="6">Jottengräber</token>
+    <token token_id="7">12ß</token>
+    <token token_id="8">Sentecost</token>
+    <token token_id="9">in</token>
+    <token token_id="10">der</token>
+    <token token_id="11">roten</token>
+    <token token_id="12">herberg</token>
+    <token token_id="13">uff</token>
+    <token token_id="14">dem</token>
+    <token token_id="15">Koliberg</token>
+    <token token_id="16">git</token>
+    <token token_id="17">der</token>
+    <token token_id="18">Nachrichter</token>
+    <token token_id="19">von</token>
+    <token token_id="20">Colmar</token>
+    <token token_id="21">daz</token>
+    <token token_id="22">git</token>
+    <token token_id="23">nun</token>
+    <token token_id="24">der</token>
+    <token token_id="25">Spittal</token>
+    <token token_id="26">Ebenso</token>
+    <token token_id="27">1456</token>
+    <token token_id="28">.</token>
+    <token token_id="29">1457</token>
+    <token token_id="30">der</token>
+    <token token_id="31">Nachrichter</token>
+    <token token_id="32">von</token>
+    <token token_id="33">Colmer</token>
+    <token token_id="34">git</token>
+    <token token_id="35">12ß</token>
+    <token token_id="36">uff</token>
+    <token token_id="37">Pfingsten</token>
+    <token token_id="38">,</token>
+    <token token_id="39">1459</token>
+    <token token_id="40">wie</token>
+    <token token_id="41">oben</token>
+    <token token_id="42">.</token>
+    <token token_id="43">Ebenso</token>
+    <token token_id="44">1460</token>
+    <token token_id="45">.</token>
+    <token token_id="46">1458</token>
+    <token token_id="47">fehlt</token>
+    <token token_id="48">.</token>
+    <token token_id="49">1461</token>
+    <token token_id="50">meister</token>
+    <token token_id="51">Hans</token>
+    <token token_id="52">von</token>
+    <token token_id="53">Colmar</token>
+    <token token_id="54">git</token>
+    <token token_id="55">12ß</token>
+    <token token_id="56">uff</token>
+    <token token_id="57">Pfingsten</token>
+    <token token_id="58">Ebenso</token>
+    <token token_id="59">1463</token>
+    <token token_id="60">.</token>
+    <token token_id="61">Ebenso</token>
+    <token token_id="62">1462</token>
+    <token token_id="63">.</token>
+    <token token_id="64">1464</token>
+    <token token_id="65">der</token>
+    <token token_id="66">Nachrichter</token>
+    <token token_id="67">von</token>
+    <token token_id="68">Colmar</token>
+    <token token_id="69">gitt</token>
+    <token token_id="70">12ß</token>
+    <token token_id="71">uff</token>
+    <token token_id="72">1465</token>
+    <token token_id="73">fehlt</token>
+    <token token_id="74">.</token>
+    <token token_id="75">Pfingsten</token>
+    <token token_id="76">.</token>
+    <token token_id="77">1466</token>
+    <token token_id="78">meister</token>
+    <token token_id="79">Hans</token>
+    <token token_id="80">von</token>
+    <token token_id="81">Colmer</token>
+    <token token_id="82">git</token>
+    <token token_id="83">12ß</token>
+    <token token_id="84">uff</token>
+    <token token_id="85">Pfingsten</token>
+    <token token_id="86">von</token>
+    <token token_id="87">synem</token>
+    <token token_id="88">hus</token>
+    <token token_id="89">uff</token>
+    <token token_id="90">dem</token>
+    <token token_id="91">Kolberg</token>
+    <token token_id="92">gelegen</token>
+    <token token_id="93">.</token>
+    <token token_id="94">1467</token>
+    <token token_id="95">.</token>
+    <token token_id="96">1468</token>
+    <token token_id="97">fehlen</token>
+    <token token_id="98">.</token>
+    <token token_id="99">1469</token>
+    <token token_id="100">der</token>
+    <token token_id="101">Spital</token>
+    <token token_id="102">git</token>
+    <token token_id="103">12ß</token>
+    <token token_id="104">von</token>
+    <token token_id="105">der</token>
+    <token token_id="106">roten</token>
+    <token token_id="107">Herberg</token>
+    <token token_id="108">uff</token>
+    <token token_id="109">dem</token>
+    <token token_id="110">Kolberg</token>
+    <token token_id="111">.</token>
+  </text>
+  <spans>
+    <span id="1762" start="4" end="6" text="Baselhans der Jottengräber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1768" start="4" end="4" text="Baselhans" element="head" class="nam" subclass=""/>
+      <span id="1774" start="5" end="6" text="der Jottengräber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1780" start="6" end="6" text="Jottengräber" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1786" start="7" end="7" text="12ß" element="value" class="money" subclass=""/>
+    <span id="1792" start="8" end="8" text="Sentecost" element="value" class="date" subclass=""/>
+    <span id="1804" start="10" end="15" text="der roten herberg uff dem Koliberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1810" start="11" end="12" text="roten herberg" element="head" class="nam" subclass=""/>
+      <span id="1816" start="13" end="15" text="uff dem Koliberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1822" start="14" end="15" text="dem Koliberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1828" start="15" end="15" text="Koliberg" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2189" start="16" end="16" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1834" start="17" end="20" text="der Nachrichter&#10;von Colmar" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1840" start="18" end="18" text="Nachrichter" element="head" class="occ" subclass="org-job"/>
+      <span id="1846" start="20" end="20" text="Colmar" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1846_head" start="20" end="20" element="head" class="nam" text="Colmar" subclass=""/>
+      </span>
+    </span>
+    <span id="2195" start="21" end="21" text="daz" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2201" start="22" end="22" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="1852" start="24" end="25" text="der Spittal" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1858" start="25" end="25" text="Spittal" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1798" start="27" end="27" text="1456" element="value" class="date" subclass=""/>
+    <span id="1864" start="29" end="29" text="1457" element="value" class="date" subclass=""/>
+    <span id="1870" start="30" end="33" text="der Nachrichter von Colmer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1876" start="31" end="31" text="Nachrichter" element="head" class="occ" subclass="org-job"/>
+      <span id="1882" start="33" end="33" text="Colmer" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1882_head" start="33" end="33" element="head" class="nam" text="Colmer" subclass=""/>
+      </span>
+    </span>
+    <span id="2214" start="34" end="34" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1888" start="35" end="35" text="12ß" element="value" class="money" subclass=""/>
+    <span id="1894" start="36" end="37" text="uff Pfingsten" element="value" class="date" subclass=""/>
+    <span id="1900" start="39" end="39" text="1459" element="value" class="date" subclass=""/>
+    <span id="1906" start="44" end="44" text="1460" element="value" class="date" subclass=""/>
+    <span id="1912" start="46" end="46" text="1458" element="value" class="date" subclass=""/>
+    <span id="1918" start="49" end="49" text="1461" element="value" class="date" subclass=""/>
+    <span id="1936" start="50" end="53" text="meister Hans von Colmar" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1948" start="50" end="50" text="meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1948_head" start="50" end="50" element="head" class="title" text="meister" subclass=""/>
+      </span>
+      <span id="1942" start="51" end="51" text="Hans" element="head" class="nam" subclass=""/>
+      <span id="1954" start="52" end="53" text="von Colmar" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1960" start="53" end="53" text="Colmar" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1960_head" start="53" end="53" element="head" class="nam" text="Colmar" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2226" start="54" end="54" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1966" start="55" end="55" text="12ß" element="value" class="money" subclass=""/>
+    <span id="1972" start="56" end="57" text="uff Pfingsten" element="value" class="date" subclass=""/>
+    <span id="1924" start="59" end="59" text="1463" element="value" class="date" subclass=""/>
+    <span id="1930" start="62" end="62" text="1462" element="value" class="date" subclass=""/>
+    <span id="1978" start="64" end="64" text="1464" element="value" class="date" subclass=""/>
+    <span id="2002" start="65" end="68" text="der Nachrichter von Colmar" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2008" start="66" end="66" text="Nachrichter" element="head" class="occ" subclass="org-job"/>
+      <span id="2014" start="68" end="68" text="Colmar" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2014_head" start="68" end="68" element="head" class="nam" text="Colmar" subclass=""/>
+      </span>
+    </span>
+    <span id="2238" start="69" end="69" text="gitt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1996" start="70" end="70" text="12ß" element="value" class="money" subclass=""/>
+    <span id="1984" start="72" end="72" text="1465" element="value" class="date" subclass=""/>
+    <span id="1990" start="75" end="75" text="Pfingsten" element="value" class="date" subclass=""/>
+    <span id="2020" start="77" end="77" text="1466" element="value" class="date" subclass=""/>
+    <span id="2044" start="78" end="81" text="meister Hans von Colmer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2056" start="78" end="78" text="meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2056_head" start="78" end="78" element="head" class="title" text="meister" subclass=""/>
+      </span>
+      <span id="2050" start="79" end="79" text="Hans" element="head" class="nam" subclass=""/>
+      <span id="2068" start="80" end="81" text="von Colmer" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2062" start="81" end="81" text="Colmer" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2062_head" start="81" end="81" element="head" class="nam" text="Colmer" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2244" start="82" end="82" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2074" start="83" end="83" text="12ß" element="value" class="money" subclass=""/>
+    <span id="2080" start="84" end="85" text="uff Pfingsten" element="value" class="date" subclass=""/>
+    <span id="2086" start="87" end="92" text="synem hus uff dem Kolberg gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2098" start="87" end="87" text="synem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2104" start="87" end="87" text="synem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2104_head" start="87" end="87" element="head" class="pro" text="synem" subclass=""/>
+        </span>
+      </span>
+      <span id="2092" start="88" end="88" text="hus" element="head" class="type" subclass=""/>
+      <span id="2117" start="89" end="92" text="uff dem Kolberg gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2123" start="90" end="91" text="dem Kolberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2129" start="91" end="91" text="Kolberg" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2032" start="94" end="94" text="1467" element="value" class="date" subclass=""/>
+    <span id="2026" start="96" end="96" text="1468" element="value" class="date" subclass=""/>
+    <span id="2038" start="99" end="99" text="1469" element="value" class="date" subclass=""/>
+    <span id="2135" start="100" end="101" text="der Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2141" start="101" end="101" text="Spital" element="head" class="type" subclass=""/>
+    </span>
+    <span id="2250" start="102" end="102" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2147" start="103" end="103" text="12ß" element="value" class="money" subclass=""/>
+    <span id="2153" start="105" end="110" text="der roten Herberg uff dem Kolberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2159" start="106" end="107" text="roten Herberg" element="head" class="nam" subclass=""/>
+      <span id="2165" start="108" end="110" text="uff dem Kolberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2171" start="109" end="110" text="dem Kolberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2177" start="110" end="110" text="Kolberg" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2207" from="2195" to="2189" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2110" from="2104" to="2044" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="17" end="20" ref="1834" type="state">
+      <trigger start="18" end="18" text="Nachrichter" ref="1840"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1834" text="der Nachrichter&#10;von Colmar"/>
+        <role role="employer" ref="1846" text="Colmar"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="30" end="33" ref="1870" type="state">
+      <trigger start="31" end="31" text="Nachrichter" ref="1876"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1870" text="der Nachrichter von Colmer"/>
+        <role role="employer" ref="1882" text="Colmer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="employment" polarity="pos" tense="pres" modality="ass" start="65" end="68" ref="2002" type="state">
+      <trigger start="66" end="66" text="Nachrichter" ref="2008"/>
+      <event event_id="2.0">
+        <role role="employee" ref="2002" text="der Nachrichter von Colmar"/>
+        <role role="employer" ref="2014" text="Colmar"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="15" ref="1816" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1804" text="der roten herberg uff dem Koliberg"/>
+        <role role="location-b" ref="1822" text="dem Koliberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="52" end="53" ref="1954" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1936" text="meister Hans von Colmar"/>
+        <role role="location-b" ref="1960" text="Colmar"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="80" end="81" ref="2068" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2044" text="meister Hans von Colmer"/>
+        <role role="location-b" ref="2062" text="Colmer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="87" end="87" ref="2098" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="2086" text="synem hus uff dem Kolberg gelegen"/>
+        <role role="owner" ref="2104" text="synem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="89" end="92" ref="2117" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="2086" text="synem hus uff dem Kolberg gelegen"/>
+        <role role="location-b" ref="2123" text="dem Kolberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="108" end="110" ref="2165" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="2153" text="der roten Herberg uff dem Kolberg"/>
+        <role role="location-b" ref="2171" text="dem Kolberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="16" end="16" ref="" type="state">
+      <trigger start="16" end="16" text="git" ref="2189"/>
+      <event event_id="9.0">
+        <role role="payer" ref="1762" text="Baselhans der Jottengräber"/>
+        <role role="interest" ref="1786" text="12ß"/>
+        <role role="due-date" ref="1792" text="Sentecost"/>
+        <role role="property" ref="1804" text="der roten herberg uff dem Koliberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-payment" polarity="pos" tense="pres" modality="ass" start="17" end="27" ref="" type="event">
+      <trigger start="21" end="21" text="daz" ref="2195"/>
+      <event event_id="10.0">
+        <role role="payer" ref="1834" text="der Nachrichter&#10;von Colmar"/>
+        <role role="date" ref="1798" text="1456"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="21" end="25" ref="" type="state">
+      <trigger start="22" end="22" text="git" ref="2201"/>
+      <event event_id="11.0">
+        <role role="previous-due" ref="2195" text="daz"/>
+        <role role="payer" ref="1852" text="der Spittal"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="due-payment" polarity="pos" tense="pres" modality="ass" start="29" end="46" ref="" type="event">
+      <trigger start="34" end="34" text="git" ref="2214"/>
+      <event event_id="12.0">
+        <role role="date" ref="1864" text="1457"/>
+        <role role="payer" ref="1870" text="der Nachrichter von Colmer"/>
+        <role role="interest" ref="1888" text="12ß"/>
+        <role role="due-date" ref="1894" text="uff Pfingsten"/>
+        <role role="date" ref="1900" text="1459"/>
+        <role role="date" ref="1906" text="1460"/>
+        <role role="date-missing" ref="1912" text="1458"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="due-payment" polarity="pos" tense="pres" modality="ass" start="49" end="62" ref="" type="event">
+      <trigger start="54" end="54" text="git" ref="2226"/>
+      <event event_id="13.0">
+        <role role="date" ref="1918" text="1461"/>
+        <role role="payer" ref="1936" text="meister Hans von Colmar"/>
+        <role role="interest" ref="1966" text="12ß"/>
+        <role role="due-date" ref="1972" text="uff Pfingsten"/>
+        <role role="date" ref="1924" text="1463"/>
+        <role role="date" ref="1930" text="1462"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="due-payment" polarity="pos" tense="pres" modality="ass" start="64" end="75" ref="" type="event">
+      <trigger start="69" end="69" text="gitt" ref="2238"/>
+      <event event_id="14.0">
+        <role role="date" ref="1978" text="1464"/>
+        <role role="payer" ref="2002" text="der Nachrichter von Colmar"/>
+        <role role="interest" ref="1996" text="12ß"/>
+        <role role="date-missing" ref="1984" text="1465"/>
+        <role role="due-date" ref="1990" text="Pfingsten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="15" class="due-payment" polarity="pos" tense="pres" modality="ass" start="77" end="96" ref="" type="event">
+      <trigger start="82" end="82" text="git" ref="2244"/>
+      <event event_id="15.0">
+        <role role="date" ref="2020" text="1466"/>
+        <role role="payer" ref="2044" text="meister Hans von Colmer"/>
+        <role role="interest" ref="2074" text="12ß"/>
+        <role role="due-date" ref="2080" text="uff Pfingsten"/>
+        <role role="property" ref="2086" text="synem hus uff dem Kolberg gelegen"/>
+        <role role="date" ref="2032" text="1467"/>
+        <role role="date-missing" ref="2026" text="1468"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="16" class="due-payment" polarity="pos" tense="pres" modality="ass" start="102" end="110" ref="" type="event">
+      <trigger start="102" end="102" text="git" ref="2250"/>
+      <event event_id="16.0">
+        <role role="date" ref="2038" text="1469"/>
+        <role role="payer" ref="2135" text="der Spital"/>
+        <role role="interest" ref="2147" text="12ß"/>
+        <role role="property" ref="2153" text="der roten Herberg uff dem Kolberg"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

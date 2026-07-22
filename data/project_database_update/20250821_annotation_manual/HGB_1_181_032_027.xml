@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 181/32 S. [27]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schifflände 8b</tei:title>
+            <tei:idno>HGB 1 181/32</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1511444</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Martin</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1556">1556</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611245.726287326 1267695.8098265214</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">ein</token>
+    <token token_id="1">brief</token>
+    <token token_id="2">wisst</token>
+    <token token_id="3">60</token>
+    <token token_id="4">℔</token>
+    <token token_id="5">stebler</token>
+    <token token_id="6">Houptguts</token>
+    <token token_id="7">und</token>
+    <token token_id="8">davon</token>
+    <token token_id="9">jerlichen</token>
+    <token token_id="10">uf</token>
+    <token token_id="11">sant</token>
+    <token token_id="12">Erasmus</token>
+    <token token_id="13">tag</token>
+    <token token_id="14">3</token>
+    <token token_id="15">℔</token>
+    <token token_id="16">gelts</token>
+    <token token_id="17">,</token>
+    <token token_id="18">gibt</token>
+    <token token_id="19">yetz</token>
+    <token token_id="20">Niclaus</token>
+    <token token_id="21">Hon</token>
+    <token token_id="22">der</token>
+    <token token_id="23">schnider</token>
+    <token token_id="24">von</token>
+    <token token_id="25">sinem</token>
+    <token token_id="26">Hus</token>
+    <token token_id="27">zum</token>
+    <token token_id="28">gelen</token>
+    <token token_id="29">Adler</token>
+    <token token_id="30">vor</token>
+    <token token_id="31">der</token>
+    <token token_id="32">Herberg</token>
+    <token token_id="33">zur</token>
+    <token token_id="34">Cronen</token>
+    <token token_id="35">über</token>
+    <token token_id="36">gelegen</token>
+    <token token_id="37">.</token>
+  </text>
+  <spans>
+    <span id="595" start="3" end="5" text="60 ℔ stebler" element="value" class="money" subclass=""/>
+    <span id="601" start="9" end="9" text="jerlichen" element="value" class="time" subclass="rec"/>
+    <span id="607" start="10" end="13" text="uf sant Erasmus tag" element="value" class="date" subclass=""/>
+    <span id="613" start="14" end="15" text="3 ℔" element="value" class="money" subclass=""/>
+    <span id="692" start="18" end="18" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="619" start="20" end="23" text="Niclaus Hon der schnider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="625" start="20" end="21" text="Niclaus Hon" element="head" class="nam" subclass=""/>
+      <span id="631" start="22" end="23" text="der schnider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="637" start="23" end="23" text="schnider" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="643" start="25" end="36" text="sinem Hus zum gelen Adler vor der Herberg&#10;zur Cronen über gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="655" start="25" end="25" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="661" start="25" end="25" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="661_head" start="25" end="25" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="649" start="26" end="29" text="Hus zum gelen Adler" element="head" class="nam" subclass=""/>
+      <span id="674" start="30" end="36" text="vor der Herberg&#10;zur Cronen über gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="680" start="31" end="34" text="der Herberg&#10;zur Cronen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="686" start="32" end="34" text="Herberg&#10;zur Cronen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="667" from="661" to="619" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="25" end="25" ref="655" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="643" text="sinem Hus zum gelen Adler vor der Herberg&#10;zur Cronen über gelegen"/>
+        <role role="owner" ref="661" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="36" ref="674" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="643" text="sinem Hus zum gelen Adler vor der Herberg&#10;zur Cronen über gelegen"/>
+        <role role="location-b" ref="680" text="der Herberg&#10;zur Cronen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="18" end="36" ref="" type="state">
+      <trigger start="18" end="18" text="gibt" ref="692"/>
+      <event event_id="2.0">
+        <role role="capital" ref="595" text="60 ℔ stebler"/>
+        <role role="interval" ref="601" text="jerlichen"/>
+        <role role="due-date" ref="607" text="uf sant Erasmus tag"/>
+        <role role="interest" ref="613" text="3 ℔"/>
+        <role role="payer" ref="619" text="Niclaus Hon der schnider"/>
+        <role role="property" ref="643" text="sinem Hus zum gelen Adler vor der Herberg&#10;zur Cronen über gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

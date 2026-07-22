@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 145/11 S. [18]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Ochsengasse Theil von 1, Ecke</tei:title>
+            <tei:idno>HGB 1 145/11</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1501393</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1695">1695</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611537.8320050794 1267841.594984016</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Pauschspublication</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Meister</token>
+    <token token_id="3">Jssel</token>
+    <token token_id="4">Dubenberger</token>
+    <token token_id="5">Burger</token>
+    <token token_id="6">und</token>
+    <token token_id="7">Lohrohtgerber</token>
+    <token token_id="8">übergibt</token>
+    <token token_id="9">Tauschweiss</token>
+    <token token_id="10">an</token>
+    <token token_id="11">frau</token>
+    <token token_id="12">Margreth</token>
+    <token token_id="13">Nübling</token>
+    <token token_id="14">mit</token>
+    <token token_id="15">Beystandt</token>
+    <token token_id="16">M</token>
+    <token token_id="17">.</token>
+    <token token_id="18">Jacob</token>
+    <token token_id="19">Hagenbachss</token>
+    <token token_id="20">Ihres</token>
+    <token token_id="21">verordneten</token>
+    <token token_id="22">Vogts</token>
+    <token token_id="23">Eine</token>
+    <token token_id="24">Behaussung</token>
+    <token token_id="25">zu</token>
+    <token token_id="26">minder</token>
+    <token token_id="27">Basel</token>
+    <token token_id="28">an</token>
+    <token token_id="29">der</token>
+    <token token_id="30">Grempergassen</token>
+    <token token_id="31">,</token>
+    <token token_id="32">Einseits</token>
+    <token token_id="33">neben</token>
+    <token token_id="34">Mr</token>
+    <token token_id="35">.</token>
+    <token token_id="36">Jacob</token>
+    <token token_id="37">fruch</token>
+    <token token_id="38">dem</token>
+    <token token_id="39">Schuemacher</token>
+    <token token_id="40">,</token>
+    <token token_id="41">anderseits</token>
+    <token token_id="42">vornen</token>
+    <token token_id="43">auff</token>
+    <token token_id="44">gedachte</token>
+    <token token_id="45">Gass</token>
+    <token token_id="46">,</token>
+    <token token_id="47">hinden</token>
+    <token token_id="48">auff</token>
+    <token token_id="49">Mr</token>
+    <token token_id="50">Ceorg</token>
+    <token token_id="51">Erlacher</token>
+    <token token_id="52">den</token>
+    <token token_id="53">Schiffmann</token>
+    <token token_id="54">Stossendt</token>
+    <token token_id="55">.</token>
+  </text>
+  <spans>
+    <span id="1160" start="2" end="7" text="Meister Jssel Dubenberger Burger&#10;und Lohrohtgerber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1154" start="2" end="2" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1154_head" start="2" end="2" element="head" class="title" text="Meister" subclass=""/>
+      </span>
+      <span id="1142" start="3" end="4" text="Jssel Dubenberger" element="head" class="nam" subclass=""/>
+      <span id="1148" start="5" end="5" text="Burger" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1148_head" start="5" end="5" element="head" class="org-aff" text="Burger" subclass=""/>
+      </span>
+      <span id="1166" start="7" end="7" text="Lohrohtgerber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1166_head" start="7" end="7" element="head" class="occ" text="Lohrohtgerber" subclass=""/>
+      </span>
+    </span>
+    <span id="1324" start="8" end="8" text="übergibt" element="trigger" class="transfer" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1172" start="11" end="13" text="frau Margreth Nübling" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1178" start="12" end="13" text="Margreth Nübling" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1184" start="16" end="22" text="M .&#10;Jacob Hagenbachss Ihres verordneten Vogts" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1190" start="18" end="19" text="Jacob Hagenbachss" element="head" class="nam" subclass=""/>
+      <span id="1196" start="20" end="22" text="Ihres verordneten Vogts" element="appo" class="repr" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1208" start="20" end="20" text="Ihres" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1208_head" start="20" end="20" element="head" class="pro" text="Ihres" subclass=""/>
+        </span>
+        <span id="1202" start="22" end="22" text="Vogts" element="head" class="repr" subclass=""/>
+      </span>
+    </span>
+    <span id="1221" start="23" end="54" text="Eine Behaussung zu minder Basel an&#10;der Grempergassen , Einseits neben Mr .&#10;Jacob fruch dem Schuemacher , anderseits&#10;vornen auff gedachte Gass , hinden&#10;auff Mr Ceorg Erlacher den Schiffmann&#10;Stossendt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1227" start="24" end="24" text="Behaussung" element="head" class="type" subclass=""/>
+      <span id="1233" start="25" end="54" text="zu minder Basel an&#10;der Grempergassen , Einseits neben Mr .&#10;Jacob fruch dem Schuemacher , anderseits&#10;vornen auff gedachte Gass , hinden&#10;auff Mr Ceorg Erlacher den Schiffmann&#10;Stossendt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1239" start="26" end="27" text="minder Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1239_head" start="26" end="27" element="head" class="nam" text="minder Basel" subclass=""/>
+        </span>
+        <span id="1245" start="29" end="30" text="der Grempergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1251" start="30" end="30" text="Grempergassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1257" start="34" end="39" text="Mr .&#10;Jacob fruch dem Schuemacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1263" start="36" end="37" text="Jacob fruch" element="head" class="nam" subclass=""/>
+          <span id="1269" start="38" end="39" text="dem Schuemacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1269_head" start="38" end="39" element="head" class="occ" text="dem Schuemacher" subclass=""/>
+          </span>
+        </span>
+        <span id="1281" start="44" end="45" text="gedachte Gass" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1275" start="45" end="45" text="Gass" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1294" start="49" end="53" text="Mr Ceorg Erlacher den Schiffmann" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1300" start="50" end="51" text="Ceorg Erlacher" element="head" class="nam" subclass=""/>
+          <span id="1306" start="52" end="53" text="den Schiffmann" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1312" start="53" end="53" text="Schiffmann" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1214" from="1208" to="1172" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1287" from="1281" to="1245" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="representation" polarity="pos" tense="pres" modality="ass" start="20" end="22" ref="1196" type="state">
+      <trigger start="22" end="22" text="Vogts" ref="1202"/>
+      <event event_id="0.0">
+        <role role="representative" ref="1184" text="M .&#10;Jacob Hagenbachss Ihres verordneten Vogts"/>
+        <role role="represented" ref="1208" text="Ihres"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="25" end="54" ref="1233" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1221" text="Eine Behaussung zu minder Basel an&#10;der Grempergassen , Einseits neben Mr .&#10;Jacob fruch dem Schuemacher , anderseits&#10;vornen auff gedachte Gass , hinden&#10;auff Mr Ceorg Erlacher den Schiffmann&#10;Stossendt"/>
+        <role role="location-b" ref="1239" text="minder Basel"/>
+        <role role="location-b" ref="1245" text="der Grempergassen"/>
+        <role role="location-b" ref="1257" text="Mr .&#10;Jacob fruch dem Schuemacher"/>
+        <role role="location-b" ref="1281" text="gedachte Gass"/>
+        <role role="location-b" ref="1294" text="Mr Ceorg Erlacher den Schiffmann"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="transfer" polarity="pos" tense="pres" modality="ass" start="2" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="übergibt" ref="1324"/>
+      <event event_id="2.0">
+        <role role="owner-prev" ref="1160" text="Meister Jssel Dubenberger Burger&#10;und Lohrohtgerber"/>
+        <role role="owner-new" ref="1172" text="frau Margreth Nübling"/>
+        <role role="detail_owner-new-detail" ref="1184" text="M .&#10;Jacob Hagenbachss Ihres verordneten Vogts"/>
+        <role role="property" ref="1221" text="Eine Behaussung zu minder Basel an&#10;der Grempergassen , Einseits neben Mr .&#10;Jacob fruch dem Schuemacher , anderseits&#10;vornen auff gedachte Gass , hinden&#10;auff Mr Ceorg Erlacher den Schiffmann&#10;Stossendt"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

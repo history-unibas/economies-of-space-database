@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 197/32 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenvorstadt 15</tei:title>
+            <tei:idno>HGB 1 197/32</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1526784</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1420">1420</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610862.7299975217 1267395.8540216426</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">git</token>
+    <token token_id="1">ze</token>
+    <token token_id="2">kaufen</token>
+    <token token_id="3">Claus</token>
+    <token token_id="4">Wetzel</token>
+    <token token_id="5">der</token>
+    <token token_id="6">Brotbegk</token>
+    <token token_id="7">,</token>
+    <token token_id="8">verkauft</token>
+    <token token_id="9">an</token>
+    <token token_id="10">Frow</token>
+    <token token_id="11">Nesen</token>
+    <token token_id="12">frowelerin</token>
+    <token token_id="13">selt</token>
+    <token token_id="14">,</token>
+    <token token_id="15">gut</token>
+    <token token_id="16">,</token>
+    <token token_id="17">Johis</token>
+    <token token_id="18">Wernheri</token>
+    <token token_id="19">frowelar</token>
+    <token token_id="20">.</token>
+    <token token_id="21">9</token>
+    <token token_id="22">fl</token>
+    <token token_id="23">.</token>
+    <token token_id="24">gelts</token>
+    <token token_id="25">,</token>
+    <token token_id="26">ab</token>
+    <token token_id="27">.</token>
+    <token token_id="28">sodenn</token>
+    <token token_id="29">ab</token>
+    <token token_id="30">dem</token>
+    <token token_id="31">Hus</token>
+    <token token_id="32">&amp;</token>
+    <token token_id="33">Hofstatt</token>
+    <token token_id="34">genant</token>
+    <token token_id="35">Hagental</token>
+    <token token_id="36">gelegen</token>
+    <token token_id="37">an</token>
+    <token token_id="38">den</token>
+    <token token_id="39">Spalen</token>
+    <token token_id="40">nebent</token>
+    <token token_id="41">Rützsch</token>
+    <token token_id="42">Jeckis</token>
+    <token token_id="43">u</token>
+    <token token_id="44">.</token>
+    <token token_id="45">dem</token>
+    <token token_id="46">Huse</token>
+    <token token_id="47">Freyenberg</token>
+    <token token_id="48">so</token>
+    <token token_id="49">da</token>
+    <token token_id="50">erb</token>
+    <token token_id="51">ist</token>
+    <token token_id="52">von</token>
+    <token token_id="53">dem</token>
+    <token token_id="54">Capital</token>
+    <token token_id="55">u</token>
+    <token token_id="56">.</token>
+    <token token_id="57">Stift</token>
+    <token token_id="58">uf</token>
+    <token token_id="59">Burg</token>
+    <token token_id="60">denen</token>
+    <token token_id="61">darab</token>
+    <token token_id="62">gat</token>
+    <token token_id="63">14sh</token>
+    <token token_id="64">.</token>
+    <token token_id="65">um</token>
+    <token token_id="66">180</token>
+    <token token_id="67">fl</token>
+    <token token_id="68">.</token>
+  </text>
+  <spans>
+    <span id="1065" start="3" end="6" text="Claus Wetzel der Brotbegk" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1071" start="3" end="4" text="Claus Wetzel" element="head" class="nam" subclass=""/>
+      <span id="1077" start="5" end="6" text="der Brotbegk" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1083" start="6" end="6" text="Brotbegk" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1216" start="8" end="8" text="verkauft" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1186" start="10" end="19" text="Frow Nesen frowelerin selt , gut , Johis Wernheri&#10;frowelar" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1192" start="10" end="12" text="Frow Nesen frowelerin" element="head" class="nam" subclass=""/>
+      <span id="1198" start="13" end="19" text="selt , gut , Johis Wernheri&#10;frowelar" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1204" start="13" end="16" text="selt , gut ," element="head" class="fam" subclass=""/>
+        <span id="1210" start="17" end="19" text="Johis Wernheri&#10;frowelar" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1210_head" start="17" end="19" element="head" class="nam" text="Johis Wernheri frowelar" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1222" start="21" end="23" text="9 fl ." element="value" class="money" subclass=""/>
+    <span id="1228" start="24" end="24" text="gelts" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1089" start="30" end="64" text="dem Hus &amp; Hofstatt genant Hagental&#10;gelegen an den Spalen nebent Rützsch Jeckis&#10;u . dem Huse Freyenberg so da erb ist von dem&#10;Capital u . Stift uf Burg denen darab gat 14sh ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1095" start="31" end="33" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1101" start="35" end="35" text="Hagental" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1101_head" start="35" end="35" element="head" class="nam" text="Hagental" subclass=""/>
+      </span>
+      <span id="1107" start="36" end="47" text="gelegen an den Spalen nebent Rützsch Jeckis&#10;u . dem Huse Freyenberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1113" start="38" end="39" text="den Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1119" start="39" end="39" text="Spalen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1125" start="41" end="42" text="Rützsch Jeckis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1125_head" start="41" end="42" element="head" class="nam" text="Rützsch Jeckis" subclass=""/>
+        </span>
+        <span id="1131" start="45" end="47" text="dem Huse Freyenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1137" start="46" end="47" text="Huse Freyenberg" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1143" start="48" end="64" text="so da erb ist von dem&#10;Capital u . Stift uf Burg denen darab gat 14sh ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1253" start="48" end="59" text="so da erb ist von dem&#10;Capital u . Stift uf Burg" element="other" class="other" subclass="">
+          <span id="1149" start="53" end="59" text="dem&#10;Capital u . Stift uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="1155" start="54" end="59" text="Capital u . Stift uf Burg" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+        <span id="1161" start="60" end="60" text="denen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1161_head" start="60" end="60" element="head" class="pro" text="denen" subclass=""/>
+        </span>
+        <span id="1240" start="61" end="61" text="darab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1240_head" start="61" end="61" element="head" class="pro" text="darab" subclass=""/>
+        </span>
+        <span id="1234" start="62" end="62" text="gat" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1174" start="63" end="64" text="14sh ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1180" start="66" end="68" text="180 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1246" from="1240" to="1089" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1167" from="1161" to="1149" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1234_role" from="1234" to="1089" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="13" end="19" ref="1198" type="state">
+      <trigger start="13" end="16" text="selt , gut ," ref="1204"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1186" text="Frow Nesen frowelerin selt , gut , Johis Wernheri&#10;frowelar"/>
+        <role role="family-b" ref="1210" text="Johis Wernheri&#10;frowelar"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="36" end="47" ref="1107" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1089" text="dem Hus &amp; Hofstatt genant Hagental&#10;gelegen an den Spalen nebent Rützsch Jeckis&#10;u . dem Huse Freyenberg so da erb ist von dem&#10;Capital u . Stift uf Burg denen darab gat 14sh ."/>
+        <role role="location-b" ref="1113" text="den Spalen"/>
+        <role role="location-b" ref="1125" text="Rützsch Jeckis"/>
+        <role role="location-b" ref="1131" text="dem Huse Freyenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="verkauft" ref="1216"/>
+      <event event_id="2.0">
+        <role role="seller" ref="1065" text="Claus Wetzel der Brotbegk"/>
+        <role role="buyer" ref="1186" text="Frow Nesen frowelerin selt , gut , Johis Wernheri&#10;frowelar"/>
+        <role role="due" ref="1228" text="gelts"/>
+        <role role="collateral" ref="1089" text="dem Hus &amp; Hofstatt genant Hagental&#10;gelegen an den Spalen nebent Rützsch Jeckis&#10;u . dem Huse Freyenberg so da erb ist von dem&#10;Capital u . Stift uf Burg denen darab gat 14sh ."/>
+        <role role="price" ref="1180" text="180 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="21" end="24" ref="" type="state">
+      <trigger start="24" end="24" text="gelts" ref="1228"/>
+      <event event_id="3.0">
+        <role role="interest" ref="1222" text="9 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="30" end="64" ref="1143" type="state">
+      <trigger start="62" end="62" text="gat" ref="1234"/>
+      <event event_id="4.0">
+        <role role="detail_hereditary-owner" ref="1253" text="so da erb ist von dem&#10;Capital u . Stift uf Burg"/>
+        <role role="beneficiary" ref="1161" text="denen"/>
+        <role role="property" ref="1240" text="darab"/>
+        <role role="interest" ref="1174" text="14sh ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

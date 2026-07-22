@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 161/16 S. [32]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheinsprung 5</tei:title>
+            <tei:idno>HGB 1 161/16</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1509043</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1657">1657</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611318.79996289 1267620.6756817172</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Kaufs</token>
+    <token token_id="1">Publicatio</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Es</token>
+    <token token_id="4">verkauft</token>
+    <token token_id="5">H</token>
+    <token token_id="6">.</token>
+    <token token_id="7">Hans</token>
+    <token token_id="8">Heinrich</token>
+    <token token_id="9">Ryhiner</token>
+    <token token_id="10">Stattgerichtsbeysitzer</token>
+    <token token_id="11">in</token>
+    <token token_id="12">mehrerem</token>
+    <token token_id="13">Basell</token>
+    <token token_id="14">und</token>
+    <token token_id="15">gibt</token>
+    <token token_id="16">zu</token>
+    <token token_id="17">Kaufen</token>
+    <token token_id="18">H</token>
+    <token token_id="19">.</token>
+    <token token_id="20">N</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Friederich</token>
+    <token token_id="23">Seylern</token>
+    <token token_id="24">,</token>
+    <token token_id="25">Gynmasarch</token>
+    <token token_id="26">die</token>
+    <token token_id="27">Behausung</token>
+    <token token_id="28">zum</token>
+    <token token_id="29">Kranich</token>
+    <token token_id="30">streit</token>
+    <token token_id="31">genant</token>
+    <token token_id="32">,</token>
+    <token token_id="33">an</token>
+    <token token_id="34">dem</token>
+    <token token_id="35">undern</token>
+    <token token_id="36">Rheinsprung</token>
+    <token token_id="37">,</token>
+    <token token_id="38">neben</token>
+    <token token_id="39">dem</token>
+    <token token_id="40">Cellegi</token>
+    <token token_id="41">gelegen</token>
+    <token token_id="42">.</token>
+  </text>
+  <spans>
+    <span id="792" start="4" end="4" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="696" start="5" end="13" text="H . Hans Heinrich Ryhiner&#10;Stattgerichtsbeysitzer in mehrerem Basell" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="714" start="7" end="9" text="Hans Heinrich Ryhiner" element="head" class="nam" subclass=""/>
+      <span id="720" start="10" end="10" text="Stattgerichtsbeysitzer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="720_head" start="10" end="10" element="head" class="occ" text="Stattgerichtsbeysitzer" subclass="org-job"/>
+      </span>
+      <span id="726" start="11" end="13" text="in mehrerem Basell" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="732" start="12" end="13" text="mehrerem Basell" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="732_head" start="12" end="13" element="head" class="nam" text="mehrerem Basell" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="702" start="18" end="25" text="H . N . Friederich Seylern ,&#10;Gynmasarch" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="786" start="22" end="23" text="Friederich Seylern" element="head" class="nam" subclass=""/>
+      <span id="738" start="25" end="25" text="Gynmasarch" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="738_head" start="25" end="25" element="head" class="occ" text="Gynmasarch" subclass=""/>
+      </span>
+    </span>
+    <span id="708" start="26" end="41" text="die Behausung zum Kranich&#10;streit genant , an dem undern Rheinsprung ,&#10;neben dem Cellegi gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="744" start="27" end="27" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="750" start="28" end="30" text="zum Kranich&#10;streit" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="750_head" start="28" end="30" element="head" class="nam" text="zum Kranich streit" subclass=""/>
+      </span>
+      <span id="756" start="33" end="41" text="an dem undern Rheinsprung ,&#10;neben dem Cellegi gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="762" start="34" end="36" text="dem undern Rheinsprung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="768" start="35" end="36" text="undern Rheinsprung" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="774" start="39" end="40" text="dem Cellegi" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="780" start="40" end="40" text="Cellegi" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="11" end="13" ref="726" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="696" text="H . Hans Heinrich Ryhiner&#10;Stattgerichtsbeysitzer in mehrerem Basell"/>
+        <role role="location-b" ref="732" text="mehrerem Basell"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="33" end="41" ref="756" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="708" text="die Behausung zum Kranich&#10;streit genant , an dem undern Rheinsprung ,&#10;neben dem Cellegi gelegen"/>
+        <role role="location-b" ref="762" text="dem undern Rheinsprung"/>
+        <role role="location-b" ref="774" text="dem Cellegi"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="4" end="41" ref="" type="event">
+      <trigger start="4" end="4" text="verkauft" ref="792"/>
+      <event event_id="2.0">
+        <role role="seller" ref="696" text="H . Hans Heinrich Ryhiner&#10;Stattgerichtsbeysitzer in mehrerem Basell"/>
+        <role role="buyer" ref="702" text="H . N . Friederich Seylern ,&#10;Gynmasarch"/>
+        <role role="property" ref="708" text="die Behausung zum Kranich&#10;streit genant , an dem undern Rheinsprung ,&#10;neben dem Cellegi gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

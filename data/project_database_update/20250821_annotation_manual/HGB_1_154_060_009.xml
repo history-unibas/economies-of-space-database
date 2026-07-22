@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 154/60 S. [9, 10]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rebgasse 6</tei:title>
+            <tei:idno>HGB 1 154/60</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1505598</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Theodor</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1401">1401</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611654.8033788684 1267853.1330140438</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Das</token>
+    <token token_id="4">Gotzhus</token>
+    <token token_id="5">ze</token>
+    <token token_id="6">sant</token>
+    <token token_id="7">Joder</token>
+    <token token_id="8">ze</token>
+    <token token_id="9">minren</token>
+    <token token_id="10">Basel</token>
+    <token token_id="11">verleiht</token>
+    <token token_id="12">Heini</token>
+    <token token_id="13">Grützman</token>
+    <token token_id="14">dem</token>
+    <token token_id="15">Rebkucht</token>
+    <token token_id="16">,</token>
+    <token token_id="17">Burger</token>
+    <token token_id="18">ze</token>
+    <token token_id="19">Basel</token>
+    <token token_id="20">und</token>
+    <token token_id="21">Frow</token>
+    <token token_id="22">Elschi</token>
+    <token token_id="23">siner</token>
+    <token token_id="24">elichen</token>
+    <token token_id="25">Wirtin</token>
+    <token token_id="26">das</token>
+    <token token_id="27">Hus</token>
+    <token token_id="28">genannt</token>
+    <token token_id="29">zer</token>
+    <token token_id="30">Schüren</token>
+    <token token_id="31">,</token>
+    <token token_id="32">so</token>
+    <token token_id="33">Erbist</token>
+    <token token_id="34">und</token>
+    <token token_id="35">gelegen</token>
+    <token token_id="36">in</token>
+    <token token_id="37">der</token>
+    <token token_id="38">Statt</token>
+    <token token_id="39">ze</token>
+    <token token_id="40">minren</token>
+    <token token_id="41">Basel</token>
+    <token token_id="42">an</token>
+    <token token_id="43">der</token>
+    <token token_id="44">Rebgassen</token>
+    <token token_id="45">gegen</token>
+    <token token_id="46">Sant</token>
+    <token token_id="47">Claren</token>
+    <token token_id="48">über</token>
+    <token token_id="49">zwüschent</token>
+    <token token_id="50">den</token>
+    <token token_id="51">Hüsern</token>
+    <token token_id="52">zem</token>
+    <token token_id="53">Herbst</token>
+    <token token_id="54">und</token>
+    <token token_id="55">zem</token>
+    <token token_id="56">Kiel</token>
+    <token token_id="57">,</token>
+    <token token_id="58">ze</token>
+    <token token_id="59">irem</token>
+    <token token_id="60">Erbe</token>
+    <token token_id="61">,</token>
+    <token token_id="62">umb</token>
+    <token token_id="63">30</token>
+    <token token_id="64">sh</token>
+    <token token_id="65">.</token>
+    <token token_id="66">Zinspfg</token>
+    <token token_id="67">.</token>
+    <token token_id="68">ze</token>
+    <token token_id="69">Zinse</token>
+    <token token_id="70">und</token>
+    <token token_id="71">2</token>
+    <token token_id="72">Hünr</token>
+    <token token_id="73">ze</token>
+    <token token_id="74">Wisung</token>
+    <token token_id="75">und</token>
+    <token token_id="76">5</token>
+    <token token_id="77">sh</token>
+    <token token_id="78">.</token>
+    <token token_id="79">ze</token>
+    <token token_id="80">Erschatz</token>
+    <token token_id="81">,</token>
+    <token token_id="82">swen</token>
+    <token token_id="83">sich</token>
+    <token token_id="84">die</token>
+    <token token_id="85">Hand</token>
+    <token token_id="86">verwandelt</token>
+    <token token_id="87">.</token>
+    <token token_id="88">siche</token>
+    <token token_id="89">Rückseite</token>
+    <token token_id="90">:</token>
+  </text>
+  <spans>
+    <span id="1366" start="3" end="10" text="Das Gotzhus ze sant Joder ze minren Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1566" start="4" end="7" text="Gotzhus ze sant Joder" element="head" class="nam" subclass=""/>
+      <span id="1572" start="8" end="10" text="ze minren Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1578" start="9" end="10" text="minren Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1578_head" start="9" end="10" element="head" class="nam" text="minren Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1584" start="11" end="11" text="verleiht" element="trigger" class="hereditary" tense="pres" polarity="pos" modality="ass" subclass="lease"/>
+    <span id="1372" start="12" end="25" text="Heini Grützman dem Rebkucht , Burger ze Basel&#10;und Frow Elschi siner elichen Wirtin" element="list" class="per" subclass="">
+      <span id="1378" start="12" end="19" text="Heini Grützman dem Rebkucht , Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1384" start="12" end="13" text="Heini Grützman" element="head" class="nam" subclass=""/>
+        <span id="1390" start="14" end="15" text="dem Rebkucht" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1396" start="15" end="15" text="Rebkucht" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1402" start="17" end="19" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1408" start="17" end="17" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="1414" start="19" end="19" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1414_head" start="19" end="19" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1420" start="21" end="25" text="Frow Elschi siner elichen Wirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1426" start="22" end="22" text="Elschi" element="head" class="nam" subclass=""/>
+        <span id="1432" start="23" end="25" text="siner elichen Wirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1444" start="23" end="23" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1444_head" start="23" end="23" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="1438" start="24" end="25" text="elichen Wirtin" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1457" start="26" end="56" text="das Hus&#10;genannt zer Schüren , so Erbist und gelegen in der&#10;Statt ze minren Basel an der Rebgassen gegen Sant&#10;Claren über zwüschent den Hüsern zem Herbst und&#10;zem Kiel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1463" start="27" end="27" text="Hus" element="head" class="type" subclass=""/>
+      <span id="1469" start="29" end="30" text="zer Schüren" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1469_head" start="29" end="30" element="head" class="nam" text="zer Schüren" subclass=""/>
+      </span>
+      <span id="1475" start="35" end="56" text="gelegen in der&#10;Statt ze minren Basel an der Rebgassen gegen Sant&#10;Claren über zwüschent den Hüsern zem Herbst und&#10;zem Kiel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1481" start="37" end="41" text="der&#10;Statt ze minren Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1487" start="40" end="41" text="minren Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1493" start="43" end="44" text="der Rebgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1499" start="44" end="44" text="Rebgassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1505" start="46" end="47" text="Sant&#10;Claren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1505_head" start="46" end="47" element="head" class="nam" text="Sant Claren" subclass=""/>
+        </span>
+        <span id="1511" start="50" end="56" text="den Hüsern zem Herbst und&#10;zem Kiel" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1517" start="51" end="51" text="Hüsern" element="head" class="type" subclass=""/>
+          <span id="1511_comp" start="52" end="56" text="" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1523" start="52" end="53" text="zem Herbst" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1523_head" start="52" end="53" element="head" class="nam" text="zem Herbst" subclass=""/>
+            </span>
+            <span id="1529" start="55" end="56" text="zem Kiel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1529_head" start="55" end="56" element="head" class="nam" text="zem Kiel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1535" start="59" end="59" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1535_head" start="59" end="59" element="head" class="pro" text="irem" subclass=""/>
+    </span>
+    <span id="1548" start="63" end="67" text="30 sh . Zinspfg ." element="value" class="money" subclass=""/>
+    <span id="1590" start="69" end="69" text="Zinse" element="other" class="other" subclass=""/>
+    <span id="1554" start="71" end="72" text="2 Hünr" element="value" class="money" subclass=""/>
+    <span id="1596" start="74" end="74" text="Wisung" element="other" class="other" subclass=""/>
+    <span id="1560" start="76" end="78" text="5 sh ." element="value" class="money" subclass=""/>
+    <span id="1602" start="80" end="80" text="Erschatz" element="other" class="other" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1541" from="1535" to="1372" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1450" from="1444" to="1378" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="17" end="19" ref="1402" type="state">
+      <trigger start="17" end="17" text="Burger" ref="1408"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1378" text="Heini Grützman dem Rebkucht , Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="1414" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="23" end="25" ref="1432" type="state">
+      <trigger start="24" end="25" text="elichen Wirtin" ref="1438"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1420" text="Frow Elschi siner elichen Wirtin"/>
+        <role role="family-b" ref="1444" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="8" end="10" ref="1572" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1366" text="Das Gotzhus ze sant Joder ze minren Basel"/>
+        <role role="location-b" ref="1578" text="minren Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="56" ref="1475" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1457" text="das Hus&#10;genannt zer Schüren , so Erbist und gelegen in der&#10;Statt ze minren Basel an der Rebgassen gegen Sant&#10;Claren über zwüschent den Hüsern zem Herbst und&#10;zem Kiel"/>
+        <role role="location-b" ref="1481" text="der&#10;Statt ze minren Basel"/>
+        <role role="location-b" ref="1493" text="der Rebgassen"/>
+        <role role="location-b" ref="1505" text="Sant&#10;Claren"/>
+        <role role="location-b" ref="1511" text="den Hüsern zem Herbst und&#10;zem Kiel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="52" end="56" ref="1511_comp" type="state">
+      <event event_id="4.0">
+        <role role="whole" ref="1511" text="den Hüsern zem Herbst und&#10;zem Kiel"/>
+        <role role="part" ref="1523" text="zem Herbst"/>
+        <role role="part" ref="1529" text="zem Kiel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="heritable-lease-grant" polarity="pos" tense="pres" modality="ass" start="11" end="80" ref="" type="event">
+      <trigger start="11" end="11" text="verleiht" ref="1584"/>
+      <event event_id="5.0">
+        <role role="grantor" ref="1366" text="Das Gotzhus ze sant Joder ze minren Basel"/>
+        <role role="lessee" ref="1378" text="Heini Grützman dem Rebkucht , Burger ze Basel"/>
+        <role role="lessee" ref="1420" text="Frow Elschi siner elichen Wirtin"/>
+        <role role="property" ref="1457" text="das Hus&#10;genannt zer Schüren , so Erbist und gelegen in der&#10;Statt ze minren Basel an der Rebgassen gegen Sant&#10;Claren über zwüschent den Hüsern zem Herbst und&#10;zem Kiel"/>
+        <role role="interest" ref="1548" text="30 sh . Zinspfg ."/>
+        <role role="cause" ref="1590" text="Zinse"/>
+      </event>
+      <event event_id="5.1">
+        <role role="grantor" ref="1366" text="Das Gotzhus ze sant Joder ze minren Basel"/>
+        <role role="lessee" ref="1378" text="Heini Grützman dem Rebkucht , Burger ze Basel"/>
+        <role role="lessee" ref="1420" text="Frow Elschi siner elichen Wirtin"/>
+        <role role="property" ref="1457" text="das Hus&#10;genannt zer Schüren , so Erbist und gelegen in der&#10;Statt ze minren Basel an der Rebgassen gegen Sant&#10;Claren über zwüschent den Hüsern zem Herbst und&#10;zem Kiel"/>
+        <role role="interest" ref="1554" text="2 Hünr"/>
+        <role role="cause" ref="1596" text="Wisung"/>
+      </event>
+      <event event_id="5.2">
+        <role role="grantor" ref="1366" text="Das Gotzhus ze sant Joder ze minren Basel"/>
+        <role role="lessee" ref="1378" text="Heini Grützman dem Rebkucht , Burger ze Basel"/>
+        <role role="lessee" ref="1420" text="Frow Elschi siner elichen Wirtin"/>
+        <role role="property" ref="1457" text="das Hus&#10;genannt zer Schüren , so Erbist und gelegen in der&#10;Statt ze minren Basel an der Rebgassen gegen Sant&#10;Claren über zwüschent den Hüsern zem Herbst und&#10;zem Kiel"/>
+        <role role="interest" ref="1560" text="5 sh ."/>
+        <role role="cause" ref="1602" text="Erschatz"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

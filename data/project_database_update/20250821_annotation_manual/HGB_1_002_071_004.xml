@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 2/71 S. [4]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Aeschenvorstadt 67</tei:title>
+            <tei:idno>HGB 1 2/71</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1432872</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Felix Platter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1610">1610</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611702.1584971007 1266825.4020937034</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Eschemer</token>
+    <token token_id="1">Vorstatt</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Rechte</token>
+    <token token_id="4">Seite</token>
+    <token token_id="5">vom</token>
+    <token token_id="6">Thore</token>
+    <token token_id="7">her</token>
+    <token token_id="8">.</token>
+    <token token_id="9">61</token>
+    <token token_id="10">.</token>
+    <token token_id="11">Spanner</token>
+    <token token_id="12">,</token>
+    <token token_id="13">Bartlin</token>
+    <token token_id="14">Mercki</token>
+    <token token_id="15">.</token>
+    <token token_id="16">62</token>
+    <token token_id="17">.</token>
+    <token token_id="18">Spanner</token>
+    <token token_id="19">,</token>
+    <token token_id="20">Hanss</token>
+    <token token_id="21">Schmidlin</token>
+    <token token_id="22">,</token>
+    <token token_id="23">63</token>
+    <token token_id="24">.</token>
+    <token token_id="25">Schmidt</token>
+    <token token_id="26">,</token>
+    <token token_id="27">Hanss</token>
+    <token token_id="28">Jacob</token>
+    <token token_id="29">Hafner</token>
+    <token token_id="30">Claus</token>
+    <token token_id="31">Helgen</token>
+    <token token_id="32">Has</token>
+    <token token_id="33">und</token>
+    <token token_id="34">Schussen</token>
+    <token token_id="35">.</token>
+  </text>
+  <spans>
+    <span id="574" start="0" end="1" text="Eschemer Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="574_head" start="0" end="1" element="head" class="nam" text="Eschemer Vorstatt" subclass=""/>
+    </span>
+    <span id="580" start="5" end="6" text="vom Thore" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="586" start="6" end="6" text="Thore" element="head" class="type" subclass=""/>
+    </span>
+    <span id="592" start="11" end="14" text="Spanner , Bartlin Mercki" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="604" start="11" end="11" text="Spanner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="604_head" start="11" end="11" element="head" class="occ" text="Spanner" subclass=""/>
+      </span>
+      <span id="598" start="13" end="14" text="Bartlin Mercki" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="610" start="18" end="21" text="Spanner , Hanss Schmidlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="622" start="18" end="18" text="Spanner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="622_head" start="18" end="18" element="head" class="occ" text="Spanner" subclass=""/>
+      </span>
+      <span id="616" start="20" end="21" text="Hanss Schmidlin" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="628" start="25" end="29" text="Schmidt , Hanss Jacob Hafner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="640" start="25" end="25" text="Schmidt" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="640_head" start="25" end="25" element="head" class="occ" text="Schmidt" subclass=""/>
+      </span>
+      <span id="634" start="27" end="29" text="Hanss Jacob Hafner" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="646" start="30" end="34" text="Claus Helgen Has und Schussen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="658" start="30" end="31" text="Claus Helgen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="664" start="30" end="31" text="Claus Helgen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="664_head" start="30" end="31" element="head" class="nam" text="Claus Helgen" subclass=""/>
+        </span>
+      </span>
+      <span id="652" start="32" end="34" text="Has und Schussen" element="head" class="type" subclass=""/>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="30" end="31" ref="658" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="646" text="Claus Helgen Has und Schussen"/>
+        <role role="owner" ref="664" text="Claus Helgen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

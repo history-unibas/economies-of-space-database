@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 206/7 S. [13]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Stapfelberg 2, 4</tei:title>
+            <tei:idno>HGB 1 206/7</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1527820</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Liber copiarum</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1659">1659</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611357.2639615075 1267428.0669792814</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Canzler</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Aesferligenn</token>
+    <token token_id="3">Die</token>
+    <token token_id="4">Fünff</token>
+    <token token_id="5">über</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Statt</token>
+    <token token_id="8">Gebäu</token>
+    <token token_id="9">,</token>
+    <token token_id="10">auf</token>
+    <token token_id="11">Klage</token>
+    <token token_id="12">Herrn</token>
+    <token token_id="13">Sannel</token>
+    <token token_id="14">Eglinger</token>
+    <token token_id="15">des</token>
+    <token token_id="16">Apotheher</token>
+    <token token_id="17">,</token>
+    <token token_id="18">dir</token>
+    <token token_id="19">habers</token>
+    <token token_id="20">der</token>
+    <token token_id="21">Behausung</token>
+    <token token_id="22">zum</token>
+    <token token_id="23">Rotenberg</token>
+    <token token_id="24">genant</token>
+    <token token_id="25">oben</token>
+    <token token_id="26">am</token>
+    <token token_id="27">Venedig</token>
+    <token token_id="28">an</token>
+    <token token_id="29">dem</token>
+    <token token_id="30">Rotenberg</token>
+    <token token_id="31">gegen</token>
+    <token token_id="32">die</token>
+    <token token_id="33">Wefntaten</token>
+    <token token_id="34">über</token>
+    <token token_id="35">die</token>
+    <token token_id="36">Kirchen</token>
+    <token token_id="37">und</token>
+    <token token_id="38">Schulen</token>
+    <token token_id="39">,</token>
+    <token token_id="40">wegen</token>
+    <token token_id="41">eines</token>
+    <token token_id="42">in</token>
+    <token token_id="43">dem</token>
+    <token token_id="44">obern</token>
+    <token token_id="45">Collegio</token>
+    <token token_id="46">an</token>
+    <token token_id="47">der</token>
+    <token token_id="48">Ehe</token>
+    <token token_id="49">gerichttuben</token>
+    <token token_id="50">aufführenden</token>
+    <token token_id="51">Baws</token>
+    <token token_id="52">,</token>
+    <token token_id="53">der</token>
+    <token token_id="54">den</token>
+    <token token_id="55">Herrn</token>
+    <token token_id="56">Eglinger</token>
+    <token token_id="57">engerissenen</token>
+    <token token_id="58">Mauer</token>
+    <token token_id="59">und</token>
+    <token token_id="60">verur</token>
+    <token token_id="61">Sachten</token>
+    <token token_id="62">Schadns</token>
+    <token token_id="63">,</token>
+    <token token_id="64">erhenmen</token>
+    <token token_id="65">,</token>
+    <token token_id="66">des</token>
+    <token token_id="67">die</token>
+    <token token_id="68">Deputg</token>
+    <token token_id="69">¬</token>
+    <token token_id="70">ten</token>
+    <token token_id="71">allen</token>
+    <token token_id="72">Schadin</token>
+    <token token_id="73">reparieren</token>
+    <token token_id="74">Sollen</token>
+    <token token_id="75">.</token>
+    <token token_id="76">Orig</token>
+    <token token_id="77">.</token>
+    <token token_id="78">im</token>
+    <token token_id="79">Bes</token>
+    <token token_id="80">.</token>
+    <token token_id="81">v</token>
+    <token token_id="82">Fr</token>
+    <token token_id="83">.</token>
+    <token token_id="84">Spüttler</token>
+    <token token_id="85">Cosie</token>
+    <token token_id="86">im</token>
+    <token token_id="87">Lib</token>
+    <token token_id="88">Cop</token>
+    <token token_id="89">.</token>
+    <token token_id="90">I</token>
+    <token token_id="91">.</token>
+    <token token_id="92">153</token>
+  </text>
+  <spans>
+    <span id="1436" start="3" end="8" text="Die Fünff über der Statt Gebäu" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="1472" start="4" end="8" text="Fünff über der Statt Gebäu" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1503" start="12" end="30" text="Herrn Sannel Eglinger des Apotheher , dir&#10;habers der Behausung zum Rotenberg genant&#10;oben am Venedig an dem Rotenberg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1376" start="13" end="14" text="Sannel Eglinger" element="head" class="nam" subclass=""/>
+      <span id="1382" start="15" end="16" text="des Apotheher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1388" start="16" end="16" text="Apotheher" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1509" start="18" end="30" text="dir&#10;habers der Behausung zum Rotenberg genant&#10;oben am Venedig an dem Rotenberg" element="appo" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1515" start="18" end="19" text="dir&#10;habers" element="head" class="owner" subclass=""/>
+        <span id="1442" start="20" end="30" text="der Behausung zum Rotenberg genant&#10;oben am Venedig an dem Rotenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1394" start="21" end="21" text="Behausung" element="head" class="type" subclass=""/>
+          <span id="1400" start="22" end="23" text="zum Rotenberg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1400_head" start="22" end="23" element="head" class="nam" text="zum Rotenberg" subclass=""/>
+          </span>
+          <span id="1448" start="25" end="30" text="oben am Venedig an dem Rotenberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1454" start="26" end="27" text="am Venedig" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1528" start="27" end="27" text="Venedig" element="head" class="nam" subclass=""/>
+            </span>
+            <span id="1406" start="29" end="30" text="dem Rotenberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1412" start="30" end="30" text="Rotenberg" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1460" start="32" end="38" text="die Wefntaten über die Kirchen und Schulen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="1466" start="33" end="38" text="Wefntaten über die Kirchen und Schulen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1478" start="43" end="45" text="dem obern Collegio" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1484" start="44" end="45" text="obern Collegio" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1418" start="47" end="49" text="der Ehe&#10;gerichttuben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1424" start="48" end="49" text="Ehe&#10;gerichttuben" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1534" start="51" end="51" text="Baws" element="trigger" class="construction" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1430" start="55" end="56" text="Herrn Eglinger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1430_head" start="55" end="56" element="head" class="nam" text="Herrn Eglinger" subclass=""/>
+    </span>
+    <span id="1540" start="64" end="64" text="erhenmen" element="trigger" class="sanction" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1490" start="67" end="70" text="die Deputg ¬&#10;ten" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="1490_head" start="67" end="70" element="head" class="nam" text="die Deputg ¬ ten" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1521" from="1430" to="1503" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1496" from="1490" to="1460" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="18" end="30" ref="1509" type="state">
+      <trigger start="18" end="19" text="dir&#10;habers" ref="1515"/>
+      <event event_id="0.0">
+        <role role="owner" ref="1503" text="Herrn Sannel Eglinger des Apotheher , dir&#10;habers der Behausung zum Rotenberg genant&#10;oben am Venedig an dem Rotenberg"/>
+        <role role="property" ref="1442" text="der Behausung zum Rotenberg genant&#10;oben am Venedig an dem Rotenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="25" end="30" ref="1448" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1442" text="der Behausung zum Rotenberg genant&#10;oben am Venedig an dem Rotenberg"/>
+        <role role="location-b" ref="1454" text="am Venedig"/>
+        <role role="location-b" ref="1406" text="dem Rotenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="construction" polarity="pos" tense="pres" modality="ass" start="51" end="51" ref="" type="event">
+      <trigger start="51" end="51" text="Baws" ref="1534"/>
+    </eventGroup>
+    <eventGroup event_id="3" class="sanction" polarity="pos" tense="pres" modality="ass" start="3" end="70" ref="" type="event">
+      <trigger start="64" end="64" text="erhenmen" ref="1540"/>
+      <event event_id="3.0">
+        <role role="court" ref="1436" text="Die Fünff über der Statt Gebäu"/>
+        <role role="party1" ref="1503" text="Herrn Sannel Eglinger des Apotheher , dir&#10;habers der Behausung zum Rotenberg genant&#10;oben am Venedig an dem Rotenberg"/>
+        <role role="party2" ref="1460" text="die Wefntaten über die Kirchen und Schulen"/>
+        <role role="decision" ref="1534" text="Baws"/>
+        <role role="sanctioned" ref="1490" text="die Deputg ¬&#10;ten"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

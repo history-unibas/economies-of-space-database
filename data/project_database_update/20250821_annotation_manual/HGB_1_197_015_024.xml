@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 197/15 S. [24]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenvorstadt Th. v. 1 neben 3</tei:title>
+            <tei:idno>HGB 1 197/15</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1526767</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Theodor</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1538">1538</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610924.5824866015 1267374.5158948586</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Jacob</token>
+    <token token_id="1">Supper</token>
+    <token token_id="2">der</token>
+    <token token_id="3">brotbeck</token>
+    <token token_id="4">,</token>
+    <token token_id="5">Burger</token>
+    <token token_id="6">zu</token>
+    <token token_id="7">Basel</token>
+    <token token_id="8">und</token>
+    <token token_id="9">Barbara</token>
+    <token token_id="10">sen</token>
+    <token token_id="11">Efrow</token>
+    <token token_id="12">,</token>
+    <token token_id="13">als</token>
+    <token token_id="14">Houptverkeufer</token>
+    <token token_id="15">,</token>
+    <token token_id="16">sodan</token>
+    <token token_id="17">meyster</token>
+    <token token_id="18">Rudolf</token>
+    <token token_id="19">Supper</token>
+    <token token_id="20">der</token>
+    <token token_id="21">brotbeck</token>
+    <token token_id="22">des</token>
+    <token token_id="23">Rahts</token>
+    <token token_id="24">zu</token>
+    <token token_id="25">Basel</token>
+    <token token_id="26">ir</token>
+    <token token_id="27">Vater</token>
+    <token token_id="28">und</token>
+    <token token_id="29">Schwecher</token>
+    <token token_id="30">,</token>
+    <token token_id="31">als</token>
+    <token token_id="32">mitver</token>
+    <token token_id="33">¬</token>
+    <token token_id="34">Keufer</token>
+    <token token_id="35">,</token>
+    <token token_id="36">zinsen</token>
+    <token token_id="37">ierlichs</token>
+    <token token_id="38">1</token>
+    <token token_id="39">℔</token>
+    <token token_id="40">gelts</token>
+    <token token_id="41">stebler</token>
+    <token token_id="42">Basler</token>
+    <token token_id="43">werung</token>
+    <token token_id="44">,</token>
+    <token token_id="45">uf</token>
+    <token token_id="46">Joh</token>
+    <token token_id="47">.</token>
+    <token token_id="48">Bapt</token>
+    <token token_id="49">zu</token>
+    <token token_id="50">Sonnwenden</token>
+    <token token_id="51">fallend</token>
+    <token token_id="52">,</token>
+    <token token_id="53">von</token>
+    <token token_id="54">uf</token>
+    <token token_id="55">und</token>
+    <token token_id="56">ab</token>
+    <token token_id="57">der</token>
+    <token token_id="58">Houptverkäufer</token>
+    <token token_id="59">Hus</token>
+    <token token_id="60">und</token>
+    <token token_id="61">Hofstatt</token>
+    <token token_id="62">mit</token>
+    <token token_id="63">der</token>
+    <token token_id="64">Rechtsai</token>
+    <token token_id="65">des</token>
+    <token token_id="66">Höfflis</token>
+    <token token_id="67">darhinder</token>
+    <token token_id="68">und</token>
+    <token token_id="69">zugehördt</token>
+    <token token_id="70">,</token>
+    <token token_id="71">als</token>
+    <token token_id="72">das</token>
+    <token token_id="73">in</token>
+    <token token_id="74">der</token>
+    <token token_id="75">statt</token>
+    <token token_id="76">Basel</token>
+    <token token_id="77">in</token>
+    <token token_id="78">Spalen</token>
+    <token token_id="79">Vorstatt</token>
+    <token token_id="80">zwü</token>
+    <token token_id="81">¬</token>
+    <token token_id="82">schen</token>
+    <token token_id="83">dem</token>
+    <token token_id="84">Hus</token>
+    <token token_id="85">Fröndnow</token>
+    <token token_id="86">und</token>
+    <token token_id="87">Batt</token>
+    <token token_id="88">sys</token>
+    <token token_id="89">Hus</token>
+    <token token_id="90">gele</token>
+    <token token_id="91">¬</token>
+    <token token_id="92">gen</token>
+    <token token_id="93">und</token>
+    <token token_id="94">zum</token>
+    <token token_id="95">Tugstein</token>
+    <token token_id="96">genant</token>
+    <token token_id="97">ist</token>
+    <token token_id="98">,</token>
+    <token token_id="99">zinset</token>
+    <token token_id="100">ierlichs</token>
+    <token token_id="101">der</token>
+    <token token_id="102">presenz</token>
+    <token token_id="103">uf</token>
+    <token token_id="104">burg</token>
+    <token token_id="105">1</token>
+    <token token_id="106">℔</token>
+    <token token_id="107">zinspfennig</token>
+    <token token_id="108">,</token>
+    <token token_id="109">sodan</token>
+    <token token_id="110">dem</token>
+    <token token_id="111">Spy</token>
+    <token token_id="112">¬</token>
+    <token token_id="113">tal</token>
+    <token token_id="114">zu</token>
+    <token token_id="115">Basel</token>
+    <token token_id="116">2</token>
+    <token token_id="117">gld</token>
+    <token token_id="118">-</token>
+    <token token_id="119">1</token>
+    <token token_id="120">℔</token>
+    <token token_id="121">3ß</token>
+    <token token_id="122">nuwer</token>
+    <token token_id="123">pfennig</token>
+    <token token_id="124">für</token>
+    <token token_id="125">den</token>
+    <token token_id="126">gld</token>
+    <token token_id="127">.</token>
+    <token token_id="128">und</token>
+    <token token_id="129">Margretha</token>
+    <token token_id="130">Brugckschleulin</token>
+    <token token_id="131">ouch</token>
+    <token token_id="132">2</token>
+    <token token_id="133">gld</token>
+    <token token_id="134">.</token>
+    <token token_id="135">1</token>
+    <token token_id="136">℔</token>
+    <token token_id="137">5ß</token>
+    <token token_id="138">nuwer</token>
+    <token token_id="139">pfenning</token>
+    <token token_id="140">für</token>
+    <token token_id="141">den</token>
+    <token token_id="142">gld</token>
+    <token token_id="143">.</token>
+    <token token_id="144">sonst</token>
+    <token token_id="145">frey</token>
+    <token token_id="146">,</token>
+    <token token_id="147">ledig</token>
+    <token token_id="148">.</token>
+  </text>
+  <spans>
+    <span id="2406" start="0" end="11" text="Jacob Supper der brotbeck , Burger zu&#10;Basel und Barbara sen Efrow" element="list" class="per" subclass="">
+      <span id="2327" start="0" end="7" text="Jacob Supper der brotbeck , Burger zu&#10;Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2333" start="0" end="1" text="Jacob Supper" element="head" class="nam" subclass=""/>
+        <span id="2339" start="2" end="3" text="der brotbeck" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2345" start="3" end="3" text="brotbeck" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2351" start="5" end="7" text="Burger zu&#10;Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2357" start="5" end="5" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="2363" start="7" end="7" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2363_head" start="7" end="7" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2369" start="9" end="11" text="Barbara sen Efrow" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2375" start="9" end="9" text="Barbara" element="head" class="nam" subclass=""/>
+        <span id="2381" start="10" end="11" text="sen Efrow" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2393" start="10" end="10" text="sen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2393_head" start="10" end="10" element="head" class="pro" text="sen" subclass=""/>
+          </span>
+          <span id="2387" start="11" end="11" text="Efrow" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2412" start="17" end="29" text="meyster Rudolf Supper der brotbeck des&#10;Rahts zu Basel ir Vater und Schwecher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2418" start="17" end="17" text="meyster" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2418_head" start="17" end="17" element="head" class="title" text="meyster" subclass=""/>
+      </span>
+      <span id="2424" start="18" end="19" text="Rudolf Supper" element="head" class="nam" subclass=""/>
+      <span id="2430" start="20" end="21" text="der brotbeck" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2436" start="21" end="21" text="brotbeck" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="2442" start="22" end="25" text="des&#10;Rahts zu Basel" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2448" start="22" end="25" text="des&#10;Rahts zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="2454" start="23" end="23" text="Rahts" element="head" class="type" subclass=""/>
+          <span id="2460" start="24" end="25" text="zu Basel" element="attr" class="part-of" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2466" start="25" end="25" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2466_head" start="25" end="25" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2472" start="26" end="27" text="ir Vater" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2484" start="26" end="26" text="ir" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2484_head" start="26" end="26" element="head" class="pro" text="ir" subclass=""/>
+        </span>
+        <span id="2478" start="27" end="27" text="Vater" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="2497" start="29" end="29" text="Schwecher" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2497_head" start="29" end="29" element="head" class="fam" text="Schwecher" subclass=""/>
+      </span>
+    </span>
+    <span id="2503" start="37" end="37" text="ierlichs" element="value" class="time" subclass="rec"/>
+    <span id="2509" start="38" end="39" text="1 ℔" element="value" class="money" subclass=""/>
+    <span id="2515" start="45" end="50" text="uf Joh . Bapt zu Sonnwenden" element="value" class="date" subclass=""/>
+    <span id="2732" start="53" end="53" text="von" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2521" start="57" end="147" text="der Houptverkäufer Hus und Hofstatt mit&#10;der Rechtsai des Höfflis darhinder und zugehördt ,&#10;als das in der statt Basel in Spalen Vorstatt zwü ¬&#10;schen dem Hus Fröndnow und Batt sys Hus gele ¬&#10;gen und zum Tugstein genant ist , zinset ierlichs&#10;der presenz uf burg 1 ℔ zinspfennig , sodan dem Spy ¬&#10;tal zu Basel 2 gld - 1 ℔ 3ß nuwer pfennig für den&#10;gld . und Margretha Brugckschleulin ouch 2 gld .&#10;1 ℔ 5ß nuwer pfenning für den gld . sonst frey , ledig" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2533" start="57" end="58" text="der Houptverkäufer" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2539" start="57" end="58" text="der Houptverkäufer" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2552" start="58" end="58" text="Houptverkäufer" element="head" class="role" subclass=""/>
+        </span>
+      </span>
+      <span id="2558" start="59" end="61" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="custom_comp" start="62" end="69" text="mit&#10;der Rechtsai des Höfflis darhinder und zugehördt" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2564" start="65" end="66" text="des Höfflis" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2570" start="66" end="66" text="Höfflis" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="2630" start="71" end="92" text="als das in der statt Basel in Spalen Vorstatt zwü ¬&#10;schen dem Hus Fröndnow und Batt sys Hus gele ¬&#10;gen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2576" start="74" end="76" text="der statt Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2582" start="75" end="76" text="statt Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2588" start="78" end="79" text="Spalen Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="2588_head" start="78" end="79" element="head" class="nam" text="Spalen Vorstatt" subclass=""/>
+        </span>
+        <span id="2594" start="83" end="85" text="dem Hus Fröndnow" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2600" start="84" end="85" text="Hus Fröndnow" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2606" start="87" end="89" text="Batt sys Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2618" start="87" end="88" text="Batt sys" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2624" start="87" end="88" text="Batt sys" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2624_head" start="87" end="88" element="head" class="nam" text="Batt sys" subclass=""/>
+            </span>
+          </span>
+          <span id="2612" start="89" end="89" text="Hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="2636" start="94" end="95" text="zum Tugstein" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2636_head" start="94" end="95" element="head" class="nam" text="zum Tugstein" subclass=""/>
+      </span>
+      <span id="2642" start="99" end="147" text="zinset ierlichs&#10;der presenz uf burg 1 ℔ zinspfennig , sodan dem Spy ¬&#10;tal zu Basel 2 gld - 1 ℔ 3ß nuwer pfennig für den&#10;gld . und Margretha Brugckschleulin ouch 2 gld .&#10;1 ℔ 5ß nuwer pfenning für den gld . sonst frey , ledig" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2744" start="99" end="99" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2738" start="100" end="100" text="ierlichs" element="value" class="time" subclass="rec"/>
+        <span id="2648" start="101" end="104" text="der presenz uf burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2654" start="102" end="102" text="presenz" element="head" class="type" subclass=""/>
+          <span id="2660" start="103" end="104" text="uf burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2666" start="104" end="104" text="burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2666_head" start="104" end="104" element="head" class="nam" text="burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2672" start="105" end="107" text="1 ℔ zinspfennig" element="value" class="money" subclass=""/>
+        <span id="2678" start="110" end="115" text="dem Spy ¬&#10;tal zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2684" start="111" end="113" text="Spy ¬&#10;tal" element="head" class="type" subclass=""/>
+          <span id="2690" start="114" end="115" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2696" start="115" end="115" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2696_head" start="115" end="115" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2702" start="116" end="117" text="2 gld" element="value" class="money" subclass=""/>
+        <span id="2708" start="119" end="123" text="1 ℔ 3ß nuwer pfennig" element="value" class="money" subclass=""/>
+        <span id="2714" start="129" end="130" text="Margretha Brugckschleulin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2714_head" start="129" end="130" element="head" class="nam" text="Margretha Brugckschleulin" subclass=""/>
+        </span>
+        <span id="2720" start="132" end="134" text="2 gld ." element="value" class="money" subclass=""/>
+        <span id="2726" start="135" end="139" text="1 ℔ 5ß nuwer pfenning" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2490" from="2484" to="2406" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2545" from="2539" to="2406" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2399" from="2393" to="2327" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2744_role" from="2744" to="2521" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="5" end="7" ref="2351" type="state">
+      <trigger start="5" end="5" text="Burger" ref="2357"/>
+      <event event_id="0.0">
+        <role role="resident" ref="2327" text="Jacob Supper der brotbeck , Burger zu&#10;Basel"/>
+        <role role="geopolitical-entity" ref="2363" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="10" end="11" ref="2381" type="state">
+      <trigger start="11" end="11" text="Efrow" ref="2387"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="2369" text="Barbara sen Efrow"/>
+        <role role="family-b" ref="2393" text="sen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="26" end="27" ref="2472" type="state">
+      <trigger start="27" end="27" text="Vater" ref="2478"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="2412" text="meyster Rudolf Supper der brotbeck des&#10;Rahts zu Basel ir Vater und Schwecher"/>
+        <role role="family-b" ref="2484" text="ir"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="membership" polarity="pos" tense="pres" modality="ass" start="22" end="25" ref="2442" type="state">
+      <event event_id="3.0">
+        <role role="member" ref="2412" text="meyster Rudolf Supper der brotbeck des&#10;Rahts zu Basel ir Vater und Schwecher"/>
+        <role role="organization" ref="2448" text="des&#10;Rahts zu Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="24" end="25" ref="2460" type="state">
+      <event event_id="4.0">
+        <role role="part" ref="2448" text="des&#10;Rahts zu Basel"/>
+        <role role="whole" ref="2466" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="57" end="58" ref="2533" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="2521" text="der Houptverkäufer Hus und Hofstatt mit&#10;der Rechtsai des Höfflis darhinder und zugehördt ,&#10;als das in der statt Basel in Spalen Vorstatt zwü ¬&#10;schen dem Hus Fröndnow und Batt sys Hus gele ¬&#10;gen und zum Tugstein genant ist , zinset ierlichs&#10;der presenz uf burg 1 ℔ zinspfennig , sodan dem Spy ¬&#10;tal zu Basel 2 gld - 1 ℔ 3ß nuwer pfennig für den&#10;gld . und Margretha Brugckschleulin ouch 2 gld .&#10;1 ℔ 5ß nuwer pfenning für den gld . sonst frey , ledig"/>
+        <role role="owner" ref="2539" text="der Houptverkäufer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="part_whole" polarity="pos" tense="pres" modality="ass" start="62" end="69" ref="custom_comp" type="state">
+      <event event_id="6.0">
+        <role role="whole" ref="2521" text="der Houptverkäufer Hus und Hofstatt mit&#10;der Rechtsai des Höfflis darhinder und zugehördt ,&#10;als das in der statt Basel in Spalen Vorstatt zwü ¬&#10;schen dem Hus Fröndnow und Batt sys Hus gele ¬&#10;gen und zum Tugstein genant ist , zinset ierlichs&#10;der presenz uf burg 1 ℔ zinspfennig , sodan dem Spy ¬&#10;tal zu Basel 2 gld - 1 ℔ 3ß nuwer pfennig für den&#10;gld . und Margretha Brugckschleulin ouch 2 gld .&#10;1 ℔ 5ß nuwer pfenning für den gld . sonst frey , ledig"/>
+        <role role="part" ref="2564" text="des Höfflis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="71" end="92" ref="2630" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="2521" text="der Houptverkäufer Hus und Hofstatt mit&#10;der Rechtsai des Höfflis darhinder und zugehördt ,&#10;als das in der statt Basel in Spalen Vorstatt zwü ¬&#10;schen dem Hus Fröndnow und Batt sys Hus gele ¬&#10;gen und zum Tugstein genant ist , zinset ierlichs&#10;der presenz uf burg 1 ℔ zinspfennig , sodan dem Spy ¬&#10;tal zu Basel 2 gld - 1 ℔ 3ß nuwer pfennig für den&#10;gld . und Margretha Brugckschleulin ouch 2 gld .&#10;1 ℔ 5ß nuwer pfenning für den gld . sonst frey , ledig"/>
+        <role role="location-b" ref="2576" text="der statt Basel"/>
+        <role role="location-b" ref="2588" text="Spalen Vorstatt"/>
+        <role role="location-b" ref="2594" text="dem Hus Fröndnow"/>
+        <role role="location-b" ref="2606" text="Batt sys Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="ownership" polarity="pos" tense="pres" modality="ass" start="87" end="88" ref="2618" type="state">
+      <event event_id="8.0">
+        <role role="property" ref="2606" text="Batt sys Hus"/>
+        <role role="owner" ref="2624" text="Batt sys"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="topological" polarity="pos" tense="pres" modality="ass" start="103" end="104" ref="2660" type="state">
+      <event event_id="9.0">
+        <role role="location-a" ref="2648" text="der presenz uf burg"/>
+        <role role="location-b" ref="2666" text="burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="topological" polarity="pos" tense="pres" modality="ass" start="114" end="115" ref="2690" type="state">
+      <event event_id="10.0">
+        <role role="location-a" ref="2678" text="dem Spy ¬&#10;tal zu Basel"/>
+        <role role="location-b" ref="2696" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="0" end="53" ref="" type="state">
+      <trigger start="53" end="53" text="von" ref="2732"/>
+      <event event_id="11.0">
+        <role role="payer" ref="2327" text="Jacob Supper der brotbeck , Burger zu&#10;Basel"/>
+        <role role="payer" ref="2369" text="Barbara sen Efrow"/>
+        <role role="payer" ref="2412" text="meyster Rudolf Supper der brotbeck des&#10;Rahts zu Basel ir Vater und Schwecher"/>
+        <role role="interval" ref="2503" text="ierlichs"/>
+        <role role="interest" ref="2509" text="1 ℔"/>
+        <role role="due-date" ref="2515" text="uf Joh . Bapt zu Sonnwenden"/>
+        <role role="property" ref="2521" text="der Houptverkäufer Hus und Hofstatt mit&#10;der Rechtsai des Höfflis darhinder und zugehördt ,&#10;als das in der statt Basel in Spalen Vorstatt zwü ¬&#10;schen dem Hus Fröndnow und Batt sys Hus gele ¬&#10;gen und zum Tugstein genant ist , zinset ierlichs&#10;der presenz uf burg 1 ℔ zinspfennig , sodan dem Spy ¬&#10;tal zu Basel 2 gld - 1 ℔ 3ß nuwer pfennig für den&#10;gld . und Margretha Brugckschleulin ouch 2 gld .&#10;1 ℔ 5ß nuwer pfenning für den gld . sonst frey , ledig"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="57" end="99" ref="2642" type="state">
+      <trigger start="99" end="99" text="zinset" ref="2744"/>
+      <event event_id="12.0">
+        <role role="interval" ref="2738" text="ierlichs"/>
+        <role role="beneficiary" ref="2648" text="der presenz uf burg"/>
+        <role role="interest" ref="2672" text="1 ℔ zinspfennig"/>
+        <role role="property" ref="2521" text="der Houptverkäufer Hus und Hofstatt mit&#10;der Rechtsai des Höfflis darhinder und zugehördt ,&#10;als das in der statt Basel in Spalen Vorstatt zwü ¬&#10;schen dem Hus Fröndnow und Batt sys Hus gele ¬&#10;gen und zum Tugstein genant ist , zinset ierlichs&#10;der presenz uf burg 1 ℔ zinspfennig , sodan dem Spy ¬&#10;tal zu Basel 2 gld - 1 ℔ 3ß nuwer pfennig für den&#10;gld . und Margretha Brugckschleulin ouch 2 gld .&#10;1 ℔ 5ß nuwer pfenning für den gld . sonst frey , ledig"/>
+      </event>
+      <event event_id="12.1">
+        <role role="interval" ref="2738" text="ierlichs"/>
+        <role role="beneficiary" ref="2678" text="dem Spy ¬&#10;tal zu Basel"/>
+        <role role="interest" ref="2702" text="2 gld"/>
+        <role role="detail_interest-conv" ref="2708" text="1 ℔ 3ß nuwer pfennig"/>
+        <role role="property" ref="2521" text="der Houptverkäufer Hus und Hofstatt mit&#10;der Rechtsai des Höfflis darhinder und zugehördt ,&#10;als das in der statt Basel in Spalen Vorstatt zwü ¬&#10;schen dem Hus Fröndnow und Batt sys Hus gele ¬&#10;gen und zum Tugstein genant ist , zinset ierlichs&#10;der presenz uf burg 1 ℔ zinspfennig , sodan dem Spy ¬&#10;tal zu Basel 2 gld - 1 ℔ 3ß nuwer pfennig für den&#10;gld . und Margretha Brugckschleulin ouch 2 gld .&#10;1 ℔ 5ß nuwer pfenning für den gld . sonst frey , ledig"/>
+      </event>
+      <event event_id="12.2">
+        <role role="interval" ref="2738" text="ierlichs"/>
+        <role role="beneficiary" ref="2714" text="Margretha Brugckschleulin"/>
+        <role role="interest" ref="2720" text="2 gld ."/>
+        <role role="detail_interest-conv" ref="2726" text="1 ℔ 5ß nuwer pfenning"/>
+        <role role="property" ref="2521" text="der Houptverkäufer Hus und Hofstatt mit&#10;der Rechtsai des Höfflis darhinder und zugehördt ,&#10;als das in der statt Basel in Spalen Vorstatt zwü ¬&#10;schen dem Hus Fröndnow und Batt sys Hus gele ¬&#10;gen und zum Tugstein genant ist , zinset ierlichs&#10;der presenz uf burg 1 ℔ zinspfennig , sodan dem Spy ¬&#10;tal zu Basel 2 gld - 1 ℔ 3ß nuwer pfennig für den&#10;gld . und Margretha Brugckschleulin ouch 2 gld .&#10;1 ℔ 5ß nuwer pfenning für den gld . sonst frey , ledig"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

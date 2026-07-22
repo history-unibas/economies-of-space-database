@@ -1,0 +1,598 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/101 S. [31]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 44</tei:title>
+            <tei:idno>HGB 1 194/101</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1515804</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1529">1529</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611040.9536320157 1267358.3050252353</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Inthoni</token>
+    <token token_id="1">Mentzer</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Seiler</token>
+    <token token_id="4">,</token>
+    <token token_id="5">und</token>
+    <token token_id="6">seine</token>
+    <token token_id="7">Frau</token>
+    <token token_id="8">Mechtild</token>
+    <token token_id="9">,</token>
+    <token token_id="10">verkaufen</token>
+    <token token_id="11">an</token>
+    <token token_id="12">Clausen</token>
+    <token token_id="13">tegerfeld</token>
+    <token token_id="14">den</token>
+    <token token_id="15">schlosser</token>
+    <token token_id="16">,</token>
+    <token token_id="17">u</token>
+    <token token_id="18">.</token>
+    <token token_id="19">seine</token>
+    <token token_id="20">Frau</token>
+    <token token_id="21">Barbara</token>
+    <token token_id="22">,</token>
+    <token token_id="23">das</token>
+    <token token_id="24">Hus</token>
+    <token token_id="25">u</token>
+    <token token_id="26">.</token>
+    <token token_id="27">Hofstat</token>
+    <token token_id="28">,</token>
+    <token token_id="29">sodan</token>
+    <token token_id="30">auch</token>
+    <token token_id="31">einen</token>
+    <token token_id="32">zweyteil</token>
+    <token token_id="33">einer</token>
+    <token token_id="34">Juch</token>
+    <token token_id="35">.</token>
+    <token token_id="36">Reben</token>
+    <token token_id="37">,</token>
+    <token token_id="38">als</token>
+    <token token_id="39">das</token>
+    <token token_id="40">Hus</token>
+    <token token_id="41">an</token>
+    <token token_id="42">den</token>
+    <token token_id="43">Spalen</token>
+    <token token_id="44">,</token>
+    <token token_id="45">vor</token>
+    <token token_id="46">dem</token>
+    <token token_id="47">Hus</token>
+    <token token_id="48">zum</token>
+    <token token_id="49">schönen</token>
+    <token token_id="50">man</token>
+    <token token_id="51">über</token>
+    <token token_id="52">,</token>
+    <token token_id="53">zwüschen</token>
+    <token token_id="54">dem</token>
+    <token token_id="55">Hus</token>
+    <token token_id="56">zum</token>
+    <token token_id="57">Pflug</token>
+    <token token_id="58">,</token>
+    <token token_id="59">u</token>
+    <token token_id="60">.</token>
+    <token token_id="61">Guldinknopffs</token>
+    <token token_id="62">sel</token>
+    <token token_id="63">hus</token>
+    <token token_id="64">gelegen</token>
+    <token token_id="65">,</token>
+    <token token_id="66">u</token>
+    <token token_id="67">.</token>
+    <token token_id="68">zum</token>
+    <token token_id="69">Steinkeller</token>
+    <token token_id="70">genant</token>
+    <token token_id="71">ist</token>
+    <token token_id="72">,</token>
+    <token token_id="73">so</token>
+    <token token_id="74">lit</token>
+    <token token_id="75">der</token>
+    <token token_id="76">Rebacker</token>
+    <token token_id="77">vor</token>
+    <token token_id="78">Spalenthor</token>
+    <token token_id="79">,</token>
+    <token token_id="80">zwüschen</token>
+    <token token_id="81">der</token>
+    <token token_id="82">Ellenden</token>
+    <token token_id="83">Herberg</token>
+    <token token_id="84">acker</token>
+    <token token_id="85">,</token>
+    <token token_id="86">u</token>
+    <token token_id="87">.</token>
+    <token token_id="88">Fridli</token>
+    <token token_id="89">grassen</token>
+    <token token_id="90">sel</token>
+    <token token_id="91">.</token>
+    <token token_id="92">güter</token>
+    <token token_id="93">,</token>
+    <token token_id="94">zinst</token>
+    <token token_id="95">das</token>
+    <token token_id="96">Hus</token>
+    <token token_id="97">von</token>
+    <token token_id="98">eig</token>
+    <token token_id="99">.</token>
+    <token token_id="100">wegen</token>
+    <token token_id="101">an</token>
+    <token token_id="102">des</token>
+    <token token_id="103">h</token>
+    <token token_id="104">.</token>
+    <token token_id="105">Crutzes</token>
+    <token token_id="106">altar</token>
+    <token token_id="107">zu</token>
+    <token token_id="108">s</token>
+    <token token_id="109">.</token>
+    <token token_id="110">Peter</token>
+    <token token_id="111">1</token>
+    <token token_id="112">℔</token>
+    <token token_id="113">.</token>
+    <token token_id="114">sodan</token>
+    <token token_id="115">Jr</token>
+    <token token_id="116">.</token>
+    <token token_id="117">Heinrich</token>
+    <token token_id="118">Meltingers</token>
+    <token token_id="119">sel</token>
+    <token token_id="120">.</token>
+    <token token_id="121">Erben</token>
+    <token token_id="122">1</token>
+    <token token_id="123">℔</token>
+    <token token_id="124">3sh</token>
+    <token token_id="125">.</token>
+    <token token_id="126">u</token>
+    <token token_id="127">.</token>
+    <token token_id="128">dan</token>
+    <token token_id="129">so</token>
+    <token token_id="130">zinst</token>
+    <token token_id="131">der</token>
+    <token token_id="132">Rebacker</token>
+    <token token_id="133">von</token>
+    <token token_id="134">eig</token>
+    <token token_id="135">.</token>
+    <token token_id="136">15</token>
+    <token token_id="137">d</token>
+    <token token_id="138">.</token>
+    <token token_id="139">u</token>
+    <token token_id="140">.</token>
+    <token token_id="141">dan</token>
+    <token token_id="142">3dn</token>
+    <token token_id="143">.</token>
+    <token token_id="144">für</token>
+    <token token_id="145">ein</token>
+    <token token_id="146">vierteil</token>
+    <token token_id="147">einschuns</token>
+    <token token_id="148">zu</token>
+    <token token_id="149">wysung</token>
+    <token token_id="150">den</token>
+    <token token_id="151">Herren</token>
+    <token token_id="152">zu</token>
+    <token token_id="153">s</token>
+    <token token_id="154">.</token>
+    <token token_id="155">Martin</token>
+    <token token_id="156">,</token>
+    <token token_id="157">u</token>
+    <token token_id="158">.</token>
+    <token token_id="159">3dn</token>
+    <token token_id="160">.</token>
+    <token token_id="161">an</token>
+    <token token_id="162">die</token>
+    <token token_id="163">Responskertzen</token>
+    <token token_id="164">uff</token>
+    <token token_id="165">Burg</token>
+    <token token_id="166">.</token>
+    <token token_id="167">ist</token>
+    <token token_id="168">zehend</token>
+    <token token_id="169">frei</token>
+    <token token_id="170">,</token>
+    <token token_id="171">u</token>
+    <token token_id="172">.</token>
+    <token token_id="173">dan</token>
+    <token token_id="174">so</token>
+    <token token_id="175">zinst</token>
+    <token token_id="176">beider</token>
+    <token token_id="177">miteinander</token>
+    <token token_id="178">Hans</token>
+    <token token_id="179">Grafen</token>
+    <token token_id="180">,</token>
+    <token token_id="181">1</token>
+    <token token_id="182">℔</token>
+    <token token_id="183">sind</token>
+    <token token_id="184">abl</token>
+    <token token_id="185">.</token>
+    <token token_id="186">Jr</token>
+    <token token_id="187">.</token>
+    <token token_id="188">Thoman</token>
+    <token token_id="189">von</token>
+    <token token_id="190">Leymen</token>
+    <token token_id="191">1</token>
+    <token token_id="192">℔</token>
+    <token token_id="193">.</token>
+    <token token_id="194">u</token>
+    <token token_id="195">.</token>
+    <token token_id="196">zuletzt</token>
+    <token token_id="197">der</token>
+    <token token_id="198">Ellenden</token>
+    <token token_id="199">Huber</token>
+    <token token_id="200">,</token>
+    <token token_id="201">2</token>
+    <token token_id="202">fl</token>
+    <token token_id="203">.</token>
+    <token token_id="204">sonst</token>
+    <token token_id="205">frei</token>
+    <token token_id="206">.</token>
+  </text>
+  <spans>
+    <span id="2924" start="0" end="8" text="Inthoni Mentzer der Seiler , und seine Frau Mechtild" element="list" class="per" subclass="">
+      <span id="2863" start="0" end="3" text="Inthoni Mentzer der Seiler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2869" start="0" end="1" text="Inthoni Mentzer" element="head" class="nam" subclass=""/>
+        <span id="2875" start="2" end="3" text="der Seiler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2881" start="3" end="3" text="Seiler" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="2887" start="6" end="8" text="seine Frau Mechtild" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2899" start="6" end="7" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2911" start="6" end="6" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2911_head" start="6" end="6" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="2905" start="7" end="7" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="2893" start="8" end="8" text="Mechtild" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="3421" start="10" end="10" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2991" start="12" end="21" text="Clausen tegerfeld den schlosser , u . seine Frau Barbara" element="list" class="per" subclass="">
+      <span id="2930" start="12" end="15" text="Clausen tegerfeld den schlosser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2936" start="12" end="13" text="Clausen tegerfeld" element="head" class="nam" subclass=""/>
+        <span id="2942" start="14" end="15" text="den schlosser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2948" start="15" end="15" text="schlosser" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="2954" start="19" end="21" text="seine Frau Barbara" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2966" start="19" end="20" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2978" start="19" end="19" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2978_head" start="19" end="19" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="2972" start="20" end="20" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="2960" start="21" end="21" text="Barbara" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="3415" start="23" end="36" text="das Hus u . Hofstat , sodan auch einen zweyteil einer Juch . Reben" element="list" class="fac" subclass="">
+      <span id="2997" start="23" end="27" text="das Hus u . Hofstat" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3003" start="24" end="27" text="Hus u . Hofstat" element="head" class="type" subclass=""/>
+      </span>
+      <span id="3009" start="33" end="36" text="einer Juch . Reben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3015" start="34" end="36" text="Juch . Reben" element="head" class="type" subclass=""/>
+      </span>
+    </span>
+    <span id="3021" start="39" end="71" text="das Hus an den Spalen , vor dem Hus zum schönen man über ,&#10;zwüschen dem Hus zum Pflug , u . Guldinknopffs sel hus gelegen ,&#10;u . zum Steinkeller genant ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="3027" start="39" end="40" text="das Hus" element="head" class="type" subclass=""/>
+      <span id="3040" start="41" end="64" text="an den Spalen , vor dem Hus zum schönen man über ,&#10;zwüschen dem Hus zum Pflug , u . Guldinknopffs sel hus gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3046" start="42" end="43" text="den Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3052" start="43" end="43" text="Spalen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="3058" start="46" end="50" text="dem Hus zum schönen man" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3064" start="47" end="50" text="Hus zum schönen man" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="3070" start="54" end="57" text="dem Hus zum Pflug" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3076" start="55" end="57" text="Hus zum Pflug" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="3082" start="61" end="63" text="Guldinknopffs sel hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3094" start="61" end="62" text="Guldinknopffs sel" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3100" start="61" end="62" text="Guldinknopffs sel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="3106" start="61" end="61" text="Guldinknopffs" element="head" class="nam" subclass=""/>
+              <span id="3112" start="62" end="62" text="sel" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+            </span>
+          </span>
+          <span id="3088" start="63" end="63" text="hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="3118" start="68" end="69" text="zum Steinkeller" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3118_head" start="68" end="69" element="head" class="nam" text="zum Steinkeller" subclass=""/>
+      </span>
+    </span>
+    <span id="3124" start="75" end="92" text="der Rebacker vor Spalenthor ,&#10;zwüschen der Ellenden Herberg acker , u . Fridli grassen sel . güter" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="3130" start="76" end="76" text="Rebacker" element="head" class="type" subclass=""/>
+      <span id="3136" start="77" end="92" text="vor Spalenthor ,&#10;zwüschen der Ellenden Herberg acker , u . Fridli grassen sel . güter" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3149" start="78" end="78" text="Spalenthor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gate">
+          <span id="3149_head" start="78" end="78" element="head" class="nam" text="Spalenthor" subclass=""/>
+        </span>
+        <span id="3155" start="81" end="84" text="der Ellenden Herberg acker" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3167" start="81" end="83" text="der Ellenden Herberg" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3173" start="82" end="83" text="Ellenden Herberg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="3173_head" start="82" end="83" element="head" class="type" text="Ellenden Herberg" subclass=""/>
+            </span>
+          </span>
+          <span id="3161" start="84" end="84" text="acker" element="head" class="type" subclass=""/>
+        </span>
+        <span id="3179" start="88" end="92" text="Fridli grassen sel . güter" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3191" start="88" end="91" text="Fridli grassen sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3197" start="88" end="91" text="Fridli grassen sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="3203" start="88" end="89" text="Fridli grassen" element="head" class="nam" subclass=""/>
+              <span id="3209" start="90" end="91" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+            </span>
+          </span>
+          <span id="3185" start="92" end="92" text="güter" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="3427" start="94" end="94" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="3215" start="95" end="96" text="das Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="3215_head" start="95" end="96" element="head" class="type" text="das Hus" subclass=""/>
+    </span>
+    <span id="3433" start="97" end="100" text="von eig . wegen" element="other" class="other" subclass=""/>
+    <span id="3228" start="102" end="110" text="des h . Crutzes altar zu s . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="3234" start="103" end="106" text="h . Crutzes altar" element="head" class="nam" subclass=""/>
+      <span id="3240" start="107" end="110" text="zu s . Peter" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3246" start="108" end="110" text="s . Peter" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="3246_head" start="108" end="110" element="head" class="nam" text="s . Peter" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="3252" start="111" end="113" text="1 ℔." element="value" class="money" subclass=""/>
+    <span id="3258" start="115" end="121" text="Jr . Heinrich Meltingers sel . Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="3270" start="115" end="120" text="Jr . Heinrich Meltingers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3276" start="115" end="116" text="Jr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3276_head" start="115" end="116" element="head" class="title" text="Jr ." subclass=""/>
+        </span>
+        <span id="3282" start="117" end="118" text="Heinrich Meltingers" element="head" class="nam" subclass=""/>
+        <span id="3288" start="119" end="120" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="3264" start="121" end="121" text="Erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="3294" start="122" end="125" text="1 ℔ 3sh ." element="value" class="money" subclass=""/>
+    <span id="3439" start="130" end="130" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="3300" start="131" end="132" text="der Rebacker" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="3300_head" start="131" end="132" element="head" class="type" text="der Rebacker" subclass=""/>
+    </span>
+    <span id="3445" start="133" end="134" text="von eig" element="other" class="other" subclass=""/>
+    <span id="3451" start="136" end="138" text="15 d ." element="value" class="money" subclass=""/>
+    <span id="3457" start="142" end="143" text="3dn ." element="value" class="money" subclass=""/>
+    <span id="3313" start="145" end="147" text="ein vierteil einschuns" element="value" class="money" subclass=""/>
+    <span id="3319" start="150" end="155" text="den Herren zu s . Martin" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="3325" start="151" end="155" text="Herren zu s . Martin" element="head" class="type" subclass=""/>
+    </span>
+    <span id="3331" start="159" end="160" text="3dn ." element="value" class="money" subclass=""/>
+    <span id="3337" start="162" end="165" text="die Responskertzen uff Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="3343" start="163" end="163" text="Responskertzen" element="head" class="type" subclass=""/>
+      <span id="3349" start="164" end="165" text="uff Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3355" start="165" end="165" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3355_head" start="165" end="165" element="head" class="nam" text="Burg" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="3476" start="175" end="175" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="3463" start="176" end="176" text="beider" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="3463_head" start="176" end="176" element="head" class="pro" text="beider" subclass=""/>
+    </span>
+    <span id="3361" start="178" end="179" text="Hans Grafen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="3361_head" start="178" end="179" element="head" class="nam" text="Hans Grafen" subclass=""/>
+    </span>
+    <span id="3367" start="181" end="182" text="1 ℔" element="value" class="money" subclass=""/>
+    <span id="3482" start="184" end="185" text="abl ." element="other" class="other" subclass=""/>
+    <span id="3373" start="186" end="190" text="Jr . Thoman von Leymen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="3379" start="186" end="187" text="Jr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3379_head" start="186" end="187" element="head" class="title" text="Jr ." subclass=""/>
+      </span>
+      <span id="3385" start="188" end="190" text="Thoman von Leymen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="3391" start="191" end="193" text="1 ℔." element="value" class="money" subclass=""/>
+    <span id="3397" start="197" end="199" text="der Ellenden Huber" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="3403" start="198" end="199" text="Ellenden Huber" element="head" class="type" subclass=""/>
+    </span>
+    <span id="3409" start="201" end="203" text="2 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2917" from="2911" to="2863" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2984" from="2978" to="2930" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3469" from="3463" to="3415" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3033" from="3021" to="2997" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3142" from="3124" to="3009" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3221" from="3215" to="3021" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3306" from="3300" to="3124" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="115" end="121" ref="3258" type="event">
+      <trigger start="121" end="121" text="Erben" ref="3264"/>
+      <event event_id="0.0">
+        <role role="heir" ref="3258" text="Jr . Heinrich Meltingers sel . Erben"/>
+        <role role="decedent" ref="3270" text="Jr . Heinrich Meltingers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="6" end="7" ref="2899" type="state">
+      <trigger start="7" end="7" text="Frau" ref="2905"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="2887" text="seine Frau Mechtild"/>
+        <role role="family-b" ref="2911" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="19" end="20" ref="2966" type="state">
+      <trigger start="20" end="20" text="Frau" ref="2972"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="2954" text="seine Frau Barbara"/>
+        <role role="family-b" ref="2978" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="41" end="64" ref="3040" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="3021" text="das Hus an den Spalen , vor dem Hus zum schönen man über ,&#10;zwüschen dem Hus zum Pflug , u . Guldinknopffs sel hus gelegen ,&#10;u . zum Steinkeller genant ist"/>
+        <role role="location-b" ref="3046" text="den Spalen"/>
+        <role role="location-b" ref="3058" text="dem Hus zum schönen man"/>
+        <role role="location-b" ref="3070" text="dem Hus zum Pflug"/>
+        <role role="location-b" ref="3082" text="Guldinknopffs sel hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="61" end="62" ref="3094" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="3082" text="Guldinknopffs sel hus"/>
+        <role role="owner" ref="3100" text="Guldinknopffs sel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="77" end="92" ref="3136" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="3124" text="der Rebacker vor Spalenthor ,&#10;zwüschen der Ellenden Herberg acker , u . Fridli grassen sel . güter"/>
+        <role role="location-b" ref="3149" text="Spalenthor"/>
+        <role role="location-b" ref="3155" text="der Ellenden Herberg acker"/>
+        <role role="location-b" ref="3179" text="Fridli grassen sel . güter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="81" end="83" ref="3167" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="3155" text="der Ellenden Herberg acker"/>
+        <role role="owner" ref="3173" text="Ellenden Herberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="88" end="91" ref="3191" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="3179" text="Fridli grassen sel . güter"/>
+        <role role="owner" ref="3197" text="Fridli grassen sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="107" end="110" ref="3240" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="3228" text="des h . Crutzes altar zu s . Peter"/>
+        <role role="location-b" ref="3246" text="s . Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="topological" polarity="pos" tense="pres" modality="ass" start="164" end="165" ref="3349" type="state">
+      <event event_id="9.0">
+        <role role="location-a" ref="3337" text="die Responskertzen uff Burg"/>
+        <role role="location-b" ref="3355" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="36" ref="" type="event">
+      <trigger start="10" end="10" text="verkaufen" ref="3421"/>
+      <event event_id="10.0">
+        <role role="seller" ref="2863" text="Inthoni Mentzer der Seiler"/>
+        <role role="seller" ref="2887" text="seine Frau Mechtild"/>
+        <role role="buyer" ref="2930" text="Clausen tegerfeld den schlosser"/>
+        <role role="buyer" ref="2954" text="seine Frau Barbara"/>
+        <role role="property" ref="2997" text="das Hus u . Hofstat"/>
+        <role role="property" ref="3009" text="einer Juch . Reben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="94" end="94" ref="" type="state">
+      <trigger start="94" end="94" text="zinst" ref="3427"/>
+      <event event_id="11.0">
+        <role role="property" ref="3215" text="das Hus"/>
+        <role role="cause" ref="3433" text="von eig . wegen"/>
+        <role role="beneficiary" ref="3228" text="des h . Crutzes altar zu s . Peter"/>
+        <role role="interest" ref="3252" text="1 ℔."/>
+      </event>
+      <event event_id="11.1">
+        <role role="property" ref="3215" text="das Hus"/>
+        <role role="beneficiary" ref="3258" text="Jr . Heinrich Meltingers sel . Erben"/>
+        <role role="interest" ref="3294" text="1 ℔ 3sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="130" end="165" ref="" type="state">
+      <trigger start="130" end="130" text="zinst" ref="3439"/>
+      <event event_id="12.0">
+        <role role="property" ref="3300" text="der Rebacker"/>
+        <role role="cause" ref="3445" text="von eig"/>
+        <role role="interest" ref="3451" text="15 d ."/>
+        <role role="beneficiary" ref="3319" text="den Herren zu s . Martin"/>
+      </event>
+      <event event_id="12.1">
+        <role role="property" ref="3300" text="der Rebacker"/>
+        <role role="detail_interest-conv" ref="3457" text="3dn ."/>
+        <role role="interest" ref="3313" text="ein vierteil einschuns"/>
+        <role role="beneficiary" ref="3319" text="den Herren zu s . Martin"/>
+      </event>
+      <event event_id="12.2">
+        <role role="property" ref="3300" text="der Rebacker"/>
+        <role role="interest" ref="3331" text="3dn ."/>
+        <role role="beneficiary" ref="3337" text="die Responskertzen uff Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="175" end="203" ref="" type="state">
+      <trigger start="175" end="175" text="zinst" ref="3476"/>
+      <event event_id="13.0">
+        <role role="property" ref="3463" text="beider"/>
+        <role role="beneficiary" ref="3361" text="Hans Grafen"/>
+        <role role="interest" ref="3367" text="1 ℔"/>
+        <role role="interest-redeemable" ref="3482" text="abl ."/>
+      </event>
+      <event event_id="13.1">
+        <role role="property" ref="3463" text="beider"/>
+        <role role="beneficiary" ref="3373" text="Jr . Thoman von Leymen"/>
+        <role role="interest" ref="3391" text="1 ℔."/>
+      </event>
+      <event event_id="13.2">
+        <role role="property" ref="3463" text="beider"/>
+        <role role="beneficiary" ref="3397" text="der Ellenden Huber"/>
+        <role role="interest" ref="3409" text="2 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

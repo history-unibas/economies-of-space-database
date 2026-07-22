@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 189/34 S. [5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schützenmattstrasse 23</tei:title>
+            <tei:idno>HGB 1 189/34</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1513732</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Leonhard</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1335">1335</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610778.520202167 1267324.1207957068</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Petter</token>
+    <token token_id="1">zum</token>
+    <token token_id="2">Gren</token>
+    <token token_id="3">verkauft</token>
+    <token token_id="4">sin</token>
+    <token token_id="5">Erbrecht</token>
+    <token token_id="6">,</token>
+    <token token_id="7">so</token>
+    <token token_id="8">er</token>
+    <token token_id="9">an</token>
+    <token token_id="10">dem</token>
+    <token token_id="11">Huss</token>
+    <token token_id="12">in</token>
+    <token token_id="13">der</token>
+    <token token_id="14">Vorstat</token>
+    <token token_id="15">an</token>
+    <token token_id="16">Spalen</token>
+    <token token_id="17">gegen</token>
+    <token token_id="18">dem</token>
+    <token token_id="19">Steinen</token>
+    <token token_id="20">brütz</token>
+    <token token_id="21">zwüschen</token>
+    <token token_id="22">Pfaffen</token>
+    <token token_id="23">von</token>
+    <token token_id="24">Alschwiler</token>
+    <token token_id="25">und</token>
+    <token token_id="26">Jengerlins</token>
+    <token token_id="27">Hussern</token>
+    <token token_id="28">gelegen</token>
+    <token token_id="29">umb</token>
+    <token token_id="30">15</token>
+    <token token_id="31">℔</token>
+    <token token_id="32">,</token>
+    <token token_id="33">jedoch</token>
+    <token token_id="34">mit</token>
+    <token token_id="35">Vorbehalt</token>
+    <token token_id="36">1</token>
+    <token token_id="37">℔</token>
+    <token token_id="38">.</token>
+    <token token_id="39">2</token>
+    <token token_id="40">Ring</token>
+    <token token_id="41">zu</token>
+    <token token_id="42">Wysung</token>
+    <token token_id="43">und</token>
+    <token token_id="44">5</token>
+    <token token_id="45">sh</token>
+    <token token_id="46">.</token>
+    <token token_id="47">Erschatz</token>
+  </text>
+  <spans>
+    <span id="751" start="0" end="2" text="Petter zum Gren" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="751_head" start="0" end="2" element="head" class="nam" text="Petter zum Gren" subclass=""/>
+    </span>
+    <span id="915" start="3" end="3" text="verkauft" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="757" start="4" end="4" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="757_head" start="4" end="4" element="head" class="pro" text="sin" subclass=""/>
+    </span>
+    <span id="770" start="8" end="8" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="770_head" start="8" end="8" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="783" start="10" end="28" text="dem Huss in der Vorstat an Spalen gegen dem&#10;Steinen brütz zwüschen Pfaffen von Alschwiler und&#10;Jengerlins Hussern gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="789" start="11" end="11" text="Huss" element="head" class="type" subclass=""/>
+      <span id="795" start="12" end="28" text="in der Vorstat an Spalen gegen dem&#10;Steinen brütz zwüschen Pfaffen von Alschwiler und&#10;Jengerlins Hussern gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="801" start="13" end="16" text="der Vorstat an Spalen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="807" start="14" end="14" text="Vorstat" element="head" class="type" subclass=""/>
+          <span id="813" start="15" end="16" text="an Spalen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="819" start="16" end="16" text="Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="819_head" start="16" end="16" element="head" class="nam" text="Spalen" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="825" start="18" end="20" text="dem&#10;Steinen brütz" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="831" start="19" end="20" text="Steinen brütz" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="909" start="22" end="27" text="Pfaffen von Alschwiler und&#10;Jengerlins Hussern" element="list" class="fac;per" subclass="">
+          <span id="837" start="22" end="24" text="Pfaffen von Alschwiler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="843" start="22" end="22" text="Pfaffen" element="head" class="occ" subclass=""/>
+            <span id="849" start="23" end="24" text="von Alschwiler" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="855" start="24" end="24" text="Alschwiler" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="855_head" start="24" end="24" element="head" class="nam" text="Alschwiler" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="867" start="26" end="27" text="Jengerlins Hussern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="873" start="26" end="26" text="Jengerlins" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="879" start="26" end="26" text="Jengerlins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="879_head" start="26" end="26" element="head" class="nam" text="Jengerlins" subclass=""/>
+              </span>
+            </span>
+            <span id="861" start="27" end="27" text="Hussern" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="885" start="30" end="31" text="15 ℔" element="value" class="money" subclass=""/>
+    <span id="927" start="36" end="47" text="1 ℔. 2 Ring zu Wysung und 5 sh . Erschatz" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="891" start="36" end="38" text="1 ℔." element="value" class="money" subclass=""/>
+      <span id="897" start="39" end="40" text="2 Ring" element="value" class="money" subclass=""/>
+      <span id="933" start="42" end="42" text="Wysung" element="other" class="other" subclass=""/>
+      <span id="903" start="44" end="46" text="5 sh ." element="value" class="money" subclass=""/>
+      <span id="939" start="47" end="47" text="Erschatz" element="other" class="other" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="763" from="757" to="751" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="776" from="770" to="757" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="36" end="47" ref="927" type="state">
+      <event event_id="0.0">
+        <role role="interest" ref="891" text="1 ℔."/>
+      </event>
+      <event event_id="0.1">
+        <role role="interest" ref="897" text="2 Ring"/>
+        <role role="cause" ref="933" text="Wysung"/>
+      </event>
+      <event event_id="0.2">
+        <role role="interest" ref="903" text="5 sh ."/>
+        <role role="cause" ref="939" text="Erschatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="12" end="28" ref="795" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="783" text="dem Huss in der Vorstat an Spalen gegen dem&#10;Steinen brütz zwüschen Pfaffen von Alschwiler und&#10;Jengerlins Hussern gelegen"/>
+        <role role="location-b" ref="801" text="der Vorstat an Spalen"/>
+        <role role="location-b" ref="825" text="dem&#10;Steinen brütz"/>
+        <role role="location-b" ref="837" text="Pfaffen von Alschwiler"/>
+        <role role="location-b" ref="867" text="Jengerlins Hussern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="16" ref="813" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="801" text="der Vorstat an Spalen"/>
+        <role role="location-b" ref="819" text="Spalen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="23" end="24" ref="849" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="837" text="Pfaffen von Alschwiler"/>
+        <role role="location-b" ref="855" text="Alschwiler"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="26" end="26" ref="873" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="867" text="Jengerlins Hussern"/>
+        <role role="owner" ref="879" text="Jengerlins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="31" ref="" type="event">
+      <trigger start="3" end="3" text="verkauft" ref="915"/>
+      <event event_id="5.0">
+        <role role="seller" ref="751" text="Petter zum Gren"/>
+        <role role="collateral" ref="783" text="dem Huss in der Vorstat an Spalen gegen dem&#10;Steinen brütz zwüschen Pfaffen von Alschwiler und&#10;Jengerlins Hussern gelegen"/>
+        <role role="price" ref="885" text="15 ℔"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

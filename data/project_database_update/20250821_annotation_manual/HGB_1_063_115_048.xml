@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/115 S. [48]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 58</tei:title>
+            <tei:idno>HGB 1 63/115</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472980</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Steinenkloster</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1497">1497</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611291.064279269 1267225.241703761</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Pronvastenzins</token>
+    <token token_id="1">.</token>
+    <token token_id="2">item</token>
+    <token token_id="3">Meister</token>
+    <token token_id="4">Heinrich</token>
+    <token token_id="5">von</token>
+    <token token_id="6">Mülhusen</token>
+    <token token_id="7">git</token>
+    <token token_id="8">alle</token>
+    <token token_id="9">fronvasten</token>
+    <token token_id="10">2</token>
+    <token token_id="11">½</token>
+    <token token_id="12">sh</token>
+    <token token_id="13">.</token>
+    <token token_id="14">ab</token>
+    <token token_id="15">sinem</token>
+    <token token_id="16">Hus</token>
+    <token token_id="17">genannt</token>
+    <token token_id="18">zer</token>
+    <token token_id="19">oben</token>
+    <token token_id="20">Brugg</token>
+    <token token_id="21">under</token>
+    <token token_id="22">dem</token>
+    <token token_id="23">Hus</token>
+    <token token_id="24">zer</token>
+    <token token_id="25">Laytteren</token>
+    <token token_id="26">und</token>
+    <token token_id="27">zur</token>
+    <token token_id="28">nidren</token>
+    <token token_id="29">Brugg</token>
+    <token token_id="30">,</token>
+    <token token_id="31">erschatz</token>
+    <token token_id="32">2</token>
+    <token token_id="33">½</token>
+    <token token_id="34">sh</token>
+    <token token_id="35">.</token>
+    <token token_id="36">und</token>
+    <token token_id="37">3</token>
+    <token token_id="38">ring</token>
+    <token token_id="39">zer</token>
+    <token token_id="40">wisung</token>
+    <token token_id="41">.</token>
+    <token token_id="42">dis</token>
+    <token token_id="43">git</token>
+    <token token_id="44">nun</token>
+    <token token_id="45">Hans</token>
+    <token token_id="46">Götz</token>
+    <token token_id="47">von</token>
+    <token token_id="48">Hagenow</token>
+    <token token_id="49">der</token>
+    <token token_id="50">schnider</token>
+    <token token_id="51">stund</token>
+    <token token_id="52">darzu</token>
+    <token token_id="53">uff</token>
+    <token token_id="54">Cuasimodo</token>
+    <token token_id="55">anno</token>
+    <token token_id="56">97</token>
+    <token token_id="57">.</token>
+    <token token_id="58">daz</token>
+    <token token_id="59">git</token>
+    <token token_id="60">nun</token>
+    <token token_id="61">Erhart</token>
+    <token token_id="62">Wyts</token>
+    <token token_id="63">.</token>
+    <token token_id="64">disen</token>
+    <token token_id="65">zins</token>
+    <token token_id="66">git</token>
+    <token token_id="67">nun</token>
+    <token token_id="68">fürer</token>
+    <token token_id="69">Heinrich</token>
+    <token token_id="70">Wolleben</token>
+    <token token_id="71">,</token>
+    <token token_id="72">ist</token>
+    <token token_id="73">dozu</token>
+    <token token_id="74">gestanden</token>
+    <token token_id="75">anne</token>
+    <token token_id="76">Octaro</token>
+    <token token_id="77">.</token>
+    <token token_id="78">disen</token>
+    <token token_id="79">zins</token>
+    <token token_id="80">git</token>
+    <token token_id="81">nun</token>
+    <token token_id="82">meister</token>
+    <token token_id="83">Dins</token>
+    <token token_id="84">achs</token>
+    <token token_id="85">der</token>
+    <token token_id="86">Fisch</token>
+    <token token_id="87">.</token>
+    <token token_id="88">macher</token>
+    <token token_id="89">.</token>
+    <token token_id="90">Meister</token>
+    <token token_id="91">Jacob</token>
+    <token token_id="92">unser</token>
+    <token token_id="93">Fischmacher</token>
+    <token token_id="94">und</token>
+    <token token_id="95">meister</token>
+    <token token_id="96">Jos</token>
+    <token token_id="97">der</token>
+    <token token_id="98">Fischmacher</token>
+    <token token_id="99">an</token>
+    <token token_id="100">der</token>
+    <token token_id="101">Schnidergassen</token>
+    <token token_id="102">gend</token>
+    <token token_id="103">nun</token>
+    <token token_id="104">den</token>
+    <token token_id="105">zins</token>
+    <token token_id="106">.</token>
+    <token token_id="107">als</token>
+    <token token_id="108">Vogt</token>
+    <token token_id="109">der</token>
+    <token token_id="110">Kinder</token>
+    <token token_id="111">des</token>
+    <token token_id="112">meister</token>
+    <token token_id="113">Dussen</token>
+    <token token_id="114">saligen</token>
+    <token token_id="115">.</token>
+  </text>
+  <spans>
+    <span id="1909" start="3" end="6" text="Meister Heinrich von Mülhusen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1933" start="3" end="3" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1933_head" start="3" end="3" element="head" class="title" text="Meister" subclass=""/>
+      </span>
+      <span id="1915" start="4" end="4" text="Heinrich" element="head" class="nam" subclass=""/>
+      <span id="1921" start="5" end="6" text="von Mülhusen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1927" start="6" end="6" text="Mülhusen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1927_head" start="6" end="6" element="head" class="nam" text="Mülhusen" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2271" start="7" end="7" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1939" start="8" end="9" text="alle&#10;fronvasten" element="value" class="date" subclass=""/>
+    <span id="1945" start="10" end="13" text="2 ½ sh ." element="value" class="money" subclass=""/>
+    <span id="2277" start="15" end="29" text="sinem Hus genannt zer oben&#10;Brugg under dem Hus zer Laytteren und zur&#10;nidren Brugg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1963" start="15" end="15" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1969" start="15" end="15" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1969_head" start="15" end="15" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1951" start="16" end="16" text="Hus" element="head" class="type" subclass=""/>
+      <span id="1957" start="18" end="20" text="zer oben&#10;Brugg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1957_head" start="18" end="20" element="head" class="nam" text="zer oben Brugg" subclass=""/>
+      </span>
+      <span id="1982" start="21" end="29" text="under dem Hus zer Laytteren und zur&#10;nidren Brugg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2006" start="22" end="29" text="dem Hus zer Laytteren und zur&#10;nidren Brugg" element="list" class="fac" subclass="">
+          <span id="1988" start="22" end="25" text="dem Hus zer Laytteren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1994" start="23" end="25" text="Hus zer Laytteren" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="2000" start="27" end="29" text="zur&#10;nidren Brugg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2000_head" start="27" end="29" element="head" class="nam" text="zur nidren Brugg" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2283" start="31" end="31" text="erschatz" element="other" class="other" subclass=""/>
+    <span id="2012" start="32" end="35" text="2 ½ sh ." element="value" class="money" subclass=""/>
+    <span id="2018" start="37" end="38" text="3 ring" element="value" class="money" subclass=""/>
+    <span id="2289" start="40" end="40" text="wisung" element="other" class="other" subclass=""/>
+    <span id="2301" start="42" end="42" text="dis" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2295" start="43" end="43" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="2024" start="45" end="50" text="Hans Götz von Hagenow der schnider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2030" start="45" end="46" text="Hans Götz" element="head" class="nam" subclass=""/>
+      <span id="2036" start="47" end="48" text="von Hagenow" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2042" start="48" end="48" text="Hagenow" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2042_head" start="48" end="48" element="head" class="nam" text="Hagenow" subclass=""/>
+        </span>
+      </span>
+      <span id="2048" start="49" end="50" text="der schnider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2054" start="50" end="50" text="schnider" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2060" start="53" end="56" text="uff Cuasimodo anno 97" element="value" class="date" subclass=""/>
+    <span id="2314" start="58" end="58" text="daz" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2320" start="59" end="59" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="2066" start="61" end="62" text="Erhart Wyts" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2066_head" start="61" end="62" element="head" class="nam" text="Erhart Wyts" subclass=""/>
+    </span>
+    <span id="2333" start="65" end="65" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2346" start="66" end="66" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="2072" start="68" end="70" text="fürer Heinrich Wolleben" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2084" start="68" end="68" text="fürer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2084_head" start="68" end="68" element="head" class="occ" text="fürer" subclass=""/>
+      </span>
+      <span id="2078" start="69" end="70" text="Heinrich Wolleben" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2090" start="75" end="76" text="anne Octaro" element="value" class="date" subclass=""/>
+    <span id="2352" start="79" end="79" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2365" start="80" end="80" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="2096" start="82" end="88" text="meister Dins achs der Fisch .&#10;macher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2108" start="82" end="82" text="meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2108_head" start="82" end="82" element="head" class="title" text="meister" subclass=""/>
+      </span>
+      <span id="2102" start="83" end="84" text="Dins achs" element="head" class="nam" subclass=""/>
+      <span id="2114" start="85" end="88" text="der Fisch .&#10;macher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2120" start="86" end="88" text="Fisch .&#10;macher" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2210" start="90" end="101" text="Meister Jacob unser Fischmacher und meister Jos der&#10;Fischmacher an der Schnidergassen" element="list" class="per" subclass="">
+      <span id="2126" start="90" end="93" text="Meister Jacob unser Fischmacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2138" start="90" end="90" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2138_head" start="90" end="90" element="head" class="title" text="Meister" subclass=""/>
+        </span>
+        <span id="2132" start="91" end="91" text="Jacob" element="head" class="nam" subclass=""/>
+        <span id="2144" start="92" end="93" text="unser Fischmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2156" start="92" end="92" text="unser" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="2156_head" start="92" end="92" element="head" class="pro" text="unser" subclass=""/>
+          </span>
+          <span id="2150" start="93" end="93" text="Fischmacher" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="2162" start="95" end="101" text="meister Jos der&#10;Fischmacher an der Schnidergassen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2174" start="95" end="95" text="meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2174_head" start="95" end="95" element="head" class="title" text="meister" subclass=""/>
+        </span>
+        <span id="2168" start="96" end="96" text="Jos" element="head" class="nam" subclass=""/>
+        <span id="2186" start="97" end="101" text="der&#10;Fischmacher an der Schnidergassen" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2180" start="98" end="98" text="Fischmacher" element="head" class="occ" subclass=""/>
+          <span id="2192" start="99" end="101" text="an der Schnidergassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2198" start="100" end="101" text="der Schnidergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+              <span id="2204" start="101" end="101" text="Schnidergassen" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2371" start="102" end="102" text="gend" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="2377" start="105" end="105" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2216" start="108" end="114" text="Vogt der Kinder des meister Dussen saligen" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2229" start="108" end="108" text="Vogt" element="head" class="repr" subclass=""/>
+      <span id="2235" start="109" end="114" text="der Kinder des meister Dussen saligen" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2241" start="110" end="110" text="Kinder" element="head" class="heir" subclass=""/>
+        <span id="2247" start="111" end="114" text="des meister Dussen saligen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2259" start="112" end="112" text="meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2259_head" start="112" end="112" element="head" class="title" text="meister" subclass=""/>
+          </span>
+          <span id="2253" start="113" end="113" text="Dussen" element="head" class="nam" subclass=""/>
+          <span id="2265" start="114" end="114" text="saligen" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1975" from="1969" to="1909" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2307" from="2301" to="2271" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2326" from="2314" to="2301" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2339" from="2333" to="2314" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2358" from="2352" to="2333" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2383" from="2377" to="2352" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2222" from="2216" to="2210" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="representation" polarity="pos" tense="pres" modality="ass" start="108" end="114" ref="2216" type="state">
+      <trigger start="108" end="108" text="Vogt" ref="2229"/>
+      <event event_id="0.0">
+        <role role="representative" ref="2216" text="Vogt der Kinder des meister Dussen saligen"/>
+        <role role="represented" ref="2235" text="der Kinder des meister Dussen saligen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="inheritance" polarity="pos" tense="pres" modality="ass" start="109" end="114" ref="2235" type="event">
+      <trigger start="110" end="110" text="Kinder" ref="2241"/>
+      <event event_id="1.0">
+        <role role="heir" ref="2235" text="der Kinder des meister Dussen saligen"/>
+        <role role="decedent" ref="2247" text="des meister Dussen saligen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="employment" polarity="pos" tense="pres" modality="ass" start="92" end="93" ref="2144" type="state">
+      <trigger start="93" end="93" text="Fischmacher" ref="2150"/>
+      <event event_id="2.0">
+        <role role="employee" ref="2126" text="Meister Jacob unser Fischmacher"/>
+        <role role="employer" ref="2156" text="unser"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="5" end="6" ref="1921" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1909" text="Meister Heinrich von Mülhusen"/>
+        <role role="location-b" ref="1927" text="Mülhusen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="15" end="15" ref="1963" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="2277" text="sinem Hus genannt zer oben&#10;Brugg under dem Hus zer Laytteren und zur&#10;nidren Brugg"/>
+        <role role="owner" ref="1969" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="21" end="29" ref="1982" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2277" text="sinem Hus genannt zer oben&#10;Brugg under dem Hus zer Laytteren und zur&#10;nidren Brugg"/>
+        <role role="location-b" ref="1988" text="dem Hus zer Laytteren"/>
+        <role role="location-b" ref="2000" text="zur&#10;nidren Brugg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="47" end="48" ref="2036" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="2024" text="Hans Götz von Hagenow der schnider"/>
+        <role role="location-b" ref="2042" text="Hagenow"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="99" end="101" ref="2192" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="2162" text="meister Jos der&#10;Fischmacher an der Schnidergassen"/>
+        <role role="location-b" ref="2198" text="der Schnidergassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="3" end="7" ref="" type="state">
+      <trigger start="7" end="7" text="git" ref="2271"/>
+      <event event_id="8.0">
+        <role role="payer" ref="1909" text="Meister Heinrich von Mülhusen"/>
+        <role role="interval" ref="1939" text="alle&#10;fronvasten"/>
+        <role role="interest" ref="1945" text="2 ½ sh ."/>
+        <role role="property" ref="2277" text="sinem Hus genannt zer oben&#10;Brugg under dem Hus zer Laytteren und zur&#10;nidren Brugg"/>
+      </event>
+      <event event_id="8.1">
+        <role role="payer" ref="1909" text="Meister Heinrich von Mülhusen"/>
+        <role role="property" ref="2277" text="sinem Hus genannt zer oben&#10;Brugg under dem Hus zer Laytteren und zur&#10;nidren Brugg"/>
+        <role role="cause" ref="2283" text="erschatz"/>
+        <role role="interest" ref="2012" text="2 ½ sh ."/>
+      </event>
+      <event event_id="8.2">
+        <role role="payer" ref="1909" text="Meister Heinrich von Mülhusen"/>
+        <role role="property" ref="2277" text="sinem Hus genannt zer oben&#10;Brugg under dem Hus zer Laytteren und zur&#10;nidren Brugg"/>
+        <role role="interest" ref="2018" text="3 ring"/>
+        <role role="cause" ref="2289" text="wisung"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-payment" polarity="pos" tense="pres" modality="ass" start="42" end="42" ref="" type="event">
+      <trigger start="42" end="42" text="dis" ref="2301"/>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="42" end="50" ref="" type="state">
+      <trigger start="43" end="43" text="git" ref="2295"/>
+      <event event_id="10.0">
+        <role role="previous-due" ref="2301" text="dis"/>
+        <role role="payer" ref="2024" text="Hans Götz von Hagenow der schnider"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-payment" polarity="pos" tense="pres" modality="ass" start="58" end="58" ref="" type="event">
+      <trigger start="58" end="58" text="daz" ref="2314"/>
+    </eventGroup>
+    <eventGroup event_id="12" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="58" end="62" ref="" type="state">
+      <trigger start="59" end="59" text="git" ref="2320"/>
+      <event event_id="12.0">
+        <role role="previous-due" ref="2314" text="daz"/>
+        <role role="payer" ref="2066" text="Erhart Wyts"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="due-payment" polarity="pos" tense="pres" modality="ass" start="65" end="65" ref="" type="event">
+      <trigger start="65" end="65" text="zins" ref="2333"/>
+    </eventGroup>
+    <eventGroup event_id="14" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="65" end="70" ref="" type="state">
+      <trigger start="66" end="66" text="git" ref="2346"/>
+      <event event_id="14.0">
+        <role role="previous-due" ref="2333" text="zins"/>
+        <role role="payer" ref="2072" text="fürer Heinrich Wolleben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="15" class="due-payment" polarity="pos" tense="pres" modality="ass" start="79" end="79" ref="" type="event">
+      <trigger start="79" end="79" text="zins" ref="2352"/>
+    </eventGroup>
+    <eventGroup event_id="16" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="79" end="88" ref="" type="state">
+      <trigger start="80" end="80" text="git" ref="2365"/>
+      <event event_id="16.0">
+        <role role="previous-due" ref="2352" text="zins"/>
+        <role role="payer" ref="2096" text="meister Dins achs der Fisch .&#10;macher"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="17" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="102" end="105" ref="" type="state">
+      <trigger start="102" end="102" text="gend" ref="2371"/>
+      <event event_id="17.0">
+        <role role="payer" ref="2126" text="Meister Jacob unser Fischmacher"/>
+        <role role="payer" ref="2162" text="meister Jos der&#10;Fischmacher an der Schnidergassen"/>
+        <role role="previous-due" ref="2377" text="zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="18" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="105" end="50" ref="" type="state">
+      <trigger start="105" end="105" text="zins" ref="2377"/>
+      <event event_id="18.0">
+        <role role="previous-due" ref="2301" text="dis"/>
+        <role role="payer" ref="2024" text="Hans Götz von Hagenow der schnider"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 227/44 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Webergasse 37</tei:title>
+            <tei:idno>HGB 1 227/44</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1535017</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Klara</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1403">1403</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611545.5806925385 1267976.9091134246</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Frow</token>
+    <token token_id="4">Anna</token>
+    <token token_id="5">Ortlin</token>
+    <token token_id="6">,</token>
+    <token token_id="7">Cuntzman</token>
+    <token token_id="8">Ortlins</token>
+    <token token_id="9">sel</token>
+    <token token_id="10">.</token>
+    <token token_id="11">des</token>
+    <token token_id="12">Reb</token>
+    <token token_id="13">¬</token>
+    <token token_id="14">knechtz</token>
+    <token token_id="15">und</token>
+    <token token_id="16">Burgers</token>
+    <token token_id="17">ze</token>
+    <token token_id="18">Basel</token>
+    <token token_id="19">wilent</token>
+    <token token_id="20">eliche</token>
+    <token token_id="21">Wirtin</token>
+    <token token_id="22">,</token>
+    <token token_id="23">verkauft</token>
+    <token token_id="24">Frow</token>
+    <token token_id="25">Greda</token>
+    <token token_id="26">von</token>
+    <token token_id="27">Loffen</token>
+    <token token_id="28">Meister</token>
+    <token token_id="29">Cuonratz</token>
+    <token token_id="30">von</token>
+    <token token_id="31">Loffen</token>
+    <token token_id="32">sel</token>
+    <token token_id="33">.</token>
+    <token token_id="34">eins</token>
+    <token token_id="35">Burgers</token>
+    <token token_id="36">ze</token>
+    <token token_id="37">Basel</token>
+    <token token_id="38">wilent</token>
+    <token token_id="39">elicher</token>
+    <token token_id="40">Wirtin</token>
+    <token token_id="41">,</token>
+    <token token_id="42">6</token>
+    <token token_id="43">Gld</token>
+    <token token_id="44">.</token>
+    <token token_id="45">jerliches</token>
+    <token token_id="46">Zinses</token>
+    <token token_id="47">uff</token>
+    <token token_id="48">und</token>
+    <token token_id="49">ab</token>
+    <token token_id="50">dem</token>
+    <token token_id="51">Erbrecht</token>
+    <token token_id="52">irs</token>
+    <token token_id="53">Huses</token>
+    <token token_id="54">und</token>
+    <token token_id="55">Gesesses</token>
+    <token token_id="56">genant</token>
+    <token token_id="57">Einerach</token>
+    <token token_id="58">,</token>
+    <token token_id="59">so</token>
+    <token token_id="60">Erbe</token>
+    <token token_id="61">ist</token>
+    <token token_id="62">und</token>
+    <token token_id="63">gele</token>
+    <token token_id="64">¬</token>
+    <token token_id="65">gen</token>
+    <token token_id="66">in</token>
+    <token token_id="67">der</token>
+    <token token_id="68">Stat</token>
+    <token token_id="69">ze</token>
+    <token token_id="70">minren</token>
+    <token token_id="71">Basel</token>
+    <token token_id="72">an</token>
+    <token token_id="73">dem</token>
+    <token token_id="74">Ort</token>
+    <token token_id="75">uff</token>
+    <token token_id="76">dem</token>
+    <token token_id="77">Tiche</token>
+    <token token_id="78">,</token>
+    <token token_id="79">als</token>
+    <token token_id="80">man</token>
+    <token token_id="81">wider</token>
+    <token token_id="82">sant</token>
+    <token token_id="83">Blesien</token>
+    <token token_id="84">Jor</token>
+    <token token_id="85">gat</token>
+    <token token_id="86">,</token>
+    <token token_id="87">under</token>
+    <token token_id="88">nebent</token>
+    <token token_id="89">Heini</token>
+    <token token_id="90">Michelis</token>
+    <token token_id="91">Hus</token>
+    <token token_id="92">des</token>
+    <token token_id="93">Schuchmachers</token>
+    <token token_id="94">,</token>
+    <token token_id="95">und</token>
+    <token token_id="96">ab</token>
+    <token token_id="97">andern</token>
+    <token token_id="98">Gütern</token>
+    <token token_id="99">und</token>
+    <token token_id="100">Zinsen</token>
+    <token token_id="101">,</token>
+    <token token_id="102">um</token>
+    <token token_id="103">90</token>
+    <token token_id="104">Gld</token>
+    <token token_id="105">.</token>
+    <token token_id="106">Emmerach</token>
+    <token token_id="107">=</token>
+    <token token_id="108">37</token>
+    <token token_id="109">/</token>
+    <token token_id="110">281</token>
+    <token token_id="111">n</token>
+    <token token_id="112">.</token>
+    <token token_id="113">282</token>
+    <token token_id="114">Ao</token>
+    <token token_id="115">1452</token>
+  </text>
+  <spans>
+    <span id="1748" start="3" end="21" text="Frow Anna Ortlin , Cuntzman Ortlins sel . des Reb ¬&#10;knechtz und Burgers ze Basel wilent eliche Wirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1754" start="4" end="5" text="Anna Ortlin" element="head" class="nam" subclass=""/>
+      <span id="1760" start="7" end="21" text="Cuntzman Ortlins sel . des Reb ¬&#10;knechtz und Burgers ze Basel wilent eliche Wirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1772" start="7" end="18" text="Cuntzman Ortlins sel . des Reb ¬&#10;knechtz und Burgers ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1778" start="7" end="8" text="Cuntzman Ortlins" element="head" class="nam" subclass=""/>
+          <span id="1784" start="9" end="10" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          <span id="1790" start="11" end="14" text="des Reb ¬&#10;knechtz" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1796" start="12" end="14" text="Reb ¬&#10;knechtz" element="head" class="occ" subclass=""/>
+          </span>
+          <span id="1802" start="16" end="18" text="Burgers ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1808" start="16" end="16" text="Burgers" element="head" class="org-aff" subclass=""/>
+            <span id="1814" start="18" end="18" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1814_head" start="18" end="18" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1766" start="20" end="21" text="eliche Wirtin" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="2044" start="23" end="23" text="verkauft" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1820" start="24" end="40" text="Frow Greda von Loffen Meister Cuonratz von&#10;Loffen sel . eins Burgers ze Basel wilent elicher Wirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1826" start="25" end="27" text="Greda von Loffen" element="head" class="nam" subclass=""/>
+      <span id="1832" start="28" end="40" text="Meister Cuonratz von&#10;Loffen sel . eins Burgers ze Basel wilent elicher Wirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1880" start="28" end="37" text="Meister Cuonratz von&#10;Loffen sel . eins Burgers ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1844" start="28" end="28" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1844_head" start="28" end="28" element="head" class="title" text="Meister" subclass=""/>
+          </span>
+          <span id="1850" start="29" end="31" text="Cuonratz von&#10;Loffen" element="head" class="nam" subclass=""/>
+          <span id="1874" start="32" end="33" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          <span id="1856" start="34" end="37" text="eins Burgers ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1862" start="35" end="35" text="Burgers" element="head" class="org-aff" subclass=""/>
+            <span id="1868" start="37" end="37" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1868_head" start="37" end="37" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1838" start="39" end="40" text="elicher Wirtin" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1886" start="42" end="44" text="6 Gld ." element="value" class="money" subclass=""/>
+    <span id="1892" start="45" end="45" text="jerliches" element="value" class="time" subclass="rec"/>
+    <span id="2050" start="46" end="46" text="Zinses" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2032" start="52" end="100" text="irs Huses&#10;und Gesesses genant Einerach , so Erbe ist und gele ¬&#10;gen in der Stat ze minren Basel an dem Ort uff&#10;dem Tiche , als man wider sant Blesien Jor gat , under&#10;nebent Heini Michelis Hus des Schuchmachers , und&#10;ab andern Gütern und Zinsen" element="list" class="fac" subclass="">
+      <span id="1911" start="52" end="93" text="irs Huses&#10;und Gesesses genant Einerach , so Erbe ist und gele ¬&#10;gen in der Stat ze minren Basel an dem Ort uff&#10;dem Tiche , als man wider sant Blesien Jor gat , under&#10;nebent Heini Michelis Hus des Schuchmachers" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1911_desc_owner" start="52" end="52" text="irs" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1898" start="52" end="52" text="irs" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1898_head" start="52" end="52" element="head" class="pro" text="irs" subclass=""/>
+          </span>
+        </span>
+        <span id="1917" start="53" end="55" text="Huses&#10;und Gesesses" element="head" class="type" subclass=""/>
+        <span id="1923" start="57" end="57" text="Einerach" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1923_head" start="57" end="57" element="head" class="nam" text="Einerach" subclass=""/>
+        </span>
+        <span id="1929" start="63" end="93" text="gele ¬&#10;gen in der Stat ze minren Basel an dem Ort uff&#10;dem Tiche , als man wider sant Blesien Jor gat , under&#10;nebent Heini Michelis Hus des Schuchmachers" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1935" start="67" end="71" text="der Stat ze minren Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1941" start="70" end="71" text="minren Basel" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1959" start="73" end="85" text="dem Ort uff&#10;dem Tiche , als man wider sant Blesien Jor gat" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1965" start="74" end="74" text="Ort" element="head" class="type" subclass=""/>
+            <span id="1959_desc_loc_x" start="75" end="85" text="uff&#10;dem Tiche , als man wider sant Blesien Jor gat" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1947" start="76" end="77" text="dem Tiche" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1953" start="77" end="77" text="Tiche" element="head" class="type" subclass=""/>
+              </span>
+              <span id="1971" start="82" end="84" text="sant Blesien Jor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1971_head" start="82" end="84" element="head" class="nam" text="sant Blesien Jor" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1977" start="89" end="93" text="Heini Michelis Hus des Schuchmachers" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2007" start="89" end="90" text="Heini Michelis" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1989" start="89" end="90" text="Heini Michelis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1989_head" start="89" end="90" element="head" class="nam" text="Heini Michelis" subclass=""/>
+              </span>
+            </span>
+            <span id="1983" start="91" end="91" text="Hus" element="head" class="type" subclass=""/>
+            <span id="1995" start="92" end="93" text="des Schuchmachers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2001" start="93" end="93" text="Schuchmachers" element="head" class="occ" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2020" start="97" end="98" text="andern Gütern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2026" start="98" end="98" text="Gütern" element="head" class="type" subclass=""/>
+      </span>
+      <span id="2056" start="100" end="100" text="Zinsen" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="2038" start="103" end="105" text="90 Gld ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1904" from="1898" to="1748" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2013" from="1995" to="1989" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="100" end="100" ref="2056" type="event"/>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="21" ref="1760" type="state">
+      <trigger start="20" end="21" text="eliche Wirtin" ref="1766"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1748" text="Frow Anna Ortlin , Cuntzman Ortlins sel . des Reb ¬&#10;knechtz und Burgers ze Basel wilent eliche Wirtin"/>
+        <role role="family-b" ref="1772" text="Cuntzman Ortlins sel . des Reb ¬&#10;knechtz und Burgers ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="16" end="18" ref="1802" type="state">
+      <trigger start="16" end="16" text="Burgers" ref="1808"/>
+      <event event_id="3.0">
+        <role role="resident" ref="1772" text="Cuntzman Ortlins sel . des Reb ¬&#10;knechtz und Burgers ze Basel"/>
+        <role role="geopolitical-entity" ref="1814" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="family" polarity="pos" tense="pres" modality="ass" start="28" end="40" ref="1832" type="state">
+      <trigger start="39" end="40" text="elicher Wirtin" ref="1838"/>
+      <event event_id="4.0">
+        <role role="family-a" ref="1820" text="Frow Greda von Loffen Meister Cuonratz von&#10;Loffen sel . eins Burgers ze Basel wilent elicher Wirtin"/>
+        <role role="family-b" ref="1880" text="Meister Cuonratz von&#10;Loffen sel . eins Burgers ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="34" end="37" ref="1856" type="state">
+      <trigger start="35" end="35" text="Burgers" ref="1862"/>
+      <event event_id="5.0">
+        <role role="resident" ref="1880" text="Meister Cuonratz von&#10;Loffen sel . eins Burgers ze Basel"/>
+        <role role="geopolitical-entity" ref="1868" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="52" end="52" ref="1911_desc_owner" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1911" text="irs Huses&#10;und Gesesses genant Einerach , so Erbe ist und gele ¬&#10;gen in der Stat ze minren Basel an dem Ort uff&#10;dem Tiche , als man wider sant Blesien Jor gat , under&#10;nebent Heini Michelis Hus des Schuchmachers"/>
+        <role role="owner" ref="1898" text="irs"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="63" end="93" ref="1929" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1911" text="irs Huses&#10;und Gesesses genant Einerach , so Erbe ist und gele ¬&#10;gen in der Stat ze minren Basel an dem Ort uff&#10;dem Tiche , als man wider sant Blesien Jor gat , under&#10;nebent Heini Michelis Hus des Schuchmachers"/>
+        <role role="location-b" ref="1935" text="der Stat ze minren Basel"/>
+        <role role="location-b" ref="1959" text="dem Ort uff&#10;dem Tiche , als man wider sant Blesien Jor gat"/>
+        <role role="location-b" ref="1977" text="Heini Michelis Hus des Schuchmachers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="75" end="85" ref="1959_desc_loc_x" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="1959" text="dem Ort uff&#10;dem Tiche , als man wider sant Blesien Jor gat"/>
+        <role role="location-b" ref="1947" text="dem Tiche"/>
+        <role role="location-b" ref="1971" text="sant Blesien Jor"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="ownership" polarity="pos" tense="pres" modality="ass" start="89" end="90" ref="2007" type="state">
+      <event event_id="9.0">
+        <role role="property" ref="1977" text="Heini Michelis Hus des Schuchmachers"/>
+        <role role="owner" ref="1989" text="Heini Michelis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="23" end="23" ref="" type="event">
+      <trigger start="23" end="23" text="verkauft" ref="2044"/>
+      <event event_id="10.0">
+        <role role="seller" ref="1748" text="Frow Anna Ortlin , Cuntzman Ortlins sel . des Reb ¬&#10;knechtz und Burgers ze Basel wilent eliche Wirtin"/>
+        <role role="buyer" ref="1820" text="Frow Greda von Loffen Meister Cuonratz von&#10;Loffen sel . eins Burgers ze Basel wilent elicher Wirtin"/>
+        <role role="interest" ref="1886" text="6 Gld ."/>
+        <role role="interval" ref="1892" text="jerliches"/>
+        <role role="collateral" ref="1911" text="irs Huses&#10;und Gesesses genant Einerach , so Erbe ist und gele ¬&#10;gen in der Stat ze minren Basel an dem Ort uff&#10;dem Tiche , als man wider sant Blesien Jor gat , under&#10;nebent Heini Michelis Hus des Schuchmachers"/>
+        <role role="collateral" ref="2020" text="andern Gütern"/>
+        <role role="collateral" ref="2056" text="Zinsen"/>
+        <role role="price" ref="2038" text="90 Gld ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="42" end="46" ref="" type="state">
+      <trigger start="46" end="46" text="Zinses" ref="2050"/>
+      <event event_id="11.0">
+        <role role="interest" ref="1886" text="6 Gld ."/>
+        <role role="interval" ref="1892" text="jerliches"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

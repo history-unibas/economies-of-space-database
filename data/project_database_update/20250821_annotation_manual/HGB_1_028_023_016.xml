@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 28/23 S. [16]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Blumenrain 11</tei:title>
+            <tei:idno>HGB 1 28/23</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1464786</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1450">1450</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611192.0221861005 1267765.45933633</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">bekante</token>
+    <token token_id="2">sich</token>
+    <token token_id="3">Cuntzli</token>
+    <token token_id="4">Müller</token>
+    <token token_id="5">als</token>
+    <token token_id="6">in</token>
+    <token token_id="7">der</token>
+    <token token_id="8">zweyterl</token>
+    <token token_id="9">in</token>
+    <token token_id="10">den</token>
+    <token token_id="11">zwen</token>
+    <token token_id="12">husern</token>
+    <token token_id="13">genant</token>
+    <token token_id="14">Hüningen</token>
+    <token token_id="15">hinder</token>
+    <token token_id="16">der</token>
+    <token token_id="17">Herberg</token>
+    <token token_id="18">zem</token>
+    <token token_id="19">Blumen</token>
+    <token token_id="20">gelegen</token>
+    <token token_id="21">,</token>
+    <token token_id="22">ư</token>
+    <token token_id="23">andere</token>
+    <token token_id="24">güter</token>
+    <token token_id="25">,</token>
+    <token token_id="26">ư</token>
+    <token token_id="27">erbswise</token>
+    <token token_id="28">ankomen</token>
+    <token token_id="29">ist</token>
+    <token token_id="30">von</token>
+    <token token_id="31">Hansen</token>
+    <token token_id="32">Müller</token>
+    <token token_id="33">im</token>
+    <token token_id="34">Saltzhus</token>
+    <token token_id="35">sinem</token>
+    <token token_id="36">bruder</token>
+    <token token_id="37">sel</token>
+    <token token_id="38">.</token>
+    <token token_id="39">u</token>
+    <token token_id="40">die</token>
+    <token token_id="41">er</token>
+    <token token_id="42">Belinen</token>
+    <token token_id="43">siner</token>
+    <token token_id="44">ewirtin</token>
+    <token token_id="45">sel</token>
+    <token token_id="46">.</token>
+    <token token_id="47">verwidmet</token>
+    <token token_id="48">hat</token>
+    <token token_id="49">,</token>
+    <token token_id="50">die</token>
+    <token token_id="51">aber</token>
+    <token token_id="52">auch</token>
+    <token token_id="53">abgangen</token>
+    <token token_id="54">ist</token>
+    <token token_id="55">,</token>
+    <token token_id="56">so</token>
+    <token token_id="57">bo</token>
+    <token token_id="58">jm</token>
+    <token token_id="59">darum</token>
+    <token token_id="60">Trutschin</token>
+    <token token_id="61">im</token>
+    <token token_id="62">Saltzhus</token>
+    <token token_id="63">derselben</token>
+    <token token_id="64">Belmen</token>
+    <token token_id="65">seb</token>
+    <token token_id="66">bruder</token>
+    <token token_id="67">80</token>
+    <token token_id="68">fl</token>
+    <token token_id="69">.</token>
+    <token token_id="70">u</token>
+    <token token_id="71">komen</token>
+    <token token_id="72">untein</token>
+    <token token_id="73">ander</token>
+    <token token_id="74">überen</token>
+  </text>
+  <spans>
+    <span id="1130" start="3" end="4" text="Cuntzli Müller" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1130_head" start="3" end="4" element="head" class="nam" text="Cuntzli Müller" subclass=""/>
+    </span>
+    <span id="1419" start="6" end="6" text="in" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1419_head" start="6" end="6" element="head" class="pro" text="in" subclass=""/>
+    </span>
+    <span id="1395" start="7" end="8" text="der zweyterl" element="other" class="other" subclass=""/>
+    <span id="1136" start="11" end="20" text="zwen husern genant Hüningen hinder der Herberg&#10;zem Blumen gelegen" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1142" start="12" end="12" text="husern" element="head" class="type" subclass=""/>
+      <span id="1148" start="14" end="14" text="Hüningen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1148_head" start="14" end="14" element="head" class="nam" text="Hüningen" subclass=""/>
+      </span>
+      <span id="1154" start="15" end="20" text="hinder der Herberg&#10;zem Blumen gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1160" start="16" end="19" text="der Herberg&#10;zem Blumen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1166" start="17" end="19" text="Herberg&#10;zem Blumen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1389" start="27" end="29" text="erbswise&#10;ankomen ist" element="trigger" class="inheritance" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1172" start="31" end="38" text="Hansen Müller im Saltzhus sinem bruder&#10;sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1178" start="31" end="32" text="Hansen Müller" element="head" class="nam" subclass=""/>
+      <span id="1184" start="33" end="34" text="im Saltzhus" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1190" start="33" end="34" text="im Saltzhus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1190_head" start="33" end="34" element="head" class="type" text="im Saltzhus" subclass=""/>
+        </span>
+      </span>
+      <span id="1196" start="35" end="36" text="sinem bruder" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1208" start="35" end="35" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1208_head" start="35" end="35" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+        <span id="1202" start="36" end="36" text="bruder" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="1221" start="37" end="38" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1227" start="40" end="40" text="die" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1227_head" start="40" end="40" element="head" class="pro" text="die" subclass=""/>
+    </span>
+    <span id="1240" start="41" end="41" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1240_head" start="41" end="41" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="1284" start="42" end="46" text="Belinen siner ewirtin sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1253" start="42" end="42" text="Belinen" element="head" class="nam" subclass=""/>
+      <span id="1259" start="43" end="44" text="siner ewirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1271" start="43" end="43" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1271_head" start="43" end="43" element="head" class="pro" text="siner" subclass=""/>
+        </span>
+        <span id="1265" start="44" end="44" text="ewirtin" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="1290" start="45" end="46" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1401" start="47" end="47" text="verwidmet" element="trigger" class="testament" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1296" start="50" end="50" text="die" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1296_head" start="50" end="50" element="head" class="pro" text="die" subclass=""/>
+    </span>
+    <span id="1407" start="53" end="54" text="abgangen ist" element="trigger" class="death" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1413" start="57" end="57" text="bo" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1309" start="58" end="58" text="jm" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1309_head" start="58" end="58" element="head" class="pro" text="jm" subclass=""/>
+    </span>
+    <span id="1432" start="59" end="59" text="darum" element="other" class="other" subclass=""/>
+    <span id="1322" start="60" end="66" text="Trutschin&#10;im Saltzhus derselben Belmen seb bruder" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1328" start="60" end="60" text="Trutschin" element="head" class="nam" subclass=""/>
+      <span id="1334" start="61" end="62" text="im Saltzhus" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1340" start="62" end="62" text="Saltzhus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1340_head" start="62" end="62" element="head" class="type" text="Saltzhus" subclass=""/>
+        </span>
+      </span>
+      <span id="1371" start="63" end="66" text="derselben Belmen seb bruder" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1346" start="63" end="65" text="derselben Belmen seb" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1352" start="64" end="64" text="Belmen" element="head" class="nam" subclass=""/>
+          <span id="1365" start="65" end="65" text="seb" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+        <span id="1377" start="66" end="66" text="bruder" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1383" start="67" end="69" text="80 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1214" from="1208" to="1130" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1425" from="1419" to="1130" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1233" from="1227" to="1136" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1246" from="1240" to="1208" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1277" from="1271" to="1240" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1302" from="1296" to="1284" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1358" from="1346" to="1284" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1315" from="1309" to="1271" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="35" end="36" ref="1196" type="state">
+      <trigger start="36" end="36" text="bruder" ref="1202"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1172" text="Hansen Müller im Saltzhus sinem bruder&#10;sel ."/>
+        <role role="family-b" ref="1208" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="43" end="44" ref="1259" type="state">
+      <trigger start="44" end="44" text="ewirtin" ref="1265"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1284" text="Belinen siner ewirtin sel ."/>
+        <role role="family-b" ref="1271" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="63" end="66" ref="1371" type="state">
+      <trigger start="66" end="66" text="bruder" ref="1377"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1322" text="Trutschin&#10;im Saltzhus derselben Belmen seb bruder"/>
+        <role role="family-b" ref="1346" text="derselben Belmen seb"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="20" ref="1154" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1136" text="zwen husern genant Hüningen hinder der Herberg&#10;zem Blumen gelegen"/>
+        <role role="location-b" ref="1160" text="der Herberg&#10;zem Blumen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="33" end="34" ref="1184" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1172" text="Hansen Müller im Saltzhus sinem bruder&#10;sel ."/>
+        <role role="location-b" ref="1190" text="im Saltzhus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="61" end="62" ref="1334" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1322" text="Trutschin&#10;im Saltzhus derselben Belmen seb bruder"/>
+        <role role="location-b" ref="1340" text="Saltzhus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="inheritance" polarity="pos" tense="pres" modality="ass" start="27" end="38" ref="" type="event">
+      <trigger start="27" end="29" text="erbswise&#10;ankomen ist" ref="1389"/>
+      <event event_id="6.0">
+        <role role="heir" ref="1419" text="in"/>
+        <role role="detail_property-detail" ref="1395" text="der zweyterl"/>
+        <role role="property" ref="1136" text="zwen husern genant Hüningen hinder der Herberg&#10;zem Blumen gelegen"/>
+        <role role="decedent" ref="1172" text="Hansen Müller im Saltzhus sinem bruder&#10;sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="testament" polarity="pos" tense="pres" modality="ass" start="40" end="47" ref="" type="event">
+      <trigger start="47" end="47" text="verwidmet" ref="1401"/>
+      <event event_id="7.0">
+        <role role="property" ref="1227" text="die"/>
+        <role role="bequeather" ref="1240" text="er"/>
+        <role role="beneficiary" ref="1284" text="Belinen siner ewirtin sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="death" polarity="pos" tense="pres" modality="ass" start="50" end="54" ref="" type="event">
+      <trigger start="53" end="54" text="abgangen ist" ref="1407"/>
+      <event event_id="8.0">
+        <role role="deceased" ref="1296" text="die"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="57" end="69" ref="" type="event">
+      <trigger start="57" end="57" text="bo" ref="1413"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1309" text="jm"/>
+        <role role="property" ref="1432" text="darum"/>
+        <role role="buyer" ref="1322" text="Trutschin&#10;im Saltzhus derselben Belmen seb bruder"/>
+        <role role="price" ref="1383" text="80 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

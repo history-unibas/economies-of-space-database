@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 122/49 S. [15]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Marktplatz Theil von 8, Mitte</tei:title>
+            <tei:idno>HGB 1 122/49</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494828</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1441">1441</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611254.0475211227 1267444.1683880573</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Urkunde</token>
+    <token token_id="1">des</token>
+    <token token_id="2">Klosters</token>
+    <token token_id="3">Klingenthal</token>
+    <token token_id="4">Das</token>
+    <token token_id="5">Kloster</token>
+    <token token_id="6">ze</token>
+    <token token_id="7">Klingenthal</token>
+    <token token_id="8">übergibt</token>
+    <token token_id="9">dem</token>
+    <token token_id="10">Kloster</token>
+    <token token_id="11">zu</token>
+    <token token_id="12">dem</token>
+    <token token_id="13">Bredigern</token>
+    <token token_id="14">ze</token>
+    <token token_id="15">Basel</token>
+    <token token_id="16">in</token>
+    <token token_id="17">Ausführung</token>
+    <token token_id="18">eines</token>
+    <token token_id="19">Schiedspruches</token>
+    <token token_id="20">über</token>
+    <token token_id="21">streitige</token>
+    <token token_id="22">Jahrzeiten</token>
+    <token token_id="23">8</token>
+    <token token_id="24">/</token>
+    <token token_id="25">2</token>
+    <token token_id="26">℔</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Zinsphg</token>
+    <token token_id="29">.</token>
+    <token token_id="30">Zinses</token>
+    <token token_id="31">und</token>
+    <token token_id="32">1</token>
+    <token token_id="33">℔</token>
+    <token token_id="34">Pfeffers</token>
+    <token token_id="35">und</token>
+    <token token_id="36">1</token>
+    <token token_id="37">℔</token>
+    <token token_id="38">.</token>
+    <token token_id="39">Pfg</token>
+    <token token_id="40">.</token>
+    <token token_id="41">ze</token>
+    <token token_id="42">Erschatze</token>
+    <token token_id="43">uff</token>
+    <token token_id="44">der</token>
+    <token token_id="45">Eygenschaft</token>
+    <token token_id="46">dez</token>
+    <token token_id="47">Huses</token>
+    <token token_id="48">zem</token>
+    <token token_id="49">Roten</token>
+    <token token_id="50">Vogel</token>
+    <token token_id="51">am</token>
+    <token token_id="52">Kornmergkt</token>
+    <token token_id="53">gelegen</token>
+    <token token_id="54">davon</token>
+    <token token_id="55">sind</token>
+    <token token_id="56">30</token>
+    <token token_id="57">sh</token>
+    <token token_id="58">.</token>
+    <token token_id="59">abzelösende</token>
+    <token token_id="60">mit</token>
+    <token token_id="61">30</token>
+    <token token_id="62">Gld</token>
+    <token token_id="63">.</token>
+  </text>
+  <spans>
+    <span id="982" start="1" end="3" text="des Klosters Klingenthal" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="988" start="2" end="3" text="Klosters Klingenthal" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="994" start="4" end="7" text="Das Kloster ze Klingenthal" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1000" start="5" end="7" text="Kloster ze Klingenthal" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1078" start="8" end="8" text="übergibt" element="trigger" class="transfer" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1006" start="9" end="15" text="dem Kloster zu dem&#10;Bredigern ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1072" start="10" end="13" text="Kloster zu dem&#10;Bredigern" element="head" class="nam" subclass=""/>
+      <span id="1060" start="14" end="15" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1066" start="15" end="15" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1066_head" start="15" end="15" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1096" start="19" end="19" text="Schiedspruches" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1102" start="20" end="22" text="über streitige Jahrzeiten" element="other" class="other" subclass=""/>
+    <span id="1108" start="23" end="63" text="8 / 2 ℔. Zinsphg . Zinses und&#10;1 ℔ Pfeffers und 1 ℔. Pfg . ze Erschatze uff der Eygenschaft&#10;dez Huses zem Roten Vogel am Kornmergkt gelegen&#10;davon sind 30 sh . abzelösende mit 30 Gld ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1084" start="23" end="29" text="8 / 2 ℔. Zinsphg ." element="value" class="money" subclass=""/>
+      <span id="1012" start="32" end="34" text="1 ℔ Pfeffers" element="value" class="money" subclass=""/>
+      <span id="1018" start="36" end="40" text="1 ℔. Pfg ." element="value" class="money" subclass=""/>
+      <span id="1090" start="41" end="42" text="ze Erschatze" element="other" class="other" subclass=""/>
+      <span id="1024" start="46" end="53" text="dez Huses zem Roten Vogel am Kornmergkt gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1030" start="47" end="50" text="Huses zem Roten Vogel" element="head" class="nam" subclass=""/>
+        <span id="1036" start="51" end="53" text="am Kornmergkt gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1042" start="52" end="52" text="Kornmergkt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+            <span id="1042_head" start="52" end="52" element="head" class="nam" text="Kornmergkt" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1114" start="54" end="63" text="davon sind 30 sh . abzelösende mit 30 Gld ." element="other" class="other" subclass="">
+        <span id="1048" start="56" end="58" text="30 sh ." element="value" class="money" subclass=""/>
+        <span id="1054" start="61" end="63" text="30 Gld ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="23" end="63" ref="1108" type="state">
+      <event event_id="0.0">
+        <role role="interest" ref="1084" text="8 / 2 ℔. Zinsphg ."/>
+        <role role="property" ref="1024" text="dez Huses zem Roten Vogel am Kornmergkt gelegen"/>
+        <role role="detail_part-redeemable" ref="1114" text="davon sind 30 sh . abzelösende mit 30 Gld ."/>
+      </event>
+      <event event_id="0.1">
+        <role role="interest" ref="1012" text="1 ℔ Pfeffers"/>
+        <role role="interest" ref="1018" text="1 ℔. Pfg ."/>
+        <role role="cause" ref="1090" text="ze Erschatze"/>
+        <role role="property" ref="1024" text="dez Huses zem Roten Vogel am Kornmergkt gelegen"/>
+        <role role="detail_part-redeemable" ref="1114" text="davon sind 30 sh . abzelösende mit 30 Gld ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="14" end="15" ref="1060" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1006" text="dem Kloster zu dem&#10;Bredigern ze Basel"/>
+        <role role="location-b" ref="1066" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="51" end="53" ref="1036" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1024" text="dez Huses zem Roten Vogel am Kornmergkt gelegen"/>
+        <role role="location-b" ref="1042" text="Kornmergkt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="transfer" polarity="pos" tense="pres" modality="ass" start="4" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="übergibt" ref="1078"/>
+      <event event_id="3.0">
+        <role role="owner-prev" ref="994" text="Das Kloster ze Klingenthal"/>
+        <role role="owner-new" ref="1006" text="dem Kloster zu dem&#10;Bredigern ze Basel"/>
+        <role role="cause" ref="1096" text="Schiedspruches"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="litigation" polarity="pos" tense="pres" modality="ass" start="19" end="22" ref="" type="event">
+      <trigger start="19" end="19" text="Schiedspruches" ref="1096"/>
+      <event event_id="4.0">
+        <role role="subject" ref="1102" text="über streitige Jahrzeiten"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

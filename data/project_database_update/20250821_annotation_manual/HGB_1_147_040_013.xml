@@ -1,0 +1,608 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 147/40 S. [13]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Petersgasse 16</tei:title>
+            <tei:idno>HGB 1 147/40</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1502475</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1532">1532</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611101.3982817796 1267827.1616244265</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Bartholome</token>
+    <token token_id="1">Spymüller</token>
+    <token token_id="2">u</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Wendli</token>
+    <token token_id="5">Langmesser</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Karer</token>
+    <token token_id="8">,</token>
+    <token token_id="9">sodan</token>
+    <token token_id="10">Brud</token>
+    <token token_id="11">Mülysen</token>
+    <token token_id="12">,</token>
+    <token token_id="13">u</token>
+    <token token_id="14">.</token>
+    <token token_id="15">Elspeth</token>
+    <token token_id="16">Uli</token>
+    <token token_id="17">,</token>
+    <token token_id="18">jr</token>
+    <token token_id="19">beider</token>
+    <token token_id="20">Frauen</token>
+    <token token_id="21">,</token>
+    <token token_id="22">verkaufen</token>
+    <token token_id="23">an</token>
+    <token token_id="24">Johansen</token>
+    <token token_id="25">Crus</token>
+    <token token_id="26">der</token>
+    <token token_id="27">Rechten</token>
+    <token token_id="28">Licentiat</token>
+    <token token_id="29">,</token>
+    <token token_id="30">hindersess</token>
+    <token token_id="31">zu</token>
+    <token token_id="32">Basel</token>
+    <token token_id="33">,</token>
+    <token token_id="34">2</token>
+    <token token_id="35">1</token>
+    <token token_id="36">/</token>
+    <token token_id="37">2</token>
+    <token token_id="38">fl</token>
+    <token token_id="39">.</token>
+    <token token_id="40">jährl</token>
+    <token token_id="41">.</token>
+    <token token_id="42">zinses</token>
+    <token token_id="43">,</token>
+    <token token_id="44">ab</token>
+    <token token_id="45">dem</token>
+    <token token_id="46">Hus</token>
+    <token token_id="47">u</token>
+    <token token_id="48">.</token>
+    <token token_id="49">Hofstatt</token>
+    <token token_id="50">,</token>
+    <token token_id="51">desgl</token>
+    <token token_id="52">.</token>
+    <token token_id="53">den</token>
+    <token token_id="54">4</token>
+    <token token_id="55">1</token>
+    <token token_id="56">/</token>
+    <token token_id="57">2</token>
+    <token token_id="58">Juch</token>
+    <token token_id="59">.</token>
+    <token token_id="60">u</token>
+    <token token_id="61">.</token>
+    <token token_id="62">zweyen</token>
+    <token token_id="63">Juch</token>
+    <token token_id="64">.</token>
+    <token token_id="65">auch</token>
+    <token token_id="66">einem</token>
+    <token token_id="67">zweyteil</token>
+    <token token_id="68">acker</token>
+    <token token_id="69">,</token>
+    <token token_id="70">blorfeldt</token>
+    <token token_id="71">,</token>
+    <token token_id="72">u</token>
+    <token token_id="73">wendig</token>
+    <token token_id="74">der</token>
+    <token token_id="75">Statt</token>
+    <token token_id="76">gelegen</token>
+    <token token_id="77">,</token>
+    <token token_id="78">nemle</token>
+    <token token_id="79">das</token>
+    <token token_id="80">Hus</token>
+    <token token_id="81">uf</token>
+    <token token_id="82">s</token>
+    <token token_id="83">.</token>
+    <token token_id="84">Petersberg</token>
+    <token token_id="85">,</token>
+    <token token_id="86">hinder</token>
+    <token token_id="87">dem</token>
+    <token token_id="88">hus</token>
+    <token token_id="89">zum</token>
+    <token token_id="90">schwartzen</token>
+    <token token_id="91">pfol</token>
+    <token token_id="92">,</token>
+    <token token_id="93">zwüschen</token>
+    <token token_id="94">Trübelmans</token>
+    <token token_id="95">u</token>
+    <token token_id="96">.</token>
+    <token token_id="97">der</token>
+    <token token_id="98">Einfeltigin</token>
+    <token token_id="99">hus</token>
+    <token token_id="100">,</token>
+    <token token_id="101">sodan</token>
+    <token token_id="102">die</token>
+    <token token_id="103">4</token>
+    <token token_id="104">1</token>
+    <token token_id="105">/</token>
+    <token token_id="106">2</token>
+    <token token_id="107">Juch</token>
+    <token token_id="108">acker</token>
+    <token token_id="109">vor</token>
+    <token token_id="110">St</token>
+    <token token_id="111">.</token>
+    <token token_id="112">Alban</token>
+    <token token_id="113">,</token>
+    <token token_id="114">thor</token>
+    <token token_id="115">uf</token>
+    <token token_id="116">dem</token>
+    <token token_id="117">Militich</token>
+    <token token_id="118">,</token>
+    <token token_id="119">zwüschen</token>
+    <token token_id="120">der</token>
+    <token token_id="121">Müller</token>
+    <token token_id="122">Lehen</token>
+    <token token_id="123">,</token>
+    <token token_id="124">u</token>
+    <token token_id="125">.</token>
+    <token token_id="126">Hansen</token>
+    <token token_id="127">Müller</token>
+    <token token_id="128">,</token>
+    <token token_id="129">auch</token>
+    <token token_id="130">an</token>
+    <token token_id="131">der</token>
+    <token token_id="132">Strass</token>
+    <token token_id="133">,</token>
+    <token token_id="134">als</token>
+    <token token_id="135">man</token>
+    <token token_id="136">zu</token>
+    <token token_id="137">s</token>
+    <token token_id="138">.</token>
+    <token token_id="139">Jacob</token>
+    <token token_id="140">gat</token>
+    <token token_id="141">,</token>
+    <token token_id="142">desgl</token>
+    <token token_id="143">.</token>
+    <token token_id="144">die</token>
+    <token token_id="145">2</token>
+    <token token_id="146">Juch</token>
+    <token token_id="147">.</token>
+    <token token_id="148">acker</token>
+    <token token_id="149">vor</token>
+    <token token_id="150">dem</token>
+    <token token_id="151">Herthor</token>
+    <token token_id="152">,</token>
+    <token token_id="153">under</token>
+    <token token_id="154">der</token>
+    <token token_id="155">Leyngruben</token>
+    <token token_id="156">,</token>
+    <token token_id="157">zwüschen</token>
+    <token token_id="158">dem</token>
+    <token token_id="159">Spital</token>
+    <token token_id="160">,</token>
+    <token token_id="161">u</token>
+    <token token_id="162">.</token>
+    <token token_id="163">dem</token>
+    <token token_id="164">andern</token>
+    <token token_id="165">Wendli</token>
+    <token token_id="166">Lang</token>
+    <token token_id="167">-</token>
+    <token token_id="168">messersacker</token>
+    <token token_id="169">,</token>
+    <token token_id="170">u</token>
+    <token token_id="171">.</token>
+    <token token_id="172">auch</token>
+    <token token_id="173">am</token>
+    <token token_id="174">Egelgraben</token>
+    <token token_id="175">,</token>
+    <token token_id="176">u</token>
+    <token token_id="177">.</token>
+    <token token_id="178">dan</token>
+    <token token_id="179">die</token>
+    <token token_id="180">zweyteil</token>
+    <token token_id="181">von</token>
+    <token token_id="182">Eschamerthor</token>
+    <token token_id="183">,</token>
+    <token token_id="184">usserhalp</token>
+    <token token_id="185">dem</token>
+    <token token_id="186">Reppeli</token>
+    <token token_id="187">,</token>
+    <token token_id="188">zwüschen</token>
+    <token token_id="189">Erhart</token>
+    <token token_id="190">Walhen</token>
+    <token token_id="191">,</token>
+    <token token_id="192">u</token>
+    <token token_id="193">.</token>
+    <token token_id="194">auch</token>
+    <token token_id="195">dem</token>
+    <token token_id="196">andern</token>
+    <token token_id="197">Wendlin</token>
+    <token token_id="198">Langmessers</token>
+    <token token_id="199">acker</token>
+    <token token_id="200">gelegen</token>
+    <token token_id="201">,</token>
+    <token token_id="202">zinsen</token>
+    <token token_id="203">die</token>
+    <token token_id="204">42</token>
+    <token token_id="205">Juch</token>
+    <token token_id="206">.</token>
+    <token token_id="207">den</token>
+    <token token_id="208">hohen</token>
+    <token token_id="209">Stift</token>
+    <token token_id="210">jährl</token>
+    <token token_id="211">1</token>
+    <token token_id="212">sh</token>
+    <token token_id="213">.</token>
+    <token token_id="214">8</token>
+    <token token_id="215">dn</token>
+    <token token_id="216">si</token>
+    <token token_id="217">.</token>
+    <token token_id="218">zinset</token>
+    <token token_id="219">den</token>
+    <token token_id="220">zwenteil</token>
+    <token token_id="221">dem</token>
+    <token token_id="222">Albancloster</token>
+    <token token_id="223">1</token>
+    <token token_id="224">sh</token>
+    <token token_id="225">.</token>
+    <token token_id="226">8</token>
+    <token token_id="227">din</token>
+    <token token_id="228">,</token>
+    <token token_id="229">alles</token>
+    <token token_id="230">anden</token>
+    <token token_id="231">zinsfrei</token>
+    <token token_id="232">,</token>
+    <token token_id="233">um</token>
+    <token token_id="234">50</token>
+    <token token_id="235">fl</token>
+    <token token_id="236">.</token>
+  </text>
+  <spans>
+    <span id="3547" start="0" end="20" text="Bartholome Spymüller u . Wendli Langmesser der Karer , sodan&#10;Brud Mülysen , u . Elspeth Uli , jr beider Frauen" element="list" class="type" subclass="">
+      <span id="3324" start="0" end="7" text="Bartholome Spymüller u . Wendli Langmesser der Karer" element="list" class="per" subclass="">
+        <span id="3258" start="0" end="1" text="Bartholome Spymüller" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3258_head" start="0" end="1" element="head" class="nam" text="Bartholome Spymüller" subclass=""/>
+        </span>
+        <span id="3264" start="4" end="7" text="Wendli Langmesser der Karer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3270" start="4" end="5" text="Wendli Langmesser" element="head" class="nam" subclass=""/>
+          <span id="3276" start="6" end="7" text="der Karer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3282" start="7" end="7" text="Karer" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="3300" start="10" end="20" text="Brud Mülysen , u . Elspeth Uli , jr beider Frauen" element="list" class="per" subclass="">
+        <span id="3288" start="10" end="11" text="Brud Mülysen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3288_head" start="10" end="11" element="head" class="nam" text="Brud Mülysen" subclass=""/>
+        </span>
+        <span id="3294" start="15" end="16" text="Elspeth Uli" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3294_head" start="15" end="16" element="head" class="nam" text="Elspeth Uli" subclass=""/>
+        </span>
+        <span id="3306" start="18" end="20" text="jr beider Frauen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3318" start="18" end="18" text="jr" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3318_head" start="18" end="18" element="head" class="pro" text="jr" subclass=""/>
+          </span>
+          <span id="3312" start="20" end="20" text="Frauen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="3757" start="22" end="22" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="3337" start="24" end="32" text="Johansen Crus der Rechten Licentiat , hindersess zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="3343" start="24" end="25" text="Johansen Crus" element="head" class="nam" subclass=""/>
+      <span id="3367" start="26" end="28" text="der Rechten Licentiat" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="edu">
+        <span id="3367_head" start="26" end="28" element="head" class="title" text="der Rechten Licentiat" subclass="edu"/>
+      </span>
+      <span id="3349" start="30" end="32" text="hindersess zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3355" start="30" end="30" text="hindersess" element="head" class="org-aff" subclass=""/>
+        <span id="3361" start="32" end="32" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3361_head" start="32" end="32" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="3373" start="34" end="39" text="2 1 / 2 fl ." element="value" class="money" subclass=""/>
+    <span id="3379" start="40" end="41" text="jährl ." element="value" class="time" subclass="rec"/>
+    <span id="3763" start="42" end="42" text="zinses" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="3553" start="45" end="231" text="dem Hus u . Hofstatt , desgl . den 4 1 / 2 Juch . u . zweyen Juch .&#10;auch einem zweyteil acker , blorfeldt , u wendig der Statt gelegen ,&#10;nemle das Hus uf s . Petersberg , hinder dem hus zum schwartzen pfol , zwüschen&#10;Trübelmans u . der Einfeltigin hus , sodan die 4 1 / 2 Juch acker vor St . Alban ,&#10;thor uf dem Militich , zwüschen der Müller Lehen , u . Hansen Müller , auch an der&#10;Strass , als man zu s . Jacob gat , desgl . die 2 Juch . acker vor dem Herthor ,&#10;under der Leyngruben , zwüschen dem Spital , u . dem andern Wendli Lang -&#10;messersacker , u . auch am Egelgraben , u . dan die zweyteil von Eschamerthor ,&#10;usserhalp dem Reppeli , zwüschen Erhart Walhen , u . auch dem andern Wendlin&#10;Langmessers acker gelegen , zinsen die 42 Juch . den hohen Stift jährl 1 sh . 8 dn si .&#10;zinset den zwenteil dem Albancloster 1 sh . 8 din , alles anden zinsfrei" element="list" class="fac" subclass="">
+      <span id="3385" start="45" end="49" text="dem Hus u . Hofstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3391" start="46" end="49" text="Hus u . Hofstatt" element="head" class="type" subclass=""/>
+      </span>
+      <span id="3397" start="54" end="99" text="4 1 / 2 Juch . u . zweyen Juch .&#10;auch einem zweyteil acker , blorfeldt , u wendig der Statt gelegen ,&#10;nemle das Hus uf s . Petersberg , hinder dem hus zum schwartzen pfol , zwüschen&#10;Trübelmans u . der Einfeltigin hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3403" start="68" end="68" text="acker" element="head" class="type" subclass=""/>
+        <span id="3409" start="70" end="70" text="blorfeldt" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3409_head" start="70" end="70" element="head" class="nam" text="blorfeldt" subclass=""/>
+        </span>
+        <span id="3415" start="72" end="99" text="u wendig der Statt gelegen ,&#10;nemle das Hus uf s . Petersberg , hinder dem hus zum schwartzen pfol , zwüschen&#10;Trübelmans u . der Einfeltigin hus" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3421" start="74" end="75" text="der Statt" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3427" start="75" end="75" text="Statt" element="head" class="type" subclass=""/>
+          </span>
+          <span id="3433" start="79" end="84" text="das Hus uf s . Petersberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3439" start="80" end="80" text="Hus" element="head" class="type" subclass=""/>
+            <span id="3445" start="81" end="84" text="uf s . Petersberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="3451" start="82" end="84" text="s . Petersberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="3451_head" start="82" end="84" element="head" class="nam" text="s . Petersberg" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="3457" start="87" end="91" text="dem hus zum schwartzen pfol" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3463" start="88" end="91" text="hus zum schwartzen pfol" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="3469" start="94" end="94" text="Trübelmans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3469_head" start="94" end="94" element="head" class="nam" text="Trübelmans" subclass=""/>
+          </span>
+          <span id="3475" start="97" end="99" text="der Einfeltigin hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3475_desc_owner" start="98" end="98" text="Einfeltigin" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="3487" start="98" end="98" text="Einfeltigin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="3487_head" start="98" end="98" element="head" class="nam" text="Einfeltigin" subclass=""/>
+              </span>
+            </span>
+            <span id="3481" start="99" end="99" text="hus" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="3493" start="102" end="140" text="die 4 1 / 2 Juch acker vor St . Alban ,&#10;thor uf dem Militich , zwüschen der Müller Lehen , u . Hansen Müller , auch an der&#10;Strass , als man zu s . Jacob gat" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3499" start="108" end="108" text="acker" element="head" class="type" subclass=""/>
+        <span id="3505" start="109" end="140" text="vor St . Alban ,&#10;thor uf dem Militich , zwüschen der Müller Lehen , u . Hansen Müller , auch an der&#10;Strass , als man zu s . Jacob gat" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3511" start="110" end="114" text="St . Alban ,&#10;thor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3511_head" start="110" end="114" element="head" class="nam" text="St . Alban , thor" subclass=""/>
+          </span>
+          <span id="3517" start="116" end="117" text="dem Militich" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="unk">
+            <span id="3523" start="117" end="117" text="Militich" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="3529" start="120" end="122" text="der Müller Lehen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3529_desc_owner" start="121" end="121" text="Müller" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="3541" start="121" end="121" text="Müller" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="3541_head" start="121" end="121" element="head" class="nam" text="Müller" subclass=""/>
+              </span>
+            </span>
+            <span id="3535" start="122" end="122" text="Lehen" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="3565" start="144" end="174" text="die 2 Juch . acker vor dem Herthor ,&#10;under der Leyngruben , zwüschen dem Spital , u . dem andern Wendli Lang -&#10;messersacker , u . auch am Egelgraben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3571" start="148" end="148" text="acker" element="head" class="type" subclass=""/>
+      </span>
+      <span id="3577" start="178" end="200" text="dan die zweyteil von Eschamerthor ,&#10;usserhalp dem Reppeli , zwüschen Erhart Walhen , u . auch dem andern Wendlin&#10;Langmessers acker gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3583" start="180" end="180" text="zweyteil" element="head" class="quant" subclass=""/>
+        <span id="3589" start="181" end="200" text="von Eschamerthor ,&#10;usserhalp dem Reppeli , zwüschen Erhart Walhen , u . auch dem andern Wendlin&#10;Langmessers acker gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3595" start="182" end="182" text="Eschamerthor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3595_head" start="182" end="182" element="head" class="nam" text="Eschamerthor" subclass=""/>
+          </span>
+          <span id="3601" start="185" end="186" text="dem Reppeli" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="unk">
+            <span id="3607" start="186" end="186" text="Reppeli" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="3613" start="189" end="190" text="Erhart Walhen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3613_head" start="189" end="190" element="head" class="nam" text="Erhart Walhen" subclass=""/>
+          </span>
+          <span id="3619" start="195" end="199" text="dem andern Wendlin&#10;Langmessers acker" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3619_desc_owner" start="197" end="198" text="Wendlin&#10;Langmessers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="3631" start="197" end="198" text="Wendlin&#10;Langmessers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="3631_head" start="197" end="198" element="head" class="nam" text="Wendlin Langmessers" subclass=""/>
+              </span>
+            </span>
+            <span id="3625" start="199" end="199" text="acker" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="3644" start="202" end="231" text="zinsen die 42 Juch . den hohen Stift jährl 1 sh . 8 dn si .&#10;zinset den zwenteil dem Albancloster 1 sh . 8 din , alles anden zinsfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3769" start="202" end="202" text="zinsen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="3650" start="203" end="206" text="die 42 Juch ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3656" start="204" end="206" text="42 Juch ." element="head" class="type" subclass=""/>
+        </span>
+        <span id="3669" start="207" end="209" text="den hohen Stift" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="3675" start="208" end="209" text="hohen Stift" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="3681" start="210" end="210" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="3687" start="211" end="215" text="1 sh . 8 dn" element="value" class="money" subclass=""/>
+        <span id="3775" start="218" end="218" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="3693" start="219" end="220" text="den zwenteil" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3699" start="220" end="220" text="zwenteil" element="head" class="type" subclass=""/>
+        </span>
+        <span id="3712" start="221" end="222" text="dem Albancloster" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="3718" start="222" end="222" text="Albancloster" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="3724" start="223" end="227" text="1 sh . 8 din" element="value" class="money" subclass=""/>
+        <span id="3730" start="229" end="230" text="alles anden" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3730_head" start="229" end="230" element="head" class="type" text="alles anden" subclass=""/>
+        </span>
+        <span id="3781" start="231" end="231" text="zinsfrei" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+      </span>
+    </span>
+    <span id="3559" start="234" end="236" text="50 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="3330" from="3318" to="3324" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3637" from="3631" to="3264" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3750" from="3730" to="3385" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3743" from="3730" to="3397" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3662" from="3650" to="3493" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3736" from="3730" to="3565" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3705" from="3693" to="3577" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3769_role" from="3769" to="3553" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3775_role" from="3775" to="3553" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3781_role" from="3781" to="3553" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="18" end="20" ref="3306" type="state">
+      <trigger start="20" end="20" text="Frauen" ref="3312"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="3288" text="Brud Mülysen"/>
+        <role role="family-b" ref="3318" text="jr"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="18" end="20" ref="3306" type="state">
+      <trigger start="20" end="20" text="Frauen" ref="3312"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="3294" text="Elspeth Uli"/>
+        <role role="family-b" ref="3318" text="jr"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="30" end="32" ref="3349" type="state">
+      <trigger start="30" end="30" text="hindersess" ref="3355"/>
+      <event event_id="2.0">
+        <role role="resident" ref="3337" text="Johansen Crus der Rechten Licentiat , hindersess zu Basel"/>
+        <role role="geopolitical-entity" ref="3361" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="72" end="99" ref="3415" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="3397" text="4 1 / 2 Juch . u . zweyen Juch .&#10;auch einem zweyteil acker , blorfeldt , u wendig der Statt gelegen ,&#10;nemle das Hus uf s . Petersberg , hinder dem hus zum schwartzen pfol , zwüschen&#10;Trübelmans u . der Einfeltigin hus"/>
+        <role role="location-b" ref="3421" text="der Statt"/>
+        <role role="location-b" ref="3433" text="das Hus uf s . Petersberg"/>
+        <role role="location-b" ref="3457" text="dem hus zum schwartzen pfol"/>
+        <role role="location-b" ref="3469" text="Trübelmans"/>
+        <role role="location-b" ref="3475" text="der Einfeltigin hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="81" end="84" ref="3445" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="3433" text="das Hus uf s . Petersberg"/>
+        <role role="location-b" ref="3451" text="s . Petersberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="98" end="98" ref="3475_desc_owner" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="3475" text="der Einfeltigin hus"/>
+        <role role="owner" ref="3487" text="Einfeltigin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="109" end="140" ref="3505" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="3493" text="die 4 1 / 2 Juch acker vor St . Alban ,&#10;thor uf dem Militich , zwüschen der Müller Lehen , u . Hansen Müller , auch an der&#10;Strass , als man zu s . Jacob gat"/>
+        <role role="location-b" ref="3511" text="St . Alban ,&#10;thor"/>
+        <role role="location-b" ref="3517" text="dem Militich"/>
+        <role role="location-b" ref="3529" text="der Müller Lehen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="121" end="121" ref="3529_desc_owner" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="3529" text="der Müller Lehen"/>
+        <role role="owner" ref="3541" text="Müller"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="181" end="200" ref="3589" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="3577" text="dan die zweyteil von Eschamerthor ,&#10;usserhalp dem Reppeli , zwüschen Erhart Walhen , u . auch dem andern Wendlin&#10;Langmessers acker gelegen"/>
+        <role role="location-b" ref="3595" text="Eschamerthor"/>
+        <role role="location-b" ref="3601" text="dem Reppeli"/>
+        <role role="location-b" ref="3613" text="Erhart Walhen"/>
+        <role role="location-b" ref="3619" text="dem andern Wendlin&#10;Langmessers acker"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="ownership" polarity="pos" tense="pres" modality="ass" start="197" end="198" ref="3619_desc_owner" type="state">
+      <event event_id="9.0">
+        <role role="property" ref="3619" text="dem andern Wendlin&#10;Langmessers acker"/>
+        <role role="owner" ref="3631" text="Wendlin&#10;Langmessers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="236" ref="" type="event">
+      <trigger start="22" end="22" text="verkaufen" ref="3757"/>
+      <event event_id="10.0">
+        <role role="seller" ref="3258" text="Bartholome Spymüller"/>
+        <role role="seller" ref="3264" text="Wendli Langmesser der Karer"/>
+        <role role="seller" ref="3288" text="Brud Mülysen"/>
+        <role role="seller" ref="3294" text="Elspeth Uli"/>
+        <role role="buyer" ref="3337" text="Johansen Crus der Rechten Licentiat , hindersess zu Basel"/>
+        <role role="due" ref="3763" text="zinses"/>
+        <role role="collateral" ref="3385" text="dem Hus u . Hofstatt"/>
+        <role role="collateral" ref="3397" text="4 1 / 2 Juch . u . zweyen Juch .&#10;auch einem zweyteil acker , blorfeldt , u wendig der Statt gelegen ,&#10;nemle das Hus uf s . Petersberg , hinder dem hus zum schwartzen pfol , zwüschen&#10;Trübelmans u . der Einfeltigin hus"/>
+        <role role="collateral" ref="3493" text="die 4 1 / 2 Juch acker vor St . Alban ,&#10;thor uf dem Militich , zwüschen der Müller Lehen , u . Hansen Müller , auch an der&#10;Strass , als man zu s . Jacob gat"/>
+        <role role="collateral" ref="3565" text="die 2 Juch . acker vor dem Herthor ,&#10;under der Leyngruben , zwüschen dem Spital , u . dem andern Wendli Lang -&#10;messersacker , u . auch am Egelgraben"/>
+        <role role="collateral" ref="3577" text="dan die zweyteil von Eschamerthor ,&#10;usserhalp dem Reppeli , zwüschen Erhart Walhen , u . auch dem andern Wendlin&#10;Langmessers acker gelegen"/>
+        <role role="price" ref="3559" text="50 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="34" end="42" ref="" type="state">
+      <trigger start="42" end="42" text="zinses" ref="3763"/>
+      <event event_id="11.0">
+        <role role="interest" ref="3373" text="2 1 / 2 fl ."/>
+        <role role="interval" ref="3379" text="jährl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="202" end="231" ref="3644" type="state">
+      <trigger start="202" end="202" text="zinsen" ref="3769"/>
+      <event event_id="12.0">
+        <role role="property" ref="3650" text="die 42 Juch ."/>
+        <role role="beneficiary" ref="3669" text="den hohen Stift"/>
+        <role role="interval" ref="3681" text="jährl"/>
+        <role role="interest" ref="3687" text="1 sh . 8 dn"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="218" end="231" ref="3644" type="state">
+      <trigger start="218" end="218" text="zinset" ref="3775"/>
+      <event event_id="13.0">
+        <role role="property" ref="3693" text="den zwenteil"/>
+        <role role="beneficiary" ref="3712" text="dem Albancloster"/>
+        <role role="interest" ref="3724" text="1 sh . 8 din"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="231" end="231" ref="3644" type="state">
+      <trigger start="231" end="231" text="zinsfrei" ref="3781"/>
+      <event event_id="14.0">
+        <role role="property" ref="3730" text="alles anden"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 24/22 S. [50]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Barfüsserplatz Theil von 3</tei:title>
+            <tei:idno>HGB 1 24/22</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1462713</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1654">1654</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611371.599798208 1267170.4020940997</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Kaufpublicatio</token>
+    <token token_id="1">auf</token>
+    <token token_id="2">Dichnechtfrawfasten</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Es</token>
+    <token token_id="5">verkauft</token>
+    <token token_id="6">H</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Niclaus</token>
+    <token token_id="9">Jacckhlin</token>
+    <token token_id="10">Würth</token>
+    <token token_id="11">,</token>
+    <token token_id="12">zum</token>
+    <token token_id="13">Schuf</token>
+    <token token_id="14">und</token>
+    <token token_id="15">gibt</token>
+    <token token_id="16">zu</token>
+    <token token_id="17">Kaufen</token>
+    <token token_id="18">H</token>
+    <token token_id="19">.</token>
+    <token token_id="20">Magistro</token>
+    <token token_id="21">Johann</token>
+    <token token_id="22">Jacob</token>
+    <token token_id="23">Eberthen</token>
+    <token token_id="24">Provesten</token>
+    <token token_id="25">in</token>
+    <token token_id="26">der</token>
+    <token token_id="27">Kua</token>
+    <token token_id="28">¬</token>
+    <token token_id="29">benschuhl</token>
+    <token token_id="30">aufem</token>
+    <token token_id="31">Barfüsserblatz</token>
+    <token token_id="32">eine</token>
+    <token token_id="33">Behaus</token>
+    <token token_id="34">.</token>
+    <token token_id="35">ung</token>
+    <token token_id="36">und</token>
+    <token token_id="37">Hoofstatt</token>
+    <token token_id="38">ohnfehr</token>
+    <token token_id="39">vom</token>
+    <token token_id="40">Schuf</token>
+    <token token_id="41">neben</token>
+    <token token_id="42">dem</token>
+    <token token_id="43">Keufer</token>
+    <token token_id="44">selbs</token>
+    <token token_id="45">gelegen</token>
+    <token token_id="46">.</token>
+  </text>
+  <spans>
+    <span id="722" start="1" end="2" text="auf Dichnechtfrawfasten" element="value" class="date" subclass=""/>
+    <span id="868" start="5" end="5" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="728" start="6" end="13" text="H . Niclaus Jacckhlin Würth ,&#10;zum Schuf" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="825" start="8" end="9" text="Niclaus Jacckhlin" element="head" class="nam" subclass=""/>
+      <span id="831" start="10" end="13" text="Würth ,&#10;zum Schuf" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="837" start="10" end="10" text="Würth" element="head" class="occ" subclass="org-job"/>
+        <span id="843" start="12" end="13" text="zum Schuf" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="849" start="13" end="13" text="Schuf" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="734" start="18" end="31" text="H . Magistro&#10;Johann Jacob Eberthen Provesten in der Kua ¬&#10;benschuhl aufem Barfüsserblatz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="740" start="20" end="20" text="Magistro" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="740_head" start="20" end="20" element="head" class="title" text="Magistro" subclass=""/>
+      </span>
+      <span id="746" start="21" end="23" text="Johann Jacob Eberthen" element="head" class="nam" subclass=""/>
+      <span id="752" start="24" end="31" text="Provesten in der Kua ¬&#10;benschuhl aufem Barfüsserblatz" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="758" start="24" end="24" text="Provesten" element="head" class="occ" subclass="org-job"/>
+        <span id="764" start="26" end="31" text="der Kua ¬&#10;benschuhl aufem Barfüsserblatz" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="edu">
+          <span id="770" start="27" end="29" text="Kua ¬&#10;benschuhl" element="head" class="type" subclass=""/>
+          <span id="776" start="30" end="31" text="aufem Barfüsserblatz" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="782" start="31" end="31" text="Barfüsserblatz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+              <span id="782_head" start="31" end="31" element="head" class="nam" text="Barfüsserblatz" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="788" start="32" end="45" text="eine Behaus .&#10;ung und Hoofstatt ohnfehr vom Schuf neben&#10;dem Keufer selbs gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="794" start="33" end="37" text="Behaus .&#10;ung und Hoofstatt" element="head" class="type" subclass=""/>
+      <span id="800" start="38" end="45" text="ohnfehr vom Schuf neben&#10;dem Keufer selbs gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="855" start="40" end="40" text="Schuf" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="855_head" start="40" end="40" element="head" class="nam" text="Schuf" subclass=""/>
+        </span>
+        <span id="806" start="42" end="44" text="dem Keufer selbs" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="812" start="43" end="43" text="Keufer" element="head" class="role" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="818" from="806" to="734" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="861" from="843" to="855" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="10" end="13" ref="831" type="state">
+      <trigger start="10" end="10" text="Würth" ref="837"/>
+      <event event_id="0.0">
+        <role role="employee" ref="728" text="H . Niclaus Jacckhlin Würth ,&#10;zum Schuf"/>
+        <role role="employer" ref="843" text="zum Schuf"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="24" end="31" ref="752" type="state">
+      <trigger start="24" end="24" text="Provesten" ref="758"/>
+      <event event_id="1.0">
+        <role role="employee" ref="734" text="H . Magistro&#10;Johann Jacob Eberthen Provesten in der Kua ¬&#10;benschuhl aufem Barfüsserblatz"/>
+        <role role="employer" ref="764" text="der Kua ¬&#10;benschuhl aufem Barfüsserblatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="31" ref="776" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="764" text="der Kua ¬&#10;benschuhl aufem Barfüsserblatz"/>
+        <role role="location-b" ref="782" text="Barfüsserblatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="38" end="45" ref="800" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="788" text="eine Behaus .&#10;ung und Hoofstatt ohnfehr vom Schuf neben&#10;dem Keufer selbs gelegen"/>
+        <role role="location-b" ref="855" text="Schuf"/>
+        <role role="location-b" ref="806" text="dem Keufer selbs"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="5" end="5" ref="" type="event">
+      <trigger start="5" end="5" text="verkauft" ref="868"/>
+      <event event_id="4.0">
+        <role role="seller" ref="728" text="H . Niclaus Jacckhlin Würth ,&#10;zum Schuf"/>
+        <role role="buyer" ref="734" text="H . Magistro&#10;Johann Jacob Eberthen Provesten in der Kua ¬&#10;benschuhl aufem Barfüsserblatz"/>
+        <role role="property" ref="788" text="eine Behaus .&#10;ung und Hoofstatt ohnfehr vom Schuf neben&#10;dem Keufer selbs gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

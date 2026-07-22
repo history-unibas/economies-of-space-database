@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 68/6 S. [15]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Grünpfahlgasse 1</tei:title>
+            <tei:idno>HGB 1 68/6</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1478030</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1415">1415</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611255.356420474 1267339.9796054547</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">so</token>
+    <token token_id="2">gab</token>
+    <token token_id="3">ze</token>
+    <token token_id="4">kouffende</token>
+    <token token_id="5">Johanns</token>
+    <token token_id="6">Zschidelbast</token>
+    <token token_id="7">burger</token>
+    <token token_id="8">von</token>
+    <token token_id="9">Sennh</token>
+    <token token_id="10">und</token>
+    <token token_id="11">Ulr</token>
+    <token token_id="12">Prunelle</token>
+    <token token_id="13">der</token>
+    <token token_id="14">wirt</token>
+    <token token_id="15">burger</token>
+    <token token_id="16">ze</token>
+    <token token_id="17">Basel</token>
+    <token token_id="18">,</token>
+    <token token_id="19">Wilmin</token>
+    <token token_id="20">von</token>
+    <token token_id="21">Calis</token>
+    <token token_id="22">burger</token>
+    <token token_id="23">das</token>
+    <token token_id="24">huse</token>
+    <token token_id="25">und</token>
+    <token token_id="26">hofstat</token>
+    <token token_id="27">mit</token>
+    <token token_id="28">sinen</token>
+    <token token_id="29">rechten</token>
+    <token token_id="30">begriffen</token>
+    <token token_id="31">und</token>
+    <token token_id="32">zugehörd</token>
+    <token token_id="33">so</token>
+    <token token_id="34">man</token>
+    <token token_id="35">nemet</token>
+    <token token_id="36">die</token>
+    <token token_id="37">Judenschul</token>
+    <token token_id="38">gelegen</token>
+    <token token_id="39">ze</token>
+    <token token_id="40">Basel</token>
+    <token token_id="41">in</token>
+    <token token_id="42">der</token>
+    <token token_id="43">stat</token>
+    <token token_id="44">zwüschent</token>
+    <token token_id="45">der</token>
+    <token token_id="46">badstuben</token>
+    <token token_id="47">zem</token>
+    <token token_id="48">Mü</token>
+    <token token_id="49">¬</token>
+    <token token_id="50">listen</token>
+    <token token_id="51">und</token>
+    <token token_id="52">Mathisen</token>
+    <token token_id="53">Ebolers</token>
+    <token token_id="54">undentlich</token>
+    <token token_id="55">huse</token>
+    <token token_id="56">so</token>
+    <token token_id="57">man</token>
+    <token token_id="58">nemmet</token>
+    <token token_id="59">Studers</token>
+    <token token_id="60">hofe</token>
+    <token token_id="61">ist</token>
+    <token token_id="62">lidig</token>
+    <token token_id="63">eigen</token>
+    <token token_id="64">usgenomen</token>
+    <token token_id="65">das</token>
+    <token token_id="66">da</token>
+    <token token_id="67">von</token>
+    <token token_id="68">jerlich</token>
+    <token token_id="69">gehörent</token>
+    <token token_id="70">ze</token>
+    <token token_id="71">ge</token>
+    <token token_id="72">¬</token>
+    <token token_id="73">bende</token>
+    <token token_id="74">herre</token>
+    <token token_id="75">Peter</token>
+    <token token_id="76">Schellenberg</token>
+    <token token_id="77">kilchherren</token>
+    <token token_id="78">ze</token>
+    <token token_id="79">Rinspach</token>
+    <token token_id="80">8</token>
+    <token token_id="81">guld</token>
+    <token token_id="82">jerl</token>
+    <token token_id="83">zinses</token>
+    <token token_id="84">sint</token>
+    <token token_id="85">gekoufft</token>
+    <token token_id="86">und</token>
+    <token token_id="87">widerkouffig</token>
+    <token token_id="88">mit</token>
+    <token token_id="89">hundert</token>
+    <token token_id="90">und</token>
+    <token token_id="91">70</token>
+    <token token_id="92">flory</token>
+    <token token_id="93">.</token>
+    <token token_id="94">pro</token>
+    <token token_id="95">summa</token>
+    <token token_id="96">42</token>
+    <token token_id="97">flory</token>
+    <token token_id="98">.</token>
+  </text>
+  <spans>
+    <span id="1738" start="4" end="4" text="kouffende" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1744" start="5" end="17" text="Johanns Zschidelbast&#10;burger von Sennh und Ulr Prunelle der&#10;wirt burger ze Basel" element="list" class="per" subclass="">
+      <span id="1498" start="5" end="9" text="Johanns Zschidelbast&#10;burger von Sennh" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1504" start="5" end="6" text="Johanns Zschidelbast" element="head" class="nam" subclass=""/>
+        <span id="1510" start="7" end="9" text="burger von Sennh" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1516" start="7" end="7" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="1522" start="9" end="9" text="Sennh" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1522_head" start="9" end="9" element="head" class="nam" text="Sennh" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1528" start="11" end="17" text="Ulr Prunelle der&#10;wirt burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1534" start="11" end="12" text="Ulr Prunelle" element="head" class="nam" subclass=""/>
+        <span id="1540" start="13" end="14" text="der&#10;wirt" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1546" start="14" end="14" text="wirt" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1552" start="15" end="17" text="burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1558" start="15" end="15" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="1564" start="17" end="17" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1564_head" start="17" end="17" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1570" start="19" end="22" text="Wilmin von Calis&#10;burger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1576" start="19" end="21" text="Wilmin von Calis" element="head" class="nam" subclass=""/>
+      <span id="1582" start="22" end="22" text="burger" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1582_head" start="22" end="22" element="head" class="org-aff" text="burger" subclass=""/>
+      </span>
+    </span>
+    <span id="1588" start="23" end="93" text="das huse und hofstat mit sinen&#10;rechten begriffen und zugehörd so man&#10;nemet die Judenschul gelegen ze Basel in&#10;der stat zwüschent der badstuben zem Mü ¬&#10;listen und Mathisen Ebolers undentlich huse&#10;so man nemmet Studers hofe ist lidig eigen&#10;usgenomen das da von jerlich gehörent ze ge ¬&#10;bende herre Peter Schellenberg kilchherren ze&#10;Rinspach 8 guld jerl zinses sint gekoufft und&#10;widerkouffig mit hundert und 70 flory ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1594" start="24" end="26" text="huse und hofstat" element="head" class="type" subclass=""/>
+      <span id="1600" start="36" end="37" text="die Judenschul" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1606" start="37" end="37" text="Judenschul" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1612" start="38" end="60" text="gelegen ze Basel in&#10;der stat zwüschent der badstuben zem Mü ¬&#10;listen und Mathisen Ebolers undentlich huse&#10;so man nemmet Studers hofe" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1768" start="40" end="40" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1618" start="40" end="40" text="Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1774" start="42" end="43" text="der stat" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1780" start="43" end="43" text="stat" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1624" start="45" end="50" text="der badstuben zem Mü ¬&#10;listen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1630" start="46" end="50" text="badstuben zem Mü ¬&#10;listen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1636" start="52" end="60" text="Mathisen Ebolers undentlich huse&#10;so man nemmet Studers hofe" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1642" start="52" end="53" text="Mathisen Ebolers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1648" start="52" end="53" text="Mathisen Ebolers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1648_head" start="52" end="53" element="head" class="nam" text="Mathisen Ebolers" subclass=""/>
+            </span>
+          </span>
+          <span id="1654" start="55" end="55" text="huse" element="head" class="type" subclass=""/>
+          <span id="1660" start="59" end="60" text="Studers hofe" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1660_head" start="59" end="60" element="head" class="nam" text="Studers hofe" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1666" start="61" end="93" text="ist lidig eigen&#10;usgenomen das da von jerlich gehörent ze ge ¬&#10;bende herre Peter Schellenberg kilchherren ze&#10;Rinspach 8 guld jerl zinses sint gekoufft und&#10;widerkouffig mit hundert und 70 flory ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1756" start="66" end="67" text="da von" element="other" class="other" subclass=""/>
+        <span id="1672" start="68" end="68" text="jerlich" element="value" class="time" subclass="rec"/>
+        <span id="1750" start="71" end="73" text="ge ¬&#10;bende" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1678" start="74" end="79" text="herre Peter Schellenberg kilchherren ze&#10;Rinspach" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1684" start="75" end="76" text="Peter Schellenberg" element="head" class="nam" subclass=""/>
+          <span id="1690" start="77" end="79" text="kilchherren ze&#10;Rinspach" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+            <span id="1696" start="77" end="77" text="kilchherren" element="head" class="occ" subclass="org-job"/>
+            <span id="1702" start="78" end="79" text="ze&#10;Rinspach" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1708" start="79" end="79" text="Rinspach" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1708_head" start="79" end="79" element="head" class="nam" text="Rinspach" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+        <span id="1714" start="80" end="81" text="8 guld" element="value" class="money" subclass=""/>
+        <span id="1720" start="82" end="82" text="jerl" element="value" class="time" subclass="rec"/>
+        <span id="1762" start="87" end="87" text="widerkouffig" element="other" class="other" subclass=""/>
+        <span id="1726" start="89" end="93" text="hundert und 70 flory ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1732" start="96" end="98" text="42 flory ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1786" from="1774" to="1768" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1750_role" from="1750" to="1588" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="7" end="9" ref="1510" type="state">
+      <trigger start="7" end="7" text="burger" ref="1516"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1498" text="Johanns Zschidelbast&#10;burger von Sennh"/>
+        <role role="geopolitical-entity" ref="1522" text="Sennh"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="15" end="17" ref="1552" type="state">
+      <trigger start="15" end="15" text="burger" ref="1558"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1528" text="Ulr Prunelle der&#10;wirt burger ze Basel"/>
+        <role role="geopolitical-entity" ref="1564" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="38" end="60" ref="1612" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1588" text="das huse und hofstat mit sinen&#10;rechten begriffen und zugehörd so man&#10;nemet die Judenschul gelegen ze Basel in&#10;der stat zwüschent der badstuben zem Mü ¬&#10;listen und Mathisen Ebolers undentlich huse&#10;so man nemmet Studers hofe ist lidig eigen&#10;usgenomen das da von jerlich gehörent ze ge ¬&#10;bende herre Peter Schellenberg kilchherren ze&#10;Rinspach 8 guld jerl zinses sint gekoufft und&#10;widerkouffig mit hundert und 70 flory ."/>
+        <role role="location-b" ref="1768" text="Basel"/>
+        <role role="location-b" ref="1774" text="der stat"/>
+        <role role="location-b" ref="1624" text="der badstuben zem Mü ¬&#10;listen"/>
+        <role role="location-b" ref="1636" text="Mathisen Ebolers undentlich huse&#10;so man nemmet Studers hofe"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="52" end="53" ref="1642" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1636" text="Mathisen Ebolers undentlich huse&#10;so man nemmet Studers hofe"/>
+        <role role="owner" ref="1648" text="Mathisen Ebolers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="78" end="79" ref="1702" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1678" text="herre Peter Schellenberg kilchherren ze&#10;Rinspach"/>
+        <role role="location-b" ref="1708" text="Rinspach"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="4" end="98" ref="" type="event">
+      <trigger start="4" end="4" text="kouffende" ref="1738"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1498" text="Johanns Zschidelbast&#10;burger von Sennh"/>
+        <role role="seller" ref="1528" text="Ulr Prunelle der&#10;wirt burger ze Basel"/>
+        <role role="buyer" ref="1570" text="Wilmin von Calis&#10;burger"/>
+        <role role="property" ref="1588" text="das huse und hofstat mit sinen&#10;rechten begriffen und zugehörd so man&#10;nemet die Judenschul gelegen ze Basel in&#10;der stat zwüschent der badstuben zem Mü ¬&#10;listen und Mathisen Ebolers undentlich huse&#10;so man nemmet Studers hofe ist lidig eigen&#10;usgenomen das da von jerlich gehörent ze ge ¬&#10;bende herre Peter Schellenberg kilchherren ze&#10;Rinspach 8 guld jerl zinses sint gekoufft und&#10;widerkouffig mit hundert und 70 flory ."/>
+        <role role="price" ref="1732" text="42 flory ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="23" end="93" ref="1666" type="state">
+      <trigger start="71" end="73" text="ge ¬&#10;bende" ref="1750"/>
+      <event event_id="6.0">
+        <role role="property" ref="1756" text="da von"/>
+        <role role="beneficiary" ref="1678" text="herre Peter Schellenberg kilchherren ze&#10;Rinspach"/>
+        <role role="interest" ref="1714" text="8 guld"/>
+        <role role="interval" ref="1720" text="jerl"/>
+        <role role="interest-redeemable" ref="1762" text="widerkouffig"/>
+        <role role="capital" ref="1726" text="hundert und 70 flory ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

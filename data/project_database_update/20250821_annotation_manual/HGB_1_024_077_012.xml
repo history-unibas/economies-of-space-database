@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 24/77 S. [12]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Barfüsserplatz 4</tei:title>
+            <tei:idno>HGB 1 24/77</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1462987</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1487">1487</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611377.2495285277 1267172.4886378972</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Joss</token>
+    <token token_id="1">Steltz</token>
+    <token token_id="2">ư</token>
+    <token token_id="3">seine</token>
+    <token token_id="4">Frau</token>
+    <token token_id="5">Elsin</token>
+    <token token_id="6">,</token>
+    <token token_id="7">haben</token>
+    <token token_id="8">einander</token>
+    <token token_id="9">gewidmet</token>
+    <token token_id="10">ir</token>
+    <token token_id="11">Hus</token>
+    <token token_id="12">&amp;</token>
+    <token token_id="13">Hofstatt</token>
+    <token token_id="14">genant</token>
+    <token token_id="15">Storkenfels</token>
+    <token token_id="16">,</token>
+    <token token_id="17">gelegen</token>
+    <token token_id="18">an</token>
+    <token token_id="19">der</token>
+    <token token_id="20">Wyssen</token>
+    <token token_id="21">gassen</token>
+    <token token_id="22">,</token>
+    <token token_id="23">zwuschen</token>
+    <token token_id="24">frauen</token>
+    <token token_id="25">Judith</token>
+    <token token_id="26">Erenfelsin</token>
+    <token token_id="27">hus</token>
+    <token token_id="28">ze</token>
+    <token token_id="29">einer</token>
+    <token token_id="30">,</token>
+    <token token_id="31">und</token>
+    <token token_id="32">zer</token>
+    <token token_id="33">andern</token>
+    <token token_id="34">siten</token>
+    <token token_id="35">gelegen</token>
+    <token token_id="36">ist</token>
+    <token token_id="37">,</token>
+    <token token_id="38">u</token>
+    <token token_id="39">.</token>
+    <token token_id="40">andere</token>
+    <token token_id="41">güter</token>
+    <token token_id="42">,</token>
+  </text>
+  <spans>
+    <span id="730" start="0" end="5" text="Joss Steltz ư seine Frau Elsin" element="list" class="per" subclass="">
+      <span id="736" start="0" end="1" text="Joss Steltz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="779" start="0" end="1" text="Joss Steltz" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="742" start="3" end="5" text="seine Frau Elsin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="754" start="3" end="4" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="760" start="3" end="3" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="760_head" start="3" end="3" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="766" start="4" end="4" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="748" start="5" end="5" text="Elsin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="785" start="8" end="8" text="einander" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="785_head" start="8" end="8" element="head" class="pro" text="einander" subclass=""/>
+    </span>
+    <span id="877" start="9" end="9" text="gewidmet" element="trigger" class="bequest" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="798" start="10" end="36" text="ir Hus &amp; Hofstatt genant Storkenfels ,&#10;gelegen an der Wyssen gassen , zwuschen frauen Judith&#10;Erenfelsin hus ze einer , und&#10;zer andern siten gelegen ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="798_desc_owner" start="10" end="10" text="ir" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="810" start="10" end="10" text="ir" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="810_head" start="10" end="10" element="head" class="pro" text="ir" subclass=""/>
+        </span>
+      </span>
+      <span id="804" start="11" end="13" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="823" start="15" end="15" text="Storkenfels" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="823_head" start="15" end="15" element="head" class="nam" text="Storkenfels" subclass=""/>
+      </span>
+      <span id="829" start="17" end="36" text="gelegen an der Wyssen gassen , zwuschen frauen Judith&#10;Erenfelsin hus ze einer , und&#10;zer andern siten gelegen ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="835" start="19" end="21" text="der Wyssen gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="841" start="20" end="21" text="Wyssen gassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="871" start="24" end="27" text="frauen Judith&#10;Erenfelsin hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="859" start="24" end="26" text="frauen Judith&#10;Erenfelsin" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="853" start="24" end="26" text="frauen Judith&#10;Erenfelsin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="853_head" start="24" end="26" element="head" class="nam" text="frauen Judith Erenfelsin" subclass=""/>
+            </span>
+          </span>
+          <span id="865" start="27" end="27" text="hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="883" start="40" end="41" text="andere güter" element="reference" class="fac" numerus="grp" specificity="uspc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="889" start="41" end="41" text="güter" element="head" class="type" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="791" from="785" to="730" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="816" from="810" to="730" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="772" from="760" to="736" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="3" end="4" ref="754" type="state">
+      <trigger start="4" end="4" text="Frau" ref="766"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="742" text="seine Frau Elsin"/>
+        <role role="family-b" ref="760" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="10" end="10" ref="798_desc_owner" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="798" text="ir Hus &amp; Hofstatt genant Storkenfels ,&#10;gelegen an der Wyssen gassen , zwuschen frauen Judith&#10;Erenfelsin hus ze einer , und&#10;zer andern siten gelegen ist"/>
+        <role role="owner" ref="810" text="ir"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="36" ref="829" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="798" text="ir Hus &amp; Hofstatt genant Storkenfels ,&#10;gelegen an der Wyssen gassen , zwuschen frauen Judith&#10;Erenfelsin hus ze einer , und&#10;zer andern siten gelegen ist"/>
+        <role role="location-b" ref="835" text="der Wyssen gassen"/>
+        <role role="location-b" ref="871" text="frauen Judith&#10;Erenfelsin hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="24" end="26" ref="859" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="871" text="frauen Judith&#10;Erenfelsin hus"/>
+        <role role="owner" ref="853" text="frauen Judith&#10;Erenfelsin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="bequest" polarity="pos" tense="pres" modality="ass" start="0" end="9" ref="" type="event">
+      <trigger start="9" end="9" text="gewidmet" ref="877"/>
+      <event event_id="4.0">
+        <role role="bequeather" ref="736" text="Joss Steltz"/>
+        <role role="bequeather" ref="742" text="seine Frau Elsin"/>
+        <role role="beneficiary" ref="785" text="einander"/>
+        <role role="property" ref="798" text="ir Hus &amp; Hofstatt genant Storkenfels ,&#10;gelegen an der Wyssen gassen , zwuschen frauen Judith&#10;Erenfelsin hus ze einer , und&#10;zer andern siten gelegen ist"/>
+        <role role="property" ref="883" text="andere güter"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

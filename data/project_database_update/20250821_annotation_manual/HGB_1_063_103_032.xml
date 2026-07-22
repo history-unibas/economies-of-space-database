@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/103 S. [32]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 42</tei:title>
+            <tei:idno>HGB 1 63/103</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472968</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1464">1464</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611284.3088644636 1267295.3069421037</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Fronfastenzinse</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Item</token>
+    <token token_id="3">von</token>
+    <token token_id="4">dem</token>
+    <token token_id="5">hus</token>
+    <token token_id="6">zem</token>
+    <token token_id="7">Griffen</token>
+    <token token_id="8">gitt</token>
+    <token token_id="9">man</token>
+    <token token_id="10">2</token>
+    <token token_id="11">1</token>
+    <token token_id="12">/</token>
+    <token token_id="13">2ß</token>
+    <token token_id="14">,</token>
+    <token token_id="15">1</token>
+    <token token_id="16">1</token>
+    <token token_id="17">/</token>
+    <token token_id="18">2</token>
+    <token token_id="19">ȡ</token>
+    <token token_id="20">.</token>
+    <token token_id="21">4ring</token>
+    <token token_id="22">wisung</token>
+    <token token_id="23">,</token>
+    <token token_id="24">5ß</token>
+    <token token_id="25">erschach</token>
+    <token token_id="26">,</token>
+    <token token_id="27">daz</token>
+    <token token_id="28">gitt</token>
+    <token token_id="29">Hans</token>
+    <token token_id="30">Gebestorffer</token>
+    <token token_id="31">der</token>
+    <token token_id="32">Fischmacher</token>
+    <token token_id="33">.</token>
+    <token token_id="34">1465</token>
+    <token token_id="35">fehlt</token>
+    <token token_id="36">.</token>
+    <token token_id="37">1466</token>
+    <token token_id="38">wie</token>
+    <token token_id="39">oben</token>
+    <token token_id="40">.</token>
+    <token token_id="41">1467</token>
+    <token token_id="42">fehlt</token>
+    <token token_id="43">.</token>
+    <token token_id="44">1468</token>
+    <token token_id="45">fehlt</token>
+    <token token_id="46">.</token>
+    <token token_id="47">1469</token>
+    <token token_id="48">von</token>
+    <token token_id="49">dem</token>
+    <token token_id="50">hus</token>
+    <token token_id="51">zem</token>
+    <token token_id="52">Griffen</token>
+    <token token_id="53">under</token>
+    <token token_id="54">den</token>
+    <token token_id="55">Gerwern</token>
+    <token token_id="56">2</token>
+    <token token_id="57">1</token>
+    <token token_id="58">/</token>
+    <token token_id="59">2ß</token>
+    <token token_id="60">,</token>
+    <token token_id="61">1</token>
+    <token token_id="62">1</token>
+    <token token_id="63">/</token>
+    <token token_id="64">2</token>
+    <token token_id="65">ȡ</token>
+    <token token_id="66">4ring</token>
+    <token token_id="67">wisung</token>
+    <token token_id="68">,</token>
+    <token token_id="69">3ß</token>
+    <token token_id="70">erschac</token>
+    <token token_id="71">das</token>
+    <token token_id="72">git</token>
+    <token token_id="73">Hans</token>
+    <token token_id="74">Gebestorffer</token>
+    <token token_id="75">der</token>
+    <token token_id="76">Fischmacher</token>
+    <token token_id="77">.</token>
+    <token token_id="78">Ebenso</token>
+    <token token_id="79">1470</token>
+    <token token_id="80">.</token>
+    <token token_id="81">Ebenso</token>
+    <token token_id="82">1471</token>
+    <token token_id="83">.</token>
+    <token token_id="84">1472</token>
+    <token token_id="85">von</token>
+    <token token_id="86">dem</token>
+    <token token_id="87">hus</token>
+    <token token_id="88">zem</token>
+    <token token_id="89">Griffen</token>
+    <token token_id="90">under</token>
+    <token token_id="91">den</token>
+    <token token_id="92">Gerwern</token>
+    <token token_id="93">2</token>
+    <token token_id="94">1</token>
+    <token token_id="95">/</token>
+    <token token_id="96">2</token>
+    <token token_id="97">ß</token>
+    <token token_id="98">,</token>
+    <token token_id="99">1</token>
+    <token token_id="100">1</token>
+    <token token_id="101">/</token>
+    <token token_id="102">2</token>
+    <token token_id="103">ȡ</token>
+    <token token_id="104">4ring</token>
+    <token token_id="105">wisung</token>
+    <token token_id="106">2</token>
+    <token token_id="107">1</token>
+    <token token_id="108">/</token>
+    <token token_id="109">2</token>
+    <token token_id="110">ß</token>
+    <token token_id="111">erschach</token>
+    <token token_id="112">das</token>
+    <token token_id="113">git</token>
+    <token token_id="114">Gewestorffer</token>
+    <token token_id="115">der</token>
+    <token token_id="116">Vischmacher</token>
+    <token token_id="117">.</token>
+    <token token_id="118">1473</token>
+    <token token_id="119">,</token>
+    <token token_id="120">1474</token>
+    <token token_id="121">,</token>
+    <token token_id="122">1475</token>
+    <token token_id="123">,</token>
+    <token token_id="124">1476</token>
+    <token token_id="125">fehlen</token>
+    <token token_id="126">.</token>
+    <token token_id="127">1477</token>
+    <token token_id="128">wie</token>
+    <token token_id="129">oben</token>
+    <token token_id="130">.</token>
+    <token token_id="131">1478</token>
+    <token token_id="132">-</token>
+    <token token_id="133">1484</token>
+    <token token_id="134">fehlen</token>
+    <token token_id="135">.</token>
+  </text>
+  <spans>
+    <span id="1919" start="4" end="7" text="dem hus zem Griffen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1925" start="5" end="7" text="hus zem Griffen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2247" start="8" end="8" text="gitt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1931" start="10" end="13" text="2 1 / 2ß" element="value" class="money" subclass=""/>
+    <span id="1937" start="15" end="19" text="1 1 / 2 ȡ" element="value" class="money" subclass=""/>
+    <span id="1943" start="21" end="21" text="4ring" element="value" class="money" subclass=""/>
+    <span id="2253" start="22" end="22" text="wisung" element="other" class="other" subclass=""/>
+    <span id="1949" start="24" end="24" text="5ß" element="value" class="money" subclass=""/>
+    <span id="2259" start="25" end="25" text="erschach" element="other" class="other" subclass=""/>
+    <span id="1955" start="29" end="32" text="Hans Gebestorffer&#10;der Fischmacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1961" start="29" end="30" text="Hans Gebestorffer" element="head" class="nam" subclass=""/>
+      <span id="1967" start="31" end="32" text="der Fischmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1973" start="32" end="32" text="Fischmacher" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1979" start="34" end="34" text="1465" element="value" class="date" subclass=""/>
+    <span id="1985" start="37" end="37" text="1466" element="value" class="date" subclass=""/>
+    <span id="1991" start="41" end="41" text="1467" element="value" class="date" subclass=""/>
+    <span id="1997" start="44" end="44" text="1468" element="value" class="date" subclass=""/>
+    <span id="2003" start="47" end="47" text="1469" element="value" class="date" subclass=""/>
+    <span id="2009" start="49" end="55" text="dem hus zem Griffen under den Gerwern" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2015" start="50" end="52" text="hus zem Griffen" element="head" class="nam" subclass=""/>
+      <span id="2021" start="53" end="55" text="under den Gerwern" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2027" start="54" end="55" text="den Gerwern" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+          <span id="2033" start="55" end="55" text="Gerwern" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2039" start="56" end="59" text="2 1 / 2ß" element="value" class="money" subclass=""/>
+    <span id="2045" start="61" end="65" text="1 1 / 2 ȡ" element="value" class="money" subclass=""/>
+    <span id="2051" start="66" end="66" text="4ring" element="value" class="money" subclass=""/>
+    <span id="2271" start="67" end="67" text="wisung" element="other" class="other" subclass=""/>
+    <span id="2057" start="69" end="69" text="3ß" element="value" class="money" subclass=""/>
+    <span id="2277" start="70" end="70" text="erschac" element="other" class="other" subclass=""/>
+    <span id="2265" start="72" end="72" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2063" start="73" end="76" text="Hans Gebestorffer der Fischmacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2069" start="73" end="74" text="Hans Gebestorffer" element="head" class="nam" subclass=""/>
+      <span id="2075" start="75" end="76" text="der Fischmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2081" start="76" end="76" text="Fischmacher" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2087" start="79" end="79" text="1470" element="value" class="date" subclass=""/>
+    <span id="2093" start="82" end="82" text="1471" element="value" class="date" subclass=""/>
+    <span id="2099" start="84" end="84" text="1472" element="value" class="date" subclass=""/>
+    <span id="2112" start="86" end="92" text="dem hus zem Griffen under den Gerwern" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2132" start="87" end="89" text="hus zem Griffen" element="head" class="nam" subclass=""/>
+      <span id="2138" start="90" end="92" text="under den Gerwern" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2144" start="91" end="92" text="den Gerwern" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+          <span id="2150" start="92" end="92" text="Gerwern" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2163" start="93" end="97" text="2 1 / 2 ß" element="value" class="money" subclass=""/>
+    <span id="2169" start="99" end="103" text="1 1 / 2 ȡ" element="value" class="money" subclass=""/>
+    <span id="2175" start="104" end="104" text="4ring" element="value" class="money" subclass=""/>
+    <span id="2289" start="105" end="105" text="wisung" element="other" class="other" subclass=""/>
+    <span id="2181" start="106" end="110" text="2 1 / 2 ß" element="value" class="money" subclass=""/>
+    <span id="2295" start="111" end="111" text="erschach" element="other" class="other" subclass=""/>
+    <span id="2283" start="113" end="113" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2187" start="114" end="116" text="Gewestorffer der Vischmacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2193" start="114" end="114" text="Gewestorffer" element="head" class="nam" subclass=""/>
+      <span id="2199" start="115" end="116" text="der Vischmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2205" start="116" end="116" text="Vischmacher" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2211" start="118" end="118" text="1473" element="value" class="date" subclass=""/>
+    <span id="2217" start="120" end="120" text="1474" element="value" class="date" subclass=""/>
+    <span id="2223" start="122" end="122" text="1475" element="value" class="date" subclass=""/>
+    <span id="2229" start="124" end="124" text="1476" element="value" class="date" subclass=""/>
+    <span id="2235" start="127" end="127" text="1477" element="value" class="date" subclass=""/>
+    <span id="2241" start="131" end="133" text="1478 - 1484" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2105" from="2009" to="1919" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2125" from="2063" to="1955" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2118" from="2112" to="2009" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2156" from="2144" to="2027" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="53" end="55" ref="2021" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="2009" text="dem hus zem Griffen under den Gerwern"/>
+        <role role="location-b" ref="2027" text="den Gerwern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="90" end="92" ref="2138" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="2112" text="dem hus zem Griffen under den Gerwern"/>
+        <role role="location-b" ref="2144" text="den Gerwern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="4" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="gitt" ref="2247"/>
+      <event event_id="2.0">
+        <role role="property" ref="1919" text="dem hus zem Griffen"/>
+        <role role="interest" ref="1931" text="2 1 / 2ß"/>
+        <role role="interest" ref="1937" text="1 1 / 2 ȡ"/>
+        <role role="payer" ref="1955" text="Hans Gebestorffer&#10;der Fischmacher"/>
+        <role role="date-missing" ref="1979" text="1465"/>
+        <role role="date" ref="1985" text="1466"/>
+        <role role="date-missing" ref="1991" text="1467"/>
+        <role role="date-missing" ref="1997" text="1468"/>
+      </event>
+      <event event_id="2.1">
+        <role role="property" ref="1919" text="dem hus zem Griffen"/>
+        <role role="interest" ref="1943" text="4ring"/>
+        <role role="cause" ref="2253" text="wisung"/>
+        <role role="payer" ref="1955" text="Hans Gebestorffer&#10;der Fischmacher"/>
+        <role role="date-missing" ref="1979" text="1465"/>
+        <role role="date" ref="1985" text="1466"/>
+        <role role="date-missing" ref="1991" text="1467"/>
+        <role role="date-missing" ref="1997" text="1468"/>
+      </event>
+      <event event_id="2.2">
+        <role role="property" ref="1919" text="dem hus zem Griffen"/>
+        <role role="interest" ref="1949" text="5ß"/>
+        <role role="cause" ref="2259" text="erschach"/>
+        <role role="payer" ref="1955" text="Hans Gebestorffer&#10;der Fischmacher"/>
+        <role role="date-missing" ref="1979" text="1465"/>
+        <role role="date" ref="1985" text="1466"/>
+        <role role="date-missing" ref="1991" text="1467"/>
+        <role role="date-missing" ref="1997" text="1468"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="47" end="82" ref="" type="event">
+      <trigger start="72" end="72" text="git" ref="2265"/>
+      <event event_id="3.0">
+        <role role="date" ref="2003" text="1469"/>
+        <role role="property" ref="2009" text="dem hus zem Griffen under den Gerwern"/>
+        <role role="interest" ref="2039" text="2 1 / 2ß"/>
+        <role role="interest" ref="2045" text="1 1 / 2 ȡ"/>
+        <role role="payer" ref="2063" text="Hans Gebestorffer der Fischmacher"/>
+        <role role="date" ref="2087" text="1470"/>
+        <role role="date" ref="2093" text="1471"/>
+      </event>
+      <event event_id="3.1">
+        <role role="date" ref="2003" text="1469"/>
+        <role role="property" ref="2009" text="dem hus zem Griffen under den Gerwern"/>
+        <role role="interest" ref="2051" text="4ring"/>
+        <role role="cause" ref="2271" text="wisung"/>
+        <role role="payer" ref="2063" text="Hans Gebestorffer der Fischmacher"/>
+        <role role="date" ref="2087" text="1470"/>
+        <role role="date" ref="2093" text="1471"/>
+      </event>
+      <event event_id="3.2">
+        <role role="date" ref="2003" text="1469"/>
+        <role role="property" ref="2009" text="dem hus zem Griffen under den Gerwern"/>
+        <role role="interest" ref="2057" text="3ß"/>
+        <role role="cause" ref="2277" text="erschac"/>
+        <role role="payer" ref="2063" text="Hans Gebestorffer der Fischmacher"/>
+        <role role="date" ref="2087" text="1470"/>
+        <role role="date" ref="2093" text="1471"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="pos" tense="pres" modality="ass" start="113" end="133" ref="" type="event">
+      <trigger start="113" end="113" text="git" ref="2283"/>
+      <event event_id="4.0">
+        <role role="date" ref="2099" text="1472"/>
+        <role role="property" ref="2112" text="dem hus zem Griffen under den Gerwern"/>
+        <role role="interest" ref="2163" text="2 1 / 2 ß"/>
+        <role role="interest" ref="2169" text="1 1 / 2 ȡ"/>
+        <role role="payer" ref="2187" text="Gewestorffer der Vischmacher"/>
+        <role role="date-missing" ref="2211" text="1473"/>
+        <role role="date-missing" ref="2217" text="1474"/>
+        <role role="date-missing" ref="2223" text="1475"/>
+        <role role="date-missing" ref="2229" text="1476"/>
+        <role role="date" ref="2235" text="1477"/>
+        <role role="date-missing" ref="2241" text="1478 - 1484"/>
+      </event>
+      <event event_id="4.1">
+        <role role="date" ref="2099" text="1472"/>
+        <role role="property" ref="2112" text="dem hus zem Griffen under den Gerwern"/>
+        <role role="interest" ref="2175" text="4ring"/>
+        <role role="cause" ref="2289" text="wisung"/>
+        <role role="payer" ref="2187" text="Gewestorffer der Vischmacher"/>
+        <role role="date-missing" ref="2211" text="1473"/>
+        <role role="date-missing" ref="2217" text="1474"/>
+        <role role="date-missing" ref="2223" text="1475"/>
+        <role role="date-missing" ref="2229" text="1476"/>
+        <role role="date" ref="2235" text="1477"/>
+        <role role="date-missing" ref="2241" text="1478 - 1484"/>
+      </event>
+      <event event_id="4.2">
+        <role role="date" ref="2099" text="1472"/>
+        <role role="property" ref="2112" text="dem hus zem Griffen under den Gerwern"/>
+        <role role="interest" ref="2181" text="2 1 / 2 ß"/>
+        <role role="cause" ref="2295" text="erschach"/>
+        <role role="payer" ref="2187" text="Gewestorffer der Vischmacher"/>
+        <role role="date-missing" ref="2211" text="1473"/>
+        <role role="date-missing" ref="2217" text="1474"/>
+        <role role="date-missing" ref="2223" text="1475"/>
+        <role role="date-missing" ref="2229" text="1476"/>
+        <role role="date" ref="2235" text="1477"/>
+        <role role="date-missing" ref="2241" text="1478 - 1484"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

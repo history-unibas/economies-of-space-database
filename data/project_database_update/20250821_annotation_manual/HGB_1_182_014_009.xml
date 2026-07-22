@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 182/14 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schlüsselberg 11 und Th. v. 13 neben 11</tei:title>
+            <tei:idno>HGB 1 182/14</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1511568</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1695">1695</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611421.730049918 1267351.2771285914</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Kaufpublicatio</token>
+    <token token_id="1">auf</token>
+    <token token_id="2">Wienacht</token>
+    <token token_id="3">Fronfasten</token>
+    <token token_id="4">.</token>
+    <token token_id="5">Es</token>
+    <token token_id="6">verkaufen</token>
+    <token token_id="7">H</token>
+    <token token_id="8">.</token>
+    <token token_id="9">Dus</token>
+    <token token_id="10">Friderich</token>
+    <token token_id="11">Burkhardts</token>
+    <token token_id="12">sel</token>
+    <token token_id="13">.</token>
+    <token token_id="14">Erben</token>
+    <token token_id="15">,</token>
+    <token token_id="16">und</token>
+    <token token_id="17">geben</token>
+    <token token_id="18">zu</token>
+    <token token_id="19">kaufen</token>
+    <token token_id="20">H</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Sebastian</token>
+    <token token_id="23">Spörlein</token>
+    <token token_id="24">,</token>
+    <token token_id="25">Obervogt</token>
+    <token token_id="26">auf</token>
+    <token token_id="27">Ramspurg</token>
+    <token token_id="28">,</token>
+    <token token_id="29">eine</token>
+    <token token_id="30">Behausung</token>
+    <token token_id="31">und</token>
+    <token token_id="32">Hoofstatt</token>
+    <token token_id="33">,</token>
+    <token token_id="34">sambt</token>
+    <token token_id="35">dem</token>
+    <token token_id="36">Gartten</token>
+    <token token_id="37">darbey</token>
+    <token token_id="38">,</token>
+    <token token_id="39">an</token>
+    <token token_id="40">dem</token>
+    <token token_id="41">Schlüsselberg</token>
+    <token token_id="42">,</token>
+    <token token_id="43">einseits</token>
+    <token token_id="44">neben</token>
+    <token token_id="45">H</token>
+    <token token_id="46">.</token>
+    <token token_id="47">M</token>
+    <token token_id="48">.</token>
+    <token token_id="49">Jacob</token>
+    <token token_id="50">Ringleins</token>
+    <token token_id="51">sel</token>
+    <token token_id="52">.</token>
+    <token token_id="53">Wit</token>
+    <token token_id="54">¬</token>
+    <token token_id="55">tib</token>
+    <token token_id="56">,</token>
+    <token token_id="57">anderseits</token>
+    <token token_id="58">neben</token>
+    <token token_id="59">H</token>
+    <token token_id="60">.</token>
+    <token token_id="61">Benedict</token>
+    <token token_id="62">Mitz</token>
+    <token token_id="63">dem</token>
+    <token token_id="64">Handelsmann</token>
+    <token token_id="65">ge</token>
+    <token token_id="66">¬</token>
+    <token token_id="67">legen</token>
+    <token token_id="68">.</token>
+  </text>
+  <spans>
+    <span id="1047" start="2" end="3" text="Wienacht Fronfasten" element="value" class="date" subclass=""/>
+    <span id="1233" start="6" end="6" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1053" start="7" end="14" text="H . Dus Friderich Burkhardts sel . Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1065" start="7" end="13" text="H . Dus Friderich Burkhardts sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1227" start="9" end="9" text="Dus" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1227_head" start="9" end="9" element="head" class="title" text="Dus" subclass=""/>
+        </span>
+        <span id="1071" start="10" end="11" text="Friderich Burkhardts" element="head" class="nam" subclass=""/>
+        <span id="1077" start="12" end="13" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="1059" start="14" end="14" text="Erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="1083" start="20" end="27" text="H . Sebastian Spörlein , Obervogt auf Ramspurg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1089" start="22" end="23" text="Sebastian Spörlein" element="head" class="nam" subclass=""/>
+      <span id="1095" start="25" end="27" text="Obervogt auf Ramspurg" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1101" start="25" end="25" text="Obervogt" element="head" class="occ" subclass="org-job"/>
+        <span id="1107" start="26" end="27" text="auf Ramspurg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1113" start="27" end="27" text="Ramspurg" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1113_head" start="27" end="27" element="head" class="nam" text="Ramspurg" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1119" start="29" end="67" text="eine Behausung und Hoofstatt , sambt dem Gartten darbey , an&#10;dem Schlüsselberg , einseits neben H . M . Jacob Ringleins sel . Wit ¬&#10;tib , anderseits neben H . Benedict Mitz dem Handelsmann ge ¬&#10;legen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1125" start="30" end="32" text="Behausung und Hoofstatt" element="head" class="type" subclass=""/>
+      <span id="1131" start="34" end="37" text="sambt dem Gartten darbey" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1137" start="35" end="36" text="dem Gartten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1143" start="36" end="36" text="Gartten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1149" start="39" end="67" text="an&#10;dem Schlüsselberg , einseits neben H . M . Jacob Ringleins sel . Wit ¬&#10;tib , anderseits neben H . Benedict Mitz dem Handelsmann ge ¬&#10;legen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1155" start="40" end="41" text="dem Schlüsselberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1161" start="41" end="41" text="Schlüsselberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1167" start="45" end="55" text="H . M . Jacob Ringleins sel . Wit ¬&#10;tib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1173" start="45" end="52" text="H . M . Jacob Ringleins sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1185" start="47" end="48" text="M ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1185_head" start="47" end="48" element="head" class="title" text="M ." subclass=""/>
+            </span>
+            <span id="1179" start="49" end="50" text="Jacob Ringleins" element="head" class="nam" subclass=""/>
+            <span id="1191" start="51" end="52" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="1197" start="53" end="53" text="Wit" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1203" start="59" end="64" text="H . Benedict Mitz dem Handelsmann" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1209" start="61" end="62" text="Benedict Mitz" element="head" class="nam" subclass=""/>
+          <span id="1215" start="63" end="64" text="dem Handelsmann" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1221" start="64" end="64" text="Handelsmann" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="7" end="14" ref="1053" type="event">
+      <trigger start="14" end="14" text="Erben" ref="1059"/>
+      <event event_id="0.0">
+        <role role="heir" ref="1053" text="H . Dus Friderich Burkhardts sel . Erben"/>
+        <role role="decedent" ref="1065" text="H . Dus Friderich Burkhardts sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="45" end="55" ref="1167" type="state">
+      <trigger start="53" end="53" text="Wit" ref="1197"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1167" text="H . M . Jacob Ringleins sel . Wit ¬&#10;tib"/>
+        <role role="family-b" ref="1173" text="H . M . Jacob Ringleins sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="26" end="27" ref="1107" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1083" text="H . Sebastian Spörlein , Obervogt auf Ramspurg"/>
+        <role role="location-b" ref="1113" text="Ramspurg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="34" end="37" ref="1131" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1119" text="eine Behausung und Hoofstatt , sambt dem Gartten darbey , an&#10;dem Schlüsselberg , einseits neben H . M . Jacob Ringleins sel . Wit ¬&#10;tib , anderseits neben H . Benedict Mitz dem Handelsmann ge ¬&#10;legen"/>
+        <role role="part" ref="1137" text="dem Gartten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="39" end="67" ref="1149" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1119" text="eine Behausung und Hoofstatt , sambt dem Gartten darbey , an&#10;dem Schlüsselberg , einseits neben H . M . Jacob Ringleins sel . Wit ¬&#10;tib , anderseits neben H . Benedict Mitz dem Handelsmann ge ¬&#10;legen"/>
+        <role role="location-b" ref="1155" text="dem Schlüsselberg"/>
+        <role role="location-b" ref="1167" text="H . M . Jacob Ringleins sel . Wit ¬&#10;tib"/>
+        <role role="location-b" ref="1203" text="H . Benedict Mitz dem Handelsmann"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="2" end="67" ref="" type="event">
+      <trigger start="6" end="6" text="verkaufen" ref="1233"/>
+      <event event_id="5.0">
+        <role role="date" ref="1047" text="Wienacht Fronfasten"/>
+        <role role="seller" ref="1053" text="H . Dus Friderich Burkhardts sel . Erben"/>
+        <role role="buyer" ref="1083" text="H . Sebastian Spörlein , Obervogt auf Ramspurg"/>
+        <role role="property" ref="1119" text="eine Behausung und Hoofstatt , sambt dem Gartten darbey , an&#10;dem Schlüsselberg , einseits neben H . M . Jacob Ringleins sel . Wit ¬&#10;tib , anderseits neben H . Benedict Mitz dem Handelsmann ge ¬&#10;legen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

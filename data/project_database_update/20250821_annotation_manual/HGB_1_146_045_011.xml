@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 146/45 S. [11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Petersberg 37</tei:title>
+            <tei:idno>HGB 1 146/45</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1501549</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1500">1500</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611165.3958705827 1267710.2880527624</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">hatt</token>
+    <token token_id="2">Mr</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Johannes</token>
+    <token token_id="5">Mornach</token>
+    <token token_id="6">,</token>
+    <token token_id="7">um</token>
+    <token token_id="8">versessenen</token>
+    <token token_id="9">zins</token>
+    <token token_id="10">,</token>
+    <token token_id="11">wyl</token>
+    <token token_id="12">.</token>
+    <token token_id="13">Ulrich</token>
+    <token token_id="14">Wolffers</token>
+    <token token_id="15">sel</token>
+    <token token_id="16">.</token>
+    <token token_id="17">zwei</token>
+    <token token_id="18">Hüser</token>
+    <token token_id="19">zum</token>
+    <token token_id="20">Angen</token>
+    <token token_id="21">genannt</token>
+    <token token_id="22">,</token>
+    <token token_id="23">by</token>
+    <token token_id="24">un</token>
+    <token token_id="25">¬</token>
+    <token token_id="26">detzbrunnen</token>
+    <token token_id="27">,</token>
+    <token token_id="28">an</token>
+    <token token_id="29">der</token>
+    <token token_id="30">Spiegelgassen</token>
+    <token token_id="31">,</token>
+    <token token_id="32">aneinander</token>
+    <token token_id="33">gelegen</token>
+    <token token_id="34">,</token>
+    <token token_id="35">als</token>
+    <token token_id="36">eins</token>
+    <token token_id="37">erblosen</token>
+    <token token_id="38">Mans</token>
+    <token token_id="39">gut</token>
+    <token token_id="40">,</token>
+    <token token_id="41">als</token>
+    <token token_id="42">er</token>
+    <token token_id="43">jährl</token>
+    <token token_id="44">.</token>
+    <token token_id="45">7</token>
+    <token token_id="46">1</token>
+    <token token_id="47">/</token>
+    <token token_id="48">2</token>
+    <token token_id="49">fl</token>
+    <token token_id="50">.</token>
+    <token token_id="51">mit</token>
+    <token token_id="52">jrem</token>
+    <token token_id="53">Hauptgut</token>
+    <token token_id="54">daruff</token>
+    <token token_id="55">hatt</token>
+    <token token_id="56">,</token>
+    <token token_id="57">gefrönt</token>
+    <token token_id="58">.</token>
+  </text>
+  <spans>
+    <span id="907" start="2" end="5" text="Mr . Johannes Mornach" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="913" start="2" end="3" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="913_head" start="2" end="3" element="head" class="title" text="Mr ." subclass=""/>
+      </span>
+      <span id="919" start="4" end="5" text="Johannes Mornach" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1022" start="9" end="9" text="zins" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1047" start="11" end="33" text="wyl .&#10;Ulrich Wolffers sel . zwei Hüser zum Angen genannt , by un ¬&#10;detzbrunnen , an der Spiegelgassen , aneinander gelegen" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="937" start="11" end="16" text="wyl .&#10;Ulrich Wolffers sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="943" start="11" end="16" text="wyl .&#10;Ulrich Wolffers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="949" start="11" end="12" text="wyl ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          <span id="955" start="13" end="14" text="Ulrich Wolffers" element="head" class="nam" subclass=""/>
+          <span id="961" start="15" end="16" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+      </span>
+      <span id="925" start="18" end="18" text="Hüser" element="head" class="type" subclass=""/>
+      <span id="931" start="19" end="20" text="zum Angen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="931_head" start="19" end="20" element="head" class="nam" text="zum Angen" subclass=""/>
+      </span>
+      <span id="967" start="23" end="33" text="by un ¬&#10;detzbrunnen , an der Spiegelgassen , aneinander gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="973" start="24" end="26" text="un ¬&#10;detzbrunnen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="fountain">
+          <span id="973_head" start="24" end="26" element="head" class="nam" text="un ¬ detzbrunnen" subclass=""/>
+        </span>
+        <span id="979" start="29" end="30" text="der Spiegelgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="985" start="30" end="30" text="Spiegelgassen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1041" start="35" end="39" text="als eins&#10;erblosen Mans gut" element="other" class="other" subclass=""/>
+    <span id="991" start="42" end="42" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="991_head" start="42" end="42" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="1010" start="43" end="44" text="jährl ." element="value" class="time" subclass="rec"/>
+    <span id="1004" start="45" end="50" text="7 1 / 2 fl ." element="value" class="money" subclass=""/>
+    <span id="1028" start="55" end="55" text="hatt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1016" start="57" end="57" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="997" from="991" to="907" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1034" from="1028" to="1022" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="11" end="16" ref="937" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1047" text="wyl .&#10;Ulrich Wolffers sel . zwei Hüser zum Angen genannt , by un ¬&#10;detzbrunnen , an der Spiegelgassen , aneinander gelegen"/>
+        <role role="owner" ref="943" text="wyl .&#10;Ulrich Wolffers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="23" end="33" ref="967" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1047" text="wyl .&#10;Ulrich Wolffers sel . zwei Hüser zum Angen genannt , by un ¬&#10;detzbrunnen , an der Spiegelgassen , aneinander gelegen"/>
+        <role role="location-b" ref="973" text="un ¬&#10;detzbrunnen"/>
+        <role role="location-b" ref="979" text="der Spiegelgassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="neg" tense="pres" modality="ass" start="9" end="9" ref="" type="event">
+      <trigger start="9" end="9" text="zins" ref="1022"/>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="11" end="55" ref="" type="state">
+      <trigger start="55" end="55" text="hatt" ref="1028"/>
+      <event event_id="3.0">
+        <role role="property" ref="1047" text="wyl .&#10;Ulrich Wolffers sel . zwei Hüser zum Angen genannt , by un ¬&#10;detzbrunnen , an der Spiegelgassen , aneinander gelegen"/>
+        <role role="beneficiary" ref="991" text="er"/>
+        <role role="interval" ref="1010" text="jährl ."/>
+        <role role="interest" ref="1004" text="7 1 / 2 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="57" ref="" type="event">
+      <trigger start="57" end="57" text="gefrönt" ref="1016"/>
+      <event event_id="4.0">
+        <role role="claimant" ref="907" text="Mr . Johannes Mornach"/>
+        <role role="cause" ref="1022" text="zins"/>
+        <role role="property" ref="1047" text="wyl .&#10;Ulrich Wolffers sel . zwei Hüser zum Angen genannt , by un ¬&#10;detzbrunnen , an der Spiegelgassen , aneinander gelegen"/>
+        <role role="other" ref="1041" text="als eins&#10;erblosen Mans gut"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

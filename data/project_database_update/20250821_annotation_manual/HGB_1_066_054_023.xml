@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 66/54 S. [23, 24]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Greifengasse Th. v. 18 neben 16</tei:title>
+            <tei:idno>HGB 1 66/54</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1477812</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1539">1539</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611538.3097907864 1267822.2491320972</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">da</token>
+    <token token_id="2">gyt</token>
+    <token token_id="3">zu</token>
+    <token token_id="4">kouffenn</token>
+    <token token_id="5">der</token>
+    <token token_id="6">ersam</token>
+    <token token_id="7">Hannß</token>
+    <token token_id="8">Jacob</token>
+    <token token_id="9">Haller</token>
+    <token token_id="10">burger</token>
+    <token token_id="11">zu</token>
+    <token token_id="12">Basel</token>
+    <token token_id="13">und</token>
+    <token token_id="14">diener</token>
+    <token token_id="15">des</token>
+    <token token_id="16">richthuses</token>
+    <token token_id="17">zu</token>
+    <token token_id="18">meren</token>
+    <token token_id="19">Basel</token>
+    <token token_id="20">in</token>
+    <token token_id="21">namen</token>
+    <token token_id="22">und</token>
+    <token token_id="23">von</token>
+    <token token_id="24">wegen</token>
+    <token token_id="25">miner</token>
+    <token token_id="26">herren</token>
+    <token token_id="27">der</token>
+    <token token_id="28">raten</token>
+    <token token_id="29">der</token>
+    <token token_id="30">statt</token>
+    <token token_id="31">Basel</token>
+    <token token_id="32">,</token>
+    <token token_id="33">dem</token>
+    <token token_id="34">erbern</token>
+    <token token_id="35">Jergen</token>
+    <token token_id="36">Kolweckh</token>
+    <token token_id="37">burger</token>
+    <token token_id="38">zu</token>
+    <token token_id="39">mindern</token>
+    <token token_id="40">Basel</token>
+    <token token_id="41">Helena</token>
+    <token token_id="42">siner</token>
+    <token token_id="43">eefrowen</token>
+    <token token_id="44">und</token>
+    <token token_id="45">ir</token>
+    <token token_id="46">beider</token>
+    <token token_id="47">erben</token>
+    <token token_id="48">den</token>
+    <token token_id="49">zweytheyl</token>
+    <token token_id="50">des</token>
+    <token token_id="51">huses</token>
+    <token token_id="52">und</token>
+    <token token_id="53">hoff</token>
+    <token token_id="54">¬</token>
+    <token token_id="55">statt</token>
+    <token token_id="56">mit</token>
+    <token token_id="57">sampt</token>
+    <token token_id="58">der</token>
+    <token token_id="59">stallung</token>
+    <token token_id="60">als</token>
+    <token token_id="61">das</token>
+    <token token_id="62">zu</token>
+    <token token_id="63">min</token>
+    <token token_id="64">dern</token>
+    <token token_id="65">Basel</token>
+    <token token_id="66">an</token>
+    <token token_id="67">der</token>
+    <token token_id="68">Burgergassen</token>
+    <token token_id="69">zwüschen</token>
+    <token token_id="70">den</token>
+    <token token_id="71">hüsern</token>
+    <token token_id="72">Todegckh</token>
+    <token token_id="73">und</token>
+    <token token_id="74">zum</token>
+    <token token_id="75">Jeger</token>
+    <token token_id="76">glegen</token>
+    <token token_id="77">und</token>
+    <token token_id="78">zum</token>
+    <token token_id="79">roten</token>
+    <token token_id="80">Louwen</token>
+    <token token_id="81">genant</token>
+    <token token_id="82">ist</token>
+    <token token_id="83">zinset</token>
+    <token token_id="84">solich</token>
+    <token token_id="85">hus</token>
+    <token token_id="86">über</token>
+    <token token_id="87">und</token>
+    <token token_id="88">über</token>
+    <token token_id="89">jerlichs</token>
+    <token token_id="90">von</token>
+    <token token_id="91">wegen</token>
+    <token token_id="92">der</token>
+    <token token_id="93">eygen</token>
+    <token token_id="94">schafft</token>
+    <token token_id="95">an</token>
+    <token token_id="96">das</token>
+    <token token_id="97">amptt</token>
+    <token token_id="98">der</token>
+    <token token_id="99">Stattschryberge</token>
+    <token token_id="100">zu</token>
+    <token token_id="101">mindern</token>
+    <token token_id="102">Basel</token>
+    <token token_id="103">34ß</token>
+    <token token_id="104">allter</token>
+    <token token_id="105">gewonlicher</token>
+    <token token_id="106">Baßler</token>
+    <token token_id="107">zins</token>
+    <token token_id="108">ȡ</token>
+    <token token_id="109">uff</token>
+    <token token_id="110">sant</token>
+    <token token_id="111">Martins</token>
+    <token token_id="112">tag</token>
+    <token token_id="113">sodann</token>
+    <token token_id="114">im</token>
+    <token token_id="115">wyderkouffger</token>
+    <token token_id="116">gullten</token>
+    <token token_id="117">an</token>
+    <token token_id="118">ein</token>
+    <token token_id="119">caplanye</token>
+    <token token_id="120">zu</token>
+  </text>
+  <spans>
+    <span id="2393" start="4" end="4" text="kouffenn" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2077" start="5" end="19" text="der ersam Hannß&#10;Jacob Haller burger zu Basel und diener des&#10;richthuses zu meren Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2083" start="7" end="9" text="Hannß&#10;Jacob Haller" element="head" class="nam" subclass=""/>
+      <span id="2089" start="10" end="12" text="burger zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2095" start="10" end="10" text="burger" element="head" class="org-aff" subclass=""/>
+        <span id="2101" start="12" end="12" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2101_head" start="12" end="12" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+      <span id="2107" start="14" end="19" text="diener des&#10;richthuses zu meren Basel" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="2113" start="14" end="14" text="diener" element="head" class="occ" subclass="org-job"/>
+        <span id="2119" start="16" end="19" text="richthuses zu meren Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2143" start="16" end="16" text="richthuses" element="head" class="type" subclass=""/>
+          <span id="2125" start="17" end="19" text="zu meren Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2131" start="18" end="19" text="meren Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2131_head" start="18" end="19" element="head" class="nam" text="meren Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2137" start="25" end="31" text="miner herren der raten der statt&#10;Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="2406" start="26" end="28" text="herren der raten" element="head" class="type" subclass=""/>
+      <span id="custom_part_of_1" start="29" end="31" text="der statt&#10;Basel" element="attr" class="part-of" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2412" start="29" end="31" text="der statt&#10;Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2418" start="30" end="31" text="statt&#10;Basel" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2356" start="33" end="47" text="dem erbern Jergen Kolweckh burger&#10;zu mindern Basel Helena siner eefrowen und&#10;ir beider erben" element="list" class="per" subclass="">
+      <span id="2149" start="33" end="40" text="dem erbern Jergen Kolweckh burger&#10;zu mindern Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2155" start="35" end="36" text="Jergen Kolweckh" element="head" class="nam" subclass=""/>
+        <span id="2161" start="37" end="40" text="burger&#10;zu mindern Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2167" start="37" end="37" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="2173" start="39" end="40" text="mindern Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2173_head" start="39" end="40" element="head" class="nam" text="mindern Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2179" start="41" end="43" text="Helena siner eefrowen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2185" start="41" end="41" text="Helena" element="head" class="nam" subclass=""/>
+        <span id="2191" start="42" end="43" text="siner eefrowen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2203" start="42" end="42" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2203_head" start="42" end="42" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="2197" start="43" end="43" text="eefrowen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+      <span id="2216" start="45" end="47" text="ir beider erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2228" start="45" end="45" text="ir" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2228_head" start="45" end="45" element="head" class="pro" text="ir" subclass=""/>
+        </span>
+        <span id="2222" start="47" end="47" text="erben" element="head" class="heir" subclass=""/>
+      </span>
+    </span>
+    <span id="2362" start="48" end="120" text="den zweytheyl des huses und hoff ¬&#10;statt mit sampt der stallung als das zu min&#10;dern Basel an der Burgergassen zwüschen den&#10;hüsern Todegckh und zum Jeger glegen und&#10;zum roten Louwen genant ist zinset solich&#10;hus über und über jerlichs von wegen der eygen&#10;schafft an das amptt der Stattschryberge zu&#10;mindern Basel 34ß allter gewonlicher Baßler&#10;zins ȡ uff sant Martins tag sodann im&#10;wyderkouffger gullten an ein caplanye zu" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2424" start="51" end="55" text="huses und hoff ¬&#10;statt" element="head" class="type" subclass=""/>
+      <span id="2254" start="56" end="59" text="mit sampt der stallung" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2260" start="58" end="59" text="der stallung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2266" start="59" end="59" text="stallung" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="2272" start="61" end="76" text="das zu min&#10;dern Basel an der Burgergassen zwüschen den&#10;hüsern Todegckh und zum Jeger glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2284" start="63" end="65" text="min&#10;dern Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2284_head" start="63" end="65" element="head" class="nam" text="min dern Basel" subclass=""/>
+        </span>
+        <span id="2290" start="67" end="68" text="der Burgergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="2296" start="68" end="68" text="Burgergassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2302" start="70" end="75" text="den&#10;hüsern Todegckh und zum Jeger" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2308" start="71" end="71" text="hüsern" element="head" class="type" subclass=""/>
+          <span id="custom_comp" start="72" end="75" text="Todegckh und zum Jeger" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2314" start="72" end="72" text="Todegckh" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2314_head" start="72" end="72" element="head" class="nam" text="Todegckh" subclass=""/>
+            </span>
+            <span id="2320" start="74" end="75" text="zum Jeger" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2320_head" start="74" end="75" element="head" class="nam" text="zum Jeger" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2326" start="78" end="80" text="zum roten Louwen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2326_head" start="78" end="80" element="head" class="nam" text="zum roten Louwen" subclass=""/>
+      </span>
+      <span id="2368" start="83" end="120" text="zinset solich&#10;hus über und über jerlichs von wegen der eygen&#10;schafft an das amptt der Stattschryberge zu&#10;mindern Basel 34ß allter gewonlicher Baßler&#10;zins ȡ uff sant Martins tag sodann im&#10;wyderkouffger gullten an ein caplanye zu" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2442" start="83" end="83" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2374" start="84" end="85" text="solich&#10;hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2380" start="85" end="85" text="hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2332" start="89" end="89" text="jerlichs" element="value" class="time" subclass="rec"/>
+        <span id="2448" start="93" end="94" text="eygen&#10;schafft" element="other" class="other" subclass=""/>
+        <span id="2338" start="96" end="102" text="das amptt der Stattschryberge zu&#10;mindern Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="2454" start="97" end="99" text="amptt der Stattschryberge" element="head" class="type" subclass=""/>
+          <span id="custom_part_of_0" start="100" end="102" text="zu&#10;mindern Basel" element="attr" class="part-of" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2460" start="101" end="102" text="mindern Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2466" start="101" end="102" text="mindern Basel" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2344" start="103" end="108" text="34ß allter gewonlicher Baßler&#10;zins ȡ" element="value" class="money" subclass=""/>
+        <span id="2350" start="109" end="112" text="uff sant Martins tag" element="value" class="date" subclass=""/>
+        <span id="2472" start="118" end="119" text="ein caplanye" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2478" start="119" end="119" text="caplanye" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2399" from="2077" to="2137" class="org-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2209" from="2203" to="2149" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2241" from="2228" to="2149" class="comp" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2234" from="2228" to="2179" class="comp" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2386" from="2374" to="2362" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2442_role" from="2442" to="2362" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="45" end="47" ref="2216" type="event">
+      <trigger start="47" end="47" text="erben" ref="2222"/>
+      <event event_id="0.0">
+        <role role="heir" ref="2216" text="ir beider erben"/>
+        <role role="decedent" ref="2228" text="ir"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="10" end="12" ref="2089" type="state">
+      <trigger start="10" end="10" text="burger" ref="2095"/>
+      <event event_id="1.0">
+        <role role="resident" ref="2077" text="der ersam Hannß&#10;Jacob Haller burger zu Basel und diener des&#10;richthuses zu meren Basel"/>
+        <role role="geopolitical-entity" ref="2101" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="employment" polarity="pos" tense="pres" modality="ass" start="14" end="19" ref="2107" type="state">
+      <trigger start="14" end="14" text="diener" ref="2113"/>
+      <event event_id="2.0">
+        <role role="employee" ref="2077" text="der ersam Hannß&#10;Jacob Haller burger zu Basel und diener des&#10;richthuses zu meren Basel"/>
+        <role role="employer" ref="2119" text="richthuses zu meren Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="37" end="40" ref="2161" type="state">
+      <trigger start="37" end="37" text="burger" ref="2167"/>
+      <event event_id="3.0">
+        <role role="resident" ref="2149" text="dem erbern Jergen Kolweckh burger&#10;zu mindern Basel"/>
+        <role role="geopolitical-entity" ref="2173" text="mindern Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="family" polarity="pos" tense="pres" modality="ass" start="42" end="43" ref="2191" type="state">
+      <trigger start="43" end="43" text="eefrowen" ref="2197"/>
+      <event event_id="4.0">
+        <role role="family-a" ref="2179" text="Helena siner eefrowen"/>
+        <role role="family-b" ref="2203" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="19" ref="2125" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2119" text="richthuses zu meren Basel"/>
+        <role role="location-b" ref="2131" text="meren Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="part_whole" polarity="pos" tense="pres" modality="ass" start="29" end="31" ref="custom_part_of_1" type="state">
+      <event event_id="6.0">
+        <role role="part" ref="2137" text="miner herren der raten der statt&#10;Basel"/>
+        <role role="whole" ref="2412" text="der statt&#10;Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="part_whole" polarity="pos" tense="pres" modality="ass" start="56" end="59" ref="2254" type="state">
+      <event event_id="7.0">
+        <role role="whole" ref="2362" text="den zweytheyl des huses und hoff ¬&#10;statt mit sampt der stallung als das zu min&#10;dern Basel an der Burgergassen zwüschen den&#10;hüsern Todegckh und zum Jeger glegen und&#10;zum roten Louwen genant ist zinset solich&#10;hus über und über jerlichs von wegen der eygen&#10;schafft an das amptt der Stattschryberge zu&#10;mindern Basel 34ß allter gewonlicher Baßler&#10;zins ȡ uff sant Martins tag sodann im&#10;wyderkouffger gullten an ein caplanye zu"/>
+        <role role="part" ref="2260" text="der stallung"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="61" end="76" ref="2272" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="2362" text="den zweytheyl des huses und hoff ¬&#10;statt mit sampt der stallung als das zu min&#10;dern Basel an der Burgergassen zwüschen den&#10;hüsern Todegckh und zum Jeger glegen und&#10;zum roten Louwen genant ist zinset solich&#10;hus über und über jerlichs von wegen der eygen&#10;schafft an das amptt der Stattschryberge zu&#10;mindern Basel 34ß allter gewonlicher Baßler&#10;zins ȡ uff sant Martins tag sodann im&#10;wyderkouffger gullten an ein caplanye zu"/>
+        <role role="location-b" ref="2284" text="min&#10;dern Basel"/>
+        <role role="location-b" ref="2290" text="der Burgergassen"/>
+        <role role="location-b" ref="2302" text="den&#10;hüsern Todegckh und zum Jeger"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="part_whole" polarity="pos" tense="pres" modality="ass" start="72" end="75" ref="custom_comp" type="state">
+      <event event_id="9.0">
+        <role role="whole" ref="2302" text="den&#10;hüsern Todegckh und zum Jeger"/>
+        <role role="part" ref="2314" text="Todegckh"/>
+        <role role="part" ref="2320" text="zum Jeger"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="part_whole" polarity="pos" tense="pres" modality="ass" start="100" end="102" ref="custom_part_of_0" type="state">
+      <event event_id="10.0">
+        <role role="part" ref="2338" text="das amptt der Stattschryberge zu&#10;mindern Basel"/>
+        <role role="whole" ref="2460" text="mindern Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="4" end="4" ref="" type="event">
+      <trigger start="4" end="4" text="kouffenn" ref="2393"/>
+      <event event_id="11.0">
+        <role role="seller" ref="2077" text="der ersam Hannß&#10;Jacob Haller burger zu Basel und diener des&#10;richthuses zu meren Basel"/>
+        <role role="buyer" ref="2149" text="dem erbern Jergen Kolweckh burger&#10;zu mindern Basel"/>
+        <role role="buyer" ref="2179" text="Helena siner eefrowen"/>
+        <role role="buyer" ref="2216" text="ir beider erben"/>
+        <role role="property" ref="2362" text="den zweytheyl des huses und hoff ¬&#10;statt mit sampt der stallung als das zu min&#10;dern Basel an der Burgergassen zwüschen den&#10;hüsern Todegckh und zum Jeger glegen und&#10;zum roten Louwen genant ist zinset solich&#10;hus über und über jerlichs von wegen der eygen&#10;schafft an das amptt der Stattschryberge zu&#10;mindern Basel 34ß allter gewonlicher Baßler&#10;zins ȡ uff sant Martins tag sodann im&#10;wyderkouffger gullten an ein caplanye zu"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="48" end="83" ref="2368" type="state">
+      <trigger start="83" end="83" text="zinset" ref="2442"/>
+      <event event_id="12.0">
+        <role role="property" ref="2374" text="solich&#10;hus"/>
+        <role role="interval" ref="2332" text="jerlichs"/>
+        <role role="cause" ref="2448" text="eygen&#10;schafft"/>
+        <role role="interest" ref="2344" text="34ß allter gewonlicher Baßler&#10;zins ȡ"/>
+        <role role="due-date" ref="2350" text="uff sant Martins tag"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="13.0">
+        <role role="representative" ref="2077" text="der ersam Hannß&#10;Jacob Haller burger zu Basel und diener des&#10;richthuses zu meren Basel"/>
+        <role role="represented" ref="2137" text="miner herren der raten der statt&#10;Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="14.0">
+        <role role="whole" ref="2228" text="ir"/>
+        <role role="part" ref="2149" text="dem erbern Jergen Kolweckh burger&#10;zu mindern Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="15" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="15.0">
+        <role role="whole" ref="2228" text="ir"/>
+        <role role="part" ref="2179" text="Helena siner eefrowen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

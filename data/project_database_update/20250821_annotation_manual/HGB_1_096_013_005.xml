@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 96/13 S. [5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Kirchgasse Th. v. 3 neben 1</tei:title>
+            <tei:idno>HGB 1 96/13</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1491419</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1400">1400</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611908.790164232 1267662.7323288769</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Pfenning</token>
+    <token token_id="1">zins</token>
+    <token token_id="2">in</token>
+    <token token_id="3">blein</token>
+    <token token_id="4">Basel</token>
+    <token token_id="5">uf</token>
+    <token token_id="6">Martini</token>
+    <token token_id="7">und</token>
+    <token token_id="8">fronfasten</token>
+    <token token_id="9">.</token>
+    <token token_id="10">Becherlin</token>
+    <token token_id="11">(</token>
+    <token token_id="12">darüber</token>
+    <token token_id="13">darnach</token>
+    <token token_id="14">Claus</token>
+    <token token_id="15">Buw</token>
+    <token token_id="16">¬</token>
+    <token token_id="17">man</token>
+    <token token_id="18">17</token>
+    <token token_id="19">½</token>
+    <token token_id="20">ß</token>
+    <token token_id="21">2</token>
+    <token token_id="22">Hüner</token>
+    <token token_id="23">uf</token>
+    <token token_id="24">sungecht</token>
+    <token token_id="25">von</token>
+    <token token_id="26">eim</token>
+    <token token_id="27">Hus</token>
+    <token token_id="28">ge</token>
+    <token token_id="29">¬</token>
+    <token token_id="30">Eigen</token>
+    <token token_id="31">by</token>
+    <token token_id="32">dem</token>
+    <token token_id="33">obern</token>
+    <token token_id="34">tor</token>
+    <token token_id="35">ist</token>
+    <token token_id="36">verbrunnen</token>
+    <token token_id="37">und</token>
+    <token token_id="38">ist</token>
+    <token token_id="39">nu</token>
+    <token token_id="40">nit</token>
+    <token token_id="41">me</token>
+    <token token_id="42">den</token>
+    <token token_id="43">ein</token>
+    <token token_id="44">Hofstat</token>
+    <token token_id="45">,</token>
+    <token token_id="46">ist</token>
+    <token token_id="47">der</token>
+    <token token_id="48">statt</token>
+    <token token_id="49">übergeben</token>
+    <token token_id="50">.</token>
+    <token token_id="51">gestrichen</token>
+    <token token_id="52">.</token>
+  </text>
+  <spans>
+    <span id="959" start="1" end="1" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="857" start="3" end="4" text="blein Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="857_head" start="3" end="4" element="head" class="nam" text="blein Basel" subclass=""/>
+    </span>
+    <span id="863" start="5" end="6" text="uf Martini" element="value" class="date" subclass=""/>
+    <span id="869" start="8" end="8" text="fronfasten" element="value" class="date" subclass=""/>
+    <span id="875" start="10" end="10" text="Becherlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="875_head" start="10" end="10" element="head" class="nam" text="Becherlin" subclass=""/>
+    </span>
+    <span id="965" start="13" end="13" text="darnach" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="881" start="14" end="17" text="Claus Buw ¬&#10;man" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="881_head" start="14" end="17" element="head" class="nam" text="Claus Buw ¬ man" subclass=""/>
+    </span>
+    <span id="887" start="18" end="20" text="17 ½ ß" element="value" class="money" subclass=""/>
+    <span id="893" start="21" end="22" text="2 Hüner" element="value" class="money" subclass=""/>
+    <span id="899" start="23" end="24" text="uf sungecht" element="value" class="date" subclass=""/>
+    <span id="905" start="26" end="49" text="eim Hus ge ¬&#10;Eigen by dem obern tor ist verbrunnen und ist nu&#10;nit me den ein Hofstat , ist der statt übergeben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="911" start="27" end="27" text="Hus" element="head" class="type" subclass=""/>
+      <span id="917" start="28" end="34" text="ge ¬&#10;Eigen by dem obern tor" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="923" start="32" end="34" text="dem obern tor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gate">
+          <span id="929" start="33" end="34" text="obern tor" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="935" start="43" end="44" text="ein Hofstat" element="appo" class="unk" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="941" start="44" end="44" text="Hofstat" element="head" class="unk" subclass=""/>
+      </span>
+      <span id="947_desc_owner_x" start="46" end="49" text="ist der statt übergeben" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="947" start="47" end="48" text="der statt" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="953" start="48" end="48" text="statt" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="28" end="34" ref="917" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="905" text="eim Hus ge ¬&#10;Eigen by dem obern tor ist verbrunnen und ist nu&#10;nit me den ein Hofstat , ist der statt übergeben"/>
+        <role role="location-b" ref="923" text="dem obern tor"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="46" end="49" ref="947_desc_owner_x" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="905" text="eim Hus ge ¬&#10;Eigen by dem obern tor ist verbrunnen und ist nu&#10;nit me den ein Hofstat , ist der statt übergeben"/>
+        <role role="owner" ref="947" text="der statt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="1" end="49" ref="" type="state">
+      <trigger start="1" end="1" text="zins" ref="959"/>
+      <event event_id="2.0">
+        <role role="due-date" ref="863" text="uf Martini"/>
+        <role role="due-date" ref="869" text="fronfasten"/>
+        <role role="payer" ref="875" text="Becherlin"/>
+        <role role="interest" ref="887" text="17 ½ ß"/>
+        <role role="interest" ref="893" text="2 Hüner"/>
+        <role role="property" ref="905" text="eim Hus ge ¬&#10;Eigen by dem obern tor ist verbrunnen und ist nu&#10;nit me den ein Hofstat , ist der statt übergeben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="1" end="17" ref="" type="state">
+      <trigger start="13" end="13" text="darnach" ref="965"/>
+      <event event_id="3.0">
+        <role role="previous-due" ref="959" text="zins"/>
+        <role role="payer" ref="881" text="Claus Buw ¬&#10;man"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

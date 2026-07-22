@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 178/17 S. [10, 11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Sägergässlein 2, 4 u. Th. v. 6 neben 4</tei:title>
+            <tei:idno>HGB 1 178/17</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1511360</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1523">1523</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611473.3106049285 1267857.9565958097</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">da</token>
+    <token token_id="2">habent</token>
+    <token token_id="3">Hans</token>
+    <token token_id="4">Lürenhofer</token>
+    <token token_id="5">der</token>
+    <token token_id="6">stein</token>
+    <token token_id="7">metz</token>
+    <token token_id="8">burger</token>
+    <token token_id="9">ze</token>
+    <token token_id="10">mindern</token>
+    <token token_id="11">Basel</token>
+    <token token_id="12">dodann</token>
+    <token token_id="13">Fusa</token>
+    <token token_id="14">-</token>
+    <token token_id="15">na</token>
+    <token token_id="16">Tugin</token>
+    <token token_id="17">obgenant</token>
+    <token token_id="18">Hansen</token>
+    <token token_id="19">Lüsenhofers</token>
+    <token token_id="20">eelichen</token>
+    <token token_id="21">hußfrouwen</token>
+    <token token_id="22">ze</token>
+    <token token_id="23">kouffen</token>
+    <token token_id="24">geben</token>
+    <token token_id="25">,</token>
+    <token token_id="26">dem</token>
+    <token token_id="27">ersammen</token>
+    <token token_id="28">Marimilian</token>
+    <token token_id="29">Jörger</token>
+    <token token_id="30">burger</token>
+    <token token_id="31">ze</token>
+    <token token_id="32">mindern</token>
+    <token token_id="33">Basel</token>
+    <token token_id="34">Anna</token>
+    <token token_id="35">Walcknerin</token>
+    <token token_id="36">siner</token>
+    <token token_id="37">ee</token>
+    <token token_id="38">frouwen</token>
+    <token token_id="39">das</token>
+    <token token_id="40">huß</token>
+    <token token_id="41">und</token>
+    <token token_id="42">hoffstat</token>
+    <token token_id="43">mit</token>
+    <token token_id="44">dem</token>
+    <token token_id="45">hal</token>
+    <token token_id="46">ben</token>
+    <token token_id="47">hindern</token>
+    <token token_id="48">höfflin</token>
+    <token token_id="49">und</token>
+    <token token_id="50">dem</token>
+    <token token_id="51">stal</token>
+    <token token_id="52">darhinder</token>
+    <token token_id="53">und</token>
+    <token token_id="54">oben</token>
+    <token token_id="55">mit</token>
+    <token token_id="56">dem</token>
+    <token token_id="57">halben</token>
+    <token token_id="58">gang</token>
+    <token token_id="59">und</token>
+    <token token_id="60">gerech</token>
+    <token token_id="61">¬</token>
+    <token token_id="62">tigkeit</token>
+    <token token_id="63">zu</token>
+    <token token_id="64">der</token>
+    <token token_id="65">halben</token>
+    <token token_id="66">prinatten</token>
+    <token token_id="67">,</token>
+    <token token_id="68">so</token>
+    <token token_id="69">do</token>
+    <token token_id="70">gelegen</token>
+    <token token_id="71">ist</token>
+    <token token_id="72">zu</token>
+    <token token_id="73">mindern</token>
+    <token token_id="74">Basel</token>
+    <token token_id="75">in</token>
+    <token token_id="76">der</token>
+    <token token_id="77">undern</token>
+    <token token_id="78">Rin</token>
+    <token token_id="79">¬</token>
+    <token token_id="80">gassen</token>
+    <token token_id="81">ist</token>
+    <token token_id="82">ein</token>
+    <token token_id="83">orthus</token>
+    <token token_id="84">an</token>
+    <token token_id="85">dem</token>
+    <token token_id="86">Sägergeßlin</token>
+    <token token_id="87">genant</token>
+    <token token_id="88">inder</token>
+    <token token_id="89">Waldshut</token>
+    <token token_id="90">nebent</token>
+    <token token_id="91">dem</token>
+    <token token_id="92">huß</token>
+    <token token_id="93">obern</token>
+    <token token_id="94">Waldshut</token>
+    <token token_id="95">,</token>
+    <token token_id="96">zinset</token>
+    <token token_id="97">von</token>
+    <token token_id="98">eygenschafft</token>
+    <token token_id="99">fünff</token>
+    <token token_id="100">tzehen</token>
+    <token token_id="101">schilling</token>
+    <token token_id="102">und</token>
+    <token token_id="103">ein</token>
+    <token token_id="104">halb</token>
+    <token token_id="105">hun</token>
+    <token token_id="106">der</token>
+    <token token_id="107">cost</token>
+    <token token_id="108">.</token>
+    <token token_id="109">dian</token>
+    <token token_id="110">uff</token>
+    <token token_id="111">Burg</token>
+    <token token_id="112">uff</token>
+    <token token_id="113">Pfingsten</token>
+  </text>
+  <spans>
+    <span id="2073" start="3" end="21" text="Hans Lürenhofer der stein&#10;metz burger ze mindern Basel dodann Fusa -&#10;na Tugin obgenant Hansen Lüsenhofers&#10;eelichen hußfrouwen" element="list" class="per" subclass="">
+      <span id="1747" start="3" end="11" text="Hans Lürenhofer der stein&#10;metz burger ze mindern Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1753" start="3" end="4" text="Hans Lürenhofer" element="head" class="nam" subclass=""/>
+        <span id="1759" start="5" end="7" text="der stein&#10;metz" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1765" start="6" end="7" text="stein&#10;metz" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1771" start="8" end="11" text="burger ze mindern Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1777" start="8" end="8" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="1783" start="10" end="11" text="mindern Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1783_head" start="10" end="11" element="head" class="nam" text="mindern Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1789" start="13" end="21" text="Fusa -&#10;na Tugin obgenant Hansen Lüsenhofers&#10;eelichen hußfrouwen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1795" start="13" end="16" text="Fusa -&#10;na Tugin" element="head" class="nam" subclass=""/>
+        <span id="1801" start="17" end="21" text="obgenant Hansen Lüsenhofers&#10;eelichen hußfrouwen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1813" start="17" end="19" text="obgenant Hansen Lüsenhofers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1819" start="18" end="19" text="Hansen Lüsenhofers" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1807" start="20" end="21" text="eelichen hußfrouwen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2085" start="23" end="23" text="kouffen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2079" start="26" end="38" text="dem&#10;ersammen Marimilian Jörger burger ze&#10;mindern Basel Anna Walcknerin siner ee&#10;frouwen" element="list" class="per" subclass="">
+      <span id="1832" start="26" end="33" text="dem&#10;ersammen Marimilian Jörger burger ze&#10;mindern Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1838" start="28" end="29" text="Marimilian Jörger" element="head" class="nam" subclass=""/>
+        <span id="1844" start="30" end="33" text="burger ze&#10;mindern Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1850" start="30" end="30" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="1856" start="32" end="33" text="mindern Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1856_head" start="32" end="33" element="head" class="nam" text="mindern Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1862" start="34" end="38" text="Anna Walcknerin siner ee&#10;frouwen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1868" start="34" end="35" text="Anna Walcknerin" element="head" class="nam" subclass=""/>
+        <span id="1874" start="36" end="38" text="siner ee&#10;frouwen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1886" start="36" end="36" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1886_head" start="36" end="36" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="1880" start="37" end="38" text="ee&#10;frouwen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1899" start="39" end="113" text="das huß und hoffstat mit dem hal&#10;ben hindern höfflin und dem stal darhinder&#10;und oben mit dem halben gang und gerech ¬&#10;tigkeit zu der halben prinatten , so do gelegen&#10;ist zu mindern Basel in der undern Rin ¬&#10;gassen ist ein orthus an dem Sägergeßlin&#10;genant inder Waldshut nebent dem huß&#10;obern Waldshut , zinset von eygenschafft fünff&#10;tzehen schilling und ein halb hun der cost .&#10;dian uff Burg uff Pfingsten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1911" start="40" end="42" text="huß und hoffstat" element="head" class="type" subclass=""/>
+      <span id="1977" start="43" end="80" text="mit dem hal&#10;ben hindern höfflin und dem stal darhinder&#10;und oben mit dem halben gang und gerech ¬&#10;tigkeit zu der halben prinatten , so do gelegen&#10;ist zu mindern Basel in der undern Rin ¬&#10;gassen" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1917" start="44" end="48" text="dem hal&#10;ben hindern höfflin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1923" start="45" end="48" text="hal&#10;ben hindern höfflin" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1929" start="50" end="52" text="dem stal darhinder" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1935" start="51" end="51" text="stal" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1941" start="56" end="58" text="dem halben gang" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1947" start="57" end="58" text="halben gang" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1983" start="64" end="80" text="der halben prinatten , so do gelegen&#10;ist zu mindern Basel in der undern Rin ¬&#10;gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="unk">
+          <span id="1953" start="65" end="66" text="halben prinatten" element="head" class="type" subclass=""/>
+          <span id="2121" start="68" end="80" text="so do gelegen&#10;ist zu mindern Basel in der undern Rin ¬&#10;gassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1959" start="73" end="74" text="mindern Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1959_head" start="73" end="74" element="head" class="nam" text="mindern Basel" subclass=""/>
+            </span>
+            <span id="1965" start="76" end="80" text="der undern Rin ¬&#10;gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+              <span id="1971" start="77" end="80" text="undern Rin ¬&#10;gassen" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1989" start="81" end="94" text="ist ein orthus an dem Sägergeßlin&#10;genant inder Waldshut nebent dem huß&#10;obern Waldshut" element="appo" class="type" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1995" start="83" end="83" text="orthus" element="head" class="type" subclass=""/>
+        <span id="2001" start="84" end="86" text="an dem Sägergeßlin" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2007" start="85" end="86" text="dem Sägergeßlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="2013" start="86" end="86" text="Sägergeßlin" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+        <span id="2019" start="88" end="89" text="inder Waldshut" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2019_head" start="88" end="89" element="head" class="nam" text="inder Waldshut" subclass=""/>
+        </span>
+        <span id="2025" start="90" end="94" text="nebent dem huß&#10;obern Waldshut" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2031" start="91" end="94" text="dem huß&#10;obern Waldshut" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2037" start="92" end="94" text="huß&#10;obern Waldshut" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2043" start="96" end="113" text="zinset von eygenschafft fünff&#10;tzehen schilling und ein halb hun der cost .&#10;dian uff Burg uff Pfingsten" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2109" start="96" end="96" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2115" start="97" end="98" text="von eygenschafft" element="other" class="other" subclass=""/>
+        <span id="2049" start="99" end="101" text="fünff&#10;tzehen schilling" element="value" class="money" subclass=""/>
+        <span id="2055" start="103" end="105" text="ein halb hun" element="value" class="money" subclass=""/>
+        <span id="2061" start="106" end="111" text="der cost .&#10;dian uff Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2091" start="107" end="109" text="cost .&#10;dian" element="head" class="type" subclass=""/>
+          <span id="2103" start="110" end="111" text="uff Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2097" start="111" end="111" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2097_head" start="111" end="111" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2067" start="112" end="113" text="uff Pfingsten" element="value" class="date" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1825" from="1813" to="1747" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1892" from="1886" to="1832" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2109_role" from="2109" to="1899" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="8" end="11" ref="1771" type="state">
+      <trigger start="8" end="8" text="burger" ref="1777"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1747" text="Hans Lürenhofer der stein&#10;metz burger ze mindern Basel"/>
+        <role role="geopolitical-entity" ref="1783" text="mindern Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="17" end="21" ref="1801" type="state">
+      <trigger start="20" end="21" text="eelichen hußfrouwen" ref="1807"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1789" text="Fusa -&#10;na Tugin obgenant Hansen Lüsenhofers&#10;eelichen hußfrouwen"/>
+        <role role="family-b" ref="1813" text="obgenant Hansen Lüsenhofers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="30" end="33" ref="1844" type="state">
+      <trigger start="30" end="30" text="burger" ref="1850"/>
+      <event event_id="2.0">
+        <role role="resident" ref="1832" text="dem&#10;ersammen Marimilian Jörger burger ze&#10;mindern Basel"/>
+        <role role="geopolitical-entity" ref="1856" text="mindern Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="36" end="38" ref="1874" type="state">
+      <trigger start="37" end="38" text="ee&#10;frouwen" ref="1880"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1862" text="Anna Walcknerin siner ee&#10;frouwen"/>
+        <role role="family-b" ref="1886" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="43" end="80" ref="1977" type="state">
+      <event event_id="4.0">
+        <role role="whole" ref="1899" text="das huß und hoffstat mit dem hal&#10;ben hindern höfflin und dem stal darhinder&#10;und oben mit dem halben gang und gerech ¬&#10;tigkeit zu der halben prinatten , so do gelegen&#10;ist zu mindern Basel in der undern Rin ¬&#10;gassen ist ein orthus an dem Sägergeßlin&#10;genant inder Waldshut nebent dem huß&#10;obern Waldshut , zinset von eygenschafft fünff&#10;tzehen schilling und ein halb hun der cost .&#10;dian uff Burg uff Pfingsten"/>
+        <role role="part" ref="1917" text="dem hal&#10;ben hindern höfflin"/>
+        <role role="part" ref="1929" text="dem stal darhinder"/>
+        <role role="part" ref="1941" text="dem halben gang"/>
+        <role role="part" ref="1983" text="der halben prinatten , so do gelegen&#10;ist zu mindern Basel in der undern Rin ¬&#10;gassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="68" end="80" ref="2121" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1983" text="der halben prinatten , so do gelegen&#10;ist zu mindern Basel in der undern Rin ¬&#10;gassen"/>
+        <role role="location-b" ref="1959" text="mindern Basel"/>
+        <role role="location-b" ref="1965" text="der undern Rin ¬&#10;gassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="84" end="86" ref="2001" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1899" text="das huß und hoffstat mit dem hal&#10;ben hindern höfflin und dem stal darhinder&#10;und oben mit dem halben gang und gerech ¬&#10;tigkeit zu der halben prinatten , so do gelegen&#10;ist zu mindern Basel in der undern Rin ¬&#10;gassen ist ein orthus an dem Sägergeßlin&#10;genant inder Waldshut nebent dem huß&#10;obern Waldshut , zinset von eygenschafft fünff&#10;tzehen schilling und ein halb hun der cost .&#10;dian uff Burg uff Pfingsten"/>
+        <role role="location-b" ref="2007" text="dem Sägergeßlin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="90" end="94" ref="2025" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1899" text="das huß und hoffstat mit dem hal&#10;ben hindern höfflin und dem stal darhinder&#10;und oben mit dem halben gang und gerech ¬&#10;tigkeit zu der halben prinatten , so do gelegen&#10;ist zu mindern Basel in der undern Rin ¬&#10;gassen ist ein orthus an dem Sägergeßlin&#10;genant inder Waldshut nebent dem huß&#10;obern Waldshut , zinset von eygenschafft fünff&#10;tzehen schilling und ein halb hun der cost .&#10;dian uff Burg uff Pfingsten"/>
+        <role role="location-b" ref="2031" text="dem huß&#10;obern Waldshut"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="110" end="111" ref="2103" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="2061" text="der cost .&#10;dian uff Burg"/>
+        <role role="location-b" ref="2097" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="23" end="23" ref="" type="event">
+      <trigger start="23" end="23" text="kouffen" ref="2085"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1747" text="Hans Lürenhofer der stein&#10;metz burger ze mindern Basel"/>
+        <role role="seller" ref="1789" text="Fusa -&#10;na Tugin obgenant Hansen Lüsenhofers&#10;eelichen hußfrouwen"/>
+        <role role="buyer" ref="1832" text="dem&#10;ersammen Marimilian Jörger burger ze&#10;mindern Basel"/>
+        <role role="buyer" ref="1862" text="Anna Walcknerin siner ee&#10;frouwen"/>
+        <role role="property" ref="1899" text="das huß und hoffstat mit dem hal&#10;ben hindern höfflin und dem stal darhinder&#10;und oben mit dem halben gang und gerech ¬&#10;tigkeit zu der halben prinatten , so do gelegen&#10;ist zu mindern Basel in der undern Rin ¬&#10;gassen ist ein orthus an dem Sägergeßlin&#10;genant inder Waldshut nebent dem huß&#10;obern Waldshut , zinset von eygenschafft fünff&#10;tzehen schilling und ein halb hun der cost .&#10;dian uff Burg uff Pfingsten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="39" end="96" ref="2043" type="state">
+      <trigger start="96" end="96" text="zinset" ref="2109"/>
+      <event event_id="10.0">
+        <role role="cause" ref="2115" text="von eygenschafft"/>
+        <role role="interest" ref="2049" text="fünff&#10;tzehen schilling"/>
+        <role role="interest" ref="2055" text="ein halb hun"/>
+        <role role="beneficiary" ref="2061" text="der cost .&#10;dian uff Burg"/>
+        <role role="due-date" ref="2067" text="uff Pfingsten"/>
+        <role role="property" ref="1899" text="das huß und hoffstat mit dem hal&#10;ben hindern höfflin und dem stal darhinder&#10;und oben mit dem halben gang und gerech ¬&#10;tigkeit zu der halben prinatten , so do gelegen&#10;ist zu mindern Basel in der undern Rin ¬&#10;gassen ist ein orthus an dem Sägergeßlin&#10;genant inder Waldshut nebent dem huß&#10;obern Waldshut , zinset von eygenschafft fünff&#10;tzehen schilling und ein halb hun der cost .&#10;dian uff Burg uff Pfingsten"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

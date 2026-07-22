@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 168/72 S. [20]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Riehentorstrasse 26</tei:title>
+            <tei:idno>HGB 1 168/72</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1509510</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Theodor</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1624">1624</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611861.7328470224 1267656.0649623526</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1624</token>
+    <token token_id="1">Martini</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Lützelman</token>
+    <token token_id="4">der</token>
+    <token token_id="5">Schreiner</token>
+    <token token_id="6">Item</token>
+    <token token_id="7">Hanß</token>
+    <token token_id="8">zuvor</token>
+    <token token_id="9">Michel</token>
+    <token token_id="10">Humel</token>
+    <token token_id="11">s</token>
+    <token token_id="12">.</token>
+    <token token_id="13">gibt</token>
+    <token token_id="14">12ß</token>
+    <token token_id="15">6ȡ</token>
+    <token token_id="16">.</token>
+    <token token_id="17">Ebenso</token>
+    <token token_id="18">1626</token>
+    <token token_id="19">.</token>
+    <token token_id="20">Ebenso</token>
+    <token token_id="21">1625</token>
+    <token token_id="22">.</token>
+    <token token_id="23">1630</token>
+    <token token_id="24">wie</token>
+    <token token_id="25">oben</token>
+    <token token_id="26">Ebenso</token>
+    <token token_id="27">1631</token>
+    <token token_id="28">.</token>
+    <token token_id="29">1627</token>
+    <token token_id="30">/</token>
+    <token token_id="31">29</token>
+    <token token_id="32">fehlen</token>
+    <token token_id="33">.</token>
+  </text>
+  <spans>
+    <span id="602" start="0" end="2" text="1624 Martini ." element="value" class="date" subclass=""/>
+    <span id="608" start="3" end="5" text="Lützelman der Schreiner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="614" start="3" end="3" text="Lützelman" element="head" class="nam" subclass=""/>
+      <span id="620" start="4" end="5" text="der Schreiner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="626" start="5" end="5" text="Schreiner" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="632" start="7" end="7" text="Hanß" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="632_head" start="7" end="7" element="head" class="nam" text="Hanß" subclass=""/>
+    </span>
+    <span id="638" start="9" end="10" text="Michel Humel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="638_head" start="9" end="10" element="head" class="nam" text="Michel Humel" subclass=""/>
+    </span>
+    <span id="686" start="13" end="13" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="644" start="14" end="16" text="12ß 6ȡ ." element="value" class="money" subclass=""/>
+    <span id="650" start="18" end="18" text="1626" element="value" class="date" subclass=""/>
+    <span id="656" start="21" end="21" text="1625" element="value" class="date" subclass=""/>
+    <span id="662" start="23" end="23" text="1630" element="value" class="date" subclass=""/>
+    <span id="668" start="27" end="27" text="1631" element="value" class="date" subclass=""/>
+    <span id="674" start="29" end="29" text="1627" element="value" class="date" subclass=""/>
+    <span id="680" start="31" end="31" text="29" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="31" ref="" type="event">
+      <trigger start="13" end="13" text="gibt" ref="686"/>
+      <event event_id="0.0">
+        <role role="date" ref="602" text="1624 Martini ."/>
+        <role role="payer" ref="608" text="Lützelman der Schreiner"/>
+        <role role="previous-payer" ref="632" text="Hanß"/>
+        <role role="previous-payer" ref="638" text="Michel Humel"/>
+        <role role="interest" ref="644" text="12ß 6ȡ ."/>
+        <role role="date" ref="650" text="1626"/>
+        <role role="date" ref="656" text="1625"/>
+        <role role="date" ref="662" text="1630"/>
+        <role role="date" ref="668" text="1631"/>
+        <role role="date-missing" ref="674" text="1627"/>
+        <role role="date-missing" ref="680" text="29"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

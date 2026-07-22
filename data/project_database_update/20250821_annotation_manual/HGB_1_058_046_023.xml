@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/46 S. [23]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 43</tei:title>
+            <tei:idno>HGB 1 58/46</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467829</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1485">1485</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611389.4247538266 1267310.8842179873</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">haben</token>
+    <token token_id="2">Friderich</token>
+    <token token_id="3">Hirsinger</token>
+    <token token_id="4">der</token>
+    <token token_id="5">Knmann</token>
+    <token token_id="6">,</token>
+    <token token_id="7">u</token>
+    <token token_id="8">.</token>
+    <token token_id="9">seine</token>
+    <token token_id="10">Frau</token>
+    <token token_id="11">Elsin</token>
+    <token token_id="12">einander</token>
+    <token token_id="13">gewidmet</token>
+    <token token_id="14">ir</token>
+    <token token_id="15">Hus</token>
+    <token token_id="16">genant</token>
+    <token token_id="17">zem</token>
+    <token token_id="18">roten</token>
+    <token token_id="19">fan</token>
+    <token token_id="20">hinden</token>
+    <token token_id="21">u</token>
+    <token token_id="22">.</token>
+    <token token_id="23">vor</token>
+    <token token_id="24">an</token>
+    <token token_id="25">der</token>
+    <token token_id="26">fryenstrass</token>
+    <token token_id="27">am</token>
+    <token token_id="28">Kronen</token>
+    <token token_id="29">gesslin</token>
+    <token token_id="30">ze</token>
+    <token token_id="31">einer</token>
+    <token token_id="32">,</token>
+    <token token_id="33">ư</token>
+    <token token_id="34">dem</token>
+    <token token_id="35">Hus</token>
+    <token token_id="36">zer</token>
+    <token token_id="37">Kronen</token>
+    <token token_id="38">zer</token>
+    <token token_id="39">andern</token>
+    <token token_id="40">siten</token>
+    <token token_id="41">gelegen</token>
+    <token token_id="42">ist</token>
+    <token token_id="43">,</token>
+    <token token_id="44">so</token>
+    <token token_id="45">sy</token>
+    <token token_id="46">miteinander</token>
+    <token token_id="47">erkauft</token>
+    <token token_id="48">hand</token>
+    <token token_id="49">.</token>
+  </text>
+  <spans>
+    <span id="856" start="2" end="11" text="Friderich Hirsinger der Knmann , u . seine&#10;Frau Elsin" element="list" class="per" subclass="">
+      <span id="795" start="2" end="5" text="Friderich Hirsinger der Knmann" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="801" start="2" end="3" text="Friderich Hirsinger" element="head" class="nam" subclass=""/>
+        <span id="807" start="4" end="5" text="der Knmann" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="813" start="5" end="5" text="Knmann" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="819" start="9" end="11" text="seine&#10;Frau Elsin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="831" start="9" end="10" text="seine&#10;Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="843" start="9" end="9" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="843_head" start="9" end="9" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="837" start="10" end="10" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="825" start="11" end="11" text="Elsin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="948" start="13" end="13" text="gewidmet" element="trigger" class="bequest" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="960" start="14" end="48" text="ir Hus genant zem&#10;roten fan hinden u . vor an der fryenstrass&#10;am Kronen gesslin ze einer , ư dem Hus zer Kronen&#10;zer andern siten gelegen ist , so sy miteinander&#10;erkauft hand" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="868" start="14" end="14" text="ir" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="874" start="14" end="14" text="ir" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="874_head" start="14" end="14" element="head" class="pro" text="ir" subclass=""/>
+        </span>
+      </span>
+      <span id="862" start="15" end="15" text="Hus" element="head" class="type" subclass=""/>
+      <span id="887" start="17" end="19" text="zem&#10;roten fan" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="887_head" start="17" end="19" element="head" class="nam" text="zem roten fan" subclass=""/>
+      </span>
+      <span id="893" start="20" end="42" text="hinden u . vor an der fryenstrass&#10;am Kronen gesslin ze einer , ư dem Hus zer Kronen&#10;zer andern siten gelegen ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="899" start="25" end="26" text="der fryenstrass" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="905" start="26" end="26" text="fryenstrass" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="911" start="27" end="29" text="am Kronen gesslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="917" start="28" end="29" text="Kronen gesslin" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="923" start="34" end="37" text="dem Hus zer Kronen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="929" start="35" end="37" text="Hus zer Kronen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="966" start="44" end="47" text="so sy miteinander&#10;erkauft" element="attr" class="sale" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="935" start="45" end="45" text="sy" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="935_head" start="45" end="45" element="head" class="pro" text="sy" subclass=""/>
+        </span>
+        <span id="954" start="47" end="47" text="erkauft" element="trigger" class="type" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="880" from="874" to="856" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="849" from="843" to="795" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="941" from="935" to="874" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="9" end="10" ref="831" type="state">
+      <trigger start="10" end="10" text="Frau" ref="837"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="819" text="seine&#10;Frau Elsin"/>
+        <role role="family-b" ref="843" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="14" end="14" ref="868" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="960" text="ir Hus genant zem&#10;roten fan hinden u . vor an der fryenstrass&#10;am Kronen gesslin ze einer , ư dem Hus zer Kronen&#10;zer andern siten gelegen ist , so sy miteinander&#10;erkauft hand"/>
+        <role role="owner" ref="874" text="ir"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="42" ref="893" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="960" text="ir Hus genant zem&#10;roten fan hinden u . vor an der fryenstrass&#10;am Kronen gesslin ze einer , ư dem Hus zer Kronen&#10;zer andern siten gelegen ist , so sy miteinander&#10;erkauft hand"/>
+        <role role="location-b" ref="899" text="der fryenstrass"/>
+        <role role="location-b" ref="911" text="am Kronen gesslin"/>
+        <role role="location-b" ref="923" text="dem Hus zer Kronen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="44" end="47" ref="966" type="event">
+      <trigger start="47" end="47" text="erkauft" ref="954"/>
+      <event event_id="3.0">
+        <role role="property" ref="960" text="ir Hus genant zem&#10;roten fan hinden u . vor an der fryenstrass&#10;am Kronen gesslin ze einer , ư dem Hus zer Kronen&#10;zer andern siten gelegen ist , so sy miteinander&#10;erkauft hand"/>
+        <role role="buyer" ref="935" text="sy"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="bequest" polarity="pos" tense="pres" modality="ass" start="13" end="48" ref="" type="event">
+      <trigger start="13" end="13" text="gewidmet" ref="948"/>
+      <event event_id="4.0">
+        <role role="bequeather" ref="795" text="Friderich Hirsinger der Knmann"/>
+        <role role="bequeather" ref="819" text="seine&#10;Frau Elsin"/>
+        <role role="property" ref="960" text="ir Hus genant zem&#10;roten fan hinden u . vor an der fryenstrass&#10;am Kronen gesslin ze einer , ư dem Hus zer Kronen&#10;zer andern siten gelegen ist , so sy miteinander&#10;erkauft hand"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

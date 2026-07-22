@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 159/72 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheingasse Th. v. 55 neben 53</tei:title>
+            <tei:idno>HGB 1 159/72</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1507974</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Steinenkloster</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1434">1434</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611669.6957350695 1267610.5821436737</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">Hans</token>
+    <token token_id="2">von</token>
+    <token token_id="3">Zoffingen</token>
+    <token token_id="4">und</token>
+    <token token_id="5">Heinrich</token>
+    <token token_id="6">Hertzog</token>
+    <token token_id="7">,</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Keinsern</token>
+    <token token_id="10">Tochteren</token>
+    <token token_id="11">man</token>
+    <token token_id="12">,</token>
+    <token token_id="13">gent</token>
+    <token token_id="14">jerlichen</token>
+    <token token_id="15">12</token>
+    <token token_id="16">sh</token>
+    <token token_id="17">.</token>
+    <token token_id="18">nüw</token>
+    <token token_id="19">.</token>
+    <token token_id="20">d</token>
+    <token token_id="21">.</token>
+    <token token_id="22">geteilt</token>
+    <token token_id="23">ze</token>
+    <token token_id="24">den</token>
+    <token token_id="25">vier</token>
+    <token token_id="26">fronvasten</token>
+    <token token_id="27">ab</token>
+    <token token_id="28">dem</token>
+    <token token_id="29">Orthus</token>
+    <token token_id="30">das</token>
+    <token token_id="31">dolit</token>
+    <token token_id="32">oben</token>
+    <token token_id="33">an</token>
+    <token token_id="34">in</token>
+    <token token_id="35">der</token>
+    <token token_id="36">Ringassen</token>
+    <token token_id="37">,</token>
+    <token token_id="38">an</token>
+    <token token_id="39">der</token>
+    <token token_id="40">Gansernen</token>
+    <token token_id="41">Hus</token>
+    <token token_id="42">und</token>
+    <token token_id="43">gat</token>
+    <token token_id="44">der</token>
+    <token token_id="45">Gansennen</token>
+    <token token_id="46">Höfflin</token>
+    <token token_id="47">hinder</token>
+    <token token_id="48">unser</token>
+    <token token_id="49">Hus</token>
+    <token token_id="50">,</token>
+    <token token_id="51">die</token>
+    <token token_id="52">Ganserinen</token>
+    <token token_id="53">zinset</token>
+    <token token_id="54">ir</token>
+    <token token_id="55">Hus</token>
+    <token token_id="56">von</token>
+    <token token_id="57">eigenschafft</token>
+    <token token_id="58">,</token>
+    <token token_id="59">wegen</token>
+    <token token_id="60">den</token>
+    <token token_id="61">Thumherrn</token>
+    <token token_id="62">uff</token>
+    <token token_id="63">Burg</token>
+    <token token_id="64">.</token>
+    <token token_id="65">Dis</token>
+    <token token_id="66">hand</token>
+    <token token_id="67">wir</token>
+    <token token_id="68">von</token>
+    <token token_id="69">swester</token>
+    <token token_id="70">Jonata</token>
+    <token token_id="71">von</token>
+    <token token_id="72">Rotsach</token>
+    <token token_id="73">und</token>
+    <token token_id="74">swester</token>
+    <token token_id="75">Katharina</token>
+    <token token_id="76">von</token>
+    <token token_id="77">Zessingen</token>
+    <token token_id="78">,</token>
+    <token token_id="79">also</token>
+    <token token_id="80">wisent</token>
+    <token token_id="81">der</token>
+    <token token_id="82">brieff</token>
+    <token token_id="83">.</token>
+    <token token_id="84">Dis</token>
+    <token token_id="85">git</token>
+    <token token_id="86">nun</token>
+    <token token_id="87">Hanns</token>
+    <token token_id="88">von</token>
+    <token token_id="89">Zoffingen</token>
+    <token token_id="90">allein</token>
+    <token token_id="91">.</token>
+    <token token_id="92">Das</token>
+    <token token_id="93">gend</token>
+    <token token_id="94">die</token>
+    <token token_id="95">von</token>
+    <token token_id="96">Clingental</token>
+    <token token_id="97">Disen</token>
+    <token token_id="98">Zins</token>
+    <token token_id="99">gitt</token>
+    <token token_id="100">jetz</token>
+    <token token_id="101">Margreth</token>
+    <token token_id="102">Binningerin</token>
+    <token token_id="103">.</token>
+  </text>
+  <spans>
+    <span id="1776" start="1" end="11" text="Hans von Zoffingen und Heinrich Hertzog ,&#10;der Keinsern Tochteren man" element="list" class="per" subclass="">
+      <span id="1734" start="1" end="3" text="Hans von Zoffingen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1734_head" start="1" end="3" element="head" class="nam" text="Hans von Zoffingen" subclass=""/>
+      </span>
+      <span id="1740" start="5" end="11" text="Heinrich Hertzog ,&#10;der Keinsern Tochteren man" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1746" start="5" end="6" text="Heinrich Hertzog" element="head" class="nam" subclass=""/>
+        <span id="1752" start="8" end="11" text="der Keinsern Tochteren man" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1764" start="8" end="9" text="der Keinsern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1770" start="9" end="9" text="Keinsern" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1758" start="10" end="11" text="Tochteren man" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2067" start="13" end="13" text="gent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1782" start="14" end="14" text="jerlichen" element="value" class="time" subclass="rec"/>
+    <span id="1788" start="15" end="21" text="12 sh . nüw .&#10;d ." element="value" class="money" subclass=""/>
+    <span id="1794" start="23" end="26" text="ze den vier fronvasten" element="value" class="date" subclass=""/>
+    <span id="1800" start="28" end="41" text="dem Orthus das dolit&#10;oben an in der Ringassen , an der Gansernen Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1806" start="29" end="29" text="Orthus" element="head" class="type" subclass=""/>
+      <span id="1824" start="30" end="41" text="das dolit&#10;oben an in der Ringassen , an der Gansernen Hus" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1812" start="35" end="36" text="der Ringassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1818" start="36" end="36" text="Ringassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1830" start="39" end="41" text="der Gansernen Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1842" start="39" end="40" text="der Gansernen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1848" start="39" end="40" text="der Gansernen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1854" start="40" end="40" text="Gansernen" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+          <span id="1836" start="41" end="41" text="Hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1860" start="44" end="46" text="der Gansennen Höfflin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1872" start="44" end="45" text="der Gansennen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1878" start="44" end="45" text="der Gansennen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1884" start="45" end="45" text="Gansennen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1866" start="46" end="46" text="Höfflin" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1890" start="48" end="49" text="unser&#10;Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1902" start="48" end="48" text="unser" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1908" start="48" end="48" text="unser" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1908_head" start="48" end="48" element="head" class="pro" text="unser" subclass=""/>
+        </span>
+      </span>
+      <span id="1896" start="49" end="49" text="Hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1914" start="51" end="52" text="die Ganserinen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1920" start="52" end="52" text="Ganserinen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2073" start="53" end="53" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1933" start="54" end="55" text="ir Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1945" start="54" end="54" text="ir" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1951" start="54" end="54" text="ir" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1951_head" start="54" end="54" element="head" class="pro" text="ir" subclass=""/>
+        </span>
+      </span>
+      <span id="1939" start="55" end="55" text="Hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="2079" start="56" end="59" text="von eigenschafft ,&#10;wegen" element="other" class="other" subclass=""/>
+    <span id="1964" start="60" end="63" text="den Thumherrn uff Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="2037" start="61" end="61" text="Thumherrn" element="head" class="type" subclass=""/>
+      <span id="2043" start="62" end="63" text="uff Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2049" start="63" end="63" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2049_head" start="63" end="63" element="head" class="nam" text="Burg" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2103" start="66" end="66" text="hand" element="trigger" class="testament" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1970" start="67" end="67" text="wir" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1970_head" start="67" end="67" element="head" class="pro" text="wir" subclass=""/>
+    </span>
+    <span id="2055" start="69" end="77" text="swester Jonata von Rotsach und swester Katharina&#10;von Zessingen" element="list" class="per" subclass="">
+      <span id="1983" start="69" end="72" text="swester Jonata von Rotsach" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1989" start="69" end="69" text="swester" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1989_head" start="69" end="69" element="head" class="title" text="swester" subclass=""/>
+        </span>
+        <span id="1995" start="70" end="72" text="Jonata von Rotsach" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="2001" start="74" end="77" text="swester Katharina&#10;von Zessingen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2007" start="74" end="74" text="swester" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2007_head" start="74" end="74" element="head" class="title" text="swester" subclass=""/>
+        </span>
+        <span id="2148" start="75" end="77" text="Katharina&#10;von Zessingen" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="2109" start="84" end="84" text="Dis" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2085" start="85" end="85" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="2013" start="87" end="89" text="Hanns von Zoffingen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2013_head" start="87" end="89" element="head" class="nam" text="Hanns von Zoffingen" subclass=""/>
+    </span>
+    <span id="2122" start="92" end="92" text="Das" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2091" start="93" end="93" text="gend" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="2019" start="94" end="96" text="die von Clingental" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="2061" start="96" end="96" text="Clingental" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2135" start="98" end="98" text="Zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2097" start="99" end="99" text="gitt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="2025" start="101" end="102" text="Margreth Binningerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2025_head" start="101" end="102" element="head" class="nam" text="Margreth Binningerin" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2115" from="2109" to="2067" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1926" from="1914" to="1878" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1976" from="1970" to="1908" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1957" from="1951" to="1914" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2128" from="2122" to="2109" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2141" from="2135" to="2122" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="8" end="11" ref="1752" type="state">
+      <trigger start="10" end="11" text="Tochteren man" ref="1758"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1740" text="Heinrich Hertzog ,&#10;der Keinsern Tochteren man"/>
+        <role role="family-b" ref="1764" text="der Keinsern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="41" ref="1824" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1800" text="dem Orthus das dolit&#10;oben an in der Ringassen , an der Gansernen Hus"/>
+        <role role="location-b" ref="1812" text="der Ringassen"/>
+        <role role="location-b" ref="1830" text="der Gansernen Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="39" end="40" ref="1842" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1830" text="der Gansernen Hus"/>
+        <role role="owner" ref="1848" text="der Gansernen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="44" end="45" ref="1872" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1860" text="der Gansennen Höfflin"/>
+        <role role="owner" ref="1878" text="der Gansennen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="48" end="48" ref="1902" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1890" text="unser&#10;Hus"/>
+        <role role="owner" ref="1908" text="unser"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="54" end="54" ref="1945" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1933" text="ir Hus"/>
+        <role role="owner" ref="1951" text="ir"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="62" end="63" ref="2043" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1964" text="den Thumherrn uff Burg"/>
+        <role role="location-b" ref="2049" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="1" end="41" ref="" type="state">
+      <trigger start="13" end="13" text="gent" ref="2067"/>
+      <event event_id="7.0">
+        <role role="payer" ref="1734" text="Hans von Zoffingen"/>
+        <role role="payer" ref="1740" text="Heinrich Hertzog ,&#10;der Keinsern Tochteren man"/>
+        <role role="interval" ref="1782" text="jerlichen"/>
+        <role role="interest" ref="1788" text="12 sh . nüw .&#10;d ."/>
+        <role role="due-date" ref="1794" text="ze den vier fronvasten"/>
+        <role role="property" ref="1800" text="dem Orthus das dolit&#10;oben an in der Ringassen , an der Gansernen Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="51" end="63" ref="" type="state">
+      <trigger start="53" end="53" text="zinset" ref="2073"/>
+      <event event_id="8.0">
+        <role role="payer" ref="1914" text="die Ganserinen"/>
+        <role role="property" ref="1933" text="ir Hus"/>
+        <role role="cause" ref="2079" text="von eigenschafft ,&#10;wegen"/>
+        <role role="beneficiary" ref="1964" text="den Thumherrn uff Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="testament" polarity="pos" tense="pres" modality="ass" start="66" end="77" ref="" type="event">
+      <trigger start="66" end="66" text="hand" ref="2103"/>
+      <event event_id="9.0">
+        <role role="beneficiary" ref="1970" text="wir"/>
+        <role role="bequeather" ref="1983" text="swester Jonata von Rotsach"/>
+        <role role="bequeather" ref="2001" text="swester Katharina&#10;von Zessingen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-payment" polarity="pos" tense="pres" modality="ass" start="84" end="84" ref="" type="event">
+      <trigger start="84" end="84" text="Dis" ref="2109"/>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="84" end="89" ref="" type="state">
+      <trigger start="85" end="85" text="git" ref="2085"/>
+      <event event_id="11.0">
+        <role role="previous-due" ref="2109" text="Dis"/>
+        <role role="payer" ref="2013" text="Hanns von Zoffingen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="due-payment" polarity="pos" tense="pres" modality="ass" start="92" end="92" ref="" type="event">
+      <trigger start="92" end="92" text="Das" ref="2122"/>
+    </eventGroup>
+    <eventGroup event_id="13" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="92" end="96" ref="" type="state">
+      <trigger start="93" end="93" text="gend" ref="2091"/>
+      <event event_id="13.0">
+        <role role="previous-due" ref="2122" text="Das"/>
+        <role role="payer" ref="2019" text="die von Clingental"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="due-payment" polarity="pos" tense="pres" modality="ass" start="98" end="98" ref="" type="event">
+      <trigger start="98" end="98" text="Zins" ref="2135"/>
+    </eventGroup>
+    <eventGroup event_id="15" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="98" end="99" ref="" type="state">
+      <trigger start="99" end="99" text="gitt" ref="2097"/>
+      <event event_id="15.0">
+        <role role="previous-due" ref="2135" text="Zins"/>
+        <role role="payer" ref="2025" text="Margreth Binningerin"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

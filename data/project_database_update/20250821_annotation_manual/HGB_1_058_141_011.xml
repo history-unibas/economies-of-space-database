@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/141 S. [11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse Theil von 22 neben 24</tei:title>
+            <tei:idno>HGB 1 58/141</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1468081</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Prediger</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1520">1520</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611349.15874452 1267352.6440725322</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">daß</token>
+    <token token_id="2">huß</token>
+    <token token_id="3">zu</token>
+    <token token_id="4">dem</token>
+    <token token_id="5">cleinen</token>
+    <token token_id="6">Schwanen</token>
+    <token token_id="7">nebent</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Brot</token>
+    <token token_id="10">becken</token>
+    <token token_id="11">huß</token>
+    <token token_id="12">-</token>
+    <token token_id="13">5ß</token>
+    <token token_id="14">.</token>
+    <token token_id="15">1521</token>
+    <token token_id="16">fehlt</token>
+    <token token_id="17">.</token>
+    <token token_id="18">1522</token>
+    <token token_id="19">wie</token>
+    <token token_id="20">oben</token>
+    <token token_id="21">.</token>
+    <token token_id="22">1523</token>
+    <token token_id="23">fehlt</token>
+    <token token_id="24">.</token>
+    <token token_id="25">1526</token>
+    <token token_id="26">wie</token>
+    <token token_id="27">oben</token>
+    <token token_id="28">.</token>
+    <token token_id="29">1524</token>
+    <token token_id="30">wie</token>
+    <token token_id="31">oben</token>
+    <token token_id="32">.</token>
+    <token token_id="33">1525</token>
+    <token token_id="34">fehlt</token>
+    <token token_id="35">.</token>
+    <token token_id="36">Ebenso</token>
+    <token token_id="37">1527</token>
+    <token token_id="38">.</token>
+    <token token_id="39">1528</token>
+    <token token_id="40">fehlt</token>
+    <token token_id="41">.</token>
+    <token token_id="42">1529</token>
+    <token token_id="43">wie</token>
+    <token token_id="44">ober</token>
+    <token token_id="45">1531</token>
+    <token token_id="46">wie</token>
+    <token token_id="47">oben</token>
+    <token token_id="48">.</token>
+    <token token_id="49">1530</token>
+    <token token_id="50">fehlt</token>
+    <token token_id="51">.</token>
+    <token token_id="52">1532</token>
+    <token token_id="53">fehlt</token>
+    <token token_id="54">.</token>
+    <token token_id="55">1533</token>
+    <token token_id="56">wie</token>
+    <token token_id="57">oben</token>
+    <token token_id="58">.</token>
+    <token token_id="59">Ebenso</token>
+    <token token_id="60">1534</token>
+    <token token_id="61">.</token>
+    <token token_id="62">1535</token>
+    <token token_id="63">fehlt</token>
+    <token token_id="64">.</token>
+    <token token_id="65">1536</token>
+    <token token_id="66">Joß</token>
+    <token token_id="67">Müller</token>
+    <token token_id="68">der</token>
+    <token token_id="69">Schnider</token>
+    <token token_id="70">5ß</token>
+    <token token_id="71">1</token>
+    <token token_id="72">℔</token>
+    <token token_id="73">thut</token>
+    <token token_id="74">jars</token>
+    <token token_id="75">-</token>
+    <token token_id="76">1537</token>
+    <token token_id="77">fehlt</token>
+    <token token_id="78">.</token>
+    <token token_id="79">1538</token>
+    <token token_id="80">wie</token>
+    <token token_id="81">oben</token>
+    <token token_id="82">.</token>
+    <token token_id="83">Ebenso</token>
+    <token token_id="84">1559</token>
+    <token token_id="85">.</token>
+  </text>
+  <spans>
+    <span id="1529" start="0" end="0" text="Item" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1517" start="1" end="11" text="daß huß zu dem cleinen Schwanen&#10;nebent der Brot becken huß" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1343" start="2" end="6" text="huß zu dem cleinen Schwanen" element="head" class="nam" subclass=""/>
+      <span id="1349" start="7" end="11" text="nebent der Brot becken huß" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1355" start="8" end="11" text="der Brot becken huß" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1523" start="8" end="10" text="der Brot becken" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1367" start="8" end="10" text="der Brot becken" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1373" start="9" end="10" text="Brot becken" element="head" class="occ" subclass=""/>
+            </span>
+          </span>
+          <span id="1361" start="11" end="11" text="huß" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1379" start="13" end="13" text="5ß" element="value" class="money" subclass=""/>
+    <span id="1391" start="15" end="15" text="1521" element="value" class="date" subclass=""/>
+    <span id="1385" start="18" end="18" text="1522" element="value" class="date" subclass=""/>
+    <span id="1397" start="22" end="22" text="1523" element="value" class="date" subclass=""/>
+    <span id="1403" start="25" end="25" text="1526" element="value" class="date" subclass=""/>
+    <span id="1409" start="29" end="29" text="1524" element="value" class="date" subclass=""/>
+    <span id="1415" start="33" end="33" text="1525" element="value" class="date" subclass=""/>
+    <span id="1421" start="37" end="37" text="1527" element="value" class="date" subclass=""/>
+    <span id="1427" start="39" end="39" text="1528" element="value" class="date" subclass=""/>
+    <span id="1433" start="42" end="42" text="1529" element="value" class="date" subclass=""/>
+    <span id="1439" start="45" end="45" text="1531" element="value" class="date" subclass=""/>
+    <span id="1445" start="49" end="49" text="1530" element="value" class="date" subclass=""/>
+    <span id="1451" start="52" end="52" text="1532" element="value" class="date" subclass=""/>
+    <span id="1457" start="55" end="55" text="1533" element="value" class="date" subclass=""/>
+    <span id="1463" start="60" end="60" text="1534" element="value" class="date" subclass=""/>
+    <span id="1469" start="62" end="62" text="1535" element="value" class="date" subclass=""/>
+    <span id="1475" start="65" end="65" text="1536" element="value" class="date" subclass=""/>
+    <span id="1481" start="66" end="69" text="Joß Müller der Schnider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1481_head" start="66" end="69" element="head" class="nam" text="Joß Müller der Schnider" subclass=""/>
+    </span>
+    <span id="1487" start="70" end="70" text="5ß" element="value" class="money" subclass=""/>
+    <span id="1493" start="71" end="72" text="1 ℔" element="value" class="money" subclass=""/>
+    <span id="1535" start="73" end="73" text="thut" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1499" start="76" end="76" text="1537" element="value" class="date" subclass=""/>
+    <span id="1505" start="79" end="79" text="1538" element="value" class="date" subclass=""/>
+    <span id="1511" start="84" end="84" text="1559" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="7" end="11" ref="1349" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="1517" text="daß huß zu dem cleinen Schwanen&#10;nebent der Brot becken huß"/>
+        <role role="location-b" ref="1355" text="der Brot becken huß"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="8" end="10" ref="1523" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1355" text="der Brot becken huß"/>
+        <role role="owner" ref="1367" text="der Brot becken"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="62" ref="" type="event">
+      <trigger start="0" end="0" text="Item" ref="1529"/>
+      <event event_id="2.0">
+        <role role="property" ref="1517" text="daß huß zu dem cleinen Schwanen&#10;nebent der Brot becken huß"/>
+        <role role="interest" ref="1379" text="5ß"/>
+        <role role="date-missing" ref="1391" text="1521"/>
+        <role role="date" ref="1385" text="1522"/>
+        <role role="date-missing" ref="1397" text="1523"/>
+        <role role="date" ref="1403" text="1526"/>
+        <role role="date" ref="1409" text="1524"/>
+        <role role="date-missing" ref="1415" text="1525"/>
+        <role role="date" ref="1421" text="1527"/>
+        <role role="date-missing" ref="1427" text="1528"/>
+        <role role="date" ref="1433" text="1529"/>
+        <role role="date" ref="1439" text="1531"/>
+        <role role="date-missing" ref="1445" text="1530"/>
+        <role role="date-missing" ref="1451" text="1532"/>
+        <role role="date" ref="1457" text="1533"/>
+        <role role="date" ref="1463" text="1534"/>
+        <role role="date-missing" ref="1469" text="1535"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="65" end="84" ref="" type="event">
+      <trigger start="73" end="73" text="thut" ref="1535"/>
+      <event event_id="3.0">
+        <role role="date" ref="1475" text="1536"/>
+        <role role="payer" ref="1481" text="Joß Müller der Schnider"/>
+        <role role="interest" ref="1487" text="5ß"/>
+        <role role="interest" ref="1493" text="1 ℔"/>
+        <role role="date-missing" ref="1499" text="1537"/>
+        <role role="date" ref="1505" text="1538"/>
+        <role role="date" ref="1511" text="1559"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

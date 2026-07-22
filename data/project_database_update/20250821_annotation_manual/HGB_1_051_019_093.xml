@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 51/19 S. [93]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Elisabethenstrasse 5</tei:title>
+            <tei:idno>HGB 1 51/19</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1466416</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1681">1681</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611540.372324105 1266962.5669335965</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">in</token>
+    <token token_id="1">sant</token>
+    <token token_id="2">Ullrici</token>
+    <token token_id="3">.</token>
+    <token token_id="4">1681</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Herr</token>
+    <token token_id="7">Bartholome</token>
+    <token token_id="8">Kindtweyler</token>
+    <token token_id="9">der</token>
+    <token token_id="10">Balbierer</token>
+    <token token_id="11">,</token>
+    <token token_id="12">gibt</token>
+    <token token_id="13">aber</token>
+    <token token_id="14">von</token>
+    <token token_id="15">seinem</token>
+    <token token_id="16">Haus</token>
+    <token token_id="17">gegen</token>
+    <token token_id="18">sant</token>
+    <token token_id="19">Elsbethen</token>
+    <token token_id="20">überhin</token>
+    <token token_id="21">gelegen</token>
+    <token token_id="22">,</token>
+    <token token_id="23">6</token>
+    <token token_id="24">sh</token>
+    <token token_id="25">.</token>
+    <token token_id="26">1</token>
+    <token token_id="27">hun</token>
+    <token token_id="28">.</token>
+    <token token_id="29">Ebenso</token>
+    <token token_id="30">.</token>
+    <token token_id="31">1682</token>
+    <token token_id="32">.</token>
+    <token token_id="33">1683</token>
+    <token token_id="34">.</token>
+    <token token_id="35">1684</token>
+    <token token_id="36">.</token>
+    <token token_id="37">1685</token>
+    <token token_id="38">.</token>
+    <token token_id="39">1686</token>
+    <token token_id="40">.</token>
+    <token token_id="41">1687</token>
+    <token token_id="42">.</token>
+    <token token_id="43">1688</token>
+    <token token_id="44">.</token>
+    <token token_id="45">1689</token>
+    <token token_id="46">.</token>
+    <token token_id="47">1690</token>
+    <token token_id="48">.</token>
+    <token token_id="49">Ebenso</token>
+    <token token_id="50">.</token>
+    <token token_id="51">1691</token>
+    <token token_id="52">.</token>
+    <token token_id="53">1692</token>
+    <token token_id="54">.</token>
+    <token token_id="55">Kindtweylers</token>
+    <token token_id="56">sel</token>
+    <token token_id="57">.</token>
+    <token token_id="58">Wittib</token>
+    <token token_id="59">gibt</token>
+    <token token_id="60">nun</token>
+    <token token_id="61">den</token>
+    <token token_id="62">zins</token>
+    <token token_id="63">.</token>
+    <token token_id="64">Ebenso</token>
+    <token token_id="65">.</token>
+    <token token_id="66">1693</token>
+    <token token_id="67">.</token>
+    <token token_id="68">1694</token>
+    <token token_id="69">.</token>
+    <token token_id="70">1695</token>
+    <token token_id="71">.</token>
+    <token token_id="72">1696</token>
+    <token token_id="73">.</token>
+    <token token_id="74">1697</token>
+    <token token_id="75">.</token>
+    <token token_id="76">1598</token>
+    <token token_id="77">.</token>
+    <token token_id="78">Johannes</token>
+    <token token_id="79">Krämer</token>
+    <token token_id="80">der</token>
+    <token token_id="81">Hosenstrickher</token>
+    <token token_id="82">gibt</token>
+    <token token_id="83">nun</token>
+    <token token_id="84">den</token>
+    <token token_id="85">zins</token>
+    <token token_id="86">.</token>
+  </text>
+  <spans>
+    <span id="1252" start="0" end="2" text="in sant Ullrici" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1258" start="1" end="2" text="sant Ullrici" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1264" start="4" end="4" text="1681" element="value" class="date" subclass=""/>
+    <span id="1270" start="6" end="10" text="Herr Bartholome Kindtweyler der Balbierer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1276" start="7" end="8" text="Bartholome Kindtweyler" element="head" class="nam" subclass=""/>
+      <span id="1282" start="9" end="10" text="der Balbierer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1288" start="10" end="10" text="Balbierer" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1505" start="12" end="12" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1294" start="15" end="21" text="seinem Haus gegen sant Elsbethen&#10;überhin gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1318" start="15" end="15" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1324" start="15" end="15" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1324_head" start="15" end="15" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1300" start="16" end="16" text="Haus" element="head" class="type" subclass=""/>
+      <span id="1306" start="17" end="21" text="gegen sant Elsbethen&#10;überhin gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1312" start="18" end="19" text="sant Elsbethen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1312_head" start="18" end="19" element="head" class="nam" text="sant Elsbethen" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1337" start="23" end="25" text="6 sh ." element="value" class="money" subclass=""/>
+    <span id="1343" start="26" end="27" text="1 hun" element="value" class="money" subclass=""/>
+    <span id="1349" start="31" end="31" text="1682" element="value" class="date" subclass=""/>
+    <span id="1355" start="33" end="33" text="1683" element="value" class="date" subclass=""/>
+    <span id="1361" start="35" end="35" text="1684" element="value" class="date" subclass=""/>
+    <span id="1367" start="37" end="37" text="1685" element="value" class="date" subclass=""/>
+    <span id="1373" start="39" end="39" text="1686" element="value" class="date" subclass=""/>
+    <span id="1379" start="41" end="41" text="1687" element="value" class="date" subclass=""/>
+    <span id="1385" start="43" end="43" text="1688" element="value" class="date" subclass=""/>
+    <span id="1391" start="45" end="45" text="1689" element="value" class="date" subclass=""/>
+    <span id="1397" start="47" end="47" text="1690" element="value" class="date" subclass=""/>
+    <span id="1403" start="51" end="51" text="1691" element="value" class="date" subclass=""/>
+    <span id="1409" start="53" end="53" text="1692" element="value" class="date" subclass=""/>
+    <span id="1415" start="55" end="58" text="Kindtweylers sel . Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1427" start="55" end="57" text="Kindtweylers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1433" start="55" end="55" text="Kindtweylers" element="head" class="nam" subclass=""/>
+        <span id="1439" start="56" end="57" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="1421" start="58" end="58" text="Wittib" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="1517" start="59" end="59" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="1535" start="62" end="62" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1445" start="66" end="66" text="1693" element="value" class="date" subclass=""/>
+    <span id="1451" start="68" end="68" text="1694" element="value" class="date" subclass=""/>
+    <span id="1457" start="70" end="70" text="1695" element="value" class="date" subclass=""/>
+    <span id="1463" start="72" end="72" text="1696" element="value" class="date" subclass=""/>
+    <span id="1469" start="74" end="74" text="1697" element="value" class="date" subclass=""/>
+    <span id="1475" start="76" end="76" text="1598" element="value" class="date" subclass=""/>
+    <span id="1481" start="78" end="81" text="Johannes Krämer der Hosenstrickher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1487" start="78" end="79" text="Johannes Krämer" element="head" class="nam" subclass=""/>
+      <span id="1493" start="80" end="81" text="der Hosenstrickher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1499" start="81" end="81" text="Hosenstrickher" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1529" start="82" end="82" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="1548" start="85" end="85" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1330" from="1324" to="1270" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1541" from="1535" to="1505" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1554" from="1548" to="1535" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="55" end="58" ref="1415" type="state">
+      <trigger start="58" end="58" text="Wittib" ref="1421"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1415" text="Kindtweylers sel . Wittib"/>
+        <role role="family-b" ref="1427" text="Kindtweylers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="15" end="15" ref="1318" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1294" text="seinem Haus gegen sant Elsbethen&#10;überhin gelegen"/>
+        <role role="owner" ref="1324" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="21" ref="1306" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1294" text="seinem Haus gegen sant Elsbethen&#10;überhin gelegen"/>
+        <role role="location-b" ref="1312" text="sant Elsbethen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="12" end="53" ref="" type="event">
+      <trigger start="12" end="12" text="gibt" ref="1505"/>
+      <event event_id="3.0">
+        <role role="date" ref="1264" text="1681"/>
+        <role role="payer" ref="1270" text="Herr Bartholome Kindtweyler der Balbierer"/>
+        <role role="property" ref="1294" text="seinem Haus gegen sant Elsbethen&#10;überhin gelegen"/>
+        <role role="interest" ref="1337" text="6 sh ."/>
+        <role role="interest" ref="1343" text="1 hun"/>
+        <role role="date" ref="1349" text="1682"/>
+        <role role="date" ref="1355" text="1683"/>
+        <role role="date" ref="1361" text="1684"/>
+        <role role="date" ref="1367" text="1685"/>
+        <role role="date" ref="1373" text="1686"/>
+        <role role="date" ref="1379" text="1687"/>
+        <role role="date" ref="1385" text="1688"/>
+        <role role="date" ref="1391" text="1689"/>
+        <role role="date" ref="1397" text="1690"/>
+        <role role="date" ref="1403" text="1691"/>
+        <role role="date" ref="1409" text="1692"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="pos" tense="pres" modality="ass" start="55" end="74" ref="" type="event">
+      <trigger start="59" end="59" text="gibt" ref="1517"/>
+      <event event_id="4.0">
+        <role role="payer" ref="1415" text="Kindtweylers sel . Wittib"/>
+        <role role="previous-due" ref="1535" text="zins"/>
+        <role role="date" ref="1445" text="1693"/>
+        <role role="date" ref="1451" text="1694"/>
+        <role role="date" ref="1457" text="1695"/>
+        <role role="date" ref="1463" text="1696"/>
+        <role role="date" ref="1469" text="1697"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-payment" polarity="pos" tense="pres" modality="ass" start="62" end="62" ref="" type="event">
+      <trigger start="62" end="62" text="zins" ref="1535"/>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-payment" polarity="pos" tense="pres" modality="ass" start="76" end="85" ref="" type="event">
+      <trigger start="82" end="82" text="gibt" ref="1529"/>
+      <event event_id="6.0">
+        <role role="date" ref="1475" text="1598"/>
+        <role role="payer" ref="1481" text="Johannes Krämer der Hosenstrickher"/>
+        <role role="previous-due" ref="1548" text="zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-payment" polarity="pos" tense="pres" modality="ass" start="85" end="85" ref="" type="event">
+      <trigger start="85" end="85" text="zins" ref="1548"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

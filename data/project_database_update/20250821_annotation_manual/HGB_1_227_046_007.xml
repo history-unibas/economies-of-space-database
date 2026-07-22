@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 227/46 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Webergasse Th. v. 37 neben 35</tei:title>
+            <tei:idno>HGB 1 227/46</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1535019</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1465">1465</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611543.953999417 1267976.4171204045</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">git</token>
+    <token token_id="2">ze</token>
+    <token token_id="3">koffend</token>
+    <token token_id="4">Hans</token>
+    <token token_id="5">von</token>
+    <token token_id="6">Eschenberg</token>
+    <token token_id="7">Schaff</token>
+    <token token_id="8">ner</token>
+    <token token_id="9">miner</token>
+    <token token_id="10">frowen</token>
+    <token token_id="11">von</token>
+    <token token_id="12">Clingental</token>
+    <token token_id="13">in</token>
+    <token token_id="14">namen</token>
+    <token token_id="15">si</token>
+    <token token_id="16">¬</token>
+    <token token_id="17">ner</token>
+    <token token_id="18">frowen</token>
+    <token token_id="19">,</token>
+    <token token_id="20">Thynlin</token>
+    <token token_id="21">Grentzingerin</token>
+    <token token_id="22">der</token>
+    <token token_id="23">wittwen</token>
+    <token token_id="24">burgerin</token>
+    <token token_id="25">ze</token>
+    <token token_id="26">Basel</token>
+    <token token_id="27">,</token>
+    <token token_id="28">das</token>
+    <token token_id="29">halb</token>
+    <token token_id="30">huß</token>
+    <token token_id="31">und</token>
+    <token token_id="32">hoffstatt</token>
+    <token token_id="33">Grach</token>
+    <token token_id="34">so</token>
+    <token token_id="35">gelegen</token>
+    <token token_id="36">ist</token>
+    <token token_id="37">ze</token>
+    <token token_id="38">minren</token>
+    <token token_id="39">Basel</token>
+    <token token_id="40">in</token>
+    <token token_id="41">der</token>
+    <token token_id="42">Webergassen</token>
+    <token token_id="43">nebend</token>
+    <token token_id="44">dem</token>
+    <token token_id="45">andern</token>
+    <token token_id="46">halben</token>
+    <token token_id="47">ort</token>
+    <token token_id="48">.</token>
+    <token token_id="49">huß</token>
+    <token token_id="50">so</token>
+    <token token_id="51">och</token>
+    <token token_id="52">minen</token>
+    <token token_id="53">frowen</token>
+    <token token_id="54">von</token>
+    <token token_id="55">Clingental</token>
+    <token token_id="56">,</token>
+    <token token_id="57">genant</token>
+    <token token_id="58">ist</token>
+    <token token_id="59">Erbrach</token>
+    <token token_id="60">einer</token>
+    <token token_id="61">siten</token>
+    <token token_id="62">,</token>
+    <token token_id="63">und</token>
+    <token token_id="64">Peter</token>
+    <token token_id="65">Halpherrn</token>
+    <token token_id="66">ort</token>
+    <token token_id="67">huß</token>
+    <token token_id="68">zer</token>
+    <token token_id="69">andern</token>
+    <token token_id="70">siten</token>
+    <token token_id="71">,</token>
+    <token token_id="72">stosset</token>
+    <token token_id="73">hinden</token>
+    <token token_id="74">uff</token>
+    <token token_id="75">den</token>
+    <token token_id="76">tych</token>
+    <token token_id="77">von</token>
+    <token token_id="78">Clingental</token>
+    <token token_id="79">dasselbe</token>
+    <token token_id="80">verkoufft</token>
+    <token token_id="81">und</token>
+    <token token_id="82">och</token>
+    <token token_id="83">das</token>
+    <token token_id="84">ander</token>
+    <token token_id="85">huse</token>
+    <token token_id="86">zinsend</token>
+    <token token_id="87">mi</token>
+    <token token_id="88">¬</token>
+    <token token_id="89">nen</token>
+    <token token_id="90">frowen</token>
+    <token token_id="91">zu</token>
+    <token token_id="92">sant</token>
+    <token token_id="93">Claren</token>
+    <token token_id="94">10ß</token>
+    <token token_id="95">da</token>
+    <token token_id="96">git</token>
+    <token token_id="97">gegklich</token>
+    <token token_id="98">huß</token>
+    <token token_id="99">5ß</token>
+    <token token_id="100">ist</token>
+    <token token_id="101">aber</token>
+    <token token_id="102">dz</token>
+    <token token_id="103">ober</token>
+    <token token_id="104">huß</token>
+    <token token_id="105">trager</token>
+    <token token_id="106">,</token>
+    <token token_id="107">pro</token>
+    <token token_id="108">su</token>
+    <token token_id="109">.</token>
+  </text>
+  <spans>
+    <span id="2040" start="3" end="3" text="koffend" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1711" start="4" end="12" text="Hans von Eschenberg Schaff&#10;ner miner frowen von Clingental" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1717" start="4" end="6" text="Hans von Eschenberg" element="head" class="nam" subclass=""/>
+      <span id="1723" start="7" end="12" text="Schaff&#10;ner miner frowen von Clingental" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-repr">
+        <span id="1825" start="7" end="8" text="Schaff&#10;ner" element="head" class="occ" subclass="org-repr"/>
+        <span id="1831" start="9" end="12" text="miner frowen von Clingental" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1831_head" start="9" end="12" element="head" class="nam" text="miner frowen von Clingental" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1958" start="15" end="18" text="si ¬&#10;ner frowen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1729" start="18" end="18" text="frowen" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1978" start="20" end="26" text="Thynlin Grentzingerin der wittwen&#10;burgerin ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1735" start="20" end="21" text="Thynlin Grentzingerin" element="head" class="nam" subclass=""/>
+      <span id="1741" start="22" end="23" text="der wittwen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1747" start="23" end="23" text="wittwen" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="1753" start="24" end="26" text="burgerin ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1765" start="24" end="24" text="burgerin" element="head" class="org-aff" subclass=""/>
+        <span id="1759" start="26" end="26" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1759_head" start="26" end="26" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1771" start="28" end="78" text="das halb huß und hoffstatt&#10;Grach so gelegen ist ze minren Basel in der&#10;Webergassen nebend dem andern halben ort .&#10;huß so och minen frowen von Clingental , genant&#10;ist Erbrach einer siten , und Peter&#10;Halpherrn ort huß zer andern siten , stosset&#10;hinden uff den tych von Clingental" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1837" start="29" end="32" text="halb huß und hoffstatt" element="head" class="nam" subclass=""/>
+      <span id="1984" start="33" end="33" text="Grach" element="head" class="nam" subclass=""/>
+      <span id="1777" start="35" end="78" text="gelegen ist ze minren Basel in der&#10;Webergassen nebend dem andern halben ort .&#10;huß so och minen frowen von Clingental , genant&#10;ist Erbrach einer siten , und Peter&#10;Halpherrn ort huß zer andern siten , stosset&#10;hinden uff den tych von Clingental" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1783" start="38" end="39" text="minren Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1783_head" start="38" end="39" element="head" class="nam" text="minren Basel" subclass=""/>
+        </span>
+        <span id="1789" start="41" end="42" text="der&#10;Webergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1795" start="42" end="42" text="Webergassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1849" start="44" end="59" text="dem andern halben ort .&#10;huß so och minen frowen von Clingental , genant&#10;ist Erbrach" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1843" start="46" end="49" text="halben ort .&#10;huß" element="head" class="type" subclass=""/>
+          <span id="1855" start="50" end="55" text="so och minen frowen von Clingental" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1861" start="52" end="55" text="minen frowen von Clingental" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="1861_head" start="52" end="55" element="head" class="nam" text="minen frowen von Clingental" subclass=""/>
+            </span>
+          </span>
+          <span id="1801" start="59" end="59" text="Erbrach" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1801_head" start="59" end="59" element="head" class="nam" text="Erbrach" subclass=""/>
+          </span>
+        </span>
+        <span id="1867" start="64" end="67" text="Peter&#10;Halpherrn ort huß" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2008" start="64" end="65" text="Peter&#10;Halpherrn" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2002" start="64" end="65" text="Peter&#10;Halpherrn" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2002_head" start="64" end="65" element="head" class="nam" text="Peter Halpherrn" subclass=""/>
+            </span>
+          </span>
+          <span id="1873" start="66" end="67" text="ort huß" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1807" start="75" end="78" text="den tych von Clingental" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1879" start="76" end="76" text="tych" element="head" class="type" subclass=""/>
+          <span id="1885" start="77" end="78" text="von Clingental" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1891" start="78" end="78" text="Clingental" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="1891_head" start="78" end="78" element="head" class="nam" text="Clingental" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2027" start="79" end="85" text="dasselbe&#10;verkoufft und och das ander huse" element="list" class="fac" subclass="">
+      <span id="2014" start="79" end="80" text="dasselbe&#10;verkoufft" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2014_head" start="79" end="80" element="head" class="pro" text="dasselbe verkoufft" subclass=""/>
+      </span>
+      <span id="1897" start="83" end="85" text="das ander huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1903" start="85" end="85" text="huse" element="head" class="type" subclass=""/>
+      </span>
+    </span>
+    <span id="2046" start="86" end="86" text="zinsend" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1916" start="87" end="93" text="mi ¬&#10;nen frowen zu sant Claren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1922" start="91" end="93" text="zu sant Claren" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1813" start="94" end="94" text="10ß" element="value" class="money" subclass=""/>
+    <span id="1934" start="97" end="98" text="gegklich&#10;huß" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1940" start="98" end="98" text="huß" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1819" start="99" end="99" text="5ß" element="value" class="money" subclass=""/>
+    <span id="1946" start="102" end="104" text="dz ober huß" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1952" start="104" end="104" text="huß" element="head" class="type" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1964" from="1958" to="1831" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1971" from="1711" to="1958" class="org-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2020" from="2014" to="1771" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1909" from="1897" to="1849" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2033" from="1934" to="2027" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="7" end="12" ref="1723" type="state">
+      <trigger start="7" end="8" text="Schaff&#10;ner" ref="1825"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1711" text="Hans von Eschenberg Schaff&#10;ner miner frowen von Clingental"/>
+        <role role="employer" ref="1831" text="miner frowen von Clingental"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="24" end="26" ref="1753" type="state">
+      <trigger start="24" end="24" text="burgerin" ref="1765"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1978" text="Thynlin Grentzingerin der wittwen&#10;burgerin ze Basel"/>
+        <role role="geopolitical-entity" ref="1759" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="78" ref="1777" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1771" text="das halb huß und hoffstatt&#10;Grach so gelegen ist ze minren Basel in der&#10;Webergassen nebend dem andern halben ort .&#10;huß so och minen frowen von Clingental , genant&#10;ist Erbrach einer siten , und Peter&#10;Halpherrn ort huß zer andern siten , stosset&#10;hinden uff den tych von Clingental"/>
+        <role role="location-b" ref="1783" text="minren Basel"/>
+        <role role="location-b" ref="1789" text="der&#10;Webergassen"/>
+        <role role="location-b" ref="1849" text="dem andern halben ort .&#10;huß so och minen frowen von Clingental , genant&#10;ist Erbrach"/>
+        <role role="location-b" ref="1867" text="Peter&#10;Halpherrn ort huß"/>
+        <role role="location-b" ref="1807" text="den tych von Clingental"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="50" end="55" ref="1855" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1849" text="dem andern halben ort .&#10;huß so och minen frowen von Clingental , genant&#10;ist Erbrach"/>
+        <role role="owner" ref="1861" text="minen frowen von Clingental"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="64" end="65" ref="2008" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1867" text="Peter&#10;Halpherrn ort huß"/>
+        <role role="owner" ref="2002" text="Peter&#10;Halpherrn"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="77" end="78" ref="1885" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1807" text="den tych von Clingental"/>
+        <role role="owner" ref="1891" text="Clingental"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="78" ref="" type="event">
+      <trigger start="3" end="3" text="koffend" ref="2040"/>
+      <event event_id="6.0">
+        <role role="seller" ref="1711" text="Hans von Eschenberg Schaff&#10;ner miner frowen von Clingental"/>
+        <role role="buyer" ref="1978" text="Thynlin Grentzingerin der wittwen&#10;burgerin ze Basel"/>
+        <role role="property" ref="1771" text="das halb huß und hoffstatt&#10;Grach so gelegen ist ze minren Basel in der&#10;Webergassen nebend dem andern halben ort .&#10;huß so och minen frowen von Clingental , genant&#10;ist Erbrach einer siten , und Peter&#10;Halpherrn ort huß zer andern siten , stosset&#10;hinden uff den tych von Clingental"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="79" end="99" ref="" type="state">
+      <trigger start="86" end="86" text="zinsend" ref="2046"/>
+      <event event_id="7.0">
+        <role role="property" ref="2014" text="dasselbe&#10;verkoufft"/>
+        <role role="property" ref="1897" text="das ander huse"/>
+        <role role="beneficiary" ref="1916" text="mi ¬&#10;nen frowen zu sant Claren"/>
+        <role role="interest" ref="1813" text="10ß"/>
+        <role role="detail_interest-conv" ref="1819" text="5ß"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="8.0">
+        <role role="representative" ref="1711" text="Hans von Eschenberg Schaff&#10;ner miner frowen von Clingental"/>
+        <role role="represented" ref="1958" text="si ¬&#10;ner frowen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

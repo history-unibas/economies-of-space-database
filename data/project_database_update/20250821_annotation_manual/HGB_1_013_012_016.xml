@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 13/12 S. [16]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Andreasplatz 15</tei:title>
+            <tei:idno>HGB 1 13/12</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1460876</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Liber copiarum</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1456">1456</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611122.129949246 1267515.9033181048</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Frow</token>
+    <token token_id="4">Ennelin</token>
+    <token token_id="5">Meygerin</token>
+    <token token_id="6">wilent</token>
+    <token token_id="7">Hansen</token>
+    <token token_id="8">Meygers</token>
+    <token token_id="9">des</token>
+    <token token_id="10">Schiff</token>
+    <token token_id="11">¬</token>
+    <token token_id="12">mans</token>
+    <token token_id="13">sel</token>
+    <token token_id="14">.</token>
+    <token token_id="15">Wittwe</token>
+    <token token_id="16">zu</token>
+    <token token_id="17">Basel</token>
+    <token token_id="18">mit</token>
+    <token token_id="19">Martin</token>
+    <token token_id="20">Meyger</token>
+    <token token_id="21">irem</token>
+    <token token_id="22">Sun</token>
+    <token token_id="23">,</token>
+    <token token_id="24">verkaufen</token>
+    <token token_id="25">Conrat</token>
+    <token token_id="26">Böchli</token>
+    <token token_id="27">genant</token>
+    <token token_id="28">Weber</token>
+    <token token_id="29">und</token>
+    <token token_id="30">Barbeln</token>
+    <token token_id="31">siner</token>
+    <token token_id="32">Eefrowen</token>
+    <token token_id="33">ein</token>
+    <token token_id="34">Badstub</token>
+    <token token_id="35">mit</token>
+    <token token_id="36">Huse</token>
+    <token token_id="37">und</token>
+    <token token_id="38">Hoffstat</token>
+    <token token_id="39">,</token>
+    <token token_id="40">als</token>
+    <token token_id="41">die</token>
+    <token token_id="42">ge</token>
+    <token token_id="43">¬</token>
+    <token token_id="44">legen</token>
+    <token token_id="45">ist</token>
+    <token token_id="46">in</token>
+    <token token_id="47">der</token>
+    <token token_id="48">Statt</token>
+    <token token_id="49">Basel</token>
+    <token token_id="50">under</token>
+    <token token_id="51">den</token>
+    <token token_id="52">Kremern</token>
+    <token token_id="53">gegen</token>
+    <token token_id="54">sant</token>
+    <token token_id="55">Andres</token>
+    <token token_id="56">Cappeln</token>
+    <token token_id="57">über</token>
+    <token token_id="58">,</token>
+    <token token_id="59">einsit</token>
+    <token token_id="60">nebent</token>
+    <token token_id="61">Hanns</token>
+    <token token_id="62">sines</token>
+    <token token_id="63">des</token>
+    <token token_id="64">jüngen</token>
+    <token token_id="65">und</token>
+    <token token_id="66">andersite</token>
+    <token token_id="67">nebent</token>
+    <token token_id="68">dem</token>
+    <token token_id="69">Huse</token>
+    <token token_id="70">daselbs</token>
+    <token token_id="71">genant</token>
+    <token token_id="72">Huse</token>
+    <token token_id="73">Hoffstetten</token>
+    <token token_id="74">,</token>
+    <token token_id="75">zinset</token>
+    <token token_id="76">von</token>
+    <token token_id="77">Eygentschafft</token>
+    <token token_id="78">wegen</token>
+    <token token_id="79">den</token>
+    <token token_id="80">Herren</token>
+    <token token_id="81">zu</token>
+    <token token_id="82">sant</token>
+    <token token_id="83">Peter</token>
+    <token token_id="84">zu</token>
+    <token token_id="85">Basel</token>
+    <token token_id="86">jerlichs</token>
+    <token token_id="87">30</token>
+    <token token_id="88">sh</token>
+    <token token_id="89">.</token>
+    <token token_id="90">item</token>
+    <token token_id="91">und</token>
+    <token token_id="92">10sh</token>
+    <token token_id="93">.</token>
+    <token token_id="94">Juncker</token>
+    <token token_id="95">Hanns</token>
+    <token token_id="96">Fürlins</token>
+    <token token_id="97">sel</token>
+    <token token_id="98">.</token>
+    <token token_id="99">Erben</token>
+    <token token_id="100">,</token>
+    <token token_id="101">umb</token>
+    <token token_id="102">40</token>
+    <token token_id="103">Guldin</token>
+    <token token_id="104">.</token>
+  </text>
+  <spans>
+    <span id="1788" start="3" end="22" text="Frow Ennelin Meygerin wilent Hansen Meygers des Schiff ¬&#10;mans sel . Wittwe zu Basel mit Martin Meyger irem Sun" element="list" class="per" subclass="">
+      <span id="1685" start="3" end="17" text="Frow Ennelin Meygerin wilent Hansen Meygers des Schiff ¬&#10;mans sel . Wittwe zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1691" start="4" end="5" text="Ennelin Meygerin" element="head" class="nam" subclass=""/>
+        <span id="1697" start="6" end="15" text="wilent Hansen Meygers des Schiff ¬&#10;mans sel . Wittwe" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1709" start="7" end="14" text="Hansen Meygers des Schiff ¬&#10;mans sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1715" start="7" end="8" text="Hansen Meygers" element="head" class="nam" subclass=""/>
+            <span id="1721" start="9" end="12" text="des Schiff ¬&#10;mans" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1727" start="10" end="12" text="Schiff ¬&#10;mans" element="head" class="occ" subclass=""/>
+            </span>
+            <span id="1733" start="13" end="14" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="1703" start="15" end="15" text="Wittwe" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1739" start="16" end="17" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1745" start="17" end="17" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1745_head" start="17" end="17" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1751" start="19" end="22" text="Martin Meyger irem Sun" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1757" start="19" end="20" text="Martin Meyger" element="head" class="nam" subclass=""/>
+        <span id="1763" start="21" end="22" text="irem Sun" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1775" start="21" end="21" text="irem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1775_head" start="21" end="21" element="head" class="pro" text="irem" subclass=""/>
+          </span>
+          <span id="1769" start="22" end="22" text="Sun" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2059" start="24" end="24" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1812" start="25" end="32" text="Conrat Böchli genant Weber und Barbeln siner&#10;Eefrowen" element="list" class="per" subclass="">
+      <span id="1806" start="25" end="28" text="Conrat Böchli genant Weber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1794" start="25" end="26" text="Conrat Böchli" element="head" class="nam" subclass=""/>
+        <span id="1800" start="28" end="28" text="Weber" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1800_head" start="28" end="28" element="head" class="nam" text="Weber" subclass=""/>
+        </span>
+      </span>
+      <span id="1818" start="30" end="32" text="Barbeln siner&#10;Eefrowen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1824" start="30" end="30" text="Barbeln" element="head" class="nam" subclass=""/>
+        <span id="1830" start="31" end="32" text="siner&#10;Eefrowen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1842" start="31" end="31" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1842_head" start="31" end="31" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="1836" start="32" end="32" text="Eefrowen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1855" start="33" end="99" text="ein Badstub mit Huse und Hoffstat , als die ge ¬&#10;legen ist in der Statt Basel under den Kremern gegen sant&#10;Andres Cappeln über , einsit nebent Hanns sines des jüngen&#10;und andersite nebent dem&#10;Huse daselbs genant&#10;Huse Hoffstetten , zinset von Eygentschafft wegen den Herren&#10;zu sant Peter zu Basel jerlichs 30 sh . item und 10sh . Juncker&#10;Hanns Fürlins sel . Erben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1861" start="34" end="34" text="Badstub" element="head" class="type" subclass=""/>
+      <span id="1867" start="35" end="38" text="mit Huse und Hoffstat" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1873" start="36" end="38" text="Huse und Hoffstat" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1873_head" start="36" end="38" element="head" class="type" text="Huse und Hoffstat" subclass=""/>
+        </span>
+      </span>
+      <span id="1879" start="40" end="73" text="als die ge ¬&#10;legen ist in der Statt Basel under den Kremern gegen sant&#10;Andres Cappeln über , einsit nebent Hanns sines des jüngen&#10;und andersite nebent dem&#10;Huse daselbs genant&#10;Huse Hoffstetten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1891" start="47" end="49" text="der Statt Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1897" start="49" end="49" text="Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1903" start="51" end="52" text="den Kremern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+          <span id="1909" start="52" end="52" text="Kremern" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1915" start="54" end="56" text="sant&#10;Andres Cappeln" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1915_head" start="54" end="56" element="head" class="nam" text="sant Andres Cappeln" subclass=""/>
+        </span>
+        <span id="1921" start="61" end="64" text="Hanns sines des jüngen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1927" start="61" end="62" text="Hanns sines" element="head" class="nam" subclass=""/>
+          <span id="1933" start="63" end="64" text="des jüngen" element="appo" class="gen" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1939" start="64" end="64" text="jüngen" element="head" class="gen" subclass=""/>
+          </span>
+        </span>
+        <span id="1951" start="68" end="73" text="dem&#10;Huse daselbs genant&#10;Huse Hoffstetten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1945" start="69" end="69" text="Huse" element="head" class="type" subclass=""/>
+          <span id="1957" start="72" end="73" text="Huse Hoffstetten" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1957_head" start="72" end="73" element="head" class="nam" text="Huse Hoffstetten" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1963" start="75" end="99" text="zinset von Eygentschafft wegen den Herren&#10;zu sant Peter zu Basel jerlichs 30 sh . item und 10sh . Juncker&#10;Hanns Fürlins sel . Erben" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2065" start="75" end="75" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2071" start="76" end="77" text="von Eygentschafft" element="other" class="other" subclass=""/>
+        <span id="1969" start="79" end="85" text="den Herren&#10;zu sant Peter zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1975" start="81" end="83" text="zu sant Peter" element="head" class="nam" subclass=""/>
+          <span id="1981" start="84" end="85" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1987" start="85" end="85" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1987_head" start="85" end="85" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1993" start="86" end="86" text="jerlichs" element="value" class="time" subclass="rec"/>
+        <span id="1999" start="87" end="89" text="30 sh ." element="value" class="money" subclass=""/>
+        <span id="2005" start="92" end="93" text="10sh ." element="value" class="money" subclass=""/>
+        <span id="2011" start="94" end="99" text="Juncker&#10;Hanns Fürlins sel . Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2023" start="94" end="98" text="Juncker&#10;Hanns Fürlins sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2041" start="94" end="94" text="Juncker" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2041_head" start="94" end="94" element="head" class="title" text="Juncker" subclass=""/>
+            </span>
+            <span id="2029" start="95" end="96" text="Hanns Fürlins" element="head" class="nam" subclass=""/>
+            <span id="2035" start="97" end="98" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="2017" start="99" end="99" text="Erben" element="head" class="heir" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2047" start="102" end="103" text="40 Guldin" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1781" from="1775" to="1685" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1848" from="1842" to="1806" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="94" end="99" ref="2011" type="event">
+      <trigger start="99" end="99" text="Erben" ref="2017"/>
+      <event event_id="0.0">
+        <role role="heir" ref="2011" text="Juncker&#10;Hanns Fürlins sel . Erben"/>
+        <role role="decedent" ref="2023" text="Juncker&#10;Hanns Fürlins sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="6" end="15" ref="1697" type="state">
+      <trigger start="15" end="15" text="Wittwe" ref="1703"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1685" text="Frow Ennelin Meygerin wilent Hansen Meygers des Schiff ¬&#10;mans sel . Wittwe zu Basel"/>
+        <role role="family-b" ref="1709" text="Hansen Meygers des Schiff ¬&#10;mans sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="21" end="22" ref="1763" type="state">
+      <trigger start="22" end="22" text="Sun" ref="1769"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1751" text="Martin Meyger irem Sun"/>
+        <role role="family-b" ref="1775" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="31" end="32" ref="1830" type="state">
+      <trigger start="32" end="32" text="Eefrowen" ref="1836"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1818" text="Barbeln siner&#10;Eefrowen"/>
+        <role role="family-b" ref="1842" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="16" end="17" ref="1739" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1685" text="Frow Ennelin Meygerin wilent Hansen Meygers des Schiff ¬&#10;mans sel . Wittwe zu Basel"/>
+        <role role="location-b" ref="1745" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" start="35" end="38" ref="1867" type="state">
+      <event event_id="5.0">
+        <role role="whole" ref="1855" text="ein Badstub mit Huse und Hoffstat , als die ge ¬&#10;legen ist in der Statt Basel under den Kremern gegen sant&#10;Andres Cappeln über , einsit nebent Hanns sines des jüngen&#10;und andersite nebent dem&#10;Huse daselbs genant&#10;Huse Hoffstetten , zinset von Eygentschafft wegen den Herren&#10;zu sant Peter zu Basel jerlichs 30 sh . item und 10sh . Juncker&#10;Hanns Fürlins sel . Erben"/>
+        <role role="part" ref="1873" text="Huse und Hoffstat"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="40" end="73" ref="1879" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1855" text="ein Badstub mit Huse und Hoffstat , als die ge ¬&#10;legen ist in der Statt Basel under den Kremern gegen sant&#10;Andres Cappeln über , einsit nebent Hanns sines des jüngen&#10;und andersite nebent dem&#10;Huse daselbs genant&#10;Huse Hoffstetten , zinset von Eygentschafft wegen den Herren&#10;zu sant Peter zu Basel jerlichs 30 sh . item und 10sh . Juncker&#10;Hanns Fürlins sel . Erben"/>
+        <role role="location-b" ref="1891" text="der Statt Basel"/>
+        <role role="location-b" ref="1903" text="den Kremern"/>
+        <role role="location-b" ref="1915" text="sant&#10;Andres Cappeln"/>
+        <role role="location-b" ref="1921" text="Hanns sines des jüngen"/>
+        <role role="location-b" ref="1951" text="dem&#10;Huse daselbs genant&#10;Huse Hoffstetten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="75" end="99" ref="1963" type="state">
+      <trigger start="75" end="75" text="zinset" ref="2065"/>
+      <event event_id="7.0">
+        <role role="property" ref="1855" text="ein Badstub mit Huse und Hoffstat , als die ge ¬&#10;legen ist in der Statt Basel under den Kremern gegen sant&#10;Andres Cappeln über , einsit nebent Hanns sines des jüngen&#10;und andersite nebent dem&#10;Huse daselbs genant&#10;Huse Hoffstetten , zinset von Eygentschafft wegen den Herren&#10;zu sant Peter zu Basel jerlichs 30 sh . item und 10sh . Juncker&#10;Hanns Fürlins sel . Erben"/>
+        <role role="cause" ref="2071" text="von Eygentschafft"/>
+        <role role="beneficiary" ref="1969" text="den Herren&#10;zu sant Peter zu Basel"/>
+        <role role="interval" ref="1993" text="jerlichs"/>
+        <role role="interest" ref="1999" text="30 sh ."/>
+      </event>
+      <event event_id="7.1">
+        <role role="property" ref="1855" text="ein Badstub mit Huse und Hoffstat , als die ge ¬&#10;legen ist in der Statt Basel under den Kremern gegen sant&#10;Andres Cappeln über , einsit nebent Hanns sines des jüngen&#10;und andersite nebent dem&#10;Huse daselbs genant&#10;Huse Hoffstetten , zinset von Eygentschafft wegen den Herren&#10;zu sant Peter zu Basel jerlichs 30 sh . item und 10sh . Juncker&#10;Hanns Fürlins sel . Erben"/>
+        <role role="cause" ref="2071" text="von Eygentschafft"/>
+        <role role="interval" ref="1993" text="jerlichs"/>
+        <role role="interest" ref="2005" text="10sh ."/>
+        <role role="beneficiary" ref="2011" text="Juncker&#10;Hanns Fürlins sel . Erben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="84" end="85" ref="1981" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="1969" text="den Herren&#10;zu sant Peter zu Basel"/>
+        <role role="location-b" ref="1987" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="24" end="24" ref="" type="event">
+      <trigger start="24" end="24" text="verkaufen" ref="2059"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1685" text="Frow Ennelin Meygerin wilent Hansen Meygers des Schiff ¬&#10;mans sel . Wittwe zu Basel"/>
+        <role role="seller" ref="1751" text="Martin Meyger irem Sun"/>
+        <role role="buyer" ref="1806" text="Conrat Böchli genant Weber"/>
+        <role role="buyer" ref="1818" text="Barbeln siner&#10;Eefrowen"/>
+        <role role="property" ref="1855" text="ein Badstub mit Huse und Hoffstat , als die ge ¬&#10;legen ist in der Statt Basel under den Kremern gegen sant&#10;Andres Cappeln über , einsit nebent Hanns sines des jüngen&#10;und andersite nebent dem&#10;Huse daselbs genant&#10;Huse Hoffstetten , zinset von Eygentschafft wegen den Herren&#10;zu sant Peter zu Basel jerlichs 30 sh . item und 10sh . Juncker&#10;Hanns Fürlins sel . Erben"/>
+        <role role="price" ref="2047" text="40 Guldin"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

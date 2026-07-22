@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 146/27 S. [38]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Petersberg 15</tei:title>
+            <tei:idno>HGB 1 146/27</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1501531</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1542">1542</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611142.3502425286 1267669.5452188968</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Vil</token>
+    <token token_id="1">ersam</token>
+    <token token_id="2">Herren</token>
+    <token token_id="3">und</token>
+    <token token_id="4">Burger</token>
+    <token token_id="5">,</token>
+    <token token_id="6">denen</token>
+    <token token_id="7">Balthasar</token>
+    <token token_id="8">Eyl</token>
+    <token token_id="9">der</token>
+    <token token_id="10">Boltstreyger</token>
+    <token token_id="11">,</token>
+    <token token_id="12">sel</token>
+    <token token_id="13">.</token>
+    <token token_id="14">u</token>
+    <token token_id="15">.</token>
+    <token token_id="16">seine</token>
+    <token token_id="17">Frau</token>
+    <token token_id="18">Anna</token>
+    <token token_id="19">zu</token>
+    <token token_id="20">thun</token>
+    <token token_id="21">schuldig</token>
+    <token token_id="22">pliben</token>
+    <token token_id="23">sind</token>
+    <token token_id="24">,</token>
+    <token token_id="25">haben</token>
+    <token token_id="26">desselben</token>
+    <token token_id="27">Hus</token>
+    <token token_id="28">und</token>
+    <token token_id="29">Hofstatt</token>
+    <token token_id="30">an</token>
+    <token token_id="31">s</token>
+    <token token_id="32">.</token>
+    <token token_id="33">Pettersberg</token>
+    <token token_id="34">,</token>
+    <token token_id="35">under</token>
+    <token token_id="36">der</token>
+    <token token_id="37">Ellenden</token>
+    <token token_id="38">Herberg</token>
+    <token token_id="39">,</token>
+    <token token_id="40">u</token>
+    <token token_id="41">.</token>
+    <token token_id="42">dem</token>
+    <token token_id="43">Hus</token>
+    <token token_id="44">zur</token>
+    <token token_id="45">Merkatzen</token>
+    <token token_id="46">,</token>
+    <token token_id="47">zwüschen</token>
+    <token token_id="48">dem</token>
+    <token token_id="49">schwartzen</token>
+    <token token_id="50">Gymmermann</token>
+    <token token_id="51">,</token>
+    <token token_id="52">u</token>
+    <token token_id="53">.</token>
+    <token token_id="54">dem</token>
+    <token token_id="55">Hus</token>
+    <token token_id="56">zum</token>
+    <token token_id="57">Waghals</token>
+    <token token_id="58">glegen</token>
+    <token token_id="59">,</token>
+    <token token_id="60">u</token>
+    <token token_id="61">.</token>
+    <token token_id="62">zum</token>
+    <token token_id="63">schwartzen</token>
+    <token token_id="64">Schwynbogen</token>
+    <token token_id="65">,</token>
+    <token token_id="66">genant</token>
+    <token token_id="67">ist</token>
+    <token token_id="68">,</token>
+    <token token_id="69">gefrönt</token>
+    <token token_id="70">.</token>
+    <token token_id="71">Lorentz</token>
+    <token token_id="72">Vest</token>
+    <token token_id="73">der</token>
+    <token token_id="74">Kornmesser</token>
+    <token token_id="75">kauft</token>
+    <token token_id="76">sie</token>
+    <token token_id="77">um</token>
+    <token token_id="78">98</token>
+    <token token_id="79">℔</token>
+    <token token_id="80">.</token>
+  </text>
+  <spans>
+    <span id="1421" start="0" end="23" text="Vil ersam Herren und Burger , denen Balthasar Eyl der Boltstreyger ,&#10;sel . u . seine Frau Anna zu thun schuldig pliben sind" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1190" start="2" end="4" text="Herren und Burger" element="head" class="org-aff" subclass=""/>
+      <span id="1427" start="6" end="23" text="denen Balthasar Eyl der Boltstreyger ,&#10;sel . u . seine Frau Anna zu thun schuldig pliben sind" element="attr" class="creditor" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1263" start="7" end="18" text="Balthasar Eyl der Boltstreyger ,&#10;sel . u . seine Frau Anna" element="list" class="per" subclass="">
+          <span id="1196" start="7" end="13" text="Balthasar Eyl der Boltstreyger ,&#10;sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1202" start="7" end="8" text="Balthasar Eyl" element="head" class="nam" subclass=""/>
+            <span id="1208" start="9" end="10" text="der Boltstreyger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1214" start="10" end="10" text="Boltstreyger" element="head" class="occ" subclass=""/>
+            </span>
+            <span id="1220" start="12" end="13" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="1226" start="16" end="18" text="seine Frau Anna" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1238" start="16" end="17" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1250" start="16" end="16" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1250_head" start="16" end="16" element="head" class="pro" text="seine" subclass=""/>
+              </span>
+              <span id="1244" start="17" end="17" text="Frau" element="head" class="fam" subclass=""/>
+            </span>
+            <span id="1232" start="18" end="18" text="Anna" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+        <span id="1439" start="21" end="21" text="schuldig" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+    </span>
+    <span id="1269" start="26" end="67" text="desselben&#10;Hus und Hofstatt an s . Pettersberg , under der Ellenden Herberg ,&#10;u . dem Hus zur Merkatzen , zwüschen dem schwartzen Gymmermann ,&#10;u . dem Hus zum Waghals glegen , u . zum schwartzen Schwynbogen ,&#10;genant ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1294" start="26" end="26" text="desselben" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1281" start="26" end="26" text="desselben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1281_head" start="26" end="26" element="head" class="pro" text="desselben" subclass=""/>
+        </span>
+      </span>
+      <span id="1275" start="27" end="29" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1372" start="30" end="58" text="an s . Pettersberg , under der Ellenden Herberg ,&#10;u . dem Hus zur Merkatzen , zwüschen dem schwartzen Gymmermann ,&#10;u . dem Hus zum Waghals glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1300" start="31" end="33" text="s . Pettersberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1300_head" start="31" end="33" element="head" class="nam" text="s . Pettersberg" subclass=""/>
+        </span>
+        <span id="1330" start="36" end="45" text="der Ellenden Herberg ,&#10;u . dem Hus zur Merkatzen" element="list" class="fac" subclass="">
+          <span id="1306" start="36" end="38" text="der Ellenden Herberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1312" start="37" end="38" text="Ellenden Herberg" element="head" class="type" subclass=""/>
+          </span>
+          <span id="1318" start="42" end="45" text="dem Hus zur Merkatzen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1324" start="43" end="45" text="Hus zur Merkatzen" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+        <span id="1360" start="48" end="57" text="dem schwartzen Gymmermann ,&#10;u . dem Hus zum Waghals" element="list" class="fac" subclass="">
+          <span id="1336" start="48" end="50" text="dem schwartzen Gymmermann" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1342" start="49" end="50" text="schwartzen Gymmermann" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1348" start="54" end="57" text="dem Hus zum Waghals" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1354" start="55" end="57" text="Hus zum Waghals" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1366" start="62" end="64" text="zum schwartzen Schwynbogen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1366_head" start="62" end="64" element="head" class="nam" text="zum schwartzen Schwynbogen" subclass=""/>
+      </span>
+    </span>
+    <span id="1445" start="69" end="69" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1378" start="71" end="74" text="Lorentz Vest der Kornmesser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1384" start="71" end="72" text="Lorentz Vest" element="head" class="nam" subclass=""/>
+      <span id="1390" start="73" end="74" text="der Kornmesser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1396" start="74" end="74" text="Kornmesser" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1451" start="75" end="75" text="kauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1402" start="76" end="76" text="sie" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1402_head" start="76" end="76" element="head" class="pro" text="sie" subclass=""/>
+    </span>
+    <span id="1415" start="78" end="80" text="98 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1287" from="1281" to="1263" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1256" from="1250" to="1196" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1408" from="1402" to="1269" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="16" end="17" ref="1238" type="state">
+      <trigger start="17" end="17" text="Frau" ref="1244"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1226" text="seine Frau Anna"/>
+        <role role="family-b" ref="1250" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="debt" polarity="pos" tense="pres" modality="ass" start="6" end="23" ref="1427" type="state">
+      <trigger start="21" end="21" text="schuldig" ref="1439"/>
+      <event event_id="1.0">
+        <role role="creditor" ref="1421" text="Vil ersam Herren und Burger , denen Balthasar Eyl der Boltstreyger ,&#10;sel . u . seine Frau Anna zu thun schuldig pliben sind"/>
+        <role role="debitor" ref="1196" text="Balthasar Eyl der Boltstreyger ,&#10;sel ."/>
+        <role role="debitor" ref="1226" text="seine Frau Anna"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="26" end="26" ref="1294" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1269" text="desselben&#10;Hus und Hofstatt an s . Pettersberg , under der Ellenden Herberg ,&#10;u . dem Hus zur Merkatzen , zwüschen dem schwartzen Gymmermann ,&#10;u . dem Hus zum Waghals glegen , u . zum schwartzen Schwynbogen ,&#10;genant ist"/>
+        <role role="owner" ref="1281" text="desselben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="58" ref="1372" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1269" text="desselben&#10;Hus und Hofstatt an s . Pettersberg , under der Ellenden Herberg ,&#10;u . dem Hus zur Merkatzen , zwüschen dem schwartzen Gymmermann ,&#10;u . dem Hus zum Waghals glegen , u . zum schwartzen Schwynbogen ,&#10;genant ist"/>
+        <role role="location-b" ref="1300" text="s . Pettersberg"/>
+        <role role="location-b" ref="1306" text="der Ellenden Herberg"/>
+        <role role="location-b" ref="1318" text="dem Hus zur Merkatzen"/>
+        <role role="location-b" ref="1336" text="dem schwartzen Gymmermann"/>
+        <role role="location-b" ref="1348" text="dem Hus zum Waghals"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="69" ref="" type="event">
+      <trigger start="69" end="69" text="gefrönt" ref="1445"/>
+      <event event_id="4.0">
+        <role role="claimant" ref="1421" text="Vil ersam Herren und Burger , denen Balthasar Eyl der Boltstreyger ,&#10;sel . u . seine Frau Anna zu thun schuldig pliben sind"/>
+        <role role="property" ref="1269" text="desselben&#10;Hus und Hofstatt an s . Pettersberg , under der Ellenden Herberg ,&#10;u . dem Hus zur Merkatzen , zwüschen dem schwartzen Gymmermann ,&#10;u . dem Hus zum Waghals glegen , u . zum schwartzen Schwynbogen ,&#10;genant ist"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="71" end="80" ref="" type="event">
+      <trigger start="75" end="75" text="kauft" ref="1451"/>
+      <event event_id="5.0">
+        <role role="buyer" ref="1378" text="Lorentz Vest der Kornmesser"/>
+        <role role="property" ref="1402" text="sie"/>
+        <role role="price" ref="1415" text="98 ℔."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

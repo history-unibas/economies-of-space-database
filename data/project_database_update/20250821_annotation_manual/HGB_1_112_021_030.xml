@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 112/21 S. [30]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Leonhardsberg 6</tei:title>
+            <tei:idno>HGB 1 112/21</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1493546</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1498">1498</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611267.9911364494 1267202.8489090702</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Elisin</token>
+    <token token_id="1">Hannsen</token>
+    <token token_id="2">Eglins</token>
+    <token token_id="3">Ehefrau</token>
+    <token token_id="4">,</token>
+    <token token_id="5">verkauft</token>
+    <token token_id="6">an</token>
+    <token token_id="7">Cunrat</token>
+    <token token_id="8">rich</token>
+    <token token_id="9">den</token>
+    <token token_id="10">Metzger</token>
+    <token token_id="11">,</token>
+    <token token_id="12">ư</token>
+    <token token_id="13">seine</token>
+    <token token_id="14">Frau</token>
+    <token token_id="15">Ennelin</token>
+    <token token_id="16">,</token>
+    <token token_id="17">das</token>
+    <token token_id="18">Hus</token>
+    <token token_id="19">&amp;</token>
+    <token token_id="20">Hofstatt</token>
+    <token token_id="21">uff</token>
+    <token token_id="22">s</token>
+    <token token_id="23">.</token>
+    <token token_id="24">Lienhartsberg</token>
+    <token token_id="25">,</token>
+    <token token_id="26">zwüschen</token>
+    <token token_id="27">dem</token>
+    <token token_id="28">Hus</token>
+    <token token_id="29">zer</token>
+    <token token_id="30">Kluss</token>
+    <token token_id="31">zu</token>
+    <token token_id="32">einer</token>
+    <token token_id="33">,</token>
+    <token token_id="34">u</token>
+    <token token_id="35">.</token>
+    <token token_id="36">des</token>
+    <token token_id="37">Trumeters</token>
+    <token token_id="38">hus</token>
+    <token token_id="39">zur</token>
+    <token token_id="40">andern</token>
+    <token token_id="41">siten</token>
+    <token token_id="42">gelegen</token>
+    <token token_id="43">,</token>
+    <token token_id="44">u</token>
+    <token token_id="45">.</token>
+    <token token_id="46">zur</token>
+    <token token_id="47">rothen</token>
+    <token token_id="48">thür</token>
+    <token token_id="49">genant</token>
+    <token token_id="50">ist</token>
+    <token token_id="51">,</token>
+    <token token_id="52">zinst</token>
+    <token token_id="53">jährl</token>
+    <token token_id="54">8sh</token>
+    <token token_id="55">.</token>
+    <token token_id="56">zu</token>
+    <token token_id="57">s</token>
+    <token token_id="58">.</token>
+    <token token_id="59">Lienhart</token>
+    <token token_id="60">,</token>
+    <token token_id="61">Bodenzins</token>
+    <token token_id="62">sonstfrei</token>
+    <token token_id="63">,</token>
+    <token token_id="64">sum</token>
+    <token token_id="65">53</token>
+    <token token_id="66">fl</token>
+    <token token_id="67">.</token>
+  </text>
+  <spans>
+    <span id="1029" start="0" end="3" text="Elisin Hannsen Eglins Ehefrau" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1035" start="0" end="0" text="Elisin" element="head" class="nam" subclass=""/>
+      <span id="1041" start="1" end="3" text="Hannsen Eglins Ehefrau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1053" start="1" end="2" text="Hannsen Eglins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1053_head" start="1" end="2" element="head" class="nam" text="Hannsen Eglins" subclass=""/>
+        </span>
+        <span id="1047" start="3" end="3" text="Ehefrau" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1216" start="5" end="5" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1210" start="7" end="15" text="Cunrat rich&#10;den Metzger , ư seine Frau Ennelin" element="list" class="per" subclass="">
+      <span id="1059" start="7" end="10" text="Cunrat rich&#10;den Metzger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1065" start="7" end="8" text="Cunrat rich" element="head" class="nam" subclass=""/>
+        <span id="1071" start="9" end="10" text="den Metzger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1077" start="10" end="10" text="Metzger" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1083" start="13" end="15" text="seine Frau Ennelin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1095" start="13" end="14" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1107" start="13" end="13" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1107_head" start="13" end="13" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1101" start="14" end="14" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1089" start="15" end="15" text="Ennelin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1120" start="17" end="62" text="das Hus &amp; Hofstatt uff&#10;s . Lienhartsberg , zwüschen dem Hus zer Kluss zu einer ,&#10;u . des Trumeters hus zur andern siten gelegen , u . zur rothen&#10;thür genant ist , zinst jährl 8sh . zu s . Lienhart , Bodenzins&#10;sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1126" start="18" end="20" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1132" start="21" end="42" text="uff&#10;s . Lienhartsberg , zwüschen dem Hus zer Kluss zu einer ,&#10;u . des Trumeters hus zur andern siten gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1138" start="22" end="24" text="s . Lienhartsberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1138_head" start="22" end="24" element="head" class="nam" text="s . Lienhartsberg" subclass=""/>
+        </span>
+        <span id="1144" start="27" end="30" text="dem Hus zer Kluss" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1150" start="28" end="30" text="Hus zer Kluss" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1156" start="36" end="38" text="des Trumeters hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1156_desc_owner" start="36" end="37" text="des Trumeters" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1168" start="36" end="37" text="des Trumeters" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1174" start="37" end="37" text="Trumeters" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+          <span id="1162" start="38" end="38" text="hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1180" start="46" end="48" text="zur rothen&#10;thür" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1180_head" start="46" end="48" element="head" class="nam" text="zur rothen thür" subclass=""/>
+      </span>
+      <span id="1234" start="52" end="62" text="zinst jährl 8sh . zu s . Lienhart , Bodenzins&#10;sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1222" start="52" end="52" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1186" start="53" end="53" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="1192" start="54" end="55" text="8sh ." element="value" class="money" subclass=""/>
+        <span id="1198" start="57" end="59" text="s . Lienhart" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1198_head" start="57" end="59" element="head" class="nam" text="s . Lienhart" subclass=""/>
+        </span>
+        <span id="1228" start="61" end="61" text="Bodenzins" element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="1204" start="65" end="67" text="53 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1113" from="1107" to="1059" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1222_role" from="1222" to="1120" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="1" end="3" ref="1041" type="state">
+      <trigger start="3" end="3" text="Ehefrau" ref="1047"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1029" text="Elisin Hannsen Eglins Ehefrau"/>
+        <role role="family-b" ref="1053" text="Hannsen Eglins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="13" end="14" ref="1095" type="state">
+      <trigger start="14" end="14" text="Frau" ref="1101"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1083" text="seine Frau Ennelin"/>
+        <role role="family-b" ref="1107" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="21" end="42" ref="1132" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1120" text="das Hus &amp; Hofstatt uff&#10;s . Lienhartsberg , zwüschen dem Hus zer Kluss zu einer ,&#10;u . des Trumeters hus zur andern siten gelegen , u . zur rothen&#10;thür genant ist , zinst jährl 8sh . zu s . Lienhart , Bodenzins&#10;sonstfrei"/>
+        <role role="location-b" ref="1138" text="s . Lienhartsberg"/>
+        <role role="location-b" ref="1144" text="dem Hus zer Kluss"/>
+        <role role="location-b" ref="1156" text="des Trumeters hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="36" end="37" ref="1156_desc_owner" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1156" text="des Trumeters hus"/>
+        <role role="owner" ref="1168" text="des Trumeters"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="67" ref="" type="event">
+      <trigger start="5" end="5" text="verkauft" ref="1216"/>
+      <event event_id="4.0">
+        <role role="seller" ref="1029" text="Elisin Hannsen Eglins Ehefrau"/>
+        <role role="buyer" ref="1059" text="Cunrat rich&#10;den Metzger"/>
+        <role role="buyer" ref="1083" text="seine Frau Ennelin"/>
+        <role role="property" ref="1120" text="das Hus &amp; Hofstatt uff&#10;s . Lienhartsberg , zwüschen dem Hus zer Kluss zu einer ,&#10;u . des Trumeters hus zur andern siten gelegen , u . zur rothen&#10;thür genant ist , zinst jährl 8sh . zu s . Lienhart , Bodenzins&#10;sonstfrei"/>
+        <role role="price" ref="1204" text="53 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="17" end="62" ref="1234" type="state">
+      <trigger start="52" end="52" text="zinst" ref="1222"/>
+      <event event_id="5.0">
+        <role role="interval" ref="1186" text="jährl"/>
+        <role role="interest" ref="1192" text="8sh ."/>
+        <role role="beneficiary" ref="1198" text="s . Lienhart"/>
+        <role role="cause" ref="1228" text="Bodenzins"/>
+        <role role="property" ref="1120" text="das Hus &amp; Hofstatt uff&#10;s . Lienhartsberg , zwüschen dem Hus zer Kluss zu einer ,&#10;u . des Trumeters hus zur andern siten gelegen , u . zur rothen&#10;thür genant ist , zinst jährl 8sh . zu s . Lienhart , Bodenzins&#10;sonstfrei"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 219/6 S. [32]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Teichgässlein 3, 5</tei:title>
+            <tei:idno>HGB 1 219/6</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532975</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Klara</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1445">1445</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611563.652055286 1267920.7902013897</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Das</token>
+    <token token_id="5">Gericht</token>
+    <token token_id="6">erkennt</token>
+    <token token_id="7">,</token>
+    <token token_id="8">dass</token>
+    <token token_id="9">Wernlin</token>
+    <token token_id="10">Hüruss</token>
+    <token token_id="11">der</token>
+    <token token_id="12">Müller</token>
+    <token token_id="13">Burger</token>
+    <token token_id="14">ze</token>
+    <token token_id="15">minren</token>
+    <token token_id="16">Basel</token>
+    <token token_id="17">,</token>
+    <token token_id="18">denn</token>
+    <token token_id="19">die</token>
+    <token token_id="20">Frowen</token>
+    <token token_id="21">zu</token>
+    <token token_id="22">sant</token>
+    <token token_id="23">Claren</token>
+    <token token_id="24">by</token>
+    <token token_id="25">einem</token>
+    <token token_id="26">Verteil</token>
+    <token token_id="27">Jares</token>
+    <token token_id="28">verkouffen</token>
+    <token token_id="29">ein</token>
+    <token token_id="30">Müli</token>
+    <token token_id="31">,</token>
+    <token token_id="32">so</token>
+    <token token_id="33">ge</token>
+    <token token_id="34">¬</token>
+    <token token_id="35">nant</token>
+    <token token_id="36">ist</token>
+    <token token_id="37">die</token>
+    <token token_id="38">Schöne</token>
+    <token token_id="39">Müli</token>
+    <token token_id="40">und</token>
+    <token token_id="41">gelegen</token>
+    <token token_id="42">zu</token>
+    <token token_id="43">minren</token>
+    <token token_id="44">Basel</token>
+    <token token_id="45">in</token>
+    <token token_id="46">der</token>
+    <token token_id="47">Statt</token>
+    <token token_id="48">uff</token>
+    <token token_id="49">dem</token>
+    <token token_id="50">vorderen</token>
+    <token token_id="51">Tych</token>
+    <token token_id="52">hinder</token>
+    <token token_id="53">Hen</token>
+    <token token_id="54">¬</token>
+    <token token_id="55">man</token>
+    <token token_id="56">Riehembergs</token>
+    <token token_id="57">Mülis</token>
+    <token token_id="58">zu</token>
+    <token token_id="59">einem</token>
+    <token token_id="60">ewigen</token>
+    <token token_id="61">Erb</token>
+    <token token_id="62">gelihen</token>
+    <token token_id="63">habumb</token>
+    <token token_id="64">hernzal</token>
+    <token token_id="65">Kernen</token>
+    <token token_id="66">und</token>
+    <token token_id="67">4</token>
+    <token token_id="68">Viernzal</token>
+    <token token_id="69">Mutikornes</token>
+    <token token_id="70">ze</token>
+    <token token_id="71">Zinse</token>
+    <token token_id="72">und</token>
+    <token token_id="73">6</token>
+    <token token_id="74">Hunr</token>
+    <token token_id="75">mit</token>
+    <token token_id="76">solichen</token>
+    <token token_id="77">Fürwortten</token>
+    <token token_id="78">,</token>
+    <token token_id="79">dass</token>
+    <token token_id="80">er</token>
+    <token token_id="81">dieselben</token>
+    <token token_id="82">Müli</token>
+    <token token_id="83">bessren</token>
+    <token token_id="84">solle</token>
+    <token token_id="85">,</token>
+    <token token_id="86">der</token>
+    <token token_id="87">nun</token>
+    <token token_id="88">aber</token>
+    <token token_id="89">die</token>
+    <token token_id="90">Müli</token>
+    <token token_id="91">wis</token>
+    <token token_id="92">¬</token>
+    <token token_id="93">derumb</token>
+    <token token_id="94">verkaufft</token>
+    <token token_id="95">hat</token>
+    <token token_id="96">,</token>
+    <token token_id="97">die</token>
+    <token token_id="98">Mühle</token>
+    <token token_id="99">nicht</token>
+    <token token_id="100">verkaufen</token>
+    <token token_id="101">dürfe</token>
+    <token token_id="102">bevor</token>
+    <token token_id="103">er</token>
+    <token token_id="104">die</token>
+    <token token_id="105">Ausbesserung</token>
+    <token token_id="106">vorgenommen</token>
+    <token token_id="107">habe</token>
+    <token token_id="108">,</token>
+    <token token_id="109">hierauf</token>
+    <token token_id="110">erhalt</token>
+    <token token_id="111">der</token>
+    <token token_id="112">sie</token>
+    <token token_id="113">von</token>
+    <token token_id="114">neuen</token>
+    <token token_id="115">zu</token>
+    <token token_id="116">seinem</token>
+    <token token_id="117">Erbe</token>
+    <token token_id="118">¬</token>
+  </text>
+  <spans>
+    <span id="2119" start="4" end="5" text="Das Gericht" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="2410" start="5" end="5" text="Gericht" element="head" class="type" subclass=""/>
+    </span>
+    <span id="2404" start="6" end="6" text="erkennt" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2125" start="9" end="16" text="Wernlin Hüruss der Müller&#10;Burger ze minren Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2131" start="9" end="10" text="Wernlin Hüruss" element="head" class="nam" subclass=""/>
+      <span id="2137" start="11" end="12" text="der Müller" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2143" start="12" end="12" text="Müller" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="2149" start="13" end="16" text="Burger ze minren Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2155" start="13" end="13" text="Burger" element="head" class="org-aff" subclass=""/>
+        <span id="2161" start="15" end="16" text="minren Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2161_head" start="15" end="16" element="head" class="nam" text="minren Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2167" start="18" end="18" text="denn" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2167_head" start="18" end="18" element="head" class="pro" text="denn" subclass=""/>
+    </span>
+    <span id="2180" start="19" end="23" text="die Frowen zu sant&#10;Claren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="2186" start="20" end="23" text="Frowen zu sant&#10;Claren" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2198" start="24" end="28" text="by einem Verteil Jares verkouffen" element="value" class="time" subclass=""/>
+    <span id="2192" start="29" end="57" text="ein Müli , so ge ¬&#10;nant ist die Schöne Müli und gelegen zu minren&#10;Basel in der Statt uff dem vorderen Tych hinder Hen ¬&#10;man Riehembergs Mülis" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2204" start="30" end="30" text="Müli" element="head" class="type" subclass=""/>
+      <span id="2210" start="37" end="39" text="die Schöne Müli" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2216" start="38" end="39" text="Schöne Müli" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="2222" start="41" end="57" text="gelegen zu minren&#10;Basel in der Statt uff dem vorderen Tych hinder Hen ¬&#10;man Riehembergs Mülis" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2228" start="43" end="44" text="minren&#10;Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2228_head" start="43" end="44" element="head" class="nam" text="minren Basel" subclass=""/>
+        </span>
+        <span id="2234" start="46" end="47" text="der Statt" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2234_head" start="46" end="47" element="head" class="type" text="der Statt" subclass=""/>
+        </span>
+        <span id="2247" start="49" end="51" text="dem vorderen Tych" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="river">
+          <span id="2253" start="50" end="51" text="vorderen Tych" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2259" start="53" end="57" text="Hen ¬&#10;man Riehembergs Mülis" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2271" start="53" end="56" text="Hen ¬&#10;man Riehembergs" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2277" start="53" end="56" text="Hen ¬&#10;man Riehembergs" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2277_head" start="53" end="56" element="head" class="nam" text="Hen ¬ man Riehembergs" subclass=""/>
+            </span>
+          </span>
+          <span id="2265" start="57" end="57" text="Mülis" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2416" start="62" end="62" text="gelihen" element="trigger" class="hereditary" tense="pres" polarity="pos" modality="ass" subclass="lease"/>
+    <span id="2283" start="64" end="65" text="hernzal Kernen" element="value" class="money" subclass=""/>
+    <span id="2289" start="67" end="69" text="4 Viernzal Mutikornes" element="value" class="money" subclass=""/>
+    <span id="2295" start="73" end="74" text="6 Hunr" element="value" class="money" subclass=""/>
+    <span id="2301" start="80" end="80" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2301_head" start="80" end="80" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="2314" start="81" end="82" text="dieselben Müli" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2320" start="82" end="82" text="Müli" element="head" class="type" subclass=""/>
+    </span>
+    <span id="2346" start="86" end="86" text="der" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2346_head" start="86" end="86" element="head" class="pro" text="der" subclass=""/>
+    </span>
+    <span id="2333" start="89" end="90" text="die Müli" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2333_head" start="89" end="90" element="head" class="type" text="die Müli" subclass=""/>
+    </span>
+    <span id="2359" start="97" end="98" text="die Mühle" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2359_head" start="97" end="98" element="head" class="type" text="die Mühle" subclass=""/>
+    </span>
+    <span id="2372" start="103" end="103" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2372_head" start="103" end="103" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="2385" start="111" end="111" text="der" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2385_head" start="111" end="111" element="head" class="pro" text="der" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2173" from="2167" to="2125" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2307" from="2301" to="2125" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2326" from="2314" to="2192" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2240" from="2234" to="2228" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2352" from="2346" to="2301" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2339" from="2333" to="2314" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2378" from="2372" to="2346" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2365" from="2359" to="2333" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2391" from="2385" to="2372" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="13" end="16" ref="2149" type="state">
+      <trigger start="13" end="13" text="Burger" ref="2155"/>
+      <event event_id="0.0">
+        <role role="resident" ref="2125" text="Wernlin Hüruss der Müller&#10;Burger ze minren Basel"/>
+        <role role="geopolitical-entity" ref="2161" text="minren Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="41" end="57" ref="2222" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="2192" text="ein Müli , so ge ¬&#10;nant ist die Schöne Müli und gelegen zu minren&#10;Basel in der Statt uff dem vorderen Tych hinder Hen ¬&#10;man Riehembergs Mülis"/>
+        <role role="location-b" ref="2228" text="minren&#10;Basel"/>
+        <role role="location-b" ref="2234" text="der Statt"/>
+        <role role="location-b" ref="2247" text="dem vorderen Tych"/>
+        <role role="location-b" ref="2259" text="Hen ¬&#10;man Riehembergs Mülis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="53" end="56" ref="2271" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="2259" text="Hen ¬&#10;man Riehembergs Mülis"/>
+        <role role="owner" ref="2277" text="Hen ¬&#10;man Riehembergs"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="litigation" polarity="pos" tense="pres" modality="ass" start="4" end="6" ref="" type="event">
+      <trigger start="6" end="6" text="erkennt" ref="2404"/>
+      <event event_id="3.0">
+        <role role="court" ref="2119" text="Das Gericht"/>
+        <role role="party1" ref="2125" text="Wernlin Hüruss der Müller&#10;Burger ze minren Basel"/>
+        <role role="party2" ref="2180" text="die Frowen zu sant&#10;Claren"/>
+        <role role="subject" ref="2192" text="ein Müli , so ge ¬&#10;nant ist die Schöne Müli und gelegen zu minren&#10;Basel in der Statt uff dem vorderen Tych hinder Hen ¬&#10;man Riehembergs Mülis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="heritable-lease-grant" polarity="pos" tense="pres" modality="ass" start="62" end="62" ref="" type="event">
+      <trigger start="62" end="62" text="gelihen" ref="2416"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 13/6 S. [51]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Andreasplatz 1</tei:title>
+            <tei:idno>HGB 1 13/6</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1460869</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1589">1589</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611139.645921128 1267496.518991745</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Fronfasten</token>
+    <token token_id="1">Zinse</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Item</token>
+    <token token_id="4">Lorentz</token>
+    <token token_id="5">Dietman</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Kürsner</token>
+    <token token_id="8">gibt</token>
+    <token token_id="9">von</token>
+    <token token_id="10">seinem</token>
+    <token token_id="11">hus</token>
+    <token token_id="12">an</token>
+    <token token_id="13">der</token>
+    <token token_id="14">Schnidergassen</token>
+    <token token_id="15">bei</token>
+    <token token_id="16">sannt</token>
+    <token token_id="17">Andreas</token>
+    <token token_id="18">gelegen</token>
+    <token token_id="19">thut</token>
+    <token token_id="20">.</token>
+    <token token_id="21">15ß</token>
+    <token token_id="22">,</token>
+    <token token_id="23">zweysung</token>
+    <token token_id="24">4ring</token>
+    <token token_id="25">.</token>
+    <token token_id="26">10</token>
+    <token token_id="27">ß</token>
+    <token token_id="28">.</token>
+    <token token_id="29">erschatz</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Ebenso</token>
+    <token token_id="32">1591</token>
+    <token token_id="33">.</token>
+    <token token_id="34">Ebenso</token>
+    <token token_id="35">1590</token>
+    <token token_id="36">.</token>
+    <token token_id="37">Ebenso</token>
+    <token token_id="38">1592</token>
+    <token token_id="39">mit</token>
+    <token token_id="40">dem</token>
+    <token token_id="41">Zusatz</token>
+    <token token_id="42">:</token>
+    <token token_id="43">"</token>
+    <token token_id="44">jetzt</token>
+    <token token_id="45">Hannß</token>
+    <token token_id="46">Schön</token>
+    <token token_id="47">der</token>
+    <token token_id="48">Kürsner</token>
+    <token token_id="49">.</token>
+  </text>
+  <spans>
+    <span id="786" start="4" end="7" text="Lorentz Dietman der Kürsner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="792" start="4" end="5" text="Lorentz Dietman" element="head" class="nam" subclass=""/>
+      <span id="798" start="6" end="7" text="der Kürsner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="804" start="7" end="7" text="Kürsner" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="925" start="8" end="8" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="810" start="10" end="18" text="seinem&#10;hus an der Schnidergassen bei sannt Andreas&#10;gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="822" start="10" end="10" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="828" start="10" end="10" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="828_head" start="10" end="10" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="816" start="11" end="11" text="hus" element="head" class="type" subclass=""/>
+      <span id="841" start="12" end="18" text="an der Schnidergassen bei sannt Andreas&#10;gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="847" start="13" end="14" text="der Schnidergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="853" start="14" end="14" text="Schnidergassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="859" start="16" end="17" text="sannt Andreas" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="859_head" start="16" end="17" element="head" class="nam" text="sannt Andreas" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="865" start="21" end="21" text="15ß" element="value" class="money" subclass=""/>
+    <span id="931" start="23" end="23" text="zweysung" element="other" class="other" subclass=""/>
+    <span id="871" start="24" end="24" text="4ring" element="value" class="money" subclass=""/>
+    <span id="877" start="26" end="28" text="10 ß ." element="value" class="money" subclass=""/>
+    <span id="937" start="29" end="29" text="erschatz" element="other" class="other" subclass=""/>
+    <span id="883" start="32" end="32" text="1591" element="value" class="date" subclass=""/>
+    <span id="889" start="35" end="35" text="1590" element="value" class="date" subclass=""/>
+    <span id="895" start="38" end="38" text="1592" element="value" class="date" subclass=""/>
+    <span id="943" start="44" end="44" text="jetzt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="901" start="45" end="48" text="Hannß&#10;Schön der Kürsner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="907" start="45" end="46" text="Hannß&#10;Schön" element="head" class="nam" subclass=""/>
+      <span id="913" start="47" end="48" text="der Kürsner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="919" start="48" end="48" text="Kürsner" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="834" from="828" to="786" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="10" end="10" ref="822" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="810" text="seinem&#10;hus an der Schnidergassen bei sannt Andreas&#10;gelegen"/>
+        <role role="owner" ref="828" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="12" end="18" ref="841" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="810" text="seinem&#10;hus an der Schnidergassen bei sannt Andreas&#10;gelegen"/>
+        <role role="location-b" ref="847" text="der Schnidergassen"/>
+        <role role="location-b" ref="859" text="sannt Andreas"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="4" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="gibt" ref="925"/>
+      <event event_id="2.0">
+        <role role="payer" ref="786" text="Lorentz Dietman der Kürsner"/>
+        <role role="property" ref="810" text="seinem&#10;hus an der Schnidergassen bei sannt Andreas&#10;gelegen"/>
+        <role role="interest" ref="865" text="15ß"/>
+        <role role="date" ref="883" text="1591"/>
+        <role role="date" ref="889" text="1590"/>
+      </event>
+      <event event_id="2.1">
+        <role role="payer" ref="786" text="Lorentz Dietman der Kürsner"/>
+        <role role="property" ref="810" text="seinem&#10;hus an der Schnidergassen bei sannt Andreas&#10;gelegen"/>
+        <role role="cause" ref="931" text="zweysung"/>
+        <role role="interest" ref="871" text="4ring"/>
+        <role role="date" ref="883" text="1591"/>
+        <role role="date" ref="889" text="1590"/>
+      </event>
+      <event event_id="2.2">
+        <role role="payer" ref="786" text="Lorentz Dietman der Kürsner"/>
+        <role role="property" ref="810" text="seinem&#10;hus an der Schnidergassen bei sannt Andreas&#10;gelegen"/>
+        <role role="interest" ref="877" text="10 ß ."/>
+        <role role="cause" ref="937" text="erschatz"/>
+        <role role="date" ref="883" text="1591"/>
+        <role role="date" ref="889" text="1590"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="38" end="48" ref="" type="event">
+      <trigger start="44" end="44" text="jetzt" ref="943"/>
+      <event event_id="3.0">
+        <role role="date" ref="895" text="1592"/>
+        <role role="payer" ref="901" text="Hannß&#10;Schön der Kürsner"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 225/59 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Utengasse 44/46 (im Löffelschen Plan No. 44)</tei:title>
+            <tei:idno>HGB 1 225/59</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1534904</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gnadental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1550">1550</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611680.7565670423 1267657.4662894984</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Thobias</token>
+    <token token_id="1">Meyer</token>
+    <token token_id="2">,</token>
+    <token token_id="3">predicanten</token>
+    <token token_id="4">zu</token>
+    <token token_id="5">Oltingen</token>
+    <token token_id="6">sel</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Erben</token>
+    <token token_id="9">,</token>
+    <token token_id="10">hievor</token>
+    <token token_id="11">Peter</token>
+    <token token_id="12">Hans</token>
+    <token token_id="13">Geyss</token>
+    <token token_id="14">der</token>
+    <token token_id="15">mürer</token>
+    <token token_id="16">,</token>
+    <token token_id="17">folgends</token>
+    <token token_id="18">Gerg</token>
+    <token token_id="19">Vibling</token>
+    <token token_id="20">,</token>
+    <token token_id="21">zinst</token>
+    <token token_id="22">jerlich</token>
+    <token token_id="23">uf</token>
+    <token token_id="24">Martini</token>
+    <token token_id="25">2</token>
+    <token token_id="26">℔</token>
+    <token token_id="27">geltz</token>
+    <token token_id="28">von</token>
+    <token token_id="29">uf</token>
+    <token token_id="30">und</token>
+    <token token_id="31">ab</token>
+    <token token_id="32">Haus</token>
+    <token token_id="33">und</token>
+    <token token_id="34">Hofstatt</token>
+    <token token_id="35">mit</token>
+    <token token_id="36">Rechten</token>
+    <token token_id="37">und</token>
+    <token token_id="38">allen</token>
+    <token token_id="39">zuge</token>
+    <token token_id="40">¬</token>
+    <token token_id="41">höringen</token>
+    <token token_id="42">,</token>
+    <token token_id="43">ald</token>
+    <token token_id="44">das</token>
+    <token token_id="45">gelegen</token>
+    <token token_id="46">ist</token>
+    <token token_id="47">in</token>
+    <token token_id="48">mindern</token>
+    <token token_id="49">Basel</token>
+    <token token_id="50">in</token>
+    <token token_id="51">der</token>
+    <token token_id="52">Utengassen</token>
+    <token token_id="53">neben</token>
+    <token token_id="54">dem</token>
+    <token token_id="55">goldgesslin</token>
+    <token token_id="56">und</token>
+    <token token_id="57">sant</token>
+    <token token_id="58">Anthonien</token>
+    <token token_id="59">Heussern</token>
+    <token token_id="60">,</token>
+    <token token_id="61">ist</token>
+    <token token_id="62">frey</token>
+    <token token_id="63">,</token>
+    <token token_id="64">ledig</token>
+    <token token_id="65">,</token>
+    <token token_id="66">eigen</token>
+    <token token_id="67">.</token>
+    <token token_id="68">Leindt</token>
+    <token token_id="69">dis</token>
+    <token token_id="70">&amp;</token>
+    <token token_id="71">2</token>
+    <token token_id="72">℔</token>
+    <token token_id="73">samenthaft</token>
+    <token token_id="74">oder</token>
+    <token token_id="75">Thulsämblich</token>
+    <token token_id="76">allwegen</token>
+    <token token_id="77">10ß</token>
+    <token token_id="78">geltz</token>
+    <token token_id="79">mit</token>
+    <token token_id="80">10</token>
+    <token token_id="81">℔</token>
+    <token token_id="82">abzulösen</token>
+    <token token_id="83">.</token>
+    <token token_id="84">Datum</token>
+    <token token_id="85">:</token>
+    <token token_id="86">Sambstag</token>
+    <token token_id="87">vor</token>
+    <token token_id="88">fronleichnamstag</token>
+    <token token_id="89">Ao</token>
+    <token token_id="90">1530</token>
+    <token token_id="91">.</token>
+    <token token_id="92">Nota</token>
+    <token token_id="93">:</token>
+    <token token_id="94">Dise</token>
+    <token token_id="95">2</token>
+    <token token_id="96">℔</token>
+    <token token_id="97">zins</token>
+    <token token_id="98">von</token>
+    <token token_id="99">dem</token>
+    <token token_id="100">Haus</token>
+    <token token_id="101">in</token>
+    <token token_id="102">der</token>
+    <token token_id="103">Utengassen</token>
+    <token token_id="104">jetzundt</token>
+    <token token_id="105">uff</token>
+    <token token_id="106">das</token>
+    <token token_id="107">Haus</token>
+    <token token_id="108">zu</token>
+    <token token_id="109">dem</token>
+    <token token_id="110">weiten</token>
+    <token token_id="111">Keller</token>
+    <token token_id="112">genant</token>
+    <token token_id="113">ge</token>
+    <token token_id="114">¬</token>
+    <token token_id="115">legt</token>
+    <token token_id="116">worden</token>
+    <token token_id="117">,</token>
+    <token token_id="118">welches</token>
+    <token token_id="119">anjetzo</token>
+    <token token_id="120">Hans</token>
+    <token token_id="121">Caspar</token>
+    <token token_id="122">Michel</token>
+    <token token_id="123">be</token>
+    <token token_id="124">¬</token>
+    <token token_id="125">setzt</token>
+    <token token_id="126">Ao</token>
+    <token token_id="127">1635</token>
+    <token token_id="128">.</token>
+  </text>
+  <spans>
+    <span id="2254" start="0" end="8" text="Thobias Meyer , predicanten zu Oltingen&#10;sel . Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2266" start="0" end="7" text="Thobias Meyer , predicanten zu Oltingen&#10;sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2278" start="0" end="1" text="Thobias Meyer" element="head" class="nam" subclass=""/>
+        <span id="2284" start="3" end="5" text="predicanten zu Oltingen" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2290" start="3" end="3" text="predicanten" element="head" class="occ" subclass=""/>
+          <span id="2296" start="4" end="5" text="zu Oltingen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2302" start="5" end="5" text="Oltingen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2302_head" start="5" end="5" element="head" class="nam" text="Oltingen" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2272" start="6" end="7" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="2260" start="8" end="8" text="Erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="2308" start="11" end="15" text="Peter Hans Geyss der mürer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2314" start="11" end="13" text="Peter Hans Geyss" element="head" class="nam" subclass=""/>
+      <span id="2320" start="14" end="15" text="der mürer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2326" start="15" end="15" text="mürer" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2332" start="18" end="19" text="Gerg Vibling" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2332_head" start="18" end="19" element="head" class="nam" text="Gerg Vibling" subclass=""/>
+    </span>
+    <span id="2557" start="21" end="21" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2338" start="22" end="22" text="jerlich" element="value" class="time" subclass="rec"/>
+    <span id="2344" start="23" end="24" text="uf Martini" element="value" class="date" subclass=""/>
+    <span id="2350" start="25" end="27" text="2 ℔ geltz" element="value" class="money" subclass=""/>
+    <span id="2356" start="32" end="67" text="Haus und Hofstatt mit Rechten und allen zuge ¬&#10;höringen , ald das gelegen ist in mindern Basel in der&#10;Utengassen neben dem goldgesslin und sant Anthonien&#10;Heussern , ist frey , ledig , eigen ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2362" start="32" end="34" text="Haus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="2368" start="43" end="59" text="ald das gelegen ist in mindern Basel in der&#10;Utengassen neben dem goldgesslin und sant Anthonien&#10;Heussern" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2380" start="48" end="49" text="mindern Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2380_head" start="48" end="49" element="head" class="nam" text="mindern Basel" subclass=""/>
+        </span>
+        <span id="2386" start="51" end="52" text="der&#10;Utengassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="2392" start="52" end="52" text="Utengassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2422" start="54" end="59" text="dem goldgesslin und sant Anthonien&#10;Heussern" element="list" class="fac" subclass="">
+          <span id="2398" start="54" end="55" text="dem goldgesslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="2404" start="55" end="55" text="goldgesslin" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="2410" start="57" end="59" text="sant Anthonien&#10;Heussern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2410_head" start="57" end="59" element="head" class="nam" text="sant Anthonien Heussern" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2428" start="61" end="66" text="ist frey , ledig , eigen" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="2594" start="68" end="82" text="Leindt dis &amp; 2 ℔ samenthaft&#10;oder Thulsämblich allwegen 10ß geltz mit 10 ℔ abzulösen" element="eventspan" class="redemption" tense="pres" polarity="pos" modality="hypo" subclass="">
+      <span id="2563" start="69" end="69" text="dis" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      <span id="2434" start="71" end="72" text="2 ℔" element="value" class="money" subclass=""/>
+      <span id="2582" start="75" end="81" text="Thulsämblich allwegen 10ß geltz mit 10 ℔" element="other" class="other" subclass="">
+        <span id="2440" start="77" end="78" text="10ß geltz" element="value" class="money" subclass=""/>
+        <span id="2446" start="80" end="81" text="10 ℔" element="value" class="money" subclass=""/>
+      </span>
+      <span id="2576" start="82" end="82" text="abzulösen" element="trigger" class="redemption" tense="pres" polarity="pos" modality="hypo" subclass=""/>
+    </span>
+    <span id="2452" start="86" end="91" text="Sambstag vor fronleichnamstag Ao 1530 ." element="value" class="date" subclass=""/>
+    <span id="2458" start="95" end="96" text="2 ℔" element="value" class="money" subclass=""/>
+    <span id="2600" start="97" end="97" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2464" start="99" end="103" text="dem Haus in der Utengassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2470" start="100" end="100" text="Haus" element="head" class="type" subclass=""/>
+      <span id="2476" start="101" end="103" text="in der Utengassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2482" start="102" end="103" text="der Utengassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="2488" start="103" end="103" text="Utengassen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2494" start="106" end="112" text="das Haus zu dem weiten Keller genant" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2507" start="107" end="107" text="Haus" element="head" class="type" subclass=""/>
+      <span id="2513" start="108" end="111" text="zu dem weiten Keller" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2513_head" start="108" end="111" element="head" class="nam" text="zu dem weiten Keller" subclass=""/>
+      </span>
+    </span>
+    <span id="2606" start="113" end="115" text="ge ¬&#10;legt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="2525" start="118" end="118" text="welches" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2525_head" start="118" end="118" element="head" class="pro" text="welches" subclass=""/>
+    </span>
+    <span id="2519" start="120" end="122" text="Hans Caspar Michel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2519_head" start="120" end="122" element="head" class="nam" text="Hans Caspar Michel" subclass=""/>
+    </span>
+    <span id="2545" start="126" end="127" text="Ao 1635" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2569" from="2563" to="2557" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2500" from="2464" to="2356" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2531" from="2525" to="2494" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2538" from="2519" to="2525" class="owner" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="redemption" polarity="pos" tense="pres" modality="hypo" start="68" end="82" ref="2594" type="event">
+      <trigger start="82" end="82" text="abzulösen" ref="2576"/>
+      <event event_id="0.0">
+        <role role="due" ref="2563" text="dis"/>
+        <role role="capital" ref="2434" text="2 ℔"/>
+        <role role="detail_interest-conv" ref="2582" text="Thulsämblich allwegen 10ß geltz mit 10 ℔"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="inheritance" polarity="pos" tense="pres" modality="ass" start="0" end="8" ref="2254" type="event">
+      <trigger start="8" end="8" text="Erben" ref="2260"/>
+      <event event_id="1.0">
+        <role role="heir" ref="2254" text="Thobias Meyer , predicanten zu Oltingen&#10;sel . Erben"/>
+        <role role="decedent" ref="2266" text="Thobias Meyer , predicanten zu Oltingen&#10;sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="4" end="5" ref="2296" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="2266" text="Thobias Meyer , predicanten zu Oltingen&#10;sel ."/>
+        <role role="location-b" ref="2302" text="Oltingen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="43" end="59" ref="2368" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="2356" text="Haus und Hofstatt mit Rechten und allen zuge ¬&#10;höringen , ald das gelegen ist in mindern Basel in der&#10;Utengassen neben dem goldgesslin und sant Anthonien&#10;Heussern , ist frey , ledig , eigen ."/>
+        <role role="location-b" ref="2380" text="mindern Basel"/>
+        <role role="location-b" ref="2386" text="der&#10;Utengassen"/>
+        <role role="location-b" ref="2398" text="dem goldgesslin"/>
+        <role role="location-b" ref="2410" text="sant Anthonien&#10;Heussern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="101" end="103" ref="2476" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="2464" text="dem Haus in der Utengassen"/>
+        <role role="location-b" ref="2482" text="der Utengassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="91" ref="" type="event">
+      <trigger start="21" end="21" text="zinst" ref="2557"/>
+      <event event_id="5.0">
+        <role role="payer" ref="2254" text="Thobias Meyer , predicanten zu Oltingen&#10;sel . Erben"/>
+        <role role="previous-payer" ref="2308" text="Peter Hans Geyss der mürer"/>
+        <role role="previous-payer" ref="2332" text="Gerg Vibling"/>
+        <role role="interval" ref="2338" text="jerlich"/>
+        <role role="due-date" ref="2344" text="uf Martini"/>
+        <role role="interest" ref="2350" text="2 ℔ geltz"/>
+        <role role="property" ref="2356" text="Haus und Hofstatt mit Rechten und allen zuge ¬&#10;höringen , ald das gelegen ist in mindern Basel in der&#10;Utengassen neben dem goldgesslin und sant Anthonien&#10;Heussern , ist frey , ledig , eigen ."/>
+        <role role="date" ref="2452" text="Sambstag vor fronleichnamstag Ao 1530 ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-payment" polarity="pos" tense="pres" modality="ass" start="69" end="69" ref="2594" type="event">
+      <trigger start="69" end="69" text="dis" ref="2563"/>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="95" end="97" ref="" type="state">
+      <trigger start="97" end="97" text="zins" ref="2600"/>
+      <event event_id="7.0">
+        <role role="interest" ref="2458" text="2 ℔"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-payment" polarity="pos" tense="pres" modality="ass" start="113" end="127" ref="" type="event">
+      <trigger start="113" end="115" text="ge ¬&#10;legt" ref="2606"/>
+      <event event_id="8.0">
+        <role role="previous-due" ref="2600" text="zins"/>
+        <role role="detail_previous-property" ref="2464" text="dem Haus in der Utengassen"/>
+        <role role="property" ref="2494" text="das Haus zu dem weiten Keller genant"/>
+        <role role="date" ref="2545" text="Ao 1635"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="9.0">
+        <role role="owner" ref="2519" text="Hans Caspar Michel"/>
+        <role role="property" ref="2525" text="welches"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

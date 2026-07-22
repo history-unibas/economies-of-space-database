@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/77 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 16</tei:title>
+            <tei:idno>HGB 1 194/77</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1515780</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1367">1367</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611118.0138689424 1267398.1234415625</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">zu</token>
+    <token token_id="1">sant</token>
+    <token token_id="2">Peters</token>
+    <token token_id="3">Kilchspil</token>
+    <token token_id="4">.</token>
+    <token token_id="5">B</token>
+    <token token_id="6">.</token>
+    <token token_id="7">21</token>
+    <token token_id="8">.</token>
+    <token token_id="9">Item</token>
+    <token token_id="10">Brieff</token>
+    <token token_id="11">wiset</token>
+    <token token_id="12">8</token>
+    <token token_id="13">℔</token>
+    <token token_id="14">uff</token>
+    <token token_id="15">dem</token>
+    <token token_id="16">hus</token>
+    <token token_id="17">genant</token>
+    <token token_id="18">Buggingers</token>
+    <token token_id="19">hus</token>
+    <token token_id="20">zwüschen</token>
+    <token token_id="21">den</token>
+    <token token_id="22">huseren</token>
+    <token token_id="23">ze</token>
+    <token token_id="24">Harstatt</token>
+    <token token_id="25">und</token>
+    <token token_id="26">zu</token>
+    <token token_id="27">Wildenstein</token>
+    <token token_id="28">,</token>
+  </text>
+  <spans>
+    <span id="473" start="1" end="3" text="sant Peters Kilchspil" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="473_head" start="1" end="3" element="head" class="nam" text="sant Peters Kilchspil" subclass=""/>
+    </span>
+    <span id="545" start="11" end="11" text="wiset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="479" start="12" end="13" text="8 ℔" element="value" class="money" subclass=""/>
+    <span id="485" start="15" end="27" text="dem hus&#10;genant Buggingers hus zwüschen den&#10;huseren ze Harstatt und zu Wildenstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="491" start="16" end="16" text="hus" element="head" class="type" subclass=""/>
+      <span id="497" start="18" end="19" text="Buggingers hus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="497_head" start="18" end="19" element="head" class="nam" text="Buggingers hus" subclass=""/>
+      </span>
+      <span id="503" start="20" end="27" text="zwüschen den&#10;huseren ze Harstatt und zu Wildenstein" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="509" start="21" end="27" text="den&#10;huseren ze Harstatt und zu Wildenstein" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="515" start="22" end="22" text="huseren" element="head" class="type" subclass=""/>
+          <span id="527" start="23" end="27" text="ze Harstatt und zu Wildenstein" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="521" start="23" end="27" text="ze Harstatt und zu Wildenstein" element="list" class="fac" subclass="">
+              <span id="533" start="23" end="24" text="ze Harstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="533_head" start="23" end="24" element="head" class="nam" text="ze Harstatt" subclass=""/>
+              </span>
+              <span id="539" start="26" end="27" text="zu Wildenstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="539_head" start="26" end="27" element="head" class="nam" text="zu Wildenstein" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="27" ref="503" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="485" text="dem hus&#10;genant Buggingers hus zwüschen den&#10;huseren ze Harstatt und zu Wildenstein"/>
+        <role role="location-b" ref="509" text="den&#10;huseren ze Harstatt und zu Wildenstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="part_whole" polarity="pos" tense="pres" modality="ass" start="23" end="27" ref="527" type="state">
+      <event event_id="1.0">
+        <role role="whole" ref="509" text="den&#10;huseren ze Harstatt und zu Wildenstein"/>
+        <role role="part" ref="533" text="ze Harstatt"/>
+        <role role="part" ref="539" text="zu Wildenstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="1" end="27" ref="" type="state">
+      <trigger start="11" end="11" text="wiset" ref="545"/>
+      <event event_id="2.0">
+        <role role="place" ref="473" text="sant Peters Kilchspil"/>
+        <role role="interest" ref="479" text="8 ℔"/>
+        <role role="property" ref="485" text="dem hus&#10;genant Buggingers hus zwüschen den&#10;huseren ze Harstatt und zu Wildenstein"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

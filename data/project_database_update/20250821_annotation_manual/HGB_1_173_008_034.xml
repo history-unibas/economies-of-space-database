@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 173/8 S. [34]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rüdengasse Theil von 1, Ecke</tei:title>
+            <tei:idno>HGB 1 173/8</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1511151</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1536">1536</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611330.89934507 1267354.6648618774</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Conrat</token>
+    <token token_id="1">Schnyt</token>
+    <token token_id="2">als</token>
+    <token token_id="3">gwalthaber</token>
+    <token token_id="4">Jacob</token>
+    <token token_id="5">Meygers</token>
+    <token token_id="6">Burgermeisters</token>
+    <token token_id="7">als</token>
+    <token token_id="8">Vogt</token>
+    <token token_id="9">Hanns</token>
+    <token token_id="10">Jacob</token>
+    <token token_id="11">Lomparts</token>
+    <token token_id="12">wyl</token>
+    <token token_id="13">.</token>
+    <token token_id="14">Jacob</token>
+    <token token_id="15">Lamparts</token>
+    <token token_id="16">sel</token>
+    <token token_id="17">.</token>
+    <token token_id="18">des</token>
+    <token token_id="19">Rats</token>
+    <token token_id="20">son</token>
+    <token token_id="21">,</token>
+    <token token_id="22">verkauft</token>
+    <token token_id="23">an</token>
+    <token token_id="24">Hans</token>
+    <token token_id="25">Wernher</token>
+    <token token_id="26">Frygen</token>
+    <token token_id="27">,</token>
+    <token token_id="28">und</token>
+    <token token_id="29">seine</token>
+    <token token_id="30">Frau</token>
+    <token token_id="31">Barbara</token>
+    <token token_id="32">Nussbom</token>
+    <token token_id="33">die</token>
+    <token token_id="34">beide</token>
+    <token token_id="35">Hüser</token>
+    <token token_id="36">,</token>
+    <token token_id="37">Schöneck</token>
+    <token token_id="38">und</token>
+    <token token_id="39">Blawenstein</token>
+    <token token_id="40">genant</token>
+    <token token_id="41">,</token>
+    <token token_id="42">als</token>
+    <token token_id="43">die</token>
+    <token token_id="44">aneinander</token>
+    <token token_id="45">,</token>
+    <token token_id="46">neml</token>
+    <token token_id="47">das</token>
+    <token token_id="48">Hus</token>
+    <token token_id="49">Schöneck</token>
+    <token token_id="50">,</token>
+    <token token_id="51">vornen</token>
+    <token token_id="52">an</token>
+    <token token_id="53">der</token>
+    <token token_id="54">Frygenstrass</token>
+    <token token_id="55">am</token>
+    <token token_id="56">Eck</token>
+    <token token_id="57">bi</token>
+    <token token_id="58">Steblis</token>
+    <token token_id="59">brunnen</token>
+    <token token_id="60">,</token>
+    <token token_id="61">oben</token>
+    <token token_id="62">am</token>
+    <token token_id="63">Hus</token>
+    <token token_id="64">zum</token>
+    <token token_id="65">Swanen</token>
+    <token token_id="66">u</token>
+    <token token_id="67">.</token>
+    <token token_id="68">das</token>
+    <token token_id="69">Hus</token>
+    <token token_id="70">Blawenstein</token>
+    <token token_id="71">im</token>
+    <token token_id="72">gessli</token>
+    <token token_id="73">doran</token>
+    <token token_id="74">am</token>
+    <token token_id="75">Hus</token>
+    <token token_id="76">zum</token>
+    <token token_id="77">Rüden</token>
+    <token token_id="78">gelegen</token>
+    <token token_id="79">ist</token>
+    <token token_id="80">,</token>
+    <token token_id="81">sind</token>
+    <token token_id="82">zinsfrei</token>
+    <token token_id="83">,</token>
+    <token token_id="84">sum</token>
+    <token token_id="85">582</token>
+    <token token_id="86">fl</token>
+    <token token_id="87">.</token>
+  </text>
+  <spans>
+    <span id="1299" start="0" end="1" text="Conrat Schnyt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1299_head" start="0" end="1" element="head" class="nam" text="Conrat Schnyt" subclass=""/>
+    </span>
+    <span id="1305" start="3" end="6" text="gwalthaber Jacob Meygers Burgermeisters" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1311" start="3" end="3" text="gwalthaber" element="head" class="repr" subclass=""/>
+      <span id="1317" start="4" end="6" text="Jacob Meygers Burgermeisters" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1323" start="4" end="5" text="Jacob Meygers" element="head" class="nam" subclass=""/>
+        <span id="1329" start="6" end="6" text="Burgermeisters" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1329_head" start="6" end="6" element="head" class="occ" text="Burgermeisters" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1335" start="8" end="20" text="Vogt Hanns Jacob Lomparts wyl . Jacob Lamparts sel . des Rats son" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1341" start="8" end="8" text="Vogt" element="head" class="repr" subclass=""/>
+      <span id="1361" start="9" end="20" text="Hanns Jacob Lomparts wyl . Jacob Lamparts sel . des Rats son" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1367" start="9" end="11" text="Hanns Jacob Lomparts" element="head" class="nam" subclass=""/>
+        <span id="1373" start="12" end="20" text="wyl . Jacob Lamparts sel . des Rats son" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1385" start="12" end="19" text="wyl . Jacob Lamparts sel . des Rats" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1391" start="14" end="15" text="Jacob Lamparts" element="head" class="nam" subclass=""/>
+            <span id="1397" start="16" end="17" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+            <span id="1403" start="18" end="19" text="des Rats" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1621" start="18" end="19" text="des Rats" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+                <span id="1627" start="19" end="19" text="Rats" element="head" class="type" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1379" start="20" end="20" text="son" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1609" start="22" end="22" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1452" start="24" end="32" text="Hans Wernher Frygen , und seine Frau Barbara&#10;Nussbom" element="list" class="per" subclass="">
+      <span id="1409" start="24" end="26" text="Hans Wernher Frygen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1409_head" start="24" end="26" element="head" class="nam" text="Hans Wernher Frygen" subclass=""/>
+      </span>
+      <span id="1415" start="29" end="32" text="seine Frau Barbara&#10;Nussbom" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1427" start="29" end="30" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1439" start="29" end="29" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1439_head" start="29" end="29" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1433" start="30" end="30" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1421" start="31" end="32" text="Barbara&#10;Nussbom" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1458" start="33" end="82" text="die beide Hüser , Schöneck und Blawenstein genant , als die aneinander , neml das Hus Schöneck , vornen an der&#10;Frygenstrass am Eck bi Steblis brunnen , oben am Hus zum Swanen&#10;u . das Hus Blawenstein im gessli doran am Hus zum Rüden gelegen&#10;ist , sind zinsfrei" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1464" start="35" end="35" text="Hüser" element="head" class="type" subclass=""/>
+      <span id="1488" start="37" end="39" text="Schöneck und Blawenstein" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1470" start="37" end="37" text="Schöneck" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1470_head" start="37" end="37" element="head" class="nam" text="Schöneck" subclass=""/>
+        </span>
+        <span id="1476" start="39" end="39" text="Blawenstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1476_head" start="39" end="39" element="head" class="nam" text="Blawenstein" subclass=""/>
+        </span>
+      </span>
+      <span id="custom_desc_loc_x" start="42" end="79" text="als die aneinander , neml das Hus Schöneck , vornen an der&#10;Frygenstrass am Eck bi Steblis brunnen , oben am Hus zum Swanen&#10;u . das Hus Blawenstein im gessli doran am Hus zum Rüden gelegen&#10;ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1536" start="47" end="49" text="das Hus Schöneck" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1494" start="48" end="49" text="Hus Schöneck" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1506" start="53" end="54" text="der&#10;Frygenstrass" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1506_head" start="53" end="54" element="head" class="nam" text="der Frygenstrass" subclass=""/>
+        </span>
+        <span id="1512" start="55" end="59" text="am Eck bi Steblis brunnen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1518" start="56" end="56" text="Eck" element="head" class="type" subclass=""/>
+          <span id="1524" start="57" end="59" text="bi Steblis brunnen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1530" start="58" end="59" text="Steblis brunnen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1530_head" start="58" end="59" element="head" class="nam" text="Steblis brunnen" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1548" start="62" end="65" text="am Hus zum Swanen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1554" start="63" end="65" text="Hus zum Swanen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1560" start="68" end="70" text="das Hus Blawenstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1566" start="69" end="70" text="Hus Blawenstein" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1578" start="73" end="73" text="doran" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1578_head" start="73" end="73" element="head" class="pro" text="doran" subclass=""/>
+        </span>
+        <span id="1591" start="74" end="77" text="am Hus zum Rüden" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1597" start="75" end="77" text="Hus zum Rüden" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1615" start="81" end="82" text="sind zinsfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1603" start="85" end="87" text="582 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1347" from="1305" to="1299" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1354" from="1335" to="1299" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1445" from="1536" to="1470" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1584" from="1560" to="1476" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="custom_coref_x_1" from="1439" to="1409" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="custom_coref_x_2" from="1578" to="1536" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="representation" polarity="pos" tense="pres" modality="ass" start="3" end="6" ref="1305" type="state">
+      <trigger start="3" end="3" text="gwalthaber" ref="1311"/>
+      <event event_id="0.0">
+        <role role="representative" ref="1305" text="gwalthaber Jacob Meygers Burgermeisters"/>
+        <role role="represented" ref="1317" text="Jacob Meygers Burgermeisters"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="representation" polarity="pos" tense="pres" modality="ass" start="8" end="20" ref="1335" type="state">
+      <trigger start="8" end="8" text="Vogt" ref="1341"/>
+      <event event_id="1.0">
+        <role role="representative" ref="1335" text="Vogt Hanns Jacob Lomparts wyl . Jacob Lamparts sel . des Rats son"/>
+        <role role="represented" ref="1361" text="Hanns Jacob Lomparts wyl . Jacob Lamparts sel . des Rats son"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="12" end="20" ref="1373" type="state">
+      <trigger start="20" end="20" text="son" ref="1379"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1361" text="Hanns Jacob Lomparts wyl . Jacob Lamparts sel . des Rats son"/>
+        <role role="family-b" ref="1385" text="wyl . Jacob Lamparts sel . des Rats"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="29" end="30" ref="1427" type="state">
+      <trigger start="30" end="30" text="Frau" ref="1433"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1415" text="seine Frau Barbara&#10;Nussbom"/>
+        <role role="family-b" ref="1439" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="membership" polarity="pos" tense="pres" modality="ass" start="18" end="19" ref="1403" type="state">
+      <event event_id="4.0">
+        <role role="member" ref="1385" text="wyl . Jacob Lamparts sel . des Rats"/>
+        <role role="organization" ref="1621" text="des Rats"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" start="37" end="39" ref="1488" type="state">
+      <event event_id="5.0">
+        <role role="whole" ref="1458" text="die beide Hüser , Schöneck und Blawenstein genant , als die aneinander , neml das Hus Schöneck , vornen an der&#10;Frygenstrass am Eck bi Steblis brunnen , oben am Hus zum Swanen&#10;u . das Hus Blawenstein im gessli doran am Hus zum Rüden gelegen&#10;ist , sind zinsfrei"/>
+        <role role="part" ref="1470" text="Schöneck"/>
+        <role role="part" ref="1476" text="Blawenstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="42" end="79" ref="custom_desc_loc_x" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1536" text="das Hus Schöneck"/>
+        <role role="location-b" ref="1506" text="der&#10;Frygenstrass"/>
+        <role role="location-b" ref="1512" text="am Eck bi Steblis brunnen"/>
+        <role role="location-b" ref="1548" text="am Hus zum Swanen"/>
+      </event>
+      <event event_id="6.1">
+        <role role="location-a" ref="1560" text="das Hus Blawenstein"/>
+        <role role="location-b" ref="1578" text="doran"/>
+        <role role="location-b" ref="1591" text="am Hus zum Rüden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="57" end="59" ref="1524" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1512" text="am Eck bi Steblis brunnen"/>
+        <role role="location-b" ref="1530" text="Steblis brunnen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="87" ref="" type="event">
+      <trigger start="22" end="22" text="verkauft" ref="1609"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1299" text="Conrat Schnyt"/>
+        <role role="buyer" ref="1409" text="Hans Wernher Frygen"/>
+        <role role="buyer" ref="1415" text="seine Frau Barbara&#10;Nussbom"/>
+        <role role="property" ref="1458" text="die beide Hüser , Schöneck und Blawenstein genant , als die aneinander , neml das Hus Schöneck , vornen an der&#10;Frygenstrass am Eck bi Steblis brunnen , oben am Hus zum Swanen&#10;u . das Hus Blawenstein im gessli doran am Hus zum Rüden gelegen&#10;ist , sind zinsfrei"/>
+        <role role="price" ref="1603" text="582 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

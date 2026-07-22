@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/58 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt Theil von 25 neben 23</tei:title>
+            <tei:idno>HGB 1 10/58</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433431</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1398">1398</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611883.4450907996 1267117.797535086</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">do</token>
+    <token token_id="2">gabent</token>
+    <token token_id="3">ze</token>
+    <token token_id="4">kouffende</token>
+    <token token_id="5">Peter</token>
+    <token token_id="6">von</token>
+    <token token_id="7">Rufach</token>
+    <token token_id="8">der</token>
+    <token token_id="9">küffer</token>
+    <token token_id="10">und</token>
+    <token token_id="11">Elsin</token>
+    <token token_id="12">sin</token>
+    <token token_id="13">elich</token>
+    <token token_id="14">wirtin</token>
+    <token token_id="15">herrn</token>
+    <token token_id="16">Johans</token>
+    <token token_id="17">Bratteller</token>
+    <token token_id="18">caplan</token>
+    <token token_id="19">der</token>
+    <token token_id="20">stift</token>
+    <token token_id="21">uff</token>
+    <token token_id="22">Burg</token>
+    <token token_id="23">ze</token>
+    <token token_id="24">Basel</token>
+    <token token_id="25">4</token>
+    <token token_id="26">guldin</token>
+    <token token_id="27">geltes</token>
+    <token token_id="28">jerlich</token>
+    <token token_id="29">zinses</token>
+    <token token_id="30">uff</token>
+    <token token_id="31">und</token>
+    <token token_id="32">abe</token>
+    <token token_id="33">irem</token>
+    <token token_id="34">erbt</token>
+    <token token_id="35">irs</token>
+    <token token_id="36">huses</token>
+    <token token_id="37">genant</token>
+    <token token_id="38">zem</token>
+    <token token_id="39">roten</token>
+    <token token_id="40">Meder</token>
+    <token token_id="41">gelegen</token>
+    <token token_id="42">in</token>
+    <token token_id="43">der</token>
+    <token token_id="44">vorstat</token>
+    <token token_id="45">ze</token>
+    <token token_id="46">sant</token>
+    <token token_id="47">Alban</token>
+    <token token_id="48">ze</token>
+    <token token_id="49">Basel</token>
+    <token token_id="50">zwüschent</token>
+    <token token_id="51">Richendal</token>
+    <token token_id="52">und</token>
+    <token token_id="53">herrn</token>
+    <token token_id="54">Jacob</token>
+    <token token_id="55">von</token>
+    <token token_id="56">Wißkilch</token>
+    <token token_id="57">husern</token>
+    <token token_id="58">und</token>
+    <token token_id="59">uff</token>
+    <token token_id="60">dem</token>
+    <token token_id="61">garten</token>
+    <token token_id="62">dahinder</token>
+    <token token_id="63">gelegen</token>
+    <token token_id="64">gelich</token>
+    <token token_id="65">ge</token>
+    <token token_id="66">¬</token>
+    <token token_id="67">teilt</token>
+    <token token_id="68">ze</token>
+    <token token_id="69">den</token>
+    <token token_id="70">vier</token>
+    <token token_id="71">fronff</token>
+    <token token_id="72">mit</token>
+    <token token_id="73">ginst</token>
+    <token token_id="74">und</token>
+    <token token_id="75">willen</token>
+    <token token_id="76">herrn</token>
+    <token token_id="77">Lienhart</token>
+    <token token_id="78">Blawen</token>
+    <token token_id="79">in</token>
+    <token token_id="80">namen</token>
+    <token token_id="81">Petermans</token>
+    <token token_id="82">Sevogels</token>
+    <token token_id="83">und</token>
+    <token token_id="84">frow</token>
+    <token token_id="85">Elsi</token>
+    <token token_id="86">Marschalgkin</token>
+    <token token_id="87">siner</token>
+    <token token_id="88">elichen</token>
+    <token token_id="89">frowen</token>
+    <token token_id="90">iren</token>
+    <token token_id="91">4</token>
+    <token token_id="92">unschädlich</token>
+    <token token_id="93">und</token>
+    <token token_id="94">gelöbt</token>
+    <token token_id="95">den</token>
+    <token token_id="96">kouff</token>
+    <token token_id="97">ze</token>
+    <token token_id="98">werende</token>
+    <token token_id="99">und</token>
+    <token token_id="100">state</token>
+    <token token_id="101">ze</token>
+    <token token_id="102">hande</token>
+    <token token_id="103">.</token>
+  </text>
+  <spans>
+    <span id="1905" start="4" end="4" text="kouffende" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1545" start="5" end="14" text="Peter von Rufach&#10;der küffer und Elsin sin elich wirtin" element="list" class="per" subclass="">
+      <span id="1551" start="5" end="9" text="Peter von Rufach&#10;der küffer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1802" start="5" end="5" text="Peter" element="head" class="nam" subclass=""/>
+        <span id="1808" start="6" end="7" text="von Rufach" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1814" start="7" end="7" text="Rufach" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1814_head" start="7" end="7" element="head" class="nam" text="Rufach" subclass=""/>
+          </span>
+        </span>
+        <span id="1557" start="8" end="9" text="der küffer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1581" start="9" end="9" text="küffer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1563" start="11" end="14" text="Elsin sin elich wirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1569" start="11" end="11" text="Elsin" element="head" class="nam" subclass=""/>
+        <span id="1594" start="12" end="14" text="sin elich wirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1575" start="12" end="12" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1575_head" start="12" end="12" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1600" start="13" end="14" text="elich wirtin" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1606" start="15" end="24" text="herrn Johans&#10;Bratteller caplan der stift uff Burg ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1612" start="16" end="17" text="Johans&#10;Bratteller" element="head" class="nam" subclass=""/>
+      <span id="1618" start="18" end="24" text="caplan der stift uff Burg ze Basel" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1820" start="18" end="18" text="caplan" element="head" class="occ" subclass="org-job"/>
+        <span id="1648" start="19" end="24" text="der stift uff Burg ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1826" start="20" end="20" text="stift" element="head" class="type" subclass=""/>
+          <span id="1642" start="21" end="24" text="uff Burg ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1832" start="22" end="22" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1832_head" start="22" end="22" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+            <span id="1624" start="24" end="24" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1624_head" start="24" end="24" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1630" start="25" end="26" text="4 guldin" element="value" class="money" subclass=""/>
+    <span id="1636" start="28" end="28" text="jerlich" element="value" class="time" subclass="rec"/>
+    <span id="1654" start="33" end="33" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1654_head" start="33" end="33" element="head" class="pro" text="irem" subclass=""/>
+    </span>
+    <span id="1887" start="35" end="63" text="irs huses genant zem roten Meder gelegen&#10;in der vorstat ze sant Alban ze Basel zwüschent&#10;Richendal und herrn Jacob von Wißkilch husern&#10;und uff dem garten dahinder gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1838" start="35" end="35" text="irs" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1660" start="35" end="35" text="irs" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1660_head" start="35" end="35" element="head" class="pro" text="irs" subclass=""/>
+        </span>
+      </span>
+      <span id="1673" start="36" end="36" text="huses" element="head" class="type" subclass=""/>
+      <span id="1686" start="38" end="40" text="zem roten Meder" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1686_head" start="38" end="40" element="head" class="nam" text="zem roten Meder" subclass=""/>
+      </span>
+      <span id="1692" start="41" end="63" text="gelegen&#10;in der vorstat ze sant Alban ze Basel zwüschent&#10;Richendal und herrn Jacob von Wißkilch husern&#10;und uff dem garten dahinder gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1698" start="43" end="47" text="der vorstat ze sant Alban" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1893" start="44" end="47" text="vorstat ze sant Alban" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1704" start="49" end="49" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1704_head" start="49" end="49" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="1856" start="51" end="57" text="Richendal und herrn Jacob von Wißkilch husern" element="list" class="fac;loc" subclass="">
+          <span id="1710" start="51" end="51" text="Richendal" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1710_head" start="51" end="51" element="head" class="nam" text="Richendal" subclass=""/>
+          </span>
+          <span id="1844" start="53" end="57" text="herrn Jacob von Wißkilch husern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1850" start="53" end="56" text="herrn Jacob von Wißkilch" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1722" start="53" end="56" text="herrn Jacob von Wißkilch" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1899" start="54" end="56" text="Jacob von Wißkilch" element="head" class="nam" subclass=""/>
+              </span>
+            </span>
+            <span id="1716" start="57" end="57" text="husern" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+        <span id="1862" start="60" end="61" text="dem garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1868" start="61" end="61" text="garten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1874" start="69" end="71" text="den vier fronff" element="value" class="date" subclass=""/>
+    <span id="1728" start="76" end="78" text="herrn Lienhart Blawen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1734" start="77" end="78" text="Lienhart Blawen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1740" start="81" end="89" text="Petermans&#10;Sevogels und frow Elsi Marschalgkin siner&#10;elichen frowen" element="list" class="per" subclass="">
+      <span id="1746" start="81" end="82" text="Petermans&#10;Sevogels" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1746_head" start="81" end="82" element="head" class="nam" text="Petermans Sevogels" subclass=""/>
+      </span>
+      <span id="1752" start="84" end="89" text="frow Elsi Marschalgkin siner&#10;elichen frowen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1758" start="85" end="86" text="Elsi Marschalgkin" element="head" class="nam" subclass=""/>
+        <span id="1777" start="87" end="89" text="siner&#10;elichen frowen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1764" start="87" end="87" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1764_head" start="87" end="87" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="1783" start="88" end="89" text="elichen frowen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1789" start="90" end="90" text="iren" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1789_head" start="90" end="90" element="head" class="pro" text="iren" subclass=""/>
+    </span>
+    <span id="1911" start="96" end="96" text="kouff" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1917" from="1911" to="1905" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1666" from="1654" to="1545" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1679" from="1660" to="1545" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1587" from="1575" to="1551" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1795" from="1789" to="1740" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1880" from="1728" to="1740" class="per-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1770" from="1764" to="1746" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="12" end="14" ref="1594" type="state">
+      <trigger start="13" end="14" text="elich wirtin" ref="1600"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1563" text="Elsin sin elich wirtin"/>
+        <role role="family-b" ref="1575" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="18" end="24" ref="1618" type="state">
+      <trigger start="18" end="18" text="caplan" ref="1820"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1606" text="herrn Johans&#10;Bratteller caplan der stift uff Burg ze Basel"/>
+        <role role="employer" ref="1648" text="der stift uff Burg ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="87" end="89" ref="1777" type="state">
+      <trigger start="88" end="89" text="elichen frowen" ref="1783"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1752" text="frow Elsi Marschalgkin siner&#10;elichen frowen"/>
+        <role role="family-b" ref="1764" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="6" end="7" ref="1808" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1551" text="Peter von Rufach&#10;der küffer"/>
+        <role role="location-b" ref="1814" text="Rufach"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="21" end="24" ref="1642" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1648" text="der stift uff Burg ze Basel"/>
+        <role role="location-b" ref="1832" text="Burg"/>
+        <role role="location-b" ref="1624" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="35" end="35" ref="1838" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1887" text="irs huses genant zem roten Meder gelegen&#10;in der vorstat ze sant Alban ze Basel zwüschent&#10;Richendal und herrn Jacob von Wißkilch husern&#10;und uff dem garten dahinder gelegen"/>
+        <role role="owner" ref="1660" text="irs"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="41" end="63" ref="1692" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1887" text="irs huses genant zem roten Meder gelegen&#10;in der vorstat ze sant Alban ze Basel zwüschent&#10;Richendal und herrn Jacob von Wißkilch husern&#10;und uff dem garten dahinder gelegen"/>
+        <role role="location-b" ref="1698" text="der vorstat ze sant Alban"/>
+        <role role="location-b" ref="1704" text="Basel"/>
+        <role role="location-b" ref="1710" text="Richendal"/>
+        <role role="location-b" ref="1844" text="herrn Jacob von Wißkilch husern"/>
+        <role role="location-b" ref="1862" text="dem garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="53" end="56" ref="1850" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1844" text="herrn Jacob von Wißkilch husern"/>
+        <role role="owner" ref="1722" text="herrn Jacob von Wißkilch"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="4" end="78" ref="" type="event">
+      <trigger start="4" end="4" text="kouffende" ref="1905"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1551" text="Peter von Rufach&#10;der küffer"/>
+        <role role="seller" ref="1563" text="Elsin sin elich wirtin"/>
+        <role role="buyer" ref="1606" text="herrn Johans&#10;Bratteller caplan der stift uff Burg ze Basel"/>
+        <role role="interest" ref="1630" text="4 guldin"/>
+        <role role="interval" ref="1636" text="jerlich"/>
+        <role role="collateral" ref="1887" text="irs huses genant zem roten Meder gelegen&#10;in der vorstat ze sant Alban ze Basel zwüschent&#10;Richendal und herrn Jacob von Wißkilch husern&#10;und uff dem garten dahinder gelegen"/>
+        <role role="detail_interval-conv" ref="1874" text="den vier fronff"/>
+        <role role="consenting" ref="1728" text="herrn Lienhart Blawen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="96" end="96" ref="" type="event">
+      <trigger start="96" end="96" text="kouff" ref="1911"/>
+    </eventGroup>
+    <eventGroup event_id="10" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="10.0">
+        <role role="representative" ref="1728" text="herrn Lienhart Blawen"/>
+        <role role="represented" ref="1746" text="Petermans&#10;Sevogels"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="11.0">
+        <role role="representative" ref="1728" text="herrn Lienhart Blawen"/>
+        <role role="represented" ref="1752" text="frow Elsi Marschalgkin siner&#10;elichen frowen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

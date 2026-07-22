@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 50/33 S. [23]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Eisengasse 2</tei:title>
+            <tei:idno>HGB 1 50/33</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1465129</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1643">1643</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611284.2629606803 1267659.5100934436</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">frönung</token>
+    <token token_id="1">Herr</token>
+    <token token_id="2">Geörg</token>
+    <token token_id="3">König</token>
+    <token token_id="4">als</token>
+    <token token_id="5">Anwald</token>
+    <token token_id="6">frawen</token>
+    <token token_id="7">Chatharina</token>
+    <token token_id="8">Gysin</token>
+    <token token_id="9">,</token>
+    <token token_id="10">weiland</token>
+    <token token_id="11">Hr</token>
+    <token token_id="12">.</token>
+    <token token_id="13">Peter</token>
+    <token token_id="14">Kyffen</token>
+    <token token_id="15">dess</token>
+    <token token_id="16">Apotheckhers</token>
+    <token token_id="17">zwückhgelassener</token>
+    <token token_id="18">Wittib</token>
+    <token token_id="19">,</token>
+    <token token_id="20">hat</token>
+    <token token_id="21">wegen</token>
+    <token token_id="22">jeniger</token>
+    <token token_id="23">1700</token>
+    <token token_id="24">ﬂ</token>
+    <token token_id="25">.</token>
+    <token token_id="26">sambt</token>
+    <token token_id="27">danon</token>
+    <token token_id="28">verfallener</token>
+    <token token_id="29">aussstehender</token>
+    <token token_id="30">zunssen</token>
+    <token token_id="31">Marzahl</token>
+    <token token_id="32">und</token>
+    <token token_id="33">ergangenen</token>
+    <token token_id="34">Kostens</token>
+    <token token_id="35">,</token>
+    <token token_id="36">welches</token>
+    <token token_id="37">Ihro</token>
+    <token token_id="38">Gysin</token>
+    <token token_id="39">,</token>
+    <token token_id="40">weiland</token>
+    <token token_id="41">H</token>
+    <token token_id="42">.</token>
+    <token token_id="43">Hanss</token>
+    <token token_id="44">Jacob</token>
+    <token token_id="45">Schultheissen</token>
+    <token token_id="46">dess</token>
+    <token token_id="47">Jüngern</token>
+    <token token_id="48">hinderlassene</token>
+    <token token_id="49">Wittib</token>
+    <token token_id="50">,</token>
+    <token token_id="51">laut</token>
+    <token token_id="52">Kaufbriefs</token>
+    <token token_id="53">zu</token>
+    <token token_id="54">thun</token>
+    <token token_id="55">schuldig</token>
+    <token token_id="56">,</token>
+    <token token_id="57">derselben</token>
+    <token token_id="58">Wittib</token>
+    <token token_id="59">Eckh</token>
+    <token token_id="60">Behaussung</token>
+    <token token_id="61">und</token>
+    <token token_id="62">Hoofstatt</token>
+    <token token_id="63">beym</token>
+    <token token_id="64">Rheinthor</token>
+    <token token_id="65">,</token>
+    <token token_id="66">neben</token>
+    <token token_id="67">Ambrosi</token>
+    <token token_id="68">Hewen</token>
+    <token token_id="69">dem</token>
+    <token token_id="70">Messerschmid</token>
+    <token token_id="71">gelegen</token>
+    <token token_id="72">,</token>
+    <token token_id="73">gefrönt</token>
+    <token token_id="74">und</token>
+    <token token_id="75">wird</token>
+    <token token_id="76">man</token>
+    <token token_id="77">solche</token>
+    <token token_id="78">Eckh</token>
+    <token token_id="79">.</token>
+    <token token_id="80">Behaussung</token>
+    <token token_id="81">auf</token>
+    <token token_id="82">Zei</token>
+    <token token_id="83">¬</token>
+    <token token_id="84">stag</token>
+    <token token_id="85">den</token>
+    <token token_id="86">24</token>
+    <token token_id="87">obgedachts</token>
+    <token token_id="88">sonats</token>
+    <token token_id="89">Jan</token>
+    <token token_id="90">,</token>
+    <token token_id="91">ver</token>
+    <token token_id="92">¬</token>
+    <token token_id="93">kaufen</token>
+    <token token_id="94">.</token>
+    <token token_id="95">2</token>
+    <token token_id="96">=</token>
+    <token token_id="97">Ecke</token>
+  </text>
+  <spans>
+    <span id="1534" start="1" end="3" text="Herr Geörg König" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1540" start="2" end="3" text="Geörg König" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1546" start="5" end="18" text="Anwald frawen&#10;Chatharina Gysin , weiland Hr . Peter Kyffen dess&#10;Apotheckhers zwückhgelassener Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1552" start="5" end="5" text="Anwald" element="head" class="repr" subclass=""/>
+      <span id="1565" start="6" end="18" text="frawen&#10;Chatharina Gysin , weiland Hr . Peter Kyffen dess&#10;Apotheckhers zwückhgelassener Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1571" start="7" end="8" text="Chatharina Gysin" element="head" class="nam" subclass=""/>
+        <span id="1577" start="10" end="18" text="weiland Hr . Peter Kyffen dess&#10;Apotheckhers zwückhgelassener Wittib" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1589" start="11" end="16" text="Hr . Peter Kyffen dess&#10;Apotheckhers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1595" start="13" end="14" text="Peter Kyffen" element="head" class="nam" subclass=""/>
+            <span id="1601" start="15" end="16" text="dess&#10;Apotheckhers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1607" start="16" end="16" text="Apotheckhers" element="head" class="occ" subclass=""/>
+            </span>
+          </span>
+          <span id="1583" start="18" end="18" text="Wittib" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1740" start="22" end="55" text="jeniger 1700 ﬂ . sambt danon verfallener aussstehender&#10;zunssen Marzahl und ergangenen Kostens , welches&#10;Ihro Gysin , weiland H . Hanss Jacob Schultheissen&#10;dess Jüngern hinderlassene Wittib , laut Kaufbriefs&#10;zu thun schuldig" element="eventspan" class="debt" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1613" start="23" end="25" text="1700 ﬂ ." element="value" class="money" subclass=""/>
+      <span id="1746" start="26" end="34" text="sambt danon verfallener aussstehender&#10;zunssen Marzahl und ergangenen Kostens" element="other" class="other" subclass=""/>
+      <span id="1758" start="37" end="38" text="Ihro Gysin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1770" start="37" end="37" text="Ihro" element="reference" class="unk" numerus="unk" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1770_head" start="37" end="37" element="head" class="pro" text="Ihro" subclass=""/>
+        </span>
+        <span id="1764" start="38" end="38" text="Gysin" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1619" start="40" end="49" text="weiland H . Hanss Jacob Schultheissen&#10;dess Jüngern hinderlassene Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1637" start="41" end="47" text="H . Hanss Jacob Schultheissen&#10;dess Jüngern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1643" start="43" end="45" text="Hanss Jacob Schultheissen" element="head" class="nam" subclass=""/>
+          <span id="1631" start="46" end="47" text="dess Jüngern" element="appo" class="gen" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1631_head" start="46" end="47" element="head" class="gen" text="dess Jüngern" subclass=""/>
+          </span>
+        </span>
+        <span id="1625" start="49" end="49" text="Wittib" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="1752" start="55" end="55" text="schuldig" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1649" start="57" end="71" text="derselben Wittib Eckh Behaussung&#10;und Hoofstatt beym Rheinthor , neben Ambrosi&#10;Hewen dem Messerschmid gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1649_desc_owner" start="57" end="58" text="derselben Wittib" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1655" start="57" end="58" text="derselben Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1661" start="58" end="58" text="Wittib" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+      <span id="1667" start="59" end="62" text="Eckh Behaussung&#10;und Hoofstatt" element="head" class="type" subclass=""/>
+      <span id="1673" start="63" end="71" text="beym Rheinthor , neben Ambrosi&#10;Hewen dem Messerschmid gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1679" start="64" end="64" text="Rheinthor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1679_head" start="64" end="64" element="head" class="nam" text="Rheinthor" subclass=""/>
+        </span>
+        <span id="1685" start="67" end="70" text="Ambrosi&#10;Hewen dem Messerschmid" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1691" start="67" end="68" text="Ambrosi&#10;Hewen" element="head" class="nam" subclass=""/>
+          <span id="1697" start="69" end="70" text="dem Messerschmid" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1703" start="70" end="70" text="Messerschmid" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1776" start="73" end="73" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1788" start="75" end="94" text="wird man solche Eckh . Behaussung auf Zei ¬&#10;stag den 24 obgedachts sonats Jan , ver ¬&#10;kaufen ." element="eventspan" class="sale" tense="fut" polarity="pos" modality="ass" subclass="">
+      <span id="1709" start="77" end="80" text="solche Eckh . Behaussung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1715" start="78" end="80" text="Eckh . Behaussung" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1728" start="81" end="89" text="auf Zei ¬&#10;stag den 24 obgedachts sonats Jan" element="value" class="date" subclass=""/>
+      <span id="1782" start="91" end="94" text="ver ¬&#10;kaufen ." element="trigger" class="type" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1558" from="1546" to="1534" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1721" from="1709" to="1649" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="debt" polarity="pos" tense="pres" modality="ass" start="22" end="55" ref="1740" type="state">
+      <trigger start="55" end="55" text="schuldig" ref="1752"/>
+      <event event_id="0.0">
+        <role role="capital" ref="1613" text="1700 ﬂ ."/>
+        <role role="detail_capital-detail" ref="1746" text="sambt danon verfallener aussstehender&#10;zunssen Marzahl und ergangenen Kostens"/>
+        <role role="creditor" ref="1758" text="Ihro Gysin"/>
+        <role role="debitor" ref="1619" text="weiland H . Hanss Jacob Schultheissen&#10;dess Jüngern hinderlassene Wittib"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="property-purchase" polarity="pos" tense="fut" modality="ass" start="75" end="94" ref="1788" type="event">
+      <trigger start="91" end="94" text="ver ¬&#10;kaufen ." ref="1782"/>
+      <event event_id="1.0">
+        <role role="property" ref="1709" text="solche Eckh . Behaussung"/>
+        <role role="date" ref="1728" text="auf Zei ¬&#10;stag den 24 obgedachts sonats Jan"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="representation" polarity="pos" tense="pres" modality="ass" start="5" end="18" ref="1546" type="state">
+      <trigger start="5" end="5" text="Anwald" ref="1552"/>
+      <event event_id="2.0">
+        <role role="representative" ref="1546" text="Anwald frawen&#10;Chatharina Gysin , weiland Hr . Peter Kyffen dess&#10;Apotheckhers zwückhgelassener Wittib"/>
+        <role role="represented" ref="1565" text="frawen&#10;Chatharina Gysin , weiland Hr . Peter Kyffen dess&#10;Apotheckhers zwückhgelassener Wittib"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="family" polarity="pos" tense="pres" modality="ass" start="40" end="49" ref="1619" type="state">
+      <trigger start="49" end="49" text="Wittib" ref="1625"/>
+      <event event_id="4.0">
+        <role role="family-a" ref="1619" text="weiland H . Hanss Jacob Schultheissen&#10;dess Jüngern hinderlassene Wittib"/>
+        <role role="family-b" ref="1637" text="H . Hanss Jacob Schultheissen&#10;dess Jüngern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="family" polarity="pos" tense="pres" modality="ass" start="10" end="18" ref="1577" type="state">
+      <trigger start="18" end="18" text="Wittib" ref="1583"/>
+      <event event_id="5.0">
+        <role role="family-a" ref="1565" text="frawen&#10;Chatharina Gysin , weiland Hr . Peter Kyffen dess&#10;Apotheckhers zwückhgelassener Wittib"/>
+        <role role="family-b" ref="1589" text="Hr . Peter Kyffen dess&#10;Apotheckhers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="57" end="58" ref="1649_desc_owner" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1649" text="derselben Wittib Eckh Behaussung&#10;und Hoofstatt beym Rheinthor , neben Ambrosi&#10;Hewen dem Messerschmid gelegen"/>
+        <role role="owner" ref="1655" text="derselben Wittib"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="63" end="71" ref="1673" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1649" text="derselben Wittib Eckh Behaussung&#10;und Hoofstatt beym Rheinthor , neben Ambrosi&#10;Hewen dem Messerschmid gelegen"/>
+        <role role="location-b" ref="1679" text="Rheinthor"/>
+        <role role="location-b" ref="1685" text="Ambrosi&#10;Hewen dem Messerschmid"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="seizure" polarity="pos" tense="pres" modality="ass" start="1" end="73" ref="" type="event">
+      <trigger start="73" end="73" text="gefrönt" ref="1776"/>
+      <event event_id="8.0">
+        <role role="claimant" ref="1534" text="Herr Geörg König"/>
+        <role role="cause" ref="1740" text="jeniger 1700 ﬂ . sambt danon verfallener aussstehender&#10;zunssen Marzahl und ergangenen Kostens , welches&#10;Ihro Gysin , weiland H . Hanss Jacob Schultheissen&#10;dess Jüngern hinderlassene Wittib , laut Kaufbriefs&#10;zu thun schuldig"/>
+        <role role="property" ref="1649" text="derselben Wittib Eckh Behaussung&#10;und Hoofstatt beym Rheinthor , neben Ambrosi&#10;Hewen dem Messerschmid gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

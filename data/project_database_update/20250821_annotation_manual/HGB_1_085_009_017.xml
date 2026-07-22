@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 85/9 S. [17]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hutgasse 1</tei:title>
+            <tei:idno>HGB 1 85/9</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1481872</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1463">1463</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611228.223612671 1267445.9995339967</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Frau</token>
+    <token token_id="1">Margret</token>
+    <token token_id="2">Lampenbergin</token>
+    <token token_id="3">widmet</token>
+    <token token_id="4">irem</token>
+    <token token_id="5">Eman</token>
+    <token token_id="6">Hanns</token>
+    <token token_id="7">von</token>
+    <token token_id="8">Gleyen</token>
+    <token token_id="9">genant</token>
+    <token token_id="10">von</token>
+    <token token_id="11">Bisanet</token>
+    <token token_id="12">,</token>
+    <token token_id="13">sodan</token>
+    <token token_id="14">aber</token>
+    <token token_id="15">die</token>
+    <token token_id="16">6</token>
+    <token token_id="17">℔</token>
+    <token token_id="18">ewigs</token>
+    <token token_id="19">gelts</token>
+    <token token_id="20">,</token>
+    <token token_id="21">u</token>
+    <token token_id="22">1</token>
+    <token token_id="23">1</token>
+    <token token_id="24">/</token>
+    <token token_id="25">2</token>
+    <token token_id="26">℔</token>
+    <token token_id="27">pheffer</token>
+    <token token_id="28">gelts</token>
+    <token token_id="29">.</token>
+    <token token_id="30">so</token>
+    <token token_id="31">sy</token>
+    <token token_id="32">hat</token>
+    <token token_id="33">uff</token>
+    <token token_id="34">zweien</token>
+    <token token_id="35">husern</token>
+    <token token_id="36">am</token>
+    <token token_id="37">Kornmergkt</token>
+    <token token_id="38">gelegen</token>
+    <token token_id="39">,</token>
+    <token token_id="40">genant</token>
+    <token token_id="41">zem</token>
+    <token token_id="42">guldinen</token>
+    <token token_id="43">Winder</token>
+    <token token_id="44">ist</token>
+    <token token_id="45">Hanns</token>
+    <token token_id="46">Rippelaulis</token>
+    <token token_id="47">u</token>
+    <token token_id="48">dem</token>
+    <token token_id="49">andern</token>
+    <token token_id="50">Huse</token>
+    <token token_id="51">genant</token>
+    <token token_id="52">zem</token>
+    <token token_id="53">blawen</token>
+    <token token_id="54">Winde</token>
+    <token token_id="55">,</token>
+    <token token_id="56">darum</token>
+    <token token_id="57">Münzger</token>
+    <token token_id="58">gesessen</token>
+    <token token_id="59">ist</token>
+    <token token_id="60">,</token>
+    <token token_id="61">ư</token>
+    <token token_id="62">andere</token>
+    <token token_id="63">güter</token>
+  </text>
+  <spans>
+    <span id="1026" start="0" end="2" text="Frau Margret Lampenbergin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1038" start="0" end="0" text="Frau" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1038_head" start="0" end="0" element="head" class="title" text="Frau" subclass=""/>
+      </span>
+      <span id="1032" start="1" end="2" text="Margret Lampenbergin" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1190" start="3" end="3" text="widmet" element="trigger" class="unclear" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1044" start="4" end="11" text="irem Eman&#10;Hanns von Gleyen genant von Bisanet" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1056" start="4" end="5" text="irem Eman" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1068" start="4" end="4" text="irem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1068_head" start="4" end="4" element="head" class="pro" text="irem" subclass=""/>
+        </span>
+        <span id="1062" start="5" end="5" text="Eman" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="1050" start="6" end="8" text="Hanns von Gleyen" element="head" class="nam" subclass=""/>
+      <span id="1081" start="10" end="11" text="von Bisanet" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1081_head" start="10" end="11" element="head" class="nam" text="von Bisanet" subclass=""/>
+      </span>
+    </span>
+    <span id="1208" start="16" end="17" text="6 ℔" element="value" class="money" subclass=""/>
+    <span id="1214" start="22" end="27" text="1 1 / 2 ℔ pheffer" element="value" class="money" subclass=""/>
+    <span id="1087" start="31" end="31" text="sy" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1087_head" start="31" end="31" element="head" class="pro" text="sy" subclass=""/>
+    </span>
+    <span id="1220" start="32" end="32" text="hat" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1202" start="34" end="63" text="zweien husern am Kornmergkt gelegen ,&#10;genant zem guldinen Winder ist Hanns Rippelaulis&#10;u dem andern Huse genant zem blawen Winde , darum&#10;Münzger gesessen ist , ư andere güter" element="list" class="fac" subclass="">
+      <span id="1100" start="34" end="59" text="zweien husern am Kornmergkt gelegen ,&#10;genant zem guldinen Winder ist Hanns Rippelaulis&#10;u dem andern Huse genant zem blawen Winde , darum&#10;Münzger gesessen ist" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1106" start="35" end="35" text="husern" element="head" class="type" subclass=""/>
+        <span id="1112" start="36" end="38" text="am Kornmergkt gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1118" start="36" end="37" text="am Kornmergkt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+            <span id="1124" start="37" end="37" text="Kornmergkt" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+        <span id="1130" start="40" end="59" text="genant zem guldinen Winder ist Hanns Rippelaulis&#10;u dem andern Huse genant zem blawen Winde , darum&#10;Münzger gesessen ist" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1136" start="40" end="46" text="genant zem guldinen Winder ist Hanns Rippelaulis" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1142" start="41" end="43" text="zem guldinen Winder" element="head" class="nam" subclass=""/>
+            <span id="1148" start="44" end="46" text="ist Hanns Rippelaulis" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1154" start="45" end="46" text="Hanns Rippelaulis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1154_head" start="45" end="46" element="head" class="nam" text="Hanns Rippelaulis" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1160" start="48" end="59" text="dem andern Huse genant zem blawen Winde , darum&#10;Münzger gesessen ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1166" start="50" end="50" text="Huse" element="head" class="type" subclass=""/>
+            <span id="1172" start="52" end="54" text="zem blawen Winde" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1172_head" start="52" end="54" element="head" class="nam" text="zem blawen Winde" subclass=""/>
+            </span>
+            <span id="1178" start="56" end="59" text="darum&#10;Münzger gesessen ist" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1184" start="57" end="57" text="Münzger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1184_head" start="57" end="57" element="head" class="unk" text="Münzger" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1196" start="62" end="63" text="andere güter" element="reference" class="fac" numerus="grp" specificity="uspc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1196_head" start="62" end="63" element="head" class="type" text="andere güter" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1074" from="1068" to="1026" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1093" from="1087" to="1026" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="4" end="5" ref="1056" type="state">
+      <trigger start="5" end="5" text="Eman" ref="1062"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1044" text="irem Eman&#10;Hanns von Gleyen genant von Bisanet"/>
+        <role role="family-b" ref="1068" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="36" end="38" ref="1112" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1100" text="zweien husern am Kornmergkt gelegen ,&#10;genant zem guldinen Winder ist Hanns Rippelaulis&#10;u dem andern Huse genant zem blawen Winde , darum&#10;Münzger gesessen ist"/>
+        <role role="location-b" ref="1118" text="am Kornmergkt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="part_whole" polarity="pos" tense="pres" modality="ass" start="40" end="59" ref="1130" type="state">
+      <event event_id="2.0">
+        <role role="whole" ref="1100" text="zweien husern am Kornmergkt gelegen ,&#10;genant zem guldinen Winder ist Hanns Rippelaulis&#10;u dem andern Huse genant zem blawen Winde , darum&#10;Münzger gesessen ist"/>
+        <role role="part" ref="1136" text="genant zem guldinen Winder ist Hanns Rippelaulis"/>
+        <role role="part" ref="1160" text="dem andern Huse genant zem blawen Winde , darum&#10;Münzger gesessen ist"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="44" end="46" ref="1148" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1136" text="genant zem guldinen Winder ist Hanns Rippelaulis"/>
+        <role role="owner" ref="1154" text="Hanns Rippelaulis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="56" end="59" ref="1178" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1160" text="dem andern Huse genant zem blawen Winde , darum&#10;Münzger gesessen ist"/>
+        <role role="owner" ref="1184" text="Münzger"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="other" polarity="pos" tense="pres" modality="ass" start="0" end="32" ref="" type="event">
+      <trigger start="3" end="3" text="widmet" ref="1190"/>
+      <event event_id="5.0">
+        <role role="bequeather" ref="1026" text="Frau Margret Lampenbergin"/>
+        <role role="beneficiary" ref="1044" text="irem Eman&#10;Hanns von Gleyen genant von Bisanet"/>
+        <role role="property" ref="1220" text="hat"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="16" end="63" ref="" type="state">
+      <trigger start="32" end="32" text="hat" ref="1220"/>
+      <event event_id="6.0">
+        <role role="interest" ref="1208" text="6 ℔"/>
+        <role role="interest" ref="1214" text="1 1 / 2 ℔ pheffer"/>
+        <role role="beneficiary" ref="1087" text="sy"/>
+        <role role="property" ref="1100" text="zweien husern am Kornmergkt gelegen ,&#10;genant zem guldinen Winder ist Hanns Rippelaulis&#10;u dem andern Huse genant zem blawen Winde , darum&#10;Münzger gesessen ist"/>
+        <role role="property" ref="1196" text="andere güter"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

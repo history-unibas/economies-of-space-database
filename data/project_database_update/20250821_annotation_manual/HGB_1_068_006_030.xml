@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 68/6 S. [30]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Grünpfahlgasse 1</tei:title>
+            <tei:idno>HGB 1 68/6</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1478030</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1447">1447</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611255.356420474 1267339.9796054547</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">hat</token>
+    <token token_id="2">Henman</token>
+    <token token_id="3">Meyge</token>
+    <token token_id="4">der</token>
+    <token token_id="5">Brotbegk</token>
+    <token token_id="6">,</token>
+    <token token_id="7">und</token>
+    <token token_id="8">Hans</token>
+    <token token_id="9">Friderich</token>
+    <token token_id="10">der</token>
+    <token token_id="11">Hubschmitt</token>
+    <token token_id="12">,</token>
+    <token token_id="13">Hans</token>
+    <token token_id="14">Frantzen</token>
+    <token token_id="15">von</token>
+    <token token_id="16">Ol</token>
+    <token token_id="17">¬</token>
+    <token token_id="18">tingen</token>
+    <token token_id="19">und</token>
+    <token token_id="20">sins</token>
+    <token token_id="21">Wibs</token>
+    <token token_id="22">Rechten</token>
+    <token token_id="23">an</token>
+    <token token_id="24">dem</token>
+    <token token_id="25">Huse</token>
+    <token token_id="26">und</token>
+    <token token_id="27">Hof</token>
+    <token token_id="28">zr</token>
+    <token token_id="29">Judenschul</token>
+    <token token_id="30">und</token>
+    <token token_id="31">an</token>
+    <token token_id="32">dem</token>
+    <token token_id="33">Hus</token>
+    <token token_id="34">zem</token>
+    <token token_id="35">Hoffen</token>
+    <token token_id="36">ze</token>
+    <token token_id="37">Eschemer</token>
+    <token token_id="38">Thor</token>
+    <token token_id="39">gelegen</token>
+    <token token_id="40">,</token>
+    <token token_id="41">gefrönt</token>
+    <token token_id="42">.</token>
+  </text>
+  <spans>
+    <span id="934" start="2" end="11" text="Henman Meyge der Brotbegk , und Hans&#10;Friderich der Hubschmitt" element="list" class="per" subclass="">
+      <span id="795" start="2" end="5" text="Henman Meyge der Brotbegk" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="801" start="2" end="3" text="Henman Meyge" element="head" class="nam" subclass=""/>
+        <span id="807" start="4" end="5" text="der Brotbegk" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="813" start="5" end="5" text="Brotbegk" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="819" start="8" end="11" text="Hans&#10;Friderich der Hubschmitt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="825" start="8" end="9" text="Hans&#10;Friderich" element="head" class="nam" subclass=""/>
+        <span id="831" start="10" end="11" text="der Hubschmitt" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="837" start="11" end="11" text="Hubschmitt" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="940" start="13" end="21" text="Hans Frantzen von Ol ¬&#10;tingen und sins Wibs" element="list" class="per" subclass="">
+      <span id="849" start="13" end="18" text="Hans Frantzen von Ol ¬&#10;tingen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="855" start="13" end="14" text="Hans Frantzen" element="head" class="nam" subclass=""/>
+        <span id="861" start="15" end="18" text="von Ol ¬&#10;tingen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="867" start="16" end="18" text="Ol ¬&#10;tingen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="867_head" start="16" end="18" element="head" class="nam" text="Ol ¬ tingen" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="873" start="20" end="21" text="sins Wibs" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="885" start="20" end="20" text="sins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="885_head" start="20" end="20" element="head" class="pro" text="sins" subclass=""/>
+        </span>
+        <span id="879" start="21" end="21" text="Wibs" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="952" start="24" end="39" text="dem Huse&#10;und Hof zr Judenschul und an dem Hus zem&#10;Hoffen ze Eschemer Thor gelegen" element="list" class="fac" subclass="">
+      <span id="898" start="24" end="29" text="dem Huse&#10;und Hof zr Judenschul" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="904" start="25" end="29" text="Huse&#10;und Hof zr Judenschul" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="910" start="32" end="39" text="dem Hus zem&#10;Hoffen ze Eschemer Thor gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="916" start="33" end="35" text="Hus zem&#10;Hoffen" element="head" class="nam" subclass=""/>
+        <span id="922" start="36" end="39" text="ze Eschemer Thor gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="928" start="37" end="38" text="Eschemer Thor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="928_head" start="37" end="38" element="head" class="nam" text="Eschemer Thor" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="946" start="41" end="41" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="891" from="885" to="849" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="958" from="940" to="952" class="owner" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="20" end="21" ref="873" type="state">
+      <trigger start="21" end="21" text="Wibs" ref="879"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="873" text="sins Wibs"/>
+        <role role="family-b" ref="885" text="sins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="18" ref="861" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="849" text="Hans Frantzen von Ol ¬&#10;tingen"/>
+        <role role="location-b" ref="867" text="Ol ¬&#10;tingen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="36" end="39" ref="922" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="910" text="dem Hus zem&#10;Hoffen ze Eschemer Thor gelegen"/>
+        <role role="location-b" ref="928" text="Eschemer Thor"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="41" ref="" type="event">
+      <trigger start="41" end="41" text="gefrönt" ref="946"/>
+      <event event_id="3.0">
+        <role role="claimant" ref="795" text="Henman Meyge der Brotbegk"/>
+        <role role="claimant" ref="819" text="Hans&#10;Friderich der Hubschmitt"/>
+        <role role="debitor" ref="849" text="Hans Frantzen von Ol ¬&#10;tingen"/>
+        <role role="debitor" ref="873" text="sins Wibs"/>
+        <role role="property" ref="898" text="dem Huse&#10;und Hof zr Judenschul"/>
+        <role role="property" ref="910" text="dem Hus zem&#10;Hoffen ze Eschemer Thor gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="4.0">
+        <role role="owner" ref="849" text="Hans Frantzen von Ol ¬&#10;tingen"/>
+        <role role="property" ref="898" text="dem Huse&#10;und Hof zr Judenschul"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="5.0">
+        <role role="owner" ref="849" text="Hans Frantzen von Ol ¬&#10;tingen"/>
+        <role role="property" ref="910" text="dem Hus zem&#10;Hoffen ze Eschemer Thor gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="6.0">
+        <role role="owner" ref="873" text="sins Wibs"/>
+        <role role="property" ref="898" text="dem Huse&#10;und Hof zr Judenschul"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="7.0">
+        <role role="owner" ref="873" text="sins Wibs"/>
+        <role role="property" ref="910" text="dem Hus zem&#10;Hoffen ze Eschemer Thor gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

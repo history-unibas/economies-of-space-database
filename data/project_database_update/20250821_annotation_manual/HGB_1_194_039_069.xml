@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/39 S. [69]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 37</tei:title>
+            <tei:idno>HGB 1 194/39</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1514005</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Präsenz und Kaplaneien</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1598">1598</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611060.345455487 1267355.3430737508</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1598</token>
+    <token token_id="1">Neuw</token>
+    <token token_id="2">Zinse</token>
+    <token token_id="3">uff</token>
+    <token token_id="4">Jacobi</token>
+    <token token_id="5">Item</token>
+    <token token_id="6">Niclaus</token>
+    <token token_id="7">Fürgandt</token>
+    <token token_id="8">jetz</token>
+    <token token_id="9">Samuel</token>
+    <token token_id="10">Koller</token>
+    <token token_id="11">der</token>
+    <token token_id="12">Wollweber</token>
+    <token token_id="13">ahn</token>
+    <token token_id="14">der</token>
+    <token token_id="15">Spalen</token>
+    <token token_id="16">gibt</token>
+    <token token_id="17">jerlich</token>
+    <token token_id="18">von</token>
+    <token token_id="19">seinem</token>
+    <token token_id="20">hauß</token>
+    <token token_id="21">-</token>
+    <token token_id="22">1</token>
+    <token token_id="23">℔</token>
+    <token token_id="24">3ß</token>
+    <token token_id="25">.</token>
+    <token token_id="26">1599</token>
+    <token token_id="27">Samuel</token>
+    <token token_id="28">Koler</token>
+    <token token_id="29">der</token>
+    <token token_id="30">Wullweber</token>
+    <token token_id="31">zuvor</token>
+    <token token_id="32">Niclaus</token>
+    <token token_id="33">Pirgandt</token>
+    <token token_id="34">ahn</token>
+    <token token_id="35">der</token>
+    <token token_id="36">Spalen</token>
+    <token token_id="37">gibt</token>
+    <token token_id="38">jerlich</token>
+    <token token_id="39">von</token>
+    <token token_id="40">seinem</token>
+    <token token_id="41">haus</token>
+    <token token_id="42">in</token>
+    <token token_id="43">geldt</token>
+    <token token_id="44">.</token>
+    <token token_id="45">℔</token>
+    <token token_id="46">3ß</token>
+    <token token_id="47">.</token>
+    <token token_id="48">Ebenso</token>
+    <token token_id="49">1600</token>
+    <token token_id="50">.</token>
+    <token token_id="51">Ebenso</token>
+    <token token_id="52">1602</token>
+    <token token_id="53">.</token>
+    <token token_id="54">Ebenso</token>
+    <token token_id="55">1601</token>
+    <token token_id="56">.</token>
+    <token token_id="57">Ebenso</token>
+    <token token_id="58">1603</token>
+    <token token_id="59">.</token>
+  </text>
+  <spans>
+    <span id="1135" start="0" end="0" text="1598" element="value" class="date" subclass=""/>
+    <span id="1141" start="3" end="4" text="uff Jacobi" element="value" class="date" subclass=""/>
+    <span id="960" start="6" end="7" text="Niclaus Fürgandt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="960_head" start="6" end="7" element="head" class="nam" text="Niclaus Fürgandt" subclass=""/>
+    </span>
+    <span id="1147" start="9" end="15" text="Samuel&#10;Koller der Wollweber ahn der Spalen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="966" start="9" end="10" text="Samuel&#10;Koller" element="head" class="nam" subclass=""/>
+      <span id="972" start="11" end="12" text="der Wollweber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="978" start="12" end="12" text="Wollweber" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1153" start="13" end="15" text="ahn der Spalen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="984" start="14" end="15" text="der Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="990" start="15" end="15" text="Spalen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1184" start="16" end="16" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="996" start="17" end="17" text="jerlich" element="value" class="time" subclass="rec"/>
+    <span id="1002" start="19" end="20" text="seinem hauß" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1159" start="19" end="19" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1014" start="19" end="19" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1014_head" start="19" end="19" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1008" start="20" end="20" text="hauß" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1020" start="22" end="24" text="1 ℔ 3ß" element="value" class="money" subclass=""/>
+    <span id="1026" start="26" end="26" text="1599" element="value" class="date" subclass=""/>
+    <span id="1032" start="27" end="30" text="Samuel Koler der Wullweber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1038" start="27" end="28" text="Samuel Koler" element="head" class="nam" subclass=""/>
+      <span id="1044" start="29" end="30" text="der Wullweber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1050" start="30" end="30" text="Wullweber" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1172" start="32" end="36" text="Niclaus Pirgandt ahn der Spalen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1178" start="32" end="33" text="Niclaus Pirgandt" element="head" class="nam" subclass=""/>
+      <span id="1056" start="34" end="36" text="ahn der Spalen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1062" start="35" end="36" text="der Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1068" start="36" end="36" text="Spalen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1190" start="37" end="37" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1074" start="38" end="38" text="jerlich" element="value" class="time" subclass="rec"/>
+    <span id="1080" start="40" end="41" text="seinem haus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1080_desc_owner" start="40" end="40" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1092" start="40" end="40" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1092_head" start="40" end="40" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1086" start="41" end="41" text="haus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1105" start="45" end="46" text="℔ 3ß" element="value" class="money" subclass=""/>
+    <span id="1111" start="49" end="49" text="1600" element="value" class="date" subclass=""/>
+    <span id="1117" start="52" end="52" text="1602" element="value" class="date" subclass=""/>
+    <span id="1123" start="55" end="55" text="1601" element="value" class="date" subclass=""/>
+    <span id="1129" start="58" end="58" text="1603" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1203" from="1172" to="960" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1165" from="1014" to="1147" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1196" from="1032" to="1147" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1098" from="1092" to="1032" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="15" ref="1153" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="1147" text="Samuel&#10;Koller der Wollweber ahn der Spalen"/>
+        <role role="location-b" ref="984" text="der Spalen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="19" end="19" ref="1159" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1002" text="seinem hauß"/>
+        <role role="owner" ref="1014" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="34" end="36" ref="1056" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1172" text="Niclaus Pirgandt ahn der Spalen"/>
+        <role role="location-b" ref="1062" text="der Spalen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="40" end="40" ref="1080_desc_owner" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1080" text="seinem haus"/>
+        <role role="owner" ref="1092" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="24" ref="" type="event">
+      <trigger start="16" end="16" text="gibt" ref="1184"/>
+      <event event_id="4.0">
+        <role role="date" ref="1135" text="1598"/>
+        <role role="due-date" ref="1141" text="uff Jacobi"/>
+        <role role="previous-payer" ref="960" text="Niclaus Fürgandt"/>
+        <role role="payer" ref="1147" text="Samuel&#10;Koller der Wollweber ahn der Spalen"/>
+        <role role="interval" ref="996" text="jerlich"/>
+        <role role="property" ref="1002" text="seinem hauß"/>
+        <role role="interest" ref="1020" text="1 ℔ 3ß"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-payment" polarity="pos" tense="pres" modality="ass" start="26" end="58" ref="" type="event">
+      <trigger start="37" end="37" text="gibt" ref="1190"/>
+      <event event_id="5.0">
+        <role role="date" ref="1026" text="1599"/>
+        <role role="payer" ref="1032" text="Samuel Koler der Wullweber"/>
+        <role role="previous-payer" ref="1172" text="Niclaus Pirgandt ahn der Spalen"/>
+        <role role="interval" ref="1074" text="jerlich"/>
+        <role role="property" ref="1080" text="seinem haus"/>
+        <role role="interest" ref="1105" text="℔ 3ß"/>
+        <role role="date" ref="1111" text="1600"/>
+        <role role="date" ref="1117" text="1602"/>
+        <role role="date" ref="1123" text="1601"/>
+        <role role="date" ref="1129" text="1603"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

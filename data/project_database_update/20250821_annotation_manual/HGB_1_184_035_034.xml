@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 184/35 S. [34]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schneidergasse 2</tei:title>
+            <tei:idno>HGB 1 184/35</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1512604</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Steinenkloster</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1580">1580</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611146.067081701 1267547.0313328598</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">Niclaus</token>
+    <token token_id="2">Scherers</token>
+    <token token_id="3">saligen</token>
+    <token token_id="4">erben</token>
+    <token token_id="5">gend</token>
+    <token token_id="6">jerlich</token>
+    <token token_id="7">uff</token>
+    <token token_id="8">sontag</token>
+    <token token_id="9">invocavit</token>
+    <token token_id="10">.</token>
+    <token token_id="11">10ß</token>
+    <token token_id="12">.</token>
+    <token token_id="13">Ebenso</token>
+    <token token_id="14">1581</token>
+    <token token_id="15">.</token>
+    <token token_id="16">Ebenso</token>
+    <token token_id="17">1582</token>
+    <token token_id="18">.</token>
+    <token token_id="19">Ebenso</token>
+    <token token_id="20">1583</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Ebenso</token>
+    <token token_id="23">1584</token>
+    <token token_id="24">.</token>
+    <token token_id="25">Ebenso</token>
+    <token token_id="26">1585</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Ebenso</token>
+    <token token_id="29">1586</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Ebenso</token>
+    <token token_id="32">1587</token>
+    <token token_id="33">.</token>
+    <token token_id="34">Ebenso</token>
+    <token token_id="35">1588</token>
+    <token token_id="36">.</token>
+    <token token_id="37">Ebenso</token>
+    <token token_id="38">1589</token>
+    <token token_id="39">.</token>
+    <token token_id="40">Ebenso</token>
+    <token token_id="41">1590</token>
+    <token token_id="42">.</token>
+    <token token_id="43">Ebenso</token>
+    <token token_id="44">1591</token>
+    <token token_id="45">.</token>
+    <token token_id="46">Ebenso</token>
+    <token token_id="47">1592</token>
+    <token token_id="48">Ebenso</token>
+    <token token_id="49">1594</token>
+    <token token_id="50">.</token>
+    <token token_id="51">Ebenso</token>
+    <token token_id="52">1593</token>
+    <token token_id="53">.</token>
+    <token token_id="54">1595</token>
+    <token token_id="55">Niclaus</token>
+    <token token_id="56">Scherer</token>
+    <token token_id="57">des</token>
+    <token token_id="58">Secklers</token>
+    <token token_id="59">seligen</token>
+    <token token_id="60">wittib</token>
+    <token token_id="61">zinßt</token>
+    <token token_id="62">jerlich</token>
+    <token token_id="63">10ß</token>
+    <token token_id="64">.</token>
+    <token token_id="65">uff</token>
+    <token token_id="66">Fasnacht</token>
+    <token token_id="67">Ebenso</token>
+    <token token_id="68">1596</token>
+    <token token_id="69">.</token>
+    <token token_id="70">Ebenso</token>
+    <token token_id="71">1597</token>
+    <token token_id="72">.</token>
+    <token token_id="73">Ebenso</token>
+    <token token_id="74">1598</token>
+    <token token_id="75">.</token>
+    <token token_id="76">Ebenso</token>
+    <token token_id="77">1599</token>
+    <token token_id="78">.</token>
+    <token token_id="79">Ebenso</token>
+    <token token_id="80">1600</token>
+    <token token_id="81">.</token>
+    <token token_id="82">Ebenso</token>
+    <token token_id="83">1601</token>
+    <token token_id="84">.</token>
+    <token token_id="85">Ebenso</token>
+    <token token_id="86">1602</token>
+    <token token_id="87">.</token>
+    <token token_id="88">Ebenso</token>
+    <token token_id="89">1603</token>
+    <token token_id="90">.</token>
+    <token token_id="91">1604</token>
+    <token token_id="92">Marthin</token>
+    <token token_id="93">Kempter</token>
+    <token token_id="94">gibt</token>
+    <token token_id="95">obigen</token>
+    <token token_id="96">Zins</token>
+    <token token_id="97">.</token>
+  </text>
+  <spans>
+    <span id="1541" start="1" end="4" text="Niclaus Scherers saligen erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1547" start="1" end="3" text="Niclaus Scherers saligen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1553" start="1" end="2" text="Niclaus Scherers" element="head" class="nam" subclass=""/>
+        <span id="1559" start="3" end="3" text="saligen" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="1565" start="4" end="4" text="erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="1727" start="5" end="5" text="gend" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1571" start="6" end="6" text="jerlich" element="value" class="time" subclass="rec"/>
+    <span id="1577" start="7" end="9" text="uff sontag invocavit" element="value" class="date" subclass=""/>
+    <span id="1583" start="11" end="11" text="10ß" element="value" class="money" subclass=""/>
+    <span id="1589" start="14" end="14" text="1581" element="value" class="date" subclass=""/>
+    <span id="1595" start="17" end="17" text="1582" element="value" class="date" subclass=""/>
+    <span id="1601" start="20" end="20" text="1583" element="value" class="date" subclass=""/>
+    <span id="1607" start="23" end="23" text="1584" element="value" class="date" subclass=""/>
+    <span id="1613" start="26" end="26" text="1585" element="value" class="date" subclass=""/>
+    <span id="1619" start="29" end="29" text="1586" element="value" class="date" subclass=""/>
+    <span id="1625" start="32" end="32" text="1587" element="value" class="date" subclass=""/>
+    <span id="1631" start="35" end="35" text="1588" element="value" class="date" subclass=""/>
+    <span id="1637" start="38" end="38" text="1589" element="value" class="date" subclass=""/>
+    <span id="1643" start="41" end="41" text="1590" element="value" class="date" subclass=""/>
+    <span id="1649" start="44" end="44" text="1591" element="value" class="date" subclass=""/>
+    <span id="1655" start="47" end="47" text="1592" element="value" class="date" subclass=""/>
+    <span id="1661" start="49" end="49" text="1594" element="value" class="date" subclass=""/>
+    <span id="1667" start="52" end="52" text="1593" element="value" class="date" subclass=""/>
+    <span id="1673" start="54" end="54" text="1595" element="value" class="date" subclass=""/>
+    <span id="1679" start="55" end="60" text="Niclaus&#10;Scherer des Secklers seligen wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1691" start="55" end="59" text="Niclaus&#10;Scherer des Secklers seligen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1697" start="55" end="56" text="Niclaus&#10;Scherer" element="head" class="nam" subclass=""/>
+        <span id="1703" start="57" end="58" text="des Secklers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1709" start="58" end="58" text="Secklers" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1715" start="59" end="59" text="seligen" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="1685" start="60" end="60" text="wittib" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="1740" start="61" end="61" text="zinßt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1746" start="62" end="62" text="jerlich" element="value" class="time" subclass="rec"/>
+    <span id="1752" start="63" end="63" text="10ß" element="value" class="money" subclass=""/>
+    <span id="1758" start="65" end="66" text="uff Fasnacht" element="value" class="date" subclass=""/>
+    <span id="1764" start="68" end="68" text="1596" element="value" class="date" subclass=""/>
+    <span id="1770" start="71" end="71" text="1597" element="value" class="date" subclass=""/>
+    <span id="1776" start="74" end="74" text="1598" element="value" class="date" subclass=""/>
+    <span id="1782" start="77" end="77" text="1599" element="value" class="date" subclass=""/>
+    <span id="1788" start="80" end="80" text="1600" element="value" class="date" subclass=""/>
+    <span id="1794" start="83" end="83" text="1601" element="value" class="date" subclass=""/>
+    <span id="1800" start="86" end="86" text="1602" element="value" class="date" subclass=""/>
+    <span id="1806" start="89" end="89" text="1603" element="value" class="date" subclass=""/>
+    <span id="1818" start="91" end="91" text="1604" element="value" class="date" subclass=""/>
+    <span id="1824" start="92" end="93" text="Marthin&#10;Kempter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1824_head" start="92" end="93" element="head" class="nam" text="Marthin Kempter" subclass=""/>
+    </span>
+    <span id="1830" start="94" end="94" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="1836" start="96" end="96" text="Zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1733" from="1691" to="1547" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1842" from="1836" to="1740" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="1" end="4" ref="1541" type="event">
+      <trigger start="4" end="4" text="erben" ref="1565"/>
+      <event event_id="0.0">
+        <role role="heir" ref="1541" text="Niclaus Scherers saligen erben"/>
+        <role role="decedent" ref="1547" text="Niclaus Scherers saligen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="55" end="60" ref="1679" type="state">
+      <trigger start="60" end="60" text="wittib" ref="1685"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1679" text="Niclaus&#10;Scherer des Secklers seligen wittib"/>
+        <role role="family-b" ref="1691" text="Niclaus&#10;Scherer des Secklers seligen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="1" end="52" ref="" type="event">
+      <trigger start="5" end="5" text="gend" ref="1727"/>
+      <event event_id="2.0">
+        <role role="payer" ref="1541" text="Niclaus Scherers saligen erben"/>
+        <role role="interval" ref="1571" text="jerlich"/>
+        <role role="due-date" ref="1577" text="uff sontag invocavit"/>
+        <role role="interest" ref="1583" text="10ß"/>
+        <role role="date" ref="1589" text="1581"/>
+        <role role="date" ref="1595" text="1582"/>
+        <role role="date" ref="1601" text="1583"/>
+        <role role="date" ref="1607" text="1584"/>
+        <role role="date" ref="1613" text="1585"/>
+        <role role="date" ref="1619" text="1586"/>
+        <role role="date" ref="1625" text="1587"/>
+        <role role="date" ref="1631" text="1588"/>
+        <role role="date" ref="1637" text="1589"/>
+        <role role="date" ref="1643" text="1590"/>
+        <role role="date" ref="1649" text="1591"/>
+        <role role="date" ref="1655" text="1592"/>
+        <role role="date" ref="1661" text="1594"/>
+        <role role="date" ref="1667" text="1593"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="54" end="89" ref="" type="event">
+      <trigger start="61" end="61" text="zinßt" ref="1740"/>
+      <event event_id="3.0">
+        <role role="date" ref="1673" text="1595"/>
+        <role role="payer" ref="1679" text="Niclaus&#10;Scherer des Secklers seligen wittib"/>
+        <role role="interval" ref="1746" text="jerlich"/>
+        <role role="interest" ref="1752" text="10ß"/>
+        <role role="due-date" ref="1758" text="uff Fasnacht"/>
+        <role role="date" ref="1764" text="1596"/>
+        <role role="date" ref="1770" text="1597"/>
+        <role role="date" ref="1776" text="1598"/>
+        <role role="date" ref="1782" text="1599"/>
+        <role role="date" ref="1788" text="1600"/>
+        <role role="date" ref="1794" text="1601"/>
+        <role role="date" ref="1800" text="1602"/>
+        <role role="date" ref="1806" text="1603"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="pos" tense="pres" modality="ass" start="91" end="96" ref="" type="event">
+      <trigger start="94" end="94" text="gibt" ref="1830"/>
+      <event event_id="4.0">
+        <role role="date" ref="1818" text="1604"/>
+        <role role="payer" ref="1824" text="Marthin&#10;Kempter"/>
+        <role role="previous-due" ref="1836" text="Zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-payment" polarity="pos" tense="pres" modality="ass" start="96" end="96" ref="" type="event">
+      <trigger start="96" end="96" text="Zins" ref="1836"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

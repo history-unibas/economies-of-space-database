@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 24/111 S. [42]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Barfüsserplatz 24</tei:title>
+            <tei:idno>HGB 1 24/111</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1463039</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1664">1664</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611310.367480519 1267170.9716202524</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Notariats</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Weiland</token>
+    <token token_id="4">Meister</token>
+    <token token_id="5">Hans</token>
+    <token token_id="6">Ulrich</token>
+    <token token_id="7">Hoppen</token>
+    <token token_id="8">dess</token>
+    <token token_id="9">Messer</token>
+    <token token_id="10">¬</token>
+    <token token_id="11">Krämers</token>
+    <token token_id="12">sel</token>
+    <token token_id="13">.</token>
+    <token token_id="14">und</token>
+    <token token_id="15">der</token>
+    <token token_id="16">Sara</token>
+    <token token_id="17">Schneiderin</token>
+    <token token_id="18">Kinder</token>
+    <token token_id="19">und</token>
+    <token token_id="20">Sara</token>
+    <token token_id="21">Schneiderin</token>
+    <token token_id="22">verkaufen</token>
+    <token token_id="23">Herren</token>
+    <token token_id="24">Ema</token>
+    <token token_id="25">¬</token>
+    <token token_id="26">nuel</token>
+    <token token_id="27">Cellario</token>
+    <token token_id="28">und</token>
+    <token token_id="29">seiner</token>
+    <token token_id="30">Ehefrauen</token>
+    <token token_id="31">Barbara</token>
+    <token token_id="32">Brannin</token>
+    <token token_id="33">die</token>
+    <token token_id="34">Behausung</token>
+    <token token_id="35">und</token>
+    <token token_id="36">Hofstat</token>
+    <token token_id="37">,</token>
+    <token token_id="38">wie</token>
+    <token token_id="39">solche</token>
+    <token token_id="40">oben</token>
+    <token token_id="41">an</token>
+    <token token_id="42">der</token>
+    <token token_id="43">Gerbergassen</token>
+    <token token_id="44">,</token>
+    <token token_id="45">einseit</token>
+    <token token_id="46">neben</token>
+    <token token_id="47">Meister</token>
+    <token token_id="48">Jacob</token>
+    <token token_id="49">Maurer</token>
+    <token token_id="50">dem</token>
+    <token token_id="51">Kupferschmidt</token>
+    <token token_id="52">,</token>
+    <token token_id="53">anderseit</token>
+    <token token_id="54">und</token>
+    <token token_id="55">hinden</token>
+    <token token_id="56">an</token>
+    <token token_id="57">Frauen</token>
+    <token token_id="58">Verena</token>
+    <token token_id="59">Schwerzerin</token>
+    <token token_id="60">gelegen</token>
+    <token token_id="61">,</token>
+    <token token_id="62">ist</token>
+    <token token_id="63">,</token>
+    <token token_id="64">ist</token>
+    <token token_id="65">verhaftet</token>
+    <token token_id="66">der</token>
+    <token token_id="67">Kirchen</token>
+    <token token_id="68">zu</token>
+    <token token_id="69">St</token>
+    <token token_id="70">.</token>
+    <token token_id="71">Martin</token>
+    <token token_id="72">um</token>
+    <token token_id="73">50</token>
+    <token token_id="74">℔</token>
+    <token token_id="75">.</token>
+    <token token_id="76">Capital</token>
+    <token token_id="77">12</token>
+    <token token_id="78">℔</token>
+    <token token_id="79">.</token>
+    <token token_id="80">10sh</token>
+    <token token_id="81">.</token>
+    <token token_id="82">Zins</token>
+    <token token_id="83">,</token>
+    <token token_id="84">dessglichen</token>
+    <token token_id="85">gegen</token>
+    <token token_id="86">den</token>
+    <token token_id="87">Obristen</token>
+    <token token_id="88">Zunftmeister</token>
+    <token token_id="89">Benedict</token>
+    <token token_id="90">Socin</token>
+    <token token_id="91">um</token>
+    <token token_id="92">50</token>
+    <token token_id="93">℔</token>
+    <token token_id="94">,</token>
+    <token token_id="95">gegen</token>
+    <token token_id="96">der</token>
+    <token token_id="97">Ver</token>
+    <token token_id="98">¬</token>
+    <token token_id="99">kaufferin</token>
+    <token token_id="100">Bruder</token>
+    <token token_id="101">Hans</token>
+    <token token_id="102">Schneider</token>
+    <token token_id="103">für</token>
+    <token token_id="104">450</token>
+    <token token_id="105">℔</token>
+    <token token_id="106">,</token>
+    <token token_id="107">um</token>
+    <token token_id="108">100</token>
+    <token token_id="109">℔</token>
+    <token token_id="110">.</token>
+    <token token_id="111">zusamt</token>
+    <token token_id="112">einer</token>
+    <token token_id="113">Verehrung</token>
+    <token token_id="114">nach</token>
+    <token token_id="115">des</token>
+    <token token_id="116">Käufers</token>
+    <token token_id="117">Disertion</token>
+    <token token_id="118">an</token>
+    <token token_id="119">die</token>
+    <token token_id="120">Verkäuferin</token>
+    <token token_id="121">.</token>
+  </text>
+  <spans>
+    <span id="1833" start="3" end="21" text="Weiland Meister Hans Ulrich Hoppen dess Messer ¬&#10;Krämers sel . und der Sara Schneiderin Kinder&#10;und Sara Schneiderin" element="list" class="per" subclass="">
+      <span id="1839" start="3" end="18" text="Weiland Meister Hans Ulrich Hoppen dess Messer ¬&#10;Krämers sel . und der Sara Schneiderin Kinder" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1863" start="4" end="13" text="Meister Hans Ulrich Hoppen dess Messer ¬&#10;Krämers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1875" start="4" end="4" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1875_head" start="4" end="4" element="head" class="title" text="Meister" subclass=""/>
+          </span>
+          <span id="1869" start="5" end="7" text="Hans Ulrich Hoppen" element="head" class="nam" subclass=""/>
+          <span id="1881" start="8" end="11" text="dess Messer ¬&#10;Krämers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1887" start="9" end="11" text="Messer ¬&#10;Krämers" element="head" class="occ" subclass=""/>
+          </span>
+          <span id="1893" start="12" end="13" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+        <span id="1851" start="15" end="17" text="der Sara Schneiderin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1857" start="16" end="17" text="Sara Schneiderin" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1845" start="18" end="18" text="Kinder" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="1899" start="20" end="21" text="Sara Schneiderin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1899_head" start="20" end="21" element="head" class="nam" text="Sara Schneiderin" subclass=""/>
+      </span>
+    </span>
+    <span id="2198" start="22" end="22" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1912" start="23" end="32" text="Herren Ema ¬&#10;nuel Cellario und seiner Ehefrauen Barbara&#10;Brannin" element="list" class="per" subclass="">
+      <span id="1918" start="23" end="27" text="Herren Ema ¬&#10;nuel Cellario" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1924" start="24" end="27" text="Ema ¬&#10;nuel Cellario" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1930" start="29" end="32" text="seiner Ehefrauen Barbara&#10;Brannin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1942" start="29" end="30" text="seiner Ehefrauen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1954" start="29" end="29" text="seiner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1954_head" start="29" end="29" element="head" class="pro" text="seiner" subclass=""/>
+          </span>
+          <span id="1948" start="30" end="30" text="Ehefrauen" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1936" start="31" end="32" text="Barbara&#10;Brannin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1967" start="33" end="105" text="die Behausung und Hofstat , wie solche&#10;oben an der Gerbergassen , einseit neben Meister&#10;Jacob Maurer dem Kupferschmidt , anderseit und&#10;hinden an Frauen Verena Schwerzerin gelegen ,&#10;ist , ist verhaftet der Kirchen zu St . Martin um 50 ℔.&#10;Capital 12 ℔. 10sh . Zins , dessglichen gegen den Obristen&#10;Zunftmeister Benedict Socin um 50 ℔, gegen der Ver ¬&#10;kaufferin Bruder Hans Schneider für 450 ℔" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1973" start="34" end="36" text="Behausung und Hofstat" element="head" class="type" subclass=""/>
+      <span id="1979" start="38" end="62" text="wie solche&#10;oben an der Gerbergassen , einseit neben Meister&#10;Jacob Maurer dem Kupferschmidt , anderseit und&#10;hinden an Frauen Verena Schwerzerin gelegen ,&#10;ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1985" start="42" end="43" text="der Gerbergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1991" start="43" end="43" text="Gerbergassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1997" start="47" end="51" text="Meister&#10;Jacob Maurer dem Kupferschmidt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2021" start="47" end="47" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2021_head" start="47" end="47" element="head" class="title" text="Meister" subclass=""/>
+          </span>
+          <span id="2003" start="48" end="49" text="Jacob Maurer" element="head" class="nam" subclass=""/>
+          <span id="2009" start="50" end="51" text="dem Kupferschmidt" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2015" start="51" end="51" text="Kupferschmidt" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="2027" start="57" end="59" text="Frauen Verena Schwerzerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2033" start="58" end="59" text="Verena Schwerzerin" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="2039" start="64" end="105" text="ist verhaftet der Kirchen zu St . Martin um 50 ℔.&#10;Capital 12 ℔. 10sh . Zins , dessglichen gegen den Obristen&#10;Zunftmeister Benedict Socin um 50 ℔, gegen der Ver ¬&#10;kaufferin Bruder Hans Schneider für 450 ℔" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2204" start="65" end="65" text="verhaftet" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2045" start="66" end="71" text="der Kirchen zu St . Martin" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2051" start="69" end="71" text="St . Martin" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2057" start="73" end="74" text="50 ℔" element="value" class="money" subclass=""/>
+        <span id="2063" start="77" end="81" text="12 ℔. 10sh ." element="value" class="money" subclass=""/>
+        <span id="2069" start="86" end="90" text="den Obristen&#10;Zunftmeister Benedict Socin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2081" start="87" end="87" text="Obristen" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2081_head" start="87" end="87" element="head" class="title" text="Obristen" subclass=""/>
+          </span>
+          <span id="2087" start="88" end="88" text="Zunftmeister" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+            <span id="2087_head" start="88" end="88" element="head" class="occ" text="Zunftmeister" subclass="org-job"/>
+          </span>
+          <span id="2075" start="89" end="90" text="Benedict Socin" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2093" start="92" end="93" text="50 ℔" element="value" class="money" subclass=""/>
+        <span id="2099" start="96" end="102" text="der Ver ¬&#10;kaufferin Bruder Hans Schneider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2111" start="96" end="100" text="der Ver ¬&#10;kaufferin Bruder" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2123" start="96" end="99" text="der Ver ¬&#10;kaufferin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2129" start="97" end="99" text="Ver ¬&#10;kaufferin" element="head" class="role" subclass=""/>
+            </span>
+            <span id="2117" start="100" end="100" text="Bruder" element="head" class="fam" subclass=""/>
+          </span>
+          <span id="2105" start="101" end="102" text="Hans Schneider" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2142" start="104" end="105" text="450 ℔" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="2148" start="108" end="110" text="100 ℔." element="value" class="money" subclass=""/>
+    <span id="2210" start="111" end="121" text="zusamt einer Verehrung nach des Käufers Disertion&#10;an die Verkäuferin ." element="other" class="other" subclass="">
+      <span id="2154" start="115" end="116" text="des Käufers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2160" start="116" end="116" text="Käufers" element="head" class="role" subclass=""/>
+      </span>
+      <span id="2173" start="119" end="120" text="die Verkäuferin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2179" start="120" end="120" text="Verkäuferin" element="head" class="role" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1905" from="1899" to="1851" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2135" from="2123" to="1899" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1960" from="1954" to="1918" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2166" from="2154" to="1918" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2185" from="2173" to="2123" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2204_role" from="2204" to="1967" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="3" end="18" ref="1839" type="state">
+      <trigger start="18" end="18" text="Kinder" ref="1845"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1839" text="Weiland Meister Hans Ulrich Hoppen dess Messer ¬&#10;Krämers sel . und der Sara Schneiderin Kinder"/>
+        <role role="family-b" ref="1863" text="Meister Hans Ulrich Hoppen dess Messer ¬&#10;Krämers sel ."/>
+        <role role="family-b" ref="1851" text="der Sara Schneiderin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="29" end="30" ref="1942" type="state">
+      <trigger start="30" end="30" text="Ehefrauen" ref="1948"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1930" text="seiner Ehefrauen Barbara&#10;Brannin"/>
+        <role role="family-b" ref="1954" text="seiner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="96" end="100" ref="2111" type="state">
+      <trigger start="100" end="100" text="Bruder" ref="2117"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="2099" text="der Ver ¬&#10;kaufferin Bruder Hans Schneider"/>
+        <role role="family-b" ref="2123" text="der Ver ¬&#10;kaufferin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="38" end="62" ref="1979" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1967" text="die Behausung und Hofstat , wie solche&#10;oben an der Gerbergassen , einseit neben Meister&#10;Jacob Maurer dem Kupferschmidt , anderseit und&#10;hinden an Frauen Verena Schwerzerin gelegen ,&#10;ist , ist verhaftet der Kirchen zu St . Martin um 50 ℔.&#10;Capital 12 ℔. 10sh . Zins , dessglichen gegen den Obristen&#10;Zunftmeister Benedict Socin um 50 ℔, gegen der Ver ¬&#10;kaufferin Bruder Hans Schneider für 450 ℔"/>
+        <role role="location-b" ref="1985" text="der Gerbergassen"/>
+        <role role="location-b" ref="1997" text="Meister&#10;Jacob Maurer dem Kupferschmidt"/>
+        <role role="location-b" ref="2027" text="Frauen Verena Schwerzerin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="22" end="22" ref="" type="event">
+      <trigger start="22" end="22" text="verkaufen" ref="2198"/>
+      <event event_id="4.0">
+        <role role="seller" ref="1839" text="Weiland Meister Hans Ulrich Hoppen dess Messer ¬&#10;Krämers sel . und der Sara Schneiderin Kinder"/>
+        <role role="seller" ref="1899" text="Sara Schneiderin"/>
+        <role role="buyer" ref="1918" text="Herren Ema ¬&#10;nuel Cellario"/>
+        <role role="buyer" ref="1930" text="seiner Ehefrauen Barbara&#10;Brannin"/>
+        <role role="property" ref="1967" text="die Behausung und Hofstat , wie solche&#10;oben an der Gerbergassen , einseit neben Meister&#10;Jacob Maurer dem Kupferschmidt , anderseit und&#10;hinden an Frauen Verena Schwerzerin gelegen ,&#10;ist , ist verhaftet der Kirchen zu St . Martin um 50 ℔.&#10;Capital 12 ℔. 10sh . Zins , dessglichen gegen den Obristen&#10;Zunftmeister Benedict Socin um 50 ℔, gegen der Ver ¬&#10;kaufferin Bruder Hans Schneider für 450 ℔"/>
+        <role role="price" ref="2148" text="100 ℔."/>
+        <role role="detail_other" ref="2210" text="zusamt einer Verehrung nach des Käufers Disertion&#10;an die Verkäuferin ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="33" end="65" ref="2039" type="state">
+      <trigger start="65" end="65" text="verhaftet" ref="2204"/>
+      <event event_id="5.0">
+        <role role="beneficiary" ref="2045" text="der Kirchen zu St . Martin"/>
+        <role role="capital" ref="2057" text="50 ℔"/>
+        <role role="interest" ref="2063" text="12 ℔. 10sh ."/>
+        <role role="property" ref="1967" text="die Behausung und Hofstat , wie solche&#10;oben an der Gerbergassen , einseit neben Meister&#10;Jacob Maurer dem Kupferschmidt , anderseit und&#10;hinden an Frauen Verena Schwerzerin gelegen ,&#10;ist , ist verhaftet der Kirchen zu St . Martin um 50 ℔.&#10;Capital 12 ℔. 10sh . Zins , dessglichen gegen den Obristen&#10;Zunftmeister Benedict Socin um 50 ℔, gegen der Ver ¬&#10;kaufferin Bruder Hans Schneider für 450 ℔"/>
+      </event>
+      <event event_id="5.1">
+        <role role="beneficiary" ref="2069" text="den Obristen&#10;Zunftmeister Benedict Socin"/>
+        <role role="capital" ref="2093" text="50 ℔"/>
+        <role role="property" ref="1967" text="die Behausung und Hofstat , wie solche&#10;oben an der Gerbergassen , einseit neben Meister&#10;Jacob Maurer dem Kupferschmidt , anderseit und&#10;hinden an Frauen Verena Schwerzerin gelegen ,&#10;ist , ist verhaftet der Kirchen zu St . Martin um 50 ℔.&#10;Capital 12 ℔. 10sh . Zins , dessglichen gegen den Obristen&#10;Zunftmeister Benedict Socin um 50 ℔, gegen der Ver ¬&#10;kaufferin Bruder Hans Schneider für 450 ℔"/>
+      </event>
+      <event event_id="5.2">
+        <role role="beneficiary" ref="2099" text="der Ver ¬&#10;kaufferin Bruder Hans Schneider"/>
+        <role role="capital" ref="2142" text="450 ℔"/>
+        <role role="property" ref="1967" text="die Behausung und Hofstat , wie solche&#10;oben an der Gerbergassen , einseit neben Meister&#10;Jacob Maurer dem Kupferschmidt , anderseit und&#10;hinden an Frauen Verena Schwerzerin gelegen ,&#10;ist , ist verhaftet der Kirchen zu St . Martin um 50 ℔.&#10;Capital 12 ℔. 10sh . Zins , dessglichen gegen den Obristen&#10;Zunftmeister Benedict Socin um 50 ℔, gegen der Ver ¬&#10;kaufferin Bruder Hans Schneider für 450 ℔"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 51/85 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Elisabethenstrasse 30</tei:title>
+            <tei:idno>HGB 1 51/85</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1466515</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1437">1437</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611464.6488600946 1266739.7397793788</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Mr</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Heinrich</token>
+    <token token_id="3">Stempffer</token>
+    <token token_id="4">an</token>
+    <token token_id="5">den</token>
+    <token token_id="6">Steinen</token>
+    <token token_id="7">,</token>
+    <token token_id="8">verkauft</token>
+    <token token_id="9">an</token>
+    <token token_id="10">Peter</token>
+    <token token_id="11">Spengler</token>
+    <token token_id="12">den</token>
+    <token token_id="13">grautucher</token>
+    <token token_id="14">,</token>
+    <token token_id="15">einen</token>
+    <token token_id="16">garten</token>
+    <token token_id="17">gegen</token>
+    <token token_id="18">in</token>
+    <token token_id="19">der</token>
+    <token token_id="20">sostat</token>
+    <token token_id="21">an</token>
+    <token token_id="22">den</token>
+    <token token_id="23">Spittalchesen</token>
+    <token token_id="24">,</token>
+    <token token_id="25">zwachen</token>
+    <token token_id="26">Stoffels</token>
+    <token token_id="27">des</token>
+    <token token_id="28">scherers</token>
+    <token token_id="29">u</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Conratz</token>
+    <token token_id="32">von</token>
+    <token token_id="33">Rinfelden</token>
+    <token token_id="34">des</token>
+    <token token_id="35">zinset</token>
+    <token token_id="36">voneig</token>
+    <token token_id="37">dem</token>
+    <token token_id="38">Spital</token>
+    <token token_id="39">8sh</token>
+    <token token_id="40">.</token>
+    <token token_id="41">u</token>
+    <token token_id="42">.</token>
+    <token token_id="43">1</token>
+    <token token_id="44">hun</token>
+    <token token_id="45">och</token>
+    <token token_id="46">wisung</token>
+    <token token_id="47">,</token>
+    <token token_id="48">u</token>
+    <token token_id="49">.</token>
+    <token token_id="50">1</token>
+    <token token_id="51">hun</token>
+    <token token_id="52">erschatz</token>
+    <token token_id="53">,</token>
+    <token token_id="54">sum</token>
+    <token token_id="55">22</token>
+    <token token_id="56">fl</token>
+    <token token_id="57">.</token>
+  </text>
+  <spans>
+    <span id="930" start="0" end="6" text="Mr . Heinrich Stempffer an den Steinen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="936" start="2" end="3" text="Heinrich Stempffer" element="head" class="nam" subclass=""/>
+      <span id="942" start="4" end="6" text="an den Steinen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="948" start="5" end="6" text="den Steinen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="954" start="6" end="6" text="Steinen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1116" start="8" end="8" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="960" start="10" end="13" text="Peter Spengler den grautucher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="966" start="10" end="11" text="Peter Spengler" element="head" class="nam" subclass=""/>
+      <span id="972" start="12" end="13" text="den grautucher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="978" start="13" end="13" text="grautucher" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="984" start="15" end="52" text="einen garten&#10;gegen in der sostat an den Spittalchesen , zwachen&#10;Stoffels des scherers u . Conratz von Rinfelden des&#10;zinset voneig dem Spital 8sh .&#10;u . 1 hun och wisung , u . 1 hun erschatz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="990" start="16" end="16" text="garten" element="head" class="type" subclass=""/>
+      <span id="996" start="17" end="34" text="gegen in der sostat an den Spittalchesen , zwachen&#10;Stoffels des scherers u . Conratz von Rinfelden des" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1002" start="19" end="20" text="der sostat" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1008" start="20" end="20" text="sostat" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1020" start="22" end="23" text="den Spittalchesen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1026" start="23" end="23" text="Spittalchesen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1038" start="26" end="28" text="Stoffels des scherers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1044" start="26" end="26" text="Stoffels" element="head" class="nam" subclass=""/>
+          <span id="1050" start="27" end="28" text="des scherers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1056" start="28" end="28" text="scherers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1062" start="31" end="34" text="Conratz von Rinfelden des" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1068" start="31" end="31" text="Conratz" element="head" class="nam" subclass=""/>
+          <span id="1074" start="32" end="33" text="von Rinfelden" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1080" start="33" end="33" text="Rinfelden" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1080_head" start="33" end="33" element="head" class="nam" text="Rinfelden" subclass=""/>
+            </span>
+          </span>
+          <span id="1086" start="34" end="34" text="des" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1086_head" start="34" end="34" element="head" class="occ" text="des" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1110" start="35" end="52" text="zinset voneig dem Spital 8sh .&#10;u . 1 hun och wisung , u . 1 hun erschatz" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1140" start="35" end="35" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1146" start="36" end="36" text="voneig" element="other" class="other" subclass=""/>
+        <span id="1152" start="37" end="38" text="dem Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1158" start="38" end="38" text="Spital" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1164" start="39" end="40" text="8sh ." element="value" class="money" subclass=""/>
+        <span id="1092" start="43" end="44" text="1 hun" element="value" class="money" subclass=""/>
+        <span id="1122" start="46" end="46" text="wisung" element="other" class="other" subclass=""/>
+        <span id="1098" start="50" end="51" text="1 hun" element="value" class="money" subclass=""/>
+        <span id="1128" start="52" end="52" text="erschatz" element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="1104" start="55" end="57" text="22 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="4" end="6" ref="942" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="930" text="Mr . Heinrich Stempffer an den Steinen"/>
+        <role role="location-b" ref="948" text="den Steinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="34" ref="996" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="984" text="einen garten&#10;gegen in der sostat an den Spittalchesen , zwachen&#10;Stoffels des scherers u . Conratz von Rinfelden des&#10;zinset voneig dem Spital 8sh .&#10;u . 1 hun och wisung , u . 1 hun erschatz"/>
+        <role role="location-b" ref="1002" text="der sostat"/>
+        <role role="location-b" ref="1020" text="den Spittalchesen"/>
+        <role role="location-b" ref="1038" text="Stoffels des scherers"/>
+        <role role="location-b" ref="1062" text="Conratz von Rinfelden des"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="32" end="33" ref="1074" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1062" text="Conratz von Rinfelden des"/>
+        <role role="location-b" ref="1080" text="Rinfelden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="35" end="52" ref="1110" type="state">
+      <trigger start="35" end="35" text="zinset" ref="1140"/>
+      <event event_id="3.0">
+        <role role="property" ref="984" text="einen garten&#10;gegen in der sostat an den Spittalchesen , zwachen&#10;Stoffels des scherers u . Conratz von Rinfelden des&#10;zinset voneig dem Spital 8sh .&#10;u . 1 hun och wisung , u . 1 hun erschatz"/>
+        <role role="interest" ref="1092" text="1 hun"/>
+        <role role="cause" ref="1122" text="wisung"/>
+      </event>
+      <event event_id="3.1">
+        <role role="property" ref="984" text="einen garten&#10;gegen in der sostat an den Spittalchesen , zwachen&#10;Stoffels des scherers u . Conratz von Rinfelden des&#10;zinset voneig dem Spital 8sh .&#10;u . 1 hun och wisung , u . 1 hun erschatz"/>
+        <role role="interest" ref="1098" text="1 hun"/>
+        <role role="cause" ref="1128" text="erschatz"/>
+      </event>
+      <event event_id="3.2">
+        <role role="property" ref="984" text="einen garten&#10;gegen in der sostat an den Spittalchesen , zwachen&#10;Stoffels des scherers u . Conratz von Rinfelden des&#10;zinset voneig dem Spital 8sh .&#10;u . 1 hun och wisung , u . 1 hun erschatz"/>
+        <role role="cause" ref="1146" text="voneig"/>
+        <role role="interest" ref="1164" text="8sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="verkauft" ref="1116"/>
+      <event event_id="4.0">
+        <role role="seller" ref="930" text="Mr . Heinrich Stempffer an den Steinen"/>
+        <role role="buyer" ref="960" text="Peter Spengler den grautucher"/>
+        <role role="property" ref="984" text="einen garten&#10;gegen in der sostat an den Spittalchesen , zwachen&#10;Stoffels des scherers u . Conratz von Rinfelden des&#10;zinset voneig dem Spital 8sh .&#10;u . 1 hun och wisung , u . 1 hun erschatz"/>
+        <role role="price" ref="1104" text="22 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

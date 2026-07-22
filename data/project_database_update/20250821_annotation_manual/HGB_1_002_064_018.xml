@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 2/64 S. [18]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Aeschenvorstadt 59, 57</tei:title>
+            <tei:idno>HGB 1 2/64</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1432865</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1641">1641</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611684.3960080906 1266842.7887351713</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">In</token>
+    <token token_id="1">sant</token>
+    <token token_id="2">Ulrici</token>
+    <token token_id="3">.</token>
+    <token token_id="4">1641</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Jacob</token>
+    <token token_id="7">Hafferer</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Schmidt</token>
+    <token token_id="10">,</token>
+    <token token_id="11">gibt</token>
+    <token token_id="12">von</token>
+    <token token_id="13">seinem</token>
+    <token token_id="14">Haus</token>
+    <token token_id="15">in</token>
+    <token token_id="16">Eschemer</token>
+    <token token_id="17">Vorstatt</token>
+    <token token_id="18">auff</token>
+    <token token_id="19">den</token>
+    <token token_id="20">heiligen</token>
+    <token token_id="21">Oster</token>
+    <token token_id="22">¬</token>
+    <token token_id="23">tag</token>
+    <token token_id="24">10</token>
+    <token token_id="25">℔</token>
+    <token token_id="26">.</token>
+    <token token_id="27">Ebenso</token>
+    <token token_id="28">.</token>
+    <token token_id="29">1642</token>
+    <token token_id="30">.</token>
+    <token token_id="31">1643</token>
+    <token token_id="32">.</token>
+    <token token_id="33">1644</token>
+    <token token_id="34">.</token>
+    <token token_id="35">1645</token>
+    <token token_id="36">.</token>
+    <token token_id="37">1646</token>
+    <token token_id="38">.</token>
+    <token token_id="39">1647</token>
+    <token token_id="40">.</token>
+    <token token_id="41">Jacob</token>
+    <token token_id="42">Schöllin</token>
+    <token token_id="43">der</token>
+    <token token_id="44">Grempper</token>
+    <token token_id="45">gibt</token>
+    <token token_id="46">nun</token>
+    <token token_id="47">den</token>
+    <token token_id="48">zins</token>
+    <token token_id="49">.</token>
+  </text>
+  <spans>
+    <span id="756" start="1" end="2" text="sant Ulrici" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="756_head" start="1" end="2" element="head" class="nam" text="sant Ulrici" subclass=""/>
+    </span>
+    <span id="762" start="4" end="4" text="1641" element="value" class="date" subclass=""/>
+    <span id="768" start="6" end="9" text="Jacob Hafferer der Schmidt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="774" start="6" end="7" text="Jacob Hafferer" element="head" class="nam" subclass=""/>
+      <span id="780" start="8" end="9" text="der Schmidt" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="786" start="9" end="9" text="Schmidt" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="907" start="11" end="11" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="792" start="13" end="17" text="seinem&#10;Haus in Eschemer Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="804" start="13" end="13" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="810" start="13" end="13" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="810_head" start="13" end="13" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="798" start="14" end="14" text="Haus" element="head" class="type" subclass=""/>
+      <span id="823" start="15" end="17" text="in Eschemer Vorstatt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="829" start="16" end="17" text="Eschemer Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="829_head" start="16" end="17" element="head" class="nam" text="Eschemer Vorstatt" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="835" start="18" end="23" text="auff den heiligen Oster ¬&#10;tag" element="value" class="date" subclass=""/>
+    <span id="841" start="24" end="26" text="10 ℔." element="value" class="money" subclass=""/>
+    <span id="847" start="29" end="29" text="1642" element="value" class="date" subclass=""/>
+    <span id="853" start="31" end="31" text="1643" element="value" class="date" subclass=""/>
+    <span id="859" start="33" end="33" text="1644" element="value" class="date" subclass=""/>
+    <span id="865" start="35" end="35" text="1645" element="value" class="date" subclass=""/>
+    <span id="871" start="37" end="37" text="1646" element="value" class="date" subclass=""/>
+    <span id="877" start="39" end="39" text="1647" element="value" class="date" subclass=""/>
+    <span id="883" start="41" end="44" text="Jacob Schöllin der Grempper" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="889" start="41" end="42" text="Jacob Schöllin" element="head" class="nam" subclass=""/>
+      <span id="895" start="43" end="44" text="der Grempper" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="901" start="44" end="44" text="Grempper" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="919" start="45" end="45" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="925" start="48" end="48" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+  </spans>
+  <relations>
+    <relation id="816" from="810" to="768" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="13" end="13" ref="804" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="792" text="seinem&#10;Haus in Eschemer Vorstatt"/>
+        <role role="owner" ref="810" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="17" ref="823" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="792" text="seinem&#10;Haus in Eschemer Vorstatt"/>
+        <role role="location-b" ref="829" text="Eschemer Vorstatt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="1" end="37" ref="" type="event">
+      <trigger start="11" end="11" text="gibt" ref="907"/>
+      <event event_id="2.0">
+        <role role="place" ref="756" text="sant Ulrici"/>
+        <role role="date" ref="762" text="1641"/>
+        <role role="payer" ref="768" text="Jacob Hafferer der Schmidt"/>
+        <role role="property" ref="792" text="seinem&#10;Haus in Eschemer Vorstatt"/>
+        <role role="due-date" ref="835" text="auff den heiligen Oster ¬&#10;tag"/>
+        <role role="interest" ref="841" text="10 ℔."/>
+        <role role="date" ref="847" text="1642"/>
+        <role role="date" ref="853" text="1643"/>
+        <role role="date" ref="859" text="1644"/>
+        <role role="date" ref="865" text="1645"/>
+        <role role="date" ref="871" text="1646"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="39" end="48" ref="" type="event">
+      <trigger start="45" end="45" text="gibt" ref="919"/>
+      <event event_id="3.0">
+        <role role="date" ref="877" text="1647"/>
+        <role role="payer" ref="883" text="Jacob Schöllin der Grempper"/>
+        <role role="previous-due" ref="925" text="zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="pos" tense="pres" modality="ass" start="48" end="48" ref="" type="event">
+      <trigger start="48" end="48" text="zins" ref="925"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

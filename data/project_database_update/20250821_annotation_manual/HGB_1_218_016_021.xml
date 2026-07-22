@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 218/16 S. [21]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Streitgasse Theil von 11 neben 13</tei:title>
+            <tei:idno>HGB 1 218/16</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532907</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Martin</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1526">1526</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611408.6275383583 1267169.2155240371</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">ein</token>
+    <token token_id="1">brief</token>
+    <token token_id="2">wisset</token>
+    <token token_id="3">1</token>
+    <token token_id="4">℔</token>
+    <token token_id="5">3ß</token>
+    <token token_id="6">uf</token>
+    <token token_id="7">dem</token>
+    <token token_id="8">Hus</token>
+    <token token_id="9">zum</token>
+    <token token_id="10">Kleinen</token>
+    <token token_id="11">Bolchen</token>
+    <token token_id="12">genant</token>
+    <token token_id="13">gelegen</token>
+    <token token_id="14">an</token>
+    <token token_id="15">Lamparts</token>
+    <token token_id="16">gassen</token>
+    <token token_id="17">ist</token>
+    <token token_id="18">den</token>
+    <token token_id="19">Daniel</token>
+    <token token_id="20">Schweglers</token>
+    <token token_id="21">schultheissen</token>
+    <token token_id="22">zu</token>
+    <token token_id="23">Basel</token>
+    <token token_id="24">.</token>
+  </text>
+  <spans>
+    <span id="421" start="3" end="5" text="1 ℔ 3ß" element="value" class="money" subclass=""/>
+    <span id="493" start="6" end="6" text="uf" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="427" start="7" end="16" text="dem Hus zum&#10;Kleinen Bolchen genant gelegen an Lamparts&#10;gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="433" start="8" end="8" text="Hus" element="head" class="type" subclass=""/>
+      <span id="439" start="9" end="11" text="zum&#10;Kleinen Bolchen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="439_head" start="9" end="11" element="head" class="nam" text="zum Kleinen Bolchen" subclass=""/>
+      </span>
+      <span id="445" start="13" end="16" text="gelegen an Lamparts&#10;gassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="451" start="15" end="16" text="Lamparts&#10;gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="451_head" start="15" end="16" element="head" class="nam" text="Lamparts gassen" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="457" start="18" end="23" text="den Daniel Schweglers schultheissen&#10;zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="463" start="19" end="20" text="Daniel Schweglers" element="head" class="nam" subclass=""/>
+      <span id="469" start="21" end="21" text="schultheissen" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="487" start="21" end="21" text="schultheissen" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="475" start="22" end="23" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="481" start="23" end="23" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="481_head" start="23" end="23" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="16" ref="445" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="427" text="dem Hus zum&#10;Kleinen Bolchen genant gelegen an Lamparts&#10;gassen"/>
+        <role role="location-b" ref="451" text="Lamparts&#10;gassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="22" end="23" ref="475" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="457" text="den Daniel Schweglers schultheissen&#10;zu Basel"/>
+        <role role="location-b" ref="481" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="3" end="6" ref="" type="state">
+      <trigger start="6" end="6" text="uf" ref="493"/>
+      <event event_id="2.0">
+        <role role="interest" ref="421" text="1 ℔ 3ß"/>
+        <role role="property" ref="427" text="dem Hus zum&#10;Kleinen Bolchen genant gelegen an Lamparts&#10;gassen"/>
+        <role role="payer" ref="457" text="den Daniel Schweglers schultheissen&#10;zu Basel"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

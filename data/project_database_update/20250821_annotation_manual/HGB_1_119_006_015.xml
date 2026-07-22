@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 119/6 S. [15]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Luftgässlein 1</tei:title>
+            <tei:idno>HGB 1 119/6</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494532</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1658">1658</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611609.065351135 1267145.2864086807</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Anschlag</token>
+    <token token_id="1">.</token>
+    <token token_id="2">H</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Friederich</token>
+    <token token_id="5">Nübling</token>
+    <token token_id="6">des</token>
+    <token token_id="7">Spittals</token>
+    <token token_id="8">Oberschrer</token>
+    <token token_id="9">ber</token>
+    <token token_id="10">allhie</token>
+    <token token_id="11">hat</token>
+    <token token_id="12">unamen</token>
+    <token token_id="13">jetzgemelten</token>
+    <token token_id="14">Spittals</token>
+    <token token_id="15">wegen</token>
+    <token token_id="16">jeniger</token>
+    <token token_id="17">200</token>
+    <token token_id="18">℔</token>
+    <token token_id="19">Capital</token>
+    <token token_id="20">,</token>
+    <token token_id="21">welches</token>
+    <token token_id="22">gesagten</token>
+    <token token_id="23">Spitthal</token>
+    <token token_id="24">,</token>
+    <token token_id="25">H</token>
+    <token token_id="26">.</token>
+    <token token_id="27">Gabriel</token>
+    <token token_id="28">Roch</token>
+    <token token_id="29">vermög</token>
+    <token token_id="30">Obligation</token>
+    <token token_id="31">und</token>
+    <token token_id="32">Rhatserkandtmuss</token>
+    <token token_id="33">zu</token>
+    <token token_id="34">thun</token>
+    <token token_id="35">schuldig</token>
+    <token token_id="36">,</token>
+    <token token_id="37">desselben</token>
+    <token token_id="38">hierumben</token>
+    <token token_id="39">zum</token>
+    <token token_id="40">Underpfand</token>
+    <token token_id="41">ver</token>
+    <token token_id="42">¬</token>
+    <token token_id="43">schriebene</token>
+    <token token_id="44">Behausung</token>
+    <token token_id="45">hinder</token>
+    <token token_id="46">dem</token>
+    <token token_id="47">Münster</token>
+    <token token_id="48">gegen</token>
+    <token token_id="49">dem</token>
+    <token token_id="50">Hoof</token>
+    <token token_id="51">zum</token>
+    <token token_id="52">Lufft</token>
+    <token token_id="53">genant</token>
+    <token token_id="54">humber</token>
+    <token token_id="55">neben</token>
+    <token token_id="56">weil</token>
+    <token token_id="57">.</token>
+    <token token_id="58">H</token>
+    <token token_id="59">.</token>
+    <token token_id="60">Haubtman</token>
+    <token token_id="61">Daniel</token>
+    <token token_id="62">Müllers</token>
+    <token token_id="63">gelegen</token>
+    <token token_id="64">,</token>
+    <token token_id="65">gefrönt</token>
+    <token token_id="66">und</token>
+    <token token_id="67">wird</token>
+    <token token_id="68">man</token>
+    <token token_id="69">solche</token>
+    <token token_id="70">Be</token>
+    <token token_id="71">¬</token>
+    <token token_id="72">hausung</token>
+    <token token_id="73">auf</token>
+    <token token_id="74">Zeinstag</token>
+    <token token_id="75">den</token>
+    <token token_id="76">11</token>
+    <token token_id="77">.</token>
+    <token token_id="78">May</token>
+    <token token_id="79">verkaufen</token>
+  </text>
+  <spans>
+    <span id="1189" start="2" end="9" text="H . Friederich Nübling des Spittals Oberschrer&#10;ber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1195" start="4" end="5" text="Friederich Nübling" element="head" class="nam" subclass=""/>
+      <span id="1201" start="6" end="9" text="des Spittals Oberschrer&#10;ber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1285" start="6" end="7" text="des Spittals" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1291" start="7" end="7" text="Spittals" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1297" start="8" end="9" text="Oberschrer&#10;ber" element="head" class="occ" subclass="org-job"/>
+      </span>
+    </span>
+    <span id="1303" start="13" end="14" text="jetzgemelten Spittals" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1309" start="14" end="14" text="Spittals" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1207" start="17" end="18" text="200 ℔" element="value" class="money" subclass=""/>
+    <span id="1213" start="22" end="23" text="gesagten&#10;Spitthal" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1219" start="23" end="23" text="Spitthal" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1225" start="25" end="28" text="H . Gabriel Roch" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1231" start="27" end="28" text="Gabriel Roch" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1410" start="35" end="35" text="schuldig" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1336" start="37" end="63" text="desselben hierumben zum Underpfand ver ¬&#10;schriebene Behausung hinder dem Münster&#10;gegen dem Hoof zum Lufft genant humber&#10;neben weil . H . Haubtman Daniel Müllers&#10;gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1342" start="37" end="37" text="desselben" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1348" start="37" end="37" text="desselben" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1348_head" start="37" end="37" element="head" class="pro" text="desselben" subclass=""/>
+        </span>
+      </span>
+      <span id="1237" start="44" end="44" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="1243" start="45" end="63" text="hinder dem Münster&#10;gegen dem Hoof zum Lufft genant humber&#10;neben weil . H . Haubtman Daniel Müllers&#10;gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1249" start="46" end="47" text="dem Münster" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1255" start="47" end="47" text="Münster" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1261" start="49" end="53" text="dem Hoof zum Lufft genant" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1361" start="50" end="50" text="Hoof" element="head" class="type" subclass=""/>
+          <span id="1367" start="51" end="52" text="zum Lufft" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1367_head" start="51" end="52" element="head" class="nam" text="zum Lufft" subclass=""/>
+          </span>
+        </span>
+        <span id="1385" start="56" end="62" text="weil . H . Haubtman Daniel Müllers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1391" start="56" end="56" text="weil" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          <span id="1273" start="60" end="60" text="Haubtman" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1273_head" start="60" end="60" element="head" class="title" text="Haubtman" subclass=""/>
+          </span>
+          <span id="1267" start="61" end="62" text="Daniel Müllers" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1397" start="65" end="65" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1279" start="69" end="72" text="solche Be ¬&#10;hausung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1373" start="70" end="72" text="Be ¬&#10;hausung" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1379" start="73" end="78" text="auf Zeinstag den 11 . May" element="value" class="date" subclass=""/>
+    <span id="1416" start="79" end="79" text="verkaufen" element="trigger" class="sale" tense="fut" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1315" from="1303" to="1285" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1322" from="1189" to="1303" class="org-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1329" from="1213" to="1303" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1354" from="1348" to="1225" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1403" from="1279" to="1336" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="6" end="9" ref="1201" type="state">
+      <trigger start="8" end="9" text="Oberschrer&#10;ber" ref="1297"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1189" text="H . Friederich Nübling des Spittals Oberschrer&#10;ber"/>
+        <role role="employer" ref="1285" text="des Spittals"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="37" end="37" ref="1342" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1336" text="desselben hierumben zum Underpfand ver ¬&#10;schriebene Behausung hinder dem Münster&#10;gegen dem Hoof zum Lufft genant humber&#10;neben weil . H . Haubtman Daniel Müllers&#10;gelegen"/>
+        <role role="owner" ref="1348" text="desselben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="45" end="63" ref="1243" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1336" text="desselben hierumben zum Underpfand ver ¬&#10;schriebene Behausung hinder dem Münster&#10;gegen dem Hoof zum Lufft genant humber&#10;neben weil . H . Haubtman Daniel Müllers&#10;gelegen"/>
+        <role role="location-b" ref="1249" text="dem Münster"/>
+        <role role="location-b" ref="1261" text="dem Hoof zum Lufft genant"/>
+        <role role="location-b" ref="1385" text="weil . H . Haubtman Daniel Müllers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="17" end="35" ref="" type="state">
+      <trigger start="35" end="35" text="schuldig" ref="1410"/>
+      <event event_id="3.0">
+        <role role="capital" ref="1207" text="200 ℔"/>
+        <role role="beneficiary" ref="1213" text="gesagten&#10;Spitthal"/>
+        <role role="payer" ref="1225" text="H . Gabriel Roch"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="65" ref="" type="event">
+      <trigger start="65" end="65" text="gefrönt" ref="1397"/>
+      <event event_id="4.0">
+        <role role="claimant" ref="1189" text="H . Friederich Nübling des Spittals Oberschrer&#10;ber"/>
+        <role role="cause" ref="1410" text="schuldig"/>
+        <role role="property" ref="1336" text="desselben hierumben zum Underpfand ver ¬&#10;schriebene Behausung hinder dem Münster&#10;gegen dem Hoof zum Lufft genant humber&#10;neben weil . H . Haubtman Daniel Müllers&#10;gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="fut" modality="ass" start="69" end="79" ref="" type="event">
+      <trigger start="79" end="79" text="verkaufen" ref="1416"/>
+      <event event_id="5.0">
+        <role role="property" ref="1279" text="solche Be ¬&#10;hausung"/>
+        <role role="date" ref="1379" text="auf Zeinstag den 11 . May"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="6.0">
+        <role role="representative" ref="1189" text="H . Friederich Nübling des Spittals Oberschrer&#10;ber"/>
+        <role role="represented" ref="1303" text="jetzgemelten Spittals"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

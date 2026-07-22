@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 122/34 S. [5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Marktplatz 11</tei:title>
+            <tei:idno>HGB 1 122/34</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494812</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1491">1491</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611216.098017363 1267475.716634194</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Fronfastenzinse</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Item</token>
+    <token token_id="3">herr</token>
+    <token token_id="4">Mathis</token>
+    <token token_id="5">Ysely</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Krämer</token>
+    <token token_id="8">git</token>
+    <token token_id="9">6ß</token>
+    <token token_id="10">,</token>
+    <token token_id="11">3ȡ</token>
+    <token token_id="12">,</token>
+    <token token_id="13">1</token>
+    <token token_id="14">/</token>
+    <token token_id="15">2</token>
+    <token token_id="16">℔</token>
+    <token token_id="17">.</token>
+    <token token_id="18">pfeffer</token>
+    <token token_id="19">wysung</token>
+    <token token_id="20">und</token>
+    <token token_id="21">2</token>
+    <token token_id="22">1</token>
+    <token token_id="23">/</token>
+    <token token_id="24">2</token>
+    <token token_id="25">℔</token>
+    <token token_id="26">erschatz</token>
+    <token token_id="27">von</token>
+    <token token_id="28">sinem</token>
+    <token token_id="29">hus</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Ebenso</token>
+    <token token_id="32">1492</token>
+    <token token_id="33">.</token>
+    <token token_id="34">1493</token>
+    <token token_id="35">her</token>
+    <token token_id="36">Mathis</token>
+    <token token_id="37">Jselin</token>
+    <token token_id="38">git</token>
+    <token token_id="39">6ß</token>
+    <token token_id="40">,</token>
+    <token token_id="41">3ȡ</token>
+    <token token_id="42">und</token>
+    <token token_id="43">1</token>
+    <token token_id="44">/</token>
+    <token token_id="45">2</token>
+    <token token_id="46">℔</token>
+    <token token_id="47">pfeffer</token>
+    <token token_id="48">von</token>
+    <token token_id="49">sinem</token>
+    <token token_id="50">hus</token>
+    <token token_id="51">und</token>
+    <token token_id="52">2</token>
+    <token token_id="53">1</token>
+    <token token_id="54">/</token>
+    <token token_id="55">2</token>
+    <token token_id="56">℔</token>
+    <token token_id="57">erschatz</token>
+    <token token_id="58">.</token>
+    <token token_id="59">1497</token>
+    <token token_id="60">/</token>
+    <token token_id="61">97</token>
+    <token token_id="62">fehlen</token>
+    <token token_id="63">.</token>
+    <token token_id="64">1498</token>
+    <token token_id="65">her</token>
+    <token token_id="66">Mathis</token>
+    <token token_id="67">Jsellin</token>
+    <token token_id="68">git</token>
+    <token token_id="69">6ß</token>
+    <token token_id="70">,</token>
+    <token token_id="71">3ȡ</token>
+    <token token_id="72">1</token>
+    <token token_id="73">/</token>
+    <token token_id="74">2</token>
+    <token token_id="75">℔</token>
+    <token token_id="76">pfeffer</token>
+    <token token_id="77">wisung</token>
+    <token token_id="78">2</token>
+    <token token_id="79">1</token>
+    <token token_id="80">/</token>
+    <token token_id="81">2</token>
+    <token token_id="82">℔</token>
+    <token token_id="83">d</token>
+    <token token_id="84">erschatz</token>
+    <token token_id="85">vom</token>
+    <token token_id="86">hus</token>
+    <token token_id="87">.</token>
+    <token token_id="88">1499</token>
+    <token token_id="89">fehlt</token>
+    <token token_id="90">.</token>
+    <token token_id="91">1500</token>
+    <token token_id="92">wie</token>
+    <token token_id="93">oben</token>
+    <token token_id="94">.</token>
+    <token token_id="95">Ebenso</token>
+    <token token_id="96">1581</token>
+    <token token_id="97">.</token>
+    <token token_id="98">1502</token>
+    <token token_id="99">fehlt</token>
+    <token token_id="100">.</token>
+    <token token_id="101">1506</token>
+    <token token_id="102">wie</token>
+    <token token_id="103">oben</token>
+    <token token_id="104">.</token>
+    <token token_id="105">1504</token>
+    <token token_id="106">/</token>
+    <token token_id="107">5</token>
+    <token token_id="108">fehlen</token>
+    <token token_id="109">.</token>
+    <token token_id="110">1503</token>
+    <token token_id="111">wie</token>
+    <token token_id="112">oben</token>
+    <token token_id="113">.</token>
+  </text>
+  <spans>
+    <span id="1610" start="3" end="7" text="herr Mathis Ysely der Krämer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1616" start="4" end="5" text="Mathis Ysely" element="head" class="nam" subclass=""/>
+      <span id="1622" start="6" end="7" text="der Krämer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1628" start="7" end="7" text="Krämer" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1846" start="8" end="8" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1640" start="9" end="11" text="6ß , 3ȡ" element="value" class="money" subclass=""/>
+    <span id="1646" start="13" end="18" text="1 / 2 ℔.&#10;pfeffer" element="value" class="money" subclass=""/>
+    <span id="1852" start="19" end="19" text="wysung" element="other" class="other" subclass=""/>
+    <span id="1634" start="21" end="25" text="2 1 / 2 ℔" element="value" class="money" subclass=""/>
+    <span id="1858" start="26" end="26" text="erschatz" element="other" class="other" subclass=""/>
+    <span id="1652" start="28" end="29" text="sinem hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1664" start="28" end="28" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1670" start="28" end="28" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1670_head" start="28" end="28" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1658" start="29" end="29" text="hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1683" start="32" end="32" text="1492" element="value" class="date" subclass=""/>
+    <span id="1689" start="34" end="34" text="1493" element="value" class="date" subclass=""/>
+    <span id="1749" start="35" end="37" text="her Mathis Jselin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1755" start="36" end="37" text="Mathis Jselin" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1864" start="38" end="38" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1761" start="39" end="41" text="6ß , 3ȡ" element="value" class="money" subclass=""/>
+    <span id="1767" start="43" end="47" text="1 / 2 ℔ pfeffer" element="value" class="money" subclass=""/>
+    <span id="1779" start="49" end="50" text="sinem hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1791" start="49" end="49" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1797" start="49" end="49" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1797_head" start="49" end="49" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1785" start="50" end="50" text="hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1773" start="52" end="56" text="2 1 / 2 ℔" element="value" class="money" subclass=""/>
+    <span id="1870" start="57" end="57" text="erschatz" element="other" class="other" subclass=""/>
+    <span id="1695" start="59" end="59" text="1497" element="value" class="date" subclass=""/>
+    <span id="1840" start="61" end="61" text="97" element="value" class="date" subclass=""/>
+    <span id="1701" start="64" end="64" text="1498" element="value" class="date" subclass=""/>
+    <span id="1810" start="65" end="67" text="her Mathis Jsellin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1816" start="66" end="67" text="Mathis Jsellin" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1876" start="68" end="68" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1822" start="69" end="71" text="6ß , 3ȡ" element="value" class="money" subclass=""/>
+    <span id="1828" start="72" end="76" text="1 / 2 ℔ pfeffer" element="value" class="money" subclass=""/>
+    <span id="1882" start="77" end="77" text="wisung" element="other" class="other" subclass=""/>
+    <span id="1834" start="78" end="82" text="2 1 / 2 ℔" element="value" class="money" subclass=""/>
+    <span id="1888" start="84" end="84" text="erschatz" element="other" class="other" subclass=""/>
+    <span id="1894" start="85" end="86" text="vom hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1900" start="86" end="86" text="hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1707" start="88" end="88" text="1499" element="value" class="date" subclass=""/>
+    <span id="1743" start="91" end="91" text="1500" element="value" class="date" subclass=""/>
+    <span id="1713" start="96" end="96" text="1581" element="value" class="date" subclass=""/>
+    <span id="1913" start="98" end="98" text="1502" element="value" class="date" subclass=""/>
+    <span id="1719" start="101" end="101" text="1506" element="value" class="date" subclass=""/>
+    <span id="1725" start="105" end="105" text="1504" element="value" class="date" subclass=""/>
+    <span id="1731" start="107" end="107" text="5" element="value" class="date" subclass=""/>
+    <span id="1737" start="110" end="110" text="1503" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1676" from="1670" to="1610" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1803" from="1797" to="1749" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1906" from="1894" to="1779" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="28" end="28" ref="1664" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1652" text="sinem hus"/>
+        <role role="owner" ref="1670" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="49" end="49" ref="1791" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1779" text="sinem hus"/>
+        <role role="owner" ref="1797" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="3" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="git" ref="1846"/>
+      <event event_id="2.0">
+        <role role="payer" ref="1610" text="herr Mathis Ysely der Krämer"/>
+        <role role="interest" ref="1640" text="6ß , 3ȡ"/>
+        <role role="property" ref="1652" text="sinem hus"/>
+        <role role="date" ref="1683" text="1492"/>
+      </event>
+      <event event_id="2.1">
+        <role role="payer" ref="1610" text="herr Mathis Ysely der Krämer"/>
+        <role role="interest" ref="1646" text="1 / 2 ℔.&#10;pfeffer"/>
+        <role role="cause" ref="1852" text="wysung"/>
+        <role role="property" ref="1652" text="sinem hus"/>
+        <role role="date" ref="1683" text="1492"/>
+      </event>
+      <event event_id="2.2">
+        <role role="payer" ref="1610" text="herr Mathis Ysely der Krämer"/>
+        <role role="interest" ref="1634" text="2 1 / 2 ℔"/>
+        <role role="cause" ref="1858" text="erschatz"/>
+        <role role="property" ref="1652" text="sinem hus"/>
+        <role role="date" ref="1683" text="1492"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="34" end="61" ref="" type="event">
+      <trigger start="38" end="38" text="git" ref="1864"/>
+      <event event_id="3.0">
+        <role role="date" ref="1689" text="1493"/>
+        <role role="payer" ref="1749" text="her Mathis Jselin"/>
+        <role role="interest" ref="1761" text="6ß , 3ȡ"/>
+        <role role="property" ref="1779" text="sinem hus"/>
+        <role role="date-missing" ref="1695" text="1497"/>
+        <role role="date-missing" ref="1840" text="97"/>
+      </event>
+      <event event_id="3.1">
+        <role role="date" ref="1689" text="1493"/>
+        <role role="payer" ref="1749" text="her Mathis Jselin"/>
+        <role role="interest" ref="1767" text="1 / 2 ℔ pfeffer"/>
+        <role role="property" ref="1779" text="sinem hus"/>
+        <role role="date-missing" ref="1695" text="1497"/>
+        <role role="date-missing" ref="1840" text="97"/>
+      </event>
+      <event event_id="3.2">
+        <role role="date" ref="1689" text="1493"/>
+        <role role="payer" ref="1749" text="her Mathis Jselin"/>
+        <role role="property" ref="1779" text="sinem hus"/>
+        <role role="interest" ref="1773" text="2 1 / 2 ℔"/>
+        <role role="cause" ref="1870" text="erschatz"/>
+        <role role="date-missing" ref="1695" text="1497"/>
+        <role role="date-missing" ref="1840" text="97"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="pos" tense="pres" modality="ass" start="64" end="68" ref="" type="event">
+      <trigger start="68" end="68" text="git" ref="1876"/>
+      <event event_id="4.0">
+        <role role="date" ref="1701" text="1498"/>
+        <role role="payer" ref="1810" text="her Mathis Jsellin"/>
+        <role role="interest" ref="1822" text="6ß , 3ȡ"/>
+        <role role="property" ref="1894" text="vom hus"/>
+        <role role="date-missing" ref="1707" text="1499"/>
+        <role role="date" ref="1743" text="1500"/>
+        <role role="date" ref="1713" text="1581"/>
+        <role role="date-missing" ref="1913" text="1502"/>
+        <role role="date" ref="1719" text="1506"/>
+        <role role="date-missing" ref="1725" text="1504"/>
+        <role role="date-missing" ref="1731" text="5"/>
+        <role role="date" ref="1737" text="1503"/>
+      </event>
+      <event event_id="4.1">
+        <role role="date" ref="1701" text="1498"/>
+        <role role="payer" ref="1810" text="her Mathis Jsellin"/>
+        <role role="interest" ref="1828" text="1 / 2 ℔ pfeffer"/>
+        <role role="cause" ref="1882" text="wisung"/>
+        <role role="property" ref="1894" text="vom hus"/>
+        <role role="date-missing" ref="1707" text="1499"/>
+        <role role="date" ref="1743" text="1500"/>
+        <role role="date" ref="1713" text="1581"/>
+        <role role="date-missing" ref="1913" text="1502"/>
+        <role role="date" ref="1719" text="1506"/>
+        <role role="date-missing" ref="1725" text="1504"/>
+        <role role="date-missing" ref="1731" text="5"/>
+        <role role="date" ref="1737" text="1503"/>
+      </event>
+      <event event_id="4.2">
+        <role role="date" ref="1701" text="1498"/>
+        <role role="payer" ref="1810" text="her Mathis Jsellin"/>
+        <role role="interest" ref="1834" text="2 1 / 2 ℔"/>
+        <role role="cause" ref="1888" text="erschatz"/>
+        <role role="property" ref="1894" text="vom hus"/>
+        <role role="date-missing" ref="1707" text="1499"/>
+        <role role="date" ref="1743" text="1500"/>
+        <role role="date" ref="1713" text="1581"/>
+        <role role="date-missing" ref="1913" text="1502"/>
+        <role role="date" ref="1719" text="1506"/>
+        <role role="date-missing" ref="1725" text="1504"/>
+        <role role="date-missing" ref="1731" text="5"/>
+        <role role="date" ref="1737" text="1503"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

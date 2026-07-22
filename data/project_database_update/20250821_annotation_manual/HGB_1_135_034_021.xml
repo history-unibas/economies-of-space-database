@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 135/34 S. [21]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Münsterplatz 16</tei:title>
+            <tei:idno>HGB 1 135/34</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1497251</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Präsenz und Kaplaneien</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1599">1599</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611490.3882695697 1267309.2315702685</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">herr</token>
+    <token token_id="2">Leonhart</token>
+    <token token_id="3">Lützelman</token>
+    <token token_id="4">gibt</token>
+    <token token_id="5">järlich</token>
+    <token token_id="6">vom</token>
+    <token token_id="7">Rischacher</token>
+    <token token_id="8">hoff</token>
+    <token token_id="9">uff</token>
+    <token token_id="10">Pfüngsten</token>
+    <token token_id="11">10</token>
+    <token token_id="12">℔</token>
+    <token token_id="13">.</token>
+    <token token_id="14">1600</token>
+    <token token_id="15">herr</token>
+    <token token_id="16">Leonhart</token>
+    <token token_id="17">Lützelman</token>
+    <token token_id="18">gibt</token>
+    <token token_id="19">järlich</token>
+    <token token_id="20">vom</token>
+    <token token_id="21">Richacher</token>
+    <token token_id="22">hoff</token>
+    <token token_id="23">40</token>
+    <token token_id="24">℔</token>
+    <token token_id="25">.</token>
+    <token token_id="26">Ebenso</token>
+    <token token_id="27">1602</token>
+    <token token_id="28">.</token>
+    <token token_id="29">Ebenso</token>
+    <token token_id="30">1603</token>
+    <token token_id="31">.</token>
+    <token token_id="32">Ebenso</token>
+    <token token_id="33">1601</token>
+    <token token_id="34">.</token>
+  </text>
+  <spans>
+    <span id="623" start="1" end="3" text="herr Leonhart Lützelman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="629" start="2" end="3" text="Leonhart Lützelman" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="713" start="4" end="4" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="635" start="5" end="5" text="järlich" element="value" class="time" subclass="rec"/>
+    <span id="641" start="7" end="8" text="Rischacher hoff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="641_head" start="7" end="8" element="head" class="nam" text="Rischacher hoff" subclass=""/>
+    </span>
+    <span id="647" start="9" end="10" text="uff Pfüngsten" element="value" class="date" subclass=""/>
+    <span id="653" start="11" end="13" text="10 ℔." element="value" class="money" subclass=""/>
+    <span id="659" start="14" end="14" text="1600" element="value" class="date" subclass=""/>
+    <span id="665" start="15" end="17" text="herr Leonhart Lützelman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="671" start="16" end="17" text="Leonhart Lützelman" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="719" start="18" end="18" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="677" start="19" end="19" text="järlich" element="value" class="time" subclass="rec"/>
+    <span id="683" start="21" end="22" text="Richacher hoff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="683_head" start="21" end="22" element="head" class="nam" text="Richacher hoff" subclass=""/>
+    </span>
+    <span id="689" start="23" end="25" text="40 ℔." element="value" class="money" subclass=""/>
+    <span id="695" start="27" end="27" text="1602" element="value" class="date" subclass=""/>
+    <span id="701" start="30" end="30" text="1603" element="value" class="date" subclass=""/>
+    <span id="707" start="33" end="33" text="1601" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="1" end="4" ref="" type="state">
+      <trigger start="4" end="4" text="gibt" ref="713"/>
+      <event event_id="0.0">
+        <role role="payer" ref="623" text="herr Leonhart Lützelman"/>
+        <role role="interval" ref="635" text="järlich"/>
+        <role role="property" ref="641" text="Rischacher hoff"/>
+        <role role="due-date" ref="647" text="uff Pfüngsten"/>
+        <role role="interest" ref="653" text="10 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="14" end="33" ref="" type="event">
+      <trigger start="18" end="18" text="gibt" ref="719"/>
+      <event event_id="1.0">
+        <role role="date" ref="659" text="1600"/>
+        <role role="payer" ref="665" text="herr Leonhart Lützelman"/>
+        <role role="interval" ref="677" text="järlich"/>
+        <role role="property" ref="683" text="Richacher hoff"/>
+        <role role="interest" ref="689" text="40 ℔."/>
+        <role role="date" ref="695" text="1602"/>
+        <role role="date" ref="701" text="1603"/>
+        <role role="date" ref="707" text="1601"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

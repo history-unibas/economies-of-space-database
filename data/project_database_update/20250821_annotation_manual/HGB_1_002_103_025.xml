@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 2/103 S. [25]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Aeschenvorstadt 26, 28</tei:title>
+            <tei:idno>HGB 1 2/103</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1432904</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1532">1532</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611619.6434860188 1266904.9522946896</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Die</token>
+    <token token_id="1">Lütkilchen</token>
+    <token token_id="2">s</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Ulrich</token>
+    <token token_id="5">hat</token>
+    <token token_id="6">Caspar</token>
+    <token token_id="7">Vogt</token>
+    <token token_id="8">des</token>
+    <token token_id="9">Küeffers</token>
+    <token token_id="10">beyde</token>
+    <token token_id="11">Hüsere</token>
+    <token token_id="12">mit</token>
+    <token token_id="13">dem</token>
+    <token token_id="14">garten</token>
+    <token token_id="15">darhinder</token>
+    <token token_id="16">,</token>
+    <token token_id="17">als</token>
+    <token token_id="18">die</token>
+    <token token_id="19">anemander</token>
+    <token token_id="20">in</token>
+    <token token_id="21">Eschamervorstatt</token>
+    <token token_id="22">,</token>
+    <token token_id="23">zwüschen</token>
+    <token token_id="24">Hansen</token>
+    <token token_id="25">Schöllins</token>
+    <token token_id="26">,</token>
+    <token token_id="27">und</token>
+    <token token_id="28">Hebers</token>
+    <token token_id="29">von</token>
+    <token token_id="30">Münchenstein</token>
+    <token token_id="31">,</token>
+    <token token_id="32">husern</token>
+    <token token_id="33">glegen</token>
+    <token token_id="34">,</token>
+    <token token_id="35">umb</token>
+    <token token_id="36">versessen</token>
+    <token token_id="37">ussstend</token>
+    <token token_id="38">zins</token>
+    <token token_id="39">,</token>
+    <token token_id="40">als</token>
+    <token token_id="41">die</token>
+    <token token_id="42">jährl</token>
+    <token token_id="43">der</token>
+    <token token_id="44">Lütkilchen</token>
+    <token token_id="45">2</token>
+    <token token_id="46">fl</token>
+    <token token_id="47">.</token>
+    <token token_id="48">zinsent</token>
+    <token token_id="49">,</token>
+    <token token_id="50">gefrönt</token>
+    <token token_id="51">,</token>
+    <token token_id="52">und</token>
+    <token token_id="53">kauft</token>
+    <token token_id="54">sie</token>
+    <token token_id="55">um</token>
+    <token token_id="56">1</token>
+    <token token_id="57">℔</token>
+    <token token_id="58">3sh</token>
+    <token token_id="59">zinspfl</token>
+    <token token_id="60">.</token>
+  </text>
+  <spans>
+    <span id="925" start="0" end="4" text="Die Lütkilchen s . Ulrich" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="931" start="1" end="4" text="Lütkilchen s . Ulrich" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="937" start="6" end="33" text="Caspar Vogt des Küeffers beyde&#10;Hüsere mit dem garten darhinder , als die anemander in&#10;Eschamervorstatt , zwüschen Hansen Schöllins , und Hebers von&#10;Münchenstein , husern glegen" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="943" start="6" end="9" text="Caspar Vogt des Küeffers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="949" start="6" end="9" text="Caspar Vogt des Küeffers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="955" start="6" end="7" text="Caspar Vogt" element="head" class="nam" subclass=""/>
+          <span id="961" start="8" end="9" text="des Küeffers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="967" start="9" end="9" text="Küeffers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="973" start="11" end="11" text="Hüsere" element="head" class="type" subclass=""/>
+      <span id="979" start="12" end="15" text="mit dem garten darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="985" start="13" end="14" text="dem garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="991" start="14" end="14" text="garten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="997" start="18" end="33" text="die anemander in&#10;Eschamervorstatt , zwüschen Hansen Schöllins , und Hebers von&#10;Münchenstein , husern glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1009" start="21" end="21" text="Eschamervorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1009_head" start="21" end="21" element="head" class="nam" text="Eschamervorstatt" subclass=""/>
+        </span>
+        <span id="1015" start="24" end="32" text="Hansen Schöllins , und Hebers von&#10;Münchenstein , husern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1033" start="24" end="30" text="Hansen Schöllins , und Hebers von&#10;Münchenstein" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1027" start="24" end="30" text="Hansen Schöllins , und Hebers von&#10;Münchenstein" element="list" class="per" subclass="">
+              <span id="1039" start="24" end="25" text="Hansen Schöllins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1039_head" start="24" end="25" element="head" class="nam" text="Hansen Schöllins" subclass=""/>
+              </span>
+              <span id="1045" start="28" end="30" text="Hebers von&#10;Münchenstein" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1045_head" start="28" end="30" element="head" class="nam" text="Hebers von Münchenstein" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1021" start="32" end="32" text="husern" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1120" start="36" end="38" text="versessen ussstend zins" element="eventspan" class="due" tense="pres" polarity="neg" modality="ass" subclass="">
+      <span id="1126" start="38" end="38" text="zins" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1132" start="41" end="48" text="die&#10;jährl der Lütkilchen 2 fl . zinsent" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1051" start="41" end="41" text="die" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1051_head" start="41" end="41" element="head" class="pro" text="die" subclass=""/>
+      </span>
+      <span id="1064" start="42" end="42" text="jährl" element="value" class="time" subclass="rec"/>
+      <span id="1070" start="43" end="44" text="der Lütkilchen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1138" start="44" end="44" text="Lütkilchen" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1083" start="45" end="47" text="2 fl ." element="value" class="money" subclass=""/>
+      <span id="1144" start="48" end="48" text="zinsent" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1108" start="50" end="50" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1114" start="53" end="53" text="kauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1089" start="54" end="54" text="sie" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1089_head" start="54" end="54" element="head" class="pro" text="sie" subclass=""/>
+    </span>
+    <span id="1102" start="56" end="58" text="1 ℔ 3sh" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1076" from="1070" to="925" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1057" from="1051" to="937" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1095" from="1089" to="937" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="neg" tense="pres" modality="ass" start="36" end="38" ref="1120" type="event">
+      <trigger start="38" end="38" text="zins" ref="1126"/>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="41" end="48" ref="1132" type="state">
+      <trigger start="48" end="48" text="zinsent" ref="1144"/>
+      <event event_id="1.0">
+        <role role="property" ref="1051" text="die"/>
+        <role role="interval" ref="1064" text="jährl"/>
+        <role role="beneficiary" ref="1070" text="der Lütkilchen"/>
+        <role role="interest" ref="1083" text="2 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="6" end="9" ref="943" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="937" text="Caspar Vogt des Küeffers beyde&#10;Hüsere mit dem garten darhinder , als die anemander in&#10;Eschamervorstatt , zwüschen Hansen Schöllins , und Hebers von&#10;Münchenstein , husern glegen"/>
+        <role role="owner" ref="949" text="Caspar Vogt des Küeffers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="12" end="15" ref="979" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="937" text="Caspar Vogt des Küeffers beyde&#10;Hüsere mit dem garten darhinder , als die anemander in&#10;Eschamervorstatt , zwüschen Hansen Schöllins , und Hebers von&#10;Münchenstein , husern glegen"/>
+        <role role="part" ref="985" text="dem garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="18" end="33" ref="997" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="937" text="Caspar Vogt des Küeffers beyde&#10;Hüsere mit dem garten darhinder , als die anemander in&#10;Eschamervorstatt , zwüschen Hansen Schöllins , und Hebers von&#10;Münchenstein , husern glegen"/>
+        <role role="location-b" ref="1009" text="Eschamervorstatt"/>
+        <role role="location-b" ref="1015" text="Hansen Schöllins , und Hebers von&#10;Münchenstein , husern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="24" end="30" ref="1033" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1015" text="Hansen Schöllins , und Hebers von&#10;Münchenstein , husern"/>
+        <role role="owner" ref="1039" text="Hansen Schöllins"/>
+        <role role="owner" ref="1045" text="Hebers von&#10;Münchenstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="50" ref="" type="event">
+      <trigger start="50" end="50" text="gefrönt" ref="1108"/>
+      <event event_id="6.0">
+        <role role="claimant" ref="925" text="Die Lütkilchen s . Ulrich"/>
+        <role role="property" ref="937" text="Caspar Vogt des Küeffers beyde&#10;Hüsere mit dem garten darhinder , als die anemander in&#10;Eschamervorstatt , zwüschen Hansen Schöllins , und Hebers von&#10;Münchenstein , husern glegen"/>
+        <role role="cause" ref="1120" text="versessen ussstend zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="58" ref="" type="event">
+      <trigger start="53" end="53" text="kauft" ref="1114"/>
+      <event event_id="7.0">
+        <role role="buyer" ref="925" text="Die Lütkilchen s . Ulrich"/>
+        <role role="property" ref="1089" text="sie"/>
+        <role role="price" ref="1102" text="1 ℔ 3sh"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

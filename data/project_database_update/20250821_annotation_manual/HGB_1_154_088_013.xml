@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 154/88 S. [13]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rebgasse 44</tei:title>
+            <tei:idno>HGB 1 154/88</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1505654</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Steinenkloster</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1463">1463</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611806.465597239 1267676.0875480212</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">hier</token>
+    <token token_id="1">ist</token>
+    <token token_id="2">ein</token>
+    <token token_id="3">latinscher</token>
+    <token token_id="4">brieff</token>
+    <token token_id="5">der</token>
+    <token token_id="6">wüst</token>
+    <token token_id="7">,</token>
+    <token token_id="8">wie</token>
+    <token token_id="9">Junckher</token>
+    <token token_id="10">Peter</token>
+    <token token_id="11">Geiger</token>
+    <token token_id="12">sin</token>
+    <token token_id="13">testament</token>
+    <token token_id="14">geordnet</token>
+    <token token_id="15">hat</token>
+    <token token_id="16">und</token>
+    <token token_id="17">waz</token>
+    <token token_id="18">er</token>
+    <token token_id="19">uns</token>
+    <token token_id="20">vergobt</token>
+    <token token_id="21">hatt</token>
+    <token token_id="22">durch</token>
+    <token token_id="23">Gott</token>
+    <token token_id="24">.</token>
+    <token token_id="25">3</token>
+    <token token_id="26">.</token>
+    <token token_id="27">item</token>
+    <token token_id="28">me</token>
+    <token token_id="29">gabet</token>
+    <token token_id="30">uns</token>
+    <token token_id="31">uff</token>
+    <token token_id="32">ein</token>
+    <token token_id="33">Hus</token>
+    <token token_id="34">,</token>
+    <token token_id="35">genannt</token>
+    <token token_id="36">Wesel</token>
+    <token token_id="37">¬</token>
+    <token token_id="38">manns</token>
+    <token token_id="39">hus</token>
+    <token token_id="40">im</token>
+    <token token_id="41">mindern</token>
+    <token token_id="42">Basel</token>
+    <token token_id="43">,</token>
+    <token token_id="44">16sh</token>
+    <token token_id="45">.</token>
+    <token token_id="46">zinsdn</token>
+    <token token_id="47">.</token>
+    <token token_id="48">und</token>
+    <token token_id="49">ein</token>
+    <token token_id="50">hun</token>
+    <token token_id="51">,</token>
+    <token token_id="52">dis</token>
+    <token token_id="53">hus</token>
+    <token token_id="54">hand</token>
+    <token token_id="55">wir</token>
+    <token token_id="56">mit</token>
+    <token token_id="57">recht</token>
+    <token token_id="58">bezogen</token>
+    <token token_id="59">anno</token>
+    <token token_id="60">1463</token>
+    <token token_id="61">.</token>
+    <token token_id="62">jor</token>
+    <token token_id="63">und</token>
+    <token token_id="64">hand</token>
+    <token token_id="65">daz</token>
+    <token token_id="66">gebuwen</token>
+    <token token_id="67">und</token>
+    <token token_id="68">eosten</token>
+    <token token_id="69">doran</token>
+    <token token_id="70">geleit</token>
+    <token token_id="71">darum</token>
+    <token token_id="72">so</token>
+    <token token_id="73">nemen</token>
+    <token token_id="74">wir</token>
+    <token token_id="75">an</token>
+    <token token_id="76">disem</token>
+    <token token_id="77">ort</token>
+    <token token_id="78">in</token>
+    <token token_id="79">zu</token>
+    <token token_id="80">diser</token>
+    <token token_id="81">zit</token>
+    <token token_id="82">1</token>
+    <token token_id="83">℔</token>
+    <token token_id="84">.</token>
+    <token token_id="85">und</token>
+    <token token_id="86">1</token>
+    <token token_id="87">hun</token>
+    <token token_id="88">,</token>
+    <token token_id="89">git</token>
+    <token token_id="90">Lienhart</token>
+    <token token_id="91">Süber</token>
+    <token token_id="92">.</token>
+  </text>
+  <spans>
+    <span id="1387" start="9" end="11" text="Junckher&#10;Peter Geiger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1399" start="9" end="9" text="Junckher" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1399_head" start="9" end="9" element="head" class="title" text="Junckher" subclass=""/>
+      </span>
+      <span id="1393" start="10" end="11" text="Peter Geiger" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1585" start="13" end="13" text="testament" element="trigger" class="testament" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1405" start="18" end="18" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1405_head" start="18" end="18" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="1418" start="19" end="19" text="uns" element="reference" class="unk" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1418_head" start="19" end="19" element="head" class="pro" text="uns" subclass=""/>
+    </span>
+    <span id="1579" start="20" end="20" text="vergobt" element="trigger" class="testament" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1598" start="29" end="29" text="gabet" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1424" start="30" end="30" text="uns" element="reference" class="unk" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1424_head" start="30" end="30" element="head" class="pro" text="uns" subclass=""/>
+    </span>
+    <span id="1437" start="32" end="42" text="ein Hus , genannt Wesel ¬&#10;manns hus im mindern Basel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1443" start="33" end="33" text="Hus" element="head" class="type" subclass=""/>
+      <span id="1449" start="36" end="39" text="Wesel ¬&#10;manns hus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1449_head" start="36" end="39" element="head" class="nam" text="Wesel ¬ manns hus" subclass=""/>
+      </span>
+      <span id="1455" start="40" end="42" text="im mindern Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1461" start="40" end="42" text="im mindern Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1467" start="41" end="42" text="mindern Basel" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1473" start="44" end="47" text="16sh . zinsdn ." element="value" class="money" subclass=""/>
+    <span id="1479" start="49" end="50" text="ein hun" element="value" class="money" subclass=""/>
+    <span id="1485" start="52" end="53" text="dis hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1491" start="53" end="53" text="hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1504" start="55" end="55" text="wir" element="reference" class="unk" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1504_head" start="55" end="55" element="head" class="pro" text="wir" subclass=""/>
+    </span>
+    <span id="1604" start="58" end="58" text="bezogen" element="trigger" class="acquisition" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1517" start="59" end="62" text="anno&#10;1463 . jor" element="value" class="date" subclass=""/>
+    <span id="1523" start="65" end="65" text="daz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1523_head" start="65" end="65" element="head" class="pro" text="daz" subclass=""/>
+    </span>
+    <span id="1610" start="66" end="66" text="gebuwen" element="trigger" class="construction" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1622" start="73" end="73" text="nemen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1616" start="74" end="74" text="wir" element="reference" class="unk" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1616_head" start="74" end="74" element="head" class="pro" text="wir" subclass=""/>
+    </span>
+    <span id="1536" start="75" end="77" text="an disem ort" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1542" start="77" end="77" text="ort" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1567" start="79" end="81" text="zu diser zit" element="value" class="date" subclass=""/>
+    <span id="1555" start="82" end="84" text="1 ℔." element="value" class="money" subclass=""/>
+    <span id="1561" start="86" end="87" text="1 hun" element="value" class="money" subclass=""/>
+    <span id="1573" start="90" end="91" text="Lienhart Süber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1573_head" start="90" end="91" element="head" class="nam" text="Lienhart Süber" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1411" from="1405" to="1387" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1591" from="1579" to="1585" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1430" from="1424" to="1418" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1510" from="1504" to="1424" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1497" from="1485" to="1437" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1529" from="1523" to="1485" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1548" from="1536" to="1523" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="40" end="42" ref="1455" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="1437" text="ein Hus , genannt Wesel ¬&#10;manns hus im mindern Basel"/>
+        <role role="location-b" ref="1461" text="im mindern Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="testament" polarity="pos" tense="pres" modality="ass" start="13" end="13" ref="" type="event">
+      <trigger start="13" end="13" text="testament" ref="1585"/>
+      <event event_id="1.0">
+        <role role="bequeather" ref="1387" text="Junckher&#10;Peter Geiger"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="testament" polarity="pos" tense="pres" modality="ass" start="18" end="20" ref="" type="event">
+      <trigger start="20" end="20" text="vergobt" ref="1579"/>
+      <event event_id="2.0">
+        <role role="bequeather" ref="1405" text="er"/>
+        <role role="beneficiary" ref="1418" text="uns"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="29" end="50" ref="" type="state">
+      <trigger start="29" end="29" text="gabet" ref="1598"/>
+      <event event_id="3.0">
+        <role role="beneficiary" ref="1424" text="uns"/>
+        <role role="property" ref="1437" text="ein Hus , genannt Wesel ¬&#10;manns hus im mindern Basel"/>
+        <role role="interest" ref="1473" text="16sh . zinsdn ."/>
+        <role role="interest" ref="1479" text="ein hun"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="52" end="62" ref="" type="event">
+      <trigger start="58" end="58" text="bezogen" ref="1604"/>
+      <event event_id="4.0">
+        <role role="property" ref="1485" text="dis hus"/>
+        <role role="buyer" ref="1504" text="wir"/>
+        <role role="date" ref="1517" text="anno&#10;1463 . jor"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="construction" polarity="pos" tense="pres" modality="ass" start="55" end="66" ref="" type="event">
+      <trigger start="66" end="66" text="gebuwen" ref="1610"/>
+      <event event_id="5.0">
+        <role role="builder" ref="1504" text="wir"/>
+        <role role="property" ref="1523" text="daz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-payment" polarity="pos" tense="pres" modality="ass" start="73" end="91" ref="" type="event">
+      <trigger start="73" end="73" text="nemen" ref="1622"/>
+      <event event_id="6.0">
+        <role role="beneficiary" ref="1616" text="wir"/>
+        <role role="property" ref="1536" text="an disem ort"/>
+        <role role="date" ref="1567" text="zu diser zit"/>
+        <role role="interest" ref="1555" text="1 ℔."/>
+        <role role="interest" ref="1561" text="1 hun"/>
+        <role role="payer" ref="1573" text="Lienhart Süber"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

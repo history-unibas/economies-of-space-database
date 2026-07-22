@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/103 S. [60, 61]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 42</tei:title>
+            <tei:idno>HGB 1 63/103</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472968</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Peter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1560">1560</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611284.3088644636 1267295.3069421037</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">2</token>
+    <token token_id="1">℔</token>
+    <token token_id="2">5ß</token>
+    <token token_id="3">gelts</token>
+    <token token_id="4">järlich</token>
+    <token token_id="5">uf</token>
+    <token token_id="6">S</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Bartholomeus</token>
+    <token token_id="9">tag</token>
+    <token token_id="10">kauft</token>
+    <token token_id="11">und</token>
+    <token token_id="12">widerkoufig</token>
+    <token token_id="13">mit</token>
+    <token token_id="14">45</token>
+    <token token_id="15">℔</token>
+    <token token_id="16">Basler</token>
+    <token token_id="17">wa</token>
+    <token token_id="18">-</token>
+    <token token_id="19">rung</token>
+    <token token_id="20">,</token>
+    <token token_id="21">so</token>
+    <token token_id="22">do</token>
+    <token token_id="23">järlich</token>
+    <token token_id="24">geben</token>
+    <token token_id="25">Hans</token>
+    <token token_id="26">Ringler</token>
+    <token token_id="27">der</token>
+    <token token_id="28">glaser</token>
+    <token token_id="29">und</token>
+    <token token_id="30">Clara</token>
+    <token token_id="31">Pfisterin</token>
+    <token token_id="32">sin</token>
+    <token token_id="33">eefrow</token>
+    <token token_id="34">Hauptverkouffer</token>
+    <token token_id="35">.</token>
+    <token token_id="36">und</token>
+    <token token_id="37">Wolfgang</token>
+    <token token_id="38">Müller</token>
+    <token token_id="39">der</token>
+    <token token_id="40">Mitverkoufer</token>
+    <token token_id="41">:</token>
+    <token token_id="42">von</token>
+    <token token_id="43">uf</token>
+    <token token_id="44">und</token>
+    <token token_id="45">ab</token>
+    <token token_id="46">jrem</token>
+    <token token_id="47">Hus</token>
+    <token token_id="48">und</token>
+    <token token_id="49">Hofstatt</token>
+    <token token_id="50">,</token>
+    <token token_id="51">als</token>
+    <token token_id="52">das</token>
+    <token token_id="53">zu</token>
+    <token token_id="54">Basel</token>
+    <token token_id="55">in</token>
+    <token token_id="56">der</token>
+    <token token_id="57">Stat</token>
+    <token token_id="58">in</token>
+    <token token_id="59">der</token>
+    <token token_id="60">Gerwergassen</token>
+    <token token_id="61">zu</token>
+    <token token_id="62">einer</token>
+    <token token_id="63">siten</token>
+    <token token_id="64">ne</token>
+    <token token_id="65">¬</token>
+    <token token_id="66">ben</token>
+    <token token_id="67">dem</token>
+    <token token_id="68">Hus</token>
+    <token token_id="69">zum</token>
+    <token token_id="70">wysen</token>
+    <token token_id="71">Wind</token>
+    <token token_id="72">,</token>
+    <token token_id="73">zur</token>
+    <token token_id="74">andern</token>
+    <token token_id="75">neben</token>
+    <token token_id="76">dem</token>
+    <token token_id="77">Hus</token>
+    <token token_id="78">zum</token>
+    <token token_id="79">Ritter</token>
+    <token token_id="80">gelegen</token>
+    <token token_id="81">und</token>
+    <token token_id="82">zu</token>
+    <token token_id="83">dem</token>
+    <token token_id="84">Griffen</token>
+    <token token_id="85">genannt</token>
+    <token token_id="86">ist</token>
+    <token token_id="87">.</token>
+    <token token_id="88">Zinset</token>
+    <token token_id="89">zuvor</token>
+    <token token_id="90">der</token>
+    <token token_id="91">Spital</token>
+    <token token_id="92">10ß</token>
+    <token token_id="93">10</token>
+    <token token_id="94">ȡ</token>
+    <token token_id="95">.</token>
+    <token token_id="96">30</token>
+    <token token_id="97">dan</token>
+    <token token_id="98">S</token>
+    <token token_id="99">.</token>
+    <token token_id="100">Joans</token>
+    <token token_id="101">Bruderschaft</token>
+    <token token_id="102">uf</token>
+    <token token_id="103">Burg</token>
+    <token token_id="104">3</token>
+    <token token_id="105">gld</token>
+    <token token_id="106">.</token>
+    <token token_id="107">gelts</token>
+    <token token_id="108">,</token>
+    <token token_id="109">für</token>
+    <token token_id="110">geden</token>
+    <token token_id="111">1</token>
+    <token token_id="112">℔</token>
+    <token token_id="113">3ß</token>
+    <token token_id="114">,</token>
+    <token token_id="115">item</token>
+    <token token_id="116">Herr</token>
+    <token token_id="117">Anthoni</token>
+    <token token_id="118">Schmiden</token>
+    <token token_id="119">1</token>
+    <token token_id="120">℔</token>
+    <token token_id="121">gelts</token>
+    <token token_id="122">Basler</token>
+    <token token_id="123">wärung</token>
+    <token token_id="124">,</token>
+    <token token_id="125">sonst</token>
+    <token token_id="126">ledig</token>
+    <token token_id="127">eigen</token>
+    <token token_id="128">.</token>
+    <token token_id="129">Datum</token>
+    <token token_id="130">:</token>
+    <token token_id="131">anno</token>
+    <token token_id="132">1560</token>
+    <token token_id="133">Rand</token>
+    <token token_id="134">:</token>
+    <token token_id="135">den</token>
+    <token token_id="136">Zins</token>
+    <token token_id="137">gibt</token>
+    <token token_id="138">jetzt</token>
+    <token token_id="139">Fridlin</token>
+    <token token_id="140">Zweibruckher</token>
+    <token token_id="141">und</token>
+    <token token_id="142">Dorothea</token>
+    <token token_id="143">Gernerin</token>
+    <token token_id="144">sein</token>
+    <token token_id="145">braut</token>
+    <token token_id="146">frauw</token>
+    <token token_id="147">Hauptverkouffer</token>
+    <token token_id="148">und</token>
+    <token token_id="149">Michel</token>
+    <token token_id="150">Gerner</token>
+    <token token_id="151">,</token>
+    <token token_id="152">mitverkeufer</token>
+    <token token_id="153">,</token>
+  </text>
+  <spans>
+    <span id="2328" start="0" end="2" text="2 ℔ 5ß" element="value" class="money" subclass=""/>
+    <span id="2703" start="4" end="4" text="järlich" element="other" class="other" subclass=""/>
+    <span id="2334" start="5" end="9" text="uf S. Bartholomeus&#10;tag" element="value" class="date" subclass=""/>
+    <span id="2715" start="12" end="12" text="widerkoufig" element="other" class="other" subclass=""/>
+    <span id="2340" start="14" end="19" text="45 ℔ Basler wa -&#10;rung" element="value" class="money" subclass=""/>
+    <span id="2697" start="24" end="24" text="geben" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2443" start="25" end="40" text="Hans Ringler der glaser&#10;und Clara Pfisterin sin eefrow Hauptverkouffer .&#10;und Wolfgang Müller der Mitverkoufer" element="list" class="per" subclass="">
+      <span id="2407" start="25" end="34" text="Hans Ringler der glaser&#10;und Clara Pfisterin sin eefrow Hauptverkouffer" element="list" class="per" subclass="">
+        <span id="2346" start="25" end="28" text="Hans Ringler der glaser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2352" start="25" end="26" text="Hans Ringler" element="head" class="nam" subclass=""/>
+          <span id="2358" start="27" end="28" text="der glaser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2364" start="28" end="28" text="glaser" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="2370" start="30" end="33" text="Clara Pfisterin sin eefrow" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2376" start="30" end="31" text="Clara Pfisterin" element="head" class="nam" subclass=""/>
+          <span id="2382" start="32" end="33" text="sin eefrow" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2394" start="32" end="32" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2394_head" start="32" end="32" element="head" class="pro" text="sin" subclass=""/>
+            </span>
+            <span id="2388" start="33" end="33" text="eefrow" element="head" class="fam" subclass=""/>
+          </span>
+        </span>
+        <span id="2413" start="34" end="34" text="Hauptverkouffer" element="appo" class="role" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2413_head" start="34" end="34" element="head" class="role" text="Hauptverkouffer" subclass=""/>
+        </span>
+      </span>
+      <span id="2419" start="37" end="40" text="Wolfgang Müller der Mitverkoufer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2425" start="37" end="38" text="Wolfgang Müller" element="head" class="nam" subclass=""/>
+        <span id="2431" start="39" end="40" text="der Mitverkoufer" element="appo" class="role" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2437" start="40" end="40" text="Mitverkoufer" element="head" class="role" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2449" start="46" end="127" text="jrem Hus und Hofstatt , als das zu Basel&#10;in der Stat in der Gerwergassen zu einer siten ne ¬&#10;ben dem Hus zum wysen Wind , zur andern neben&#10;dem Hus zum Ritter gelegen und zu dem Griffen&#10;genannt ist . Zinset zuvor der Spital 10ß 10 ȡ . 30&#10;dan S . Joans Bruderschaft uf Burg 3 gld . gelts , für&#10;geden 1 ℔ 3ß , item Herr Anthoni Schmiden 1 ℔&#10;gelts Basler wärung , sonst ledig eigen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2461" start="46" end="46" text="jrem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2467" start="46" end="46" text="jrem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2467_head" start="46" end="46" element="head" class="pro" text="jrem" subclass=""/>
+        </span>
+      </span>
+      <span id="2455" start="47" end="49" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="2480" start="51" end="80" text="als das zu Basel&#10;in der Stat in der Gerwergassen zu einer siten ne ¬&#10;ben dem Hus zum wysen Wind , zur andern neben&#10;dem Hus zum Ritter gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2486" start="54" end="54" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2486_head" start="54" end="54" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="2492" start="56" end="57" text="der Stat" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2498" start="57" end="57" text="Stat" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2504" start="59" end="60" text="der Gerwergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="2510" start="60" end="60" text="Gerwergassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2516" start="67" end="71" text="dem Hus zum wysen Wind" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2522" start="68" end="71" text="Hus zum wysen Wind" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2534" start="76" end="79" text="dem Hus zum Ritter" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2528" start="77" end="79" text="Hus zum Ritter" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="2540" start="82" end="84" text="zu dem Griffen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2540_head" start="82" end="84" element="head" class="nam" text="zu dem Griffen" subclass=""/>
+      </span>
+      <span id="2546" start="88" end="127" text="Zinset zuvor der Spital 10ß 10 ȡ . 30&#10;dan S . Joans Bruderschaft uf Burg 3 gld . gelts , für&#10;geden 1 ℔ 3ß , item Herr Anthoni Schmiden 1 ℔&#10;gelts Basler wärung , sonst ledig eigen" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2721" start="88" end="88" text="Zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2552" start="90" end="91" text="der Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2558" start="91" end="91" text="Spital" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2733" start="92" end="95" text="10ß 10 ȡ ." element="value" class="money" subclass=""/>
+        <span id="2727" start="98" end="103" text="S . Joans Bruderschaft uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2564" start="98" end="101" text="S . Joans Bruderschaft" element="head" class="nam" subclass=""/>
+          <span id="2570" start="102" end="103" text="uf Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2576" start="103" end="103" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2576_head" start="103" end="103" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2582" start="104" end="106" text="3 gld ." element="value" class="money" subclass=""/>
+        <span id="2588" start="111" end="113" text="1 ℔ 3ß" element="value" class="money" subclass=""/>
+        <span id="2594" start="116" end="118" text="Herr Anthoni Schmiden" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2600" start="117" end="118" text="Anthoni Schmiden" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2606" start="119" end="123" text="1 ℔&#10;gelts Basler wärung" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="2612" start="131" end="132" text="anno 1560" element="value" class="date" subclass=""/>
+    <span id="2709" start="136" end="136" text="Zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2752" start="137" end="137" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2691" start="139" end="152" text="Fridlin Zweibruckher und&#10;Dorothea Gernerin sein braut frauw Hauptverkouffer&#10;und Michel Gerner , mitverkeufer" element="list" class="per" subclass="">
+      <span id="2661" start="139" end="147" text="Fridlin Zweibruckher und&#10;Dorothea Gernerin sein braut frauw Hauptverkouffer" element="list" class="per" subclass="">
+        <span id="2618" start="139" end="140" text="Fridlin Zweibruckher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2618_head" start="139" end="140" element="head" class="nam" text="Fridlin Zweibruckher" subclass=""/>
+        </span>
+        <span id="2624" start="142" end="146" text="Dorothea Gernerin sein braut frauw" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2630" start="142" end="143" text="Dorothea Gernerin" element="head" class="nam" subclass=""/>
+          <span id="2636" start="144" end="146" text="sein braut frauw" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2648" start="144" end="144" text="sein" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2648_head" start="144" end="144" element="head" class="pro" text="sein" subclass=""/>
+            </span>
+            <span id="2642" start="145" end="146" text="braut frauw" element="head" class="fam" subclass=""/>
+          </span>
+        </span>
+        <span id="2667" start="147" end="147" text="Hauptverkouffer" element="appo" class="role" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2667_head" start="147" end="147" element="head" class="role" text="Hauptverkouffer" subclass=""/>
+        </span>
+      </span>
+      <span id="2673" start="149" end="152" text="Michel Gerner , mitverkeufer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2679" start="149" end="150" text="Michel Gerner" element="head" class="nam" subclass=""/>
+        <span id="2685" start="152" end="152" text="mitverkeufer" element="appo" class="role" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2685_head" start="152" end="152" element="head" class="role" text="mitverkeufer" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2745" from="2709" to="2697" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2473" from="2467" to="2407" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2400" from="2394" to="2346" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2654" from="2648" to="2618" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="32" end="33" ref="2382" type="state">
+      <trigger start="33" end="33" text="eefrow" ref="2388"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="2370" text="Clara Pfisterin sin eefrow"/>
+        <role role="family-b" ref="2394" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="144" end="146" ref="2636" type="state">
+      <trigger start="145" end="146" text="braut frauw" ref="2642"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="2624" text="Dorothea Gernerin sein braut frauw"/>
+        <role role="family-b" ref="2648" text="sein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="46" end="46" ref="2461" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="2449" text="jrem Hus und Hofstatt , als das zu Basel&#10;in der Stat in der Gerwergassen zu einer siten ne ¬&#10;ben dem Hus zum wysen Wind , zur andern neben&#10;dem Hus zum Ritter gelegen und zu dem Griffen&#10;genannt ist . Zinset zuvor der Spital 10ß 10 ȡ . 30&#10;dan S . Joans Bruderschaft uf Burg 3 gld . gelts , für&#10;geden 1 ℔ 3ß , item Herr Anthoni Schmiden 1 ℔&#10;gelts Basler wärung , sonst ledig eigen"/>
+        <role role="owner" ref="2467" text="jrem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="51" end="80" ref="2480" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="2449" text="jrem Hus und Hofstatt , als das zu Basel&#10;in der Stat in der Gerwergassen zu einer siten ne ¬&#10;ben dem Hus zum wysen Wind , zur andern neben&#10;dem Hus zum Ritter gelegen und zu dem Griffen&#10;genannt ist . Zinset zuvor der Spital 10ß 10 ȡ . 30&#10;dan S . Joans Bruderschaft uf Burg 3 gld . gelts , für&#10;geden 1 ℔ 3ß , item Herr Anthoni Schmiden 1 ℔&#10;gelts Basler wärung , sonst ledig eigen"/>
+        <role role="location-b" ref="2486" text="Basel"/>
+        <role role="location-b" ref="2492" text="der Stat"/>
+        <role role="location-b" ref="2504" text="der Gerwergassen"/>
+        <role role="location-b" ref="2516" text="dem Hus zum wysen Wind"/>
+        <role role="location-b" ref="2534" text="dem Hus zum Ritter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="88" end="127" ref="2546" type="state">
+      <trigger start="88" end="88" text="Zinset" ref="2721"/>
+      <event event_id="4.0">
+        <role role="property" ref="2449" text="jrem Hus und Hofstatt , als das zu Basel&#10;in der Stat in der Gerwergassen zu einer siten ne ¬&#10;ben dem Hus zum wysen Wind , zur andern neben&#10;dem Hus zum Ritter gelegen und zu dem Griffen&#10;genannt ist . Zinset zuvor der Spital 10ß 10 ȡ . 30&#10;dan S . Joans Bruderschaft uf Burg 3 gld . gelts , für&#10;geden 1 ℔ 3ß , item Herr Anthoni Schmiden 1 ℔&#10;gelts Basler wärung , sonst ledig eigen"/>
+        <role role="beneficiary" ref="2552" text="der Spital"/>
+        <role role="interest" ref="2733" text="10ß 10 ȡ ."/>
+      </event>
+      <event event_id="4.1">
+        <role role="property" ref="2449" text="jrem Hus und Hofstatt , als das zu Basel&#10;in der Stat in der Gerwergassen zu einer siten ne ¬&#10;ben dem Hus zum wysen Wind , zur andern neben&#10;dem Hus zum Ritter gelegen und zu dem Griffen&#10;genannt ist . Zinset zuvor der Spital 10ß 10 ȡ . 30&#10;dan S . Joans Bruderschaft uf Burg 3 gld . gelts , für&#10;geden 1 ℔ 3ß , item Herr Anthoni Schmiden 1 ℔&#10;gelts Basler wärung , sonst ledig eigen"/>
+        <role role="beneficiary" ref="2727" text="S . Joans Bruderschaft uf Burg"/>
+        <role role="interest" ref="2582" text="3 gld ."/>
+        <role role="detail_interest-conv" ref="2588" text="1 ℔ 3ß"/>
+      </event>
+      <event event_id="4.2">
+        <role role="property" ref="2449" text="jrem Hus und Hofstatt , als das zu Basel&#10;in der Stat in der Gerwergassen zu einer siten ne ¬&#10;ben dem Hus zum wysen Wind , zur andern neben&#10;dem Hus zum Ritter gelegen und zu dem Griffen&#10;genannt ist . Zinset zuvor der Spital 10ß 10 ȡ . 30&#10;dan S . Joans Bruderschaft uf Burg 3 gld . gelts , für&#10;geden 1 ℔ 3ß , item Herr Anthoni Schmiden 1 ℔&#10;gelts Basler wärung , sonst ledig eigen"/>
+        <role role="beneficiary" ref="2594" text="Herr Anthoni Schmiden"/>
+        <role role="interest" ref="2606" text="1 ℔&#10;gelts Basler wärung"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="102" end="103" ref="2570" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2727" text="S . Joans Bruderschaft uf Burg"/>
+        <role role="location-b" ref="2576" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="24" ref="" type="event">
+      <trigger start="24" end="24" text="geben" ref="2697"/>
+      <event event_id="6.0">
+        <role role="interest" ref="2328" text="2 ℔ 5ß"/>
+        <role role="interval" ref="2703" text="järlich"/>
+        <role role="interest-redeemable" ref="2715" text="widerkoufig"/>
+        <role role="capital" ref="2340" text="45 ℔ Basler wa -&#10;rung"/>
+        <role role="payer" ref="2346" text="Hans Ringler der glaser"/>
+        <role role="payer" ref="2370" text="Clara Pfisterin sin eefrow"/>
+        <role role="payer" ref="2419" text="Wolfgang Müller der Mitverkoufer"/>
+        <role role="property" ref="2449" text="jrem Hus und Hofstatt , als das zu Basel&#10;in der Stat in der Gerwergassen zu einer siten ne ¬&#10;ben dem Hus zum wysen Wind , zur andern neben&#10;dem Hus zum Ritter gelegen und zu dem Griffen&#10;genannt ist . Zinset zuvor der Spital 10ß 10 ȡ . 30&#10;dan S . Joans Bruderschaft uf Burg 3 gld . gelts , für&#10;geden 1 ℔ 3ß , item Herr Anthoni Schmiden 1 ℔&#10;gelts Basler wärung , sonst ledig eigen"/>
+        <role role="date" ref="2612" text="anno 1560"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-payment" polarity="pos" tense="pres" modality="ass" start="136" end="136" ref="" type="event">
+      <trigger start="136" end="136" text="Zins" ref="2709"/>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="136" end="152" ref="" type="state">
+      <trigger start="137" end="137" text="gibt" ref="2752"/>
+      <event event_id="8.0">
+        <role role="previous-due" ref="2709" text="Zins"/>
+        <role role="payer" ref="2618" text="Fridlin Zweibruckher"/>
+        <role role="payer" ref="2624" text="Dorothea Gernerin sein braut frauw"/>
+        <role role="payer" ref="2673" text="Michel Gerner , mitverkeufer"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

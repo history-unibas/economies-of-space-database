@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 159/24 S. [9, 10]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheingasse Th. v. 3 neben 1</tei:title>
+            <tei:idno>HGB 1 159/24</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1507926</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1422">1422</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611501.945736166 1267791.3786656684</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">git</token>
+    <token token_id="2">ze</token>
+    <token token_id="3">kouffende</token>
+    <token token_id="4">Peter</token>
+    <token token_id="5">Scherer</token>
+    <token token_id="6">von</token>
+    <token token_id="7">sant</token>
+    <token token_id="8">Ursiten</token>
+    <token token_id="9">eivis</token>
+    <token token_id="10">etc</token>
+    <token token_id="11">.</token>
+    <token token_id="12">Niclaus</token>
+    <token token_id="13">Seyler</token>
+    <token token_id="14">de</token>
+    <token token_id="15">Louffenberg</token>
+    <token token_id="16">,</token>
+    <token token_id="17">dz</token>
+    <token token_id="18">hus</token>
+    <token token_id="19">genant</token>
+    <token token_id="20">Klegklin</token>
+    <token token_id="21">huß</token>
+    <token token_id="22">sit</token>
+    <token token_id="23">in</token>
+    <token token_id="24">minren</token>
+    <token token_id="25">Basel</token>
+    <token token_id="26">in</token>
+    <token token_id="27">der</token>
+    <token token_id="28">Ringassen</token>
+    <token token_id="29">vor</token>
+    <token token_id="30">sant</token>
+    <token token_id="31">Niclaus</token>
+    <token token_id="32">cappellen</token>
+    <token token_id="33">über</token>
+    <token token_id="34">zwüschent</token>
+    <token token_id="35">den</token>
+    <token token_id="36">hußern</token>
+    <token token_id="37">genant</token>
+    <token token_id="38">Mer</token>
+    <token token_id="39">genberg</token>
+    <token token_id="40">und</token>
+    <token token_id="41">Heuenberg</token>
+    <token token_id="42">zinset</token>
+    <token token_id="43">den</token>
+    <token token_id="44">ra</token>
+    <token token_id="45">ten</token>
+    <token token_id="46">30ß</token>
+    <token token_id="47">zinßd</token>
+    <token token_id="48">Martini</token>
+    <token token_id="49">darin</token>
+    <token token_id="50">zinset</token>
+    <token token_id="51">dise</token>
+    <token token_id="52">nachgesch</token>
+    <token token_id="53">vier</token>
+    <token token_id="54">huß</token>
+    <token token_id="55">,</token>
+    <token token_id="56">des</token>
+    <token token_id="57">ersten</token>
+    <token token_id="58">dz</token>
+    <token token_id="59">hus</token>
+    <token token_id="60">Blotzhein</token>
+    <token token_id="61">dz</token>
+    <token token_id="62">ander</token>
+    <token token_id="63">zem</token>
+    <token token_id="64">Tiergarten</token>
+    <token token_id="65">dz</token>
+    <token token_id="66">dritt</token>
+    <token token_id="67">Lowenberg</token>
+    <token token_id="68">und</token>
+    <token token_id="69">dz</token>
+    <token token_id="70">vierd</token>
+    <token token_id="71">ober</token>
+    <token token_id="72">Brander</token>
+    <token token_id="73">Butridegk</token>
+    <token token_id="74">(</token>
+    <token token_id="75">undentlich</token>
+    <token token_id="76">8ß</token>
+    <token token_id="77">zinßd</token>
+    <token token_id="78">,</token>
+    <token token_id="79">umb</token>
+    <token token_id="80">60</token>
+    <token token_id="81">guld</token>
+    <token token_id="82">minus</token>
+    <token token_id="83">2</token>
+    <token token_id="84">guld</token>
+    <token token_id="85">.</token>
+    <token token_id="86">Johan</token>
+    <token token_id="87">Wahinger</token>
+    <token token_id="88">consensit</token>
+    <token token_id="89">,</token>
+    <token token_id="90">und</token>
+    <token token_id="91">sol</token>
+    <token token_id="92">der</token>
+    <token token_id="93">obge</token>
+    <token token_id="94">kouffer</token>
+    <token token_id="95">und</token>
+    <token token_id="96">sin</token>
+    <token token_id="97">erben</token>
+    <token token_id="98">de</token>
+    <token token_id="99">vorgeß</token>
+    <token token_id="100">8ß</token>
+    <token token_id="101">tragen</token>
+    <token token_id="102">gegen</token>
+    <token token_id="103">den</token>
+    <token token_id="104">obgl</token>
+    <token token_id="105">.</token>
+    <token token_id="106">Joh</token>
+    <token token_id="107">Wahinger</token>
+    <token token_id="108">.</token>
+  </text>
+  <spans>
+    <span id="1938" start="3" end="3" text="kouffende" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1635" start="4" end="11" text="Peter Scherer von sant&#10;Ursiten eivis etc ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1641" start="4" end="5" text="Peter Scherer" element="head" class="nam" subclass=""/>
+      <span id="1647" start="6" end="8" text="von sant&#10;Ursiten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1653" start="7" end="8" text="sant&#10;Ursiten" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1653_head" start="7" end="8" element="head" class="nam" text="sant Ursiten" subclass=""/>
+        </span>
+      </span>
+      <span id="1659" start="9" end="9" text="eivis" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1659_head" start="9" end="9" element="head" class="org-aff" text="eivis" subclass=""/>
+      </span>
+    </span>
+    <span id="1665" start="12" end="15" text="Niclaus Seyler de&#10;Louffenberg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1671" start="12" end="13" text="Niclaus Seyler" element="head" class="nam" subclass=""/>
+      <span id="1677" start="14" end="15" text="de&#10;Louffenberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1683" start="15" end="15" text="Louffenberg" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1683_head" start="15" end="15" element="head" class="nam" text="Louffenberg" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1689" start="17" end="77" text="dz hus genant Klegklin&#10;huß sit in minren Basel in der&#10;Ringassen vor sant Niclaus cappellen&#10;über zwüschent den hußern genant Mer&#10;genberg und Heuenberg zinset den ra&#10;ten 30ß zinßd Martini darin zinset&#10;dise nachgesch vier huß , des ersten dz&#10;hus Blotzhein dz ander zem Tiergarten&#10;dz dritt Lowenberg und dz vierd ober&#10;Brander&#10;Butridegk ( undentlich 8ß zinßd" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1695" start="18" end="18" text="hus" element="head" class="type" subclass=""/>
+      <span id="1701" start="20" end="21" text="Klegklin&#10;huß" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1701_head" start="20" end="21" element="head" class="nam" text="Klegklin huß" subclass=""/>
+      </span>
+      <span id="1707" start="22" end="41" text="sit in minren Basel in der&#10;Ringassen vor sant Niclaus cappellen&#10;über zwüschent den hußern genant Mer&#10;genberg und Heuenberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1713" start="24" end="25" text="minren Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1713_head" start="24" end="25" element="head" class="nam" text="minren Basel" subclass=""/>
+        </span>
+        <span id="1719" start="27" end="28" text="der&#10;Ringassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1725" start="28" end="28" text="Ringassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1731" start="30" end="32" text="sant Niclaus cappellen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1731_head" start="30" end="32" element="head" class="nam" text="sant Niclaus cappellen" subclass=""/>
+        </span>
+        <span id="1737" start="35" end="41" text="den hußern genant Mer&#10;genberg und Heuenberg" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1743" start="36" end="36" text="hußern" element="head" class="type" subclass=""/>
+          <span id="1749" start="38" end="39" text="Mer&#10;genberg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1749_head" start="38" end="39" element="head" class="nam" text="Mer genberg" subclass=""/>
+          </span>
+          <span id="1755" start="41" end="41" text="Heuenberg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1755_head" start="41" end="41" element="head" class="nam" text="Heuenberg" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1761" start="42" end="77" text="zinset den ra&#10;ten 30ß zinßd Martini darin zinset&#10;dise nachgesch vier huß , des ersten dz&#10;hus Blotzhein dz ander zem Tiergarten&#10;dz dritt Lowenberg und dz vierd ober&#10;Brander&#10;Butridegk ( undentlich 8ß zinßd" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1956" start="42" end="42" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1767" start="43" end="45" text="den ra&#10;ten" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="1773" start="44" end="45" text="ra&#10;ten" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1779" start="46" end="47" text="30ß zinßd" element="value" class="money" subclass=""/>
+        <span id="1785" start="48" end="48" text="Martini" element="value" class="date" subclass=""/>
+        <span id="1975" start="50" end="50" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1791" start="51" end="54" text="dise nachgesch vier huß" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1797" start="54" end="54" text="huß" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1962" start="56" end="73" text="des ersten dz&#10;hus Blotzhein dz ander zem Tiergarten&#10;dz dritt Lowenberg und dz vierd ober&#10;Brander&#10;Butridegk" element="list" class="fac" subclass="">
+          <span id="1803" start="58" end="60" text="dz&#10;hus Blotzhein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1809" start="59" end="60" text="hus Blotzhein" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1815" start="61" end="64" text="dz ander zem Tiergarten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1821" start="63" end="64" text="zem Tiergarten" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1827" start="65" end="67" text="dz dritt Lowenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1833" start="67" end="67" text="Lowenberg" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1839" start="69" end="73" text="dz vierd ober&#10;Brander&#10;Butridegk" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1845" start="71" end="73" text="ober&#10;Brander&#10;Butridegk" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+        <span id="1851" start="76" end="77" text="8ß zinßd" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1857" start="80" end="85" text="60 guld minus 2 guld ." element="value" class="money" subclass=""/>
+    <span id="1863" start="86" end="87" text="Johan Wahinger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1863_head" start="86" end="87" element="head" class="nam" text="Johan Wahinger" subclass=""/>
+    </span>
+    <span id="1988" start="88" end="88" text="consensit" element="trigger" class="consent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1950" start="92" end="97" text="der obge kouffer und&#10;sin erben" element="list" class="per" subclass="">
+      <span id="1869" start="92" end="94" text="der obge kouffer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1882" start="94" end="94" text="kouffer" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1888" start="96" end="97" text="sin erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1900" start="96" end="96" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1900_head" start="96" end="96" element="head" class="pro" text="sin" subclass=""/>
+        </span>
+        <span id="1894" start="97" end="97" text="erben" element="head" class="heir" subclass=""/>
+      </span>
+    </span>
+    <span id="1913" start="100" end="100" text="8ß" element="value" class="money" subclass=""/>
+    <span id="1944" start="101" end="101" text="tragen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1919" start="103" end="107" text="den&#10;obgl .&#10;Joh Wahinger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1925" start="106" end="107" text="Joh Wahinger" element="head" class="nam" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1875" from="1869" to="1665" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1981" from="1944" to="1975" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1968" from="1962" to="1791" class="part-of" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1931" from="1919" to="1863" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1906" from="1900" to="1869" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1956_role" from="1956" to="1689" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1975_role" from="1975" to="1689" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="96" end="97" ref="1888" type="event">
+      <trigger start="97" end="97" text="erben" ref="1894"/>
+      <event event_id="0.0">
+        <role role="heir" ref="1888" text="sin erben"/>
+        <role role="decedent" ref="1900" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="6" end="8" ref="1647" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1635" text="Peter Scherer von sant&#10;Ursiten eivis etc ."/>
+        <role role="location-b" ref="1653" text="sant&#10;Ursiten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="14" end="15" ref="1677" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1665" text="Niclaus Seyler de&#10;Louffenberg"/>
+        <role role="location-b" ref="1683" text="Louffenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="22" end="41" ref="1707" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1689" text="dz hus genant Klegklin&#10;huß sit in minren Basel in der&#10;Ringassen vor sant Niclaus cappellen&#10;über zwüschent den hußern genant Mer&#10;genberg und Heuenberg zinset den ra&#10;ten 30ß zinßd Martini darin zinset&#10;dise nachgesch vier huß , des ersten dz&#10;hus Blotzhein dz ander zem Tiergarten&#10;dz dritt Lowenberg und dz vierd ober&#10;Brander&#10;Butridegk ( undentlich 8ß zinßd"/>
+        <role role="location-b" ref="1713" text="minren Basel"/>
+        <role role="location-b" ref="1719" text="der&#10;Ringassen"/>
+        <role role="location-b" ref="1731" text="sant Niclaus cappellen"/>
+        <role role="location-b" ref="1737" text="den hußern genant Mer&#10;genberg und Heuenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="85" ref="" type="event">
+      <trigger start="3" end="3" text="kouffende" ref="1938"/>
+      <event event_id="4.0">
+        <role role="seller" ref="1635" text="Peter Scherer von sant&#10;Ursiten eivis etc ."/>
+        <role role="buyer" ref="1665" text="Niclaus Seyler de&#10;Louffenberg"/>
+        <role role="property" ref="1689" text="dz hus genant Klegklin&#10;huß sit in minren Basel in der&#10;Ringassen vor sant Niclaus cappellen&#10;über zwüschent den hußern genant Mer&#10;genberg und Heuenberg zinset den ra&#10;ten 30ß zinßd Martini darin zinset&#10;dise nachgesch vier huß , des ersten dz&#10;hus Blotzhein dz ander zem Tiergarten&#10;dz dritt Lowenberg und dz vierd ober&#10;Brander&#10;Butridegk ( undentlich 8ß zinßd"/>
+        <role role="price" ref="1857" text="60 guld minus 2 guld ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="17" end="77" ref="1761" type="state">
+      <trigger start="42" end="42" text="zinset" ref="1956"/>
+      <event event_id="5.0">
+        <role role="beneficiary" ref="1767" text="den ra&#10;ten"/>
+        <role role="interest" ref="1779" text="30ß zinßd"/>
+        <role role="due-date" ref="1785" text="Martini"/>
+        <role role="property" ref="1689" text="dz hus genant Klegklin&#10;huß sit in minren Basel in der&#10;Ringassen vor sant Niclaus cappellen&#10;über zwüschent den hußern genant Mer&#10;genberg und Heuenberg zinset den ra&#10;ten 30ß zinßd Martini darin zinset&#10;dise nachgesch vier huß , des ersten dz&#10;hus Blotzhein dz ander zem Tiergarten&#10;dz dritt Lowenberg und dz vierd ober&#10;Brander&#10;Butridegk ( undentlich 8ß zinßd"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="17" end="77" ref="1761" type="state">
+      <trigger start="50" end="50" text="zinset" ref="1975"/>
+      <event event_id="6.0">
+        <role role="property" ref="1791" text="dise nachgesch vier huß"/>
+        <role role="interest" ref="1851" text="8ß zinßd"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="consent" polarity="pos" tense="pres" modality="ass" start="3" end="88" ref="" type="event">
+      <trigger start="88" end="88" text="consensit" ref="1988"/>
+      <event event_id="7.0">
+        <role role="subject" ref="1938" text="kouffende"/>
+        <role role="consenting" ref="1863" text="Johan Wahinger"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="101" end="107" ref="" type="state">
+      <trigger start="101" end="101" text="tragen" ref="1944"/>
+      <event event_id="8.0">
+        <role role="payer" ref="1869" text="der obge kouffer"/>
+        <role role="payer" ref="1888" text="sin erben"/>
+        <role role="interest" ref="1913" text="8ß"/>
+        <role role="beneficiary" ref="1919" text="den&#10;obgl .&#10;Joh Wahinger"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="9.0">
+        <role role="part" ref="1803" text="dz&#10;hus Blotzhein"/>
+        <role role="whole" ref="1791" text="dise nachgesch vier huß"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="10.0">
+        <role role="part" ref="1815" text="dz ander zem Tiergarten"/>
+        <role role="whole" ref="1791" text="dise nachgesch vier huß"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="11.0">
+        <role role="part" ref="1827" text="dz dritt Lowenberg"/>
+        <role role="whole" ref="1791" text="dise nachgesch vier huß"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="12.0">
+        <role role="part" ref="1839" text="dz vierd ober&#10;Brander&#10;Butridegk"/>
+        <role role="whole" ref="1791" text="dise nachgesch vier huß"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

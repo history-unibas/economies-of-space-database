@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 161/10 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheinsprung 1</tei:title>
+            <tei:idno>HGB 1 161/10</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1509037</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1463">1463</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611299.537333324 1267637.328933199</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Caspar</token>
+    <token token_id="1">Tuner</token>
+    <token token_id="2">mitschuldner</token>
+    <token token_id="3">,</token>
+    <token token_id="4">underpfand</token>
+    <token token_id="5">:</token>
+    <token token_id="6">das</token>
+    <token token_id="7">Hus</token>
+    <token token_id="8">genant</token>
+    <token token_id="9">Rinow</token>
+    <token token_id="10">an</token>
+    <token token_id="11">der</token>
+    <token token_id="12">Rinbrug</token>
+    <token token_id="13">genant</token>
+    <token token_id="14">nun</token>
+    <token token_id="15">zu</token>
+    <token token_id="16">der</token>
+    <token token_id="17">Sunnen</token>
+    <token token_id="18">,</token>
+    <token token_id="19">ist</token>
+    <token token_id="20">ein</token>
+    <token token_id="21">ort</token>
+    <token token_id="22">hus</token>
+    <token token_id="23">an</token>
+    <token token_id="24">dernideren</token>
+    <token token_id="25">Rinow</token>
+    <token token_id="26">,</token>
+    <token token_id="27">u</token>
+    <token token_id="28">.</token>
+    <token token_id="29">a</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Liegenschaften</token>
+    <token token_id="32">Datum</token>
+    <token token_id="33">:</token>
+    <token token_id="34">Anno</token>
+    <token token_id="35">39</token>
+    <token token_id="36">jar</token>
+    <token token_id="37">.</token>
+    <token token_id="38">Git</token>
+    <token token_id="39">nun</token>
+    <token token_id="40">Wernlin</token>
+    <token token_id="41">Meyglin</token>
+    <token token_id="42">.</token>
+    <token token_id="43">Niclaus</token>
+    <token token_id="44">Angelroth</token>
+    <token token_id="45">hat</token>
+    <token token_id="46">die</token>
+    <token token_id="47">8</token>
+    <token token_id="48">gld</token>
+    <token token_id="49">.</token>
+    <token token_id="50">geltz</token>
+    <token token_id="51">abgelöst</token>
+    <token token_id="52">mit</token>
+    <token token_id="53">160</token>
+    <token token_id="54">gld</token>
+    <token token_id="55">.</token>
+    <token token_id="56">und</token>
+    <token token_id="57">ist</token>
+    <token token_id="58">mit</token>
+    <token token_id="59">sampt</token>
+    <token token_id="60">andren</token>
+    <token token_id="61">die</token>
+    <token token_id="62">10</token>
+    <token token_id="63">gld</token>
+    <token token_id="64">.</token>
+    <token token_id="65">gelts</token>
+    <token token_id="66">so</token>
+    <token token_id="67">wir</token>
+    <token token_id="68">Heinrich</token>
+    <token token_id="69">Weyger</token>
+    <token token_id="70">gezinst</token>
+    <token token_id="71">haben</token>
+    <token token_id="72">,</token>
+    <token token_id="73">damit</token>
+    <token token_id="74">abgelöst</token>
+    <token token_id="75">.</token>
+    <token token_id="76">gestrichen</token>
+    <token token_id="77">.</token>
+    <token token_id="78">Heinrich</token>
+    <token token_id="79">Meyglin</token>
+    <token token_id="80">git</token>
+    <token token_id="81">8</token>
+    <token token_id="82">gulden</token>
+    <token token_id="83">uf</token>
+    <token token_id="84">Martini</token>
+    <token token_id="85">,</token>
+  </text>
+  <spans>
+    <span id="1293" start="0" end="2" text="Caspar Tuner mitschuldner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1299" start="0" end="1" text="Caspar Tuner" element="head" class="nam" subclass=""/>
+      <span id="1305" start="2" end="2" text="mitschuldner" element="appo" class="role" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1305_head" start="2" end="2" element="head" class="role" text="mitschuldner" subclass=""/>
+      </span>
+    </span>
+    <span id="1311" start="6" end="25" text="das Hus&#10;genant Rinow an der Rinbrug genant nun zu der&#10;Sunnen , ist ein ort hus an dernideren Rinow" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1317" start="7" end="7" text="Hus" element="head" class="type" subclass=""/>
+      <span id="1323" start="9" end="12" text="Rinow an der Rinbrug" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1323_head" start="9" end="12" element="head" class="nam" text="Rinow an der Rinbrug" subclass=""/>
+      </span>
+      <span id="1329" start="15" end="17" text="zu der&#10;Sunnen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1329_head" start="15" end="17" element="head" class="nam" text="zu der Sunnen" subclass=""/>
+      </span>
+      <span id="1347" start="20" end="25" text="ein ort hus an dernideren Rinow" element="appo" class="type" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1425" start="21" end="22" text="ort hus" element="head" class="type" subclass=""/>
+        <span id="1335" start="23" end="25" text="an dernideren Rinow" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1341" start="24" end="25" text="dernideren Rinow" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1341_head" start="24" end="25" element="head" class="nam" text="dernideren Rinow" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1413" start="32" end="41" text="Datum : Anno 39 jar .&#10;Git nun Wernlin Meyglin" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1383" start="35" end="35" text="39" element="value" class="date" subclass=""/>
+      <span id="1401" start="38" end="38" text="Git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+      <span id="1353" start="40" end="41" text="Wernlin Meyglin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1353_head" start="40" end="41" element="head" class="nam" text="Wernlin Meyglin" subclass=""/>
+      </span>
+    </span>
+    <span id="1443" start="43" end="75" text="Niclaus Angelroth hat die 8 gld . geltz abgelöst mit&#10;160 gld . und ist mit sampt andren die 10 gld . gelts&#10;so wir Heinrich Weyger gezinst haben , damit abgelöst ." element="eventspan" class="redemption" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1359" start="43" end="44" text="Niclaus Angelroth" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1359_head" start="43" end="44" element="head" class="nam" text="Niclaus Angelroth" subclass=""/>
+      </span>
+      <span id="1365" start="47" end="50" text="8 gld . geltz" element="value" class="money" subclass=""/>
+      <span id="1407" start="51" end="51" text="abgelöst" element="trigger" class="redemption" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      <span id="1371" start="53" end="55" text="160 gld ." element="value" class="money" subclass=""/>
+      <span id="1419" start="62" end="64" text="10 gld ." element="value" class="money" subclass=""/>
+      <span id="1437" start="67" end="67" text="wir" element="reference" class="unk" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1437_head" start="67" end="67" element="head" class="self" text="wir" subclass=""/>
+      </span>
+      <span id="1377" start="68" end="69" text="Heinrich Weyger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1377_head" start="68" end="69" element="head" class="nam" text="Heinrich Weyger" subclass=""/>
+      </span>
+      <span id="1431" start="70" end="70" text="gezinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1275" start="78" end="79" text="Heinrich Meyglin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1275_head" start="78" end="79" element="head" class="nam" text="Heinrich Meyglin" subclass=""/>
+    </span>
+    <span id="1395" start="80" end="80" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1281" start="81" end="82" text="8 gulden" element="value" class="money" subclass=""/>
+    <span id="1287" start="83" end="84" text="uf Martini" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="32" end="41" ref="1413" type="event">
+      <trigger start="38" end="38" text="Git" ref="1401"/>
+      <event event_id="0.0">
+        <role role="date" ref="1383" text="39"/>
+        <role role="payer" ref="1353" text="Wernlin Meyglin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="redemption" polarity="pos" tense="pres" modality="ass" start="43" end="75" ref="1443" type="event">
+      <trigger start="51" end="51" text="abgelöst" ref="1407"/>
+      <event event_id="1.0">
+        <role role="redeemer" ref="1359" text="Niclaus Angelroth"/>
+        <role role="interest" ref="1365" text="8 gld . geltz"/>
+        <role role="capital" ref="1371" text="160 gld ."/>
+        <role role="due" ref="1431" text="gezinst"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="23" end="25" ref="1335" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1311" text="das Hus&#10;genant Rinow an der Rinbrug genant nun zu der&#10;Sunnen , ist ein ort hus an dernideren Rinow"/>
+        <role role="location-b" ref="1341" text="dernideren Rinow"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="62" end="70" ref="1443" type="state">
+      <trigger start="70" end="70" text="gezinst" ref="1431"/>
+      <event event_id="3.0">
+        <role role="interest" ref="1419" text="10 gld ."/>
+        <role role="payer" ref="1437" text="wir"/>
+        <role role="beneficiary" ref="1377" text="Heinrich Weyger"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="0" end="84" ref="" type="state">
+      <trigger start="80" end="80" text="git" ref="1395"/>
+      <event event_id="4.0">
+        <role role="payer" ref="1293" text="Caspar Tuner mitschuldner"/>
+        <role role="property" ref="1311" text="das Hus&#10;genant Rinow an der Rinbrug genant nun zu der&#10;Sunnen , ist ein ort hus an dernideren Rinow"/>
+        <role role="payer" ref="1275" text="Heinrich Meyglin"/>
+        <role role="interest" ref="1281" text="8 gulden"/>
+        <role role="due-date" ref="1287" text="uf Martini"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

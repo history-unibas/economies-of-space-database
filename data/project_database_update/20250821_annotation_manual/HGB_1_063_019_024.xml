@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/19 S. [24]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse Theil von 5 neben 3</tei:title>
+            <tei:idno>HGB 1 63/19</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472874</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1507">1507</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611248.3752721515 1267424.4701326843</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">machen</token>
+    <token token_id="2">einander</token>
+    <token token_id="3">Andres</token>
+    <token token_id="4">sutor</token>
+    <token token_id="5">der</token>
+    <token token_id="6">sckler</token>
+    <token token_id="7">,</token>
+    <token token_id="8">u</token>
+    <token token_id="9">.</token>
+    <token token_id="10">seine</token>
+    <token token_id="11">Frau</token>
+    <token token_id="12">Anna</token>
+    <token token_id="13">,</token>
+    <token token_id="14">jr</token>
+    <token token_id="15">varend</token>
+    <token token_id="16">gut</token>
+    <token token_id="17">.</token>
+    <token token_id="18">u</token>
+    <token token_id="19">.</token>
+    <token token_id="20">ist</token>
+    <token token_id="21">das</token>
+    <token token_id="22">gricht</token>
+    <token token_id="23">am</token>
+    <token token_id="24">Rindermerkt</token>
+    <token token_id="25">,</token>
+    <token token_id="26">jm</token>
+    <token token_id="27">Hus</token>
+    <token token_id="28">zum</token>
+    <token token_id="29">beren</token>
+    <token token_id="30">oben</token>
+    <token token_id="31">in</token>
+    <token token_id="32">der</token>
+    <token token_id="33">Kamen</token>
+    <token token_id="34">gehalten</token>
+    <token token_id="35">worden</token>
+    <token token_id="36">.</token>
+  </text>
+  <spans>
+    <span id="744" start="1" end="1" text="machen" element="trigger" class="bequest" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="731" start="3" end="12" text="Andres sutor der sckler , u . seine&#10;Frau Anna" element="list" class="per" subclass="">
+      <span id="634" start="3" end="6" text="Andres sutor der sckler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="640" start="3" end="4" text="Andres sutor" element="head" class="nam" subclass=""/>
+        <span id="646" start="5" end="6" text="der sckler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="652" start="6" end="6" text="sckler" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="658" start="10" end="12" text="seine&#10;Frau Anna" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="670" start="10" end="11" text="seine&#10;Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="682" start="10" end="10" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="682_head" start="10" end="10" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="676" start="11" end="11" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="664" start="12" end="12" text="Anna" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="695" start="14" end="14" text="jr" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="695_head" start="14" end="14" element="head" class="pro" text="jr" subclass=""/>
+    </span>
+    <span id="707" start="23" end="24" text="am Rindermerkt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+      <span id="713" start="24" end="24" text="Rindermerkt" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="719" start="26" end="29" text="jm Hus zum beren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="725" start="27" end="29" text="Hus zum beren" element="head" class="nam" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="737" from="695" to="731" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="688" from="682" to="634" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="10" end="11" ref="670" type="state">
+      <trigger start="11" end="11" text="Frau" ref="676"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="658" text="seine&#10;Frau Anna"/>
+        <role role="family-b" ref="682" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="bequest" polarity="pos" tense="pres" modality="ass" start="1" end="12" ref="" type="event">
+      <trigger start="1" end="1" text="machen" ref="744"/>
+      <event event_id="1.0">
+        <role role="bequeather" ref="634" text="Andres sutor der sckler"/>
+        <role role="bequeather" ref="658" text="seine&#10;Frau Anna"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

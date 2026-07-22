@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 184/10 S. [27]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schneidergasse 1</tei:title>
+            <tei:idno>HGB 1 184/10</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1512543</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1501">1501</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611156.0572601813 1267543.599879393</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">hatt</token>
+    <token token_id="2">Johannes</token>
+    <token token_id="3">Starkysin</token>
+    <token token_id="4">,</token>
+    <token token_id="5">Conventhal</token>
+    <token token_id="6">und</token>
+    <token token_id="7">Schaffner</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Herren</token>
+    <token token_id="10">zu</token>
+    <token token_id="11">den</token>
+    <token token_id="12">Bredigern</token>
+    <token token_id="13">,</token>
+    <token token_id="14">umb</token>
+    <token token_id="15">versessenen</token>
+    <token token_id="16">zins</token>
+    <token token_id="17">,</token>
+    <token token_id="18">Steffan</token>
+    <token token_id="19">Bechers</token>
+    <token token_id="20">des</token>
+    <token token_id="21">Nest</token>
+    <token token_id="22">¬</token>
+    <token token_id="23">lers</token>
+    <token token_id="24">Hus</token>
+    <token token_id="25">under</token>
+    <token token_id="26">den</token>
+    <token token_id="27">Kremern</token>
+    <token token_id="28">,</token>
+    <token token_id="29">an</token>
+    <token token_id="30">Hanns</token>
+    <token token_id="31">Steinbruchel</token>
+    <token token_id="32">des</token>
+    <token token_id="33">Küesser</token>
+    <token token_id="34">Hüsern</token>
+    <token token_id="35">gelegen</token>
+    <token token_id="36">,</token>
+    <token token_id="37">als</token>
+    <token token_id="38">sy</token>
+    <token token_id="39">jährl</token>
+    <token token_id="40">.</token>
+    <token token_id="41">2</token>
+    <token token_id="42">fl</token>
+    <token token_id="43">.</token>
+    <token token_id="44">und</token>
+    <token token_id="45">etlich</token>
+    <token token_id="46">Pfeffer</token>
+    <token token_id="47">daruff</token>
+    <token token_id="48">hand</token>
+    <token token_id="49">,</token>
+    <token token_id="50">gefrönt</token>
+    <token token_id="51">.</token>
+  </text>
+  <spans>
+    <span id="816" start="2" end="12" text="Johannes Starkysin , Conventhal und Schaffner der Herren&#10;zu den Bredigern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="822" start="2" end="3" text="Johannes Starkysin" element="head" class="nam" subclass=""/>
+      <span id="828" start="5" end="12" text="Conventhal und Schaffner der Herren&#10;zu den Bredigern" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="834" start="5" end="7" text="Conventhal und Schaffner" element="head" class="occ" subclass="org-job"/>
+        <span id="840" start="8" end="12" text="der Herren&#10;zu den Bredigern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="985" start="9" end="12" text="Herren&#10;zu den Bredigern" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="991" start="16" end="16" text="zins" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="973" start="18" end="35" text="Steffan Bechers des Nest ¬&#10;lers Hus under den Kremern , an Hanns Steinbruchel des Küesser&#10;Hüsern gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="852" start="18" end="23" text="Steffan Bechers des Nest ¬&#10;lers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="858" start="18" end="23" text="Steffan Bechers des Nest ¬&#10;lers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="864" start="18" end="19" text="Steffan Bechers" element="head" class="nam" subclass=""/>
+          <span id="870" start="20" end="23" text="des Nest ¬&#10;lers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="876" start="21" end="23" text="Nest ¬&#10;lers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="846" start="24" end="24" text="Hus" element="head" class="type" subclass=""/>
+      <span id="882" start="25" end="35" text="under den Kremern , an Hanns Steinbruchel des Küesser&#10;Hüsern gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="888" start="26" end="27" text="den Kremern" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="unk">
+          <span id="894" start="27" end="27" text="Kremern" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="900" start="30" end="34" text="Hanns Steinbruchel des Küesser&#10;Hüsern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="912" start="30" end="33" text="Hanns Steinbruchel des Küesser" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="918" start="30" end="33" text="Hanns Steinbruchel des Küesser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="924" start="30" end="31" text="Hanns Steinbruchel" element="head" class="nam" subclass=""/>
+              <span id="930" start="32" end="33" text="des Küesser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="936" start="33" end="33" text="Küesser" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="906" start="34" end="34" text="Hüsern" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="960" start="38" end="38" text="sy" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="960_head" start="38" end="38" element="head" class="pro" text="sy" subclass=""/>
+    </span>
+    <span id="942" start="39" end="40" text="jährl ." element="value" class="time" subclass="rec"/>
+    <span id="948" start="41" end="43" text="2 fl ." element="value" class="money" subclass=""/>
+    <span id="954" start="45" end="46" text="etlich Pfeffer" element="value" class="money" subclass=""/>
+    <span id="997" start="48" end="48" text="hand" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="979" start="50" end="50" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="966" from="960" to="840" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1003" from="997" to="991" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="5" end="12" ref="828" type="state">
+      <trigger start="5" end="7" text="Conventhal und Schaffner" ref="834"/>
+      <event event_id="0.0">
+        <role role="employee" ref="816" text="Johannes Starkysin , Conventhal und Schaffner der Herren&#10;zu den Bredigern"/>
+        <role role="employer" ref="840" text="der Herren&#10;zu den Bredigern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="18" end="23" ref="852" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="973" text="Steffan Bechers des Nest ¬&#10;lers Hus under den Kremern , an Hanns Steinbruchel des Küesser&#10;Hüsern gelegen"/>
+        <role role="owner" ref="858" text="Steffan Bechers des Nest ¬&#10;lers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="25" end="35" ref="882" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="973" text="Steffan Bechers des Nest ¬&#10;lers Hus under den Kremern , an Hanns Steinbruchel des Küesser&#10;Hüsern gelegen"/>
+        <role role="location-b" ref="888" text="den Kremern"/>
+        <role role="location-b" ref="900" text="Hanns Steinbruchel des Küesser&#10;Hüsern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="30" end="33" ref="912" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="900" text="Hanns Steinbruchel des Küesser&#10;Hüsern"/>
+        <role role="owner" ref="918" text="Hanns Steinbruchel des Küesser"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="neg" tense="pres" modality="ass" start="16" end="16" ref="" type="event">
+      <trigger start="16" end="16" text="zins" ref="991"/>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="18" end="48" ref="" type="state">
+      <trigger start="48" end="48" text="hand" ref="997"/>
+      <event event_id="5.0">
+        <role role="property" ref="973" text="Steffan Bechers des Nest ¬&#10;lers Hus under den Kremern , an Hanns Steinbruchel des Küesser&#10;Hüsern gelegen"/>
+        <role role="beneficiary" ref="960" text="sy"/>
+        <role role="interval" ref="942" text="jährl ."/>
+        <role role="interest" ref="948" text="2 fl ."/>
+        <role role="interest" ref="954" text="etlich Pfeffer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="50" ref="" type="event">
+      <trigger start="50" end="50" text="gefrönt" ref="979"/>
+      <event event_id="6.0">
+        <role role="claimant" ref="816" text="Johannes Starkysin , Conventhal und Schaffner der Herren&#10;zu den Bredigern"/>
+        <role role="cause" ref="991" text="zins"/>
+        <role role="property" ref="973" text="Steffan Bechers des Nest ¬&#10;lers Hus under den Kremern , an Hanns Steinbruchel des Küesser&#10;Hüsern gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

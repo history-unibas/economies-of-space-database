@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 51/28 S. [22]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Elisabethenstrasse 17</tei:title>
+            <tei:idno>HGB 1 51/28</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1466425</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1463">1463</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611518.831059031 1266914.460015444</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Das</token>
+    <token token_id="4">Gericht</token>
+    <token token_id="5">erkennt</token>
+    <token token_id="6">,</token>
+    <token token_id="7">dass</token>
+    <token token_id="8">das</token>
+    <token token_id="9">Spittal</token>
+    <token token_id="10">zu</token>
+    <token token_id="11">Basel</token>
+    <token token_id="12">dem</token>
+    <token token_id="13">Roten</token>
+    <token token_id="14">Huss</token>
+    <token token_id="15">obwendig</token>
+    <token token_id="16">der</token>
+    <token token_id="17">Statt</token>
+    <token token_id="18">Basel</token>
+    <token token_id="19">gelegen</token>
+    <token token_id="20">nicht</token>
+    <token token_id="21">mehr</token>
+    <token token_id="22">als</token>
+    <token token_id="23">10</token>
+    <token token_id="24">sh</token>
+    <token token_id="25">.</token>
+    <token token_id="26">nüwer</token>
+    <token token_id="27">Pfg</token>
+    <token token_id="28">.</token>
+    <token token_id="29">zu</token>
+    <token token_id="30">entrichten</token>
+    <token token_id="31">habe</token>
+    <token token_id="32">von</token>
+    <token token_id="33">uff</token>
+    <token token_id="34">und</token>
+    <token token_id="35">abe</token>
+    <token token_id="36">der</token>
+    <token token_id="37">Erbschafft</token>
+    <token token_id="38">einer</token>
+    <token token_id="39">Echüren</token>
+    <token token_id="40">mit</token>
+    <token token_id="41">Garten</token>
+    <token token_id="42">und</token>
+    <token token_id="43">Gehüsede</token>
+    <token token_id="44">dar</token>
+    <token token_id="45">hinder</token>
+    <token token_id="46">in</token>
+    <token token_id="47">der</token>
+    <token token_id="48">Vorstatt</token>
+    <token token_id="49">ze</token>
+    <token token_id="50">Spittalschüren</token>
+    <token token_id="51">gegen</token>
+    <token token_id="52">sant</token>
+    <token token_id="53">Eilss</token>
+    <token token_id="54">¬</token>
+    <token token_id="55">beten</token>
+    <token token_id="56">über</token>
+    <token token_id="57">gelegen</token>
+    <token token_id="58">genant</token>
+    <token token_id="59">Relins</token>
+    <token token_id="60">Schürr</token>
+    <token token_id="61">zwüschent</token>
+    <token token_id="62">Wal</token>
+    <token token_id="63">¬</token>
+    <token token_id="64">ther</token>
+    <token token_id="65">Schaffners</token>
+    <token token_id="66">sel</token>
+    <token token_id="67">.</token>
+    <token token_id="68">Schüre</token>
+    <token token_id="69">und</token>
+    <token token_id="70">Berchtold</token>
+    <token token_id="71">Wetzhowers</token>
+    <token token_id="72">Trot</token>
+    <token token_id="73">.</token>
+    <token token_id="74">ten</token>
+    <token token_id="75">,</token>
+    <token token_id="76">worab</token>
+    <token token_id="77">vor</token>
+    <token token_id="78">Ziten</token>
+    <token token_id="79">Frow</token>
+    <token token_id="80">Stäselin</token>
+    <token token_id="81">Fuchssin</token>
+    <token token_id="82">etwen</token>
+    <token token_id="83">,</token>
+    <token token_id="84">Rützschen</token>
+    <token token_id="85">Strolenbergs</token>
+    <token token_id="86">sel</token>
+    <token token_id="87">.</token>
+    <token token_id="88">eins</token>
+    <token token_id="89">Wechselers</token>
+    <token token_id="90">Wittwe</token>
+    <token token_id="91">dem</token>
+    <token token_id="92">Roten</token>
+    <token token_id="93">Huse</token>
+    <token token_id="94">,</token>
+    <token token_id="95">den</token>
+    <token token_id="96">Augustinern</token>
+    <token token_id="97">und</token>
+    <token token_id="98">den</token>
+    <token token_id="99">Barfüssen</token>
+    <token token_id="100">ze</token>
+    <token token_id="101">1</token>
+    <token token_id="102">℔</token>
+    <token token_id="103">.</token>
+    <token token_id="104">Geltz</token>
+    <token token_id="105">vergabt</token>
+    <token token_id="106">hat</token>
+    <token token_id="107">.</token>
+  </text>
+  <spans>
+    <span id="1605" start="3" end="4" text="Das Gericht" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="1611" start="4" end="4" text="Gericht" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1894" start="5" end="5" text="erkennt" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1617" start="8" end="11" text="das Spittal zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1623" start="9" end="9" text="Spittal" element="head" class="type" subclass=""/>
+      <span id="1864" start="10" end="11" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1629" start="11" end="11" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1629_head" start="11" end="11" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1635" start="12" end="19" text="dem&#10;Roten Huss obwendig der Statt Basel gelegen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1641" start="13" end="14" text="Roten Huss" element="head" class="nam" subclass=""/>
+      <span id="1737" start="15" end="19" text="obwendig der Statt Basel gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1647" start="16" end="18" text="der Statt Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1870" start="17" end="18" text="Statt Basel" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1773" start="23" end="28" text="10 sh . nüwer Pfg ." element="value" class="money" subclass=""/>
+    <span id="1900" start="30" end="30" text="entrichten" element="trigger" class="due" tense="pres" polarity="pos" modality="requ" subclass=""/>
+    <span id="1653" start="38" end="74" text="einer Echüren mit Garten und Gehüsede dar&#10;hinder in der Vorstatt ze Spittalschüren gegen sant Eilss ¬&#10;beten über gelegen genant Relins Schürr zwüschent Wal ¬&#10;ther Schaffners sel . Schüre und Berchtold Wetzhowers Trot .&#10;ten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1659" start="39" end="39" text="Echüren" element="head" class="type" subclass=""/>
+      <span id="1779" start="40" end="45" text="mit Garten und Gehüsede dar&#10;hinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1665" start="41" end="45" text="Garten und Gehüsede dar&#10;hinder" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1671" start="41" end="43" text="Garten und Gehüsede" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1797" start="46" end="57" text="in der Vorstatt ze Spittalschüren gegen sant Eilss ¬&#10;beten über gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1785" start="47" end="50" text="der Vorstatt ze Spittalschüren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1791" start="48" end="50" text="Vorstatt ze Spittalschüren" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1677" start="52" end="55" text="sant Eilss ¬&#10;beten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1677_head" start="52" end="55" element="head" class="nam" text="sant Eilss ¬ beten" subclass=""/>
+        </span>
+      </span>
+      <span id="1803" start="59" end="60" text="Relins Schürr" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1803_head" start="59" end="60" element="head" class="nam" text="Relins Schürr" subclass=""/>
+      </span>
+      <span id="1833" start="61" end="74" text="zwüschent Wal ¬&#10;ther Schaffners sel . Schüre und Berchtold Wetzhowers Trot .&#10;ten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1827" start="62" end="74" text="Wal ¬&#10;ther Schaffners sel . Schüre und Berchtold Wetzhowers Trot .&#10;ten" element="list" class="fac" subclass="">
+          <span id="1809" start="62" end="68" text="Wal ¬&#10;ther Schaffners sel . Schüre" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1937" start="62" end="67" text="Wal ¬&#10;ther Schaffners sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1821" start="62" end="67" text="Wal ¬&#10;ther Schaffners sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1683" start="62" end="65" text="Wal ¬&#10;ther Schaffners" element="head" class="nam" subclass=""/>
+                <span id="1761" start="66" end="67" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              </span>
+            </span>
+            <span id="1815" start="68" end="68" text="Schüre" element="head" class="type" subclass=""/>
+          </span>
+          <span id="1689" start="70" end="74" text="Berchtold Wetzhowers Trot .&#10;ten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1689_desc_owner" start="70" end="71" text="Berchtold Wetzhowers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1876" start="70" end="71" text="Berchtold Wetzhowers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1876_head" start="70" end="71" element="head" class="nam" text="Berchtold Wetzhowers" subclass=""/>
+              </span>
+            </span>
+            <span id="1882" start="72" end="74" text="Trot .&#10;ten" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1924" start="76" end="76" text="worab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1924_head" start="76" end="76" element="head" class="pro" text="worab" subclass=""/>
+    </span>
+    <span id="1755" start="79" end="90" text="Frow Stäselin Fuchssin etwen ,&#10;Rützschen Strolenbergs sel . eins Wechselers Wittwe" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1695" start="80" end="81" text="Stäselin Fuchssin" element="head" class="nam" subclass=""/>
+      <span id="1888" start="82" end="90" text="etwen ,&#10;Rützschen Strolenbergs sel . eins Wechselers Wittwe" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1839" start="84" end="89" text="Rützschen Strolenbergs sel . eins Wechselers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1743" start="84" end="85" text="Rützschen Strolenbergs" element="head" class="nam" subclass=""/>
+          <span id="1767" start="86" end="87" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          <span id="1845" start="88" end="89" text="eins Wechselers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1851" start="89" end="89" text="Wechselers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1749" start="90" end="90" text="Wittwe" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1701" start="91" end="93" text="dem&#10;Roten Huse" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1707" start="92" end="93" text="Roten Huse" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1713" start="95" end="96" text="den Augustinern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1725" start="96" end="96" text="Augustinern" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1719" start="98" end="99" text="den Barfüssen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1731" start="99" end="99" text="Barfüssen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1912" start="101" end="103" text="1 ℔." element="value" class="money" subclass=""/>
+    <span id="1918" start="104" end="104" text="Geltz" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1906" start="105" end="105" text="vergabt" element="trigger" class="testament" tense="past" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1857" from="1701" to="1635" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1930" from="1924" to="1653" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="82" end="90" ref="1888" type="state">
+      <trigger start="90" end="90" text="Wittwe" ref="1749"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1755" text="Frow Stäselin Fuchssin etwen ,&#10;Rützschen Strolenbergs sel . eins Wechselers Wittwe"/>
+        <role role="family-b" ref="1839" text="Rützschen Strolenbergs sel . eins Wechselers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="10" end="11" ref="1864" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1617" text="das Spittal zu Basel"/>
+        <role role="location-b" ref="1629" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="19" ref="1737" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1635" text="dem&#10;Roten Huss obwendig der Statt Basel gelegen"/>
+        <role role="location-b" ref="1647" text="der Statt Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="40" end="45" ref="1779" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1653" text="einer Echüren mit Garten und Gehüsede dar&#10;hinder in der Vorstatt ze Spittalschüren gegen sant Eilss ¬&#10;beten über gelegen genant Relins Schürr zwüschent Wal ¬&#10;ther Schaffners sel . Schüre und Berchtold Wetzhowers Trot .&#10;ten"/>
+        <role role="part" ref="1665" text="Garten und Gehüsede dar&#10;hinder"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="46" end="57" ref="1797" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1653" text="einer Echüren mit Garten und Gehüsede dar&#10;hinder in der Vorstatt ze Spittalschüren gegen sant Eilss ¬&#10;beten über gelegen genant Relins Schürr zwüschent Wal ¬&#10;ther Schaffners sel . Schüre und Berchtold Wetzhowers Trot .&#10;ten"/>
+        <role role="location-b" ref="1785" text="der Vorstatt ze Spittalschüren"/>
+        <role role="location-b" ref="1677" text="sant Eilss ¬&#10;beten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="61" end="74" ref="1833" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1653" text="einer Echüren mit Garten und Gehüsede dar&#10;hinder in der Vorstatt ze Spittalschüren gegen sant Eilss ¬&#10;beten über gelegen genant Relins Schürr zwüschent Wal ¬&#10;ther Schaffners sel . Schüre und Berchtold Wetzhowers Trot .&#10;ten"/>
+        <role role="location-b" ref="1809" text="Wal ¬&#10;ther Schaffners sel . Schüre"/>
+        <role role="location-b" ref="1689" text="Berchtold Wetzhowers Trot .&#10;ten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="62" end="67" ref="1937" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1809" text="Wal ¬&#10;ther Schaffners sel . Schüre"/>
+        <role role="owner" ref="1821" text="Wal ¬&#10;ther Schaffners sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="70" end="71" ref="1689_desc_owner" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1689" text="Berchtold Wetzhowers Trot .&#10;ten"/>
+        <role role="owner" ref="1876" text="Berchtold Wetzhowers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="litigation" polarity="pos" tense="pres" modality="ass" start="3" end="5" ref="" type="event">
+      <trigger start="5" end="5" text="erkennt" ref="1894"/>
+      <event event_id="8.0">
+        <role role="court" ref="1605" text="Das Gericht"/>
+        <role role="party1" ref="1617" text="das Spittal zu Basel"/>
+        <role role="party2" ref="1635" text="dem&#10;Roten Huss obwendig der Statt Basel gelegen"/>
+        <role role="subject" ref="1900" text="entrichten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-obligation" polarity="pos" tense="pres" modality="requ" start="30" end="74" ref="" type="state">
+      <trigger start="30" end="30" text="entrichten" ref="1900"/>
+      <event event_id="9.0">
+        <role role="payer" ref="1617" text="das Spittal zu Basel"/>
+        <role role="beneficiary" ref="1635" text="dem&#10;Roten Huss obwendig der Statt Basel gelegen"/>
+        <role role="interest" ref="1773" text="10 sh . nüwer Pfg ."/>
+        <role role="property" ref="1653" text="einer Echüren mit Garten und Gehüsede dar&#10;hinder in der Vorstatt ze Spittalschüren gegen sant Eilss ¬&#10;beten über gelegen genant Relins Schürr zwüschent Wal ¬&#10;ther Schaffners sel . Schüre und Berchtold Wetzhowers Trot .&#10;ten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="104" end="104" ref="" type="state">
+      <trigger start="104" end="104" text="Geltz" ref="1918"/>
+      <event event_id="10.0">
+        <role role="property" ref="1924" text="worab"/>
+        <role role="beneficiary" ref="1701" text="dem&#10;Roten Huse"/>
+        <role role="beneficiary" ref="1713" text="den Augustinern"/>
+        <role role="beneficiary" ref="1719" text="den Barfüssen"/>
+        <role role="interest" ref="1912" text="1 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="testament" polarity="pos" tense="past" modality="ass" start="104" end="105" ref="" type="event">
+      <trigger start="105" end="105" text="vergabt" ref="1906"/>
+      <event event_id="11.0">
+        <role role="property" ref="1918" text="Geltz"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

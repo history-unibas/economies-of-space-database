@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/72 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt Theil von 49</tei:title>
+            <tei:idno>HGB 1 10/72</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433445</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Alban</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1486">1486</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2612010.240475818 1267114.2142724134</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Zins</token>
+    <token token_id="1">in</token>
+    <token token_id="2">den</token>
+    <token token_id="3">Mülinen</token>
+    <token token_id="4">uff</token>
+    <token token_id="5">sant</token>
+    <token token_id="6">Albanberg</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Item</token>
+    <token token_id="9">Claus</token>
+    <token token_id="10">Bart</token>
+    <token token_id="11">gitt</token>
+    <token token_id="12">alle</token>
+    <token token_id="13">jar</token>
+    <token token_id="14">4ß</token>
+    <token token_id="15">novorne</token>
+    <token token_id="16">und</token>
+    <token token_id="17">1</token>
+    <token token_id="18">fasnachthun</token>
+    <token token_id="19">und</token>
+    <token token_id="20">ein</token>
+    <token token_id="21">hower</token>
+    <token token_id="22">tag</token>
+    <token token_id="23">.</token>
+    <token token_id="24">von</token>
+    <token token_id="25">einem</token>
+    <token token_id="26">huß</token>
+    <token token_id="27">heisset</token>
+    <token token_id="28">zem</token>
+    <token token_id="29">Holtzschu</token>
+    <token token_id="30">lyt</token>
+    <token token_id="31">zwüschen</token>
+    <token token_id="32">daren</token>
+    <token token_id="33">purschafften</token>
+    <token token_id="34">garten</token>
+    <token token_id="35">und</token>
+    <token token_id="36">Magdalena</token>
+    <token token_id="37">Lürlerin</token>
+    <token token_id="38">git</token>
+    <token token_id="39">Benedict</token>
+    <token token_id="40">Bartt</token>
+    <token token_id="41">jetz</token>
+    <token token_id="42">Hengi</token>
+    <token token_id="43">Kien</token>
+  </text>
+  <spans>
+    <span id="683" start="2" end="6" text="den Mülinen uff sant Albanberg" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="689" start="3" end="3" text="Mülinen" element="head" class="type" subclass=""/>
+      <span id="701" start="4" end="6" text="uff sant Albanberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="695" start="5" end="6" text="sant Albanberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="695_head" start="5" end="6" element="head" class="nam" text="sant Albanberg" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="707" start="9" end="10" text="Claus Bart" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="707_head" start="9" end="10" element="head" class="nam" text="Claus Bart" subclass=""/>
+    </span>
+    <span id="791" start="11" end="11" text="gitt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="713" start="12" end="13" text="alle jar" element="value" class="time" subclass="rec"/>
+    <span id="719" start="14" end="14" text="4ß" element="value" class="money" subclass=""/>
+    <span id="725" start="17" end="18" text="1 fasnachthun" element="value" class="money" subclass=""/>
+    <span id="731" start="20" end="22" text="ein hower tag" element="value" class="money" subclass=""/>
+    <span id="749" start="25" end="37" text="einem huß heisset zem Holtzschu lyt&#10;zwüschen daren purschafften garten und&#10;Magdalena Lürlerin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="737" start="26" end="26" text="huß" element="head" class="type" subclass=""/>
+      <span id="743" start="28" end="29" text="zem Holtzschu" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="743_head" start="28" end="29" element="head" class="nam" text="zem Holtzschu" subclass=""/>
+      </span>
+      <span id="custom_0" start="30" end="37" text="lyt&#10;zwüschen daren purschafften garten und&#10;Magdalena Lürlerin" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="761" start="32" end="34" text="daren purschafften garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="custom_desc_owner" start="32" end="33" text="daren purschafften" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="773" start="32" end="33" text="daren purschafften" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="773_head" start="32" end="33" element="head" class="nam" text="daren purschafften" subclass=""/>
+            </span>
+          </span>
+          <span id="767" start="34" end="34" text="garten" element="head" class="type" subclass=""/>
+        </span>
+        <span id="755" start="36" end="37" text="Magdalena Lürlerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="755_head" start="36" end="37" element="head" class="nam" text="Magdalena Lürlerin" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="797" start="38" end="40" text="git Benedict Bartt" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="803" start="38" end="38" text="git" element="trigger" class="type" subclass=""/>
+      <span id="779" start="39" end="40" text="Benedict Bartt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="779_head" start="39" end="40" element="head" class="nam" text="Benedict Bartt" subclass=""/>
+      </span>
+    </span>
+    <span id="809" start="41" end="43" text="jetz Hengi Kien" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="785" start="42" end="43" text="Hengi Kien" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="785_head" start="42" end="43" element="head" class="nam" text="Hengi Kien" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="38" end="40" ref="797" type="state">
+      <trigger start="38" end="38" text="git" ref="803"/>
+      <event event_id="0.0">
+        <role role="payer" ref="779" text="Benedict Bartt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="41" end="43" ref="809" type="state">
+      <event event_id="1.0">
+        <role role="payer" ref="785" text="Hengi Kien"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="4" end="6" ref="701" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="683" text="den Mülinen uff sant Albanberg"/>
+        <role role="location-b" ref="695" text="sant Albanberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="37" ref="custom_0" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="749" text="einem huß heisset zem Holtzschu lyt&#10;zwüschen daren purschafften garten und&#10;Magdalena Lürlerin"/>
+        <role role="location-b" ref="761" text="daren purschafften garten"/>
+        <role role="location-b" ref="755" text="Magdalena Lürlerin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="32" end="33" ref="custom_desc_owner" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="761" text="daren purschafften garten"/>
+        <role role="owner" ref="773" text="daren purschafften"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="11" end="37" ref="" type="state">
+      <trigger start="11" end="11" text="gitt" ref="791"/>
+      <event event_id="5.0">
+        <role role="place" ref="683" text="den Mülinen uff sant Albanberg"/>
+        <role role="payer" ref="707" text="Claus Bart"/>
+        <role role="interval" ref="713" text="alle jar"/>
+        <role role="interest" ref="719" text="4ß"/>
+        <role role="interest" ref="725" text="1 fasnachthun"/>
+        <role role="interest" ref="731" text="ein hower tag"/>
+        <role role="property" ref="749" text="einem huß heisset zem Holtzschu lyt&#10;zwüschen daren purschafften garten und&#10;Magdalena Lürlerin"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

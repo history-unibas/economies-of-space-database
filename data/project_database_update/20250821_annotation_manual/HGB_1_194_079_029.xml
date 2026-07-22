@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/79 S. [29]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg Theil von 18 neben 16</tei:title>
+            <tei:idno>HGB 1 194/79</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1515782</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gnadental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1470">1470</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611115.5979049765 1267394.1958104775</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Abraham</token>
+    <token token_id="1">Meyenrockh</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Gremper</token>
+    <token token_id="4">,</token>
+    <token token_id="5">hievor</token>
+    <token token_id="6">Hans</token>
+    <token token_id="7">Ruodolstorffers</token>
+    <token token_id="8">erben</token>
+    <token token_id="9">,</token>
+    <token token_id="10">und</token>
+    <token token_id="11">darnach</token>
+    <token token_id="12">Wolf</token>
+    <token token_id="13">Bes</token>
+    <token token_id="14">¬</token>
+    <token token_id="15">serer</token>
+    <token token_id="16">zinsen</token>
+    <token token_id="17">jerlich</token>
+    <token token_id="18">uf</token>
+    <token token_id="19">Georgii</token>
+    <token token_id="20">½</token>
+    <token token_id="21">gulden</token>
+    <token token_id="22">reinisch</token>
+    <token token_id="23">,</token>
+    <token token_id="24">thut</token>
+    <token token_id="25">11</token>
+    <token token_id="26">ß</token>
+    <token token_id="27">6ȡ</token>
+    <token token_id="28">,</token>
+    <token token_id="29">von</token>
+    <token token_id="30">uf</token>
+    <token token_id="31">und</token>
+    <token token_id="32">ab</token>
+    <token token_id="33">dem</token>
+    <token token_id="34">Haus</token>
+    <token token_id="35">und</token>
+    <token token_id="36">Hofge</token>
+    <token token_id="37">nant</token>
+    <token token_id="38">zum</token>
+    <token token_id="39">nidern</token>
+    <token token_id="40">Wildenstein</token>
+    <token token_id="41">mit</token>
+    <token token_id="42">allen</token>
+    <token token_id="43">rechten</token>
+    <token token_id="44">,</token>
+    <token token_id="45">als</token>
+    <token token_id="46">das</token>
+    <token token_id="47">zu</token>
+    <token token_id="48">Basel</token>
+    <token token_id="49">an</token>
+    <token token_id="50">den</token>
+    <token token_id="51">Spalen</token>
+    <token token_id="52">gelegen</token>
+    <token token_id="53">ist</token>
+    <token token_id="54">zwischen</token>
+    <token token_id="55">den</token>
+    <token token_id="56">Heissern</token>
+    <token token_id="57">genant</token>
+    <token token_id="58">groffen</token>
+    <token token_id="59">Haus</token>
+    <token token_id="60">zu</token>
+    <token token_id="61">einer</token>
+    <token token_id="62">,</token>
+    <token token_id="63">und</token>
+    <token token_id="64">zur</token>
+    <token token_id="65">an</token>
+    <token token_id="66">dern</token>
+    <token token_id="67">sydten</token>
+    <token token_id="68">oberen</token>
+    <token token_id="69">Wildenstein</token>
+    <token token_id="70">,</token>
+    <token token_id="71">zinst</token>
+    <token token_id="72">von</token>
+    <token token_id="73">eigen</token>
+    <token token_id="74">¬</token>
+    <token token_id="75">schaft</token>
+    <token token_id="76">wegen</token>
+    <token token_id="77">bloster</token>
+    <token token_id="78">Clingenthal</token>
+    <token token_id="79">zu</token>
+    <token token_id="80">jetlicher</token>
+    <token token_id="81">fronfas</token>
+    <token token_id="82">.</token>
+    <token token_id="83">ten</token>
+    <token token_id="84">7</token>
+    <token token_id="85">½</token>
+    <token token_id="86">ß</token>
+    <token token_id="87">neuwer</token>
+    <token token_id="88">pfenng</token>
+    <token token_id="89">;</token>
+    <token token_id="90">sonst</token>
+    <token token_id="91">ledig</token>
+    <token token_id="92">eigen</token>
+    <token token_id="93">.</token>
+    <token token_id="94">Seindt</token>
+    <token token_id="95">mit</token>
+    <token token_id="96">10</token>
+    <token token_id="97">gulden</token>
+    <token token_id="98">reinisch</token>
+    <token token_id="99">oder</token>
+    <token token_id="100">11</token>
+    <token token_id="101">½2</token>
+    <token token_id="102">℔</token>
+    <token token_id="103">neuwer</token>
+    <token token_id="104">Basler</token>
+    <token token_id="105">pfennigen</token>
+    <token token_id="106">abzulösen</token>
+    <token token_id="107">.</token>
+    <token token_id="108">Datum</token>
+    <token token_id="109">:</token>
+    <token token_id="110">Mitwuch</token>
+    <token token_id="111">vor</token>
+    <token token_id="112">Jubilate</token>
+    <token token_id="113">Ao</token>
+    <token token_id="114">1470</token>
+    <token token_id="115">Jetz</token>
+    <token token_id="116">Melcher</token>
+    <token token_id="117">Gebhart</token>
+    <token token_id="118">der</token>
+    <token token_id="119">schnider</token>
+    <token token_id="120">jetz</token>
+    <token token_id="121">Jacob</token>
+    <token token_id="122">Chanot</token>
+    <token token_id="123">jetz</token>
+    <token token_id="124">Poeter</token>
+    <token token_id="125">Dan</token>
+    <token token_id="126">ons</token>
+    <token token_id="127">des</token>
+    <token token_id="128">Wegmeisters</token>
+    <token token_id="129">sel</token>
+    <token token_id="130">.</token>
+    <token token_id="131">Wittib</token>
+    <token token_id="132">.</token>
+    <token token_id="133">ist</token>
+    <token token_id="134">abgelöst</token>
+    <token token_id="135">auf</token>
+    <token token_id="136">Ostern</token>
+    <token token_id="137">g</token>
+    <token token_id="138">.</token>
+  </text>
+  <spans>
+    <span id="2158" start="0" end="3" text="Abraham Meyenrockh der Gremper" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2020" start="0" end="1" text="Abraham Meyenrockh" element="head" class="nam" subclass=""/>
+      <span id="2026" start="2" end="3" text="der Gremper" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2032" start="3" end="3" text="Gremper" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2164" start="6" end="8" text="Hans Ruodolstorffers erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2176" start="6" end="7" text="Hans Ruodolstorffers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2176_head" start="6" end="7" element="head" class="nam" text="Hans Ruodolstorffers" subclass=""/>
+      </span>
+      <span id="2170" start="8" end="8" text="erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="2038" start="12" end="15" text="Wolf Bes ¬&#10;serer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2038_head" start="12" end="15" element="head" class="nam" text="Wolf Bes ¬ serer" subclass=""/>
+    </span>
+    <span id="2284" start="16" end="16" text="zinsen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2194" start="17" end="17" text="jerlich" element="value" class="time" subclass="rec"/>
+    <span id="2188" start="18" end="19" text="uf Georgii" element="value" class="date" subclass=""/>
+    <span id="2182" start="20" end="22" text="½ gulden reinisch" element="value" class="money" subclass=""/>
+    <span id="2044" start="25" end="27" text="11 ß 6ȡ" element="value" class="money" subclass=""/>
+    <span id="2200" start="33" end="93" text="dem Haus und Hofge&#10;nant zum nidern Wildenstein mit allen rechten , als&#10;das zu Basel an den Spalen gelegen ist zwischen den&#10;Heissern genant groffen Haus zu einer , und zur an&#10;dern sydten oberen Wildenstein , zinst von eigen ¬&#10;schaft wegen bloster Clingenthal zu jetlicher fronfas .&#10;ten 7 ½ ß neuwer pfenng ; sonst ledig eigen ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2050" start="34" end="36" text="Haus und Hofge" element="head" class="type" subclass=""/>
+      <span id="2056" start="39" end="40" text="nidern Wildenstein" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2056_head" start="39" end="40" element="head" class="nam" text="nidern Wildenstein" subclass=""/>
+      </span>
+      <span id="2062" start="47" end="48" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2068" start="48" end="48" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2068_head" start="48" end="48" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+      <span id="2074" start="50" end="51" text="den Spalen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2080" start="51" end="51" text="Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2080_head" start="51" end="51" element="head" class="nam" text="Spalen" subclass=""/>
+        </span>
+      </span>
+      <span id="2218" start="54" end="69" text="zwischen den&#10;Heissern genant groffen Haus zu einer , und zur an&#10;dern sydten oberen Wildenstein" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2206" start="55" end="59" text="den&#10;Heissern genant groffen Haus" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2212" start="56" end="56" text="Heissern" element="head" class="type" subclass=""/>
+          <span id="2086" start="58" end="59" text="groffen Haus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2086_head" start="58" end="59" element="head" class="nam" text="groffen Haus" subclass=""/>
+          </span>
+        </span>
+        <span id="2092" start="68" end="69" text="oberen Wildenstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2092_head" start="68" end="69" element="head" class="nam" text="oberen Wildenstein" subclass=""/>
+        </span>
+      </span>
+      <span id="2224" start="71" end="93" text="zinst von eigen ¬&#10;schaft wegen bloster Clingenthal zu jetlicher fronfas .&#10;ten 7 ½ ß neuwer pfenng ; sonst ledig eigen ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2098" start="77" end="78" text="bloster Clingenthal" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2098_head" start="77" end="78" element="head" class="nam" text="bloster Clingenthal" subclass=""/>
+        </span>
+        <span id="2230" start="80" end="80" text="jetlicher" element="value" class="time" subclass="rec"/>
+        <span id="2236" start="81" end="83" text="fronfas .&#10;ten" element="value" class="date" subclass=""/>
+        <span id="2242" start="84" end="88" text="7 ½ ß neuwer pfenng" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="2296" start="96" end="105" text="10 gulden reinisch oder 11 ½2 ℔ neuwer Basler pfennigen" element="list" class="type" subclass="">
+      <span id="2248" start="96" end="98" text="10 gulden reinisch" element="value" class="money" subclass=""/>
+      <span id="2290" start="100" end="105" text="11 ½2 ℔ neuwer Basler pfennigen" element="value" class="money" subclass=""/>
+    </span>
+    <span id="2254" start="110" end="114" text="Mitwuch vor Jubilate Ao 1470" element="value" class="date" subclass=""/>
+    <span id="2302" start="115" end="115" text="Jetz" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="2104" start="116" end="119" text="Melcher Gebhart der schnider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2110" start="116" end="117" text="Melcher Gebhart" element="head" class="nam" subclass=""/>
+      <span id="2116" start="118" end="119" text="der schnider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2122" start="119" end="119" text="schnider" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2128" start="121" end="122" text="Jacob Chanot" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2128_head" start="121" end="122" element="head" class="nam" text="Jacob Chanot" subclass=""/>
+    </span>
+    <span id="2134" start="124" end="131" text="Poeter Dan ons des Wegmeisters sel . Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2272" start="124" end="130" text="Poeter Dan ons des Wegmeisters sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2140" start="124" end="125" text="Poeter Dan" element="head" class="nam" subclass=""/>
+        <span id="2146" start="127" end="128" text="des Wegmeisters" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2152" start="128" end="128" text="Wegmeisters" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="2266" start="129" end="130" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="2260" start="131" end="131" text="Wittib" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="2315" start="134" end="134" text="abgelöst" element="trigger" class="redemption" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2278" start="136" end="138" text="Ostern g ." element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2308" from="2302" to="2284" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="6" end="8" ref="2164" type="event">
+      <trigger start="8" end="8" text="erben" ref="2170"/>
+      <event event_id="0.0">
+        <role role="heir" ref="2164" text="Hans Ruodolstorffers erben"/>
+        <role role="decedent" ref="2176" text="Hans Ruodolstorffers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="124" end="131" ref="2134" type="state">
+      <trigger start="131" end="131" text="Wittib" ref="2260"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="2134" text="Poeter Dan ons des Wegmeisters sel . Wittib"/>
+        <role role="family-b" ref="2272" text="Poeter Dan ons des Wegmeisters sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="47" end="48" ref="2062" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="2200" text="dem Haus und Hofge&#10;nant zum nidern Wildenstein mit allen rechten , als&#10;das zu Basel an den Spalen gelegen ist zwischen den&#10;Heissern genant groffen Haus zu einer , und zur an&#10;dern sydten oberen Wildenstein , zinst von eigen ¬&#10;schaft wegen bloster Clingenthal zu jetlicher fronfas .&#10;ten 7 ½ ß neuwer pfenng ; sonst ledig eigen ."/>
+        <role role="location-b" ref="2068" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="50" end="51" ref="2074" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="2200" text="dem Haus und Hofge&#10;nant zum nidern Wildenstein mit allen rechten , als&#10;das zu Basel an den Spalen gelegen ist zwischen den&#10;Heissern genant groffen Haus zu einer , und zur an&#10;dern sydten oberen Wildenstein , zinst von eigen ¬&#10;schaft wegen bloster Clingenthal zu jetlicher fronfas .&#10;ten 7 ½ ß neuwer pfenng ; sonst ledig eigen ."/>
+        <role role="location-b" ref="2080" text="Spalen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="54" end="69" ref="2218" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="2200" text="dem Haus und Hofge&#10;nant zum nidern Wildenstein mit allen rechten , als&#10;das zu Basel an den Spalen gelegen ist zwischen den&#10;Heissern genant groffen Haus zu einer , und zur an&#10;dern sydten oberen Wildenstein , zinst von eigen ¬&#10;schaft wegen bloster Clingenthal zu jetlicher fronfas .&#10;ten 7 ½ ß neuwer pfenng ; sonst ledig eigen ."/>
+        <role role="location-b" ref="2206" text="den&#10;Heissern genant groffen Haus"/>
+        <role role="location-b" ref="2092" text="oberen Wildenstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-payment" polarity="pos" tense="pres" modality="ass" start="71" end="93" ref="2224" type="event">
+      <event event_id="5.0">
+        <role role="property" ref="2200" text="dem Haus und Hofge&#10;nant zum nidern Wildenstein mit allen rechten , als&#10;das zu Basel an den Spalen gelegen ist zwischen den&#10;Heissern genant groffen Haus zu einer , und zur an&#10;dern sydten oberen Wildenstein , zinst von eigen ¬&#10;schaft wegen bloster Clingenthal zu jetlicher fronfas .&#10;ten 7 ½ ß neuwer pfenng ; sonst ledig eigen ."/>
+        <role role="property" ref="2098" text="bloster Clingenthal"/>
+        <role role="interval" ref="2230" text="jetlicher"/>
+        <role role="date" ref="2236" text="fronfas .&#10;ten"/>
+        <role role="interest" ref="2242" text="7 ½ ß neuwer pfenng"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="16" ref="" type="event">
+      <trigger start="16" end="16" text="zinsen" ref="2284"/>
+      <event event_id="6.0">
+        <role role="previous-payer" ref="2158" text="Abraham Meyenrockh der Gremper"/>
+        <role role="previous-payer" ref="2164" text="Hans Ruodolstorffers erben"/>
+        <role role="payer" ref="2038" text="Wolf Bes ¬&#10;serer"/>
+        <role role="interval" ref="2194" text="jerlich"/>
+        <role role="date" ref="2188" text="uf Georgii"/>
+        <role role="interest" ref="2182" text="½ gulden reinisch"/>
+        <role role="detail_interest-conv" ref="2044" text="11 ß 6ȡ"/>
+        <role role="property" ref="2200" text="dem Haus und Hofge&#10;nant zum nidern Wildenstein mit allen rechten , als&#10;das zu Basel an den Spalen gelegen ist zwischen den&#10;Heissern genant groffen Haus zu einer , und zur an&#10;dern sydten oberen Wildenstein , zinst von eigen ¬&#10;schaft wegen bloster Clingenthal zu jetlicher fronfas .&#10;ten 7 ½ ß neuwer pfenng ; sonst ledig eigen ."/>
+        <role role="interest-redeemable" ref="2248" text="10 gulden reinisch"/>
+        <role role="interest-redeemable" ref="2290" text="11 ½2 ℔ neuwer Basler pfennigen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-payment" polarity="pos" tense="pres" modality="ass" start="110" end="131" ref="" type="event">
+      <trigger start="115" end="115" text="Jetz" ref="2302"/>
+      <event event_id="7.0">
+        <role role="date" ref="2254" text="Mitwuch vor Jubilate Ao 1470"/>
+        <role role="previous-payer" ref="2104" text="Melcher Gebhart der schnider"/>
+        <role role="previous-payer" ref="2128" text="Jacob Chanot"/>
+        <role role="payer" ref="2134" text="Poeter Dan ons des Wegmeisters sel . Wittib"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="redemption" polarity="pos" tense="pres" modality="ass" start="134" end="138" ref="" type="event">
+      <trigger start="134" end="134" text="abgelöst" ref="2315"/>
+      <event event_id="8.0">
+        <role role="date" ref="2278" text="Ostern g ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

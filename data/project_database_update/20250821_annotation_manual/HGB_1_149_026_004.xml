@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 149/26 S. [4]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Peterskirchplatz 12</tei:title>
+            <tei:idno>HGB 1 149/26</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1503390</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Peter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1603">1603</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611042.1693756403 1267653.0375823753</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Scherer</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Sammetweber</token>
+    <token token_id="4">zinnst</token>
+    <token token_id="5">uff</token>
+    <token token_id="6">Osteren</token>
+    <token token_id="7">järlich</token>
+    <token token_id="8">7</token>
+    <token token_id="9">℔</token>
+    <token token_id="10">10ß</token>
+    <token token_id="11">.</token>
+    <token token_id="12">Nota</token>
+    <token token_id="13">:</token>
+    <token token_id="14">dieser</token>
+    <token token_id="15">Zins</token>
+    <token token_id="16">ist</token>
+    <token token_id="17">kommen</token>
+    <token token_id="18">von</token>
+    <token token_id="19">einem</token>
+    <token token_id="20">verkaufften</token>
+    <token token_id="21">Hüslin</token>
+    <token token_id="22">gelegen</token>
+    <token token_id="23">in</token>
+    <token token_id="24">dem</token>
+    <token token_id="25">Gesslin</token>
+    <token token_id="26">neben</token>
+    <token token_id="27">des</token>
+    <token token_id="28">Sigristen</token>
+    <token token_id="29">Hus</token>
+    <token token_id="30">welches</token>
+    <token token_id="31">ime</token>
+    <token token_id="32">verkaufft</token>
+    <token token_id="33">worden</token>
+    <token token_id="34">,</token>
+    <token token_id="35">umb</token>
+    <token token_id="36">275</token>
+    <token token_id="37">℔</token>
+    <token token_id="38">davon</token>
+    <token token_id="39">er</token>
+    <token token_id="40">anno</token>
+    <token token_id="41">1596</token>
+    <token token_id="42">lutt</token>
+    <token token_id="43">Dom</token>
+    <token token_id="44">.</token>
+    <token token_id="45">Pla</token>
+    <token token_id="46">-</token>
+    <token token_id="47">teri</token>
+    <token token_id="48">Rechnung</token>
+    <token token_id="49">zalt</token>
+    <token token_id="50">125</token>
+    <token token_id="51">℔</token>
+    <token token_id="52">und</token>
+    <token token_id="53">den</token>
+    <token token_id="54">Rest</token>
+    <token token_id="55">so</token>
+    <token token_id="56">er</token>
+    <token token_id="57">verzinst</token>
+    <token token_id="58">felt</token>
+    <token token_id="59">uff</token>
+    <token token_id="60">Zyll</token>
+    <token token_id="61">und</token>
+    <token token_id="62">tag</token>
+    <token token_id="63">als</token>
+    <token token_id="64">hierüber</token>
+    <token token_id="65">ver</token>
+    <token token_id="66">¬</token>
+    <token token_id="67">zeichnet</token>
+    <token token_id="68">ist</token>
+    <token token_id="69">.</token>
+    <token token_id="70">Nota</token>
+    <token token_id="71">:</token>
+    <token token_id="72">es</token>
+    <token token_id="73">ist</token>
+    <token token_id="74">das</token>
+    <token token_id="75">dritte</token>
+    <token token_id="76">Heuslin</token>
+    <token token_id="77">in</token>
+    <token token_id="78">dem</token>
+    <token token_id="79">gäss</token>
+    <token token_id="80">¬</token>
+    <token token_id="81">lin</token>
+    <token token_id="82">ahn</token>
+    <token token_id="83">den</token>
+    <token token_id="84">alten</token>
+    <token token_id="85">pfarhoff</token>
+    <token token_id="86">stossend</token>
+    <token token_id="87">.</token>
+  </text>
+  <spans>
+    <span id="1384" start="0" end="3" text="Hanns Scherer der Sammetweber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1390" start="0" end="1" text="Hanns Scherer" element="head" class="nam" subclass=""/>
+      <span id="1396" start="2" end="3" text="der Sammetweber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1402" start="3" end="3" text="Sammetweber" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1571" start="4" end="4" text="zinnst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1408" start="5" end="6" text="uff Osteren" element="value" class="date" subclass=""/>
+    <span id="1414" start="7" end="7" text="järlich" element="value" class="time" subclass="rec"/>
+    <span id="1420" start="8" end="11" text="7 ℔ 10ß ." element="value" class="money" subclass=""/>
+    <span id="1426" start="19" end="69" text="einem&#10;verkaufften Hüslin gelegen in dem Gesslin neben&#10;des Sigristen Hus welches ime verkaufft worden ,&#10;umb 275 ℔ davon er anno 1596 lutt Dom . Pla -&#10;teri Rechnung zalt 125 ℔ und den Rest so er&#10;verzinst felt uff Zyll und tag als hierüber ver ¬&#10;zeichnet ist ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1577" start="20" end="20" text="verkaufften" element="attr" class="sale" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass=""/>
+      <span id="1432" start="21" end="21" text="Hüslin" element="head" class="type" subclass=""/>
+      <span id="1444" start="22" end="29" text="gelegen in dem Gesslin neben&#10;des Sigristen Hus" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1438" start="24" end="25" text="dem Gesslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1438_head" start="24" end="25" element="head" class="type" text="dem Gesslin" subclass=""/>
+        </span>
+        <span id="1450" start="27" end="29" text="des Sigristen Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1462" start="27" end="28" text="des Sigristen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1468" start="28" end="28" text="Sigristen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1468_head" start="28" end="28" element="head" class="occ" text="Sigristen" subclass=""/>
+            </span>
+          </span>
+          <span id="1456" start="29" end="29" text="Hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1583" start="30" end="69" text="welches ime verkaufft worden ,&#10;umb 275 ℔ davon er anno 1596 lutt Dom . Pla -&#10;teri Rechnung zalt 125 ℔ und den Rest so er&#10;verzinst felt uff Zyll und tag als hierüber ver ¬&#10;zeichnet ist ." element="attr" class="sale" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+        <span id="1480" start="31" end="31" text="ime" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1480_head" start="31" end="31" element="head" class="pro" text="ime" subclass=""/>
+        </span>
+        <span id="1603" start="32" end="32" text="verkaufft" element="trigger" class="type" subclass=""/>
+        <span id="1486" start="36" end="37" text="275 ℔" element="value" class="money" subclass=""/>
+        <span id="1609" start="38" end="69" text="davon er anno 1596 lutt Dom . Pla -&#10;teri Rechnung zalt 125 ℔ und den Rest so er&#10;verzinst felt uff Zyll und tag als hierüber ver ¬&#10;zeichnet ist ." element="other" class="other" subclass="">
+          <span id="1622" start="39" end="51" text="er anno 1596 lutt Dom . Pla -&#10;teri Rechnung zalt 125 ℔" element="eventspan" class="payment" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1504" start="39" end="39" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1504_head" start="39" end="39" element="head" class="pro" text="er" subclass=""/>
+            </span>
+            <span id="1492" start="40" end="41" text="anno 1596" element="value" class="date" subclass=""/>
+            <span id="1628" start="49" end="49" text="zalt" element="trigger" class="type" subclass=""/>
+            <span id="1498" start="50" end="51" text="125 ℔" element="value" class="money" subclass=""/>
+          </span>
+          <span id="1510" start="56" end="56" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1510_head" start="56" end="56" element="head" class="pro" text="er" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1516" start="72" end="72" text="es" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1516_head" start="72" end="72" element="head" class="pro" text="es" subclass=""/>
+    </span>
+    <span id="1522" start="74" end="86" text="das dritte Heuslin in dem gäss ¬&#10;lin ahn den alten pfarhoff stossend" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1528" start="76" end="76" text="Heuslin" element="head" class="type" subclass=""/>
+      <span id="1541" start="77" end="86" text="in dem gäss ¬&#10;lin ahn den alten pfarhoff stossend" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1547" start="78" end="81" text="dem gäss ¬&#10;lin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1553" start="79" end="81" text="gäss ¬&#10;lin" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1559" start="83" end="85" text="den alten pfarhoff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1565" start="84" end="85" text="alten pfarhoff" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1596" from="1480" to="1384" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1641" from="1516" to="1426" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1615" from="1504" to="1480" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1634" from="1510" to="1504" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1534" from="1522" to="1516" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="payment" polarity="pos" tense="pres" modality="ass" start="39" end="51" ref="1622" type="event">
+      <trigger start="49" end="49" text="zalt" ref="1628"/>
+      <event event_id="0.0">
+        <role role="payer" ref="1504" text="er"/>
+        <role role="date" ref="1492" text="anno 1596"/>
+        <role role="sum" ref="1498" text="125 ℔"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="22" end="29" ref="1444" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1426" text="einem&#10;verkaufften Hüslin gelegen in dem Gesslin neben&#10;des Sigristen Hus welches ime verkaufft worden ,&#10;umb 275 ℔ davon er anno 1596 lutt Dom . Pla -&#10;teri Rechnung zalt 125 ℔ und den Rest so er&#10;verzinst felt uff Zyll und tag als hierüber ver ¬&#10;zeichnet ist ."/>
+        <role role="location-b" ref="1438" text="dem Gesslin"/>
+        <role role="location-b" ref="1450" text="des Sigristen Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="27" end="28" ref="1462" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1450" text="des Sigristen Hus"/>
+        <role role="owner" ref="1468" text="Sigristen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="property-purchase" polarity="pos" tense="past" modality="ass" start="30" end="69" ref="1583" type="event">
+      <trigger start="32" end="32" text="verkaufft" ref="1603"/>
+      <event event_id="3.0">
+        <role role="property" ref="1426" text="einem&#10;verkaufften Hüslin gelegen in dem Gesslin neben&#10;des Sigristen Hus welches ime verkaufft worden ,&#10;umb 275 ℔ davon er anno 1596 lutt Dom . Pla -&#10;teri Rechnung zalt 125 ℔ und den Rest so er&#10;verzinst felt uff Zyll und tag als hierüber ver ¬&#10;zeichnet ist ."/>
+        <role role="buyer" ref="1480" text="ime"/>
+        <role role="price" ref="1486" text="275 ℔"/>
+        <role role="detail_payment-detail" ref="1609" text="davon er anno 1596 lutt Dom . Pla -&#10;teri Rechnung zalt 125 ℔ und den Rest so er&#10;verzinst felt uff Zyll und tag als hierüber ver ¬&#10;zeichnet ist ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="77" end="86" ref="1541" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1522" text="das dritte Heuslin in dem gäss ¬&#10;lin ahn den alten pfarhoff stossend"/>
+        <role role="location-b" ref="1547" text="dem gäss ¬&#10;lin"/>
+        <role role="location-b" ref="1559" text="den alten pfarhoff"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="0" end="69" ref="" type="state">
+      <trigger start="4" end="4" text="zinnst" ref="1571"/>
+      <event event_id="5.0">
+        <role role="payer" ref="1384" text="Hanns Scherer der Sammetweber"/>
+        <role role="due-date" ref="1408" text="uff Osteren"/>
+        <role role="interval" ref="1414" text="järlich"/>
+        <role role="interest" ref="1420" text="7 ℔ 10ß ."/>
+        <role role="property" ref="1426" text="einem&#10;verkaufften Hüslin gelegen in dem Gesslin neben&#10;des Sigristen Hus welches ime verkaufft worden ,&#10;umb 275 ℔ davon er anno 1596 lutt Dom . Pla -&#10;teri Rechnung zalt 125 ℔ und den Rest so er&#10;verzinst felt uff Zyll und tag als hierüber ver ¬&#10;zeichnet ist ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

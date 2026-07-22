@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 78/42 S. [22]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Heuberg 12</tei:title>
+            <tei:idno>HGB 1 78/42</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1480216</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Peter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1418">1418</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611050.3762369864 1267309.9381152978</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Official</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Veltin</token>
+    <token token_id="5">von</token>
+    <token token_id="6">Vssliss</token>
+    <token token_id="7">der</token>
+    <token token_id="8">Metzger</token>
+    <token token_id="9">wonhaft</token>
+    <token token_id="10">ze</token>
+    <token token_id="11">Basel</token>
+    <token token_id="12">und</token>
+    <token token_id="13">Ann</token>
+    <token token_id="14">sin</token>
+    <token token_id="15">eliche</token>
+    <token token_id="16">Frow</token>
+    <token token_id="17">verkaufen</token>
+    <token token_id="18">Henman</token>
+    <token token_id="19">Gürlin</token>
+    <token token_id="20">einem</token>
+    <token token_id="21">Korn</token>
+    <token token_id="22">¬</token>
+    <token token_id="23">messer</token>
+    <token token_id="24">ze</token>
+    <token token_id="25">Basel</token>
+    <token token_id="26">1</token>
+    <token token_id="27">Guldin</token>
+    <token token_id="28">Geltes</token>
+    <token token_id="29">jerliches</token>
+    <token token_id="30">Zinses</token>
+    <token token_id="31">uff</token>
+    <token token_id="32">und</token>
+    <token token_id="33">ab</token>
+    <token token_id="34">irem</token>
+    <token token_id="35">Hus</token>
+    <token token_id="36">und</token>
+    <token token_id="37">Hofstatt</token>
+    <token token_id="38">,</token>
+    <token token_id="39">genant</token>
+    <token token_id="40">Crow</token>
+    <token token_id="41">gelegen</token>
+    <token token_id="42">ze</token>
+    <token token_id="43">Basel</token>
+    <token token_id="44">uff</token>
+    <token token_id="45">Sant</token>
+    <token token_id="46">Lienharts</token>
+    <token token_id="47">Berg</token>
+    <token token_id="48">,</token>
+    <token token_id="49">gegen</token>
+    <token token_id="50">Henmans</token>
+    <token token_id="51">von</token>
+    <token token_id="52">Creymen</token>
+    <token token_id="53">Hoff</token>
+    <token token_id="54">über</token>
+    <token token_id="55">,</token>
+    <token token_id="56">zwüschent</token>
+    <token token_id="57">dem</token>
+    <token token_id="58">Huss</token>
+    <token token_id="59">genant</token>
+    <token token_id="60">das</token>
+    <token token_id="61">Höflin</token>
+    <token token_id="62">und</token>
+    <token token_id="63">Werlin</token>
+    <token token_id="64">Gürlins</token>
+    <token token_id="65">des</token>
+    <token token_id="66">gen</token>
+    <token token_id="67">Köffers</token>
+    <token token_id="68">Huss</token>
+    <token token_id="69">,</token>
+    <token token_id="70">ist</token>
+    <token token_id="71">vormals</token>
+    <token token_id="72">beladen</token>
+    <token token_id="73">und</token>
+    <token token_id="74">gat</token>
+    <token token_id="75">dar</token>
+    <token token_id="76">ab</token>
+    <token token_id="77">an</token>
+    <token token_id="78">die</token>
+    <token token_id="79">Presentz</token>
+    <token token_id="80">uff</token>
+    <token token_id="81">die</token>
+    <token token_id="82">Stifft</token>
+    <token token_id="83">ze</token>
+    <token token_id="84">Basel</token>
+    <token token_id="85">2</token>
+    <token token_id="86">sh</token>
+    <token token_id="87">.</token>
+    <token token_id="88">von</token>
+    <token token_id="89">der</token>
+    <token token_id="90">Eigenschafft</token>
+    <token token_id="91">,</token>
+    <token token_id="92">umb</token>
+    <token token_id="93">16</token>
+    <token token_id="94">Guldin</token>
+    <token token_id="95">rinscher</token>
+    <token token_id="96">.</token>
+    <token token_id="97">d</token>
+    <token token_id="98">ter</token>
+    <token token_id="99">:</token>
+    <token token_id="100">Peter</token>
+    <token token_id="101">derg</token>
+    <token token_id="102">¬</token>
+    <token token_id="103">messer</token>
+    <token token_id="104">.</token>
+    <token token_id="105">.</token>
+    <token token_id="106">1</token>
+    <token token_id="107">flor</token>
+    <token token_id="108">.</token>
+  </text>
+  <spans>
+    <span id="1636" start="4" end="16" text="Veltin von Vssliss der Metzger wonhaft ze Basel und Ann&#10;sin eliche Frow" element="list" class="per" subclass="">
+      <span id="1600" start="4" end="11" text="Veltin von Vssliss der Metzger wonhaft ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1606" start="4" end="4" text="Veltin" element="head" class="nam" subclass=""/>
+        <span id="1612" start="5" end="6" text="von Vssliss" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1618" start="6" end="6" text="Vssliss" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1618_head" start="6" end="6" element="head" class="nam" text="Vssliss" subclass=""/>
+          </span>
+        </span>
+        <span id="1624" start="7" end="8" text="der Metzger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1630" start="8" end="8" text="Metzger" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1642" start="9" end="11" text="wonhaft ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1648" start="11" end="11" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1648_head" start="11" end="11" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1654" start="13" end="16" text="Ann&#10;sin eliche Frow" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1660" start="13" end="13" text="Ann" element="head" class="nam" subclass=""/>
+        <span id="1672" start="14" end="16" text="sin eliche Frow" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1666" start="14" end="14" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1666_head" start="14" end="14" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1678" start="15" end="16" text="eliche Frow" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1938" start="17" end="17" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1691" start="18" end="25" text="Henman Gürlin einem Korn ¬&#10;messer ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1697" start="18" end="19" text="Henman Gürlin" element="head" class="nam" subclass=""/>
+      <span id="1703" start="20" end="23" text="einem Korn ¬&#10;messer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1709" start="21" end="23" text="Korn ¬&#10;messer" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1715" start="24" end="25" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1721" start="25" end="25" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1721_head" start="25" end="25" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1944" start="26" end="30" text="1 Guldin Geltes jerliches Zinses" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1727" start="26" end="28" text="1 Guldin Geltes" element="value" class="money" subclass=""/>
+      <span id="1733" start="29" end="29" text="jerliches" element="value" class="time" subclass="rec"/>
+      <span id="1950" start="30" end="30" text="Zinses" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1739" start="34" end="90" text="irem Hus und Hofstatt , genant Crow gelegen ze Basel&#10;uff Sant Lienharts Berg , gegen Henmans von Creymen&#10;Hoff über , zwüschent dem Huss genant das Höflin und&#10;Werlin Gürlins des gen Köffers Huss , ist vormals beladen und&#10;gat dar ab an die Presentz uff die Stifft ze Basel 2 sh . von der&#10;Eigenschafft" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1764" start="34" end="34" text="irem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1751" start="34" end="34" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1751_head" start="34" end="34" element="head" class="pro" text="irem" subclass=""/>
+        </span>
+      </span>
+      <span id="1745" start="35" end="37" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1770" start="40" end="40" text="Crow" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1770_head" start="40" end="40" element="head" class="nam" text="Crow" subclass=""/>
+      </span>
+      <span id="1776" start="41" end="68" text="gelegen ze Basel&#10;uff Sant Lienharts Berg , gegen Henmans von Creymen&#10;Hoff über , zwüschent dem Huss genant das Höflin und&#10;Werlin Gürlins des gen Köffers Huss" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1782" start="43" end="43" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1782_head" start="43" end="43" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="1788" start="45" end="47" text="Sant Lienharts Berg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1788_head" start="45" end="47" element="head" class="nam" text="Sant Lienharts Berg" subclass=""/>
+        </span>
+        <span id="1794" start="50" end="53" text="Henmans von Creymen&#10;Hoff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1806" start="50" end="52" text="Henmans von Creymen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1800" start="50" end="52" text="Henmans von Creymen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1800_head" start="50" end="52" element="head" class="nam" text="Henmans von Creymen" subclass=""/>
+            </span>
+          </span>
+          <span id="1926" start="53" end="53" text="Hoff" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1812" start="57" end="61" text="dem Huss genant das Höflin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1818" start="58" end="58" text="Huss" element="head" class="type" subclass=""/>
+          <span id="1824" start="60" end="61" text="das Höflin" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1830" start="61" end="61" text="Höflin" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+        <span id="1836" start="63" end="68" text="Werlin Gürlins des gen Köffers Huss" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1854" start="63" end="67" text="Werlin Gürlins des gen Köffers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1848" start="63" end="67" text="Werlin Gürlins des gen Köffers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1860" start="63" end="64" text="Werlin Gürlins" element="head" class="nam" subclass=""/>
+              <span id="1866" start="65" end="67" text="des gen Köffers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1872" start="67" end="67" text="Köffers" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1842" start="68" end="68" text="Huss" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1932" start="70" end="90" text="ist vormals beladen und&#10;gat dar ab an die Presentz uff die Stifft ze Basel 2 sh . von der&#10;Eigenschafft" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1962" start="74" end="74" text="gat" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1878" start="78" end="84" text="die Presentz uff die Stifft ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1884" start="79" end="82" text="Presentz uff die Stifft" element="head" class="type" subclass=""/>
+          <span id="1896" start="83" end="84" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1890" start="84" end="84" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1890_head" start="84" end="84" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1902" start="85" end="87" text="2 sh ." element="value" class="money" subclass=""/>
+        <span id="1956" start="88" end="90" text="von der&#10;Eigenschafft" element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="1908" start="93" end="95" text="16 Guldin rinscher" element="value" class="money" subclass=""/>
+    <span id="1914" start="100" end="103" text="Peter derg ¬&#10;messer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1914_head" start="100" end="103" element="head" class="nam" text="Peter derg ¬ messer" subclass=""/>
+    </span>
+    <span id="1920" start="106" end="108" text="1 flor ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1757" from="1751" to="1636" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1684" from="1666" to="1600" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="26" end="30" ref="1944" type="state">
+      <trigger start="30" end="30" text="Zinses" ref="1950"/>
+      <event event_id="0.0">
+        <role role="interest" ref="1727" text="1 Guldin Geltes"/>
+        <role role="interval" ref="1733" text="jerliches"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="14" end="16" ref="1672" type="state">
+      <trigger start="15" end="16" text="eliche Frow" ref="1678"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1654" text="Ann&#10;sin eliche Frow"/>
+        <role role="family-b" ref="1666" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="5" end="6" ref="1612" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1600" text="Veltin von Vssliss der Metzger wonhaft ze Basel"/>
+        <role role="location-b" ref="1618" text="Vssliss"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="9" end="11" ref="1642" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1600" text="Veltin von Vssliss der Metzger wonhaft ze Basel"/>
+        <role role="location-b" ref="1648" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="24" end="25" ref="1715" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1691" text="Henman Gürlin einem Korn ¬&#10;messer ze Basel"/>
+        <role role="location-b" ref="1721" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="34" end="34" ref="1764" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1739" text="irem Hus und Hofstatt , genant Crow gelegen ze Basel&#10;uff Sant Lienharts Berg , gegen Henmans von Creymen&#10;Hoff über , zwüschent dem Huss genant das Höflin und&#10;Werlin Gürlins des gen Köffers Huss , ist vormals beladen und&#10;gat dar ab an die Presentz uff die Stifft ze Basel 2 sh . von der&#10;Eigenschafft"/>
+        <role role="owner" ref="1751" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="41" end="68" ref="1776" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1739" text="irem Hus und Hofstatt , genant Crow gelegen ze Basel&#10;uff Sant Lienharts Berg , gegen Henmans von Creymen&#10;Hoff über , zwüschent dem Huss genant das Höflin und&#10;Werlin Gürlins des gen Köffers Huss , ist vormals beladen und&#10;gat dar ab an die Presentz uff die Stifft ze Basel 2 sh . von der&#10;Eigenschafft"/>
+        <role role="location-b" ref="1782" text="Basel"/>
+        <role role="location-b" ref="1788" text="Sant Lienharts Berg"/>
+        <role role="location-b" ref="1794" text="Henmans von Creymen&#10;Hoff"/>
+        <role role="location-b" ref="1812" text="dem Huss genant das Höflin"/>
+        <role role="location-b" ref="1836" text="Werlin Gürlins des gen Köffers Huss"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="50" end="52" ref="1806" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1794" text="Henmans von Creymen&#10;Hoff"/>
+        <role role="owner" ref="1800" text="Henmans von Creymen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="ownership" polarity="pos" tense="pres" modality="ass" start="63" end="67" ref="1854" type="state">
+      <event event_id="8.0">
+        <role role="property" ref="1836" text="Werlin Gürlins des gen Köffers Huss"/>
+        <role role="owner" ref="1848" text="Werlin Gürlins des gen Köffers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="70" end="90" ref="1932" type="state">
+      <trigger start="74" end="74" text="gat" ref="1962"/>
+      <event event_id="9.0">
+        <role role="property" ref="1739" text="irem Hus und Hofstatt , genant Crow gelegen ze Basel&#10;uff Sant Lienharts Berg , gegen Henmans von Creymen&#10;Hoff über , zwüschent dem Huss genant das Höflin und&#10;Werlin Gürlins des gen Köffers Huss , ist vormals beladen und&#10;gat dar ab an die Presentz uff die Stifft ze Basel 2 sh . von der&#10;Eigenschafft"/>
+        <role role="beneficiary" ref="1878" text="die Presentz uff die Stifft ze Basel"/>
+        <role role="interest" ref="1902" text="2 sh ."/>
+        <role role="cause" ref="1956" text="von der&#10;Eigenschafft"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="topological" polarity="pos" tense="pres" modality="ass" start="83" end="84" ref="1896" type="state">
+      <event event_id="10.0">
+        <role role="location-a" ref="1878" text="die Presentz uff die Stifft ze Basel"/>
+        <role role="location-b" ref="1890" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="17" end="95" ref="" type="event">
+      <trigger start="17" end="17" text="verkaufen" ref="1938"/>
+      <event event_id="11.0">
+        <role role="seller" ref="1600" text="Veltin von Vssliss der Metzger wonhaft ze Basel"/>
+        <role role="seller" ref="1654" text="Ann&#10;sin eliche Frow"/>
+        <role role="buyer" ref="1691" text="Henman Gürlin einem Korn ¬&#10;messer ze Basel"/>
+        <role role="due" ref="1944" text="1 Guldin Geltes jerliches Zinses"/>
+        <role role="collateral" ref="1739" text="irem Hus und Hofstatt , genant Crow gelegen ze Basel&#10;uff Sant Lienharts Berg , gegen Henmans von Creymen&#10;Hoff über , zwüschent dem Huss genant das Höflin und&#10;Werlin Gürlins des gen Köffers Huss , ist vormals beladen und&#10;gat dar ab an die Presentz uff die Stifft ze Basel 2 sh . von der&#10;Eigenschafft"/>
+        <role role="price" ref="1908" text="16 Guldin rinscher"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

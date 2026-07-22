@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 24/43 S. [11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Barfüsserplatz Theil von 17 neben 18</tei:title>
+            <tei:idno>HGB 1 24/43</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1462890</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1501">1501</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611301.708670291 1267129.2738216375</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">hatt</token>
+    <token token_id="2">Niclaus</token>
+    <token token_id="3">Hocklin</token>
+    <token token_id="4">,</token>
+    <token token_id="5">Schaffner</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Herren</token>
+    <token token_id="8">zu</token>
+    <token token_id="9">sannt</token>
+    <token token_id="10">Lienhart</token>
+    <token token_id="11">Hannsen</token>
+    <token token_id="12">Waldshutz</token>
+    <token token_id="13">des</token>
+    <token token_id="14">Zimmermans</token>
+    <token token_id="15">Hus</token>
+    <token token_id="16">,</token>
+    <token token_id="17">innerthalb</token>
+    <token token_id="18">dem</token>
+    <token token_id="19">Eselthümlin</token>
+    <token token_id="20">,</token>
+    <token token_id="21">zwischen</token>
+    <token token_id="22">dem</token>
+    <token token_id="23">Hus</token>
+    <token token_id="24">Hegenheim</token>
+    <token token_id="25">und</token>
+    <token token_id="26">wyl</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Erhart</token>
+    <token token_id="29">von</token>
+    <token token_id="30">Möringen</token>
+    <token token_id="31">des</token>
+    <token token_id="32">Kürsners</token>
+    <token token_id="33">Hus</token>
+    <token token_id="34">gelegen</token>
+    <token token_id="35">ist</token>
+    <token token_id="36">,</token>
+    <token token_id="37">umb</token>
+    <token token_id="38">versessenen</token>
+    <token token_id="39">zins</token>
+    <token token_id="40">als</token>
+    <token token_id="41">eins</token>
+    <token token_id="42">erblosen</token>
+    <token token_id="43">Mans</token>
+    <token token_id="44">gut</token>
+    <token token_id="45">,</token>
+    <token token_id="46">als</token>
+    <token token_id="47">die</token>
+    <token token_id="48">Herren</token>
+    <token token_id="49">2</token>
+    <token token_id="50">1</token>
+    <token token_id="51">/</token>
+    <token token_id="52">2</token>
+    <token token_id="53">℔</token>
+    <token token_id="54">gleich</token>
+    <token token_id="55">geteiltdaruff</token>
+    <token token_id="56">haben</token>
+    <token token_id="57">,</token>
+    <token token_id="58">gefrönt</token>
+    <token token_id="59">.</token>
+  </text>
+  <spans>
+    <span id="925" start="2" end="10" text="Niclaus Hocklin , Schaffner der Herren zu sannt Lienhart" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="931" start="2" end="3" text="Niclaus Hocklin" element="head" class="nam" subclass=""/>
+      <span id="937" start="5" end="10" text="Schaffner der Herren zu sannt Lienhart" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-repr">
+        <span id="943" start="5" end="5" text="Schaffner" element="head" class="occ" subclass="org-repr"/>
+        <span id="949" start="6" end="10" text="der Herren zu sannt Lienhart" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="955" start="9" end="10" text="sannt Lienhart" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="997" start="11" end="35" text="Hannsen Waldshutz des Zimmermans Hus , innerthalb dem&#10;Eselthümlin , zwischen dem Hus Hegenheim und wyl . Erhart&#10;von Möringen des Kürsners Hus gelegen ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="967" start="11" end="14" text="Hannsen Waldshutz des Zimmermans" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="973" start="11" end="14" text="Hannsen Waldshutz des Zimmermans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="979" start="11" end="12" text="Hannsen Waldshutz" element="head" class="nam" subclass=""/>
+          <span id="985" start="13" end="14" text="des Zimmermans" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="991" start="14" end="14" text="Zimmermans" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="961" start="15" end="15" text="Hus" element="head" class="type" subclass=""/>
+      <span id="961_desc_loc_x" start="17" end="35" text="innerthalb dem&#10;Eselthümlin , zwischen dem Hus Hegenheim und wyl . Erhart&#10;von Möringen des Kürsners Hus gelegen ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1003" start="18" end="19" text="dem&#10;Eselthümlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1009" start="19" end="19" text="Eselthümlin" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1027" start="22" end="33" text="dem Hus Hegenheim und wyl . Erhart&#10;von Möringen des Kürsners Hus" element="list" class="fac" subclass="">
+          <span id="1015" start="22" end="24" text="dem Hus Hegenheim" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1021" start="23" end="24" text="Hus Hegenheim" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1033" start="26" end="33" text="wyl . Erhart&#10;von Möringen des Kürsners Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1045" start="26" end="32" text="wyl . Erhart&#10;von Möringen des Kürsners" element="attr" class="owner" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+              <span id="1051" start="28" end="32" text="Erhart&#10;von Möringen des Kürsners" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1057" start="28" end="28" text="Erhart" element="head" class="nam" subclass=""/>
+                <span id="1063" start="29" end="30" text="von Möringen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1069" start="30" end="30" text="Möringen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                    <span id="1069_head" start="30" end="30" element="head" class="nam" text="Möringen" subclass=""/>
+                  </span>
+                </span>
+                <span id="1075" start="31" end="32" text="des Kürsners" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1081" start="32" end="32" text="Kürsners" element="head" class="occ" subclass=""/>
+                </span>
+              </span>
+            </span>
+            <span id="1039" start="33" end="33" text="Hus" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1137" start="39" end="39" text="zins" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1112" start="41" end="44" text="eins erblosen Mans gut" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1118" start="44" end="44" text="gut" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1087" start="47" end="48" text="die Herren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1093" start="48" end="48" text="Herren" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1106" start="49" end="53" text="2 1 / 2 ℔" element="value" class="money" subclass=""/>
+    <span id="1143" start="56" end="56" text="haben" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1131" start="58" end="58" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1099" from="1087" to="949" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1124" from="1112" to="997" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1149" from="1143" to="1137" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="5" end="10" ref="937" type="state">
+      <trigger start="5" end="5" text="Schaffner" ref="943"/>
+      <event event_id="0.0">
+        <role role="employee" ref="925" text="Niclaus Hocklin , Schaffner der Herren zu sannt Lienhart"/>
+        <role role="employer" ref="949" text="der Herren zu sannt Lienhart"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="11" end="14" ref="967" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="997" text="Hannsen Waldshutz des Zimmermans Hus , innerthalb dem&#10;Eselthümlin , zwischen dem Hus Hegenheim und wyl . Erhart&#10;von Möringen des Kürsners Hus gelegen ist"/>
+        <role role="owner" ref="973" text="Hannsen Waldshutz des Zimmermans"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="35" ref="961_desc_loc_x" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="997" text="Hannsen Waldshutz des Zimmermans Hus , innerthalb dem&#10;Eselthümlin , zwischen dem Hus Hegenheim und wyl . Erhart&#10;von Möringen des Kürsners Hus gelegen ist"/>
+        <role role="location-b" ref="1003" text="dem&#10;Eselthümlin"/>
+        <role role="location-b" ref="1015" text="dem Hus Hegenheim"/>
+        <role role="location-b" ref="1033" text="wyl . Erhart&#10;von Möringen des Kürsners Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="past" modality="ass" start="26" end="32" ref="1045" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1033" text="wyl . Erhart&#10;von Möringen des Kürsners Hus"/>
+        <role role="owner" ref="1051" text="Erhart&#10;von Möringen des Kürsners"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="29" end="30" ref="1063" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1051" text="Erhart&#10;von Möringen des Kürsners"/>
+        <role role="location-b" ref="1069" text="Möringen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-payment" polarity="neg" tense="pres" modality="ass" start="39" end="39" ref="" type="event">
+      <trigger start="39" end="39" text="zins" ref="1137"/>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="47" end="56" ref="" type="state">
+      <trigger start="56" end="56" text="haben" ref="1143"/>
+      <event event_id="6.0">
+        <role role="beneficiary" ref="1087" text="die Herren"/>
+        <role role="interest" ref="1106" text="2 1 / 2 ℔"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="58" ref="" type="event">
+      <trigger start="58" end="58" text="gefrönt" ref="1131"/>
+      <event event_id="7.0">
+        <role role="claimant" ref="925" text="Niclaus Hocklin , Schaffner der Herren zu sannt Lienhart"/>
+        <role role="property" ref="997" text="Hannsen Waldshutz des Zimmermans Hus , innerthalb dem&#10;Eselthümlin , zwischen dem Hus Hegenheim und wyl . Erhart&#10;von Möringen des Kürsners Hus gelegen ist"/>
+        <role role="cause" ref="1137" text="zins"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 66/32 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Greifengasse 23, 25</tei:title>
+            <tei:idno>HGB 1 66/32</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1477790</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Martin</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1556">1556</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611567.693968544 1267855.5169088459</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">ein</token>
+    <token token_id="1">brief</token>
+    <token token_id="2">wysst</token>
+    <token token_id="3">60</token>
+    <token token_id="4">guldin</token>
+    <token token_id="5">an</token>
+    <token token_id="6">goldt</token>
+    <token token_id="7">Houptguts</token>
+    <token token_id="8">und</token>
+    <token token_id="9">davon</token>
+    <token token_id="10">3</token>
+    <token token_id="11">guldin</token>
+    <token token_id="12">gelts</token>
+    <token token_id="13">jerliches</token>
+    <token token_id="14">zinses</token>
+    <token token_id="15">uf</token>
+    <token token_id="16">Maria</token>
+    <token token_id="17">Magdalene</token>
+    <token token_id="18">in</token>
+    <token token_id="19">goldt</token>
+    <token token_id="20">,</token>
+    <token token_id="21">gibt</token>
+    <token token_id="22">jetzt</token>
+    <token token_id="23">Fridlin</token>
+    <token token_id="24">Ullin</token>
+    <token token_id="25">des</token>
+    <token token_id="26">seylers</token>
+    <token token_id="27">sel</token>
+    <token token_id="28">.</token>
+    <token token_id="29">Wittfrow</token>
+    <token token_id="30">,</token>
+    <token token_id="31">von</token>
+    <token token_id="32">irem</token>
+    <token token_id="33">Hus</token>
+    <token token_id="34">zu</token>
+    <token token_id="35">dem</token>
+    <token token_id="36">Einhorn</token>
+    <token token_id="37">inn</token>
+    <token token_id="38">der</token>
+    <token token_id="39">Burgergassen</token>
+    <token token_id="40">gelegen</token>
+    <token token_id="41">.</token>
+  </text>
+  <spans>
+    <span id="652" start="3" end="6" text="60 guldin an goldt" element="value" class="money" subclass=""/>
+    <span id="658" start="10" end="12" text="3 guldin gelts" element="value" class="money" subclass=""/>
+    <span id="664" start="13" end="13" text="jerliches" element="value" class="time" subclass="rec"/>
+    <span id="767" start="14" end="14" text="zinses" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="670" start="15" end="17" text="uf Maria Magdalene" element="value" class="date" subclass=""/>
+    <span id="676" start="23" end="29" text="Fridlin Ullin des seylers sel . Wittfrow" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="743" start="23" end="28" text="Fridlin Ullin des seylers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="749" start="23" end="24" text="Fridlin Ullin" element="head" class="nam" subclass=""/>
+        <span id="755" start="25" end="26" text="des seylers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="761" start="26" end="26" text="seylers" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="737" start="27" end="28" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="731" start="29" end="29" text="Wittfrow" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="682" start="32" end="40" text="irem&#10;Hus zu dem Einhorn inn der Burgergassen&#10;gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="725" start="32" end="32" text="irem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="712" start="32" end="32" text="irem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="712_head" start="32" end="32" element="head" class="pro" text="irem" subclass=""/>
+        </span>
+      </span>
+      <span id="688" start="33" end="36" text="Hus zu dem Einhorn" element="head" class="nam" subclass=""/>
+      <span id="694" start="37" end="40" text="inn der Burgergassen&#10;gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="700" start="38" end="39" text="der Burgergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="706" start="39" end="39" text="Burgergassen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="718" from="676" to="712" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="23" end="29" ref="676" type="state">
+      <trigger start="29" end="29" text="Wittfrow" ref="731"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="676" text="Fridlin Ullin des seylers sel . Wittfrow"/>
+        <role role="family-b" ref="743" text="Fridlin Ullin des seylers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="32" end="32" ref="725" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="682" text="irem&#10;Hus zu dem Einhorn inn der Burgergassen&#10;gelegen"/>
+        <role role="owner" ref="712" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="37" end="40" ref="694" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="682" text="irem&#10;Hus zu dem Einhorn inn der Burgergassen&#10;gelegen"/>
+        <role role="location-b" ref="700" text="der Burgergassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="14" end="40" ref="" type="state">
+      <trigger start="14" end="14" text="zinses" ref="767"/>
+      <event event_id="3.0">
+        <role role="capital" ref="652" text="60 guldin an goldt"/>
+        <role role="interest" ref="658" text="3 guldin gelts"/>
+        <role role="interval" ref="664" text="jerliches"/>
+        <role role="due-date" ref="670" text="uf Maria Magdalene"/>
+        <role role="payer" ref="676" text="Fridlin Ullin des seylers sel . Wittfrow"/>
+        <role role="property" ref="682" text="irem&#10;Hus zu dem Einhorn inn der Burgergassen&#10;gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

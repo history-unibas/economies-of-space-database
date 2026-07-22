@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 13/6 S. [63]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Andreasplatz 1</tei:title>
+            <tei:idno>HGB 1 13/6</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1460869</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Klara</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1624">1624</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611139.645921128 1267496.518991745</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1624</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Jacob</token>
+    <token token_id="3">Schel</token>
+    <token token_id="4">,</token>
+    <token token_id="5">der</token>
+    <token token_id="6">Schneider</token>
+    <token token_id="7">,</token>
+    <token token_id="8">vor</token>
+    <token token_id="9">ihme</token>
+    <token token_id="10">Haus</token>
+    <token token_id="11">Brandenberger</token>
+    <token token_id="12">,</token>
+    <token token_id="13">Lederbreiter</token>
+    <token token_id="14">,</token>
+    <token token_id="15">hievor</token>
+    <token token_id="16">Jacob</token>
+    <token token_id="17">von</token>
+    <token token_id="18">Speyr</token>
+    <token token_id="19">,</token>
+    <token token_id="20">vom</token>
+    <token token_id="21">Hauss</token>
+    <token token_id="22">Beysanz</token>
+    <token token_id="23">an</token>
+    <token token_id="24">der</token>
+    <token token_id="25">Schneider</token>
+    <token token_id="26">gassen</token>
+    <token token_id="27">uf</token>
+    <token token_id="28">Pfingstein</token>
+    <token token_id="29">1</token>
+    <token token_id="30">℔</token>
+    <token token_id="31">.</token>
+    <token token_id="32">Ebenso</token>
+    <token token_id="33">:</token>
+    <token token_id="34">1625</token>
+    <token token_id="35">1626</token>
+  </text>
+  <spans>
+    <span id="801" start="0" end="35" text="1624 .&#10;Jacob Schel , der Schneider ,&#10;vor ihme Haus Brandenberger ,&#10;Lederbreiter ,&#10;hievor Jacob von Speyr ,&#10;vom Hauss Beysanz an der Schneider&#10;gassen uf Pfingstein 1 ℔.&#10;Ebenso : 1625 1626" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="680" start="0" end="0" text="1624" element="value" class="date" subclass=""/>
+      <span id="686" start="2" end="6" text="Jacob Schel , der Schneider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="692" start="2" end="3" text="Jacob Schel" element="head" class="nam" subclass=""/>
+        <span id="698" start="5" end="6" text="der Schneider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="704" start="6" end="6" text="Schneider" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="710" start="9" end="9" text="ihme" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="710_head" start="9" end="9" element="head" class="pro" text="ihme" subclass=""/>
+      </span>
+      <span id="723" start="10" end="13" text="Haus Brandenberger ,&#10;Lederbreiter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="729" start="10" end="11" text="Haus Brandenberger" element="head" class="nam" subclass=""/>
+        <span id="735" start="13" end="13" text="Lederbreiter" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="735_head" start="13" end="13" element="head" class="occ" text="Lederbreiter" subclass=""/>
+        </span>
+      </span>
+      <span id="741" start="16" end="18" text="Jacob von Speyr" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="741_head" start="16" end="18" element="head" class="nam" text="Jacob von Speyr" subclass=""/>
+      </span>
+      <span id="747" start="20" end="26" text="vom Hauss Beysanz an der Schneider&#10;gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="753" start="21" end="22" text="Hauss Beysanz" element="head" class="nam" subclass=""/>
+        <span id="759" start="23" end="26" text="an der Schneider&#10;gassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="765" start="24" end="26" text="der Schneider&#10;gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="771" start="25" end="26" text="Schneider&#10;gassen" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="777" start="27" end="28" text="uf Pfingstein" element="value" class="date" subclass=""/>
+      <span id="783" start="29" end="31" text="1 ℔." element="value" class="money" subclass=""/>
+      <span id="789" start="34" end="34" text="1625" element="value" class="date" subclass=""/>
+      <span id="795" start="35" end="35" text="1626" element="value" class="date" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="716" from="710" to="686" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="35" ref="801" type="event">
+      <event event_id="0.0">
+        <role role="date" ref="680" text="1624"/>
+        <role role="payer" ref="686" text="Jacob Schel , der Schneider"/>
+        <role role="previous-payer" ref="723" text="Haus Brandenberger ,&#10;Lederbreiter"/>
+        <role role="previous-payer" ref="741" text="Jacob von Speyr"/>
+        <role role="property" ref="747" text="vom Hauss Beysanz an der Schneider&#10;gassen"/>
+        <role role="date" ref="777" text="uf Pfingstein"/>
+        <role role="interest" ref="783" text="1 ℔."/>
+        <role role="date" ref="789" text="1625"/>
+        <role role="date" ref="795" text="1626"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="23" end="26" ref="759" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="747" text="vom Hauss Beysanz an der Schneider&#10;gassen"/>
+        <role role="location-b" ref="765" text="der Schneider&#10;gassen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

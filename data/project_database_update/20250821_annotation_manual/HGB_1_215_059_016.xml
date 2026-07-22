@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 215/59 S. [16]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Steinenvorstadt 6</tei:title>
+            <tei:idno>HGB 1 215/59</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532645</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1514">1514</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611306.3810684183 1267020.6229178295</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Balthasar</token>
+    <token token_id="1">Langbon</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Weber</token>
+    <token token_id="4">,</token>
+    <token token_id="5">u</token>
+    <token token_id="6">.</token>
+    <token token_id="7">seine</token>
+    <token token_id="8">Frau</token>
+    <token token_id="9">Ursul</token>
+    <token token_id="10">,</token>
+    <token token_id="11">verkaufen</token>
+    <token token_id="12">an</token>
+    <token token_id="13">Mansen</token>
+    <token token_id="14">Peter</token>
+    <token token_id="15">,</token>
+    <token token_id="16">Christiana</token>
+    <token token_id="17">u</token>
+    <token token_id="18">.</token>
+    <token token_id="19">Barbara</token>
+    <token token_id="20">Langbon</token>
+    <token token_id="21">,</token>
+    <token token_id="22">der</token>
+    <token token_id="23">Verkäufer</token>
+    <token token_id="24">geschwistere</token>
+    <token token_id="25">,</token>
+    <token token_id="26">4</token>
+    <token token_id="27">℔</token>
+    <token token_id="28">jährl</token>
+    <token token_id="29">zinses</token>
+    <token token_id="30">,</token>
+    <token token_id="31">ab</token>
+    <token token_id="32">jrem</token>
+    <token token_id="33">Hus</token>
+    <token token_id="34">u</token>
+    <token token_id="35">.</token>
+    <token token_id="36">Hofstat</token>
+    <token token_id="37">genant</token>
+    <token token_id="38">zum</token>
+    <token token_id="39">schwartzen</token>
+    <token token_id="40">Rad</token>
+    <token token_id="41">.</token>
+    <token token_id="42">in</token>
+    <token token_id="43">Steinenvorstatt</token>
+    <token token_id="44">,</token>
+    <token token_id="45">zwüschen</token>
+    <token token_id="46">den</token>
+    <token token_id="47">husern</token>
+    <token token_id="48">zum</token>
+    <token token_id="49">Wider</token>
+    <token token_id="50">zu</token>
+    <token token_id="51">einer</token>
+    <token token_id="52">,</token>
+    <token token_id="53">u</token>
+    <token token_id="54">.</token>
+    <token token_id="55">zum</token>
+    <token token_id="56">vichton</token>
+    <token token_id="57">zur</token>
+    <token token_id="58">andern</token>
+    <token token_id="59">siten</token>
+    <token token_id="60">gelegen</token>
+    <token token_id="61">,</token>
+    <token token_id="62">zinst</token>
+    <token token_id="63">vormalen</token>
+    <token token_id="64">dem</token>
+    <token token_id="65">Spital</token>
+    <token token_id="66">1</token>
+    <token token_id="67">℔</token>
+    <token token_id="68">,</token>
+    <token token_id="69">sodan</token>
+    <token token_id="70">2</token>
+    <token token_id="71">1</token>
+    <token token_id="72">/</token>
+    <token token_id="73">2sh</token>
+    <token token_id="74">.</token>
+    <token token_id="75">zu</token>
+    <token token_id="76">s</token>
+    <token token_id="77">.</token>
+    <token token_id="78">Marti</token>
+    <token token_id="79">,</token>
+    <token token_id="80">sonstfrei</token>
+    <token token_id="81">.</token>
+    <token token_id="82">sum</token>
+    <token token_id="83">80</token>
+    <token token_id="84">℔</token>
+    <token token_id="85">.</token>
+    <token token_id="86">widerk</token>
+    <token token_id="87">.</token>
+  </text>
+  <spans>
+    <span id="1517" start="0" end="9" text="Balthasar Langbon der Weber , u . seine Frau Ursul" element="list" class="per" subclass="">
+      <span id="1299" start="0" end="3" text="Balthasar Langbon der Weber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1305" start="0" end="1" text="Balthasar Langbon" element="head" class="nam" subclass=""/>
+        <span id="1311" start="2" end="3" text="der Weber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1317" start="3" end="3" text="Weber" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1323" start="7" end="9" text="seine Frau Ursul" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1335" start="7" end="8" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1347" start="7" end="7" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1347_head" start="7" end="7" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1341" start="8" end="8" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1329" start="9" end="9" text="Ursul" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1542" start="11" end="11" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1523" start="13" end="24" text="Mansen Peter , Christiana u . Barbara Langbon , der Verkäufer&#10;geschwistere" element="list" class="per" subclass="">
+      <span id="1360" start="13" end="14" text="Mansen Peter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1360_head" start="13" end="14" element="head" class="nam" text="Mansen Peter" subclass=""/>
+      </span>
+      <span id="1366" start="16" end="16" text="Christiana" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1366_head" start="16" end="16" element="head" class="nam" text="Christiana" subclass=""/>
+      </span>
+      <span id="1529" start="19" end="20" text="Barbara Langbon" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1529_head" start="19" end="20" element="head" class="nam" text="Barbara Langbon" subclass=""/>
+      </span>
+      <span id="1372" start="22" end="24" text="der Verkäufer&#10;geschwistere" element="appo" class="fam" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1384" start="23" end="23" text="Verkäufer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1384_head" start="23" end="23" element="head" class="role" text="Verkäufer" subclass=""/>
+        </span>
+        <span id="1378" start="24" end="24" text="geschwistere" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1397" start="26" end="27" text="4 ℔" element="value" class="money" subclass=""/>
+    <span id="1403" start="28" end="28" text="jährl" element="value" class="time" subclass="rec"/>
+    <span id="1409" start="32" end="80" text="jrem Hus u . Hofstat genant zum&#10;schwartzen Rad . in Steinenvorstatt , zwüschen den husern zum Wider&#10;zu einer , u . zum vichton zur andern siten gelegen , zinst vormalen&#10;dem Spital 1 ℔, sodan 2 1 / 2sh . zu s . Marti , sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1421" start="32" end="32" text="jrem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1427" start="32" end="32" text="jrem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1427_head" start="32" end="32" element="head" class="pro" text="jrem" subclass=""/>
+        </span>
+      </span>
+      <span id="1415" start="33" end="36" text="Hus u . Hofstat" element="head" class="type" subclass=""/>
+      <span id="1433" start="38" end="40" text="zum&#10;schwartzen Rad" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1433_head" start="38" end="40" element="head" class="nam" text="zum schwartzen Rad" subclass=""/>
+      </span>
+      <span id="1439" start="42" end="60" text="in Steinenvorstatt , zwüschen den husern zum Wider&#10;zu einer , u . zum vichton zur andern siten gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1445" start="43" end="43" text="Steinenvorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1445_head" start="43" end="43" element="head" class="nam" text="Steinenvorstatt" subclass=""/>
+        </span>
+        <span id="1451" start="46" end="59" text="den husern zum Wider&#10;zu einer , u . zum vichton zur andern siten" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1457" start="47" end="47" text="husern" element="head" class="type" subclass=""/>
+          <span id="custom_comp" start="48" end="59" text="zum Wider&#10;zu einer , u . zum vichton zur andern siten" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1463" start="48" end="49" text="zum Wider" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1463_head" start="48" end="49" element="head" class="nam" text="zum Wider" subclass=""/>
+            </span>
+            <span id="1469" start="55" end="56" text="zum vichton" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1469_head" start="55" end="56" element="head" class="nam" text="zum vichton" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1475" start="62" end="80" text="zinst vormalen&#10;dem Spital 1 ℔, sodan 2 1 / 2sh . zu s . Marti , sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1548" start="62" end="62" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1481" start="64" end="65" text="dem Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1487" start="65" end="65" text="Spital" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1493" start="66" end="67" text="1 ℔" element="value" class="money" subclass=""/>
+        <span id="1499" start="70" end="74" text="2 1 / 2sh ." element="value" class="money" subclass=""/>
+        <span id="1505" start="76" end="78" text="s . Marti" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1505_head" start="76" end="78" element="head" class="nam" text="s . Marti" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1511" start="83" end="85" text="80 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1353" from="1347" to="1299" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1390" from="1384" to="1299" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1535" from="1427" to="1523" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1548_role" from="1548" to="1409" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="8" ref="1335" type="state">
+      <trigger start="8" end="8" text="Frau" ref="1341"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1323" text="seine Frau Ursul"/>
+        <role role="family-b" ref="1347" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="22" end="24" ref="1372" type="state">
+      <trigger start="24" end="24" text="geschwistere" ref="1378"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1360" text="Mansen Peter"/>
+        <role role="family-b" ref="1384" text="Verkäufer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="22" end="24" ref="1372" type="state">
+      <trigger start="24" end="24" text="geschwistere" ref="1378"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1366" text="Christiana"/>
+        <role role="family-b" ref="1384" text="Verkäufer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="22" end="24" ref="1372" type="state">
+      <trigger start="24" end="24" text="geschwistere" ref="1378"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1529" text="Barbara Langbon"/>
+        <role role="family-b" ref="1384" text="Verkäufer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="32" end="32" ref="1421" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1409" text="jrem Hus u . Hofstat genant zum&#10;schwartzen Rad . in Steinenvorstatt , zwüschen den husern zum Wider&#10;zu einer , u . zum vichton zur andern siten gelegen , zinst vormalen&#10;dem Spital 1 ℔, sodan 2 1 / 2sh . zu s . Marti , sonstfrei"/>
+        <role role="owner" ref="1427" text="jrem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="42" end="60" ref="1439" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1409" text="jrem Hus u . Hofstat genant zum&#10;schwartzen Rad . in Steinenvorstatt , zwüschen den husern zum Wider&#10;zu einer , u . zum vichton zur andern siten gelegen , zinst vormalen&#10;dem Spital 1 ℔, sodan 2 1 / 2sh . zu s . Marti , sonstfrei"/>
+        <role role="location-b" ref="1445" text="Steinenvorstatt"/>
+        <role role="location-b" ref="1451" text="den husern zum Wider&#10;zu einer , u . zum vichton zur andern siten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="part_whole" polarity="pos" tense="pres" modality="ass" start="48" end="59" ref="custom_comp" type="state">
+      <event event_id="6.0">
+        <role role="whole" ref="1451" text="den husern zum Wider&#10;zu einer , u . zum vichton zur andern siten"/>
+        <role role="part" ref="1463" text="zum Wider"/>
+        <role role="part" ref="1469" text="zum vichton"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="85" ref="" type="event">
+      <trigger start="11" end="11" text="verkaufen" ref="1542"/>
+      <event event_id="7.0">
+        <role role="seller" ref="1299" text="Balthasar Langbon der Weber"/>
+        <role role="seller" ref="1323" text="seine Frau Ursul"/>
+        <role role="buyer" ref="1360" text="Mansen Peter"/>
+        <role role="buyer" ref="1366" text="Christiana"/>
+        <role role="buyer" ref="1529" text="Barbara Langbon"/>
+        <role role="interest" ref="1397" text="4 ℔"/>
+        <role role="interval" ref="1403" text="jährl"/>
+        <role role="collateral" ref="1409" text="jrem Hus u . Hofstat genant zum&#10;schwartzen Rad . in Steinenvorstatt , zwüschen den husern zum Wider&#10;zu einer , u . zum vichton zur andern siten gelegen , zinst vormalen&#10;dem Spital 1 ℔, sodan 2 1 / 2sh . zu s . Marti , sonstfrei"/>
+        <role role="price" ref="1511" text="80 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="32" end="80" ref="1475" type="state">
+      <trigger start="62" end="62" text="zinst" ref="1548"/>
+      <event event_id="8.0">
+        <role role="beneficiary" ref="1481" text="dem Spital"/>
+        <role role="interest" ref="1493" text="1 ℔"/>
+        <role role="property" ref="1409" text="jrem Hus u . Hofstat genant zum&#10;schwartzen Rad . in Steinenvorstatt , zwüschen den husern zum Wider&#10;zu einer , u . zum vichton zur andern siten gelegen , zinst vormalen&#10;dem Spital 1 ℔, sodan 2 1 / 2sh . zu s . Marti , sonstfrei"/>
+      </event>
+      <event event_id="8.1">
+        <role role="interest" ref="1499" text="2 1 / 2sh ."/>
+        <role role="beneficiary" ref="1505" text="s . Marti"/>
+        <role role="property" ref="1409" text="jrem Hus u . Hofstat genant zum&#10;schwartzen Rad . in Steinenvorstatt , zwüschen den husern zum Wider&#10;zu einer , u . zum vichton zur andern siten gelegen , zinst vormalen&#10;dem Spital 1 ℔, sodan 2 1 / 2sh . zu s . Marti , sonstfrei"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

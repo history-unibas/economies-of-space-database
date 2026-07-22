@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 229/34 S. [3]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Weisse Gasse 14</tei:title>
+            <tei:idno>HGB 1 229/34</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1535095</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1402">1402</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611363.317298242 1267231.3153566206</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Antzman</token>
+    <token token_id="1">Alban</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Kürsener</token>
+    <token token_id="4">,</token>
+    <token token_id="5">d</token>
+    <token token_id="6">.</token>
+    <token token_id="7">ze</token>
+    <token token_id="8">B</token>
+    <token token_id="9">.</token>
+    <token token_id="10">et</token>
+    <token token_id="11">Grede</token>
+    <token token_id="12">eins</token>
+    <token token_id="13">uxor</token>
+    <token token_id="14">verkaufen</token>
+    <token token_id="15">an</token>
+    <token token_id="16">Peter</token>
+    <token token_id="17">Sigli</token>
+    <token token_id="18">den</token>
+    <token token_id="19">Kursener</token>
+    <token token_id="20">119</token>
+    <token token_id="21">.</token>
+    <token token_id="22">jerl</token>
+    <token token_id="23">.</token>
+    <token token_id="24">Zinses</token>
+    <token token_id="25">v</token>
+    <token token_id="26">.</token>
+    <token token_id="27">ab</token>
+    <token token_id="28">demme</token>
+    <token token_id="29">huse</token>
+    <token token_id="30">das</token>
+    <token token_id="31">17</token>
+    <token token_id="32">neu</token>
+    <token token_id="33">den</token>
+    <token token_id="34">Sesshafft</token>
+    <token token_id="35">sint</token>
+    <token token_id="36">,</token>
+    <token token_id="37">gelegen</token>
+    <token token_id="38">in</token>
+    <token token_id="39">der</token>
+    <token token_id="40">wissen</token>
+    <token token_id="41">Gassen</token>
+    <token token_id="42">zwü</token>
+    <token token_id="43">¬</token>
+    <token token_id="44">Schent</token>
+    <token token_id="45">her</token>
+    <token token_id="46">Conr</token>
+    <token token_id="47">.</token>
+    <token token_id="48">Waldenburger</token>
+    <token token_id="49">huse</token>
+    <token token_id="50">und</token>
+    <token token_id="51">nebent</token>
+    <token token_id="52">Lenh</token>
+    <token token_id="53">.</token>
+    <token token_id="54">Ellers</token>
+    <token token_id="55">huse</token>
+    <token token_id="56">so</token>
+    <token token_id="57">Erbe</token>
+    <token token_id="58">ist</token>
+    <token token_id="59">von</token>
+    <token token_id="60">der</token>
+    <token token_id="61">aussteri</token>
+    <token token_id="62">des</token>
+    <token token_id="63">Closter</token>
+    <token token_id="64">zu</token>
+    <token token_id="65">S</token>
+    <token token_id="66">.</token>
+    <token token_id="67">Alban</token>
+    <token token_id="68">dem</token>
+    <token token_id="69">da</token>
+    <token token_id="70">von</token>
+    <token token_id="71">gangent</token>
+    <token token_id="72">2</token>
+    <token token_id="73">℔</token>
+    <token token_id="74">zinsd</token>
+    <token token_id="75">,</token>
+    <token token_id="76">um</token>
+    <token token_id="77">1709</token>
+  </text>
+  <spans>
+    <span id="1448" start="0" end="13" text="Antzman Alban der Kürsener , d . ze B . et Grede&#10;eins uxor" element="list" class="per" subclass="">
+      <span id="1207" start="0" end="9" text="Antzman Alban der Kürsener , d . ze B ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1195" start="0" end="1" text="Antzman Alban" element="head" class="nam" subclass=""/>
+        <span id="1201" start="2" end="3" text="der Kürsener" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1231" start="3" end="3" text="Kürsener" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1213" start="5" end="9" text="d . ze B ." element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1219" start="5" end="5" text="d" element="head" class="org-aff" subclass=""/>
+          <span id="1225" start="8" end="9" text="B ." element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1225_head" start="8" end="9" element="head" class="nam" text="B ." subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1237" start="11" end="13" text="Grede&#10;eins uxor" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1243" start="11" end="11" text="Grede" element="head" class="nam" subclass=""/>
+        <span id="1249" start="12" end="13" text="eins uxor" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1261" start="12" end="12" text="eins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1261_head" start="12" end="12" element="head" class="pro" text="eins" subclass=""/>
+          </span>
+          <span id="1255" start="13" end="13" text="uxor" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1442" start="14" end="14" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1267" start="16" end="19" text="Peter Sigli den Kursener" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1273" start="16" end="17" text="Peter Sigli" element="head" class="nam" subclass=""/>
+      <span id="1279" start="18" end="19" text="den Kursener" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1285" start="19" end="19" text="Kursener" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1291" start="20" end="21" text="119 ." element="value" class="money" subclass=""/>
+    <span id="1309" start="22" end="23" text="jerl ." element="value" class="time" subclass="rec"/>
+    <span id="1297" start="28" end="74" text="demme huse das 17 neu&#10;den Sesshafft sint , gelegen in der wissen Gassen zwü ¬&#10;Schent her Conr . Waldenburger huse und nebent Lenh .&#10;Ellers huse so Erbe ist von der aussteri des Closter&#10;zu S . Alban dem da von gangent 2 ℔ zinsd" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1315" start="29" end="29" text="huse" element="head" class="type" subclass=""/>
+      <span id="1321" start="37" end="55" text="gelegen in der wissen Gassen zwü ¬&#10;Schent her Conr . Waldenburger huse und nebent Lenh .&#10;Ellers huse" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1333" start="39" end="41" text="der wissen Gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1339" start="40" end="41" text="wissen Gassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1345" start="45" end="49" text="her Conr . Waldenburger huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1369" start="45" end="48" text="her Conr . Waldenburger" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1363" start="45" end="48" text="her Conr . Waldenburger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1357" start="46" end="48" text="Conr . Waldenburger" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+          <span id="1351" start="49" end="49" text="huse" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1375" start="52" end="55" text="Lenh .&#10;Ellers huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1387" start="52" end="54" text="Lenh .&#10;Ellers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1393" start="52" end="54" text="Lenh .&#10;Ellers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1393_head" start="52" end="54" element="head" class="nam" text="Lenh . Ellers" subclass=""/>
+            </span>
+          </span>
+          <span id="1381" start="55" end="55" text="huse" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1327" start="56" end="74" text="so Erbe ist von der aussteri des Closter&#10;zu S . Alban dem da von gangent 2 ℔ zinsd" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1467" start="56" end="67" text="so Erbe ist von der aussteri des Closter&#10;zu S . Alban" element="other" class="other" subclass="">
+          <span id="1399" start="60" end="67" text="der aussteri des Closter&#10;zu S . Alban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="1424" start="61" end="61" text="aussteri" element="head" class="type" subclass=""/>
+            <span id="1430" start="62" end="67" text="des Closter&#10;zu S . Alban" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1436" start="63" end="67" text="Closter&#10;zu S . Alban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+                <span id="1436_head" start="63" end="67" element="head" class="nam" text="Closter zu S . Alban" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+        <span id="1411" start="68" end="68" text="dem" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1411_head" start="68" end="68" element="head" class="pro" text="dem" subclass=""/>
+        </span>
+        <span id="1454" start="71" end="71" text="gangent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1405" start="72" end="74" text="2 ℔ zinsd" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1303" start="77" end="77" text="1709" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1460" from="1261" to="1207" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1417" from="1411" to="1399" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1454_role" from="1454" to="1297" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="5" end="9" ref="1213" type="state">
+      <trigger start="5" end="5" text="d" ref="1219"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1207" text="Antzman Alban der Kürsener , d . ze B ."/>
+        <role role="geopolitical-entity" ref="1225" text="B ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="12" end="13" ref="1249" type="state">
+      <trigger start="13" end="13" text="uxor" ref="1255"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1237" text="Grede&#10;eins uxor"/>
+        <role role="family-b" ref="1261" text="eins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="37" end="55" ref="1321" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1297" text="demme huse das 17 neu&#10;den Sesshafft sint , gelegen in der wissen Gassen zwü ¬&#10;Schent her Conr . Waldenburger huse und nebent Lenh .&#10;Ellers huse so Erbe ist von der aussteri des Closter&#10;zu S . Alban dem da von gangent 2 ℔ zinsd"/>
+        <role role="location-b" ref="1333" text="der wissen Gassen"/>
+        <role role="location-b" ref="1345" text="her Conr . Waldenburger huse"/>
+        <role role="location-b" ref="1375" text="Lenh .&#10;Ellers huse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="45" end="48" ref="1369" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1345" text="her Conr . Waldenburger huse"/>
+        <role role="owner" ref="1363" text="her Conr . Waldenburger"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="52" end="54" ref="1387" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1375" text="Lenh .&#10;Ellers huse"/>
+        <role role="owner" ref="1393" text="Lenh .&#10;Ellers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" start="62" end="67" ref="1430" type="state">
+      <event event_id="5.0">
+        <role role="part" ref="1399" text="der aussteri des Closter&#10;zu S . Alban"/>
+        <role role="whole" ref="1436" text="Closter&#10;zu S . Alban"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="77" ref="" type="event">
+      <trigger start="14" end="14" text="verkaufen" ref="1442"/>
+      <event event_id="6.0">
+        <role role="seller" ref="1207" text="Antzman Alban der Kürsener , d . ze B ."/>
+        <role role="seller" ref="1237" text="Grede&#10;eins uxor"/>
+        <role role="buyer" ref="1267" text="Peter Sigli den Kursener"/>
+        <role role="interest" ref="1291" text="119 ."/>
+        <role role="interval" ref="1309" text="jerl ."/>
+        <role role="collateral" ref="1297" text="demme huse das 17 neu&#10;den Sesshafft sint , gelegen in der wissen Gassen zwü ¬&#10;Schent her Conr . Waldenburger huse und nebent Lenh .&#10;Ellers huse so Erbe ist von der aussteri des Closter&#10;zu S . Alban dem da von gangent 2 ℔ zinsd"/>
+        <role role="price" ref="1303" text="1709"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="28" end="74" ref="1327" type="state">
+      <trigger start="71" end="71" text="gangent" ref="1454"/>
+      <event event_id="7.0">
+        <role role="detail_hereditary-owner" ref="1467" text="so Erbe ist von der aussteri des Closter&#10;zu S . Alban"/>
+        <role role="beneficiary" ref="1411" text="dem"/>
+        <role role="interest" ref="1405" text="2 ℔ zinsd"/>
+        <role role="property" ref="1297" text="demme huse das 17 neu&#10;den Sesshafft sint , gelegen in der wissen Gassen zwü ¬&#10;Schent her Conr . Waldenburger huse und nebent Lenh .&#10;Ellers huse so Erbe ist von der aussteri des Closter&#10;zu S . Alban dem da von gangent 2 ℔ zinsd"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

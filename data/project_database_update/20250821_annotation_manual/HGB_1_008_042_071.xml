@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 8/42 S. [71]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Tal 4</tei:title>
+            <tei:idno>HGB 1 8/42</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433258</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Alban</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1669">1669</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2612258.7453584187 1267104.6219397085</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1o</token>
+    <token token_id="1">.</token>
+    <token token_id="2">3</token>
+    <token token_id="3">.</token>
+    <token token_id="4">(</token>
+    <token token_id="5">vom</token>
+    <token token_id="6">Jahr</token>
+    <token token_id="7">1570</token>
+    <token token_id="8">an</token>
+    <token token_id="9">beigefügt</token>
+    <token token_id="10">.</token>
+    <token token_id="11">)</token>
+    <token token_id="12">1659</token>
+    <token token_id="13">.</token>
+    <token token_id="14">der</token>
+    <token token_id="15">gross</token>
+    <token token_id="16">Spittahl</token>
+    <token token_id="17">gibt</token>
+    <token token_id="18">jährlich</token>
+    <token token_id="19">auf</token>
+    <token token_id="20">den</token>
+    <token token_id="21">h</token>
+    <token token_id="22">.</token>
+    <token token_id="23">Pfingsttag</token>
+    <token token_id="24">von</token>
+    <token token_id="25">seiner</token>
+    <token token_id="26">Mahlmühlin</token>
+    <token token_id="27">Bodenzins</token>
+    <token token_id="28">1</token>
+    <token token_id="29">Sackh</token>
+    <token token_id="30">Kernen</token>
+    <token token_id="31">mit</token>
+    <token token_id="32">1</token>
+    <token token_id="33">Sackh</token>
+    <token token_id="34">Rockhen</token>
+    <token token_id="35">,</token>
+    <token token_id="36">thut</token>
+    <token token_id="37">alle</token>
+    <token token_id="38">fronfasten</token>
+    <token token_id="39">2</token>
+    <token token_id="40">1</token>
+    <token token_id="41">/</token>
+    <token token_id="42">2</token>
+    <token token_id="43">Sester</token>
+    <token token_id="44">Kernen</token>
+    <token token_id="45">und</token>
+    <token token_id="46">11</token>
+    <token token_id="47">Sester</token>
+    <token token_id="48">Rockhen</token>
+    <token token_id="49">,</token>
+    <token token_id="50">hiemit</token>
+    <token token_id="51">1</token>
+    <token token_id="52">ganz</token>
+    <token token_id="53">Jahr</token>
+    <token token_id="54">Kernen</token>
+    <token token_id="55">10</token>
+    <token token_id="56">Sester</token>
+    <token token_id="57">,</token>
+    <token token_id="58">Rockhen</token>
+    <token token_id="59">6</token>
+    <token token_id="60">sester</token>
+    <token token_id="61">.</token>
+    <token token_id="62">Ebenso</token>
+    <token token_id="63">:</token>
+    <token token_id="64">1670</token>
+    <token token_id="65">.</token>
+    <token token_id="66">1671</token>
+    <token token_id="67">.</token>
+    <token token_id="68">1672</token>
+    <token token_id="69">.</token>
+    <token token_id="70">1673</token>
+    <token token_id="71">.</token>
+    <token token_id="72">1674</token>
+    <token token_id="73">.</token>
+    <token token_id="74">1675</token>
+    <token token_id="75">.</token>
+    <token token_id="76">1676</token>
+    <token token_id="77">.</token>
+    <token token_id="78">1677</token>
+    <token token_id="79">.</token>
+    <token token_id="80">1678</token>
+    <token token_id="81">.</token>
+    <token token_id="82">1679</token>
+    <token token_id="83">.</token>
+    <token token_id="84">1680</token>
+    <token token_id="85">.</token>
+    <token token_id="86">1681</token>
+    <token token_id="87">.</token>
+    <token token_id="88">1682</token>
+    <token token_id="89">.</token>
+    <token token_id="90">1683</token>
+    <token token_id="91">.</token>
+    <token token_id="92">1684</token>
+    <token token_id="93">.</token>
+    <token token_id="94">1685</token>
+    <token token_id="95">.</token>
+    <token token_id="96">1686</token>
+    <token token_id="97">.</token>
+    <token token_id="98">1687</token>
+    <token token_id="99">.</token>
+    <token token_id="100">1688</token>
+    <token token_id="101">.</token>
+    <token token_id="102">1689</token>
+    <token token_id="103">.</token>
+    <token token_id="104">1690</token>
+    <token token_id="105">.</token>
+    <token token_id="106">1691</token>
+    <token token_id="107">.</token>
+    <token token_id="108">1692</token>
+    <token token_id="109">.</token>
+  </text>
+  <spans>
+    <span id="1645" start="7" end="7" text="1570" element="value" class="date" subclass=""/>
+    <span id="1639" start="12" end="12" text="1659" element="value" class="date" subclass=""/>
+    <span id="1651" start="14" end="16" text="der gross Spittahl" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1657" start="15" end="16" text="gross Spittahl" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1886" start="17" end="17" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1898" start="18" end="18" text="jährlich" element="other" class="other" subclass=""/>
+    <span id="1663" start="19" end="23" text="auf den h .&#10;Pfingsttag" element="value" class="date" subclass=""/>
+    <span id="1669" start="25" end="26" text="seiner Mahlmühlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1681" start="25" end="25" text="seiner" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1687" start="25" end="25" text="seiner" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1687_head" start="25" end="25" element="head" class="pro" text="seiner" subclass=""/>
+        </span>
+      </span>
+      <span id="1675" start="26" end="26" text="Mahlmühlin" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1700" start="28" end="30" text="1 Sackh Kernen" element="value" class="money" subclass=""/>
+    <span id="1706" start="32" end="34" text="1 Sackh Rockhen" element="value" class="money" subclass=""/>
+    <span id="1712" start="37" end="38" text="alle fronfasten" element="value" class="date" subclass=""/>
+    <span id="1718" start="39" end="44" text="2 1 / 2 Sester Kernen" element="value" class="money" subclass=""/>
+    <span id="1724" start="46" end="48" text="11&#10;Sester Rockhen" element="value" class="money" subclass=""/>
+    <span id="1730" start="51" end="53" text="1 ganz Jahr" element="value" class="date" subclass=""/>
+    <span id="1736" start="54" end="56" text="Kernen&#10;10 Sester" element="value" class="money" subclass=""/>
+    <span id="1742" start="58" end="60" text="Rockhen 6 sester" element="value" class="money" subclass=""/>
+    <span id="1748" start="64" end="64" text="1670" element="value" class="date" subclass=""/>
+    <span id="1754" start="66" end="66" text="1671" element="value" class="date" subclass=""/>
+    <span id="1760" start="68" end="68" text="1672" element="value" class="date" subclass=""/>
+    <span id="1766" start="70" end="70" text="1673" element="value" class="date" subclass=""/>
+    <span id="1772" start="72" end="72" text="1674" element="value" class="date" subclass=""/>
+    <span id="1778" start="74" end="74" text="1675" element="value" class="date" subclass=""/>
+    <span id="1784" start="76" end="76" text="1676" element="value" class="date" subclass=""/>
+    <span id="1790" start="78" end="78" text="1677" element="value" class="date" subclass=""/>
+    <span id="1796" start="80" end="80" text="1678" element="value" class="date" subclass=""/>
+    <span id="1802" start="82" end="82" text="1679" element="value" class="date" subclass=""/>
+    <span id="1808" start="84" end="84" text="1680" element="value" class="date" subclass=""/>
+    <span id="1814" start="86" end="86" text="1681" element="value" class="date" subclass=""/>
+    <span id="1820" start="88" end="88" text="1682" element="value" class="date" subclass=""/>
+    <span id="1826" start="90" end="90" text="1683" element="value" class="date" subclass=""/>
+    <span id="1832" start="92" end="92" text="1684" element="value" class="date" subclass=""/>
+    <span id="1838" start="94" end="94" text="1685" element="value" class="date" subclass=""/>
+    <span id="1844" start="96" end="96" text="1686" element="value" class="date" subclass=""/>
+    <span id="1850" start="98" end="98" text="1687" element="value" class="date" subclass=""/>
+    <span id="1856" start="100" end="100" text="1688" element="value" class="date" subclass=""/>
+    <span id="1862" start="102" end="102" text="1689" element="value" class="date" subclass=""/>
+    <span id="1868" start="104" end="104" text="1690" element="value" class="date" subclass=""/>
+    <span id="1874" start="106" end="106" text="1691" element="value" class="date" subclass=""/>
+    <span id="1880" start="108" end="108" text="1692" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1693" from="1687" to="1651" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="25" end="25" ref="1681" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1669" text="seiner Mahlmühlin"/>
+        <role role="owner" ref="1687" text="seiner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="12" end="17" ref="" type="event">
+      <trigger start="17" end="17" text="gibt" ref="1886"/>
+      <event event_id="1.0">
+        <role role="date" ref="1639" text="1659"/>
+        <role role="payer" ref="1651" text="der gross Spittahl"/>
+        <role role="interval" ref="1898" text="jährlich"/>
+        <role role="due-date" ref="1663" text="auf den h .&#10;Pfingsttag"/>
+        <role role="property" ref="1669" text="seiner Mahlmühlin"/>
+        <role role="interest" ref="1700" text="1 Sackh Kernen"/>
+        <role role="interest" ref="1706" text="1 Sackh Rockhen"/>
+        <role role="due-date" ref="1712" text="alle fronfasten"/>
+        <role role="interval" ref="1712" text="alle fronfasten"/>
+        <role role="interest" ref="1718" text="2 1 / 2 Sester Kernen"/>
+        <role role="interest" ref="1724" text="11&#10;Sester Rockhen"/>
+        <role role="detail_interest-conv" ref="1736" text="Kernen&#10;10 Sester"/>
+        <role role="detail_interest-conv" ref="1742" text="Rockhen 6 sester"/>
+        <role role="date" ref="1748" text="1670"/>
+        <role role="date" ref="1754" text="1671"/>
+        <role role="date" ref="1760" text="1672"/>
+        <role role="date" ref="1766" text="1673"/>
+        <role role="date" ref="1772" text="1674"/>
+        <role role="date" ref="1778" text="1675"/>
+        <role role="date" ref="1784" text="1676"/>
+        <role role="date" ref="1790" text="1677"/>
+        <role role="date" ref="1796" text="1678"/>
+        <role role="date" ref="1802" text="1679"/>
+        <role role="date" ref="1808" text="1680"/>
+        <role role="date" ref="1814" text="1681"/>
+        <role role="date" ref="1820" text="1682"/>
+        <role role="date" ref="1826" text="1683"/>
+        <role role="date" ref="1832" text="1684"/>
+        <role role="date" ref="1838" text="1685"/>
+        <role role="date" ref="1844" text="1686"/>
+        <role role="date" ref="1850" text="1687"/>
+        <role role="date" ref="1856" text="1688"/>
+        <role role="date" ref="1862" text="1689"/>
+        <role role="date" ref="1868" text="1690"/>
+        <role role="date" ref="1874" text="1691"/>
+        <role role="date" ref="1880" text="1692"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

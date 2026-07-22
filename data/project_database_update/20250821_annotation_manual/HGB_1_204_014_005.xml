@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 204/14 S. [5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Stadthausgasse 5</tei:title>
+            <tei:idno>HGB 1 204/14</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1527143</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1458">1458</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611176.2019884246 1267546.9582404047</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">bekanten</token>
+    <token token_id="2">sich</token>
+    <token token_id="3">Hanns</token>
+    <token token_id="4">Ortlin</token>
+    <token token_id="5">sutor</token>
+    <token token_id="6">u</token>
+    <token token_id="7">seine</token>
+    <token token_id="8">Frau</token>
+    <token token_id="9">,</token>
+    <token token_id="10">u</token>
+    <token token_id="11">Lienhart</token>
+    <token token_id="12">Ortlin</token>
+    <token token_id="13">von</token>
+    <token token_id="14">Stetten</token>
+    <token token_id="15">,</token>
+    <token token_id="16">de</token>
+    <token token_id="17">sy</token>
+    <token token_id="18">schulde</token>
+    <token token_id="19">ze</token>
+    <token token_id="20">hinde</token>
+    <token token_id="21">sient</token>
+    <token token_id="22">Heinrich</token>
+    <token token_id="23">Steinhower</token>
+    <token token_id="24">sutor</token>
+    <token token_id="25">u</token>
+    <token token_id="26">Barbaren</token>
+    <token token_id="27">siner</token>
+    <token token_id="28">ehfrauen</token>
+    <token token_id="29">130</token>
+    <token token_id="30">fl</token>
+    <token token_id="31">.</token>
+    <token token_id="32">von</token>
+    <token token_id="33">eius</token>
+    <token token_id="34">huses</token>
+    <token token_id="35">wegen</token>
+    <token token_id="36">uff</token>
+    <token token_id="37">der</token>
+    <token token_id="38">Ninwenbrugk</token>
+    <token token_id="39">gelegen</token>
+    <token token_id="40">,</token>
+    <token token_id="41">so</token>
+    <token token_id="42">der</token>
+    <token token_id="43">genant</token>
+    <token token_id="44">Hanns</token>
+    <token token_id="45">Sitlin</token>
+    <token token_id="46">von</token>
+    <token token_id="47">Heinrich</token>
+    <token token_id="48">Steinhower</token>
+    <token token_id="49">kauft</token>
+    <token token_id="50">hand</token>
+    <token token_id="51">,</token>
+    <token token_id="52">darum</token>
+    <token token_id="53">sie</token>
+    <token token_id="54">gegen</token>
+    <token token_id="55">ihnen</token>
+    <token token_id="56">verschriben</token>
+    <token token_id="57">haben</token>
+    <token token_id="58">etc</token>
+    <token token_id="59">,</token>
+  </text>
+  <spans>
+    <span id="1115" start="1" end="1" text="bekanten" element="trigger" class="declaration" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1090" start="3" end="14" text="Hanns Ortlin sutor u seine Frau , u Lienhart&#10;Ortlin von Stetten" element="list" class="per" subclass="">
+      <span id="1022" start="3" end="5" text="Hanns Ortlin sutor" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1034" start="3" end="4" text="Hanns Ortlin" element="head" class="nam" subclass=""/>
+        <span id="1028" start="5" end="5" text="sutor" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1028_head" start="5" end="5" element="head" class="occ" text="sutor" subclass=""/>
+        </span>
+      </span>
+      <span id="944" start="7" end="8" text="seine Frau" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1016" start="7" end="7" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1016_head" start="7" end="7" element="head" class="pro" text="seine" subclass=""/>
+        </span>
+        <span id="938" start="8" end="8" text="Frau" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="950" start="11" end="14" text="Lienhart&#10;Ortlin von Stetten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="956" start="11" end="12" text="Lienhart&#10;Ortlin" element="head" class="nam" subclass=""/>
+        <span id="962" start="13" end="14" text="von Stetten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="968" start="14" end="14" text="Stetten" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="968_head" start="14" end="14" element="head" class="nam" text="Stetten" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1102" start="17" end="17" text="sy" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1102_head" start="17" end="17" element="head" class="pro" text="sy" subclass=""/>
+    </span>
+    <span id="1121" start="18" end="18" text="schulde" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1096" start="22" end="28" text="Heinrich&#10;Steinhower sutor u Barbaren siner ehfrauen" element="list" class="per" subclass="">
+      <span id="1059" start="22" end="24" text="Heinrich&#10;Steinhower sutor" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1047" start="22" end="23" text="Heinrich&#10;Steinhower" element="head" class="nam" subclass=""/>
+        <span id="1053" start="24" end="24" text="sutor" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1053_head" start="24" end="24" element="head" class="occ" text="sutor" subclass=""/>
+        </span>
+      </span>
+      <span id="1065" start="26" end="28" text="Barbaren siner ehfrauen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="986" start="26" end="26" text="Barbaren" element="head" class="nam" subclass=""/>
+        <span id="974" start="27" end="28" text="siner ehfrauen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="980" start="28" end="28" text="ehfrauen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1071" start="29" end="31" text="130 fl ." element="value" class="money" subclass=""/>
+    <span id="1127" start="33" end="50" text="eius huses wegen uff der Ninwenbrugk gelegen , so der&#10;genant Hanns Sitlin von Heinrich Steinhower kauft hand" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="992" start="34" end="34" text="huses" element="head" class="type" subclass=""/>
+      <span id="1077" start="36" end="39" text="uff der Ninwenbrugk gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="998" start="37" end="38" text="der Ninwenbrugk" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1004" start="38" end="38" text="Ninwenbrugk" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1139" start="42" end="45" text="der&#10;genant Hanns Sitlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1139_head" start="42" end="45" element="head" class="nam" text="der genant Hanns Sitlin" subclass=""/>
+      </span>
+      <span id="1010" start="47" end="48" text="Heinrich Steinhower" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1010_head" start="47" end="48" element="head" class="nam" text="Heinrich Steinhower" subclass=""/>
+      </span>
+      <span id="1133" start="49" end="49" text="kauft" element="trigger" class="sale" tense="past" polarity="pos" modality="ass" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1108" from="1102" to="1090" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1040" from="1016" to="1022" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1145" from="1139" to="1022" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1083" from="1010" to="1059" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="8" ref="944" type="state">
+      <trigger start="8" end="8" text="Frau" ref="938"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="944" text="seine Frau"/>
+        <role role="family-b" ref="1016" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="14" ref="962" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="950" text="Lienhart&#10;Ortlin von Stetten"/>
+        <role role="location-b" ref="968" text="Stetten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="36" end="39" ref="1077" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1127" text="eius huses wegen uff der Ninwenbrugk gelegen , so der&#10;genant Hanns Sitlin von Heinrich Steinhower kauft hand"/>
+        <role role="location-b" ref="998" text="der Ninwenbrugk"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="declaration" polarity="pos" tense="pres" modality="ass" start="1" end="18" ref="" type="event">
+      <trigger start="1" end="1" text="bekanten" ref="1115"/>
+      <event event_id="4.0">
+        <role role="proclaimer" ref="1022" text="Hanns Ortlin sutor"/>
+        <role role="proclaimer" ref="944" text="seine Frau"/>
+        <role role="proclaimer" ref="950" text="Lienhart&#10;Ortlin von Stetten"/>
+        <role role="content" ref="1121" text="schulde"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="17" end="50" ref="" type="state">
+      <trigger start="18" end="18" text="schulde" ref="1121"/>
+      <event event_id="5.0">
+        <role role="payer" ref="1102" text="sy"/>
+        <role role="beneficiary" ref="1059" text="Heinrich&#10;Steinhower sutor"/>
+        <role role="beneficiary" ref="1065" text="Barbaren siner ehfrauen"/>
+        <role role="capital" ref="1071" text="130 fl ."/>
+        <role role="property" ref="1127" text="eius huses wegen uff der Ninwenbrugk gelegen , so der&#10;genant Hanns Sitlin von Heinrich Steinhower kauft hand"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="property-purchase" polarity="pos" tense="past" modality="ass" start="42" end="49" ref="1127" type="event">
+      <trigger start="49" end="49" text="kauft" ref="1133"/>
+      <event event_id="6.0">
+        <role role="buyer" ref="1139" text="der&#10;genant Hanns Sitlin"/>
+        <role role="seller" ref="1010" text="Heinrich Steinhower"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

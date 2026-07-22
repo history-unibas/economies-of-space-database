@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 222/21 S. [12]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Totengässlein Theil von Schneidergasse 2</tei:title>
+            <tei:idno>HGB 1 222/21</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1533161</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Peter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1579">1579</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611125.6548634577 1267548.552713174</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">her</token>
+    <token token_id="2">Thoman</token>
+    <token token_id="3">Schorendorf</token>
+    <token token_id="4">und</token>
+    <token token_id="5">Rycklaus</token>
+    <token token_id="6">Scherers</token>
+    <token token_id="7">Erben</token>
+    <token token_id="8">genndt</token>
+    <token token_id="9">vom</token>
+    <token token_id="10">hus</token>
+    <token token_id="11">Blumberg</token>
+    <token token_id="12">genant</token>
+    <token token_id="13">am</token>
+    <token token_id="14">Tottengessly</token>
+    <token token_id="15">uf</token>
+    <token token_id="16">Letare</token>
+    <token token_id="17">zu</token>
+    <token token_id="18">Mitfasten</token>
+    <token token_id="19">11</token>
+    <token token_id="20">gl</token>
+    <token token_id="21">.</token>
+    <token token_id="22">dis</token>
+    <token token_id="23">jedem</token>
+    <token token_id="24">gl</token>
+    <token token_id="25">.</token>
+    <token token_id="26">1</token>
+    <token token_id="27">℔</token>
+    <token token_id="28">3ß</token>
+    <token token_id="29">thut</token>
+    <token token_id="30">12</token>
+    <token token_id="31">℔</token>
+    <token token_id="32">13ß</token>
+    <token token_id="33">.</token>
+  </text>
+  <spans>
+    <span id="628" start="1" end="7" text="her Thoman Schorendorf und Rycklaus&#10;Scherers Erben" element="list" class="per" subclass="">
+      <span id="538" start="1" end="3" text="her Thoman Schorendorf" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="544" start="2" end="3" text="Thoman Schorendorf" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="550" start="5" end="7" text="Rycklaus&#10;Scherers Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="562" start="5" end="6" text="Rycklaus&#10;Scherers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="562_head" start="5" end="6" element="head" class="nam" text="Rycklaus Scherers" subclass=""/>
+        </span>
+        <span id="556" start="7" end="7" text="Erben" element="head" class="heir" subclass=""/>
+      </span>
+    </span>
+    <span id="634" start="8" end="8" text="genndt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="568" start="10" end="14" text="hus Blumberg genant&#10;am Tottengessly" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="574" start="10" end="10" text="hus" element="head" class="type" subclass=""/>
+      <span id="580" start="11" end="11" text="Blumberg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="580_head" start="11" end="11" element="head" class="nam" text="Blumberg" subclass=""/>
+      </span>
+      <span id="586" start="13" end="14" text="am Tottengessly" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="598" start="13" end="14" text="am Tottengessly" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="592" start="14" end="14" text="Tottengessly" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="604" start="15" end="18" text="uf Letare zu Mitfasten" element="value" class="date" subclass=""/>
+    <span id="610" start="19" end="21" text="11 gl ." element="value" class="money" subclass=""/>
+    <span id="616" start="26" end="28" text="1 ℔ 3ß" element="value" class="money" subclass=""/>
+    <span id="622" start="30" end="33" text="12 ℔ 13ß ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="5" end="7" ref="550" type="event">
+      <trigger start="7" end="7" text="Erben" ref="556"/>
+      <event event_id="0.0">
+        <role role="heir" ref="550" text="Rycklaus&#10;Scherers Erben"/>
+        <role role="decedent" ref="562" text="Rycklaus&#10;Scherers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="14" ref="586" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="568" text="hus Blumberg genant&#10;am Tottengessly"/>
+        <role role="location-b" ref="598" text="am Tottengessly"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="1" end="8" ref="" type="state">
+      <trigger start="8" end="8" text="genndt" ref="634"/>
+      <event event_id="2.0">
+        <role role="payer" ref="538" text="her Thoman Schorendorf"/>
+        <role role="payer" ref="550" text="Rycklaus&#10;Scherers Erben"/>
+        <role role="property" ref="568" text="hus Blumberg genant&#10;am Tottengessly"/>
+        <role role="due-date" ref="604" text="uf Letare zu Mitfasten"/>
+        <role role="interest" ref="610" text="11 gl ."/>
+        <role role="detail_interest-conv" ref="616" text="1 ℔ 3ß"/>
+        <role role="detail_interest-conv" ref="622" text="12 ℔ 13ß ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

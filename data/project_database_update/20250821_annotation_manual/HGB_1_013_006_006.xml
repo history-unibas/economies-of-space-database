@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 13/6 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Andreasplatz 1</tei:title>
+            <tei:idno>HGB 1 13/6</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1460869</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1378">1378</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611139.645921128 1267496.518991745</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Johans</token>
+    <token token_id="1">Kluweli</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Kremer</token>
+    <token token_id="4">,</token>
+    <token token_id="5">Burger</token>
+    <token token_id="6">von</token>
+    <token token_id="7">Basel</token>
+    <token token_id="8">,</token>
+    <token token_id="9">empfängt</token>
+    <token token_id="10">von</token>
+    <token token_id="11">Johans</token>
+    <token token_id="12">Harer</token>
+    <token token_id="13">das</token>
+    <token token_id="14">Hus</token>
+    <token token_id="15">,</token>
+    <token token_id="16">so</token>
+    <token token_id="17">gelegen</token>
+    <token token_id="18">ist</token>
+    <token token_id="19">ze</token>
+    <token token_id="20">Basel</token>
+    <token token_id="21">under</token>
+    <token token_id="22">den</token>
+    <token token_id="23">Kremern</token>
+    <token token_id="24">zuschent</token>
+    <token token_id="25">Cunrad</token>
+    <token token_id="26">Hullers</token>
+    <token token_id="27">Hus</token>
+    <token token_id="28">und</token>
+    <token token_id="29">der</token>
+    <token token_id="30">Gassen</token>
+    <token token_id="31">,</token>
+    <token token_id="32">als</token>
+    <token token_id="33">man</token>
+    <token token_id="34">ze</token>
+    <token token_id="35">sant</token>
+    <token token_id="36">Andres</token>
+    <token token_id="37">gat</token>
+    <token token_id="38">,</token>
+    <token token_id="39">ze</token>
+    <token token_id="40">einem</token>
+    <token token_id="41">Erbe</token>
+    <token token_id="42">um</token>
+    <token token_id="43">6</token>
+    <token token_id="44">℔</token>
+    <token token_id="45">von</token>
+    <token token_id="46">der</token>
+    <token token_id="47">Eigenschaft</token>
+    <token token_id="48">ze</token>
+    <token token_id="49">Zinse</token>
+    <token token_id="50">,</token>
+    <token token_id="51">10</token>
+    <token token_id="52">sh</token>
+    <token token_id="53">.</token>
+    <token token_id="54">ze</token>
+    <token token_id="55">Erschatze</token>
+    <token token_id="56">.</token>
+  </text>
+  <spans>
+    <span id="894" start="0" end="7" text="Johans Kluweli der Kremer , Burger von Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="900" start="0" end="1" text="Johans Kluweli" element="head" class="nam" subclass=""/>
+      <span id="906" start="2" end="3" text="der Kremer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="912" start="3" end="3" text="Kremer" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="918" start="5" end="7" text="Burger von Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="924" start="5" end="5" text="Burger" element="head" class="org-aff" subclass=""/>
+        <span id="930" start="7" end="7" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="930_head" start="7" end="7" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1038" start="9" end="9" text="empfängt" element="trigger" class="hereditary" tense="pres" polarity="pos" modality="ass" subclass="lease"/>
+    <span id="948" start="11" end="12" text="Johans Harer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="948_head" start="11" end="12" element="head" class="nam" text="Johans Harer" subclass=""/>
+    </span>
+    <span id="942" start="13" end="37" text="das Hus , so gelegen ist ze Basel under&#10;den Kremern zuschent Cunrad Hullers Hus und der&#10;Gassen , als man ze sant Andres gat" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="936" start="14" end="14" text="Hus" element="head" class="type" subclass=""/>
+      <span id="954" start="16" end="37" text="so gelegen ist ze Basel under&#10;den Kremern zuschent Cunrad Hullers Hus und der&#10;Gassen , als man ze sant Andres gat" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="960" start="20" end="20" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="960_head" start="20" end="20" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="966" start="22" end="23" text="den Kremern" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+          <span id="972" start="23" end="23" text="Kremern" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="978" start="25" end="27" text="Cunrad Hullers Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="990" start="25" end="26" text="Cunrad Hullers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="984" start="25" end="26" text="Cunrad Hullers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="984_head" start="25" end="26" element="head" class="nam" text="Cunrad Hullers" subclass=""/>
+            </span>
+          </span>
+          <span id="996" start="27" end="27" text="Hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1002" start="29" end="37" text="der&#10;Gassen , als man ze sant Andres gat" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1008" start="30" end="30" text="Gassen" element="head" class="type" subclass=""/>
+          <span id="1014" start="32" end="37" text="als man ze sant Andres gat" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1020" start="35" end="36" text="sant Andres" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="1020_head" start="35" end="36" element="head" class="nam" text="sant Andres" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1044" start="43" end="49" text="6 ℔ von der Eigenschaft ze Zinse" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1026" start="43" end="44" text="6 ℔" element="value" class="money" subclass=""/>
+      <span id="1050" start="45" end="47" text="von der Eigenschaft" element="other" class="other" subclass=""/>
+      <span id="1056" start="49" end="49" text="Zinse" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1062" start="51" end="55" text="10 sh . ze Erschatze" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1032" start="51" end="53" text="10 sh ." element="value" class="money" subclass=""/>
+      <span id="1068" start="55" end="55" text="Erschatze" element="other" class="other" subclass=""/>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="43" end="49" ref="1044" type="state">
+      <trigger start="49" end="49" text="Zinse" ref="1056"/>
+      <event event_id="0.0">
+        <role role="interest" ref="1026" text="6 ℔"/>
+        <role role="cause" ref="1050" text="von der Eigenschaft"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="51" end="55" ref="1062" type="state">
+      <event event_id="1.0">
+        <role role="interest" ref="1032" text="10 sh ."/>
+        <role role="cause" ref="1068" text="Erschatze"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="5" end="7" ref="918" type="state">
+      <trigger start="5" end="5" text="Burger" ref="924"/>
+      <event event_id="2.0">
+        <role role="resident" ref="894" text="Johans Kluweli der Kremer , Burger von Basel"/>
+        <role role="geopolitical-entity" ref="930" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="16" end="37" ref="954" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="942" text="das Hus , so gelegen ist ze Basel under&#10;den Kremern zuschent Cunrad Hullers Hus und der&#10;Gassen , als man ze sant Andres gat"/>
+        <role role="location-b" ref="960" text="Basel"/>
+        <role role="location-b" ref="966" text="den Kremern"/>
+        <role role="location-b" ref="978" text="Cunrad Hullers Hus"/>
+        <role role="location-b" ref="1002" text="der&#10;Gassen , als man ze sant Andres gat"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="25" end="26" ref="990" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="978" text="Cunrad Hullers Hus"/>
+        <role role="owner" ref="984" text="Cunrad Hullers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="32" end="37" ref="1014" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1002" text="der&#10;Gassen , als man ze sant Andres gat"/>
+        <role role="location-b" ref="1020" text="sant Andres"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="heritable-lease-grant" polarity="pos" tense="pres" modality="ass" start="0" end="9" ref="" type="event">
+      <trigger start="9" end="9" text="empfängt" ref="1038"/>
+      <event event_id="6.0">
+        <role role="lessee" ref="894" text="Johans Kluweli der Kremer , Burger von Basel"/>
+        <role role="grantor" ref="948" text="Johans Harer"/>
+        <role role="property" ref="942" text="das Hus , so gelegen ist ze Basel under&#10;den Kremern zuschent Cunrad Hullers Hus und der&#10;Gassen , als man ze sant Andres gat"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

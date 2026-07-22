@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 189/19 S. [25]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schützenmattstrasse 13</tei:title>
+            <tei:idno>HGB 1 189/19</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1513717</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1565">1565</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610804.504698198 1267354.379720333</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Baschen</token>
+    <token token_id="1">und</token>
+    <token token_id="2">Jacob</token>
+    <token token_id="3">die</token>
+    <token token_id="4">Kauffman</token>
+    <token token_id="5">,</token>
+    <token token_id="6">Metzger</token>
+    <token token_id="7">,</token>
+    <token token_id="8">verkau</token>
+    <token token_id="9">fen</token>
+    <token token_id="10">an</token>
+    <token token_id="11">Erhart</token>
+    <token token_id="12">hauer</token>
+    <token token_id="13">den</token>
+    <token token_id="14">Wers</token>
+    <token token_id="15">zum</token>
+    <token token_id="16">Schwartzen</token>
+    <token token_id="17">Ochseng</token>
+    <token token_id="18">in</token>
+    <token token_id="19">Spalenvorstatt</token>
+    <token token_id="20">und</token>
+    <token token_id="21">seine</token>
+    <token token_id="22">Frau</token>
+    <token token_id="23">Anna</token>
+    <token token_id="24">Kauffman</token>
+    <token token_id="25">und</token>
+    <token token_id="26">.</token>
+    <token token_id="27">.</token>
+    <token token_id="28">.</token>
+    <token token_id="29">die</token>
+    <token token_id="30">Schuren</token>
+    <token token_id="31">in</token>
+    <token token_id="32">Spalenvorstatt</token>
+    <token token_id="33">gegen</token>
+    <token token_id="34">dem</token>
+    <token token_id="35">Bollwert</token>
+    <token token_id="36">zun</token>
+    <token token_id="37">,</token>
+    <token token_id="38">zwüschen</token>
+    <token token_id="39">Wendlin</token>
+    <token token_id="40">Langmesser</token>
+    <token token_id="41">der</token>
+    <token token_id="42">Gartner</token>
+    <token token_id="43">und</token>
+    <token token_id="44">Hanns</token>
+    <token token_id="45">Jacoben</token>
+    <token token_id="46">Kannengiester</token>
+    <token token_id="47">glegen</token>
+    <token token_id="48">zinst</token>
+    <token token_id="49">dem</token>
+    <token token_id="50">Clofer</token>
+    <token token_id="51">s</token>
+    <token token_id="52">.</token>
+    <token token_id="53">Lienhart</token>
+    <token token_id="54">jährl</token>
+    <token token_id="55">.</token>
+    <token token_id="56">5ß</token>
+    <token token_id="57">und</token>
+    <token token_id="58">Jar</token>
+    <token token_id="59">coben</token>
+    <token token_id="60">Gebharten</token>
+    <token token_id="61">sel</token>
+    <token token_id="62">.</token>
+    <token token_id="63">Erben</token>
+    <token token_id="64">10</token>
+    <token token_id="65">℔</token>
+    <token token_id="66">,</token>
+    <token token_id="67">sonst</token>
+    <token token_id="68">frei</token>
+    <token token_id="69">,</token>
+    <token token_id="70">nebst</token>
+    <token token_id="71">e</token>
+    <token token_id="72">.</token>
+    <token token_id="73">Andern</token>
+    <token token_id="74">Liegenschaft</token>
+    <token token_id="75">um</token>
+    <token token_id="76">266</token>
+    <token token_id="77">fl</token>
+    <token token_id="78">.</token>
+    <token token_id="79">8ß</token>
+    <token token_id="80">4</token>
+    <token token_id="81">ȡ</token>
+    <token token_id="82">.</token>
+  </text>
+  <spans>
+    <span id="1493" start="0" end="6" text="Baschen und Jacob die Kauffman , Metzger" element="list" class="per" subclass="">
+      <span id="1505" start="0" end="0" text="Baschen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1505_head" start="0" end="0" element="head" class="nam" text="Baschen" subclass=""/>
+      </span>
+      <span id="1511" start="2" end="4" text="Jacob die Kauffman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1511_head" start="2" end="4" element="head" class="nam" text="Jacob die Kauffman" subclass=""/>
+      </span>
+      <span id="1239" start="6" end="6" text="Metzger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1239_head" start="6" end="6" element="head" class="occ" text="Metzger" subclass=""/>
+      </span>
+    </span>
+    <span id="1517" start="8" end="9" text="verkau&#10;fen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1499" start="11" end="24" text="Erhart hauer den Wers zum Schwartzen Ochseng&#10;in Spalenvorstatt und seine Frau Anna Kauffman" element="list" class="per" subclass="">
+      <span id="1245" start="11" end="19" text="Erhart hauer den Wers zum Schwartzen Ochseng&#10;in Spalenvorstatt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1251" start="11" end="12" text="Erhart hauer" element="head" class="nam" subclass=""/>
+        <span id="1257" start="13" end="19" text="den Wers zum Schwartzen Ochseng&#10;in Spalenvorstatt" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+          <span id="1263" start="14" end="14" text="Wers" element="head" class="occ" subclass="org-job"/>
+          <span id="1269" start="15" end="19" text="zum Schwartzen Ochseng&#10;in Spalenvorstatt" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1487" start="15" end="17" text="zum Schwartzen Ochseng" element="head" class="nam" subclass=""/>
+            <span id="1275" start="18" end="19" text="in Spalenvorstatt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1281" start="19" end="19" text="Spalenvorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+                <span id="1281_head" start="19" end="19" element="head" class="nam" text="Spalenvorstatt" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1287" start="21" end="24" text="seine Frau Anna Kauffman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1299" start="21" end="22" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1311" start="21" end="21" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1311_head" start="21" end="21" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1305" start="22" end="22" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1293" start="23" end="24" text="Anna Kauffman" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1324" start="29" end="68" text="die Schuren in Spalenvorstatt gegen dem&#10;Bollwert zun , zwüschen Wendlin Langmesser der&#10;Gartner und Hanns Jacoben Kannengiester glegen&#10;zinst dem Clofer s . Lienhart jährl . 5ß und Jar&#10;coben Gebharten sel . Erben 10 ℔, sonst frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1330" start="30" end="30" text="Schuren" element="head" class="type" subclass=""/>
+      <span id="1336" start="31" end="47" text="in Spalenvorstatt gegen dem&#10;Bollwert zun , zwüschen Wendlin Langmesser der&#10;Gartner und Hanns Jacoben Kannengiester glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1342" start="32" end="32" text="Spalenvorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1342_head" start="32" end="32" element="head" class="nam" text="Spalenvorstatt" subclass=""/>
+        </span>
+        <span id="1355" start="34" end="35" text="dem&#10;Bollwert" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="defense">
+          <span id="1355_head" start="34" end="35" element="head" class="type" text="dem Bollwert" subclass=""/>
+        </span>
+        <span id="1361" start="39" end="42" text="Wendlin Langmesser der&#10;Gartner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1367" start="39" end="40" text="Wendlin Langmesser" element="head" class="nam" subclass=""/>
+          <span id="1373" start="41" end="42" text="der&#10;Gartner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1379" start="42" end="42" text="Gartner" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1385" start="44" end="46" text="Hanns Jacoben Kannengiester" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1391" start="44" end="45" text="Hanns Jacoben" element="head" class="nam" subclass=""/>
+          <span id="1397" start="46" end="46" text="Kannengiester" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1397_head" start="46" end="46" element="head" class="occ" text="Kannengiester" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1403" start="48" end="68" text="zinst dem Clofer s . Lienhart jährl . 5ß und Jar&#10;coben Gebharten sel . Erben 10 ℔, sonst frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1523" start="48" end="48" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1409" start="49" end="53" text="dem Clofer s . Lienhart" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1415" start="50" end="53" text="Clofer s . Lienhart" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1421" start="54" end="55" text="jährl ." element="value" class="time" subclass="rec"/>
+        <span id="1427" start="56" end="56" text="5ß" element="value" class="money" subclass=""/>
+        <span id="1433" start="58" end="63" text="Jar&#10;coben Gebharten sel . Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1445" start="58" end="62" text="Jar&#10;coben Gebharten sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1451" start="58" end="60" text="Jar&#10;coben Gebharten" element="head" class="nam" subclass=""/>
+            <span id="1457" start="61" end="62" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="1439" start="63" end="63" text="Erben" element="head" class="heir" subclass=""/>
+        </span>
+        <span id="1463" start="64" end="65" text="10 ℔" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1469" start="71" end="74" text="e .&#10;Andern Liegenschaft" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1475" start="74" end="74" text="Liegenschaft" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1481" start="76" end="82" text="266 fl . 8ß 4 ȡ ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1317" from="1311" to="1245" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1348" from="1342" to="1281" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1523_role" from="1523" to="1324" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="58" end="63" ref="1433" type="event">
+      <trigger start="63" end="63" text="Erben" ref="1439"/>
+      <event event_id="0.0">
+        <role role="heir" ref="1433" text="Jar&#10;coben Gebharten sel . Erben"/>
+        <role role="decedent" ref="1445" text="Jar&#10;coben Gebharten sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="13" end="19" ref="1257" type="state">
+      <trigger start="14" end="14" text="Wers" ref="1263"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1245" text="Erhart hauer den Wers zum Schwartzen Ochseng&#10;in Spalenvorstatt"/>
+        <role role="employer" ref="1269" text="zum Schwartzen Ochseng&#10;in Spalenvorstatt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="21" end="22" ref="1299" type="state">
+      <trigger start="22" end="22" text="Frau" ref="1305"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1287" text="seine Frau Anna Kauffman"/>
+        <role role="family-b" ref="1311" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="18" end="19" ref="1275" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1269" text="zum Schwartzen Ochseng&#10;in Spalenvorstatt"/>
+        <role role="location-b" ref="1281" text="Spalenvorstatt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="31" end="47" ref="1336" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1324" text="die Schuren in Spalenvorstatt gegen dem&#10;Bollwert zun , zwüschen Wendlin Langmesser der&#10;Gartner und Hanns Jacoben Kannengiester glegen&#10;zinst dem Clofer s . Lienhart jährl . 5ß und Jar&#10;coben Gebharten sel . Erben 10 ℔, sonst frei"/>
+        <role role="location-b" ref="1342" text="Spalenvorstatt"/>
+        <role role="location-b" ref="1355" text="dem&#10;Bollwert"/>
+        <role role="location-b" ref="1361" text="Wendlin Langmesser der&#10;Gartner"/>
+        <role role="location-b" ref="1385" text="Hanns Jacoben Kannengiester"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="9" ref="" type="event">
+      <trigger start="8" end="9" text="verkau&#10;fen" ref="1517"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1505" text="Baschen"/>
+        <role role="seller" ref="1511" text="Jacob die Kauffman"/>
+        <role role="buyer" ref="1245" text="Erhart hauer den Wers zum Schwartzen Ochseng&#10;in Spalenvorstatt"/>
+        <role role="buyer" ref="1287" text="seine Frau Anna Kauffman"/>
+        <role role="property" ref="1324" text="die Schuren in Spalenvorstatt gegen dem&#10;Bollwert zun , zwüschen Wendlin Langmesser der&#10;Gartner und Hanns Jacoben Kannengiester glegen&#10;zinst dem Clofer s . Lienhart jährl . 5ß und Jar&#10;coben Gebharten sel . Erben 10 ℔, sonst frei"/>
+        <role role="property" ref="1469" text="e .&#10;Andern Liegenschaft"/>
+        <role role="price" ref="1481" text="266 fl . 8ß 4 ȡ ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="29" end="68" ref="1403" type="state">
+      <trigger start="48" end="48" text="zinst" ref="1523"/>
+      <event event_id="6.0">
+        <role role="beneficiary" ref="1409" text="dem Clofer s . Lienhart"/>
+        <role role="interval" ref="1421" text="jährl ."/>
+        <role role="interest" ref="1427" text="5ß"/>
+        <role role="property" ref="1324" text="die Schuren in Spalenvorstatt gegen dem&#10;Bollwert zun , zwüschen Wendlin Langmesser der&#10;Gartner und Hanns Jacoben Kannengiester glegen&#10;zinst dem Clofer s . Lienhart jährl . 5ß und Jar&#10;coben Gebharten sel . Erben 10 ℔, sonst frei"/>
+      </event>
+      <event event_id="6.1">
+        <role role="beneficiary" ref="1433" text="Jar&#10;coben Gebharten sel . Erben"/>
+        <role role="interest" ref="1463" text="10 ℔"/>
+        <role role="property" ref="1324" text="die Schuren in Spalenvorstatt gegen dem&#10;Bollwert zun , zwüschen Wendlin Langmesser der&#10;Gartner und Hanns Jacoben Kannengiester glegen&#10;zinst dem Clofer s . Lienhart jährl . 5ß und Jar&#10;coben Gebharten sel . Erben 10 ℔, sonst frei"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

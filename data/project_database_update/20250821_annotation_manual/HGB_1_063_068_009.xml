@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/68 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 75, 77</tei:title>
+            <tei:idno>HGB 1 63/68</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472933</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1364">1364</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611317.9454972926 1267184.028045794</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">In</token>
+    <token token_id="1">der</token>
+    <token token_id="2">grossen</token>
+    <token token_id="3">Statt</token>
+    <token token_id="4">Basell</token>
+    <token token_id="5">.</token>
+    <token token_id="6">B71</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Item</token>
+    <token token_id="9">ein</token>
+    <token token_id="10">versigelter</token>
+    <token token_id="11">Brieff</token>
+    <token token_id="12">wiset</token>
+    <token token_id="13">30ß</token>
+    <token token_id="14">uff</token>
+    <token token_id="15">den</token>
+    <token token_id="16">4</token>
+    <token token_id="17">℔</token>
+    <token token_id="18">gelts</token>
+    <token token_id="19">so</token>
+    <token token_id="20">da</token>
+    <token token_id="21">gand</token>
+    <token token_id="22">ab</token>
+    <token token_id="23">der</token>
+    <token token_id="24">schu</token>
+    <token token_id="25">¬</token>
+    <token token_id="26">ren</token>
+    <token token_id="27">und</token>
+    <token token_id="28">dem</token>
+    <token token_id="29">huse</token>
+    <token token_id="30">an</token>
+    <token token_id="31">dem</token>
+    <token token_id="32">allten</token>
+    <token token_id="33">Rinder</token>
+    <token token_id="34">mergkt</token>
+    <token token_id="35">zwüschen</token>
+    <token token_id="36">Hemman</token>
+    <token token_id="37">Börlin</token>
+    <token token_id="38">und</token>
+    <token token_id="39">Elsen</token>
+    <token token_id="40">von</token>
+    <token token_id="41">Ougspurg</token>
+    <token token_id="42">hüseren</token>
+    <token token_id="43">genant</token>
+    <token token_id="44">der</token>
+    <token token_id="45">Neygerin</token>
+    <token token_id="46">huse</token>
+    <token token_id="47">,</token>
+  </text>
+  <spans>
+    <span id="735" start="1" end="4" text="der grossen Statt Basell" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="741" start="2" end="4" text="grossen Statt Basell" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="747" start="13" end="13" text="30ß" element="value" class="money" subclass=""/>
+    <span id="837" start="14" end="14" text="uff" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="753" start="16" end="17" text="4 ℔" element="value" class="money" subclass=""/>
+    <span id="831" start="21" end="21" text="gand" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="759" start="23" end="46" text="der schu ¬&#10;ren und dem huse an dem allten Rinder&#10;mergkt zwüschen Hemman Börlin und&#10;Elsen von Ougspurg hüseren genant der&#10;Neygerin huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="765" start="24" end="29" text="schu ¬&#10;ren und dem huse" element="head" class="type" subclass=""/>
+      <span id="825" start="30" end="42" text="an dem allten Rinder&#10;mergkt zwüschen Hemman Börlin und&#10;Elsen von Ougspurg hüseren" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="771" start="31" end="34" text="dem allten Rinder&#10;mergkt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="777" start="32" end="34" text="allten Rinder&#10;mergkt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="795" start="36" end="42" text="Hemman Börlin und&#10;Elsen von Ougspurg hüseren" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="801" start="36" end="41" text="Hemman Börlin und&#10;Elsen von Ougspurg" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="813" start="36" end="41" text="Hemman Börlin und&#10;Elsen von Ougspurg" element="list" class="per" subclass="">
+              <span id="783" start="36" end="37" text="Hemman Börlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="783_head" start="36" end="37" element="head" class="nam" text="Hemman Börlin" subclass=""/>
+              </span>
+              <span id="789" start="39" end="41" text="Elsen von Ougspurg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="789_head" start="39" end="41" element="head" class="nam" text="Elsen von Ougspurg" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="843" start="42" end="42" text="hüseren" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="807" start="44" end="46" text="der&#10;Neygerin huse" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="819" start="45" end="46" text="Neygerin huse" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="42" ref="825" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="759" text="der schu ¬&#10;ren und dem huse an dem allten Rinder&#10;mergkt zwüschen Hemman Börlin und&#10;Elsen von Ougspurg hüseren genant der&#10;Neygerin huse"/>
+        <role role="location-b" ref="771" text="dem allten Rinder&#10;mergkt"/>
+        <role role="location-b" ref="795" text="Hemman Börlin und&#10;Elsen von Ougspurg hüseren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="36" end="41" ref="801" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="795" text="Hemman Börlin und&#10;Elsen von Ougspurg hüseren"/>
+        <role role="owner" ref="783" text="Hemman Börlin"/>
+        <role role="owner" ref="789" text="Elsen von Ougspurg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="13" end="21" ref="" type="state">
+      <trigger start="14" end="14" text="uff" ref="837"/>
+      <event event_id="2.0">
+        <role role="interest" ref="747" text="30ß"/>
+        <role role="cause" ref="831" text="gand"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="16" end="46" ref="" type="state">
+      <trigger start="21" end="21" text="gand" ref="831"/>
+      <event event_id="3.0">
+        <role role="interest" ref="753" text="4 ℔"/>
+        <role role="property" ref="759" text="der schu ¬&#10;ren und dem huse an dem allten Rinder&#10;mergkt zwüschen Hemman Börlin und&#10;Elsen von Ougspurg hüseren genant der&#10;Neygerin huse"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

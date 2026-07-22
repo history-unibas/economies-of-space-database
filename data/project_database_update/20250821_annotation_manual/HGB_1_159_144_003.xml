@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 159/144 S. [3]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheingasse 90</tei:title>
+            <tei:idno>HGB 1 159/144</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1508806</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1415">1415</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611704.264991217 1267582.7953124228</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">frond</token>
+    <token token_id="2">Hans</token>
+    <token token_id="3">Boß</token>
+    <token token_id="4">Werli</token>
+    <token token_id="5">Drumans</token>
+    <token token_id="6">hus</token>
+    <token token_id="7">und</token>
+    <token token_id="8">sin</token>
+    <token token_id="9">2</token>
+    <token token_id="10">juchart</token>
+    <token token_id="11">reben</token>
+    <token token_id="12">ze</token>
+    <token token_id="13">Banners</token>
+    <token token_id="14">gassen</token>
+    <token token_id="15">.</token>
+  </text>
+  <spans>
+    <span id="424" start="1" end="1" text="frond" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="351" start="2" end="4" text="Hans Boß Werli" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="351_head" start="2" end="4" element="head" class="nam" text="Hans Boß Werli" subclass=""/>
+    </span>
+    <span id="418" start="5" end="14" text="Drumans&#10;hus und sin 2 juchart reben ze Banners&#10;gassen" element="list" class="fac" subclass="">
+      <span id="357" start="5" end="6" text="Drumans&#10;hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="357_desc_owner" start="5" end="5" text="Drumans" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="369" start="5" end="5" text="Drumans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="369_head" start="5" end="5" element="head" class="nam" text="Drumans" subclass=""/>
+          </span>
+        </span>
+        <span id="363" start="6" end="6" text="hus" element="head" class="type" subclass=""/>
+      </span>
+      <span id="375" start="8" end="14" text="sin 2 juchart reben ze Banners&#10;gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="405" start="8" end="8" text="sin" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="399" start="8" end="8" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="399_head" start="8" end="8" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+        </span>
+        <span id="381" start="11" end="11" text="reben" element="head" class="type" subclass=""/>
+        <span id="387" start="12" end="14" text="ze Banners&#10;gassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="393" start="13" end="14" text="Banners&#10;gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="393_head" start="13" end="14" element="head" class="nam" text="Banners gassen" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="411" from="399" to="351" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="5" end="5" ref="357_desc_owner" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="357" text="Drumans&#10;hus"/>
+        <role role="owner" ref="369" text="Drumans"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="8" end="8" ref="405" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="375" text="sin 2 juchart reben ze Banners&#10;gassen"/>
+        <role role="owner" ref="399" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="12" end="14" ref="387" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="375" text="sin 2 juchart reben ze Banners&#10;gassen"/>
+        <role role="location-b" ref="393" text="Banners&#10;gassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="seizure" polarity="pos" tense="pres" modality="ass" start="1" end="14" ref="" type="event">
+      <trigger start="1" end="1" text="frond" ref="424"/>
+      <event event_id="3.0">
+        <role role="claimant" ref="351" text="Hans Boß Werli"/>
+        <role role="property" ref="357" text="Drumans&#10;hus"/>
+        <role role="property" ref="375" text="sin 2 juchart reben ze Banners&#10;gassen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

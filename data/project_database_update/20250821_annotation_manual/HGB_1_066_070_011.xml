@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 66/70 S. [11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Greifengasse 38</tei:title>
+            <tei:idno>HGB 1 66/70</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1478017</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1559">1559</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611623.329036016 1267864.2521550243</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Ritterysenn</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Huffschmid</token>
+    <token token_id="4">contra</token>
+    <token token_id="5">Conradten</token>
+    <token token_id="6">Böss</token>
+    <token token_id="7">,</token>
+    <token token_id="8">dem</token>
+    <token token_id="9">Wagner</token>
+    <token token_id="10">,</token>
+    <token token_id="11">unser</token>
+    <token token_id="12">Burger</token>
+    <token token_id="13">,</token>
+    <token token_id="14">beede</token>
+    <token token_id="15">gegen</token>
+    <token token_id="16">dem</token>
+    <token token_id="17">Griffen</token>
+    <token token_id="18">über</token>
+    <token token_id="19">gesessen</token>
+    <token token_id="20">,</token>
+    <token token_id="21">betr</token>
+    <token token_id="22">.</token>
+    <token token_id="23">der</token>
+    <token token_id="24">Gruben</token>
+    <token token_id="25">die</token>
+    <token token_id="26">Greifengasse</token>
+    <token token_id="27">der</token>
+    <token token_id="28">Bekl</token>
+    <token token_id="29">.</token>
+    <token token_id="30">hinden</token>
+    <token token_id="31">in</token>
+    <token token_id="32">sinem</token>
+    <token token_id="33">Gärtlin</token>
+    <token token_id="34">,</token>
+    <token token_id="35">an</token>
+    <token token_id="36">der</token>
+    <token token_id="37">Müren</token>
+    <token token_id="38">daran</token>
+    <token token_id="39">des</token>
+    <token token_id="40">Clegers</token>
+    <token token_id="41">Stallung</token>
+    <token token_id="42">stodt</token>
+    <token token_id="43">,</token>
+    <token token_id="44">gemacht</token>
+    <token token_id="45">hat</token>
+    <token token_id="46">.</token>
+  </text>
+  <spans>
+    <span id="795" start="0" end="3" text="Hanns Ritterysenn der Huffschmid" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="801" start="0" end="1" text="Hanns Ritterysenn" element="head" class="nam" subclass=""/>
+      <span id="807" start="2" end="3" text="der Huffschmid" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="813" start="3" end="3" text="Huffschmid" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="978" start="4" end="4" text="contra" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="819" start="5" end="12" text="Conradten Böss , dem Wagner , unser Burger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="825" start="5" end="6" text="Conradten Böss" element="head" class="nam" subclass=""/>
+      <span id="831" start="8" end="9" text="dem Wagner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="837" start="9" end="9" text="Wagner" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="849" start="11" end="12" text="unser Burger" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="861" start="11" end="11" text="unser" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="861_head" start="11" end="11" element="head" class="self" text="unser" subclass=""/>
+        </span>
+        <span id="855" start="12" end="12" text="Burger" element="head" class="org-aff" subclass=""/>
+      </span>
+    </span>
+    <span id="867" start="14" end="19" text="beede&#10;gegen dem Griffen über gesessen" element="eventspan" class="loc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="873" start="14" end="14" text="beede" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="873_head" start="14" end="14" element="head" class="pro" text="beede" subclass=""/>
+      </span>
+      <span id="879" start="16" end="17" text="dem Griffen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="885" start="17" end="17" text="Griffen" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="984" start="23" end="45" text="der Gruben die&#10;Greifengasse der Bekl . hinden in sinem Gärtlin , an der Müren&#10;daran des Clegers Stallung stodt , gemacht hat" element="other" class="other" subclass="">
+      <span id="903" start="25" end="26" text="die&#10;Greifengasse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+        <span id="909" start="26" end="26" text="Greifengasse" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="891" start="27" end="29" text="der Bekl ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="897" start="28" end="29" text="Bekl ." element="head" class="role" subclass=""/>
+      </span>
+      <span id="915" start="32" end="33" text="sinem Gärtlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="915_desc_owner" start="32" end="32" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="927" start="32" end="32" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="927_head" start="32" end="32" element="head" class="pro" text="sinem" subclass=""/>
+          </span>
+        </span>
+        <span id="921" start="33" end="33" text="Gärtlin" element="head" class="type" subclass=""/>
+      </span>
+      <span id="940" start="39" end="41" text="des Clegers Stallung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="940_desc_owner" start="39" end="40" text="des Clegers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="952" start="39" end="40" text="des Clegers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="958" start="40" end="40" text="Clegers" element="head" class="role" subclass=""/>
+          </span>
+        </span>
+        <span id="946" start="41" end="41" text="Stallung" element="head" class="type" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="971" from="952" to="795" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="964" from="891" to="819" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="933" from="927" to="891" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="custom_0" from="873" to="795" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="custom_1" from="873" to="819" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="14" end="19" ref="867" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="873" text="beede"/>
+        <role role="location-b" ref="879" text="dem Griffen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="11" end="12" ref="849" type="state">
+      <trigger start="12" end="12" text="Burger" ref="855"/>
+      <event event_id="1.0">
+        <role role="resident" ref="819" text="Conradten Böss , dem Wagner , unser Burger"/>
+        <role role="geopolitical-entity" ref="861" text="unser"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="32" end="32" ref="915_desc_owner" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="915" text="sinem Gärtlin"/>
+        <role role="owner" ref="927" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="39" end="40" ref="940_desc_owner" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="940" text="des Clegers Stallung"/>
+        <role role="owner" ref="952" text="des Clegers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="litigation" polarity="pos" tense="pres" modality="ass" start="0" end="45" ref="" type="event">
+      <trigger start="4" end="4" text="contra" ref="978"/>
+      <event event_id="4.0">
+        <role role="party1" ref="795" text="Hanns Ritterysenn der Huffschmid"/>
+        <role role="party2" ref="819" text="Conradten Böss , dem Wagner , unser Burger"/>
+        <role role="subject" ref="984" text="der Gruben die&#10;Greifengasse der Bekl . hinden in sinem Gärtlin , an der Müren&#10;daran des Clegers Stallung stodt , gemacht hat"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

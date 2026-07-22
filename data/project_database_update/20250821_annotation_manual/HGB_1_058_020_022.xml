@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/20 S. [22]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 1</tei:title>
+            <tei:idno>HGB 1 58/20</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467767</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1492">1492</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611281.9863638678 1267451.4916674045</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Frow</token>
+    <token token_id="4">Margreth</token>
+    <token token_id="5">von</token>
+    <token token_id="6">Bussnach</token>
+    <token token_id="7">sesshafft</token>
+    <token token_id="8">zu</token>
+    <token token_id="9">Sultz</token>
+    <token token_id="10">verkauft</token>
+    <token token_id="11">Clausen</token>
+    <token token_id="12">Kleinbruder</token>
+    <token token_id="13">dem</token>
+    <token token_id="14">Koch</token>
+    <token token_id="15">,</token>
+    <token token_id="16">Burger</token>
+    <token token_id="17">zu</token>
+    <token token_id="18">Basel</token>
+    <token token_id="19">,</token>
+    <token token_id="20">und</token>
+    <token token_id="21">Elsy</token>
+    <token token_id="22">siner</token>
+    <token token_id="23">Efrowen</token>
+    <token token_id="24">das</token>
+    <token token_id="25">Huse</token>
+    <token token_id="26">und</token>
+    <token token_id="27">Hoffstatt</token>
+    <token token_id="28">,</token>
+    <token token_id="29">als</token>
+    <token token_id="30">das</token>
+    <token token_id="31">in</token>
+    <token token_id="32">der</token>
+    <token token_id="33">Statt</token>
+    <token token_id="34">Basel</token>
+    <token token_id="35">am</token>
+    <token token_id="36">Kornmarckt</token>
+    <token token_id="37">zwüschen</token>
+    <token token_id="38">dem</token>
+    <token token_id="39">Huse</token>
+    <token token_id="40">zer</token>
+    <token token_id="41">Guldin</token>
+    <token token_id="42">Monen</token>
+    <token token_id="43">und</token>
+    <token token_id="44">dem</token>
+    <token token_id="45">Huse</token>
+    <token token_id="46">zum</token>
+    <token token_id="47">Scheppelin</token>
+    <token token_id="48">gele</token>
+    <token token_id="49">¬</token>
+    <token token_id="50">gen</token>
+    <token token_id="51">und</token>
+    <token token_id="52">Appenzel</token>
+    <token token_id="53">genannt</token>
+    <token token_id="54">ist</token>
+    <token token_id="55">,</token>
+    <token token_id="56">zinst</token>
+    <token token_id="57">von</token>
+    <token token_id="58">Eigenschafft</token>
+    <token token_id="59">Z</token>
+    <token token_id="60">Son</token>
+    <token token_id="61">Wins</token>
+    <token token_id="62">oder</token>
+    <token token_id="63">15</token>
+    <token token_id="64">sh</token>
+    <token token_id="65">.</token>
+    <token token_id="66">u</token>
+    <token token_id="67">.</token>
+    <token token_id="68">Pfg</token>
+    <token token_id="69">.</token>
+    <token token_id="70">dafür</token>
+    <token token_id="71">der</token>
+    <token token_id="72">Dormiterye</token>
+    <token token_id="73">uff</token>
+    <token token_id="74">Burg</token>
+    <token token_id="75">und</token>
+    <token token_id="76">z</token>
+    <token token_id="77">Som</token>
+    <token token_id="78">Wins</token>
+    <token token_id="79">(</token>
+    <token token_id="80">1sh</token>
+    <token token_id="81">.</token>
+    <token token_id="82">)</token>
+    <token token_id="83">der</token>
+    <token token_id="84">Presentz</token>
+    <token token_id="85">uff</token>
+    <token token_id="86">Burg</token>
+    <token token_id="87">,</token>
+    <token token_id="88">10</token>
+    <token token_id="89">Gld</token>
+    <token token_id="90">.</token>
+    <token token_id="91">Gelts</token>
+    <token token_id="92">widerkoiffig</token>
+    <token token_id="93">den</token>
+    <token token_id="94">Frowen</token>
+    <token token_id="95">zu</token>
+    <token token_id="96">Clingental</token>
+    <token token_id="97">und</token>
+    <token token_id="98">6</token>
+    <token token_id="99">℔</token>
+    <token token_id="100">.</token>
+    <token token_id="101">6</token>
+    <token token_id="102">sh</token>
+    <token token_id="103">.</token>
+    <token token_id="104">der</token>
+    <token token_id="105">gen</token>
+    <token token_id="106">Presentz</token>
+    <token token_id="107">sind</token>
+    <token token_id="108">ouch</token>
+    <token token_id="109">widerkouffig</token>
+    <token token_id="110">,</token>
+    <token token_id="111">um</token>
+    <token token_id="112">99</token>
+    <token token_id="113">Gld</token>
+    <token token_id="114">.</token>
+  </text>
+  <spans>
+    <span id="1709" start="3" end="9" text="Frow Margreth von Bussnach sesshafft zu Sultz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1715" start="4" end="6" text="Margreth von Bussnach" element="head" class="nam" subclass=""/>
+      <span id="1721" start="7" end="9" text="sesshafft zu Sultz" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1727" start="9" end="9" text="Sultz" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1727_head" start="9" end="9" element="head" class="nam" text="Sultz" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2023" start="10" end="10" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1812" start="11" end="23" text="Clausen Kleinbruder dem Koch , Burger zu Basel , und&#10;Elsy siner Efrowen" element="list" class="per" subclass="">
+      <span id="1733" start="11" end="18" text="Clausen Kleinbruder dem Koch , Burger zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1739" start="11" end="12" text="Clausen Kleinbruder" element="head" class="nam" subclass=""/>
+        <span id="1745" start="13" end="14" text="dem Koch" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1751" start="14" end="14" text="Koch" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1757" start="16" end="18" text="Burger zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1763" start="16" end="16" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="1769" start="18" end="18" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1769_head" start="18" end="18" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1775" start="21" end="23" text="Elsy siner Efrowen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1781" start="21" end="21" text="Elsy" element="head" class="nam" subclass=""/>
+        <span id="1787" start="22" end="23" text="siner Efrowen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1799" start="22" end="22" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1799_head" start="22" end="22" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="1793" start="23" end="23" text="Efrowen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1818" start="24" end="109" text="das Huse und Hoffstatt , als das in der&#10;Statt Basel am Kornmarckt zwüschen dem Huse zer&#10;Guldin Monen und dem Huse zum Scheppelin gele ¬&#10;gen und Appenzel genannt ist , zinst von Eigenschafft&#10;Z Son Wins oder 15 sh . u . Pfg . dafür der Dormiterye uff&#10;Burg und z Som Wins ( 1sh .) der Presentz uff Burg , 10 Gld .&#10;Gelts widerkoiffig den Frowen zu Clingental und 6 ℔. 6 sh .&#10;der gen Presentz sind ouch widerkouffig" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1824" start="25" end="27" text="Huse und Hoffstatt" element="head" class="type" subclass=""/>
+      <span id="1830" start="29" end="51" text="als das in der&#10;Statt Basel am Kornmarckt zwüschen dem Huse zer&#10;Guldin Monen und dem Huse zum Scheppelin gele ¬&#10;gen und" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1842" start="32" end="34" text="der&#10;Statt Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1848" start="34" end="34" text="Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1854" start="35" end="36" text="am Kornmarckt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="1860" start="36" end="36" text="Kornmarckt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1890" start="38" end="47" text="dem Huse zer&#10;Guldin Monen und dem Huse zum Scheppelin" element="list" class="fac" subclass="">
+          <span id="1866" start="38" end="42" text="dem Huse zer&#10;Guldin Monen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1872" start="39" end="42" text="Huse zer&#10;Guldin Monen" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1878" start="44" end="47" text="dem Huse zum Scheppelin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1884" start="45" end="47" text="Huse zum Scheppelin" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1896" start="52" end="52" text="Appenzel" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1896_head" start="52" end="52" element="head" class="nam" text="Appenzel" subclass=""/>
+      </span>
+      <span id="1902" start="56" end="109" text="zinst von Eigenschafft&#10;Z Son Wins oder 15 sh . u . Pfg . dafür der Dormiterye uff&#10;Burg und z Som Wins ( 1sh .) der Presentz uff Burg , 10 Gld .&#10;Gelts widerkoiffig den Frowen zu Clingental und 6 ℔. 6 sh .&#10;der gen Presentz sind ouch widerkouffig" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2029" start="56" end="56" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2035" start="57" end="58" text="von Eigenschafft" element="other" class="other" subclass=""/>
+        <span id="1908" start="59" end="61" text="Z Son Wins" element="value" class="money" subclass=""/>
+        <span id="1914" start="63" end="69" text="15 sh . u . Pfg ." element="value" class="money" subclass=""/>
+        <span id="1920" start="71" end="74" text="der Dormiterye uff&#10;Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1926" start="72" end="72" text="Dormiterye" element="head" class="type" subclass=""/>
+          <span id="1932" start="73" end="74" text="uff&#10;Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1938" start="74" end="74" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1938_head" start="74" end="74" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1944" start="76" end="78" text="z Som Wins" element="value" class="money" subclass=""/>
+        <span id="1950" start="80" end="81" text="1sh ." element="value" class="money" subclass=""/>
+        <span id="1956" start="83" end="86" text="der Presentz uff Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1962" start="84" end="84" text="Presentz" element="head" class="type" subclass=""/>
+          <span id="1968" start="85" end="86" text="uff Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1974" start="86" end="86" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1974_head" start="86" end="86" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2041" start="88" end="96" text="10 Gld .&#10;Gelts widerkoiffig den Frowen zu Clingental" element="eventspan" class="redemption" tense="pres" polarity="pos" modality="hypo" subclass="">
+          <span id="1980" start="88" end="90" text="10 Gld ." element="value" class="money" subclass=""/>
+          <span id="2047" start="92" end="92" text="widerkoiffig" element="trigger" class="type" subclass=""/>
+          <span id="1986" start="93" end="96" text="den Frowen zu Clingental" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="1992" start="94" end="96" text="Frowen zu Clingental" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+        <span id="2053" start="98" end="109" text="6 ℔. 6 sh .&#10;der gen Presentz sind ouch widerkouffig" element="eventspan" class="redemption" tense="pres" polarity="pos" modality="hypo" subclass="">
+          <span id="1998" start="98" end="103" text="6 ℔. 6 sh ." element="value" class="money" subclass=""/>
+          <span id="2004" start="106" end="106" text="Presentz" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="2004_head" start="106" end="106" element="head" class="type" text="Presentz" subclass=""/>
+          </span>
+          <span id="2059" start="109" end="109" text="widerkouffig" element="trigger" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2017" start="112" end="114" text="99 Gld ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1805" from="1799" to="1733" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2010" from="2004" to="1956" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="redemption" polarity="pos" tense="pres" modality="hypo" start="88" end="96" ref="2041" type="event">
+      <trigger start="92" end="92" text="widerkoiffig" ref="2047"/>
+      <event event_id="0.0">
+        <role role="capital" ref="1980" text="10 Gld ."/>
+        <role role="beneficiary" ref="1986" text="den Frowen zu Clingental"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="redemption" polarity="pos" tense="pres" modality="hypo" start="98" end="109" ref="2053" type="event">
+      <trigger start="109" end="109" text="widerkouffig" ref="2059"/>
+      <event event_id="1.0">
+        <role role="capital" ref="1998" text="6 ℔. 6 sh ."/>
+        <role role="beneficiary" ref="2004" text="Presentz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="16" end="18" ref="1757" type="state">
+      <trigger start="16" end="16" text="Burger" ref="1763"/>
+      <event event_id="2.0">
+        <role role="resident" ref="1733" text="Clausen Kleinbruder dem Koch , Burger zu Basel"/>
+        <role role="geopolitical-entity" ref="1769" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="22" end="23" ref="1787" type="state">
+      <trigger start="23" end="23" text="Efrowen" ref="1793"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1775" text="Elsy siner Efrowen"/>
+        <role role="family-b" ref="1799" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="7" end="9" ref="1721" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1709" text="Frow Margreth von Bussnach sesshafft zu Sultz"/>
+        <role role="location-b" ref="1727" text="Sultz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="29" end="51" ref="1830" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1818" text="das Huse und Hoffstatt , als das in der&#10;Statt Basel am Kornmarckt zwüschen dem Huse zer&#10;Guldin Monen und dem Huse zum Scheppelin gele ¬&#10;gen und Appenzel genannt ist , zinst von Eigenschafft&#10;Z Son Wins oder 15 sh . u . Pfg . dafür der Dormiterye uff&#10;Burg und z Som Wins ( 1sh .) der Presentz uff Burg , 10 Gld .&#10;Gelts widerkoiffig den Frowen zu Clingental und 6 ℔. 6 sh .&#10;der gen Presentz sind ouch widerkouffig"/>
+        <role role="location-b" ref="1842" text="der&#10;Statt Basel"/>
+        <role role="location-b" ref="1854" text="am Kornmarckt"/>
+        <role role="location-b" ref="1866" text="dem Huse zer&#10;Guldin Monen"/>
+        <role role="location-b" ref="1878" text="dem Huse zum Scheppelin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="56" end="109" ref="1902" type="state">
+      <trigger start="56" end="56" text="zinst" ref="2029"/>
+      <event event_id="6.0">
+        <role role="property" ref="1818" text="das Huse und Hoffstatt , als das in der&#10;Statt Basel am Kornmarckt zwüschen dem Huse zer&#10;Guldin Monen und dem Huse zum Scheppelin gele ¬&#10;gen und Appenzel genannt ist , zinst von Eigenschafft&#10;Z Son Wins oder 15 sh . u . Pfg . dafür der Dormiterye uff&#10;Burg und z Som Wins ( 1sh .) der Presentz uff Burg , 10 Gld .&#10;Gelts widerkoiffig den Frowen zu Clingental und 6 ℔. 6 sh .&#10;der gen Presentz sind ouch widerkouffig"/>
+        <role role="cause" ref="2035" text="von Eigenschafft"/>
+        <role role="interest" ref="1908" text="Z Son Wins"/>
+        <role role="detail_alternative-interest" ref="1914" text="15 sh . u . Pfg ."/>
+        <role role="beneficiary" ref="1920" text="der Dormiterye uff&#10;Burg"/>
+        <role role="interest-redeemable" ref="2041" text="10 Gld .&#10;Gelts widerkoiffig den Frowen zu Clingental"/>
+        <role role="interest-redeemable" ref="2053" text="6 ℔. 6 sh .&#10;der gen Presentz sind ouch widerkouffig"/>
+      </event>
+      <event event_id="6.1">
+        <role role="property" ref="1818" text="das Huse und Hoffstatt , als das in der&#10;Statt Basel am Kornmarckt zwüschen dem Huse zer&#10;Guldin Monen und dem Huse zum Scheppelin gele ¬&#10;gen und Appenzel genannt ist , zinst von Eigenschafft&#10;Z Son Wins oder 15 sh . u . Pfg . dafür der Dormiterye uff&#10;Burg und z Som Wins ( 1sh .) der Presentz uff Burg , 10 Gld .&#10;Gelts widerkoiffig den Frowen zu Clingental und 6 ℔. 6 sh .&#10;der gen Presentz sind ouch widerkouffig"/>
+        <role role="interest" ref="1944" text="z Som Wins"/>
+        <role role="detail_alternative-interest" ref="1950" text="1sh ."/>
+        <role role="beneficiary" ref="1956" text="der Presentz uff Burg"/>
+        <role role="interest-redeemable" ref="2041" text="10 Gld .&#10;Gelts widerkoiffig den Frowen zu Clingental"/>
+        <role role="interest-redeemable" ref="2053" text="6 ℔. 6 sh .&#10;der gen Presentz sind ouch widerkouffig"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="73" end="74" ref="1932" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1920" text="der Dormiterye uff&#10;Burg"/>
+        <role role="location-b" ref="1938" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="85" end="86" ref="1968" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="1956" text="der Presentz uff Burg"/>
+        <role role="location-b" ref="1974" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="10" end="114" ref="" type="event">
+      <trigger start="10" end="10" text="verkauft" ref="2023"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1709" text="Frow Margreth von Bussnach sesshafft zu Sultz"/>
+        <role role="buyer" ref="1733" text="Clausen Kleinbruder dem Koch , Burger zu Basel"/>
+        <role role="buyer" ref="1775" text="Elsy siner Efrowen"/>
+        <role role="property" ref="1818" text="das Huse und Hoffstatt , als das in der&#10;Statt Basel am Kornmarckt zwüschen dem Huse zer&#10;Guldin Monen und dem Huse zum Scheppelin gele ¬&#10;gen und Appenzel genannt ist , zinst von Eigenschafft&#10;Z Son Wins oder 15 sh . u . Pfg . dafür der Dormiterye uff&#10;Burg und z Som Wins ( 1sh .) der Presentz uff Burg , 10 Gld .&#10;Gelts widerkoiffig den Frowen zu Clingental und 6 ℔. 6 sh .&#10;der gen Presentz sind ouch widerkouffig"/>
+        <role role="price" ref="2017" text="99 Gld ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

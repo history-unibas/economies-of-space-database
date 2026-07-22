@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 219/6 S. [59]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Teichgässlein 3, 5</tei:title>
+            <tei:idno>HGB 1 219/6</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532975</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Städtische Urkunden</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1535">1535</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611563.652055286 1267920.7902013897</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Raths</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Die</token>
+    <token token_id="5">Fünff</token>
+    <token token_id="6">über</token>
+    <token token_id="7">der</token>
+    <token token_id="8">Stett</token>
+    <token token_id="9">Buw</token>
+    <token token_id="10">erkennen</token>
+    <token token_id="11">zwüschen</token>
+    <token token_id="12">Jorg</token>
+    <token token_id="13">Kochen</token>
+    <token token_id="14">Würt</token>
+    <token token_id="15">zu</token>
+    <token token_id="16">dem</token>
+    <token token_id="17">roten</token>
+    <token token_id="18">Ochsenn</token>
+    <token token_id="19">und</token>
+    <token token_id="20">Jost</token>
+    <token token_id="21">,</token>
+    <token token_id="22">Brotschochen</token>
+    <token token_id="23">Junhabern</token>
+    <token token_id="24">der</token>
+    <token token_id="25">Müli</token>
+    <token token_id="26">genempt</token>
+    <token token_id="27">zu</token>
+    <token token_id="28">dem</token>
+    <token token_id="29">Clowen</token>
+    <token token_id="30">Essel</token>
+    <token token_id="31">,</token>
+    <token token_id="32">inn</token>
+    <token token_id="33">der</token>
+    <token token_id="34">mindern</token>
+    <token token_id="35">Stat</token>
+    <token token_id="36">Basel</token>
+    <token token_id="37">gelegenn</token>
+    <token token_id="38">,</token>
+    <token token_id="39">betreffend</token>
+    <token token_id="40">die</token>
+    <token token_id="41">Erweiterung</token>
+    <token token_id="42">der</token>
+    <token token_id="43">Kuchi</token>
+    <token token_id="44">ins</token>
+    <token token_id="45">Rochs</token>
+    <token token_id="46">Behausung</token>
+    <token token_id="47">.</token>
+  </text>
+  <spans>
+    <span id="769" start="4" end="9" text="Die Fünff über der Stett Buw" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="775" start="5" end="9" text="Fünff über der Stett Buw" element="head" class="type" subclass=""/>
+    </span>
+    <span id="908" start="10" end="10" text="erkennen" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="895" start="12" end="37" text="Jorg Kochen Würt zu dem roten Ochsenn und Jost ,&#10;Brotschochen Junhabern der Müli genempt zu dem Clowen&#10;Essel , inn der mindern Stat Basel gelegenn" element="list" class="per" subclass="">
+      <span id="781" start="12" end="18" text="Jorg Kochen Würt zu dem roten Ochsenn" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="787" start="12" end="13" text="Jorg Kochen" element="head" class="nam" subclass=""/>
+        <span id="793" start="14" end="18" text="Würt zu dem roten Ochsenn" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+          <span id="799" start="14" end="14" text="Würt" element="head" class="occ" subclass="org-job"/>
+          <span id="805" start="16" end="18" text="dem roten Ochsenn" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="805_head" start="16" end="18" element="head" class="nam" text="dem roten Ochsenn" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="811" start="20" end="37" text="Jost ,&#10;Brotschochen Junhabern der Müli genempt zu dem Clowen&#10;Essel , inn der mindern Stat Basel gelegenn" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="817" start="20" end="22" text="Jost ,&#10;Brotschochen" element="head" class="nam" subclass=""/>
+        <span id="823" start="23" end="37" text="Junhabern der Müli genempt zu dem Clowen&#10;Essel , inn der mindern Stat Basel gelegenn" element="appo" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="829" start="23" end="23" text="Junhabern" element="head" class="owner" subclass=""/>
+          <span id="835" start="24" end="37" text="der Müli genempt zu dem Clowen&#10;Essel , inn der mindern Stat Basel gelegenn" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="841" start="25" end="25" text="Müli" element="head" class="type" subclass=""/>
+            <span id="847" start="27" end="30" text="zu dem Clowen&#10;Essel" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="847_head" start="27" end="30" element="head" class="nam" text="zu dem Clowen Essel" subclass=""/>
+            </span>
+            <span id="853" start="32" end="37" text="inn der mindern Stat Basel gelegenn" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="859" start="33" end="36" text="der mindern Stat Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="865" start="34" end="36" text="mindern Stat Basel" element="head" class="nam" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="914" start="40" end="46" text="die&#10;Erweiterung der Kuchi ins Rochs Behausung" element="other" class="other" subclass="">
+      <span id="871" start="45" end="46" text="Rochs Behausung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="889" start="45" end="45" text="Rochs" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="883" start="45" end="45" text="Rochs" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="883_head" start="45" end="45" element="head" class="nam" text="Rochs" subclass=""/>
+          </span>
+        </span>
+        <span id="877" start="46" end="46" text="Behausung" element="head" class="type" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="901" from="883" to="781" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="14" end="18" ref="793" type="state">
+      <trigger start="14" end="14" text="Würt" ref="799"/>
+      <event event_id="0.0">
+        <role role="employee" ref="781" text="Jorg Kochen Würt zu dem roten Ochsenn"/>
+        <role role="employer" ref="805" text="dem roten Ochsenn"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="23" end="37" ref="823" type="state">
+      <trigger start="23" end="23" text="Junhabern" ref="829"/>
+      <event event_id="1.0">
+        <role role="owner" ref="811" text="Jost ,&#10;Brotschochen Junhabern der Müli genempt zu dem Clowen&#10;Essel , inn der mindern Stat Basel gelegenn"/>
+        <role role="property" ref="835" text="der Müli genempt zu dem Clowen&#10;Essel , inn der mindern Stat Basel gelegenn"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="32" end="37" ref="853" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="835" text="der Müli genempt zu dem Clowen&#10;Essel , inn der mindern Stat Basel gelegenn"/>
+        <role role="location-b" ref="859" text="der mindern Stat Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="45" end="45" ref="889" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="871" text="Rochs Behausung"/>
+        <role role="owner" ref="883" text="Rochs"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="litigation" polarity="pos" tense="pres" modality="ass" start="10" end="46" ref="" type="event">
+      <trigger start="10" end="10" text="erkennen" ref="908"/>
+      <event event_id="4.0">
+        <role role="court" ref="769" text="Die Fünff über der Stett Buw"/>
+        <role role="party1" ref="781" text="Jorg Kochen Würt zu dem roten Ochsenn"/>
+        <role role="party2" ref="811" text="Jost ,&#10;Brotschochen Junhabern der Müli genempt zu dem Clowen&#10;Essel , inn der mindern Stat Basel gelegenn"/>
+        <role role="subject" ref="914" text="die&#10;Erweiterung der Kuchi ins Rochs Behausung"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

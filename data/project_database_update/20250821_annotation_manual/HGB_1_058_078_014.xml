@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/78 S. [14]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse Theil von 91</tei:title>
+            <tei:idno>HGB 1 58/78</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467861</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Alban</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1502">1502</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611492.285595564 1267148.2292608474</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">item</token>
+    <token token_id="1">die</token>
+    <token token_id="2">Dischmachern</token>
+    <token token_id="3">by</token>
+    <token token_id="4">dem</token>
+    <token token_id="5">Spital</token>
+    <token token_id="6">git</token>
+    <token token_id="7">6</token>
+    <token token_id="8">dn</token>
+    <token token_id="9">.</token>
+    <token token_id="10">von</token>
+    <token token_id="11">irem</token>
+    <token token_id="12">Hus</token>
+    <token token_id="13">neben</token>
+    <token token_id="14">Eberlin</token>
+    <token token_id="15">dem</token>
+    <token token_id="16">Schmit</token>
+    <token token_id="17">by</token>
+    <token token_id="18">dem</token>
+    <token token_id="19">Spital</token>
+    <token token_id="20">uff</token>
+    <token token_id="21">martini</token>
+    <token token_id="22">.</token>
+  </text>
+  <spans>
+    <span id="486" start="1" end="5" text="die Dischmachern by dem Spital" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="492" start="2" end="2" text="Dischmachern" element="head" class="occ" subclass=""/>
+      <span id="498" start="3" end="5" text="by dem Spital" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="504" start="4" end="5" text="dem Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="510" start="5" end="5" text="Spital" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="601" start="6" end="6" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="516" start="7" end="9" text="6 dn ." element="value" class="money" subclass=""/>
+    <span id="522" start="11" end="19" text="irem Hus neben Eberlin dem Schmit by dem Spital" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="534" start="11" end="11" text="irem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="540" start="11" end="11" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="540_head" start="11" end="11" element="head" class="pro" text="irem" subclass=""/>
+        </span>
+      </span>
+      <span id="528" start="12" end="12" text="Hus" element="head" class="type" subclass=""/>
+      <span id="553" start="13" end="19" text="neben Eberlin dem Schmit by dem Spital" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="559" start="14" end="16" text="Eberlin dem Schmit" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="565" start="14" end="14" text="Eberlin" element="head" class="nam" subclass=""/>
+          <span id="571" start="15" end="16" text="dem Schmit" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="577" start="16" end="16" text="Schmit" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="583" start="18" end="19" text="dem Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="589" start="19" end="19" text="Spital" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="595" start="20" end="21" text="uff martini" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="546" from="540" to="486" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="membership" polarity="pos" tense="pres" modality="ass" start="3" end="5" ref="498" type="state">
+      <event event_id="0.0">
+        <role role="member" ref="486" text="die Dischmachern by dem Spital"/>
+        <role role="organization" ref="504" text="dem Spital"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="11" end="11" ref="534" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="522" text="irem Hus neben Eberlin dem Schmit by dem Spital"/>
+        <role role="owner" ref="540" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="19" ref="553" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="522" text="irem Hus neben Eberlin dem Schmit by dem Spital"/>
+        <role role="location-b" ref="559" text="Eberlin dem Schmit"/>
+        <role role="location-b" ref="583" text="dem Spital"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="1" end="6" ref="" type="state">
+      <trigger start="6" end="6" text="git" ref="601"/>
+      <event event_id="3.0">
+        <role role="payer" ref="486" text="die Dischmachern by dem Spital"/>
+        <role role="interest" ref="516" text="6 dn ."/>
+        <role role="property" ref="522" text="irem Hus neben Eberlin dem Schmit by dem Spital"/>
+        <role role="due-date" ref="595" text="uff martini"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

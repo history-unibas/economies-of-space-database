@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/43 S. [8]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 45</tei:title>
+            <tei:idno>HGB 1 63/43</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472898</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1531">1531</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611298.745846836 1267256.1999866478</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Gerg</token>
+    <token token_id="1">Hochburger</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Nestler</token>
+    <token token_id="4">,</token>
+    <token token_id="5">und</token>
+    <token token_id="6">seine</token>
+    <token token_id="7">Frau</token>
+    <token token_id="8">Anna</token>
+    <token token_id="9">,</token>
+    <token token_id="10">ver</token>
+    <token token_id="11">¬</token>
+    <token token_id="12">kaufen</token>
+    <token token_id="13">an</token>
+    <token token_id="14">Jacoben</token>
+    <token token_id="15">Lutenbach</token>
+    <token token_id="16">dem</token>
+    <token token_id="17">Kürsener</token>
+    <token token_id="18">,</token>
+    <token token_id="19">u</token>
+    <token token_id="20">.</token>
+    <token token_id="21">seine</token>
+    <token token_id="22">Frau</token>
+    <token token_id="23">Anna</token>
+    <token token_id="24">die</token>
+    <token token_id="25">beide</token>
+    <token token_id="26">Hüsere</token>
+    <token token_id="27">u</token>
+    <token token_id="28">.</token>
+    <token token_id="29">Hofstatt</token>
+    <token token_id="30">,</token>
+    <token token_id="31">hinden</token>
+    <token token_id="32">und</token>
+    <token token_id="33">vor</token>
+    <token token_id="34">,</token>
+    <token token_id="35">als</token>
+    <token token_id="36">die</token>
+    <token token_id="37">hinder</token>
+    <token token_id="38">einandern</token>
+    <token token_id="39">in</token>
+    <token token_id="40">der</token>
+    <token token_id="41">gerwergassen</token>
+    <token token_id="42">,</token>
+    <token token_id="43">am</token>
+    <token token_id="44">ortt</token>
+    <token token_id="45">,</token>
+    <token token_id="46">als</token>
+    <token token_id="47">man</token>
+    <token token_id="48">über</token>
+    <token token_id="49">die</token>
+    <token token_id="50">wyssen</token>
+    <token token_id="51">Jungken</token>
+    <token token_id="52">gat</token>
+    <token token_id="53">,</token>
+    <token token_id="54">u</token>
+    <token token_id="55">.</token>
+    <token token_id="56">an</token>
+    <token token_id="57">Sebastian</token>
+    <token token_id="58">Meygers</token>
+    <token token_id="59">,</token>
+    <token token_id="60">des</token>
+    <token token_id="61">Mezgers</token>
+    <token token_id="62">hus</token>
+    <token token_id="63">glegen</token>
+    <token token_id="64">,</token>
+    <token token_id="65">da</token>
+    <token token_id="66">das</token>
+    <token token_id="67">vorder</token>
+    <token token_id="68">zum</token>
+    <token token_id="69">Rhyn</token>
+    <token token_id="70">ortt</token>
+    <token token_id="71">,</token>
+    <token token_id="72">u</token>
+    <token token_id="73">.</token>
+    <token token_id="74">das</token>
+    <token token_id="75">hinder</token>
+    <token token_id="76">Linden</token>
+    <token token_id="77">genant</token>
+    <token token_id="78">ist</token>
+    <token token_id="79">,</token>
+    <token token_id="80">zinsen</token>
+    <token token_id="81">beide</token>
+    <token token_id="82">huser</token>
+    <token token_id="83">Adam</token>
+    <token token_id="84">Hükeli</token>
+    <token token_id="85">dem</token>
+    <token token_id="86">schnyder</token>
+    <token token_id="87">5</token>
+    <token token_id="88">℔</token>
+    <token token_id="89">.</token>
+    <token token_id="90">jährl</token>
+    <token token_id="91">.</token>
+    <token token_id="92">zinses</token>
+    <token token_id="93">,</token>
+    <token token_id="94">sind</token>
+    <token token_id="95">ablösig</token>
+    <token token_id="96">,</token>
+    <token token_id="97">u</token>
+    <token token_id="98">.</token>
+    <token token_id="99">sind</token>
+    <token token_id="100">dan</token>
+    <token token_id="101">beide</token>
+    <token token_id="102">Hüser</token>
+    <token token_id="103">densselben</token>
+    <token token_id="104">Hüheli</token>
+    <token token_id="105">um</token>
+    <token token_id="106">140</token>
+    <token token_id="107">℔</token>
+    <token token_id="108">schuldbuers</token>
+    <token token_id="109">tift</token>
+    <token token_id="110">,</token>
+    <token token_id="111">sonstfrei</token>
+    <token token_id="112">,</token>
+    <token token_id="113">sum</token>
+    <token token_id="114">80</token>
+    <token token_id="115">℔</token>
+    <token token_id="116">.</token>
+  </text>
+  <spans>
+    <span id="1716" start="0" end="8" text="Gerg Hochburger der Nestler , und seine Frau Anna" element="list" class="per" subclass="">
+      <span id="1655" start="0" end="3" text="Gerg Hochburger der Nestler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1661" start="0" end="1" text="Gerg Hochburger" element="head" class="nam" subclass=""/>
+        <span id="1667" start="2" end="3" text="der Nestler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1673" start="3" end="3" text="Nestler" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1679" start="6" end="8" text="seine Frau Anna" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1691" start="6" end="7" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1703" start="6" end="6" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1703_head" start="6" end="6" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1697" start="7" end="7" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1685" start="8" end="8" text="Anna" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="2038" start="10" end="12" text="ver ¬&#10;kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1783" start="14" end="23" text="Jacoben Lutenbach dem Kürsener , u . seine Frau Anna" element="list" class="per" subclass="">
+      <span id="1722" start="14" end="17" text="Jacoben Lutenbach dem Kürsener" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1728" start="14" end="15" text="Jacoben Lutenbach" element="head" class="nam" subclass=""/>
+        <span id="1734" start="16" end="17" text="dem Kürsener" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1740" start="17" end="17" text="Kürsener" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1746" start="21" end="23" text="seine Frau Anna" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1758" start="21" end="22" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1770" start="21" end="21" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1770_head" start="21" end="21" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1764" start="22" end="22" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1752" start="23" end="23" text="Anna" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1789" start="24" end="111" text="die beide Hüsere u . Hofstatt , hinden und vor , als die hinder einandern&#10;in der gerwergassen , am ortt , als man über die wyssen Jungken gat ,&#10;u . an Sebastian Meygers , des Mezgers hus glegen , da das vorder&#10;zum Rhyn ortt , u . das hinder Linden genant ist , zinsen beide&#10;huser Adam Hükeli dem schnyder 5 ℔. jährl . zinses , sind ablösig , u .&#10;sind dan beide Hüser densselben Hüheli um 140 ℔ schuldbuers tift ,&#10;sonstfrei" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1795" start="26" end="29" text="Hüsere u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1801" start="31" end="63" text="hinden und vor , als die hinder einandern&#10;in der gerwergassen , am ortt , als man über die wyssen Jungken gat ,&#10;u . an Sebastian Meygers , des Mezgers hus glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1807" start="40" end="41" text="der gerwergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1813" start="41" end="41" text="gerwergassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1819" start="43" end="52" text="am ortt , als man über die wyssen Jungken gat" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1825" start="44" end="44" text="ortt" element="head" class="type" subclass=""/>
+          <span id="1831" start="46" end="52" text="als man über die wyssen Jungken gat" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1837" start="49" end="51" text="die wyssen Jungken" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+              <span id="1843" start="50" end="51" text="wyssen Jungken" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1849" start="57" end="62" text="Sebastian Meygers , des Mezgers hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1861" start="57" end="61" text="Sebastian Meygers , des Mezgers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1867" start="57" end="61" text="Sebastian Meygers , des Mezgers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1873" start="57" end="58" text="Sebastian Meygers" element="head" class="nam" subclass=""/>
+              <span id="1879" start="60" end="61" text="des Mezgers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1885" start="61" end="61" text="Mezgers" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1855" start="62" end="62" text="hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1891" start="65" end="78" text="da das vorder&#10;zum Rhyn ortt , u . das hinder Linden genant ist" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1921" start="66" end="76" text="das vorder&#10;zum Rhyn ortt , u . das hinder Linden" element="list" class="fac" subclass="">
+          <span id="1897" start="66" end="70" text="das vorder&#10;zum Rhyn ortt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1903" start="68" end="70" text="zum Rhyn ortt" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1909" start="74" end="76" text="das hinder Linden" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1915" start="76" end="76" text="Linden" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1927" start="80" end="111" text="zinsen beide&#10;huser Adam Hükeli dem schnyder 5 ℔. jährl . zinses , sind ablösig , u .&#10;sind dan beide Hüser densselben Hüheli um 140 ℔ schuldbuers tift ,&#10;sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2044" start="80" end="80" text="zinsen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1933" start="81" end="82" text="beide&#10;huser" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1939" start="82" end="82" text="huser" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1952" start="83" end="86" text="Adam Hükeli dem schnyder" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1958" start="83" end="84" text="Adam Hükeli" element="head" class="nam" subclass=""/>
+          <span id="1964" start="85" end="86" text="dem schnyder" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1970" start="86" end="86" text="schnyder" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1976" start="87" end="89" text="5 ℔." element="value" class="money" subclass=""/>
+        <span id="1982" start="90" end="91" text="jährl ." element="value" class="time" subclass="rec"/>
+        <span id="2050" start="94" end="109" text="sind ablösig , u .&#10;sind dan beide Hüser densselben Hüheli um 140 ℔ schuldbuers tift" element="eventspan" class="redemption" tense="pres" polarity="pos" modality="hypo" subclass="">
+          <span id="2056" start="95" end="95" text="ablösig" element="trigger" class="type" subclass=""/>
+          <span id="1988" start="101" end="102" text="beide Hüser" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2001" start="102" end="102" text="Hüser" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2007" start="103" end="104" text="densselben Hüheli" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2013" start="104" end="104" text="Hüheli" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="2026" start="106" end="107" text="140 ℔" element="value" class="money" subclass=""/>
+          <span id="2062" start="108" end="109" text="schuldbuers tift" element="other" class="other" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2032" start="114" end="116" text="80 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1709" from="1703" to="1655" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1776" from="1770" to="1722" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1945" from="1933" to="1789" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1994" from="1988" to="1789" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2019" from="2007" to="1952" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="redemption" polarity="pos" tense="pres" modality="hypo" start="94" end="109" ref="2050" type="event">
+      <trigger start="95" end="95" text="ablösig" ref="2056"/>
+      <event event_id="0.0">
+        <role role="beneficiary" ref="2007" text="densselben Hüheli"/>
+        <role role="capital" ref="2026" text="140 ℔"/>
+        <role role="detail_other" ref="2062" text="schuldbuers tift"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="6" end="7" ref="1691" type="state">
+      <trigger start="7" end="7" text="Frau" ref="1697"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1679" text="seine Frau Anna"/>
+        <role role="family-b" ref="1703" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="21" end="22" ref="1758" type="state">
+      <trigger start="22" end="22" text="Frau" ref="1764"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1746" text="seine Frau Anna"/>
+        <role role="family-b" ref="1770" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="31" end="63" ref="1801" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1789" text="die beide Hüsere u . Hofstatt , hinden und vor , als die hinder einandern&#10;in der gerwergassen , am ortt , als man über die wyssen Jungken gat ,&#10;u . an Sebastian Meygers , des Mezgers hus glegen , da das vorder&#10;zum Rhyn ortt , u . das hinder Linden genant ist , zinsen beide&#10;huser Adam Hükeli dem schnyder 5 ℔. jährl . zinses , sind ablösig , u .&#10;sind dan beide Hüser densselben Hüheli um 140 ℔ schuldbuers tift ,&#10;sonstfrei"/>
+        <role role="location-b" ref="1807" text="der gerwergassen"/>
+        <role role="location-b" ref="1819" text="am ortt , als man über die wyssen Jungken gat"/>
+        <role role="location-b" ref="1849" text="Sebastian Meygers , des Mezgers hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="46" end="52" ref="1831" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1819" text="am ortt , als man über die wyssen Jungken gat"/>
+        <role role="location-b" ref="1837" text="die wyssen Jungken"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="57" end="61" ref="1861" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1849" text="Sebastian Meygers , des Mezgers hus"/>
+        <role role="owner" ref="1867" text="Sebastian Meygers , des Mezgers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="part_whole" polarity="pos" tense="pres" modality="ass" start="65" end="78" ref="1891" type="state">
+      <event event_id="6.0">
+        <role role="whole" ref="1789" text="die beide Hüsere u . Hofstatt , hinden und vor , als die hinder einandern&#10;in der gerwergassen , am ortt , als man über die wyssen Jungken gat ,&#10;u . an Sebastian Meygers , des Mezgers hus glegen , da das vorder&#10;zum Rhyn ortt , u . das hinder Linden genant ist , zinsen beide&#10;huser Adam Hükeli dem schnyder 5 ℔. jährl . zinses , sind ablösig , u .&#10;sind dan beide Hüser densselben Hüheli um 140 ℔ schuldbuers tift ,&#10;sonstfrei"/>
+        <role role="part" ref="1897" text="das vorder&#10;zum Rhyn ortt"/>
+        <role role="part" ref="1909" text="das hinder Linden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="80" end="111" ref="1927" type="state">
+      <trigger start="80" end="80" text="zinsen" ref="2044"/>
+      <event event_id="7.0">
+        <role role="property" ref="1933" text="beide&#10;huser"/>
+        <role role="beneficiary" ref="1952" text="Adam Hükeli dem schnyder"/>
+        <role role="interest" ref="1976" text="5 ℔."/>
+        <role role="interval" ref="1982" text="jährl ."/>
+        <role role="interest-redeemable" ref="2050" text="sind ablösig , u .&#10;sind dan beide Hüser densselben Hüheli um 140 ℔ schuldbuers tift"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="12" ref="" type="event">
+      <trigger start="10" end="12" text="ver ¬&#10;kaufen" ref="2038"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1655" text="Gerg Hochburger der Nestler"/>
+        <role role="seller" ref="1679" text="seine Frau Anna"/>
+        <role role="buyer" ref="1722" text="Jacoben Lutenbach dem Kürsener"/>
+        <role role="buyer" ref="1746" text="seine Frau Anna"/>
+        <role role="property" ref="1789" text="die beide Hüsere u . Hofstatt , hinden und vor , als die hinder einandern&#10;in der gerwergassen , am ortt , als man über die wyssen Jungken gat ,&#10;u . an Sebastian Meygers , des Mezgers hus glegen , da das vorder&#10;zum Rhyn ortt , u . das hinder Linden genant ist , zinsen beide&#10;huser Adam Hükeli dem schnyder 5 ℔. jährl . zinses , sind ablösig , u .&#10;sind dan beide Hüser densselben Hüheli um 140 ℔ schuldbuers tift ,&#10;sonstfrei"/>
+        <role role="price" ref="2032" text="80 ℔."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

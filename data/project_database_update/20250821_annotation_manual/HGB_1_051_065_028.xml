@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 51/65 S. [28]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Elisabethenstrasse 2</tei:title>
+            <tei:idno>HGB 1 51/65</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1466495</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1622">1622</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611532.157365042 1266988.8361070617</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Kaufs</token>
+    <token token_id="1">Publicatio</token>
+    <token token_id="2">auf</token>
+    <token token_id="3">Fassnachtfronfasten</token>
+    <token token_id="4">.</token>
+    <token token_id="5">Es</token>
+    <token token_id="6">gibt</token>
+    <token token_id="7">zu</token>
+    <token token_id="8">Kaufen</token>
+    <token token_id="9">H</token>
+    <token token_id="10">.</token>
+    <token token_id="11">Hans</token>
+    <token token_id="12">Ulrich</token>
+    <token token_id="13">Morf</token>
+    <token token_id="14">,</token>
+    <token token_id="15">praceptor</token>
+    <token token_id="16">auf</token>
+    <token token_id="17">Burg</token>
+    <token token_id="18">,</token>
+    <token token_id="19">H</token>
+    <token token_id="20">.</token>
+    <token token_id="21">Criaco</token>
+    <token token_id="22">Pistorio</token>
+    <token token_id="23">dem</token>
+    <token token_id="24">Schriftgiesser</token>
+    <token token_id="25">eine</token>
+    <token token_id="26">Behausung</token>
+    <token token_id="27">und</token>
+    <token token_id="28">Hoofstatt</token>
+    <token token_id="29">bey</token>
+    <token token_id="30">St</token>
+    <token token_id="31">.</token>
+    <token token_id="32">Elsbethen</token>
+    <token token_id="33">,</token>
+    <token token_id="34">einseits</token>
+    <token token_id="35">neben</token>
+    <token token_id="36">H</token>
+    <token token_id="37">.</token>
+    <token token_id="38">Jacob</token>
+    <token token_id="39">Meltin</token>
+    <token token_id="40">gers</token>
+    <token token_id="41">sel</token>
+    <token token_id="42">.</token>
+    <token token_id="43">Erben</token>
+    <token token_id="44">,</token>
+    <token token_id="45">anderseits</token>
+    <token token_id="46">Nt</token>
+    <token token_id="47">Jacob</token>
+    <token token_id="48">Walter</token>
+    <token token_id="49">dem</token>
+    <token token_id="50">Schreiner</token>
+    <token token_id="51">gelegen</token>
+    <token token_id="52">.</token>
+  </text>
+  <spans>
+    <span id="839" start="2" end="3" text="auf Fassnachtfronfasten" element="value" class="date" subclass=""/>
+    <span id="971" start="8" end="8" text="Kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="845" start="9" end="17" text="H . Hans Ulrich Morf ,&#10;praceptor auf Burg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="851" start="11" end="13" text="Hans Ulrich Morf" element="head" class="nam" subclass=""/>
+      <span id="857" start="15" end="17" text="praceptor auf Burg" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="863" start="15" end="15" text="praceptor" element="head" class="occ" subclass="org-job"/>
+        <span id="869" start="17" end="17" text="Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="869_head" start="17" end="17" element="head" class="type" text="Burg" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="875" start="19" end="24" text="H . Criaco Pistorio dem&#10;Schriftgiesser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="881" start="21" end="22" text="Criaco Pistorio" element="head" class="nam" subclass=""/>
+      <span id="887" start="23" end="24" text="dem&#10;Schriftgiesser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="893" start="24" end="24" text="Schriftgiesser" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="899" start="25" end="51" text="eine Behausung und Hoofstatt&#10;bey St . Elsbethen , einseits neben H . Jacob Meltin&#10;gers sel . Erben , anderseits Nt Jacob Walter dem&#10;Schreiner gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="905" start="26" end="28" text="Behausung und Hoofstatt" element="head" class="type" subclass=""/>
+      <span id="911" start="29" end="51" text="bey St . Elsbethen , einseits neben H . Jacob Meltin&#10;gers sel . Erben , anderseits Nt Jacob Walter dem&#10;Schreiner gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="917" start="30" end="32" text="St . Elsbethen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="917_head" start="30" end="32" element="head" class="nam" text="St . Elsbethen" subclass=""/>
+        </span>
+        <span id="923" start="36" end="43" text="H . Jacob Meltin&#10;gers sel . Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="935" start="36" end="42" text="H . Jacob Meltin&#10;gers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="941" start="38" end="40" text="Jacob Meltin&#10;gers" element="head" class="nam" subclass=""/>
+            <span id="947" start="41" end="42" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="929" start="43" end="43" text="Erben" element="head" class="heir" subclass=""/>
+        </span>
+        <span id="953" start="46" end="50" text="Nt Jacob Walter dem&#10;Schreiner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="959" start="47" end="48" text="Jacob Walter" element="head" class="nam" subclass=""/>
+          <span id="965" start="49" end="50" text="dem&#10;Schreiner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="965_head" start="49" end="50" element="head" class="occ" text="dem Schreiner" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="36" end="43" ref="923" type="event">
+      <trigger start="43" end="43" text="Erben" ref="929"/>
+      <event event_id="0.0">
+        <role role="heir" ref="923" text="H . Jacob Meltin&#10;gers sel . Erben"/>
+        <role role="decedent" ref="935" text="H . Jacob Meltin&#10;gers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="15" end="17" ref="857" type="state">
+      <trigger start="15" end="15" text="praceptor" ref="863"/>
+      <event event_id="1.0">
+        <role role="employee" ref="845" text="H . Hans Ulrich Morf ,&#10;praceptor auf Burg"/>
+        <role role="employer" ref="869" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="29" end="51" ref="911" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="899" text="eine Behausung und Hoofstatt&#10;bey St . Elsbethen , einseits neben H . Jacob Meltin&#10;gers sel . Erben , anderseits Nt Jacob Walter dem&#10;Schreiner gelegen"/>
+        <role role="location-b" ref="917" text="St . Elsbethen"/>
+        <role role="location-b" ref="923" text="H . Jacob Meltin&#10;gers sel . Erben"/>
+        <role role="location-b" ref="953" text="Nt Jacob Walter dem&#10;Schreiner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="8" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="Kaufen" ref="971"/>
+      <event event_id="3.0">
+        <role role="seller" ref="845" text="H . Hans Ulrich Morf ,&#10;praceptor auf Burg"/>
+        <role role="buyer" ref="875" text="H . Criaco Pistorio dem&#10;Schriftgiesser"/>
+        <role role="property" ref="899" text="eine Behausung und Hoofstatt&#10;bey St . Elsbethen , einseits neben H . Jacob Meltin&#10;gers sel . Erben , anderseits Nt Jacob Walter dem&#10;Schreiner gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 51/79 S. [8]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Elisabethenstrasse Th. v. 20 u. 22</tei:title>
+            <tei:idno>HGB 1 51/79</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1466509</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1425">1425</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611465.650073759 1266777.819773242</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Zu</token>
+    <token token_id="1">sant</token>
+    <token token_id="2">Elsbethen</token>
+    <token token_id="3">und</token>
+    <token token_id="4">ze</token>
+    <token token_id="5">Spitalschüren</token>
+    <token token_id="6">.</token>
+    <token token_id="7">item</token>
+    <token token_id="8">dis</token>
+    <token token_id="9">Hus</token>
+    <token token_id="10">so</token>
+    <token token_id="11">Fleischhaus</token>
+    <token token_id="12">hat</token>
+    <token token_id="13">ist</token>
+    <token token_id="14">nun</token>
+    <token token_id="15">des</token>
+    <token token_id="16">Spi</token>
+    <token token_id="17">¬</token>
+    <token token_id="18">tals</token>
+    <token token_id="19">und</token>
+    <token token_id="20">im</token>
+    <token token_id="21">darumb</token>
+    <token token_id="22">geben</token>
+    <token token_id="23">Rosenkrantz</token>
+    <token token_id="24">Hus</token>
+    <token token_id="25">gegen</token>
+    <token token_id="26">über</token>
+    <token token_id="27">gelegen</token>
+    <token token_id="28">und</token>
+    <token token_id="29">sol</token>
+    <token token_id="30">der</token>
+    <token token_id="31">genannt</token>
+    <token token_id="32">Fleischhaus</token>
+    <token token_id="33">hinfür</token>
+    <token token_id="34">dem</token>
+    <token token_id="35">Spital</token>
+    <token token_id="36">jerlichen</token>
+    <token token_id="37">geben</token>
+    <token token_id="38">von</token>
+    <token token_id="39">dem</token>
+    <token token_id="40">genannten</token>
+    <token token_id="41">Hus</token>
+    <token token_id="42">Rosen</token>
+    <token token_id="43">¬</token>
+    <token token_id="44">krantz</token>
+    <token token_id="45">den</token>
+    <token token_id="46">obgeschriebenen</token>
+    <token token_id="47">zins</token>
+    <token token_id="48">der</token>
+    <token token_id="49">11</token>
+    <token token_id="50">sh</token>
+    <token token_id="51">.</token>
+    <token token_id="52">zinnsdn</token>
+    <token token_id="53">.</token>
+    <token token_id="54">1</token>
+    <token token_id="55">hun</token>
+    <token token_id="56">sich</token>
+    <token token_id="57">am</token>
+    <token token_id="58">anderen</token>
+    <token token_id="59">Stat</token>
+    <token token_id="60">darvor</token>
+    <token token_id="61">.</token>
+  </text>
+  <spans>
+    <span id="948" start="1" end="2" text="sant Elsbethen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="948_head" start="1" end="2" element="head" class="nam" text="sant Elsbethen" subclass=""/>
+    </span>
+    <span id="954" start="5" end="5" text="Spitalschüren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="954_head" start="5" end="5" element="head" class="type" text="Spitalschüren" subclass=""/>
+    </span>
+    <span id="960" start="8" end="12" text="dis Hus so Fleischhaus hat" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="966" start="9" end="9" text="Hus" element="head" class="type" subclass=""/>
+      <span id="972" start="10" end="12" text="so Fleischhaus hat" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="978" start="11" end="11" text="Fleischhaus" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="978_head" start="11" end="11" element="head" class="nam" text="Fleischhaus" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1108" start="13" end="13" text="ist" element="trigger" class="transfer" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="984" start="15" end="18" text="des Spi ¬&#10;tals" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="990" start="16" end="18" text="Spi ¬&#10;tals" element="head" class="type" subclass=""/>
+    </span>
+    <span id="996" start="20" end="20" text="im" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="996_head" start="20" end="20" element="head" class="pro" text="im" subclass=""/>
+    </span>
+    <span id="1114" start="22" end="22" text="geben" element="trigger" class="transfer" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1009" start="23" end="27" text="Rosenkrantz Hus gegen&#10;über gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1015" start="23" end="24" text="Rosenkrantz Hus" element="head" class="nam" subclass=""/>
+      <span id="1021" start="25" end="27" text="gegen&#10;über gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1120" start="29" end="55" text="sol der genannt Fleischhaus hinfür dem&#10;Spital jerlichen geben von dem genannten Hus Rosen ¬&#10;krantz den obgeschriebenen zins der 11 sh . zinnsdn . 1 hun" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1027" start="30" end="32" text="der genannt Fleischhaus" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1033" start="32" end="32" text="Fleischhaus" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1046" start="34" end="35" text="dem&#10;Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1052" start="35" end="35" text="Spital" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1065" start="36" end="36" text="jerlichen" element="value" class="time" subclass="rec"/>
+      <span id="1126" start="37" end="37" text="geben" element="trigger" class="type" subclass=""/>
+      <span id="1071" start="39" end="44" text="dem genannten Hus Rosen ¬&#10;krantz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1077" start="41" end="44" text="Hus Rosen ¬&#10;krantz" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1132" start="45" end="55" text="den obgeschriebenen zins der 11 sh . zinnsdn . 1 hun" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1138" start="47" end="47" text="zins" element="trigger" class="type" subclass=""/>
+        <span id="1090" start="49" end="53" text="11 sh . zinnsdn ." element="value" class="money" subclass=""/>
+        <span id="1096" start="54" end="55" text="1 hun" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1102" start="56" end="61" text="sich am anderen Stat darvor ." element="unclear" class="unclear" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1002" from="996" to="978" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1039" from="1027" to="978" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1058" from="1046" to="984" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1083" from="1071" to="1009" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="29" end="55" ref="1120" type="state">
+      <trigger start="37" end="37" text="geben" ref="1126"/>
+      <event event_id="0.0">
+        <role role="payer" ref="1027" text="der genannt Fleischhaus"/>
+        <role role="beneficiary" ref="1046" text="dem&#10;Spital"/>
+        <role role="interval" ref="1065" text="jerlichen"/>
+        <role role="property" ref="1071" text="dem genannten Hus Rosen ¬&#10;krantz"/>
+        <role role="interest" ref="1132" text="den obgeschriebenen zins der 11 sh . zinnsdn . 1 hun"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="45" end="55" ref="1132" type="state">
+      <trigger start="47" end="47" text="zins" ref="1138"/>
+      <event event_id="1.0">
+        <role role="interest" ref="1090" text="11 sh . zinnsdn ."/>
+        <role role="interest" ref="1096" text="1 hun"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="10" end="12" ref="972" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="960" text="dis Hus so Fleischhaus hat"/>
+        <role role="owner" ref="978" text="Fleischhaus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="transfer" polarity="pos" tense="pres" modality="ass" start="1" end="22" ref="" type="event">
+      <trigger start="13" end="13" text="ist" ref="1108"/>
+      <event event_id="3.0">
+        <role role="place" ref="948" text="sant Elsbethen"/>
+        <role role="place" ref="954" text="Spitalschüren"/>
+        <role role="property" ref="960" text="dis Hus so Fleischhaus hat"/>
+        <role role="owner-new" ref="984" text="des Spi ¬&#10;tals"/>
+        <role role="consequence" ref="1114" text="geben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="transfer" polarity="pos" tense="pres" modality="ass" start="1" end="27" ref="" type="event">
+      <trigger start="22" end="22" text="geben" ref="1114"/>
+      <event event_id="4.0">
+        <role role="place" ref="948" text="sant Elsbethen"/>
+        <role role="place" ref="954" text="Spitalschüren"/>
+        <role role="cause" ref="1108" text="ist"/>
+        <role role="owner-new" ref="996" text="im"/>
+        <role role="property" ref="1009" text="Rosenkrantz Hus gegen&#10;über gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

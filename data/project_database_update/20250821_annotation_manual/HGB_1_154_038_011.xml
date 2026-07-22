@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 154/38 S. [11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rebgasse 27</tei:title>
+            <tei:idno>HGB 1 154/38</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1505566</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1676">1676</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611789.376042799 1267720.8736604878</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Ublication</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Item</token>
+    <token token_id="3">Op</token>
+    <token token_id="4">.</token>
+    <token token_id="5">frid</token>
+    <token token_id="6">Duolacher</token>
+    <token token_id="7">vögtl</token>
+    <token token_id="8">.</token>
+    <token token_id="9">weiss</token>
+    <token token_id="10">weyl</token>
+    <token token_id="11">.</token>
+    <token token_id="12">Mr</token>
+    <token token_id="13">Caspar</token>
+    <token token_id="14">Kellers</token>
+    <token token_id="15">dess</token>
+    <token token_id="16">Metzgers</token>
+    <token token_id="17">seel</token>
+    <token token_id="18">.</token>
+    <token token_id="19">Sohnes</token>
+    <token token_id="20">verkauft</token>
+    <token token_id="21">an</token>
+    <token token_id="22">Mr</token>
+    <token token_id="23">.</token>
+    <token token_id="24">Andres</token>
+    <token token_id="25">Sulger</token>
+    <token token_id="26">den</token>
+    <token token_id="27">Metzger</token>
+    <token token_id="28">,</token>
+    <token token_id="29">Eine</token>
+    <token token_id="30">Behaussung</token>
+    <token token_id="31">,</token>
+    <token token_id="32">Gut</token>
+    <token token_id="33">¬</token>
+    <token token_id="34">Scheuren</token>
+    <token token_id="35">Stallung</token>
+    <token token_id="36">,</token>
+    <token token_id="37">an</token>
+    <token token_id="38">der</token>
+    <token token_id="39">Rebgassen</token>
+    <token token_id="40">,</token>
+    <token token_id="41">zwischen</token>
+    <token token_id="42">Hr</token>
+    <token token_id="43">.</token>
+    <token token_id="44">Rud</token>
+    <token token_id="45">.</token>
+    <token token_id="46">Scherben</token>
+    <token token_id="47">dess</token>
+    <token token_id="48">Raths</token>
+    <token token_id="49">8</token>
+    <token token_id="50">Hr</token>
+    <token token_id="51">.</token>
+    <token token_id="52">Joh</token>
+    <token token_id="53">.</token>
+    <token token_id="54">Linder</token>
+    <token token_id="55">dess</token>
+    <token token_id="56">Gerichts</token>
+    <token token_id="57">gelegen</token>
+    <token token_id="58">hinden</token>
+    <token token_id="59">Uf</token>
+    <token token_id="60">auf</token>
+    <token token_id="61">ged</token>
+    <token token_id="62">.</token>
+    <token token_id="63">Hr</token>
+    <token token_id="64">.</token>
+    <token token_id="65">Buelachers</token>
+    <token token_id="66">Garten</token>
+    <token token_id="67">stossendt</token>
+    <token token_id="68">.</token>
+  </text>
+  <spans>
+    <span id="1222" start="5" end="6" text="frid Duolacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1222_head" start="5" end="6" element="head" class="nam" text="frid Duolacher" subclass=""/>
+    </span>
+    <span id="1060" start="10" end="19" text="weyl . Mr Caspar Kellers dess Metzgers seel .&#10;Sohnes" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1072" start="10" end="18" text="weyl . Mr Caspar Kellers dess Metzgers seel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1258" start="12" end="12" text="Mr" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1258_head" start="12" end="12" element="head" class="title" text="Mr" subclass=""/>
+        </span>
+        <span id="1078" start="13" end="14" text="Caspar Kellers" element="head" class="nam" subclass=""/>
+        <span id="1084" start="15" end="16" text="dess Metzgers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1090" start="16" end="16" text="Metzgers" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1096" start="17" end="18" text="seel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="1066" start="19" end="19" text="Sohnes" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="1271" start="20" end="20" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1102" start="22" end="27" text="Mr . Andres Sulger&#10;den Metzger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1277" start="22" end="23" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1277_head" start="22" end="23" element="head" class="title" text="Mr ." subclass=""/>
+      </span>
+      <span id="1108" start="24" end="25" text="Andres Sulger" element="head" class="nam" subclass=""/>
+      <span id="1114" start="26" end="27" text="den Metzger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1120" start="27" end="27" text="Metzger" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1126" start="29" end="68" text="Eine Behaussung , Gut ¬&#10;Scheuren Stallung , an der Rebgassen ,&#10;zwischen Hr . Rud . Scherben dess Raths 8&#10;Hr . Joh . Linder dess Gerichts gelegen hinden&#10;Uf auf ged . Hr . Buelachers Garten stossendt ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1132" start="30" end="35" text="Behaussung , Gut ¬&#10;Scheuren Stallung" element="head" class="type" subclass=""/>
+      <span id="1138" start="37" end="67" text="an der Rebgassen ,&#10;zwischen Hr . Rud . Scherben dess Raths 8&#10;Hr . Joh . Linder dess Gerichts gelegen hinden&#10;Uf auf ged . Hr . Buelachers Garten stossendt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1144" start="38" end="39" text="der Rebgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1150" start="39" end="39" text="Rebgassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1240" start="42" end="56" text="Hr . Rud . Scherben dess Raths 8&#10;Hr . Joh . Linder dess Gerichts" element="list" class="per" subclass="">
+          <span id="1156" start="42" end="48" text="Hr . Rud . Scherben dess Raths" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1162" start="44" end="46" text="Rud . Scherben" element="head" class="nam" subclass=""/>
+            <span id="1168" start="47" end="48" text="dess Raths" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1228" start="47" end="48" text="dess Raths" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+                <span id="1234" start="48" end="48" text="Raths" element="head" class="type" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1174" start="50" end="56" text="Hr . Joh . Linder dess Gerichts" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1180" start="52" end="54" text="Joh . Linder" element="head" class="nam" subclass=""/>
+            <span id="1186" start="55" end="56" text="dess Gerichts" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1246" start="55" end="56" text="dess Gerichts" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+                <span id="1252" start="56" end="56" text="Gerichts" element="head" class="type" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+        <span id="1192" start="63" end="66" text="Hr . Buelachers Garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1216" start="63" end="65" text="Hr . Buelachers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1204" start="63" end="65" text="Hr . Buelachers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1210" start="65" end="65" text="Buelachers" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+          <span id="1198" start="66" end="66" text="Garten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1264" from="1222" to="1072" class="per-repr" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="10" end="19" ref="1060" type="state">
+      <trigger start="19" end="19" text="Sohnes" ref="1066"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1060" text="weyl . Mr Caspar Kellers dess Metzgers seel .&#10;Sohnes"/>
+        <role role="family-b" ref="1072" text="weyl . Mr Caspar Kellers dess Metzgers seel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="37" end="67" ref="1138" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1126" text="Eine Behaussung , Gut ¬&#10;Scheuren Stallung , an der Rebgassen ,&#10;zwischen Hr . Rud . Scherben dess Raths 8&#10;Hr . Joh . Linder dess Gerichts gelegen hinden&#10;Uf auf ged . Hr . Buelachers Garten stossendt ."/>
+        <role role="location-b" ref="1144" text="der Rebgassen"/>
+        <role role="location-b" ref="1156" text="Hr . Rud . Scherben dess Raths"/>
+        <role role="location-b" ref="1174" text="Hr . Joh . Linder dess Gerichts"/>
+        <role role="location-b" ref="1192" text="Hr . Buelachers Garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="membership" polarity="pos" tense="pres" modality="ass" start="47" end="48" ref="1168" type="state">
+      <event event_id="2.0">
+        <role role="member" ref="1156" text="Hr . Rud . Scherben dess Raths"/>
+        <role role="organization" ref="1228" text="dess Raths"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="membership" polarity="pos" tense="pres" modality="ass" start="55" end="56" ref="1186" type="state">
+      <event event_id="3.0">
+        <role role="member" ref="1174" text="Hr . Joh . Linder dess Gerichts"/>
+        <role role="organization" ref="1246" text="dess Gerichts"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="63" end="65" ref="1216" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1192" text="Hr . Buelachers Garten"/>
+        <role role="owner" ref="1204" text="Hr . Buelachers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="20" end="68" ref="" type="event">
+      <trigger start="20" end="20" text="verkauft" ref="1271"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1222" text="frid Duolacher"/>
+        <role role="buyer" ref="1102" text="Mr . Andres Sulger&#10;den Metzger"/>
+        <role role="property" ref="1126" text="Eine Behaussung , Gut ¬&#10;Scheuren Stallung , an der Rebgassen ,&#10;zwischen Hr . Rud . Scherben dess Raths 8&#10;Hr . Joh . Linder dess Gerichts gelegen hinden&#10;Uf auf ged . Hr . Buelachers Garten stossendt ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="6.0">
+        <role role="representative" ref="1222" text="frid Duolacher"/>
+        <role role="represented" ref="1072" text="weyl . Mr Caspar Kellers dess Metzgers seel ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

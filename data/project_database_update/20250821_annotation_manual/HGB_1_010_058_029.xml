@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/58 S. [29]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt Theil von 25 neben 23</tei:title>
+            <tei:idno>HGB 1 10/58</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433431</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Steinenkloster</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1530">1530</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611883.4450907996 1267117.797535086</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">herr</token>
+    <token token_id="2">Hans</token>
+    <token token_id="3">des</token>
+    <token token_id="4">wichbischoff</token>
+    <token token_id="5">diener</token>
+    <token token_id="6">git</token>
+    <token token_id="7">uff</token>
+    <token token_id="8">sant</token>
+    <token token_id="9">Johannes</token>
+    <token token_id="10">-</token>
+    <token token_id="11">1</token>
+    <token token_id="12">℔</token>
+    <token token_id="13">3ß</token>
+    <token token_id="14">.</token>
+    <token token_id="15">1532</token>
+    <token token_id="16">fehlt</token>
+    <token token_id="17">.</token>
+    <token token_id="18">Ebenso</token>
+    <token token_id="19">1531</token>
+    <token token_id="20">.</token>
+    <token token_id="21">1533</token>
+    <token token_id="22">das</token>
+    <token token_id="23">huß</token>
+    <token token_id="24">zu</token>
+    <token token_id="25">dem</token>
+    <token token_id="26">rotten</token>
+    <token token_id="27">Meder</token>
+    <token token_id="28">in</token>
+    <token token_id="29">sant</token>
+    <token token_id="30">Alban</token>
+    <token token_id="31">vorstatt</token>
+    <token token_id="32">git</token>
+    <token token_id="33">jerlich</token>
+    <token token_id="34">uff</token>
+    <token token_id="35">Johannis</token>
+    <token token_id="36">baptiste</token>
+    <token token_id="37">thut</token>
+    <token token_id="38">1</token>
+    <token token_id="39">℔</token>
+    <token token_id="40">3ß</token>
+    <token token_id="41">.</token>
+    <token token_id="42">Ebenso</token>
+    <token token_id="43">1534</token>
+    <token token_id="44">.</token>
+    <token token_id="45">1535</token>
+    <token token_id="46">/</token>
+    <token token_id="47">6</token>
+    <token token_id="48">fehlen</token>
+    <token token_id="49">.</token>
+    <token token_id="50">1537</token>
+    <token token_id="51">wie</token>
+    <token token_id="52">oben</token>
+    <token token_id="53">.</token>
+  </text>
+  <spans>
+    <span id="898" start="1" end="5" text="herr Hans des wichbischoff&#10;diener" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="904" start="2" end="2" text="Hans" element="head" class="nam" subclass=""/>
+      <span id="910" start="3" end="5" text="des wichbischoff&#10;diener" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="928" start="3" end="4" text="des wichbischoff" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="922" start="4" end="4" text="wichbischoff" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="916" start="5" end="5" text="diener" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1030" start="6" end="6" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="934" start="7" end="9" text="uff sant Johannes" element="value" class="date" subclass=""/>
+    <span id="940" start="11" end="14" text="1 ℔ 3ß ." element="value" class="money" subclass=""/>
+    <span id="946" start="15" end="15" text="1532" element="value" class="date" subclass=""/>
+    <span id="952" start="19" end="19" text="1531" element="value" class="date" subclass=""/>
+    <span id="958" start="21" end="21" text="1533" element="value" class="date" subclass=""/>
+    <span id="964" start="22" end="31" text="das huß zu dem rotten Meder in&#10;sant Alban vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="970" start="23" end="27" text="huß zu dem rotten Meder" element="head" class="nam" subclass=""/>
+      <span id="976" start="28" end="31" text="in&#10;sant Alban vorstatt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="982" start="29" end="31" text="sant Alban vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="982_head" start="29" end="31" element="head" class="nam" text="sant Alban vorstatt" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1036" start="32" end="32" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1048" start="33" end="33" text="jerlich" element="other" class="other" subclass=""/>
+    <span id="994" start="35" end="36" text="Johannis baptiste" element="value" class="date" subclass=""/>
+    <span id="1000" start="38" end="41" text="1 ℔ 3ß ." element="value" class="money" subclass=""/>
+    <span id="1006" start="43" end="43" text="1534" element="value" class="date" subclass=""/>
+    <span id="1012" start="45" end="45" text="1535" element="value" class="date" subclass=""/>
+    <span id="1018" start="47" end="47" text="6" element="value" class="date" subclass=""/>
+    <span id="1024" start="50" end="50" text="1537" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="3" end="5" ref="910" type="state">
+      <trigger start="5" end="5" text="diener" ref="916"/>
+      <event event_id="0.0">
+        <role role="employee" ref="898" text="herr Hans des wichbischoff&#10;diener"/>
+        <role role="employer" ref="928" text="des wichbischoff"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="28" end="31" ref="976" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="964" text="das huß zu dem rotten Meder in&#10;sant Alban vorstatt"/>
+        <role role="location-b" ref="982" text="sant Alban vorstatt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="1" end="6" ref="" type="event">
+      <trigger start="6" end="6" text="git" ref="1030"/>
+      <event event_id="2.0">
+        <role role="payer" ref="898" text="herr Hans des wichbischoff&#10;diener"/>
+        <role role="due-date" ref="934" text="uff sant Johannes"/>
+        <role role="interest" ref="940" text="1 ℔ 3ß ."/>
+        <role role="date-missing" ref="946" text="1532"/>
+        <role role="date" ref="952" text="1531"/>
+        <role role="interval" ref="1048" text="jerlich"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="21" end="50" ref="" type="event">
+      <trigger start="32" end="32" text="git" ref="1036"/>
+      <event event_id="3.0">
+        <role role="date" ref="958" text="1533"/>
+        <role role="property" ref="964" text="das huß zu dem rotten Meder in&#10;sant Alban vorstatt"/>
+        <role role="due-date" ref="994" text="Johannis baptiste"/>
+        <role role="interest" ref="1000" text="1 ℔ 3ß ."/>
+        <role role="date" ref="1006" text="1534"/>
+        <role role="date-missing" ref="1012" text="1535"/>
+        <role role="date-missing" ref="1018" text="6"/>
+        <role role="date" ref="1024" text="1537"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

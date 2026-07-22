@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 215/18 S. [16]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Steinenvorstadt 13</tei:title>
+            <tei:idno>HGB 1 215/18</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532599</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1569">1569</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611323.370591914 1266988.9755721174</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Lorentz</token>
+    <token token_id="1">Eschudi</token>
+    <token token_id="2">,</token>
+    <token token_id="3">als</token>
+    <token token_id="4">Schaffner</token>
+    <token token_id="5">des</token>
+    <token token_id="6">Closters</token>
+    <token token_id="7">zu</token>
+    <token token_id="8">den</token>
+    <token token_id="9">Predigern</token>
+    <token token_id="10">,</token>
+    <token token_id="11">hat</token>
+    <token token_id="12">Lienhardt</token>
+    <token token_id="13">von</token>
+    <token token_id="14">Gardt</token>
+    <token token_id="15">2</token>
+    <token token_id="16">1</token>
+    <token token_id="17">/</token>
+    <token token_id="18">2</token>
+    <token token_id="19">Mannwerckh</token>
+    <token token_id="20">Matten</token>
+    <token token_id="21">,</token>
+    <token token_id="22">ligen</token>
+    <token token_id="23">vor</token>
+    <token token_id="24">Spalenthor</token>
+    <token token_id="25">,</token>
+    <token token_id="26">jm</token>
+    <token token_id="27">Letten</token>
+    <token token_id="28">,</token>
+    <token token_id="29">zwüschen</token>
+    <token token_id="30">Walther</token>
+    <token token_id="31">Har</token>
+    <token token_id="32">¬</token>
+    <token token_id="33">nisch</token>
+    <token token_id="34">und</token>
+    <token token_id="35">Wolff</token>
+    <token token_id="36">von</token>
+    <token token_id="37">Gardt</token>
+    <token token_id="38">.</token>
+    <token token_id="39">Jtem</token>
+    <token token_id="40">1</token>
+    <token token_id="41">Schüren</token>
+    <token token_id="42">an</token>
+    <token token_id="43">den</token>
+    <token token_id="44">Steinen</token>
+    <token token_id="45">,</token>
+    <token token_id="46">zwüschen</token>
+    <token token_id="47">Mr</token>
+    <token token_id="48">.</token>
+    <token token_id="49">Hanns</token>
+    <token token_id="50">Linden</token>
+    <token token_id="51">des</token>
+    <token token_id="52">Raths</token>
+    <token token_id="53">und</token>
+    <token token_id="54">dem</token>
+    <token token_id="55">Gessli</token>
+    <token token_id="56">,</token>
+    <token token_id="57">als</token>
+    <token token_id="58">man</token>
+    <token token_id="59">zu</token>
+    <token token_id="60">underer</token>
+    <token token_id="61">Herren</token>
+    <token token_id="62">Marstall</token>
+    <token token_id="63">godt</token>
+    <token token_id="64">,</token>
+    <token token_id="65">versessener</token>
+    <token token_id="66">zinsen</token>
+    <token token_id="67">wegen</token>
+    <token token_id="68">,</token>
+    <token token_id="69">als</token>
+    <token token_id="70">dem</token>
+    <token token_id="71">Closter</token>
+    <token token_id="72">jährl</token>
+    <token token_id="73">.</token>
+    <token token_id="74">darab</token>
+    <token token_id="75">5</token>
+    <token token_id="76">℔</token>
+    <token token_id="77">zinst</token>
+    <token token_id="78">wird</token>
+    <token token_id="79">,</token>
+    <token token_id="80">gefrönt</token>
+    <token token_id="81">.</token>
+  </text>
+  <spans>
+    <span id="1213" start="0" end="1" text="Lorentz Eschudi" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1213_head" start="0" end="1" element="head" class="nam" text="Lorentz Eschudi" subclass=""/>
+    </span>
+    <span id="1219" start="4" end="9" text="Schaffner des Closters zu den Predigern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1225" start="4" end="4" text="Schaffner" element="head" class="occ" subclass="org-repr"/>
+      <span id="1238" start="5" end="9" text="des Closters zu den Predigern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1244" start="7" end="9" text="zu den Predigern" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1250" start="12" end="14" text="Lienhardt von Gardt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1250_head" start="12" end="14" element="head" class="nam" text="Lienhardt von Gardt" subclass=""/>
+    </span>
+    <span id="1487" start="15" end="63" text="2 1 / 2 Mannwerckh Matten ,&#10;ligen vor Spalenthor , jm Letten , zwüschen Walther Har ¬&#10;nisch und Wolff von Gardt . Jtem 1 Schüren an&#10;den Steinen , zwüschen Mr . Hanns Linden des Raths&#10;und dem Gessli , als man zu underer Herren&#10;Marstall godt" element="list" class="fac" subclass="">
+      <span id="1256" start="15" end="37" text="2 1 / 2 Mannwerckh Matten ,&#10;ligen vor Spalenthor , jm Letten , zwüschen Walther Har ¬&#10;nisch und Wolff von Gardt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1438" start="20" end="20" text="Matten" element="head" class="type" subclass=""/>
+        <span id="1262" start="22" end="37" text="ligen vor Spalenthor , jm Letten , zwüschen Walther Har ¬&#10;nisch und Wolff von Gardt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1268" start="24" end="24" text="Spalenthor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1268_head" start="24" end="24" element="head" class="nam" text="Spalenthor" subclass=""/>
+          </span>
+          <span id="1274" start="26" end="27" text="jm Letten" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1280" start="27" end="27" text="Letten" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1298" start="30" end="37" text="Walther Har ¬&#10;nisch und Wolff von Gardt" element="list" class="per" subclass="">
+            <span id="1286" start="30" end="33" text="Walther Har ¬&#10;nisch" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1286_head" start="30" end="33" element="head" class="nam" text="Walther Har ¬ nisch" subclass=""/>
+            </span>
+            <span id="1292" start="35" end="37" text="Wolff von Gardt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1292_head" start="35" end="37" element="head" class="nam" text="Wolff von Gardt" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1304" start="40" end="63" text="1 Schüren an&#10;den Steinen , zwüschen Mr . Hanns Linden des Raths&#10;und dem Gessli , als man zu underer Herren&#10;Marstall godt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1310" start="41" end="41" text="Schüren" element="head" class="type" subclass=""/>
+        <span id="1316" start="42" end="63" text="an&#10;den Steinen , zwüschen Mr . Hanns Linden des Raths&#10;und dem Gessli , als man zu underer Herren&#10;Marstall godt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1322" start="43" end="44" text="den Steinen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1328" start="44" end="44" text="Steinen" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1334" start="47" end="52" text="Mr . Hanns Linden des Raths" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1340" start="49" end="50" text="Hanns Linden" element="head" class="nam" subclass=""/>
+            <span id="1346" start="51" end="52" text="des Raths" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1352" start="52" end="52" text="Raths" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+                <span id="1352_head" start="52" end="52" element="head" class="nam" text="Raths" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1358" start="54" end="63" text="dem Gessli , als man zu underer Herren&#10;Marstall godt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="1364" start="55" end="55" text="Gessli" element="head" class="type" subclass=""/>
+            <span id="1370" start="57" end="63" text="als man zu underer Herren&#10;Marstall godt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1376" start="60" end="62" text="underer Herren&#10;Marstall" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="custom_0" start="60" end="61" text="underer Herren" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1388" start="60" end="61" text="underer Herren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+                    <span id="custom_2" start="60" end="60" text="underer" element="attr" class="has-member" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                      <span id="custom_1" start="60" end="60" text="underer" element="reference" class="unk" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                        <span id="custom_1_head" start="60" end="60" element="head" class="self" text="underer" subclass=""/>
+                      </span>
+                    </span>
+                    <span id="1500" start="61" end="61" text="Herren" element="head" class="type" subclass=""/>
+                  </span>
+                </span>
+                <span id="1382" start="62" end="62" text="Marstall" element="head" class="nam" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1462" start="66" end="66" text="zinsen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1401" start="70" end="71" text="dem&#10;Closter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1407" start="71" end="71" text="Closter" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1420" start="72" end="73" text="jährl ." element="value" class="time" subclass="rec"/>
+    <span id="1481" start="74" end="74" text="darab" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1481_head" start="74" end="74" element="head" class="pro" text="darab" subclass=""/>
+    </span>
+    <span id="1426" start="75" end="76" text="5 ℔" element="value" class="money" subclass=""/>
+    <span id="1468" start="77" end="77" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1456" start="80" end="80" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1231" from="1219" to="1213" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1394" from="1388" to="1238" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1413" from="1401" to="1238" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1493" from="1481" to="1487" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1474" from="1468" to="1462" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="4" end="9" ref="1219" type="state">
+      <trigger start="4" end="4" text="Schaffner" ref="1225"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1219" text="Schaffner des Closters zu den Predigern"/>
+        <role role="employer" ref="1238" text="des Closters zu den Predigern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="22" end="37" ref="1262" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1256" text="2 1 / 2 Mannwerckh Matten ,&#10;ligen vor Spalenthor , jm Letten , zwüschen Walther Har ¬&#10;nisch und Wolff von Gardt"/>
+        <role role="location-b" ref="1268" text="Spalenthor"/>
+        <role role="location-b" ref="1274" text="jm Letten"/>
+        <role role="location-b" ref="1286" text="Walther Har ¬&#10;nisch"/>
+        <role role="location-b" ref="1292" text="Wolff von Gardt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="42" end="63" ref="1316" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1304" text="1 Schüren an&#10;den Steinen , zwüschen Mr . Hanns Linden des Raths&#10;und dem Gessli , als man zu underer Herren&#10;Marstall godt"/>
+        <role role="location-b" ref="1322" text="den Steinen"/>
+        <role role="location-b" ref="1334" text="Mr . Hanns Linden des Raths"/>
+        <role role="location-b" ref="1358" text="dem Gessli , als man zu underer Herren&#10;Marstall godt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="membership" polarity="pos" tense="pres" modality="ass" start="51" end="52" ref="1346" type="state">
+      <event event_id="3.0">
+        <role role="member" ref="1334" text="Mr . Hanns Linden des Raths"/>
+        <role role="organization" ref="1352" text="Raths"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="57" end="63" ref="1370" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1358" text="dem Gessli , als man zu underer Herren&#10;Marstall godt"/>
+        <role role="location-b" ref="1376" text="underer Herren&#10;Marstall"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="60" end="61" ref="custom_0" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1376" text="underer Herren&#10;Marstall"/>
+        <role role="owner" ref="1388" text="underer Herren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="membership" polarity="pos" tense="pres" modality="ass" start="60" end="60" ref="custom_2" type="state">
+      <event event_id="6.0">
+        <role role="organization" ref="1388" text="underer Herren"/>
+        <role role="member" ref="custom_1" text="underer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-payment" polarity="neg" tense="pres" modality="ass" start="66" end="66" ref="" type="event">
+      <trigger start="66" end="66" text="zinsen" ref="1462"/>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="70" end="77" ref="" type="state">
+      <trigger start="77" end="77" text="zinst" ref="1468"/>
+      <event event_id="8.0">
+        <role role="beneficiary" ref="1401" text="dem&#10;Closter"/>
+        <role role="interval" ref="1420" text="jährl ."/>
+        <role role="interest" ref="1426" text="5 ℔"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="80" ref="" type="event">
+      <trigger start="80" end="80" text="gefrönt" ref="1456"/>
+      <event event_id="9.0">
+        <role role="claimant" ref="1213" text="Lorentz Eschudi"/>
+        <role role="debitor" ref="1250" text="Lienhardt von Gardt"/>
+        <role role="property" ref="1256" text="2 1 / 2 Mannwerckh Matten ,&#10;ligen vor Spalenthor , jm Letten , zwüschen Walther Har ¬&#10;nisch und Wolff von Gardt"/>
+        <role role="property" ref="1304" text="1 Schüren an&#10;den Steinen , zwüschen Mr . Hanns Linden des Raths&#10;und dem Gessli , als man zu underer Herren&#10;Marstall godt"/>
+        <role role="cause" ref="1462" text="zinsen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

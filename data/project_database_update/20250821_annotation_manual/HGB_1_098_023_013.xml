@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 98/23 S. [13, 14]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Klingental 2, 6</tei:title>
+            <tei:idno>HGB 1 98/23</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1491569</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1462">1462</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611471.9192489344 1267971.1024980717</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">git</token>
+    <token token_id="2">ze</token>
+    <token token_id="3">koffend</token>
+    <token token_id="4">Heinrich</token>
+    <token token_id="5">Buler</token>
+    <token token_id="6">müli</token>
+    <token token_id="7">¬</token>
+    <token token_id="8">meister</token>
+    <token token_id="9">zu</token>
+    <token token_id="10">Clingental</token>
+    <token token_id="11">mit</token>
+    <token token_id="12">willen</token>
+    <token token_id="13">des</token>
+    <token token_id="14">closters</token>
+    <token token_id="15">zu</token>
+    <token token_id="16">Clingental</token>
+    <token token_id="17">,</token>
+    <token token_id="18">Hans</token>
+    <token token_id="19">Flachen</token>
+    <token token_id="20">dem</token>
+    <token token_id="21">müller</token>
+    <token token_id="22">burger</token>
+    <token token_id="23">zu</token>
+    <token token_id="24">Basel</token>
+    <token token_id="25">und</token>
+    <token token_id="26">Barbelin</token>
+    <token token_id="27">siner</token>
+    <token token_id="28">ewir</token>
+    <token token_id="29">¬</token>
+    <token token_id="30">tin</token>
+    <token token_id="31">,</token>
+    <token token_id="32">die</token>
+    <token token_id="33">obern</token>
+    <token token_id="34">müly</token>
+    <token token_id="35">und</token>
+    <token token_id="36">das</token>
+    <token token_id="37">gantz</token>
+    <token token_id="38">lehen</token>
+    <token token_id="39">mit</token>
+    <token token_id="40">dem</token>
+    <token token_id="41">höfflin</token>
+    <token token_id="42">darvor</token>
+    <token token_id="43">zu</token>
+    <token token_id="44">der</token>
+    <token token_id="45">brugk</token>
+    <token token_id="46">und</token>
+    <token token_id="47">dem</token>
+    <token token_id="48">thor</token>
+    <token token_id="49">zu</token>
+    <token token_id="50">Clingental</token>
+    <token token_id="51">,</token>
+    <token token_id="52">so</token>
+    <token token_id="53">gelegen</token>
+    <token token_id="54">ist</token>
+    <token token_id="55">zu</token>
+    <token token_id="56">minren</token>
+    <token token_id="57">Basel</token>
+    <token token_id="58">am</token>
+    <token token_id="59">nidern</token>
+    <token token_id="60">tych</token>
+    <token token_id="61">an</token>
+    <token token_id="62">der</token>
+    <token token_id="63">von</token>
+    <token token_id="64">Clingentalmhoff</token>
+    <token token_id="65">und</token>
+    <token token_id="66">Stallung</token>
+    <token token_id="67">und</token>
+    <token token_id="68">gegen</token>
+    <token token_id="69">der</token>
+    <token token_id="70">schliffen</token>
+    <token token_id="71">zem</token>
+    <token token_id="72">Ramprad</token>
+    <token token_id="73">über</token>
+    <token token_id="74">zinset</token>
+    <token token_id="75">von</token>
+    <token token_id="76">eygenschafft</token>
+    <token token_id="77">wegen</token>
+    <token token_id="78">dem</token>
+    <token token_id="79">closter</token>
+    <token token_id="80">zu</token>
+    <token token_id="81">sant</token>
+    <token token_id="82">Claren</token>
+    <token token_id="83">9</token>
+    <token token_id="84">viernzal</token>
+    <token token_id="85">halb</token>
+    <token token_id="86">kernen</token>
+    <token token_id="87">und</token>
+    <token token_id="88">halb</token>
+    <token token_id="89">müli</token>
+    <token token_id="90">¬</token>
+    <token token_id="91">korn</token>
+    <token token_id="92">angar</token>
+    <token token_id="93">.</token>
+    <token token_id="94">und</token>
+    <token token_id="95">8</token>
+    <token token_id="96">huner</token>
+    <token token_id="97">zu</token>
+    <token token_id="98">vasnacht</token>
+    <token token_id="99">und</token>
+    <token token_id="100">in</token>
+    <token token_id="101">den</token>
+    <token token_id="102">kouff</token>
+    <token token_id="103">git</token>
+    <token token_id="104">der</token>
+    <token token_id="105">mülimeister</token>
+    <token token_id="106">des</token>
+    <token token_id="107">ersten</token>
+    <token token_id="108">2</token>
+    <token token_id="109">wannen</token>
+    <token token_id="110">2ritren</token>
+    <token token_id="111">1aß</token>
+    <token token_id="112">syb</token>
+    <token token_id="113">2</token>
+    <token token_id="114">melsyb</token>
+    <token token_id="115">gibt</token>
+    <token token_id="116">obigen</token>
+    <token token_id="117">Zins</token>
+    <token token_id="118">an</token>
+    <token token_id="119">d</token>
+    <token token_id="120">.</token>
+    <token token_id="121">hebysen</token>
+    <token token_id="122">3</token>
+    <token token_id="123">fillen</token>
+    <token token_id="124">und</token>
+    <token token_id="125">1</token>
+    <token token_id="126">sester</token>
+    <token token_id="127">,</token>
+    <token token_id="128">sodenn</token>
+    <token token_id="129">50</token>
+    <token token_id="130">seg</token>
+  </text>
+  <spans>
+    <span id="2317" start="3" end="3" text="koffend" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1960" start="4" end="10" text="Heinrich Buler müli ¬&#10;meister zu Clingental" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1966" start="4" end="5" text="Heinrich Buler" element="head" class="nam" subclass=""/>
+      <span id="1972" start="6" end="10" text="müli ¬&#10;meister zu Clingental" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1978" start="6" end="8" text="müli ¬&#10;meister" element="head" class="occ" subclass="org-job"/>
+        <span id="1984" start="10" end="10" text="Clingental" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1984_head" start="10" end="10" element="head" class="nam" text="Clingental" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1990" start="13" end="16" text="des closters&#10;zu Clingental" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1996" start="15" end="16" text="zu Clingental" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2088" start="18" end="30" text="Hans Flachen dem müller&#10;burger zu Basel und Barbelin siner ewir ¬&#10;tin" element="list" class="per" subclass="">
+      <span id="2009" start="18" end="24" text="Hans Flachen dem müller&#10;burger zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2015" start="18" end="19" text="Hans Flachen" element="head" class="nam" subclass=""/>
+        <span id="2021" start="20" end="21" text="dem müller" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2027" start="21" end="21" text="müller" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="2033" start="22" end="24" text="burger zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2039" start="22" end="22" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="2045" start="24" end="24" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2045_head" start="24" end="24" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2051" start="26" end="30" text="Barbelin siner ewir ¬&#10;tin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2057" start="26" end="26" text="Barbelin" element="head" class="nam" subclass=""/>
+        <span id="2063" start="27" end="30" text="siner ewir ¬&#10;tin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2075" start="27" end="27" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2075_head" start="27" end="27" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="2069" start="28" end="30" text="ewir ¬&#10;tin" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2268" start="32" end="98" text="die obern müly und das gantz lehen&#10;mit dem höfflin darvor zu der brugk und&#10;dem thor zu Clingental , so gelegen ist zu&#10;minren Basel am nidern tych an der von&#10;Clingentalmhoff und Stallung und gegen&#10;der schliffen zem Ramprad über zinset von&#10;eygenschafft wegen dem closter zu sant Claren&#10;9 viernzal halb kernen und halb müli ¬&#10;korn angar . und 8 huner zu vasnacht" element="list" class="fac" subclass="">
+      <span id="2094" start="32" end="34" text="die obern müly" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2100" start="33" end="34" text="obern müly" element="head" class="type" subclass=""/>
+      </span>
+      <span id="2106" start="36" end="42" text="das gantz lehen&#10;mit dem höfflin darvor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2112" start="38" end="38" text="lehen" element="head" class="type" subclass=""/>
+        <span id="2118" start="39" end="42" text="mit dem höfflin darvor" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2124" start="40" end="41" text="dem höfflin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2130" start="41" end="41" text="höfflin" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2136" start="43" end="73" text="zu der brugk und&#10;dem thor zu Clingental , so gelegen ist zu&#10;minren Basel am nidern tych an der von&#10;Clingentalmhoff und Stallung und gegen&#10;der schliffen zem Ramprad über" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2142" start="44" end="50" text="der brugk und&#10;dem thor zu Clingental" element="list" class="fac" subclass="">
+          <span id="2148" start="44" end="45" text="der brugk" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="2154" start="45" end="45" text="brugk" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2160" start="47" end="48" text="dem thor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2166" start="48" end="48" text="thor" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2172" start="49" end="50" text="zu Clingental" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2178" start="50" end="50" text="Clingental" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="2178_head" start="50" end="50" element="head" class="nam" text="Clingental" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2184" start="56" end="57" text="minren Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2184_head" start="56" end="57" element="head" class="nam" text="minren Basel" subclass=""/>
+        </span>
+        <span id="2190" start="58" end="60" text="am nidern tych" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2196" start="59" end="60" text="nidern tych" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2202" start="62" end="66" text="der von&#10;Clingentalmhoff und Stallung" element="list" class="fac" subclass="">
+          <span id="2214" start="64" end="64" text="Clingentalmhoff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2214_head" start="64" end="64" element="head" class="nam" text="Clingentalmhoff" subclass=""/>
+          </span>
+          <span id="2208" start="66" end="66" text="Stallung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2208_head" start="66" end="66" element="head" class="type" text="Stallung" subclass=""/>
+          </span>
+        </span>
+        <span id="2220" start="69" end="72" text="der schliffen zem Ramprad" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2226" start="70" end="72" text="schliffen zem Ramprad" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="2274" start="74" end="98" text="zinset von&#10;eygenschafft wegen dem closter zu sant Claren&#10;9 viernzal halb kernen und halb müli ¬&#10;korn angar . und 8 huner zu vasnacht" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2336" start="74" end="74" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2342" start="75" end="76" text="von&#10;eygenschafft" element="other" class="other" subclass=""/>
+        <span id="2232" start="78" end="82" text="dem closter zu sant Claren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2238" start="79" end="82" text="closter zu sant Claren" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2244" start="83" end="91" text="9 viernzal halb kernen und halb müli ¬&#10;korn" element="value" class="money" subclass=""/>
+        <span id="2250" start="92" end="93" text="angar ." element="value" class="date" subclass=""/>
+        <span id="2256" start="95" end="96" text="8 huner" element="value" class="money" subclass=""/>
+        <span id="2262" start="97" end="98" text="zu vasnacht" element="value" class="date" subclass=""/>
+      </span>
+    </span>
+    <span id="2280" start="104" end="105" text="der mülimeister" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2286" start="105" end="105" text="mülimeister" element="head" class="occ" subclass=""/>
+    </span>
+    <span id="2299" start="108" end="114" text="2 wannen 2ritren 1aß syb 2 melsyb" element="value" class="money" subclass=""/>
+    <span id="2305" start="121" end="126" text="hebysen 3 fillen und 1 sester" element="value" class="money" subclass=""/>
+    <span id="2311" start="129" end="130" text="50 seg" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2292" from="2280" to="1960" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2002" from="1960" to="1990" class="org-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2081" from="2075" to="2009" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="6" end="10" ref="1972" type="state">
+      <trigger start="6" end="8" text="müli ¬&#10;meister" ref="1978"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1960" text="Heinrich Buler müli ¬&#10;meister zu Clingental"/>
+        <role role="employer" ref="1984" text="Clingental"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="22" end="24" ref="2033" type="state">
+      <trigger start="22" end="22" text="burger" ref="2039"/>
+      <event event_id="1.0">
+        <role role="resident" ref="2009" text="Hans Flachen dem müller&#10;burger zu Basel"/>
+        <role role="geopolitical-entity" ref="2045" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="27" end="30" ref="2063" type="state">
+      <trigger start="28" end="30" text="ewir ¬&#10;tin" ref="2069"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="2051" text="Barbelin siner ewir ¬&#10;tin"/>
+        <role role="family-b" ref="2075" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="39" end="42" ref="2118" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="2106" text="das gantz lehen&#10;mit dem höfflin darvor"/>
+        <role role="part" ref="2124" text="dem höfflin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="43" end="73" ref="2136" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="2094" text="die obern müly"/>
+        <role role="location-b" ref="2148" text="der brugk"/>
+        <role role="location-b" ref="2160" text="dem thor"/>
+        <role role="location-b" ref="2184" text="minren Basel"/>
+        <role role="location-b" ref="2190" text="am nidern tych"/>
+        <role role="location-b" ref="2214" text="Clingentalmhoff"/>
+        <role role="location-b" ref="2208" text="Stallung"/>
+        <role role="location-b" ref="2220" text="der schliffen zem Ramprad"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="43" end="73" ref="2136" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2106" text="das gantz lehen&#10;mit dem höfflin darvor"/>
+        <role role="location-b" ref="2148" text="der brugk"/>
+        <role role="location-b" ref="2160" text="dem thor"/>
+        <role role="location-b" ref="2184" text="minren Basel"/>
+        <role role="location-b" ref="2190" text="am nidern tych"/>
+        <role role="location-b" ref="2214" text="Clingentalmhoff"/>
+        <role role="location-b" ref="2208" text="Stallung"/>
+        <role role="location-b" ref="2220" text="der schliffen zem Ramprad"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="49" end="50" ref="2172" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="2148" text="der brugk"/>
+        <role role="location-b" ref="2178" text="Clingental"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="49" end="50" ref="2172" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="2160" text="dem thor"/>
+        <role role="location-b" ref="2178" text="Clingental"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="74" end="98" ref="2274" type="state">
+      <trigger start="74" end="74" text="zinset" ref="2336"/>
+      <event event_id="8.0">
+        <role role="property" ref="2094" text="die obern müly"/>
+        <role role="cause" ref="2342" text="von&#10;eygenschafft"/>
+        <role role="beneficiary" ref="2232" text="dem closter zu sant Claren"/>
+        <role role="interest" ref="2244" text="9 viernzal halb kernen und halb müli ¬&#10;korn"/>
+        <role role="due-date" ref="2250" text="angar ."/>
+      </event>
+      <event event_id="8.1">
+        <role role="property" ref="2094" text="die obern müly"/>
+        <role role="cause" ref="2342" text="von&#10;eygenschafft"/>
+        <role role="beneficiary" ref="2232" text="dem closter zu sant Claren"/>
+        <role role="interest" ref="2256" text="8 huner"/>
+        <role role="due-date" ref="2262" text="zu vasnacht"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="74" end="98" ref="2274" type="state">
+      <trigger start="74" end="74" text="zinset" ref="2336"/>
+      <event event_id="9.0">
+        <role role="property" ref="2106" text="das gantz lehen&#10;mit dem höfflin darvor"/>
+        <role role="cause" ref="2342" text="von&#10;eygenschafft"/>
+        <role role="beneficiary" ref="2232" text="dem closter zu sant Claren"/>
+        <role role="interest" ref="2244" text="9 viernzal halb kernen und halb müli ¬&#10;korn"/>
+        <role role="due-date" ref="2250" text="angar ."/>
+      </event>
+      <event event_id="9.1">
+        <role role="property" ref="2106" text="das gantz lehen&#10;mit dem höfflin darvor"/>
+        <role role="cause" ref="2342" text="von&#10;eygenschafft"/>
+        <role role="beneficiary" ref="2232" text="dem closter zu sant Claren"/>
+        <role role="interest" ref="2256" text="8 huner"/>
+        <role role="due-date" ref="2262" text="zu vasnacht"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="42" ref="" type="event">
+      <trigger start="3" end="3" text="koffend" ref="2317"/>
+      <event event_id="10.0">
+        <role role="seller" ref="1960" text="Heinrich Buler müli ¬&#10;meister zu Clingental"/>
+        <role role="consenting" ref="1990" text="des closters&#10;zu Clingental"/>
+        <role role="buyer" ref="2009" text="Hans Flachen dem müller&#10;burger zu Basel"/>
+        <role role="buyer" ref="2051" text="Barbelin siner ewir ¬&#10;tin"/>
+        <role role="property" ref="2094" text="die obern müly"/>
+        <role role="property" ref="2106" text="das gantz lehen&#10;mit dem höfflin darvor"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="11.0">
+        <role role="representative" ref="1960" text="Heinrich Buler müli ¬&#10;meister zu Clingental"/>
+        <role role="represented" ref="1990" text="des closters&#10;zu Clingental"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

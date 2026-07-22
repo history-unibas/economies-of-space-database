@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 118/8 S. [13]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Lohnhofgässlein 6</tei:title>
+            <tei:idno>HGB 1 118/8</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494520</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Ladenamt</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1676">1676</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611279.8644293104 1267154.1667004612</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">9</token>
+    <token token_id="1">Hauss</token>
+    <token token_id="2">Oser</token>
+    <token token_id="3">der</token>
+    <token token_id="4">Eltere</token>
+    <token token_id="5">Metzger</token>
+    <token token_id="6">soll</token>
+    <token token_id="7">10</token>
+    <token token_id="8">℔</token>
+    <token token_id="9">-</token>
+    <token token_id="10">ß</token>
+    <token token_id="11">-</token>
+    <token token_id="12">ȡ</token>
+    <token token_id="13">Jährlich</token>
+    <token token_id="14">auf</token>
+    <token token_id="15">den</token>
+    <token token_id="16">1</token>
+    <token token_id="17">.</token>
+    <token token_id="18">Juny</token>
+    <token token_id="19">von</token>
+    <token token_id="20">200</token>
+    <token token_id="21">℔</token>
+    <token token_id="22">auf</token>
+    <token token_id="23">seinem</token>
+    <token token_id="24">Hauss</token>
+    <token token_id="25">an</token>
+    <token token_id="26">St</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Leonhardsberg</token>
+    <token token_id="29">ruhendem</token>
+    <token token_id="30">Capital</token>
+  </text>
+  <spans>
+    <span id="600" start="1" end="30" text="Hauss Oser der Eltere Metzger&#10;soll&#10;10 ℔ - ß - ȡ Jährlich auf den 1 . Juny von&#10;200 ℔ auf seinem Hauss an St . Leonhardsberg&#10;ruhendem Capital" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="509" start="1" end="5" text="Hauss Oser der Eltere Metzger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="515" start="1" end="2" text="Hauss Oser" element="head" class="nam" subclass=""/>
+        <span id="521" start="3" end="5" text="der Eltere Metzger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="527" start="5" end="5" text="Metzger" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="533" start="7" end="12" text="10 ℔ - ß - ȡ" element="value" class="money" subclass=""/>
+      <span id="539" start="13" end="13" text="Jährlich" element="value" class="time" subclass="rec"/>
+      <span id="545" start="14" end="18" text="auf den 1 . Juny" element="value" class="date" subclass=""/>
+      <span id="551" start="20" end="21" text="200 ℔" element="value" class="money" subclass=""/>
+      <span id="557" start="23" end="28" text="seinem Hauss an St . Leonhardsberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="582" start="23" end="23" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="569" start="23" end="23" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="569_head" start="23" end="23" element="head" class="pro" text="seinem" subclass=""/>
+          </span>
+        </span>
+        <span id="563" start="24" end="24" text="Hauss" element="head" class="type" subclass=""/>
+        <span id="588" start="25" end="28" text="an St . Leonhardsberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="594" start="26" end="28" text="St . Leonhardsberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="594_head" start="26" end="28" element="head" class="nam" text="St . Leonhardsberg" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="575" from="569" to="509" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="1" end="30" ref="600" type="state">
+      <event event_id="0.0">
+        <role role="payer" ref="509" text="Hauss Oser der Eltere Metzger"/>
+        <role role="interest" ref="533" text="10 ℔ - ß - ȡ"/>
+        <role role="interval" ref="539" text="Jährlich"/>
+        <role role="due-date" ref="545" text="auf den 1 . Juny"/>
+        <role role="capital" ref="551" text="200 ℔"/>
+        <role role="property" ref="557" text="seinem Hauss an St . Leonhardsberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="23" end="23" ref="582" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="557" text="seinem Hauss an St . Leonhardsberg"/>
+        <role role="owner" ref="569" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="25" end="28" ref="588" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="557" text="seinem Hauss an St . Leonhardsberg"/>
+        <role role="location-b" ref="594" text="St . Leonhardsberg"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

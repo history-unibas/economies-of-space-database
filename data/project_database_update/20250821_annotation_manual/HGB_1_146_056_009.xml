@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 146/56 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Petersberg 32</tei:title>
+            <tei:idno>HGB 1 146/56</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1501560</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1479">1479</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611134.073170394 1267687.8897753677</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Peter</token>
+    <token token_id="1">Breitenbach</token>
+    <token token_id="2">&amp;</token>
+    <token token_id="3">seine</token>
+    <token token_id="4">Frau</token>
+    <token token_id="5">Urselen</token>
+    <token token_id="6">,</token>
+    <token token_id="7">verkaufen</token>
+    <token token_id="8">an</token>
+    <token token_id="9">Jkr</token>
+    <token token_id="10">.</token>
+    <token token_id="11">Dietrich</token>
+    <token token_id="12">Murern</token>
+    <token token_id="13">,</token>
+    <token token_id="14">1</token>
+    <token token_id="15">fl</token>
+    <token token_id="16">gelts</token>
+    <token token_id="17">ab</token>
+    <token token_id="18">jrem</token>
+    <token token_id="19">Hus</token>
+    <token token_id="20">&amp;</token>
+    <token token_id="21">Hofstatt</token>
+    <token token_id="22">an</token>
+    <token token_id="23">der</token>
+    <token token_id="24">nüwengassen</token>
+    <token token_id="25">,</token>
+    <token token_id="26">gegen</token>
+    <token token_id="27">dem</token>
+    <token token_id="28">Hus</token>
+    <token token_id="29">zer</token>
+    <token token_id="30">Merkatzen</token>
+    <token token_id="31">über</token>
+    <token token_id="32">,</token>
+    <token token_id="33">am</token>
+    <token token_id="34">ortt</token>
+    <token token_id="35">gegen</token>
+    <token token_id="36">der</token>
+    <token token_id="37">ellenden</token>
+    <token token_id="38">Herberg</token>
+    <token token_id="39">hunffwertz</token>
+    <token token_id="40">gelegen</token>
+    <token token_id="41">ư</token>
+    <token token_id="42">genant</token>
+    <token token_id="43">ist</token>
+    <token token_id="44">zem</token>
+    <token token_id="45">nstern</token>
+    <token token_id="46">Schwibogen</token>
+    <token token_id="47">,</token>
+    <token token_id="48">zinst</token>
+    <token token_id="49">jähr</token>
+    <token token_id="50">von</token>
+    <token token_id="51">eig</token>
+    <token token_id="52">.</token>
+    <token token_id="53">der</token>
+    <token token_id="54">Brudesch</token>
+    <token token_id="55">s</token>
+    <token token_id="56">.</token>
+    <token token_id="57">Joh</token>
+    <token token_id="58">uf</token>
+    <token token_id="59">Burg</token>
+    <token token_id="60">,</token>
+    <token token_id="61">5</token>
+    <token token_id="62">sh</token>
+    <token token_id="63">.</token>
+    <token token_id="64">sonstfrei</token>
+    <token token_id="65">um</token>
+    <token token_id="66">20</token>
+    <token token_id="67">fl</token>
+    <token token_id="68">.</token>
+    <token token_id="69">widerk</token>
+    <token token_id="70">.</token>
+  </text>
+  <spans>
+    <span id="1085" start="0" end="5" text="Peter Breitenbach &amp; seine Frau Urselen" element="list" class="per" subclass="">
+      <span id="1073" start="0" end="1" text="Peter Breitenbach" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1073_head" start="0" end="1" element="head" class="nam" text="Peter Breitenbach" subclass=""/>
+      </span>
+      <span id="1079" start="3" end="5" text="seine Frau Urselen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1091" start="3" end="4" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1103" start="3" end="3" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1103_head" start="3" end="3" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1097" start="4" end="4" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1116" start="5" end="5" text="Urselen" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1279" start="7" end="7" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1122" start="9" end="12" text="Jkr . Dietrich Murern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1128" start="11" end="12" text="Dietrich Murern" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1134" start="14" end="15" text="1 fl" element="value" class="money" subclass=""/>
+    <span id="1140" start="18" end="64" text="jrem Hus &amp; Hofstatt&#10;an der nüwengassen , gegen dem Hus zer Merkatzen über ,&#10;am ortt gegen der ellenden Herberg hunffwertz gelegen&#10;ư genant ist zem nstern Schwibogen , zinst jähr von&#10;eig . der Brudesch s . Joh uf Burg , 5 sh . sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1140_desc_owner" start="18" end="18" text="jrem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1152" start="18" end="18" text="jrem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1152_head" start="18" end="18" element="head" class="pro" text="jrem" subclass=""/>
+        </span>
+      </span>
+      <span id="1146" start="19" end="21" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1165" start="22" end="40" text="an der nüwengassen , gegen dem Hus zer Merkatzen über ,&#10;am ortt gegen der ellenden Herberg hunffwertz gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1171" start="23" end="24" text="der nüwengassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1177" start="24" end="24" text="nüwengassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1183" start="27" end="30" text="dem Hus zer Merkatzen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1189" start="28" end="30" text="Hus zer Merkatzen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1207" start="33" end="39" text="am ortt gegen der ellenden Herberg hunffwertz" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1213" start="34" end="34" text="ortt" element="head" class="type" subclass=""/>
+          <span id="1219" start="35" end="39" text="gegen der ellenden Herberg hunffwertz" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1195" start="36" end="38" text="der ellenden Herberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1201" start="37" end="38" text="ellenden Herberg" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1225" start="44" end="46" text="zem nstern Schwibogen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1225_head" start="44" end="46" element="head" class="nam" text="zem nstern Schwibogen" subclass=""/>
+      </span>
+      <span id="1273" start="48" end="64" text="zinst jähr von&#10;eig . der Brudesch s . Joh uf Burg , 5 sh . sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1291" start="48" end="48" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1231" start="49" end="49" text="jähr" element="value" class="time" subclass="rec"/>
+        <span id="1297" start="50" end="52" text="von&#10;eig ." element="other" class="other" subclass=""/>
+        <span id="1237" start="53" end="59" text="der Brudesch s . Joh uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1243" start="54" end="57" text="Brudesch s . Joh" element="head" class="nam" subclass=""/>
+          <span id="1249" start="58" end="59" text="uf Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1255" start="59" end="59" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1255_head" start="59" end="59" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1261" start="61" end="63" text="5 sh ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1267" start="66" end="68" text="20 fl ." element="value" class="money" subclass=""/>
+    <span id="1285" start="69" end="70" text="widerk ." element="other" class="other" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1158" from="1152" to="1085" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1109" from="1103" to="1073" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="3" end="4" ref="1091" type="state">
+      <trigger start="4" end="4" text="Frau" ref="1097"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1079" text="seine Frau Urselen"/>
+        <role role="family-b" ref="1103" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="18" end="18" ref="1140_desc_owner" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1140" text="jrem Hus &amp; Hofstatt&#10;an der nüwengassen , gegen dem Hus zer Merkatzen über ,&#10;am ortt gegen der ellenden Herberg hunffwertz gelegen&#10;ư genant ist zem nstern Schwibogen , zinst jähr von&#10;eig . der Brudesch s . Joh uf Burg , 5 sh . sonstfrei"/>
+        <role role="owner" ref="1152" text="jrem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="22" end="40" ref="1165" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1140" text="jrem Hus &amp; Hofstatt&#10;an der nüwengassen , gegen dem Hus zer Merkatzen über ,&#10;am ortt gegen der ellenden Herberg hunffwertz gelegen&#10;ư genant ist zem nstern Schwibogen , zinst jähr von&#10;eig . der Brudesch s . Joh uf Burg , 5 sh . sonstfrei"/>
+        <role role="location-b" ref="1171" text="der nüwengassen"/>
+        <role role="location-b" ref="1183" text="dem Hus zer Merkatzen"/>
+        <role role="location-b" ref="1207" text="am ortt gegen der ellenden Herberg hunffwertz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="39" ref="1219" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1207" text="am ortt gegen der ellenden Herberg hunffwertz"/>
+        <role role="location-b" ref="1195" text="der ellenden Herberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="48" end="64" ref="1273" type="state">
+      <trigger start="48" end="48" text="zinst" ref="1291"/>
+      <event event_id="4.0">
+        <role role="property" ref="1140" text="jrem Hus &amp; Hofstatt&#10;an der nüwengassen , gegen dem Hus zer Merkatzen über ,&#10;am ortt gegen der ellenden Herberg hunffwertz gelegen&#10;ư genant ist zem nstern Schwibogen , zinst jähr von&#10;eig . der Brudesch s . Joh uf Burg , 5 sh . sonstfrei"/>
+        <role role="interval" ref="1231" text="jähr"/>
+        <role role="cause" ref="1297" text="von&#10;eig ."/>
+        <role role="beneficiary" ref="1237" text="der Brudesch s . Joh uf Burg"/>
+        <role role="interest" ref="1261" text="5 sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="58" end="59" ref="1249" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1237" text="der Brudesch s . Joh uf Burg"/>
+        <role role="location-b" ref="1255" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="70" ref="" type="event">
+      <trigger start="7" end="7" text="verkaufen" ref="1279"/>
+      <event event_id="6.0">
+        <role role="seller" ref="1073" text="Peter Breitenbach"/>
+        <role role="seller" ref="1079" text="seine Frau Urselen"/>
+        <role role="buyer" ref="1122" text="Jkr . Dietrich Murern"/>
+        <role role="interest" ref="1134" text="1 fl"/>
+        <role role="collateral" ref="1140" text="jrem Hus &amp; Hofstatt&#10;an der nüwengassen , gegen dem Hus zer Merkatzen über ,&#10;am ortt gegen der ellenden Herberg hunffwertz gelegen&#10;ư genant ist zem nstern Schwibogen , zinst jähr von&#10;eig . der Brudesch s . Joh uf Burg , 5 sh . sonstfrei"/>
+        <role role="price" ref="1267" text="20 fl ."/>
+        <role role="interest-redeemable" ref="1285" text="widerk ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

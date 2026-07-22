@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 155/21 S. [60]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Untere Rebgasse 15, 17</tei:title>
+            <tei:idno>HGB 1 155/21</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1505718</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Schaffneien</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1692">1692</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611588.538029728 1267946.226534587</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Osswaldt</token>
+    <token token_id="1">Ritter</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Müller</token>
+    <token token_id="4">soll</token>
+    <token token_id="5">1</token>
+    <token token_id="6">℔</token>
+    <token token_id="7">14ß</token>
+    <token token_id="8">.</token>
+    <token token_id="9">Jahrs</token>
+    <token token_id="10">auff</token>
+    <token token_id="11">2</token>
+    <token token_id="12">℔</token>
+    <token token_id="13">-</token>
+    <token token_id="14">ß</token>
+    <token token_id="15">-</token>
+    <token token_id="16">ȡ</token>
+    <token token_id="17">.</token>
+    <token token_id="18">6ß</token>
+    <token token_id="19">-</token>
+    <token token_id="20">pr</token>
+    <token token_id="21">6</token>
+    <token token_id="22">Hüener</token>
+    <token token_id="23">Martini</token>
+    <token token_id="24">ab</token>
+    <token token_id="25">der</token>
+    <token token_id="26">Schwarzen</token>
+    <token token_id="27">Sternenmühlin</token>
+    <token token_id="28">,</token>
+  </text>
+  <spans>
+    <span id="483" start="0" end="3" text="Osswaldt Ritter der Müller" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="489" start="0" end="1" text="Osswaldt Ritter" element="head" class="nam" subclass=""/>
+      <span id="495" start="2" end="3" text="der Müller" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="501" start="3" end="3" text="Müller" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="507" start="5" end="8" text="1 ℔ 14ß ." element="value" class="money" subclass=""/>
+    <span id="531" start="9" end="9" text="Jahrs" element="value" class="time" subclass="rec"/>
+    <span id="513" start="11" end="16" text="2 ℔ - ß - ȡ" element="value" class="money" subclass=""/>
+    <span id="519" start="18" end="22" text="6ß - pr 6 Hüener" element="value" class="money" subclass=""/>
+    <span id="525" start="23" end="23" text="Martini" element="value" class="date" subclass=""/>
+    <span id="549" start="24" end="24" text="ab" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="537" start="25" end="27" text="der Schwarzen Sternenmühlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="543" start="26" end="27" text="Schwarzen Sternenmühlin" element="head" class="nam" subclass=""/>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="0" end="27" ref="" type="state">
+      <trigger start="24" end="24" text="ab" ref="549"/>
+      <event event_id="0.0">
+        <role role="payer" ref="483" text="Osswaldt Ritter der Müller"/>
+        <role role="interest" ref="507" text="1 ℔ 14ß ."/>
+        <role role="interval" ref="531" text="Jahrs"/>
+        <role role="interest" ref="513" text="2 ℔ - ß - ȡ"/>
+        <role role="interest" ref="519" text="6ß - pr 6 Hüener"/>
+        <role role="due-date" ref="525" text="Martini"/>
+        <role role="property" ref="537" text="der Schwarzen Sternenmühlin"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

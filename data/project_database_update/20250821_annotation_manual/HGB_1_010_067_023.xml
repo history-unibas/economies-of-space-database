@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/67 S. [23]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt 39</tei:title>
+            <tei:idno>HGB 1 10/67</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433440</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Leonhard</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1510">1510</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611933.751173316 1267113.6143678739</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Jerg</token>
+    <token token_id="1">Wagen</token>
+    <token token_id="2">git</token>
+    <token token_id="3">5</token>
+    <token token_id="4">sh</token>
+    <token token_id="5">.</token>
+    <token token_id="6">von</token>
+    <token token_id="7">eim</token>
+    <token token_id="8">Hus</token>
+    <token token_id="9">in</token>
+    <token token_id="10">sant</token>
+    <token token_id="11">Alban</token>
+    <token token_id="12">Vorstat</token>
+    <token token_id="13">lit</token>
+    <token token_id="14">gegen</token>
+    <token token_id="15">dem</token>
+    <token token_id="16">Brunnen</token>
+    <token token_id="17">,</token>
+    <token token_id="18">neben</token>
+    <token token_id="19">Claus</token>
+    <token token_id="20">Sigmund</token>
+    <token token_id="21">Darübergeschrieben</token>
+    <token token_id="22">:</token>
+    <token token_id="23">Conrat</token>
+    <token token_id="24">Hugly</token>
+    <token token_id="25">heredes</token>
+    <token token_id="26">eins</token>
+    <token token_id="27">apud</token>
+    <token token_id="28">s</token>
+    <token token_id="29">.</token>
+    <token token_id="30">Albani</token>
+    <token token_id="31">.</token>
+  </text>
+  <spans>
+    <span id="525" start="0" end="1" text="Jerg Wagen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="525_head" start="0" end="1" element="head" class="nam" text="Jerg Wagen" subclass=""/>
+    </span>
+    <span id="622" start="2" end="2" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="531" start="3" end="5" text="5 sh ." element="value" class="money" subclass=""/>
+    <span id="537" start="7" end="20" text="eim Hus in sant Alban Vorstat&#10;lit gegen dem Brunnen , neben Claus Sigmund" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="573" start="8" end="8" text="Hus" element="head" class="type" subclass=""/>
+      <span id="579" start="9" end="20" text="in sant Alban Vorstat&#10;lit gegen dem Brunnen , neben Claus Sigmund" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="585" start="10" end="12" text="sant Alban Vorstat" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="585_head" start="10" end="12" element="head" class="nam" text="sant Alban Vorstat" subclass=""/>
+        </span>
+        <span id="591" start="15" end="16" text="dem Brunnen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="603" start="16" end="16" text="Brunnen" element="head" class="type" subclass=""/>
+        </span>
+        <span id="597" start="19" end="20" text="Claus Sigmund" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="597_head" start="19" end="20" element="head" class="nam" text="Claus Sigmund" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="543" start="23" end="26" text="Conrat Hugly heredes eins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="561" start="23" end="24" text="Conrat Hugly" element="head" class="nam" subclass=""/>
+      <span id="567" start="25" end="26" text="heredes eins" element="appo" class="fam" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+        <span id="609" start="25" end="25" text="heredes" element="head" class="fam" subclass=""/>
+        <span id="555" start="26" end="26" text="eins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="555_head" start="26" end="26" element="head" class="pro" text="eins" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="549" start="28" end="31" text="s . Albani ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+      <span id="549_head" start="28" end="31" element="head" class="nam" text="s . Albani ." subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="615" from="555" to="525" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="past" modality="ass" start="25" end="26" ref="567" type="state">
+      <trigger start="25" end="25" text="heredes" ref="609"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="543" text="Conrat Hugly heredes eins"/>
+        <role role="family-b" ref="555" text="eins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="9" end="20" ref="579" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="537" text="eim Hus in sant Alban Vorstat&#10;lit gegen dem Brunnen , neben Claus Sigmund"/>
+        <role role="location-b" ref="585" text="sant Alban Vorstat"/>
+        <role role="location-b" ref="591" text="dem Brunnen"/>
+        <role role="location-b" ref="597" text="Claus Sigmund"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="0" end="20" ref="" type="state">
+      <trigger start="2" end="2" text="git" ref="622"/>
+      <event event_id="2.0">
+        <role role="payer" ref="525" text="Jerg Wagen"/>
+        <role role="interest" ref="531" text="5 sh ."/>
+        <role role="property" ref="537" text="eim Hus in sant Alban Vorstat&#10;lit gegen dem Brunnen , neben Claus Sigmund"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 50/42 S. [30]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Eisengasse 10</tei:title>
+            <tei:idno>HGB 1 50/42</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1465139</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1518">1518</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611263.393071432 1267645.075055556</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">in</token>
+    <token token_id="1">sant</token>
+    <token token_id="2">Martini</token>
+    <token token_id="3">.</token>
+    <token token_id="4">1518</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Martin</token>
+    <token token_id="7">Huber</token>
+    <token token_id="8">gibt</token>
+    <token token_id="9">vonn</token>
+    <token token_id="10">sinem</token>
+    <token token_id="11">Hus</token>
+    <token token_id="12">zur</token>
+    <token token_id="13">Tschotten</token>
+    <token token_id="14">10sh</token>
+    <token token_id="15">.</token>
+    <token token_id="16">Ebenso</token>
+    <token token_id="17">.</token>
+    <token token_id="18">1514</token>
+    <token token_id="19">.</token>
+    <token token_id="20">1515</token>
+    <token token_id="21">.</token>
+    <token token_id="22">1516</token>
+    <token token_id="23">.</token>
+    <token token_id="24">1517</token>
+    <token token_id="25">.</token>
+    <token token_id="26">1518</token>
+    <token token_id="27">.</token>
+    <token token_id="28">1519</token>
+    <token token_id="29">.</token>
+    <token token_id="30">1520</token>
+    <token token_id="31">.</token>
+  </text>
+  <spans>
+    <span id="507" start="1" end="2" text="sant Martini" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="507_head" start="1" end="2" element="head" class="nam" text="sant Martini" subclass=""/>
+    </span>
+    <span id="513" start="4" end="4" text="1518" element="value" class="date" subclass=""/>
+    <span id="561" start="6" end="7" text="Martin Huber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="561_head" start="6" end="7" element="head" class="nam" text="Martin Huber" subclass=""/>
+    </span>
+    <span id="604" start="8" end="8" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="567" start="10" end="13" text="sinem Hus zur Tschotten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="579" start="10" end="10" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="585" start="10" end="10" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="585_head" start="10" end="10" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="573" start="11" end="13" text="Hus zur Tschotten" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="598" start="14" end="15" text="10sh ." element="value" class="money" subclass=""/>
+    <span id="519" start="18" end="18" text="1514" element="value" class="date" subclass=""/>
+    <span id="525" start="20" end="20" text="1515" element="value" class="date" subclass=""/>
+    <span id="531" start="22" end="22" text="1516" element="value" class="date" subclass=""/>
+    <span id="537" start="24" end="24" text="1517" element="value" class="date" subclass=""/>
+    <span id="543" start="26" end="26" text="1518" element="value" class="date" subclass=""/>
+    <span id="549" start="28" end="28" text="1519" element="value" class="date" subclass=""/>
+    <span id="555" start="30" end="30" text="1520" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="591" from="585" to="561" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="10" end="10" ref="579" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="567" text="sinem Hus zur Tschotten"/>
+        <role role="owner" ref="585" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="1" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="gibt" ref="604"/>
+      <event event_id="1.0">
+        <role role="place" ref="507" text="sant Martini"/>
+        <role role="date" ref="513" text="1518"/>
+        <role role="payer" ref="561" text="Martin Huber"/>
+        <role role="property" ref="567" text="sinem Hus zur Tschotten"/>
+        <role role="interest" ref="598" text="10sh ."/>
+        <role role="date" ref="519" text="1514"/>
+        <role role="date" ref="525" text="1515"/>
+        <role role="date" ref="531" text="1516"/>
+        <role role="date" ref="537" text="1517"/>
+        <role role="date" ref="543" text="1518"/>
+        <role role="date" ref="549" text="1519"/>
+        <role role="date" ref="555" text="1520"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

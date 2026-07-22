@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 44/8 S. [19]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Claraplatz 1 - 5 u. obere Rebgasse Th. v. 1 neben Claraplatz</tei:title>
+            <tei:idno>HGB 1 44/8</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1464989</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Klara</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1459">1459</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611642.8420711453 1267903.9155800552</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Raths</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Die</token>
+    <token token_id="5">Fünffe</token>
+    <token token_id="6">über</token>
+    <token token_id="7">der</token>
+    <token token_id="8">Stette</token>
+    <token token_id="9">Buw</token>
+    <token token_id="10">erkennen</token>
+    <token token_id="11">zwi</token>
+    <token token_id="12">¬</token>
+    <token token_id="13">schen</token>
+    <token token_id="14">Henman</token>
+    <token token_id="15">Schliffer</token>
+    <token token_id="16">dem</token>
+    <token token_id="17">Wassermeister</token>
+    <token token_id="18">iensat</token>
+    <token token_id="19">Rins</token>
+    <token token_id="20">in</token>
+    <token token_id="21">der</token>
+    <token token_id="22">Kleinen</token>
+    <token token_id="23">Statt</token>
+    <token token_id="24">und</token>
+    <token token_id="25">dem</token>
+    <token token_id="26">Kloster</token>
+    <token token_id="27">zu</token>
+    <token token_id="28">Sant</token>
+    <token token_id="29">Claren</token>
+    <token token_id="30">,</token>
+    <token token_id="31">betreffend</token>
+    <token token_id="32">die</token>
+    <token token_id="33">zwen</token>
+    <token token_id="34">Gatter</token>
+    <token token_id="35">,</token>
+    <token token_id="36">die</token>
+    <token token_id="37">die</token>
+    <token token_id="38">genanten</token>
+    <token token_id="39">Prowen</token>
+    <token token_id="40">in</token>
+    <token token_id="41">den</token>
+    <token token_id="42">Sych</token>
+    <token token_id="43">,</token>
+    <token token_id="44">der</token>
+    <token token_id="45">durch</token>
+    <token token_id="46">ir</token>
+    <token token_id="47">Kloster</token>
+    <token token_id="48">füsst</token>
+    <token token_id="49">,</token>
+    <token token_id="50">gemacht</token>
+    <token token_id="51">haben</token>
+    <token token_id="52">,</token>
+    <token token_id="53">die</token>
+    <token token_id="54">im</token>
+    <token token_id="55">und</token>
+    <token token_id="56">andern</token>
+    <token token_id="57">uff</token>
+    <token token_id="58">dem</token>
+    <token token_id="59">Tych</token>
+    <token token_id="60">¬</token>
+    <token token_id="61">gesessen</token>
+    <token token_id="62">,</token>
+    <token token_id="63">die</token>
+    <token token_id="64">daruff</token>
+    <token token_id="65">belchnet</token>
+    <token token_id="66">sind</token>
+    <token token_id="67">,</token>
+    <token token_id="68">vast</token>
+    <token token_id="69">schädlich</token>
+    <token token_id="70">wer</token>
+    <token token_id="71">¬</token>
+    <token token_id="72">rent</token>
+    <token token_id="73">.</token>
+  </text>
+  <spans>
+    <span id="1148" start="4" end="9" text="Die Fünffe über der Stette Buw" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="1196" start="5" end="9" text="Fünffe über der Stette Buw" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1339" start="10" end="10" text="erkennen" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1226" start="14" end="29" text="Henman Schliffer dem Wassermeister iensat&#10;Rins in der Kleinen Statt und dem Kloster zu Sant&#10;Claren" element="list" class="org;per" subclass="">
+      <span id="1208" start="14" end="23" text="Henman Schliffer dem Wassermeister iensat&#10;Rins in der Kleinen Statt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1154" start="14" end="15" text="Henman Schliffer" element="head" class="nam" subclass=""/>
+        <span id="1202" start="16" end="23" text="dem Wassermeister iensat&#10;Rins in der Kleinen Statt" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1160" start="17" end="17" text="Wassermeister" element="head" class="occ" subclass=""/>
+          <span id="1214" start="18" end="23" text="iensat&#10;Rins in der Kleinen Statt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1220" start="19" end="19" text="Rins" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1220_head" start="19" end="19" element="head" class="nam" text="Rins" subclass=""/>
+            </span>
+            <span id="1166" start="21" end="23" text="der Kleinen Statt" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1172" start="22" end="23" text="Kleinen Statt" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1178" start="25" end="29" text="dem Kloster zu Sant&#10;Claren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1327" start="26" end="29" text="Kloster zu Sant&#10;Claren" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1345" start="32" end="34" text="die zwen Gatter" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1351" start="34" end="34" text="Gatter" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1357" start="36" end="36" text="die" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1357_head" start="36" end="36" element="head" class="pro" text="die" subclass=""/>
+    </span>
+    <span id="1238" start="37" end="39" text="die genanten&#10;Prowen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1244" start="39" end="39" text="Prowen" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1270" start="41" end="42" text="den Sych" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1270_head" start="41" end="42" element="head" class="type" text="den Sych" subclass=""/>
+    </span>
+    <span id="1184" start="46" end="47" text="ir Kloster" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1257" start="46" end="46" text="ir" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1190" start="46" end="46" text="ir" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1190_head" start="46" end="46" element="head" class="pro" text="ir" subclass=""/>
+        </span>
+      </span>
+      <span id="1232" start="47" end="47" text="Kloster" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1383" start="50" end="50" text="gemacht" element="trigger" class="construction" tense="past" polarity="pos" modality="ass" subclass=""/>
+    <span id="1370" start="53" end="53" text="die" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1370_head" start="53" end="53" element="head" class="pro" text="die" subclass=""/>
+    </span>
+    <span id="1308" start="54" end="56" text="im und andern" element="list" class="per" subclass="">
+      <span id="1289" start="54" end="54" text="im" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1289_head" start="54" end="54" element="head" class="pro" text="im" subclass=""/>
+      </span>
+      <span id="1302" start="56" end="56" text="andern" element="reference" class="per" numerus="grp" specificity="uspc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1302_head" start="56" end="56" element="head" class="pro" text="andern" subclass=""/>
+      </span>
+    </span>
+    <span id="1276" start="58" end="59" text="dem Tych" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1333" start="59" end="59" text="Tych" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1314" start="63" end="63" text="die" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1314_head" start="63" end="63" element="head" class="pro" text="die" subclass=""/>
+    </span>
+    <span id="1389" start="65" end="65" text="belchnet" element="trigger" class="hereditary" tense="pres" polarity="pos" modality="ass" subclass="lease"/>
+  </spans>
+  <relations>
+    <relation id="1295" from="1289" to="1208" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1250" from="1238" to="1178" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1363" from="1357" to="1345" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1376" from="1370" to="1357" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1263" from="1190" to="1238" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1282" from="1276" to="1270" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1320" from="1314" to="1308" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="18" end="23" ref="1214" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="1208" text="Henman Schliffer dem Wassermeister iensat&#10;Rins in der Kleinen Statt"/>
+        <role role="location-b" ref="1220" text="Rins"/>
+        <role role="location-b" ref="1166" text="der Kleinen Statt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="46" end="46" ref="1257" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1184" text="ir Kloster"/>
+        <role role="owner" ref="1190" text="ir"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="litigation" polarity="pos" tense="pres" modality="ass" start="10" end="50" ref="" type="event">
+      <trigger start="10" end="10" text="erkennen" ref="1339"/>
+      <event event_id="2.0">
+        <role role="court" ref="1148" text="Die Fünffe über der Stette Buw"/>
+        <role role="party1" ref="1208" text="Henman Schliffer dem Wassermeister iensat&#10;Rins in der Kleinen Statt"/>
+        <role role="party2" ref="1178" text="dem Kloster zu Sant&#10;Claren"/>
+        <role role="subject" ref="1383" text="gemacht"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="construction" polarity="pos" tense="past" modality="ass" start="36" end="50" ref="" type="event">
+      <trigger start="50" end="50" text="gemacht" ref="1383"/>
+      <event event_id="3.0">
+        <role role="structure" ref="1357" text="die"/>
+        <role role="place" ref="1270" text="den Sych"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="heritable-lease-grant" polarity="pos" tense="pres" modality="ass" start="58" end="65" ref="" type="event">
+      <trigger start="65" end="65" text="belchnet" ref="1389"/>
+      <event event_id="4.0">
+        <role role="property" ref="1276" text="dem Tych"/>
+        <role role="lessee" ref="1314" text="die"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

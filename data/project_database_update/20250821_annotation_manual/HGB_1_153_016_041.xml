@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 153/16 S. [41]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rappoltshof 11</tei:title>
+            <tei:idno>HGB 1 153/16</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1505472</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1670">1670</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611641.2941362318 1268013.7101546386</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Kernenzins</token>
+    <token token_id="1">in</token>
+    <token token_id="2">Klein</token>
+    <token token_id="3">-</token>
+    <token token_id="4">-</token>
+    <token token_id="5">Basel</token>
+    <token token_id="6">.</token>
+    <token token_id="7">1670</token>
+    <token token_id="8">Johannes</token>
+    <token token_id="9">Jsenflamm</token>
+    <token token_id="10">,</token>
+    <token token_id="11">zuvor</token>
+    <token token_id="12">sein</token>
+    <token token_id="13">Vater</token>
+    <token token_id="14">,</token>
+    <token token_id="15">zinnst</token>
+    <token token_id="16">jährlich</token>
+    <token token_id="17">von</token>
+    <token token_id="18">St</token>
+    <token token_id="19">.</token>
+    <token token_id="20">Clara</token>
+    <token token_id="21">,</token>
+    <token token_id="22">Mühlin</token>
+    <token token_id="23">zu</token>
+    <token token_id="24">den</token>
+    <token token_id="25">4</token>
+    <token token_id="26">fronfasten</token>
+    <token token_id="27">Kernen</token>
+    <token token_id="28">18</token>
+    <token token_id="29">Säckh</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Ebenso</token>
+    <token token_id="32">:</token>
+    <token token_id="33">1671</token>
+    <token token_id="34">1672</token>
+    <token token_id="35">1673</token>
+  </text>
+  <spans>
+    <span id="605" start="2" end="5" text="Klein -- Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="605_head" start="2" end="5" element="head" class="nam" text="Klein - - Basel" subclass=""/>
+    </span>
+    <span id="611" start="7" end="7" text="1670" element="value" class="date" subclass=""/>
+    <span id="617" start="8" end="9" text="Johannes Jsenflamm" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="617_head" start="8" end="9" element="head" class="nam" text="Johannes Jsenflamm" subclass=""/>
+    </span>
+    <span id="623" start="12" end="13" text="sein Vater" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="635" start="12" end="12" text="sein" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="635_head" start="12" end="12" element="head" class="pro" text="sein" subclass=""/>
+      </span>
+      <span id="629" start="13" end="13" text="Vater" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="690" start="15" end="15" text="zinnst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="648" start="16" end="16" text="jährlich" element="value" class="time" subclass="rec"/>
+    <span id="654" start="18" end="22" text="St . Clara , Mühlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="654_head" start="18" end="22" element="head" class="nam" text="St . Clara , Mühlin" subclass=""/>
+    </span>
+    <span id="660" start="24" end="26" text="den 4 fronfasten" element="value" class="date" subclass=""/>
+    <span id="666" start="27" end="30" text="Kernen 18 Säckh ." element="value" class="money" subclass=""/>
+    <span id="672" start="33" end="33" text="1671" element="value" class="date" subclass=""/>
+    <span id="678" start="34" end="34" text="1672" element="value" class="date" subclass=""/>
+    <span id="684" start="35" end="35" text="1673" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="641" from="635" to="617" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="12" end="13" ref="623" type="state">
+      <trigger start="13" end="13" text="Vater" ref="629"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="623" text="sein Vater"/>
+        <role role="family-b" ref="635" text="sein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="15" end="35" ref="" type="event">
+      <trigger start="15" end="15" text="zinnst" ref="690"/>
+      <event event_id="1.0">
+        <role role="date" ref="611" text="1670"/>
+        <role role="payer" ref="617" text="Johannes Jsenflamm"/>
+        <role role="previous-payer" ref="623" text="sein Vater"/>
+        <role role="interval" ref="648" text="jährlich"/>
+        <role role="property" ref="654" text="St . Clara , Mühlin"/>
+        <role role="due-date" ref="660" text="den 4 fronfasten"/>
+        <role role="interest" ref="666" text="Kernen 18 Säckh ."/>
+        <role role="date" ref="672" text="1671"/>
+        <role role="date" ref="678" text="1672"/>
+        <role role="date" ref="684" text="1673"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

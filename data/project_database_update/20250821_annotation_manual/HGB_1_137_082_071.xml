@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 137/82 S. [71]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Nadelberg 30</tei:title>
+            <tei:idno>HGB 1 137/82</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1500829</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Prediger</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1668">1668</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611053.85226628 1267384.0753927953</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">die</token>
+    <token token_id="2">herren</token>
+    <token token_id="3">zu</token>
+    <token token_id="4">st</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Peter</token>
+    <token token_id="7">vom</token>
+    <token token_id="8">hauß</token>
+    <token token_id="9">Fleisch</token>
+    <token token_id="10">genant</token>
+    <token token_id="11">auf</token>
+    <token token_id="12">dem</token>
+    <token token_id="13">Höweberg</token>
+    <token token_id="14">Jahrs</token>
+    <token token_id="15">2ring</token>
+    <token token_id="16">.</token>
+    <token token_id="17">Ebenso</token>
+    <token token_id="18">1669</token>
+    <token token_id="19">.</token>
+    <token token_id="20">Ebenso</token>
+    <token token_id="21">1670</token>
+    <token token_id="22">.</token>
+    <token token_id="23">Ebenso</token>
+    <token token_id="24">1671</token>
+    <token token_id="25">.</token>
+    <token token_id="26">Ebenso</token>
+    <token token_id="27">Ebenso</token>
+    <token token_id="28">1674</token>
+    <token token_id="29">1672</token>
+    <token token_id="30">Ebenso</token>
+    <token token_id="31">1673</token>
+    <token token_id="32">.</token>
+    <token token_id="33">1675</token>
+    <token token_id="34">.</token>
+    <token token_id="35">Ebenso</token>
+    <token token_id="36">Ebenso</token>
+    <token token_id="37">1676</token>
+    <token token_id="38">.</token>
+    <token token_id="39">Ebenso</token>
+    <token token_id="40">1677</token>
+    <token token_id="41">.</token>
+    <token token_id="42">Ebenso</token>
+    <token token_id="43">Ebenso</token>
+    <token token_id="44">1679</token>
+    <token token_id="45">.</token>
+    <token token_id="46">1678</token>
+    <token token_id="47">.</token>
+    <token token_id="48">Ebenso</token>
+    <token token_id="49">1680</token>
+    <token token_id="50">.</token>
+    <token token_id="51">Ebenso</token>
+    <token token_id="52">.</token>
+    <token token_id="53">Ebenso</token>
+    <token token_id="54">1682</token>
+    <token token_id="55">.</token>
+    <token token_id="56">1681</token>
+    <token token_id="57">.</token>
+    <token token_id="58">Ebenso</token>
+    <token token_id="59">1683</token>
+    <token token_id="60">.</token>
+    <token token_id="61">1684</token>
+    <token token_id="62">.</token>
+    <token token_id="63">Ebenso</token>
+    <token token_id="64">1685</token>
+    <token token_id="65">.</token>
+    <token token_id="66">Ebenso</token>
+    <token token_id="67">Ebenso</token>
+    <token token_id="68">1686</token>
+    <token token_id="69">.</token>
+    <token token_id="70">Ebenso</token>
+    <token token_id="71">1687</token>
+    <token token_id="72">.</token>
+    <token token_id="73">Ebenso</token>
+    <token token_id="74">1688</token>
+    <token token_id="75">.</token>
+    <token token_id="76">Ebenso</token>
+    <token token_id="77">1689</token>
+    <token token_id="78">.</token>
+    <token token_id="79">Ebenso</token>
+    <token token_id="80">.</token>
+    <token token_id="81">1690</token>
+    <token token_id="82">.</token>
+    <token token_id="83">Ebenso</token>
+    <token token_id="84">1691</token>
+    <token token_id="85">.</token>
+    <token token_id="86">Ebenso</token>
+    <token token_id="87">1692</token>
+    <token token_id="88">.</token>
+  </text>
+  <spans>
+    <span id="1810" start="0" end="88" text="Item die herren zu st . Peter vom hauß&#10;Fleisch genant auf dem Höweberg&#10;Jahrs&#10;2ring .&#10;Ebenso 1669 .&#10;Ebenso 1670 .&#10;Ebenso 1671 .&#10;Ebenso&#10;Ebenso 1674&#10;1672&#10;Ebenso 1673 .&#10;1675 .&#10;Ebenso&#10;Ebenso 1676 .&#10;Ebenso 1677 .&#10;Ebenso&#10;Ebenso 1679 .&#10;1678 .&#10;Ebenso 1680 .&#10;Ebenso .&#10;Ebenso 1682 .&#10;1681 .&#10;Ebenso 1683 .&#10;1684 .&#10;Ebenso 1685 .&#10;Ebenso&#10;Ebenso 1686 .&#10;Ebenso&#10;1687 .&#10;Ebenso 1688 .&#10;Ebenso 1689 .&#10;Ebenso .&#10;1690 .&#10;Ebenso 1691 .&#10;Ebenso 1692 ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1600" start="1" end="6" text="die herren zu st . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1606" start="2" end="6" text="herren zu st . Peter" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1612" start="8" end="13" text="hauß&#10;Fleisch genant auf dem Höweberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1618" start="8" end="8" text="hauß" element="head" class="type" subclass=""/>
+        <span id="1624" start="9" end="9" text="Fleisch" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1624_head" start="9" end="9" element="head" class="nam" text="Fleisch" subclass=""/>
+        </span>
+        <span id="1630" start="11" end="13" text="auf dem Höweberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1636" start="12" end="13" text="dem Höweberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1642" start="13" end="13" text="Höweberg" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1666" start="14" end="14" text="Jahrs" element="value" class="time" subclass="rec"/>
+      <span id="1648" start="15" end="16" text="2ring ." element="value" class="money" subclass=""/>
+      <span id="1654" start="18" end="18" text="1669" element="value" class="date" subclass=""/>
+      <span id="1660" start="21" end="21" text="1670" element="value" class="date" subclass=""/>
+      <span id="1672" start="24" end="24" text="1671" element="value" class="date" subclass=""/>
+      <span id="1678" start="28" end="28" text="1674" element="value" class="date" subclass=""/>
+      <span id="1684" start="29" end="29" text="1672" element="value" class="date" subclass=""/>
+      <span id="1690" start="31" end="31" text="1673" element="value" class="date" subclass=""/>
+      <span id="1696" start="33" end="33" text="1675" element="value" class="date" subclass=""/>
+      <span id="1702" start="37" end="37" text="1676" element="value" class="date" subclass=""/>
+      <span id="1708" start="40" end="40" text="1677" element="value" class="date" subclass=""/>
+      <span id="1714" start="44" end="44" text="1679" element="value" class="date" subclass=""/>
+      <span id="1720" start="46" end="46" text="1678" element="value" class="date" subclass=""/>
+      <span id="1726" start="49" end="49" text="1680" element="value" class="date" subclass=""/>
+      <span id="1732" start="54" end="54" text="1682" element="value" class="date" subclass=""/>
+      <span id="1738" start="56" end="56" text="1681" element="value" class="date" subclass=""/>
+      <span id="1744" start="59" end="59" text="1683" element="value" class="date" subclass=""/>
+      <span id="1750" start="61" end="61" text="1684" element="value" class="date" subclass=""/>
+      <span id="1756" start="64" end="64" text="1685" element="value" class="date" subclass=""/>
+      <span id="1762" start="68" end="68" text="1686" element="value" class="date" subclass=""/>
+      <span id="1768" start="71" end="71" text="1687" element="value" class="date" subclass=""/>
+      <span id="1774" start="74" end="74" text="1688" element="value" class="date" subclass=""/>
+      <span id="1780" start="77" end="77" text="1689" element="value" class="date" subclass=""/>
+      <span id="1786" start="81" end="81" text="1690" element="value" class="date" subclass=""/>
+      <span id="1792" start="84" end="84" text="1691" element="value" class="date" subclass=""/>
+      <span id="1798" start="87" end="87" text="1692" element="value" class="date" subclass=""/>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="88" ref="1810" type="event">
+      <event event_id="0.0">
+        <role role="payer" ref="1600" text="die herren zu st . Peter"/>
+        <role role="property" ref="1612" text="hauß&#10;Fleisch genant auf dem Höweberg"/>
+        <role role="interval" ref="1666" text="Jahrs"/>
+        <role role="interest" ref="1648" text="2ring ."/>
+        <role role="date" ref="1654" text="1669"/>
+        <role role="date" ref="1660" text="1670"/>
+        <role role="date" ref="1672" text="1671"/>
+        <role role="date" ref="1678" text="1674"/>
+        <role role="date" ref="1684" text="1672"/>
+        <role role="date" ref="1690" text="1673"/>
+        <role role="date" ref="1696" text="1675"/>
+        <role role="date" ref="1702" text="1676"/>
+        <role role="date" ref="1708" text="1677"/>
+        <role role="date" ref="1714" text="1679"/>
+        <role role="date" ref="1720" text="1678"/>
+        <role role="date" ref="1726" text="1680"/>
+        <role role="date" ref="1732" text="1682"/>
+        <role role="date" ref="1738" text="1681"/>
+        <role role="date" ref="1744" text="1683"/>
+        <role role="date" ref="1750" text="1684"/>
+        <role role="date" ref="1756" text="1685"/>
+        <role role="date" ref="1762" text="1686"/>
+        <role role="date" ref="1768" text="1687"/>
+        <role role="date" ref="1774" text="1688"/>
+        <role role="date" ref="1780" text="1689"/>
+        <role role="date" ref="1786" text="1690"/>
+        <role role="date" ref="1792" text="1691"/>
+        <role role="date" ref="1798" text="1692"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="11" end="13" ref="1630" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1612" text="hauß&#10;Fleisch genant auf dem Höweberg"/>
+        <role role="location-b" ref="1636" text="dem Höweberg"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

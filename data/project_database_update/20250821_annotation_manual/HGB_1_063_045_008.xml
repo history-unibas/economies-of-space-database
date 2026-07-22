@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/45 S. [8]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse Theil von 45 Mitte</tei:title>
+            <tei:idno>HGB 1 63/45</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472900</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Augustiner</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1393">1393</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611305.6132022757 1267256.587815516</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Das</token>
+    <token token_id="4">Gericht</token>
+    <token token_id="5">spricht</token>
+    <token token_id="6">ein</token>
+    <token token_id="7">Urteil</token>
+    <token token_id="8">betreffend</token>
+    <token token_id="9">1</token>
+    <token token_id="10">℔</token>
+    <token token_id="11">Gelter</token>
+    <token token_id="12">,</token>
+    <token token_id="13">das</token>
+    <token token_id="14">Johans</token>
+    <token token_id="15">Muttenzer</token>
+    <token token_id="16">wilent</token>
+    <token token_id="17">amptmann</token>
+    <token token_id="18">des</token>
+    <token token_id="19">Gerichtes</token>
+    <token token_id="20">Agnes</token>
+    <token token_id="21">siner</token>
+    <token token_id="22">elichen</token>
+    <token token_id="23">Wirtin</token>
+    <token token_id="24">zu</token>
+    <token token_id="25">rechter</token>
+    <token token_id="26">Mörgengabe</token>
+    <token token_id="27">gegeben</token>
+    <token token_id="28">hat</token>
+    <token token_id="29">uff</token>
+    <token token_id="30">und</token>
+    <token token_id="31">ab</token>
+    <token token_id="32">einem</token>
+    <token token_id="33">huse</token>
+    <token token_id="34">so</token>
+    <token token_id="35">da</token>
+    <token token_id="36">vas</token>
+    <token token_id="37">Henriatz</token>
+    <token token_id="38">des</token>
+    <token token_id="39">Metzigers</token>
+    <token token_id="40">gelegen</token>
+    <token token_id="41">uff</token>
+    <token token_id="42">sant</token>
+    <token token_id="43">Lienhartz</token>
+    <token token_id="44">Berg</token>
+    <token token_id="45">ze</token>
+    <token token_id="46">Basel</token>
+    <token token_id="47">,</token>
+    <token token_id="48">dieselbe</token>
+    <token token_id="49">Morgen</token>
+    <token token_id="50">¬</token>
+    <token token_id="51">gabl</token>
+    <token token_id="52">er</token>
+    <token token_id="53">aber</token>
+    <token token_id="54">verkauft</token>
+    <token token_id="55">undersetzt</token>
+    <token token_id="56">hat</token>
+    <token token_id="57">uff</token>
+    <token token_id="58">sinem</token>
+    <token token_id="59">huse</token>
+    <token token_id="60">zer</token>
+    <token token_id="61">Trüwe</token>
+    <token token_id="62">.</token>
+    <token token_id="63">In</token>
+    <token token_id="64">tergo</token>
+    <token token_id="65">:</token>
+    <token token_id="66">Swester</token>
+    <token token_id="67">Guti</token>
+    <token token_id="68">Muttenzerin</token>
+    <token token_id="69">von</token>
+    <token token_id="70">anderer</token>
+    <token token_id="71">hand</token>
+    <token token_id="72">:</token>
+    <token token_id="73">Die</token>
+    <token token_id="74">hinter</token>
+    <token token_id="75">Truw</token>
+    <token token_id="76">.</token>
+  </text>
+  <spans>
+    <span id="1205" start="3" end="4" text="Das Gericht" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="1211" start="4" end="4" text="Gericht" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1431" start="5" end="5" text="spricht" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1425" start="9" end="10" text="1 ℔" element="value" class="money" subclass=""/>
+    <span id="1437" start="11" end="11" text="Gelter" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1301" start="14" end="19" text="Johans Muttenzer wilent amptmann des Gerichtes" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1217" start="14" end="15" text="Johans Muttenzer" element="head" class="nam" subclass=""/>
+      <span id="1307" start="16" end="19" text="wilent amptmann des Gerichtes" element="appo" class="occ" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1313" start="17" end="17" text="amptmann" element="head" class="occ" subclass="org-job"/>
+        <span id="1319" start="18" end="19" text="des Gerichtes" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="1325" start="19" end="19" text="Gerichtes" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1223" start="20" end="23" text="Agnes&#10;siner elichen Wirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1229" start="20" end="20" text="Agnes" element="head" class="nam" subclass=""/>
+      <span id="1235" start="21" end="23" text="siner elichen Wirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1247" start="21" end="21" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1247_head" start="21" end="21" element="head" class="pro" text="siner" subclass=""/>
+        </span>
+        <span id="1241" start="22" end="23" text="elichen Wirtin" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1449" start="24" end="26" text="zu rechter Mörgengabe" element="other" class="other" subclass=""/>
+    <span id="1443" start="27" end="27" text="gegeben" element="trigger" class="transfer" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1253" start="32" end="46" text="einem huse so da vas Henriatz des Metzigers&#10;gelegen uff sant Lienhartz Berg ze Basel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1259" start="33" end="33" text="huse" element="head" class="type" subclass=""/>
+      <span id="1345" start="34" end="46" text="so da vas Henriatz des Metzigers&#10;gelegen uff sant Lienhartz Berg ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1265" start="37" end="39" text="Henriatz des Metzigers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1271" start="37" end="37" text="Henriatz" element="head" class="nam" subclass=""/>
+          <span id="1277" start="38" end="39" text="des Metzigers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1283" start="39" end="39" text="Metzigers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1289" start="42" end="44" text="sant Lienhartz Berg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1289_head" start="42" end="44" element="head" class="nam" text="sant Lienhartz Berg" subclass=""/>
+        </span>
+        <span id="1295" start="46" end="46" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1295_head" start="46" end="46" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1351" start="52" end="52" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1351_head" start="52" end="52" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="1455" start="55" end="55" text="undersetzt" element="trigger" class="pledge" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1364" start="58" end="61" text="sinem huse zer&#10;Trüwe" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1376" start="58" end="58" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1382" start="58" end="58" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1382_head" start="58" end="58" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1370" start="59" end="61" text="huse zer&#10;Trüwe" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1395" start="66" end="68" text="Swester Guti Muttenzerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1407" start="66" end="66" text="Swester" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1407_head" start="66" end="66" element="head" class="title" text="Swester" subclass=""/>
+      </span>
+      <span id="1401" start="67" end="68" text="Guti Muttenzerin" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1413" start="73" end="75" text="Die hinter Truw" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1419" start="74" end="75" text="hinter Truw" element="head" class="nam" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1331" from="1319" to="1205" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1338" from="1247" to="1301" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1357" from="1351" to="1301" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1388" from="1382" to="1351" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="past" modality="ass" start="16" end="19" ref="1307" type="state">
+      <trigger start="17" end="17" text="amptmann" ref="1313"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1301" text="Johans Muttenzer wilent amptmann des Gerichtes"/>
+        <role role="employer" ref="1319" text="des Gerichtes"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="21" end="23" ref="1235" type="state">
+      <trigger start="22" end="23" text="elichen Wirtin" ref="1241"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1223" text="Agnes&#10;siner elichen Wirtin"/>
+        <role role="family-b" ref="1247" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="34" end="46" ref="1345" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1253" text="einem huse so da vas Henriatz des Metzigers&#10;gelegen uff sant Lienhartz Berg ze Basel"/>
+        <role role="location-b" ref="1265" text="Henriatz des Metzigers"/>
+        <role role="location-b" ref="1289" text="sant Lienhartz Berg"/>
+        <role role="location-b" ref="1295" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="58" end="58" ref="1376" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1364" text="sinem huse zer&#10;Trüwe"/>
+        <role role="owner" ref="1382" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="litigation" polarity="pos" tense="pres" modality="ass" start="3" end="5" ref="" type="event">
+      <trigger start="5" end="5" text="spricht" ref="1431"/>
+      <event event_id="4.0">
+        <role role="court" ref="1205" text="Das Gericht"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="11" end="46" ref="" type="state">
+      <trigger start="11" end="11" text="Gelter" ref="1437"/>
+      <event event_id="5.0">
+        <role role="interest" ref="1425" text="1 ℔"/>
+        <role role="property" ref="1253" text="einem huse so da vas Henriatz des Metzigers&#10;gelegen uff sant Lienhartz Berg ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="transfer" polarity="pos" tense="pres" modality="ass" start="11" end="27" ref="" type="event">
+      <trigger start="27" end="27" text="gegeben" ref="1443"/>
+      <event event_id="6.0">
+        <role role="property" ref="1437" text="Gelter"/>
+        <role role="owner-prev" ref="1301" text="Johans Muttenzer wilent amptmann des Gerichtes"/>
+        <role role="owner-new" ref="1223" text="Agnes&#10;siner elichen Wirtin"/>
+        <role role="cause" ref="1449" text="zu rechter Mörgengabe"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="pledge" polarity="pos" tense="pres" modality="ass" start="52" end="61" ref="" type="event">
+      <trigger start="55" end="55" text="undersetzt" ref="1455"/>
+      <event event_id="7.0">
+        <role role="pledger" ref="1351" text="er"/>
+        <role role="property" ref="1364" text="sinem huse zer&#10;Trüwe"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

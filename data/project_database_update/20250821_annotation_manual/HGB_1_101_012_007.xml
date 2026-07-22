@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 101/12 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Klosterberg 15</tei:title>
+            <tei:idno>HGB 1 101/12</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1491672</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Jahresausgaben</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1524">1524</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611423.8106620354 1266819.7236287214</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1524</token>
+    <token token_id="1">/</token>
+    <token token_id="2">15</token>
+    <token token_id="3">Item</token>
+    <token token_id="4">36</token>
+    <token token_id="5">℔</token>
+    <token token_id="6">geben</token>
+    <token token_id="7">haus</token>
+    <token token_id="8">Oberrich</token>
+    <token token_id="9">von</token>
+    <token token_id="10">sinem</token>
+    <token token_id="11">hus</token>
+    <token token_id="12">zins</token>
+    <token token_id="13">für</token>
+    <token token_id="14">6</token>
+    <token token_id="15">Jar</token>
+    <token token_id="16">,</token>
+    <token token_id="17">alle</token>
+    <token token_id="18">Jar</token>
+    <token token_id="19">6</token>
+    <token token_id="20">℔</token>
+    <token token_id="21">.</token>
+  </text>
+  <spans>
+    <span id="custom_date" start="0" end="2" text="1524/15" element="value" class="date" subclass=""/>
+    <span id="359" start="4" end="5" text="36 ℔" element="value" class="money" subclass=""/>
+    <span id="426" start="6" end="6" text="geben" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="365" start="7" end="8" text="haus Oberrich" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="365_head" start="7" end="8" element="head" class="nam" text="haus Oberrich" subclass=""/>
+    </span>
+    <span id="377" start="10" end="11" text="sinem&#10;hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="389" start="10" end="10" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="395" start="10" end="10" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="395_head" start="10" end="10" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="383" start="11" end="11" text="hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="408" start="14" end="15" text="6 Jar" element="value" class="time" subclass=""/>
+    <span id="414" start="17" end="18" text="alle Jar" element="value" class="time" subclass="rec"/>
+    <span id="420" start="19" end="21" text="6 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="401" from="395" to="365" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="10" end="10" ref="389" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="377" text="sinem&#10;hus"/>
+        <role role="owner" ref="395" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="6" ref="" type="event">
+      <trigger start="6" end="6" text="geben" ref="426"/>
+      <event event_id="1.0">
+        <role role="date" ref="custom_date" text="1524/15"/>
+        <role role="interest" ref="359" text="36 ℔"/>
+        <role role="payer" ref="365" text="haus Oberrich"/>
+        <role role="property" ref="377" text="sinem&#10;hus"/>
+        <role role="detail_other" ref="408" text="6 Jar"/>
+      </event>
+      <event event_id="1.1">
+        <role role="date" ref="custom_date" text="1524/15"/>
+        <role role="payer" ref="365" text="haus Oberrich"/>
+        <role role="property" ref="377" text="sinem&#10;hus"/>
+        <role role="interval" ref="414" text="alle Jar"/>
+        <role role="interest" ref="420" text="6 ℔."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

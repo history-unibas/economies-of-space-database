@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 197/37 S. [21]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenvorstadt Th. v. 17 Ecke u. Schützenmattstrasse 6</tei:title>
+            <tei:idno>HGB 1 197/37</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1526789</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Klara</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1579">1579</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610839.2571650376 1267413.0547691856</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Cunrat</token>
+    <token token_id="4">von</token>
+    <token token_id="5">Louffen</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Watman</token>
+    <token token_id="8">kauft</token>
+    <token token_id="9">die</token>
+    <token token_id="10">von</token>
+    <token token_id="11">Henman</token>
+    <token token_id="12">Schaffener</token>
+    <token token_id="13">dem</token>
+    <token token_id="14">Snider</token>
+    <token token_id="15">,</token>
+    <token token_id="16">Burger</token>
+    <token token_id="17">von</token>
+    <token token_id="18">Basel</token>
+    <token token_id="19">,</token>
+    <token token_id="20">von</token>
+    <token token_id="21">Geltscholde</token>
+    <token token_id="22">wegen</token>
+    <token token_id="23">4</token>
+    <token token_id="24">℔</token>
+    <token token_id="25">.</token>
+    <token token_id="26">6</token>
+    <token token_id="27">sh</token>
+    <token token_id="28">.</token>
+    <token token_id="29">gefrönten</token>
+    <token token_id="30">Rechte</token>
+    <token token_id="31">,</token>
+    <token token_id="32">so</token>
+    <token token_id="33">Cuntze</token>
+    <token token_id="34">der</token>
+    <token token_id="35">Koch</token>
+    <token token_id="36">,</token>
+    <token token_id="37">Burger</token>
+    <token token_id="38">von</token>
+    <token token_id="39">Basel</token>
+    <token token_id="40">,</token>
+    <token token_id="41">und</token>
+    <token token_id="42">Vro</token>
+    <token token_id="43">Nese</token>
+    <token token_id="44">sin</token>
+    <token token_id="45">eliche</token>
+    <token token_id="46">Wirtin</token>
+    <token token_id="47">hatten</token>
+    <token token_id="48">an</token>
+    <token token_id="49">dem</token>
+    <token token_id="50">Huse</token>
+    <token token_id="51">und</token>
+    <token token_id="52">Gesesse</token>
+    <token token_id="53">so</token>
+    <token token_id="54">man</token>
+    <token token_id="55">nempt</token>
+    <token token_id="56">zem</token>
+    <token token_id="57">Swartzen</token>
+    <token token_id="58">Rade</token>
+    <token token_id="59">,</token>
+    <token token_id="60">so</token>
+    <token token_id="61">gelegen</token>
+    <token token_id="62">,</token>
+    <token token_id="63">ist</token>
+    <token token_id="64">ze</token>
+    <token token_id="65">Basel</token>
+    <token token_id="66">in</token>
+    <token token_id="67">der</token>
+    <token token_id="68">Vorstat</token>
+    <token token_id="69">ze</token>
+    <token token_id="70">Spalen</token>
+    <token token_id="71">zwischent</token>
+    <token token_id="72">Rützscheman</token>
+    <token token_id="73">zem</token>
+    <token token_id="74">Gren</token>
+    <token token_id="75">und</token>
+    <token token_id="76">sin</token>
+    <token token_id="77">Schalers</token>
+    <token token_id="78">sel</token>
+    <token token_id="79">.</token>
+    <token token_id="80">Hüsere</token>
+    <token token_id="81">,</token>
+    <token token_id="82">umb</token>
+    <token token_id="83">6</token>
+    <token token_id="84">℔</token>
+    <token token_id="85">.</token>
+    <token token_id="86">Zinsphg</token>
+    <token token_id="87">.</token>
+  </text>
+  <spans>
+    <span id="1400" start="3" end="7" text="Cunrat von Louffen der Watman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1406" start="3" end="3" text="Cunrat" element="head" class="nam" subclass=""/>
+      <span id="1412" start="4" end="5" text="von Louffen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1418" start="5" end="5" text="Louffen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1418_head" start="5" end="5" element="head" class="nam" text="Louffen" subclass=""/>
+        </span>
+      </span>
+      <span id="1424" start="6" end="7" text="der Watman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1430" start="7" end="7" text="Watman" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1671" start="8" end="8" text="kauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1436" start="11" end="18" text="Henman Schaffener dem Snider , Burger von Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1442" start="11" end="12" text="Henman Schaffener" element="head" class="nam" subclass=""/>
+      <span id="1448" start="13" end="14" text="dem Snider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1454" start="14" end="14" text="Snider" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1460" start="16" end="18" text="Burger von Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1466" start="16" end="16" text="Burger" element="head" class="org-aff" subclass=""/>
+        <span id="1472" start="18" end="18" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1472_head" start="18" end="18" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1683" start="20" end="22" text="von Geltscholde wegen" element="trigger" class="debt" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1659" start="23" end="28" text="4 ℔. 6 sh ." element="value" class="money" subclass=""/>
+    <span id="1677" start="29" end="29" text="gefrönten" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1478" start="33" end="46" text="Cuntze der Koch , Burger von Basel , und Vro Nese&#10;sin eliche Wirtin" element="list" class="per" subclass="">
+      <span id="1484" start="33" end="39" text="Cuntze der Koch , Burger von Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1490" start="33" end="33" text="Cuntze" element="head" class="nam" subclass=""/>
+        <span id="1496" start="34" end="35" text="der Koch" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1502" start="35" end="35" text="Koch" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1508" start="37" end="39" text="Burger von Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1514" start="37" end="37" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="1520" start="39" end="39" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1520_head" start="39" end="39" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1526" start="42" end="46" text="Vro Nese&#10;sin eliche Wirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1635" start="43" end="43" text="Nese" element="head" class="nam" subclass=""/>
+        <span id="1538" start="44" end="46" text="sin eliche Wirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1544" start="44" end="44" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1544_head" start="44" end="44" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1532" start="45" end="46" text="eliche Wirtin" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1557" start="49" end="80" text="dem Huse und Gesesse&#10;so man nempt zem Swartzen Rade , so gelegen ,&#10;ist ze Basel in der Vorstat ze Spalen zwischent&#10;Rützscheman zem Gren und sin Schalers sel .&#10;Hüsere" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1563" start="50" end="52" text="Huse und Gesesse" element="head" class="type" subclass=""/>
+      <span id="1569" start="56" end="58" text="zem Swartzen Rade" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1569_head" start="56" end="58" element="head" class="nam" text="zem Swartzen Rade" subclass=""/>
+      </span>
+      <span id="1575" start="60" end="80" text="so gelegen ,&#10;ist ze Basel in der Vorstat ze Spalen zwischent&#10;Rützscheman zem Gren und sin Schalers sel .&#10;Hüsere" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1581" start="65" end="65" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1581_head" start="65" end="65" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="1587" start="67" end="70" text="der Vorstat ze Spalen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1665" start="68" end="70" text="Vorstat ze Spalen" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1593" start="72" end="80" text="Rützscheman zem Gren und sin Schalers sel .&#10;Hüsere" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1647" start="72" end="79" text="Rützscheman zem Gren und sin Schalers sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1605" start="72" end="79" text="Rützscheman zem Gren und sin Schalers sel ." element="list" class="per" subclass="">
+              <span id="1611" start="72" end="74" text="Rützscheman zem Gren" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1611_head" start="72" end="74" element="head" class="nam" text="Rützscheman zem Gren" subclass=""/>
+              </span>
+              <span id="1617" start="76" end="79" text="sin Schalers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1623" start="76" end="77" text="sin Schalers" element="head" class="nam" subclass=""/>
+                <span id="1629" start="78" end="79" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1599" start="80" end="80" text="Hüsere" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1641" start="83" end="87" text="6 ℔. Zinsphg ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1550" from="1544" to="1484" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="16" end="18" ref="1460" type="state">
+      <trigger start="16" end="16" text="Burger" ref="1466"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1436" text="Henman Schaffener dem Snider , Burger von Basel"/>
+        <role role="geopolitical-entity" ref="1472" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="37" end="39" ref="1508" type="state">
+      <trigger start="37" end="37" text="Burger" ref="1514"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1484" text="Cuntze der Koch , Burger von Basel"/>
+        <role role="geopolitical-entity" ref="1520" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="44" end="46" ref="1538" type="state">
+      <trigger start="45" end="46" text="eliche Wirtin" ref="1532"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1526" text="Vro Nese&#10;sin eliche Wirtin"/>
+        <role role="family-b" ref="1544" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="4" end="5" ref="1412" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1400" text="Cunrat von Louffen der Watman"/>
+        <role role="location-b" ref="1418" text="Louffen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="60" end="80" ref="1575" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1557" text="dem Huse und Gesesse&#10;so man nempt zem Swartzen Rade , so gelegen ,&#10;ist ze Basel in der Vorstat ze Spalen zwischent&#10;Rützscheman zem Gren und sin Schalers sel .&#10;Hüsere"/>
+        <role role="location-b" ref="1581" text="Basel"/>
+        <role role="location-b" ref="1587" text="der Vorstat ze Spalen"/>
+        <role role="location-b" ref="1593" text="Rützscheman zem Gren und sin Schalers sel .&#10;Hüsere"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="72" end="79" ref="1647" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1593" text="Rützscheman zem Gren und sin Schalers sel .&#10;Hüsere"/>
+        <role role="owner" ref="1611" text="Rützscheman zem Gren"/>
+        <role role="owner" ref="1617" text="sin Schalers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="87" ref="" type="event">
+      <trigger start="8" end="8" text="kauft" ref="1671"/>
+      <event event_id="6.0">
+        <role role="buyer" ref="1400" text="Cunrat von Louffen der Watman"/>
+        <role role="property" ref="1557" text="dem Huse und Gesesse&#10;so man nempt zem Swartzen Rade , so gelegen ,&#10;ist ze Basel in der Vorstat ze Spalen zwischent&#10;Rützscheman zem Gren und sin Schalers sel .&#10;Hüsere"/>
+        <role role="price" ref="1641" text="6 ℔. Zinsphg ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="debt" polarity="pos" tense="pres" modality="ass" start="20" end="28" ref="" type="state">
+      <trigger start="20" end="22" text="von Geltscholde wegen" ref="1683"/>
+      <event event_id="7.0">
+        <role role="capital" ref="1659" text="4 ℔. 6 sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="seizure" polarity="pos" tense="pres" modality="ass" start="11" end="80" ref="" type="event">
+      <trigger start="29" end="29" text="gefrönten" ref="1677"/>
+      <event event_id="8.0">
+        <role role="claimant" ref="1436" text="Henman Schaffener dem Snider , Burger von Basel"/>
+        <role role="cause" ref="1683" text="von Geltscholde wegen"/>
+        <role role="debitor" ref="1484" text="Cuntze der Koch , Burger von Basel"/>
+        <role role="debitor" ref="1526" text="Vro Nese&#10;sin eliche Wirtin"/>
+        <role role="property" ref="1557" text="dem Huse und Gesesse&#10;so man nempt zem Swartzen Rade , so gelegen ,&#10;ist ze Basel in der Vorstat ze Spalen zwischent&#10;Rützscheman zem Gren und sin Schalers sel .&#10;Hüsere"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

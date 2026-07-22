@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 136/9 S. [80, 81]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Münzgasse 3</tei:title>
+            <tei:idno>HGB 1 136/9</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1500624</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Prediger</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1668">1668</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611173.283788494 1267411.8690167116</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">Jacob</token>
+    <token token_id="2">Schultheiss</token>
+    <token token_id="3">der</token>
+    <token token_id="4">Müntzmeister</token>
+    <token token_id="5">von</token>
+    <token token_id="6">dem</token>
+    <token token_id="7">underen</token>
+    <token token_id="8">Stampff</token>
+    <token token_id="9">=</token>
+    <token token_id="10">5ß</token>
+    <token token_id="11">ring</token>
+    <token token_id="12">ehrschatz</token>
+    <token token_id="13">-</token>
+    <token token_id="14">10ß</token>
+    <token token_id="15">.</token>
+    <token token_id="16">Ebenso</token>
+    <token token_id="17">1669</token>
+    <token token_id="18">.</token>
+    <token token_id="19">Ebenso</token>
+    <token token_id="20">1671</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Ebenso</token>
+    <token token_id="23">1670</token>
+    <token token_id="24">.</token>
+    <token token_id="25">Ebenso</token>
+    <token token_id="26">1674</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Ebenso</token>
+    <token token_id="29">1672</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Ebenso</token>
+    <token token_id="32">1673</token>
+    <token token_id="33">.</token>
+    <token token_id="34">Ebenso</token>
+    <token token_id="35">1676</token>
+    <token token_id="36">.</token>
+    <token token_id="37">Ebenso</token>
+    <token token_id="38">1675</token>
+    <token token_id="39">.</token>
+    <token token_id="40">Ebenso</token>
+    <token token_id="41">1677</token>
+    <token token_id="42">.</token>
+    <token token_id="43">Ebenso</token>
+    <token token_id="44">1679</token>
+    <token token_id="45">.</token>
+    <token token_id="46">Ebenso</token>
+    <token token_id="47">1680</token>
+    <token token_id="48">.</token>
+    <token token_id="49">Ebenso</token>
+    <token token_id="50">1678</token>
+    <token token_id="51">.</token>
+    <token token_id="52">1681</token>
+    <token token_id="53">Jacob</token>
+    <token token_id="54">Schultheis</token>
+    <token token_id="55">der</token>
+    <token token_id="56">Müntzmeister</token>
+    <token token_id="57">von</token>
+    <token token_id="58">dem</token>
+    <token token_id="59">underen</token>
+    <token token_id="60">Sampff</token>
+    <token token_id="61">-</token>
+    <token token_id="62">5ß</token>
+    <token token_id="63">2</token>
+    <token token_id="64">ring</token>
+    <token token_id="65">ehrschatz</token>
+    <token token_id="66">-</token>
+    <token token_id="67">1ß</token>
+    <token token_id="68">6ȡ</token>
+    <token token_id="69">.</token>
+    <token token_id="70">Ebenso</token>
+    <token token_id="71">1683</token>
+    <token token_id="72">.</token>
+    <token token_id="73">Ebenso</token>
+    <token token_id="74">1684</token>
+    <token token_id="75">.</token>
+    <token token_id="76">Ebenso</token>
+    <token token_id="77">1682</token>
+    <token token_id="78">.</token>
+    <token token_id="79">Ebenso</token>
+    <token token_id="80">1686</token>
+    <token token_id="81">.</token>
+    <token token_id="82">Ebenso</token>
+    <token token_id="83">1687</token>
+    <token token_id="84">.</token>
+    <token token_id="85">Ebenso</token>
+    <token token_id="86">1685</token>
+    <token token_id="87">.</token>
+    <token token_id="88">1688</token>
+    <token token_id="89">Jacob</token>
+    <token token_id="90">Schultheiss</token>
+    <token token_id="91">der</token>
+    <token token_id="92">Müntzmeister</token>
+    <token token_id="93">von</token>
+    <token token_id="94">der</token>
+    <token token_id="95">underen</token>
+    <token token_id="96">Stampff</token>
+    <token token_id="97">an</token>
+    <token token_id="98">der</token>
+    <token token_id="99">Rüttel</token>
+    <token token_id="100">¬</token>
+    <token token_id="101">gaßen</token>
+    <token token_id="102">-</token>
+    <token token_id="103">5ß</token>
+    <token token_id="104">2ring</token>
+    <token token_id="105">.</token>
+    <token token_id="106">Ebenso</token>
+    <token token_id="107">1689</token>
+    <token token_id="108">.</token>
+    <token token_id="109">mit</token>
+    <token token_id="110">dem</token>
+    <token token_id="111">Zusatz</token>
+    <token token_id="112">:</token>
+    <token token_id="113">ehrschatz</token>
+    <token token_id="114">1ß</token>
+    <token token_id="115">6ȡ</token>
+    <token token_id="116">.</token>
+  </text>
+  <spans>
+    <span id="1882" start="1" end="4" text="Jacob Schultheiss der Müntzmeister" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1888" start="1" end="2" text="Jacob Schultheiss" element="head" class="nam" subclass=""/>
+      <span id="1894" start="3" end="4" text="der Müntzmeister" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1900" start="4" end="4" text="Müntzmeister" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2170" start="5" end="5" text="von" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1906" start="6" end="8" text="dem underen Stampff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1906_head" start="6" end="8" element="head" class="nam" text="dem underen Stampff" subclass=""/>
+    </span>
+    <span id="1912" start="10" end="11" text="5ß ring" element="value" class="money" subclass=""/>
+    <span id="2158" start="12" end="12" text="ehrschatz" element="other" class="other" subclass=""/>
+    <span id="1918" start="14" end="15" text="10ß ." element="value" class="money" subclass=""/>
+    <span id="1924" start="17" end="17" text="1669" element="value" class="date" subclass=""/>
+    <span id="1930" start="20" end="20" text="1671" element="value" class="date" subclass=""/>
+    <span id="1936" start="23" end="23" text="1670" element="value" class="date" subclass=""/>
+    <span id="1942" start="26" end="26" text="1674" element="value" class="date" subclass=""/>
+    <span id="1948" start="29" end="29" text="1672" element="value" class="date" subclass=""/>
+    <span id="1954" start="32" end="32" text="1673" element="value" class="date" subclass=""/>
+    <span id="1960" start="35" end="35" text="1676" element="value" class="date" subclass=""/>
+    <span id="1966" start="38" end="38" text="1675" element="value" class="date" subclass=""/>
+    <span id="1972" start="41" end="41" text="1677" element="value" class="date" subclass=""/>
+    <span id="1978" start="44" end="44" text="1679" element="value" class="date" subclass=""/>
+    <span id="1984" start="47" end="47" text="1680" element="value" class="date" subclass=""/>
+    <span id="1990" start="50" end="50" text="1678" element="value" class="date" subclass=""/>
+    <span id="1996" start="52" end="52" text="1681" element="value" class="date" subclass=""/>
+    <span id="2044" start="53" end="56" text="Jacob Schultheis der Müntzmeister" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2050" start="53" end="54" text="Jacob Schultheis" element="head" class="nam" subclass=""/>
+      <span id="2056" start="55" end="56" text="der Müntzmeister" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2062" start="56" end="56" text="Müntzmeister" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2176" start="57" end="57" text="von" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2068" start="58" end="60" text="dem underen&#10;Sampff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2068_head" start="58" end="60" element="head" class="nam" text="dem underen Sampff" subclass=""/>
+    </span>
+    <span id="2074" start="62" end="64" text="5ß 2 ring" element="value" class="money" subclass=""/>
+    <span id="2182" start="65" end="65" text="ehrschatz" element="other" class="other" subclass=""/>
+    <span id="2080" start="67" end="69" text="1ß 6ȡ ." element="value" class="money" subclass=""/>
+    <span id="2002" start="71" end="71" text="1683" element="value" class="date" subclass=""/>
+    <span id="2008" start="74" end="74" text="1684" element="value" class="date" subclass=""/>
+    <span id="2014" start="77" end="77" text="1682" element="value" class="date" subclass=""/>
+    <span id="2020" start="80" end="80" text="1686" element="value" class="date" subclass=""/>
+    <span id="2026" start="83" end="83" text="1687" element="value" class="date" subclass=""/>
+    <span id="2032" start="86" end="86" text="1685" element="value" class="date" subclass=""/>
+    <span id="2038" start="88" end="88" text="1688" element="value" class="date" subclass=""/>
+    <span id="2086" start="89" end="92" text="Jacob Schultheiss der Müntzmeister" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2092" start="89" end="90" text="Jacob Schultheiss" element="head" class="nam" subclass=""/>
+      <span id="2098" start="91" end="92" text="der Müntzmeister" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2104" start="92" end="92" text="Müntzmeister" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2194" start="93" end="93" text="von" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2110" start="94" end="101" text="der underen Stampff an der Rüttel ¬&#10;gaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2116" start="94" end="96" text="der underen Stampff" element="head" class="nam" subclass=""/>
+      <span id="2122" start="97" end="101" text="an der Rüttel ¬&#10;gaßen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2128" start="98" end="101" text="der Rüttel ¬&#10;gaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="2134" start="99" end="101" text="Rüttel ¬&#10;gaßen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2146" start="103" end="104" text="5ß 2ring" element="value" class="money" subclass=""/>
+    <span id="2140" start="107" end="107" text="1689" element="value" class="date" subclass=""/>
+    <span id="2200" start="113" end="113" text="ehrschatz" element="other" class="other" subclass=""/>
+    <span id="2152" start="114" end="116" text="1ß 6ȡ ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="97" end="101" ref="2122" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="2110" text="der underen Stampff an der Rüttel ¬&#10;gaßen"/>
+        <role role="location-b" ref="2128" text="der Rüttel ¬&#10;gaßen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="1" end="50" ref="" type="event">
+      <trigger start="5" end="5" text="von" ref="2170"/>
+      <event event_id="1.0">
+        <role role="payer" ref="1882" text="Jacob Schultheiss der Müntzmeister"/>
+        <role role="property" ref="1906" text="dem underen Stampff"/>
+        <role role="interest" ref="1912" text="5ß ring"/>
+        <role role="date" ref="1924" text="1669"/>
+        <role role="date" ref="1930" text="1671"/>
+        <role role="date" ref="1936" text="1670"/>
+        <role role="date" ref="1942" text="1674"/>
+        <role role="date" ref="1948" text="1672"/>
+        <role role="date" ref="1954" text="1673"/>
+        <role role="date" ref="1960" text="1676"/>
+        <role role="date" ref="1966" text="1675"/>
+        <role role="date" ref="1972" text="1677"/>
+        <role role="date" ref="1978" text="1679"/>
+        <role role="date" ref="1984" text="1680"/>
+        <role role="date" ref="1990" text="1678"/>
+      </event>
+      <event event_id="1.1">
+        <role role="payer" ref="1882" text="Jacob Schultheiss der Müntzmeister"/>
+        <role role="property" ref="1906" text="dem underen Stampff"/>
+        <role role="cause" ref="2158" text="ehrschatz"/>
+        <role role="interest" ref="1918" text="10ß ."/>
+        <role role="date" ref="1924" text="1669"/>
+        <role role="date" ref="1930" text="1671"/>
+        <role role="date" ref="1936" text="1670"/>
+        <role role="date" ref="1942" text="1674"/>
+        <role role="date" ref="1948" text="1672"/>
+        <role role="date" ref="1954" text="1673"/>
+        <role role="date" ref="1960" text="1676"/>
+        <role role="date" ref="1966" text="1675"/>
+        <role role="date" ref="1972" text="1677"/>
+        <role role="date" ref="1978" text="1679"/>
+        <role role="date" ref="1984" text="1680"/>
+        <role role="date" ref="1990" text="1678"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="52" end="86" ref="" type="event">
+      <trigger start="57" end="57" text="von" ref="2176"/>
+      <event event_id="2.0">
+        <role role="date" ref="1996" text="1681"/>
+        <role role="payer" ref="2044" text="Jacob Schultheis der Müntzmeister"/>
+        <role role="property" ref="2068" text="dem underen&#10;Sampff"/>
+        <role role="interest" ref="2074" text="5ß 2 ring"/>
+        <role role="date" ref="2002" text="1683"/>
+        <role role="date" ref="2008" text="1684"/>
+        <role role="date" ref="2014" text="1682"/>
+        <role role="date" ref="2020" text="1686"/>
+        <role role="date" ref="2026" text="1687"/>
+        <role role="date" ref="2032" text="1685"/>
+      </event>
+      <event event_id="2.1">
+        <role role="date" ref="1996" text="1681"/>
+        <role role="payer" ref="2044" text="Jacob Schultheis der Müntzmeister"/>
+        <role role="property" ref="2068" text="dem underen&#10;Sampff"/>
+        <role role="cause" ref="2182" text="ehrschatz"/>
+        <role role="interest" ref="2080" text="1ß 6ȡ ."/>
+        <role role="date" ref="2002" text="1683"/>
+        <role role="date" ref="2008" text="1684"/>
+        <role role="date" ref="2014" text="1682"/>
+        <role role="date" ref="2020" text="1686"/>
+        <role role="date" ref="2026" text="1687"/>
+        <role role="date" ref="2032" text="1685"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="88" end="93" ref="" type="event">
+      <trigger start="93" end="93" text="von" ref="2194"/>
+      <event event_id="3.0">
+        <role role="date" ref="2038" text="1688"/>
+        <role role="payer" ref="2086" text="Jacob Schultheiss der Müntzmeister"/>
+        <role role="property" ref="2110" text="der underen Stampff an der Rüttel ¬&#10;gaßen"/>
+        <role role="interest" ref="2146" text="5ß 2ring"/>
+        <role role="date" ref="2140" text="1689"/>
+      </event>
+      <event event_id="3.1">
+        <role role="date" ref="2038" text="1688"/>
+        <role role="payer" ref="2086" text="Jacob Schultheiss der Müntzmeister"/>
+        <role role="property" ref="2110" text="der underen Stampff an der Rüttel ¬&#10;gaßen"/>
+        <role role="date" ref="2140" text="1689"/>
+        <role role="cause" ref="2200" text="ehrschatz"/>
+        <role role="interest" ref="2152" text="1ß 6ȡ ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

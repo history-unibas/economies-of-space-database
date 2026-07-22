@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 204/41 S. [24]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Stadthausgasse Theil von 2, neben Eisengasse 38</tei:title>
+            <tei:idno>HGB 1 204/41</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1527174</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1518">1518</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611198.791302354 1267568.535995382</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Haben</token>
+    <token token_id="1">Ulrich</token>
+    <token token_id="2">Hessmeyers</token>
+    <token token_id="3">des</token>
+    <token token_id="4">Schuchmachers</token>
+    <token token_id="5">sel</token>
+    <token token_id="6">.</token>
+    <token token_id="7">als</token>
+    <token token_id="8">eins</token>
+    <token token_id="9">erblosen</token>
+    <token token_id="10">Mans</token>
+    <token token_id="11">Schuldvorderer</token>
+    <token token_id="12">,</token>
+    <token token_id="13">desselben</token>
+    <token token_id="14">Ulrichs</token>
+    <token token_id="15">sel</token>
+    <token token_id="16">.</token>
+    <token token_id="17">Hus</token>
+    <token token_id="18">und</token>
+    <token token_id="19">Hofstatt</token>
+    <token token_id="20">,</token>
+    <token token_id="21">mitsampt</token>
+    <token token_id="22">dem</token>
+    <token token_id="23">gmeynen</token>
+    <token token_id="24">Ingang</token>
+    <token token_id="25">,</token>
+    <token token_id="26">by</token>
+    <token token_id="27">der</token>
+    <token token_id="28">nüwen</token>
+    <token token_id="29">Bruggkhen</token>
+    <token token_id="30">,</token>
+    <token token_id="31">zwischen</token>
+    <token token_id="32">Lorentzen</token>
+    <token token_id="33">Sullers</token>
+    <token token_id="34">des</token>
+    <token token_id="35">Schuchmachers</token>
+    <token token_id="36">und</token>
+    <token token_id="37">Hansen</token>
+    <token token_id="38">Dursten</token>
+    <token token_id="39">des</token>
+    <token token_id="40">Treyers</token>
+    <token token_id="41">Hus</token>
+    <token token_id="42">glegen</token>
+    <token token_id="43">und</token>
+    <token token_id="44">Liechtenstein</token>
+    <token token_id="45">genannt</token>
+    <token token_id="46">ist</token>
+    <token token_id="47">,</token>
+    <token token_id="48">gefrönt</token>
+    <token token_id="49">.</token>
+  </text>
+  <spans>
+    <span id="795" start="1" end="11" text="Ulrich Hessmeyers des Schuchmachers sel . als eins erblosen&#10;Mans Schuldvorderer" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="807" start="1" end="10" text="Ulrich Hessmeyers des Schuchmachers sel . als eins erblosen&#10;Mans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="813" start="1" end="2" text="Ulrich Hessmeyers" element="head" class="nam" subclass=""/>
+        <span id="819" start="3" end="4" text="des Schuchmachers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="825" start="4" end="4" text="Schuchmachers" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="831" start="5" end="6" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="837" start="8" end="10" text="eins erblosen&#10;Mans" element="appo" class="unk" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="843" start="9" end="10" text="erblosen&#10;Mans" element="head" class="unk" subclass=""/>
+        </span>
+      </span>
+      <span id="801" start="11" end="11" text="Schuldvorderer" element="head" class="creditor" subclass=""/>
+    </span>
+    <span id="849" start="13" end="46" text="desselben Ulrichs sel . Hus und Hofstatt ,&#10;mitsampt dem gmeynen Ingang , by der nüwen Bruggkhen ,&#10;zwischen Lorentzen Sullers des Schuchmachers und Hansen&#10;Dursten des Treyers Hus glegen und Liechtenstein genannt&#10;ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="861" start="13" end="16" text="desselben Ulrichs sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="879" start="13" end="16" text="desselben Ulrichs sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="867" start="14" end="14" text="Ulrichs" element="head" class="nam" subclass=""/>
+          <span id="873" start="15" end="16" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+      </span>
+      <span id="855" start="17" end="19" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="892" start="26" end="42" text="by der nüwen Bruggkhen ,&#10;zwischen Lorentzen Sullers des Schuchmachers und Hansen&#10;Dursten des Treyers Hus glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="904" start="27" end="29" text="der nüwen Bruggkhen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="910" start="28" end="29" text="nüwen Bruggkhen" element="head" class="type" subclass=""/>
+        </span>
+        <span id="916" start="32" end="35" text="Lorentzen Sullers des Schuchmachers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="922" start="32" end="33" text="Lorentzen Sullers" element="head" class="nam" subclass=""/>
+          <span id="928" start="34" end="35" text="des Schuchmachers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="934" start="35" end="35" text="Schuchmachers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="940" start="37" end="41" text="Hansen&#10;Dursten des Treyers Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="952" start="37" end="40" text="Hansen&#10;Dursten des Treyers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="958" start="37" end="40" text="Hansen&#10;Dursten des Treyers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="964" start="37" end="38" text="Hansen&#10;Dursten" element="head" class="nam" subclass=""/>
+              <span id="970" start="39" end="40" text="des Treyers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="976" start="40" end="40" text="Treyers" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="946" start="41" end="41" text="Hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="898" start="44" end="44" text="Liechtenstein" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="898_head" start="44" end="44" element="head" class="nam" text="Liechtenstein" subclass=""/>
+      </span>
+    </span>
+    <span id="982" start="48" end="48" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="885" from="879" to="807" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="debt" polarity="pos" tense="pres" modality="ass" start="1" end="11" ref="795" type="state">
+      <trigger start="11" end="11" text="Schuldvorderer" ref="801"/>
+      <event event_id="0.0">
+        <role role="creditor" ref="795" text="Ulrich Hessmeyers des Schuchmachers sel . als eins erblosen&#10;Mans Schuldvorderer"/>
+        <role role="debitor" ref="807" text="Ulrich Hessmeyers des Schuchmachers sel . als eins erblosen&#10;Mans"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="13" end="16" ref="861" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="849" text="desselben Ulrichs sel . Hus und Hofstatt ,&#10;mitsampt dem gmeynen Ingang , by der nüwen Bruggkhen ,&#10;zwischen Lorentzen Sullers des Schuchmachers und Hansen&#10;Dursten des Treyers Hus glegen und Liechtenstein genannt&#10;ist"/>
+        <role role="owner" ref="879" text="desselben Ulrichs sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="26" end="42" ref="892" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="849" text="desselben Ulrichs sel . Hus und Hofstatt ,&#10;mitsampt dem gmeynen Ingang , by der nüwen Bruggkhen ,&#10;zwischen Lorentzen Sullers des Schuchmachers und Hansen&#10;Dursten des Treyers Hus glegen und Liechtenstein genannt&#10;ist"/>
+        <role role="location-b" ref="904" text="der nüwen Bruggkhen"/>
+        <role role="location-b" ref="916" text="Lorentzen Sullers des Schuchmachers"/>
+        <role role="location-b" ref="940" text="Hansen&#10;Dursten des Treyers Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="37" end="40" ref="952" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="940" text="Hansen&#10;Dursten des Treyers Hus"/>
+        <role role="owner" ref="958" text="Hansen&#10;Dursten des Treyers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="ass" start="1" end="48" ref="" type="event">
+      <trigger start="48" end="48" text="gefrönt" ref="982"/>
+      <event event_id="4.0">
+        <role role="claimant" ref="795" text="Ulrich Hessmeyers des Schuchmachers sel . als eins erblosen&#10;Mans Schuldvorderer"/>
+        <role role="property" ref="849" text="desselben Ulrichs sel . Hus und Hofstatt ,&#10;mitsampt dem gmeynen Ingang , by der nüwen Bruggkhen ,&#10;zwischen Lorentzen Sullers des Schuchmachers und Hansen&#10;Dursten des Treyers Hus glegen und Liechtenstein genannt&#10;ist"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

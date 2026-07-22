@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/33 S. [23]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 31</tei:title>
+            <tei:idno>HGB 1 194/33</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1513999</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1520">1520</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611073.507779874 1267360.521881694</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Frantz</token>
+    <token token_id="1">von</token>
+    <token token_id="2">Herten</token>
+    <token token_id="3">der</token>
+    <token token_id="4">stosser</token>
+    <token token_id="5">,</token>
+    <token token_id="6">u</token>
+    <token token_id="7">.</token>
+    <token token_id="8">seine</token>
+    <token token_id="9">Frau</token>
+    <token token_id="10">Ursula</token>
+    <token token_id="11">verkaufen</token>
+    <token token_id="12">an</token>
+    <token token_id="13">Lienharten</token>
+    <token token_id="14">Peterlin</token>
+    <token token_id="15">den</token>
+    <token token_id="16">schuchmacher</token>
+    <token token_id="17">,</token>
+    <token token_id="18">u</token>
+    <token token_id="19">.</token>
+    <token token_id="20">seine</token>
+    <token token_id="21">Frau</token>
+    <token token_id="22">Elspeth</token>
+    <token token_id="23">,</token>
+    <token token_id="24">das</token>
+    <token token_id="25">Hus</token>
+    <token token_id="26">u</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Hofstatt</token>
+    <token token_id="29">,</token>
+    <token token_id="30">an</token>
+    <token token_id="31">den</token>
+    <token token_id="32">Spalen</token>
+    <token token_id="33">,</token>
+    <token token_id="34">zwüschen</token>
+    <token token_id="35">dem</token>
+    <token token_id="36">Hus</token>
+    <token token_id="37">zum</token>
+    <token token_id="38">Schaf</token>
+    <token token_id="39">,</token>
+    <token token_id="40">u</token>
+    <token token_id="41">.</token>
+    <token token_id="42">Heinrich</token>
+    <token token_id="43">Greblins</token>
+    <token token_id="44">des</token>
+    <token token_id="45">grempers</token>
+    <token token_id="46">hus</token>
+    <token token_id="47">gelegen</token>
+    <token token_id="48">,</token>
+    <token token_id="49">u</token>
+    <token token_id="50">.</token>
+    <token token_id="51">zu</token>
+    <token token_id="52">der</token>
+    <token token_id="53">indern</token>
+    <token token_id="54">Thannen</token>
+    <token token_id="55">genant</token>
+    <token token_id="56">ist</token>
+    <token token_id="57">,</token>
+    <token token_id="58">zinset</token>
+    <token token_id="59">dem</token>
+    <token token_id="60">Spital</token>
+    <token token_id="61">2</token>
+    <token token_id="62">℔</token>
+    <token token_id="63">,</token>
+    <token token_id="64">u</token>
+    <token token_id="65">.</token>
+    <token token_id="66">Hansen</token>
+    <token token_id="67">Gassers</token>
+    <token token_id="68">sel</token>
+    <token token_id="69">.</token>
+    <token token_id="70">Erben</token>
+    <token token_id="71">ouch</token>
+    <token token_id="72">2</token>
+    <token token_id="73">℔</token>
+    <token token_id="74">,</token>
+    <token token_id="75">beid</token>
+    <token token_id="76">zins</token>
+    <token token_id="77">abl</token>
+    <token token_id="78">.</token>
+    <token token_id="79">sonst</token>
+    <token token_id="80">frei</token>
+    <token token_id="81">,</token>
+    <token token_id="82">sum</token>
+    <token token_id="83">436</token>
+    <token token_id="84">.</token>
+  </text>
+  <spans>
+    <span id="1264" start="0" end="10" text="Frantz von Herten der stosser , u . seine Frau Ursula" element="list" class="per" subclass="">
+      <span id="1203" start="0" end="4" text="Frantz von Herten der stosser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1209" start="0" end="2" text="Frantz von Herten" element="head" class="nam" subclass=""/>
+        <span id="1215" start="3" end="4" text="der stosser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1221" start="4" end="4" text="stosser" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1227" start="8" end="10" text="seine Frau Ursula" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1239" start="8" end="9" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1251" start="8" end="8" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1251_head" start="8" end="8" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1245" start="9" end="9" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1233" start="10" end="10" text="Ursula" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1487" start="11" end="11" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1325" start="13" end="22" text="Lienharten Peterlin den schuchmacher , u . seine&#10;Frau Elspeth" element="list" class="per" subclass="">
+      <span id="1270" start="13" end="16" text="Lienharten Peterlin den schuchmacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1276" start="13" end="14" text="Lienharten Peterlin" element="head" class="nam" subclass=""/>
+        <span id="1282" start="15" end="16" text="den schuchmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1493" start="16" end="16" text="schuchmacher" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1288" start="20" end="22" text="seine&#10;Frau Elspeth" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1300" start="20" end="21" text="seine&#10;Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1312" start="20" end="20" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1312_head" start="20" end="20" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1306" start="21" end="21" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1294" start="22" end="22" text="Elspeth" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1331" start="24" end="80" text="das Hus u . Hofstatt , an den Spalen , zwüschen&#10;dem Hus zum Schaf , u . Heinrich Greblins des grempers hus gelegen ,&#10;u . zu der indern Thannen genant ist , zinset dem Spital 2 ℔,&#10;u . Hansen Gassers sel . Erben ouch 2 ℔, beid zins abl . sonst frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1337" start="25" end="28" text="Hus u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1343" start="30" end="47" text="an den Spalen , zwüschen&#10;dem Hus zum Schaf , u . Heinrich Greblins des grempers hus gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1349" start="31" end="32" text="den Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1355" start="32" end="32" text="Spalen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1361" start="35" end="38" text="dem Hus zum Schaf" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1367" start="37" end="38" text="zum Schaf" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1373" start="42" end="46" text="Heinrich Greblins des grempers hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1385" start="42" end="45" text="Heinrich Greblins des grempers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1391" start="42" end="45" text="Heinrich Greblins des grempers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1397" start="42" end="43" text="Heinrich Greblins" element="head" class="nam" subclass=""/>
+              <span id="1403" start="44" end="45" text="des grempers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1409" start="45" end="45" text="grempers" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1379" start="46" end="46" text="hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1415" start="51" end="54" text="zu der indern Thannen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1415_head" start="51" end="54" element="head" class="nam" text="zu der indern Thannen" subclass=""/>
+      </span>
+      <span id="1421" start="58" end="80" text="zinset dem Spital 2 ℔,&#10;u . Hansen Gassers sel . Erben ouch 2 ℔, beid zins abl . sonst frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1499" start="58" end="58" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1427" start="59" end="60" text="dem Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1433" start="60" end="60" text="Spital" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1439" start="61" end="62" text="2 ℔" element="value" class="money" subclass=""/>
+        <span id="1445" start="66" end="70" text="Hansen Gassers sel . Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1457" start="66" end="69" text="Hansen Gassers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1463" start="66" end="67" text="Hansen Gassers" element="head" class="nam" subclass=""/>
+            <span id="1469" start="68" end="69" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="1451" start="70" end="70" text="Erben" element="head" class="heir" subclass=""/>
+        </span>
+        <span id="1475" start="72" end="73" text="2 ℔" element="value" class="money" subclass=""/>
+        <span id="1505" start="77" end="78" text="abl ." element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="1481" start="83" end="83" text="436" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1257" from="1251" to="1203" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1318" from="1312" to="1270" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="66" end="70" ref="1445" type="event">
+      <trigger start="70" end="70" text="Erben" ref="1451"/>
+      <event event_id="0.0">
+        <role role="heir" ref="1445" text="Hansen Gassers sel . Erben"/>
+        <role role="decedent" ref="1457" text="Hansen Gassers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="8" end="9" ref="1239" type="state">
+      <trigger start="9" end="9" text="Frau" ref="1245"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1227" text="seine Frau Ursula"/>
+        <role role="family-b" ref="1251" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="20" end="21" ref="1300" type="state">
+      <trigger start="21" end="21" text="Frau" ref="1306"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1288" text="seine&#10;Frau Elspeth"/>
+        <role role="family-b" ref="1312" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="47" ref="1343" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1331" text="das Hus u . Hofstatt , an den Spalen , zwüschen&#10;dem Hus zum Schaf , u . Heinrich Greblins des grempers hus gelegen ,&#10;u . zu der indern Thannen genant ist , zinset dem Spital 2 ℔,&#10;u . Hansen Gassers sel . Erben ouch 2 ℔, beid zins abl . sonst frei"/>
+        <role role="location-b" ref="1349" text="den Spalen"/>
+        <role role="location-b" ref="1361" text="dem Hus zum Schaf"/>
+        <role role="location-b" ref="1373" text="Heinrich Greblins des grempers hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="42" end="45" ref="1385" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1373" text="Heinrich Greblins des grempers hus"/>
+        <role role="owner" ref="1391" text="Heinrich Greblins des grempers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="58" end="80" ref="1421" type="state">
+      <trigger start="58" end="58" text="zinset" ref="1499"/>
+      <event event_id="5.0">
+        <role role="property" ref="1331" text="das Hus u . Hofstatt , an den Spalen , zwüschen&#10;dem Hus zum Schaf , u . Heinrich Greblins des grempers hus gelegen ,&#10;u . zu der indern Thannen genant ist , zinset dem Spital 2 ℔,&#10;u . Hansen Gassers sel . Erben ouch 2 ℔, beid zins abl . sonst frei"/>
+        <role role="beneficiary" ref="1427" text="dem Spital"/>
+        <role role="interest" ref="1439" text="2 ℔"/>
+        <role role="interest-redeemable" ref="1505" text="abl ."/>
+      </event>
+      <event event_id="5.1">
+        <role role="property" ref="1331" text="das Hus u . Hofstatt , an den Spalen , zwüschen&#10;dem Hus zum Schaf , u . Heinrich Greblins des grempers hus gelegen ,&#10;u . zu der indern Thannen genant ist , zinset dem Spital 2 ℔,&#10;u . Hansen Gassers sel . Erben ouch 2 ℔, beid zins abl . sonst frei"/>
+        <role role="beneficiary" ref="1445" text="Hansen Gassers sel . Erben"/>
+        <role role="interest" ref="1475" text="2 ℔"/>
+        <role role="interest-redeemable" ref="1505" text="abl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="83" ref="" type="event">
+      <trigger start="11" end="11" text="verkaufen" ref="1487"/>
+      <event event_id="6.0">
+        <role role="seller" ref="1203" text="Frantz von Herten der stosser"/>
+        <role role="seller" ref="1227" text="seine Frau Ursula"/>
+        <role role="buyer" ref="1270" text="Lienharten Peterlin den schuchmacher"/>
+        <role role="buyer" ref="1288" text="seine&#10;Frau Elspeth"/>
+        <role role="property" ref="1331" text="das Hus u . Hofstatt , an den Spalen , zwüschen&#10;dem Hus zum Schaf , u . Heinrich Greblins des grempers hus gelegen ,&#10;u . zu der indern Thannen genant ist , zinset dem Spital 2 ℔,&#10;u . Hansen Gassers sel . Erben ouch 2 ℔, beid zins abl . sonst frei"/>
+        <role role="price" ref="1481" text="436"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

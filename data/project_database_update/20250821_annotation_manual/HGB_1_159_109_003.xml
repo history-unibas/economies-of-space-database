@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 159/109 S. [3]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheingasse 42</tei:title>
+            <tei:idno>HGB 1 159/109</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1508771</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Klara</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1416">1416</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611574.4631122034 1267675.3984098905</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Das</token>
+    <token token_id="4">Closter</token>
+    <token token_id="5">zu</token>
+    <token token_id="6">sant</token>
+    <token token_id="7">Cloren</token>
+    <token token_id="8">und</token>
+    <token token_id="9">sunderlich</token>
+    <token token_id="10">Frow</token>
+    <token token_id="11">Eneli</token>
+    <token token_id="12">Zieglerin</token>
+    <token token_id="13">Closterfröne</token>
+    <token token_id="14">doselbs</token>
+    <token token_id="15">verleiht</token>
+    <token token_id="16">Hugli</token>
+    <token token_id="17">Ziegler</token>
+    <token token_id="18">,</token>
+    <token token_id="19">Burger</token>
+    <token token_id="20">zu</token>
+    <token token_id="21">Basel</token>
+    <token token_id="22">,</token>
+    <token token_id="23">und</token>
+    <token token_id="24">Ann</token>
+    <token token_id="25">siner</token>
+    <token token_id="26">elichen</token>
+    <token token_id="27">Husfrow</token>
+    <token token_id="28">ein</token>
+    <token token_id="29">Hus</token>
+    <token token_id="30">,</token>
+    <token token_id="31">so</token>
+    <token token_id="32">gelegen</token>
+    <token token_id="33">ist</token>
+    <token token_id="34">in</token>
+    <token token_id="35">der</token>
+    <token token_id="36">minren</token>
+    <token token_id="37">Stat</token>
+    <token token_id="38">Basel</token>
+    <token token_id="39">an</token>
+    <token token_id="40">der</token>
+    <token token_id="41">Ringassen</token>
+    <token token_id="42">einsit</token>
+    <token token_id="43">an</token>
+    <token token_id="44">Tollender</token>
+    <token token_id="45">zer</token>
+    <token token_id="46">andren</token>
+    <token token_id="47">Siten</token>
+    <token token_id="48">an</token>
+    <token token_id="49">Jackers</token>
+    <token token_id="50">Hus</token>
+    <token token_id="51">und</token>
+    <token token_id="52">stosset</token>
+    <token token_id="53">uff</token>
+    <token token_id="54">der</token>
+    <token token_id="55">Stett</token>
+    <token token_id="56">Ringgmur</token>
+    <token token_id="57">,</token>
+    <token token_id="58">so</token>
+    <token token_id="59">si</token>
+    <token token_id="60">den</token>
+    <token token_id="61">obgen</token>
+    <token token_id="62">Closterfrowen</token>
+    <token token_id="63">ver</token>
+    <token token_id="64">¬</token>
+    <token token_id="65">ir</token>
+    <token token_id="66">beider</token>
+    <token token_id="67">Lebt</token>
+    <token token_id="68">.</token>
+    <token token_id="69">gabet</token>
+    <token token_id="70">hand</token>
+    <token token_id="71">mit</token>
+    <token token_id="72">fürer</token>
+    <token token_id="73">,</token>
+    <token token_id="74">nebst</token>
+    <token token_id="75">.</token>
+    <token token_id="76">andern</token>
+    <token token_id="77">gütern</token>
+    <token token_id="78">um</token>
+    <token token_id="79">einen</token>
+    <token token_id="80">Zins</token>
+    <token token_id="81">von</token>
+    <token token_id="82">69</token>
+    <token token_id="83">.</token>
+    <token token_id="84">jerlich</token>
+    <token token_id="85">.</token>
+  </text>
+  <spans>
+    <span id="1356" start="3" end="13" text="Das Closter zu sant Cloren und sunderlich Frow&#10;Eneli Zieglerin Closterfröne" element="list" class="org;per" subclass="">
+      <span id="1319" start="3" end="7" text="Das Closter zu sant Cloren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1325" start="5" end="7" text="zu sant Cloren" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1331" start="10" end="13" text="Frow&#10;Eneli Zieglerin Closterfröne" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1337" start="11" end="12" text="Eneli Zieglerin" element="head" class="nam" subclass=""/>
+        <span id="1343" start="13" end="13" text="Closterfröne" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+          <span id="1343_head" start="13" end="13" element="head" class="occ" text="Closterfröne" subclass="org-job"/>
+        </span>
+      </span>
+    </span>
+    <span id="1613" start="15" end="15" text="verleiht" element="trigger" class="hereditary" tense="pres" polarity="pos" modality="ass" subclass="lease"/>
+    <span id="1429" start="16" end="27" text="Hugli&#10;Ziegler , Burger zu Basel , und Ann siner elichen&#10;Husfrow" element="list" class="per" subclass="">
+      <span id="1362" start="16" end="21" text="Hugli&#10;Ziegler , Burger zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1368" start="16" end="17" text="Hugli&#10;Ziegler" element="head" class="nam" subclass=""/>
+        <span id="1374" start="19" end="21" text="Burger zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1380" start="19" end="19" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="1386" start="21" end="21" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1386_head" start="21" end="21" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1392" start="24" end="27" text="Ann siner elichen&#10;Husfrow" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1398" start="24" end="24" text="Ann" element="head" class="nam" subclass=""/>
+        <span id="1404" start="25" end="27" text="siner elichen&#10;Husfrow" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1416" start="25" end="25" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1416_head" start="25" end="25" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="1410" start="27" end="27" text="Husfrow" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1441" start="28" end="56" text="ein Hus , so gelegen ist in der minren&#10;Stat Basel an der Ringassen einsit an Tollender&#10;zer andren Siten an Jackers Hus und stosset uff der&#10;Stett Ringgmur" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1435" start="29" end="29" text="Hus" element="head" class="type" subclass=""/>
+      <span id="1447" start="31" end="56" text="so gelegen ist in der minren&#10;Stat Basel an der Ringassen einsit an Tollender&#10;zer andren Siten an Jackers Hus und stosset uff der&#10;Stett Ringgmur" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1453" start="35" end="38" text="der minren&#10;Stat Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1459" start="36" end="38" text="minren&#10;Stat Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1465" start="40" end="41" text="der Ringassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1471" start="41" end="41" text="Ringassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1477" start="44" end="44" text="Tollender" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1477_head" start="44" end="44" element="head" class="nam" text="Tollender" subclass=""/>
+        </span>
+        <span id="1483" start="49" end="50" text="Jackers Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1495" start="49" end="49" text="Jackers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1501" start="49" end="49" text="Jackers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1501_head" start="49" end="49" element="head" class="nam" text="Jackers" subclass=""/>
+            </span>
+          </span>
+          <span id="1489" start="50" end="50" text="Hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1507" start="54" end="56" text="der&#10;Stett Ringgmur" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="defense">
+          <span id="1538" start="54" end="55" text="der&#10;Stett" element="attr" class="part-of" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1519" start="54" end="55" text="der&#10;Stett" element="reference" class="gpe-gpe" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1532" start="55" end="55" text="Stett" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+          <span id="1513" start="56" end="56" text="Ringgmur" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1619" start="58" end="70" text="so si den obgen Closterfrowen ver ¬&#10;ir beider Lebt .&#10;gabet hand" element="other" class="other" subclass="">
+      <span id="1544" start="59" end="59" text="si" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1544_head" start="59" end="59" element="head" class="pro" text="si" subclass=""/>
+      </span>
+      <span id="1557" start="60" end="62" text="den obgen Closterfrowen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1563" start="62" end="62" text="Closterfrowen" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1600" start="65" end="65" text="ir" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1600_head" start="65" end="65" element="head" class="pro" text="ir" subclass=""/>
+      </span>
+    </span>
+    <span id="1588" start="76" end="77" text="andern gütern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1594" start="77" end="77" text="gütern" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1625" start="79" end="84" text="einen Zins von 69 . jerlich" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1631" start="80" end="80" text="Zins" element="trigger" class="type" subclass=""/>
+      <span id="1576" start="82" end="83" text="69 ." element="value" class="money" subclass=""/>
+      <span id="1582" start="84" end="84" text="jerlich" element="value" class="time" subclass="rec"/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1349" from="1343" to="1319" class="role" detail="target" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1569" from="1557" to="1319" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1550" from="1544" to="1429" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1422" from="1416" to="1362" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1525" from="1519" to="1453" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1606" from="1600" to="1544" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="79" end="84" ref="1625" type="state">
+      <trigger start="80" end="80" text="Zins" ref="1631"/>
+      <event event_id="0.0">
+        <role role="interest" ref="1576" text="69 ."/>
+        <role role="interval" ref="1582" text="jerlich"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="13" end="13" ref="1343" type="state">
+      <trigger start="13" end="13" text="Closterfröne" ref="1343_head"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1331" text="Frow&#10;Eneli Zieglerin Closterfröne"/>
+        <role role="employer" ref="1319" text="Das Closter zu sant Cloren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="19" end="21" ref="1374" type="state">
+      <trigger start="19" end="19" text="Burger" ref="1380"/>
+      <event event_id="2.0">
+        <role role="resident" ref="1362" text="Hugli&#10;Ziegler , Burger zu Basel"/>
+        <role role="geopolitical-entity" ref="1386" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="25" end="27" ref="1404" type="state">
+      <trigger start="27" end="27" text="Husfrow" ref="1410"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1392" text="Ann siner elichen&#10;Husfrow"/>
+        <role role="family-b" ref="1416" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="31" end="56" ref="1447" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1441" text="ein Hus , so gelegen ist in der minren&#10;Stat Basel an der Ringassen einsit an Tollender&#10;zer andren Siten an Jackers Hus und stosset uff der&#10;Stett Ringgmur"/>
+        <role role="location-b" ref="1453" text="der minren&#10;Stat Basel"/>
+        <role role="location-b" ref="1465" text="der Ringassen"/>
+        <role role="location-b" ref="1477" text="Tollender"/>
+        <role role="location-b" ref="1483" text="Jackers Hus"/>
+        <role role="location-b" ref="1507" text="der&#10;Stett Ringgmur"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="49" end="49" ref="1495" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1483" text="Jackers Hus"/>
+        <role role="owner" ref="1501" text="Jackers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="part_whole" polarity="pos" tense="pres" modality="ass" start="54" end="55" ref="1538" type="state">
+      <event event_id="6.0">
+        <role role="part" ref="1507" text="der&#10;Stett Ringgmur"/>
+        <role role="whole" ref="1519" text="der&#10;Stett"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="heritable-lease-grant" polarity="pos" tense="pres" modality="ass" start="15" end="84" ref="" type="event">
+      <trigger start="15" end="15" text="verleiht" ref="1613"/>
+      <event event_id="7.0">
+        <role role="grantor" ref="1319" text="Das Closter zu sant Cloren"/>
+        <role role="grantor" ref="1331" text="Frow&#10;Eneli Zieglerin Closterfröne"/>
+        <role role="lessee" ref="1362" text="Hugli&#10;Ziegler , Burger zu Basel"/>
+        <role role="lessee" ref="1392" text="Ann siner elichen&#10;Husfrow"/>
+        <role role="property" ref="1441" text="ein Hus , so gelegen ist in der minren&#10;Stat Basel an der Ringassen einsit an Tollender&#10;zer andren Siten an Jackers Hus und stosset uff der&#10;Stett Ringgmur"/>
+        <role role="detail_other" ref="1619" text="so si den obgen Closterfrowen ver ¬&#10;ir beider Lebt .&#10;gabet hand"/>
+        <role role="property" ref="1588" text="andern gütern"/>
+        <role role="due" ref="1625" text="einen Zins von 69 . jerlich"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

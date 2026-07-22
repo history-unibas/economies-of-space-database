@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/101 S. [8]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 44</tei:title>
+            <tei:idno>HGB 1 194/101</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1515804</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1438">1438</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611040.9536320157 1267358.3050252353</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Peter</token>
+    <token token_id="1">Hans</token>
+    <token token_id="2">Landoss</token>
+    <token token_id="3">der</token>
+    <token token_id="4">Schumacher</token>
+    <token token_id="5">,</token>
+    <token token_id="6">verkauft</token>
+    <token token_id="7">an</token>
+    <token token_id="8">Ludman</token>
+    <token token_id="9">Meltingers</token>
+    <token token_id="10">,</token>
+    <token token_id="11">2</token>
+    <token token_id="12">1</token>
+    <token token_id="13">/</token>
+    <token token_id="14">2</token>
+    <token token_id="15">fl</token>
+    <token token_id="16">gelts</token>
+    <token token_id="17">ab</token>
+    <token token_id="18">einem</token>
+    <token token_id="19">Hus</token>
+    <token token_id="20">&amp;</token>
+    <token token_id="21">Hofstatt</token>
+    <token token_id="22">u</token>
+    <token token_id="23">.</token>
+    <token token_id="24">dem</token>
+    <token token_id="25">höflin</token>
+    <token token_id="26">u</token>
+    <token token_id="27">.</token>
+    <token token_id="28">stogk</token>
+    <token token_id="29">derhinder</token>
+    <token token_id="30">gelegen</token>
+    <token token_id="31">an</token>
+    <token token_id="32">den</token>
+    <token token_id="33">Spalen</token>
+    <token token_id="34">,</token>
+    <token token_id="35">nebend</token>
+    <token token_id="36">Hansen</token>
+    <token token_id="37">Thüwendorff</token>
+    <token token_id="38">des</token>
+    <token token_id="39">scherers</token>
+    <token token_id="40">hus</token>
+    <token token_id="41">ze</token>
+    <token token_id="42">einersiten</token>
+    <token token_id="43">,</token>
+    <token token_id="44">u</token>
+    <token token_id="45">.</token>
+    <token token_id="46">Peter</token>
+    <token token_id="47">Gräfen</token>
+    <token token_id="48">des</token>
+    <token token_id="49">schumachers</token>
+    <token token_id="50">hus</token>
+    <token token_id="51">zer</token>
+    <token token_id="52">andern</token>
+    <token token_id="53">siten</token>
+    <token token_id="54">,</token>
+    <token token_id="55">u</token>
+    <token token_id="56">.</token>
+    <token token_id="57">reichet</token>
+    <token token_id="58">hinderus</token>
+    <token token_id="59">an</token>
+    <token token_id="60">Soschartz</token>
+    <token token_id="61">seb</token>
+    <token token_id="62">hus</token>
+    <token token_id="63">.</token>
+    <token token_id="64">zinset</token>
+    <token token_id="65">von</token>
+    <token token_id="66">eig</token>
+    <token token_id="67">.</token>
+    <token token_id="68">wegen</token>
+    <token token_id="69">einem</token>
+    <token token_id="70">caplan</token>
+    <token token_id="71">der</token>
+    <token token_id="72">ersten</token>
+    <token token_id="73">phrund</token>
+    <token token_id="74">dles</token>
+    <token token_id="75">hl</token>
+    <token token_id="76">crutzes</token>
+    <token token_id="77">altar</token>
+    <token token_id="78">zes</token>
+    <token token_id="79">.</token>
+    <token token_id="80">Peter</token>
+    <token token_id="81">35sh</token>
+    <token token_id="82">.</token>
+    <token token_id="83">ư</token>
+    <token token_id="84">ab</token>
+    <token token_id="85">andern</token>
+    <token token_id="86">güter</token>
+    <token token_id="87">,</token>
+    <token token_id="88">um</token>
+    <token token_id="89">50</token>
+    <token token_id="90">fl</token>
+    <token token_id="91">widerk</token>
+    <token token_id="92">.</token>
+  </text>
+  <spans>
+    <span id="1374" start="0" end="4" text="Peter Hans Landoss der Schumacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1380" start="0" end="2" text="Peter Hans Landoss" element="head" class="nam" subclass=""/>
+      <span id="1386" start="3" end="4" text="der Schumacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1392" start="4" end="4" text="Schumacher" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1578" start="6" end="6" text="verkauft" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1398" start="8" end="9" text="Ludman Meltingers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1398_head" start="8" end="9" element="head" class="nam" text="Ludman Meltingers" subclass=""/>
+    </span>
+    <span id="1584" start="11" end="15" text="2 1 / 2 fl" element="value" class="money" subclass=""/>
+    <span id="1590" start="16" end="16" text="gelts" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1404" start="18" end="82" text="einem Hus&#10;&amp; Hofstatt u . dem höflin u . stogk derhinder&#10;gelegen an den Spalen , nebend Hansen Thüwendorff&#10;des scherers hus ze einersiten , u . Peter Gräfen des&#10;schumachers hus zer andern siten , u . reichet hinderus&#10;an Soschartz seb hus .&#10;zinset von eig . wegen einem&#10;caplan der ersten phrund dles hl crutzes altar zes . Peter&#10;35sh ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1410" start="19" end="21" text="Hus&#10;&amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1416" start="22" end="30" text="u . dem höflin u . stogk derhinder&#10;gelegen" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1422" start="24" end="25" text="dem höflin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1428" start="25" end="25" text="höflin" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1434" start="28" end="28" text="stogk" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1434_head" start="28" end="28" element="head" class="type" text="stogk" subclass=""/>
+        </span>
+      </span>
+      <span id="custom_desc_loc" start="30" end="62" text="gelegen an den Spalen , nebend Hansen Thüwendorff&#10;des scherers hus ze einersiten , u . Peter Gräfen des&#10;schumachers hus zer andern siten , u . reichet hinderus&#10;an Soschartz seb hus" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1440" start="32" end="33" text="den Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1446" start="33" end="33" text="Spalen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1452" start="36" end="40" text="Hansen Thüwendorff&#10;des scherers hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1452_desc_owner" start="36" end="39" text="Hansen Thüwendorff&#10;des scherers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1458" start="36" end="39" text="Hansen Thüwendorff&#10;des scherers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1464" start="36" end="37" text="Hansen Thüwendorff" element="head" class="nam" subclass=""/>
+              <span id="1470" start="38" end="39" text="des scherers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1470_head" start="38" end="39" element="head" class="occ" text="des scherers" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1476" start="40" end="40" text="hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1482" start="46" end="50" text="Peter Gräfen des&#10;schumachers hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1482_desc_owner" start="46" end="49" text="Peter Gräfen des&#10;schumachers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1488" start="46" end="49" text="Peter Gräfen des&#10;schumachers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1494" start="46" end="47" text="Peter Gräfen" element="head" class="nam" subclass=""/>
+              <span id="1500" start="48" end="49" text="des&#10;schumachers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1500_head" start="48" end="49" element="head" class="occ" text="des schumachers" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1506" start="50" end="50" text="hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1512" start="60" end="62" text="Soschartz seb hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1512_desc_owner" start="60" end="61" text="Soschartz seb" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1524" start="60" end="61" text="Soschartz seb" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1530" start="60" end="60" text="Soschartz" element="head" class="nam" subclass=""/>
+              <span id="1536" start="61" end="61" text="seb" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+            </span>
+          </span>
+          <span id="1518" start="62" end="62" text="hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1602" start="64" end="82" text="zinset von eig . wegen einem&#10;caplan der ersten phrund dles hl crutzes altar zes . Peter&#10;35sh ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1542" start="69" end="80" text="einem&#10;caplan der ersten phrund dles hl crutzes altar zes . Peter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1548" start="70" end="70" text="caplan" element="head" class="occ" subclass="org-job"/>
+          <span id="1554" start="71" end="80" text="der ersten phrund dles hl crutzes altar zes . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="1560" start="72" end="77" text="ersten phrund dles hl crutzes altar" element="head" class="nam" subclass=""/>
+            <span id="1620" start="78" end="80" text="zes . Peter" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1626" start="78" end="80" text="zes . Peter" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+                <span id="1626_head" start="78" end="80" element="head" class="nam" text="zes . Peter" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+        <span id="1566" start="81" end="82" text="35sh ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1608" start="85" end="86" text="andern güter" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1614" start="86" end="86" text="güter" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1572" start="89" end="90" text="50 fl" element="value" class="money" subclass=""/>
+    <span id="1596" start="91" end="92" text="widerk ." element="other" class="other" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="69" end="80" ref="1542" type="state">
+      <trigger start="70" end="70" text="caplan" ref="1548"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1542" text="einem&#10;caplan der ersten phrund dles hl crutzes altar zes . Peter"/>
+        <role role="employer" ref="1554" text="der ersten phrund dles hl crutzes altar zes . Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="part_whole" polarity="pos" tense="pres" modality="ass" start="22" end="30" ref="1416" type="state">
+      <event event_id="1.0">
+        <role role="whole" ref="1404" text="einem Hus&#10;&amp; Hofstatt u . dem höflin u . stogk derhinder&#10;gelegen an den Spalen , nebend Hansen Thüwendorff&#10;des scherers hus ze einersiten , u . Peter Gräfen des&#10;schumachers hus zer andern siten , u . reichet hinderus&#10;an Soschartz seb hus .&#10;zinset von eig . wegen einem&#10;caplan der ersten phrund dles hl crutzes altar zes . Peter&#10;35sh ."/>
+        <role role="part" ref="1422" text="dem höflin"/>
+        <role role="part" ref="1434" text="stogk"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="62" ref="custom_desc_loc" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1404" text="einem Hus&#10;&amp; Hofstatt u . dem höflin u . stogk derhinder&#10;gelegen an den Spalen , nebend Hansen Thüwendorff&#10;des scherers hus ze einersiten , u . Peter Gräfen des&#10;schumachers hus zer andern siten , u . reichet hinderus&#10;an Soschartz seb hus .&#10;zinset von eig . wegen einem&#10;caplan der ersten phrund dles hl crutzes altar zes . Peter&#10;35sh ."/>
+        <role role="location-b" ref="1440" text="den Spalen"/>
+        <role role="location-b" ref="1452" text="Hansen Thüwendorff&#10;des scherers hus"/>
+        <role role="location-b" ref="1482" text="Peter Gräfen des&#10;schumachers hus"/>
+        <role role="location-b" ref="1512" text="Soschartz seb hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="36" end="39" ref="1452_desc_owner" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1452" text="Hansen Thüwendorff&#10;des scherers hus"/>
+        <role role="owner" ref="1458" text="Hansen Thüwendorff&#10;des scherers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="46" end="49" ref="1482_desc_owner" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1482" text="Peter Gräfen des&#10;schumachers hus"/>
+        <role role="owner" ref="1488" text="Peter Gräfen des&#10;schumachers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="60" end="61" ref="1512_desc_owner" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1512" text="Soschartz seb hus"/>
+        <role role="owner" ref="1524" text="Soschartz seb"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="64" end="82" ref="1602" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1404" text="einem Hus&#10;&amp; Hofstatt u . dem höflin u . stogk derhinder&#10;gelegen an den Spalen , nebend Hansen Thüwendorff&#10;des scherers hus ze einersiten , u . Peter Gräfen des&#10;schumachers hus zer andern siten , u . reichet hinderus&#10;an Soschartz seb hus .&#10;zinset von eig . wegen einem&#10;caplan der ersten phrund dles hl crutzes altar zes . Peter&#10;35sh ."/>
+        <role role="beneficiary" ref="1542" text="einem&#10;caplan der ersten phrund dles hl crutzes altar zes . Peter"/>
+        <role role="interest" ref="1566" text="35sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="78" end="80" ref="1620" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1554" text="der ersten phrund dles hl crutzes altar zes . Peter"/>
+        <role role="location-b" ref="1626" text="zes . Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="92" ref="" type="event">
+      <trigger start="6" end="6" text="verkauft" ref="1578"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1374" text="Peter Hans Landoss der Schumacher"/>
+        <role role="buyer" ref="1398" text="Ludman Meltingers"/>
+        <role role="due" ref="1590" text="gelts"/>
+        <role role="collateral" ref="1404" text="einem Hus&#10;&amp; Hofstatt u . dem höflin u . stogk derhinder&#10;gelegen an den Spalen , nebend Hansen Thüwendorff&#10;des scherers hus ze einersiten , u . Peter Gräfen des&#10;schumachers hus zer andern siten , u . reichet hinderus&#10;an Soschartz seb hus .&#10;zinset von eig . wegen einem&#10;caplan der ersten phrund dles hl crutzes altar zes . Peter&#10;35sh ."/>
+        <role role="collateral" ref="1608" text="andern güter"/>
+        <role role="price" ref="1572" text="50 fl"/>
+        <role role="interest-redeemable" ref="1596" text="widerk ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="11" end="16" ref="" type="state">
+      <trigger start="16" end="16" text="gelts" ref="1590"/>
+      <event event_id="9.0">
+        <role role="interest" ref="1584" text="2 1 / 2 fl"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

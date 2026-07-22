@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 50/26 S. [31]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Eisengasse 17</tei:title>
+            <tei:idno>HGB 1 50/26</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1465051</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Hausurkunden</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1612">1612</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611234.3984736972 1267614.4841725791</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Privaturkunde</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Meister</token>
+    <token token_id="3">Joachim</token>
+    <token token_id="4">Ull</token>
+    <token token_id="5">der</token>
+    <token token_id="6">Glaser</token>
+    <token token_id="7">und</token>
+    <token token_id="8">Meister</token>
+    <token token_id="9">Michel</token>
+    <token token_id="10">am</token>
+    <token token_id="11">Weg</token>
+    <token token_id="12">der</token>
+    <token token_id="13">Schumacher</token>
+    <token token_id="14">,</token>
+    <token token_id="15">beed</token>
+    <token token_id="16">Burgere</token>
+    <token token_id="17">der</token>
+    <token token_id="18">Statt</token>
+    <token token_id="19">Basel</token>
+    <token token_id="20">und</token>
+    <token token_id="21">Besitzern</token>
+    <token token_id="22">der</token>
+    <token token_id="23">Heüsern</token>
+    <token token_id="24">zur</token>
+    <token token_id="25">Rhüenen</token>
+    <token token_id="26">genandt</token>
+    <token token_id="27">,</token>
+    <token token_id="28">so</token>
+    <token token_id="29">im</token>
+    <token token_id="30">der</token>
+    <token token_id="31">Statt</token>
+    <token token_id="32">an</token>
+    <token token_id="33">der</token>
+    <token token_id="34">Jsengaßen</token>
+    <token token_id="35">,</token>
+    <token token_id="36">einseit</token>
+    <token token_id="37">dem</token>
+    <token token_id="38">Haus</token>
+    <token token_id="39">zum</token>
+    <token token_id="40">Balmesel</token>
+    <token token_id="41">,</token>
+    <token token_id="42">anderseits</token>
+    <token token_id="43">Hieronimi</token>
+    <token token_id="44">Hüsers</token>
+    <token token_id="45">sel</token>
+    <token token_id="46">.</token>
+    <token token_id="47">Erben</token>
+    <token token_id="48">Behausung</token>
+    <token token_id="49">,</token>
+    <token token_id="50">so</token>
+    <token token_id="51">St</token>
+    <token token_id="52">.</token>
+    <token token_id="53">Johans</token>
+    <token token_id="54">genandt</token>
+    <token token_id="55">,</token>
+    <token token_id="56">gelegen</token>
+    <token token_id="57">,</token>
+    <token token_id="58">die</token>
+    <token token_id="59">sie</token>
+    <token token_id="60">gemeinlichen</token>
+    <token token_id="61">dochmit</token>
+    <token token_id="62">unterscheidlich</token>
+    <token token_id="63">Rigelmenden</token>
+    <token token_id="64">bewohnen</token>
+    <token token_id="65">,</token>
+    <token token_id="66">auch</token>
+    <token token_id="67">gemeine</token>
+    <token token_id="68">Ausgang</token>
+    <token token_id="69">haben</token>
+    <token token_id="70">,</token>
+    <token token_id="71">treffen</token>
+    <token token_id="72">einen</token>
+    <token token_id="73">Vergleich</token>
+    <token token_id="74">betreffend</token>
+    <token token_id="75">der</token>
+    <token token_id="76">Baucosten</token>
+    <token token_id="77">des</token>
+    <token token_id="78">160</token>
+    <token token_id="79">aufgefügten</token>
+    <token token_id="80">Pfeilers</token>
+    <token token_id="81">der</token>
+    <token token_id="82">fordern</token>
+    <token token_id="83">,</token>
+    <token token_id="84">mie</token>
+    <token token_id="85">auch</token>
+    <token token_id="86">der</token>
+    <token token_id="87">Schied</token>
+    <token token_id="88">und</token>
+    <token token_id="89">Haupt</token>
+    <token token_id="90">¬</token>
+    <token token_id="91">mauren</token>
+    <token token_id="92">uff</token>
+    <token token_id="93">der</token>
+    <token token_id="94">Seiten</token>
+    <token token_id="95">des</token>
+    <token token_id="96">Hauses</token>
+    <token token_id="97">zum</token>
+    <token token_id="98">Sallmesell</token>
+    <token token_id="99">,</token>
+    <token token_id="100">wo</token>
+    <token token_id="101">-</token>
+    <token token_id="102">nach</token>
+    <token token_id="103">Michel</token>
+    <token token_id="104">am</token>
+    <token token_id="105">Weg</token>
+    <token token_id="106">Joachim</token>
+    <token token_id="107">Ull</token>
+    <token token_id="108">15</token>
+    <token token_id="109">Pfund</token>
+    <token token_id="110">Gelts</token>
+    <token token_id="111">der</token>
+    <token token_id="112">Statt</token>
+    <token token_id="113">Basel</token>
+    <token token_id="114">Behrung</token>
+    <token token_id="115">gut</token>
+    <token token_id="116">,</token>
+    <token token_id="117">machen</token>
+    <token token_id="118">soll</token>
+    <token token_id="119">.</token>
+    <token token_id="120">Anmerkung</token>
+    <token token_id="121">.</token>
+    <token token_id="122">1613</token>
+    <token token_id="123">April</token>
+    <token token_id="124">15</token>
+    <token token_id="125">.</token>
+    <token token_id="126">-</token>
+    <token token_id="127">Notariatsurk</token>
+    <token token_id="128">.</token>
+    <token token_id="129">No</token>
+    <token token_id="130">.</token>
+    <token token_id="131">Joachim</token>
+    <token token_id="132">Ull</token>
+    <token token_id="133">quittirt</token>
+    <token token_id="134">Mr</token>
+    <token token_id="135">.</token>
+    <token token_id="136">Michel</token>
+    <token token_id="137">am</token>
+    <token token_id="138">Weg</token>
+  </text>
+  <spans>
+    <span id="2158" start="2" end="69" text="Meister Joachim Ull der Glaser und Meister Michel&#10;am Weg der Schumacher , beed Burgere der Statt Basel&#10;und Besitzern der Heüsern zur Rhüenen genandt ,&#10;so im der Statt an der Jsengaßen , einseit dem&#10;Haus zum Balmesel , anderseits Hieronimi Hüsers sel .&#10;Erben Behausung , so St . Johans genandt , gelegen , die&#10;sie gemeinlichen dochmit unterscheidlich Rigelmenden&#10;bewohnen , auch gemeine Ausgang haben" element="list" class="per" subclass="">
+      <span id="2002" start="2" end="6" text="Meister Joachim Ull der Glaser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2008" start="2" end="2" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2008_head" start="2" end="2" element="head" class="title" text="Meister" subclass=""/>
+        </span>
+        <span id="2014" start="3" end="4" text="Joachim Ull" element="head" class="nam" subclass=""/>
+        <span id="2020" start="5" end="6" text="der Glaser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2026" start="6" end="6" text="Glaser" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="2032" start="8" end="13" text="Meister Michel&#10;am Weg der Schumacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2038" start="8" end="8" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2038_head" start="8" end="8" element="head" class="title" text="Meister" subclass=""/>
+        </span>
+        <span id="2044" start="9" end="11" text="Michel&#10;am Weg" element="head" class="nam" subclass=""/>
+        <span id="2050" start="12" end="13" text="der Schumacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2056" start="13" end="13" text="Schumacher" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="2164" start="15" end="19" text="beed Burgere der Statt Basel" element="appo" class="org-aff" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2170" start="16" end="16" text="Burgere" element="head" class="org-aff" subclass=""/>
+        <span id="2062" start="17" end="19" text="der Statt Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2294" start="18" end="19" text="Statt Basel" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="2176" start="21" end="69" text="Besitzern der Heüsern zur Rhüenen genandt ,&#10;so im der Statt an der Jsengaßen , einseit dem&#10;Haus zum Balmesel , anderseits Hieronimi Hüsers sel .&#10;Erben Behausung , so St . Johans genandt , gelegen , die&#10;sie gemeinlichen dochmit unterscheidlich Rigelmenden&#10;bewohnen , auch gemeine Ausgang haben" element="appo" class="owner" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2182" start="21" end="21" text="Besitzern" element="head" class="owner" subclass=""/>
+        <span id="2188" start="22" end="69" text="der Heüsern zur Rhüenen genandt ,&#10;so im der Statt an der Jsengaßen , einseit dem&#10;Haus zum Balmesel , anderseits Hieronimi Hüsers sel .&#10;Erben Behausung , so St . Johans genandt , gelegen , die&#10;sie gemeinlichen dochmit unterscheidlich Rigelmenden&#10;bewohnen , auch gemeine Ausgang haben" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2068" start="23" end="23" text="Heüsern" element="head" class="type" subclass=""/>
+          <span id="2074" start="24" end="25" text="zur Rhüenen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2074_head" start="24" end="25" element="head" class="nam" text="zur Rhüenen" subclass=""/>
+          </span>
+          <span id="2080" start="29" end="56" text="im der Statt an der Jsengaßen , einseit dem&#10;Haus zum Balmesel , anderseits Hieronimi Hüsers sel .&#10;Erben Behausung , so St . Johans genandt , gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2086" start="30" end="31" text="der Statt" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2098" start="31" end="31" text="Statt" element="head" class="type" subclass=""/>
+            </span>
+            <span id="2092" start="33" end="34" text="der Jsengaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+              <span id="2104" start="34" end="34" text="Jsengaßen" element="head" class="nam" subclass=""/>
+            </span>
+            <span id="2110" start="37" end="40" text="dem&#10;Haus zum Balmesel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2116" start="38" end="40" text="Haus zum Balmesel" element="head" class="nam" subclass=""/>
+            </span>
+            <span id="2128" start="43" end="54" text="Hieronimi Hüsers sel .&#10;Erben Behausung , so St . Johans genandt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2128_desc_owner" start="43" end="47" text="Hieronimi Hüsers sel .&#10;Erben" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2194" start="43" end="47" text="Hieronimi Hüsers sel .&#10;Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="2206" start="43" end="46" text="Hieronimi Hüsers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                    <span id="2300" start="43" end="44" text="Hieronimi Hüsers" element="head" class="nam" subclass=""/>
+                    <span id="2122" start="45" end="46" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+                  </span>
+                  <span id="2200" start="47" end="47" text="Erben" element="head" class="heir" subclass=""/>
+                </span>
+              </span>
+              <span id="2134" start="48" end="48" text="Behausung" element="head" class="type" subclass=""/>
+              <span id="2140" start="51" end="53" text="St . Johans" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2140_head" start="51" end="53" element="head" class="nam" text="St . Johans" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="2212" start="59" end="59" text="sie" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2212_head" start="59" end="59" element="head" class="pro" text="sie" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2306" start="73" end="73" text="Vergleich" element="trigger" class="settlement" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2312" start="76" end="76" text="Baucosten" element="other" class="other" subclass=""/>
+    <span id="2318" start="87" end="91" text="Schied und Haupt ¬&#10;mauren" element="other" class="other" subclass=""/>
+    <span id="2225" start="95" end="98" text="des Hauses zum Sallmesell" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2231" start="96" end="98" text="Hauses zum Sallmesell" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2244" start="103" end="105" text="Michel am Weg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2244_head" start="103" end="105" element="head" class="nam" text="Michel am Weg" subclass=""/>
+    </span>
+    <span id="2152" start="106" end="107" text="Joachim Ull" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2152_head" start="106" end="107" element="head" class="nam" text="Joachim Ull" subclass=""/>
+    </span>
+    <span id="2288" start="108" end="110" text="15 Pfund Gelts" element="value" class="money" subclass=""/>
+    <span id="2264" start="111" end="113" text="der Statt&#10;Basel" element="reference" class="gpe-gpe" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2324" start="112" end="113" text="Statt&#10;Basel" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2330" start="115" end="117" text="gut , machen" element="trigger" class="payment" tense="pres" polarity="pos" modality="prom" subclass=""/>
+    <span id="2146" start="122" end="124" text="1613 April 15" element="value" class="date" subclass=""/>
+    <span id="2270" start="131" end="132" text="Joachim Ull" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2270_head" start="131" end="132" element="head" class="nam" text="Joachim Ull" subclass=""/>
+    </span>
+    <span id="2336" start="133" end="133" text="quittirt" element="trigger" class="receipt" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2276" start="134" end="138" text="Mr . Michel am Weg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2342" start="134" end="135" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2342_head" start="134" end="135" element="head" class="title" text="Mr ." subclass=""/>
+      </span>
+      <span id="2282" start="136" end="138" text="Michel am Weg" element="head" class="nam" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2218" from="2212" to="2158" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2257" from="2152" to="2002" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2250" from="2244" to="2032" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2237" from="2225" to="2110" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="1" class="inheritance" polarity="pos" tense="pres" modality="ass" start="43" end="47" ref="2194" type="event">
+      <trigger start="47" end="47" text="Erben" ref="2200"/>
+      <event event_id="1.0">
+        <role role="heir" ref="2194" text="Hieronimi Hüsers sel .&#10;Erben"/>
+        <role role="decedent" ref="2206" text="Hieronimi Hüsers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="15" end="19" ref="2164" type="state">
+      <trigger start="16" end="16" text="Burgere" ref="2170"/>
+      <event event_id="2.0">
+        <role role="resident" ref="2002" text="Meister Joachim Ull der Glaser"/>
+        <role role="geopolitical-entity" ref="2062" text="der Statt Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="15" end="19" ref="2164" type="state">
+      <trigger start="16" end="16" text="Burgere" ref="2170"/>
+      <event event_id="3.0">
+        <role role="resident" ref="2032" text="Meister Michel&#10;am Weg der Schumacher"/>
+        <role role="geopolitical-entity" ref="2062" text="der Statt Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="21" end="69" ref="2176" type="state">
+      <trigger start="21" end="21" text="Besitzern" ref="2182"/>
+      <event event_id="4.0">
+        <role role="owner" ref="2002" text="Meister Joachim Ull der Glaser"/>
+        <role role="property" ref="2188" text="der Heüsern zur Rhüenen genandt ,&#10;so im der Statt an der Jsengaßen , einseit dem&#10;Haus zum Balmesel , anderseits Hieronimi Hüsers sel .&#10;Erben Behausung , so St . Johans genandt , gelegen , die&#10;sie gemeinlichen dochmit unterscheidlich Rigelmenden&#10;bewohnen , auch gemeine Ausgang haben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="21" end="69" ref="2176" type="state">
+      <trigger start="21" end="21" text="Besitzern" ref="2182"/>
+      <event event_id="5.0">
+        <role role="owner" ref="2032" text="Meister Michel&#10;am Weg der Schumacher"/>
+        <role role="property" ref="2188" text="der Heüsern zur Rhüenen genandt ,&#10;so im der Statt an der Jsengaßen , einseit dem&#10;Haus zum Balmesel , anderseits Hieronimi Hüsers sel .&#10;Erben Behausung , so St . Johans genandt , gelegen , die&#10;sie gemeinlichen dochmit unterscheidlich Rigelmenden&#10;bewohnen , auch gemeine Ausgang haben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="29" end="56" ref="2080" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="2188" text="der Heüsern zur Rhüenen genandt ,&#10;so im der Statt an der Jsengaßen , einseit dem&#10;Haus zum Balmesel , anderseits Hieronimi Hüsers sel .&#10;Erben Behausung , so St . Johans genandt , gelegen , die&#10;sie gemeinlichen dochmit unterscheidlich Rigelmenden&#10;bewohnen , auch gemeine Ausgang haben"/>
+        <role role="location-b" ref="2086" text="der Statt"/>
+        <role role="location-b" ref="2092" text="der Jsengaßen"/>
+        <role role="location-b" ref="2110" text="dem&#10;Haus zum Balmesel"/>
+        <role role="location-b" ref="2128" text="Hieronimi Hüsers sel .&#10;Erben Behausung , so St . Johans genandt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="43" end="47" ref="2128_desc_owner" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="2128" text="Hieronimi Hüsers sel .&#10;Erben Behausung , so St . Johans genandt"/>
+        <role role="owner" ref="2194" text="Hieronimi Hüsers sel .&#10;Erben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="settlement" polarity="pos" tense="pres" modality="ass" start="2" end="73" ref="" type="event">
+      <trigger start="73" end="73" text="Vergleich" ref="2306"/>
+      <event event_id="8.0">
+        <role role="party1" ref="2002" text="Meister Joachim Ull der Glaser"/>
+        <role role="party2" ref="2032" text="Meister Michel&#10;am Weg der Schumacher"/>
+        <role role="subject" ref="2312" text="Baucosten"/>
+        <role role="subject" ref="2318" text="Schied und Haupt ¬&#10;mauren"/>
+        <role role="subject" ref="2330" text="gut , machen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="payment" polarity="pos" tense="pres" modality="prom" start="103" end="117" ref="" type="event">
+      <trigger start="115" end="117" text="gut , machen" ref="2330"/>
+      <event event_id="9.0">
+        <role role="payer" ref="2244" text="Michel am Weg"/>
+        <role role="beneficiary" ref="2152" text="Joachim Ull"/>
+        <role role="sum" ref="2288" text="15 Pfund Gelts"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="receipt" polarity="pos" tense="pres" modality="ass" start="122" end="138" ref="" type="event">
+      <trigger start="133" end="133" text="quittirt" ref="2336"/>
+      <event event_id="10.0">
+        <role role="date" ref="2146" text="1613 April 15"/>
+        <role role="receiver" ref="2270" text="Joachim Ull"/>
+        <role role="payer" ref="2276" text="Mr . Michel am Weg"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

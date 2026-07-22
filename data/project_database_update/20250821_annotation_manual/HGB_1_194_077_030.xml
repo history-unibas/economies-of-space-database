@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/77 S. [30]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 16</tei:title>
+            <tei:idno>HGB 1 194/77</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1515780</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1512">1512</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611118.0138689424 1267398.1234415625</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Michel</token>
+    <token token_id="1">Wernher</token>
+    <token token_id="2">von</token>
+    <token token_id="3">Rutlingen</token>
+    <token token_id="4">ein</token>
+    <token token_id="5">Steinmetz</token>
+    <token token_id="6">,</token>
+    <token token_id="7">juwoner</token>
+    <token token_id="8">zu</token>
+    <token token_id="9">Basel</token>
+    <token token_id="10">,</token>
+    <token token_id="11">u</token>
+    <token token_id="12">.</token>
+    <token token_id="13">seiner</token>
+    <token token_id="14">Frau</token>
+    <token token_id="15">Elsin</token>
+    <token token_id="16">Möschlin</token>
+    <token token_id="17">,</token>
+    <token token_id="18">uffgericht</token>
+    <token token_id="19">uff</token>
+    <token token_id="20">dem</token>
+    <token token_id="21">Nadelberg</token>
+    <token token_id="22">vor</token>
+    <token token_id="23">u</token>
+    <token token_id="24">.</token>
+    <token token_id="25">in</token>
+    <token token_id="26">dem</token>
+    <token token_id="27">hus</token>
+    <token token_id="28">genant</token>
+    <token token_id="29">Bückingers</token>
+    <token token_id="30">hus</token>
+    <token token_id="31">.</token>
+  </text>
+  <spans>
+    <span id="559" start="0" end="16" text="Michel Wernher von Rutlingen ein Steinmetz , juwoner zu Basel ,&#10;u . seiner Frau Elsin Möschlin" element="list" class="per" subclass="">
+      <span id="565" start="0" end="9" text="Michel Wernher von Rutlingen ein Steinmetz , juwoner zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="571" start="0" end="1" text="Michel Wernher" element="head" class="nam" subclass=""/>
+        <span id="577" start="2" end="3" text="von Rutlingen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="583" start="3" end="3" text="Rutlingen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="583_head" start="3" end="3" element="head" class="nam" text="Rutlingen" subclass=""/>
+          </span>
+        </span>
+        <span id="589" start="4" end="5" text="ein Steinmetz" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="595" start="5" end="5" text="Steinmetz" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="601" start="7" end="9" text="juwoner zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="607" start="7" end="7" text="juwoner" element="head" class="org-aff" subclass=""/>
+          <span id="613" start="9" end="9" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="613_head" start="9" end="9" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="619" start="13" end="16" text="seiner Frau Elsin Möschlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="631" start="13" end="14" text="seiner Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="643" start="13" end="13" text="seiner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="643_head" start="13" end="13" element="head" class="pro" text="seiner" subclass=""/>
+          </span>
+          <span id="637" start="14" end="14" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="625" start="15" end="16" text="Elsin Möschlin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="656" start="20" end="21" text="dem Nadelberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="662" start="21" end="21" text="Nadelberg" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="668" start="26" end="30" text="dem hus genant Bückingers hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="674" start="27" end="27" text="hus" element="head" class="type" subclass=""/>
+      <span id="680" start="29" end="30" text="Bückingers hus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="680_head" start="29" end="30" element="head" class="nam" text="Bückingers hus" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="649" from="643" to="565" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="7" end="9" ref="601" type="state">
+      <trigger start="7" end="7" text="juwoner" ref="607"/>
+      <event event_id="0.0">
+        <role role="resident" ref="565" text="Michel Wernher von Rutlingen ein Steinmetz , juwoner zu Basel"/>
+        <role role="geopolitical-entity" ref="613" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="13" end="14" ref="631" type="state">
+      <trigger start="14" end="14" text="Frau" ref="637"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="619" text="seiner Frau Elsin Möschlin"/>
+        <role role="family-b" ref="643" text="seiner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="2" end="3" ref="577" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="565" text="Michel Wernher von Rutlingen ein Steinmetz , juwoner zu Basel"/>
+        <role role="location-b" ref="583" text="Rutlingen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

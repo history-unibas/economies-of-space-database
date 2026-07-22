@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/40 S. [21]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 39</tei:title>
+            <tei:idno>HGB 1 63/40</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472895</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1454">1454</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611295.827251559 1267273.6984532862</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Gerwern</token>
+    <token token_id="1">.</token>
+    <token token_id="2">1454</token>
+    <token token_id="3">Stachel</token>
+    <token token_id="4">der</token>
+    <token token_id="5">Gerwern</token>
+    <token token_id="6">git</token>
+    <token token_id="7">7</token>
+    <token token_id="8">½</token>
+    <token token_id="9">sh</token>
+    <token token_id="10">.</token>
+    <token token_id="11">vom</token>
+    <token token_id="12">Hus</token>
+    <token token_id="13">zem</token>
+    <token token_id="14">unteren</token>
+    <token token_id="15">Boum</token>
+    <token token_id="16">nechst</token>
+    <token token_id="17">neben</token>
+    <token token_id="18">dem</token>
+    <token token_id="19">Hus</token>
+    <token token_id="20">Waldenburg</token>
+    <token token_id="21">Ebenso</token>
+    <token token_id="22">.</token>
+    <token token_id="23">1455</token>
+    <token token_id="24">.</token>
+    <token token_id="25">1456</token>
+    <token token_id="26">fehlt</token>
+    <token token_id="27">.</token>
+    <token token_id="28">1457</token>
+    <token token_id="29">wie</token>
+    <token token_id="30">oben</token>
+    <token token_id="31">.</token>
+    <token token_id="32">Ebenso</token>
+    <token token_id="33">1458</token>
+    <token token_id="34">.</token>
+    <token token_id="35">1459</token>
+    <token token_id="36">.</token>
+    <token token_id="37">1460</token>
+    <token token_id="38">.</token>
+    <token token_id="39">Ebenso</token>
+    <token token_id="40">1461</token>
+    <token token_id="41">.</token>
+    <token token_id="42">1462</token>
+    <token token_id="43">.</token>
+    <token token_id="44">1463</token>
+    <token token_id="45">.</token>
+    <token token_id="46">1464</token>
+    <token token_id="47">.</token>
+    <token token_id="48">1465</token>
+    <token token_id="49">.</token>
+    <token token_id="50">1466</token>
+    <token token_id="51">.</token>
+    <token token_id="52">1467</token>
+    <token token_id="53">.</token>
+    <token token_id="54">1468</token>
+    <token token_id="55">.</token>
+    <token token_id="56">1469</token>
+    <token token_id="57">.</token>
+    <token token_id="58">Ebenso</token>
+    <token token_id="59">.</token>
+    <token token_id="60">1470</token>
+    <token token_id="61">.</token>
+    <token token_id="62">1471</token>
+    <token token_id="63">.</token>
+    <token token_id="64">1472</token>
+    <token token_id="65">.</token>
+    <token token_id="66">Stachels</token>
+    <token token_id="67">Erben</token>
+    <token token_id="68">gent</token>
+    <token token_id="69">den</token>
+    <token token_id="70">Zins</token>
+    <token token_id="71">.</token>
+    <token token_id="72">Ebenso</token>
+    <token token_id="73">.</token>
+    <token token_id="74">1473</token>
+    <token token_id="75">.</token>
+    <token token_id="76">1474</token>
+    <token token_id="77">.</token>
+    <token token_id="78">1475</token>
+    <token token_id="79">.</token>
+    <token token_id="80">1476</token>
+    <token token_id="81">fehlt</token>
+    <token token_id="82">!</token>
+  </text>
+  <spans>
+    <span id="1219" start="0" end="0" text="Gerwern" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+      <span id="1219_head" start="0" end="0" element="head" class="nam" text="Gerwern" subclass=""/>
+    </span>
+    <span id="1225" start="2" end="2" text="1454" element="value" class="date" subclass=""/>
+    <span id="1363" start="3" end="5" text="Stachel der Gerwern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1369" start="3" end="3" text="Stachel" element="head" class="nam" subclass=""/>
+      <span id="1375" start="4" end="5" text="der Gerwern" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1381" start="5" end="5" text="Gerwern" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1448" start="6" end="6" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1387" start="7" end="10" text="7 ½ sh ." element="value" class="money" subclass=""/>
+    <span id="1399" start="11" end="20" text="vom Hus zem unteren&#10;Boum nechst neben dem Hus Waldenburg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1393" start="12" end="15" text="Hus zem unteren&#10;Boum" element="head" class="nam" subclass=""/>
+      <span id="1405" start="16" end="20" text="nechst neben dem Hus Waldenburg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1411" start="18" end="20" text="dem Hus Waldenburg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1417" start="19" end="20" text="Hus Waldenburg" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1231" start="23" end="23" text="1455" element="value" class="date" subclass=""/>
+    <span id="1237" start="25" end="25" text="1456" element="value" class="date" subclass=""/>
+    <span id="1243" start="28" end="28" text="1457" element="value" class="date" subclass=""/>
+    <span id="1249" start="33" end="33" text="1458" element="value" class="date" subclass=""/>
+    <span id="1255" start="35" end="35" text="1459" element="value" class="date" subclass=""/>
+    <span id="1261" start="37" end="37" text="1460" element="value" class="date" subclass=""/>
+    <span id="1267" start="40" end="40" text="1461" element="value" class="date" subclass=""/>
+    <span id="1273" start="42" end="42" text="1462" element="value" class="date" subclass=""/>
+    <span id="1279" start="44" end="44" text="1463" element="value" class="date" subclass=""/>
+    <span id="1285" start="46" end="46" text="1464" element="value" class="date" subclass=""/>
+    <span id="1291" start="48" end="48" text="1465" element="value" class="date" subclass=""/>
+    <span id="1297" start="50" end="50" text="1466" element="value" class="date" subclass=""/>
+    <span id="1303" start="52" end="52" text="1467" element="value" class="date" subclass=""/>
+    <span id="1309" start="54" end="54" text="1468" element="value" class="date" subclass=""/>
+    <span id="1315" start="56" end="56" text="1469" element="value" class="date" subclass=""/>
+    <span id="1321" start="60" end="60" text="1470" element="value" class="date" subclass=""/>
+    <span id="1327" start="62" end="62" text="1471" element="value" class="date" subclass=""/>
+    <span id="1333" start="64" end="64" text="1472" element="value" class="date" subclass=""/>
+    <span id="1423" start="66" end="67" text="Stachels Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1435" start="66" end="66" text="Stachels" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1435_head" start="66" end="66" element="head" class="nam" text="Stachels" subclass=""/>
+      </span>
+      <span id="1429" start="67" end="67" text="Erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="1460" start="68" end="68" text="gent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="1466" start="70" end="70" text="Zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1339" start="74" end="74" text="1473" element="value" class="date" subclass=""/>
+    <span id="1345" start="76" end="76" text="1474" element="value" class="date" subclass=""/>
+    <span id="1351" start="78" end="78" text="1475" element="value" class="date" subclass=""/>
+    <span id="1357" start="80" end="80" text="1476" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1441" from="1435" to="1363" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1472" from="1466" to="1448" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="66" end="67" ref="1423" type="event">
+      <trigger start="67" end="67" text="Erben" ref="1429"/>
+      <event event_id="0.0">
+        <role role="heir" ref="1423" text="Stachels Erben"/>
+        <role role="decedent" ref="1435" text="Stachels"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="16" end="20" ref="1405" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1399" text="vom Hus zem unteren&#10;Boum nechst neben dem Hus Waldenburg"/>
+        <role role="location-b" ref="1411" text="dem Hus Waldenburg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="62" ref="" type="event">
+      <trigger start="6" end="6" text="git" ref="1448"/>
+      <event event_id="2.0">
+        <role role="place" ref="1219" text="Gerwern"/>
+        <role role="date" ref="1225" text="1454"/>
+        <role role="payer" ref="1363" text="Stachel der Gerwern"/>
+        <role role="interest" ref="1387" text="7 ½ sh ."/>
+        <role role="property" ref="1399" text="vom Hus zem unteren&#10;Boum nechst neben dem Hus Waldenburg"/>
+        <role role="date" ref="1231" text="1455"/>
+        <role role="date-missing" ref="1237" text="1456"/>
+        <role role="date" ref="1243" text="1457"/>
+        <role role="date" ref="1249" text="1458"/>
+        <role role="date" ref="1255" text="1459"/>
+        <role role="date" ref="1261" text="1460"/>
+        <role role="date" ref="1267" text="1461"/>
+        <role role="date" ref="1273" text="1462"/>
+        <role role="date" ref="1279" text="1463"/>
+        <role role="date" ref="1285" text="1464"/>
+        <role role="date" ref="1291" text="1465"/>
+        <role role="date" ref="1297" text="1466"/>
+        <role role="date" ref="1303" text="1467"/>
+        <role role="date" ref="1309" text="1468"/>
+        <role role="date" ref="1315" text="1469"/>
+        <role role="date" ref="1321" text="1470"/>
+        <role role="date" ref="1327" text="1471"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="64" end="80" ref="" type="event">
+      <trigger start="68" end="68" text="gent" ref="1460"/>
+      <event event_id="3.0">
+        <role role="date" ref="1333" text="1472"/>
+        <role role="payer" ref="1423" text="Stachels Erben"/>
+        <role role="previous-due" ref="1466" text="Zins"/>
+        <role role="date" ref="1339" text="1473"/>
+        <role role="date" ref="1345" text="1474"/>
+        <role role="date" ref="1351" text="1475"/>
+        <role role="date-missing" ref="1357" text="1476"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="pos" tense="pres" modality="ass" start="70" end="70" ref="" type="event">
+      <trigger start="70" end="70" text="Zins" ref="1466"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

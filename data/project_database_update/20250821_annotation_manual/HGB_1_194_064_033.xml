@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/64 S. [33]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 2</tei:title>
+            <tei:idno>HGB 1 194/64</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1515767</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Hausurkunden</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1485">1485</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611137.1237903484 1267434.135293966</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Fünfer</token>
+    <token token_id="1">Brief</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Syen</token>
+    <token token_id="4">zwischen</token>
+    <token token_id="5">Hans</token>
+    <token token_id="6">Rogklin</token>
+    <token token_id="7">,</token>
+    <token token_id="8">dem</token>
+    <token token_id="9">Kürsner</token>
+    <token token_id="10">,</token>
+    <token token_id="11">ein</token>
+    <token token_id="12">einem</token>
+    <token token_id="13">und</token>
+    <token token_id="14">Oswald</token>
+    <token token_id="15">Herrenberg</token>
+    <token token_id="16">dem</token>
+    <token token_id="17">Messerschmied</token>
+    <token token_id="18">anderseits</token>
+    <token token_id="19">erkannt</token>
+    <token token_id="20">daß</token>
+    <token token_id="21">Heremberg</token>
+    <token token_id="22">das</token>
+    <token token_id="23">Leny</token>
+    <token token_id="24">ob</token>
+    <token token_id="25">und</token>
+    <token token_id="26">Erse</token>
+    <token token_id="27">in</token>
+    <token token_id="28">sinem</token>
+    <token token_id="29">Hus</token>
+    <token token_id="30">durch</token>
+    <token token_id="31">hinuff</token>
+    <token token_id="32">mit</token>
+    <token token_id="33">Steinen</token>
+    <token token_id="34">gegen</token>
+    <token token_id="35">dem</token>
+    <token token_id="36">Hus</token>
+    <token token_id="37">zer</token>
+    <token token_id="38">Enten</token>
+    <token token_id="39">uff</token>
+    <token token_id="40">füren</token>
+    <token token_id="41">und</token>
+    <token token_id="42">muren</token>
+    <token token_id="43">solts</token>
+    <token token_id="44">damit</token>
+    <token token_id="45">Rein</token>
+    <token token_id="46">Schaden</token>
+    <token token_id="47">.</token>
+  </text>
+  <spans>
+    <span id="795" start="5" end="9" text="Hans Rogklin , dem Kürsner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="801" start="5" end="6" text="Hans Rogklin" element="head" class="nam" subclass=""/>
+      <span id="807" start="8" end="9" text="dem Kürsner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="813" start="9" end="9" text="Kürsner" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="819" start="14" end="17" text="Oswald Herrenberg dem Messerschmied" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="825" start="14" end="15" text="Oswald Herrenberg" element="head" class="nam" subclass=""/>
+      <span id="831" start="16" end="17" text="dem Messerschmied" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="837" start="17" end="17" text="Messerschmied" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="899" start="19" end="19" text="erkannt" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="843" start="21" end="21" text="Heremberg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="843_head" start="21" end="21" element="head" class="nam" text="Heremberg" subclass=""/>
+    </span>
+    <span id="856" start="28" end="29" text="sinem&#10;Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="868" start="28" end="28" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="874" start="28" end="28" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="874_head" start="28" end="28" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="862" start="29" end="29" text="Hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="887" start="35" end="38" text="dem Hus zer Enten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="893" start="36" end="38" text="Hus zer Enten" element="head" class="nam" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="849" from="843" to="819" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="880" from="874" to="843" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="28" end="28" ref="868" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="856" text="sinem&#10;Hus"/>
+        <role role="owner" ref="874" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="litigation" polarity="pos" tense="pres" modality="ass" start="19" end="29" ref="" type="event">
+      <trigger start="19" end="19" text="erkannt" ref="899"/>
+      <event event_id="1.0">
+        <role role="party1" ref="795" text="Hans Rogklin , dem Kürsner"/>
+        <role role="party2" ref="819" text="Oswald Herrenberg dem Messerschmied"/>
+        <role role="subject" ref="856" text="sinem&#10;Hus"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 159/109 S. [5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheingasse 42</tei:title>
+            <tei:idno>HGB 1 159/109</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1508771</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1417">1417</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611574.4631122034 1267675.3984098905</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">het</token>
+    <token token_id="2">zu</token>
+    <token token_id="3">koffen</token>
+    <token token_id="4">gen</token>
+    <token token_id="5">Anna</token>
+    <token token_id="6">uxor</token>
+    <token token_id="7">gud</token>
+    <token token_id="8">Huglin</token>
+    <token token_id="9">Zieglers</token>
+    <token token_id="10">burgerin</token>
+    <token token_id="11">zu</token>
+    <token token_id="12">Basel</token>
+    <token token_id="13">ein</token>
+    <token token_id="14">.</token>
+    <token token_id="15">hus</token>
+    <token token_id="16">so</token>
+    <token token_id="17">gelegen</token>
+    <token token_id="18">ist</token>
+    <token token_id="19">in</token>
+    <token token_id="20">der</token>
+    <token token_id="21">stat</token>
+    <token token_id="22">zu</token>
+    <token token_id="23">minren</token>
+    <token token_id="24">Basel</token>
+    <token token_id="25">an</token>
+    <token token_id="26">der</token>
+    <token token_id="27">Ringassen</token>
+    <token token_id="28">1</token>
+    <token token_id="29">sit</token>
+    <token token_id="30">an</token>
+    <token token_id="31">Pol</token>
+    <token token_id="32">lender</token>
+    <token token_id="33">et</token>
+    <token token_id="34">an</token>
+    <token token_id="35">Stükerer</token>
+    <token token_id="36">umb</token>
+    <token token_id="37">45</token>
+    <token token_id="38">guld</token>
+    <token token_id="39">eit</token>
+    <token token_id="40">Peter</token>
+    <token token_id="41">Hosang</token>
+    <token token_id="42">et</token>
+    <token token_id="43">Gred</token>
+    <token token_id="44">uxor</token>
+    <token token_id="45">eig</token>
+    <token token_id="46">zinst</token>
+    <token token_id="47">den</token>
+    <token token_id="48">Bredgern</token>
+    <token token_id="49">14ß</token>
+    <token token_id="50">zins</token>
+    <token token_id="51">.</token>
+  </text>
+  <spans>
+    <span id="1002" start="3" end="3" text="koffen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="839" start="5" end="12" text="Anna uxor gud&#10;Huglin Zieglers burgerin zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="845" start="5" end="5" text="Anna" element="head" class="nam" subclass=""/>
+      <span id="851" start="6" end="9" text="uxor gud&#10;Huglin Zieglers" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="857" start="6" end="6" text="uxor" element="head" class="fam" subclass=""/>
+        <span id="863" start="8" end="9" text="Huglin Zieglers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="863_head" start="8" end="9" element="head" class="nam" text="Huglin Zieglers" subclass=""/>
+        </span>
+      </span>
+      <span id="869" start="10" end="12" text="burgerin zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="875" start="10" end="10" text="burgerin" element="head" class="org-aff" subclass=""/>
+        <span id="881" start="12" end="12" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="881_head" start="12" end="12" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="887" start="13" end="35" text="ein .&#10;hus so gelegen ist in der stat zu minren&#10;Basel an der Ringassen 1 sit an Pol&#10;lender et an Stükerer" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="893" start="15" end="15" text="hus" element="head" class="type" subclass=""/>
+      <span id="899" start="16" end="35" text="so gelegen ist in der stat zu minren&#10;Basel an der Ringassen 1 sit an Pol&#10;lender et an Stükerer" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="905" start="20" end="24" text="der stat zu minren&#10;Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="911" start="23" end="24" text="minren&#10;Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="917" start="26" end="27" text="der Ringassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="923" start="27" end="27" text="Ringassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="929" start="31" end="32" text="Pol&#10;lender" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="929_head" start="31" end="32" element="head" class="nam" text="Pol lender" subclass=""/>
+        </span>
+        <span id="935" start="35" end="35" text="Stükerer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="935_head" start="35" end="35" element="head" class="nam" text="Stükerer" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="941" start="37" end="38" text="45 guld" element="value" class="money" subclass=""/>
+    <span id="971" start="40" end="44" text="Peter Hosang et Gred uxor" element="list" class="per" subclass="">
+      <span id="947" start="40" end="41" text="Peter Hosang" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="947_head" start="40" end="41" element="head" class="nam" text="Peter Hosang" subclass=""/>
+      </span>
+      <span id="953" start="43" end="44" text="Gred uxor" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="959" start="43" end="43" text="Gred" element="head" class="nam" subclass=""/>
+        <span id="965" start="44" end="44" text="uxor" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="965_head" start="44" end="44" element="head" class="fam" text="uxor" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1008" start="46" end="46" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="984" start="47" end="48" text="den Bredgern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="990" start="48" end="48" text="Bredgern" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="996" start="49" end="49" text="14ß" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="977" from="965" to="947" class="role" detail="target" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="6" end="9" ref="851" type="state">
+      <trigger start="6" end="6" text="uxor" ref="857"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="839" text="Anna uxor gud&#10;Huglin Zieglers burgerin zu Basel"/>
+        <role role="family-b" ref="863" text="Huglin Zieglers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="10" end="12" ref="869" type="state">
+      <trigger start="10" end="10" text="burgerin" ref="875"/>
+      <event event_id="1.0">
+        <role role="resident" ref="839" text="Anna uxor gud&#10;Huglin Zieglers burgerin zu Basel"/>
+        <role role="geopolitical-entity" ref="881" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="44" end="44" ref="965" type="state">
+      <trigger start="44" end="44" text="uxor" ref="965_head"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="953" text="Gred uxor"/>
+        <role role="family-b" ref="947" text="Peter Hosang"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="16" end="35" ref="899" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="887" text="ein .&#10;hus so gelegen ist in der stat zu minren&#10;Basel an der Ringassen 1 sit an Pol&#10;lender et an Stükerer"/>
+        <role role="location-b" ref="905" text="der stat zu minren&#10;Basel"/>
+        <role role="location-b" ref="917" text="der Ringassen"/>
+        <role role="location-b" ref="929" text="Pol&#10;lender"/>
+        <role role="location-b" ref="935" text="Stükerer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="38" ref="" type="event">
+      <trigger start="3" end="3" text="koffen" ref="1002"/>
+      <event event_id="4.0">
+        <role role="seller" ref="839" text="Anna uxor gud&#10;Huglin Zieglers burgerin zu Basel"/>
+        <role role="property" ref="887" text="ein .&#10;hus so gelegen ist in der stat zu minren&#10;Basel an der Ringassen 1 sit an Pol&#10;lender et an Stükerer"/>
+        <role role="price" ref="941" text="45 guld"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="40" end="49" ref="" type="state">
+      <trigger start="46" end="46" text="zinst" ref="1008"/>
+      <event event_id="5.0">
+        <role role="payer" ref="947" text="Peter Hosang"/>
+        <role role="payer" ref="953" text="Gred uxor"/>
+        <role role="beneficiary" ref="984" text="den Bredgern"/>
+        <role role="interest" ref="996" text="14ß"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

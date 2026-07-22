@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/109 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt 8</tei:title>
+            <tei:idno>HGB 1 10/109</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1458459</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1536">1536</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611794.4347178647 1267114.1076483957</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Delchym</token>
+    <token token_id="1">Lanz</token>
+    <token token_id="2">von</token>
+    <token token_id="3">Cohn</token>
+    <token token_id="4">,</token>
+    <token token_id="5">ein</token>
+    <token token_id="6">juwonen</token>
+    <token token_id="7">zu</token>
+    <token token_id="8">Basel</token>
+    <token token_id="9">,</token>
+    <token token_id="10">ver</token>
+    <token token_id="11">¬</token>
+    <token token_id="12">kauft</token>
+    <token token_id="13">an</token>
+    <token token_id="14">Cosman</token>
+    <token token_id="15">Ertzberg</token>
+    <token token_id="16">,</token>
+    <token token_id="17">alt</token>
+    <token token_id="18">Kaufhusschriber</token>
+    <token token_id="19">,</token>
+    <token token_id="20">u</token>
+    <token token_id="21">.</token>
+    <token token_id="22">seine</token>
+    <token token_id="23">Frau</token>
+    <token token_id="24">Clara</token>
+    <token token_id="25">,</token>
+    <token token_id="26">2</token>
+    <token token_id="27">1</token>
+    <token token_id="28">/</token>
+    <token token_id="29">2</token>
+    <token token_id="30">℔</token>
+    <token token_id="31">jährl</token>
+    <token token_id="32">zinses</token>
+    <token token_id="33">,</token>
+    <token token_id="34">ab</token>
+    <token token_id="35">dem</token>
+    <token token_id="36">Hus</token>
+    <token token_id="37">Hof</token>
+    <token token_id="38">u</token>
+    <token token_id="39">.</token>
+    <token token_id="40">Hofstatt</token>
+    <token token_id="41">,</token>
+    <token token_id="42">samt</token>
+    <token token_id="43">dem</token>
+    <token token_id="44">gertli</token>
+    <token token_id="45">darhinder</token>
+    <token token_id="46">,</token>
+    <token token_id="47">in</token>
+    <token token_id="48">der</token>
+    <token token_id="49">vorstatt</token>
+    <token token_id="50">zu</token>
+    <token token_id="51">s</token>
+    <token token_id="52">.</token>
+    <token token_id="53">Alban</token>
+    <token token_id="54">,</token>
+    <token token_id="55">zwüschen</token>
+    <token token_id="56">den</token>
+    <token token_id="57">Hüsern</token>
+    <token token_id="58">Lauser</token>
+    <token token_id="59">und</token>
+    <token token_id="60">Roggenberg</token>
+    <token token_id="61">gelegen</token>
+    <token token_id="62">,</token>
+    <token token_id="63">u</token>
+    <token token_id="64">.</token>
+    <token token_id="65">Waffenhern</token>
+    <token token_id="66">ge</token>
+    <token token_id="67">¬</token>
+    <token token_id="68">nant</token>
+    <token token_id="69">ist</token>
+    <token token_id="70">,</token>
+    <token token_id="71">sum</token>
+    <token token_id="72">50</token>
+    <token token_id="73">℔</token>
+    <token token_id="74">.</token>
+    <token token_id="75">zinst</token>
+    <token token_id="76">der</token>
+    <token token_id="77">Camen</token>
+    <token token_id="78">uf</token>
+    <token token_id="79">Burg</token>
+    <token token_id="80">jährl</token>
+    <token token_id="81">.</token>
+    <token token_id="82">5sh</token>
+    <token token_id="83">.</token>
+    <token token_id="84">sonstfrei</token>
+    <token token_id="85">.</token>
+  </text>
+  <spans>
+    <span id="1255" start="0" end="8" text="Delchym Lanz von Cohn , ein juwonen zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1261" start="0" end="3" text="Delchym Lanz von Cohn" element="head" class="nam" subclass=""/>
+      <span id="1267" start="5" end="8" text="ein juwonen zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1273" start="6" end="6" text="juwonen" element="head" class="org-aff" subclass=""/>
+        <span id="1279" start="8" end="8" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1279_head" start="8" end="8" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1489" start="10" end="12" text="ver ¬&#10;kauft" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1291" start="14" end="24" text="Cosman Ertzberg , alt Kaufhusschriber , u . seine Frau&#10;Clara" element="list" class="per" subclass="">
+      <span id="1285" start="14" end="18" text="Cosman Ertzberg , alt Kaufhusschriber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1297" start="14" end="15" text="Cosman Ertzberg" element="head" class="nam" subclass=""/>
+        <span id="1303" start="17" end="18" text="alt Kaufhusschriber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1303_head" start="17" end="18" element="head" class="occ" text="alt Kaufhusschriber" subclass=""/>
+        </span>
+      </span>
+      <span id="1309" start="22" end="24" text="seine Frau&#10;Clara" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1321" start="22" end="23" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1315" start="22" end="22" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1315_head" start="22" end="22" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1327" start="23" end="23" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1333" start="24" end="24" text="Clara" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1495" start="26" end="32" text="2 1 / 2 ℔ jährl zinses" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1339" start="26" end="30" text="2 1 / 2 ℔" element="value" class="money" subclass=""/>
+      <span id="1345" start="31" end="31" text="jährl" element="value" class="time" subclass="rec"/>
+      <span id="1501" start="32" end="32" text="zinses" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1351" start="35" end="69" text="dem Hus Hof u . Hofstatt , samt&#10;dem gertli darhinder , in der vorstatt zu s . Alban , zwüschen&#10;den Hüsern Lauser und Roggenberg gelegen , u . Waffenhern ge ¬&#10;nant ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1357" start="36" end="40" text="Hus Hof u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1369" start="42" end="45" text="samt&#10;dem gertli darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1375" start="43" end="44" text="dem gertli" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1363" start="44" end="44" text="gertli" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1411" start="47" end="61" text="in der vorstatt zu s . Alban , zwüschen&#10;den Hüsern Lauser und Roggenberg gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1387" start="48" end="53" text="der vorstatt zu s . Alban" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1381" start="49" end="49" text="vorstatt" element="head" class="type" subclass=""/>
+          <span id="1399" start="50" end="53" text="zu s . Alban" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1393" start="51" end="53" text="s . Alban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="1393_head" start="51" end="53" element="head" class="nam" text="s . Alban" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1417" start="56" end="60" text="den Hüsern Lauser und Roggenberg" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1423" start="57" end="57" text="Hüsern" element="head" class="type" subclass=""/>
+          <span id="1429" start="58" end="60" text="Lauser und Roggenberg" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1435" start="58" end="58" text="Lauser" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1435_head" start="58" end="58" element="head" class="nam" text="Lauser" subclass=""/>
+            </span>
+            <span id="1441" start="60" end="60" text="Roggenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1441_head" start="60" end="60" element="head" class="nam" text="Roggenberg" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1405" start="65" end="65" text="Waffenhern" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1405_head" start="65" end="65" element="head" class="nam" text="Waffenhern" subclass=""/>
+      </span>
+    </span>
+    <span id="1447" start="72" end="74" text="50 ℔." element="value" class="money" subclass=""/>
+    <span id="1507" start="75" end="83" text="zinst der Camen uf Burg jährl . 5sh ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1513" start="75" end="75" text="zinst" element="trigger" class="type" subclass=""/>
+      <span id="1453" start="76" end="79" text="der Camen uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1459" start="77" end="77" text="Camen" element="head" class="nam" subclass=""/>
+        <span id="1471" start="78" end="79" text="uf Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1465" start="79" end="79" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1465_head" start="79" end="79" element="head" class="nam" text="Burg" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1477" start="80" end="81" text="jährl ." element="value" class="time" subclass="rec"/>
+      <span id="1483" start="82" end="83" text="5sh ." element="value" class="money" subclass=""/>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="26" end="32" ref="1495" type="state">
+      <trigger start="32" end="32" text="zinses" ref="1501"/>
+      <event event_id="0.0">
+        <role role="interest" ref="1339" text="2 1 / 2 ℔"/>
+        <role role="interval" ref="1345" text="jährl"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="75" end="83" ref="1507" type="state">
+      <trigger start="75" end="75" text="zinst" ref="1513"/>
+      <event event_id="1.0">
+        <role role="beneficiary" ref="1453" text="der Camen uf Burg"/>
+        <role role="interval" ref="1477" text="jährl ."/>
+        <role role="interest" ref="1483" text="5sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="5" end="8" ref="1267" type="state">
+      <trigger start="6" end="6" text="juwonen" ref="1273"/>
+      <event event_id="2.0">
+        <role role="resident" ref="1255" text="Delchym Lanz von Cohn , ein juwonen zu Basel"/>
+        <role role="geopolitical-entity" ref="1279" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="22" end="23" ref="1321" type="state">
+      <trigger start="23" end="23" text="Frau" ref="1327"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1309" text="seine Frau&#10;Clara"/>
+        <role role="family-b" ref="1315" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="42" end="45" ref="1369" type="state">
+      <event event_id="4.0">
+        <role role="whole" ref="1351" text="dem Hus Hof u . Hofstatt , samt&#10;dem gertli darhinder , in der vorstatt zu s . Alban , zwüschen&#10;den Hüsern Lauser und Roggenberg gelegen , u . Waffenhern ge ¬&#10;nant ist"/>
+        <role role="part" ref="1375" text="dem gertli"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="47" end="61" ref="1411" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1351" text="dem Hus Hof u . Hofstatt , samt&#10;dem gertli darhinder , in der vorstatt zu s . Alban , zwüschen&#10;den Hüsern Lauser und Roggenberg gelegen , u . Waffenhern ge ¬&#10;nant ist"/>
+        <role role="location-b" ref="1387" text="der vorstatt zu s . Alban"/>
+        <role role="location-b" ref="1417" text="den Hüsern Lauser und Roggenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="50" end="53" ref="1399" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1387" text="der vorstatt zu s . Alban"/>
+        <role role="location-b" ref="1393" text="s . Alban"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="part_whole" polarity="pos" tense="pres" modality="ass" start="58" end="60" ref="1429" type="state">
+      <event event_id="7.0">
+        <role role="whole" ref="1417" text="den Hüsern Lauser und Roggenberg"/>
+        <role role="part" ref="1435" text="Lauser"/>
+        <role role="part" ref="1441" text="Roggenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="78" end="79" ref="1471" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="1453" text="der Camen uf Burg"/>
+        <role role="location-b" ref="1465" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="74" ref="" type="event">
+      <trigger start="10" end="12" text="ver ¬&#10;kauft" ref="1489"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1255" text="Delchym Lanz von Cohn , ein juwonen zu Basel"/>
+        <role role="buyer" ref="1285" text="Cosman Ertzberg , alt Kaufhusschriber"/>
+        <role role="buyer" ref="1309" text="seine Frau&#10;Clara"/>
+        <role role="due" ref="1495" text="2 1 / 2 ℔ jährl zinses"/>
+        <role role="collateral" ref="1351" text="dem Hus Hof u . Hofstatt , samt&#10;dem gertli darhinder , in der vorstatt zu s . Alban , zwüschen&#10;den Hüsern Lauser und Roggenberg gelegen , u . Waffenhern ge ¬&#10;nant ist"/>
+        <role role="price" ref="1447" text="50 ℔."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

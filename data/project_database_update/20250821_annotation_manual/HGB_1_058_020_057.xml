@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/20 S. [57]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 1</tei:title>
+            <tei:idno>HGB 1 58/20</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467767</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Quotidian und Präsenz</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1603">1603</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611281.9863638678 1267451.4916674045</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">Balthaber</token>
+    <token token_id="2">Hummell</token>
+    <token token_id="3">der</token>
+    <token token_id="4">jung</token>
+    <token token_id="5">soll</token>
+    <token token_id="6">6</token>
+    <token token_id="7">℔</token>
+    <token token_id="8">6ß</token>
+    <token token_id="9">.</token>
+    <token token_id="10">jetz</token>
+    <token token_id="11">Andres</token>
+    <token token_id="12">Platz</token>
+    <token token_id="13">.</token>
+    <token token_id="14">järlich</token>
+    <token token_id="15">1604</token>
+    <token token_id="16">Andres</token>
+    <token token_id="17">Blatz</token>
+    <token token_id="18">der</token>
+    <token token_id="19">jung</token>
+    <token token_id="20">soll</token>
+    <token token_id="21">järlich</token>
+    <token token_id="22">.</token>
+    <token token_id="23">6</token>
+    <token token_id="24">℔</token>
+    <token token_id="25">6ß</token>
+    <token token_id="26">.</token>
+    <token token_id="27">Ebenso</token>
+    <token token_id="28">1607</token>
+    <token token_id="29">.</token>
+    <token token_id="30">Ebenso</token>
+    <token token_id="31">1606</token>
+    <token token_id="32">.</token>
+    <token token_id="33">Ebenso</token>
+    <token token_id="34">1605</token>
+    <token token_id="35">.</token>
+    <token token_id="36">1608</token>
+    <token token_id="37">Andreas</token>
+    <token token_id="38">Pffättz</token>
+    <token token_id="39">der</token>
+    <token token_id="40">Apodecker</token>
+    <token token_id="41">zünst</token>
+    <token token_id="42">järlich</token>
+    <token token_id="43">-</token>
+    <token token_id="44">6</token>
+    <token token_id="45">℔</token>
+    <token token_id="46">6ß</token>
+    <token token_id="47">.</token>
+    <token token_id="48">Ebenso</token>
+    <token token_id="49">1610</token>
+    <token token_id="50">.</token>
+    <token token_id="51">Ebenso</token>
+    <token token_id="52">1611</token>
+    <token token_id="53">.</token>
+    <token token_id="54">Ebenso</token>
+    <token token_id="55">1609</token>
+    <token token_id="56">.</token>
+    <token token_id="57">Ebenso</token>
+    <token token_id="58">1613</token>
+    <token token_id="59">.</token>
+    <token token_id="60">Ebenso</token>
+    <token token_id="61">1614</token>
+    <token token_id="62">.</token>
+    <token token_id="63">Ebenso</token>
+    <token token_id="64">1612</token>
+    <token token_id="65">.</token>
+    <token token_id="66">Ebenso</token>
+    <token token_id="67">1617</token>
+    <token token_id="68">.</token>
+    <token token_id="69">Ebenso</token>
+    <token token_id="70">1615</token>
+    <token token_id="71">.</token>
+    <token token_id="72">Ebenso</token>
+    <token token_id="73">1616</token>
+    <token token_id="74">.</token>
+    <token token_id="75">Ebenso</token>
+    <token token_id="76">1618</token>
+    <token token_id="77">.</token>
+    <token token_id="78">Ebenso</token>
+    <token token_id="79">1619</token>
+    <token token_id="80">.</token>
+    <token token_id="81">Ebenso</token>
+    <token token_id="82">1620</token>
+    <token token_id="83">.</token>
+    <token token_id="84">Ebenso</token>
+    <token token_id="85">1621</token>
+    <token token_id="86">.</token>
+    <token token_id="87">Ebenso</token>
+    <token token_id="88">1622</token>
+    <token token_id="89">.</token>
+  </text>
+  <spans>
+    <span id="1657" start="0" end="9" text="Item Balthaber Hummell der jung soll&#10;6 ℔ 6ß ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1423" start="1" end="4" text="Balthaber Hummell der jung" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1429" start="1" end="2" text="Balthaber Hummell" element="head" class="nam" subclass=""/>
+        <span id="1435" start="3" end="4" text="der jung" element="appo" class="gen" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1441" start="4" end="4" text="jung" element="head" class="gen" subclass=""/>
+        </span>
+      </span>
+      <span id="1651" start="5" end="5" text="soll" element="trigger" class="type" subclass=""/>
+      <span id="1447" start="6" end="9" text="6 ℔ 6ß ." element="value" class="money" subclass=""/>
+    </span>
+    <span id="1663" start="10" end="14" text="jetz Andres Platz .&#10;järlich" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="change">
+      <span id="1453" start="11" end="12" text="Andres Platz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1453_head" start="11" end="12" element="head" class="nam" text="Andres Platz" subclass=""/>
+      </span>
+      <span id="1459" start="14" end="14" text="järlich" element="value" class="time" subclass="rec"/>
+    </span>
+    <span id="1675" start="15" end="35" text="1604 Andres Blatz der jung soll järlich .&#10;6 ℔ 6ß .&#10;Ebenso 1607 .&#10;Ebenso 1606 .&#10;Ebenso 1605 ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1465" start="15" end="15" text="1604" element="value" class="date" subclass=""/>
+      <span id="1471" start="16" end="19" text="Andres Blatz der jung" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1477" start="16" end="17" text="Andres Blatz" element="head" class="nam" subclass=""/>
+        <span id="1483" start="18" end="19" text="der jung" element="appo" class="gen" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1489" start="19" end="19" text="jung" element="head" class="gen" subclass=""/>
+        </span>
+      </span>
+      <span id="1681" start="20" end="20" text="soll" element="trigger" class="type" subclass=""/>
+      <span id="1495" start="21" end="21" text="järlich" element="value" class="time" subclass="rec"/>
+      <span id="1501" start="23" end="26" text="6 ℔ 6ß ." element="value" class="money" subclass=""/>
+      <span id="1507" start="28" end="28" text="1607" element="value" class="date" subclass=""/>
+      <span id="1513" start="31" end="31" text="1606" element="value" class="date" subclass=""/>
+      <span id="1519" start="34" end="34" text="1605" element="value" class="date" subclass=""/>
+    </span>
+    <span id="1699" start="36" end="89" text="1608 Andreas&#10;Pffättz der Apodecker zünst&#10;järlich - 6 ℔ 6ß .&#10;Ebenso 1610 .&#10;Ebenso 1611 .&#10;Ebenso 1609 .&#10;Ebenso 1613 . Ebenso 1614 .&#10;Ebenso 1612 .&#10;Ebenso 1617 .&#10;Ebenso 1615 .&#10;Ebenso 1616 .&#10;Ebenso 1618 .&#10;Ebenso 1619 .&#10;Ebenso 1620 .&#10;Ebenso 1621 .&#10;Ebenso 1622 ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1531" start="36" end="36" text="1608" element="value" class="date" subclass=""/>
+      <span id="1525" start="37" end="40" text="Andreas&#10;Pffättz der Apodecker" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1537" start="37" end="38" text="Andreas&#10;Pffättz" element="head" class="nam" subclass=""/>
+        <span id="1543" start="39" end="40" text="der Apodecker" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1549" start="40" end="40" text="Apodecker" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1687" start="41" end="41" text="zünst" element="trigger" class="type" subclass=""/>
+      <span id="1555" start="42" end="42" text="järlich" element="value" class="time" subclass="rec"/>
+      <span id="1561" start="44" end="47" text="6 ℔ 6ß ." element="value" class="money" subclass=""/>
+      <span id="1567" start="49" end="49" text="1610" element="value" class="date" subclass=""/>
+      <span id="1573" start="52" end="52" text="1611" element="value" class="date" subclass=""/>
+      <span id="1579" start="55" end="55" text="1609" element="value" class="date" subclass=""/>
+      <span id="1585" start="58" end="58" text="1613" element="value" class="date" subclass=""/>
+      <span id="1591" start="61" end="61" text="1614" element="value" class="date" subclass=""/>
+      <span id="1597" start="64" end="64" text="1612" element="value" class="date" subclass=""/>
+      <span id="1603" start="67" end="67" text="1617" element="value" class="date" subclass=""/>
+      <span id="1609" start="70" end="70" text="1615" element="value" class="date" subclass=""/>
+      <span id="1615" start="73" end="73" text="1616" element="value" class="date" subclass=""/>
+      <span id="1621" start="76" end="76" text="1618" element="value" class="date" subclass=""/>
+      <span id="1627" start="79" end="79" text="1619" element="value" class="date" subclass=""/>
+      <span id="1633" start="82" end="82" text="1620" element="value" class="date" subclass=""/>
+      <span id="1639" start="85" end="85" text="1621" element="value" class="date" subclass=""/>
+      <span id="1645" start="88" end="88" text="1622" element="value" class="date" subclass=""/>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="0" end="9" ref="1657" type="state">
+      <trigger start="5" end="5" text="soll" ref="1651"/>
+      <event event_id="0.0">
+        <role role="payer" ref="1423" text="Balthaber Hummell der jung"/>
+        <role role="interest" ref="1447" text="6 ℔ 6ß ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="10" end="14" ref="1663" type="state">
+      <event event_id="1.0">
+        <role role="payer" ref="1453" text="Andres Platz"/>
+        <role role="interval" ref="1459" text="järlich"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="15" end="35" ref="1675" type="event">
+      <trigger start="20" end="20" text="soll" ref="1681"/>
+      <event event_id="2.0">
+        <role role="date" ref="1465" text="1604"/>
+        <role role="payer" ref="1471" text="Andres Blatz der jung"/>
+        <role role="interval" ref="1495" text="järlich"/>
+        <role role="interest" ref="1501" text="6 ℔ 6ß ."/>
+        <role role="date" ref="1507" text="1607"/>
+        <role role="date" ref="1513" text="1606"/>
+        <role role="date" ref="1519" text="1605"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="36" end="89" ref="1699" type="event">
+      <trigger start="41" end="41" text="zünst" ref="1687"/>
+      <event event_id="3.0">
+        <role role="date" ref="1531" text="1608"/>
+        <role role="payer" ref="1525" text="Andreas&#10;Pffättz der Apodecker"/>
+        <role role="interval" ref="1555" text="järlich"/>
+        <role role="interest" ref="1561" text="6 ℔ 6ß ."/>
+        <role role="date" ref="1567" text="1610"/>
+        <role role="date" ref="1573" text="1611"/>
+        <role role="date" ref="1579" text="1609"/>
+        <role role="date" ref="1585" text="1613"/>
+        <role role="date" ref="1591" text="1614"/>
+        <role role="date" ref="1597" text="1612"/>
+        <role role="date" ref="1603" text="1617"/>
+        <role role="date" ref="1609" text="1615"/>
+        <role role="date" ref="1615" text="1616"/>
+        <role role="date" ref="1621" text="1618"/>
+        <role role="date" ref="1627" text="1619"/>
+        <role role="date" ref="1633" text="1620"/>
+        <role role="date" ref="1639" text="1621"/>
+        <role role="date" ref="1645" text="1622"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

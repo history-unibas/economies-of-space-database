@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 5/22 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Graben 10, 12</tei:title>
+            <tei:idno>HGB 1 5/22</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433077</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Privat</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1526">1526</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611664.1734866747 1267065.477925739</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Statthalter</token>
+    <token token_id="1">und</token>
+    <token token_id="2">Capitel</token>
+    <token token_id="3">der</token>
+    <token token_id="4">mehrern</token>
+    <token token_id="5">Stift</token>
+    <token token_id="6">Basel</token>
+    <token token_id="7">thun</token>
+    <token token_id="8">kund</token>
+    <token token_id="9">Namen</token>
+    <token token_id="10">uwer</token>
+    <token token_id="11">Fabrich</token>
+    <token token_id="12">durch</token>
+    <token token_id="13">Haus</token>
+    <token token_id="14">Wernherrn</token>
+    <token token_id="15">Fryherren</token>
+    <token token_id="16">zu</token>
+    <token token_id="17">Morsperg</token>
+    <token token_id="18">und</token>
+    <token token_id="19">Beffort</token>
+    <token token_id="20">,</token>
+    <token token_id="21">Domprobst</token>
+    <token token_id="22">sel</token>
+    <token token_id="23">.</token>
+    <token token_id="24">zu</token>
+    <token token_id="25">Erben</token>
+    <token token_id="26">gesetzt</token>
+    <token token_id="27">,</token>
+    <token token_id="28">verkaufen</token>
+    <token token_id="29">wir</token>
+    <token token_id="30">Herrn</token>
+    <token token_id="31">Andrissen</token>
+    <token token_id="32">Stürzell</token>
+    <token token_id="33">von</token>
+    <token token_id="34">Buchen</token>
+    <token token_id="35">,</token>
+    <token token_id="36">Doctor</token>
+    <token token_id="37">,</token>
+    <token token_id="38">Thumbprobst</token>
+    <token token_id="39">zu</token>
+    <token token_id="40">Basel</token>
+    <token token_id="41">die</token>
+    <token token_id="42">zwo</token>
+    <token token_id="43">Schürenn</token>
+    <token token_id="44">neben</token>
+    <token token_id="45">einandren</token>
+    <token token_id="46">,</token>
+    <token token_id="47">einer</token>
+    <token token_id="48">an</token>
+    <token token_id="49">der</token>
+    <token token_id="50">Herren</token>
+    <token token_id="51">von</token>
+    <token token_id="52">Verstein</token>
+    <token token_id="53">Hof</token>
+    <token token_id="54">und</token>
+    <token token_id="55">anderer</token>
+    <token token_id="56">Syten</token>
+    <token token_id="57">der</token>
+    <token token_id="58">Caplanen</token>
+    <token token_id="59">sancti</token>
+    <token token_id="60">Eratii</token>
+    <token token_id="61">uf</token>
+    <token token_id="62">Burg</token>
+    <token token_id="63">gestiffter</token>
+    <token token_id="64">Huss</token>
+    <token token_id="65">,</token>
+    <token token_id="66">zu</token>
+    <token token_id="67">Basel</token>
+    <token token_id="68">gegen</token>
+    <token token_id="69">Thumbprobstei</token>
+    <token token_id="70">über</token>
+    <token token_id="71">uf</token>
+    <token token_id="72">dem</token>
+    <token token_id="73">Graben</token>
+    <token token_id="74">gelegen</token>
+    <token token_id="75">,</token>
+    <token token_id="76">noch</token>
+    <token token_id="77">zeehen</token>
+    <token token_id="78">Schilling</token>
+    <token token_id="79">Stebler</token>
+    <token token_id="80">dem</token>
+    <token token_id="81">Ambt</token>
+    <token token_id="82">der</token>
+    <token token_id="83">Presentz</token>
+    <token token_id="84">jer</token>
+    <token token_id="85">¬</token>
+    <token token_id="86">Eichen</token>
+    <token token_id="87">darab</token>
+    <token token_id="88">zuverzinssen</token>
+    <token token_id="89">,</token>
+    <token token_id="90">sonsten</token>
+    <token token_id="91">fry</token>
+    <token token_id="92">ledig</token>
+    <token token_id="93">eigen</token>
+    <token token_id="94">,</token>
+    <token token_id="95">um</token>
+    <token token_id="96">200</token>
+    <token token_id="97">gulden</token>
+    <token token_id="98">in</token>
+    <token token_id="99">Gold</token>
+    <token token_id="100">und</token>
+    <token token_id="101">140</token>
+    <token token_id="102">Gulde</token>
+    <token token_id="103">in</token>
+    <token token_id="104">Müntz</token>
+    <token token_id="105">,</token>
+    <token token_id="106">1</token>
+    <token token_id="107">℔</token>
+    <token token_id="108">5ß</token>
+    <token token_id="109">für</token>
+    <token token_id="110">1</token>
+    <token token_id="111">Gulden</token>
+    <token token_id="112">gerechnet</token>
+  </text>
+  <spans>
+    <span id="1711" start="0" end="6" text="Statthalter und Capitel der mehrern Stift&#10;Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1711_head" start="0" end="6" element="head" class="nam" text="Statthalter und Capitel der mehrern Stift Basel" subclass=""/>
+    </span>
+    <span id="custom_0" start="10" end="26" text="uwer Fabrich&#10;durch Haus Wernherrn Fryherren zu Morsperg&#10;und Beffort , Domprobst sel . zu Erben gesetzt" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="custom_5" start="10" end="10" text="uwer" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="custom_1" start="10" end="10" text="uwer" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="custom_1_head" start="10" end="10" element="head" class="pro" text="uwer" subclass=""/>
+        </span>
+      </span>
+      <span id="custom_4" start="11" end="11" text="Fabrich" element="head" class="type" subclass=""/>
+      <span id="2000" start="12" end="26" text="durch Haus Wernherrn Fryherren zu Morsperg&#10;und Beffort , Domprobst sel . zu Erben gesetzt" element="attr" class="inherited-from" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1717" start="13" end="23" text="Haus Wernherrn Fryherren zu Morsperg&#10;und Beffort , Domprobst sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1723" start="13" end="14" text="Haus Wernherrn" element="head" class="nam" subclass=""/>
+          <span id="1729" start="15" end="19" text="Fryherren zu Morsperg&#10;und Beffort" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1735" start="15" end="15" text="Fryherren" element="head" class="title" subclass=""/>
+            <span id="1741" start="17" end="17" text="Morsperg" element="reference" class="gpe-gpe" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1741_head" start="17" end="17" element="head" class="nam" text="Morsperg" subclass=""/>
+            </span>
+            <span id="1747" start="19" end="19" text="Beffort" element="reference" class="gpe-gpe" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1747_head" start="19" end="19" element="head" class="nam" text="Beffort" subclass=""/>
+            </span>
+          </span>
+          <span id="1753" start="21" end="21" text="Domprobst" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1753_head" start="21" end="21" element="head" class="occ" text="Domprobst" subclass=""/>
+          </span>
+          <span id="1759" start="22" end="23" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2006" start="28" end="28" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1765" start="29" end="29" text="wir" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1765_head" start="29" end="29" element="head" class="self" text="wir" subclass=""/>
+    </span>
+    <span id="1778" start="30" end="40" text="Herrn Andrissen Stürzell&#10;von Buchen , Doctor , Thumbprobst zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1784" start="31" end="32" text="Andrissen Stürzell" element="head" class="nam" subclass=""/>
+      <span id="1790" start="33" end="34" text="von Buchen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1796" start="34" end="34" text="Buchen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1796_head" start="34" end="34" element="head" class="nam" text="Buchen" subclass=""/>
+        </span>
+      </span>
+      <span id="1802" start="36" end="36" text="Doctor" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="edu">
+        <span id="1802_head" start="36" end="36" element="head" class="title" text="Doctor" subclass="edu"/>
+      </span>
+      <span id="1814" start="38" end="38" text="Thumbprobst" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1814_head" start="38" end="38" element="head" class="occ" text="Thumbprobst" subclass=""/>
+      </span>
+      <span id="1820" start="39" end="40" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1808" start="40" end="40" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1808_head" start="40" end="40" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1826" start="41" end="93" text="die zwo Schürenn neben einandren , einer&#10;an der Herren von Verstein Hof und anderer&#10;Syten der Caplanen sancti Eratii uf Burg&#10;gestiffter Huss , zu Basel gegen Thumbprobstei&#10;über uf dem Graben gelegen , noch zeehen&#10;Schilling Stebler dem Ambt der Presentz jer ¬&#10;Eichen darab zuverzinssen , sonsten fry ledig&#10;eigen" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1832" start="43" end="43" text="Schürenn" element="head" class="type" subclass=""/>
+      <span id="1838" start="44" end="74" text="neben einandren , einer&#10;an der Herren von Verstein Hof und anderer&#10;Syten der Caplanen sancti Eratii uf Burg&#10;gestiffter Huss , zu Basel gegen Thumbprobstei&#10;über uf dem Graben gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1844" start="49" end="53" text="der Herren von Verstein Hof" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1856" start="49" end="52" text="der Herren von Verstein" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1862" start="49" end="52" text="der Herren von Verstein" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1868" start="52" end="52" text="Verstein" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+          <span id="1850" start="53" end="53" text="Hof" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1874" start="57" end="64" text="der Caplanen sancti Eratii uf Burg&#10;gestiffter Huss" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1886" start="57" end="62" text="der Caplanen sancti Eratii uf Burg" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1892" start="57" end="62" text="der Caplanen sancti Eratii uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="1898" start="59" end="60" text="sancti Eratii" element="head" class="nam" subclass=""/>
+              <span id="1904" start="61" end="62" text="uf Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1910" start="62" end="62" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1910_head" start="62" end="62" element="head" class="nam" text="Burg" subclass=""/>
+                </span>
+              </span>
+            </span>
+          </span>
+          <span id="1880" start="64" end="64" text="Huss" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1916" start="67" end="67" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1916_head" start="67" end="67" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="1922" start="69" end="69" text="Thumbprobstei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1922_head" start="69" end="69" element="head" class="type" text="Thumbprobstei" subclass=""/>
+        </span>
+        <span id="1928" start="72" end="73" text="dem Graben" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1934" start="73" end="73" text="Graben" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1940" start="76" end="93" text="noch zeehen&#10;Schilling Stebler dem Ambt der Presentz jer ¬&#10;Eichen darab zuverzinssen , sonsten fry ledig&#10;eigen" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1946" start="77" end="79" text="zeehen&#10;Schilling Stebler" element="value" class="money" subclass=""/>
+        <span id="1952" start="80" end="83" text="dem Ambt der Presentz" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1958" start="81" end="83" text="Ambt der Presentz" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1964" start="84" end="86" text="jer ¬&#10;Eichen" element="value" class="time" subclass="rec"/>
+        <span id="2030" start="87" end="87" text="darab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2030_head" start="87" end="87" element="head" class="pro" text="darab" subclass=""/>
+        </span>
+        <span id="2024" start="88" end="88" text="zuverzinssen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+    </span>
+    <span id="1970" start="96" end="99" text="200 gulden in Gold" element="value" class="money" subclass=""/>
+    <span id="1976" start="101" end="104" text="140 Gulde&#10;in Müntz" element="value" class="money" subclass=""/>
+    <span id="2018" start="106" end="112" text="1 ℔ 5ß für 1 Gulden gerechnet" element="other" class="other" subclass="">
+      <span id="1982" start="106" end="108" text="1 ℔ 5ß" element="value" class="money" subclass=""/>
+      <span id="1988" start="110" end="111" text="1 Gulden" element="value" class="money" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1771" from="1765" to="1711" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="custom_2" from="custom_1" to="1711" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="custom_3" from="1765" to="custom_0" class="repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2030_rel" from="2030" to="1826" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2024_role" from="2024" to="1826" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="holds_landed_title" polarity="pos" tense="pres" modality="ass" start="15" end="19" ref="1729" type="state">
+      <trigger start="15" end="15" text="Fryherren" ref="1735"/>
+      <event event_id="0.0">
+        <role role="holder" ref="1717" text="Haus Wernherrn Fryherren zu Morsperg&#10;und Beffort , Domprobst sel ."/>
+        <role role="title" ref="1741" text="Morsperg"/>
+        <role role="title" ref="1747" text="Beffort"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="10" end="10" ref="custom_5" type="state">
+      <event event_id="1.0">
+        <role role="owner" ref="custom_0" text="uwer Fabrich&#10;durch Haus Wernherrn Fryherren zu Morsperg&#10;und Beffort , Domprobst sel . zu Erben gesetzt"/>
+        <role role="owner" ref="custom_1" text="uwer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="inheritance" polarity="pos" tense="pres" modality="ass" start="12" end="26" ref="2000" type="event">
+      <event event_id="2.0">
+        <role role="heir" ref="custom_0" text="uwer Fabrich&#10;durch Haus Wernherrn Fryherren zu Morsperg&#10;und Beffort , Domprobst sel . zu Erben gesetzt"/>
+        <role role="decedent" ref="1717" text="Haus Wernherrn Fryherren zu Morsperg&#10;und Beffort , Domprobst sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="33" end="34" ref="1790" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1778" text="Herrn Andrissen Stürzell&#10;von Buchen , Doctor , Thumbprobst zu Basel"/>
+        <role role="location-b" ref="1796" text="Buchen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="39" end="40" ref="1820" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1778" text="Herrn Andrissen Stürzell&#10;von Buchen , Doctor , Thumbprobst zu Basel"/>
+        <role role="location-b" ref="1808" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="44" end="74" ref="1838" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1826" text="die zwo Schürenn neben einandren , einer&#10;an der Herren von Verstein Hof und anderer&#10;Syten der Caplanen sancti Eratii uf Burg&#10;gestiffter Huss , zu Basel gegen Thumbprobstei&#10;über uf dem Graben gelegen , noch zeehen&#10;Schilling Stebler dem Ambt der Presentz jer ¬&#10;Eichen darab zuverzinssen , sonsten fry ledig&#10;eigen"/>
+        <role role="location-b" ref="1844" text="der Herren von Verstein Hof"/>
+        <role role="location-b" ref="1874" text="der Caplanen sancti Eratii uf Burg&#10;gestiffter Huss"/>
+        <role role="location-b" ref="1916" text="Basel"/>
+        <role role="location-b" ref="1922" text="Thumbprobstei"/>
+        <role role="location-b" ref="1928" text="dem Graben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="49" end="52" ref="1856" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1844" text="der Herren von Verstein Hof"/>
+        <role role="owner" ref="1862" text="der Herren von Verstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="57" end="62" ref="1886" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1874" text="der Caplanen sancti Eratii uf Burg&#10;gestiffter Huss"/>
+        <role role="owner" ref="1892" text="der Caplanen sancti Eratii uf Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="61" end="62" ref="1904" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="1892" text="der Caplanen sancti Eratii uf Burg"/>
+        <role role="location-b" ref="1910" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="28" end="28" ref="" type="event">
+      <trigger start="28" end="28" text="verkaufen" ref="2006"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1765" text="wir"/>
+        <role role="buyer" ref="1778" text="Herrn Andrissen Stürzell&#10;von Buchen , Doctor , Thumbprobst zu Basel"/>
+        <role role="property" ref="1826" text="die zwo Schürenn neben einandren , einer&#10;an der Herren von Verstein Hof und anderer&#10;Syten der Caplanen sancti Eratii uf Burg&#10;gestiffter Huss , zu Basel gegen Thumbprobstei&#10;über uf dem Graben gelegen , noch zeehen&#10;Schilling Stebler dem Ambt der Presentz jer ¬&#10;Eichen darab zuverzinssen , sonsten fry ledig&#10;eigen"/>
+        <role role="price" ref="1970" text="200 gulden in Gold"/>
+        <role role="price" ref="1976" text="140 Gulde&#10;in Müntz"/>
+        <role role="detail_price-conv" ref="2018" text="1 ℔ 5ß für 1 Gulden gerechnet"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="41" end="93" ref="1940" type="state">
+      <trigger start="88" end="88" text="zuverzinssen" ref="2024"/>
+      <event event_id="10.0">
+        <role role="interest" ref="1946" text="zeehen&#10;Schilling Stebler"/>
+        <role role="beneficiary" ref="1952" text="dem Ambt der Presentz"/>
+        <role role="interval" ref="1964" text="jer ¬&#10;Eichen"/>
+        <role role="property" ref="2030" text="darab"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="11.0">
+        <role role="representative" ref="1765" text="wir"/>
+        <role role="represented" ref="custom_0" text="uwer Fabrich&#10;durch Haus Wernherrn Fryherren zu Morsperg&#10;und Beffort , Domprobst sel . zu Erben gesetzt"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

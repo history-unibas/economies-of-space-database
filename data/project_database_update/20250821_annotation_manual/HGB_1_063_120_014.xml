@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/120 S. [14]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 68</tei:title>
+            <tei:idno>HGB 1 63/120</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1473003</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1513">1513</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611296.499495794 1267205.019501101</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Das</token>
+    <token token_id="1">gotshus</token>
+    <token token_id="2">s</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Lienhart</token>
+    <token token_id="5">verkauft</token>
+    <token token_id="6">an</token>
+    <token token_id="7">Augustin</token>
+    <token token_id="8">Rockenburg</token>
+    <token token_id="9">den</token>
+    <token token_id="10">Schmider</token>
+    <token token_id="11">u</token>
+    <token token_id="12">.</token>
+    <token token_id="13">seine</token>
+    <token token_id="14">Frau</token>
+    <token token_id="15">Anna</token>
+    <token token_id="16">,</token>
+    <token token_id="17">das</token>
+    <token token_id="18">Hus</token>
+    <token token_id="19">&amp;</token>
+    <token token_id="20">Hofstatt</token>
+    <token token_id="21">sind</token>
+    <token token_id="22">etwan</token>
+    <token token_id="23">zwei</token>
+    <token token_id="24">gehus</token>
+    <token token_id="25">gewesen</token>
+    <token token_id="26">,</token>
+    <token token_id="27">genant</token>
+    <token token_id="28">zu</token>
+    <token token_id="29">dem</token>
+    <token token_id="30">nidem</token>
+    <token token_id="31">Koger</token>
+    <token token_id="32">,</token>
+    <token token_id="33">ob</token>
+    <token token_id="34">den</token>
+    <token token_id="35">Gerwern</token>
+    <token token_id="36">,</token>
+    <token token_id="37">zwüschen</token>
+    <token token_id="38">dem</token>
+    <token token_id="39">Hus</token>
+    <token token_id="40">zum</token>
+    <token token_id="41">Hoger</token>
+    <token token_id="42">zu</token>
+    <token token_id="43">einer</token>
+    <token token_id="44">,</token>
+    <token token_id="45">u</token>
+    <token token_id="46">.</token>
+    <token token_id="47">Peter</token>
+    <token token_id="48">von</token>
+    <token token_id="49">Hilspach</token>
+    <token token_id="50">des</token>
+    <token token_id="51">Murers</token>
+    <token token_id="52">hus</token>
+    <token token_id="53">zur</token>
+    <token token_id="54">andern</token>
+    <token token_id="55">siten</token>
+    <token token_id="56">gelegen</token>
+    <token token_id="57">ist</token>
+    <token token_id="58">,</token>
+    <token token_id="59">zucht</token>
+    <token token_id="60">hinden</token>
+    <token token_id="61">in</token>
+    <token token_id="62">das</token>
+    <token token_id="63">gesslin</token>
+    <token token_id="64">,</token>
+    <token token_id="65">zinst</token>
+    <token token_id="66">jährl</token>
+    <token token_id="67">5sh</token>
+    <token token_id="68">.</token>
+    <token token_id="69">1</token>
+    <token token_id="70">hower</token>
+    <token token_id="71">tagwan</token>
+    <token token_id="72">oder</token>
+    <token token_id="73">1</token>
+    <token token_id="74">sh</token>
+    <token token_id="75">.</token>
+    <token token_id="76">dafür</token>
+    <token token_id="77">,</token>
+    <token token_id="78">soden</token>
+    <token token_id="79">Verkäufern</token>
+    <token token_id="80">ze</token>
+    <token token_id="81">Bodenzins</token>
+    <token token_id="82">gebende</token>
+    <token token_id="83">vorbehalten</token>
+    <token token_id="84">hat</token>
+    <token token_id="85">,</token>
+    <token token_id="86">sonst</token>
+    <token token_id="87">frei</token>
+    <token token_id="88">,</token>
+    <token token_id="89">um</token>
+    <token token_id="90">90</token>
+    <token token_id="91">℔</token>
+    <token token_id="92">.</token>
+  </text>
+  <spans>
+    <span id="1364" start="0" end="4" text="Das gotshus s . Lienhart" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1600" start="1" end="4" text="gotshus s . Lienhart" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1606" start="5" end="5" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1594" start="7" end="15" text="Augustin Rockenburg&#10;den Schmider u . seine Frau Anna" element="list" class="per" subclass="">
+      <span id="1370" start="7" end="10" text="Augustin Rockenburg&#10;den Schmider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1376" start="7" end="8" text="Augustin Rockenburg" element="head" class="nam" subclass=""/>
+        <span id="1382" start="9" end="10" text="den Schmider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1388" start="10" end="10" text="Schmider" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1394" start="13" end="15" text="seine Frau Anna" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1406" start="13" end="14" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1418" start="13" end="13" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1418_head" start="13" end="13" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1412" start="14" end="14" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1400" start="15" end="15" text="Anna" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1431" start="17" end="87" text="das Hus &amp; Hofstatt sind&#10;etwan zwei gehus gewesen , genant zu dem nidem Koger , ob den&#10;Gerwern , zwüschen dem Hus zum Hoger zu einer , u . Peter von Hilspach&#10;des Murers hus zur andern siten gelegen ist , zucht hinden in das&#10;gesslin , zinst jährl 5sh . 1 hower tagwan oder 1 sh . dafür , soden&#10;Verkäufern ze Bodenzins gebende vorbehalten hat , sonst frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1437" start="18" end="20" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1443" start="22" end="25" text="etwan zwei gehus gewesen" element="attr" class="type" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1449" start="23" end="24" text="zwei gehus" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1449_head" start="23" end="24" element="head" class="type" text="zwei gehus" subclass=""/>
+        </span>
+      </span>
+      <span id="1455" start="28" end="31" text="zu dem nidem Koger" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1455_head" start="28" end="31" element="head" class="nam" text="zu dem nidem Koger" subclass=""/>
+      </span>
+      <span id="1461" start="33" end="63" text="ob den&#10;Gerwern , zwüschen dem Hus zum Hoger zu einer , u . Peter von Hilspach&#10;des Murers hus zur andern siten gelegen ist , zucht hinden in das&#10;gesslin" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1467" start="34" end="35" text="den&#10;Gerwern" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="unk">
+          <span id="1473" start="35" end="35" text="Gerwern" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1479" start="38" end="41" text="dem Hus zum Hoger" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1485" start="39" end="41" text="Hus zum Hoger" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1491" start="47" end="52" text="Peter von Hilspach&#10;des Murers hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1491_desc_owner" start="47" end="51" text="Peter von Hilspach&#10;des Murers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1497" start="47" end="51" text="Peter von Hilspach&#10;des Murers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1509" start="47" end="49" text="Peter von Hilspach" element="head" class="nam" subclass=""/>
+              <span id="1515" start="50" end="51" text="des Murers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1521" start="51" end="51" text="Murers" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1503" start="52" end="52" text="hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1527" start="62" end="63" text="das&#10;gesslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1533" start="63" end="63" text="gesslin" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1539" start="65" end="87" text="zinst jährl 5sh . 1 hower tagwan oder 1 sh . dafür , soden&#10;Verkäufern ze Bodenzins gebende vorbehalten hat , sonst frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1612" start="65" end="65" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1545" start="66" end="66" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="1551" start="67" end="68" text="5sh ." element="value" class="money" subclass=""/>
+        <span id="1557" start="69" end="71" text="1 hower tagwan" element="value" class="money" subclass=""/>
+        <span id="1563" start="73" end="75" text="1 sh ." element="value" class="money" subclass=""/>
+        <span id="1569" start="78" end="79" text="soden&#10;Verkäufern" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1575" start="79" end="79" text="Verkäufern" element="head" class="role" subclass=""/>
+        </span>
+        <span id="1618" start="81" end="81" text="Bodenzins" element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="1588" start="90" end="92" text="90 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1581" from="1569" to="1364" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1424" from="1418" to="1370" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1612_role" from="1612" to="1431" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="13" end="14" ref="1406" type="state">
+      <trigger start="14" end="14" text="Frau" ref="1412"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1394" text="seine Frau Anna"/>
+        <role role="family-b" ref="1418" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="33" end="63" ref="1461" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1431" text="das Hus &amp; Hofstatt sind&#10;etwan zwei gehus gewesen , genant zu dem nidem Koger , ob den&#10;Gerwern , zwüschen dem Hus zum Hoger zu einer , u . Peter von Hilspach&#10;des Murers hus zur andern siten gelegen ist , zucht hinden in das&#10;gesslin , zinst jährl 5sh . 1 hower tagwan oder 1 sh . dafür , soden&#10;Verkäufern ze Bodenzins gebende vorbehalten hat , sonst frei"/>
+        <role role="location-b" ref="1467" text="den&#10;Gerwern"/>
+        <role role="location-b" ref="1479" text="dem Hus zum Hoger"/>
+        <role role="location-b" ref="1491" text="Peter von Hilspach&#10;des Murers hus"/>
+        <role role="location-b" ref="1527" text="das&#10;gesslin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="47" end="51" ref="1491_desc_owner" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1491" text="Peter von Hilspach&#10;des Murers hus"/>
+        <role role="owner" ref="1497" text="Peter von Hilspach&#10;des Murers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="92" ref="" type="event">
+      <trigger start="5" end="5" text="verkauft" ref="1606"/>
+      <event event_id="4.0">
+        <role role="seller" ref="1364" text="Das gotshus s . Lienhart"/>
+        <role role="buyer" ref="1370" text="Augustin Rockenburg&#10;den Schmider"/>
+        <role role="buyer" ref="1394" text="seine Frau Anna"/>
+        <role role="property" ref="1431" text="das Hus &amp; Hofstatt sind&#10;etwan zwei gehus gewesen , genant zu dem nidem Koger , ob den&#10;Gerwern , zwüschen dem Hus zum Hoger zu einer , u . Peter von Hilspach&#10;des Murers hus zur andern siten gelegen ist , zucht hinden in das&#10;gesslin , zinst jährl 5sh . 1 hower tagwan oder 1 sh . dafür , soden&#10;Verkäufern ze Bodenzins gebende vorbehalten hat , sonst frei"/>
+        <role role="price" ref="1588" text="90 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="17" end="87" ref="1539" type="state">
+      <trigger start="65" end="65" text="zinst" ref="1612"/>
+      <event event_id="5.0">
+        <role role="interval" ref="1545" text="jährl"/>
+        <role role="interest" ref="1551" text="5sh ."/>
+        <role role="beneficiary" ref="1569" text="soden&#10;Verkäufern"/>
+        <role role="cause" ref="1618" text="Bodenzins"/>
+        <role role="property" ref="1431" text="das Hus &amp; Hofstatt sind&#10;etwan zwei gehus gewesen , genant zu dem nidem Koger , ob den&#10;Gerwern , zwüschen dem Hus zum Hoger zu einer , u . Peter von Hilspach&#10;des Murers hus zur andern siten gelegen ist , zucht hinden in das&#10;gesslin , zinst jährl 5sh . 1 hower tagwan oder 1 sh . dafür , soden&#10;Verkäufern ze Bodenzins gebende vorbehalten hat , sonst frei"/>
+      </event>
+      <event event_id="5.1">
+        <role role="interval" ref="1545" text="jährl"/>
+        <role role="interest" ref="1557" text="1 hower tagwan"/>
+        <role role="detail_interest-conv" ref="1563" text="1 sh ."/>
+        <role role="beneficiary" ref="1569" text="soden&#10;Verkäufern"/>
+        <role role="cause" ref="1618" text="Bodenzins"/>
+        <role role="property" ref="1431" text="das Hus &amp; Hofstatt sind&#10;etwan zwei gehus gewesen , genant zu dem nidem Koger , ob den&#10;Gerwern , zwüschen dem Hus zum Hoger zu einer , u . Peter von Hilspach&#10;des Murers hus zur andern siten gelegen ist , zucht hinden in das&#10;gesslin , zinst jährl 5sh . 1 hower tagwan oder 1 sh . dafür , soden&#10;Verkäufern ze Bodenzins gebende vorbehalten hat , sonst frei"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 64/23 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergässlein 8</tei:title>
+            <tei:idno>HGB 1 64/23</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1477732</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1545">1545</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611238.2283401713 1267306.23718489</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Claus</token>
+    <token token_id="1">Marpach</token>
+    <token token_id="2">der</token>
+    <token token_id="3">tischmacher</token>
+    <token token_id="4">und</token>
+    <token token_id="5">porttner</token>
+    <token token_id="6">des</token>
+    <token token_id="7">closters</token>
+    <token token_id="8">s</token>
+    <token token_id="9">.</token>
+    <token token_id="10">Lienhart</token>
+    <token token_id="11">,</token>
+    <token token_id="12">und</token>
+    <token token_id="13">seine</token>
+    <token token_id="14">Frau</token>
+    <token token_id="15">Elspetha</token>
+    <token token_id="16">Ganserin</token>
+    <token token_id="17">,</token>
+    <token token_id="18">vergaben</token>
+    <token token_id="19">an</token>
+    <token token_id="20">das</token>
+    <token token_id="21">closter</token>
+    <token token_id="22">s</token>
+    <token token_id="23">.</token>
+    <token token_id="24">Lienhart</token>
+    <token token_id="25">100</token>
+    <token token_id="26">fl</token>
+    <token token_id="27">.</token>
+    <token token_id="28">uf</token>
+    <token token_id="29">ihr</token>
+    <token token_id="30">hus</token>
+    <token token_id="31">u</token>
+    <token token_id="32">.</token>
+    <token token_id="33">hofstatt</token>
+    <token token_id="34">im</token>
+    <token token_id="35">hindern</token>
+    <token token_id="36">gerwergesslin</token>
+    <token token_id="37">,</token>
+    <token token_id="38">zwüschen</token>
+    <token token_id="39">Hansen</token>
+    <token token_id="40">Schulis</token>
+    <token token_id="41">sel</token>
+    <token token_id="42">.</token>
+    <token token_id="43">u</token>
+    <token token_id="44">.</token>
+    <token token_id="45">Jacoben</token>
+    <token token_id="46">Schulins</token>
+    <token token_id="47">husern</token>
+    <token token_id="48">glegen</token>
+    <token token_id="49">u</token>
+    <token token_id="50">.</token>
+    <token token_id="51">Telsperg</token>
+    <token token_id="52">genant</token>
+    <token token_id="53">,</token>
+    <token token_id="54">unter</token>
+    <token token_id="55">verschieden</token>
+    <token token_id="56">Bedingungen</token>
+    <token token_id="57">.</token>
+  </text>
+  <spans>
+    <span id="886" start="0" end="16" text="Claus Marpach der tischmacher und porttner des closters&#10;s . Lienhart , und seine Frau Elspetha Ganserin" element="list" class="per" subclass="">
+      <span id="892" start="0" end="10" text="Claus Marpach der tischmacher und porttner des closters&#10;s . Lienhart" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="898" start="0" end="1" text="Claus Marpach" element="head" class="nam" subclass=""/>
+        <span id="904" start="2" end="3" text="der tischmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="910" start="3" end="3" text="tischmacher" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="916" start="5" end="10" text="porttner des closters&#10;s . Lienhart" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+          <span id="922" start="5" end="5" text="porttner" element="head" class="occ" subclass="org-job"/>
+          <span id="928" start="6" end="10" text="des closters&#10;s . Lienhart" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="1074" start="7" end="10" text="closters&#10;s . Lienhart" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="934" start="13" end="16" text="seine Frau Elspetha Ganserin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="946" start="13" end="14" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="958" start="13" end="13" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="958_head" start="13" end="13" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="952" start="14" end="14" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="940" start="15" end="16" text="Elspetha Ganserin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1080" start="18" end="18" text="vergaben" element="trigger" class="testament" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="971" start="20" end="24" text="das closter s . Lienhart" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1086" start="21" end="24" text="closter s . Lienhart" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="977" start="25" end="27" text="100 fl ." element="value" class="money" subclass=""/>
+    <span id="1105" start="28" end="28" text="uf" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="983" start="29" end="52" text="ihr hus u . hofstatt&#10;im hindern gerwergesslin , zwüschen Hansen Schulis sel . u . Jacoben&#10;Schulins husern glegen u . Telsperg genant" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="983_desc_owner" start="29" end="29" text="ihr" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="995" start="29" end="29" text="ihr" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="995_head" start="29" end="29" element="head" class="pro" text="ihr" subclass=""/>
+        </span>
+      </span>
+      <span id="989" start="30" end="33" text="hus u . hofstatt" element="head" class="type" subclass=""/>
+      <span id="1008" start="34" end="48" text="im hindern gerwergesslin , zwüschen Hansen Schulis sel . u . Jacoben&#10;Schulins husern glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1099" start="34" end="36" text="im hindern gerwergesslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1014" start="35" end="36" text="hindern gerwergesslin" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1020" start="39" end="47" text="Hansen Schulis sel . u . Jacoben&#10;Schulins husern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1062" start="39" end="46" text="Hansen Schulis sel . u . Jacoben&#10;Schulins" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1068" start="39" end="46" text="Hansen Schulis sel . u . Jacoben&#10;Schulins" element="list" class="per" subclass="">
+              <span id="1032" start="39" end="42" text="Hansen Schulis sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1038" start="39" end="40" text="Hansen Schulis" element="head" class="nam" subclass=""/>
+                <span id="1044" start="41" end="42" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              </span>
+              <span id="1050" start="45" end="46" text="Jacoben&#10;Schulins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1050_head" start="45" end="46" element="head" class="nam" text="Jacoben Schulins" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1026" start="47" end="47" text="husern" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1056" start="51" end="51" text="Telsperg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1056_head" start="51" end="51" element="head" class="nam" text="Telsperg" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1001" from="995" to="886" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="964" from="958" to="892" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1092" from="971" to="928" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="5" end="10" ref="916" type="state">
+      <trigger start="5" end="5" text="porttner" ref="922"/>
+      <event event_id="0.0">
+        <role role="employee" ref="892" text="Claus Marpach der tischmacher und porttner des closters&#10;s . Lienhart"/>
+        <role role="employer" ref="928" text="des closters&#10;s . Lienhart"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="13" end="14" ref="946" type="state">
+      <trigger start="14" end="14" text="Frau" ref="952"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="934" text="seine Frau Elspetha Ganserin"/>
+        <role role="family-b" ref="958" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="29" end="29" ref="983_desc_owner" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="983" text="ihr hus u . hofstatt&#10;im hindern gerwergesslin , zwüschen Hansen Schulis sel . u . Jacoben&#10;Schulins husern glegen u . Telsperg genant"/>
+        <role role="owner" ref="995" text="ihr"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="34" end="48" ref="1008" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="983" text="ihr hus u . hofstatt&#10;im hindern gerwergesslin , zwüschen Hansen Schulis sel . u . Jacoben&#10;Schulins husern glegen u . Telsperg genant"/>
+        <role role="location-b" ref="1099" text="im hindern gerwergesslin"/>
+        <role role="location-b" ref="1020" text="Hansen Schulis sel . u . Jacoben&#10;Schulins husern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="39" end="46" ref="1062" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1020" text="Hansen Schulis sel . u . Jacoben&#10;Schulins husern"/>
+        <role role="owner" ref="1032" text="Hansen Schulis sel ."/>
+        <role role="owner" ref="1050" text="Jacoben&#10;Schulins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="testament" polarity="pos" tense="pres" modality="ass" start="0" end="28" ref="" type="event">
+      <trigger start="18" end="18" text="vergaben" ref="1080"/>
+      <event event_id="5.0">
+        <role role="bequeather" ref="892" text="Claus Marpach der tischmacher und porttner des closters&#10;s . Lienhart"/>
+        <role role="bequeather" ref="934" text="seine Frau Elspetha Ganserin"/>
+        <role role="property" ref="1105" text="uf"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="25" end="52" ref="" type="state">
+      <trigger start="28" end="28" text="uf" ref="1105"/>
+      <event event_id="6.0">
+        <role role="capital" ref="977" text="100 fl ."/>
+        <role role="property" ref="983" text="ihr hus u . hofstatt&#10;im hindern gerwergesslin , zwüschen Hansen Schulis sel . u . Jacoben&#10;Schulins husern glegen u . Telsperg genant"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

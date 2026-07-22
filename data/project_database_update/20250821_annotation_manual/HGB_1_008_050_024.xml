@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 8/50 S. [24]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Tal 16</tei:title>
+            <tei:idno>HGB 1 8/50</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433271</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Alban</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1553">1553</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2612332.5754716136 1267137.9442949563</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1553</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Hans</token>
+    <token token_id="3">Eckli</token>
+    <token token_id="4">.</token>
+    <token token_id="5">1554</token>
+    <token token_id="6">.</token>
+    <token token_id="7">Baschon</token>
+    <token token_id="8">Eckli</token>
+    <token token_id="9">1565</token>
+    <token token_id="10">:</token>
+    <token token_id="11">Erben</token>
+    <token token_id="12">,</token>
+    <token token_id="13">gitt</token>
+    <token token_id="14">von</token>
+    <token token_id="15">sinem</token>
+    <token token_id="16">Huss</token>
+    <token token_id="17">in</token>
+    <token token_id="18">den</token>
+    <token token_id="19">Millenen</token>
+    <token token_id="20">,</token>
+    <token token_id="21">2</token>
+    <token token_id="22">ß</token>
+    <token token_id="23">.</token>
+    <token token_id="24">1</token>
+    <token token_id="25">Vassnachth</token>
+    <token token_id="26">.</token>
+    <token token_id="27">,</token>
+    <token token_id="28">1</token>
+    <token token_id="29">Hewerth</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Ebenso</token>
+    <token token_id="32">.</token>
+    <token token_id="33">1556</token>
+    <token token_id="34">.</token>
+    <token token_id="35">1557</token>
+    <token token_id="36">.</token>
+    <token token_id="37">1558</token>
+    <token token_id="38">.</token>
+    <token token_id="39">1559</token>
+    <token token_id="40">.</token>
+    <token token_id="41">1560</token>
+    <token token_id="42">.</token>
+    <token token_id="43">1561</token>
+    <token token_id="44">.</token>
+    <token token_id="45">1562</token>
+    <token token_id="46">.</token>
+    <token token_id="47">1563</token>
+    <token token_id="48">.</token>
+    <token token_id="49">1564</token>
+    <token token_id="50">.</token>
+    <token token_id="51">1565</token>
+    <token token_id="52">.</token>
+    <token token_id="53">1586</token>
+    <token token_id="54">.</token>
+    <token token_id="55">1567</token>
+    <token token_id="56">.</token>
+    <token token_id="57">1568</token>
+    <token token_id="58">.</token>
+    <token token_id="59">1569</token>
+    <token token_id="60">.</token>
+  </text>
+  <spans>
+    <span id="948" start="0" end="0" text="1553" element="value" class="date" subclass=""/>
+    <span id="1050" start="2" end="3" text="Hans Eckli" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1050_head" start="2" end="3" element="head" class="nam" text="Hans Eckli" subclass=""/>
+    </span>
+    <span id="954" start="5" end="5" text="1554" element="value" class="date" subclass=""/>
+    <span id="1056" start="7" end="8" text="Baschon Eckli" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1056_head" start="7" end="8" element="head" class="nam" text="Baschon Eckli" subclass=""/>
+    </span>
+    <span id="960" start="9" end="9" text="1565" element="value" class="date" subclass=""/>
+    <span id="1062" start="11" end="11" text="Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1062_head" start="11" end="11" element="head" class="heir" text="Erben" subclass=""/>
+    </span>
+    <span id="1135" start="13" end="13" text="gitt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1068" start="15" end="19" text="sinem Huss in den Millenen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1080" start="15" end="15" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1086" start="15" end="15" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1086_head" start="15" end="15" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1074" start="16" end="16" text="Huss" element="head" class="type" subclass=""/>
+      <span id="1099" start="17" end="19" text="in den Millenen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1105" start="18" end="19" text="den Millenen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1111" start="19" end="19" text="Millenen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1117" start="21" end="23" text="2 ß ." element="value" class="money" subclass=""/>
+    <span id="1123" start="24" end="26" text="1 Vassnachth ." element="value" class="money" subclass=""/>
+    <span id="1129" start="28" end="30" text="1 Hewerth ." element="value" class="money" subclass=""/>
+    <span id="966" start="33" end="33" text="1556" element="value" class="date" subclass=""/>
+    <span id="972" start="35" end="35" text="1557" element="value" class="date" subclass=""/>
+    <span id="978" start="37" end="37" text="1558" element="value" class="date" subclass=""/>
+    <span id="984" start="39" end="39" text="1559" element="value" class="date" subclass=""/>
+    <span id="990" start="41" end="41" text="1560" element="value" class="date" subclass=""/>
+    <span id="996" start="43" end="43" text="1561" element="value" class="date" subclass=""/>
+    <span id="1002" start="45" end="45" text="1562" element="value" class="date" subclass=""/>
+    <span id="1008" start="47" end="47" text="1563" element="value" class="date" subclass=""/>
+    <span id="1020" start="49" end="49" text="1564" element="value" class="date" subclass=""/>
+    <span id="1014" start="51" end="51" text="1565" element="value" class="date" subclass=""/>
+    <span id="1026" start="53" end="53" text="1586" element="value" class="date" subclass=""/>
+    <span id="1032" start="55" end="55" text="1567" element="value" class="date" subclass=""/>
+    <span id="1038" start="57" end="57" text="1568" element="value" class="date" subclass=""/>
+    <span id="1044" start="59" end="59" text="1569" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1092" from="1086" to="1056" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="15" end="15" ref="1080" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1068" text="sinem Huss in den Millenen"/>
+        <role role="owner" ref="1086" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="19" ref="1099" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1068" text="sinem Huss in den Millenen"/>
+        <role role="location-b" ref="1105" text="den Millenen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="59" ref="" type="event">
+      <trigger start="13" end="13" text="gitt" ref="1135"/>
+      <event event_id="2.0">
+        <role role="date" ref="948" text="1553"/>
+        <role role="payer" ref="1050" text="Hans Eckli"/>
+        <role role="property" ref="1068" text="sinem Huss in den Millenen"/>
+        <role role="interest" ref="1117" text="2 ß ."/>
+        <role role="interest" ref="1123" text="1 Vassnachth ."/>
+        <role role="interest" ref="1129" text="1 Hewerth ."/>
+      </event>
+      <event event_id="2.1">
+        <role role="date" ref="954" text="1554"/>
+        <role role="payer" ref="1056" text="Baschon Eckli"/>
+        <role role="property" ref="1068" text="sinem Huss in den Millenen"/>
+        <role role="interest" ref="1117" text="2 ß ."/>
+        <role role="interest" ref="1123" text="1 Vassnachth ."/>
+        <role role="interest" ref="1129" text="1 Hewerth ."/>
+      </event>
+      <event event_id="2.2">
+        <role role="date" ref="960" text="1565"/>
+        <role role="payer" ref="1062" text="Erben"/>
+        <role role="property" ref="1068" text="sinem Huss in den Millenen"/>
+        <role role="interest" ref="1117" text="2 ß ."/>
+        <role role="interest" ref="1123" text="1 Vassnachth ."/>
+        <role role="interest" ref="1129" text="1 Hewerth ."/>
+        <role role="date" ref="966" text="1556"/>
+        <role role="date" ref="972" text="1557"/>
+        <role role="date" ref="978" text="1558"/>
+        <role role="date" ref="984" text="1559"/>
+        <role role="date" ref="990" text="1560"/>
+        <role role="date" ref="996" text="1561"/>
+        <role role="date" ref="1002" text="1562"/>
+        <role role="date" ref="1008" text="1563"/>
+        <role role="date" ref="1020" text="1564"/>
+        <role role="date" ref="1014" text="1565"/>
+        <role role="date" ref="1026" text="1586"/>
+        <role role="date" ref="1032" text="1567"/>
+        <role role="date" ref="1038" text="1568"/>
+        <role role="date" ref="1044" text="1569"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

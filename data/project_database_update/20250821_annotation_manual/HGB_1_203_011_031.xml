@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 203/11 S. [31]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Sporengasse 7</tei:title>
+            <tei:idno>HGB 1 203/11</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1526995</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1573">1573</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611230.8055985444 1267543.9479757233</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Of</token>
+    <token token_id="1">Hans</token>
+    <token token_id="2">Rudolff</token>
+    <token token_id="3">Deboys</token>
+    <token token_id="4">jetzundt</token>
+    <token token_id="5">zu</token>
+    <token token_id="6">Biel</token>
+    <token token_id="7">gesessen</token>
+    <token token_id="8">,</token>
+    <token token_id="9">u</token>
+    <token token_id="10">.</token>
+    <token token_id="11">Elspetha</token>
+    <token token_id="12">Werdenbergin</token>
+    <token token_id="13">seiner</token>
+    <token token_id="14">Ehessl</token>
+    <token token_id="15">.</token>
+    <token token_id="16">Hus</token>
+    <token token_id="17">und</token>
+    <token token_id="18">Hofstatt</token>
+    <token token_id="19">gegen</token>
+    <token token_id="20">der</token>
+    <token token_id="21">Reischscholen</token>
+    <token token_id="22">über</token>
+    <token token_id="23">gelegen</token>
+    <token token_id="24">und</token>
+    <token token_id="25">zum</token>
+    <token token_id="26">Agstein</token>
+    <token token_id="27">genant</token>
+    <token token_id="28">ist</token>
+    <token token_id="29">so</token>
+    <token token_id="30">uff</token>
+    <token token_id="31">anruffen</token>
+    <token token_id="32">Rusmann</token>
+    <token token_id="33">Fürfelders</token>
+    <token token_id="34">des</token>
+    <token token_id="35">gwandtmanns</token>
+    <token token_id="36">gfrönt</token>
+    <token token_id="37">und</token>
+    <token token_id="38">vergantet</token>
+    <token token_id="39">.</token>
+    <token token_id="40">worden</token>
+    <token token_id="41">,</token>
+    <token token_id="42">verbieten</token>
+    <token token_id="43">:</token>
+    <token token_id="44">Esaias</token>
+    <token token_id="45">Salb</token>
+    <token token_id="46">der</token>
+    <token token_id="47">Moler</token>
+    <token token_id="48">hus</token>
+    <token token_id="49">.</token>
+    <token token_id="50">.</token>
+    <token token_id="51">.</token>
+    <token token_id="52">200</token>
+    <token token_id="53">℔</token>
+    <token token_id="54">.</token>
+    <token token_id="55">u</token>
+    <token token_id="56">.</token>
+    <token token_id="57">s</token>
+    <token token_id="58">.</token>
+    <token token_id="59">w</token>
+    <token token_id="60">.</token>
+    <token token_id="61">u</token>
+    <token token_id="62">.</token>
+    <token token_id="63">s</token>
+    <token token_id="64">.</token>
+    <token token_id="65">w</token>
+    <token token_id="66">.</token>
+  </text>
+  <spans>
+    <span id="1429" start="1" end="28" text="Hans Rudolff Deboys jetzundt zu Biel gesessen , u . Elspetha&#10;Werdenbergin seiner Ehessl . Hus und Hofstatt gegen der Reischscholen&#10;über gelegen und zum Agstein genant ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1435" start="1" end="15" text="Hans Rudolff Deboys jetzundt zu Biel gesessen , u . Elspetha&#10;Werdenbergin seiner Ehessl ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1423" start="1" end="15" text="Hans Rudolff Deboys jetzundt zu Biel gesessen , u . Elspetha&#10;Werdenbergin seiner Ehessl ." element="list" class="per" subclass="">
+          <span id="1272" start="1" end="7" text="Hans Rudolff Deboys jetzundt zu Biel gesessen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1278" start="1" end="3" text="Hans Rudolff Deboys" element="head" class="nam" subclass=""/>
+            <span id="1284" start="4" end="7" text="jetzundt zu Biel gesessen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1290" start="6" end="6" text="Biel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1290_head" start="6" end="6" element="head" class="nam" text="Biel" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1296" start="11" end="15" text="Elspetha&#10;Werdenbergin seiner Ehessl ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1302" start="11" end="12" text="Elspetha&#10;Werdenbergin" element="head" class="nam" subclass=""/>
+            <span id="1308" start="13" end="15" text="seiner Ehessl ." element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1320" start="13" end="13" text="seiner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1320_head" start="13" end="13" element="head" class="pro" text="seiner" subclass=""/>
+              </span>
+              <span id="1314" start="14" end="15" text="Ehessl ." element="head" class="fam" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1333" start="16" end="18" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1339" start="19" end="23" text="gegen der Reischscholen&#10;über gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1345" start="20" end="21" text="der Reischscholen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1351" start="21" end="21" text="Reischscholen" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1357" start="25" end="26" text="zum Agstein" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1357_head" start="25" end="26" element="head" class="nam" text="zum Agstein" subclass=""/>
+      </span>
+    </span>
+    <span id="1369" start="32" end="35" text="Rusmann Fürfelders des gwandtmanns" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1375" start="32" end="33" text="Rusmann Fürfelders" element="head" class="nam" subclass=""/>
+      <span id="1381" start="34" end="35" text="des gwandtmanns" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1387" start="35" end="35" text="gwandtmanns" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1441" start="36" end="36" text="gfrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1447" start="42" end="42" text="verbieten" element="trigger" class="bid" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1393" start="44" end="47" text="Esaias Salb der Moler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1399" start="44" end="45" text="Esaias Salb" element="head" class="nam" subclass=""/>
+      <span id="1405" start="46" end="47" text="der Moler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1411" start="47" end="47" text="Moler" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1417" start="52" end="54" text="200 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1326" from="1320" to="1272" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="13" end="15" ref="1308" type="state">
+      <trigger start="14" end="15" text="Ehessl ." ref="1314"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1296" text="Elspetha&#10;Werdenbergin seiner Ehessl ."/>
+        <role role="family-b" ref="1320" text="seiner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="1" end="15" ref="1435" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1429" text="Hans Rudolff Deboys jetzundt zu Biel gesessen , u . Elspetha&#10;Werdenbergin seiner Ehessl . Hus und Hofstatt gegen der Reischscholen&#10;über gelegen und zum Agstein genant ist"/>
+        <role role="owner" ref="1272" text="Hans Rudolff Deboys jetzundt zu Biel gesessen"/>
+        <role role="owner" ref="1296" text="Elspetha&#10;Werdenbergin seiner Ehessl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="4" end="7" ref="1284" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1272" text="Hans Rudolff Deboys jetzundt zu Biel gesessen"/>
+        <role role="location-b" ref="1290" text="Biel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="19" end="23" ref="1339" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1429" text="Hans Rudolff Deboys jetzundt zu Biel gesessen , u . Elspetha&#10;Werdenbergin seiner Ehessl . Hus und Hofstatt gegen der Reischscholen&#10;über gelegen und zum Agstein genant ist"/>
+        <role role="location-b" ref="1345" text="der Reischscholen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="ass" start="1" end="36" ref="" type="event">
+      <trigger start="36" end="36" text="gfrönt" ref="1441"/>
+      <event event_id="4.0">
+        <role role="property" ref="1429" text="Hans Rudolff Deboys jetzundt zu Biel gesessen , u . Elspetha&#10;Werdenbergin seiner Ehessl . Hus und Hofstatt gegen der Reischscholen&#10;über gelegen und zum Agstein genant ist"/>
+        <role role="claimant" ref="1369" text="Rusmann Fürfelders des gwandtmanns"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="bid" polarity="pos" tense="pres" modality="ass" start="42" end="54" ref="" type="event">
+      <trigger start="42" end="42" text="verbieten" ref="1447"/>
+      <event event_id="5.0">
+        <role role="bidder" ref="1393" text="Esaias Salb der Moler"/>
+        <role role="bid" ref="1417" text="200 ℔."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

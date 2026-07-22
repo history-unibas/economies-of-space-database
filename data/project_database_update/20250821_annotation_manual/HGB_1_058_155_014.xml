@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/155 S. [14]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse Theil von 36 neben 34</tei:title>
+            <tei:idno>HGB 1 58/155</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1468095</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1423">1423</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611379.0158119584 1267311.463692381</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">git</token>
+    <token token_id="1">ze</token>
+    <token token_id="2">kaufen</token>
+    <token token_id="3">Hkr</token>
+    <token token_id="4">.</token>
+    <token token_id="5">Heinrich</token>
+    <token token_id="6">von</token>
+    <token token_id="7">Utingen</token>
+    <token token_id="8">,</token>
+    <token token_id="9">Mangen</token>
+    <token token_id="10">Thunser</token>
+    <token token_id="11">dem</token>
+    <token token_id="12">gerichtschiber</token>
+    <token token_id="13">ze</token>
+    <token token_id="14">Basel</token>
+    <token token_id="15">,</token>
+    <token token_id="16">den</token>
+    <token token_id="17">Hof</token>
+    <token token_id="18">Herbery</token>
+    <token token_id="19">Hofstatt</token>
+    <token token_id="20">garten</token>
+    <token token_id="21">ư</token>
+    <token token_id="22">gesess</token>
+    <token token_id="23">genant</token>
+    <token token_id="24">zem</token>
+    <token token_id="25">roten</token>
+    <token token_id="26">Hut</token>
+    <token token_id="27">,</token>
+    <token token_id="28">mit</token>
+    <token token_id="29">dem</token>
+    <token token_id="30">gang</token>
+    <token token_id="31">und</token>
+    <token token_id="32">den</token>
+    <token token_id="33">hüslinen</token>
+    <token token_id="34">alz</token>
+    <token token_id="35">man</token>
+    <token token_id="36">hinder</token>
+    <token token_id="37">nebent</token>
+    <token token_id="38">zu</token>
+    <token token_id="39">us</token>
+    <token token_id="40">in</token>
+    <token token_id="41">die</token>
+    <token token_id="42">wyssen</token>
+    <token token_id="43">gassen</token>
+    <token token_id="44">gat</token>
+    <token token_id="45">gelegen</token>
+    <token token_id="46">obwendig</token>
+    <token token_id="47">der</token>
+    <token token_id="48">Husgenossen</token>
+    <token token_id="49">Zunffthus</token>
+    <token token_id="50">so</token>
+    <token token_id="51">man</token>
+    <token token_id="52">nemet</token>
+    <token token_id="53">zem</token>
+    <token token_id="54">grawen</token>
+    <token token_id="55">Beren</token>
+    <token token_id="56">,</token>
+    <token token_id="57">ze</token>
+    <token token_id="58">einersiten</token>
+    <token token_id="59">u</token>
+    <token token_id="60">.</token>
+    <token token_id="61">Mathys</token>
+    <token token_id="62">grüschlers</token>
+    <token token_id="63">hus</token>
+    <token token_id="64">zer</token>
+    <token token_id="65">andern</token>
+    <token token_id="66">siten</token>
+    <token token_id="67">,</token>
+    <token token_id="68">ist</token>
+    <token token_id="69">erb</token>
+    <token token_id="70">von</token>
+    <token token_id="71">Frow</token>
+    <token token_id="72">Jorotheen</token>
+    <token token_id="73">zem</token>
+    <token token_id="74">Hopst</token>
+    <token token_id="75">etc</token>
+    <token token_id="76">Hen</token>
+    <token token_id="77">Fridrichs</token>
+    <token token_id="78">Roten</token>
+    <token token_id="79">ehbfrowen</token>
+    <token token_id="80">denen</token>
+    <token token_id="81">darab</token>
+    <token token_id="82">gand</token>
+    <token token_id="83">7</token>
+    <token token_id="84">℔</token>
+    <token token_id="85">.</token>
+    <token token_id="86">u</token>
+    <token token_id="87">1</token>
+    <token token_id="88">/</token>
+    <token token_id="89">2</token>
+    <token token_id="90">℔</token>
+    <token token_id="91">Pheffer</token>
+    <token token_id="92">wisung</token>
+    <token token_id="93">sum</token>
+    <token token_id="94">300</token>
+    <token token_id="95">fl</token>
+    <token token_id="96">.</token>
+  </text>
+  <spans>
+    <span id="1667" start="0" end="2" text="git ze kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1462" start="3" end="7" text="Hkr . Heinrich von Utingen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1468" start="5" end="7" text="Heinrich von Utingen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1474" start="9" end="14" text="Mangen&#10;Thunser dem gerichtschiber ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1480" start="9" end="10" text="Mangen&#10;Thunser" element="head" class="nam" subclass=""/>
+      <span id="1486" start="11" end="14" text="dem gerichtschiber ze Basel" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1492" start="12" end="12" text="gerichtschiber" element="head" class="occ" subclass="org-job"/>
+        <span id="1498" start="14" end="14" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1498_head" start="14" end="14" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1504" start="16" end="96" text="den Hof&#10;Herbery Hofstatt garten ư gesess genant zem&#10;roten Hut , mit dem gang und den hüslinen&#10;alz man hinder nebent zu us in die wyssen gassen&#10;gat gelegen obwendig der Husgenossen Zunffthus&#10;so man nemet zem grawen Beren , ze einersiten&#10;u . Mathys grüschlers hus zer andern siten , ist&#10;erb von Frow Jorotheen zem Hopst etc Hen Fridrichs&#10;Roten ehbfrowen denen&#10;darab gand 7 ℔. u 1 / 2 ℔ Pheffer wisung&#10;sum 300 fl ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1510" start="17" end="22" text="Hof&#10;Herbery Hofstatt garten ư gesess" element="head" class="type" subclass=""/>
+      <span id="1522" start="24" end="26" text="zem&#10;roten Hut" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1522_head" start="24" end="26" element="head" class="nam" text="zem roten Hut" subclass=""/>
+      </span>
+      <span id="1528" start="28" end="45" text="mit dem gang und den hüslinen&#10;alz man hinder nebent zu us in die wyssen gassen&#10;gat gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1534" start="41" end="43" text="die wyssen gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1540" start="42" end="43" text="wyssen gassen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1546" start="46" end="66" text="obwendig der Husgenossen Zunffthus&#10;so man nemet zem grawen Beren , ze einersiten&#10;u . Mathys grüschlers hus zer andern siten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1576" start="47" end="55" text="der Husgenossen Zunffthus&#10;so man nemet zem grawen Beren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1558" start="47" end="48" text="der Husgenossen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1564" start="47" end="48" text="der Husgenossen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+              <span id="1570" start="48" end="48" text="Husgenossen" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+          <span id="1552" start="49" end="49" text="Zunffthus" element="head" class="nam" subclass=""/>
+          <span id="1582" start="53" end="55" text="zem grawen Beren" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1582_head" start="53" end="55" element="head" class="nam" text="zem grawen Beren" subclass=""/>
+          </span>
+        </span>
+        <span id="1588" start="61" end="63" text="Mathys grüschlers hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1588_desc_owner" start="61" end="62" text="Mathys grüschlers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1600" start="61" end="62" text="Mathys grüschlers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1600_head" start="61" end="62" element="head" class="nam" text="Mathys grüschlers" subclass=""/>
+            </span>
+          </span>
+          <span id="1594" start="63" end="63" text="hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1679" start="68" end="79" text="ist&#10;erb von Frow Jorotheen zem Hopst etc Hen Fridrichs&#10;Roten ehbfrowen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1612" start="71" end="79" text="Frow Jorotheen zem Hopst etc Hen Fridrichs&#10;Roten ehbfrowen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1618" start="72" end="74" text="Jorotheen zem Hopst" element="head" class="nam" subclass=""/>
+          <span id="1624" start="76" end="79" text="Hen Fridrichs&#10;Roten ehbfrowen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1636" start="76" end="78" text="Hen Fridrichs&#10;Roten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1648" start="76" end="76" text="Hen" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1648_head" start="76" end="76" element="head" class="title" text="Hen" subclass=""/>
+              </span>
+              <span id="1642" start="77" end="78" text="Fridrichs&#10;Roten" element="head" class="nam" subclass=""/>
+            </span>
+            <span id="1630" start="79" end="79" text="ehbfrowen" element="head" class="fam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1697" start="80" end="96" text="denen&#10;darab gand 7 ℔. u 1 / 2 ℔ Pheffer wisung&#10;sum 300 fl ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1654" start="80" end="80" text="denen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1654_head" start="80" end="80" element="head" class="pro" text="denen" subclass=""/>
+        </span>
+        <span id="1685" start="82" end="82" text="gand" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1606" start="83" end="84" text="7 ℔" element="value" class="money" subclass=""/>
+        <span id="1606" start="87" end="91" text="1 / 2 ℔ Pheffer" element="value" class="money" subclass=""/>
+        <span id="1691" start="92" end="92" text="wisung" element="other" class="other" subclass=""/>
+        <span id="1673" start="94" end="96" text="300 fl ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1660" from="1654" to="1612" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="custom_0" from="1667" to="1673" class="role" detail="price" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1685_role" from="1685" to="1504" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="11" end="14" ref="1486" type="state">
+      <trigger start="12" end="12" text="gerichtschiber" ref="1492"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1474" text="Mangen&#10;Thunser dem gerichtschiber ze Basel"/>
+        <role role="employer" ref="1498" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="76" end="79" ref="1624" type="state">
+      <trigger start="79" end="79" text="ehbfrowen" ref="1630"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1612" text="Frow Jorotheen zem Hopst etc Hen Fridrichs&#10;Roten ehbfrowen"/>
+        <role role="family-b" ref="1636" text="Hen Fridrichs&#10;Roten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="28" end="45" ref="1528" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1504" text="den Hof&#10;Herbery Hofstatt garten ư gesess genant zem&#10;roten Hut , mit dem gang und den hüslinen&#10;alz man hinder nebent zu us in die wyssen gassen&#10;gat gelegen obwendig der Husgenossen Zunffthus&#10;so man nemet zem grawen Beren , ze einersiten&#10;u . Mathys grüschlers hus zer andern siten , ist&#10;erb von Frow Jorotheen zem Hopst etc Hen Fridrichs&#10;Roten ehbfrowen denen&#10;darab gand 7 ℔. u 1 / 2 ℔ Pheffer wisung&#10;sum 300 fl ."/>
+        <role role="location-b" ref="1534" text="die wyssen gassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="46" end="66" ref="1546" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1504" text="den Hof&#10;Herbery Hofstatt garten ư gesess genant zem&#10;roten Hut , mit dem gang und den hüslinen&#10;alz man hinder nebent zu us in die wyssen gassen&#10;gat gelegen obwendig der Husgenossen Zunffthus&#10;so man nemet zem grawen Beren , ze einersiten&#10;u . Mathys grüschlers hus zer andern siten , ist&#10;erb von Frow Jorotheen zem Hopst etc Hen Fridrichs&#10;Roten ehbfrowen denen&#10;darab gand 7 ℔. u 1 / 2 ℔ Pheffer wisung&#10;sum 300 fl ."/>
+        <role role="location-b" ref="1576" text="der Husgenossen Zunffthus&#10;so man nemet zem grawen Beren"/>
+        <role role="location-b" ref="1588" text="Mathys grüschlers hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="47" end="48" ref="1558" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1576" text="der Husgenossen Zunffthus&#10;so man nemet zem grawen Beren"/>
+        <role role="owner" ref="1564" text="der Husgenossen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="61" end="62" ref="1588_desc_owner" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1588" text="Mathys grüschlers hus"/>
+        <role role="owner" ref="1600" text="Mathys grüschlers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="68" end="79" ref="1679" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1504" text="den Hof&#10;Herbery Hofstatt garten ư gesess genant zem&#10;roten Hut , mit dem gang und den hüslinen&#10;alz man hinder nebent zu us in die wyssen gassen&#10;gat gelegen obwendig der Husgenossen Zunffthus&#10;so man nemet zem grawen Beren , ze einersiten&#10;u . Mathys grüschlers hus zer andern siten , ist&#10;erb von Frow Jorotheen zem Hopst etc Hen Fridrichs&#10;Roten ehbfrowen denen&#10;darab gand 7 ℔. u 1 / 2 ℔ Pheffer wisung&#10;sum 300 fl ."/>
+        <role role="owner" ref="1612" text="Frow Jorotheen zem Hopst etc Hen Fridrichs&#10;Roten ehbfrowen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="96" ref="" type="event">
+      <trigger start="0" end="2" text="git ze kaufen" ref="1667"/>
+      <event event_id="7.0">
+        <role role="seller" ref="1462" text="Hkr . Heinrich von Utingen"/>
+        <role role="buyer" ref="1474" text="Mangen&#10;Thunser dem gerichtschiber ze Basel"/>
+        <role role="property" ref="1504" text="den Hof&#10;Herbery Hofstatt garten ư gesess genant zem&#10;roten Hut , mit dem gang und den hüslinen&#10;alz man hinder nebent zu us in die wyssen gassen&#10;gat gelegen obwendig der Husgenossen Zunffthus&#10;so man nemet zem grawen Beren , ze einersiten&#10;u . Mathys grüschlers hus zer andern siten , ist&#10;erb von Frow Jorotheen zem Hopst etc Hen Fridrichs&#10;Roten ehbfrowen denen&#10;darab gand 7 ℔. u 1 / 2 ℔ Pheffer wisung&#10;sum 300 fl ."/>
+        <role role="price" ref="1673" text="300 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="16" end="96" ref="1697" type="state">
+      <trigger start="82" end="82" text="gand" ref="1685"/>
+      <event event_id="8.0">
+        <role role="beneficiary" ref="1654" text="denen"/>
+        <role role="interest" ref="1606" text="7 ℔"/>
+        <role role="property" ref="1504" text="den Hof&#10;Herbery Hofstatt garten ư gesess genant zem&#10;roten Hut , mit dem gang und den hüslinen&#10;alz man hinder nebent zu us in die wyssen gassen&#10;gat gelegen obwendig der Husgenossen Zunffthus&#10;so man nemet zem grawen Beren , ze einersiten&#10;u . Mathys grüschlers hus zer andern siten , ist&#10;erb von Frow Jorotheen zem Hopst etc Hen Fridrichs&#10;Roten ehbfrowen denen&#10;darab gand 7 ℔. u 1 / 2 ℔ Pheffer wisung&#10;sum 300 fl ."/>
+      </event>
+      <event event_id="8.1">
+        <role role="beneficiary" ref="1654" text="denen"/>
+        <role role="interest" ref="1606" text="1 / 2 ℔ Pheffer"/>
+        <role role="cause" ref="1691" text="wisung"/>
+        <role role="property" ref="1504" text="den Hof&#10;Herbery Hofstatt garten ư gesess genant zem&#10;roten Hut , mit dem gang und den hüslinen&#10;alz man hinder nebent zu us in die wyssen gassen&#10;gat gelegen obwendig der Husgenossen Zunffthus&#10;so man nemet zem grawen Beren , ze einersiten&#10;u . Mathys grüschlers hus zer andern siten , ist&#10;erb von Frow Jorotheen zem Hopst etc Hen Fridrichs&#10;Roten ehbfrowen denen&#10;darab gand 7 ℔. u 1 / 2 ℔ Pheffer wisung&#10;sum 300 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/135 S. [16]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt 54</tei:title>
+            <tei:idno>HGB 1 10/135</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1458506</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1463">1463</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611990.809447625 1267081.046236973</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Heiner</token>
+    <token token_id="1">hoss</token>
+    <token token_id="2">von</token>
+    <token token_id="3">Grellingen</token>
+    <token token_id="4">so</token>
+    <token token_id="5">frank</token>
+    <token token_id="6">etc</token>
+    <token token_id="7">.</token>
+    <token token_id="8">so</token>
+    <token token_id="9">hab</token>
+    <token token_id="10">ei</token>
+    <token token_id="11">.</token>
+    <token token_id="12">meinand</token>
+    <token token_id="13">dem</token>
+    <token token_id="14">ein</token>
+    <token token_id="15">kind</token>
+    <token token_id="16">neuel</token>
+    <token token_id="17">Hedi</token>
+    <token token_id="18">yetzint</token>
+    <token token_id="19">Ulli</token>
+    <token token_id="20">Lösers</token>
+    <token token_id="21">des</token>
+    <token token_id="22">flossers</token>
+    <token token_id="23">tochler</token>
+    <token token_id="24">,</token>
+    <token token_id="25">st</token>
+    <token token_id="26">er</token>
+    <token token_id="27">willens</token>
+    <token token_id="28">u</token>
+    <token token_id="29">zu</token>
+    <token token_id="30">vergeben</token>
+    <token token_id="31">nemb</token>
+    <token token_id="32">sin</token>
+    <token token_id="33">Hus</token>
+    <token token_id="34">&amp;</token>
+    <token token_id="35">Hofstatt</token>
+    <token token_id="36">,</token>
+    <token token_id="37">zwüschent</token>
+    <token token_id="38">Clewis</token>
+    <token token_id="39">von</token>
+    <token token_id="40">Cslis</token>
+    <token token_id="41">sel</token>
+    <token token_id="42">.</token>
+    <token token_id="43">u</token>
+    <token token_id="44">.</token>
+    <token token_id="45">Cunratz</token>
+    <token token_id="46">von</token>
+    <token token_id="47">Ehingen</token>
+    <token token_id="48">husern</token>
+    <token token_id="49">ze</token>
+    <token token_id="50">nehst</token>
+    <token token_id="51">by</token>
+    <token token_id="52">Bridenthor</token>
+    <token token_id="53">zu</token>
+    <token token_id="54">s</token>
+    <token token_id="55">.</token>
+    <token token_id="56">Alban</token>
+    <token token_id="57">gelegen</token>
+    <token token_id="58">,</token>
+    <token token_id="59">u</token>
+    <token token_id="60">.</token>
+    <token token_id="61">stosset</token>
+    <token token_id="62">hinder</token>
+    <token token_id="63">zu</token>
+    <token token_id="64">uff</token>
+    <token token_id="65">den</token>
+    <token token_id="66">alten</token>
+    <token token_id="67">stattgraben</token>
+    <token token_id="68">an</token>
+    <token token_id="69">Rudolf</token>
+    <token token_id="70">Burcklers</token>
+    <token token_id="71">sel</token>
+    <token token_id="72">garten</token>
+    <token token_id="73">,</token>
+    <token token_id="74">sodenn</token>
+    <token token_id="75">buch</token>
+    <token token_id="76">1</token>
+    <token token_id="77">/</token>
+    <token token_id="78">2</token>
+    <token token_id="79">Juch</token>
+    <token token_id="80">.</token>
+    <token token_id="81">reben</token>
+    <token token_id="82">in</token>
+    <token token_id="83">der</token>
+    <token token_id="84">Breite</token>
+    <token token_id="85">gelegen</token>
+    <token token_id="86">,</token>
+    <token token_id="87">vor</token>
+  </text>
+  <spans>
+    <span id="1317" start="0" end="5" text="Heiner hoss von Grellingen so frank" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1323" start="0" end="1" text="Heiner hoss" element="head" class="nam" subclass=""/>
+      <span id="1329" start="2" end="3" text="von Grellingen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1335" start="3" end="3" text="Grellingen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1335_head" start="3" end="3" element="head" class="nam" text="Grellingen" subclass=""/>
+        </span>
+      </span>
+      <span id="1341" start="4" end="5" text="so frank" element="attr" class="other" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="sick"/>
+    </span>
+    <span id="1564" start="17" end="23" text="Hedi yetzint Ulli Lösers&#10;des flossers tochler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1570" start="17" end="17" text="Hedi" element="head" class="nam" subclass=""/>
+      <span id="1347" start="18" end="23" text="yetzint Ulli Lösers&#10;des flossers tochler" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1359" start="19" end="22" text="Ulli Lösers&#10;des flossers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1365" start="19" end="20" text="Ulli Lösers" element="head" class="nam" subclass=""/>
+          <span id="1371" start="21" end="22" text="des flossers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1377" start="22" end="22" text="flossers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1353" start="23" end="23" text="tochler" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1383" start="26" end="26" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1383_head" start="26" end="26" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="1558" start="30" end="30" text="vergeben" element="trigger" class="transfer" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1396" start="32" end="85" text="sin Hus &amp; Hofstatt , zwüschent Clewis von Cslis&#10;sel . u . Cunratz von Ehingen husern ze nehst by Bridenthor&#10;zu s . Alban gelegen , u . stosset hinder zu uff den alten&#10;stattgraben an Rudolf Burcklers sel garten ,&#10;sodenn buch 1 / 2 Juch . reben in der Breite gelegen" element="list" class="fac" subclass="">
+      <span id="1402" start="32" end="72" text="sin Hus &amp; Hofstatt , zwüschent Clewis von Cslis&#10;sel . u . Cunratz von Ehingen husern ze nehst by Bridenthor&#10;zu s . Alban gelegen , u . stosset hinder zu uff den alten&#10;stattgraben an Rudolf Burcklers sel garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1402_desc_owner" start="32" end="32" text="sin" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1420" start="32" end="32" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1420_head" start="32" end="32" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+        </span>
+        <span id="1414" start="33" end="35" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+        <span id="1462" start="37" end="72" text="zwüschent Clewis von Cslis&#10;sel . u . Cunratz von Ehingen husern ze nehst by Bridenthor&#10;zu s . Alban gelegen , u . stosset hinder zu uff den alten&#10;stattgraben an Rudolf Burcklers sel garten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1426" start="38" end="48" text="Clewis von Cslis&#10;sel . u . Cunratz von Ehingen husern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1456" start="38" end="47" text="Clewis von Cslis&#10;sel . u . Cunratz von Ehingen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1450" start="38" end="47" text="Clewis von Cslis&#10;sel . u . Cunratz von Ehingen" element="list" class="per" subclass="">
+                <span id="1444" start="38" end="42" text="Clewis von Cslis&#10;sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1444_head" start="38" end="42" element="head" class="nam" text="Clewis von Cslis sel ." subclass=""/>
+                </span>
+                <span id="1438" start="45" end="47" text="Cunratz von Ehingen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1438_head" start="45" end="47" element="head" class="nam" text="Cunratz von Ehingen" subclass=""/>
+                </span>
+              </span>
+            </span>
+            <span id="1432" start="48" end="48" text="husern" element="head" class="type" subclass=""/>
+          </span>
+          <span id="1468" start="52" end="52" text="Bridenthor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1468_head" start="52" end="52" element="head" class="nam" text="Bridenthor" subclass=""/>
+          </span>
+          <span id="1474" start="54" end="56" text="s . Alban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="1474_head" start="54" end="56" element="head" class="nam" text="s . Alban" subclass=""/>
+          </span>
+          <span id="1480" start="65" end="67" text="den alten&#10;stattgraben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1486" start="67" end="67" text="stattgraben" element="head" class="type" subclass=""/>
+          </span>
+          <span id="1492" start="69" end="72" text="Rudolf Burcklers sel garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1504" start="69" end="71" text="Rudolf Burcklers sel" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1510" start="69" end="71" text="Rudolf Burcklers sel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1516" start="69" end="70" text="Rudolf Burcklers" element="head" class="nam" subclass=""/>
+                <span id="1522" start="71" end="71" text="sel" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              </span>
+            </span>
+            <span id="1498" start="72" end="72" text="garten" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1408" start="76" end="85" text="1 / 2 Juch . reben in der Breite gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1528" start="81" end="81" text="reben" element="head" class="type" subclass=""/>
+        <span id="1534" start="82" end="85" text="in der Breite gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1546" start="83" end="84" text="der Breite" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1540" start="84" end="84" text="Breite" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1389" from="1383" to="1317" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="18" end="23" ref="1347" type="state">
+      <trigger start="23" end="23" text="tochler" ref="1353"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1564" text="Hedi yetzint Ulli Lösers&#10;des flossers tochler"/>
+        <role role="family-b" ref="1359" text="Ulli Lösers&#10;des flossers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="2" end="3" ref="1329" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1317" text="Heiner hoss von Grellingen so frank"/>
+        <role role="location-b" ref="1335" text="Grellingen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="32" end="32" ref="1402_desc_owner" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1402" text="sin Hus &amp; Hofstatt , zwüschent Clewis von Cslis&#10;sel . u . Cunratz von Ehingen husern ze nehst by Bridenthor&#10;zu s . Alban gelegen , u . stosset hinder zu uff den alten&#10;stattgraben an Rudolf Burcklers sel garten"/>
+        <role role="owner" ref="1420" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="37" end="72" ref="1462" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1402" text="sin Hus &amp; Hofstatt , zwüschent Clewis von Cslis&#10;sel . u . Cunratz von Ehingen husern ze nehst by Bridenthor&#10;zu s . Alban gelegen , u . stosset hinder zu uff den alten&#10;stattgraben an Rudolf Burcklers sel garten"/>
+        <role role="location-b" ref="1426" text="Clewis von Cslis&#10;sel . u . Cunratz von Ehingen husern"/>
+        <role role="location-b" ref="1468" text="Bridenthor"/>
+        <role role="location-b" ref="1474" text="s . Alban"/>
+        <role role="location-b" ref="1480" text="den alten&#10;stattgraben"/>
+        <role role="location-b" ref="1492" text="Rudolf Burcklers sel garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="38" end="47" ref="1456" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1426" text="Clewis von Cslis&#10;sel . u . Cunratz von Ehingen husern"/>
+        <role role="owner" ref="1444" text="Clewis von Cslis&#10;sel ."/>
+        <role role="owner" ref="1438" text="Cunratz von Ehingen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="69" end="71" ref="1504" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1492" text="Rudolf Burcklers sel garten"/>
+        <role role="owner" ref="1510" text="Rudolf Burcklers sel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="82" end="85" ref="1534" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1408" text="1 / 2 Juch . reben in der Breite gelegen"/>
+        <role role="location-b" ref="1546" text="der Breite"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="transfer" polarity="pos" tense="pres" modality="ass" start="0" end="85" ref="" type="event">
+      <trigger start="30" end="30" text="vergeben" ref="1558"/>
+      <event event_id="7.0">
+        <role role="owner-prev" ref="1317" text="Heiner hoss von Grellingen so frank"/>
+        <role role="owner-new" ref="1564" text="Hedi yetzint Ulli Lösers&#10;des flossers tochler"/>
+        <role role="property" ref="1402" text="sin Hus &amp; Hofstatt , zwüschent Clewis von Cslis&#10;sel . u . Cunratz von Ehingen husern ze nehst by Bridenthor&#10;zu s . Alban gelegen , u . stosset hinder zu uff den alten&#10;stattgraben an Rudolf Burcklers sel garten"/>
+        <role role="property" ref="1408" text="1 / 2 Juch . reben in der Breite gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

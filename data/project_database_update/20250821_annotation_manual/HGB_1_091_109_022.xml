@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 91/109 S. [22]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Johanns-Vorstadt Theil von 14 neben 16</tei:title>
+            <tei:idno>HGB 1 91/109</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1482332</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Prediger</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1536">1536</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611024.457019254 1268022.242952643</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Die</token>
+    <token token_id="5">Pfleger</token>
+    <token token_id="6">des</token>
+    <token token_id="7">Predigerklosters</token>
+    <token token_id="8">zu</token>
+    <token token_id="9">Basel</token>
+    <token token_id="10">nehmen</token>
+    <token token_id="11">Barbara</token>
+    <token token_id="12">Oli</token>
+    <token token_id="13">,</token>
+    <token token_id="14">Jacob</token>
+    <token token_id="15">Mumprats</token>
+    <token token_id="16">Burgers</token>
+    <token token_id="17">zu</token>
+    <token token_id="18">Basel</token>
+    <token token_id="19">Ehefrau</token>
+    <token token_id="20">,</token>
+    <token token_id="21">der</token>
+    <token token_id="22">das</token>
+    <token token_id="23">Predigerkloster</token>
+    <token token_id="24">ir</token>
+    <token token_id="25">Leben</token>
+    <token token_id="26">lang</token>
+    <token token_id="27">in</token>
+    <token token_id="28">Zypgedingswyse</token>
+    <token token_id="29">unter</token>
+    <token token_id="30">andern</token>
+    <token token_id="31">Behusung</token>
+    <token token_id="32">und</token>
+    <token token_id="33">Herberg</token>
+    <token token_id="34">in</token>
+    <token token_id="35">dem</token>
+    <token token_id="36">Hus</token>
+    <token token_id="37">genant</token>
+    <token token_id="38">Keysersperg</token>
+    <token token_id="39">mit</token>
+    <token token_id="40">wyt</token>
+    <token token_id="41">vom</token>
+    <token token_id="42">Prediger</token>
+    <token token_id="43">Closter</token>
+    <token token_id="44">gelegen</token>
+    <token token_id="45">ze</token>
+    <token token_id="46">geben</token>
+    <token token_id="47">ist</token>
+    <token token_id="48">zals</token>
+    <token token_id="49">Pfrund</token>
+    <token token_id="50">nerin</token>
+    <token token_id="51">in</token>
+    <token token_id="52">das</token>
+    <token token_id="53">Closter</token>
+    <token token_id="54">auf</token>
+    <token token_id="55">und</token>
+    <token token_id="56">nehmen</token>
+    <token token_id="57">dafür</token>
+    <token token_id="58">das</token>
+    <token token_id="59">zem</token>
+    <token token_id="60">Hans</token>
+    <token token_id="61">jetz</token>
+    <token token_id="62">schon</token>
+    <token token_id="63">an</token>
+    <token token_id="64">ihren</token>
+    <token token_id="65">Handen</token>
+    <token token_id="66">.</token>
+  </text>
+  <spans>
+    <span id="1031" start="4" end="9" text="Die Pfleger des Predigerklosters zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1037" start="5" end="7" text="Pfleger des Predigerklosters" element="head" class="nam" subclass=""/>
+      <span id="1043" start="8" end="9" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1049" start="9" end="9" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1049_head" start="9" end="9" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1061" start="11" end="47" text="Barbara Oli , Jacob Mumprats Burgers zu Basel&#10;Ehefrau , der das Predigerkloster ir Leben lang&#10;in Zypgedingswyse unter andern Behusung und&#10;Herberg in dem Hus genant Keysersperg mit wyt&#10;vom Prediger Closter gelegen ze geben ist" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1055" start="11" end="12" text="Barbara Oli" element="head" class="nam" subclass=""/>
+      <span id="1067" start="14" end="19" text="Jacob Mumprats Burgers zu Basel&#10;Ehefrau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1073" start="14" end="18" text="Jacob Mumprats Burgers zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1073_head" start="14" end="15" text="Jacob Mumprats" element="head" class="nam" subclass=""/>
+          <span id="1079" start="16" end="18" text="Burgers zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1085" start="16" end="16" text="Burgers" element="head" class="org-aff" subclass=""/>
+            <span id="1091" start="18" end="18" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1091_head" start="18" end="18" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1097" start="19" end="19" text="Ehefrau" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="1103" start="21" end="47" text="der das Predigerkloster ir Leben lang&#10;in Zypgedingswyse unter andern Behusung und&#10;Herberg in dem Hus genant Keysersperg mit wyt&#10;vom Prediger Closter gelegen ze geben ist" element="attr" class="other" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1115" start="22" end="23" text="das Predigerkloster" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1121" start="23" end="23" text="Predigerkloster" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1127" start="24" end="24" text="ir" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1127_head" start="24" end="24" element="head" class="pro" text="ir" subclass=""/>
+        </span>
+        <span id="1140" start="28" end="28" text="Zypgedingswyse" element="other" class="other" subclass=""/>
+        <span id="1146" start="35" end="44" text="dem Hus genant Keysersperg mit wyt&#10;vom Prediger Closter gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1152" start="36" end="36" text="Hus" element="head" class="type" subclass=""/>
+          <span id="1158" start="38" end="38" text="Keysersperg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1158_head" start="38" end="38" element="head" class="nam" text="Keysersperg" subclass=""/>
+          </span>
+          <span id="1164" start="39" end="44" text="mit wyt&#10;vom Prediger Closter gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1170" start="41" end="43" text="vom Prediger Closter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="1176" start="42" end="43" text="Prediger Closter" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1182" start="49" end="50" text="Pfrund&#10;nerin" element="reference" class="per" numerus="sgl" specificity="uspc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1182_head" start="49" end="50" element="head" class="type" text="Pfrund nerin" subclass=""/>
+    </span>
+    <span id="1188" start="52" end="53" text="das Closter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1194" start="53" end="53" text="Closter" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1207" start="58" end="60" text="das&#10;zem Hans" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1213" start="59" end="60" text="zem Hans" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1219" start="64" end="64" text="ihren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1219_head" start="64" end="64" element="head" class="pro" text="ihren" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1200" from="1188" to="1031" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1225" from="1219" to="1031" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1133" from="1127" to="1061" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="14" end="19" ref="1067" type="state">
+      <trigger start="19" end="19" text="Ehefrau" ref="1097"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1061" text="Barbara Oli , Jacob Mumprats Burgers zu Basel&#10;Ehefrau , der das Predigerkloster ir Leben lang&#10;in Zypgedingswyse unter andern Behusung und&#10;Herberg in dem Hus genant Keysersperg mit wyt&#10;vom Prediger Closter gelegen ze geben ist"/>
+        <role role="family-b" ref="1073" text="Jacob Mumprats Burgers zu Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="16" end="18" ref="1079" type="state">
+      <trigger start="16" end="16" text="Burgers" ref="1085"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1073" text="Jacob Mumprats Burgers zu Basel"/>
+        <role role="geopolitical-entity" ref="1091" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="8" end="9" ref="1043" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1031" text="Die Pfleger des Predigerklosters zu Basel"/>
+        <role role="location-b" ref="1049" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="39" end="44" ref="1164" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1146" text="dem Hus genant Keysersperg mit wyt&#10;vom Prediger Closter gelegen"/>
+        <role role="location-b" ref="1170" text="vom Prediger Closter"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

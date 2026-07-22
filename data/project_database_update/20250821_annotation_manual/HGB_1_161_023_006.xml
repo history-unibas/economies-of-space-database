@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 161/23 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheinsprung 19</tei:title>
+            <tei:idno>HGB 1 161/23</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1509050</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1419">1419</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611401.0403624293 1267509.4185088584</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">item</token>
+    <token token_id="1">do</token>
+    <token token_id="2">gab</token>
+    <token token_id="3">ze</token>
+    <token token_id="4">Kouffende</token>
+    <token token_id="5">henman</token>
+    <token token_id="6">Pflegler</token>
+    <token token_id="7">Bürger</token>
+    <token token_id="8">,</token>
+    <token token_id="9">Johannes</token>
+    <token token_id="10">von</token>
+    <token token_id="11">Engen</token>
+    <token token_id="12">einem</token>
+    <token token_id="13">priester</token>
+    <token token_id="14">und</token>
+    <token token_id="15">Caplan</token>
+    <token token_id="16">der</token>
+    <token token_id="17">Stift</token>
+    <token token_id="18">uf</token>
+    <token token_id="19">burg</token>
+    <token token_id="20">ze</token>
+    <token token_id="21">Basel</token>
+    <token token_id="22">dem</token>
+    <token token_id="23">halben</token>
+    <token token_id="24">teil</token>
+    <token token_id="25">und</token>
+    <token token_id="26">all</token>
+    <token token_id="27">die</token>
+    <token token_id="28">recht</token>
+    <token token_id="29">so</token>
+    <token token_id="30">er</token>
+    <token token_id="31">hat</token>
+    <token token_id="32">an</token>
+    <token token_id="33">den</token>
+    <token token_id="34">zwen</token>
+    <token token_id="35">hüsern</token>
+    <token token_id="36">und</token>
+    <token token_id="37">hofstatt</token>
+    <token token_id="38">so</token>
+    <token token_id="39">man</token>
+    <token token_id="40">nempt</token>
+    <token token_id="41">die</token>
+    <token token_id="42">ober</token>
+    <token token_id="43">uud</token>
+    <token token_id="44">die</token>
+    <token token_id="45">meder</token>
+    <token token_id="46">gipsgruben</token>
+    <token token_id="47">mit</token>
+    <token token_id="48">dem</token>
+    <token token_id="49">garten</token>
+    <token token_id="50">so</token>
+    <token token_id="51">darzu</token>
+    <token token_id="52">gehört</token>
+    <token token_id="53">als</token>
+    <token token_id="54">die</token>
+    <token token_id="55">und</token>
+    <token token_id="56">sinem</token>
+    <token token_id="57">huse</token>
+    <token token_id="58">so</token>
+    <token token_id="59">darzu</token>
+    <token token_id="60">gehörent</token>
+    <token token_id="61">,</token>
+    <token token_id="62">gelegen</token>
+    <token token_id="63">ze</token>
+    <token token_id="64">Basel</token>
+    <token token_id="65">an</token>
+    <token token_id="66">der</token>
+    <token token_id="67">rinhalden</token>
+    <token token_id="68">gegen</token>
+    <token token_id="69">dem</token>
+    <token token_id="70">husi</token>
+    <token token_id="71">zer</token>
+    <token token_id="72">augenweide</token>
+    <token token_id="73">über</token>
+    <token token_id="74">,</token>
+    <token token_id="75">als</token>
+    <token token_id="76">er</token>
+    <token token_id="77">und</token>
+    <token token_id="78">Clewi</token>
+    <token token_id="79">Pflegler</token>
+    <token token_id="80">sin</token>
+    <token token_id="81">bruder</token>
+    <token token_id="82">deren</token>
+    <token token_id="83">jetweder</token>
+    <token token_id="84">zem</token>
+    <token token_id="85">halben</token>
+    <token token_id="86">teile</token>
+    <token token_id="87">zeerbe</token>
+    <token token_id="88">Komen</token>
+    <token token_id="89">sind</token>
+    <token token_id="90">von</token>
+    <token token_id="91">Bertzschman</token>
+    <token token_id="92">Pflegler</token>
+    <token token_id="93">sel</token>
+    <token token_id="94">.</token>
+    <token token_id="95">irem</token>
+    <token token_id="96">vatter</token>
+    <token token_id="97">,</token>
+    <token token_id="98">die</token>
+    <token token_id="99">selben</token>
+    <token token_id="100">huser</token>
+    <token token_id="101">über</token>
+    <token token_id="102">und</token>
+    <token token_id="103">über</token>
+    <token token_id="104">erbe</token>
+    <token token_id="105">sint</token>
+    <token token_id="106">von</token>
+    <token token_id="107">Gotzman</token>
+    <token token_id="108">Roten</token>
+    <token token_id="109">ze</token>
+    <token token_id="110">Basel</token>
+    <token token_id="111">en</token>
+    <token token_id="112">udent</token>
+    <token token_id="113">annuatim</token>
+    <token token_id="114">6ß</token>
+    <token token_id="115">martini</token>
+    <token token_id="116">von</token>
+    <token token_id="117">der</token>
+    <token token_id="118">eigen</token>
+    <token token_id="119">.</token>
+    <token token_id="120">schaft</token>
+    <token token_id="121">und</token>
+    <token token_id="122">2</token>
+    <token token_id="123">ring</token>
+    <token token_id="124">wysung</token>
+    <token token_id="125">.</token>
+    <token token_id="126">per</token>
+    <token token_id="127">Jumma</token>
+    <token token_id="128">27</token>
+    <token token_id="129">gulden</token>
+    <token token_id="130">.</token>
+  </text>
+  <spans>
+    <span id="2233" start="4" end="4" text="Kouffende" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2108" start="5" end="7" text="henman Pflegler Bürger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1904" start="5" end="6" text="henman Pflegler" element="head" class="nam" subclass=""/>
+      <span id="2114" start="7" end="7" text="Bürger" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2114_head" start="7" end="7" element="head" class="org-aff" text="Bürger" subclass=""/>
+      </span>
+    </span>
+    <span id="1910" start="9" end="21" text="Johannes von Engen einem priester und Caplan der Stift uf&#10;burg ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1916" start="9" end="11" text="Johannes von Engen" element="head" class="nam" subclass=""/>
+      <span id="1922" start="12" end="13" text="einem priester" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1928" start="13" end="13" text="priester" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1934" start="15" end="21" text="Caplan der Stift uf&#10;burg ze Basel" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1940" start="15" end="15" text="Caplan" element="head" class="occ" subclass="org-job"/>
+        <span id="1946" start="16" end="21" text="der Stift uf&#10;burg ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2120" start="17" end="19" text="Stift uf&#10;burg" element="head" class="nam" subclass=""/>
+          <span id="1958" start="20" end="21" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1952" start="21" end="21" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1952_head" start="21" end="21" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2239" start="22" end="24" text="dem halben teil" element="other" class="other" subclass=""/>
+    <span id="2257" start="33" end="124" text="den zwen hüsern und hofstatt so man nempt die ober uud&#10;die meder gipsgruben mit dem garten so darzu gehört als&#10;die und sinem huse so darzu gehörent , gelegen ze Basel an&#10;der rinhalden gegen dem husi zer augenweide über , als er&#10;und Clewi Pflegler sin bruder deren jetweder zem halben teile&#10;zeerbe Komen sind von Bertzschman Pflegler sel . irem vatter ,&#10;die selben huser über und über erbe sint von Gotzman Roten&#10;ze Basel en udent annuatim 6ß martini von der eigen .&#10;schaft und 2 ring wysung" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1964" start="35" end="37" text="hüsern und hofstatt" element="head" class="type" subclass=""/>
+      <span id="2126" start="41" end="46" text="die ober uud&#10;die meder gipsgruben" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2126_head" start="41" end="46" element="head" class="nam" text="die ober uud die meder gipsgruben" subclass=""/>
+      </span>
+      <span id="2299" start="47" end="52" text="mit dem garten so darzu gehört" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2293" start="48" end="49" text="dem garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2132" start="49" end="49" text="garten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="2138" start="56" end="57" text="sinem huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2221" start="56" end="56" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2150" start="56" end="56" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2150_head" start="56" end="56" element="head" class="pro" text="sinem" subclass=""/>
+          </span>
+        </span>
+        <span id="2144" start="57" end="57" text="huse" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1970" start="62" end="74" text="gelegen ze Basel an&#10;der rinhalden gegen dem husi zer augenweide über ," element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1976" start="64" end="64" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1976_head" start="64" end="64" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="1982" start="66" end="67" text="der rinhalden" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1988" start="67" end="67" text="rinhalden" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1994" start="69" end="72" text="dem husi zer augenweide" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2000" start="70" end="72" text="husi zer augenweide" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="2251" start="76" end="81" text="er&#10;und Clewi Pflegler sin bruder" element="list" class="per" subclass="">
+        <span id="2006" start="76" end="76" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2006_head" start="76" end="76" element="head" class="pro" text="er" subclass=""/>
+        </span>
+        <span id="2012" start="78" end="81" text="Clewi Pflegler sin bruder" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2018" start="78" end="79" text="Clewi Pflegler" element="head" class="nam" subclass=""/>
+          <span id="2024" start="80" end="81" text="sin bruder" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2170" start="80" end="80" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2170_head" start="80" end="80" element="head" class="pro" text="sin" subclass=""/>
+            </span>
+            <span id="2030" start="81" end="81" text="bruder" element="head" class="fam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2245" start="87" end="87" text="zeerbe" element="trigger" class="inheritance" tense="past" polarity="pos" modality="ass" subclass=""/>
+      <span id="2036" start="91" end="96" text="Bertzschman Pflegler sel . irem vatter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2042" start="91" end="92" text="Bertzschman Pflegler" element="head" class="nam" subclass=""/>
+        <span id="2048" start="93" end="94" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2183" start="95" end="96" text="irem vatter" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2189" start="95" end="95" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2189_head" start="95" end="95" element="head" class="pro" text="irem" subclass=""/>
+          </span>
+          <span id="2054" start="96" end="96" text="vatter" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+      <span id="2269" start="98" end="124" text="die selben huser über und über erbe sint von Gotzman Roten&#10;ze Basel en udent annuatim 6ß martini von der eigen .&#10;schaft und 2 ring wysung" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2263" start="98" end="100" text="die selben huser" element="appo" class="type" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2060" start="100" end="100" text="huser" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2311" start="101" end="105" text="über und über erbe sint" element="other" class="other" subclass=""/>
+        <span id="2066" start="107" end="110" text="Gotzman Roten&#10;ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2072" start="107" end="108" text="Gotzman Roten" element="head" class="nam" subclass=""/>
+          <span id="2078" start="109" end="110" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2084" start="110" end="110" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2084_head" start="110" end="110" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2275" start="112" end="112" text="udent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2209" start="113" end="113" text="annuatim" element="value" class="time" subclass="rec"/>
+        <span id="2090" start="114" end="114" text="6ß" element="value" class="money" subclass=""/>
+        <span id="2215" start="115" end="115" text="martini" element="value" class="date" subclass=""/>
+        <span id="2281" start="116" end="120" text="von der eigen .&#10;schaft" element="other" class="other" subclass=""/>
+        <span id="2096" start="122" end="123" text="2 ring" element="value" class="money" subclass=""/>
+        <span id="2287" start="124" end="124" text="wysung" element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="2102" start="128" end="130" text="27 gulden ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2156" from="2150" to="2108" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2163" from="2006" to="2108" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2176" from="2170" to="2006" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2202" from="2189" to="2006" class="comp" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2195" from="2189" to="2012" class="comp" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2275_role" from="2275" to="2257" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="15" end="21" ref="1934" type="state">
+      <trigger start="15" end="15" text="Caplan" ref="1940"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1910" text="Johannes von Engen einem priester und Caplan der Stift uf&#10;burg ze Basel"/>
+        <role role="employer" ref="1946" text="der Stift uf&#10;burg ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="80" end="81" ref="2024" type="state">
+      <trigger start="81" end="81" text="bruder" ref="2030"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="2012" text="Clewi Pflegler sin bruder"/>
+        <role role="family-b" ref="2170" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="95" end="96" ref="2183" type="state">
+      <trigger start="96" end="96" text="vatter" ref="2054"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="2036" text="Bertzschman Pflegler sel . irem vatter"/>
+        <role role="family-b" ref="2189" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="21" ref="1958" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1946" text="der Stift uf&#10;burg ze Basel"/>
+        <role role="location-b" ref="1952" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" start="47" end="52" ref="2299" type="state">
+      <event event_id="5.0">
+        <role role="whole" ref="2257" text="den zwen hüsern und hofstatt so man nempt die ober uud&#10;die meder gipsgruben mit dem garten so darzu gehört als&#10;die und sinem huse so darzu gehörent , gelegen ze Basel an&#10;der rinhalden gegen dem husi zer augenweide über , als er&#10;und Clewi Pflegler sin bruder deren jetweder zem halben teile&#10;zeerbe Komen sind von Bertzschman Pflegler sel . irem vatter ,&#10;die selben huser über und über erbe sint von Gotzman Roten&#10;ze Basel en udent annuatim 6ß martini von der eigen .&#10;schaft und 2 ring wysung"/>
+        <role role="part" ref="2293" text="dem garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="56" end="56" ref="2221" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="2138" text="sinem huse"/>
+        <role role="owner" ref="2150" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="62" end="74" ref="1970" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="2257" text="den zwen hüsern und hofstatt so man nempt die ober uud&#10;die meder gipsgruben mit dem garten so darzu gehört als&#10;die und sinem huse so darzu gehörent , gelegen ze Basel an&#10;der rinhalden gegen dem husi zer augenweide über , als er&#10;und Clewi Pflegler sin bruder deren jetweder zem halben teile&#10;zeerbe Komen sind von Bertzschman Pflegler sel . irem vatter ,&#10;die selben huser über und über erbe sint von Gotzman Roten&#10;ze Basel en udent annuatim 6ß martini von der eigen .&#10;schaft und 2 ring wysung"/>
+        <role role="location-b" ref="1976" text="Basel"/>
+        <role role="location-b" ref="1982" text="der rinhalden"/>
+        <role role="location-b" ref="1994" text="dem husi zer augenweide"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="109" end="110" ref="2078" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="2066" text="Gotzman Roten&#10;ze Basel"/>
+        <role role="location-b" ref="2084" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="4" end="4" ref="" type="event">
+      <trigger start="4" end="4" text="Kouffende" ref="2233"/>
+      <event event_id="9.0">
+        <role role="seller" ref="2108" text="henman Pflegler Bürger"/>
+        <role role="buyer" ref="1910" text="Johannes von Engen einem priester und Caplan der Stift uf&#10;burg ze Basel"/>
+        <role role="detail_property-detail" ref="2239" text="dem halben teil"/>
+        <role role="property" ref="2257" text="den zwen hüsern und hofstatt so man nempt die ober uud&#10;die meder gipsgruben mit dem garten so darzu gehört als&#10;die und sinem huse so darzu gehörent , gelegen ze Basel an&#10;der rinhalden gegen dem husi zer augenweide über , als er&#10;und Clewi Pflegler sin bruder deren jetweder zem halben teile&#10;zeerbe Komen sind von Bertzschman Pflegler sel . irem vatter ,&#10;die selben huser über und über erbe sint von Gotzman Roten&#10;ze Basel en udent annuatim 6ß martini von der eigen .&#10;schaft und 2 ring wysung"/>
+        <role role="price" ref="2102" text="27 gulden ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="inheritance" polarity="pos" tense="past" modality="ass" start="76" end="96" ref="2257" type="event">
+      <trigger start="87" end="87" text="zeerbe" ref="2245"/>
+      <event event_id="10.0">
+        <role role="heir" ref="2006" text="er"/>
+        <role role="heir" ref="2012" text="Clewi Pflegler sin bruder"/>
+        <role role="decedent" ref="2036" text="Bertzschman Pflegler sel . irem vatter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="112" end="124" ref="2269" type="state">
+      <trigger start="112" end="112" text="udent" ref="2275"/>
+      <event event_id="11.0">
+        <role role="property" ref="2263" text="die selben huser"/>
+        <role role="detail_hereditary-owner" ref="2311" text="über und über erbe sint"/>
+        <role role="beneficiary" ref="2066" text="Gotzman Roten&#10;ze Basel"/>
+        <role role="interval" ref="2209" text="annuatim"/>
+        <role role="interest" ref="2090" text="6ß"/>
+        <role role="due-date" ref="2215" text="martini"/>
+        <role role="cause" ref="2281" text="von der eigen .&#10;schaft"/>
+      </event>
+      <event event_id="11.1">
+        <role role="property" ref="2263" text="die selben huser"/>
+        <role role="detail_hereditary-owner" ref="2311" text="über und über erbe sint"/>
+        <role role="beneficiary" ref="2066" text="Gotzman Roten&#10;ze Basel"/>
+        <role role="interval" ref="2209" text="annuatim"/>
+        <role role="interest" ref="2096" text="2 ring"/>
+        <role role="cause" ref="2287" text="wysung"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="12.0">
+        <role role="whole" ref="2189" text="irem"/>
+        <role role="part" ref="2006" text="er"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="13.0">
+        <role role="whole" ref="2189" text="irem"/>
+        <role role="part" ref="2012" text="Clewi Pflegler sin bruder"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

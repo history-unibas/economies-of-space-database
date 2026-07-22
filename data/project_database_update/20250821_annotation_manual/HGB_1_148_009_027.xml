@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 148/9 S. [27]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Petersgraben 1</tei:title>
+            <tei:idno>HGB 1 148/9</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1503235</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Liber copiarum</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1570">1570</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611109.003505436 1267861.0670664161</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Niclaus</token>
+    <token token_id="5">Salchner</token>
+    <token token_id="6">,</token>
+    <token token_id="7">by</token>
+    <token token_id="8">Syten</token>
+    <token token_id="9">Schaffner</token>
+    <token token_id="10">zu</token>
+    <token token_id="11">den</token>
+    <token token_id="12">Augustinern</token>
+    <token token_id="13">,</token>
+    <token token_id="14">und</token>
+    <token token_id="15">Waltpurga</token>
+    <token token_id="16">Obermeigerin</token>
+    <token token_id="17">sin</token>
+    <token token_id="18">Ehfraw</token>
+    <token token_id="19">,</token>
+    <token token_id="20">sodann</token>
+    <token token_id="21">Hanns</token>
+    <token token_id="22">Jacob</token>
+    <token token_id="23">Obermeiger</token>
+    <token token_id="24">,</token>
+    <token token_id="25">Burgers</token>
+    <token token_id="26">ze</token>
+    <token token_id="27">Basell</token>
+    <token token_id="28">,</token>
+    <token token_id="29">verkaufen</token>
+    <token token_id="30">an</token>
+    <token token_id="31">Hanns</token>
+    <token token_id="32">Rudolff</token>
+    <token token_id="33">Obermeiger</token>
+    <token token_id="34">zur</token>
+    <token token_id="35">Yt</token>
+    <token token_id="36">Saltzschriber</token>
+    <token token_id="37">Burger</token>
+    <token token_id="38">zu</token>
+    <token token_id="39">Basell</token>
+    <token token_id="40">,</token>
+    <token token_id="41">iren</token>
+    <token token_id="42">Schwager</token>
+    <token token_id="43">und</token>
+    <token token_id="44">Bruder</token>
+    <token token_id="45">,</token>
+    <token token_id="46">und</token>
+    <token token_id="47">Salome</token>
+    <token token_id="48">Döbelin</token>
+    <token token_id="49">sin</token>
+    <token token_id="50">Eh</token>
+    <token token_id="51">¬</token>
+    <token token_id="52">frauwen</token>
+    <token token_id="53">,</token>
+    <token token_id="54">iren</token>
+    <token token_id="55">gepurenden</token>
+    <token token_id="56">und</token>
+    <token token_id="57">zustendigen</token>
+    <token token_id="58">Theil</token>
+    <token token_id="59">,</token>
+    <token token_id="60">dess</token>
+    <token token_id="61">Huses</token>
+    <token token_id="62">Hof</token>
+    <token token_id="63">und</token>
+    <token token_id="64">Hoffstatt</token>
+    <token token_id="65">,</token>
+    <token token_id="66">mit</token>
+    <token token_id="67">dem</token>
+    <token token_id="68">Sodprunnen</token>
+    <token token_id="69">und</token>
+    <token token_id="70">Gar</token>
+    <token token_id="71">¬</token>
+    <token token_id="72">ten</token>
+    <token token_id="73">,</token>
+    <token token_id="74">ouch</token>
+    <token token_id="75">der</token>
+    <token token_id="76">Sutzung</token>
+    <token token_id="77">des</token>
+    <token token_id="78">Grabens</token>
+    <token token_id="79">,</token>
+    <token token_id="80">alss</token>
+    <token token_id="81">das</token>
+    <token token_id="82">inn</token>
+    <token token_id="83">der</token>
+    <token token_id="84">Statt</token>
+    <token token_id="85">Basell</token>
+    <token token_id="86">,</token>
+    <token token_id="87">uff</token>
+    <token token_id="88">dem</token>
+    <token token_id="89">ine</token>
+    <token token_id="90">Stattgraben</token>
+    <token token_id="91">,</token>
+    <token token_id="92">by</token>
+    <token token_id="93">der</token>
+    <token token_id="94">Prediger</token>
+    <token token_id="95">Thor</token>
+    <token token_id="96">im</token>
+    <token token_id="97">Winckel</token>
+    <token token_id="98">neben</token>
+    <token token_id="99">dem</token>
+    <token token_id="100">Hus</token>
+    <token token_id="101">zum</token>
+    <token token_id="102">Rechenberg</token>
+    <token token_id="103">glegen</token>
+    <token token_id="104">,</token>
+    <token token_id="105">stosst</token>
+    <token token_id="106">hindern</token>
+    <token token_id="107">zugegen</token>
+    <token token_id="108">den</token>
+    <token token_id="109">Hof</token>
+    <token token_id="110">Osterrich</token>
+    <token token_id="111">und</token>
+    <token token_id="112">uff</token>
+    <token token_id="113">Hansen</token>
+    <token token_id="114">Sumel</token>
+    <token token_id="115">den</token>
+    <token token_id="116">Stattsoldner</token>
+    <token token_id="117">,</token>
+    <token token_id="118">und</token>
+    <token token_id="119">Ere</token>
+    <token token_id="120">¬</token>
+    <token token_id="121">mans</token>
+    <token token_id="122">Huss</token>
+    <token token_id="123">genant</token>
+    <token token_id="124">ist</token>
+    <token token_id="125">,</token>
+    <token token_id="126">zinst</token>
+    <token token_id="127">2</token>
+    <token token_id="128">sh</token>
+    <token token_id="129">.</token>
+    <token token_id="130">und</token>
+    <token token_id="131">Graben</token>
+    <token token_id="132">d</token>
+    <token token_id="133">.</token>
+    <token token_id="134">gmeinen</token>
+    <token token_id="135">Gut</token>
+    <token token_id="136">,</token>
+    <token token_id="137">um</token>
+    <token token_id="138">824</token>
+  </text>
+  <spans>
+    <span id="2366" start="4" end="27" text="Niclaus Salchner , by Syten Schaffner zu den Augustinern ,&#10;und Waltpurga Obermeigerin sin Ehfraw , sodann Hanns&#10;Jacob Obermeiger , Burgers ze Basell" element="list" class="per" subclass="">
+      <span id="2330" start="4" end="18" text="Niclaus Salchner , by Syten Schaffner zu den Augustinern ,&#10;und Waltpurga Obermeigerin sin Ehfraw" element="list" class="per" subclass="">
+        <span id="2257" start="4" end="12" text="Niclaus Salchner , by Syten Schaffner zu den Augustinern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2263" start="4" end="5" text="Niclaus Salchner" element="head" class="nam" subclass=""/>
+          <span id="2269" start="7" end="12" text="by Syten Schaffner zu den Augustinern" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+            <span id="2275" start="9" end="9" text="Schaffner" element="head" class="occ" subclass="org-job"/>
+            <span id="2281" start="11" end="12" text="den Augustinern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="2287" start="12" end="12" text="Augustinern" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2293" start="15" end="18" text="Waltpurga Obermeigerin sin Ehfraw" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2299" start="15" end="16" text="Waltpurga Obermeigerin" element="head" class="nam" subclass=""/>
+          <span id="2305" start="17" end="18" text="sin Ehfraw" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2317" start="17" end="17" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2317_head" start="17" end="17" element="head" class="pro" text="sin" subclass=""/>
+            </span>
+            <span id="2311" start="18" end="18" text="Ehfraw" element="head" class="fam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2336" start="21" end="27" text="Hanns&#10;Jacob Obermeiger , Burgers ze Basell" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2342" start="21" end="23" text="Hanns&#10;Jacob Obermeiger" element="head" class="nam" subclass=""/>
+        <span id="2348" start="25" end="27" text="Burgers ze Basell" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2354" start="25" end="25" text="Burgers" element="head" class="org-aff" subclass=""/>
+          <span id="2360" start="27" end="27" text="Basell" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2360_head" start="27" end="27" element="head" class="nam" text="Basell" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2743" start="29" end="29" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2496" start="31" end="52" text="Hanns&#10;Rudolff Obermeiger zur Yt Saltzschriber Burger zu Basell ,&#10;iren Schwager und Bruder , und Salome Döbelin sin Eh ¬&#10;frauwen" element="list" class="per" subclass="">
+      <span id="2415" start="31" end="44" text="Hanns&#10;Rudolff Obermeiger zur Yt Saltzschriber Burger zu Basell ,&#10;iren Schwager und Bruder" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2372" start="31" end="33" text="Hanns&#10;Rudolff Obermeiger" element="head" class="nam" subclass=""/>
+        <span id="2378" start="34" end="36" text="zur Yt Saltzschriber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2384" start="36" end="36" text="Saltzschriber" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="2390" start="37" end="39" text="Burger zu Basell" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2396" start="37" end="37" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="2402" start="39" end="39" text="Basell" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2402_head" start="39" end="39" element="head" class="nam" text="Basell" subclass=""/>
+          </span>
+        </span>
+        <span id="2434" start="41" end="42" text="iren Schwager" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2421" start="41" end="41" text="iren" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2421_head" start="41" end="41" element="head" class="pro" text="iren" subclass=""/>
+          </span>
+          <span id="2440" start="42" end="42" text="Schwager" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="2446" start="44" end="44" text="Bruder" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2446_head" start="44" end="44" element="head" class="fam" text="Bruder" subclass=""/>
+        </span>
+      </span>
+      <span id="2459" start="47" end="52" text="Salome Döbelin sin Eh ¬&#10;frauwen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2465" start="47" end="48" text="Salome Döbelin" element="head" class="nam" subclass=""/>
+        <span id="2471" start="49" end="52" text="sin Eh ¬&#10;frauwen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2483" start="49" end="49" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2483_head" start="49" end="49" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="2477" start="50" end="52" text="Eh ¬&#10;frauwen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2502" start="54" end="135" text="iren gepurenden und zustendigen Theil , dess&#10;Huses Hof und Hoffstatt , mit dem Sodprunnen und Gar ¬&#10;ten , ouch der Sutzung des Grabens , alss das inn der Statt Basell ,&#10;uff dem ine Stattgraben , by der Prediger Thor im Winckel&#10;neben dem Hus zum Rechenberg glegen , stosst hindern zugegen den&#10;Hof Osterrich und uff Hansen Sumel den Stattsoldner , und Ere ¬&#10;mans Huss genant ist , zinst 2 sh . und Graben d . gmeinen Gut" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2526" start="54" end="54" text="iren" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2520" start="54" end="54" text="iren" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2520_head" start="54" end="54" element="head" class="pro" text="iren" subclass=""/>
+        </span>
+      </span>
+      <span id="2514" start="61" end="64" text="Huses Hof und Hoffstatt" element="head" class="type" subclass=""/>
+      <span id="2539" start="66" end="78" text="mit dem Sodprunnen und Gar ¬&#10;ten , ouch der Sutzung des Grabens" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2563" start="67" end="78" text="dem Sodprunnen und Gar ¬&#10;ten , ouch der Sutzung des Grabens" element="list" class="fac" subclass="">
+          <span id="2545" start="67" end="68" text="dem Sodprunnen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2551" start="68" end="68" text="Sodprunnen" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2557" start="70" end="72" text="Gar ¬&#10;ten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2557_head" start="70" end="72" element="head" class="type" text="Gar ¬ ten" subclass=""/>
+          </span>
+          <span id="2569" start="77" end="78" text="des Grabens" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2575" start="78" end="78" text="Grabens" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2683" start="80" end="116" text="alss das inn der Statt Basell ,&#10;uff dem ine Stattgraben , by der Prediger Thor im Winckel&#10;neben dem Hus zum Rechenberg glegen , stosst hindern zugegen den&#10;Hof Osterrich und uff Hansen Sumel den Stattsoldner" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2587" start="83" end="85" text="der Statt Basell" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2593" start="85" end="85" text="Basell" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2599" start="88" end="90" text="dem ine Stattgraben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="defense">
+          <span id="2605" start="90" end="90" text="Stattgraben" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2611" start="93" end="95" text="der Prediger Thor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2617" start="94" end="95" text="Prediger Thor" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2629" start="96" end="97" text="im Winckel" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2623" start="97" end="97" text="Winckel" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2635" start="99" end="102" text="dem Hus zum Rechenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2641" start="100" end="102" text="Hus zum Rechenberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2647" start="108" end="110" text="den&#10;Hof Osterrich" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2653" start="109" end="110" text="Hof Osterrich" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2659" start="113" end="116" text="Hansen Sumel den Stattsoldner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2665" start="113" end="114" text="Hansen Sumel" element="head" class="nam" subclass=""/>
+          <span id="2671" start="115" end="116" text="den Stattsoldner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+            <span id="2677" start="116" end="116" text="Stattsoldner" element="head" class="occ" subclass="org-job"/>
+          </span>
+        </span>
+      </span>
+      <span id="2689" start="119" end="122" text="Ere ¬&#10;mans Huss" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2689_head" start="119" end="122" element="head" class="nam" text="Ere ¬ mans Huss" subclass=""/>
+      </span>
+      <span id="2701" start="126" end="135" text="zinst 2 sh . und Graben d . gmeinen Gut" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2737" start="126" end="126" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2695" start="127" end="129" text="2 sh ." element="value" class="money" subclass=""/>
+        <span id="2707" start="130" end="131" text="und Graben" element="other" class="other" subclass=""/>
+        <span id="2713" start="132" end="135" text="d . gmeinen Gut" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2719" start="134" end="135" text="gmeinen Gut" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2725" start="138" end="138" text="824" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2427" from="2421" to="2366" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2532" from="2520" to="2366" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2323" from="2317" to="2257" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2408" from="2402" to="2360" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2489" from="2483" to="2415" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2452" from="2446" to="2421" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="7" end="12" ref="2269" type="state">
+      <trigger start="9" end="9" text="Schaffner" ref="2275"/>
+      <event event_id="0.0">
+        <role role="employee" ref="2257" text="Niclaus Salchner , by Syten Schaffner zu den Augustinern"/>
+        <role role="employer" ref="2281" text="den Augustinern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="17" end="18" ref="2305" type="state">
+      <trigger start="18" end="18" text="Ehfraw" ref="2311"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="2293" text="Waltpurga Obermeigerin sin Ehfraw"/>
+        <role role="family-b" ref="2317" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="25" end="27" ref="2348" type="state">
+      <trigger start="25" end="25" text="Burgers" ref="2354"/>
+      <event event_id="2.0">
+        <role role="resident" ref="2336" text="Hanns&#10;Jacob Obermeiger , Burgers ze Basell"/>
+        <role role="geopolitical-entity" ref="2360" text="Basell"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="37" end="39" ref="2390" type="state">
+      <trigger start="37" end="37" text="Burger" ref="2396"/>
+      <event event_id="3.0">
+        <role role="resident" ref="2415" text="Hanns&#10;Rudolff Obermeiger zur Yt Saltzschriber Burger zu Basell ,&#10;iren Schwager und Bruder"/>
+        <role role="geopolitical-entity" ref="2402" text="Basell"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="family" polarity="pos" tense="pres" modality="ass" start="41" end="42" ref="2434" type="state">
+      <trigger start="42" end="42" text="Schwager" ref="2440"/>
+      <event event_id="4.0">
+        <role role="family-a" ref="2415" text="Hanns&#10;Rudolff Obermeiger zur Yt Saltzschriber Burger zu Basell ,&#10;iren Schwager und Bruder"/>
+        <role role="family-b" ref="2421" text="iren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="family" polarity="pos" tense="pres" modality="ass" start="49" end="52" ref="2471" type="state">
+      <trigger start="50" end="52" text="Eh ¬&#10;frauwen" ref="2477"/>
+      <event event_id="5.0">
+        <role role="family-a" ref="2459" text="Salome Döbelin sin Eh ¬&#10;frauwen"/>
+        <role role="family-b" ref="2483" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="54" end="54" ref="2526" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="2502" text="iren gepurenden und zustendigen Theil , dess&#10;Huses Hof und Hoffstatt , mit dem Sodprunnen und Gar ¬&#10;ten , ouch der Sutzung des Grabens , alss das inn der Statt Basell ,&#10;uff dem ine Stattgraben , by der Prediger Thor im Winckel&#10;neben dem Hus zum Rechenberg glegen , stosst hindern zugegen den&#10;Hof Osterrich und uff Hansen Sumel den Stattsoldner , und Ere ¬&#10;mans Huss genant ist , zinst 2 sh . und Graben d . gmeinen Gut"/>
+        <role role="owner" ref="2520" text="iren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="part_whole" polarity="pos" tense="pres" modality="ass" start="66" end="78" ref="2539" type="state">
+      <event event_id="7.0">
+        <role role="whole" ref="2502" text="iren gepurenden und zustendigen Theil , dess&#10;Huses Hof und Hoffstatt , mit dem Sodprunnen und Gar ¬&#10;ten , ouch der Sutzung des Grabens , alss das inn der Statt Basell ,&#10;uff dem ine Stattgraben , by der Prediger Thor im Winckel&#10;neben dem Hus zum Rechenberg glegen , stosst hindern zugegen den&#10;Hof Osterrich und uff Hansen Sumel den Stattsoldner , und Ere ¬&#10;mans Huss genant ist , zinst 2 sh . und Graben d . gmeinen Gut"/>
+        <role role="part" ref="2545" text="dem Sodprunnen"/>
+        <role role="part" ref="2557" text="Gar ¬&#10;ten"/>
+        <role role="part" ref="2569" text="des Grabens"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="80" end="116" ref="2683" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="2502" text="iren gepurenden und zustendigen Theil , dess&#10;Huses Hof und Hoffstatt , mit dem Sodprunnen und Gar ¬&#10;ten , ouch der Sutzung des Grabens , alss das inn der Statt Basell ,&#10;uff dem ine Stattgraben , by der Prediger Thor im Winckel&#10;neben dem Hus zum Rechenberg glegen , stosst hindern zugegen den&#10;Hof Osterrich und uff Hansen Sumel den Stattsoldner , und Ere ¬&#10;mans Huss genant ist , zinst 2 sh . und Graben d . gmeinen Gut"/>
+        <role role="location-b" ref="2587" text="der Statt Basell"/>
+        <role role="location-b" ref="2599" text="dem ine Stattgraben"/>
+        <role role="location-b" ref="2611" text="der Prediger Thor"/>
+        <role role="location-b" ref="2629" text="im Winckel"/>
+        <role role="location-b" ref="2635" text="dem Hus zum Rechenberg"/>
+        <role role="location-b" ref="2647" text="den&#10;Hof Osterrich"/>
+        <role role="location-b" ref="2659" text="Hansen Sumel den Stattsoldner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="126" end="135" ref="2701" type="state">
+      <trigger start="126" end="126" text="zinst" ref="2737"/>
+      <event event_id="9.0">
+        <role role="property" ref="2502" text="iren gepurenden und zustendigen Theil , dess&#10;Huses Hof und Hoffstatt , mit dem Sodprunnen und Gar ¬&#10;ten , ouch der Sutzung des Grabens , alss das inn der Statt Basell ,&#10;uff dem ine Stattgraben , by der Prediger Thor im Winckel&#10;neben dem Hus zum Rechenberg glegen , stosst hindern zugegen den&#10;Hof Osterrich und uff Hansen Sumel den Stattsoldner , und Ere ¬&#10;mans Huss genant ist , zinst 2 sh . und Graben d . gmeinen Gut"/>
+        <role role="interest" ref="2695" text="2 sh ."/>
+        <role role="cause" ref="2707" text="und Graben"/>
+        <role role="beneficiary" ref="2713" text="d . gmeinen Gut"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="29" end="29" ref="" type="event">
+      <trigger start="29" end="29" text="verkaufen" ref="2743"/>
+      <event event_id="10.0">
+        <role role="seller" ref="2257" text="Niclaus Salchner , by Syten Schaffner zu den Augustinern"/>
+        <role role="seller" ref="2293" text="Waltpurga Obermeigerin sin Ehfraw"/>
+        <role role="seller" ref="2336" text="Hanns&#10;Jacob Obermeiger , Burgers ze Basell"/>
+        <role role="buyer" ref="2415" text="Hanns&#10;Rudolff Obermeiger zur Yt Saltzschriber Burger zu Basell ,&#10;iren Schwager und Bruder"/>
+        <role role="buyer" ref="2459" text="Salome Döbelin sin Eh ¬&#10;frauwen"/>
+        <role role="property" ref="2502" text="iren gepurenden und zustendigen Theil , dess&#10;Huses Hof und Hoffstatt , mit dem Sodprunnen und Gar ¬&#10;ten , ouch der Sutzung des Grabens , alss das inn der Statt Basell ,&#10;uff dem ine Stattgraben , by der Prediger Thor im Winckel&#10;neben dem Hus zum Rechenberg glegen , stosst hindern zugegen den&#10;Hof Osterrich und uff Hansen Sumel den Stattsoldner , und Ere ¬&#10;mans Huss genant ist , zinst 2 sh . und Graben d . gmeinen Gut"/>
+        <role role="price" ref="2725" text="824"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 14/16 S. [5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Augustinergasse Th. v. 3 neben 1, Hinterhaus, linker Hand</tei:title>
+            <tei:idno>HGB 1 14/16</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1460895</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1486">1486</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611436.5735394703 1267468.381770079</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Müll</token>
+    <token token_id="2">der</token>
+    <token token_id="3">stubenschaber</token>
+    <token token_id="4">hindersess</token>
+    <token token_id="5">zu</token>
+    <token token_id="6">Basel</token>
+    <token token_id="7">,</token>
+    <token token_id="8">verkauft</token>
+    <token token_id="9">an</token>
+    <token token_id="10">die</token>
+    <token token_id="11">Augustiner</token>
+    <token token_id="12">,</token>
+    <token token_id="13">1</token>
+    <token token_id="14">℔</token>
+    <token token_id="15">gelts</token>
+    <token token_id="16">,</token>
+    <token token_id="17">ab</token>
+    <token token_id="18">sinem</token>
+    <token token_id="19">Hus</token>
+    <token token_id="20">&amp;</token>
+    <token token_id="21">Hofstatt</token>
+    <token token_id="22">mit</token>
+    <token token_id="23">dem</token>
+    <token token_id="24">Keller</token>
+    <token token_id="25">u</token>
+    <token token_id="26">.</token>
+    <token token_id="27">Höflin</token>
+    <token token_id="28">darhinder</token>
+    <token token_id="29">,</token>
+    <token token_id="30">so</token>
+    <token token_id="31">syt</token>
+    <token token_id="32">das</token>
+    <token token_id="33">Hus</token>
+    <token token_id="34">begrifft</token>
+    <token token_id="35">,</token>
+    <token token_id="36">gegen</token>
+    <token token_id="37">der</token>
+    <token token_id="38">Augustinercloster</token>
+    <token token_id="39">über</token>
+    <token token_id="40">,</token>
+    <token token_id="41">neben</token>
+    <token token_id="42">Wun</token>
+    <token token_id="43">¬</token>
+    <token token_id="44">waltz</token>
+    <token token_id="45">sel</token>
+    <token token_id="46">hus</token>
+    <token token_id="47">,</token>
+    <token token_id="48">hinden</token>
+    <token token_id="49">gegen</token>
+    <token token_id="50">dem</token>
+    <token token_id="51">Ryn</token>
+    <token token_id="52">,</token>
+    <token token_id="53">als</token>
+    <token token_id="54">man</token>
+    <token token_id="55">hin</token>
+    <token token_id="56">in</token>
+    <token token_id="57">gat</token>
+    <token token_id="58">,</token>
+    <token token_id="59">zer</token>
+    <token token_id="60">lincken</token>
+    <token token_id="61">hand</token>
+    <token token_id="62">gelegen</token>
+    <token token_id="63">ist</token>
+    <token token_id="64">,</token>
+    <token token_id="65">mit</token>
+    <token token_id="66">samt</token>
+    <token token_id="67">dem</token>
+    <token token_id="68">gemeinen</token>
+    <token token_id="69">jngang</token>
+    <token token_id="70">zem</token>
+    <token token_id="71">Hus</token>
+    <token token_id="72">&amp;</token>
+    <token token_id="73">zem</token>
+    <token token_id="74">Keller</token>
+    <token token_id="75">,</token>
+    <token token_id="76">ist</token>
+    <token token_id="77">frei</token>
+    <token token_id="78">,</token>
+    <token token_id="79">um</token>
+    <token token_id="80">200</token>
+    <token token_id="81">℔</token>
+    <token token_id="82">widerk</token>
+    <token token_id="83">.</token>
+  </text>
+  <spans>
+    <span id="1242" start="0" end="6" text="Hanns Müll der stubenschaber hindersess zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1248" start="0" end="1" text="Hanns Müll" element="head" class="nam" subclass=""/>
+      <span id="1254" start="2" end="3" text="der stubenschaber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1260" start="3" end="3" text="stubenschaber" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1266" start="4" end="6" text="hindersess zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1272" start="4" end="4" text="hindersess" element="head" class="org-aff" subclass=""/>
+        <span id="1278" start="6" end="6" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1278_head" start="6" end="6" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1508" start="8" end="8" text="verkauft" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1284" start="10" end="11" text="die Augustiner" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1290" start="11" end="11" text="Augustiner" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1296" start="13" end="14" text="1 ℔" element="value" class="money" subclass=""/>
+    <span id="1302" start="18" end="77" text="sinem Hus&#10;&amp; Hofstatt mit dem Keller u . Höflin darhinder , so syt das&#10;Hus begrifft , gegen der Augustinercloster über , neben Wun ¬&#10;waltz sel hus , hinden gegen dem Ryn , als man hin in gat ,&#10;zer lincken hand gelegen ist , mit samt dem gemeinen jngang&#10;zem Hus &amp; zem Keller , ist frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1302_desc_owner" start="18" end="18" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1314" start="18" end="18" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1314_head" start="18" end="18" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1308" start="19" end="21" text="Hus&#10;&amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1327" start="22" end="28" text="mit dem Keller u . Höflin darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1333" start="23" end="24" text="dem Keller" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1339" start="24" end="24" text="Keller" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1345" start="27" end="27" text="Höflin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1345_head" start="27" end="27" element="head" class="type" text="Höflin" subclass=""/>
+        </span>
+      </span>
+      <span id="1351" start="30" end="34" text="so syt das&#10;Hus begrifft" element="attr" class="unk" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1357" start="32" end="33" text="das&#10;Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1363" start="33" end="33" text="Hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1369" start="36" end="63" text="gegen der Augustinercloster über , neben Wun ¬&#10;waltz sel hus , hinden gegen dem Ryn , als man hin in gat ,&#10;zer lincken hand gelegen ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1375" start="37" end="38" text="der Augustinercloster" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1381" start="38" end="38" text="Augustinercloster" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1394" start="42" end="46" text="Wun ¬&#10;waltz sel hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1418" start="42" end="45" text="Wun ¬&#10;waltz sel" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1400" start="42" end="45" text="Wun ¬&#10;waltz sel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1406" start="42" end="44" text="Wun ¬&#10;waltz" element="head" class="nam" subclass=""/>
+              <span id="1412" start="45" end="45" text="sel" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+            </span>
+          </span>
+          <span id="1424" start="46" end="46" text="hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1430" start="50" end="51" text="dem Ryn" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1436" start="51" end="51" text="Ryn" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1442" start="65" end="74" text="mit samt dem gemeinen jngang&#10;zem Hus &amp; zem Keller" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1448" start="67" end="74" text="dem gemeinen jngang&#10;zem Hus &amp; zem Keller" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1454" start="69" end="69" text="jngang" element="head" class="type" subclass=""/>
+          <span id="1460" start="70" end="74" text="zem Hus &amp; zem Keller" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1466" start="70" end="74" text="zem Hus &amp; zem Keller" element="list" class="fac" subclass="">
+              <span id="1472" start="70" end="71" text="zem Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1478" start="71" end="71" text="Hus" element="head" class="type" subclass=""/>
+              </span>
+              <span id="1484" start="73" end="74" text="zem Keller" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1490" start="74" end="74" text="Keller" element="head" class="type" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1496" start="76" end="77" text="ist frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1502" start="80" end="81" text="200 ℔" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1320" from="1314" to="1242" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1387" from="1284" to="1375" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="4" end="6" ref="1266" type="state">
+      <trigger start="4" end="4" text="hindersess" ref="1272"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1242" text="Hanns Müll der stubenschaber hindersess zu Basel"/>
+        <role role="geopolitical-entity" ref="1278" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="18" end="18" ref="1302_desc_owner" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1302" text="sinem Hus&#10;&amp; Hofstatt mit dem Keller u . Höflin darhinder , so syt das&#10;Hus begrifft , gegen der Augustinercloster über , neben Wun ¬&#10;waltz sel hus , hinden gegen dem Ryn , als man hin in gat ,&#10;zer lincken hand gelegen ist , mit samt dem gemeinen jngang&#10;zem Hus &amp; zem Keller , ist frei"/>
+        <role role="owner" ref="1314" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="part_whole" polarity="pos" tense="pres" modality="ass" start="22" end="28" ref="1327" type="state">
+      <event event_id="2.0">
+        <role role="whole" ref="1302" text="sinem Hus&#10;&amp; Hofstatt mit dem Keller u . Höflin darhinder , so syt das&#10;Hus begrifft , gegen der Augustinercloster über , neben Wun ¬&#10;waltz sel hus , hinden gegen dem Ryn , als man hin in gat ,&#10;zer lincken hand gelegen ist , mit samt dem gemeinen jngang&#10;zem Hus &amp; zem Keller , ist frei"/>
+        <role role="part" ref="1333" text="dem Keller"/>
+        <role role="part" ref="1345" text="Höflin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="36" end="63" ref="1369" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1302" text="sinem Hus&#10;&amp; Hofstatt mit dem Keller u . Höflin darhinder , so syt das&#10;Hus begrifft , gegen der Augustinercloster über , neben Wun ¬&#10;waltz sel hus , hinden gegen dem Ryn , als man hin in gat ,&#10;zer lincken hand gelegen ist , mit samt dem gemeinen jngang&#10;zem Hus &amp; zem Keller , ist frei"/>
+        <role role="location-b" ref="1375" text="der Augustinercloster"/>
+        <role role="location-b" ref="1394" text="Wun ¬&#10;waltz sel hus"/>
+        <role role="location-b" ref="1430" text="dem Ryn"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="42" end="45" ref="1418" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1394" text="Wun ¬&#10;waltz sel hus"/>
+        <role role="owner" ref="1400" text="Wun ¬&#10;waltz sel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="part_whole" polarity="pos" tense="pres" modality="ass" start="65" end="74" ref="1442" type="state">
+      <event event_id="6.0">
+        <role role="whole" ref="1302" text="sinem Hus&#10;&amp; Hofstatt mit dem Keller u . Höflin darhinder , so syt das&#10;Hus begrifft , gegen der Augustinercloster über , neben Wun ¬&#10;waltz sel hus , hinden gegen dem Ryn , als man hin in gat ,&#10;zer lincken hand gelegen ist , mit samt dem gemeinen jngang&#10;zem Hus &amp; zem Keller , ist frei"/>
+        <role role="part" ref="1448" text="dem gemeinen jngang&#10;zem Hus &amp; zem Keller"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="70" end="74" ref="1460" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1448" text="dem gemeinen jngang&#10;zem Hus &amp; zem Keller"/>
+        <role role="location-b" ref="1472" text="zem Hus"/>
+        <role role="location-b" ref="1484" text="zem Keller"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="81" ref="" type="event">
+      <trigger start="8" end="8" text="verkauft" ref="1508"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1242" text="Hanns Müll der stubenschaber hindersess zu Basel"/>
+        <role role="buyer" ref="1284" text="die Augustiner"/>
+        <role role="interest" ref="1296" text="1 ℔"/>
+        <role role="collateral" ref="1302" text="sinem Hus&#10;&amp; Hofstatt mit dem Keller u . Höflin darhinder , so syt das&#10;Hus begrifft , gegen der Augustinercloster über , neben Wun ¬&#10;waltz sel hus , hinden gegen dem Ryn , als man hin in gat ,&#10;zer lincken hand gelegen ist , mit samt dem gemeinen jngang&#10;zem Hus &amp; zem Keller , ist frei"/>
+        <role role="price" ref="1502" text="200 ℔"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/88 S. [28]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 22a und Rümelinsplatz 6</tei:title>
+            <tei:idno>HGB 1 63/88</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472953</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1477">1477</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611211.033025975 1267353.2946694384</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Die</token>
+    <token token_id="1">Zinst</token>
+    <token token_id="2">zu</token>
+    <token token_id="3">den</token>
+    <token token_id="4">Siden</token>
+    <token token_id="5">verkauft</token>
+    <token token_id="6">an</token>
+    <token token_id="7">Hans</token>
+    <token token_id="8">Böflin</token>
+    <token token_id="9">dem</token>
+    <token token_id="10">Brotbecken</token>
+    <token token_id="11">und</token>
+    <token token_id="12">seine</token>
+    <token token_id="13">Frau</token>
+    <token token_id="14">Margreten</token>
+    <token token_id="15">den</token>
+    <token token_id="16">Stock</token>
+    <token token_id="17">an</token>
+    <token token_id="18">der</token>
+    <token token_id="19">Sanden</token>
+    <token token_id="20">Zunfthus</token>
+    <token token_id="21">gelegen</token>
+    <token token_id="22">,</token>
+    <token token_id="23">seicht</token>
+    <token token_id="24">an</token>
+    <token token_id="25">das</token>
+    <token token_id="26">Gesslin</token>
+    <token token_id="27">bey</token>
+    <token token_id="28">der</token>
+    <token token_id="29">Badstuben</token>
+    <token token_id="30">zem</token>
+    <token token_id="31">Mülinstein</token>
+    <token token_id="32">,</token>
+    <token token_id="33">zwüschen</token>
+    <token token_id="34">dem</token>
+    <token token_id="35">hus</token>
+    <token token_id="36">zem</token>
+    <token token_id="37">Mören</token>
+    <token token_id="38">ze</token>
+    <token token_id="39">einer</token>
+    <token token_id="40">und</token>
+    <token token_id="41">han</token>
+    <token token_id="42">Lupoller</token>
+    <token token_id="43">der</token>
+    <token token_id="44">Metzgers</token>
+    <token token_id="45">hus</token>
+    <token token_id="46">zer</token>
+    <token token_id="47">andern</token>
+    <token token_id="48">Siten</token>
+    <token token_id="49">,</token>
+    <token token_id="50">ist</token>
+    <token token_id="51">frei</token>
+    <token token_id="52">,</token>
+    <token token_id="53">um</token>
+    <token token_id="54">45</token>
+    <token token_id="55">fl</token>
+    <token token_id="56">.</token>
+  </text>
+  <spans>
+    <span id="956" start="0" end="4" text="Die Zinst zu den Siden" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+      <span id="962" start="1" end="4" text="Zinst zu den Siden" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1149" start="5" end="5" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1029" start="7" end="14" text="Hans Böflin dem&#10;Brotbecken und seine Frau Margreten" element="list" class="per" subclass="">
+      <span id="968" start="7" end="10" text="Hans Böflin dem&#10;Brotbecken" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="974" start="7" end="8" text="Hans Böflin" element="head" class="nam" subclass=""/>
+        <span id="980" start="9" end="10" text="dem&#10;Brotbecken" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="986" start="10" end="10" text="Brotbecken" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="992" start="12" end="14" text="seine Frau Margreten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1004" start="12" end="13" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1016" start="12" end="12" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1016_head" start="12" end="12" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1010" start="13" end="13" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="998" start="14" end="14" text="Margreten" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1035" start="15" end="51" text="den Stock&#10;an der Sanden Zunfthus gelegen , seicht an das Gesslin&#10;bey der Badstuben zem Mülinstein , zwüschen dem hus&#10;zem Mören ze einer und han Lupoller der Metzgers&#10;hus zer andern Siten , ist frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1041" start="16" end="16" text="Stock" element="head" class="type" subclass=""/>
+      <span id="1047" start="17" end="48" text="an der Sanden Zunfthus gelegen , seicht an das Gesslin&#10;bey der Badstuben zem Mülinstein , zwüschen dem hus&#10;zem Mören ze einer und han Lupoller der Metzgers&#10;hus zer andern Siten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1053" start="18" end="20" text="der Sanden Zunfthus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1059" start="19" end="20" text="Sanden Zunfthus" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1065" start="25" end="26" text="das Gesslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1065_head" start="25" end="26" element="head" class="type" text="das Gesslin" subclass=""/>
+        </span>
+        <span id="1071" start="28" end="31" text="der Badstuben zem Mülinstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1077" start="29" end="31" text="Badstuben zem Mülinstein" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1083" start="34" end="37" text="dem hus&#10;zem Mören" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1089" start="35" end="37" text="hus&#10;zem Mören" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1095" start="41" end="45" text="han Lupoller der Metzgers&#10;hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1107" start="41" end="44" text="han Lupoller der Metzgers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1113" start="41" end="44" text="han Lupoller der Metzgers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1119" start="41" end="42" text="han Lupoller" element="head" class="nam" subclass=""/>
+              <span id="1125" start="43" end="44" text="der Metzgers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1131" start="44" end="44" text="Metzgers" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1101" start="45" end="45" text="hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1137" start="50" end="51" text="ist frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1143" start="54" end="56" text="45 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1022" from="1016" to="968" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="12" end="13" ref="1004" type="state">
+      <trigger start="13" end="13" text="Frau" ref="1010"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="992" text="seine Frau Margreten"/>
+        <role role="family-b" ref="1016" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="48" ref="1047" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1035" text="den Stock&#10;an der Sanden Zunfthus gelegen , seicht an das Gesslin&#10;bey der Badstuben zem Mülinstein , zwüschen dem hus&#10;zem Mören ze einer und han Lupoller der Metzgers&#10;hus zer andern Siten , ist frei"/>
+        <role role="location-b" ref="1053" text="der Sanden Zunfthus"/>
+        <role role="location-b" ref="1065" text="das Gesslin"/>
+        <role role="location-b" ref="1071" text="der Badstuben zem Mülinstein"/>
+        <role role="location-b" ref="1083" text="dem hus&#10;zem Mören"/>
+        <role role="location-b" ref="1095" text="han Lupoller der Metzgers&#10;hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="41" end="44" ref="1107" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1095" text="han Lupoller der Metzgers&#10;hus"/>
+        <role role="owner" ref="1113" text="han Lupoller der Metzgers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="56" ref="" type="event">
+      <trigger start="5" end="5" text="verkauft" ref="1149"/>
+      <event event_id="3.0">
+        <role role="seller" ref="956" text="Die Zinst zu den Siden"/>
+        <role role="buyer" ref="968" text="Hans Böflin dem&#10;Brotbecken"/>
+        <role role="buyer" ref="992" text="seine Frau Margreten"/>
+        <role role="property" ref="1035" text="den Stock&#10;an der Sanden Zunfthus gelegen , seicht an das Gesslin&#10;bey der Badstuben zem Mülinstein , zwüschen dem hus&#10;zem Mören ze einer und han Lupoller der Metzgers&#10;hus zer andern Siten , ist frei"/>
+        <role role="price" ref="1143" text="45 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

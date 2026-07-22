@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/29 S. [22]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 17</tei:title>
+            <tei:idno>HGB 1 58/29</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467812</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Peter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1526">1526</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611311.8775958456 1267411.2691831389</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Mer</token>
+    <token token_id="1">get</token>
+    <token token_id="2">Heinrich</token>
+    <token token_id="3">David</token>
+    <token token_id="4">vom</token>
+    <token token_id="5">nideren</token>
+    <token token_id="6">Hus</token>
+    <token token_id="7">zu</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Sunnen</token>
+    <token token_id="10">am</token>
+    <token token_id="11">Hus</token>
+    <token token_id="12">zum</token>
+    <token token_id="13">Hermei</token>
+    <token token_id="14">¬</token>
+    <token token_id="15">auch</token>
+    <token token_id="16">17ß</token>
+    <token token_id="17">6ȡ</token>
+    <token token_id="18">und</token>
+    <token token_id="19">½</token>
+    <token token_id="20">pfund</token>
+    <token token_id="21">pfeffer</token>
+    <token token_id="22">oder</token>
+    <token token_id="23">3ß</token>
+    <token token_id="24">dafür</token>
+    <token token_id="25">dut</token>
+    <token token_id="26">1</token>
+    <token token_id="27">℔</token>
+    <token token_id="28">6ȡ</token>
+    <token token_id="29">.</token>
+    <token token_id="30">Erschatz</token>
+    <token token_id="31">17</token>
+    <token token_id="32">½</token>
+    <token token_id="33">ß</token>
+    <token token_id="34">.</token>
+    <token token_id="35">Rand</token>
+    <token token_id="36">:</token>
+    <token token_id="37">Reempt</token>
+    <token token_id="38">anno</token>
+    <token token_id="39">1526</token>
+    <token token_id="40">.</token>
+    <token token_id="41">Die</token>
+    <token token_id="42">derrn</token>
+    <token token_id="43">vom</token>
+    <token token_id="44">Capitel</token>
+    <token token_id="45">gend</token>
+    <token token_id="46">hieffer</token>
+    <token token_id="47">uf</token>
+    <token token_id="48">sant</token>
+    <token token_id="49">Lucien</token>
+    <token token_id="50">tag</token>
+    <token token_id="51">38ß</token>
+    <token token_id="52">,</token>
+    <token token_id="53">dan</token>
+    <token token_id="54">mit</token>
+    <token token_id="55">dem</token>
+    <token token_id="56">übrigen</token>
+    <token token_id="57">gelt</token>
+    <token token_id="58">der</token>
+    <token token_id="59">ablösung</token>
+    <token token_id="60">hand</token>
+    <token token_id="61">sy</token>
+    <token token_id="62">auch</token>
+    <token token_id="63">abgelest</token>
+    <token token_id="64">wie</token>
+    <token token_id="65">in</token>
+    <token token_id="66">libro</token>
+    <token token_id="67">.</token>
+    <token token_id="68">Reegt</token>
+    <token token_id="69">.</token>
+    <token token_id="70">fol</token>
+    <token token_id="71">.</token>
+    <token token_id="72">9</token>
+    <token token_id="73">und</token>
+    <token token_id="74">im</token>
+    <token token_id="75">Jor</token>
+    <token token_id="76">Regist</token>
+    <token token_id="77">anno</token>
+    <token token_id="78">1528</token>
+    <token token_id="79">.</token>
+  </text>
+  <spans>
+    <span id="1325" start="0" end="34" text="Mer get Heinrich David vom nideren&#10;Hus zu der Sunnen am Hus zum Hermei ¬&#10;auch 17ß 6ȡ und ½ pfund pfeffer oder 3ß&#10;dafür dut 1 ℔ 6ȡ . Erschatz 17 ½ ß ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1337" start="1" end="1" text="get" element="trigger" class="type" subclass=""/>
+      <span id="1192" start="2" end="9" text="Heinrich David vom nideren&#10;Hus zu der Sunnen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1198" start="2" end="3" text="Heinrich David" element="head" class="nam" subclass=""/>
+        <span id="1204" start="4" end="9" text="vom nideren&#10;Hus zu der Sunnen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1210" start="4" end="9" text="vom nideren&#10;Hus zu der Sunnen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1216" start="5" end="9" text="nideren&#10;Hus zu der Sunnen" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1222" start="10" end="13" text="am Hus zum Hermei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1228" start="11" end="13" text="Hus zum Hermei" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1234" start="16" end="17" text="17ß 6ȡ" element="value" class="money" subclass=""/>
+      <span id="1240" start="19" end="21" text="½ pfund pfeffer" element="value" class="money" subclass=""/>
+      <span id="1246" start="23" end="23" text="3ß" element="value" class="money" subclass=""/>
+      <span id="1319" start="24" end="29" text="dafür dut 1 ℔ 6ȡ ." element="other" class="other" subclass="">
+        <span id="1252" start="26" end="29" text="1 ℔ 6ȡ ." element="value" class="money" subclass=""/>
+      </span>
+      <span id="1313" start="30" end="30" text="Erschatz" element="other" class="other" subclass=""/>
+      <span id="1258" start="31" end="34" text="17 ½ ß ." element="value" class="money" subclass=""/>
+    </span>
+    <span id="1264" start="38" end="39" text="anno 1526" element="value" class="date" subclass=""/>
+    <span id="1343" start="41" end="67" text="Die derrn vom Capitel gend hieffer uf sant&#10;Lucien tag 38ß , dan mit dem übrigen gelt der&#10;ablösung hand sy auch abgelest wie in libro ." element="eventspan" class="payment" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1270" start="41" end="44" text="Die derrn vom Capitel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1276" start="42" end="44" text="derrn vom Capitel" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1331" start="45" end="45" text="gend" element="trigger" class="type" subclass=""/>
+      <span id="1282" start="47" end="50" text="uf sant&#10;Lucien tag" element="value" class="date" subclass=""/>
+      <span id="1288" start="51" end="51" text="38ß" element="value" class="money" subclass=""/>
+      <span id="1349" start="53" end="67" text="dan mit dem übrigen gelt der&#10;ablösung hand sy auch abgelest wie in libro ." element="other" class="other" subclass="">
+        <span id="1294" start="61" end="61" text="sy" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1294_head" start="61" end="61" element="head" class="pro" text="sy" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1307" start="77" end="78" text="anno 1528" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1300" from="1294" to="1270" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="0" end="34" ref="1325" type="state">
+      <trigger start="1" end="1" text="get" ref="1337"/>
+      <event event_id="0.0">
+        <role role="payer" ref="1192" text="Heinrich David vom nideren&#10;Hus zu der Sunnen"/>
+        <role role="property" ref="1222" text="am Hus zum Hermei"/>
+        <role role="interest" ref="1234" text="17ß 6ȡ"/>
+        <role role="interest" ref="1240" text="½ pfund pfeffer"/>
+        <role role="interest" ref="1246" text="3ß"/>
+        <role role="detail_interest-conv" ref="1319" text="dafür dut 1 ℔ 6ȡ ."/>
+      </event>
+      <event event_id="0.1">
+        <role role="payer" ref="1192" text="Heinrich David vom nideren&#10;Hus zu der Sunnen"/>
+        <role role="property" ref="1222" text="am Hus zum Hermei"/>
+        <role role="detail_interest-conv" ref="1319" text="dafür dut 1 ℔ 6ȡ ."/>
+        <role role="cause" ref="1313" text="Erschatz"/>
+        <role role="interest" ref="1258" text="17 ½ ß ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="payment" polarity="pos" tense="pres" modality="ass" start="41" end="67" ref="1343" type="event">
+      <trigger start="45" end="45" text="gend" ref="1331"/>
+      <event event_id="1.0">
+        <role role="payer" ref="1270" text="Die derrn vom Capitel"/>
+        <role role="due-date" ref="1282" text="uf sant&#10;Lucien tag"/>
+        <role role="sum" ref="1288" text="38ß"/>
+        <role role="detail_other" ref="1349" text="dan mit dem übrigen gelt der&#10;ablösung hand sy auch abgelest wie in libro ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="4" end="9" ref="1204" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1192" text="Heinrich David vom nideren&#10;Hus zu der Sunnen"/>
+        <role role="location-b" ref="1210" text="vom nideren&#10;Hus zu der Sunnen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

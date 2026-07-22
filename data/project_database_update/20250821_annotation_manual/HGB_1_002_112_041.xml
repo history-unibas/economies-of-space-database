@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 2/112 S. [41]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Aeschenvorstadt 44</tei:title>
+            <tei:idno>HGB 1 2/112</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1432913</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1513">1513</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611657.5335144904 1266852.0376541815</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Mr</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Ludwig</token>
+    <token token_id="3">Runs</token>
+    <token token_id="4">den</token>
+    <token token_id="5">man</token>
+    <token token_id="6">nempt</token>
+    <token token_id="7">Kop</token>
+    <token token_id="8">.</token>
+    <token token_id="9">übergibt</token>
+    <token token_id="10">Barbara</token>
+    <token token_id="11">Ratgebin</token>
+    <token token_id="12">wyl</token>
+    <token token_id="13">.</token>
+    <token token_id="14">Burckhart</token>
+    <token token_id="15">Vinns</token>
+    <token token_id="16">zins</token>
+    <token token_id="17">sons</token>
+    <token token_id="18">sel</token>
+    <token token_id="19">.</token>
+    <token token_id="20">Wwe</token>
+    <token token_id="21">,</token>
+    <token token_id="22">zu</token>
+    <token token_id="23">bezalung</token>
+    <token token_id="24">,</token>
+    <token token_id="25">jrer</token>
+    <token token_id="26">juprachten</token>
+    <token token_id="27">eettur</token>
+    <token token_id="28">etc</token>
+    <token token_id="29">.</token>
+    <token token_id="30">naml</token>
+    <token token_id="31">die</token>
+    <token token_id="32">Herperg</token>
+    <token token_id="33">genant</token>
+    <token token_id="34">zu</token>
+    <token token_id="35">dem</token>
+    <token token_id="36">swartzen</token>
+    <token token_id="37">Steinen</token>
+    <token token_id="38">,</token>
+    <token token_id="39">Hus</token>
+    <token token_id="40">Hof</token>
+    <token token_id="41">Schuren</token>
+    <token token_id="42">&amp;</token>
+    <token token_id="43">Stallung</token>
+    <token token_id="44">,</token>
+    <token token_id="45">hinder</token>
+    <token token_id="46">u</token>
+    <token token_id="47">.</token>
+    <token token_id="48">vor</token>
+    <token token_id="49">mit</token>
+    <token token_id="50">dem</token>
+    <token token_id="51">garten</token>
+    <token token_id="52">daran</token>
+    <token token_id="53">,</token>
+    <token token_id="54">in</token>
+    <token token_id="55">Eschamervorstatt</token>
+    <token token_id="56">,</token>
+    <token token_id="57">zwüschen</token>
+    <token token_id="58">Barthlome</token>
+    <token token_id="59">Byschoff</token>
+    <token token_id="60">des</token>
+    <token token_id="61">Smids</token>
+    <token token_id="62">hus</token>
+    <token token_id="63">alten</token>
+    <token token_id="64">Pfut</token>
+    <token token_id="65">genant</token>
+    <token token_id="66">zu</token>
+    <token token_id="67">einer</token>
+    <token token_id="68">,</token>
+    <token token_id="69">u</token>
+    <token token_id="70">.</token>
+    <token token_id="71">Conrat</token>
+    <token token_id="72">Ersam</token>
+    <token token_id="73">dem</token>
+    <token token_id="74">Wagner</token>
+    <token token_id="75">zur</token>
+    <token token_id="76">andern</token>
+    <token token_id="77">siten</token>
+    <token token_id="78">gelegen</token>
+    <token token_id="79">,</token>
+    <token token_id="80">zinst</token>
+    <token token_id="81">von</token>
+    <token token_id="82">eig</token>
+    <token token_id="83">.</token>
+    <token token_id="84">s</token>
+    <token token_id="85">.</token>
+    <token token_id="86">Lienharts</token>
+    <token token_id="87">stift</token>
+    <token token_id="88">1</token>
+    <token token_id="89">℔</token>
+    <token token_id="90">.</token>
+    <token token_id="91">jtem</token>
+    <token token_id="92">zu</token>
+    <token token_id="93">s</token>
+    <token token_id="94">.</token>
+    <token token_id="95">Peter</token>
+    <token token_id="96">10sh</token>
+    <token token_id="97">.</token>
+    <token token_id="98">u</token>
+    <token token_id="99">.</token>
+    <token token_id="100">4</token>
+    <token token_id="101">huner</token>
+    <token token_id="102">,</token>
+    <token token_id="103">jtem</token>
+    <token token_id="104">der</token>
+    <token token_id="105">Camerei</token>
+    <token token_id="106">s</token>
+    <token token_id="107">.</token>
+    <token token_id="108">Johans</token>
+    <token token_id="109">Bruderschaft</token>
+    <token token_id="110">uf</token>
+    <token token_id="111">Burg</token>
+    <token token_id="112">1sh</token>
+    <token token_id="113">.</token>
+    <token token_id="114">u</token>
+    <token token_id="115">.</token>
+    <token token_id="116">4ring</token>
+    <token token_id="117">brot</token>
+    <token token_id="118">ze</token>
+    <token token_id="119">wysung</token>
+    <token token_id="120">,</token>
+    <token token_id="121">u</token>
+    <token token_id="122">.</token>
+    <token token_id="123">zuletst</token>
+    <token token_id="124">gand</token>
+    <token token_id="125">darab</token>
+    <token token_id="126">der</token>
+    <token token_id="127">erstenpfund</token>
+    <token token_id="128">u</token>
+    <token token_id="129">.</token>
+    <token token_id="130">st</token>
+    <token token_id="131">.</token>
+    <token token_id="132">altarzis</token>
+    <token token_id="133">Martin</token>
+    <token token_id="134">2fl</token>
+    <token token_id="135">.</token>
+    <token token_id="136">abl</token>
+    <token token_id="137">.</token>
+    <token token_id="138">u</token>
+    <token token_id="139">.</token>
+    <token token_id="140">andere</token>
+    <token token_id="141">güter</token>
+    <token token_id="142">alte</token>
+    <token token_id="143">dise</token>
+    <token token_id="144">güter</token>
+    <token token_id="145">sind</token>
+    <token token_id="146">in</token>
+    <token token_id="147">der</token>
+    <token token_id="148">teilung</token>
+    <token token_id="149">gewirdiget</token>
+    <token token_id="150">um</token>
+    <token token_id="151">300</token>
+    <token token_id="152">℔</token>
+    <token token_id="153">.</token>
+  </text>
+  <spans>
+    <span id="2203" start="0" end="7" text="Mr . Ludwig Runs den man nempt Kop" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2499" start="0" end="1" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2499_head" start="0" end="1" element="head" class="title" text="Mr ." subclass=""/>
+      </span>
+      <span id="2209" start="2" end="3" text="Ludwig Runs" element="head" class="nam" subclass=""/>
+      <span id="2395" start="7" end="7" text="Kop" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2395_head" start="7" end="7" element="head" class="nam" text="Kop" subclass=""/>
+      </span>
+    </span>
+    <span id="2505" start="9" end="9" text="übergibt" element="trigger" class="transfer" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2215" start="10" end="20" text="Barbara&#10;Ratgebin wyl . Burckhart Vinns zins sons sel . Wwe" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2401" start="10" end="11" text="Barbara&#10;Ratgebin" element="head" class="nam" subclass=""/>
+      <span id="2407" start="12" end="20" text="wyl . Burckhart Vinns zins sons sel . Wwe" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2413" start="14" end="19" text="Burckhart Vinns zins sons sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2419" start="14" end="15" text="Burckhart Vinns" element="head" class="nam" subclass=""/>
+          <span id="2425" start="16" end="17" text="zins sons" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2221" start="16" end="16" text="zins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2221_head" start="16" end="16" element="head" class="pro" text="zins" subclass=""/>
+            </span>
+            <span id="2431" start="17" end="17" text="sons" element="head" class="fam" subclass=""/>
+          </span>
+          <span id="2389" start="18" end="19" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+        <span id="2227" start="20" end="20" text="Wwe" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="2511" start="22" end="29" text="zu bezalung ,&#10;jrer juprachten eettur etc ." element="other" class="other" subclass="">
+      <span id="2437" start="25" end="25" text="jrer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2437_head" start="25" end="25" element="head" class="pro" text="jrer" subclass=""/>
+      </span>
+    </span>
+    <span id="2547" start="31" end="137" text="die Herperg genant zu&#10;dem swartzen Steinen , Hus Hof Schuren &amp; Stallung , hinder u .&#10;vor mit dem garten daran , in Eschamervorstatt , zwüschen Barthlome&#10;Byschoff des Smids hus alten Pfut genant zu einer , u . Conrat&#10;Ersam dem Wagner zur andern siten gelegen , zinst von eig . s . Lienharts&#10;stift 1 ℔. jtem zu s . Peter 10sh . u . 4 huner , jtem der Camerei s .&#10;Johans Bruderschaft uf Burg 1sh . u . 4ring brot ze wysung , u . zuletst&#10;gand darab der erstenpfund u . st . altarzis Martin 2fl . abl ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2233" start="32" end="32" text="Herperg" element="head" class="type" subclass=""/>
+      <span id="2239" start="34" end="37" text="zu&#10;dem swartzen Steinen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2239_head" start="34" end="37" element="head" class="nam" text="zu dem swartzen Steinen" subclass=""/>
+      </span>
+      <span id="2457" start="39" end="43" text="Hus Hof Schuren &amp; Stallung" element="attr" class="type" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2463" start="39" end="43" text="Hus Hof Schuren &amp; Stallung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2463_head" start="39" end="43" element="head" class="type" text="Hus Hof Schuren &amp; Stallung" subclass=""/>
+        </span>
+      </span>
+      <span id="2383" start="45" end="52" text="hinder u .&#10;vor mit dem garten daran" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2245" start="50" end="51" text="dem garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2251" start="51" end="51" text="garten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="2257" start="54" end="78" text="in Eschamervorstatt , zwüschen Barthlome&#10;Byschoff des Smids hus alten Pfut genant zu einer , u . Conrat&#10;Ersam dem Wagner zur andern siten gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2263" start="55" end="55" text="Eschamervorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="2263_head" start="55" end="55" element="head" class="nam" text="Eschamervorstatt" subclass=""/>
+        </span>
+        <span id="2469" start="58" end="65" text="Barthlome&#10;Byschoff des Smids hus alten Pfut genant" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2475" start="58" end="61" text="Barthlome&#10;Byschoff des Smids" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2269" start="58" end="61" text="Barthlome&#10;Byschoff des Smids" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2275" start="58" end="59" text="Barthlome&#10;Byschoff" element="head" class="nam" subclass=""/>
+              <span id="2281" start="60" end="61" text="des Smids" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2287" start="61" end="61" text="Smids" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="2293" start="62" end="62" text="hus" element="head" class="type" subclass=""/>
+          <span id="2299" start="63" end="64" text="alten Pfut" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2299_head" start="63" end="64" element="head" class="nam" text="alten Pfut" subclass=""/>
+          </span>
+        </span>
+        <span id="2305" start="71" end="74" text="Conrat&#10;Ersam dem Wagner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2311" start="71" end="72" text="Conrat&#10;Ersam" element="head" class="nam" subclass=""/>
+          <span id="2317" start="73" end="74" text="dem Wagner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2323" start="74" end="74" text="Wagner" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2541" start="80" end="137" text="zinst von eig . s . Lienharts&#10;stift 1 ℔. jtem zu s . Peter 10sh . u . 4 huner , jtem der Camerei s .&#10;Johans Bruderschaft uf Burg 1sh . u . 4ring brot ze wysung , u . zuletst&#10;gand darab der erstenpfund u . st . altarzis Martin 2fl . abl ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2553" start="80" end="119" text="zinst von eig . s . Lienharts&#10;stift 1 ℔. jtem zu s . Peter 10sh . u . 4 huner , jtem der Camerei s .&#10;Johans Bruderschaft uf Burg 1sh . u . 4ring brot ze wysung" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2517" start="81" end="82" text="von eig" element="other" class="other" subclass=""/>
+          <span id="2329" start="84" end="87" text="s . Lienharts&#10;stift" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="2329_head" start="84" end="87" element="head" class="nam" text="s . Lienharts stift" subclass=""/>
+          </span>
+          <span id="2335" start="88" end="89" text="1 ℔" element="value" class="money" subclass=""/>
+          <span id="2341" start="93" end="95" text="s . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="2341_head" start="93" end="95" element="head" class="nam" text="s . Peter" subclass=""/>
+          </span>
+          <span id="2481" start="96" end="97" text="10sh ." element="value" class="money" subclass=""/>
+          <span id="2347" start="100" end="101" text="4 huner" element="value" class="money" subclass=""/>
+          <span id="2353" start="104" end="111" text="der Camerei s .&#10;Johans Bruderschaft uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2377" start="105" end="111" text="Camerei s .&#10;Johans Bruderschaft uf Burg" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="2359" start="112" end="112" text="1sh" element="value" class="money" subclass=""/>
+          <span id="2365" start="116" end="117" text="4ring brot" element="value" class="money" subclass=""/>
+          <span id="2523" start="118" end="119" text="ze wysung" element="other" class="other" subclass=""/>
+        </span>
+        <span id="2529" start="124" end="124" text="gand" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2493" start="132" end="133" text="altarzis Martin" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2493_head" start="132" end="133" element="head" class="nam" text="altarzis Martin" subclass=""/>
+        </span>
+        <span id="2487" start="134" end="135" text="2fl ." element="value" class="money" subclass=""/>
+        <span id="2535" start="136" end="137" text="abl ." element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="2371" start="151" end="153" text="300 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2450" from="2221" to="2203" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2443" from="2437" to="2215" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2529_role" from="2529" to="2547" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="80" end="119" ref="2553" type="state">
+      <event event_id="0.0">
+        <role role="cause" ref="2517" text="von eig"/>
+        <role role="beneficiary" ref="2329" text="s . Lienharts&#10;stift"/>
+        <role role="interest" ref="2335" text="1 ℔"/>
+      </event>
+      <event event_id="0.1">
+        <role role="beneficiary" ref="2341" text="s . Peter"/>
+        <role role="interest" ref="2481" text="10sh ."/>
+        <role role="interest" ref="2347" text="4 huner"/>
+      </event>
+      <event event_id="0.2">
+        <role role="beneficiary" ref="2353" text="der Camerei s .&#10;Johans Bruderschaft uf Burg"/>
+        <role role="interest" ref="2359" text="1sh"/>
+      </event>
+      <event event_id="0.3">
+        <role role="beneficiary" ref="2353" text="der Camerei s .&#10;Johans Bruderschaft uf Burg"/>
+        <role role="interest" ref="2365" text="4ring brot"/>
+        <role role="cause" ref="2523" text="ze wysung"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="12" end="20" ref="2407" type="state">
+      <trigger start="20" end="20" text="Wwe" ref="2227"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="2215" text="Barbara&#10;Ratgebin wyl . Burckhart Vinns zins sons sel . Wwe"/>
+        <role role="family-b" ref="2413" text="Burckhart Vinns zins sons sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="16" end="17" ref="2425" type="state">
+      <trigger start="17" end="17" text="sons" ref="2431"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="2413" text="Burckhart Vinns zins sons sel ."/>
+        <role role="family-b" ref="2221" text="zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="45" end="52" ref="2383" type="state">
+      <event event_id="4.0">
+        <role role="whole" ref="2547" text="die Herperg genant zu&#10;dem swartzen Steinen , Hus Hof Schuren &amp; Stallung , hinder u .&#10;vor mit dem garten daran , in Eschamervorstatt , zwüschen Barthlome&#10;Byschoff des Smids hus alten Pfut genant zu einer , u . Conrat&#10;Ersam dem Wagner zur andern siten gelegen , zinst von eig . s . Lienharts&#10;stift 1 ℔. jtem zu s . Peter 10sh . u . 4 huner , jtem der Camerei s .&#10;Johans Bruderschaft uf Burg 1sh . u . 4ring brot ze wysung , u . zuletst&#10;gand darab der erstenpfund u . st . altarzis Martin 2fl . abl ."/>
+        <role role="part" ref="2245" text="dem garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="54" end="78" ref="2257" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2547" text="die Herperg genant zu&#10;dem swartzen Steinen , Hus Hof Schuren &amp; Stallung , hinder u .&#10;vor mit dem garten daran , in Eschamervorstatt , zwüschen Barthlome&#10;Byschoff des Smids hus alten Pfut genant zu einer , u . Conrat&#10;Ersam dem Wagner zur andern siten gelegen , zinst von eig . s . Lienharts&#10;stift 1 ℔. jtem zu s . Peter 10sh . u . 4 huner , jtem der Camerei s .&#10;Johans Bruderschaft uf Burg 1sh . u . 4ring brot ze wysung , u . zuletst&#10;gand darab der erstenpfund u . st . altarzis Martin 2fl . abl ."/>
+        <role role="location-b" ref="2263" text="Eschamervorstatt"/>
+        <role role="location-b" ref="2469" text="Barthlome&#10;Byschoff des Smids hus alten Pfut genant"/>
+        <role role="location-b" ref="2305" text="Conrat&#10;Ersam dem Wagner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="58" end="61" ref="2475" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="2469" text="Barthlome&#10;Byschoff des Smids hus alten Pfut genant"/>
+        <role role="owner" ref="2269" text="Barthlome&#10;Byschoff des Smids"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="transfer" polarity="pos" tense="pres" modality="ass" start="0" end="9" ref="" type="event">
+      <trigger start="9" end="9" text="übergibt" ref="2505"/>
+      <event event_id="7.0">
+        <role role="owner-prev" ref="2203" text="Mr . Ludwig Runs den man nempt Kop"/>
+        <role role="owner-new" ref="2215" text="Barbara&#10;Ratgebin wyl . Burckhart Vinns zins sons sel . Wwe"/>
+        <role role="cause" ref="2511" text="zu bezalung ,&#10;jrer juprachten eettur etc ."/>
+        <role role="property" ref="2547" text="die Herperg genant zu&#10;dem swartzen Steinen , Hus Hof Schuren &amp; Stallung , hinder u .&#10;vor mit dem garten daran , in Eschamervorstatt , zwüschen Barthlome&#10;Byschoff des Smids hus alten Pfut genant zu einer , u . Conrat&#10;Ersam dem Wagner zur andern siten gelegen , zinst von eig . s . Lienharts&#10;stift 1 ℔. jtem zu s . Peter 10sh . u . 4 huner , jtem der Camerei s .&#10;Johans Bruderschaft uf Burg 1sh . u . 4ring brot ze wysung , u . zuletst&#10;gand darab der erstenpfund u . st . altarzis Martin 2fl . abl ."/>
+        <role role="value" ref="2371" text="300 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="124" end="137" ref="2541" type="state">
+      <trigger start="124" end="124" text="gand" ref="2529"/>
+      <event event_id="8.0">
+        <role role="beneficiary" ref="2493" text="altarzis Martin"/>
+        <role role="interest" ref="2487" text="2fl ."/>
+        <role role="interest-redeemable" ref="2535" text="abl ."/>
+        <role role="property" ref="2547" text="die Herperg genant zu&#10;dem swartzen Steinen , Hus Hof Schuren &amp; Stallung , hinder u .&#10;vor mit dem garten daran , in Eschamervorstatt , zwüschen Barthlome&#10;Byschoff des Smids hus alten Pfut genant zu einer , u . Conrat&#10;Ersam dem Wagner zur andern siten gelegen , zinst von eig . s . Lienharts&#10;stift 1 ℔. jtem zu s . Peter 10sh . u . 4 huner , jtem der Camerei s .&#10;Johans Bruderschaft uf Burg 1sh . u . 4ring brot ze wysung , u . zuletst&#10;gand darab der erstenpfund u . st . altarzis Martin 2fl . abl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/87 S. [31]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 22</tei:title>
+            <tei:idno>HGB 1 63/87</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472952</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1515">1515</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611254.888734072 1267375.2536290204</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Jacob</token>
+    <token token_id="1">Meiger</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Peter</token>
+    <token token_id="4">,</token>
+    <token token_id="5">u</token>
+    <token token_id="6">.</token>
+    <token token_id="7">seine</token>
+    <token token_id="8">Frau</token>
+    <token token_id="9">Dorothea</token>
+    <token token_id="10">,</token>
+    <token token_id="11">verkaufen</token>
+    <token token_id="12">an</token>
+    <token token_id="13">Küngolden</token>
+    <token token_id="14">zum</token>
+    <token token_id="15">Wald</token>
+    <token token_id="16">,</token>
+    <token token_id="17">igl</token>
+    <token token_id="18">.</token>
+    <token token_id="19">Mr</token>
+    <token token_id="20">.</token>
+    <token token_id="21">Mattern</token>
+    <token token_id="22">Swingesin</token>
+    <token token_id="23">,</token>
+    <token token_id="24">des</token>
+    <token token_id="25">Hufsmids</token>
+    <token token_id="26">sel</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Wittib</token>
+    <token token_id="29">,</token>
+    <token token_id="30">das</token>
+    <token token_id="31">Hus</token>
+    <token token_id="32">u</token>
+    <token token_id="33">.</token>
+    <token token_id="34">Hofstatt</token>
+    <token token_id="35">genant</token>
+    <token token_id="36">zu</token>
+    <token token_id="37">dem</token>
+    <token token_id="38">Grat</token>
+    <token token_id="39">,</token>
+    <token token_id="40">mit</token>
+    <token token_id="41">dem</token>
+    <token token_id="42">Höfly</token>
+    <token token_id="43">darhinder</token>
+    <token token_id="44">,</token>
+    <token token_id="45">ư</token>
+    <token token_id="46">dem</token>
+    <token token_id="47">gang</token>
+    <token token_id="48">zu</token>
+    <token token_id="49">der</token>
+    <token token_id="50">Privaten</token>
+    <token token_id="51">,</token>
+    <token token_id="52">an</token>
+    <token token_id="53">dem</token>
+    <token token_id="54">alten</token>
+    <token token_id="55">Rindermerckt</token>
+    <token token_id="56">zu</token>
+    <token token_id="57">einer</token>
+    <token token_id="58">an</token>
+    <token token_id="59">dem</token>
+    <token token_id="60">Hus</token>
+    <token token_id="61">Rinckenberg</token>
+    <token token_id="62">u</token>
+    <token token_id="63">.</token>
+    <token token_id="64">der</token>
+    <token token_id="65">Sungdenzunfthus</token>
+    <token token_id="66">zur</token>
+    <token token_id="67">andern</token>
+    <token token_id="68">siten</token>
+    <token token_id="69">gelegen</token>
+    <token token_id="70">,</token>
+    <token token_id="71">Zucht</token>
+    <token token_id="72">hinden</token>
+    <token token_id="73">uff</token>
+    <token token_id="74">der</token>
+    <token token_id="75">Sunyden</token>
+    <token token_id="76">garten</token>
+    <token token_id="77">,</token>
+    <token token_id="78">zinst</token>
+    <token token_id="79">von</token>
+    <token token_id="80">eig</token>
+    <token token_id="81">.</token>
+    <token token_id="82">dem</token>
+    <token token_id="83">gotshus</token>
+    <token token_id="84">Wettingen</token>
+    <token token_id="85">,</token>
+    <token token_id="86">1</token>
+    <token token_id="87">℔</token>
+    <token token_id="88">6</token>
+    <token token_id="89">sh</token>
+    <token token_id="90">.</token>
+    <token token_id="91">4</token>
+    <token token_id="92">dn</token>
+    <token token_id="93">.</token>
+    <token token_id="94">u</token>
+    <token token_id="95">.</token>
+    <token token_id="96">5sh</token>
+    <token token_id="97">.</token>
+    <token token_id="98">zu</token>
+    <token token_id="99">erschatz</token>
+    <token token_id="100">,</token>
+    <token token_id="101">u</token>
+    <token token_id="102">.</token>
+    <token token_id="103">willigt</token>
+    <token token_id="104">derselben</token>
+    <token token_id="105">Schaffner</token>
+    <token token_id="106">ein</token>
+    <token token_id="107">,</token>
+    <token token_id="108">sodan</token>
+    <token token_id="109">jährl</token>
+    <token token_id="110">5sh</token>
+    <token token_id="111">.</token>
+    <token token_id="112">s</token>
+    <token token_id="113">.</token>
+    <token token_id="114">Johans</token>
+    <token token_id="115">Bruderschaft</token>
+    <token token_id="116">uf</token>
+    <token token_id="117">Burg</token>
+    <token token_id="118">,</token>
+    <token token_id="119">sonstfrei</token>
+    <token token_id="120">,</token>
+    <token token_id="121">um</token>
+    <token token_id="122">240fl</token>
+    <token token_id="123">.</token>
+  </text>
+  <spans>
+    <span id="1790" start="0" end="9" text="Jacob Meiger der Peter , u . seine Frau Dorothea" element="list" class="per" subclass="">
+      <span id="1796" start="0" end="3" text="Jacob Meiger der Peter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2026" start="0" end="1" text="Jacob Meiger" element="head" class="nam" subclass=""/>
+        <span id="1802" start="2" end="3" text="der Peter" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1808" start="3" end="3" text="Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+            <span id="1808_head" start="3" end="3" element="head" class="type" text="Peter" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1814" start="7" end="9" text="seine Frau Dorothea" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1820" start="7" end="8" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1832" start="7" end="7" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1832_head" start="7" end="7" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1826" start="8" end="8" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="2020" start="9" end="9" text="Dorothea" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="2140" start="11" end="11" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1845" start="13" end="28" text="Küngolden zum Wald , igl . Mr . Mattern Swingesin ,&#10;des Hufsmids sel . Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2038" start="13" end="15" text="Küngolden zum Wald" element="head" class="nam" subclass=""/>
+      <span id="2044" start="17" end="28" text="igl . Mr . Mattern Swingesin ,&#10;des Hufsmids sel . Wittib" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2050" start="19" end="27" text="Mr . Mattern Swingesin ,&#10;des Hufsmids sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2122" start="19" end="20" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2122_head" start="19" end="20" element="head" class="title" text="Mr ." subclass=""/>
+          </span>
+          <span id="2056" start="21" end="22" text="Mattern Swingesin" element="head" class="nam" subclass=""/>
+          <span id="2062" start="24" end="25" text="des Hufsmids" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2068" start="25" end="25" text="Hufsmids" element="head" class="occ" subclass=""/>
+          </span>
+          <span id="2128" start="26" end="27" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+        <span id="2074" start="28" end="28" text="Wittib" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="2032" start="30" end="119" text="das Hus u . Hofstatt genant zu dem&#10;Grat , mit dem Höfly darhinder , ư dem gang zu der&#10;Privaten , an dem alten Rindermerckt zu einer an dem Hus&#10;Rinckenberg u . der Sungdenzunfthus zur andern siten gelegen ,&#10;Zucht hinden uff der Sunyden garten , zinst von eig . dem gotshus&#10;Wettingen , 1 ℔ 6 sh . 4 dn . u . 5sh . zu erschatz , u . willigt derselben&#10;Schaffner ein , sodan jährl 5sh . s . Johans Bruderschaft uf Burg ,&#10;sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1851" start="31" end="34" text="Hus u . Hofstatt" element="head" class="nam" subclass=""/>
+      <span id="1857" start="36" end="38" text="zu dem&#10;Grat" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1857_head" start="36" end="38" element="head" class="nam" text="zu dem Grat" subclass=""/>
+      </span>
+      <span id="1863" start="40" end="43" text="mit dem Höfly darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1869" start="41" end="42" text="dem Höfly" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1875" start="42" end="42" text="Höfly" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1893" start="45" end="50" text="ư dem gang zu der&#10;Privaten" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1881" start="46" end="50" text="dem gang zu der&#10;Privaten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1887" start="47" end="50" text="gang zu der&#10;Privaten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1899" start="52" end="76" text="an dem alten Rindermerckt zu einer an dem Hus&#10;Rinckenberg u . der Sungdenzunfthus zur andern siten gelegen ,&#10;Zucht hinden uff der Sunyden garten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1905" start="53" end="55" text="dem alten Rindermerckt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="1911" start="54" end="55" text="alten Rindermerckt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1917" start="59" end="61" text="dem Hus&#10;Rinckenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1923" start="60" end="61" text="Hus&#10;Rinckenberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1929" start="64" end="65" text="der Sungdenzunfthus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1935" start="65" end="65" text="Sungdenzunfthus" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1941" start="74" end="76" text="der Sunyden garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2092" start="74" end="75" text="der Sunyden" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2098" start="74" end="75" text="der Sunyden" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+              <span id="2134" start="75" end="75" text="Sunyden" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+          <span id="2086" start="76" end="76" text="garten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="2104" start="78" end="119" text="zinst von eig . dem gotshus&#10;Wettingen , 1 ℔ 6 sh . 4 dn . u . 5sh . zu erschatz , u . willigt derselben&#10;Schaffner ein , sodan jährl 5sh . s . Johans Bruderschaft uf Burg ,&#10;sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2146" start="78" end="78" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1947" start="82" end="84" text="dem gotshus&#10;Wettingen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1953" start="83" end="84" text="gotshus&#10;Wettingen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1959" start="86" end="92" text="1 ℔ 6 sh . 4 dn" element="value" class="money" subclass=""/>
+        <span id="1965" start="96" end="97" text="5sh ." element="value" class="money" subclass=""/>
+        <span id="2152" start="98" end="99" text="zu erschatz" element="other" class="other" subclass=""/>
+        <span id="2158" start="103" end="103" text="willigt" element="trigger" class="consent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1984" start="104" end="105" text="derselben&#10;Schaffner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1971" start="104" end="104" text="derselben" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="1971_head" start="104" end="104" element="head" class="pro" text="derselben" subclass=""/>
+          </span>
+          <span id="1990" start="105" end="105" text="Schaffner" element="head" class="occ" subclass="org-job"/>
+        </span>
+        <span id="2080" start="109" end="109" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="1996" start="110" end="111" text="5sh ." element="value" class="money" subclass=""/>
+        <span id="2002" start="112" end="117" text="s . Johans Bruderschaft uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2008" start="112" end="115" text="s . Johans Bruderschaft" element="head" class="nam" subclass=""/>
+          <span id="2110" start="116" end="117" text="uf Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2116" start="117" end="117" text="Burg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2116_head" start="117" end="117" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2014" start="122" end="122" text="240fl" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1838" from="1796" to="1832" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1977" from="1947" to="1971" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2146_role" from="2146" to="2032" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2158_role" from="2158" to="2032" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="104" end="105" ref="1984" type="state">
+      <trigger start="105" end="105" text="Schaffner" ref="1990"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1984" text="derselben&#10;Schaffner"/>
+        <role role="employer" ref="1971" text="derselben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="8" ref="1820" type="state">
+      <trigger start="8" end="8" text="Frau" ref="1826"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1814" text="seine Frau Dorothea"/>
+        <role role="family-b" ref="1832" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="17" end="28" ref="2044" type="state">
+      <trigger start="28" end="28" text="Wittib" ref="2074"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1845" text="Küngolden zum Wald , igl . Mr . Mattern Swingesin ,&#10;des Hufsmids sel . Wittib"/>
+        <role role="family-b" ref="2050" text="Mr . Mattern Swingesin ,&#10;des Hufsmids sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="membership" polarity="pos" tense="pres" modality="ass" start="2" end="3" ref="1802" type="state">
+      <event event_id="3.0">
+        <role role="member" ref="1796" text="Jacob Meiger der Peter"/>
+        <role role="organization" ref="1808" text="Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="40" end="43" ref="1863" type="state">
+      <event event_id="4.0">
+        <role role="whole" ref="2032" text="das Hus u . Hofstatt genant zu dem&#10;Grat , mit dem Höfly darhinder , ư dem gang zu der&#10;Privaten , an dem alten Rindermerckt zu einer an dem Hus&#10;Rinckenberg u . der Sungdenzunfthus zur andern siten gelegen ,&#10;Zucht hinden uff der Sunyden garten , zinst von eig . dem gotshus&#10;Wettingen , 1 ℔ 6 sh . 4 dn . u . 5sh . zu erschatz , u . willigt derselben&#10;Schaffner ein , sodan jährl 5sh . s . Johans Bruderschaft uf Burg ,&#10;sonstfrei"/>
+        <role role="part" ref="1869" text="dem Höfly"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" start="45" end="50" ref="1893" type="state">
+      <event event_id="5.0">
+        <role role="whole" ref="2032" text="das Hus u . Hofstatt genant zu dem&#10;Grat , mit dem Höfly darhinder , ư dem gang zu der&#10;Privaten , an dem alten Rindermerckt zu einer an dem Hus&#10;Rinckenberg u . der Sungdenzunfthus zur andern siten gelegen ,&#10;Zucht hinden uff der Sunyden garten , zinst von eig . dem gotshus&#10;Wettingen , 1 ℔ 6 sh . 4 dn . u . 5sh . zu erschatz , u . willigt derselben&#10;Schaffner ein , sodan jährl 5sh . s . Johans Bruderschaft uf Burg ,&#10;sonstfrei"/>
+        <role role="part" ref="1881" text="dem gang zu der&#10;Privaten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="52" end="76" ref="1899" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="2032" text="das Hus u . Hofstatt genant zu dem&#10;Grat , mit dem Höfly darhinder , ư dem gang zu der&#10;Privaten , an dem alten Rindermerckt zu einer an dem Hus&#10;Rinckenberg u . der Sungdenzunfthus zur andern siten gelegen ,&#10;Zucht hinden uff der Sunyden garten , zinst von eig . dem gotshus&#10;Wettingen , 1 ℔ 6 sh . 4 dn . u . 5sh . zu erschatz , u . willigt derselben&#10;Schaffner ein , sodan jährl 5sh . s . Johans Bruderschaft uf Burg ,&#10;sonstfrei"/>
+        <role role="location-b" ref="1905" text="dem alten Rindermerckt"/>
+        <role role="location-b" ref="1917" text="dem Hus&#10;Rinckenberg"/>
+        <role role="location-b" ref="1929" text="der Sungdenzunfthus"/>
+        <role role="location-b" ref="1941" text="der Sunyden garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="74" end="75" ref="2092" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1941" text="der Sunyden garten"/>
+        <role role="owner" ref="2098" text="der Sunyden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="116" end="117" ref="2110" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="2002" text="s . Johans Bruderschaft uf Burg"/>
+        <role role="location-b" ref="2116" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="122" ref="" type="event">
+      <trigger start="11" end="11" text="verkaufen" ref="2140"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1796" text="Jacob Meiger der Peter"/>
+        <role role="seller" ref="1814" text="seine Frau Dorothea"/>
+        <role role="buyer" ref="1845" text="Küngolden zum Wald , igl . Mr . Mattern Swingesin ,&#10;des Hufsmids sel . Wittib"/>
+        <role role="property" ref="2032" text="das Hus u . Hofstatt genant zu dem&#10;Grat , mit dem Höfly darhinder , ư dem gang zu der&#10;Privaten , an dem alten Rindermerckt zu einer an dem Hus&#10;Rinckenberg u . der Sungdenzunfthus zur andern siten gelegen ,&#10;Zucht hinden uff der Sunyden garten , zinst von eig . dem gotshus&#10;Wettingen , 1 ℔ 6 sh . 4 dn . u . 5sh . zu erschatz , u . willigt derselben&#10;Schaffner ein , sodan jährl 5sh . s . Johans Bruderschaft uf Burg ,&#10;sonstfrei"/>
+        <role role="price" ref="2014" text="240fl"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="30" end="78" ref="2104" type="state">
+      <trigger start="78" end="78" text="zinst" ref="2146"/>
+      <event event_id="10.0">
+        <role role="beneficiary" ref="1947" text="dem gotshus&#10;Wettingen"/>
+        <role role="interest" ref="1959" text="1 ℔ 6 sh . 4 dn"/>
+        <role role="property" ref="2032" text="das Hus u . Hofstatt genant zu dem&#10;Grat , mit dem Höfly darhinder , ư dem gang zu der&#10;Privaten , an dem alten Rindermerckt zu einer an dem Hus&#10;Rinckenberg u . der Sungdenzunfthus zur andern siten gelegen ,&#10;Zucht hinden uff der Sunyden garten , zinst von eig . dem gotshus&#10;Wettingen , 1 ℔ 6 sh . 4 dn . u . 5sh . zu erschatz , u . willigt derselben&#10;Schaffner ein , sodan jährl 5sh . s . Johans Bruderschaft uf Burg ,&#10;sonstfrei"/>
+      </event>
+      <event event_id="10.1">
+        <role role="beneficiary" ref="1947" text="dem gotshus&#10;Wettingen"/>
+        <role role="interest" ref="1965" text="5sh ."/>
+        <role role="cause" ref="2152" text="zu erschatz"/>
+        <role role="property" ref="2032" text="das Hus u . Hofstatt genant zu dem&#10;Grat , mit dem Höfly darhinder , ư dem gang zu der&#10;Privaten , an dem alten Rindermerckt zu einer an dem Hus&#10;Rinckenberg u . der Sungdenzunfthus zur andern siten gelegen ,&#10;Zucht hinden uff der Sunyden garten , zinst von eig . dem gotshus&#10;Wettingen , 1 ℔ 6 sh . 4 dn . u . 5sh . zu erschatz , u . willigt derselben&#10;Schaffner ein , sodan jährl 5sh . s . Johans Bruderschaft uf Burg ,&#10;sonstfrei"/>
+      </event>
+      <event event_id="10.2">
+        <role role="interval" ref="2080" text="jährl"/>
+        <role role="interest" ref="1996" text="5sh ."/>
+        <role role="beneficiary" ref="2002" text="s . Johans Bruderschaft uf Burg"/>
+        <role role="property" ref="2032" text="das Hus u . Hofstatt genant zu dem&#10;Grat , mit dem Höfly darhinder , ư dem gang zu der&#10;Privaten , an dem alten Rindermerckt zu einer an dem Hus&#10;Rinckenberg u . der Sungdenzunfthus zur andern siten gelegen ,&#10;Zucht hinden uff der Sunyden garten , zinst von eig . dem gotshus&#10;Wettingen , 1 ℔ 6 sh . 4 dn . u . 5sh . zu erschatz , u . willigt derselben&#10;Schaffner ein , sodan jährl 5sh . s . Johans Bruderschaft uf Burg ,&#10;sonstfrei"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="consent" polarity="pos" tense="pres" modality="ass" start="103" end="119" ref="2104" type="event">
+      <trigger start="103" end="103" text="willigt" ref="2158"/>
+      <event event_id="11.0">
+        <role role="consenting" ref="1984" text="derselben&#10;Schaffner"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

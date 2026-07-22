@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 199/19 S. [63]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spiegelgasse 6</tei:title>
+            <tei:idno>HGB 1 199/19</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1526925</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Quotidian und Präsenz</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1643">1643</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611164.9972177166 1267752.5742939191</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1648</token>
+    <token token_id="1">auff</token>
+    <token token_id="2">Marae</token>
+    <token token_id="3">verkundung</token>
+    <token token_id="4">.</token>
+    <token token_id="5">Item</token>
+    <token token_id="6">Hannß</token>
+    <token token_id="7">Ulrich</token>
+    <token token_id="8">Fürfelder</token>
+    <token token_id="9">zinst</token>
+    <token token_id="10">1</token>
+    <token token_id="11">℔</token>
+    <token token_id="12">3ß</token>
+    <token token_id="13">.</token>
+    <token token_id="14">1649</token>
+    <token token_id="15">Jacob</token>
+    <token token_id="16">Sennigers</token>
+    <token token_id="17">erben</token>
+    <token token_id="18">-</token>
+    <token token_id="19">1</token>
+    <token token_id="20">℔</token>
+    <token token_id="21">3ß</token>
+    <token token_id="22">.</token>
+  </text>
+  <spans>
+    <span id="434" start="0" end="3" text="1648 auff Marae verkundung" element="value" class="date" subclass=""/>
+    <span id="440" start="6" end="8" text="Hannß Ulrich Fürfelder" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="440_head" start="6" end="8" element="head" class="nam" text="Hannß Ulrich Fürfelder" subclass=""/>
+    </span>
+    <span id="482" start="9" end="9" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="446" start="10" end="13" text="1 ℔ 3ß ." element="value" class="money" subclass=""/>
+    <span id="452" start="14" end="14" text="1649" element="value" class="date" subclass=""/>
+    <span id="458" start="15" end="17" text="Jacob Sennigers erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="470" start="15" end="16" text="Jacob Sennigers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="470_head" start="15" end="16" element="head" class="nam" text="Jacob Sennigers" subclass=""/>
+      </span>
+      <span id="464" start="17" end="17" text="erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="476" start="19" end="22" text="1 ℔ 3ß ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="15" end="17" ref="458" type="event">
+      <trigger start="17" end="17" text="erben" ref="464"/>
+      <event event_id="0.0">
+        <role role="heir" ref="458" text="Jacob Sennigers erben"/>
+        <role role="decedent" ref="470" text="Jacob Sennigers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="9" ref="" type="event">
+      <trigger start="9" end="9" text="zinst" ref="482"/>
+      <event event_id="1.0">
+        <role role="date" ref="434" text="1648 auff Marae verkundung"/>
+        <role role="payer" ref="440" text="Hannß Ulrich Fürfelder"/>
+        <role role="interest" ref="446" text="1 ℔ 3ß ."/>
+      </event>
+      <event event_id="1.1">
+        <role role="date" ref="452" text="1649"/>
+        <role role="payer" ref="458" text="Jacob Sennigers erben"/>
+        <role role="interest" ref="476" text="1 ℔ 3ß ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

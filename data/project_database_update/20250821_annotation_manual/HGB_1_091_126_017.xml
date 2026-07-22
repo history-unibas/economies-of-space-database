@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 91/126 S. [17]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Johanns-Vorstadt 30</tei:title>
+            <tei:idno>HGB 1 91/126</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1482358</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1678">1678</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610990.382335981 1268088.442245001</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Anschläg</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Hl</token>
+    <token token_id="3">Ludwig</token>
+    <token token_id="4">Iseln</token>
+    <token token_id="5">hat</token>
+    <token token_id="6">umamen</token>
+    <token token_id="7">und</token>
+    <token token_id="8">als</token>
+    <token token_id="9">Anvaldt</token>
+    <token token_id="10">,</token>
+    <token token_id="11">der</token>
+    <token token_id="12">H</token>
+    <token token_id="13">.</token>
+    <token token_id="14">Eltissten</token>
+    <token token_id="15">der</token>
+    <token token_id="16">Trantzösischen</token>
+    <token token_id="17">Kirchen</token>
+    <token token_id="18">allhie</token>
+    <token token_id="19">,</token>
+    <token token_id="20">weden</token>
+    <token token_id="21">jeniger</token>
+    <token token_id="22">375</token>
+    <token token_id="23">℔</token>
+    <token token_id="24">Capital</token>
+    <token token_id="25">,</token>
+    <token token_id="26">welchesermelter</token>
+    <token token_id="27">Kirchen</token>
+    <token token_id="28">Jacob</token>
+    <token token_id="29">Martin</token>
+    <token token_id="30">der</token>
+    <token token_id="31">Seyden</token>
+    <token token_id="32">¬</token>
+    <token token_id="33">ferber</token>
+    <token token_id="34">ihalt</token>
+    <token token_id="35">Obligation</token>
+    <token token_id="36">zu</token>
+    <token token_id="37">thun</token>
+    <token token_id="38">schuldig</token>
+    <token token_id="39">,</token>
+    <token token_id="40">des</token>
+    <token token_id="41">.</token>
+    <token token_id="42">selben</token>
+    <token token_id="43">hierumben</token>
+    <token token_id="44">zum</token>
+    <token token_id="45">Underpfand</token>
+    <token token_id="46">verschribene</token>
+    <token token_id="47">Behausung</token>
+    <token token_id="48">in</token>
+    <token token_id="49">St</token>
+    <token token_id="50">.</token>
+    <token token_id="51">Johanns</token>
+    <token token_id="52">Vorstatt</token>
+    <token token_id="53">,</token>
+    <token token_id="54">einseits</token>
+    <token token_id="55">neben</token>
+    <token token_id="56">des</token>
+    <token token_id="57">Spittahls</token>
+    <token token_id="58">Behausung</token>
+    <token token_id="59">,</token>
+    <token token_id="60">anderseits</token>
+    <token token_id="61">neben</token>
+    <token token_id="62">Jacob</token>
+    <token token_id="63">Alt</token>
+    <token token_id="64">dem</token>
+    <token token_id="65">Fischer</token>
+    <token token_id="66">gelegen</token>
+    <token token_id="67">,</token>
+    <token token_id="68">und</token>
+    <token token_id="69">hinden</token>
+    <token token_id="70">auf</token>
+    <token token_id="71">den</token>
+    <token token_id="72">Rhein</token>
+    <token token_id="73">stossend</token>
+    <token token_id="74">,</token>
+    <token token_id="75">gefrönt</token>
+    <token token_id="76">und</token>
+    <token token_id="77">wird</token>
+    <token token_id="78">man</token>
+    <token token_id="79">solche</token>
+    <token token_id="80">Behausung</token>
+    <token token_id="81">auf</token>
+    <token token_id="82">Zeinstag</token>
+    <token token_id="83">den</token>
+    <token token_id="84">30</token>
+    <token token_id="85">.</token>
+    <token token_id="86">Aprilis</token>
+    <token token_id="87">verkaufen</token>
+    <token token_id="88">.</token>
+  </text>
+  <spans>
+    <span id="1472" start="2" end="4" text="Hl Ludwig Iseln" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1478" start="3" end="4" text="Ludwig Iseln" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1484" start="9" end="18" text="Anvaldt , der H . Eltissten der Trantzösischen&#10;Kirchen allhie" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1496" start="9" end="9" text="Anvaldt" element="head" class="repr" subclass=""/>
+      <span id="1490" start="11" end="18" text="der H . Eltissten der Trantzösischen&#10;Kirchen allhie" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1502" start="12" end="14" text="H . Eltissten" element="head" class="occ" subclass="org-repr"/>
+        <span id="1508" start="15" end="18" text="der Trantzösischen&#10;Kirchen allhie" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1514" start="16" end="17" text="Trantzösischen&#10;Kirchen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1526" start="21" end="21" text="jeniger" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1526_head" start="21" end="21" element="head" class="pro" text="jeniger" subclass=""/>
+    </span>
+    <span id="1520" start="22" end="23" text="375 ℔" element="value" class="money" subclass=""/>
+    <span id="1539" start="26" end="27" text="welchesermelter Kirchen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1539_head" start="26" end="27" element="head" class="type" text="welchesermelter Kirchen" subclass=""/>
+    </span>
+    <span id="1552" start="28" end="33" text="Jacob Martin der Seyden ¬&#10;ferber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1558" start="28" end="29" text="Jacob Martin" element="head" class="nam" subclass=""/>
+      <span id="1564" start="30" end="33" text="der Seyden ¬&#10;ferber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1570" start="31" end="33" text="Seyden ¬&#10;ferber" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1723" start="35" end="38" text="Obligation zu thun schuldig" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1576" start="40" end="73" text="des .&#10;selben hierumben zum Underpfand verschribene&#10;Behausung in St . Johanns Vorstatt , einseits&#10;neben des Spittahls Behausung , anderseits neben&#10;Jacob Alt dem Fischer gelegen , und hinden&#10;auf den Rhein stossend" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1588" start="40" end="42" text="des .&#10;selben" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1594" start="40" end="42" text="des .&#10;selben" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1594_head" start="40" end="42" element="head" class="pro" text="des . selben" subclass=""/>
+        </span>
+      </span>
+      <span id="1729" start="46" end="46" text="verschribene" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      <span id="1582" start="47" end="47" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="1607" start="48" end="73" text="in St . Johanns Vorstatt , einseits&#10;neben des Spittahls Behausung , anderseits neben&#10;Jacob Alt dem Fischer gelegen , und hinden&#10;auf den Rhein stossend" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1613" start="49" end="52" text="St . Johanns Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1613_head" start="49" end="52" element="head" class="nam" text="St . Johanns Vorstatt" subclass=""/>
+        </span>
+        <span id="1619" start="56" end="58" text="des Spittahls Behausung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1619_desc_owner" start="56" end="57" text="des Spittahls" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1631" start="56" end="57" text="des Spittahls" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1637" start="57" end="57" text="Spittahls" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+          <span id="1625" start="58" end="58" text="Behausung" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1643" start="62" end="65" text="Jacob Alt dem Fischer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1649" start="62" end="63" text="Jacob Alt" element="head" class="nam" subclass=""/>
+          <span id="1655" start="64" end="65" text="dem Fischer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1661" start="65" end="65" text="Fischer" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1667" start="71" end="72" text="den Rhein" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1673" start="72" end="72" text="Rhein" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1717" start="75" end="75" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1679" start="79" end="80" text="solche Behausung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1685" start="80" end="80" text="Behausung" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1698" start="81" end="86" text="auf Zeinstag den 30 .&#10;Aprilis" element="value" class="date" subclass=""/>
+    <span id="1742" start="87" end="87" text="verkaufen" element="trigger" class="sale" tense="fut" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1710" from="1484" to="1472" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1532" from="1526" to="1490" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1545" from="1539" to="1508" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1600" from="1594" to="1552" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1735" from="1729" to="1723" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1691" from="1679" to="1576" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="representation" polarity="pos" tense="pres" modality="ass" start="9" end="18" ref="1484" type="state">
+      <trigger start="9" end="9" text="Anvaldt" ref="1496"/>
+      <event event_id="0.0">
+        <role role="representative" ref="1484" text="Anvaldt , der H . Eltissten der Trantzösischen&#10;Kirchen allhie"/>
+        <role role="represented" ref="1490" text="der H . Eltissten der Trantzösischen&#10;Kirchen allhie"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="11" end="18" ref="1490" type="state">
+      <trigger start="12" end="14" text="H . Eltissten" ref="1502"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1490" text="der H . Eltissten der Trantzösischen&#10;Kirchen allhie"/>
+        <role role="employer" ref="1508" text="der Trantzösischen&#10;Kirchen allhie"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="40" end="42" ref="1588" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1576" text="des .&#10;selben hierumben zum Underpfand verschribene&#10;Behausung in St . Johanns Vorstatt , einseits&#10;neben des Spittahls Behausung , anderseits neben&#10;Jacob Alt dem Fischer gelegen , und hinden&#10;auf den Rhein stossend"/>
+        <role role="owner" ref="1594" text="des .&#10;selben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="48" end="73" ref="1607" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1576" text="des .&#10;selben hierumben zum Underpfand verschribene&#10;Behausung in St . Johanns Vorstatt , einseits&#10;neben des Spittahls Behausung , anderseits neben&#10;Jacob Alt dem Fischer gelegen , und hinden&#10;auf den Rhein stossend"/>
+        <role role="location-b" ref="1613" text="St . Johanns Vorstatt"/>
+        <role role="location-b" ref="1619" text="des Spittahls Behausung"/>
+        <role role="location-b" ref="1643" text="Jacob Alt dem Fischer"/>
+        <role role="location-b" ref="1667" text="den Rhein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="56" end="57" ref="1619_desc_owner" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1619" text="des Spittahls Behausung"/>
+        <role role="owner" ref="1631" text="des Spittahls"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="22" end="38" ref="" type="state">
+      <trigger start="35" end="38" text="Obligation zu thun schuldig" ref="1723"/>
+      <event event_id="5.0">
+        <role role="capital" ref="1520" text="375 ℔"/>
+        <role role="beneficiary" ref="1539" text="welchesermelter Kirchen"/>
+        <role role="payer" ref="1552" text="Jacob Martin der Seyden ¬&#10;ferber"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-payment" polarity="pos" tense="pres" modality="ass" start="46" end="46" ref="1576" type="event">
+      <trigger start="46" end="46" text="verschribene" ref="1729"/>
+    </eventGroup>
+    <eventGroup event_id="7" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="75" ref="" type="event">
+      <trigger start="75" end="75" text="gefrönt" ref="1717"/>
+      <event event_id="7.0">
+        <role role="claimant" ref="1472" text="Hl Ludwig Iseln"/>
+        <role role="property" ref="1576" text="des .&#10;selben hierumben zum Underpfand verschribene&#10;Behausung in St . Johanns Vorstatt , einseits&#10;neben des Spittahls Behausung , anderseits neben&#10;Jacob Alt dem Fischer gelegen , und hinden&#10;auf den Rhein stossend"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="property-purchase" polarity="pos" tense="fut" modality="ass" start="79" end="87" ref="" type="event">
+      <trigger start="87" end="87" text="verkaufen" ref="1742"/>
+      <event event_id="8.0">
+        <role role="property" ref="1679" text="solche Behausung"/>
+        <role role="date" ref="1698" text="auf Zeinstag den 30 .&#10;Aprilis"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

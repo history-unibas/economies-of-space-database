@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 79/30 S. [4]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Unterer Heuberg 23</tei:title>
+            <tei:idno>HGB 1 79/30</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1480312</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1423">1423</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611192.6078808685 1267280.7336491982</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">git</token>
+    <token token_id="1">ze</token>
+    <token token_id="2">kaufen</token>
+    <token token_id="3">Veren</token>
+    <token token_id="4">Wildin</token>
+    <token token_id="5">wil</token>
+    <token token_id="6">.</token>
+    <token token_id="7">Heintzmans</token>
+    <token token_id="8">Wilden</token>
+    <token token_id="9">seb</token>
+    <token token_id="10">tochter</token>
+    <token token_id="11">des</token>
+    <token token_id="12">metzgers</token>
+    <token token_id="13">tochter</token>
+    <token token_id="14">,</token>
+    <token token_id="15">Nycolao</token>
+    <token token_id="16">Lutprand</token>
+    <token token_id="17">.</token>
+    <token token_id="18">alias</token>
+    <token token_id="19">Enwaltig</token>
+    <token token_id="20">,</token>
+    <token token_id="21">canfici</token>
+    <token token_id="22">,</token>
+    <token token_id="23">die</token>
+    <token token_id="24">zwen</token>
+    <token token_id="25">teil</token>
+    <token token_id="26">des</token>
+    <token token_id="27">Huses</token>
+    <token token_id="28">u</token>
+    <token token_id="29">.</token>
+    <token token_id="30">Hofstatt</token>
+    <token token_id="31">ư</token>
+    <token token_id="32">garten</token>
+    <token token_id="33">derhinder</token>
+    <token token_id="34">,</token>
+    <token token_id="35">da</token>
+    <token token_id="36">den</token>
+    <token token_id="37">dritteil</token>
+    <token token_id="38">desselben</token>
+    <token token_id="39">huses</token>
+    <token token_id="40">vorhin</token>
+    <token token_id="41">zugehöret</token>
+    <token token_id="42">dem</token>
+    <token token_id="43">genanten</token>
+    <token token_id="44">Kouffer</token>
+    <token token_id="45">gelegen</token>
+    <token token_id="46">uff</token>
+    <token token_id="47">dem</token>
+    <token token_id="48">Höberg</token>
+    <token token_id="49">,</token>
+    <token token_id="50">zwuschent</token>
+    <token token_id="51">Buggahenslis</token>
+    <token token_id="52">u</token>
+    <token token_id="53">.</token>
+    <token token_id="54">Peters</token>
+    <token token_id="55">Lurtschen</token>
+    <token token_id="56">husen</token>
+    <token token_id="57">,</token>
+    <token token_id="58">ist</token>
+    <token token_id="59">erb</token>
+    <token token_id="60">von</token>
+    <token token_id="61">der</token>
+    <token token_id="62">bruderschs</token>
+    <token token_id="63">.</token>
+    <token token_id="64">Johans</token>
+    <token token_id="65">uf</token>
+    <token token_id="66">Burg</token>
+    <token token_id="67">etc</token>
+    <token token_id="68">,</token>
+    <token token_id="69">um</token>
+    <token token_id="70">50</token>
+    <token token_id="71">fl</token>
+    <token token_id="72">.</token>
+    <token token_id="73">der</token>
+    <token token_id="74">derab</token>
+    <token token_id="75">gand</token>
+    <token token_id="76">1</token>
+    <token token_id="77">℔</token>
+    <token token_id="78">4</token>
+    <token token_id="79">sh</token>
+    <token token_id="80">.</token>
+    <token token_id="81">ring</token>
+    <token token_id="82">wisung</token>
+    <token token_id="83">,</token>
+    <token token_id="84">u</token>
+    <token token_id="85">.</token>
+    <token token_id="86">1</token>
+    <token token_id="87">hun</token>
+    <token token_id="88">erschatz</token>
+    <token token_id="89">fertigungsbuch</token>
+    <token token_id="90">pg</token>
+    <token token_id="91">.</token>
+    <token token_id="92">264</token>
+    <token token_id="93">.</token>
+  </text>
+  <spans>
+    <span id="1654" start="2" end="2" text="kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1374" start="3" end="13" text="Veren Wildin wil . Heintzmans Wilden&#10;seb tochter des metzgers tochter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1380" start="3" end="4" text="Veren Wildin" element="head" class="nam" subclass=""/>
+      <span id="1404" start="5" end="10" text="wil . Heintzmans Wilden&#10;seb tochter" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1392" start="5" end="9" text="wil . Heintzmans Wilden&#10;seb" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1386" start="7" end="8" text="Heintzmans Wilden" element="head" class="nam" subclass=""/>
+          <span id="1441" start="9" end="9" text="seb" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+        <span id="1398" start="10" end="10" text="tochter" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="1428" start="11" end="13" text="des metzgers tochter" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1410" start="11" end="12" text="des metzgers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1416" start="12" end="12" text="metzgers" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1422" start="13" end="13" text="tochter" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1447" start="15" end="21" text="Nycolao Lutprand .&#10;alias Enwaltig , canfici" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1459" start="15" end="16" text="Nycolao Lutprand" element="head" class="nam" subclass=""/>
+      <span id="1465" start="19" end="19" text="Enwaltig" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1465_head" start="19" end="19" element="head" class="nam" text="Enwaltig" subclass=""/>
+      </span>
+      <span id="1453" start="21" end="21" text="canfici" element="unclear" class="unclear" subclass=""/>
+    </span>
+    <span id="1526" start="23" end="67" text="die zwen teil des Huses&#10;u . Hofstatt ư garten derhinder , da den dritteil desselben&#10;huses vorhin zugehöret dem genanten Kouffer gelegen&#10;uff dem Höberg , zwuschent Buggahenslis u . Peters&#10;Lurtschen husen , ist erb von der bruderschs . Johans&#10;uf Burg etc" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="part">
+      <span id="1471" start="27" end="30" text="Huses&#10;u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1477" start="31" end="33" text="ư garten derhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1483" start="32" end="32" text="garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1483_head" start="32" end="32" element="head" class="type" text="garten" subclass=""/>
+        </span>
+      </span>
+      <span id="custom_owner_details" start="36" end="44" text="den dritteil desselben&#10;huses vorhin zugehöret dem genanten Kouffer" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="partial">
+        <span id="1514" start="36" end="39" text="den dritteil desselben&#10;huses" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="part">
+          <span id="1489" start="39" end="39" text="huses" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1495" start="42" end="44" text="dem genanten Kouffer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1501" start="44" end="44" text="Kouffer" element="head" class="role" subclass=""/>
+        </span>
+      </span>
+      <span id="1538" start="45" end="56" text="gelegen&#10;uff dem Höberg , zwuschent Buggahenslis u . Peters&#10;Lurtschen husen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1544" start="47" end="48" text="dem Höberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1550" start="48" end="48" text="Höberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1556" start="51" end="56" text="Buggahenslis u . Peters&#10;Lurtschen husen" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1580" start="51" end="55" text="Buggahenslis u . Peters&#10;Lurtschen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1562" start="51" end="51" text="Buggahenslis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1562_head" start="51" end="51" element="head" class="nam" text="Buggahenslis" subclass=""/>
+            </span>
+            <span id="1568" start="54" end="55" text="Peters&#10;Lurtschen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1568_head" start="54" end="55" element="head" class="nam" text="Peters Lurtschen" subclass=""/>
+            </span>
+          </span>
+          <span id="1574" start="56" end="56" text="husen" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="custom_tax_owner" start="58" end="66" text="ist erb von der bruderschs . Johans&#10;uf Burg" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1586" start="61" end="66" text="der bruderschs . Johans&#10;uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1592" start="62" end="64" text="bruderschs . Johans" element="head" class="nam" subclass=""/>
+          <span id="1604" start="65" end="66" text="uf Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1598" start="66" end="66" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1598_head" start="66" end="66" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1610" start="70" end="72" text="50 fl ." element="value" class="money" subclass=""/>
+    <span id="1660" start="73" end="88" text="der derab gand 1 ℔ 4 sh .&#10;ring wisung , u . 1 hun erschatz" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1616" start="73" end="73" text="der" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1616_head" start="73" end="73" element="head" class="pro" text="der" subclass=""/>
+      </span>
+      <span id="1629" start="74" end="74" text="derab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="part">
+        <span id="1629_head" start="74" end="74" element="head" class="pro" text="derab" subclass=""/>
+      </span>
+      <span id="1666" start="75" end="75" text="gand" element="trigger" class="type" subclass=""/>
+      <span id="1642" start="76" end="80" text="1 ℔ 4 sh ." element="value" class="money" subclass=""/>
+      <span id="1678" start="81" end="81" text="ring" element="value" class="money" subclass=""/>
+      <span id="1672" start="82" end="82" text="wisung" element="other" class="other" subclass=""/>
+      <span id="1648" start="86" end="87" text="1 hun" element="value" class="money" subclass=""/>
+      <span id="1684" start="88" end="88" text="erschatz" element="other" class="other" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1434" from="1410" to="1392" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1507" from="1495" to="1447" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1635" from="1629" to="1526" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1622" from="1616" to="1586" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="custom_coref" from="1514" to="1526" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="73" end="88" ref="1660" type="state">
+      <trigger start="75" end="75" text="gand" ref="1666"/>
+      <event event_id="0.0">
+        <role role="beneficiary" ref="1616" text="der"/>
+        <role role="property" ref="1629" text="derab"/>
+        <role role="interest" ref="1678" text="ring"/>
+        <role role="cause" ref="1672" text="wisung"/>
+      </event>
+      <event event_id="0.1">
+        <role role="beneficiary" ref="1616" text="der"/>
+        <role role="property" ref="1629" text="derab"/>
+        <role role="interest" ref="1642" text="1 ℔ 4 sh ."/>
+      </event>
+      <event event_id="0.2">
+        <role role="beneficiary" ref="1616" text="der"/>
+        <role role="property" ref="1629" text="derab"/>
+        <role role="interest" ref="1648" text="1 hun"/>
+        <role role="cause" ref="1684" text="erschatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="5" end="10" ref="1404" type="state">
+      <trigger start="10" end="10" text="tochter" ref="1398"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1374" text="Veren Wildin wil . Heintzmans Wilden&#10;seb tochter des metzgers tochter"/>
+        <role role="family-b" ref="1392" text="wil . Heintzmans Wilden&#10;seb"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="11" end="13" ref="1428" type="state">
+      <trigger start="13" end="13" text="tochter" ref="1422"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1374" text="Veren Wildin wil . Heintzmans Wilden&#10;seb tochter des metzgers tochter"/>
+        <role role="family-b" ref="1410" text="des metzgers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="31" end="33" ref="1477" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1526" text="die zwen teil des Huses&#10;u . Hofstatt ư garten derhinder , da den dritteil desselben&#10;huses vorhin zugehöret dem genanten Kouffer gelegen&#10;uff dem Höberg , zwuschent Buggahenslis u . Peters&#10;Lurtschen husen , ist erb von der bruderschs . Johans&#10;uf Burg etc"/>
+        <role role="part" ref="1483" text="garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="36" end="44" ref="custom_owner_details" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1514" text="den dritteil desselben&#10;huses"/>
+        <role role="owner" ref="1495" text="dem genanten Kouffer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="45" end="56" ref="1538" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1526" text="die zwen teil des Huses&#10;u . Hofstatt ư garten derhinder , da den dritteil desselben&#10;huses vorhin zugehöret dem genanten Kouffer gelegen&#10;uff dem Höberg , zwuschent Buggahenslis u . Peters&#10;Lurtschen husen , ist erb von der bruderschs . Johans&#10;uf Burg etc"/>
+        <role role="location-b" ref="1544" text="dem Höberg"/>
+        <role role="location-b" ref="1556" text="Buggahenslis u . Peters&#10;Lurtschen husen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="51" end="55" ref="1580" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1556" text="Buggahenslis u . Peters&#10;Lurtschen husen"/>
+        <role role="owner" ref="1562" text="Buggahenslis"/>
+        <role role="owner" ref="1568" text="Peters&#10;Lurtschen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="58" end="66" ref="custom_tax_owner" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1526" text="die zwen teil des Huses&#10;u . Hofstatt ư garten derhinder , da den dritteil desselben&#10;huses vorhin zugehöret dem genanten Kouffer gelegen&#10;uff dem Höberg , zwuschent Buggahenslis u . Peters&#10;Lurtschen husen , ist erb von der bruderschs . Johans&#10;uf Burg etc"/>
+        <role role="beneficiary" ref="1586" text="der bruderschs . Johans&#10;uf Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="65" end="66" ref="1604" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="1586" text="der bruderschs . Johans&#10;uf Burg"/>
+        <role role="location-b" ref="1598" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="2" end="72" ref="" type="event">
+      <trigger start="2" end="2" text="kaufen" ref="1654"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1374" text="Veren Wildin wil . Heintzmans Wilden&#10;seb tochter des metzgers tochter"/>
+        <role role="buyer" ref="1447" text="Nycolao Lutprand .&#10;alias Enwaltig , canfici"/>
+        <role role="property" ref="1526" text="die zwen teil des Huses&#10;u . Hofstatt ư garten derhinder , da den dritteil desselben&#10;huses vorhin zugehöret dem genanten Kouffer gelegen&#10;uff dem Höberg , zwuschent Buggahenslis u . Peters&#10;Lurtschen husen , ist erb von der bruderschs . Johans&#10;uf Burg etc"/>
+        <role role="price" ref="1610" text="50 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 146/33 S. [39]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Petersberg 23</tei:title>
+            <tei:idno>HGB 1 146/33</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1501537</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1666">1666</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611123.389182832 1267686.6069281567</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Anschlag</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Der</token>
+    <token token_id="3">Statthalter</token>
+    <token token_id="4">des</token>
+    <token token_id="5">freyen</token>
+    <token token_id="6">Ambts</token>
+    <token token_id="7">hat</token>
+    <token token_id="8">unamen</token>
+    <token token_id="9">weil</token>
+    <token token_id="10">.</token>
+    <token token_id="11">Marilian</token>
+    <token token_id="12">Müllers</token>
+    <token token_id="13">des</token>
+    <token token_id="14">Postilions</token>
+    <token token_id="15">H</token>
+    <token token_id="16">.</token>
+    <token token_id="17">Credito</token>
+    <token token_id="18">ren</token>
+    <token token_id="19">sein</token>
+    <token token_id="20">Müllers</token>
+    <token token_id="21">Behausung</token>
+    <token token_id="22">am</token>
+    <token token_id="23">Herberigberg</token>
+    <token token_id="24">,</token>
+    <token token_id="25">einseits</token>
+    <token token_id="26">neben</token>
+    <token token_id="27">H</token>
+    <token token_id="28">.</token>
+    <token token_id="29">H</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Johann</token>
+    <token token_id="32">Philipp</token>
+    <token token_id="33">Cellary</token>
+    <token token_id="34">sel</token>
+    <token token_id="35">.</token>
+    <token token_id="36">Frl</token>
+    <token token_id="37">.</token>
+    <token token_id="38">Wittib</token>
+    <token token_id="39">,</token>
+    <token token_id="40">anderseits</token>
+    <token token_id="41">Conrad</token>
+    <token token_id="42">Oberle</token>
+    <token token_id="43">gelegen</token>
+    <token token_id="44">,</token>
+    <token token_id="45">gefrönt</token>
+    <token token_id="46">und</token>
+    <token token_id="47">wird</token>
+    <token token_id="48">man</token>
+    <token token_id="49">solche</token>
+    <token token_id="50">Behausung</token>
+    <token token_id="51">auf</token>
+    <token token_id="52">Zeinstag</token>
+    <token token_id="53">den</token>
+    <token token_id="54">10</token>
+    <token token_id="55">.</token>
+    <token token_id="56">Aprilis</token>
+    <token token_id="57">verkaufen</token>
+    <token token_id="58">.</token>
+  </text>
+  <spans>
+    <span id="909" start="2" end="6" text="Der Statthalter des freyen Ambts" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="999" start="3" end="3" text="Statthalter" element="head" class="occ" subclass="org-repr"/>
+      <span id="1005" start="4" end="6" text="des freyen Ambts" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+        <span id="1011" start="5" end="6" text="freyen Ambts" element="head" class="type" subclass=""/>
+      </span>
+    </span>
+    <span id="915" start="9" end="18" text="weil . Marilian Müllers des Postilions H . Credito&#10;ren" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="927" start="9" end="14" text="weil . Marilian Müllers des Postilions" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1072" start="9" end="10" text="weil ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="933" start="11" end="12" text="Marilian Müllers" element="head" class="nam" subclass=""/>
+        <span id="939" start="13" end="14" text="des Postilions" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="945" start="14" end="14" text="Postilions" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="921" start="17" end="18" text="Credito&#10;ren" element="head" class="creditor" subclass=""/>
+    </span>
+    <span id="951" start="19" end="43" text="sein Müllers Behausung am Herberigberg ,&#10;einseits neben H . H . Johann Philipp Cellary sel .&#10;Frl . Wittib , anderseits Conrad Oberle gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1097" start="19" end="20" text="sein Müllers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1030" start="19" end="20" text="sein Müllers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1036" start="20" end="20" text="Müllers" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1017" start="21" end="21" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="957" start="22" end="43" text="am Herberigberg ,&#10;einseits neben H . H . Johann Philipp Cellary sel .&#10;Frl . Wittib , anderseits Conrad Oberle gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1078" start="22" end="23" text="am Herberigberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="963" start="23" end="23" text="Herberigberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="969" start="27" end="38" text="H . H . Johann Philipp Cellary sel .&#10;Frl . Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="981" start="27" end="35" text="H . H . Johann Philipp Cellary sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1042" start="31" end="33" text="Johann Philipp Cellary" element="head" class="nam" subclass=""/>
+            <span id="987" start="34" end="35" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="975" start="38" end="38" text="Wittib" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="993" start="41" end="42" text="Conrad Oberle" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="993_head" start="41" end="42" element="head" class="nam" text="Conrad Oberle" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1066" start="45" end="45" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1048" start="49" end="50" text="solche Behausung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1054" start="50" end="50" text="Behausung" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1060" start="51" end="56" text="auf Zeinstag den 10 . Aprilis" element="value" class="date" subclass=""/>
+    <span id="1084" start="57" end="57" text="verkaufen" element="trigger" class="sale" tense="fut" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1023" from="909" to="927" class="per-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1103" from="1030" to="927" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1090" from="1048" to="951" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="2" end="6" ref="909" type="state">
+      <trigger start="3" end="3" text="Statthalter" ref="999"/>
+      <event event_id="0.0">
+        <role role="employee" ref="909" text="Der Statthalter des freyen Ambts"/>
+        <role role="employer" ref="1005" text="des freyen Ambts"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="debt" polarity="pos" tense="pres" modality="ass" start="9" end="18" ref="915" type="state">
+      <trigger start="17" end="18" text="Credito&#10;ren" ref="921"/>
+      <event event_id="1.0">
+        <role role="creditor" ref="915" text="weil . Marilian Müllers des Postilions H . Credito&#10;ren"/>
+        <role role="debitor" ref="927" text="weil . Marilian Müllers des Postilions"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="27" end="38" ref="969" type="state">
+      <trigger start="38" end="38" text="Wittib" ref="975"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="969" text="H . H . Johann Philipp Cellary sel .&#10;Frl . Wittib"/>
+        <role role="family-b" ref="981" text="H . H . Johann Philipp Cellary sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="19" end="20" ref="1097" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="951" text="sein Müllers Behausung am Herberigberg ,&#10;einseits neben H . H . Johann Philipp Cellary sel .&#10;Frl . Wittib , anderseits Conrad Oberle gelegen"/>
+        <role role="owner" ref="1030" text="sein Müllers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="22" end="43" ref="957" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="951" text="sein Müllers Behausung am Herberigberg ,&#10;einseits neben H . H . Johann Philipp Cellary sel .&#10;Frl . Wittib , anderseits Conrad Oberle gelegen"/>
+        <role role="location-b" ref="1078" text="am Herberigberg"/>
+        <role role="location-b" ref="969" text="H . H . Johann Philipp Cellary sel .&#10;Frl . Wittib"/>
+        <role role="location-b" ref="993" text="Conrad Oberle"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="45" ref="" type="event">
+      <trigger start="45" end="45" text="gefrönt" ref="1066"/>
+      <event event_id="5.0">
+        <role role="claimant" ref="909" text="Der Statthalter des freyen Ambts"/>
+        <role role="property" ref="951" text="sein Müllers Behausung am Herberigberg ,&#10;einseits neben H . H . Johann Philipp Cellary sel .&#10;Frl . Wittib , anderseits Conrad Oberle gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="property-purchase" polarity="pos" tense="fut" modality="ass" start="49" end="57" ref="" type="event">
+      <trigger start="57" end="57" text="verkaufen" ref="1084"/>
+      <event event_id="6.0">
+        <role role="property" ref="1048" text="solche Behausung"/>
+        <role role="date" ref="1060" text="auf Zeinstag den 10 . Aprilis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="7.0">
+        <role role="representative" ref="909" text="Der Statthalter des freyen Ambts"/>
+        <role role="represented" ref="927" text="weil . Marilian Müllers des Postilions"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

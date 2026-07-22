@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 223/10 S. [18]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Totentanz 3</tei:title>
+            <tei:idno>HGB 1 223/10</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1533181</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Prediger</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1562">1562</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611098.501302356 1267907.4431799548</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">Ursula</token>
+    <token token_id="2">Läberlerin</token>
+    <token token_id="3">zur</token>
+    <token token_id="4">fron</token>
+    <token token_id="5">.</token>
+    <token token_id="6">10ß</token>
+    <token token_id="7">thut</token>
+    <token token_id="8">fasten</token>
+    <token token_id="9">.</token>
+    <token token_id="10">2</token>
+    <token token_id="11">℔</token>
+    <token token_id="12">.</token>
+    <token token_id="13">Ebenso</token>
+    <token token_id="14">1563</token>
+    <token token_id="15">.</token>
+    <token token_id="16">1564</token>
+    <token token_id="17">Fridlin</token>
+    <token token_id="18">Broglin</token>
+    <token token_id="19">der</token>
+    <token token_id="20">Rebmann</token>
+    <token token_id="21">git</token>
+    <token token_id="22">10ß</token>
+    <token token_id="23">thut</token>
+    <token token_id="24">jars</token>
+    <token token_id="25">2</token>
+    <token token_id="26">℔</token>
+    <token token_id="27">.</token>
+  </text>
+  <spans>
+    <span id="519" start="1" end="2" text="Ursula Läberlerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="519_head" start="1" end="2" element="head" class="nam" text="Ursula Läberlerin" subclass=""/>
+    </span>
+    <span id="591" start="4" end="5" text="fron ." element="value" class="date" subclass=""/>
+    <span id="525" start="6" end="6" text="10ß" element="value" class="money" subclass=""/>
+    <span id="597" start="7" end="7" text="thut" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="531" start="10" end="12" text="2 ℔." element="value" class="money" subclass=""/>
+    <span id="537" start="14" end="14" text="1563" element="value" class="date" subclass=""/>
+    <span id="543" start="16" end="16" text="1564" element="value" class="date" subclass=""/>
+    <span id="549" start="17" end="20" text="Fridlin Broglin der Rebmann" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="555" start="17" end="18" text="Fridlin Broglin" element="head" class="nam" subclass=""/>
+      <span id="561" start="19" end="20" text="der Rebmann" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="567" start="20" end="20" text="Rebmann" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="603" start="21" end="21" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="573" start="22" end="22" text="10ß" element="value" class="money" subclass=""/>
+    <span id="609" start="23" end="27" text="thut jars&#10;2 ℔." element="other" class="other" subclass="">
+      <span id="579" start="24" end="24" text="jars" element="value" class="time" subclass="rec"/>
+      <span id="585" start="25" end="27" text="2 ℔." element="value" class="money" subclass=""/>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="1" end="7" ref="" type="event">
+      <trigger start="7" end="7" text="thut" ref="597"/>
+      <event event_id="0.0">
+        <role role="payer" ref="519" text="Ursula Läberlerin"/>
+        <role role="interval" ref="591" text="fron ."/>
+        <role role="interest" ref="525" text="10ß"/>
+        <role role="interest" ref="531" text="2 ℔."/>
+        <role role="date" ref="537" text="1563"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="16" end="27" ref="" type="event">
+      <trigger start="21" end="21" text="git" ref="603"/>
+      <event event_id="1.0">
+        <role role="date" ref="543" text="1564"/>
+        <role role="payer" ref="549" text="Fridlin Broglin der Rebmann"/>
+        <role role="interest" ref="573" text="10ß"/>
+        <role role="detail_interest-conv" ref="609" text="thut jars&#10;2 ℔."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

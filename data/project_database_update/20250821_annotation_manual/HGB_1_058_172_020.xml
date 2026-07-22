@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/172 S. [20]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 56</tei:title>
+            <tei:idno>HGB 1 58/172</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1468112</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1471">1471</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611433.5272138696 1267218.501766557</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Privat</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Der</token>
+    <token token_id="5">Spital</token>
+    <token token_id="6">zu</token>
+    <token token_id="7">Basel</token>
+    <token token_id="8">löst</token>
+    <token token_id="9">die</token>
+    <token token_id="10">anno</token>
+    <token token_id="11">1448</token>
+    <token token_id="12">von</token>
+    <token token_id="13">wilent</token>
+    <token token_id="14">Cunraten</token>
+    <token token_id="15">Brun</token>
+    <token token_id="16">von</token>
+    <token token_id="17">Rudlingen</token>
+    <token token_id="18">,</token>
+    <token token_id="19">Ennelin</token>
+    <token token_id="20">Sidlerin</token>
+    <token token_id="21">siner</token>
+    <token token_id="22">Hussfrouwen</token>
+    <token token_id="23">,</token>
+    <token token_id="24">als</token>
+    <token token_id="25">Houptverkouffern</token>
+    <token token_id="26">und</token>
+    <token token_id="27">Werlin</token>
+    <token token_id="28">Wertgast</token>
+    <token token_id="29">als</token>
+    <token token_id="30">Mitverkouffere</token>
+    <token token_id="31">an</token>
+    <token token_id="32">Niclauws</token>
+    <token token_id="33">Rusch</token>
+    <token token_id="34">Statt</token>
+    <token token_id="35">¬</token>
+    <token token_id="36">schriber</token>
+    <token token_id="37">zu</token>
+    <token token_id="38">Mülhusen</token>
+    <token token_id="39">wilent</token>
+    <token token_id="40">Niclauwsen</token>
+    <token token_id="41">Ruschs</token>
+    <token token_id="42">,</token>
+    <token token_id="43">den</token>
+    <token token_id="44">man</token>
+    <token token_id="45">nampt</token>
+    <token token_id="46">Lauwlin</token>
+    <token token_id="47">Moler</token>
+    <token token_id="48">von</token>
+    <token token_id="49">Thubingen</token>
+    <token token_id="50">,</token>
+    <token token_id="51">sel</token>
+    <token token_id="52">.</token>
+    <token token_id="53">eeli</token>
+    <token token_id="54">.</token>
+    <token token_id="55">chen</token>
+    <token token_id="56">Sun</token>
+    <token token_id="57">verkauften</token>
+    <token token_id="58">10</token>
+    <token token_id="59">Gld</token>
+    <token token_id="60">.</token>
+    <token token_id="61">von</token>
+    <token token_id="62">uff</token>
+    <token token_id="63">und</token>
+    <token token_id="64">abe</token>
+    <token token_id="65">dem</token>
+    <token token_id="66">Huse</token>
+    <token token_id="67">zem</token>
+    <token token_id="68">grünen</token>
+    <token token_id="69">Ring</token>
+    <token token_id="70">in</token>
+    <token token_id="71">der</token>
+    <token token_id="72">Stat</token>
+    <token token_id="73">Basel</token>
+    <token token_id="74">an</token>
+    <token token_id="75">der</token>
+    <token token_id="76">fryen</token>
+    <token token_id="77">Strasse</token>
+    <token token_id="78">gelegen</token>
+    <token token_id="79">,</token>
+    <token token_id="80">ouch</token>
+    <token token_id="81">anderen</token>
+    <token token_id="82">Underpfendern</token>
+    <token token_id="83">mit</token>
+    <token token_id="84">200</token>
+    <token token_id="85">Gld</token>
+    <token token_id="86">.</token>
+    <token token_id="87">ab</token>
+    <token token_id="88">,</token>
+    <token token_id="89">nachdem</token>
+    <token token_id="90">die</token>
+    <token token_id="91">obigen</token>
+    <token token_id="92">Verkäufer</token>
+    <token token_id="93">mit</token>
+    <token token_id="94">irem</token>
+    <token token_id="95">Lib</token>
+    <token token_id="96">und</token>
+    <token token_id="97">Gut</token>
+    <token token_id="98">in</token>
+    <token token_id="99">den</token>
+    <token token_id="100">Spittal</token>
+    <token token_id="101">kommen</token>
+    <token token_id="102">sind</token>
+    <token token_id="103">,</token>
+  </text>
+  <spans>
+    <span id="1654" start="5" end="7" text="Spital zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1660" start="5" end="5" text="Spital" element="head" class="type" subclass=""/>
+      <span id="1666" start="6" end="7" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1672" start="7" end="7" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1672_head" start="7" end="7" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2002" start="8" end="8" text="löst" element="trigger" class="redemption" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1678" start="10" end="11" text="anno 1448" element="value" class="date" subclass=""/>
+    <span id="1945" start="14" end="30" text="Cunraten Brun von Rudlingen , Ennelin Sidlerin&#10;siner Hussfrouwen , als Houptverkouffern und Werlin&#10;Wertgast als Mitverkouffere" element="list" class="per" subclass="">
+      <span id="1745" start="14" end="22" text="Cunraten Brun von Rudlingen , Ennelin Sidlerin&#10;siner Hussfrouwen" element="list" class="per" subclass="">
+        <span id="1684" start="14" end="17" text="Cunraten Brun von Rudlingen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1690" start="14" end="15" text="Cunraten Brun" element="head" class="nam" subclass=""/>
+          <span id="1696" start="16" end="17" text="von Rudlingen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1702" start="17" end="17" text="Rudlingen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1702_head" start="17" end="17" element="head" class="nam" text="Rudlingen" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1708" start="19" end="22" text="Ennelin Sidlerin&#10;siner Hussfrouwen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1714" start="19" end="20" text="Ennelin Sidlerin" element="head" class="nam" subclass=""/>
+          <span id="1720" start="21" end="22" text="siner Hussfrouwen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1732" start="21" end="21" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1732_head" start="21" end="21" element="head" class="pro" text="siner" subclass=""/>
+            </span>
+            <span id="1726" start="22" end="22" text="Hussfrouwen" element="head" class="fam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1751" start="25" end="25" text="Houptverkouffern" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1751_head" start="25" end="25" element="head" class="role" text="Houptverkouffern" subclass=""/>
+      </span>
+      <span id="1764" start="27" end="28" text="Werlin&#10;Wertgast" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1764_head" start="27" end="28" element="head" class="nam" text="Werlin Wertgast" subclass=""/>
+      </span>
+      <span id="1770" start="30" end="30" text="Mitverkouffere" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1770_head" start="30" end="30" element="head" class="role" text="Mitverkouffere" subclass=""/>
+      </span>
+    </span>
+    <span id="1783" start="32" end="56" text="Niclauws Rusch Statt ¬&#10;schriber zu Mülhusen wilent Niclauwsen Ruschs , den&#10;man nampt Lauwlin Moler von Thubingen , sel . eeli .&#10;chen Sun" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1789" start="32" end="33" text="Niclauws Rusch" element="head" class="nam" subclass=""/>
+      <span id="1795" start="34" end="38" text="Statt ¬&#10;schriber zu Mülhusen" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1801" start="34" end="36" text="Statt ¬&#10;schriber" element="head" class="occ" subclass=""/>
+        <span id="1807" start="37" end="38" text="zu Mülhusen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1813" start="38" end="38" text="Mülhusen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1813_head" start="38" end="38" element="head" class="nam" text="Mülhusen" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1819" start="39" end="56" text="wilent Niclauwsen Ruschs , den&#10;man nampt Lauwlin Moler von Thubingen , sel . eeli .&#10;chen Sun" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1831" start="39" end="52" text="wilent Niclauwsen Ruschs , den&#10;man nampt Lauwlin Moler von Thubingen , sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1837" start="40" end="41" text="Niclauwsen Ruschs" element="head" class="nam" subclass=""/>
+          <span id="1843" start="46" end="47" text="Lauwlin Moler" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1843_head" start="46" end="47" element="head" class="nam" text="Lauwlin Moler" subclass=""/>
+          </span>
+          <span id="1849" start="48" end="49" text="von Thubingen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1855" start="49" end="49" text="Thubingen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1855_head" start="49" end="49" element="head" class="nam" text="Thubingen" subclass=""/>
+            </span>
+          </span>
+          <span id="1861" start="51" end="52" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+        <span id="1825" start="56" end="56" text="Sun" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="2008" start="57" end="57" text="verkauften" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1867" start="58" end="60" text="10 Gld ." element="value" class="money" subclass=""/>
+    <span id="1873" start="65" end="78" text="dem&#10;Huse zem grünen Ring in der Stat Basel an der&#10;fryen Strasse gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1879" start="66" end="69" text="Huse zem grünen Ring" element="head" class="nam" subclass=""/>
+      <span id="1897" start="70" end="78" text="in der Stat Basel an der&#10;fryen Strasse gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1885" start="71" end="73" text="der Stat Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1891" start="73" end="73" text="Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1903" start="75" end="77" text="der&#10;fryen Strasse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1909" start="76" end="77" text="fryen Strasse" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2014" start="80" end="82" text="ouch anderen Underpfendern" element="other" class="other" subclass="">
+      <span id="1921" start="81" end="82" text="anderen Underpfendern" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1927" start="82" end="82" text="Underpfendern" element="head" class="role" subclass=""/>
+      </span>
+    </span>
+    <span id="1915" start="84" end="86" text="200 Gld ." element="value" class="money" subclass=""/>
+    <span id="2020" start="89" end="102" text="nachdem die obigen Verkäufer mit&#10;irem Lib und Gut in den Spittal kommen sind" element="other" class="other" subclass="">
+      <span id="1933" start="90" end="92" text="die obigen Verkäufer" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1939" start="92" end="92" text="Verkäufer" element="head" class="role" subclass=""/>
+      </span>
+      <span id="1958" start="94" end="94" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1958_head" start="94" end="94" element="head" class="pro" text="irem" subclass=""/>
+      </span>
+      <span id="1971" start="99" end="100" text="den Spittal" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1977" start="100" end="100" text="Spittal" element="head" class="type" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1983" from="1971" to="1654" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1951" from="1933" to="1945" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1757" from="1751" to="1745" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1738" from="1732" to="1684" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1776" from="1770" to="1764" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1964" from="1958" to="1933" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="21" end="22" ref="1720" type="state">
+      <trigger start="22" end="22" text="Hussfrouwen" ref="1726"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1708" text="Ennelin Sidlerin&#10;siner Hussfrouwen"/>
+        <role role="family-b" ref="1732" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="39" end="56" ref="1819" type="state">
+      <trigger start="56" end="56" text="Sun" ref="1825"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1783" text="Niclauws Rusch Statt ¬&#10;schriber zu Mülhusen wilent Niclauwsen Ruschs , den&#10;man nampt Lauwlin Moler von Thubingen , sel . eeli .&#10;chen Sun"/>
+        <role role="family-b" ref="1831" text="wilent Niclauwsen Ruschs , den&#10;man nampt Lauwlin Moler von Thubingen , sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="6" end="7" ref="1666" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1654" text="Spital zu Basel"/>
+        <role role="location-b" ref="1672" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="16" end="17" ref="1696" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1684" text="Cunraten Brun von Rudlingen"/>
+        <role role="location-b" ref="1702" text="Rudlingen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="37" end="38" ref="1807" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1783" text="Niclauws Rusch Statt ¬&#10;schriber zu Mülhusen wilent Niclauwsen Ruschs , den&#10;man nampt Lauwlin Moler von Thubingen , sel . eeli .&#10;chen Sun"/>
+        <role role="location-b" ref="1813" text="Mülhusen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="48" end="49" ref="1849" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1831" text="wilent Niclauwsen Ruschs , den&#10;man nampt Lauwlin Moler von Thubingen , sel ."/>
+        <role role="location-b" ref="1855" text="Thubingen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="70" end="78" ref="1897" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1873" text="dem&#10;Huse zem grünen Ring in der Stat Basel an der&#10;fryen Strasse gelegen"/>
+        <role role="location-b" ref="1885" text="der Stat Basel"/>
+        <role role="location-b" ref="1903" text="der&#10;fryen Strasse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="redemption" polarity="pos" tense="pres" modality="ass" start="5" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="löst" ref="2002"/>
+      <event event_id="7.0">
+        <role role="beneficiary" ref="1654" text="Spital zu Basel"/>
+        <role role="due" ref="2008" text="verkauften"/>
+        <role role="detail_other" ref="2014" text="ouch anderen Underpfendern"/>
+        <role role="capital" ref="1915" text="200 Gld ."/>
+        <role role="cause" ref="2020" text="nachdem die obigen Verkäufer mit&#10;irem Lib und Gut in den Spittal kommen sind"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="10" end="78" ref="" type="event">
+      <trigger start="57" end="57" text="verkauften" ref="2008"/>
+      <event event_id="8.0">
+        <role role="date" ref="1678" text="anno 1448"/>
+        <role role="seller" ref="1684" text="Cunraten Brun von Rudlingen"/>
+        <role role="seller" ref="1708" text="Ennelin Sidlerin&#10;siner Hussfrouwen"/>
+        <role role="seller" ref="1751" text="Houptverkouffern"/>
+        <role role="seller" ref="1764" text="Werlin&#10;Wertgast"/>
+        <role role="seller" ref="1770" text="Mitverkouffere"/>
+        <role role="buyer" ref="1783" text="Niclauws Rusch Statt ¬&#10;schriber zu Mülhusen wilent Niclauwsen Ruschs , den&#10;man nampt Lauwlin Moler von Thubingen , sel . eeli .&#10;chen Sun"/>
+        <role role="price" ref="1867" text="10 Gld ."/>
+        <role role="collateral" ref="1873" text="dem&#10;Huse zem grünen Ring in der Stat Basel an der&#10;fryen Strasse gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

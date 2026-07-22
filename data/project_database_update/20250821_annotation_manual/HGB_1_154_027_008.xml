@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 154/27 S. [8]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rebgasse Th. v. 21, 1. Th. v. 19</tei:title>
+            <tei:idno>HGB 1 154/27</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1505555</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1463">1463</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611770.373983885 1267742.8735450804</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">do</token>
+    <token token_id="2">bot</token>
+    <token token_id="3">frow</token>
+    <token token_id="4">Elß</token>
+    <token token_id="5">Baltheyminer</token>
+    <token token_id="6">uff</token>
+    <token token_id="7">die</token>
+    <token token_id="8">schür</token>
+    <token token_id="9">und</token>
+    <token token_id="10">trotten</token>
+    <token token_id="11">zem</token>
+    <token token_id="12">Steinkeller</token>
+    <token token_id="13">mit</token>
+    <token token_id="14">dem</token>
+    <token token_id="15">garten</token>
+    <token token_id="16">und</token>
+    <token token_id="17">aller</token>
+    <token token_id="18">zugehörd</token>
+    <token token_id="19">in</token>
+    <token token_id="20">der</token>
+    <token token_id="21">Rebgassen</token>
+    <token token_id="22">an</token>
+    <token token_id="23">Hansen</token>
+    <token token_id="24">Grempers</token>
+    <token token_id="25">huß</token>
+    <token token_id="26">gelegen</token>
+    <token token_id="27">,</token>
+    <token token_id="28">zinset</token>
+    <token token_id="29">dem</token>
+    <token token_id="30">gotzhuß</token>
+    <token token_id="31">zu</token>
+    <token token_id="32">sant</token>
+    <token token_id="33">Lienhart</token>
+    <token token_id="34">9ȡ</token>
+    <token token_id="35">und</token>
+    <token token_id="36">uff</token>
+    <token token_id="37">alle</token>
+    <token token_id="38">die</token>
+    <token token_id="39">recht</token>
+    <token token_id="40">so</token>
+    <token token_id="41">Hans</token>
+    <token token_id="42">Höwenstein</token>
+    <token token_id="43">selig</token>
+    <token token_id="44">daran</token>
+    <token token_id="45">hatt</token>
+    <token token_id="46">zem</token>
+    <token token_id="47">ersten</token>
+    <token token_id="48">gericht</token>
+    <token token_id="49">10</token>
+    <token token_id="50">℔</token>
+    <token token_id="51">,</token>
+    <token token_id="52">Men</token>
+    <token token_id="53">¬</token>
+    <token token_id="54">tag</token>
+    <token token_id="55">nach</token>
+    <token token_id="56">ephes</token>
+    <token token_id="57">aber</token>
+    <token token_id="58">10</token>
+    <token token_id="59">℔</token>
+    <token token_id="60">,</token>
+    <token token_id="61">Samstag</token>
+    <token token_id="62">aȵ</token>
+    <token token_id="63">Remiseere</token>
+    <token token_id="64">do</token>
+    <token token_id="65">bot</token>
+    <token token_id="66">und</token>
+    <token token_id="67">gab</token>
+    <token token_id="68">Rudolff</token>
+    <token token_id="69">Meder</token>
+    <token token_id="70">20</token>
+    <token token_id="71">℔</token>
+    <token token_id="72">Samstag</token>
+    <token token_id="73">nach</token>
+    <token token_id="74">Andree</token>
+    <token token_id="75">.</token>
+  </text>
+  <spans>
+    <span id="1384" start="2" end="2" text="bot" element="trigger" class="outbid" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1197" start="3" end="5" text="frow Elß Baltheyminer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1203" start="4" end="5" text="Elß Baltheyminer" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1209" start="7" end="34" text="die schür und trotten zem Steinkeller mit&#10;dem garten und aller zugehörd in der Rebgassen&#10;an Hansen Grempers huß gelegen , zinset&#10;dem gotzhuß zu sant Lienhart 9ȡ" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1215" start="8" end="12" text="schür und trotten zem Steinkeller" element="head" class="nam" subclass=""/>
+      <span id="1221" start="13" end="15" text="mit&#10;dem garten" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1233" start="14" end="15" text="dem garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1227" start="15" end="15" text="garten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1239" start="19" end="26" text="in der Rebgassen&#10;an Hansen Grempers huß gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1245" start="20" end="21" text="der Rebgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1251" start="21" end="21" text="Rebgassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1257" start="23" end="25" text="Hansen Grempers huß" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1269" start="23" end="24" text="Hansen Grempers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1275" start="23" end="24" text="Hansen Grempers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1275_head" start="23" end="24" element="head" class="nam" text="Hansen Grempers" subclass=""/>
+            </span>
+          </span>
+          <span id="1263" start="25" end="25" text="huß" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1281" start="28" end="34" text="zinset&#10;dem gotzhuß zu sant Lienhart 9ȡ" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1396" start="28" end="28" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1287" start="29" end="33" text="dem gotzhuß zu sant Lienhart" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1293" start="30" end="33" text="gotzhuß zu sant Lienhart" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1299" start="34" end="34" text="9ȡ" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1305" start="41" end="43" text="Hans Höwenstein selig" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1311" start="41" end="42" text="Hans Höwenstein" element="head" class="nam" subclass=""/>
+      <span id="1317" start="43" end="43" text="selig" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1323" start="44" end="44" text="daran" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1323_head" start="44" end="44" element="head" class="pro" text="daran" subclass=""/>
+    </span>
+    <span id="1390" start="46" end="48" text="zem ersten gericht" element="other" class="other" subclass=""/>
+    <span id="1336" start="49" end="50" text="10 ℔" element="value" class="money" subclass=""/>
+    <span id="1342" start="52" end="56" text="Men ¬&#10;tag nach ephes" element="value" class="date" subclass=""/>
+    <span id="1348" start="58" end="59" text="10 ℔" element="value" class="money" subclass=""/>
+    <span id="1354" start="61" end="63" text="Samstag aȵ&#10;Remiseere" element="value" class="date" subclass=""/>
+    <span id="1378" start="65" end="67" text="bot und gab" element="trigger" class="outbid" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1360" start="68" end="69" text="Rudolff Meder" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1360_head" start="68" end="69" element="head" class="nam" text="Rudolff Meder" subclass=""/>
+    </span>
+    <span id="1366" start="70" end="71" text="20 ℔" element="value" class="money" subclass=""/>
+    <span id="1372" start="72" end="74" text="Samstag nach Andree" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1329" from="1323" to="1209" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1396_role" from="1396" to="1209" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="part_whole" polarity="pos" tense="pres" modality="ass" start="13" end="15" ref="1221" type="state">
+      <event event_id="0.0">
+        <role role="whole" ref="1209" text="die schür und trotten zem Steinkeller mit&#10;dem garten und aller zugehörd in der Rebgassen&#10;an Hansen Grempers huß gelegen , zinset&#10;dem gotzhuß zu sant Lienhart 9ȡ"/>
+        <role role="part" ref="1233" text="dem garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="19" end="26" ref="1239" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1209" text="die schür und trotten zem Steinkeller mit&#10;dem garten und aller zugehörd in der Rebgassen&#10;an Hansen Grempers huß gelegen , zinset&#10;dem gotzhuß zu sant Lienhart 9ȡ"/>
+        <role role="location-b" ref="1245" text="der Rebgassen"/>
+        <role role="location-b" ref="1257" text="Hansen Grempers huß"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="23" end="24" ref="1269" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1257" text="Hansen Grempers huß"/>
+        <role role="owner" ref="1275" text="Hansen Grempers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="bid" polarity="pos" tense="pres" modality="ass" start="2" end="63" ref="" type="event">
+      <trigger start="2" end="2" text="bot" ref="1384"/>
+      <event event_id="3.0">
+        <role role="bidder" ref="1197" text="frow Elß Baltheyminer"/>
+        <role role="property" ref="1209" text="die schür und trotten zem Steinkeller mit&#10;dem garten und aller zugehörd in der Rebgassen&#10;an Hansen Grempers huß gelegen , zinset&#10;dem gotzhuß zu sant Lienhart 9ȡ"/>
+        <role role="other" ref="1390" text="zem ersten gericht"/>
+        <role role="bid" ref="1336" text="10 ℔"/>
+        <role role="date" ref="1342" text="Men ¬&#10;tag nach ephes"/>
+      </event>
+      <event event_id="3.1">
+        <role role="bidder" ref="1197" text="frow Elß Baltheyminer"/>
+        <role role="property" ref="1209" text="die schür und trotten zem Steinkeller mit&#10;dem garten und aller zugehörd in der Rebgassen&#10;an Hansen Grempers huß gelegen , zinset&#10;dem gotzhuß zu sant Lienhart 9ȡ"/>
+        <role role="bid" ref="1348" text="10 ℔"/>
+        <role role="date" ref="1354" text="Samstag aȵ&#10;Remiseere"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="28" end="34" ref="1281" type="state">
+      <trigger start="28" end="28" text="zinset" ref="1396"/>
+      <event event_id="4.0">
+        <role role="beneficiary" ref="1287" text="dem gotzhuß zu sant Lienhart"/>
+        <role role="interest" ref="1299" text="9ȡ"/>
+        <role role="property" ref="1209" text="die schür und trotten zem Steinkeller mit&#10;dem garten und aller zugehörd in der Rebgassen&#10;an Hansen Grempers huß gelegen , zinset&#10;dem gotzhuß zu sant Lienhart 9ȡ"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="bid" polarity="pos" tense="pres" modality="ass" start="65" end="74" ref="" type="event">
+      <trigger start="65" end="67" text="bot und gab" ref="1378"/>
+      <event event_id="5.0">
+        <role role="property" ref="1209" text="die schür und trotten zem Steinkeller mit&#10;dem garten und aller zugehörd in der Rebgassen&#10;an Hansen Grempers huß gelegen , zinset&#10;dem gotzhuß zu sant Lienhart 9ȡ"/>
+        <role role="bidder" ref="1360" text="Rudolff Meder"/>
+        <role role="bid" ref="1366" text="20 ℔"/>
+        <role role="date" ref="1372" text="Samstag nach Andree"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

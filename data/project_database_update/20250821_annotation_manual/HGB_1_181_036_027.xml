@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 181/36 S. [27]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schifflände 10a</tei:title>
+            <tei:idno>HGB 1 181/36</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1511448</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1507">1507</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611219.484434806 1267713.6638162606</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">hat</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Schaffner</token>
+    <token token_id="4">zu</token>
+    <token token_id="5">den</token>
+    <token token_id="6">Augustinern</token>
+    <token token_id="7">,</token>
+    <token token_id="8">Hansen</token>
+    <token token_id="9">Brund</token>
+    <token token_id="10">Hus</token>
+    <token token_id="11">&amp;</token>
+    <token token_id="12">Hofstatt</token>
+    <token token_id="13">genant</token>
+    <token token_id="14">zum</token>
+    <token token_id="15">Gulldenen</token>
+    <token token_id="16">Adler</token>
+    <token token_id="17">.</token>
+    <token token_id="18">von</token>
+    <token token_id="19">versessener</token>
+    <token token_id="20">Zinsen</token>
+    <token token_id="21">wegen</token>
+    <token token_id="22">,</token>
+    <token token_id="23">als</token>
+    <token token_id="24">das</token>
+    <token token_id="25">gotshus</token>
+    <token token_id="26">jährl</token>
+    <token token_id="27">5</token>
+    <token token_id="28">fl</token>
+    <token token_id="29">daruff</token>
+    <token token_id="30">het</token>
+    <token token_id="31">,</token>
+    <token token_id="32">den</token>
+    <token token_id="33">dritten</token>
+    <token token_id="34">Kauff</token>
+    <token token_id="35">getan</token>
+    <token token_id="36">,</token>
+    <token token_id="37">u</token>
+    <token token_id="38">hat</token>
+    <token token_id="39">gebotten</token>
+    <token token_id="40">1</token>
+    <token token_id="41">℔</token>
+    <token token_id="42">3sh</token>
+    <token token_id="43">.</token>
+  </text>
+  <spans>
+    <span id="712" start="2" end="6" text="der Schaffner zu den Augustinern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="718" start="3" end="3" text="Schaffner" element="head" class="occ" subclass="org-repr"/>
+      <span id="724" start="5" end="6" text="den Augustinern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="730" start="6" end="6" text="Augustinern" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="736" start="8" end="16" text="Hansen&#10;Brund Hus &amp; Hofstatt genant zum Gulldenen Adler" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="754" start="8" end="9" text="Hansen&#10;Brund" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="760" start="8" end="9" text="Hansen&#10;Brund" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="760_head" start="8" end="9" element="head" class="nam" text="Hansen Brund" subclass=""/>
+        </span>
+      </span>
+      <span id="742" start="10" end="12" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="748" start="14" end="16" text="zum Gulldenen Adler" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="748_head" start="14" end="16" element="head" class="nam" text="zum Gulldenen Adler" subclass=""/>
+      </span>
+    </span>
+    <span id="809" start="20" end="20" text="Zinsen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="766" start="24" end="25" text="das gotshus" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="772" start="25" end="25" text="gotshus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="785" start="26" end="26" text="jährl" element="value" class="time" subclass="rec"/>
+    <span id="791" start="27" end="28" text="5 fl" element="value" class="money" subclass=""/>
+    <span id="803" start="33" end="34" text="dritten Kauff" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="815" start="39" end="39" text="gebotten" element="trigger" class="offer" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="797" start="40" end="43" text="1 ℔ 3sh ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="778" from="766" to="724" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="2" end="6" ref="712" type="state">
+      <trigger start="3" end="3" text="Schaffner" ref="718"/>
+      <event event_id="0.0">
+        <role role="employee" ref="712" text="der Schaffner zu den Augustinern"/>
+        <role role="employer" ref="724" text="den Augustinern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="8" end="9" ref="754" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="736" text="Hansen&#10;Brund Hus &amp; Hofstatt genant zum Gulldenen Adler"/>
+        <role role="owner" ref="760" text="Hansen&#10;Brund"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="20" end="28" ref="" type="state">
+      <trigger start="20" end="20" text="Zinsen" ref="809"/>
+      <event event_id="2.0">
+        <role role="beneficiary" ref="766" text="das gotshus"/>
+        <role role="interval" ref="785" text="jährl"/>
+        <role role="interest" ref="791" text="5 fl"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="39" ref="" type="event">
+      <trigger start="33" end="34" text="dritten Kauff" ref="803"/>
+      <event event_id="3.0">
+        <role role="claimant" ref="712" text="der Schaffner zu den Augustinern"/>
+        <role role="property" ref="736" text="Hansen&#10;Brund Hus &amp; Hofstatt genant zum Gulldenen Adler"/>
+        <role role="cause" ref="809" text="Zinsen"/>
+        <role role="detail_offer" ref="815" text="gebotten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="offer" polarity="pos" tense="pres" modality="ass" start="2" end="43" ref="" type="event">
+      <trigger start="39" end="39" text="gebotten" ref="815"/>
+      <event event_id="4.0">
+        <role role="offeror" ref="712" text="der Schaffner zu den Augustinern"/>
+        <role role="price" ref="797" text="1 ℔ 3sh ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

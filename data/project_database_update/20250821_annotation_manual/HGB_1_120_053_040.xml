@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 120/53 S. [40]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Malzgasse 18</tei:title>
+            <tei:idno>HGB 1 120/53</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494611</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1678">1678</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611959.9848762425 1266958.5866293183</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Jahr</token>
+    <token token_id="1">Zinse</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Item</token>
+    <token token_id="4">herr</token>
+    <token token_id="5">Anthony</token>
+    <token token_id="6">Vogeley</token>
+    <token token_id="7">,</token>
+    <token token_id="8">zuvor</token>
+    <token token_id="9">Theobald</token>
+    <token token_id="10">Freuwen</token>
+    <token token_id="11">deß</token>
+    <token token_id="12">Wullenwebers</token>
+    <token token_id="13">seeligen</token>
+    <token token_id="14">erben</token>
+    <token token_id="15">,</token>
+    <token token_id="16">zinßt</token>
+    <token token_id="17">jährlich</token>
+    <token token_id="18">von</token>
+    <token token_id="19">reben</token>
+    <token token_id="20">an</token>
+    <token token_id="21">der</token>
+    <token token_id="22">Maltzgaßen</token>
+    <token token_id="23">gelegen</token>
+    <token token_id="24">auf</token>
+    <token token_id="25">Martini</token>
+    <token token_id="26">in</token>
+    <token token_id="27">gelt</token>
+    <token token_id="28">-</token>
+    <token token_id="29">7ß</token>
+    <token token_id="30">,</token>
+    <token token_id="31">hun</token>
+    <token token_id="32">1</token>
+    <token token_id="33">.</token>
+    <token token_id="34">1679</token>
+    <token token_id="35">herr</token>
+    <token token_id="36">Joh</token>
+    <token token_id="37">.</token>
+    <token token_id="38">Friderich</token>
+    <token token_id="39">Nübling</token>
+    <token token_id="40">Spittahls</token>
+    <token token_id="41">Ober</token>
+    <token token_id="42">¬</token>
+    <token token_id="43">schreiber</token>
+    <token token_id="44">giebt</token>
+    <token token_id="45">obigen</token>
+    <token token_id="46">Zins</token>
+    <token token_id="47">.</token>
+    <token token_id="48">18</token>
+    <token token_id="49">,</token>
+    <token token_id="50">20</token>
+    <token token_id="51">,</token>
+    <token token_id="52">22</token>
+    <token token_id="53">Th</token>
+    <token token_id="54">.</token>
+    <token token_id="55">v</token>
+    <token token_id="56">.</token>
+    <token token_id="57">24</token>
+    <token token_id="58">Barfüßer</token>
+    <token token_id="59">Einnahmenbücher</token>
+    <token token_id="60">.</token>
+  </text>
+  <spans>
+    <span id="1059" start="3" end="33" text="Item herr Anthony Vogeley , zuvor Theobald&#10;Freuwen deß Wullenwebers seeligen erben , zinßt&#10;jährlich von reben an der Maltzgaßen gelegen&#10;auf Martini in gelt - 7ß , hun 1 ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="909" start="4" end="6" text="herr Anthony Vogeley" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="915" start="5" end="6" text="Anthony Vogeley" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="921" start="9" end="14" text="Theobald&#10;Freuwen deß Wullenwebers seeligen erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="933" start="9" end="13" text="Theobald&#10;Freuwen deß Wullenwebers seeligen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="939" start="9" end="10" text="Theobald&#10;Freuwen" element="head" class="nam" subclass=""/>
+          <span id="945" start="11" end="12" text="deß Wullenwebers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="951" start="12" end="12" text="Wullenwebers" element="head" class="occ" subclass=""/>
+          </span>
+          <span id="957" start="13" end="13" text="seeligen" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+        <span id="927" start="14" end="14" text="erben" element="head" class="heir" subclass=""/>
+      </span>
+      <span id="1053" start="16" end="16" text="zinßt" element="trigger" class="type" subclass=""/>
+      <span id="963" start="17" end="17" text="jährlich" element="value" class="time" subclass="rec"/>
+      <span id="969" start="19" end="23" text="reben an der Maltzgaßen gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="975" start="19" end="19" text="reben" element="head" class="type" subclass=""/>
+        <span id="987" start="20" end="23" text="an der Maltzgaßen gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="981" start="21" end="22" text="der Maltzgaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="993" start="22" end="22" text="Maltzgaßen" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="999" start="24" end="25" text="auf Martini" element="value" class="date" subclass=""/>
+      <span id="1005" start="29" end="29" text="7ß" element="value" class="money" subclass=""/>
+      <span id="1011" start="31" end="32" text="hun 1" element="value" class="money" subclass=""/>
+    </span>
+    <span id="1083" start="34" end="46" text="1679 herr Joh . Friderich Nübling Spittahls Ober ¬&#10;schreiber giebt obigen Zins" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="change">
+      <span id="1017" start="34" end="34" text="1679" element="value" class="date" subclass=""/>
+      <span id="1023" start="35" end="43" text="herr Joh . Friderich Nübling Spittahls Ober ¬&#10;schreiber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1029" start="36" end="39" text="Joh . Friderich Nübling" element="head" class="nam" subclass=""/>
+        <span id="1035" start="40" end="43" text="Spittahls Ober ¬&#10;schreiber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+          <span id="1047" start="40" end="40" text="Spittahls" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1047_head" start="40" end="40" element="head" class="type" text="Spittahls" subclass=""/>
+          </span>
+          <span id="1041" start="41" end="43" text="Ober ¬&#10;schreiber" element="head" class="occ" subclass="org-job"/>
+        </span>
+      </span>
+      <span id="1065" start="44" end="44" text="giebt" element="trigger" class="type" subclass=""/>
+      <span id="1071" start="45" end="46" text="obigen Zins" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1077" start="46" end="46" text="Zins" element="trigger" class="type" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1089" from="1071" to="1059" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="3" end="33" ref="1059" type="state">
+      <trigger start="16" end="16" text="zinßt" ref="1053"/>
+      <event event_id="0.0">
+        <role role="payer" ref="909" text="herr Anthony Vogeley"/>
+        <role role="previous-payer" ref="921" text="Theobald&#10;Freuwen deß Wullenwebers seeligen erben"/>
+        <role role="interval" ref="963" text="jährlich"/>
+        <role role="property" ref="969" text="reben an der Maltzgaßen gelegen"/>
+        <role role="due-date" ref="999" text="auf Martini"/>
+        <role role="interest" ref="1005" text="7ß"/>
+        <role role="interest" ref="1011" text="hun 1"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="34" end="46" ref="1083" type="event">
+      <trigger start="44" end="44" text="giebt" ref="1065"/>
+      <event event_id="1.0">
+        <role role="date" ref="1017" text="1679"/>
+        <role role="payer" ref="1023" text="herr Joh . Friderich Nübling Spittahls Ober ¬&#10;schreiber"/>
+        <role role="previous-due" ref="1071" text="obigen Zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="45" end="46" ref="1071" type="event">
+      <trigger start="46" end="46" text="Zins" ref="1077"/>
+    </eventGroup>
+    <eventGroup event_id="3" class="inheritance" polarity="pos" tense="pres" modality="ass" start="9" end="14" ref="921" type="event">
+      <trigger start="14" end="14" text="erben" ref="927"/>
+      <event event_id="3.0">
+        <role role="heir" ref="921" text="Theobald&#10;Freuwen deß Wullenwebers seeligen erben"/>
+        <role role="decedent" ref="933" text="Theobald&#10;Freuwen deß Wullenwebers seeligen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="employment" polarity="pos" tense="pres" modality="ass" start="40" end="43" ref="1035" type="state">
+      <trigger start="41" end="43" text="Ober ¬&#10;schreiber" ref="1041"/>
+      <event event_id="4.0">
+        <role role="employee" ref="1023" text="herr Joh . Friderich Nübling Spittahls Ober ¬&#10;schreiber"/>
+        <role role="employer" ref="1047" text="Spittahls"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="23" ref="987" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="969" text="reben an der Maltzgaßen gelegen"/>
+        <role role="location-b" ref="981" text="der Maltzgaßen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

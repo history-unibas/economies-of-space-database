@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/47 S. [42]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 43</tei:title>
+            <tei:idno>HGB 1 194/47</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1514015</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Leonhard</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1551">1551</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611043.9382989234 1267349.9003842496</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Privat</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Jacob</token>
+    <token token_id="4">Lienhart</token>
+    <token token_id="5">der</token>
+    <token token_id="6">Schlosser</token>
+    <token token_id="7">,</token>
+    <token token_id="8">Burger</token>
+    <token token_id="9">zu</token>
+    <token token_id="10">Basel</token>
+    <token token_id="11">und</token>
+    <token token_id="12">Mar</token>
+    <token token_id="13">¬</token>
+    <token token_id="14">greth</token>
+    <token token_id="15">Linderin</token>
+    <token token_id="16">sin</token>
+    <token token_id="17">elich</token>
+    <token token_id="18">Wyb</token>
+    <token token_id="19">verkaufen</token>
+    <token token_id="20">dem</token>
+    <token token_id="21">Closter</token>
+    <token token_id="22">zu</token>
+    <token token_id="23">sant</token>
+    <token token_id="24">Lienhart</token>
+    <token token_id="25">zu</token>
+    <token token_id="26">Basel</token>
+    <token token_id="27">1</token>
+    <token token_id="28">℔</token>
+    <token token_id="29">.</token>
+    <token token_id="30">Stäbler</token>
+    <token token_id="31">jerlichs</token>
+    <token token_id="32">Zinses</token>
+    <token token_id="33">von</token>
+    <token token_id="34">uff</token>
+    <token token_id="35">und</token>
+    <token token_id="36">abe</token>
+    <token token_id="37">irem</token>
+    <token token_id="38">Sasshuse</token>
+    <token token_id="39">und</token>
+    <token token_id="40">Hofstatt</token>
+    <token token_id="41">,</token>
+    <token token_id="42">als</token>
+    <token token_id="43">das</token>
+    <token token_id="44">in</token>
+    <token token_id="45">der</token>
+    <token token_id="46">Statt</token>
+    <token token_id="47">Basel</token>
+    <token token_id="48">an</token>
+    <token token_id="49">den</token>
+    <token token_id="50">Spalen</token>
+    <token token_id="51">innerhalb</token>
+    <token token_id="52">dem</token>
+    <token token_id="53">schönen</token>
+    <token token_id="54">Mann</token>
+    <token token_id="55">,</token>
+    <token token_id="56">zwischen</token>
+    <token token_id="57">Schwitzerhansen</token>
+    <token token_id="58">und</token>
+    <token token_id="59">Bartlin</token>
+    <token token_id="60">Burger</token>
+    <token token_id="61">¬</token>
+    <token token_id="62">lers</token>
+    <token token_id="63">sel</token>
+    <token token_id="64">.</token>
+    <token token_id="65">Hüsern</token>
+    <token token_id="66">gelegen</token>
+    <token token_id="67">und</token>
+    <token token_id="68">Bencken</token>
+    <token token_id="69">Huse</token>
+    <token token_id="70">genant</token>
+    <token token_id="71">ist</token>
+    <token token_id="72">,</token>
+    <token token_id="73">zinset</token>
+    <token token_id="74">vormals</token>
+    <token token_id="75">gemelten</token>
+    <token token_id="76">Closter</token>
+    <token token_id="77">von</token>
+    <token token_id="78">wegen</token>
+    <token token_id="79">der</token>
+    <token token_id="80">Eigenschaft</token>
+    <token token_id="81">1</token>
+    <token token_id="82">℔</token>
+    <token token_id="83">.</token>
+    <token token_id="84">1sh</token>
+    <token token_id="85">.</token>
+    <token token_id="86">nüwer</token>
+    <token token_id="87">Zinspfg</token>
+    <token token_id="88">.</token>
+    <token token_id="89">und</token>
+    <token token_id="90">3</token>
+    <token token_id="91">Ring</token>
+    <token token_id="92">Brots</token>
+    <token token_id="93">sodenn</token>
+    <token token_id="94">in</token>
+    <token token_id="95">ablösigen</token>
+    <token token_id="96">Zinsen</token>
+    <token token_id="97">2</token>
+    <token token_id="98">1</token>
+    <token token_id="99">/</token>
+    <token token_id="100">2</token>
+    <token token_id="101">℔</token>
+    <token token_id="102">.</token>
+    <token token_id="103">Bernharten</token>
+    <token token_id="104">Witnower</token>
+    <token token_id="105">umb</token>
+    <token token_id="106">20</token>
+    <token token_id="107">℔</token>
+    <token token_id="108">.</token>
+  </text>
+  <spans>
+    <span id="1702" start="3" end="18" text="Jacob Lienhart der Schlosser , Burger zu Basel und Mar ¬&#10;greth Linderin sin elich Wyb" element="list" class="per" subclass="">
+      <span id="1623" start="3" end="10" text="Jacob Lienhart der Schlosser , Burger zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1629" start="3" end="4" text="Jacob Lienhart" element="head" class="nam" subclass=""/>
+        <span id="1635" start="5" end="6" text="der Schlosser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1641" start="6" end="6" text="Schlosser" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1647" start="8" end="10" text="Burger zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1653" start="8" end="8" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="1659" start="10" end="10" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1659_head" start="10" end="10" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1665" start="12" end="18" text="Mar ¬&#10;greth Linderin sin elich Wyb" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1671" start="12" end="15" text="Mar ¬&#10;greth Linderin" element="head" class="nam" subclass=""/>
+        <span id="1677" start="16" end="18" text="sin elich Wyb" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1689" start="16" end="16" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1689_head" start="16" end="16" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1683" start="17" end="18" text="elich Wyb" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1914" start="19" end="19" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1708" start="20" end="26" text="dem Closter&#10;zu sant Lienhart zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1714" start="21" end="26" text="Closter&#10;zu sant Lienhart zu Basel" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1720" start="27" end="30" text="1 ℔. Stäbler" element="value" class="money" subclass=""/>
+    <span id="1726" start="31" end="31" text="jerlichs" element="value" class="time" subclass="rec"/>
+    <span id="1920" start="32" end="32" text="Zinses" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1732" start="37" end="104" text="irem Sasshuse und Hofstatt , als das in&#10;der Statt Basel an den Spalen innerhalb dem schönen&#10;Mann , zwischen Schwitzerhansen und Bartlin Burger ¬&#10;lers sel . Hüsern gelegen und Bencken Huse genant&#10;ist , zinset vormals gemelten Closter von wegen der&#10;Eigenschaft 1 ℔. 1sh . nüwer Zinspfg . und 3 Ring Brots&#10;sodenn in ablösigen Zinsen 2 1 / 2 ℔. Bernharten Witnower" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1757" start="37" end="37" text="irem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1744" start="37" end="37" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1744_head" start="37" end="37" element="head" class="pro" text="irem" subclass=""/>
+        </span>
+      </span>
+      <span id="1738" start="38" end="40" text="Sasshuse und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1763" start="42" end="66" text="als das in&#10;der Statt Basel an den Spalen innerhalb dem schönen&#10;Mann , zwischen Schwitzerhansen und Bartlin Burger ¬&#10;lers sel . Hüsern gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1775" start="45" end="47" text="der Statt Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1805" start="46" end="47" text="Statt Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1781" start="49" end="50" text="den Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1787" start="50" end="50" text="Spalen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1793" start="52" end="54" text="dem schönen&#10;Mann" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="unk">
+          <span id="1799" start="53" end="54" text="schönen&#10;Mann" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1811" start="57" end="65" text="Schwitzerhansen und Bartlin Burger ¬&#10;lers sel . Hüsern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1811_desc_owner" start="57" end="64" text="Schwitzerhansen und Bartlin Burger ¬&#10;lers sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1847" start="57" end="64" text="Schwitzerhansen und Bartlin Burger ¬&#10;lers sel ." element="list" class="per" subclass="">
+              <span id="1823" start="57" end="57" text="Schwitzerhansen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1823_head" start="57" end="57" element="head" class="nam" text="Schwitzerhansen" subclass=""/>
+              </span>
+              <span id="1829" start="59" end="64" text="Bartlin Burger ¬&#10;lers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1835" start="59" end="62" text="Bartlin Burger ¬&#10;lers" element="head" class="nam" subclass=""/>
+                <span id="1841" start="63" end="64" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1817" start="65" end="65" text="Hüsern" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1853" start="68" end="69" text="Bencken Huse" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1853_head" start="68" end="69" element="head" class="nam" text="Bencken Huse" subclass=""/>
+      </span>
+      <span id="1859" start="73" end="104" text="zinset vormals gemelten Closter von wegen der&#10;Eigenschaft 1 ℔. 1sh . nüwer Zinspfg . und 3 Ring Brots&#10;sodenn in ablösigen Zinsen 2 1 / 2 ℔. Bernharten Witnower" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1926" start="73" end="73" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1871" start="74" end="76" text="vormals gemelten Closter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1877" start="76" end="76" text="Closter" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1932" start="80" end="80" text="Eigenschaft" element="other" class="other" subclass=""/>
+        <span id="1890" start="81" end="88" text="1 ℔. 1sh . nüwer Zinspfg ." element="value" class="money" subclass=""/>
+        <span id="1896" start="90" end="92" text="3 Ring Brots" element="value" class="money" subclass=""/>
+        <span id="1944" start="95" end="95" text="ablösigen" element="other" class="other" subclass=""/>
+        <span id="1938" start="96" end="96" text="Zinsen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1902" start="97" end="102" text="2 1 / 2 ℔." element="value" class="money" subclass=""/>
+        <span id="1908" start="103" end="104" text="Bernharten Witnower" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1908_head" start="103" end="104" element="head" class="nam" text="Bernharten Witnower" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1865" start="106" end="108" text="20 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1750" from="1744" to="1702" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1695" from="1689" to="1623" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1883" from="1871" to="1708" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1926_role" from="1926" to="1732" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1938_role" from="1938" to="1732" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="8" end="10" ref="1647" type="state">
+      <trigger start="8" end="8" text="Burger" ref="1653"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1623" text="Jacob Lienhart der Schlosser , Burger zu Basel"/>
+        <role role="geopolitical-entity" ref="1659" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="16" end="18" ref="1677" type="state">
+      <trigger start="17" end="18" text="elich Wyb" ref="1683"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1665" text="Mar ¬&#10;greth Linderin sin elich Wyb"/>
+        <role role="family-b" ref="1689" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="37" end="37" ref="1757" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1732" text="irem Sasshuse und Hofstatt , als das in&#10;der Statt Basel an den Spalen innerhalb dem schönen&#10;Mann , zwischen Schwitzerhansen und Bartlin Burger ¬&#10;lers sel . Hüsern gelegen und Bencken Huse genant&#10;ist , zinset vormals gemelten Closter von wegen der&#10;Eigenschaft 1 ℔. 1sh . nüwer Zinspfg . und 3 Ring Brots&#10;sodenn in ablösigen Zinsen 2 1 / 2 ℔. Bernharten Witnower"/>
+        <role role="owner" ref="1744" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="42" end="66" ref="1763" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1732" text="irem Sasshuse und Hofstatt , als das in&#10;der Statt Basel an den Spalen innerhalb dem schönen&#10;Mann , zwischen Schwitzerhansen und Bartlin Burger ¬&#10;lers sel . Hüsern gelegen und Bencken Huse genant&#10;ist , zinset vormals gemelten Closter von wegen der&#10;Eigenschaft 1 ℔. 1sh . nüwer Zinspfg . und 3 Ring Brots&#10;sodenn in ablösigen Zinsen 2 1 / 2 ℔. Bernharten Witnower"/>
+        <role role="location-b" ref="1775" text="der Statt Basel"/>
+        <role role="location-b" ref="1781" text="den Spalen"/>
+        <role role="location-b" ref="1793" text="dem schönen&#10;Mann"/>
+        <role role="location-b" ref="1811" text="Schwitzerhansen und Bartlin Burger ¬&#10;lers sel . Hüsern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="57" end="64" ref="1811_desc_owner" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1811" text="Schwitzerhansen und Bartlin Burger ¬&#10;lers sel . Hüsern"/>
+        <role role="owner" ref="1823" text="Schwitzerhansen"/>
+        <role role="owner" ref="1829" text="Bartlin Burger ¬&#10;lers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="19" end="19" ref="" type="event">
+      <trigger start="19" end="19" text="verkaufen" ref="1914"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1623" text="Jacob Lienhart der Schlosser , Burger zu Basel"/>
+        <role role="seller" ref="1665" text="Mar ¬&#10;greth Linderin sin elich Wyb"/>
+        <role role="buyer" ref="1708" text="dem Closter&#10;zu sant Lienhart zu Basel"/>
+        <role role="due" ref="1920" text="Zinses"/>
+        <role role="collateral" ref="1732" text="irem Sasshuse und Hofstatt , als das in&#10;der Statt Basel an den Spalen innerhalb dem schönen&#10;Mann , zwischen Schwitzerhansen und Bartlin Burger ¬&#10;lers sel . Hüsern gelegen und Bencken Huse genant&#10;ist , zinset vormals gemelten Closter von wegen der&#10;Eigenschaft 1 ℔. 1sh . nüwer Zinspfg . und 3 Ring Brots&#10;sodenn in ablösigen Zinsen 2 1 / 2 ℔. Bernharten Witnower"/>
+        <role role="price" ref="1865" text="20 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="27" end="32" ref="" type="state">
+      <trigger start="32" end="32" text="Zinses" ref="1920"/>
+      <event event_id="6.0">
+        <role role="interest" ref="1720" text="1 ℔. Stäbler"/>
+        <role role="interval" ref="1726" text="jerlichs"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="37" end="73" ref="1859" type="state">
+      <trigger start="73" end="73" text="zinset" ref="1926"/>
+      <event event_id="7.0">
+        <role role="beneficiary" ref="1871" text="vormals gemelten Closter"/>
+        <role role="cause" ref="1932" text="Eigenschaft"/>
+        <role role="interest" ref="1890" text="1 ℔. 1sh . nüwer Zinspfg ."/>
+        <role role="interest" ref="1896" text="3 Ring Brots"/>
+        <role role="property" ref="1732" text="irem Sasshuse und Hofstatt , als das in&#10;der Statt Basel an den Spalen innerhalb dem schönen&#10;Mann , zwischen Schwitzerhansen und Bartlin Burger ¬&#10;lers sel . Hüsern gelegen und Bencken Huse genant&#10;ist , zinset vormals gemelten Closter von wegen der&#10;Eigenschaft 1 ℔. 1sh . nüwer Zinspfg . und 3 Ring Brots&#10;sodenn in ablösigen Zinsen 2 1 / 2 ℔. Bernharten Witnower"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="37" end="96" ref="1859" type="state">
+      <trigger start="96" end="96" text="Zinsen" ref="1938"/>
+      <event event_id="8.0">
+        <role role="interest-redeemable" ref="1944" text="ablösigen"/>
+        <role role="interest" ref="1902" text="2 1 / 2 ℔."/>
+        <role role="beneficiary" ref="1908" text="Bernharten Witnower"/>
+        <role role="property" ref="1732" text="irem Sasshuse und Hofstatt , als das in&#10;der Statt Basel an den Spalen innerhalb dem schönen&#10;Mann , zwischen Schwitzerhansen und Bartlin Burger ¬&#10;lers sel . Hüsern gelegen und Bencken Huse genant&#10;ist , zinset vormals gemelten Closter von wegen der&#10;Eigenschaft 1 ℔. 1sh . nüwer Zinspfg . und 3 Ring Brots&#10;sodenn in ablösigen Zinsen 2 1 / 2 ℔. Bernharten Witnower"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

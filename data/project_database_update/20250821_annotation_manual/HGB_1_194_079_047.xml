@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/79 S. [47]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg Theil von 18 neben 16</tei:title>
+            <tei:idno>HGB 1 194/79</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1515782</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1572">1572</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611115.5979049765 1267394.1958104775</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1572</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Hanss</token>
+    <token token_id="3">Rudelstorffer</token>
+    <token token_id="4">(</token>
+    <token token_id="5">Lücke</token>
+    <token token_id="6">)</token>
+    <token token_id="7">1573</token>
+    <token token_id="8">:</token>
+    <token token_id="9">Abraham</token>
+    <token token_id="10">Meyrott</token>
+    <token token_id="11">.</token>
+    <token token_id="12">gibt</token>
+    <token token_id="13">ietz</token>
+    <token token_id="14">uf</token>
+    <token token_id="15">Martini</token>
+    <token token_id="16">1</token>
+    <token token_id="17">℔</token>
+    <token token_id="18">.</token>
+    <token token_id="19">Ebenso</token>
+    <token token_id="20">:</token>
+    <token token_id="21">1573</token>
+    <token token_id="22">1574</token>
+    <token token_id="23">1575</token>
+    <token token_id="24">1576</token>
+    <token token_id="25">(</token>
+    <token token_id="26">1577</token>
+    <token token_id="27">fehlt</token>
+    <token token_id="28">das</token>
+    <token token_id="29">betr</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Blatt</token>
+    <token token_id="32">.</token>
+    <token token_id="33">Wie</token>
+    <token token_id="34">oben</token>
+    <token token_id="35">:</token>
+    <token token_id="36">1578</token>
+    <token token_id="37">1579</token>
+    <token token_id="38">1580</token>
+    <token token_id="39">1581</token>
+    <token token_id="40">1582</token>
+    <token token_id="41">1583</token>
+    <token token_id="42">1584</token>
+    <token token_id="43">1565</token>
+    <token token_id="44">1586</token>
+    <token token_id="45">1587</token>
+    <token token_id="46">1598</token>
+    <token token_id="47">1589</token>
+  </text>
+  <spans>
+    <span id="849" start="0" end="0" text="1572" element="value" class="date" subclass=""/>
+    <span id="855" start="2" end="3" text="Hanss Rudelstorffer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="855_head" start="2" end="3" element="head" class="nam" text="Hanss Rudelstorffer" subclass=""/>
+    </span>
+    <span id="1005" start="5" end="5" text="Lücke" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="861" start="7" end="7" text="1573" element="value" class="date" subclass=""/>
+    <span id="867" start="9" end="10" text="Abraham Meyrott" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="867_head" start="9" end="10" element="head" class="nam" text="Abraham Meyrott" subclass=""/>
+    </span>
+    <span id="999" start="12" end="12" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="873" start="14" end="15" text="uf Martini" element="value" class="date" subclass=""/>
+    <span id="879" start="16" end="17" text="1 ℔" element="value" class="money" subclass=""/>
+    <span id="885" start="21" end="21" text="1573" element="value" class="date" subclass=""/>
+    <span id="891" start="22" end="22" text="1574" element="value" class="date" subclass=""/>
+    <span id="897" start="23" end="23" text="1575" element="value" class="date" subclass=""/>
+    <span id="903" start="24" end="24" text="1576" element="value" class="date" subclass=""/>
+    <span id="909" start="26" end="26" text="1577" element="value" class="date" subclass=""/>
+    <span id="915" start="36" end="36" text="1578" element="value" class="date" subclass=""/>
+    <span id="921" start="37" end="37" text="1579" element="value" class="date" subclass=""/>
+    <span id="927" start="38" end="38" text="1580" element="value" class="date" subclass=""/>
+    <span id="933" start="39" end="39" text="1581" element="value" class="date" subclass=""/>
+    <span id="939" start="40" end="40" text="1582" element="value" class="date" subclass=""/>
+    <span id="945" start="41" end="41" text="1583" element="value" class="date" subclass=""/>
+    <span id="951" start="42" end="42" text="1584" element="value" class="date" subclass=""/>
+    <span id="957" start="43" end="43" text="1565" element="value" class="date" subclass=""/>
+    <span id="963" start="44" end="44" text="1586" element="value" class="date" subclass=""/>
+    <span id="969" start="45" end="45" text="1587" element="value" class="date" subclass=""/>
+    <span id="975" start="46" end="46" text="1598" element="value" class="date" subclass=""/>
+    <span id="981" start="47" end="47" text="1589" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="5" ref="" type="event">
+      <trigger start="5" end="5" text="Lücke" ref="1005"/>
+      <event event_id="0.0">
+        <role role="date" ref="849" text="1572"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="12" end="47" ref="" type="event">
+      <trigger start="12" end="12" text="gibt" ref="999"/>
+      <event event_id="1.0">
+        <role role="payer" ref="855" text="Hanss Rudelstorffer"/>
+        <role role="previous-due" ref="1005" text="Lücke"/>
+        <role role="date" ref="861" text="1573"/>
+        <role role="payer" ref="867" text="Abraham Meyrott"/>
+        <role role="date" ref="873" text="uf Martini"/>
+        <role role="interest" ref="879" text="1 ℔"/>
+        <role role="date" ref="885" text="1573"/>
+        <role role="date" ref="891" text="1574"/>
+        <role role="date" ref="897" text="1575"/>
+        <role role="date" ref="903" text="1576"/>
+        <role role="date-missing" ref="909" text="1577"/>
+        <role role="date" ref="915" text="1578"/>
+        <role role="date" ref="921" text="1579"/>
+        <role role="date" ref="927" text="1580"/>
+        <role role="date" ref="933" text="1581"/>
+        <role role="date" ref="939" text="1582"/>
+        <role role="date" ref="945" text="1583"/>
+        <role role="date" ref="951" text="1584"/>
+        <role role="date" ref="957" text="1565"/>
+        <role role="date" ref="963" text="1586"/>
+        <role role="date" ref="969" text="1587"/>
+        <role role="date" ref="975" text="1598"/>
+        <role role="date" ref="981" text="1589"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 85/35 S. [26]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hutgasse Theil von 2, Mitte an d. Hutgasse und neben 4</tei:title>
+            <tei:idno>HGB 1 85/35</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1481899</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1525">1525</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611218.853541554 1267451.0985128325</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Lienhardt</token>
+    <token token_id="1">Sporer</token>
+    <token token_id="2">Schaffner</token>
+    <token token_id="3">und</token>
+    <token token_id="4">jnnamen</token>
+    <token token_id="5">der</token>
+    <token token_id="6">Herren</token>
+    <token token_id="7">zu</token>
+    <token token_id="8">sannt</token>
+    <token token_id="9">Peter</token>
+    <token token_id="10">,</token>
+    <token token_id="11">hat</token>
+    <token token_id="12">Lienhart</token>
+    <token token_id="13">Scharfnagels</token>
+    <token token_id="14">des</token>
+    <token token_id="15">Gürtlers</token>
+    <token token_id="16">Hus</token>
+    <token token_id="17">,</token>
+    <token token_id="18">zum</token>
+    <token token_id="19">Wienhart</token>
+    <token token_id="20">gassen</token>
+    <token token_id="21">,</token>
+    <token token_id="22">am</token>
+    <token token_id="23">Hus</token>
+    <token token_id="24">zum</token>
+    <token token_id="25">Ringly</token>
+    <token token_id="26">glegen</token>
+    <token token_id="27">,</token>
+    <token token_id="28">genannt</token>
+    <token token_id="29">zum</token>
+    <token token_id="30">Reff</token>
+    <token token_id="31">und</token>
+    <token token_id="32">versessenen</token>
+    <token token_id="33">zins</token>
+    <token token_id="34">,</token>
+    <token token_id="35">als</token>
+    <token token_id="36">es</token>
+    <token token_id="37">jährl</token>
+    <token token_id="38">.</token>
+    <token token_id="39">den</token>
+    <token token_id="40">Herren</token>
+    <token token_id="41">von</token>
+    <token token_id="42">Eigenschaft</token>
+    <token token_id="43">4</token>
+    <token token_id="44">℔</token>
+    <token token_id="45">und</token>
+    <token token_id="46">1</token>
+    <token token_id="47">Hun</token>
+    <token token_id="48">zinst</token>
+    <token token_id="49">,</token>
+    <token token_id="50">gefrönt</token>
+    <token token_id="51">.</token>
+  </text>
+  <spans>
+    <span id="917" start="0" end="2" text="Lienhardt Sporer Schaffner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="923" start="0" end="1" text="Lienhardt Sporer" element="head" class="nam" subclass=""/>
+      <span id="929" start="2" end="2" text="Schaffner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="929_head" start="2" end="2" element="head" class="occ" text="Schaffner" subclass="org-job"/>
+      </span>
+    </span>
+    <span id="935" start="5" end="9" text="der Herren zu sannt&#10;Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="941" start="7" end="9" text="zu sannt&#10;Peter" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="954" start="12" end="30" text="Lienhart Scharfnagels des Gürtlers Hus , zum Wienhart&#10;gassen , am Hus zum Ringly glegen , genannt zum Reff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="966" start="12" end="15" text="Lienhart Scharfnagels des Gürtlers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="972" start="12" end="15" text="Lienhart Scharfnagels des Gürtlers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="978" start="12" end="13" text="Lienhart Scharfnagels" element="head" class="nam" subclass=""/>
+          <span id="984" start="14" end="15" text="des Gürtlers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="990" start="15" end="15" text="Gürtlers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="960" start="16" end="16" text="Hus" element="head" class="type" subclass=""/>
+      <span id="996" start="18" end="26" text="zum Wienhart&#10;gassen , am Hus zum Ringly glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1002" start="18" end="20" text="zum Wienhart&#10;gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1008" start="19" end="20" text="Wienhart&#10;gassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1014" start="22" end="25" text="am Hus zum Ringly" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1020" start="23" end="25" text="Hus zum Ringly" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1026" start="29" end="30" text="zum Reff" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1026_head" start="29" end="30" element="head" class="nam" text="zum Reff" subclass=""/>
+      </span>
+    </span>
+    <span id="1088" start="33" end="33" text="zins" element="eventspan" class="due" tense="pres" polarity="neg" modality="ass" subclass="">
+      <span id="1119" start="33" end="33" text="zins" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1094" start="35" end="48" text="als es jährl . den Herren von Eigenschaft 4 ℔ und&#10;1 Hun zinst" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1032" start="36" end="36" text="es" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1032_head" start="36" end="36" element="head" class="pro" text="es" subclass=""/>
+      </span>
+      <span id="1045" start="37" end="38" text="jährl ." element="value" class="time" subclass="rec"/>
+      <span id="1051" start="39" end="40" text="den Herren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1057" start="40" end="40" text="Herren" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1107" start="41" end="42" text="von Eigenschaft" element="other" class="other" subclass=""/>
+      <span id="1070" start="43" end="44" text="4 ℔" element="value" class="money" subclass=""/>
+      <span id="1076" start="46" end="47" text="1 Hun" element="value" class="money" subclass=""/>
+      <span id="1113" start="48" end="48" text="zinst" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1082" start="50" end="50" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="947" from="917" to="935" class="org-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1063" from="1051" to="935" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1038" from="1032" to="954" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1100" from="1094" to="1088" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="neg" tense="pres" modality="ass" start="33" end="33" ref="1088" type="event">
+      <trigger start="33" end="33" text="zins" ref="1119"/>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="35" end="48" ref="1094" type="state">
+      <trigger start="48" end="48" text="zinst" ref="1113"/>
+      <event event_id="1.0">
+        <role role="property" ref="1032" text="es"/>
+        <role role="interval" ref="1045" text="jährl ."/>
+        <role role="beneficiary" ref="1051" text="den Herren"/>
+        <role role="cause" ref="1107" text="von Eigenschaft"/>
+        <role role="interest" ref="1070" text="4 ℔"/>
+        <role role="interest" ref="1076" text="1 Hun"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="12" end="15" ref="966" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="954" text="Lienhart Scharfnagels des Gürtlers Hus , zum Wienhart&#10;gassen , am Hus zum Ringly glegen , genannt zum Reff"/>
+        <role role="owner" ref="972" text="Lienhart Scharfnagels des Gürtlers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="18" end="26" ref="996" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="954" text="Lienhart Scharfnagels des Gürtlers Hus , zum Wienhart&#10;gassen , am Hus zum Ringly glegen , genannt zum Reff"/>
+        <role role="location-b" ref="1002" text="zum Wienhart&#10;gassen"/>
+        <role role="location-b" ref="1014" text="am Hus zum Ringly"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="50" ref="" type="event">
+      <trigger start="50" end="50" text="gefrönt" ref="1082"/>
+      <event event_id="4.0">
+        <role role="claimant" ref="917" text="Lienhardt Sporer Schaffner"/>
+        <role role="property" ref="954" text="Lienhart Scharfnagels des Gürtlers Hus , zum Wienhart&#10;gassen , am Hus zum Ringly glegen , genannt zum Reff"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="5.0">
+        <role role="representative" ref="917" text="Lienhardt Sporer Schaffner"/>
+        <role role="represented" ref="935" text="der Herren zu sannt&#10;Peter"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

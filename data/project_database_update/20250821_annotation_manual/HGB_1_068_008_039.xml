@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 68/8 S. [39]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Grünpfahlgasse 4</tei:title>
+            <tei:idno>HGB 1 68/8</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1478032</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1616">1616</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611246.4103428824 1267343.8295937595</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Weyl</token>
+    <token token_id="1">Frauwen</token>
+    <token token_id="2">Claristas</token>
+    <token token_id="3">Gyrfalklin</token>
+    <token token_id="4">sel</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Creditoren</token>
+    <token token_id="7">und</token>
+    <token token_id="8">Schul</token>
+    <token token_id="9">gläubiger</token>
+    <token token_id="10">ha</token>
+    <token token_id="11">¬</token>
+    <token token_id="12">ben</token>
+    <token token_id="13">wegen</token>
+    <token token_id="14">der</token>
+    <token token_id="15">Schulden</token>
+    <token token_id="16">,</token>
+    <token token_id="17">welche</token>
+    <token token_id="18">sie</token>
+    <token token_id="19">ihnen</token>
+    <token token_id="20">nach</token>
+    <token token_id="21">Todt</token>
+    <token token_id="22">zu</token>
+    <token token_id="23">thun</token>
+    <token token_id="24">schuldig</token>
+    <token token_id="25">verblieben</token>
+    <token token_id="26">,</token>
+    <token token_id="27">derselben</token>
+    <token token_id="28">Gyrfalckhin</token>
+    <token token_id="29">sel</token>
+    <token token_id="30">.</token>
+    <token token_id="31">zwei</token>
+    <token token_id="32">Heüser</token>
+    <token token_id="33">,</token>
+    <token token_id="34">deren</token>
+    <token token_id="35">das</token>
+    <token token_id="36">einte</token>
+    <token token_id="37">sampt</token>
+    <token token_id="38">dem</token>
+    <token token_id="39">Hof</token>
+    <token token_id="40">und</token>
+    <token token_id="41">Grunpl</token>
+    <token token_id="42">.</token>
+    <token token_id="43">Garten</token>
+    <token token_id="44">,</token>
+    <token token_id="45">auf</token>
+    <token token_id="46">dem</token>
+    <token token_id="47">innern</token>
+    <token token_id="48">Stattgraben</token>
+    <token token_id="49">,</token>
+    <token token_id="50">einseits</token>
+    <token token_id="51">neben</token>
+    <token token_id="52">Hans</token>
+    <token token_id="53">Friederich</token>
+    <token token_id="54">Werden</token>
+    <token token_id="55">¬</token>
+    <token token_id="56">berg</token>
+    <token token_id="57">,</token>
+    <token token_id="58">der</token>
+    <token token_id="59">Artzneien</token>
+    <token token_id="60">Dr</token>
+    <token token_id="61">.</token>
+    <token token_id="62">und</token>
+    <token token_id="63">Prof</token>
+    <token token_id="64">.</token>
+    <token token_id="65">Loher</token>
+    <token token_id="66">Schul</token>
+    <token token_id="67">,</token>
+    <token token_id="68">anderseith</token>
+    <token token_id="69">Fraumen</token>
+    <token token_id="70">Hester</token>
+    <token token_id="71">von</token>
+    <token token_id="72">Russt</token>
+    <token token_id="73">geboren</token>
+    <token token_id="74">von</token>
+    <token token_id="75">Pfird</token>
+    <token token_id="76">.</token>
+    <token token_id="77">Das</token>
+    <token token_id="78">ander</token>
+    <token token_id="79">im</token>
+    <token token_id="80">Gässlin</token>
+    <token token_id="81">,</token>
+    <token token_id="82">bey</token>
+    <token token_id="83">Rümelinsmühlin</token>
+    <token token_id="84">,</token>
+    <token token_id="85">zwischen</token>
+    <token token_id="86">Jacob</token>
+    <token token_id="87">Rosenstockh</token>
+    <token token_id="88">dem</token>
+    <token token_id="89">Bürtler</token>
+    <token token_id="90">und</token>
+    <token token_id="91">Jacob</token>
+    <token token_id="92">Rosenburger</token>
+    <token token_id="93">dem</token>
+    <token token_id="94">Seiler</token>
+    <token token_id="95">gelegen</token>
+    <token token_id="96">,</token>
+    <token token_id="97">gefrönt</token>
+    <token token_id="98">.</token>
+    <token token_id="99">Frönungsbuch</token>
+    <token token_id="100">.</token>
+  </text>
+  <spans>
+    <span id="1484" start="0" end="9" text="Weyl Frauwen Claristas Gyrfalklin sel . Creditoren und Schul gläubiger" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1466" start="0" end="5" text="Weyl Frauwen Claristas Gyrfalklin sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1460" start="2" end="3" text="Claristas Gyrfalklin" element="head" class="nam" subclass=""/>
+        <span id="1472" start="4" end="5" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="1478" start="6" end="9" text="Creditoren und Schul gläubiger" element="head" class="creditor" subclass=""/>
+    </span>
+    <span id="1751" start="14" end="25" text="der Schulden , welche sie ihnen nach Todt zu thun schuldig verblieben" element="eventspan" class="debt" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1757" start="15" end="15" text="Schulden" element="trigger" class="type" subclass=""/>
+      <span id="1490" start="18" end="18" text="sie" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1490_head" start="18" end="18" element="head" class="pro" text="sie" subclass=""/>
+      </span>
+      <span id="1503" start="19" end="19" text="ihnen" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1503_head" start="19" end="19" element="head" class="pro" text="ihnen" subclass=""/>
+      </span>
+    </span>
+    <span id="1559" start="27" end="95" text="derselben Gyrfalckhin sel . zwei Heüser , deren das einte sampt dem Hof und&#10;Grunpl . Garten , auf dem innern Stattgraben , einseits neben Hans Friederich Werden ¬&#10;berg , der Artzneien Dr . und Prof . Loher Schul , anderseith Fraumen Hester&#10;von Russt geboren von Pfird . Das ander im Gässlin , bey Rümelinsmühlin ,&#10;zwischen Jacob Rosenstockh dem Bürtler und Jacob Rosenburger dem&#10;Seiler gelegen" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1534" start="27" end="30" text="derselben Gyrfalckhin sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1516" start="27" end="30" text="derselben Gyrfalckhin sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1522" start="28" end="28" text="Gyrfalckhin" element="head" class="nam" subclass=""/>
+          <span id="1528" start="29" end="30" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+      </span>
+      <span id="1553" start="32" end="32" text="Heüser" element="head" class="type" subclass=""/>
+      <span id="1565" start="34" end="95" text="deren das einte sampt dem Hof und&#10;Grunpl . Garten , auf dem innern Stattgraben , einseits neben Hans Friederich Werden ¬&#10;berg , der Artzneien Dr . und Prof . Loher Schul , anderseith Fraumen Hester&#10;von Russt geboren von Pfird . Das ander im Gässlin , bey Rümelinsmühlin ,&#10;zwischen Jacob Rosenstockh dem Bürtler und Jacob Rosenburger dem&#10;Seiler gelegen" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1571" start="35" end="76" text="das einte sampt dem Hof und&#10;Grunpl . Garten , auf dem innern Stattgraben , einseits neben Hans Friederich Werden ¬&#10;berg , der Artzneien Dr . und Prof . Loher Schul , anderseith Fraumen Hester&#10;von Russt geboren von Pfird ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1577" start="36" end="36" text="einte" element="head" class="pro" subclass=""/>
+          <span id="1601" start="37" end="43" text="sampt dem Hof und&#10;Grunpl . Garten" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1583" start="38" end="39" text="dem Hof" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1589" start="39" end="39" text="Hof" element="head" class="type" subclass=""/>
+            </span>
+            <span id="1595" start="41" end="43" text="Grunpl . Garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1595_head" start="41" end="43" element="head" class="nam" text="Grunpl . Garten" subclass=""/>
+            </span>
+          </span>
+          <span id="1607" start="45" end="76" text="auf dem innern Stattgraben , einseits neben Hans Friederich Werden ¬&#10;berg , der Artzneien Dr . und Prof . Loher Schul , anderseith Fraumen Hester&#10;von Russt geboren von Pfird ." element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1613" start="46" end="48" text="dem innern Stattgraben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1619" start="47" end="48" text="innern Stattgraben" element="head" class="type" subclass=""/>
+            </span>
+            <span id="1631" start="52" end="66" text="Hans Friederich Werden ¬&#10;berg , der Artzneien Dr . und Prof . Loher Schul" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1625" start="52" end="56" text="Hans Friederich Werden ¬&#10;berg" element="head" class="nam" subclass=""/>
+              <span id="1637" start="58" end="61" text="der Artzneien Dr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1637_head" start="58" end="61" element="head" class="title" text="der Artzneien Dr ." subclass=""/>
+              </span>
+              <span id="1643" start="63" end="66" text="Prof . Loher Schul" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1643_head" start="63" end="66" element="head" class="title" text="Prof . Loher Schul" subclass=""/>
+              </span>
+            </span>
+            <span id="1649" start="69" end="75" text="Fraumen Hester&#10;von Russt geboren von Pfird" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1655" start="70" end="72" text="Hester&#10;von Russt" element="head" class="nam" subclass=""/>
+              <span id="1661" start="74" end="75" text="von Pfird" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1661_head" start="74" end="75" element="head" class="nam" text="von Pfird" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+        <span id="1667" start="77" end="95" text="Das ander im Gässlin , bey Rümelinsmühlin ,&#10;zwischen Jacob Rosenstockh dem Bürtler und Jacob Rosenburger dem&#10;Seiler gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1673" start="78" end="78" text="ander" element="head" class="pro" subclass=""/>
+          <span id="1679" start="79" end="95" text="im Gässlin , bey Rümelinsmühlin ,&#10;zwischen Jacob Rosenstockh dem Bürtler und Jacob Rosenburger dem&#10;Seiler gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1685" start="79" end="80" text="im Gässlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+              <span id="1691" start="80" end="80" text="Gässlin" element="head" class="nam" subclass=""/>
+            </span>
+            <span id="1697" start="83" end="83" text="Rümelinsmühlin" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1697_head" start="83" end="83" element="head" class="nam" text="Rümelinsmühlin" subclass=""/>
+            </span>
+            <span id="1703" start="86" end="89" text="Jacob Rosenstockh dem Bürtler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1709" start="86" end="87" text="Jacob Rosenstockh" element="head" class="nam" subclass=""/>
+              <span id="1715" start="88" end="89" text="dem Bürtler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1721" start="89" end="89" text="Bürtler" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+            <span id="1727" start="91" end="94" text="Jacob Rosenburger dem&#10;Seiler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1733" start="91" end="92" text="Jacob Rosenburger" element="head" class="nam" subclass=""/>
+              <span id="1739" start="93" end="94" text="dem&#10;Seiler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1745" start="94" end="94" text="Seiler" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1763" start="97" end="97" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1509" from="1503" to="1484" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1496" from="1490" to="1466" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1540" from="1516" to="1466" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="debt" polarity="pos" tense="pres" modality="ass" start="14" end="25" ref="1751" type="state">
+      <trigger start="15" end="15" text="Schulden" ref="1757"/>
+      <event event_id="0.0">
+        <role role="debitor" ref="1490" text="sie"/>
+        <role role="creditor" ref="1503" text="ihnen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="debt" polarity="pos" tense="pres" modality="ass" start="0" end="9" ref="1484" type="state">
+      <trigger start="6" end="9" text="Creditoren und Schul gläubiger" ref="1478"/>
+      <event event_id="1.0">
+        <role role="creditor" ref="1484" text="Weyl Frauwen Claristas Gyrfalklin sel . Creditoren und Schul gläubiger"/>
+        <role role="debitor" ref="1466" text="Weyl Frauwen Claristas Gyrfalklin sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="27" end="30" ref="1534" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1559" text="derselben Gyrfalckhin sel . zwei Heüser , deren das einte sampt dem Hof und&#10;Grunpl . Garten , auf dem innern Stattgraben , einseits neben Hans Friederich Werden ¬&#10;berg , der Artzneien Dr . und Prof . Loher Schul , anderseith Fraumen Hester&#10;von Russt geboren von Pfird . Das ander im Gässlin , bey Rümelinsmühlin ,&#10;zwischen Jacob Rosenstockh dem Bürtler und Jacob Rosenburger dem&#10;Seiler gelegen"/>
+        <role role="owner" ref="1516" text="derselben Gyrfalckhin sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="34" end="95" ref="1565" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1559" text="derselben Gyrfalckhin sel . zwei Heüser , deren das einte sampt dem Hof und&#10;Grunpl . Garten , auf dem innern Stattgraben , einseits neben Hans Friederich Werden ¬&#10;berg , der Artzneien Dr . und Prof . Loher Schul , anderseith Fraumen Hester&#10;von Russt geboren von Pfird . Das ander im Gässlin , bey Rümelinsmühlin ,&#10;zwischen Jacob Rosenstockh dem Bürtler und Jacob Rosenburger dem&#10;Seiler gelegen"/>
+        <role role="part" ref="1571" text="das einte sampt dem Hof und&#10;Grunpl . Garten , auf dem innern Stattgraben , einseits neben Hans Friederich Werden ¬&#10;berg , der Artzneien Dr . und Prof . Loher Schul , anderseith Fraumen Hester&#10;von Russt geboren von Pfird ."/>
+        <role role="part" ref="1667" text="Das ander im Gässlin , bey Rümelinsmühlin ,&#10;zwischen Jacob Rosenstockh dem Bürtler und Jacob Rosenburger dem&#10;Seiler gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="37" end="43" ref="1601" type="state">
+      <event event_id="4.0">
+        <role role="whole" ref="1571" text="das einte sampt dem Hof und&#10;Grunpl . Garten , auf dem innern Stattgraben , einseits neben Hans Friederich Werden ¬&#10;berg , der Artzneien Dr . und Prof . Loher Schul , anderseith Fraumen Hester&#10;von Russt geboren von Pfird ."/>
+        <role role="part" ref="1583" text="dem Hof"/>
+        <role role="part" ref="1595" text="Grunpl . Garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="45" end="76" ref="1607" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1571" text="das einte sampt dem Hof und&#10;Grunpl . Garten , auf dem innern Stattgraben , einseits neben Hans Friederich Werden ¬&#10;berg , der Artzneien Dr . und Prof . Loher Schul , anderseith Fraumen Hester&#10;von Russt geboren von Pfird ."/>
+        <role role="location-b" ref="1613" text="dem innern Stattgraben"/>
+        <role role="location-b" ref="1631" text="Hans Friederich Werden ¬&#10;berg , der Artzneien Dr . und Prof . Loher Schul"/>
+        <role role="location-b" ref="1649" text="Fraumen Hester&#10;von Russt geboren von Pfird"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="79" end="95" ref="1679" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1667" text="Das ander im Gässlin , bey Rümelinsmühlin ,&#10;zwischen Jacob Rosenstockh dem Bürtler und Jacob Rosenburger dem&#10;Seiler gelegen"/>
+        <role role="location-b" ref="1685" text="im Gässlin"/>
+        <role role="location-b" ref="1697" text="Rümelinsmühlin"/>
+        <role role="location-b" ref="1703" text="Jacob Rosenstockh dem Bürtler"/>
+        <role role="location-b" ref="1727" text="Jacob Rosenburger dem&#10;Seiler"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="97" ref="" type="event">
+      <trigger start="97" end="97" text="gefrönt" ref="1763"/>
+      <event event_id="7.0">
+        <role role="claimant" ref="1484" text="Weyl Frauwen Claristas Gyrfalklin sel . Creditoren und Schul gläubiger"/>
+        <role role="cause" ref="1751" text="der Schulden , welche sie ihnen nach Todt zu thun schuldig verblieben"/>
+        <role role="property" ref="1559" text="derselben Gyrfalckhin sel . zwei Heüser , deren das einte sampt dem Hof und&#10;Grunpl . Garten , auf dem innern Stattgraben , einseits neben Hans Friederich Werden ¬&#10;berg , der Artzneien Dr . und Prof . Loher Schul , anderseith Fraumen Hester&#10;von Russt geboren von Pfird . Das ander im Gässlin , bey Rümelinsmühlin ,&#10;zwischen Jacob Rosenstockh dem Bürtler und Jacob Rosenburger dem&#10;Seiler gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

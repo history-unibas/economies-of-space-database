@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 177/30 S. [65]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Sattelgasse 10</tei:title>
+            <tei:idno>HGB 1 177/30</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1511251</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1693">1693</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611167.674958042 1267497.737707485</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Kaufs</token>
+    <token token_id="1">Publicatio</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Mr</token>
+    <token token_id="4">Andres</token>
+    <token token_id="5">Strübin</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Huetmacher</token>
+    <token token_id="8">hat</token>
+    <token token_id="9">zu</token>
+    <token token_id="10">kaufen</token>
+    <token token_id="11">gegeben</token>
+    <token token_id="12">Mr</token>
+    <token token_id="13">Joseph</token>
+    <token token_id="14">Strübem</token>
+    <token token_id="15">dem</token>
+    <token token_id="16">Glaser</token>
+    <token token_id="17">eine</token>
+    <token token_id="18">Behausung</token>
+    <token token_id="19">hinder</token>
+    <token token_id="20">der</token>
+    <token token_id="21">Schor</token>
+    <token token_id="22">zu</token>
+    <token token_id="23">medern</token>
+    <token token_id="24">fallen</token>
+    <token token_id="25">genant</token>
+    <token token_id="26">,</token>
+    <token token_id="27">einseits</token>
+    <token token_id="28">neben</token>
+    <token token_id="29">HMart</token>
+    <token token_id="30">Beckhen</token>
+    <token token_id="31">dem</token>
+    <token token_id="32">Tederhänd</token>
+    <token token_id="33">ler</token>
+    <token token_id="34">,</token>
+    <token token_id="35">anderseits</token>
+    <token token_id="36">neben</token>
+    <token token_id="37">Mr</token>
+    <token token_id="38">Samuel</token>
+    <token token_id="39">Huss</token>
+    <token token_id="40">.</token>
+    <token token_id="41">dem</token>
+    <token token_id="42">Buchbinder</token>
+    <token token_id="43">gelegen</token>
+    <token token_id="44">und</token>
+    <token token_id="45">hinden</token>
+    <token token_id="46">auf</token>
+    <token token_id="47">das</token>
+    <token token_id="48">gemeine</token>
+    <token token_id="49">Höflin</token>
+    <token token_id="50">stossendt</token>
+    <token token_id="51">.</token>
+  </text>
+  <spans>
+    <span id="836" start="3" end="7" text="Mr Andres Strübin der Huetmacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="842" start="4" end="5" text="Andres Strübin" element="head" class="nam" subclass=""/>
+      <span id="848" start="6" end="7" text="der Huetmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="854" start="7" end="7" text="Huetmacher" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="980" start="10" end="10" text="kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="860" start="12" end="16" text="Mr Joseph Strübem&#10;dem Glaser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="866" start="13" end="14" text="Joseph Strübem" element="head" class="nam" subclass=""/>
+      <span id="872" start="15" end="16" text="dem Glaser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="878" start="16" end="16" text="Glaser" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="884" start="17" end="50" text="eine Behausung hinder der&#10;Schor zu medern fallen genant , einseits&#10;neben HMart Beckhen dem Tederhänd&#10;ler , anderseits neben Mr Samuel Huss .&#10;dem Buchbinder gelegen und hinden&#10;auf das gemeine Höflin stossendt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="890" start="18" end="18" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="896" start="19" end="50" text="hinder der&#10;Schor zu medern fallen genant , einseits&#10;neben HMart Beckhen dem Tederhänd&#10;ler , anderseits neben Mr Samuel Huss .&#10;dem Buchbinder gelegen und hinden&#10;auf das gemeine Höflin stossendt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="902" start="20" end="25" text="der&#10;Schor zu medern fallen genant" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="908" start="21" end="21" text="Schor" element="head" class="type" subclass=""/>
+          <span id="914" start="22" end="24" text="zu medern fallen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="914_head" start="22" end="24" element="head" class="nam" text="zu medern fallen" subclass=""/>
+          </span>
+        </span>
+        <span id="920" start="29" end="33" text="HMart Beckhen dem Tederhänd&#10;ler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="926" start="29" end="30" text="HMart Beckhen" element="head" class="nam" subclass=""/>
+          <span id="932" start="31" end="33" text="dem Tederhänd&#10;ler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="938" start="32" end="33" text="Tederhänd&#10;ler" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="944" start="37" end="42" text="Mr Samuel Huss .&#10;dem Buchbinder" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="950" start="38" end="39" text="Samuel Huss" element="head" class="nam" subclass=""/>
+          <span id="956" start="41" end="42" text="dem Buchbinder" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="962" start="42" end="42" text="Buchbinder" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="968" start="47" end="49" text="das gemeine Höflin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="974" start="48" end="49" text="gemeine Höflin" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="19" end="50" ref="896" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="884" text="eine Behausung hinder der&#10;Schor zu medern fallen genant , einseits&#10;neben HMart Beckhen dem Tederhänd&#10;ler , anderseits neben Mr Samuel Huss .&#10;dem Buchbinder gelegen und hinden&#10;auf das gemeine Höflin stossendt"/>
+        <role role="location-b" ref="902" text="der&#10;Schor zu medern fallen genant"/>
+        <role role="location-b" ref="920" text="HMart Beckhen dem Tederhänd&#10;ler"/>
+        <role role="location-b" ref="944" text="Mr Samuel Huss .&#10;dem Buchbinder"/>
+        <role role="location-b" ref="968" text="das gemeine Höflin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="10" end="50" ref="" type="event">
+      <trigger start="10" end="10" text="kaufen" ref="980"/>
+      <event event_id="1.0">
+        <role role="seller" ref="836" text="Mr Andres Strübin der Huetmacher"/>
+        <role role="buyer" ref="860" text="Mr Joseph Strübem&#10;dem Glaser"/>
+        <role role="property" ref="884" text="eine Behausung hinder der&#10;Schor zu medern fallen genant , einseits&#10;neben HMart Beckhen dem Tederhänd&#10;ler , anderseits neben Mr Samuel Huss .&#10;dem Buchbinder gelegen und hinden&#10;auf das gemeine Höflin stossendt"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

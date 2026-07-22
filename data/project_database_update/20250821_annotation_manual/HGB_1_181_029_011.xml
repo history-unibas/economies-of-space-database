@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 181/29 S. [11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schifflände Theil von 8 neben 8a, 10</tei:title>
+            <tei:idno>HGB 1 181/29</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1511441</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1386">1386</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611236.478024299 1267712.8835428788</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Swester</token>
+    <token token_id="5">Katherin</token>
+    <token token_id="6">Harerin</token>
+    <token token_id="7">,</token>
+    <token token_id="8">Burgerin</token>
+    <token token_id="9">von</token>
+    <token token_id="10">Basel</token>
+    <token token_id="11">,</token>
+    <token token_id="12">vergabt</token>
+    <token token_id="13">dem</token>
+    <token token_id="14">Closter</token>
+    <token token_id="15">zen</token>
+    <token token_id="16">Barfüssen</token>
+    <token token_id="17">ze</token>
+    <token token_id="18">Basel</token>
+    <token token_id="19">die</token>
+    <token token_id="20">5</token>
+    <token token_id="21">℔</token>
+    <token token_id="22">.</token>
+    <token token_id="23">Geltes</token>
+    <token token_id="24">Zins</token>
+    <token token_id="25">phennig</token>
+    <token token_id="26">und</token>
+    <token token_id="27">2</token>
+    <token token_id="28">Ring</token>
+    <token token_id="29">ze</token>
+    <token token_id="30">Wisung</token>
+    <token token_id="31">,</token>
+    <token token_id="32">so</token>
+    <token token_id="33">si</token>
+    <token token_id="34">hett</token>
+    <token token_id="35">uf</token>
+    <token token_id="36">der</token>
+    <token token_id="37">Eigenschaft</token>
+    <token token_id="38">der</token>
+    <token token_id="39">zweier</token>
+    <token token_id="40">Hüsern</token>
+    <token token_id="41">,</token>
+    <token token_id="42">so</token>
+    <token token_id="43">gelegen</token>
+    <token token_id="44">sint</token>
+    <token token_id="45">ze</token>
+    <token token_id="46">Basel</token>
+    <token token_id="47">in</token>
+    <token token_id="48">der</token>
+    <token token_id="49">Stat</token>
+    <token token_id="50">ze</token>
+    <token token_id="51">einer</token>
+    <token token_id="52">Siten</token>
+    <token token_id="53">nebent</token>
+    <token token_id="54">dem</token>
+    <token token_id="55">Hus</token>
+    <token token_id="56">,</token>
+    <token token_id="57">so</token>
+    <token token_id="58">man</token>
+    <token token_id="59">nempt</token>
+    <token token_id="60">zem</token>
+    <token token_id="61">Adele</token>
+    <token token_id="62">¬</token>
+    <token token_id="63">zem</token>
+    <token token_id="64">hinderen</token>
+    <token token_id="65">Teil</token>
+    <token token_id="66">und</token>
+    <token token_id="67">ze</token>
+    <token token_id="68">der</token>
+    <token token_id="69">anderen</token>
+    <token token_id="70">Siten</token>
+    <token token_id="71">nebent</token>
+    <token token_id="72">Camp</token>
+    <token token_id="73">fradin</token>
+    <token token_id="74">Hus</token>
+    <token token_id="75">der</token>
+    <token token_id="76">Messersmiden</token>
+    <token token_id="77">.</token>
+  </text>
+  <spans>
+    <span id="1195" start="4" end="10" text="Swester Katherin Harerin , Burgerin von Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1207" start="4" end="4" text="Swester" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1207_head" start="4" end="4" element="head" class="title" text="Swester" subclass=""/>
+      </span>
+      <span id="1201" start="5" end="6" text="Katherin Harerin" element="head" class="nam" subclass=""/>
+      <span id="1213" start="8" end="10" text="Burgerin von Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1219" start="8" end="8" text="Burgerin" element="head" class="org-aff" subclass=""/>
+        <span id="1225" start="10" end="10" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1225_head" start="10" end="10" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1352" start="12" end="12" text="vergabt" element="trigger" class="testament" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1231" start="13" end="18" text="dem Closter zen Barfüssen ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1237" start="15" end="16" text="zen Barfüssen" element="head" class="nam" subclass=""/>
+      <span id="1243" start="17" end="18" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1249" start="18" end="18" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1249_head" start="18" end="18" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1255" start="20" end="22" text="5 ℔." element="value" class="money" subclass=""/>
+    <span id="1261" start="27" end="28" text="2 Ring" element="value" class="money" subclass=""/>
+    <span id="1389" start="29" end="30" text="ze Wisung" element="other" class="other" subclass=""/>
+    <span id="1376" start="33" end="33" text="si" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1376_head" start="33" end="33" element="head" class="pro" text="si" subclass=""/>
+    </span>
+    <span id="1370" start="34" end="34" text="hett" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1267" start="38" end="76" text="der zweier Hüsern , so gelegen sint ze Basel in der Stat&#10;ze einer Siten nebent dem Hus , so man nempt zem Adele ¬&#10;zem hinderen Teil und ze der anderen Siten nebent Camp&#10;fradin Hus der Messersmiden" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1273" start="40" end="40" text="Hüsern" element="head" class="type" subclass=""/>
+      <span id="1279" start="42" end="76" text="so gelegen sint ze Basel in der Stat&#10;ze einer Siten nebent dem Hus , so man nempt zem Adele ¬&#10;zem hinderen Teil und ze der anderen Siten nebent Camp&#10;fradin Hus der Messersmiden" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1285" start="46" end="46" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1285_head" start="46" end="46" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="1358" start="48" end="49" text="der Stat" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1364" start="49" end="49" text="Stat" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1291" start="54" end="61" text="dem Hus , so man nempt zem Adele" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1297" start="55" end="55" text="Hus" element="head" class="type" subclass=""/>
+          <span id="1303" start="60" end="61" text="zem Adele" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1303_head" start="60" end="61" element="head" class="nam" text="zem Adele" subclass=""/>
+          </span>
+        </span>
+        <span id="1309" start="72" end="76" text="Camp&#10;fradin Hus der Messersmiden" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1321" start="72" end="73" text="Camp&#10;fradin" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1327" start="72" end="73" text="Camp&#10;fradin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1327_head" start="72" end="73" element="head" class="nam" text="Camp fradin" subclass=""/>
+            </span>
+          </span>
+          <span id="1315" start="74" end="74" text="Hus" element="head" class="type" subclass=""/>
+          <span id="1333" start="75" end="76" text="der Messersmiden" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1339" start="75" end="76" text="der Messersmiden" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1339_head" start="75" end="76" element="head" class="occ" text="der Messersmiden" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1382" from="1376" to="1195" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1345" from="1339" to="1327" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="8" end="10" ref="1213" type="state">
+      <trigger start="8" end="8" text="Burgerin" ref="1219"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1195" text="Swester Katherin Harerin , Burgerin von Basel"/>
+        <role role="geopolitical-entity" ref="1225" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="18" ref="1243" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1231" text="dem Closter zen Barfüssen ze Basel"/>
+        <role role="location-b" ref="1249" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="42" end="76" ref="1279" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1267" text="der zweier Hüsern , so gelegen sint ze Basel in der Stat&#10;ze einer Siten nebent dem Hus , so man nempt zem Adele ¬&#10;zem hinderen Teil und ze der anderen Siten nebent Camp&#10;fradin Hus der Messersmiden"/>
+        <role role="location-b" ref="1285" text="Basel"/>
+        <role role="location-b" ref="1358" text="der Stat"/>
+        <role role="location-b" ref="1291" text="dem Hus , so man nempt zem Adele"/>
+        <role role="location-b" ref="1309" text="Camp&#10;fradin Hus der Messersmiden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="72" end="73" ref="1321" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1309" text="Camp&#10;fradin Hus der Messersmiden"/>
+        <role role="owner" ref="1327" text="Camp&#10;fradin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="75" end="76" ref="1333" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1309" text="Camp&#10;fradin Hus der Messersmiden"/>
+        <role role="owner" ref="1339" text="der Messersmiden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="testament" polarity="pos" tense="pres" modality="ass" start="12" end="76" ref="" type="event">
+      <trigger start="12" end="12" text="vergabt" ref="1352"/>
+      <event event_id="5.0">
+        <role role="bequeather" ref="1195" text="Swester Katherin Harerin , Burgerin von Basel"/>
+        <role role="beneficiary" ref="1231" text="dem Closter zen Barfüssen ze Basel"/>
+        <role role="property" ref="1370" text="hett"/>
+        <role role="property" ref="1267" text="der zweier Hüsern , so gelegen sint ze Basel in der Stat&#10;ze einer Siten nebent dem Hus , so man nempt zem Adele ¬&#10;zem hinderen Teil und ze der anderen Siten nebent Camp&#10;fradin Hus der Messersmiden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="20" end="34" ref="" type="state">
+      <trigger start="34" end="34" text="hett" ref="1370"/>
+      <event event_id="6.0">
+        <role role="interest" ref="1255" text="5 ℔."/>
+        <role role="beneficiary" ref="1376" text="si"/>
+      </event>
+      <event event_id="6.1">
+        <role role="interest" ref="1261" text="2 Ring"/>
+        <role role="cause" ref="1389" text="ze Wisung"/>
+        <role role="beneficiary" ref="1376" text="si"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

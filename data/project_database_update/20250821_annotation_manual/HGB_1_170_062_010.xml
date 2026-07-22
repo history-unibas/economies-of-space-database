@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 170/62 S. [10]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rittergasse 26</tei:title>
+            <tei:idno>HGB 1 170/62</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1510667</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Zinsamt</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1676">1676</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611725.8650497077 1267130.9546032972</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Rudolf</token>
+    <token token_id="1">Jäcklin</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Wachtknecht</token>
+    <token token_id="4">Jetz</token>
+    <token token_id="5">Emanuel</token>
+    <token token_id="6">Güssler</token>
+    <token token_id="7">(</token>
+    <token token_id="8">später</token>
+    <token token_id="9">Gyssler</token>
+    <token token_id="10">der</token>
+    <token token_id="11">Wachtknech</token>
+    <token token_id="12">17176</token>
+    <token token_id="13">Mr</token>
+    <token token_id="14">.</token>
+    <token token_id="15">Johannes</token>
+    <token token_id="16">Bientz</token>
+    <token token_id="17">.</token>
+    <token token_id="18">auf</token>
+    <token token_id="19">der</token>
+    <token token_id="20">Bärenhant</token>
+    <token token_id="21">wohnhaft</token>
+    <token token_id="22">soll</token>
+    <token token_id="23">3</token>
+    <token token_id="24">℔</token>
+    <token token_id="25">-</token>
+    <token token_id="26">ß</token>
+    <token token_id="27">-</token>
+    <token token_id="28">ȡ</token>
+    <token token_id="29">Jährlich</token>
+    <token token_id="30">auf</token>
+    <token token_id="31">Martini</token>
+    <token token_id="32">Episcopi</token>
+    <token token_id="33">von</token>
+    <token token_id="34">dem</token>
+    <token token_id="35">Graben</token>
+    <token token_id="36">darbey</token>
+    <token token_id="37">,</token>
+    <token token_id="38">der</token>
+    <token token_id="39">Hartzgraben</token>
+    <token token_id="40">genant</token>
+    <token token_id="41">.</token>
+  </text>
+  <spans>
+    <span id="693" start="0" end="3" text="Rudolf Jäcklin der Wachtknecht" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="699" start="0" end="1" text="Rudolf Jäcklin" element="head" class="nam" subclass=""/>
+      <span id="705" start="2" end="3" text="der Wachtknecht" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="711" start="3" end="3" text="Wachtknecht" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="831" start="4" end="4" text="Jetz" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="717" start="5" end="6" text="Emanuel Güssler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="717_head" start="5" end="6" element="head" class="nam" text="Emanuel Güssler" subclass=""/>
+    </span>
+    <span id="837" start="8" end="8" text="später" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="723" start="9" end="11" text="Gyssler der&#10;Wachtknech" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="729" start="9" end="9" text="Gyssler" element="head" class="nam" subclass=""/>
+      <span id="735" start="10" end="11" text="der&#10;Wachtknech" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="735_head" start="10" end="11" element="head" class="occ" text="der Wachtknech" subclass=""/>
+      </span>
+    </span>
+    <span id="741" start="12" end="12" text="17176" element="value" class="date" subclass=""/>
+    <span id="747" start="13" end="21" text="Mr . Johannes Bientz .&#10;auf der Bärenhant wohnhaft" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="753" start="13" end="14" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="753_head" start="13" end="14" element="head" class="title" text="Mr ." subclass=""/>
+      </span>
+      <span id="759" start="15" end="16" text="Johannes Bientz" element="head" class="nam" subclass=""/>
+      <span id="765" start="18" end="21" text="auf der Bärenhant wohnhaft" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="771" start="19" end="20" text="der Bärenhant" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="777" start="20" end="20" text="Bärenhant" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="819" start="22" end="22" text="soll" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="783" start="23" end="28" text="3 ℔ - ß - ȡ" element="value" class="money" subclass=""/>
+    <span id="789" start="29" end="29" text="Jährlich" element="value" class="time" subclass="rec"/>
+    <span id="795" start="30" end="32" text="auf Martini Episcopi" element="value" class="date" subclass=""/>
+    <span id="801" start="34" end="40" text="dem Graben darbey , der Hartzgraben&#10;genant" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="807" start="35" end="35" text="Graben" element="head" class="type" subclass=""/>
+      <span id="813" start="39" end="39" text="Hartzgraben" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="813_head" start="39" end="39" element="head" class="nam" text="Hartzgraben" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="18" end="21" ref="765" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="747" text="Mr . Johannes Bientz .&#10;auf der Bärenhant wohnhaft"/>
+        <role role="location-b" ref="771" text="der Bärenhant"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="4" end="4" ref="" type="state">
+      <trigger start="4" end="4" text="Jetz" ref="831"/>
+      <event event_id="1.0">
+        <role role="payer" ref="717" text="Emanuel Güssler"/>
+        <role role="previous-due" ref="819" text="soll"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="8" end="8" ref="" type="state">
+      <trigger start="8" end="8" text="später" ref="837"/>
+      <event event_id="2.0">
+        <role role="payer" ref="723" text="Gyssler der&#10;Wachtknech"/>
+        <role role="previous-due" ref="819" text="soll"/>
+      </event>
+      <event event_id="2.1">
+        <role role="date" ref="741" text="17176"/>
+        <role role="payer" ref="747" text="Mr . Johannes Bientz .&#10;auf der Bärenhant wohnhaft"/>
+        <role role="previous-due" ref="819" text="soll"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="0" end="40" ref="" type="state">
+      <trigger start="22" end="22" text="soll" ref="819"/>
+      <event event_id="3.0">
+        <role role="payer" ref="693" text="Rudolf Jäcklin der Wachtknecht"/>
+        <role role="interest" ref="783" text="3 ℔ - ß - ȡ"/>
+        <role role="interval" ref="789" text="Jährlich"/>
+        <role role="due-date" ref="795" text="auf Martini Episcopi"/>
+        <role role="property" ref="801" text="dem Graben darbey , der Hartzgraben&#10;genant"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

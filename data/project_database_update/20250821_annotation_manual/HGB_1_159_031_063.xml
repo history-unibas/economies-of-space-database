@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 159/31 S. [63]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheingasse 13 u. Utengasse 10</tei:title>
+            <tei:idno>HGB 1 159/31</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1507933</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Almosenamt</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1642">1642</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611522.72838655 1267765.6560008777</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Michel</token>
+    <token token_id="1">Beyell</token>
+    <token token_id="2">,</token>
+    <token token_id="3">der</token>
+    <token token_id="4">Weissbeckhenet</token>
+    <token token_id="5">soll</token>
+    <token token_id="6">auf</token>
+    <token token_id="7">Martini</token>
+    <token token_id="8">10ß</token>
+    <token token_id="9">.</token>
+    <token token_id="10">Ebenso</token>
+    <token token_id="11">:</token>
+    <token token_id="12">1643</token>
+    <token token_id="13">/</token>
+    <token token_id="14">4</token>
+    <token token_id="15">1644</token>
+    <token token_id="16">/</token>
+    <token token_id="17">5</token>
+    <token token_id="18">1645</token>
+    <token token_id="19">/</token>
+    <token token_id="20">6</token>
+    <token token_id="21">1646</token>
+    <token token_id="22">/</token>
+    <token token_id="23">7</token>
+  </text>
+  <spans>
+    <span id="460" start="0" end="4" text="Michel Beyell , der Weissbeckhenet" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="466" start="0" end="1" text="Michel Beyell" element="head" class="nam" subclass=""/>
+      <span id="472" start="3" end="4" text="der Weissbeckhenet" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="472_head" start="3" end="4" element="head" class="occ" text="der Weissbeckhenet" subclass=""/>
+      </span>
+    </span>
+    <span id="544" start="5" end="5" text="soll" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="484" start="6" end="7" text="auf Martini" element="value" class="date" subclass=""/>
+    <span id="490" start="8" end="9" text="10ß ." element="value" class="money" subclass=""/>
+    <span id="496" start="12" end="12" text="1643" element="value" class="date" subclass=""/>
+    <span id="502" start="14" end="14" text="4" element="value" class="date" subclass=""/>
+    <span id="508" start="15" end="15" text="1644" element="value" class="date" subclass=""/>
+    <span id="514" start="17" end="17" text="5" element="value" class="date" subclass=""/>
+    <span id="520" start="18" end="18" text="1645" element="value" class="date" subclass=""/>
+    <span id="526" start="20" end="20" text="6" element="value" class="date" subclass=""/>
+    <span id="532" start="21" end="21" text="1646" element="value" class="date" subclass=""/>
+    <span id="538" start="23" end="23" text="7" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="5" ref="" type="event">
+      <trigger start="5" end="5" text="soll" ref="544"/>
+      <event event_id="0.0">
+        <role role="payer" ref="460" text="Michel Beyell , der Weissbeckhenet"/>
+        <role role="due-date" ref="484" text="auf Martini"/>
+        <role role="interest" ref="490" text="10ß ."/>
+        <role role="date" ref="496" text="1643"/>
+        <role role="date" ref="502" text="4"/>
+        <role role="date" ref="508" text="1644"/>
+        <role role="date" ref="514" text="5"/>
+        <role role="date" ref="520" text="1645"/>
+        <role role="date" ref="526" text="6"/>
+        <role role="date" ref="532" text="1646"/>
+        <role role="date" ref="538" text="7"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

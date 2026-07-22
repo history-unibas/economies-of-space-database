@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/113 S. [4]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 56</tei:title>
+            <tei:idno>HGB 1 63/113</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472978</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1365">1365</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611290.58470134 1267228.9983975359</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Henman</token>
+    <token token_id="1">zer</token>
+    <token token_id="2">Sunnen</token>
+    <token token_id="3">,</token>
+    <token token_id="4">Burger</token>
+    <token token_id="5">ze</token>
+    <token token_id="6">Basel</token>
+    <token token_id="7">,</token>
+    <token token_id="8">verleiht</token>
+    <token token_id="9">Meister</token>
+    <token token_id="10">Heinrich</token>
+    <token token_id="11">von</token>
+    <token token_id="12">Roschenach</token>
+    <token token_id="13">dem</token>
+    <token token_id="14">Wundarzat</token>
+    <token token_id="15">Hus</token>
+    <token token_id="16">und</token>
+    <token token_id="17">Hofstat</token>
+    <token token_id="18">zer</token>
+    <token token_id="19">Burge</token>
+    <token token_id="20">gelegen</token>
+    <token token_id="21">im</token>
+    <token token_id="22">Rindermerkte</token>
+    <token token_id="23">,</token>
+    <token token_id="24">nachdem</token>
+    <token token_id="25">Cunrat</token>
+    <token token_id="26">von</token>
+    <token token_id="27">Berttlikon</token>
+    <token token_id="28">,</token>
+    <token token_id="29">Burger</token>
+    <token token_id="30">ze</token>
+    <token token_id="31">Basel</token>
+    <token token_id="32">,</token>
+    <token token_id="33">an</token>
+    <token token_id="34">sein</token>
+    <token token_id="35">Erbrecht</token>
+    <token token_id="36">an</token>
+    <token token_id="37">demselben</token>
+    <token token_id="38">verzichtet</token>
+    <token token_id="39">hat</token>
+    <token token_id="40">,</token>
+    <token token_id="41">umb</token>
+    <token token_id="42">3</token>
+    <token token_id="43">℔</token>
+    <token token_id="44">von</token>
+    <token token_id="45">der</token>
+    <token token_id="46">Eigenschaft</token>
+    <token token_id="47">ze</token>
+    <token token_id="48">Zinse</token>
+    <token token_id="49">,</token>
+    <token token_id="50">2</token>
+    <token token_id="51">Ringe</token>
+    <token token_id="52">ze</token>
+    <token token_id="53">Wisunge</token>
+    <token token_id="54">,</token>
+    <token token_id="55">5</token>
+    <token token_id="56">sh</token>
+    <token token_id="57">.</token>
+    <token token_id="58">ze</token>
+    <token token_id="59">Erschatze</token>
+    <token token_id="60">,</token>
+    <token token_id="61">und</token>
+    <token token_id="62">gehörent</token>
+    <token token_id="63">die</token>
+    <token token_id="64">3</token>
+    <token token_id="65">℔</token>
+    <token token_id="66">.</token>
+    <token token_id="67">den</token>
+    <token token_id="68">Barfüssen</token>
+    <token token_id="69">ze</token>
+    <token token_id="70">eim</token>
+    <token token_id="71">Selgerethe</token>
+    <token token_id="72">.</token>
+  </text>
+  <spans>
+    <span id="1112" start="0" end="6" text="Henman zer Sunnen , Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1208" start="0" end="0" text="Henman" element="head" class="nam" subclass=""/>
+      <span id="1214" start="1" end="2" text="zer Sunnen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1220" start="2" end="2" text="Sunnen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1220_head" start="2" end="2" element="head" class="nam" text="Sunnen" subclass=""/>
+        </span>
+      </span>
+      <span id="1118" start="4" end="6" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1124" start="4" end="4" text="Burger" element="head" class="org-aff" subclass=""/>
+        <span id="1130" start="6" end="6" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1130_head" start="6" end="6" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1330" start="8" end="8" text="verleiht" element="trigger" class="hereditary" tense="pres" polarity="pos" modality="ass" subclass="lease"/>
+    <span id="1136" start="9" end="14" text="Meister&#10;Heinrich von Roschenach dem Wundarzat" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1142" start="9" end="9" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1142_head" start="9" end="9" element="head" class="title" text="Meister" subclass=""/>
+      </span>
+      <span id="1190" start="10" end="10" text="Heinrich" element="head" class="nam" subclass=""/>
+      <span id="1196" start="11" end="12" text="von Roschenach" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1202" start="12" end="12" text="Roschenach" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1202_head" start="12" end="12" element="head" class="nam" text="Roschenach" subclass=""/>
+        </span>
+      </span>
+      <span id="1148" start="13" end="14" text="dem Wundarzat" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1154" start="14" end="14" text="Wundarzat" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1160" start="15" end="22" text="Hus und&#10;Hofstat zer Burge gelegen im Rindermerkte" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1166" start="15" end="19" text="Hus und&#10;Hofstat zer Burge" element="head" class="nam" subclass=""/>
+      <span id="1172" start="20" end="22" text="gelegen im Rindermerkte" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1178" start="21" end="22" text="im Rindermerkte" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="1184" start="22" end="22" text="Rindermerkte" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1366" start="24" end="39" text="nachdem&#10;Cunrat von Berttlikon , Burger ze Basel , an sein&#10;Erbrecht an demselben verzichtet hat" element="eventspan" class="other" tense="past" polarity="pos" modality="ass" subclass="">
+      <span id="1226" start="25" end="31" text="Cunrat von Berttlikon , Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1232" start="25" end="25" text="Cunrat" element="head" class="nam" subclass=""/>
+        <span id="1238" start="26" end="27" text="von Berttlikon" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1244" start="27" end="27" text="Berttlikon" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1244_head" start="27" end="27" element="head" class="nam" text="Berttlikon" subclass=""/>
+          </span>
+        </span>
+        <span id="1250" start="29" end="31" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1256" start="29" end="29" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="1262" start="31" end="31" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1262_head" start="31" end="31" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1268" start="34" end="34" text="sein" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1268_head" start="34" end="34" element="head" class="pro" text="sein" subclass=""/>
+      </span>
+      <span id="1281" start="37" end="37" text="demselben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1281_head" start="37" end="37" element="head" class="pro" text="demselben" subclass=""/>
+      </span>
+      <span id="1366_trigger" start="38" end="38" text="verzichtet" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1294" start="42" end="43" text="3 ℔" element="value" class="money" subclass=""/>
+    <span id="1342" start="46" end="46" text="Eigenschaft" element="other" class="other" subclass=""/>
+    <span id="1336" start="48" end="48" text="Zinse" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1300" start="50" end="51" text="2 Ringe" element="value" class="money" subclass=""/>
+    <span id="1348" start="53" end="53" text="Wisunge" element="other" class="other" subclass=""/>
+    <span id="1306" start="55" end="57" text="5 sh ." element="value" class="money" subclass=""/>
+    <span id="1354" start="59" end="59" text="Erschatze" element="other" class="other" subclass=""/>
+    <span id="1360" start="61" end="72" text="und gehörent die 3 ℔. den Barfüssen ze eim Selgerethe ." element="other" class="other" subclass="">
+      <span id="1312" start="64" end="66" text="3 ℔." element="value" class="money" subclass=""/>
+      <span id="1318" start="67" end="68" text="den Barfüssen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1324" start="68" end="68" text="Barfüssen" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1287" from="1281" to="1160" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1274" from="1268" to="1226" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="other" polarity="pos" tense="past" modality="ass" start="24" end="39" ref="1366" type="event">
+      <trigger start="38" end="38" text="verzichtet" ref="1366_trigger"/>
+      <event event_id="0.0">
+        <role role="actor" ref="1226" text="Cunrat von Berttlikon , Burger ze Basel"/>
+        <role role="object" ref="1281" text="demselben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="4" end="6" ref="1118" type="state">
+      <trigger start="4" end="4" text="Burger" ref="1124"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1112" text="Henman zer Sunnen , Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="1130" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="29" end="31" ref="1250" type="state">
+      <trigger start="29" end="29" text="Burger" ref="1256"/>
+      <event event_id="2.0">
+        <role role="resident" ref="1226" text="Cunrat von Berttlikon , Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="1262" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="1" end="2" ref="1214" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1112" text="Henman zer Sunnen , Burger ze Basel"/>
+        <role role="location-b" ref="1220" text="Sunnen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="11" end="12" ref="1196" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1136" text="Meister&#10;Heinrich von Roschenach dem Wundarzat"/>
+        <role role="location-b" ref="1202" text="Roschenach"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="22" ref="1172" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1160" text="Hus und&#10;Hofstat zer Burge gelegen im Rindermerkte"/>
+        <role role="location-b" ref="1178" text="im Rindermerkte"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="26" end="27" ref="1238" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1226" text="Cunrat von Berttlikon , Burger ze Basel"/>
+        <role role="location-b" ref="1244" text="Berttlikon"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="heritable-lease-grant" polarity="pos" tense="pres" modality="ass" start="0" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="verleiht" ref="1330"/>
+      <event event_id="7.0">
+        <role role="grantor" ref="1112" text="Henman zer Sunnen , Burger ze Basel"/>
+        <role role="lessee" ref="1136" text="Meister&#10;Heinrich von Roschenach dem Wundarzat"/>
+        <role role="property" ref="1160" text="Hus und&#10;Hofstat zer Burge gelegen im Rindermerkte"/>
+        <role role="detail_context" ref="1366" text="nachdem&#10;Cunrat von Berttlikon , Burger ze Basel , an sein&#10;Erbrecht an demselben verzichtet hat"/>
+        <role role="due" ref="1336" text="Zinse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="42" end="72" ref="" type="state">
+      <trigger start="48" end="48" text="Zinse" ref="1336"/>
+      <event event_id="8.0">
+        <role role="interest" ref="1294" text="3 ℔"/>
+        <role role="cause" ref="1342" text="Eigenschaft"/>
+        <role role="detail_distribution" ref="1360" text="und gehörent die 3 ℔. den Barfüssen ze eim Selgerethe ."/>
+      </event>
+      <event event_id="8.1">
+        <role role="interest" ref="1300" text="2 Ringe"/>
+        <role role="cause" ref="1348" text="Wisunge"/>
+        <role role="detail_distribution" ref="1360" text="und gehörent die 3 ℔. den Barfüssen ze eim Selgerethe ."/>
+      </event>
+      <event event_id="8.2">
+        <role role="interest" ref="1306" text="5 sh ."/>
+        <role role="cause" ref="1354" text="Erschatze"/>
+        <role role="detail_distribution" ref="1360" text="und gehörent die 3 ℔. den Barfüssen ze eim Selgerethe ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

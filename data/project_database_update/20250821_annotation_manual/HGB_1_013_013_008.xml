@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 13/13 S. [8]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Andreasplatz 16</tei:title>
+            <tei:idno>HGB 1 13/13</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1460877</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1383">1383</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611130.30880112 1267515.2115650538</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Hugelin</token>
+    <token token_id="4">Trenlin</token>
+    <token token_id="5">von</token>
+    <token token_id="6">Löffen</token>
+    <token token_id="7">,</token>
+    <token token_id="8">Burger</token>
+    <token token_id="9">von</token>
+    <token token_id="10">Basel</token>
+    <token token_id="11">und</token>
+    <token token_id="12">Jungfro</token>
+    <token token_id="13">¬</token>
+    <token token_id="14">Engen</token>
+    <token token_id="15">von</token>
+    <token token_id="16">Löffen</token>
+    <token token_id="17">sin</token>
+    <token token_id="18">Mume</token>
+    <token token_id="19">verkaufen</token>
+    <token token_id="20">der</token>
+    <token token_id="21">Bruderschaft</token>
+    <token token_id="22">ze</token>
+    <token token_id="23">sant</token>
+    <token token_id="24">Johans</token>
+    <token token_id="25">uf</token>
+    <token token_id="26">Burg</token>
+    <token token_id="27">ze</token>
+    <token token_id="28">Basel</token>
+    <token token_id="29">,</token>
+    <token token_id="30">der</token>
+    <token token_id="31">Stifte</token>
+    <token token_id="32">ze</token>
+    <token token_id="33">sant</token>
+    <token token_id="34">Peter</token>
+    <token token_id="35">ze</token>
+    <token token_id="36">Basel</token>
+    <token token_id="37">und</token>
+    <token token_id="38">dem</token>
+    <token token_id="39">Closter</token>
+    <token token_id="40">zen</token>
+    <token token_id="41">Barfüssen</token>
+    <token token_id="42">ze</token>
+    <token token_id="43">Basel</token>
+    <token token_id="44">die</token>
+    <token token_id="45">3</token>
+    <token token_id="46">℔</token>
+    <token token_id="47">Geltz</token>
+    <token token_id="48">¬</token>
+    <token token_id="49">Zinses</token>
+    <token token_id="50">,</token>
+    <token token_id="51">4</token>
+    <token token_id="52">Ring</token>
+    <token token_id="53">Wisung</token>
+    <token token_id="54">und</token>
+    <token token_id="55">1</token>
+    <token token_id="56">/</token>
+    <token token_id="57">2</token>
+    <token token_id="58">℔</token>
+    <token token_id="59">Pfeffers</token>
+    <token token_id="60">Erschatz</token>
+    <token token_id="61">,</token>
+    <token token_id="62">so</token>
+    <token token_id="63">si</token>
+    <token token_id="64">haben</token>
+    <token token_id="65">,</token>
+    <token token_id="66">uf</token>
+    <token token_id="67">Johans</token>
+    <token token_id="68">von</token>
+    <token token_id="69">Watilr</token>
+    <token token_id="70">sel</token>
+    <token token_id="71">.</token>
+    <token token_id="72">Hofstat</token>
+    <token token_id="73">und</token>
+    <token token_id="74">uf</token>
+    <token token_id="75">dem</token>
+    <token token_id="76">hindern</token>
+    <token token_id="77">Höflin</token>
+    <token token_id="78">,</token>
+    <token token_id="79">so</token>
+    <token token_id="80">gelegen</token>
+    <token token_id="81">ist</token>
+    <token token_id="82">ze</token>
+    <token token_id="83">Basel</token>
+    <token token_id="84">in</token>
+    <token token_id="85">der</token>
+    <token token_id="86">Statt</token>
+    <token token_id="87">by</token>
+    <token token_id="88">sant</token>
+    <token token_id="89">Andres</token>
+    <token token_id="90">Capelle</token>
+    <token token_id="91">,</token>
+    <token token_id="92">zwischent</token>
+    <token token_id="93">Conratz</token>
+    <token token_id="94">Hüllers</token>
+    <token token_id="95">Huse</token>
+    <token token_id="96">und</token>
+    <token token_id="97">Conrat</token>
+    <token token_id="98">von</token>
+    <token token_id="99">Efringen</token>
+    <token token_id="100">sel</token>
+    <token token_id="101">.</token>
+    <token token_id="102">Hofstat</token>
+    <token token_id="103">,</token>
+    <token token_id="104">denselben</token>
+    <token token_id="105">Zins</token>
+    <token token_id="106">jerlichs</token>
+    <token token_id="107">da</token>
+    <token token_id="108">von</token>
+    <token token_id="109">git</token>
+    <token token_id="110">Conrat</token>
+    <token token_id="111">Huller</token>
+    <token token_id="112">für</token>
+    <token token_id="113">lidig</token>
+    <token token_id="114">eigen</token>
+    <token token_id="115">,</token>
+    <token token_id="116">umb</token>
+    <token token_id="117">50</token>
+    <token token_id="118">Guldin</token>
+    <token token_id="119">.</token>
+  </text>
+  <spans>
+    <span id="1769" start="3" end="18" text="Hugelin Trenlin von Löffen , Burger von Basel und Jungfro ¬&#10;Engen von Löffen sin Mume" element="list" class="per" subclass="">
+      <span id="1775" start="3" end="10" text="Hugelin Trenlin von Löffen , Burger von Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1781" start="3" end="4" text="Hugelin Trenlin" element="head" class="nam" subclass=""/>
+        <span id="1787" start="5" end="6" text="von Löffen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1793" start="6" end="6" text="Löffen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1793_head" start="6" end="6" element="head" class="nam" text="Löffen" subclass=""/>
+          </span>
+        </span>
+        <span id="1799" start="8" end="10" text="Burger von Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1805" start="8" end="8" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="1811" start="10" end="10" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1811_head" start="10" end="10" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1817" start="12" end="18" text="Jungfro ¬&#10;Engen von Löffen sin Mume" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1823" start="12" end="13" text="Jungfro ¬" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1823_head" start="12" end="13" element="head" class="title" text="Jungfro ¬" subclass=""/>
+        </span>
+        <span id="1829" start="14" end="14" text="Engen" element="head" class="nam" subclass=""/>
+        <span id="1835" start="15" end="16" text="von Löffen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1841" start="16" end="16" text="Löffen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1841_head" start="16" end="16" element="head" class="nam" text="Löffen" subclass=""/>
+          </span>
+        </span>
+        <span id="1847" start="17" end="18" text="sin Mume" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1859" start="17" end="17" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1859_head" start="17" end="17" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1853" start="18" end="18" text="Mume" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2149" start="19" end="19" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1872" start="20" end="43" text="der Bruderschaft&#10;ze sant Johans uf Burg ze Basel , der Stifte ze sant Peter ze&#10;Basel und dem Closter zen Barfüssen ze Basel" element="list" class="org" subclass="">
+      <span id="1878" start="20" end="28" text="der Bruderschaft&#10;ze sant Johans uf Burg ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1914" start="22" end="24" text="ze sant Johans" element="head" class="nam" subclass=""/>
+        <span id="1884" start="25" end="26" text="uf Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1890" start="26" end="26" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1890_head" start="26" end="26" element="head" class="nam" text="Burg" subclass=""/>
+          </span>
+        </span>
+        <span id="1896" start="27" end="28" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1902" start="28" end="28" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1902_head" start="28" end="28" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1908" start="30" end="36" text="der Stifte ze sant Peter ze&#10;Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1920" start="32" end="34" text="ze sant Peter" element="head" class="nam" subclass=""/>
+        <span id="1926" start="35" end="36" text="ze&#10;Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1932" start="36" end="36" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1932_head" start="36" end="36" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1938" start="38" end="43" text="dem Closter zen Barfüssen ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1944" start="40" end="41" text="zen Barfüssen" element="head" class="nam" subclass=""/>
+        <span id="1950" start="42" end="43" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1956" start="43" end="43" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1956_head" start="43" end="43" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2155" start="45" end="46" text="3 ℔" element="value" class="money" subclass=""/>
+    <span id="2173" start="47" end="49" text="Geltz ¬&#10;Zinses" element="other" class="other" subclass=""/>
+    <span id="2161" start="51" end="52" text="4 Ring" element="value" class="money" subclass=""/>
+    <span id="2179" start="53" end="53" text="Wisung" element="other" class="other" subclass=""/>
+    <span id="1962" start="55" end="59" text="1 / 2 ℔ Pfeffers" element="value" class="money" subclass=""/>
+    <span id="2185" start="60" end="60" text="Erschatz" element="other" class="other" subclass=""/>
+    <span id="1968" start="63" end="63" text="si" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1968_head" start="63" end="63" element="head" class="pro" text="si" subclass=""/>
+    </span>
+    <span id="2167" start="64" end="64" text="haben" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2017" start="67" end="114" text="Johans von Watilr sel . Hofstat und uf dem hindern&#10;Höflin , so gelegen ist ze Basel in der Statt by sant Andres&#10;Capelle , zwischent Conratz Hüllers Huse und Conrat&#10;von Efringen sel . Hofstat , denselben Zins jerlichs da von git&#10;Conrat Huller für lidig eigen" element="list" class="fac" subclass="">
+      <span id="1981" start="67" end="72" text="Johans von Watilr sel . Hofstat" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2011" start="67" end="71" text="Johans von Watilr sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1993" start="67" end="71" text="Johans von Watilr sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1999" start="67" end="69" text="Johans von Watilr" element="head" class="nam" subclass=""/>
+            <span id="2005" start="70" end="71" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+        </span>
+        <span id="1987" start="72" end="72" text="Hofstat" element="head" class="type" subclass=""/>
+      </span>
+      <span id="2023" start="75" end="114" text="dem hindern&#10;Höflin , so gelegen ist ze Basel in der Statt by sant Andres&#10;Capelle , zwischent Conratz Hüllers Huse und Conrat&#10;von Efringen sel . Hofstat , denselben Zins jerlichs da von git&#10;Conrat Huller für lidig eigen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2029" start="77" end="77" text="Höflin" element="head" class="type" subclass=""/>
+        <span id="2035" start="79" end="102" text="so gelegen ist ze Basel in der Statt by sant Andres&#10;Capelle , zwischent Conratz Hüllers Huse und Conrat&#10;von Efringen sel . Hofstat" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2041" start="83" end="83" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2041_head" start="83" end="83" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+          <span id="2047" start="85" end="86" text="der Statt" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2053" start="86" end="86" text="Statt" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2059" start="88" end="90" text="sant Andres&#10;Capelle" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="2059_head" start="88" end="90" element="head" class="nam" text="sant Andres Capelle" subclass=""/>
+          </span>
+          <span id="2119" start="93" end="102" text="Conratz Hüllers Huse und Conrat&#10;von Efringen sel . Hofstat" element="list" class="fac" subclass="">
+            <span id="2065" start="93" end="95" text="Conratz Hüllers Huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2083" start="93" end="94" text="Conratz Hüllers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2077" start="93" end="94" text="Conratz Hüllers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="2077_head" start="93" end="94" element="head" class="nam" text="Conratz Hüllers" subclass=""/>
+                </span>
+              </span>
+              <span id="2071" start="95" end="95" text="Huse" element="head" class="type" subclass=""/>
+            </span>
+            <span id="2089" start="97" end="102" text="Conrat&#10;von Efringen sel . Hofstat" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2107" start="97" end="101" text="Conrat&#10;von Efringen sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2113" start="97" end="101" text="Conrat&#10;von Efringen sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="2101" start="97" end="99" text="Conrat&#10;von Efringen" element="head" class="nam" subclass=""/>
+                </span>
+              </span>
+              <span id="2095" start="102" end="102" text="Hofstat" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2125" start="104" end="114" text="denselben Zins jerlichs da von git&#10;Conrat Huller für lidig eigen" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2191" start="105" end="105" text="Zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          <span id="2131" start="106" end="106" text="jerlichs" element="value" class="time" subclass="rec"/>
+          <span id="2197" start="107" end="108" text="da von" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2197_head" start="107" end="108" element="head" class="pro" text="da von" subclass=""/>
+          </span>
+          <span id="2137" start="110" end="111" text="Conrat Huller" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2137_head" start="110" end="111" element="head" class="nam" text="Conrat Huller" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2143" start="117" end="119" text="50 Guldin ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1974" from="1968" to="1769" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1865" from="1859" to="1775" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2203" from="2191" to="2167" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2197_rel" from="2197" to="2023" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2191_role" from="2191" to="2023" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="8" end="10" ref="1799" type="state">
+      <trigger start="8" end="8" text="Burger" ref="1805"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1775" text="Hugelin Trenlin von Löffen , Burger von Basel"/>
+        <role role="geopolitical-entity" ref="1811" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="17" end="18" ref="1847" type="state">
+      <trigger start="18" end="18" text="Mume" ref="1853"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1817" text="Jungfro ¬&#10;Engen von Löffen sin Mume"/>
+        <role role="family-b" ref="1859" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="5" end="6" ref="1787" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1775" text="Hugelin Trenlin von Löffen , Burger von Basel"/>
+        <role role="location-b" ref="1793" text="Löffen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="16" ref="1835" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1817" text="Jungfro ¬&#10;Engen von Löffen sin Mume"/>
+        <role role="location-b" ref="1841" text="Löffen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="25" end="26" ref="1884" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1878" text="der Bruderschaft&#10;ze sant Johans uf Burg ze Basel"/>
+        <role role="location-b" ref="1890" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="27" end="28" ref="1896" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1878" text="der Bruderschaft&#10;ze sant Johans uf Burg ze Basel"/>
+        <role role="location-b" ref="1902" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="36" ref="1926" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1908" text="der Stifte ze sant Peter ze&#10;Basel"/>
+        <role role="location-b" ref="1932" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="42" end="43" ref="1950" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1938" text="dem Closter zen Barfüssen ze Basel"/>
+        <role role="location-b" ref="1956" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="ownership" polarity="pos" tense="pres" modality="ass" start="67" end="71" ref="2011" type="state">
+      <event event_id="8.0">
+        <role role="property" ref="1981" text="Johans von Watilr sel . Hofstat"/>
+        <role role="owner" ref="1993" text="Johans von Watilr sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="topological" polarity="pos" tense="pres" modality="ass" start="79" end="102" ref="2035" type="state">
+      <event event_id="9.0">
+        <role role="location-a" ref="2023" text="dem hindern&#10;Höflin , so gelegen ist ze Basel in der Statt by sant Andres&#10;Capelle , zwischent Conratz Hüllers Huse und Conrat&#10;von Efringen sel . Hofstat , denselben Zins jerlichs da von git&#10;Conrat Huller für lidig eigen"/>
+        <role role="location-b" ref="2041" text="Basel"/>
+        <role role="location-b" ref="2047" text="der Statt"/>
+        <role role="location-b" ref="2059" text="sant Andres&#10;Capelle"/>
+        <role role="location-b" ref="2065" text="Conratz Hüllers Huse"/>
+        <role role="location-b" ref="2089" text="Conrat&#10;von Efringen sel . Hofstat"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="ownership" polarity="pos" tense="pres" modality="ass" start="93" end="94" ref="2083" type="state">
+      <event event_id="10.0">
+        <role role="property" ref="2065" text="Conratz Hüllers Huse"/>
+        <role role="owner" ref="2077" text="Conratz Hüllers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="ownership" polarity="pos" tense="pres" modality="ass" start="97" end="101" ref="2107" type="state">
+      <event event_id="11.0">
+        <role role="property" ref="2089" text="Conrat&#10;von Efringen sel . Hofstat"/>
+        <role role="owner" ref="2113" text="Conrat&#10;von Efringen sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="19" end="19" ref="" type="event">
+      <trigger start="19" end="19" text="verkaufen" ref="2149"/>
+      <event event_id="12.0">
+        <role role="seller" ref="1775" text="Hugelin Trenlin von Löffen , Burger von Basel"/>
+        <role role="seller" ref="1817" text="Jungfro ¬&#10;Engen von Löffen sin Mume"/>
+        <role role="buyer" ref="1878" text="der Bruderschaft&#10;ze sant Johans uf Burg ze Basel"/>
+        <role role="buyer" ref="1908" text="der Stifte ze sant Peter ze&#10;Basel"/>
+        <role role="buyer" ref="1938" text="dem Closter zen Barfüssen ze Basel"/>
+        <role role="due" ref="2167" text="haben"/>
+        <role role="collateral" ref="1981" text="Johans von Watilr sel . Hofstat"/>
+        <role role="collateral" ref="2023" text="dem hindern&#10;Höflin , so gelegen ist ze Basel in der Statt by sant Andres&#10;Capelle , zwischent Conratz Hüllers Huse und Conrat&#10;von Efringen sel . Hofstat , denselben Zins jerlichs da von git&#10;Conrat Huller für lidig eigen"/>
+        <role role="price" ref="2143" text="50 Guldin ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="45" end="64" ref="" type="state">
+      <trigger start="64" end="64" text="haben" ref="2167"/>
+      <event event_id="13.0">
+        <role role="interest" ref="2155" text="3 ℔"/>
+        <role role="cause" ref="2173" text="Geltz ¬&#10;Zinses"/>
+        <role role="beneficiary" ref="1968" text="si"/>
+      </event>
+      <event event_id="13.1">
+        <role role="interest" ref="2161" text="4 Ring"/>
+        <role role="cause" ref="2179" text="Wisung"/>
+        <role role="beneficiary" ref="1968" text="si"/>
+      </event>
+      <event event_id="13.2">
+        <role role="interest" ref="1962" text="1 / 2 ℔ Pfeffers"/>
+        <role role="cause" ref="2185" text="Erschatz"/>
+        <role role="beneficiary" ref="1968" text="si"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="105" end="114" ref="2125" type="state">
+      <trigger start="105" end="105" text="Zins" ref="2191"/>
+      <event event_id="14.0">
+        <role role="interval" ref="2131" text="jerlichs"/>
+        <role role="property" ref="2197" text="da von"/>
+        <role role="payer" ref="2137" text="Conrat Huller"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

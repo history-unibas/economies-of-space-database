@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 150/32 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Petersplatz Theil v. 14 neben 15</tei:title>
+            <tei:idno>HGB 1 150/32</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1503456</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1390">1390</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610918.4189079497 1267657.6156913508</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">In</token>
+    <token token_id="1">sant</token>
+    <token token_id="2">Peters</token>
+    <token token_id="3">Kilchspel</token>
+    <token token_id="4">.</token>
+    <token token_id="5">B</token>
+    <token token_id="6">38</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Item</token>
+    <token token_id="9">2</token>
+    <token token_id="10">Brieff</token>
+    <token token_id="11">wisent</token>
+    <token token_id="12">32ß</token>
+    <token token_id="13">gelts</token>
+    <token token_id="14">uff</token>
+    <token token_id="15">zweyen</token>
+    <token token_id="16">huseren</token>
+    <token token_id="17">schüren</token>
+    <token token_id="18">und</token>
+    <token token_id="19">garten</token>
+    <token token_id="20">in</token>
+    <token token_id="21">der</token>
+    <token token_id="22">nuwen</token>
+    <token token_id="23">vorstatt</token>
+    <token token_id="24">zwüschen</token>
+    <token token_id="25">der</token>
+    <token token_id="26">zer</token>
+    <token token_id="27">Kinden</token>
+    <token token_id="28">und</token>
+    <token token_id="29">Heinrichen</token>
+    <token token_id="30">von</token>
+    <token token_id="31">Schliengen</token>
+    <token token_id="32">huseren</token>
+    <token token_id="33">,</token>
+    <token token_id="34">so</token>
+    <token token_id="35">den</token>
+    <token token_id="36">10ß</token>
+    <token token_id="37">gelts</token>
+    <token token_id="38">uff</token>
+    <token token_id="39">dem</token>
+    <token token_id="40">orthus</token>
+    <token token_id="41">zem</token>
+    <token token_id="42">roten</token>
+    <token token_id="43">Vann</token>
+    <token token_id="44">.</token>
+  </text>
+  <spans>
+    <span id="696" start="1" end="3" text="sant Peters Kilchspel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="696_head" start="1" end="3" element="head" class="nam" text="sant Peters Kilchspel" subclass=""/>
+    </span>
+    <span id="810" start="11" end="11" text="wisent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="798" start="12" end="12" text="32ß" element="value" class="money" subclass=""/>
+    <span id="702" start="15" end="32" text="zweyen huseren schüren und garten in der&#10;nuwen vorstatt zwüschen der zer Kinden&#10;und Heinrichen von Schliengen huseren" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="708" start="16" end="19" text="huseren schüren und garten" element="head" class="type" subclass=""/>
+      <span id="714" start="20" end="32" text="in der&#10;nuwen vorstatt zwüschen der zer Kinden&#10;und Heinrichen von Schliengen huseren" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="720" start="21" end="23" text="der&#10;nuwen vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="726" start="22" end="23" text="nuwen vorstatt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="732" start="25" end="32" text="der zer Kinden&#10;und Heinrichen von Schliengen huseren" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="744" start="25" end="31" text="der zer Kinden&#10;und Heinrichen von Schliengen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="750" start="25" end="27" text="der zer Kinden" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="804" start="26" end="27" text="zer Kinden" element="head" class="nam" subclass=""/>
+            </span>
+            <span id="756" start="29" end="31" text="Heinrichen von Schliengen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="762" start="29" end="29" text="Heinrichen" element="head" class="nam" subclass=""/>
+              <span id="768" start="30" end="31" text="von Schliengen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="774" start="31" end="31" text="Schliengen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="774_head" start="31" end="31" element="head" class="nam" text="Schliengen" subclass=""/>
+                </span>
+              </span>
+            </span>
+          </span>
+          <span id="738" start="32" end="32" text="huseren" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="780" start="36" end="37" text="10ß gelts" element="value" class="money" subclass=""/>
+    <span id="786" start="39" end="43" text="dem orthus zem roten&#10;Vann" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="792" start="40" end="43" text="orthus zem roten&#10;Vann" element="head" class="nam" subclass=""/>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="32" ref="714" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="702" text="zweyen huseren schüren und garten in der&#10;nuwen vorstatt zwüschen der zer Kinden&#10;und Heinrichen von Schliengen huseren"/>
+        <role role="location-b" ref="720" text="der&#10;nuwen vorstatt"/>
+        <role role="location-b" ref="732" text="der zer Kinden&#10;und Heinrichen von Schliengen huseren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="25" end="31" ref="744" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="732" text="der zer Kinden&#10;und Heinrichen von Schliengen huseren"/>
+        <role role="owner" ref="750" text="der zer Kinden"/>
+        <role role="owner" ref="756" text="Heinrichen von Schliengen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="31" ref="768" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="756" text="Heinrichen von Schliengen"/>
+        <role role="location-b" ref="774" text="Schliengen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="1" end="43" ref="" type="state">
+      <trigger start="11" end="11" text="wisent" ref="810"/>
+      <event event_id="3.0">
+        <role role="place" ref="696" text="sant Peters Kilchspel"/>
+        <role role="interest" ref="798" text="32ß"/>
+        <role role="property" ref="702" text="zweyen huseren schüren und garten in der&#10;nuwen vorstatt zwüschen der zer Kinden&#10;und Heinrichen von Schliengen huseren"/>
+      </event>
+      <event event_id="3.1">
+        <role role="place" ref="696" text="sant Peters Kilchspel"/>
+        <role role="interest" ref="780" text="10ß gelts"/>
+        <role role="interest" ref="786" text="dem orthus zem roten&#10;Vann"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 161/28 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheinsprung 8</tei:title>
+            <tei:idno>HGB 1 161/28</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1509055</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1699">1699</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611309.9578137924 1267611.6835545104</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Kaufpublicatio</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Es</token>
+    <token token_id="3">verkauft</token>
+    <token token_id="4">Mr</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Jacob</token>
+    <token token_id="7">Schlichter</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Schneider</token>
+    <token token_id="10">und</token>
+    <token token_id="11">gibt</token>
+    <token token_id="12">zu</token>
+    <token token_id="13">kaufen</token>
+    <token token_id="14">Mr</token>
+    <token token_id="15">.</token>
+    <token token_id="16">Johannes</token>
+    <token token_id="17">Frey</token>
+    <token token_id="18">auch</token>
+    <token token_id="19">dem</token>
+    <token token_id="20">Schneider</token>
+    <token token_id="21">,</token>
+    <token token_id="22">Eine</token>
+    <token token_id="23">Behausung</token>
+    <token token_id="24">an</token>
+    <token token_id="25">dem</token>
+    <token token_id="26">Undern</token>
+    <token token_id="27">Rhein</token>
+    <token token_id="28">¬</token>
+    <token token_id="29">sprung</token>
+    <token token_id="30">,</token>
+    <token token_id="31">Underhalb</token>
+    <token token_id="32">St</token>
+    <token token_id="33">.</token>
+    <token token_id="34">Martins</token>
+    <token token_id="35">Kirchhoof</token>
+    <token token_id="36">,</token>
+    <token token_id="37">einseit</token>
+    <token token_id="38">neben</token>
+    <token token_id="39">Mr</token>
+    <token token_id="40">Friderich</token>
+    <token token_id="41">Fuchs</token>
+    <token token_id="42">dem</token>
+    <token token_id="43">Buchbinder</token>
+    <token token_id="44">,</token>
+    <token token_id="45">anderseit</token>
+    <token token_id="46">neben</token>
+    <token token_id="47">Mr</token>
+    <token token_id="48">.</token>
+    <token token_id="49">Heinrich</token>
+    <token token_id="50">Rupen</token>
+    <token token_id="51">sel</token>
+    <token token_id="52">.</token>
+    <token token_id="53">Wittib</token>
+    <token token_id="54">gelegen</token>
+    <token token_id="55">.</token>
+  </text>
+  <spans>
+    <span id="1040" start="3" end="3" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="878" start="4" end="9" text="Mr . Jacob Schlichter der Schneider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="890" start="4" end="5" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="890_head" start="4" end="5" element="head" class="title" text="Mr ." subclass=""/>
+      </span>
+      <span id="884" start="6" end="7" text="Jacob Schlichter" element="head" class="nam" subclass=""/>
+      <span id="896" start="8" end="9" text="der Schneider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="902" start="9" end="9" text="Schneider" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="908" start="14" end="20" text="Mr . Johannes Frey auch dem&#10;Schneider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="920" start="14" end="15" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="920_head" start="14" end="15" element="head" class="title" text="Mr ." subclass=""/>
+      </span>
+      <span id="914" start="16" end="17" text="Johannes Frey" element="head" class="nam" subclass=""/>
+      <span id="926" start="19" end="20" text="dem&#10;Schneider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="932" start="20" end="20" text="Schneider" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="938" start="22" end="54" text="Eine Behausung an dem Undern Rhein ¬&#10;sprung , Underhalb St . Martins Kirchhoof , einseit neben&#10;Mr Friderich Fuchs dem Buchbinder , anderseit neben&#10;Mr . Heinrich Rupen sel . Wittib gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="944" start="23" end="23" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="950" start="24" end="54" text="an dem Undern Rhein ¬&#10;sprung , Underhalb St . Martins Kirchhoof , einseit neben&#10;Mr Friderich Fuchs dem Buchbinder , anderseit neben&#10;Mr . Heinrich Rupen sel . Wittib gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="956" start="25" end="29" text="dem Undern Rhein ¬&#10;sprung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="962" start="26" end="29" text="Undern Rhein ¬&#10;sprung" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="968" start="32" end="35" text="St . Martins Kirchhoof" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="968_head" start="32" end="35" element="head" class="nam" text="St . Martins Kirchhoof" subclass=""/>
+        </span>
+        <span id="974" start="39" end="43" text="Mr Friderich Fuchs dem Buchbinder" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="986" start="39" end="39" text="Mr" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="986_head" start="39" end="39" element="head" class="title" text="Mr" subclass=""/>
+          </span>
+          <span id="980" start="40" end="41" text="Friderich Fuchs" element="head" class="nam" subclass=""/>
+          <span id="992" start="42" end="43" text="dem Buchbinder" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="998" start="43" end="43" text="Buchbinder" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1004" start="47" end="53" text="Mr . Heinrich Rupen sel . Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1016" start="47" end="52" text="Mr . Heinrich Rupen sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1022" start="47" end="48" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1022_head" start="47" end="48" element="head" class="title" text="Mr ." subclass=""/>
+            </span>
+            <span id="1028" start="49" end="50" text="Heinrich Rupen" element="head" class="nam" subclass=""/>
+            <span id="1034" start="51" end="52" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="1010" start="53" end="53" text="Wittib" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="47" end="53" ref="1004" type="state">
+      <trigger start="53" end="53" text="Wittib" ref="1010"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1004" text="Mr . Heinrich Rupen sel . Wittib"/>
+        <role role="family-b" ref="1016" text="Mr . Heinrich Rupen sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="24" end="54" ref="950" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="938" text="Eine Behausung an dem Undern Rhein ¬&#10;sprung , Underhalb St . Martins Kirchhoof , einseit neben&#10;Mr Friderich Fuchs dem Buchbinder , anderseit neben&#10;Mr . Heinrich Rupen sel . Wittib gelegen"/>
+        <role role="location-b" ref="956" text="dem Undern Rhein ¬&#10;sprung"/>
+        <role role="location-b" ref="968" text="St . Martins Kirchhoof"/>
+        <role role="location-b" ref="974" text="Mr Friderich Fuchs dem Buchbinder"/>
+        <role role="location-b" ref="1004" text="Mr . Heinrich Rupen sel . Wittib"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="54" ref="" type="event">
+      <trigger start="3" end="3" text="verkauft" ref="1040"/>
+      <event event_id="2.0">
+        <role role="seller" ref="878" text="Mr . Jacob Schlichter der Schneider"/>
+        <role role="buyer" ref="908" text="Mr . Johannes Frey auch dem&#10;Schneider"/>
+        <role role="property" ref="938" text="Eine Behausung an dem Undern Rhein ¬&#10;sprung , Underhalb St . Martins Kirchhoof , einseit neben&#10;Mr Friderich Fuchs dem Buchbinder , anderseit neben&#10;Mr . Heinrich Rupen sel . Wittib gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

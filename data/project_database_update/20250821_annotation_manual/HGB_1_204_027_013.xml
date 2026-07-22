@@ -1,0 +1,580 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 204/27 S. [13]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Stadthausgasse 19</tei:title>
+            <tei:idno>HGB 1 204/27</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1527160</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1522">1522</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611146.044098269 1267579.623062298</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Lienhart</token>
+    <token token_id="1">Sporer</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Buchbinder</token>
+    <token token_id="4">,</token>
+    <token token_id="5">juwoner</token>
+    <token token_id="6">zu</token>
+    <token token_id="7">Basel</token>
+    <token token_id="8">,</token>
+    <token token_id="9">als</token>
+    <token token_id="10">gwalthaber</token>
+    <token token_id="11">Wynant</token>
+    <token token_id="12">Lieners</token>
+    <token token_id="13">von</token>
+    <token token_id="14">Gulch</token>
+    <token token_id="15">bgr</token>
+    <token token_id="16">zu</token>
+    <token token_id="17">Trier</token>
+    <token token_id="18">u</token>
+    <token token_id="19">.</token>
+    <token token_id="20">Johans</token>
+    <token token_id="21">sins</token>
+    <token token_id="22">bruders</token>
+    <token token_id="23">verkauft</token>
+    <token token_id="24">an</token>
+    <token token_id="25">Hansen</token>
+    <token token_id="26">Velker</token>
+    <token token_id="27">des</token>
+    <token token_id="28">Stattgerichts</token>
+    <token token_id="29">amtman</token>
+    <token token_id="30">,</token>
+    <token token_id="31">u</token>
+    <token token_id="32">.</token>
+    <token token_id="33">seine</token>
+    <token token_id="34">Frau</token>
+    <token token_id="35">Angnes</token>
+    <token token_id="36">,</token>
+    <token token_id="37">den</token>
+    <token token_id="38">zwenteil</token>
+    <token token_id="39">u</token>
+    <token token_id="40">.</token>
+    <token token_id="41">genzlich</token>
+    <token token_id="42">alle</token>
+    <token token_id="43">Recht</token>
+    <token token_id="44">,</token>
+    <token token_id="45">an</token>
+    <token token_id="46">dem</token>
+    <token token_id="47">Hus</token>
+    <token token_id="48">u</token>
+    <token token_id="49">.</token>
+    <token token_id="50">Hofstatt</token>
+    <token token_id="51">mit</token>
+    <token token_id="52">samt</token>
+    <token token_id="53">dem</token>
+    <token token_id="54">gertlin</token>
+    <token token_id="55">darhinder</token>
+    <token token_id="56">,</token>
+    <token token_id="57">ob</token>
+    <token token_id="58">dem</token>
+    <token token_id="59">Vischmarkt</token>
+    <token token_id="60">by</token>
+    <token token_id="61">dem</token>
+    <token token_id="62">hunelbrunen</token>
+    <token token_id="63">,</token>
+    <token token_id="64">zwüschen</token>
+    <token token_id="65">den</token>
+    <token token_id="66">husern</token>
+    <token token_id="67">zur</token>
+    <token token_id="68">roten</token>
+    <token token_id="69">Rosen</token>
+    <token token_id="70">,</token>
+    <token token_id="71">u</token>
+    <token token_id="72">.</token>
+    <token token_id="73">zum</token>
+    <token token_id="74">clemen</token>
+    <token token_id="75">Enckel</token>
+    <token token_id="76">glegen</token>
+    <token token_id="77">,</token>
+    <token token_id="78">u</token>
+    <token token_id="79">.</token>
+    <token token_id="80">zum</token>
+    <token token_id="81">grosen</token>
+    <token token_id="82">Enckel</token>
+    <token token_id="83">gnant</token>
+    <token token_id="84">ist</token>
+    <token token_id="85">,</token>
+    <token token_id="86">auch</token>
+    <token token_id="87">dem</token>
+    <token token_id="88">halben</token>
+    <token token_id="89">fl</token>
+    <token token_id="90">.</token>
+    <token token_id="91">so</token>
+    <token token_id="92">bleinrich</token>
+    <token token_id="93">von</token>
+    <token token_id="94">Teichenn</token>
+    <token token_id="95">sel</token>
+    <token token_id="96">hus</token>
+    <token token_id="97">von</token>
+    <token token_id="98">einen</token>
+    <token token_id="99">jugang</token>
+    <token token_id="100">jährl</token>
+    <token token_id="101">dem</token>
+    <token token_id="102">verkauften</token>
+    <token token_id="103">hus</token>
+    <token token_id="104">schuldig</token>
+    <token token_id="105">ist</token>
+    <token token_id="106">,</token>
+    <token token_id="107">ue</token>
+    <token token_id="108">sy</token>
+    <token token_id="109">dan</token>
+    <token token_id="110">solichs</token>
+    <token token_id="111">von</token>
+    <token token_id="112">Mathisen</token>
+    <token token_id="113">Bierman</token>
+    <token token_id="114">dem</token>
+    <token token_id="115">Buchbinder</token>
+    <token token_id="116">von</token>
+    <token token_id="117">Gülch</token>
+    <token token_id="118">zem</token>
+    <token token_id="119">Petter</token>
+    <token token_id="120">sebererbt</token>
+    <token token_id="121">.</token>
+    <token token_id="122">zinst</token>
+    <token token_id="123">das</token>
+    <token token_id="124">ganz</token>
+    <token token_id="125">hus</token>
+    <token token_id="126">über</token>
+    <token token_id="127">u</token>
+    <token token_id="128">.</token>
+    <token token_id="129">über</token>
+    <token token_id="130">von</token>
+    <token token_id="131">eig</token>
+    <token token_id="132">.</token>
+    <token token_id="133">den</token>
+    <token token_id="134">herrn</token>
+    <token token_id="135">s</token>
+    <token token_id="136">.</token>
+    <token token_id="137">Peter</token>
+    <token token_id="138">3</token>
+    <token token_id="139">℔</token>
+    <token token_id="140">.</token>
+    <token token_id="141">u</token>
+    <token token_id="142">.</token>
+    <token token_id="143">5sh</token>
+    <token token_id="144">.</token>
+    <token token_id="145">ze</token>
+    <token token_id="146">erschatz</token>
+    <token token_id="147">,</token>
+    <token token_id="148">sodan</token>
+    <token token_id="149">4</token>
+    <token token_id="150">fl</token>
+    <token token_id="151">.</token>
+    <token token_id="152">an</token>
+    <token token_id="153">s</token>
+    <token token_id="154">.</token>
+    <token token_id="155">Anthonien</token>
+    <token token_id="156">altar</token>
+    <token token_id="157">in</token>
+    <token token_id="158">s</token>
+    <token token_id="159">.</token>
+    <token token_id="160">Anthonen</token>
+    <token token_id="161">Capel</token>
+    <token token_id="162">in</token>
+    <token token_id="163">der</token>
+    <token token_id="164">vorstat</token>
+    <token token_id="165">ze</token>
+    <token token_id="166">crütz</token>
+    <token token_id="167">,</token>
+    <token token_id="168">sonstfrei</token>
+    <token token_id="169">,</token>
+    <token token_id="170">sum</token>
+    <token token_id="171">38</token>
+    <token token_id="172">fl</token>
+    <token token_id="173">.</token>
+  </text>
+  <spans>
+    <span id="3033" start="0" end="7" text="Lienhart Sporer der Buchbinder , juwoner zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2623" start="0" end="1" text="Lienhart Sporer" element="head" class="nam" subclass=""/>
+      <span id="2629" start="2" end="3" text="der Buchbinder" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2635" start="3" end="3" text="Buchbinder" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="2641" start="5" end="7" text="juwoner zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2647" start="5" end="5" text="juwoner" element="head" class="org-aff" subclass=""/>
+        <span id="2653" start="7" end="7" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2653_head" start="7" end="7" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2659" start="11" end="22" text="Wynant Lieners von Gulch bgr zu Trier u . Johans sins bruders" element="list" class="per" subclass="">
+      <span id="2665" start="11" end="17" text="Wynant Lieners von Gulch bgr zu Trier" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3071" start="11" end="12" text="Wynant Lieners" element="head" class="nam" subclass=""/>
+        <span id="3077" start="13" end="14" text="von Gulch" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3083" start="14" end="14" text="Gulch" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3083_head" start="14" end="14" element="head" class="nam" text="Gulch" subclass=""/>
+          </span>
+        </span>
+        <span id="2671" start="15" end="17" text="bgr zu Trier" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2677" start="15" end="15" text="bgr" element="head" class="org-aff" subclass=""/>
+          <span id="2683" start="17" end="17" text="Trier" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2683_head" start="17" end="17" element="head" class="nam" text="Trier" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2689" start="20" end="22" text="Johans sins bruders" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2695" start="20" end="20" text="Johans" element="head" class="nam" subclass=""/>
+        <span id="2701" start="21" end="22" text="sins bruders" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2713" start="21" end="21" text="sins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2713_head" start="21" end="21" element="head" class="pro" text="sins" subclass=""/>
+          </span>
+          <span id="2707" start="22" end="22" text="bruders" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="3138" start="23" end="23" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2726" start="25" end="35" text="Hansen Velker des Stattgerichts amtman , u . seine&#10;Frau Angnes" element="list" class="per" subclass="">
+      <span id="2732" start="25" end="29" text="Hansen Velker des Stattgerichts amtman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2738" start="25" end="26" text="Hansen Velker" element="head" class="nam" subclass=""/>
+        <span id="2744" start="27" end="29" text="des Stattgerichts amtman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+          <span id="3144" start="27" end="28" text="des Stattgerichts" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+            <span id="3052" start="28" end="28" text="Stattgerichts" element="head" class="type" subclass=""/>
+          </span>
+          <span id="3046" start="29" end="29" text="amtman" element="head" class="occ" subclass="org-job"/>
+        </span>
+      </span>
+      <span id="2750" start="33" end="35" text="seine&#10;Frau Angnes" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2762" start="33" end="34" text="seine&#10;Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2774" start="33" end="33" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2774_head" start="33" end="33" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="2768" start="34" end="34" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="2756" start="35" end="35" text="Angnes" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="2787" start="46" end="84" text="dem Hus&#10;u . Hofstatt mit samt dem gertlin darhinder , ob dem Vischmarkt by dem hunelbrunen , zwüschen den husern zur roten Rosen ,&#10;u . zum clemen Enckel glegen , u . zum grosen Enckel gnant ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2793" start="47" end="50" text="Hus&#10;u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="2799" start="51" end="55" text="mit samt dem gertlin darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2805" start="53" end="54" text="dem gertlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2811" start="54" end="54" text="gertlin" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="2817" start="57" end="76" text="ob dem Vischmarkt by dem hunelbrunen , zwüschen den husern zur roten Rosen ,&#10;u . zum clemen Enckel glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3150" start="58" end="59" text="dem Vischmarkt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="2829" start="59" end="59" text="Vischmarkt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2835" start="61" end="62" text="dem hunelbrunen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2841" start="62" end="62" text="hunelbrunen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2847" start="65" end="75" text="den husern zur roten Rosen ,&#10;u . zum clemen Enckel" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2853" start="66" end="66" text="husern" element="head" class="type" subclass=""/>
+          <span id="3058" start="67" end="75" text="zur roten Rosen ,&#10;u . zum clemen Enckel" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2859" start="67" end="75" text="zur roten Rosen ,&#10;u . zum clemen Enckel" element="list" class="fac" subclass="">
+              <span id="2865" start="67" end="69" text="zur roten Rosen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2865_head" start="67" end="69" element="head" class="nam" text="zur roten Rosen" subclass=""/>
+              </span>
+              <span id="2871" start="73" end="75" text="zum clemen Enckel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2871_head" start="73" end="75" element="head" class="nam" text="zum clemen Enckel" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2877" start="80" end="82" text="zum grosen Enckel" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2877_head" start="80" end="82" element="head" class="nam" text="zum grosen Enckel" subclass=""/>
+      </span>
+    </span>
+    <span id="2919" start="87" end="90" text="dem halben fl ." element="value" class="money" subclass=""/>
+    <span id="2883" start="92" end="96" text="bleinrich von Teichenn sel hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2901" start="92" end="95" text="bleinrich von Teichenn sel" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2895" start="92" end="95" text="bleinrich von Teichenn sel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2907" start="92" end="94" text="bleinrich von Teichenn" element="head" class="nam" subclass=""/>
+          <span id="2913" start="95" end="95" text="sel" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+      </span>
+      <span id="2889" start="96" end="96" text="hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="2925" start="100" end="100" text="jährl" element="value" class="time" subclass="rec"/>
+    <span id="2931" start="101" end="103" text="dem verkauften hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2937" start="102" end="103" text="verkauften hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="3180" start="104" end="104" text="schuldig" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="3192" start="108" end="108" text="sy" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="3192_head" start="108" end="108" element="head" class="pro" text="sy" subclass=""/>
+    </span>
+    <span id="3174" start="112" end="119" text="Mathisen Bierman dem Buchbinder von Gülch zem Petter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2943" start="112" end="113" text="Mathisen Bierman" element="head" class="nam" subclass=""/>
+      <span id="2949" start="114" end="115" text="dem Buchbinder" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2955" start="115" end="115" text="Buchbinder" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="2961" start="116" end="117" text="von Gülch" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2967" start="117" end="117" text="Gülch" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2967_head" start="117" end="117" element="head" class="nam" text="Gülch" subclass=""/>
+        </span>
+      </span>
+      <span id="3156" start="118" end="119" text="zem Petter" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3168" start="118" end="118" text="zem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3168_head" start="118" end="118" element="head" class="pro" text="zem" subclass=""/>
+        </span>
+        <span id="3162" start="119" end="119" text="Petter" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="3186" start="120" end="120" text="sebererbt" element="trigger" class="inheritance" tense="past" polarity="pos" modality="ass" subclass=""/>
+    <span id="3212" start="122" end="122" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2973" start="123" end="125" text="das ganz hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2979" start="125" end="125" text="hus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="3224" start="130" end="132" text="von eig ." element="other" class="other" subclass=""/>
+    <span id="2985" start="133" end="137" text="den herrn s . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="2991" start="134" end="137" text="herrn s . Peter" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2997" start="138" end="140" text="3 ℔." element="value" class="money" subclass=""/>
+    <span id="3003" start="143" end="144" text="5sh ." element="value" class="money" subclass=""/>
+    <span id="3218" start="146" end="146" text="erschatz" element="other" class="other" subclass=""/>
+    <span id="3009" start="149" end="151" text="4 fl ." element="value" class="money" subclass=""/>
+    <span id="3021" start="153" end="166" text="s . Anthonien altar in s . Anthonen&#10;Capel in der vorstat ze crütz" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="3096" start="153" end="156" text="s . Anthonien altar" element="head" class="nam" subclass=""/>
+      <span id="3102" start="157" end="166" text="in s . Anthonen&#10;Capel in der vorstat ze crütz" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3108" start="158" end="166" text="s . Anthonen&#10;Capel in der vorstat ze crütz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="3114" start="158" end="161" text="s . Anthonen&#10;Capel" element="head" class="nam" subclass=""/>
+          <span id="3120" start="162" end="166" text="in der vorstat ze crütz" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3126" start="163" end="166" text="der vorstat ze crütz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+              <span id="3132" start="164" end="166" text="vorstat ze crütz" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="3027" start="171" end="173" text="38 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="3039" from="3033" to="2659" class="per-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3198" from="3192" to="2659" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2719" from="2713" to="2665" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2780" from="2774" to="2732" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3064" from="2931" to="2787" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3089" from="2973" to="2931" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3205" from="3168" to="3192" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="5" end="7" ref="2641" type="state">
+      <trigger start="5" end="5" text="juwoner" ref="2647"/>
+      <event event_id="0.0">
+        <role role="resident" ref="3033" text="Lienhart Sporer der Buchbinder , juwoner zu Basel"/>
+        <role role="geopolitical-entity" ref="2653" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="15" end="17" ref="2671" type="state">
+      <trigger start="15" end="15" text="bgr" ref="2677"/>
+      <event event_id="1.0">
+        <role role="resident" ref="2665" text="Wynant Lieners von Gulch bgr zu Trier"/>
+        <role role="geopolitical-entity" ref="2683" text="Trier"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="21" end="22" ref="2701" type="state">
+      <trigger start="22" end="22" text="bruders" ref="2707"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="2689" text="Johans sins bruders"/>
+        <role role="family-b" ref="2713" text="sins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="employment" polarity="pos" tense="pres" modality="ass" start="27" end="29" ref="2744" type="state">
+      <trigger start="29" end="29" text="amtman" ref="3046"/>
+      <event event_id="3.0">
+        <role role="employee" ref="2732" text="Hansen Velker des Stattgerichts amtman"/>
+        <role role="employer" ref="3144" text="des Stattgerichts"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="family" polarity="pos" tense="pres" modality="ass" start="33" end="34" ref="2762" type="state">
+      <trigger start="34" end="34" text="Frau" ref="2768"/>
+      <event event_id="4.0">
+        <role role="family-a" ref="2750" text="seine&#10;Frau Angnes"/>
+        <role role="family-b" ref="2774" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="family" polarity="pos" tense="pres" modality="ass" start="118" end="119" ref="3156" type="state">
+      <trigger start="119" end="119" text="Petter" ref="3162"/>
+      <event event_id="5.0">
+        <role role="family-a" ref="3174" text="Mathisen Bierman dem Buchbinder von Gülch zem Petter"/>
+        <role role="family-b" ref="3168" text="zem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="14" ref="3077" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="2665" text="Wynant Lieners von Gulch bgr zu Trier"/>
+        <role role="location-b" ref="3083" text="Gulch"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="part_whole" polarity="pos" tense="pres" modality="ass" start="51" end="55" ref="2799" type="state">
+      <event event_id="7.0">
+        <role role="whole" ref="2787" text="dem Hus&#10;u . Hofstatt mit samt dem gertlin darhinder , ob dem Vischmarkt by dem hunelbrunen , zwüschen den husern zur roten Rosen ,&#10;u . zum clemen Enckel glegen , u . zum grosen Enckel gnant ist"/>
+        <role role="part" ref="2805" text="dem gertlin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="57" end="76" ref="2817" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="2787" text="dem Hus&#10;u . Hofstatt mit samt dem gertlin darhinder , ob dem Vischmarkt by dem hunelbrunen , zwüschen den husern zur roten Rosen ,&#10;u . zum clemen Enckel glegen , u . zum grosen Enckel gnant ist"/>
+        <role role="location-b" ref="3150" text="dem Vischmarkt"/>
+        <role role="location-b" ref="2835" text="dem hunelbrunen"/>
+        <role role="location-b" ref="2847" text="den husern zur roten Rosen ,&#10;u . zum clemen Enckel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="part_whole" polarity="pos" tense="pres" modality="ass" start="67" end="75" ref="3058" type="state">
+      <event event_id="9.0">
+        <role role="whole" ref="2847" text="den husern zur roten Rosen ,&#10;u . zum clemen Enckel"/>
+        <role role="part" ref="2865" text="zur roten Rosen"/>
+        <role role="part" ref="2871" text="zum clemen Enckel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="ownership" polarity="pos" tense="pres" modality="ass" start="92" end="95" ref="2901" type="state">
+      <event event_id="10.0">
+        <role role="property" ref="2883" text="bleinrich von Teichenn sel hus"/>
+        <role role="owner" ref="2895" text="bleinrich von Teichenn sel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="topological" polarity="pos" tense="pres" modality="ass" start="116" end="117" ref="2961" type="state">
+      <event event_id="11.0">
+        <role role="location-a" ref="3174" text="Mathisen Bierman dem Buchbinder von Gülch zem Petter"/>
+        <role role="location-b" ref="2967" text="Gülch"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="topological" polarity="pos" tense="pres" modality="ass" start="157" end="166" ref="3102" type="state">
+      <event event_id="12.0">
+        <role role="location-a" ref="3021" text="s . Anthonien altar in s . Anthonen&#10;Capel in der vorstat ze crütz"/>
+        <role role="location-b" ref="3108" text="s . Anthonen&#10;Capel in der vorstat ze crütz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="topological" polarity="pos" tense="pres" modality="ass" start="162" end="166" ref="3120" type="state">
+      <event event_id="13.0">
+        <role role="location-a" ref="3108" text="s . Anthonen&#10;Capel in der vorstat ze crütz"/>
+        <role role="location-b" ref="3126" text="der vorstat ze crütz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="23" ref="" type="event">
+      <trigger start="23" end="23" text="verkauft" ref="3138"/>
+      <event event_id="14.0">
+        <role role="seller" ref="3033" text="Lienhart Sporer der Buchbinder , juwoner zu Basel"/>
+        <role role="buyer" ref="2732" text="Hansen Velker des Stattgerichts amtman"/>
+        <role role="buyer" ref="2750" text="seine&#10;Frau Angnes"/>
+        <role role="property" ref="2787" text="dem Hus&#10;u . Hofstatt mit samt dem gertlin darhinder , ob dem Vischmarkt by dem hunelbrunen , zwüschen den husern zur roten Rosen ,&#10;u . zum clemen Enckel glegen , u . zum grosen Enckel gnant ist"/>
+        <role role="property" ref="3180" text="schuldig"/>
+        <role role="price" ref="3027" text="38 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="15" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="104" end="104" ref="" type="state">
+      <trigger start="104" end="104" text="schuldig" ref="3180"/>
+      <event event_id="15.0">
+        <role role="interest" ref="2919" text="dem halben fl ."/>
+        <role role="property" ref="2883" text="bleinrich von Teichenn sel hus"/>
+        <role role="interval" ref="2925" text="jährl"/>
+        <role role="beneficiary" ref="2931" text="dem verkauften hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="16" class="inheritance" polarity="pos" tense="past" modality="ass" start="104" end="120" ref="" type="event">
+      <trigger start="120" end="120" text="sebererbt" ref="3186"/>
+      <event event_id="16.0">
+        <role role="property" ref="3180" text="schuldig"/>
+        <role role="heir" ref="3192" text="sy"/>
+        <role role="decedent" ref="3174" text="Mathisen Bierman dem Buchbinder von Gülch zem Petter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="17" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="122" end="166" ref="" type="state">
+      <trigger start="122" end="122" text="zinst" ref="3212"/>
+      <event event_id="17.0">
+        <role role="property" ref="2973" text="das ganz hus"/>
+        <role role="cause" ref="3224" text="von eig ."/>
+        <role role="beneficiary" ref="2985" text="den herrn s . Peter"/>
+        <role role="interest" ref="2997" text="3 ℔."/>
+      </event>
+      <event event_id="17.1">
+        <role role="property" ref="2973" text="das ganz hus"/>
+        <role role="cause" ref="3224" text="von eig ."/>
+        <role role="beneficiary" ref="2985" text="den herrn s . Peter"/>
+        <role role="interest" ref="3003" text="5sh ."/>
+        <role role="cause" ref="3218" text="erschatz"/>
+      </event>
+      <event event_id="17.2">
+        <role role="property" ref="2973" text="das ganz hus"/>
+        <role role="interest" ref="3009" text="4 fl ."/>
+        <role role="beneficiary" ref="3021" text="s . Anthonien altar in s . Anthonen&#10;Capel in der vorstat ze crütz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="18" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="18.0">
+        <role role="representative" ref="3033" text="Lienhart Sporer der Buchbinder , juwoner zu Basel"/>
+        <role role="represented" ref="2665" text="Wynant Lieners von Gulch bgr zu Trier"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="19" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="19.0">
+        <role role="representative" ref="3033" text="Lienhart Sporer der Buchbinder , juwoner zu Basel"/>
+        <role role="represented" ref="2689" text="Johans sins bruders"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

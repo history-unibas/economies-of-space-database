@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 159/45 S. [5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rheingasse 27</tei:title>
+            <tei:idno>HGB 1 159/45</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1507947</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1325">1325</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611567.7136283624 1267704.9579501613</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Urkunde</token>
+    <token token_id="1">des</token>
+    <token token_id="2">Dentschordens</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Die</token>
+    <token token_id="5">Füschenherren</token>
+    <token token_id="6">des</token>
+    <token token_id="7">Huses</token>
+    <token token_id="8">von</token>
+    <token token_id="9">Basil</token>
+    <token token_id="10">verleihen</token>
+    <token token_id="11">den</token>
+    <token token_id="12">Frowen</token>
+    <token token_id="13">von</token>
+    <token token_id="14">Clingental</token>
+    <token token_id="15">ein</token>
+    <token token_id="16">Hus</token>
+    <token token_id="17">dem</token>
+    <token token_id="18">man</token>
+    <token token_id="19">hie</token>
+    <token token_id="20">vor</token>
+    <token token_id="21">sprach</token>
+    <token token_id="22">des</token>
+    <token token_id="23">Kotzen</token>
+    <token token_id="24">Hus</token>
+    <token token_id="25">und</token>
+    <token token_id="26">in</token>
+    <token token_id="27">sprichet</token>
+    <token token_id="28">der</token>
+    <token token_id="29">Hus</token>
+    <token token_id="30">von</token>
+    <token token_id="31">Roggenbach</token>
+    <token token_id="32">,</token>
+    <token token_id="33">das</token>
+    <token token_id="34">gelegen</token>
+    <token token_id="35">ist</token>
+    <token token_id="36">in</token>
+    <token token_id="37">der</token>
+    <token token_id="38">min</token>
+    <token token_id="39">¬</token>
+    <token token_id="40">ren</token>
+    <token token_id="41">Stat</token>
+    <token token_id="42">von</token>
+    <token token_id="43">Basel</token>
+    <token token_id="44">zwischent</token>
+    <token token_id="45">Dietriches</token>
+    <token token_id="46">sel</token>
+    <token token_id="47">.</token>
+    <token token_id="48">Huse</token>
+    <token token_id="49">von</token>
+    <token token_id="50">Friburg</token>
+    <token token_id="51">und</token>
+    <token token_id="52">dem</token>
+    <token token_id="53">Huse</token>
+    <token token_id="54">,</token>
+    <token token_id="55">dem</token>
+    <token token_id="56">man</token>
+    <token token_id="57">sprichet</token>
+    <token token_id="58">,</token>
+    <token token_id="59">ze</token>
+    <token token_id="60">Kronenberg</token>
+    <token token_id="61">,</token>
+    <token token_id="62">umb</token>
+    <token token_id="63">einen</token>
+    <token token_id="64">ierlichen</token>
+    <token token_id="65">Zins</token>
+    <token token_id="66">10</token>
+    <token token_id="67">1</token>
+    <token token_id="68">/</token>
+    <token token_id="69">2</token>
+    <token token_id="70">sh</token>
+    <token token_id="71">.</token>
+    <token token_id="72">und</token>
+    <token token_id="73">1</token>
+    <token token_id="74">Hun</token>
+    <token token_id="75">ze</token>
+    <token token_id="76">Wisunge</token>
+    <token token_id="77">und</token>
+    <token token_id="78">5</token>
+    <token token_id="79">/</token>
+    <token token_id="80">2sh</token>
+    <token token_id="81">.</token>
+    <token token_id="82">und</token>
+    <token token_id="83">2</token>
+    <token token_id="84">Hünr</token>
+    <token token_id="85">ze</token>
+    <token token_id="86">Erschatz</token>
+    <token token_id="87">wenn</token>
+    <token token_id="88">sich</token>
+    <token token_id="89">de</token>
+    <token token_id="90">Hant</token>
+    <token token_id="91">fürwandelt</token>
+    <token token_id="92">.</token>
+    <token token_id="93">intergo</token>
+    <token token_id="94">:</token>
+    <token token_id="95">über</token>
+    <token token_id="96">scherers</token>
+    <token token_id="97">hus</token>
+    <token token_id="98">in</token>
+    <token token_id="99">der</token>
+    <token token_id="100">ringassen</token>
+    <token token_id="101">.</token>
+  </text>
+  <spans>
+    <span id="1535" start="2" end="2" text="Dentschordens" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1535_head" start="2" end="2" element="head" class="nam" text="Dentschordens" subclass=""/>
+    </span>
+    <span id="1541" start="4" end="9" text="Die Füschenherren des Huses von Basil" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1547" start="5" end="5" text="Füschenherren" element="head" class="nam" subclass=""/>
+      <span id="1553" start="6" end="9" text="des Huses von Basil" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1559" start="9" end="9" text="Basil" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1559_head" start="9" end="9" element="head" class="nam" text="Basil" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1776" start="10" end="10" text="verleihen" element="trigger" class="hereditary" tense="pres" polarity="pos" modality="ass" subclass="lease"/>
+    <span id="1565" start="11" end="14" text="den Frowen von Clingental" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1571" start="12" end="14" text="Frowen von Clingental" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1577" start="15" end="60" text="ein Hus dem man&#10;hie vor sprach des Kotzen Hus und in sprichet der&#10;Hus von Roggenbach , das gelegen ist in der min ¬&#10;ren Stat von Basel zwischent Dietriches sel . Huse&#10;von Friburg und dem Huse , dem man sprichet ,&#10;ze Kronenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1583" start="16" end="16" text="Hus" element="head" class="type" subclass=""/>
+      <span id="1589" start="19" end="24" text="hie vor sprach des Kotzen Hus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+        <span id="1595" start="22" end="24" text="des Kotzen Hus" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1601" start="26" end="31" text="in sprichet der&#10;Hus von Roggenbach" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1607" start="29" end="31" text="Hus von Roggenbach" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1613" start="33" end="60" text="das gelegen ist in der min ¬&#10;ren Stat von Basel zwischent Dietriches sel . Huse&#10;von Friburg und dem Huse , dem man sprichet ,&#10;ze Kronenberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1619" start="37" end="43" text="der min ¬&#10;ren Stat von Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1625" start="38" end="43" text="min ¬&#10;ren Stat von Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1698" start="45" end="60" text="Dietriches sel . Huse&#10;von Friburg und dem Huse , dem man sprichet ,&#10;ze Kronenberg" element="list" class="fac" subclass="">
+          <span id="1631" start="45" end="50" text="Dietriches sel . Huse&#10;von Friburg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1649" start="45" end="47" text="Dietriches sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1643" start="45" end="47" text="Dietriches sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1655" start="45" end="45" text="Dietriches" element="head" class="nam" subclass=""/>
+                <span id="1661" start="46" end="47" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              </span>
+            </span>
+            <span id="1637" start="48" end="50" text="Huse&#10;von Friburg" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1680" start="52" end="60" text="dem Huse , dem man sprichet ,&#10;ze Kronenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1686" start="53" end="53" text="Huse" element="head" class="type" subclass=""/>
+            <span id="1692" start="59" end="60" text="ze Kronenberg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1692_head" start="59" end="60" element="head" class="nam" text="ze Kronenberg" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1782" start="63" end="71" text="einen ierlichen Zins 10 1 / 2 sh ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1704" start="64" end="64" text="ierlichen" element="value" class="time" subclass="rec"/>
+      <span id="1788" start="65" end="65" text="Zins" element="trigger" class="type" subclass=""/>
+      <span id="1710" start="66" end="71" text="10 1 / 2 sh ." element="value" class="money" subclass=""/>
+    </span>
+    <span id="1794" start="73" end="76" text="1 Hun ze Wisunge" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1716" start="73" end="74" text="1 Hun" element="value" class="money" subclass=""/>
+      <span id="1800" start="75" end="76" text="ze Wisunge" element="other" class="other" subclass=""/>
+    </span>
+    <span id="1806" start="78" end="91" text="5 / 2sh . und 2 Hünr ze Erschatz&#10;wenn sich de Hant fürwandelt" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1722" start="78" end="81" text="5 / 2sh ." element="value" class="money" subclass=""/>
+      <span id="1728" start="83" end="84" text="2 Hünr" element="value" class="money" subclass=""/>
+      <span id="1812" start="85" end="86" text="ze Erschatz" element="other" class="other" subclass=""/>
+    </span>
+    <span id="1734" start="96" end="100" text="scherers hus in der ringassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1746" start="96" end="96" text="scherers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1752" start="96" end="96" text="scherers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1752_head" start="96" end="96" element="head" class="nam" text="scherers" subclass=""/>
+        </span>
+      </span>
+      <span id="1740" start="97" end="97" text="hus" element="head" class="type" subclass=""/>
+      <span id="1758" start="98" end="100" text="in der ringassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1764" start="99" end="100" text="der ringassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1770" start="100" end="100" text="ringassen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="63" end="71" ref="1782" type="state">
+      <trigger start="65" end="65" text="Zins" ref="1788"/>
+      <event event_id="0.0">
+        <role role="interval" ref="1704" text="ierlichen"/>
+        <role role="interest" ref="1710" text="10 1 / 2 sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="73" end="76" ref="1794" type="state">
+      <event event_id="1.0">
+        <role role="interest" ref="1716" text="1 Hun"/>
+        <role role="cause" ref="1800" text="ze Wisunge"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="78" end="91" ref="1806" type="state">
+      <event event_id="2.0">
+        <role role="interest" ref="1722" text="5 / 2sh ."/>
+        <role role="interest" ref="1728" text="2 Hünr"/>
+        <role role="cause" ref="1812" text="ze Erschatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="6" end="9" ref="1553" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1541" text="Die Füschenherren des Huses von Basil"/>
+        <role role="location-b" ref="1559" text="Basil"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="33" end="60" ref="1613" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1577" text="ein Hus dem man&#10;hie vor sprach des Kotzen Hus und in sprichet der&#10;Hus von Roggenbach , das gelegen ist in der min ¬&#10;ren Stat von Basel zwischent Dietriches sel . Huse&#10;von Friburg und dem Huse , dem man sprichet ,&#10;ze Kronenberg"/>
+        <role role="location-b" ref="1619" text="der min ¬&#10;ren Stat von Basel"/>
+        <role role="location-b" ref="1631" text="Dietriches sel . Huse&#10;von Friburg"/>
+        <role role="location-b" ref="1680" text="dem Huse , dem man sprichet ,&#10;ze Kronenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="45" end="47" ref="1649" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1631" text="Dietriches sel . Huse&#10;von Friburg"/>
+        <role role="owner" ref="1643" text="Dietriches sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="96" end="96" ref="1746" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1734" text="scherers hus in der ringassen"/>
+        <role role="owner" ref="1752" text="scherers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="98" end="100" ref="1758" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1734" text="scherers hus in der ringassen"/>
+        <role role="location-b" ref="1764" text="der ringassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="heritable-lease-grant" polarity="pos" tense="pres" modality="ass" start="10" end="91" ref="" type="event">
+      <trigger start="10" end="10" text="verleihen" ref="1776"/>
+      <event event_id="8.0">
+        <role role="grantor" ref="1541" text="Die Füschenherren des Huses von Basil"/>
+        <role role="lessee" ref="1565" text="den Frowen von Clingental"/>
+        <role role="property" ref="1577" text="ein Hus dem man&#10;hie vor sprach des Kotzen Hus und in sprichet der&#10;Hus von Roggenbach , das gelegen ist in der min ¬&#10;ren Stat von Basel zwischent Dietriches sel . Huse&#10;von Friburg und dem Huse , dem man sprichet ,&#10;ze Kronenberg"/>
+        <role role="due" ref="1782" text="einen ierlichen Zins 10 1 / 2 sh ."/>
+        <role role="due" ref="1794" text="1 Hun ze Wisunge"/>
+        <role role="due" ref="1806" text="5 / 2sh . und 2 Hünr ze Erschatz&#10;wenn sich de Hant fürwandelt"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 168/76 S. [27]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Riehentorstrasse 30</tei:title>
+            <tei:idno>HGB 1 168/76</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1509514</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1688">1688</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611872.8121545664 1267665.7435540296</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Jahr</token>
+    <token token_id="1">Zinse</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Item</token>
+    <token token_id="4">Paulus</token>
+    <token token_id="5">Meyer</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Kremper</token>
+    <token token_id="8">und</token>
+    <token token_id="9">Mr</token>
+    <token token_id="10">.</token>
+    <token token_id="11">Jsaac</token>
+    <token token_id="12">Schöffer</token>
+    <token token_id="13">der</token>
+    <token token_id="14">Schmid</token>
+    <token token_id="15">geben</token>
+    <token token_id="16">jährlich</token>
+    <token token_id="17">von</token>
+    <token token_id="18">zwegen</token>
+    <token token_id="19">hausern</token>
+    <token token_id="20">beym</token>
+    <token token_id="21">Riechemer</token>
+    <token token_id="22">Thor</token>
+    <token token_id="23">deren</token>
+    <token token_id="24">das</token>
+    <token token_id="25">eckh</token>
+    <token token_id="26">Schaffer</token>
+    <token token_id="27">und</token>
+    <token token_id="28">das</token>
+    <token token_id="29">andere</token>
+    <token token_id="30">darneben</token>
+    <token token_id="31">Meyer</token>
+    <token token_id="32">besitzt</token>
+    <token token_id="33">,</token>
+    <token token_id="34">gelt</token>
+    <token token_id="35">2</token>
+    <token token_id="36">℔</token>
+    <token token_id="37">,</token>
+    <token token_id="38">huener</token>
+    <token token_id="39">-</token>
+    <token token_id="40">4</token>
+    <token token_id="41">,</token>
+    <token token_id="42">ehrschatz</token>
+    <token token_id="43">-</token>
+    <token token_id="44">1</token>
+    <token token_id="45">℔</token>
+    <token token_id="46">.</token>
+    <token token_id="47">geben</token>
+    <token token_id="48">Schaffer</token>
+    <token token_id="49">1</token>
+    <token token_id="50">℔</token>
+    <token token_id="51">5ß</token>
+    <token token_id="52">,</token>
+    <token token_id="53">huener</token>
+    <token token_id="54">3</token>
+    <token token_id="55">,</token>
+    <token token_id="56">Meyer</token>
+    <token token_id="57">15ß</token>
+    <token token_id="58">hun</token>
+    <token token_id="59">1</token>
+    <token token_id="60">.</token>
+    <token token_id="61">Ebenso</token>
+    <token token_id="62">1689</token>
+    <token token_id="63">.</token>
+    <token token_id="64">Ebenso</token>
+    <token token_id="65">.</token>
+    <token token_id="66">1690</token>
+    <token token_id="67">.</token>
+    <token token_id="68">Ebenso</token>
+    <token token_id="69">1691</token>
+    <token token_id="70">.</token>
+  </text>
+  <spans>
+    <span id="1246" start="4" end="14" text="Paulus Meyer der Kremper und Mr . Jsaac&#10;Schöffer der Schmid" element="list" class="per" subclass="">
+      <span id="1044" start="4" end="7" text="Paulus Meyer der Kremper" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1050" start="4" end="5" text="Paulus Meyer" element="head" class="nam" subclass=""/>
+        <span id="1056" start="6" end="7" text="der Kremper" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1062" start="7" end="7" text="Kremper" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1068" start="9" end="14" text="Mr . Jsaac&#10;Schöffer der Schmid" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1074" start="11" end="12" text="Jsaac&#10;Schöffer" element="head" class="nam" subclass=""/>
+        <span id="1080" start="13" end="14" text="der Schmid" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1086" start="14" end="14" text="Schmid" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1290" start="15" end="15" text="geben" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1092" start="16" end="16" text="jährlich" element="value" class="time" subclass="rec"/>
+    <span id="1098" start="18" end="32" text="zwegen&#10;hausern beym Riechemer Thor deren das eckh&#10;Schaffer und das andere darneben Meyer besitzt" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1104" start="19" end="19" text="hausern" element="head" class="type" subclass=""/>
+      <span id="1110" start="20" end="22" text="beym Riechemer Thor" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1116" start="21" end="22" text="Riechemer Thor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1116_head" start="21" end="22" element="head" class="nam" text="Riechemer Thor" subclass=""/>
+        </span>
+      </span>
+      <span id="1265" start="24" end="31" text="das eckh&#10;Schaffer und das andere darneben Meyer" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="distribution">
+        <span id="1252" start="24" end="25" text="das eckh" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1122" start="25" end="25" text="eckh" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1128" start="26" end="26" text="Schaffer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1128_head" start="26" end="26" element="head" class="nam" text="Schaffer" subclass=""/>
+        </span>
+        <span id="1271" start="28" end="30" text="das andere darneben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1134" start="29" end="29" text="andere" element="head" class="pro" subclass=""/>
+        </span>
+        <span id="1140" start="31" end="31" text="Meyer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1140_head" start="31" end="31" element="head" class="nam" text="Meyer" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1160" start="34" end="36" text="gelt 2 ℔" element="value" class="money" subclass=""/>
+    <span id="1166" start="38" end="40" text="huener - 4" element="value" class="money" subclass=""/>
+    <span id="1302" start="42" end="42" text="ehrschatz" element="other" class="other" subclass=""/>
+    <span id="1172" start="44" end="46" text="1 ℔." element="value" class="money" subclass=""/>
+    <span id="1308" start="47" end="47" text="geben" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1220" start="48" end="48" text="Schaffer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1220_head" start="48" end="48" element="head" class="nam" text="Schaffer" subclass=""/>
+    </span>
+    <span id="1178" start="49" end="51" text="1 ℔ 5ß" element="value" class="money" subclass=""/>
+    <span id="1184" start="53" end="54" text="huener 3" element="value" class="money" subclass=""/>
+    <span id="1233" start="56" end="56" text="Meyer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1233_head" start="56" end="56" element="head" class="nam" text="Meyer" subclass=""/>
+    </span>
+    <span id="1190" start="57" end="57" text="15ß" element="value" class="money" subclass=""/>
+    <span id="1196" start="58" end="59" text="hun 1" element="value" class="money" subclass=""/>
+    <span id="1202" start="62" end="62" text="1689" element="value" class="date" subclass=""/>
+    <span id="1208" start="66" end="66" text="1690" element="value" class="date" subclass=""/>
+    <span id="1214" start="69" end="69" text="1691" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1153" from="1140" to="1044" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1146" from="1128" to="1068" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1226" from="1220" to="1128" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1239" from="1233" to="1140" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="22" ref="1110" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="1098" text="zwegen&#10;hausern beym Riechemer Thor deren das eckh&#10;Schaffer und das andere darneben Meyer besitzt"/>
+        <role role="location-b" ref="1116" text="Riechemer Thor"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="24" end="31" ref="1265" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1252" text="das eckh"/>
+        <role role="owner" ref="1128" text="Schaffer"/>
+      </event>
+      <event event_id="1.1">
+        <role role="property" ref="1271" text="das andere darneben"/>
+        <role role="owner" ref="1140" text="Meyer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="15" end="69" ref="" type="event">
+      <trigger start="15" end="15" text="geben" ref="1290"/>
+      <event event_id="2.0">
+        <role role="payer" ref="1044" text="Paulus Meyer der Kremper"/>
+        <role role="payer" ref="1068" text="Mr . Jsaac&#10;Schöffer der Schmid"/>
+        <role role="interval" ref="1092" text="jährlich"/>
+        <role role="property" ref="1098" text="zwegen&#10;hausern beym Riechemer Thor deren das eckh&#10;Schaffer und das andere darneben Meyer besitzt"/>
+        <role role="interest" ref="1160" text="gelt 2 ℔"/>
+        <role role="interest" ref="1166" text="huener - 4"/>
+        <role role="detail_distribution" ref="1308" text="geben"/>
+        <role role="date" ref="1202" text="1689"/>
+        <role role="date" ref="1208" text="1690"/>
+        <role role="date" ref="1214" text="1691"/>
+      </event>
+      <event event_id="2.1">
+        <role role="payer" ref="1044" text="Paulus Meyer der Kremper"/>
+        <role role="payer" ref="1068" text="Mr . Jsaac&#10;Schöffer der Schmid"/>
+        <role role="interval" ref="1092" text="jährlich"/>
+        <role role="property" ref="1098" text="zwegen&#10;hausern beym Riechemer Thor deren das eckh&#10;Schaffer und das andere darneben Meyer besitzt"/>
+        <role role="cause" ref="1302" text="ehrschatz"/>
+        <role role="interest" ref="1172" text="1 ℔."/>
+        <role role="detail_distribution" ref="1308" text="geben"/>
+        <role role="date" ref="1202" text="1689"/>
+        <role role="date" ref="1208" text="1690"/>
+        <role role="date" ref="1214" text="1691"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="47" end="59" ref="" type="state">
+      <trigger start="47" end="47" text="geben" ref="1308"/>
+      <event event_id="3.0">
+        <role role="payer" ref="1220" text="Schaffer"/>
+        <role role="interest" ref="1178" text="1 ℔ 5ß"/>
+        <role role="interest" ref="1184" text="huener 3"/>
+      </event>
+      <event event_id="3.1">
+        <role role="payer" ref="1233" text="Meyer"/>
+        <role role="interest" ref="1190" text="15ß"/>
+        <role role="interest" ref="1196" text="hun 1"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

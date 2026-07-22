@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 177/34 S. [12]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Sattelgasse 18, Eckhaus</tei:title>
+            <tei:idno>HGB 1 177/34</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1511255</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1447">1447</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611168.4632808156 1267483.6414939843</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">gend</token>
+    <token token_id="2">ze</token>
+    <token token_id="3">kaufen</token>
+    <token token_id="4">Heinrich</token>
+    <token token_id="5">Schaler</token>
+    <token token_id="6">u</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Thoman</token>
+    <token token_id="9">Schaler</token>
+    <token token_id="10">,</token>
+    <token token_id="11">Mr</token>
+    <token token_id="12">.</token>
+    <token token_id="13">Henman</token>
+    <token token_id="14">Schalers</token>
+    <token token_id="15">des</token>
+    <token token_id="16">Zieglers</token>
+    <token token_id="17">el</token>
+    <token token_id="18">sin</token>
+    <token token_id="19">u</token>
+    <token token_id="20">Angnesli</token>
+    <token token_id="21">ir</token>
+    <token token_id="22">swester</token>
+    <token token_id="23">,</token>
+    <token token_id="24">für</token>
+    <token token_id="25">sich</token>
+    <token token_id="26">u</token>
+    <token token_id="27">.</token>
+    <token token_id="28">jnnamen</token>
+    <token token_id="29">jis</token>
+    <token token_id="30">bruders</token>
+    <token token_id="31">Peter</token>
+    <token token_id="32">Hansen</token>
+    <token token_id="33">Schaler</token>
+    <token token_id="34">,</token>
+    <token token_id="35">ư</token>
+    <token token_id="36">Hanns</token>
+    <token token_id="37">Thanwald</token>
+    <token token_id="38">der</token>
+    <token token_id="39">tuchscherer</token>
+    <token token_id="40">an</token>
+    <token token_id="41">Hans</token>
+    <token token_id="42">Heinrichen</token>
+    <token token_id="43">der</token>
+    <token token_id="44">truchscherer</token>
+    <token token_id="45">u</token>
+    <token token_id="46">seine</token>
+    <token token_id="47">Frau</token>
+    <token token_id="48">Elsen</token>
+    <token token_id="49">,</token>
+    <token token_id="50">daz</token>
+    <token token_id="51">Hus</token>
+    <token token_id="52">&amp;</token>
+    <token token_id="53">Hofstatt</token>
+    <token token_id="54">genant</token>
+    <token token_id="55">zem</token>
+    <token token_id="56">Tolden</token>
+    <token token_id="57">,</token>
+    <token token_id="58">gelegen</token>
+    <token token_id="59">hinder</token>
+    <token token_id="60">der</token>
+    <token token_id="61">Schal</token>
+    <token token_id="62">uf</token>
+    <token token_id="63">Wasserwallen</token>
+    <token token_id="64">an</token>
+    <token token_id="65">dem</token>
+    <token token_id="66">ort</token>
+    <token token_id="67">als</token>
+    <token token_id="68">man</token>
+    <token token_id="69">daz</token>
+    <token token_id="70">gesselin</token>
+    <token token_id="71">,</token>
+    <token token_id="72">gen</token>
+    <token token_id="73">Hinderers</token>
+    <token token_id="74">gat</token>
+    <token token_id="75">,</token>
+    <token token_id="76">ư</token>
+    <token token_id="77">zer</token>
+    <token token_id="78">andern</token>
+    <token token_id="79">siten</token>
+    <token token_id="80">nebend</token>
+    <token token_id="81">Hansen</token>
+    <token token_id="82">Murers</token>
+    <token token_id="83">hus</token>
+    <token token_id="84">des</token>
+    <token token_id="85">schmiders</token>
+    <token token_id="86">u</token>
+    <token token_id="87">Stephan</token>
+    <token token_id="88">Beheins</token>
+    <token token_id="89">hus</token>
+    <token token_id="90">des</token>
+    <token token_id="91">Hurseners</token>
+    <token token_id="92">daz</token>
+    <token token_id="93">stosset</token>
+    <token token_id="94">hndenan</token>
+    <token token_id="95">daran</token>
+    <token token_id="96">ist</token>
+    <token token_id="97">frei</token>
+    <token token_id="98">.</token>
+  </text>
+  <spans>
+    <span id="1823" start="3" end="3" text="kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1817" start="4" end="39" text="Heinrich Schaler u . Thoman&#10;Schaler , Mr . Henman Schalers des Zieglers&#10;el sin&#10;u Angnesli ir swester , für sich u . jnnamen jis bruders&#10;Peter Hansen Schaler , ư Hanns Thanwald der tuchscherer" element="list" class="per" subclass="">
+      <span id="1805" start="4" end="18" text="Heinrich Schaler u . Thoman&#10;Schaler , Mr . Henman Schalers des Zieglers&#10;el sin" element="list" class="per" subclass="">
+        <span id="1457" start="4" end="5" text="Heinrich Schaler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1457_head" start="4" end="5" element="head" class="nam" text="Heinrich Schaler" subclass=""/>
+        </span>
+        <span id="1463" start="8" end="9" text="Thoman&#10;Schaler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1463_head" start="8" end="9" element="head" class="nam" text="Thoman Schaler" subclass=""/>
+        </span>
+        <span id="1475" start="11" end="18" text="Mr . Henman Schalers des Zieglers&#10;el sin" element="appo" class="fam" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1481" start="11" end="16" text="Mr . Henman Schalers des Zieglers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1487" start="13" end="14" text="Henman Schalers" element="head" class="nam" subclass=""/>
+            <span id="1493" start="15" end="16" text="des Zieglers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1499" start="16" end="16" text="Zieglers" element="head" class="occ" subclass=""/>
+            </span>
+          </span>
+          <span id="1469" start="17" end="18" text="el sin" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+      <span id="1505" start="20" end="22" text="Angnesli ir swester" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1511" start="20" end="20" text="Angnesli" element="head" class="nam" subclass=""/>
+        <span id="1517" start="21" end="22" text="ir swester" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1529" start="21" end="21" text="ir" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1529_head" start="21" end="21" element="head" class="pro" text="ir" subclass=""/>
+          </span>
+          <span id="1523" start="22" end="22" text="swester" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+      <span id="1542" start="29" end="33" text="jis bruders&#10;Peter Hansen Schaler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1554" start="29" end="30" text="jis bruders" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1566" start="29" end="29" text="jis" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1566_head" start="29" end="29" element="head" class="pro" text="jis" subclass=""/>
+          </span>
+          <span id="1560" start="30" end="30" text="bruders" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1548" start="31" end="33" text="Peter Hansen Schaler" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1579" start="36" end="39" text="Hanns Thanwald der tuchscherer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1585" start="36" end="37" text="Hanns Thanwald" element="head" class="nam" subclass=""/>
+        <span id="1591" start="38" end="39" text="der tuchscherer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1597" start="39" end="39" text="tuchscherer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1811" start="41" end="48" text="Hans Heinrichen der truchscherer u seine Frau Elsen" element="list" class="per" subclass="">
+      <span id="1603" start="41" end="44" text="Hans Heinrichen der truchscherer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1609" start="41" end="42" text="Hans Heinrichen" element="head" class="nam" subclass=""/>
+        <span id="1615" start="43" end="44" text="der truchscherer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1621" start="44" end="44" text="truchscherer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1627" start="46" end="48" text="seine Frau Elsen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1639" start="46" end="47" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1651" start="46" end="46" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1651_head" start="46" end="46" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1645" start="47" end="47" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1633" start="48" end="48" text="Elsen" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1664" start="50" end="98" text="daz Hus &amp; Hofstatt genant zem Tolden , gelegen hinder&#10;der Schal uf Wasserwallen an dem ort als man daz gesselin ,&#10;gen Hinderers gat , ư zer andern siten nebend Hansen&#10;Murers hus des schmiders u Stephan Beheins hus des&#10;Hurseners daz stosset hndenan daran ist frei ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1670" start="51" end="53" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1676" start="55" end="56" text="zem Tolden" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1676_head" start="55" end="56" element="head" class="nam" text="zem Tolden" subclass=""/>
+      </span>
+      <span id="1682" start="58" end="95" text="gelegen hinder&#10;der Schal uf Wasserwallen an dem ort als man daz gesselin ,&#10;gen Hinderers gat , ư zer andern siten nebend Hansen&#10;Murers hus des schmiders u Stephan Beheins hus des&#10;Hurseners daz stosset hndenan daran" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1688" start="60" end="63" text="der Schal uf Wasserwallen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1694" start="61" end="63" text="Schal uf Wasserwallen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1700" start="69" end="70" text="daz gesselin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1706" start="70" end="70" text="gesselin" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1712" start="81" end="85" text="Hansen&#10;Murers hus des schmiders" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1724_owner" start="81" end="82" text="Hansen&#10;Murers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1724" start="81" end="82" text="Hansen&#10;Murers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1724_head" start="81" end="82" element="head" class="nam" text="Hansen Murers" subclass=""/>
+            </span>
+          </span>
+          <span id="1718" start="83" end="83" text="hus" element="head" class="type" subclass=""/>
+          <span id="1730_owner" start="84" end="85" text="des schmiders" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1730" start="84" end="85" text="des schmiders" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1736" start="85" end="85" text="schmiders" element="head" class="occ" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1749" start="87" end="91" text="Stephan Beheins hus des&#10;Hurseners" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1761_owner" start="87" end="88" text="Stephan Beheins" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1761" start="87" end="88" text="Stephan Beheins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1761_head" start="87" end="88" element="head" class="nam" text="Stephan Beheins" subclass=""/>
+            </span>
+          </span>
+          <span id="1755" start="89" end="89" text="hus" element="head" class="type" subclass=""/>
+          <span id="1767_owner" start="90" end="91" text="des&#10;Hurseners" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1767" start="90" end="91" text="des&#10;Hurseners" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1773" start="91" end="91" text="Hurseners" element="head" class="occ" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1786" start="92" end="92" text="daz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1786_head" start="92" end="92" element="head" class="pro" text="daz" subclass=""/>
+        </span>
+      </span>
+      <span id="1799" start="96" end="97" text="ist frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1535" from="1529" to="1475" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1572" from="1566" to="1475" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1657" from="1651" to="1603" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1742" from="1730" to="1724" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1792" from="1786" to="1749" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1779" from="1767" to="1761" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="11" end="18" ref="1475" type="state">
+      <trigger start="17" end="18" text="el sin" ref="1469"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1457" text="Heinrich Schaler"/>
+        <role role="family-b" ref="1481" text="Mr . Henman Schalers des Zieglers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="11" end="18" ref="1475" type="state">
+      <trigger start="17" end="18" text="el sin" ref="1469"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1463" text="Thoman&#10;Schaler"/>
+        <role role="family-b" ref="1481" text="Mr . Henman Schalers des Zieglers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="21" end="22" ref="1517" type="state">
+      <trigger start="22" end="22" text="swester" ref="1523"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1505" text="Angnesli ir swester"/>
+        <role role="family-b" ref="1529" text="ir"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="29" end="30" ref="1554" type="state">
+      <trigger start="30" end="30" text="bruders" ref="1560"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1542" text="jis bruders&#10;Peter Hansen Schaler"/>
+        <role role="family-b" ref="1566" text="jis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="family" polarity="pos" tense="pres" modality="ass" start="46" end="47" ref="1639" type="state">
+      <trigger start="47" end="47" text="Frau" ref="1645"/>
+      <event event_id="4.0">
+        <role role="family-a" ref="1627" text="seine Frau Elsen"/>
+        <role role="family-b" ref="1651" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="58" end="95" ref="1682" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1664" text="daz Hus &amp; Hofstatt genant zem Tolden , gelegen hinder&#10;der Schal uf Wasserwallen an dem ort als man daz gesselin ,&#10;gen Hinderers gat , ư zer andern siten nebend Hansen&#10;Murers hus des schmiders u Stephan Beheins hus des&#10;Hurseners daz stosset hndenan daran ist frei ."/>
+        <role role="location-b" ref="1688" text="der Schal uf Wasserwallen"/>
+        <role role="location-b" ref="1700" text="daz gesselin"/>
+        <role role="location-b" ref="1712" text="Hansen&#10;Murers hus des schmiders"/>
+        <role role="location-b" ref="1749" text="Stephan Beheins hus des&#10;Hurseners"/>
+        <role role="location-b" ref="1786" text="daz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="81" end="82" ref="1724_owner" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1712" text="Hansen&#10;Murers hus des schmiders"/>
+        <role role="owner" ref="1724" text="Hansen&#10;Murers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="84" end="85" ref="1730_owner" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1712" text="Hansen&#10;Murers hus des schmiders"/>
+        <role role="owner" ref="1730" text="des schmiders"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="ownership" polarity="pos" tense="pres" modality="ass" start="87" end="88" ref="1761_owner" type="state">
+      <event event_id="8.0">
+        <role role="property" ref="1749" text="Stephan Beheins hus des&#10;Hurseners"/>
+        <role role="owner" ref="1761" text="Stephan Beheins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="ownership" polarity="pos" tense="pres" modality="ass" start="90" end="91" ref="1767_owner" type="state">
+      <event event_id="9.0">
+        <role role="property" ref="1749" text="Stephan Beheins hus des&#10;Hurseners"/>
+        <role role="owner" ref="1767" text="des&#10;Hurseners"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="98" ref="" type="event">
+      <trigger start="3" end="3" text="kaufen" ref="1823"/>
+      <event event_id="10.0">
+        <role role="seller" ref="1457" text="Heinrich Schaler"/>
+        <role role="seller" ref="1463" text="Thoman&#10;Schaler"/>
+        <role role="seller" ref="1505" text="Angnesli ir swester"/>
+        <role role="seller" ref="1542" text="jis bruders&#10;Peter Hansen Schaler"/>
+        <role role="seller" ref="1579" text="Hanns Thanwald der tuchscherer"/>
+        <role role="buyer" ref="1603" text="Hans Heinrichen der truchscherer"/>
+        <role role="buyer" ref="1627" text="seine Frau Elsen"/>
+        <role role="property" ref="1664" text="daz Hus &amp; Hofstatt genant zem Tolden , gelegen hinder&#10;der Schal uf Wasserwallen an dem ort als man daz gesselin ,&#10;gen Hinderers gat , ư zer andern siten nebend Hansen&#10;Murers hus des schmiders u Stephan Beheins hus des&#10;Hurseners daz stosset hndenan daran ist frei ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

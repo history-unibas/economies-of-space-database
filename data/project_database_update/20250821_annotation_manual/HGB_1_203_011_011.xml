@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 203/11 S. [11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Sporengasse 7</tei:title>
+            <tei:idno>HGB 1 203/11</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1526995</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1419">1419</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611230.8055985444 1267543.9479757233</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">item</token>
+    <token token_id="1">do</token>
+    <token token_id="2">wart</token>
+    <token token_id="3">erkannt</token>
+    <token token_id="4">bruder</token>
+    <token token_id="5">Johann</token>
+    <token token_id="6">Zschegka</token>
+    <token token_id="7">¬</token>
+    <token token_id="8">bürlin</token>
+    <token token_id="9">von</token>
+    <token token_id="10">des</token>
+    <token token_id="11">huses</token>
+    <token token_id="12">wegen</token>
+    <token token_id="13">zem</token>
+    <token token_id="14">Agstein</token>
+    <token token_id="15">das</token>
+    <token token_id="16">man</token>
+    <token token_id="17">dem</token>
+    <token token_id="18">von</token>
+    <token token_id="19">Wildenstein</token>
+    <token token_id="20">noch</token>
+    <token token_id="21">verkunden</token>
+    <token token_id="22">solle</token>
+    <token token_id="23">das</token>
+    <token token_id="24">er</token>
+    <token token_id="25">bruder</token>
+    <token token_id="26">Johann</token>
+    <token token_id="27">umb</token>
+    <token token_id="28">sin</token>
+    <token token_id="29">versessenen</token>
+    <token token_id="30">zinse</token>
+    <token token_id="31">noch</token>
+    <token token_id="32">by</token>
+    <token token_id="33">diser</token>
+    <token token_id="34">tag</token>
+    <token token_id="35">zite</token>
+    <token token_id="36">quug</token>
+    <token token_id="37">tun</token>
+    <token token_id="38">solle</token>
+    <token token_id="39">be</token>
+    <token token_id="40">¬</token>
+    <token token_id="41">schehen</token>
+    <token token_id="42">,</token>
+    <token token_id="43">daz</token>
+    <token token_id="44">mit</token>
+    <token token_id="45">so</token>
+    <token token_id="46">söllte</token>
+    <token token_id="47">man</token>
+    <token token_id="48">im</token>
+    <token token_id="49">morn</token>
+    <token token_id="50">ze</token>
+    <token token_id="51">koufende</token>
+    <token token_id="52">geben</token>
+    <token token_id="53">ze</token>
+    <token token_id="54">glicher</token>
+    <token token_id="55">wyse</token>
+    <token token_id="56">also</token>
+    <token token_id="57">nun</token>
+    <token token_id="58">.</token>
+  </text>
+  <spans>
+    <span id="938" start="4" end="8" text="bruder Johann Zschegka ¬&#10;bürlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="950" start="4" end="4" text="bruder" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="950_head" start="4" end="4" element="head" class="title" text="bruder" subclass=""/>
+      </span>
+      <span id="944" start="5" end="8" text="Johann Zschegka ¬&#10;bürlin" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="956" start="10" end="11" text="des huses" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="962" start="11" end="11" text="huses" element="head" class="type" subclass=""/>
+    </span>
+    <span id="968" start="13" end="14" text="zem Agstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="968_head" start="13" end="14" element="head" class="nam" text="zem Agstein" subclass=""/>
+    </span>
+    <span id="981" start="17" end="19" text="dem von&#10;Wildenstein" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="987" start="18" end="19" text="von&#10;Wildenstein" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="993" start="24" end="24" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="993_head" start="24" end="24" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="1006" start="25" end="26" text="bruder Johann" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1018" start="25" end="25" text="bruder" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1018_head" start="25" end="25" element="head" class="title" text="bruder" subclass=""/>
+      </span>
+      <span id="1012" start="26" end="26" text="Johann" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1031" start="28" end="28" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1031_head" start="28" end="28" element="head" class="pro" text="sin" subclass=""/>
+    </span>
+    <span id="1069" start="30" end="30" text="zinse" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1050" start="32" end="35" text="by diser tag zite" element="value" class="date" subclass=""/>
+    <span id="1075" start="36" end="37" text="quug tun" element="trigger" class="payment" tense="pres" polarity="pos" modality="requ" subclass=""/>
+    <span id="1081" start="43" end="58" text="daz mit so söllte man im morn ze koufende geben&#10;ze glicher wyse also nun ." element="other" class="other" subclass="">
+      <span id="1056" start="48" end="48" text="im" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1056_head" start="48" end="48" element="head" class="pro" text="im" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1024" from="1006" to="938" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="974" from="968" to="956" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="999" from="993" to="981" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1037" from="1031" to="981" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1062" from="1056" to="1031" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="neg" tense="pres" modality="ass" start="30" end="30" ref="" type="event">
+      <trigger start="30" end="30" text="zinse" ref="1069"/>
+    </eventGroup>
+    <eventGroup event_id="1" class="payment" polarity="pos" tense="pres" modality="requ" start="24" end="58" ref="" type="event">
+      <trigger start="36" end="37" text="quug tun" ref="1075"/>
+      <event event_id="1.0">
+        <role role="payer" ref="993" text="er"/>
+        <role role="beneficiary" ref="1006" text="bruder Johann"/>
+        <role role="sum" ref="1069" text="zinse"/>
+        <role role="due-date" ref="1050" text="by diser tag zite"/>
+        <role role="detail_other" ref="1081" text="daz mit so söllte man im morn ze koufende geben&#10;ze glicher wyse also nun ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

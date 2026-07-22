@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/141 S. [5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt 64</tei:title>
+            <tei:idno>HGB 1 10/141</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1458512</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1441">1441</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2612047.5805961397 1267064.0161976228</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">git</token>
+    <token token_id="1">ze</token>
+    <token token_id="2">kaufen</token>
+    <token token_id="3">Petergglin</token>
+    <token token_id="4">von</token>
+    <token token_id="5">Sollotern</token>
+    <token token_id="6">u</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Heintzi</token>
+    <token token_id="9">Wogglis</token>
+    <token token_id="10">sins</token>
+    <token token_id="11">bruders</token>
+    <token token_id="12">selsun</token>
+    <token token_id="13">,</token>
+    <token token_id="14">Heintzin</token>
+    <token token_id="15">Bart</token>
+    <token token_id="16">dem</token>
+    <token token_id="17">Rebman</token>
+    <token token_id="18">daz</token>
+    <token token_id="19">Hus</token>
+    <token token_id="20">u</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Hofstatt</token>
+    <token token_id="23">mit</token>
+    <token token_id="24">dem</token>
+    <token token_id="25">Höfli</token>
+    <token token_id="26">u</token>
+    <token token_id="27">.</token>
+    <token token_id="28">garten</token>
+    <token token_id="29">derhinder</token>
+    <token token_id="30">als</token>
+    <token token_id="31">er</token>
+    <token token_id="32">dieselbe</token>
+    <token token_id="33">erpuch</token>
+    <token token_id="34">ankomen</token>
+    <token token_id="35">ist</token>
+    <token token_id="36">,</token>
+    <token token_id="37">als</token>
+    <token token_id="38">es</token>
+    <token token_id="39">gelegen</token>
+    <token token_id="40">ist</token>
+    <token token_id="41">in</token>
+    <token token_id="42">der</token>
+    <token token_id="43">vorstatt</token>
+    <token token_id="44">ze</token>
+    <token token_id="45">sant</token>
+    <token token_id="46">Alban</token>
+    <token token_id="47">uswendig</token>
+    <token token_id="48">Bygdenthor</token>
+    <token token_id="49">nebend</token>
+    <token token_id="50">Hansen</token>
+    <token token_id="51">Mezlis</token>
+    <token token_id="52">garten</token>
+    <token token_id="53">ze</token>
+    <token token_id="54">einer</token>
+    <token token_id="55">siten</token>
+    <token token_id="56">s</token>
+    <token token_id="57">Cur</token>
+    <token token_id="58">Hüglis</token>
+    <token token_id="59">hus</token>
+    <token token_id="60">zer</token>
+    <token token_id="61">anderen</token>
+    <token token_id="62">siten</token>
+    <token token_id="63">,</token>
+    <token token_id="64">7</token>
+    <token token_id="65">sum</token>
+    <token token_id="66">24</token>
+    <token token_id="67">℔</token>
+    <token token_id="68">.</token>
+    <token token_id="69">Magr</token>
+    <token token_id="70">.</token>
+    <token token_id="71">Fabrie</token>
+    <token token_id="72">Consensit</token>
+  </text>
+  <spans>
+    <span id="1600" start="2" end="2" text="kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1401" start="3" end="12" text="Petergglin von Sollotern u . Heintzi&#10;Wogglis sins bruders selsun" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1395" start="3" end="11" text="Petergglin von Sollotern u . Heintzi&#10;Wogglis sins bruders" element="list" class="per" subclass="">
+        <span id="1328" start="3" end="5" text="Petergglin von Sollotern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1334" start="3" end="3" text="Petergglin" element="head" class="nam" subclass=""/>
+          <span id="1340" start="4" end="5" text="von Sollotern" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1346" start="5" end="5" text="Sollotern" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1346_head" start="5" end="5" element="head" class="nam" text="Sollotern" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1364" start="8" end="11" text="Heintzi&#10;Wogglis sins bruders" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1352" start="8" end="9" text="Heintzi&#10;Wogglis" element="head" class="nam" subclass=""/>
+          <span id="1370" start="10" end="11" text="sins bruders" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1382" start="10" end="10" text="sins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1382_head" start="10" end="10" element="head" class="pro" text="sins" subclass=""/>
+            </span>
+            <span id="1376" start="11" end="11" text="bruders" element="head" class="fam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1407" start="12" end="12" text="selsun" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="1413" start="14" end="17" text="Heintzin Bart dem Rebman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1419" start="14" end="15" text="Heintzin Bart" element="head" class="nam" subclass=""/>
+      <span id="1425" start="16" end="17" text="dem Rebman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1431" start="17" end="17" text="Rebman" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1443" start="18" end="62" text="daz Hus u . Hofstatt mit dem Höfli u . garten derhinder&#10;als er dieselbe erpuch ankomen ist , als es gelegen ist&#10;in der vorstatt ze sant Alban uswendig Bygdenthor&#10;nebend Hansen Mezlis garten ze einer siten s Cur&#10;Hüglis hus zer anderen siten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1449" start="19" end="22" text="Hus u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1455" start="23" end="29" text="mit dem Höfli u . garten derhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1461" start="24" end="25" text="dem Höfli" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1467" start="25" end="25" text="Höfli" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1473" start="28" end="28" text="garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1473_head" start="28" end="28" element="head" class="type" text="garten" subclass=""/>
+        </span>
+      </span>
+      <span id="1479" start="37" end="62" text="als es gelegen ist&#10;in der vorstatt ze sant Alban uswendig Bygdenthor&#10;nebend Hansen Mezlis garten ze einer siten s Cur&#10;Hüglis hus zer anderen siten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1485" start="38" end="38" text="es" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1485_head" start="38" end="38" element="head" class="pro" text="es" subclass=""/>
+        </span>
+        <span id="1498" start="42" end="46" text="der vorstatt ze sant Alban" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1504" start="43" end="43" text="vorstatt" element="head" class="type" subclass=""/>
+          <span id="1510" start="44" end="46" text="ze sant Alban" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1516" start="45" end="46" text="sant Alban" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="1516_head" start="45" end="46" element="head" class="nam" text="sant Alban" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1522" start="48" end="48" text="Bygdenthor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1522_head" start="48" end="48" element="head" class="nam" text="Bygdenthor" subclass=""/>
+        </span>
+        <span id="1528" start="50" end="52" text="Hansen Mezlis garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1570" start="50" end="51" text="Hansen Mezlis" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1540" start="50" end="51" text="Hansen Mezlis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1540_head" start="50" end="51" element="head" class="nam" text="Hansen Mezlis" subclass=""/>
+            </span>
+          </span>
+          <span id="1534" start="52" end="52" text="garten" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1546" start="57" end="59" text="Cur&#10;Hüglis hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1558" start="57" end="58" text="Cur&#10;Hüglis" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1564" start="57" end="58" text="Cur&#10;Hüglis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1564_head" start="57" end="58" element="head" class="nam" text="Cur Hüglis" subclass=""/>
+            </span>
+          </span>
+          <span id="1552" start="59" end="59" text="hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1576" start="66" end="67" text="24 ℔" element="value" class="money" subclass=""/>
+    <span id="1582" start="69" end="71" text="Magr . Fabrie" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1594" start="69" end="70" text="Magr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1594_head" start="69" end="70" element="head" class="title" text="Magr ." subclass=""/>
+      </span>
+      <span id="1588" start="71" end="71" text="Fabrie" element="head" class="nam" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1388" from="1382" to="1328" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1491" from="1485" to="1443" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="3" end="12" ref="1401" type="state">
+      <trigger start="12" end="12" text="selsun" ref="1407"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1401" text="Petergglin von Sollotern u . Heintzi&#10;Wogglis sins bruders selsun"/>
+        <role role="family-b" ref="1328" text="Petergglin von Sollotern"/>
+        <role role="family-b" ref="1364" text="Heintzi&#10;Wogglis sins bruders"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="10" end="11" ref="1370" type="state">
+      <trigger start="11" end="11" text="bruders" ref="1376"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1364" text="Heintzi&#10;Wogglis sins bruders"/>
+        <role role="family-b" ref="1382" text="sins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="4" end="5" ref="1340" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1328" text="Petergglin von Sollotern"/>
+        <role role="location-b" ref="1346" text="Sollotern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="23" end="29" ref="1455" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1443" text="daz Hus u . Hofstatt mit dem Höfli u . garten derhinder&#10;als er dieselbe erpuch ankomen ist , als es gelegen ist&#10;in der vorstatt ze sant Alban uswendig Bygdenthor&#10;nebend Hansen Mezlis garten ze einer siten s Cur&#10;Hüglis hus zer anderen siten"/>
+        <role role="part" ref="1461" text="dem Höfli"/>
+        <role role="part" ref="1473" text="garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="37" end="62" ref="1479" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1443" text="daz Hus u . Hofstatt mit dem Höfli u . garten derhinder&#10;als er dieselbe erpuch ankomen ist , als es gelegen ist&#10;in der vorstatt ze sant Alban uswendig Bygdenthor&#10;nebend Hansen Mezlis garten ze einer siten s Cur&#10;Hüglis hus zer anderen siten"/>
+        <role role="location-b" ref="1485" text="es"/>
+        <role role="location-b" ref="1498" text="der vorstatt ze sant Alban"/>
+        <role role="location-b" ref="1522" text="Bygdenthor"/>
+        <role role="location-b" ref="1528" text="Hansen Mezlis garten"/>
+        <role role="location-b" ref="1546" text="Cur&#10;Hüglis hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="44" end="46" ref="1510" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1498" text="der vorstatt ze sant Alban"/>
+        <role role="location-b" ref="1516" text="sant Alban"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="50" end="51" ref="1570" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1528" text="Hansen Mezlis garten"/>
+        <role role="owner" ref="1540" text="Hansen Mezlis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="57" end="58" ref="1558" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1546" text="Cur&#10;Hüglis hus"/>
+        <role role="owner" ref="1564" text="Cur&#10;Hüglis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="2" end="71" ref="" type="event">
+      <trigger start="2" end="2" text="kaufen" ref="1600"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1401" text="Petergglin von Sollotern u . Heintzi&#10;Wogglis sins bruders selsun"/>
+        <role role="buyer" ref="1413" text="Heintzin Bart dem Rebman"/>
+        <role role="property" ref="1443" text="daz Hus u . Hofstatt mit dem Höfli u . garten derhinder&#10;als er dieselbe erpuch ankomen ist , als es gelegen ist&#10;in der vorstatt ze sant Alban uswendig Bygdenthor&#10;nebend Hansen Mezlis garten ze einer siten s Cur&#10;Hüglis hus zer anderen siten"/>
+        <role role="price" ref="1576" text="24 ℔"/>
+        <role role="consenting" ref="1582" text="Magr . Fabrie"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

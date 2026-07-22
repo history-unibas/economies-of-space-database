@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 120/67 S. [19]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Malzgasse Th. v. 30, Ecke</tei:title>
+            <tei:idno>HGB 1 120/67</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494679</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1532">1532</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611873.3548025955 1266852.6137728435</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Is</token>
+    <token token_id="1">Bernhart</token>
+    <token token_id="2">hussmanns</token>
+    <token token_id="3">genant</token>
+    <token token_id="4">Müllers</token>
+    <token token_id="5">i</token>
+    <token token_id="6">.</token>
+    <token token_id="7">Rebmanns</token>
+    <token token_id="8">sel</token>
+    <token token_id="9">.</token>
+    <token token_id="10">.</token>
+    <token token_id="11">halp</token>
+    <token token_id="12">Juch</token>
+    <token token_id="13">Pitacker</token>
+    <token token_id="14">am</token>
+    <token token_id="15">Ortt</token>
+    <token token_id="16">als</token>
+    <token token_id="17">man</token>
+    <token token_id="18">in</token>
+    <token token_id="19">die</token>
+    <token token_id="20">Malzgassen</token>
+    <token token_id="21">gat</token>
+    <token token_id="22">,</token>
+    <token token_id="23">am</token>
+    <token token_id="24">Gergen</token>
+    <token token_id="25">haromellis</token>
+    <token token_id="26">und</token>
+    <token token_id="27">an</token>
+    <token token_id="28">dem</token>
+    <token token_id="29">Garten</token>
+    <token token_id="30">der</token>
+    <token token_id="31">zum</token>
+    <token token_id="32">hürtzen</token>
+    <token token_id="33">gehört</token>
+    <token token_id="34">glegen</token>
+    <token token_id="35">,</token>
+    <token token_id="36">von</token>
+    <token token_id="37">wegen</token>
+    <token token_id="38">Ziner</token>
+    <token token_id="39">vergangen</token>
+    <token token_id="40">Mystat</token>
+    <token token_id="41">,</token>
+    <token token_id="42">gefrönt</token>
+    <token token_id="43">.</token>
+  </text>
+  <spans>
+    <span id="691" start="1" end="34" text="Bernhart hussmanns genant Müllers i .&#10;Rebmanns sel . . halp Juch Pitacker am&#10;Ortt als man in die Malzgassen gat , am Gergen&#10;haromellis und an dem Garten der zum hürtzen&#10;gehört glegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="703" start="1" end="10" text="Bernhart hussmanns genant Müllers i .&#10;Rebmanns sel . ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="709" start="1" end="9" text="Bernhart hussmanns genant Müllers i .&#10;Rebmanns sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="715" start="1" end="2" text="Bernhart hussmanns" element="head" class="nam" subclass=""/>
+          <span id="721" start="4" end="4" text="Müllers" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="721_head" start="4" end="4" element="head" class="nam" text="Müllers" subclass=""/>
+          </span>
+          <span id="727" start="5" end="7" text="i .&#10;Rebmanns" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="733" start="7" end="7" text="Rebmanns" element="head" class="occ" subclass=""/>
+          </span>
+          <span id="739" start="8" end="9" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+      </span>
+      <span id="697" start="13" end="13" text="Pitacker" element="head" class="type" subclass=""/>
+      <span id="745" start="14" end="34" text="am&#10;Ortt als man in die Malzgassen gat , am Gergen&#10;haromellis und an dem Garten der zum hürtzen&#10;gehört glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="751" start="14" end="21" text="am&#10;Ortt als man in die Malzgassen gat" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="757" start="15" end="15" text="Ortt" element="head" class="type" subclass=""/>
+          <span id="763" start="16" end="21" text="als man in die Malzgassen gat" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="769" start="19" end="20" text="die Malzgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+              <span id="775" start="20" end="20" text="Malzgassen" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="829" start="23" end="33" text="am Gergen&#10;haromellis und an dem Garten der zum hürtzen&#10;gehört" element="list" class="fac;per" subclass="">
+          <span id="787" start="24" end="25" text="Gergen&#10;haromellis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="793" start="24" end="25" text="Gergen&#10;haromellis" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="823" start="28" end="33" text="dem Garten der zum hürtzen&#10;gehört" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="799" start="29" end="29" text="Garten" element="head" class="type" subclass=""/>
+            <span id="805" start="30" end="32" text="der zum hürtzen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="811" start="30" end="32" text="der zum hürtzen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="fam">
+                <span id="817" start="31" end="32" text="zum hürtzen" element="head" class="nam" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="841" start="38" end="40" text="Ziner vergangen Mystat" element="other" class="other" subclass=""/>
+    <span id="835" start="42" end="42" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="1" end="10" ref="703" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="691" text="Bernhart hussmanns genant Müllers i .&#10;Rebmanns sel . . halp Juch Pitacker am&#10;Ortt als man in die Malzgassen gat , am Gergen&#10;haromellis und an dem Garten der zum hürtzen&#10;gehört glegen"/>
+        <role role="owner" ref="709" text="Bernhart hussmanns genant Müllers i .&#10;Rebmanns sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="14" end="34" ref="745" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="691" text="Bernhart hussmanns genant Müllers i .&#10;Rebmanns sel . . halp Juch Pitacker am&#10;Ortt als man in die Malzgassen gat , am Gergen&#10;haromellis und an dem Garten der zum hürtzen&#10;gehört glegen"/>
+        <role role="location-b" ref="751" text="am&#10;Ortt als man in die Malzgassen gat"/>
+        <role role="location-b" ref="787" text="Gergen&#10;haromellis"/>
+        <role role="location-b" ref="823" text="dem Garten der zum hürtzen&#10;gehört"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="16" end="21" ref="763" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="751" text="am&#10;Ortt als man in die Malzgassen gat"/>
+        <role role="location-b" ref="769" text="die Malzgassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="30" end="32" ref="805" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="823" text="dem Garten der zum hürtzen&#10;gehört"/>
+        <role role="owner" ref="811" text="der zum hürtzen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="ass" start="1" end="42" ref="" type="event">
+      <trigger start="42" end="42" text="gefrönt" ref="835"/>
+      <event event_id="4.0">
+        <role role="property" ref="691" text="Bernhart hussmanns genant Müllers i .&#10;Rebmanns sel . . halp Juch Pitacker am&#10;Ortt als man in die Malzgassen gat , am Gergen&#10;haromellis und an dem Garten der zum hürtzen&#10;gehört glegen"/>
+        <role role="cause" ref="841" text="Ziner vergangen Mystat"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

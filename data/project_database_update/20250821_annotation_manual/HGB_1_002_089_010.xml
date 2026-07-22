@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 2/89 S. [10]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Aeschenvorstadt 6</tei:title>
+            <tei:idno>HGB 1 2/89</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1432890</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1435">1435</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611584.8573164227 1266967.6685220636</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">hat</token>
+    <token token_id="2">Wernlin</token>
+    <token token_id="3">von</token>
+    <token token_id="4">Steinsultz</token>
+    <token token_id="5">,</token>
+    <token token_id="6">Heini</token>
+    <token token_id="7">von</token>
+    <token token_id="8">Buch</token>
+    <token token_id="9">¬</token>
+    <token token_id="10">Hus</token>
+    <token token_id="11">,</token>
+    <token token_id="12">das</token>
+    <token token_id="13">hinder</token>
+    <token token_id="14">und</token>
+    <token token_id="15">das</token>
+    <token token_id="16">vorder</token>
+    <token token_id="17">mit</token>
+    <token token_id="18">allen</token>
+    <token token_id="19">Rech</token>
+    <token token_id="20">¬</token>
+    <token token_id="21">tungen</token>
+    <token token_id="22">so</token>
+    <token token_id="23">gelegen</token>
+    <token token_id="24">ist</token>
+    <token token_id="25">in</token>
+    <token token_id="26">der</token>
+    <token token_id="27">Vorstatt</token>
+    <token token_id="28">ze</token>
+    <token token_id="29">Echemer</token>
+  </text>
+  <spans>
+    <span id="520" start="2" end="4" text="Wernlin von Steinsultz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="520_head" start="2" end="4" element="head" class="nam" text="Wernlin von Steinsultz" subclass=""/>
+    </span>
+    <span id="532" start="6" end="29" text="Heini von Buch ¬&#10;Hus , das hinder und das vorder mit allen Rech ¬ tungen so gelegen ist in der Vorstatt ze Echemer" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="532_desc_owner" start="6" end="9" text="Heini von Buch ¬" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="538" start="6" end="9" text="Heini von Buch ¬" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="538_head" start="6" end="9" element="head" class="nam" text="Heini von Buch ¬" subclass=""/>
+        </span>
+      </span>
+      <span id="544" start="10" end="10" text="Hus" element="head" class="type" subclass=""/>
+      <span id="580" start="12" end="16" text="das hinder und das vorder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="610" start="12" end="16" text="das hinder und das vorder" element="list" class="fac" subclass="">
+          <span id="586" start="12" end="13" text="das hinder" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="592" start="13" end="13" text="hinder" element="head" class="type" subclass=""/>
+          </span>
+          <span id="598" start="15" end="16" text="das vorder" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="604" start="16" end="16" text="vorder" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="550" start="22" end="29" text="so gelegen ist in der Vorstatt ze Echemer" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="556" start="26" end="29" text="der Vorstatt ze Echemer" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="562" start="27" end="27" text="Vorstatt" element="head" class="type" subclass=""/>
+          <span id="568" start="28" end="29" text="ze Echemer" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="574" start="29" end="29" text="Echemer" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="574_head" start="29" end="29" element="head" class="nam" text="Echemer" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="6" end="9" ref="532_desc_owner" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="532" text="Heini von Buch ¬&#10;Hus , das hinder und das vorder mit allen Rech ¬ tungen so gelegen ist in der Vorstatt ze Echemer"/>
+        <role role="owner" ref="538" text="Heini von Buch ¬"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="part_whole" polarity="pos" tense="pres" modality="ass" start="12" end="16" ref="580" type="state">
+      <event event_id="1.0">
+        <role role="whole" ref="532" text="Heini von Buch ¬&#10;Hus , das hinder und das vorder mit allen Rech ¬ tungen so gelegen ist in der Vorstatt ze Echemer"/>
+        <role role="part" ref="586" text="das hinder"/>
+        <role role="part" ref="598" text="das vorder"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="22" end="29" ref="550" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="532" text="Heini von Buch ¬&#10;Hus , das hinder und das vorder mit allen Rech ¬ tungen so gelegen ist in der Vorstatt ze Echemer"/>
+        <role role="location-b" ref="556" text="der Vorstatt ze Echemer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="28" end="29" ref="568" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="556" text="der Vorstatt ze Echemer"/>
+        <role role="location-b" ref="574" text="Echemer"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

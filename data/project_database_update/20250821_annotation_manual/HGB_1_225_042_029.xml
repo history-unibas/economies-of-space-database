@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 225/42 S. [29]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Utengasse 39</tei:title>
+            <tei:idno>HGB 1 225/42</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1534887</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Augustiner</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1666">1666</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611717.4522278095 1267632.445924991</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">Velti</token>
+    <token token_id="2">Stösel</token>
+    <token token_id="3">der</token>
+    <token token_id="4">Fuhrman</token>
+    <token token_id="5">soll</token>
+    <token token_id="6">von</token>
+    <token token_id="7">seim</token>
+    <token token_id="8">hauß</token>
+    <token token_id="9">an</token>
+    <token token_id="10">der</token>
+    <token token_id="11">Utengassen</token>
+    <token token_id="12">,</token>
+    <token token_id="13">6ß</token>
+    <token token_id="14">6ȡ</token>
+    <token token_id="15">.</token>
+    <token token_id="16">Ebenso</token>
+    <token token_id="17">1667</token>
+    <token token_id="18">.</token>
+    <token token_id="19">Ebenso</token>
+    <token token_id="20">1668</token>
+    <token token_id="21">.</token>
+  </text>
+  <spans>
+    <span id="527" start="1" end="4" text="Velti Stösel der Fuhrman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="533" start="1" end="2" text="Velti Stösel" element="head" class="nam" subclass=""/>
+      <span id="539" start="3" end="4" text="der Fuhrman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="545" start="4" end="4" text="Fuhrman" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="618" start="5" end="5" text="soll" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="551" start="7" end="11" text="seim hauß an der Utengassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="581" start="7" end="7" text="seim" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="587" start="7" end="7" text="seim" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="587_head" start="7" end="7" element="head" class="pro" text="seim" subclass=""/>
+        </span>
+      </span>
+      <span id="557" start="8" end="8" text="hauß" element="head" class="type" subclass=""/>
+      <span id="563" start="9" end="11" text="an der Utengassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="569" start="10" end="11" text="der Utengassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="575" start="11" end="11" text="Utengassen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="600" start="13" end="15" text="6ß 6ȡ ." element="value" class="money" subclass=""/>
+    <span id="606" start="17" end="17" text="1667" element="value" class="date" subclass=""/>
+    <span id="612" start="20" end="20" text="1668" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="593" from="587" to="527" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="7" end="7" ref="581" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="551" text="seim hauß an der Utengassen"/>
+        <role role="owner" ref="587" text="seim"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="9" end="11" ref="563" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="551" text="seim hauß an der Utengassen"/>
+        <role role="location-b" ref="569" text="der Utengassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="1" end="5" ref="" type="event">
+      <trigger start="5" end="5" text="soll" ref="618"/>
+      <event event_id="2.0">
+        <role role="payer" ref="527" text="Velti Stösel der Fuhrman"/>
+        <role role="property" ref="551" text="seim hauß an der Utengassen"/>
+        <role role="interest" ref="600" text="6ß 6ȡ ."/>
+        <role role="date" ref="606" text="1667"/>
+        <role role="date" ref="612" text="1668"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

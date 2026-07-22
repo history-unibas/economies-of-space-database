@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 155/16 S. [10, 11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Untere Rebgasse 9</tei:title>
+            <tei:idno>HGB 1 155/16</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1505697</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1438">1438</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611611.155405031 1267914.955728794</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">git</token>
+    <token token_id="2">ze</token>
+    <token token_id="3">kauffen</token>
+    <token token_id="4">Claus</token>
+    <token token_id="5">Lieberman</token>
+    <token token_id="6">der</token>
+    <token token_id="7">murer</token>
+    <token token_id="8">und</token>
+    <token token_id="9">Verena</token>
+    <token token_id="10">sin</token>
+    <token token_id="11">frow</token>
+    <token token_id="12">,</token>
+    <token token_id="13">Petro</token>
+    <token token_id="14">Mathis</token>
+    <token token_id="15">von</token>
+    <token token_id="16">Holicheßhein</token>
+    <token token_id="17">und</token>
+    <token token_id="18">minren</token>
+    <token token_id="19">Basel</token>
+    <token token_id="20">,</token>
+    <token token_id="21">das</token>
+    <token token_id="22">hus</token>
+    <token token_id="23">mit</token>
+    <token token_id="24">siner</token>
+    <token token_id="25">hoffstat</token>
+    <token token_id="26">genant</token>
+    <token token_id="27">blauer</token>
+    <token token_id="28">Schilt</token>
+    <token token_id="29">sit</token>
+    <token token_id="30">minren</token>
+    <token token_id="31">Basel</token>
+    <token token_id="32">gegen</token>
+    <token token_id="33">sant</token>
+    <token token_id="34">Cla</token>
+    <token token_id="35">-</token>
+    <token token_id="36">ren</token>
+    <token token_id="37">Closter</token>
+    <token token_id="38">und</token>
+    <token token_id="39">sunderlich</token>
+    <token token_id="40">gegen</token>
+    <token token_id="41">der</token>
+    <token token_id="42">kuchen</token>
+    <token token_id="43">über</token>
+    <token token_id="44">zwüschent</token>
+    <token token_id="45">der</token>
+    <token token_id="46">Sumerinßerin</token>
+    <token token_id="47">und</token>
+    <token token_id="48">Clewin</token>
+    <token token_id="49">Kresen</token>
+    <token token_id="50">schüren</token>
+    <token token_id="51">,</token>
+    <token token_id="52">zinset</token>
+    <token token_id="53">von</token>
+    <token token_id="54">eigen</token>
+    <token token_id="55">¬</token>
+    <token token_id="56">schaft</token>
+    <token token_id="57">frow</token>
+    <token token_id="58">Ennelin</token>
+    <token token_id="59">Münchin</token>
+    <token token_id="60">güter</token>
+    <token token_id="61">von</token>
+    <token token_id="62">Efringen</token>
+    <token token_id="63">15ß</token>
+    <token token_id="64">jerlich</token>
+    <token token_id="65">Martini</token>
+    <token token_id="66">dez</token>
+    <token token_id="67">zinses</token>
+    <token token_id="68">und</token>
+    <token token_id="69">ouch</token>
+    <token token_id="70">anders</token>
+    <token token_id="71">zinses</token>
+    <token token_id="72">Clewin</token>
+    <token token_id="73">Kroß</token>
+    <token token_id="74">siner</token>
+    <token token_id="75">schuren</token>
+    <token token_id="76">und</token>
+    <token token_id="77">auch</token>
+    <token token_id="78">anders</token>
+    <token token_id="79">stugken</token>
+    <token token_id="80">ingen</token>
+    <token token_id="81">so</token>
+    <token token_id="82">denne</token>
+    <token token_id="83">ze</token>
+    <token token_id="84">sament</token>
+    <token token_id="85">gehörent</token>
+    <token token_id="86">ein</token>
+    <token token_id="87">trager</token>
+    <token token_id="88">ist</token>
+    <token token_id="89">oder</token>
+    <token token_id="90">sin</token>
+    <token token_id="91">sol</token>
+    <token token_id="92">und</token>
+    <token token_id="93">ist</token>
+    <token token_id="94">der</token>
+    <token token_id="95">kauff</token>
+    <token token_id="96">beschechen</token>
+    <token token_id="97">umb</token>
+    <token token_id="98">32</token>
+    <token token_id="99">phunt</token>
+    <token token_id="100">fron</token>
+    <token token_id="101">Ennelin</token>
+    <token token_id="102">pat</token>
+    <token token_id="103">der</token>
+    <token token_id="104">kuffer</token>
+    <token token_id="105">sol</token>
+    <token token_id="106">ouch</token>
+    <token token_id="107">abtragen</token>
+    <token token_id="108">phunt</token>
+    <token token_id="109">und</token>
+    <token token_id="110">valler</token>
+    <token token_id="111">zu</token>
+    <token token_id="112">vasnacht</token>
+    <token token_id="113">angaria</token>
+  </text>
+  <spans>
+    <span id="2134" start="3" end="3" text="kauffen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1849" start="4" end="11" text="Claus Lieberman der&#10;murer und Verena sin frow" element="list" class="per" subclass="">
+      <span id="1788" start="4" end="7" text="Claus Lieberman der&#10;murer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1794" start="4" end="5" text="Claus Lieberman" element="head" class="nam" subclass=""/>
+        <span id="1800" start="6" end="7" text="der&#10;murer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1806" start="7" end="7" text="murer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1812" start="9" end="11" text="Verena sin frow" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1818" start="9" end="9" text="Verena" element="head" class="nam" subclass=""/>
+        <span id="1824" start="10" end="11" text="sin frow" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1836" start="10" end="10" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1836_head" start="10" end="10" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1830" start="11" end="11" text="frow" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1855" start="13" end="19" text="Petro Mathis&#10;von Holicheßhein und minren Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1861" start="13" end="14" text="Petro Mathis" element="head" class="nam" subclass=""/>
+      <span id="1867" start="15" end="19" text="von Holicheßhein und minren Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1873" start="16" end="16" text="Holicheßhein" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1873_head" start="16" end="16" element="head" class="nam" text="Holicheßhein" subclass=""/>
+        </span>
+        <span id="1879" start="18" end="19" text="minren Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1879_head" start="18" end="19" element="head" class="nam" text="minren Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1897" start="21" end="91" text="das hus mit siner hoffstat genant blauer&#10;Schilt sit minren Basel gegen sant Cla -&#10;ren Closter und sunderlich gegen der kuchen&#10;über zwüschent der Sumerinßerin und&#10;Clewin Kresen schüren , zinset von eigen ¬&#10;schaft frow Ennelin Münchin güter von&#10;Efringen 15ß jerlich Martini dez zinses und&#10;ouch anders zinses Clewin Kroß siner schuren&#10;und auch anders stugken ingen so denne ze&#10;sament gehörent ein trager ist oder sin sol" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1903" start="22" end="25" text="hus mit siner hoffstat" element="head" class="type" subclass=""/>
+      <span id="1909" start="27" end="28" text="blauer&#10;Schilt" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1909_head" start="27" end="28" element="head" class="nam" text="blauer Schilt" subclass=""/>
+      </span>
+      <span id="1915" start="29" end="50" text="sit minren Basel gegen sant Cla -&#10;ren Closter und sunderlich gegen der kuchen&#10;über zwüschent der Sumerinßerin und&#10;Clewin Kresen schüren" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1921" start="30" end="31" text="minren Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1921_head" start="30" end="31" element="head" class="nam" text="minren Basel" subclass=""/>
+        </span>
+        <span id="1927" start="33" end="37" text="sant Cla -&#10;ren Closter" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1927_head" start="33" end="37" element="head" class="nam" text="sant Cla - ren Closter" subclass=""/>
+        </span>
+        <span id="1933" start="41" end="42" text="der kuchen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1939" start="42" end="42" text="kuchen" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1945" start="45" end="46" text="der Sumerinßerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1951" start="46" end="46" text="Sumerinßerin" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1963" start="48" end="50" text="Clewin Kresen schüren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1975" start="48" end="49" text="Clewin Kresen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1981" start="48" end="49" text="Clewin Kresen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1981_head" start="48" end="49" element="head" class="nam" text="Clewin Kresen" subclass=""/>
+            </span>
+          </span>
+          <span id="1969" start="50" end="50" text="schüren" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1987" start="52" end="91" text="zinset von eigen ¬&#10;schaft frow Ennelin Münchin güter von&#10;Efringen 15ß jerlich Martini dez zinses und&#10;ouch anders zinses Clewin Kroß siner schuren&#10;und auch anders stugken ingen so denne ze&#10;sament gehörent ein trager ist oder sin sol" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2146" start="52" end="52" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2152" start="54" end="56" text="eigen ¬&#10;schaft" element="other" class="other" subclass=""/>
+        <span id="2005" start="57" end="62" text="frow Ennelin Münchin güter von&#10;Efringen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1999" start="58" end="62" text="Ennelin Münchin güter von&#10;Efringen" element="head" class="nam" subclass="">
+            <span id="1993" start="60" end="60" text="güter" element="unclear" class="unclear" subclass=""/>
+          </span>
+        </span>
+        <span id="2017" start="63" end="63" text="15ß" element="value" class="money" subclass=""/>
+        <span id="2023" start="64" end="64" text="jerlich" element="value" class="time" subclass="rec"/>
+        <span id="2029" start="65" end="65" text="Martini" element="value" class="date" subclass=""/>
+        <span id="2035" start="72" end="75" text="Clewin Kroß siner schuren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2047" start="72" end="74" text="Clewin Kroß siner" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2053" start="72" end="73" text="Clewin Kroß" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2053_head" start="72" end="73" element="head" class="nam" text="Clewin Kroß" subclass=""/>
+            </span>
+          </span>
+          <span id="2041" start="75" end="75" text="schuren" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2066" start="86" end="87" text="ein trager" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2072" start="87" end="87" text="trager" element="head" class="owner" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2078" start="98" end="99" text="32 phunt" element="value" class="money" subclass=""/>
+    <span id="2096" start="100" end="101" text="fron Ennelin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2102" start="101" end="101" text="Ennelin" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2115" start="103" end="104" text="der kuffer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2121" start="104" end="104" text="kuffer" element="head" class="role" subclass=""/>
+    </span>
+    <span id="2140" start="107" end="107" text="abtragen" element="trigger" class="payment" tense="pres" polarity="pos" modality="requ" subclass=""/>
+    <span id="2090" start="108" end="108" text="phunt" element="value" class="money" subclass=""/>
+    <span id="2084" start="111" end="113" text="zu vasnacht angaria" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1842" from="1836" to="1788" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2127" from="2115" to="1855" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2059" from="2053" to="1981" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2108" from="2096" to="2005" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2146_role" from="2146" to="1897" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="10" end="11" ref="1824" type="state">
+      <trigger start="11" end="11" text="frow" ref="1830"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1812" text="Verena sin frow"/>
+        <role role="family-b" ref="1836" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="19" ref="1867" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1855" text="Petro Mathis&#10;von Holicheßhein und minren Basel"/>
+        <role role="location-b" ref="1873" text="Holicheßhein"/>
+        <role role="location-b" ref="1879" text="minren Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="29" end="50" ref="1915" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1897" text="das hus mit siner hoffstat genant blauer&#10;Schilt sit minren Basel gegen sant Cla -&#10;ren Closter und sunderlich gegen der kuchen&#10;über zwüschent der Sumerinßerin und&#10;Clewin Kresen schüren , zinset von eigen ¬&#10;schaft frow Ennelin Münchin güter von&#10;Efringen 15ß jerlich Martini dez zinses und&#10;ouch anders zinses Clewin Kroß siner schuren&#10;und auch anders stugken ingen so denne ze&#10;sament gehörent ein trager ist oder sin sol"/>
+        <role role="location-b" ref="1921" text="minren Basel"/>
+        <role role="location-b" ref="1927" text="sant Cla -&#10;ren Closter"/>
+        <role role="location-b" ref="1933" text="der kuchen"/>
+        <role role="location-b" ref="1945" text="der Sumerinßerin"/>
+        <role role="location-b" ref="1963" text="Clewin Kresen schüren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="48" end="49" ref="1975" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1963" text="Clewin Kresen schüren"/>
+        <role role="owner" ref="1981" text="Clewin Kresen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="72" end="74" ref="2047" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="2035" text="Clewin Kroß siner schuren"/>
+        <role role="owner" ref="2053" text="Clewin Kroß"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="3" ref="" type="event">
+      <trigger start="3" end="3" text="kauffen" ref="2134"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1788" text="Claus Lieberman der&#10;murer"/>
+        <role role="seller" ref="1812" text="Verena sin frow"/>
+        <role role="buyer" ref="1855" text="Petro Mathis&#10;von Holicheßhein und minren Basel"/>
+        <role role="property" ref="1897" text="das hus mit siner hoffstat genant blauer&#10;Schilt sit minren Basel gegen sant Cla -&#10;ren Closter und sunderlich gegen der kuchen&#10;über zwüschent der Sumerinßerin und&#10;Clewin Kresen schüren , zinset von eigen ¬&#10;schaft frow Ennelin Münchin güter von&#10;Efringen 15ß jerlich Martini dez zinses und&#10;ouch anders zinses Clewin Kroß siner schuren&#10;und auch anders stugken ingen so denne ze&#10;sament gehörent ein trager ist oder sin sol"/>
+        <role role="price" ref="2078" text="32 phunt"/>
+        <role role="detail_other" ref="2140" text="abtragen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="21" end="91" ref="1987" type="state">
+      <trigger start="52" end="52" text="zinset" ref="2146"/>
+      <event event_id="6.0">
+        <role role="cause" ref="2152" text="eigen ¬&#10;schaft"/>
+        <role role="beneficiary" ref="2005" text="frow Ennelin Münchin güter von&#10;Efringen"/>
+        <role role="interest" ref="2017" text="15ß"/>
+        <role role="interval" ref="2023" text="jerlich"/>
+        <role role="due-date" ref="2029" text="Martini"/>
+        <role role="property" ref="1897" text="das hus mit siner hoffstat genant blauer&#10;Schilt sit minren Basel gegen sant Cla -&#10;ren Closter und sunderlich gegen der kuchen&#10;über zwüschent der Sumerinßerin und&#10;Clewin Kresen schüren , zinset von eigen ¬&#10;schaft frow Ennelin Münchin güter von&#10;Efringen 15ß jerlich Martini dez zinses und&#10;ouch anders zinses Clewin Kroß siner schuren&#10;und auch anders stugken ingen so denne ze&#10;sament gehörent ein trager ist oder sin sol"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="payment" polarity="pos" tense="pres" modality="requ" start="100" end="113" ref="" type="event">
+      <trigger start="107" end="107" text="abtragen" ref="2140"/>
+      <event event_id="7.0">
+        <role role="beneficiary" ref="2096" text="fron Ennelin"/>
+        <role role="payer" ref="2115" text="der kuffer"/>
+        <role role="sum" ref="2090" text="phunt"/>
+        <role role="due-date" ref="2084" text="zu vasnacht angaria"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

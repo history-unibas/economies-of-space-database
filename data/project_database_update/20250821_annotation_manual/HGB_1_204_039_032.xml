@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 204/39 S. [32]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Stadthausgasse Theil von 2, neben Eisengasse u. Mitte</tei:title>
+            <tei:idno>HGB 1 204/39</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1527172</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1580">1580</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611201.7641595653 1267569.2032709983</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Jacoben</token>
+    <token token_id="1">Wönlich</token>
+    <token token_id="2">,</token>
+    <token token_id="3">Münzmeister</token>
+    <token token_id="4">contra</token>
+    <token token_id="5">Hanns</token>
+    <token token_id="6">Regesser</token>
+    <token token_id="7">dem</token>
+    <token token_id="8">Freyer</token>
+    <token token_id="9">ann</token>
+    <token token_id="10">der</token>
+    <token token_id="11">undern</token>
+    <token token_id="12">Brothauben</token>
+    <token token_id="13">,</token>
+    <token token_id="14">Besitzer</token>
+    <token token_id="15">des</token>
+    <token token_id="16">Huses</token>
+    <token token_id="17">zum</token>
+    <token token_id="18">Liechtenstein</token>
+    <token token_id="19">,</token>
+    <token token_id="20">betr</token>
+    <token token_id="21">.</token>
+    <token token_id="22">einem</token>
+    <token token_id="23">Bachofen</token>
+    <token token_id="24">us</token>
+    <token token_id="25">dem</token>
+    <token token_id="26">Hus</token>
+    <token token_id="27">des</token>
+    <token token_id="28">Beklagten</token>
+    <token token_id="29">den</token>
+    <token token_id="30">er</token>
+    <token token_id="31">überzwerch</token>
+    <token token_id="32">inns</token>
+    <token token_id="33">gesslin</token>
+    <token token_id="34">,</token>
+    <token token_id="35">so</token>
+    <token token_id="36">hinder</token>
+    <token token_id="37">seinem</token>
+    <token token_id="38">und</token>
+    <token token_id="39">der</token>
+    <token token_id="40">benachpurten</token>
+    <token token_id="41">Hüsern</token>
+    <token token_id="42">,</token>
+    <token token_id="43">uff</token>
+    <token token_id="44">des</token>
+    <token token_id="45">Clegers</token>
+    <token token_id="46">muren</token>
+    <token token_id="47">gemacht</token>
+    <token token_id="48">.</token>
+    <token token_id="49">Die</token>
+    <token token_id="50">benachpurten</token>
+    <token token_id="51">Hüser</token>
+    <token token_id="52">sind</token>
+    <token token_id="53">:</token>
+    <token token_id="54">Kronenberg</token>
+    <token token_id="55">,</token>
+    <token token_id="56">Ochsenstein</token>
+    <token token_id="57">,</token>
+    <token token_id="58">Eichhöruli</token>
+    <token token_id="59">und</token>
+    <token token_id="60">Rechstein</token>
+    <token token_id="61">.</token>
+    <token token_id="62">prod</token>
+    <token token_id="63">ein</token>
+    <token token_id="64">Urteil</token>
+    <token token_id="65">vom</token>
+    <token token_id="66">1</token>
+    <token token_id="67">Juni</token>
+    <token token_id="68">1480</token>
+    <token token_id="69">.</token>
+  </text>
+  <spans>
+    <span id="1083" start="0" end="3" text="Jacoben Wönlich , Münzmeister" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1089" start="0" end="1" text="Jacoben Wönlich" element="head" class="nam" subclass=""/>
+      <span id="1095" start="3" end="3" text="Münzmeister" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1095_head" start="3" end="3" element="head" class="occ" text="Münzmeister" subclass=""/>
+      </span>
+    </span>
+    <span id="1346" start="4" end="4" text="contra" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1101" start="5" end="18" text="Hanns&#10;Regesser dem Freyer ann der undern Brothauben , Besitzer&#10;des Huses zum Liechtenstein" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1107" start="5" end="6" text="Hanns&#10;Regesser" element="head" class="nam" subclass=""/>
+      <span id="1113" start="7" end="8" text="dem Freyer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1119" start="8" end="8" text="Freyer" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1125" start="9" end="12" text="ann der undern Brothauben" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1131" start="10" end="12" text="der undern Brothauben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1137" start="11" end="12" text="undern Brothauben" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1252" start="14" end="18" text="Besitzer&#10;des Huses zum Liechtenstein" element="appo" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1143" start="15" end="18" text="des Huses zum Liechtenstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1149" start="16" end="18" text="Huses zum Liechtenstein" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1252_head" start="14" end="14" element="head" class="owner" text="Besitzer" subclass=""/>
+      </span>
+    </span>
+    <span id="1283" start="22" end="47" text="einem Bachofen&#10;us dem Hus des Beklagten den er überzwerch inns&#10;gesslin , so hinder seinem und der benachpurten&#10;Hüsern , uff des Clegers muren gemacht" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1277" start="23" end="23" text="Bachofen" element="head" class="type" subclass=""/>
+      <span id="1302" start="24" end="47" text="us dem Hus des Beklagten den er überzwerch inns&#10;gesslin , so hinder seinem und der benachpurten&#10;Hüsern , uff des Clegers muren gemacht" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1289" start="25" end="28" text="dem Hus des Beklagten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1155" start="26" end="26" text="Hus" element="head" class="type" subclass=""/>
+          <span id="1246" start="27" end="28" text="des Beklagten" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1161" start="27" end="28" text="des Beklagten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1167" start="28" end="28" text="Beklagten" element="head" class="role" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1173" start="30" end="30" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1173_head" start="30" end="30" element="head" class="pro" text="er" subclass=""/>
+        </span>
+        <span id="1308" start="32" end="33" text="inns&#10;gesslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1186" start="33" end="33" text="gesslin" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1314" start="37" end="41" text="seinem und der benachpurten&#10;Hüsern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1320" start="37" end="37" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1192" start="37" end="37" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1192_head" start="37" end="37" element="head" class="pro" text="seinem" subclass=""/>
+            </span>
+          </span>
+          <span id="1198" start="41" end="41" text="Hüsern" element="head" class="pro" subclass=""/>
+        </span>
+        <span id="1271" start="44" end="45" text="des Clegers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1271_head" start="44" end="45" element="head" class="type" text="des Clegers" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1258" start="49" end="51" text="Die benachpurten Hüser" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1204" start="50" end="51" text="benachpurten Hüser" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1234" start="54" end="60" text="Kronenberg , Ochsenstein ,&#10;Eichhöruli und Rechstein" element="list" class="fac" subclass="">
+      <span id="1210" start="54" end="54" text="Kronenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1210_head" start="54" end="54" element="head" class="nam" text="Kronenberg" subclass=""/>
+      </span>
+      <span id="1216" start="56" end="56" text="Ochsenstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1216_head" start="56" end="56" element="head" class="nam" text="Ochsenstein" subclass=""/>
+      </span>
+      <span id="1222" start="58" end="58" text="Eichhöruli" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1222_head" start="58" end="58" element="head" class="nam" text="Eichhöruli" subclass=""/>
+      </span>
+      <span id="1228" start="60" end="60" text="Rechstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1228_head" start="60" end="60" element="head" class="nam" text="Rechstein" subclass=""/>
+      </span>
+    </span>
+    <span id="1352" start="64" end="64" text="Urteil" element="trigger" class="litigation" tense="past" polarity="pos" modality="ass" subclass=""/>
+    <span id="1240" start="66" end="68" text="1 Juni 1480" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1333" from="1271" to="1083" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1295" from="1289" to="1143" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1179" from="1173" to="1161" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1326" from="1192" to="1161" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1264" from="1234" to="1258" class="comp" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="14" end="18" ref="1252" type="state">
+      <trigger start="14" end="14" text="Besitzer" ref="1252_head"/>
+      <event event_id="0.0">
+        <role role="owner" ref="1101" text="Hanns&#10;Regesser dem Freyer ann der undern Brothauben , Besitzer&#10;des Huses zum Liechtenstein"/>
+        <role role="property" ref="1143" text="des Huses zum Liechtenstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="9" end="12" ref="1125" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1101" text="Hanns&#10;Regesser dem Freyer ann der undern Brothauben , Besitzer&#10;des Huses zum Liechtenstein"/>
+        <role role="location-b" ref="1131" text="der undern Brothauben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="24" end="47" ref="1302" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1283" text="einem Bachofen&#10;us dem Hus des Beklagten den er überzwerch inns&#10;gesslin , so hinder seinem und der benachpurten&#10;Hüsern , uff des Clegers muren gemacht"/>
+        <role role="location-b" ref="1289" text="dem Hus des Beklagten"/>
+        <role role="location-b" ref="1173" text="er"/>
+        <role role="location-b" ref="1308" text="inns&#10;gesslin"/>
+        <role role="location-b" ref="1314" text="seinem und der benachpurten&#10;Hüsern"/>
+        <role role="location-b" ref="1271" text="des Clegers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="27" end="28" ref="1246" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1289" text="dem Hus des Beklagten"/>
+        <role role="owner" ref="1161" text="des Beklagten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="37" end="37" ref="1320" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1314" text="seinem und der benachpurten&#10;Hüsern"/>
+        <role role="owner" ref="1192" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="litigation" polarity="pos" tense="pres" modality="ass" start="0" end="47" ref="" type="event">
+      <trigger start="4" end="4" text="contra" ref="1346"/>
+      <event event_id="5.0">
+        <role role="party1" ref="1083" text="Jacoben Wönlich , Münzmeister"/>
+        <role role="party2" ref="1101" text="Hanns&#10;Regesser dem Freyer ann der undern Brothauben , Besitzer&#10;des Huses zum Liechtenstein"/>
+        <role role="subject" ref="1283" text="einem Bachofen&#10;us dem Hus des Beklagten den er überzwerch inns&#10;gesslin , so hinder seinem und der benachpurten&#10;Hüsern , uff des Clegers muren gemacht"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="litigation" polarity="pos" tense="past" modality="ass" start="64" end="68" ref="" type="event">
+      <trigger start="64" end="64" text="Urteil" ref="1352"/>
+      <event event_id="6.0">
+        <role role="date" ref="1240" text="1 Juni 1480"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="7.0">
+        <role role="whole" ref="1210" text="Kronenberg"/>
+        <role role="part" ref="1258" text="Die benachpurten Hüser"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="8.0">
+        <role role="whole" ref="1216" text="Ochsenstein"/>
+        <role role="part" ref="1258" text="Die benachpurten Hüser"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="9.0">
+        <role role="whole" ref="1222" text="Eichhöruli"/>
+        <role role="part" ref="1258" text="Die benachpurten Hüser"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="10.0">
+        <role role="whole" ref="1228" text="Rechstein"/>
+        <role role="part" ref="1258" text="Die benachpurten Hüser"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

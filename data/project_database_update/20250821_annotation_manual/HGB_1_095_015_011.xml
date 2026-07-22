@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 95/15 S. [11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Kellergässlein Theil von 7, Keller d, i</tei:title>
+            <tei:idno>HGB 1 95/15</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1491056</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Liber copiarum;Hausurkunden</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1486">1486</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611090.812584295 1267635.8305774215</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Raths</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Die</token>
+    <token token_id="4">Fünf</token>
+    <token token_id="5">über</token>
+    <token token_id="6">die</token>
+    <token token_id="7">Büne</token>
+    <token token_id="8">erkennen</token>
+    <token token_id="9">in</token>
+    <token token_id="10">der</token>
+    <token token_id="11">Streitsache</token>
+    <token token_id="12">zwischen</token>
+    <token token_id="13">H</token>
+    <token token_id="14">.</token>
+    <token token_id="15">Johansen</token>
+    <token token_id="16">Meyer</token>
+    <token token_id="17">,</token>
+    <token token_id="18">Capplan</token>
+    <token token_id="19">zu</token>
+    <token token_id="20">Sant</token>
+    <token token_id="21">Peter</token>
+    <token token_id="22">und</token>
+    <token token_id="23">Hanns</token>
+    <token token_id="24">von</token>
+    <token token_id="25">Senthen</token>
+    <token token_id="26">Ludmann</token>
+    <token token_id="27">Gesellen</token>
+    <token token_id="28">und</token>
+    <token token_id="29">Clausen</token>
+    <token token_id="30">,</token>
+    <token token_id="31">Seyler</token>
+    <token token_id="32">,</token>
+    <token token_id="33">Sinamen</token>
+    <token token_id="34">der</token>
+    <token token_id="35">anderen</token>
+    <token token_id="36">Schabender</token>
+    <token token_id="37">des</token>
+    <token token_id="38">grossen</token>
+    <token token_id="39">Kellers</token>
+    <token token_id="40">under</token>
+    <token token_id="41">St</token>
+    <token token_id="42">.</token>
+    <token token_id="43">Peter</token>
+    <token token_id="44">an</token>
+    <token token_id="45">dem</token>
+    <token token_id="46">Berg</token>
+    <token token_id="47">gelegen</token>
+    <token token_id="48">,</token>
+    <token token_id="49">dass</token>
+    <token token_id="50">die</token>
+    <token token_id="51">drey</token>
+    <token token_id="52">Schwin</token>
+    <token token_id="53">bogen</token>
+    <token token_id="54">vor</token>
+    <token token_id="55">und</token>
+    <token token_id="56">underhalb</token>
+    <token token_id="57">dem</token>
+    <token token_id="58">grossen</token>
+    <token token_id="59">Keller</token>
+    <token token_id="60">,</token>
+    <token token_id="61">die</token>
+    <token token_id="62">H</token>
+    <token token_id="63">.</token>
+    <token token_id="64">Johannes</token>
+    <token token_id="65">Meyer</token>
+    <token token_id="66">wider</token>
+    <token token_id="67">gebesseret</token>
+    <token token_id="68">und</token>
+    <token token_id="69">ein</token>
+    <token token_id="70">neu</token>
+    <token token_id="71">Muren</token>
+    <token token_id="72">usserthalb</token>
+    <token token_id="73">gegender</token>
+    <token token_id="74">Strass</token>
+    <token token_id="75">,</token>
+    <token token_id="76">daran</token>
+    <token token_id="77">uffgeführt</token>
+    <token token_id="78">vermeinende</token>
+    <token token_id="79">die</token>
+    <token token_id="80">zu</token>
+    <token token_id="81">Recht</token>
+    <token token_id="82">zu</token>
+    <token token_id="83">haben</token>
+    <token token_id="84">,</token>
+    <token token_id="85">dem</token>
+    <token token_id="86">Joh</token>
+    <token token_id="87">Meyer</token>
+    <token token_id="88">verbleiben</token>
+    <token token_id="89">sollen</token>
+    <token token_id="90">,</token>
+    <token token_id="91">sofennicht</token>
+    <token token_id="92">die</token>
+    <token token_id="93">Besiger</token>
+    <token token_id="94">des</token>
+    <token token_id="95">grossen</token>
+    <token token_id="96">Kellers</token>
+    <token token_id="97">die</token>
+    <token token_id="98">halben</token>
+    <token token_id="99">Kosten</token>
+    <token token_id="100">bezahlen</token>
+    <token token_id="101">.</token>
+    <token token_id="102">Rechte</token>
+    <token token_id="103">der</token>
+    <token token_id="104">Allmendt</token>
+    <token token_id="105">vorbehalten</token>
+    <token token_id="106">.</token>
+  </text>
+  <spans>
+    <span id="2277" start="3" end="7" text="Die Fünf über die Büne" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="2283" start="4" end="7" text="Fünf über die Büne" element="head" class="type" subclass=""/>
+    </span>
+    <span id="2529" start="8" end="8" text="erkennen" element="trigger" class="sanction" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2535" start="10" end="47" text="der Streitsache&#10;zwischen H . Johansen Meyer , Capplan zu Sant Peter&#10;und Hanns von Senthen Ludmann Gesellen und Clausen ,&#10;Seyler , Sinamen der anderen Schabender des grossen Kellers under St . Peter an dem Berg gelegen" element="eventspan" class="litigation" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2492" start="13" end="31" text="H . Johansen Meyer , Capplan zu Sant Peter&#10;und Hanns von Senthen Ludmann Gesellen und Clausen ,&#10;Seyler" element="list" class="per" subclass="">
+        <span id="2289" start="13" end="21" text="H . Johansen Meyer , Capplan zu Sant Peter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2295" start="15" end="16" text="Johansen Meyer" element="head" class="nam" subclass=""/>
+          <span id="2301" start="18" end="21" text="Capplan zu Sant Peter" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+            <span id="2307" start="18" end="18" text="Capplan" element="head" class="occ" subclass="org-job"/>
+            <span id="2313" start="20" end="21" text="Sant Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="2313_head" start="20" end="21" element="head" class="nam" text="Sant Peter" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2331" start="23" end="31" text="Hanns von Senthen Ludmann Gesellen und Clausen ,&#10;Seyler" element="list" class="per" subclass="">
+          <span id="2319" start="23" end="25" text="Hanns von Senthen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2319_head" start="23" end="25" element="head" class="nam" text="Hanns von Senthen" subclass=""/>
+          </span>
+          <span id="2325" start="26" end="27" text="Ludmann Gesellen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2325_head" start="26" end="27" element="head" class="nam" text="Ludmann Gesellen" subclass=""/>
+          </span>
+          <span id="2337" start="29" end="31" text="Clausen ,&#10;Seyler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2337_head" start="29" end="31" element="head" class="nam" text="Clausen , Seyler" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2349" start="34" end="47" text="der anderen Schabender des grossen Kellers under St . Peter an dem Berg gelegen" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2355" start="36" end="36" text="Schabender" element="head" class="owner" subclass=""/>
+        <span id="2368" start="37" end="47" text="des grossen Kellers under St . Peter an dem Berg gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2374" start="39" end="39" text="Kellers" element="head" class="type" subclass=""/>
+          <span id="2386" start="40" end="47" text="under St . Peter an dem Berg gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2392" start="41" end="43" text="St . Peter" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="2392_head" start="41" end="43" element="head" class="nam" text="St . Peter" subclass=""/>
+            </span>
+            <span id="2398" start="45" end="46" text="dem Berg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2404" start="46" end="46" text="Berg" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2541" start="49" end="101" text="dass die drey Schwin&#10;bogen vor und underhalb dem grossen Keller , die H . Johannes&#10;Meyer wider gebesseret und ein neu Muren usserthalb gegender&#10;Strass , daran uffgeführt vermeinende die zu Recht zu&#10;haben , dem Joh Meyer verbleiben sollen , sofennicht die&#10;Besiger des grossen Kellers die halben Kosten bezahlen ." element="other" class="other" subclass="">
+      <span id="2410" start="57" end="59" text="dem grossen Keller" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2416" start="59" end="59" text="Keller" element="head" class="type" subclass=""/>
+      </span>
+      <span id="2429" start="62" end="65" text="H . Johannes&#10;Meyer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2435" start="64" end="65" text="Johannes&#10;Meyer" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="2448" start="73" end="74" text="gegender&#10;Strass" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+        <span id="2454" start="74" end="74" text="Strass" element="head" class="type" subclass=""/>
+      </span>
+      <span id="2460" start="85" end="87" text="dem Joh Meyer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2466" start="86" end="87" text="Joh Meyer" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="2479" start="92" end="96" text="die&#10;Besiger des grossen Kellers" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2498" start="93" end="93" text="Besiger" element="head" class="owner" subclass=""/>
+        <span id="2504" start="94" end="96" text="des grossen Kellers" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2510" start="96" end="96" text="Kellers" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2441" from="2429" to="2289" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2361" from="2331" to="2349" class="per-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2485" from="2479" to="2349" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2422" from="2410" to="2368" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2516" from="2504" to="2410" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2472" from="2460" to="2429" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="litigation" polarity="pos" tense="pres" modality="ass" start="10" end="47" ref="2535" type="event">
+      <event event_id="0.0">
+        <role role="party1" ref="2289" text="H . Johansen Meyer , Capplan zu Sant Peter"/>
+        <role role="party2" ref="2319" text="Hanns von Senthen"/>
+        <role role="party2" ref="2325" text="Ludmann Gesellen"/>
+        <role role="party2" ref="2337" text="Clausen ,&#10;Seyler"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="34" end="47" ref="2349" type="state">
+      <trigger start="36" end="36" text="Schabender" ref="2355"/>
+      <event event_id="1.0">
+        <role role="owner" ref="2349" text="der anderen Schabender des grossen Kellers under St . Peter an dem Berg gelegen"/>
+        <role role="property" ref="2368" text="des grossen Kellers under St . Peter an dem Berg gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="92" end="96" ref="2479" type="state">
+      <trigger start="93" end="93" text="Besiger" ref="2498"/>
+      <event event_id="2.0">
+        <role role="owner" ref="2479" text="die&#10;Besiger des grossen Kellers"/>
+        <role role="property" ref="2504" text="des grossen Kellers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="employment" polarity="pos" tense="pres" modality="ass" start="18" end="21" ref="2301" type="state">
+      <trigger start="18" end="18" text="Capplan" ref="2307"/>
+      <event event_id="3.0">
+        <role role="employee" ref="2289" text="H . Johansen Meyer , Capplan zu Sant Peter"/>
+        <role role="employer" ref="2313" text="Sant Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="40" end="47" ref="2386" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="2368" text="des grossen Kellers under St . Peter an dem Berg gelegen"/>
+        <role role="location-b" ref="2392" text="St . Peter"/>
+        <role role="location-b" ref="2398" text="dem Berg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="sanction" polarity="pos" tense="pres" modality="ass" start="3" end="8" ref="" type="event">
+      <trigger start="8" end="8" text="erkennen" ref="2529"/>
+      <event event_id="5.0">
+        <role role="court" ref="2277" text="Die Fünf über die Büne"/>
+        <role role="procedure" ref="2535" text="der Streitsache&#10;zwischen H . Johansen Meyer , Capplan zu Sant Peter&#10;und Hanns von Senthen Ludmann Gesellen und Clausen ,&#10;Seyler , Sinamen der anderen Schabender des grossen Kellers under St . Peter an dem Berg gelegen"/>
+        <role role="decision" ref="2541" text="dass die drey Schwin&#10;bogen vor und underhalb dem grossen Keller , die H . Johannes&#10;Meyer wider gebesseret und ein neu Muren usserthalb gegender&#10;Strass , daran uffgeführt vermeinende die zu Recht zu&#10;haben , dem Joh Meyer verbleiben sollen , sofennicht die&#10;Besiger des grossen Kellers die halben Kosten bezahlen ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="6.0">
+        <role role="representative" ref="2319" text="Hanns von Senthen"/>
+        <role role="represented" ref="2349" text="der anderen Schabender des grossen Kellers under St . Peter an dem Berg gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="7.0">
+        <role role="representative" ref="2325" text="Ludmann Gesellen"/>
+        <role role="represented" ref="2349" text="der anderen Schabender des grossen Kellers under St . Peter an dem Berg gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="8.0">
+        <role role="representative" ref="2337" text="Clausen ,&#10;Seyler"/>
+        <role role="represented" ref="2349" text="der anderen Schabender des grossen Kellers under St . Peter an dem Berg gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

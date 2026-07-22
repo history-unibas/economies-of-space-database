@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 215/65 S. [10]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Steinenvorstadt 18</tei:title>
+            <tei:idno>HGB 1 215/65</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532653</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1474">1474</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611303.3910744158 1266964.54062137</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Ost</token>
+    <token token_id="2">Bucher</token>
+    <token token_id="3">u</token>
+    <token token_id="4">.</token>
+    <token token_id="5">frauen</token>
+    <token token_id="6">bur</token>
+    <token token_id="7">uf</token>
+    <token token_id="8">Burg</token>
+    <token token_id="9">verkauft</token>
+    <token token_id="10">an</token>
+    <token token_id="11">Hannsen</token>
+    <token token_id="12">Bidermann</token>
+    <token token_id="13">den</token>
+    <token token_id="14">Weber</token>
+    <token token_id="15">u</token>
+    <token token_id="16">seine</token>
+    <token token_id="17">Frau</token>
+    <token token_id="18">Gredlin</token>
+    <token token_id="19">,</token>
+    <token token_id="20">das</token>
+    <token token_id="21">Hus</token>
+    <token token_id="22">&amp;</token>
+    <token token_id="23">Hofstatt</token>
+    <token token_id="24">mit</token>
+    <token token_id="25">dem</token>
+    <token token_id="26">garten</token>
+    <token token_id="27">das</token>
+    <token token_id="28">Agnes</token>
+    <token token_id="29">frygn</token>
+    <token token_id="30">sel</token>
+    <token token_id="31">wesen</token>
+    <token token_id="32">ist</token>
+    <token token_id="33">gelegen</token>
+    <token token_id="34">darhinder</token>
+    <token token_id="35">.</token>
+    <token token_id="36">an</token>
+    <token token_id="37">den</token>
+    <token token_id="38">Steinen</token>
+    <token token_id="39">am</token>
+    <token token_id="40">obern</token>
+    <token token_id="41">Birsich</token>
+    <token token_id="42">,</token>
+    <token token_id="43">zwuschen</token>
+    <token token_id="44">Hanns</token>
+    <token token_id="45">Hermanns</token>
+    <token token_id="46">hus</token>
+    <token token_id="47">ư</token>
+    <token token_id="48">dem</token>
+    <token token_id="49">Hus</token>
+    <token token_id="50">zem</token>
+    <token token_id="51">Gryffen</token>
+    <token token_id="52">,</token>
+    <token token_id="53">zinset</token>
+    <token token_id="54">das</token>
+    <token token_id="55">Hus</token>
+    <token token_id="56">an</token>
+    <token token_id="57">ein</token>
+    <token token_id="58">Caplang</token>
+    <token token_id="59">zu</token>
+    <token token_id="60">s</token>
+    <token token_id="61">.</token>
+    <token token_id="62">Peter</token>
+    <token token_id="63">voneig</token>
+    <token token_id="64">.</token>
+    <token token_id="65">18sh</token>
+    <token token_id="66">.</token>
+    <token token_id="67">aber</token>
+    <token token_id="68">der</token>
+    <token token_id="69">gartt</token>
+    <token token_id="70">umb</token>
+    <token token_id="71">hl</token>
+    <token token_id="72">den</token>
+    <token token_id="73">Peter</token>
+    <token token_id="74">9</token>
+    <token token_id="75">den</token>
+    <token token_id="76">,</token>
+    <token token_id="77">ư</token>
+    <token token_id="78">an</token>
+    <token token_id="79">den</token>
+    <token token_id="80">gemelten</token>
+    <token token_id="81">bur</token>
+    <token token_id="82">16sh</token>
+    <token token_id="83">.</token>
+    <token token_id="84">widerk</token>
+    <token token_id="85">mit</token>
+    <token token_id="86">16</token>
+    <token token_id="87">℔</token>
+    <token token_id="88">,</token>
+    <token token_id="89">sonstfrei</token>
+    <token token_id="90">um</token>
+    <token token_id="91">20fl</token>
+    <token token_id="92">.</token>
+  </text>
+  <spans>
+    <span id="1379" start="0" end="8" text="Hanns Ost Bucher u . frauen bur uf Burg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1385" start="0" end="1" text="Hanns Ost" element="head" class="nam" subclass=""/>
+      <span id="1391" start="2" end="8" text="Bucher u . frauen bur uf Burg" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1397" start="2" end="6" text="Bucher u . frauen bur" element="head" class="occ" subclass="org-job"/>
+        <span id="1409" start="7" end="8" text="uf Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1403" start="8" end="8" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1403_head" start="8" end="8" element="head" class="nam" text="Burg" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1699" start="9" end="9" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1415" start="11" end="18" text="Hannsen Bidermann den Weber u seine&#10;Frau Gredlin" element="list" class="per" subclass="">
+      <span id="1421" start="11" end="14" text="Hannsen Bidermann den Weber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1427" start="11" end="12" text="Hannsen Bidermann" element="head" class="nam" subclass=""/>
+        <span id="1433" start="13" end="14" text="den Weber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1439" start="14" end="14" text="Weber" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1451" start="16" end="18" text="seine&#10;Frau Gredlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1457" start="16" end="17" text="seine&#10;Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1469" start="16" end="16" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1469_head" start="16" end="16" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1463" start="17" end="17" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1445" start="18" end="18" text="Gredlin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1482" start="20" end="89" text="das Hus &amp; Hofstatt mit dem garten&#10;das Agnes frygn sel wesen ist gelegen&#10;darhinder .&#10;an den Steinen am obern Birsich , zwuschen Hanns&#10;Hermanns hus ư dem Hus zem Gryffen , zinset das Hus&#10;an ein Caplang zu s . Peter voneig . 18sh . aber der&#10;gartt umb hl den Peter 9 den , ư an den gemelten bur 16sh .&#10;widerk mit 16 ℔, sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1488" start="21" end="23" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1500" start="24" end="34" text="mit dem garten&#10;das Agnes frygn sel wesen ist gelegen&#10;darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1506" start="25" end="34" text="dem garten&#10;das Agnes frygn sel wesen ist gelegen&#10;darhinder" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1494" start="26" end="26" text="garten" element="head" class="type" subclass=""/>
+          <span id="1512" start="27" end="32" text="das Agnes frygn sel wesen ist" element="attr" class="owner" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+            <span id="1518" start="28" end="30" text="Agnes frygn sel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1524" start="28" end="29" text="Agnes frygn" element="head" class="nam" subclass=""/>
+              <span id="1530" start="30" end="30" text="sel" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1536" start="36" end="51" text="an den Steinen am obern Birsich , zwuschen Hanns&#10;Hermanns hus ư dem Hus zem Gryffen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1542" start="37" end="38" text="den Steinen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1548" start="38" end="38" text="Steinen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1554" start="39" end="41" text="am obern Birsich" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1560" start="40" end="41" text="obern Birsich" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1572" start="44" end="46" text="Hanns&#10;Hermanns hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1584" start="44" end="45" text="Hanns&#10;Hermanns" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1566" start="44" end="45" text="Hanns&#10;Hermanns" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1566_head" start="44" end="45" element="head" class="nam" text="Hanns Hermanns" subclass=""/>
+            </span>
+          </span>
+          <span id="1578" start="46" end="46" text="hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1590" start="48" end="51" text="dem Hus zem Gryffen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1596" start="49" end="51" text="Hus zem Gryffen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1693" start="53" end="89" text="zinset das Hus&#10;an ein Caplang zu s . Peter voneig . 18sh . aber der&#10;gartt umb hl den Peter 9 den , ư an den gemelten bur 16sh .&#10;widerk mit 16 ℔, sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1705" start="53" end="53" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1602" start="54" end="55" text="das Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1608" start="55" end="55" text="Hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1614" start="57" end="62" text="ein Caplang zu s . Peter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1620" start="58" end="58" text="Caplang" element="head" class="occ" subclass="org-job"/>
+          <span id="1626" start="60" end="62" text="s . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="1626_head" start="60" end="62" element="head" class="nam" text="s . Peter" subclass=""/>
+          </span>
+        </span>
+        <span id="1718" start="63" end="64" text="voneig ." element="other" class="other" subclass=""/>
+        <span id="1632" start="65" end="66" text="18sh ." element="value" class="money" subclass=""/>
+        <span id="1638" start="68" end="69" text="der&#10;gartt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1638_head" start="68" end="69" element="head" class="type" text="der gartt" subclass=""/>
+        </span>
+        <span id="1644" start="71" end="73" text="hl den Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1644_head" start="71" end="73" element="head" class="nam" text="hl den Peter" subclass=""/>
+        </span>
+        <span id="1650" start="74" end="75" text="9 den" element="value" class="money" subclass=""/>
+        <span id="1656" start="79" end="81" text="den gemelten bur" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1662" start="81" end="81" text="bur" element="head" class="occ" subclass="org-job"/>
+        </span>
+        <span id="1668" start="82" end="83" text="16sh ." element="value" class="money" subclass=""/>
+        <span id="1681" start="86" end="88" text="16 ℔," element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1687" start="91" end="92" text="20fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1674" from="1656" to="1379" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1475" from="1469" to="1421" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1711" from="1602" to="1482" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1724" from="1638" to="1506" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="57" end="62" ref="1614" type="state">
+      <trigger start="58" end="58" text="Caplang" ref="1620"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1614" text="ein Caplang zu s . Peter"/>
+        <role role="employer" ref="1626" text="s . Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="16" end="17" ref="1457" type="state">
+      <trigger start="17" end="17" text="Frau" ref="1463"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1451" text="seine&#10;Frau Gredlin"/>
+        <role role="family-b" ref="1469" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="7" end="8" ref="1409" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1379" text="Hanns Ost Bucher u . frauen bur uf Burg"/>
+        <role role="location-b" ref="1403" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="24" end="34" ref="1500" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1482" text="das Hus &amp; Hofstatt mit dem garten&#10;das Agnes frygn sel wesen ist gelegen&#10;darhinder .&#10;an den Steinen am obern Birsich , zwuschen Hanns&#10;Hermanns hus ư dem Hus zem Gryffen , zinset das Hus&#10;an ein Caplang zu s . Peter voneig . 18sh . aber der&#10;gartt umb hl den Peter 9 den , ư an den gemelten bur 16sh .&#10;widerk mit 16 ℔, sonstfrei"/>
+        <role role="part" ref="1506" text="dem garten&#10;das Agnes frygn sel wesen ist gelegen&#10;darhinder"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="past" modality="ass" start="27" end="32" ref="1512" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1506" text="dem garten&#10;das Agnes frygn sel wesen ist gelegen&#10;darhinder"/>
+        <role role="owner" ref="1518" text="Agnes frygn sel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="36" end="51" ref="1536" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1482" text="das Hus &amp; Hofstatt mit dem garten&#10;das Agnes frygn sel wesen ist gelegen&#10;darhinder .&#10;an den Steinen am obern Birsich , zwuschen Hanns&#10;Hermanns hus ư dem Hus zem Gryffen , zinset das Hus&#10;an ein Caplang zu s . Peter voneig . 18sh . aber der&#10;gartt umb hl den Peter 9 den , ư an den gemelten bur 16sh .&#10;widerk mit 16 ℔, sonstfrei"/>
+        <role role="location-b" ref="1542" text="den Steinen"/>
+        <role role="location-b" ref="1554" text="am obern Birsich"/>
+        <role role="location-b" ref="1572" text="Hanns&#10;Hermanns hus"/>
+        <role role="location-b" ref="1590" text="dem Hus zem Gryffen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="44" end="45" ref="1584" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1572" text="Hanns&#10;Hermanns hus"/>
+        <role role="owner" ref="1566" text="Hanns&#10;Hermanns"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="53" end="89" ref="1693" type="state">
+      <trigger start="53" end="53" text="zinset" ref="1705"/>
+      <event event_id="7.0">
+        <role role="property" ref="1602" text="das Hus"/>
+        <role role="beneficiary" ref="1614" text="ein Caplang zu s . Peter"/>
+        <role role="cause" ref="1718" text="voneig ."/>
+        <role role="interest" ref="1632" text="18sh ."/>
+      </event>
+      <event event_id="7.1">
+        <role role="property" ref="1638" text="der&#10;gartt"/>
+        <role role="beneficiary" ref="1644" text="hl den Peter"/>
+        <role role="interest" ref="1650" text="9 den"/>
+      </event>
+      <event event_id="7.2">
+        <role role="property" ref="1638" text="der&#10;gartt"/>
+        <role role="beneficiary" ref="1656" text="den gemelten bur"/>
+        <role role="interest" ref="1668" text="16sh ."/>
+        <role role="interest-redeemable" ref="1681" text="16 ℔,"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="92" ref="" type="event">
+      <trigger start="9" end="9" text="verkauft" ref="1699"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1379" text="Hanns Ost Bucher u . frauen bur uf Burg"/>
+        <role role="buyer" ref="1421" text="Hannsen Bidermann den Weber"/>
+        <role role="buyer" ref="1451" text="seine&#10;Frau Gredlin"/>
+        <role role="property" ref="1482" text="das Hus &amp; Hofstatt mit dem garten&#10;das Agnes frygn sel wesen ist gelegen&#10;darhinder .&#10;an den Steinen am obern Birsich , zwuschen Hanns&#10;Hermanns hus ư dem Hus zem Gryffen , zinset das Hus&#10;an ein Caplang zu s . Peter voneig . 18sh . aber der&#10;gartt umb hl den Peter 9 den , ư an den gemelten bur 16sh .&#10;widerk mit 16 ℔, sonstfrei"/>
+        <role role="price" ref="1687" text="20fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

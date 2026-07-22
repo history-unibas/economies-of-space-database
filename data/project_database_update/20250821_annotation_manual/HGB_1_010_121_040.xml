@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/121 S. [40]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt 28</tei:title>
+            <tei:idno>HGB 1 10/121</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1458487</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1690">1690</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611873.8784392807 1267104.5880129968</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Kaufpublicatio</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Es</token>
+    <token token_id="3">verkauft</token>
+    <token token_id="4">Mr</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Jacob</token>
+    <token token_id="7">Salate</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Küefer</token>
+    <token token_id="10">und</token>
+    <token token_id="11">gibt</token>
+    <token token_id="12">zu</token>
+    <token token_id="13">Kaufen</token>
+    <token token_id="14">H</token>
+    <token token_id="15">.</token>
+    <token token_id="16">Johannes</token>
+    <token token_id="17">Bertschs</token>
+    <token token_id="18">dem</token>
+    <token token_id="19">Weissbeckh</token>
+    <token token_id="20">,</token>
+    <token token_id="21">eine</token>
+    <token token_id="22">Behausung</token>
+    <token token_id="23">in</token>
+    <token token_id="24">St</token>
+    <token token_id="25">.</token>
+    <token token_id="26">Alban</token>
+    <token token_id="27">Vorstatt</token>
+    <token token_id="28">,</token>
+    <token token_id="29">einseits</token>
+    <token token_id="30">neben</token>
+    <token token_id="31">Dietrich</token>
+    <token token_id="32">Krämer</token>
+    <token token_id="33">,</token>
+    <token token_id="34">anderseits</token>
+    <token token_id="35">neben</token>
+    <token token_id="36">Mr</token>
+    <token token_id="37">Heinrich</token>
+    <token token_id="38">Baumgartner</token>
+    <token token_id="39">dem</token>
+    <token token_id="40">Metzger</token>
+    <token token_id="41">gelegen</token>
+    <token token_id="42">.</token>
+  </text>
+  <spans>
+    <span id="828" start="3" end="3" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="714" start="4" end="9" text="Mr . Jacob Salate der&#10;Küefer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="816" start="4" end="5" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="816_head" start="4" end="5" element="head" class="title" text="Mr ." subclass=""/>
+      </span>
+      <span id="720" start="6" end="7" text="Jacob Salate" element="head" class="nam" subclass=""/>
+      <span id="726" start="8" end="9" text="der&#10;Küefer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="732" start="9" end="9" text="Küefer" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="738" start="14" end="19" text="H . Johannes&#10;Bertschs dem Weissbeckh" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="744" start="16" end="17" text="Johannes&#10;Bertschs" element="head" class="nam" subclass=""/>
+      <span id="750" start="18" end="19" text="dem Weissbeckh" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="756" start="19" end="19" text="Weissbeckh" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="762" start="21" end="41" text="eine Behausung&#10;in St . Alban Vorstatt , einseits neben&#10;Dietrich Krämer , anderseits neben Mr&#10;Heinrich Baumgartner dem Metzger&#10;gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="768" start="22" end="22" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="780" start="23" end="41" text="in St . Alban Vorstatt , einseits neben&#10;Dietrich Krämer , anderseits neben Mr&#10;Heinrich Baumgartner dem Metzger&#10;gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="774" start="24" end="27" text="St . Alban Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="774_head" start="24" end="27" element="head" class="nam" text="St . Alban Vorstatt" subclass=""/>
+        </span>
+        <span id="786" start="31" end="32" text="Dietrich Krämer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="786_head" start="31" end="32" element="head" class="nam" text="Dietrich Krämer" subclass=""/>
+        </span>
+        <span id="798" start="36" end="40" text="Mr&#10;Heinrich Baumgartner dem Metzger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="822" start="36" end="36" text="Mr" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="822_head" start="36" end="36" element="head" class="title" text="Mr" subclass=""/>
+          </span>
+          <span id="792" start="37" end="38" text="Heinrich Baumgartner" element="head" class="nam" subclass=""/>
+          <span id="804" start="39" end="40" text="dem Metzger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="810" start="40" end="40" text="Metzger" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="23" end="41" ref="780" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="762" text="eine Behausung&#10;in St . Alban Vorstatt , einseits neben&#10;Dietrich Krämer , anderseits neben Mr&#10;Heinrich Baumgartner dem Metzger&#10;gelegen"/>
+        <role role="location-b" ref="774" text="St . Alban Vorstatt"/>
+        <role role="location-b" ref="786" text="Dietrich Krämer"/>
+        <role role="location-b" ref="798" text="Mr&#10;Heinrich Baumgartner dem Metzger"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="41" ref="" type="event">
+      <trigger start="3" end="3" text="verkauft" ref="828"/>
+      <event event_id="1.0">
+        <role role="seller" ref="714" text="Mr . Jacob Salate der&#10;Küefer"/>
+        <role role="buyer" ref="738" text="H . Johannes&#10;Bertschs dem Weissbeckh"/>
+        <role role="property" ref="762" text="eine Behausung&#10;in St . Alban Vorstatt , einseits neben&#10;Dietrich Krämer , anderseits neben Mr&#10;Heinrich Baumgartner dem Metzger&#10;gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

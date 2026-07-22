@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/100 S. [21]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse Theil von 117, Ecke (am alten Luftgässlein)</tei:title>
+            <tei:idno>HGB 1 58/100</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467883</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1473">1473</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611543.9038232663 1267050.9543798016</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Der</token>
+    <token token_id="4">Spittal</token>
+    <token token_id="5">zu</token>
+    <token token_id="6">Basel</token>
+    <token token_id="7">frönt</token>
+    <token token_id="8">das</token>
+    <token token_id="9">Huss</token>
+    <token token_id="10">und</token>
+    <token token_id="11">Hoffstatt</token>
+    <token token_id="12">genant</token>
+    <token token_id="13">zem</token>
+    <token token_id="14">Höring</token>
+    <token token_id="15">,</token>
+    <token token_id="16">gelegen</token>
+    <token token_id="17">zu</token>
+    <token token_id="18">Basel</token>
+    <token token_id="19">by</token>
+    <token token_id="20">dem</token>
+    <token token_id="21">nern</token>
+    <token token_id="22">Esche</token>
+    <token token_id="23">¬</token>
+    <token token_id="24">mer</token>
+    <token token_id="25">Thor</token>
+    <token token_id="26">am</token>
+    <token token_id="27">Ort</token>
+    <token token_id="28">,</token>
+    <token token_id="29">als</token>
+    <token token_id="30">man</token>
+    <token token_id="31">das</token>
+    <token token_id="32">Gesslin</token>
+    <token token_id="33">hinhinder</token>
+    <token token_id="34">gat</token>
+    <token token_id="35">,</token>
+    <token token_id="36">stosst</token>
+    <token token_id="37">nid</token>
+    <token token_id="38">sich</token>
+    <token token_id="39">an</token>
+    <token token_id="40">Hanns</token>
+    <token token_id="41">von</token>
+    <token token_id="42">Costantz</token>
+    <token token_id="43">sel</token>
+    <token token_id="44">.</token>
+    <token token_id="45">Huss</token>
+    <token token_id="46">zinset</token>
+    <token token_id="47">dem</token>
+    <token token_id="48">Spittal</token>
+    <token token_id="49">von</token>
+    <token token_id="50">Eigenschaft</token>
+    <token token_id="51">3</token>
+    <token token_id="52">1</token>
+    <token token_id="53">/</token>
+    <token token_id="54">2</token>
+    <token token_id="55">sh</token>
+    <token token_id="56">.</token>
+    <token token_id="57">u</token>
+    <token token_id="58">.</token>
+    <token token_id="59">Pfg</token>
+    <token token_id="60">.</token>
+    <token token_id="61">und</token>
+    <token token_id="62">2</token>
+    <token token_id="63">Huner</token>
+    <token token_id="64">,</token>
+    <token token_id="65">sodenn</token>
+    <token token_id="66">vormals</token>
+    <token token_id="67">den</token>
+    <token token_id="68">Herren</token>
+    <token token_id="69">zu</token>
+    <token token_id="70">St</token>
+    <token token_id="71">.</token>
+    <token token_id="72">Alban</token>
+    <token token_id="73">18</token>
+    <token token_id="74">Pfg</token>
+    <token token_id="75">.</token>
+    <token token_id="76">deren</token>
+    <token token_id="77">sie</token>
+    <token token_id="78">sich</token>
+    <token token_id="79">aber</token>
+    <token token_id="80">begeben</token>
+    <token token_id="81">haben</token>
+    <token token_id="82">,</token>
+    <token token_id="83">von</token>
+    <token token_id="84">versessener</token>
+    <token token_id="85">Zinsen</token>
+    <token token_id="86">wegen</token>
+    <token token_id="87">,</token>
+    <token token_id="88">und</token>
+    <token token_id="89">bezieht</token>
+    <token token_id="90">es</token>
+    <token token_id="91">und</token>
+    <token token_id="92">Junderlich</token>
+    <token token_id="93">alle</token>
+    <token token_id="94">Recht</token>
+    <token token_id="95">,</token>
+    <token token_id="96">so</token>
+    <token token_id="97">Dietrich</token>
+    <token token_id="98">Loschendorff</token>
+    <token token_id="99">der</token>
+    <token token_id="100">Schnider</token>
+    <token token_id="101">darau</token>
+    <token token_id="102">hatt</token>
+    <token token_id="103">,</token>
+    <token token_id="104">um</token>
+    <token token_id="105">1</token>
+    <token token_id="106">℔</token>
+    <token token_id="107">.</token>
+    <token token_id="108">3</token>
+    <token token_id="109">sh</token>
+    <token token_id="110">.</token>
+    <token token_id="111">Zinspfg</token>
+    <token token_id="112">.</token>
+  </text>
+  <spans>
+    <span id="1652" start="3" end="6" text="Der Spittal zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1658" start="4" end="4" text="Spittal" element="head" class="type" subclass=""/>
+      <span id="1664" start="5" end="6" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1670" start="6" end="6" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1670_head" start="6" end="6" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1827" start="7" end="7" text="frönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1676" start="8" end="81" text="das Huss und Hoffstatt genant&#10;zem Höring , gelegen zu Basel by dem nern Esche ¬&#10;mer Thor am Ort , als man das Gesslin hinhinder&#10;gat , stosst nid sich an Hanns von Costantz sel . Huss&#10;zinset dem Spittal von Eigenschaft 3 1 / 2 sh . u . Pfg . und&#10;2 Huner , sodenn vormals den Herren zu St . Alban&#10;18 Pfg . deren sie sich aber begeben haben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1682" start="9" end="11" text="Huss und Hoffstatt" element="head" class="type" subclass=""/>
+      <span id="1688" start="13" end="14" text="zem Höring" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1688_head" start="13" end="14" element="head" class="nam" text="zem Höring" subclass=""/>
+      </span>
+      <span id="1694" start="16" end="45" text="gelegen zu Basel by dem nern Esche ¬&#10;mer Thor am Ort , als man das Gesslin hinhinder&#10;gat , stosst nid sich an Hanns von Costantz sel . Huss" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1706" start="18" end="18" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1706_head" start="18" end="18" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="1712" start="20" end="25" text="dem nern Esche ¬&#10;mer Thor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gate">
+          <span id="1712_head" start="20" end="25" element="head" class="nam" text="dem nern Esche ¬ mer Thor" subclass=""/>
+        </span>
+        <span id="1718" start="31" end="32" text="das Gesslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1718_head" start="31" end="32" element="head" class="type" text="das Gesslin" subclass=""/>
+        </span>
+        <span id="1724" start="40" end="45" text="Hanns von Costantz sel . Huss" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1736" start="40" end="44" text="Hanns von Costantz sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1907" start="40" end="44" text="Hanns von Costantz sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1742" start="40" end="42" text="Hanns von Costantz" element="head" class="nam" subclass=""/>
+              <span id="1748" start="43" end="44" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+            </span>
+          </span>
+          <span id="1730" start="45" end="45" text="Huss" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1700" start="46" end="81" text="zinset dem Spittal von Eigenschaft 3 1 / 2 sh . u . Pfg . und&#10;2 Huner , sodenn vormals den Herren zu St . Alban&#10;18 Pfg . deren sie sich aber begeben haben" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1883" start="46" end="46" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1754" start="47" end="48" text="dem Spittal" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1754_head" start="47" end="48" element="head" class="type" text="dem Spittal" subclass=""/>
+        </span>
+        <span id="1889" start="49" end="50" text="von Eigenschaft" element="other" class="other" subclass=""/>
+        <span id="1760" start="51" end="60" text="3 1 / 2 sh . u . Pfg ." element="value" class="money" subclass=""/>
+        <span id="1766" start="62" end="63" text="2 Huner" element="value" class="money" subclass=""/>
+        <span id="1772" start="67" end="72" text="den Herren zu St . Alban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1778" start="68" end="72" text="Herren zu St . Alban" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1784" start="73" end="75" text="18 Pfg ." element="value" class="money" subclass=""/>
+        <span id="1895" start="76" end="81" text="deren sie sich aber begeben haben" element="eventspan" class="redemption" tense="past" polarity="pos" modality="ass" subclass="">
+          <span id="1790" start="77" end="77" text="sie" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="1790_head" start="77" end="77" element="head" class="pro" text="sie" subclass=""/>
+          </span>
+          <span id="1895_trigger" start="80" end="80" text="begeben" element="trigger" class="redemption" tense="past" polarity="pos" modality="ass" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1877" start="85" end="85" text="Zinsen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1833" start="89" end="89" text="bezieht" element="trigger" class="acquisition" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1839" start="90" end="90" text="es" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1839_head" start="90" end="90" element="head" class="pro" text="es" subclass=""/>
+    </span>
+    <span id="1852" start="93" end="102" text="alle Recht ,&#10;so Dietrich Loschendorff der Schnider darau hatt" element="other" class="other" subclass="">
+      <span id="1803" start="97" end="100" text="Dietrich Loschendorff der Schnider" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1809" start="97" end="98" text="Dietrich Loschendorff" element="head" class="nam" subclass=""/>
+        <span id="1815" start="99" end="100" text="der Schnider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1821" start="100" end="100" text="Schnider" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1864" start="101" end="101" text="darau" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1864_head" start="101" end="101" element="head" class="pro" text="darau" subclass=""/>
+      </span>
+    </span>
+    <span id="1858" start="105" end="112" text="1 ℔. 3 sh . Zinspfg ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1845" from="1839" to="1676" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1796" from="1790" to="1772" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1870" from="1864" to="1839" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1883_role" from="1883" to="1676" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="redemption" polarity="pos" tense="past" modality="ass" start="76" end="81" ref="1895" type="event">
+      <trigger start="80" end="80" text="begeben" ref="1895_trigger"/>
+      <event event_id="0.0">
+        <role role="beneficiary" ref="1790" text="sie"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="5" end="6" ref="1664" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1652" text="Der Spittal zu Basel"/>
+        <role role="location-b" ref="1670" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="16" end="45" ref="1694" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1676" text="das Huss und Hoffstatt genant&#10;zem Höring , gelegen zu Basel by dem nern Esche ¬&#10;mer Thor am Ort , als man das Gesslin hinhinder&#10;gat , stosst nid sich an Hanns von Costantz sel . Huss&#10;zinset dem Spittal von Eigenschaft 3 1 / 2 sh . u . Pfg . und&#10;2 Huner , sodenn vormals den Herren zu St . Alban&#10;18 Pfg . deren sie sich aber begeben haben"/>
+        <role role="location-b" ref="1706" text="Basel"/>
+        <role role="location-b" ref="1712" text="dem nern Esche ¬&#10;mer Thor"/>
+        <role role="location-b" ref="1718" text="das Gesslin"/>
+        <role role="location-b" ref="1724" text="Hanns von Costantz sel . Huss"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="40" end="44" ref="1736" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1724" text="Hanns von Costantz sel . Huss"/>
+        <role role="owner" ref="1907" text="Hanns von Costantz sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="ass" start="3" end="85" ref="" type="event">
+      <trigger start="7" end="7" text="frönt" ref="1827"/>
+      <event event_id="4.0">
+        <role role="claimant" ref="1652" text="Der Spittal zu Basel"/>
+        <role role="property" ref="1676" text="das Huss und Hoffstatt genant&#10;zem Höring , gelegen zu Basel by dem nern Esche ¬&#10;mer Thor am Ort , als man das Gesslin hinhinder&#10;gat , stosst nid sich an Hanns von Costantz sel . Huss&#10;zinset dem Spittal von Eigenschaft 3 1 / 2 sh . u . Pfg . und&#10;2 Huner , sodenn vormals den Herren zu St . Alban&#10;18 Pfg . deren sie sich aber begeben haben"/>
+        <role role="cause" ref="1877" text="Zinsen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="46" end="81" ref="1700" type="state">
+      <trigger start="46" end="46" text="zinset" ref="1883"/>
+      <event event_id="5.0">
+        <role role="beneficiary" ref="1754" text="dem Spittal"/>
+        <role role="cause" ref="1889" text="von Eigenschaft"/>
+        <role role="interest" ref="1760" text="3 1 / 2 sh . u . Pfg ."/>
+        <role role="interest" ref="1766" text="2 Huner"/>
+        <role role="property" ref="1676" text="das Huss und Hoffstatt genant&#10;zem Höring , gelegen zu Basel by dem nern Esche ¬&#10;mer Thor am Ort , als man das Gesslin hinhinder&#10;gat , stosst nid sich an Hanns von Costantz sel . Huss&#10;zinset dem Spittal von Eigenschaft 3 1 / 2 sh . u . Pfg . und&#10;2 Huner , sodenn vormals den Herren zu St . Alban&#10;18 Pfg . deren sie sich aber begeben haben"/>
+      </event>
+      <event event_id="5.1">
+        <role role="beneficiary" ref="1772" text="den Herren zu St . Alban"/>
+        <role role="interest" ref="1784" text="18 Pfg ."/>
+        <role role="interest-redeemable" ref="1895" text="deren sie sich aber begeben haben"/>
+        <role role="property" ref="1676" text="das Huss und Hoffstatt genant&#10;zem Höring , gelegen zu Basel by dem nern Esche ¬&#10;mer Thor am Ort , als man das Gesslin hinhinder&#10;gat , stosst nid sich an Hanns von Costantz sel . Huss&#10;zinset dem Spittal von Eigenschaft 3 1 / 2 sh . u . Pfg . und&#10;2 Huner , sodenn vormals den Herren zu St . Alban&#10;18 Pfg . deren sie sich aber begeben haben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-payment" polarity="neg" tense="pres" modality="ass" start="85" end="85" ref="" type="event">
+      <trigger start="85" end="85" text="Zinsen" ref="1877"/>
+    </eventGroup>
+    <eventGroup event_id="7" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="89" ref="" type="event">
+      <trigger start="89" end="89" text="bezieht" ref="1833"/>
+      <event event_id="7.0">
+        <role role="buyer" ref="1652" text="Der Spittal zu Basel"/>
+        <role role="property" ref="1839" text="es"/>
+        <role role="property" ref="1852" text="alle Recht ,&#10;so Dietrich Loschendorff der Schnider darau hatt"/>
+        <role role="price" ref="1858" text="1 ℔. 3 sh . Zinspfg ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

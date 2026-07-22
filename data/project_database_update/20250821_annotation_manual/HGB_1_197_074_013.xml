@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 197/74 S. [13]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenvorstadt Th. v. 22 neben 20</tei:title>
+            <tei:idno>HGB 1 197/74</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1526864</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1460">1460</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610825.4343129396 1267438.9346141266</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Une</token>
+    <token token_id="1">herren</token>
+    <token token_id="2">die</token>
+    <token token_id="3">Räten</token>
+    <token token_id="4">verkaufen</token>
+    <token token_id="5">an</token>
+    <token token_id="6">Hannsen</token>
+    <token token_id="7">Amberg</token>
+    <token token_id="8">den</token>
+    <token token_id="9">Wagner</token>
+    <token token_id="10">,</token>
+    <token token_id="11">ein</token>
+    <token token_id="12">Hüslin</token>
+    <token token_id="13">&amp;</token>
+    <token token_id="14">Hofstatt</token>
+    <token token_id="15">mit</token>
+    <token token_id="16">dem</token>
+    <token token_id="17">gertlin</token>
+    <token token_id="18">so</token>
+    <token token_id="19">in</token>
+    <token token_id="20">der</token>
+    <token token_id="21">vorstatt</token>
+    <token token_id="22">an</token>
+    <token token_id="23">den</token>
+    <token token_id="24">Spalen</token>
+    <token token_id="25">,</token>
+    <token token_id="26">zwüschent</token>
+    <token token_id="27">desselben</token>
+    <token token_id="28">Amberg</token>
+    <token token_id="29">u</token>
+    <token token_id="30">.</token>
+    <token token_id="31">blechers</token>
+    <token token_id="32">husern</token>
+    <token token_id="33">gelegen</token>
+    <token token_id="34">ist</token>
+    <token token_id="35">stosset</token>
+    <token token_id="36">hinder</token>
+    <token token_id="37">uf</token>
+    <token token_id="38">den</token>
+    <token token_id="39">Platz</token>
+    <token token_id="40">zinset</token>
+    <token token_id="41">alle</token>
+    <token token_id="42">jor</token>
+    <token token_id="43">an</token>
+    <token token_id="44">die</token>
+    <token token_id="45">Ellende</token>
+    <token token_id="46">Herberge</token>
+    <token token_id="47">3</token>
+    <token token_id="48">1</token>
+    <token token_id="49">/</token>
+    <token token_id="50">2</token>
+    <token token_id="51">sh</token>
+    <token token_id="52">.</token>
+    <token token_id="53">sonstfrei</token>
+    <token token_id="54">,</token>
+    <token token_id="55">sum</token>
+    <token token_id="56">1</token>
+    <token token_id="57">fl</token>
+    <token token_id="58">.</token>
+  </text>
+  <spans>
+    <span id="1038" start="0" end="3" text="Une herren die Räten" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1074" start="1" end="3" text="herren die Räten" element="head" class="occ" subclass="org-job"/>
+    </span>
+    <span id="1093" start="4" end="4" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="912" start="6" end="9" text="Hannsen Amberg&#10;den Wagner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="918" start="6" end="7" text="Hannsen Amberg" element="head" class="nam" subclass=""/>
+      <span id="924" start="8" end="9" text="den Wagner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="930" start="9" end="9" text="Wagner" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="936" start="11" end="53" text="ein Hüslin &amp; Hofstatt mit dem gertlin so&#10;in der vorstatt an den Spalen , zwüschent desselben Amberg&#10;u . blechers husern gelegen ist stosset hinder uf den Platz&#10;zinset alle jor an die Ellende Herberge 3 1 / 2 sh . sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="942" start="12" end="14" text="Hüslin &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="948" start="15" end="17" text="mit dem gertlin" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="954" start="16" end="17" text="dem gertlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="960" start="17" end="17" text="gertlin" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="966" start="19" end="39" text="in der vorstatt an den Spalen , zwüschent desselben Amberg&#10;u . blechers husern gelegen ist stosset hinder uf den Platz" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="972" start="20" end="24" text="der vorstatt an den Spalen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1080" start="21" end="24" text="vorstatt an den Spalen" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1044" start="27" end="32" text="desselben Amberg&#10;u . blechers husern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1068" start="27" end="31" text="desselben Amberg&#10;u . blechers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1062" start="27" end="31" text="desselben Amberg&#10;u . blechers" element="list" class="per" subclass="">
+              <span id="1050" start="27" end="28" text="desselben Amberg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1056" start="28" end="28" text="Amberg" element="head" class="nam" subclass=""/>
+              </span>
+              <span id="984" start="31" end="31" text="blechers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="984_head" start="31" end="31" element="head" class="nam" text="blechers" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="978" start="32" end="32" text="husern" element="head" class="type" subclass=""/>
+        </span>
+        <span id="990" start="38" end="39" text="den Platz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="996" start="39" end="39" text="Platz" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1002" start="40" end="53" text="zinset alle jor an die Ellende Herberge 3 1 / 2 sh . sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1099" start="40" end="40" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1008" start="41" end="42" text="alle jor" element="value" class="time" subclass="rec"/>
+        <span id="1014" start="44" end="46" text="die Ellende Herberge" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1020" start="45" end="46" text="Ellende Herberge" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1026" start="47" end="52" text="3 1 / 2 sh ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1032" start="56" end="58" text="1 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1086" from="1050" to="912" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1099_role" from="1099" to="936" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="part_whole" polarity="pos" tense="pres" modality="ass" start="15" end="17" ref="948" type="state">
+      <event event_id="0.0">
+        <role role="whole" ref="936" text="ein Hüslin &amp; Hofstatt mit dem gertlin so&#10;in der vorstatt an den Spalen , zwüschent desselben Amberg&#10;u . blechers husern gelegen ist stosset hinder uf den Platz&#10;zinset alle jor an die Ellende Herberge 3 1 / 2 sh . sonstfrei"/>
+        <role role="part" ref="954" text="dem gertlin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="19" end="39" ref="966" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="936" text="ein Hüslin &amp; Hofstatt mit dem gertlin so&#10;in der vorstatt an den Spalen , zwüschent desselben Amberg&#10;u . blechers husern gelegen ist stosset hinder uf den Platz&#10;zinset alle jor an die Ellende Herberge 3 1 / 2 sh . sonstfrei"/>
+        <role role="location-b" ref="972" text="der vorstatt an den Spalen"/>
+        <role role="location-b" ref="1044" text="desselben Amberg&#10;u . blechers husern"/>
+        <role role="location-b" ref="990" text="den Platz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="27" end="31" ref="1068" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1044" text="desselben Amberg&#10;u . blechers husern"/>
+        <role role="owner" ref="1050" text="desselben Amberg"/>
+        <role role="owner" ref="984" text="blechers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="58" ref="" type="event">
+      <trigger start="4" end="4" text="verkaufen" ref="1093"/>
+      <event event_id="3.0">
+        <role role="seller" ref="1038" text="Une herren die Räten"/>
+        <role role="buyer" ref="912" text="Hannsen Amberg&#10;den Wagner"/>
+        <role role="property" ref="936" text="ein Hüslin &amp; Hofstatt mit dem gertlin so&#10;in der vorstatt an den Spalen , zwüschent desselben Amberg&#10;u . blechers husern gelegen ist stosset hinder uf den Platz&#10;zinset alle jor an die Ellende Herberge 3 1 / 2 sh . sonstfrei"/>
+        <role role="price" ref="1032" text="1 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="11" end="53" ref="1002" type="state">
+      <trigger start="40" end="40" text="zinset" ref="1099"/>
+      <event event_id="4.0">
+        <role role="interval" ref="1008" text="alle jor"/>
+        <role role="beneficiary" ref="1014" text="die Ellende Herberge"/>
+        <role role="interest" ref="1026" text="3 1 / 2 sh ."/>
+        <role role="property" ref="936" text="ein Hüslin &amp; Hofstatt mit dem gertlin so&#10;in der vorstatt an den Spalen , zwüschent desselben Amberg&#10;u . blechers husern gelegen ist stosset hinder uf den Platz&#10;zinset alle jor an die Ellende Herberge 3 1 / 2 sh . sonstfrei"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

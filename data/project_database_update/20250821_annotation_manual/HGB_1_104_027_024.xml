@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 104/27 S. [24]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Kohlenberggasse Theil v. 2 neben 4, Vorderhaus</tei:title>
+            <tei:idno>HGB 1 104/27</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1493366</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Städtische Urkunden</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1526">1526</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611237.7124221288 1267024.521239835</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Agnesar</token>
+    <token token_id="5">,</token>
+    <token token_id="6">wylkennd</token>
+    <token token_id="7">Simon</token>
+    <token token_id="8">Schedlers</token>
+    <token token_id="9">des</token>
+    <token token_id="10">Rebmans</token>
+    <token token_id="11">,</token>
+    <token token_id="12">Burgers</token>
+    <token token_id="13">zu</token>
+    <token token_id="14">Basell</token>
+    <token token_id="15">,</token>
+    <token token_id="16">und</token>
+    <token token_id="17">Elspetha</token>
+    <token token_id="18">siner</token>
+    <token token_id="19">Ehowen</token>
+    <token token_id="20">sel</token>
+    <token token_id="21">.</token>
+    <token token_id="22">gelassene</token>
+    <token token_id="23">Tochter</token>
+    <token token_id="24">,</token>
+    <token token_id="25">verkauft</token>
+    <token token_id="26">an</token>
+    <token token_id="27">Pauli</token>
+    <token token_id="28">Rosching</token>
+    <token token_id="29">Burger</token>
+    <token token_id="30">zu</token>
+    <token token_id="31">Basell</token>
+    <token token_id="32">und</token>
+    <token token_id="33">Margred</token>
+    <token token_id="34">siner</token>
+    <token token_id="35">Efrowen</token>
+    <token token_id="36">das</token>
+    <token token_id="37">Hus</token>
+    <token token_id="38">und</token>
+    <token token_id="39">Hoffstat</token>
+    <token token_id="40">,</token>
+    <token token_id="41">alls</token>
+    <token token_id="42">das</token>
+    <token token_id="43">in</token>
+    <token token_id="44">der</token>
+    <token token_id="45">Statt</token>
+    <token token_id="46">Basell</token>
+    <token token_id="47">uff</token>
+    <token token_id="48">dem</token>
+    <token token_id="49">Kolenberg</token>
+    <token token_id="50">zwischen</token>
+    <token token_id="51">des</token>
+    <token token_id="52">Nochrichters</token>
+    <token token_id="53">Pfuss</token>
+    <token token_id="54">ze</token>
+    <token token_id="55">einer</token>
+    <token token_id="56">,</token>
+    <token token_id="57">und</token>
+    <token token_id="58">Heinrichen</token>
+    <token token_id="59">Davids</token>
+    <token token_id="60">Gartten</token>
+    <token token_id="61">zur</token>
+    <token token_id="62">andern</token>
+    <token token_id="63">Sytten</token>
+    <token token_id="64">gelegen</token>
+    <token token_id="65">ist</token>
+    <token token_id="66">,</token>
+    <token token_id="67">zinset</token>
+    <token token_id="68">von</token>
+    <token token_id="69">Eigenschafft</token>
+    <token token_id="70">dem</token>
+    <token token_id="71">Spital</token>
+    <token token_id="72">zu</token>
+    <token token_id="73">Basel</token>
+    <token token_id="74">4</token>
+    <token token_id="75">sh</token>
+    <token token_id="76">.</token>
+    <token token_id="77">Grüner</token>
+    <token token_id="78">Pfennig</token>
+    <token token_id="79">und</token>
+    <token token_id="80">ein</token>
+    <token token_id="81">Hun</token>
+    <token token_id="82">,</token>
+    <token token_id="83">um</token>
+    <token token_id="84">18</token>
+    <token token_id="85">℔</token>
+    <token token_id="86">.</token>
+    <token token_id="87">stebler</token>
+    <token token_id="88">B</token>
+    <token token_id="89">.</token>
+    <token token_id="90">W</token>
+    <token token_id="91">.</token>
+  </text>
+  <spans>
+    <span id="1369" start="4" end="23" text="Agnesar , wylkennd Simon Schedlers des Rebmans , Burgers zu&#10;Basell , und Elspetha siner Ehowen sel . gelassene Tochter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1375" start="4" end="4" text="Agnesar" element="head" class="nam" subclass=""/>
+      <span id="1381" start="6" end="23" text="wylkennd Simon Schedlers des Rebmans , Burgers zu&#10;Basell , und Elspetha siner Ehowen sel . gelassene Tochter" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1387" start="6" end="21" text="wylkennd Simon Schedlers des Rebmans , Burgers zu&#10;Basell , und Elspetha siner Ehowen sel ." element="list" class="per" subclass="">
+          <span id="1399" start="7" end="14" text="Simon Schedlers des Rebmans , Burgers zu&#10;Basell" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1405" start="7" end="8" text="Simon Schedlers" element="head" class="nam" subclass=""/>
+            <span id="1411" start="9" end="10" text="des Rebmans" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1417" start="10" end="10" text="Rebmans" element="head" class="occ" subclass=""/>
+            </span>
+            <span id="1423" start="12" end="14" text="Burgers zu&#10;Basell" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1429" start="12" end="12" text="Burgers" element="head" class="org-aff" subclass=""/>
+              <span id="1435" start="14" end="14" text="Basell" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1435_head" start="14" end="14" element="head" class="nam" text="Basell" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1441" start="17" end="19" text="Elspetha siner Ehowen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1447" start="17" end="17" text="Elspetha" element="head" class="nam" subclass=""/>
+            <span id="1465" start="18" end="19" text="siner Ehowen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1453" start="18" end="18" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1453_head" start="18" end="18" element="head" class="pro" text="siner" subclass=""/>
+              </span>
+              <span id="1459" start="19" end="19" text="Ehowen" element="head" class="fam" subclass=""/>
+            </span>
+          </span>
+          <span id="1478" start="20" end="21" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+        <span id="1393" start="23" end="23" text="Tochter" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1713" start="25" end="25" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1514" start="27" end="35" text="Pauli Rosching Burger zu Basell und Margred&#10;siner Efrowen" element="list" class="per" subclass="">
+      <span id="1484" start="27" end="31" text="Pauli Rosching Burger zu Basell" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1490" start="27" end="28" text="Pauli Rosching" element="head" class="nam" subclass=""/>
+        <span id="1496" start="29" end="31" text="Burger zu Basell" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1502" start="29" end="29" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="1508" start="31" end="31" text="Basell" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1508_head" start="31" end="31" element="head" class="nam" text="Basell" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1520" start="33" end="35" text="Margred&#10;siner Efrowen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1551" start="33" end="33" text="Margred" element="head" class="nam" subclass=""/>
+        <span id="1526" start="34" end="35" text="siner Efrowen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1538" start="34" end="34" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1538_head" start="34" end="34" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="1532" start="35" end="35" text="Efrowen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1557" start="36" end="81" text="das Hus und Hoffstat , alls das in der Statt&#10;Basell uff dem Kolenberg zwischen des Nochrichters Pfuss&#10;ze einer , und Heinrichen Davids Gartten zur andern Sytten&#10;gelegen ist , zinset von Eigenschafft dem Spital zu Basel 4 sh .&#10;Grüner Pfennig und ein Hun" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1563" start="37" end="39" text="Hus und Hoffstat" element="head" class="type" subclass=""/>
+      <span id="1569" start="41" end="65" text="alls das in der Statt&#10;Basell uff dem Kolenberg zwischen des Nochrichters Pfuss&#10;ze einer , und Heinrichen Davids Gartten zur andern Sytten&#10;gelegen ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1581" start="44" end="46" text="der Statt&#10;Basell" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1587" start="46" end="46" text="Basell" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1593" start="48" end="49" text="dem Kolenberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1599" start="49" end="49" text="Kolenberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1605" start="51" end="53" text="des Nochrichters Pfuss" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1689" start="51" end="52" text="des Nochrichters" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1695" start="51" end="52" text="des Nochrichters" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1701" start="52" end="52" text="Nochrichters" element="head" class="occ" subclass=""/>
+            </span>
+          </span>
+          <span id="1617" start="53" end="53" text="Pfuss" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1623" start="58" end="60" text="Heinrichen Davids Gartten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1641" start="58" end="59" text="Heinrichen Davids" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1635" start="58" end="59" text="Heinrichen Davids" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1635_head" start="58" end="59" element="head" class="nam" text="Heinrichen Davids" subclass=""/>
+            </span>
+          </span>
+          <span id="1629" start="60" end="60" text="Gartten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1707" start="67" end="81" text="zinset von Eigenschafft dem Spital zu Basel 4 sh .&#10;Grüner Pfennig und ein Hun" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1719" start="67" end="67" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1725" start="68" end="69" text="von Eigenschafft" element="other" class="other" subclass=""/>
+        <span id="1647" start="70" end="73" text="dem Spital zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1653" start="71" end="71" text="Spital" element="head" class="type" subclass=""/>
+          <span id="1665" start="72" end="73" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1659" start="73" end="73" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1659_head" start="73" end="73" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1671" start="74" end="78" text="4 sh .&#10;Grüner Pfennig" element="value" class="money" subclass=""/>
+        <span id="1677" start="80" end="81" text="ein Hun" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1683" start="84" end="91" text="18 ℔. stebler B . W ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1471" from="1453" to="1399" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1544" from="1538" to="1484" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="6" end="23" ref="1381" type="state">
+      <trigger start="23" end="23" text="Tochter" ref="1393"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1369" text="Agnesar , wylkennd Simon Schedlers des Rebmans , Burgers zu&#10;Basell , und Elspetha siner Ehowen sel . gelassene Tochter"/>
+        <role role="family-b" ref="1399" text="Simon Schedlers des Rebmans , Burgers zu&#10;Basell"/>
+        <role role="family-b" ref="1441" text="Elspetha siner Ehowen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="12" end="14" ref="1423" type="state">
+      <trigger start="12" end="12" text="Burgers" ref="1429"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1399" text="Simon Schedlers des Rebmans , Burgers zu&#10;Basell"/>
+        <role role="geopolitical-entity" ref="1435" text="Basell"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="18" end="19" ref="1465" type="state">
+      <trigger start="19" end="19" text="Ehowen" ref="1459"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1441" text="Elspetha siner Ehowen"/>
+        <role role="family-b" ref="1453" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="29" end="31" ref="1496" type="state">
+      <trigger start="29" end="29" text="Burger" ref="1502"/>
+      <event event_id="3.0">
+        <role role="resident" ref="1484" text="Pauli Rosching Burger zu Basell"/>
+        <role role="geopolitical-entity" ref="1508" text="Basell"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="family" polarity="pos" tense="pres" modality="ass" start="34" end="35" ref="1526" type="state">
+      <trigger start="35" end="35" text="Efrowen" ref="1532"/>
+      <event event_id="4.0">
+        <role role="family-a" ref="1520" text="Margred&#10;siner Efrowen"/>
+        <role role="family-b" ref="1538" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="41" end="65" ref="1569" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1557" text="das Hus und Hoffstat , alls das in der Statt&#10;Basell uff dem Kolenberg zwischen des Nochrichters Pfuss&#10;ze einer , und Heinrichen Davids Gartten zur andern Sytten&#10;gelegen ist , zinset von Eigenschafft dem Spital zu Basel 4 sh .&#10;Grüner Pfennig und ein Hun"/>
+        <role role="location-b" ref="1581" text="der Statt&#10;Basell"/>
+        <role role="location-b" ref="1593" text="dem Kolenberg"/>
+        <role role="location-b" ref="1605" text="des Nochrichters Pfuss"/>
+        <role role="location-b" ref="1623" text="Heinrichen Davids Gartten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="51" end="52" ref="1689" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1605" text="des Nochrichters Pfuss"/>
+        <role role="owner" ref="1695" text="des Nochrichters"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="58" end="59" ref="1641" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1623" text="Heinrichen Davids Gartten"/>
+        <role role="owner" ref="1635" text="Heinrichen Davids"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="67" end="81" ref="1707" type="state">
+      <trigger start="67" end="67" text="zinset" ref="1719"/>
+      <event event_id="8.0">
+        <role role="property" ref="1557" text="das Hus und Hoffstat , alls das in der Statt&#10;Basell uff dem Kolenberg zwischen des Nochrichters Pfuss&#10;ze einer , und Heinrichen Davids Gartten zur andern Sytten&#10;gelegen ist , zinset von Eigenschafft dem Spital zu Basel 4 sh .&#10;Grüner Pfennig und ein Hun"/>
+        <role role="cause" ref="1725" text="von Eigenschafft"/>
+        <role role="beneficiary" ref="1647" text="dem Spital zu Basel"/>
+        <role role="interest" ref="1671" text="4 sh .&#10;Grüner Pfennig"/>
+        <role role="interest" ref="1677" text="ein Hun"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="topological" polarity="pos" tense="pres" modality="ass" start="72" end="73" ref="1665" type="state">
+      <event event_id="9.0">
+        <role role="location-a" ref="1647" text="dem Spital zu Basel"/>
+        <role role="location-b" ref="1659" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="25" end="91" ref="" type="event">
+      <trigger start="25" end="25" text="verkauft" ref="1713"/>
+      <event event_id="10.0">
+        <role role="seller" ref="1369" text="Agnesar , wylkennd Simon Schedlers des Rebmans , Burgers zu&#10;Basell , und Elspetha siner Ehowen sel . gelassene Tochter"/>
+        <role role="buyer" ref="1484" text="Pauli Rosching Burger zu Basell"/>
+        <role role="buyer" ref="1520" text="Margred&#10;siner Efrowen"/>
+        <role role="property" ref="1557" text="das Hus und Hoffstat , alls das in der Statt&#10;Basell uff dem Kolenberg zwischen des Nochrichters Pfuss&#10;ze einer , und Heinrichen Davids Gartten zur andern Sytten&#10;gelegen ist , zinset von Eigenschafft dem Spital zu Basel 4 sh .&#10;Grüner Pfennig und ein Hun"/>
+        <role role="price" ref="1683" text="18 ℔. stebler B . W ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

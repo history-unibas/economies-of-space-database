@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 197/65 S. [18]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenvorstadt 10</tei:title>
+            <tei:idno>HGB 1 197/65</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1526855</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1624">1624</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610879.155818192 1267415.0384670226</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Jacob</token>
+    <token token_id="1">Züricher</token>
+    <token token_id="2">contra</token>
+    <token token_id="3">Niclaus</token>
+    <token token_id="4">Falckhner</token>
+    <token token_id="5">wegen</token>
+    <token token_id="6">seinem</token>
+    <token token_id="7">ungehorsamen</token>
+    <token token_id="8">Ausbleibens</token>
+    <token token_id="9">,</token>
+    <token token_id="10">wurde</token>
+    <token token_id="11">Bekl</token>
+    <token token_id="12">.</token>
+    <token token_id="13">bestraft</token>
+    <token token_id="14">.</token>
+    <token token_id="15">1624</token>
+    <token token_id="16">.</token>
+    <token token_id="17">Februar</token>
+    <token token_id="18">27</token>
+    <token token_id="19">.</token>
+    <token token_id="20">Obiger</token>
+    <token token_id="21">contra</token>
+    <token token_id="22">Niclaus</token>
+    <token token_id="23">Falckhner</token>
+    <token token_id="24">undt</token>
+    <token token_id="25">Peter</token>
+    <token token_id="26">Domins</token>
+    <token token_id="27">.</token>
+    <token token_id="28">dem</token>
+    <token token_id="29">Rathsbotten</token>
+    <token token_id="30">,</token>
+    <token token_id="31">wegen</token>
+    <token token_id="32">des</token>
+    <token token_id="33">Gässlins</token>
+    <token token_id="34">hinter</token>
+    <token token_id="35">beeder</token>
+    <token token_id="36">Bekl</token>
+    <token token_id="37">.</token>
+    <token token_id="38">Hauser</token>
+    <token token_id="39">,</token>
+    <token token_id="40">als</token>
+    <token token_id="41">des</token>
+    <token token_id="42">Wegs</token>
+    <token token_id="43">durch</token>
+    <token token_id="44">Unssen</token>
+    <token token_id="45">zu</token>
+    <token token_id="46">Herren</token>
+    <token token_id="47">Karrhoff</token>
+    <token token_id="48">zu</token>
+    <token token_id="49">seiner</token>
+    <token token_id="50">Stallung</token>
+    <token token_id="51">.</token>
+    <token token_id="52">1624</token>
+    <token token_id="53">.</token>
+    <token token_id="54">Juni</token>
+    <token token_id="55">.</token>
+    <token token_id="56">21</token>
+    <token token_id="57">.</token>
+  </text>
+  <spans>
+    <span id="1098" start="0" end="1" text="Jacob Züricher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1098_head" start="0" end="1" element="head" class="nam" text="Jacob Züricher" subclass=""/>
+    </span>
+    <span id="1288" start="2" end="2" text="contra" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1104" start="3" end="4" text="Niclaus Falckhner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1104_head" start="3" end="4" element="head" class="nam" text="Niclaus Falckhner" subclass=""/>
+    </span>
+    <span id="1294" start="5" end="8" text="wegen seinem ungehorsamen Ausbleibens" element="other" class="other" subclass=""/>
+    <span id="1110" start="11" end="12" text="Bekl ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1110_head" start="11" end="12" element="head" class="role" text="Bekl ." subclass=""/>
+    </span>
+    <span id="1300" start="13" end="13" text="bestraft" element="trigger" class="sanction" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1129" start="15" end="19" text="1624 . Februar 27 ." element="value" class="date" subclass=""/>
+    <span id="1141" start="20" end="20" text="Obiger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1141_head" start="20" end="20" element="head" class="pro" text="Obiger" subclass=""/>
+    </span>
+    <span id="1306" start="21" end="21" text="contra" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1184" start="22" end="29" text="Niclaus Falckhner undt Peter Domins .&#10;dem Rathsbotten" element="list" class="per" subclass="">
+      <span id="1154" start="22" end="23" text="Niclaus Falckhner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1154_head" start="22" end="23" element="head" class="nam" text="Niclaus Falckhner" subclass=""/>
+      </span>
+      <span id="1160" start="25" end="29" text="Peter Domins .&#10;dem Rathsbotten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1166" start="25" end="26" text="Peter Domins" element="head" class="nam" subclass=""/>
+        <span id="1172" start="28" end="29" text="dem Rathsbotten" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+          <span id="1178" start="29" end="29" text="Rathsbotten" element="head" class="occ" subclass="org-job"/>
+        </span>
+      </span>
+    </span>
+    <span id="1190" start="32" end="33" text="des Gässlins" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+      <span id="1190_head" start="32" end="33" element="head" class="type" text="des Gässlins" subclass=""/>
+    </span>
+    <span id="1196" start="35" end="38" text="beeder Bekl .&#10;Hauser" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1202" start="35" end="37" text="beeder Bekl ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1208" start="35" end="37" text="beeder Bekl ." element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1208_head" start="35" end="37" element="head" class="role" text="beeder Bekl ." subclass=""/>
+        </span>
+      </span>
+      <span id="1221" start="38" end="38" text="Hauser" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1312" start="41" end="42" text="des Wegs" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+      <span id="1312_head" start="41" end="42" element="head" class="type" text="des Wegs" subclass=""/>
+    </span>
+    <span id="1227" start="44" end="47" text="Unssen zu Herren Karrhoff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1245" start="44" end="46" text="Unssen zu Herren" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1239" start="44" end="46" text="Unssen zu Herren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="1239_head" start="44" end="46" element="head" class="type" text="Unssen zu Herren" subclass=""/>
+        </span>
+      </span>
+      <span id="1233" start="47" end="47" text="Karrhoff" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1251" start="49" end="50" text="seiner Stallung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1263" start="49" end="49" text="seiner" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1269" start="49" end="49" text="seiner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1269_head" start="49" end="49" element="head" class="pro" text="seiner" subclass=""/>
+        </span>
+      </span>
+      <span id="1257" start="50" end="50" text="Stallung" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1282" start="52" end="57" text="1624 . Juni . 21 ." element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1147" from="1141" to="1098" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1116" from="1110" to="1104" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1275" from="1269" to="1141" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1214" from="1196" to="1184" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1318" from="1312" to="1190" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="35" end="37" ref="1202" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1196" text="beeder Bekl .&#10;Hauser"/>
+        <role role="owner" ref="1208" text="beeder Bekl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="44" end="46" ref="1245" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1227" text="Unssen zu Herren Karrhoff"/>
+        <role role="owner" ref="1239" text="Unssen zu Herren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="49" end="49" ref="1263" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1251" text="seiner Stallung"/>
+        <role role="owner" ref="1269" text="seiner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="litigation" polarity="pos" tense="pres" modality="ass" start="0" end="2" ref="" type="event">
+      <trigger start="2" end="2" text="contra" ref="1288"/>
+      <event event_id="3.0">
+        <role role="party1" ref="1098" text="Jacob Züricher"/>
+        <role role="party2" ref="1104" text="Niclaus Falckhner"/>
+        <role role="subject" ref="1294" text="wegen seinem ungehorsamen Ausbleibens"/>
+        <role role="date" ref="1129" text="1624 . Februar 27 ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="sanction" polarity="pos" tense="pres" modality="ass" start="11" end="13" ref="" type="event">
+      <trigger start="13" end="13" text="bestraft" ref="1300"/>
+      <event event_id="4.0">
+        <role role="sanctioned" ref="1110" text="Bekl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="litigation" polarity="pos" tense="pres" modality="ass" start="20" end="57" ref="" type="event">
+      <trigger start="21" end="21" text="contra" ref="1306"/>
+      <event event_id="5.0">
+        <role role="party1" ref="1141" text="Obiger"/>
+        <role role="party2" ref="1154" text="Niclaus Falckhner"/>
+        <role role="party2" ref="1160" text="Peter Domins .&#10;dem Rathsbotten"/>
+        <role role="subject" ref="1190" text="des Gässlins"/>
+        <role role="date" ref="1282" text="1624 . Juni . 21 ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

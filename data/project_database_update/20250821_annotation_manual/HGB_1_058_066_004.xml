@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/66 S. [4]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 71</tei:title>
+            <tei:idno>HGB 1 58/66</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467849</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Zünfte</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1396">1396</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611438.078140494 1267227.5565780601</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Sissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Frow</token>
+    <token token_id="4">Margaretha</token>
+    <token token_id="5">von</token>
+    <token token_id="6">Phirt</token>
+    <token token_id="7">Günthers</token>
+    <token token_id="8">von</token>
+    <token token_id="9">Eptingen</token>
+    <token token_id="10">,</token>
+    <token token_id="11">eins</token>
+    <token token_id="12">Edelknechtes</token>
+    <token token_id="13">Efrowe</token>
+    <token token_id="14">kauft</token>
+    <token token_id="15">die</token>
+    <token token_id="16">von</token>
+    <token token_id="17">Herrigge</token>
+    <token token_id="18">Hu</token>
+    <token token_id="19">¬</token>
+    <token token_id="20">mel</token>
+    <token token_id="21">einem</token>
+    <token token_id="22">Burger</token>
+    <token token_id="23">von</token>
+    <token token_id="24">Basel</token>
+    <token token_id="25">wegen</token>
+    <token token_id="26">einer</token>
+    <token token_id="27">Schuld</token>
+    <token token_id="28">von</token>
+    <token token_id="29">10</token>
+    <token token_id="30">Guldin</token>
+    <token token_id="31">gefrönten</token>
+    <token token_id="32">,</token>
+    <token token_id="33">Recht</token>
+    <token token_id="34">so</token>
+    <token token_id="35">Her</token>
+    <token token_id="36">Frantz</token>
+    <token token_id="37">Bolle</token>
+    <token token_id="38">sel</token>
+    <token token_id="39">.</token>
+    <token token_id="40">wil</token>
+    <token token_id="41">.</token>
+    <token token_id="42">Vrcarius</token>
+    <token token_id="43">und</token>
+    <token token_id="44">Official</token>
+    <token token_id="45">des</token>
+    <token token_id="46">geistlichen</token>
+    <token token_id="47">Gerichtes</token>
+    <token token_id="48">ze</token>
+    <token token_id="49">Basel</token>
+    <token token_id="50">,</token>
+    <token token_id="51">und</token>
+    <token token_id="52">Tumherre</token>
+    <token token_id="53">der</token>
+    <token token_id="54">Stift</token>
+    <token token_id="55">uf</token>
+    <token token_id="56">Burg</token>
+    <token token_id="57">ze</token>
+    <token token_id="58">Basel</token>
+    <token token_id="59">hatte</token>
+    <token token_id="60">an</token>
+    <token token_id="61">dem</token>
+    <token token_id="62">Hus</token>
+    <token token_id="63">und</token>
+    <token token_id="64">Gesesse</token>
+    <token token_id="65">genant</token>
+    <token token_id="66">zem</token>
+    <token token_id="67">guldinen</token>
+    <token token_id="68">Sternen</token>
+    <token token_id="69">so</token>
+    <token token_id="70">ge</token>
+    <token token_id="71">¬</token>
+    <token token_id="72">legen</token>
+    <token token_id="73">ist</token>
+    <token token_id="74">ze</token>
+    <token token_id="75">Basel</token>
+    <token token_id="76">in</token>
+    <token token_id="77">der</token>
+    <token token_id="78">Stat</token>
+    <token token_id="79">obenn</token>
+    <token token_id="80">an</token>
+    <token token_id="81">den</token>
+    <token token_id="82">Swellen</token>
+    <token token_id="83">,</token>
+    <token token_id="84">zwüschent</token>
+    <token token_id="85">dem</token>
+    <token token_id="86">Hus</token>
+    <token token_id="87">genant</token>
+    <token token_id="88">zem</token>
+    <token token_id="89">Kempfen</token>
+    <token token_id="90">und</token>
+    <token token_id="91">dem</token>
+    <token token_id="92">Hus</token>
+    <token token_id="93">genant</token>
+    <token token_id="94">zer</token>
+    <token token_id="95">Welte</token>
+    <token token_id="96">,</token>
+    <token token_id="97">umb</token>
+    <token token_id="98">3</token>
+    <token token_id="99">Guldin</token>
+    <token token_id="100">und</token>
+    <token token_id="101">Bezahlung</token>
+    <token token_id="102">der</token>
+    <token token_id="103">Schuld</token>
+    <token token_id="104">von</token>
+    <token token_id="105">10</token>
+    <token token_id="106">Guldin</token>
+    <token token_id="107">an</token>
+    <token token_id="108">Heini</token>
+    <token token_id="109">Humel</token>
+    <token token_id="110">¬</token>
+  </text>
+  <spans>
+    <span id="1618" start="3" end="13" text="Frow Margaretha von Phirt Günthers von Eptingen ,&#10;eins Edelknechtes Efrowe" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1624" start="4" end="6" text="Margaretha von Phirt" element="head" class="nam" subclass=""/>
+      <span id="1630" start="7" end="13" text="Günthers von Eptingen ,&#10;eins Edelknechtes Efrowe" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1642" start="7" end="12" text="Günthers von Eptingen ,&#10;eins Edelknechtes" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1648" start="7" end="9" text="Günthers von Eptingen" element="head" class="nam" subclass=""/>
+          <span id="1654" start="11" end="12" text="eins Edelknechtes" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1660" start="12" end="12" text="Edelknechtes" element="head" class="title" subclass=""/>
+          </span>
+        </span>
+        <span id="1636" start="13" end="13" text="Efrowe" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1900" start="14" end="14" text="kauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1666" start="17" end="24" text="Herrigge Hu ¬&#10;mel einem Burger von Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1672" start="17" end="20" text="Herrigge Hu ¬&#10;mel" element="head" class="nam" subclass=""/>
+      <span id="1678" start="21" end="24" text="einem Burger von Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1684" start="22" end="22" text="Burger" element="head" class="org-aff" subclass=""/>
+        <span id="1690" start="24" end="24" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1690_head" start="24" end="24" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1924" start="27" end="27" text="Schuld" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1696" start="29" end="30" text="10 Guldin" element="value" class="money" subclass=""/>
+    <span id="1906" start="31" end="31" text="gefrönten" element="trigger" class="seizure" tense="past" polarity="pos" modality="ass" subclass=""/>
+    <span id="1702" start="35" end="58" text="Her Frantz Bolle sel . wil .&#10;Vrcarius und Official des geistlichen Gerichtes ze Basel , und&#10;Tumherre der Stift uf Burg ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1708" start="36" end="37" text="Frantz Bolle" element="head" class="nam" subclass=""/>
+      <span id="1714" start="38" end="39" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      <span id="1720" start="40" end="49" text="wil .&#10;Vrcarius und Official des geistlichen Gerichtes ze Basel" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1726" start="42" end="44" text="Vrcarius und Official" element="head" class="occ" subclass="org-job"/>
+        <span id="1732" start="45" end="49" text="des geistlichen Gerichtes ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1738" start="46" end="47" text="geistlichen Gerichtes" element="head" class="type" subclass=""/>
+          <span id="1744" start="48" end="49" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1750" start="49" end="49" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1750_head" start="49" end="49" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1756" start="52" end="58" text="Tumherre der Stift uf Burg ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1762" start="52" end="52" text="Tumherre" element="head" class="org-aff" subclass=""/>
+        <span id="1768" start="53" end="58" text="der Stift uf Burg ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1774" start="54" end="54" text="Stift" element="head" class="type" subclass=""/>
+          <span id="1780" start="55" end="58" text="uf Burg ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1786" start="56" end="56" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1786_head" start="56" end="56" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+            <span id="1792" start="58" end="58" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1792_head" start="58" end="58" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1798" start="61" end="95" text="dem Hus&#10;und Gesesse genant zem guldinen Sternen so ge ¬&#10;legen ist ze Basel in der Stat obenn an den Swellen ,&#10;zwüschent dem Hus genant zem Kempfen und dem&#10;Hus genant zer Welte" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1804" start="62" end="64" text="Hus&#10;und Gesesse" element="head" class="type" subclass=""/>
+      <span id="1810" start="66" end="68" text="zem guldinen Sternen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1810_head" start="66" end="68" element="head" class="nam" text="zem guldinen Sternen" subclass=""/>
+      </span>
+      <span id="1816" start="69" end="95" text="so ge ¬&#10;legen ist ze Basel in der Stat obenn an den Swellen ,&#10;zwüschent dem Hus genant zem Kempfen und dem&#10;Hus genant zer Welte" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1822" start="75" end="75" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1822_head" start="75" end="75" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="1828" start="76" end="78" text="in der Stat" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1912" start="78" end="78" text="Stat" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1834" start="80" end="82" text="an den Swellen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1894" start="81" end="82" text="den Swellen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1840" start="85" end="89" text="dem Hus genant zem Kempfen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1846" start="86" end="86" text="Hus" element="head" class="type" subclass=""/>
+          <span id="1852" start="88" end="89" text="zem Kempfen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1852_head" start="88" end="89" element="head" class="nam" text="zem Kempfen" subclass=""/>
+          </span>
+        </span>
+        <span id="1858" start="91" end="95" text="dem&#10;Hus genant zer Welte" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1864" start="92" end="92" text="Hus" element="head" class="type" subclass=""/>
+          <span id="1870" start="94" end="95" text="zer Welte" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1870_head" start="94" end="95" element="head" class="nam" text="zer Welte" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1876" start="98" end="99" text="3 Guldin" element="value" class="money" subclass=""/>
+    <span id="1918" start="101" end="101" text="Bezahlung" element="trigger" class="payment" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1930" start="103" end="103" text="Schuld" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1882" start="105" end="106" text="10 Guldin" element="value" class="money" subclass=""/>
+    <span id="1888" start="108" end="109" text="Heini Humel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1888_head" start="108" end="109" element="head" class="nam" text="Heini Humel" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1936" from="1930" to="1924" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1943" from="1702" to="1798" class="owner" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="13" ref="1630" type="state">
+      <trigger start="13" end="13" text="Efrowe" ref="1636"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1618" text="Frow Margaretha von Phirt Günthers von Eptingen ,&#10;eins Edelknechtes Efrowe"/>
+        <role role="family-b" ref="1642" text="Günthers von Eptingen ,&#10;eins Edelknechtes"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="21" end="24" ref="1678" type="state">
+      <trigger start="22" end="22" text="Burger" ref="1684"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1666" text="Herrigge Hu ¬&#10;mel einem Burger von Basel"/>
+        <role role="geopolitical-entity" ref="1690" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="employment" polarity="pos" tense="pres" modality="ass" start="40" end="49" ref="1720" type="state">
+      <trigger start="42" end="44" text="Vrcarius und Official" ref="1726"/>
+      <event event_id="2.0">
+        <role role="employee" ref="1702" text="Her Frantz Bolle sel . wil .&#10;Vrcarius und Official des geistlichen Gerichtes ze Basel , und&#10;Tumherre der Stift uf Burg ze Basel"/>
+        <role role="employer" ref="1732" text="des geistlichen Gerichtes ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="membership" polarity="pos" tense="pres" modality="ass" start="52" end="58" ref="1756" type="state">
+      <trigger start="52" end="52" text="Tumherre" ref="1762"/>
+      <event event_id="3.0">
+        <role role="member" ref="1702" text="Her Frantz Bolle sel . wil .&#10;Vrcarius und Official des geistlichen Gerichtes ze Basel , und&#10;Tumherre der Stift uf Burg ze Basel"/>
+        <role role="organization" ref="1768" text="der Stift uf Burg ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="48" end="49" ref="1744" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1732" text="des geistlichen Gerichtes ze Basel"/>
+        <role role="location-b" ref="1750" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="55" end="58" ref="1780" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1768" text="der Stift uf Burg ze Basel"/>
+        <role role="location-b" ref="1786" text="Burg"/>
+        <role role="location-b" ref="1792" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="69" end="95" ref="1816" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1798" text="dem Hus&#10;und Gesesse genant zem guldinen Sternen so ge ¬&#10;legen ist ze Basel in der Stat obenn an den Swellen ,&#10;zwüschent dem Hus genant zem Kempfen und dem&#10;Hus genant zer Welte"/>
+        <role role="location-b" ref="1822" text="Basel"/>
+        <role role="location-b" ref="1828" text="in der Stat"/>
+        <role role="location-b" ref="1834" text="an den Swellen"/>
+        <role role="location-b" ref="1840" text="dem Hus genant zem Kempfen"/>
+        <role role="location-b" ref="1858" text="dem&#10;Hus genant zer Welte"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="14" end="14" ref="" type="event">
+      <trigger start="14" end="14" text="kauft" ref="1900"/>
+      <event event_id="7.0">
+        <role role="buyer" ref="1618" text="Frow Margaretha von Phirt Günthers von Eptingen ,&#10;eins Edelknechtes Efrowe"/>
+        <role role="property" ref="1798" text="dem Hus&#10;und Gesesse genant zem guldinen Sternen so ge ¬&#10;legen ist ze Basel in der Stat obenn an den Swellen ,&#10;zwüschent dem Hus genant zem Kempfen und dem&#10;Hus genant zer Welte"/>
+        <role role="price" ref="1876" text="3 Guldin"/>
+        <role role="price" ref="1918" text="Bezahlung"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="27" end="58" ref="" type="state">
+      <trigger start="27" end="27" text="Schuld" ref="1924"/>
+      <event event_id="8.0">
+        <role role="capital" ref="1696" text="10 Guldin"/>
+        <role role="payer" ref="1702" text="Her Frantz Bolle sel . wil .&#10;Vrcarius und Official des geistlichen Gerichtes ze Basel , und&#10;Tumherre der Stift uf Burg ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="seizure" polarity="pos" tense="past" modality="ass" start="17" end="95" ref="" type="event">
+      <trigger start="31" end="31" text="gefrönten" ref="1906"/>
+      <event event_id="9.0">
+        <role role="claimant" ref="1666" text="Herrigge Hu ¬&#10;mel einem Burger von Basel"/>
+        <role role="cause" ref="1924" text="Schuld"/>
+        <role role="property" ref="1798" text="dem Hus&#10;und Gesesse genant zem guldinen Sternen so ge ¬&#10;legen ist ze Basel in der Stat obenn an den Swellen ,&#10;zwüschent dem Hus genant zem Kempfen und dem&#10;Hus genant zer Welte"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="payment" polarity="pos" tense="pres" modality="ass" start="101" end="109" ref="" type="event">
+      <trigger start="101" end="101" text="Bezahlung" ref="1918"/>
+      <event event_id="10.0">
+        <role role="sum" ref="1930" text="Schuld"/>
+        <role role="beneficiary" ref="1888" text="Heini Humel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="103" end="106" ref="" type="state">
+      <trigger start="103" end="103" text="Schuld" ref="1930"/>
+      <event event_id="11.0">
+        <role role="capital" ref="1882" text="10 Guldin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="12.0">
+        <role role="owner" ref="1702" text="Her Frantz Bolle sel . wil .&#10;Vrcarius und Official des geistlichen Gerichtes ze Basel , und&#10;Tumherre der Stift uf Burg ze Basel"/>
+        <role role="property" ref="1798" text="dem Hus&#10;und Gesesse genant zem guldinen Sternen so ge ¬&#10;legen ist ze Basel in der Stat obenn an den Swellen ,&#10;zwüschent dem Hus genant zem Kempfen und dem&#10;Hus genant zer Welte"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

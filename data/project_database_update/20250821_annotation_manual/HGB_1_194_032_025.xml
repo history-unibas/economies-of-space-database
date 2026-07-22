@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/32 S. [25]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 29</tei:title>
+            <tei:idno>HGB 1 194/32</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1513998</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1515">1515</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611077.543078302 1267361.9529958128</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Enele</token>
+    <token token_id="1">,</token>
+    <token token_id="2">Claus</token>
+    <token token_id="3">Marpachs</token>
+    <token token_id="4">des</token>
+    <token token_id="5">thischmachers</token>
+    <token token_id="6">Efrau</token>
+    <token token_id="7">,</token>
+    <token token_id="8">etwas</token>
+    <token token_id="9">blod</token>
+    <token token_id="10">Krank</token>
+    <token token_id="11">jrs</token>
+    <token token_id="12">lyss</token>
+    <token token_id="13">,</token>
+    <token token_id="14">vergabt</token>
+    <token token_id="15">den</token>
+    <token token_id="16">Vatern</token>
+    <token token_id="17">der</token>
+    <token token_id="18">mindern</token>
+    <token token_id="19">Brudern</token>
+    <token token_id="20">s</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Fraueiscen</token>
+    <token token_id="23">ordens</token>
+    <token token_id="24">,</token>
+    <token token_id="25">jren</token>
+    <token token_id="26">drittenteil</token>
+    <token token_id="27">so</token>
+    <token token_id="28">sy</token>
+    <token token_id="29">hat</token>
+    <token token_id="30">an</token>
+    <token token_id="31">dem</token>
+    <token token_id="32">Hus</token>
+    <token token_id="33">zum</token>
+    <token token_id="34">Schafs</token>
+    <token token_id="35">an</token>
+    <token token_id="36">den</token>
+    <token token_id="37">Spalen</token>
+    <token token_id="38">,</token>
+    <token token_id="39">neben</token>
+    <token token_id="40">dem</token>
+    <token token_id="41">hus</token>
+    <token token_id="42">zur</token>
+    <token token_id="43">nidern</token>
+    <token token_id="44">Thannen</token>
+    <token token_id="45">glegen</token>
+    <token token_id="46">,</token>
+    <token token_id="47">so</token>
+    <token token_id="48">sy</token>
+    <token token_id="49">u</token>
+    <token token_id="50">.</token>
+    <token token_id="51">jr</token>
+    <token token_id="52">Eman</token>
+    <token token_id="53">in</token>
+    <token token_id="54">dem</token>
+    <token token_id="55">stand</token>
+    <token token_id="56">der</token>
+    <token token_id="57">ee</token>
+    <token token_id="58">miteinander</token>
+    <token token_id="59">,</token>
+    <token token_id="60">erkauft</token>
+    <token token_id="61">haben</token>
+    <token token_id="62">.</token>
+  </text>
+  <spans>
+    <span id="1148" start="0" end="12" text="Enele , Claus Marpachs des thischmachers Efrau , etwas blod&#10;Krank jrs lyss" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1166" start="0" end="0" text="Enele" element="head" class="nam" subclass=""/>
+      <span id="1154" start="2" end="6" text="Claus Marpachs des thischmachers Efrau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1172" start="2" end="5" text="Claus Marpachs des thischmachers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1178" start="2" end="3" text="Claus Marpachs" element="head" class="nam" subclass=""/>
+          <span id="1184" start="4" end="5" text="des thischmachers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1190" start="5" end="5" text="thischmachers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1160" start="6" end="6" text="Efrau" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="1196" start="8" end="12" text="etwas blod&#10;Krank jrs lyss" element="attr" class="unk" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1339" start="14" end="14" text="vergabt" element="trigger" class="testament" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1202" start="15" end="23" text="den Vatern der mindern Brudern&#10;s . Fraueiscen ordens" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1208" start="16" end="23" text="Vatern der mindern Brudern&#10;s . Fraueiscen ordens" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1214" start="25" end="25" text="jren" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1214_head" start="25" end="25" element="head" class="pro" text="jren" subclass=""/>
+    </span>
+    <span id="1227" start="28" end="28" text="sy" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1227_head" start="28" end="28" element="head" class="pro" text="sy" subclass=""/>
+    </span>
+    <span id="1240" start="31" end="61" text="dem&#10;Hus zum Schafs an den Spalen , neben dem hus zur nidern Thannen&#10;glegen , so sy u . jr Eman in dem stand der ee miteinander ,&#10;erkauft haben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1252" start="32" end="34" text="Hus zum Schafs" element="head" class="nam" subclass=""/>
+      <span id="1258" start="35" end="45" text="an den Spalen , neben dem hus zur nidern Thannen&#10;glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1264" start="36" end="37" text="den Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1270" start="37" end="37" text="Spalen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1276" start="40" end="44" text="dem hus zur nidern Thannen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1282" start="41" end="44" text="hus zur nidern Thannen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1333" start="47" end="61" text="so sy u . jr Eman in dem stand der ee miteinander ,&#10;erkauft haben" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1357" start="47" end="47" text="so" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1357_head" start="47" end="47" element="head" class="pro" text="so" subclass=""/>
+        </span>
+        <span id="1345" start="48" end="52" text="sy u . jr Eman" element="list" class="per" subclass="">
+          <span id="1288" start="48" end="48" text="sy" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1288_head" start="48" end="48" element="head" class="pro" text="sy" subclass=""/>
+          </span>
+          <span id="1301" start="51" end="52" text="jr Eman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1313" start="51" end="51" text="jr" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1313_head" start="51" end="51" element="head" class="pro" text="jr" subclass=""/>
+            </span>
+            <span id="1307" start="52" end="52" text="Eman" element="head" class="fam" subclass=""/>
+          </span>
+        </span>
+        <span id="1351" start="60" end="60" text="erkauft" element="trigger" class="sale" tense="past" polarity="pos" modality="ass" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1220" from="1214" to="1148" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1326" from="1301" to="1172" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1233" from="1227" to="1214" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1294" from="1288" to="1227" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1363" from="1357" to="1240" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1319" from="1313" to="1288" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1351_role" from="1351" to="1240" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="51" end="52" ref="1301" type="state">
+      <trigger start="52" end="52" text="Eman" ref="1307"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1301" text="jr Eman"/>
+        <role role="family-b" ref="1313" text="jr"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="2" end="6" ref="1154" type="state">
+      <trigger start="6" end="6" text="Efrau" ref="1160"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1148" text="Enele , Claus Marpachs des thischmachers Efrau , etwas blod&#10;Krank jrs lyss"/>
+        <role role="family-b" ref="1172" text="Claus Marpachs des thischmachers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="45" ref="1258" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1240" text="dem&#10;Hus zum Schafs an den Spalen , neben dem hus zur nidern Thannen&#10;glegen , so sy u . jr Eman in dem stand der ee miteinander ,&#10;erkauft haben"/>
+        <role role="location-b" ref="1264" text="den Spalen"/>
+        <role role="location-b" ref="1276" text="dem hus zur nidern Thannen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="testament" polarity="pos" tense="pres" modality="ass" start="0" end="61" ref="" type="event">
+      <trigger start="14" end="14" text="vergabt" ref="1339"/>
+      <event event_id="3.0">
+        <role role="bequeather" ref="1148" text="Enele , Claus Marpachs des thischmachers Efrau , etwas blod&#10;Krank jrs lyss"/>
+        <role role="beneficiary" ref="1202" text="den Vatern der mindern Brudern&#10;s . Fraueiscen ordens"/>
+        <role role="property" ref="1240" text="dem&#10;Hus zum Schafs an den Spalen , neben dem hus zur nidern Thannen&#10;glegen , so sy u . jr Eman in dem stand der ee miteinander ,&#10;erkauft haben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="property-purchase" polarity="pos" tense="past" modality="ass" start="31" end="61" ref="1333" type="event">
+      <trigger start="60" end="60" text="erkauft" ref="1351"/>
+      <event event_id="4.0">
+        <role role="property" ref="1357" text="so"/>
+        <role role="buyer" ref="1288" text="sy"/>
+        <role role="buyer" ref="1301" text="jr Eman"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

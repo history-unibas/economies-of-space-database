@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 160/22 S. [34]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Untere Rheingasse Th. v. 17 neben 15 u. Mitte</tei:title>
+            <tei:idno>HGB 1 160/22</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1508846</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Felix Platter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1610">1610</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611442.2713125222 1267849.6202178262</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Gassen</token>
+    <token token_id="1">von</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Rheinbruckhen</token>
+    <token token_id="4">biss</token>
+    <token token_id="5">zum</token>
+    <token token_id="6">Klingenthal</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Lincke</token>
+    <token token_id="9">Seite</token>
+    <token token_id="10">von</token>
+    <token token_id="11">der</token>
+    <token token_id="12">Rheinbruckhen</token>
+    <token token_id="13">her</token>
+    <token token_id="14">.</token>
+    <token token_id="15">Gässlin</token>
+    <token token_id="16">zum</token>
+    <token token_id="17">Rhein</token>
+    <token token_id="18">.</token>
+    <token token_id="19">Schleyffer</token>
+    <token token_id="20">,</token>
+    <token token_id="21">Ulrich</token>
+    <token token_id="22">Häusslers</token>
+    <token token_id="23">frauwen</token>
+    <token token_id="24">.</token>
+    <token token_id="25">Die</token>
+    <token token_id="26">andere</token>
+    <token token_id="27">Schleiffe</token>
+    <token token_id="28">,</token>
+    <token token_id="29">des</token>
+    <token token_id="30">welschen</token>
+    <token token_id="31">Peters</token>
+    <token token_id="32">.</token>
+    <token token_id="33">9</token>
+    <token token_id="34">.</token>
+  </text>
+  <spans>
+    <span id="566" start="0" end="6" text="Gassen von der Rheinbruckhen biss zum&#10;Klingenthal" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+      <span id="572" start="0" end="0" text="Gassen" element="head" class="type" subclass=""/>
+      <span id="578" start="1" end="6" text="von der Rheinbruckhen biss zum&#10;Klingenthal" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="584" start="2" end="3" text="der Rheinbruckhen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="590" start="3" end="3" text="Rheinbruckhen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="596" start="5" end="6" text="zum&#10;Klingenthal" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="602" start="6" end="6" text="Klingenthal" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="608" start="11" end="12" text="der Rheinbruckhen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+      <span id="614" start="12" end="12" text="Rheinbruckhen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="620" start="15" end="17" text="Gässlin zum Rhein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+      <span id="626" start="15" end="15" text="Gässlin" element="head" class="type" subclass=""/>
+      <span id="632" start="16" end="17" text="zum Rhein" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="638" start="16" end="17" text="zum Rhein" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="644" start="17" end="17" text="Rhein" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="650" start="19" end="23" text="Schleyffer , Ulrich Häusslers frauwen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="656" start="19" end="19" text="Schleyffer" element="head" class="type" subclass=""/>
+      <span id="662" start="21" end="23" text="Ulrich Häusslers frauwen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="668" start="21" end="23" text="Ulrich Häusslers frauwen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="680" start="21" end="22" text="Ulrich Häusslers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="680_head" start="21" end="22" element="head" class="nam" text="Ulrich Häusslers" subclass=""/>
+          </span>
+          <span id="674" start="23" end="23" text="frauwen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="686" start="25" end="31" text="Die andere Schleiffe , des welschen Peters" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="692" start="27" end="27" text="Schleiffe" element="head" class="type" subclass=""/>
+      <span id="698" start="29" end="31" text="des welschen Peters" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="704" start="29" end="31" text="des welschen Peters" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="710" start="30" end="31" text="welschen Peters" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="21" end="23" ref="668" type="state">
+      <trigger start="23" end="23" text="frauwen" ref="674"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="668" text="Ulrich Häusslers frauwen"/>
+        <role role="family-b" ref="680" text="Ulrich Häusslers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="1" end="6" ref="578" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="566" text="Gassen von der Rheinbruckhen biss zum&#10;Klingenthal"/>
+        <role role="location-b" ref="584" text="der Rheinbruckhen"/>
+        <role role="location-b" ref="596" text="zum&#10;Klingenthal"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="16" end="17" ref="632" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="620" text="Gässlin zum Rhein"/>
+        <role role="location-b" ref="638" text="zum Rhein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="21" end="23" ref="662" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="650" text="Schleyffer , Ulrich Häusslers frauwen"/>
+        <role role="owner" ref="668" text="Ulrich Häusslers frauwen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="29" end="31" ref="698" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="686" text="Die andere Schleiffe , des welschen Peters"/>
+        <role role="owner" ref="704" text="des welschen Peters"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 85/37 S. [5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hutgasse Theil von 2, Mitte am Marktplatz</tei:title>
+            <tei:idno>HGB 1 85/37</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1481901</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1450">1450</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611224.8797064256 1267456.0781291977</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">gend</token>
+    <token token_id="1">ze</token>
+    <token token_id="2">kaufen</token>
+    <token token_id="3">Hans</token>
+    <token token_id="4">Hartman</token>
+    <token token_id="5">der</token>
+    <token token_id="6">Segkler</token>
+    <token token_id="7">u</token>
+    <token token_id="8">Elsin</token>
+    <token token_id="9">,</token>
+    <token token_id="10">sin</token>
+    <token token_id="11">ewirtin</token>
+    <token token_id="12">,</token>
+    <token token_id="13">Ludman</token>
+    <token token_id="14">Meltinger</token>
+    <token token_id="15">1</token>
+    <token token_id="16">fl</token>
+    <token token_id="17">gelts</token>
+    <token token_id="18">,</token>
+    <token token_id="19">u</token>
+    <token token_id="20">.</token>
+    <token token_id="21">ein</token>
+    <token token_id="22">ort</token>
+    <token token_id="23">eins</token>
+    <token token_id="24">fl</token>
+    <token token_id="25">.</token>
+    <token token_id="26">de</token>
+    <token token_id="27">&amp;</token>
+    <token token_id="28">suf</token>
+    <token token_id="29">Spor</token>
+    <token token_id="30">wendicor</token>
+    <token token_id="31">de</token>
+    <token token_id="32">d</token>
+    <token token_id="33">domib</token>
+    <token token_id="34">aneinander</token>
+    <token token_id="35">gelegen</token>
+    <token token_id="36">an</token>
+    <token token_id="37">dem</token>
+    <token token_id="38">Kornmergkt</token>
+    <token token_id="39">dero</token>
+    <token token_id="40">genant</token>
+    <token token_id="41">ist</token>
+    <token token_id="42">zem</token>
+    <token token_id="43">Wissen</token>
+    <token token_id="44">angel</token>
+    <token token_id="45">ư</token>
+    <token token_id="46">dazander</token>
+    <token token_id="47">ze</token>
+    <token token_id="48">Frördenboltz</token>
+    <token token_id="49">,</token>
+    <token token_id="50">ư</token>
+    <token token_id="51">lit</token>
+    <token token_id="52">das</token>
+    <token token_id="53">Hus</token>
+    <token token_id="54">Frodenboltz</token>
+    <token token_id="55">nebend</token>
+    <token token_id="56">Philipp</token>
+    <token token_id="57">sebhuse</token>
+    <token token_id="58">des</token>
+    <token token_id="59">Nadlers</token>
+    <token token_id="60">u</token>
+    <token token_id="61">aber</token>
+    <token token_id="62">daz</token>
+    <token token_id="63">Hus</token>
+    <token token_id="64">zem</token>
+    <token token_id="65">Wessen</token>
+    <token token_id="66">angel</token>
+    <token token_id="67">neben</token>
+    <token token_id="68">Tringklin</token>
+    <token token_id="69">ort</token>
+    <token token_id="70">u</token>
+    <token token_id="71">zinsen</token>
+    <token token_id="72">daz</token>
+    <token token_id="73">Hugen</token>
+    <token token_id="74">wissen</token>
+    <token token_id="75">angel</token>
+    <token token_id="76">Jn</token>
+    <token token_id="77">Diethelin</token>
+    <token token_id="78">von</token>
+    <token token_id="79">Thanegg</token>
+    <token token_id="80">allefronfasten</token>
+    <token token_id="81">11sh</token>
+    <token token_id="82">.</token>
+    <token token_id="83">3</token>
+    <token token_id="84">den</token>
+    <token token_id="85">u</token>
+    <token token_id="86">.</token>
+    <token token_id="87">11</token>
+    <token token_id="88">vierling</token>
+    <token token_id="89">pheffer</token>
+    <token token_id="90">wisung</token>
+    <token token_id="91">,</token>
+    <token token_id="92">ư</token>
+    <token token_id="93">aber</token>
+    <token token_id="94">das</token>
+    <token token_id="95">Hus</token>
+    <token token_id="96">Frodenboltz</token>
+    <token token_id="97">den</token>
+    <token token_id="98">Carthusen</token>
+    <token token_id="99">allesauf</token>
+    <token token_id="100">10sh</token>
+    <token token_id="101">.</token>
+    <token token_id="102">u</token>
+    <token token_id="103">.</token>
+    <token token_id="104">1</token>
+    <token token_id="105">/</token>
+    <token token_id="106">2</token>
+    <token token_id="107">℔</token>
+    <token token_id="108">pheffer</token>
+    <token token_id="109">wisung</token>
+    <token token_id="110">,</token>
+    <token token_id="111">ư</token>
+    <token token_id="112">denne</token>
+    <token token_id="113">ab</token>
+    <token token_id="114">beiden</token>
+    <token token_id="115">husern</token>
+    <token token_id="116">dem</token>
+    <token token_id="117">Huss</token>
+    <token token_id="118">.</token>
+    <token token_id="119">Jacob</token>
+    <token token_id="120">an</token>
+    <token token_id="121">der</token>
+    <token token_id="122">Birs</token>
+    <token token_id="123">2fb</token>
+    <token token_id="124">u</token>
+    <token token_id="125">.</token>
+    <token token_id="126">10st</token>
+    <token token_id="127">widerk</token>
+    <token token_id="128">mit</token>
+    <token token_id="129">45</token>
+    <token token_id="130">fl</token>
+    <token token_id="131">.</token>
+    <token token_id="132">um</token>
+    <token token_id="133">25</token>
+    <token token_id="134">fl</token>
+    <token token_id="135">.</token>
+    <token token_id="136">widerk</token>
+    <token token_id="137">.</token>
+  </text>
+  <spans>
+    <span id="2330" start="0" end="48" text="gend ze kaufen Hans Hartman der Segkler u Elsin ,&#10;sin ewirtin , Ludman Meltinger 1 fl gelts , u . ein ort eins fl .&#10;de &amp; suf Spor wendicor de d domib aneinander gelegen&#10;an dem Kornmergkt dero genant ist zem Wissen angel&#10;ư dazander ze Frördenboltz" element="eventspan" class="rent" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2324" start="2" end="2" text="kaufen" element="trigger" class="type" subclass=""/>
+      <span id="2017" start="3" end="11" text="Hans Hartman der Segkler u Elsin ,&#10;sin ewirtin" element="list" class="per" subclass="">
+        <span id="1956" start="3" end="6" text="Hans Hartman der Segkler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1962" start="3" end="4" text="Hans Hartman" element="head" class="nam" subclass=""/>
+          <span id="1968" start="5" end="6" text="der Segkler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1974" start="6" end="6" text="Segkler" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1980" start="8" end="11" text="Elsin ,&#10;sin ewirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1986" start="8" end="8" text="Elsin" element="head" class="nam" subclass=""/>
+          <span id="1992" start="10" end="11" text="sin ewirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2004" start="10" end="10" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2004_head" start="10" end="10" element="head" class="pro" text="sin" subclass=""/>
+            </span>
+            <span id="1998" start="11" end="11" text="ewirtin" element="head" class="fam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2023" start="13" end="14" text="Ludman Meltinger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2023_head" start="13" end="14" element="head" class="nam" text="Ludman Meltinger" subclass=""/>
+      </span>
+      <span id="2029" start="15" end="17" text="1 fl gelts" element="value" class="money" subclass=""/>
+      <span id="2318" start="21" end="25" text="ein ort eins fl ." element="value" class="money" subclass=""/>
+      <span id="2306" start="29" end="48" text="Spor wendicor de d domib aneinander gelegen&#10;an dem Kornmergkt dero genant ist zem Wissen angel&#10;ư dazander ze Frördenboltz" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2312" start="29" end="29" text="Spor" element="head" class="type" subclass=""/>
+        <span id="2035" start="30" end="33" text="wendicor de d domib" element="unclear" class="unclear" subclass=""/>
+        <span id="2041" start="34" end="38" text="aneinander gelegen&#10;an dem Kornmergkt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2047" start="37" end="38" text="dem Kornmergkt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+            <span id="2053" start="38" end="38" text="Kornmergkt" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+        <span id="2059" start="39" end="48" text="dero genant ist zem Wissen angel&#10;ư dazander ze Frördenboltz" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2065" start="42" end="44" text="zem Wissen angel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2065_head" start="42" end="44" element="head" class="nam" text="zem Wissen angel" subclass=""/>
+          </span>
+          <span id="2071" start="47" end="48" text="ze Frördenboltz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2071_head" start="47" end="48" element="head" class="nam" text="ze Frördenboltz" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2077" start="52" end="54" text="das Hus Frodenboltz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2083" start="53" end="54" text="Hus Frodenboltz" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2089" start="56" end="59" text="Philipp sebhuse des Nadlers" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2101" start="56" end="56" text="Philipp" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2107" start="56" end="56" text="Philipp" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2107_head" start="56" end="56" element="head" class="nam" text="Philipp" subclass=""/>
+        </span>
+      </span>
+      <span id="2095" start="57" end="57" text="sebhuse" element="head" class="type" subclass=""/>
+      <span id="2113" start="58" end="59" text="des Nadlers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2119" start="59" end="59" text="Nadlers" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2139" start="62" end="66" text="daz Hus zem&#10;Wessen angel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2145" start="63" end="66" text="Hus zem&#10;Wessen angel" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2151" start="68" end="69" text="Tringklin ort" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2151_head" start="68" end="69" element="head" class="nam" text="Tringklin ort" subclass=""/>
+    </span>
+    <span id="2336" start="71" end="137" text="zinsen daz Hugen&#10;wissen angel Jn Diethelin von Thanegg allefronfasten 11sh . 3 den&#10;u . 11 vierling pheffer wisung , ư aber das Hus Frodenboltz&#10;den Carthusen allesauf 10sh . u . 1 / 2 ℔ pheffer wisung , ư denne&#10;ab beiden husern dem Huss . Jacob an der Birs 2fb u . 10st&#10;widerk mit 45 fl . um 25 fl . widerk ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2342" start="71" end="71" text="zinsen" element="trigger" class="type" subclass=""/>
+      <span id="2164" start="72" end="75" text="daz Hugen&#10;wissen angel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2170" start="73" end="75" text="Hugen&#10;wissen angel" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="2176" start="77" end="79" text="Diethelin von Thanegg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2176_head" start="77" end="79" element="head" class="nam" text="Diethelin von Thanegg" subclass=""/>
+      </span>
+      <span id="2182" start="80" end="80" text="allefronfasten" element="value" class="date" subclass=""/>
+      <span id="2188" start="81" end="84" text="11sh . 3 den" element="value" class="money" subclass=""/>
+      <span id="2194" start="87" end="89" text="11 vierling pheffer" element="value" class="money" subclass=""/>
+      <span id="2348" start="90" end="90" text="wisung" element="other" class="other" subclass=""/>
+      <span id="2200" start="94" end="96" text="das Hus Frodenboltz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2206" start="95" end="96" text="Hus Frodenboltz" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="2212" start="97" end="98" text="den Carthusen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="2218" start="98" end="98" text="Carthusen" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="2224" start="100" end="101" text="10sh ." element="value" class="money" subclass=""/>
+      <span id="2230" start="104" end="108" text="1 / 2 ℔ pheffer" element="value" class="money" subclass=""/>
+      <span id="2354" start="109" end="109" text="wisung" element="other" class="other" subclass=""/>
+      <span id="2236" start="114" end="115" text="beiden husern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2236_head" start="114" end="115" element="head" class="type" text="beiden husern" subclass=""/>
+      </span>
+      <span id="2270" start="116" end="122" text="dem Huss . Jacob an der Birs" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="2276" start="119" end="122" text="Jacob an der Birs" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="2282" start="123" end="123" text="2fb" element="value" class="money" subclass=""/>
+      <span id="2288" start="126" end="126" text="10st" element="value" class="money" subclass=""/>
+      <span id="2294" start="129" end="131" text="45 fl ." element="value" class="money" subclass=""/>
+      <span id="2300" start="133" end="135" text="25 fl ." element="value" class="money" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2010" from="2004" to="1956" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2242" from="2139" to="2065" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2249" from="2077" to="2071" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2263" from="2200" to="2077" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2132" from="2077" to="2089" class="loc" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2125" from="2113" to="2107" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2256" from="2164" to="2139" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2157" from="2139" to="2151" class="loc" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="48" ref="2330" type="event">
+      <trigger start="2" end="2" text="kaufen" ref="2324"/>
+      <event event_id="0.0">
+        <role role="seller" ref="1956" text="Hans Hartman der Segkler"/>
+        <role role="buyer" ref="2023" text="Ludman Meltinger"/>
+        <role role="interest" ref="2029" text="1 fl gelts"/>
+        <role role="interest" ref="2318" text="ein ort eins fl ."/>
+        <role role="collateral" ref="2306" text="Spor wendicor de d domib aneinander gelegen&#10;an dem Kornmergkt dero genant ist zem Wissen angel&#10;ư dazander ze Frördenboltz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="71" end="137" ref="2336" type="state">
+      <trigger start="71" end="71" text="zinsen" ref="2342"/>
+      <event event_id="1.0">
+        <role role="property" ref="2164" text="daz Hugen&#10;wissen angel"/>
+        <role role="beneficiary" ref="2176" text="Diethelin von Thanegg"/>
+        <role role="due-date" ref="2182" text="allefronfasten"/>
+        <role role="interest" ref="2188" text="11sh . 3 den"/>
+      </event>
+      <event event_id="1.1">
+        <role role="property" ref="2164" text="daz Hugen&#10;wissen angel"/>
+        <role role="beneficiary" ref="2176" text="Diethelin von Thanegg"/>
+        <role role="due-date" ref="2182" text="allefronfasten"/>
+        <role role="interest" ref="2194" text="11 vierling pheffer"/>
+        <role role="cause" ref="2348" text="wisung"/>
+      </event>
+      <event event_id="1.2">
+        <role role="property" ref="2200" text="das Hus Frodenboltz"/>
+        <role role="beneficiary" ref="2212" text="den Carthusen"/>
+        <role role="interest" ref="2224" text="10sh ."/>
+      </event>
+      <event event_id="1.3">
+        <role role="property" ref="2200" text="das Hus Frodenboltz"/>
+        <role role="beneficiary" ref="2212" text="den Carthusen"/>
+        <role role="interest" ref="2230" text="1 / 2 ℔ pheffer"/>
+        <role role="cause" ref="2354" text="wisung"/>
+      </event>
+      <event event_id="1.4">
+        <role role="property" ref="2236" text="beiden husern"/>
+        <role role="beneficiary" ref="2270" text="dem Huss . Jacob an der Birs"/>
+        <role role="interest" ref="2282" text="2fb"/>
+      </event>
+      <event event_id="1.5">
+        <role role="property" ref="2236" text="beiden husern"/>
+        <role role="beneficiary" ref="2270" text="dem Huss . Jacob an der Birs"/>
+        <role role="interest" ref="2288" text="10st"/>
+        <role role="interest-redeemable" ref="2294" text="45 fl ."/>
+        <role role="interest-redeemable" ref="2300" text="25 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="10" end="11" ref="1992" type="state">
+      <trigger start="11" end="11" text="ewirtin" ref="1998"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1980" text="Elsin ,&#10;sin ewirtin"/>
+        <role role="family-b" ref="2004" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="34" end="38" ref="2041" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="2306" text="Spor wendicor de d domib aneinander gelegen&#10;an dem Kornmergkt dero genant ist zem Wissen angel&#10;ư dazander ze Frördenboltz"/>
+        <role role="location-b" ref="2047" text="dem Kornmergkt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" start="39" end="48" ref="2059" type="state">
+      <event event_id="5.0">
+        <role role="whole" ref="2306" text="Spor wendicor de d domib aneinander gelegen&#10;an dem Kornmergkt dero genant ist zem Wissen angel&#10;ư dazander ze Frördenboltz"/>
+        <role role="part" ref="2065" text="zem Wissen angel"/>
+        <role role="part" ref="2071" text="ze Frördenboltz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="56" end="56" ref="2101" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="2089" text="Philipp sebhuse des Nadlers"/>
+        <role role="owner" ref="2107" text="Philipp"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="2077" text="das Hus Frodenboltz"/>
+        <role role="location-b" ref="2089" text="Philipp sebhuse des Nadlers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="2139" text="daz Hus zem&#10;Wessen angel"/>
+        <role role="location-b" ref="2151" text="Tringklin ort"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

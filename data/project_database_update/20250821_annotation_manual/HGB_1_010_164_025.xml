@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/164 S. [25]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt 100</tei:title>
+            <tei:idno>HGB 1 10/164</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1458547</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1644">1644</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2612255.530327496 1266998.4834437615</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Kaufs</token>
+    <token token_id="1">Publication</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Es</token>
+    <token token_id="4">hatt</token>
+    <token token_id="5">verkaufft</token>
+    <token token_id="6">Frau</token>
+    <token token_id="7">Valena</token>
+    <token token_id="8">Burckhardtin</token>
+    <token token_id="9">,</token>
+    <token token_id="10">weilaus</token>
+    <token token_id="11">Hr</token>
+    <token token_id="12">.</token>
+    <token token_id="13">Lucae</token>
+    <token token_id="14">Gebhardts</token>
+    <token token_id="15">gewessten</token>
+    <token token_id="16">Kaufhauss</token>
+    <token token_id="17">schreibers</token>
+    <token token_id="18">Wittib</token>
+    <token token_id="19">,</token>
+    <token token_id="20">mit</token>
+    <token token_id="21">Beystand</token>
+    <token token_id="22">H</token>
+    <token token_id="23">.</token>
+    <token token_id="24">Reinhard</token>
+    <token token_id="25">Wasserhichas</token>
+    <token token_id="26">und</token>
+    <token token_id="27">zu</token>
+    <token token_id="28">kaufen</token>
+    <token token_id="29">gegeben</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Herrn</token>
+    <token token_id="32">Conraden</token>
+    <token token_id="33">Ot</token>
+    <token token_id="34">ten</token>
+    <token token_id="35">dorf</token>
+    <token token_id="36">dem</token>
+    <token token_id="37">Apothekhern</token>
+    <token token_id="38">,</token>
+    <token token_id="39">ohngefahr</token>
+    <token token_id="40">an</token>
+    <token token_id="41">¬</token>
+    <token token_id="42">derhalb</token>
+    <token token_id="43">Jucharden</token>
+    <token token_id="44">Reben</token>
+    <token token_id="45">,</token>
+    <token token_id="46">sambt</token>
+    <token token_id="47">der</token>
+    <token token_id="48">darum</token>
+    <token token_id="49">stehenden</token>
+    <token token_id="50">Behaussung</token>
+    <token token_id="51">in</token>
+    <token token_id="52">St</token>
+    <token token_id="53">.</token>
+    <token token_id="54">Alban</token>
+    <token token_id="55">Vorstatt</token>
+    <token token_id="56">ohnfehr</token>
+    <token token_id="57">von</token>
+    <token token_id="58">dem</token>
+    <token token_id="59">Thor</token>
+    <token token_id="60">,</token>
+    <token token_id="61">neben</token>
+    <token token_id="62">Mr</token>
+    <token token_id="63">.</token>
+    <token token_id="64">Franisco</token>
+    <token token_id="65">von</token>
+    <token token_id="66">Speyr</token>
+    <token token_id="67">,</token>
+    <token token_id="68">Spittahls</token>
+    <token token_id="69">Predigern</token>
+    <token token_id="70">gelegen</token>
+  </text>
+  <spans>
+    <span id="1287" start="5" end="5" text="verkaufft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1119" start="6" end="18" text="Frau Valena Burckhardtin , weilaus&#10;Hr . Lucae Gebhardts gewessten Kaufhauss schreibers&#10;Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1125" start="7" end="8" text="Valena Burckhardtin" element="head" class="nam" subclass=""/>
+      <span id="1131" start="10" end="18" text="weilaus&#10;Hr . Lucae Gebhardts gewessten Kaufhauss schreibers&#10;Wittib" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1137" start="11" end="17" text="Hr . Lucae Gebhardts gewessten Kaufhauss schreibers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1143" start="13" end="14" text="Lucae Gebhardts" element="head" class="nam" subclass=""/>
+          <span id="1149" start="15" end="17" text="gewessten Kaufhauss schreibers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1155" start="16" end="17" text="Kaufhauss schreibers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1161" start="18" end="18" text="Wittib" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1167" start="22" end="25" text="H . Reinhard Wasserhichas" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1173" start="24" end="25" text="Reinhard Wasserhichas" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1179" start="31" end="37" text="Herrn Conraden Ot&#10;ten dorf dem Apothekhern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1185" start="32" end="35" text="Conraden Ot&#10;ten dorf" element="head" class="nam" subclass=""/>
+      <span id="1191" start="36" end="37" text="dem Apothekhern" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1197" start="37" end="37" text="Apothekhern" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1203" start="40" end="70" text="an ¬&#10;derhalb Jucharden Reben , sambt der darum&#10;stehenden Behaussung in St . Alban Vorstatt&#10;ohnfehr von dem Thor , neben Mr . Franisco&#10;von Speyr , Spittahls Predigern gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1209" start="44" end="44" text="Reben" element="head" class="type" subclass=""/>
+      <span id="1221" start="46" end="50" text="sambt der darum&#10;stehenden Behaussung" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1227" start="47" end="50" text="der darum&#10;stehenden Behaussung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1233" start="50" end="50" text="Behaussung" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1239" start="51" end="70" text="in St . Alban Vorstatt&#10;ohnfehr von dem Thor , neben Mr . Franisco&#10;von Speyr , Spittahls Predigern gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1245" start="52" end="55" text="St . Alban Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1245_head" start="52" end="55" element="head" class="nam" text="St . Alban Vorstatt" subclass=""/>
+        </span>
+        <span id="1251" start="58" end="59" text="dem Thor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1257" start="59" end="59" text="Thor" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1269" start="62" end="69" text="Mr . Franisco&#10;von Speyr , Spittahls Predigern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1263" start="64" end="66" text="Franisco&#10;von Speyr" element="head" class="nam" subclass=""/>
+          <span id="1281" start="68" end="69" text="Spittahls Predigern" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+            <span id="1275" start="68" end="68" text="Spittahls" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1275_head" start="68" end="68" element="head" class="type" text="Spittahls" subclass=""/>
+            </span>
+            <span id="1281" start="69" end="69" text="Predigern" element="head" class="occ" subclass="org-job"/>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="10" end="18" ref="1131" type="state">
+      <trigger start="18" end="18" text="Wittib" ref="1161"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1119" text="Frau Valena Burckhardtin , weilaus&#10;Hr . Lucae Gebhardts gewessten Kaufhauss schreibers&#10;Wittib"/>
+        <role role="family-b" ref="1137" text="Hr . Lucae Gebhardts gewessten Kaufhauss schreibers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="68" end="69" ref="1281" type="state">
+      <trigger start="69" end="69" text="Predigern" ref="1281"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1269" text="Mr . Franisco&#10;von Speyr , Spittahls Predigern"/>
+        <role role="employer" ref="1275" text="Spittahls"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="part_whole" polarity="pos" tense="pres" modality="ass" start="46" end="50" ref="1221" type="state">
+      <event event_id="2.0">
+        <role role="whole" ref="1203" text="an ¬&#10;derhalb Jucharden Reben , sambt der darum&#10;stehenden Behaussung in St . Alban Vorstatt&#10;ohnfehr von dem Thor , neben Mr . Franisco&#10;von Speyr , Spittahls Predigern gelegen"/>
+        <role role="part" ref="1227" text="der darum&#10;stehenden Behaussung"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="51" end="70" ref="1239" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1203" text="an ¬&#10;derhalb Jucharden Reben , sambt der darum&#10;stehenden Behaussung in St . Alban Vorstatt&#10;ohnfehr von dem Thor , neben Mr . Franisco&#10;von Speyr , Spittahls Predigern gelegen"/>
+        <role role="location-b" ref="1245" text="St . Alban Vorstatt"/>
+        <role role="location-b" ref="1251" text="dem Thor"/>
+        <role role="location-b" ref="1269" text="Mr . Franisco&#10;von Speyr , Spittahls Predigern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="5" end="70" ref="" type="event">
+      <trigger start="5" end="5" text="verkaufft" ref="1287"/>
+      <event event_id="4.0">
+        <role role="seller" ref="1119" text="Frau Valena Burckhardtin , weilaus&#10;Hr . Lucae Gebhardts gewessten Kaufhauss schreibers&#10;Wittib"/>
+        <role role="detail_support" ref="1167" text="H . Reinhard Wasserhichas"/>
+        <role role="buyer" ref="1179" text="Herrn Conraden Ot&#10;ten dorf dem Apothekhern"/>
+        <role role="property" ref="1203" text="an ¬&#10;derhalb Jucharden Reben , sambt der darum&#10;stehenden Behaussung in St . Alban Vorstatt&#10;ohnfehr von dem Thor , neben Mr . Franisco&#10;von Speyr , Spittahls Predigern gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

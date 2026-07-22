@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 2/89 S. [21]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Aeschenvorstadt 6</tei:title>
+            <tei:idno>HGB 1 2/89</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1432890</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1554">1554</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611584.8573164227 1266967.6685220636</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Die</token>
+    <token token_id="1">Presentz</token>
+    <token token_id="2">hoher</token>
+    <token token_id="3">Stifft</token>
+    <token token_id="4">,</token>
+    <token token_id="5">hat</token>
+    <token token_id="6">Verena</token>
+    <token token_id="7">Eckhlin</token>
+    <token token_id="8">,</token>
+    <token token_id="9">Clausen</token>
+    <token token_id="10">Valchysen</token>
+    <token token_id="11">des</token>
+    <token token_id="12">Schmids</token>
+    <token token_id="13">sel</token>
+    <token token_id="14">.</token>
+    <token token_id="15">Witwe</token>
+    <token token_id="16">,</token>
+    <token token_id="17">hernachgeschriebene</token>
+    <token token_id="18">liegende</token>
+    <token token_id="19">Güeter</token>
+    <token token_id="20">,</token>
+    <token token_id="21">als</token>
+    <token token_id="22">man</token>
+    <token token_id="23">lich</token>
+    <token token_id="24">das</token>
+    <token token_id="25">Hus</token>
+    <token token_id="26">und</token>
+    <token token_id="27">Hofstatt</token>
+    <token token_id="28">,</token>
+    <token token_id="29">jun</token>
+    <token token_id="30">Eschamer</token>
+    <token token_id="31">Vorstatt</token>
+    <token token_id="32">,</token>
+    <token token_id="33">zwüschen</token>
+    <token token_id="34">dem</token>
+    <token token_id="35">Hus</token>
+    <token token_id="36">Luginsland</token>
+    <token token_id="37">und</token>
+    <token token_id="38">Wolfgang</token>
+    <token token_id="39">Seckelmans</token>
+    <token token_id="40">des</token>
+    <token token_id="41">Brotbecken</token>
+    <token token_id="42">Hus</token>
+    <token token_id="43">glegen</token>
+    <token token_id="44">.</token>
+    <token token_id="45">Sodann</token>
+    <token token_id="46">das</token>
+    <token token_id="47">Hus</token>
+    <token token_id="48">und</token>
+    <token token_id="49">Trotten</token>
+    <token token_id="50">,</token>
+    <token token_id="51">sampt</token>
+    <token token_id="52">dem</token>
+    <token token_id="53">hindern</token>
+    <token token_id="54">Hus</token>
+    <token token_id="55">,</token>
+    <token token_id="56">auch</token>
+    <token token_id="57">in</token>
+    <token token_id="58">Eschamer</token>
+    <token token_id="59">Vorstatt</token>
+    <token token_id="60">,</token>
+    <token token_id="61">gegen</token>
+    <token token_id="62">st</token>
+    <token token_id="63">.</token>
+    <token token_id="64">Jacobsbrunnen</token>
+    <token token_id="65">über</token>
+    <token token_id="66">,</token>
+    <token token_id="67">zwüschen</token>
+    <token token_id="68">der</token>
+    <token token_id="69">Herberg</token>
+    <token token_id="70">zum</token>
+    <token token_id="71">schwartzen</token>
+    <token token_id="72">Sternen</token>
+    <token token_id="73">und</token>
+    <token token_id="74">dem</token>
+    <token token_id="75">Gessli</token>
+    <token token_id="76">gelegen</token>
+    <token token_id="77">,</token>
+    <token token_id="78">und</token>
+    <token token_id="79">alten</token>
+    <token token_id="80">Pfirt</token>
+    <token token_id="81">,</token>
+    <token token_id="82">genannt</token>
+    <token token_id="83">ist</token>
+    <token token_id="84">,</token>
+    <token token_id="85">versessener</token>
+    <token token_id="86">zinsen</token>
+    <token token_id="87">halp</token>
+    <token token_id="88">als</token>
+    <token token_id="89">soliche</token>
+    <token token_id="90">güeter</token>
+    <token token_id="91">jährl</token>
+    <token token_id="92">.</token>
+    <token token_id="93">der</token>
+    <token token_id="94">Presentz</token>
+    <token token_id="95">2</token>
+    <token token_id="96">fl</token>
+    <token token_id="97">.</token>
+    <token token_id="98">zinsen</token>
+    <token token_id="99">,</token>
+    <token token_id="100">gefrönt</token>
+    <token token_id="101">.</token>
+  </text>
+  <spans>
+    <span id="1473" start="0" end="3" text="Die Presentz hoher Stifft" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1479" start="1" end="3" text="Presentz hoher Stifft" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1750" start="6" end="83" text="Verena Eckhlin , Clausen Valchysen&#10;des Schmids sel . Witwe , hernachgeschriebene liegende Güeter , als man&#10;lich das Hus und Hofstatt , jun Eschamer Vorstatt , zwüschen&#10;dem Hus Luginsland und Wolfgang Seckelmans des Brotbecken&#10;Hus glegen . Sodann das Hus und Trotten , sampt dem hindern&#10;Hus , auch in Eschamer Vorstatt , gegen st . Jacobsbrunnen über ,&#10;zwüschen der Herberg zum schwartzen Sternen und dem Gessli&#10;gelegen , und alten Pfirt , genannt ist" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1756" start="6" end="15" text="Verena Eckhlin , Clausen Valchysen&#10;des Schmids sel . Witwe" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1485" start="6" end="15" text="Verena Eckhlin , Clausen Valchysen&#10;des Schmids sel . Witwe" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1491" start="6" end="7" text="Verena Eckhlin" element="head" class="nam" subclass=""/>
+          <span id="1503" start="9" end="15" text="Clausen Valchysen&#10;des Schmids sel . Witwe" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1497" start="9" end="14" text="Clausen Valchysen&#10;des Schmids sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1521" start="9" end="10" text="Clausen Valchysen" element="head" class="nam" subclass=""/>
+              <span id="1527" start="11" end="12" text="des Schmids" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1533" start="12" end="12" text="Schmids" element="head" class="occ" subclass=""/>
+              </span>
+              <span id="1515" start="13" end="14" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+            </span>
+            <span id="1509" start="15" end="15" text="Witwe" element="head" class="fam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1539" start="19" end="19" text="Güeter" element="head" class="type" subclass=""/>
+      <span id="1545" start="21" end="83" text="als man&#10;lich das Hus und Hofstatt , jun Eschamer Vorstatt , zwüschen&#10;dem Hus Luginsland und Wolfgang Seckelmans des Brotbecken&#10;Hus glegen . Sodann das Hus und Trotten , sampt dem hindern&#10;Hus , auch in Eschamer Vorstatt , gegen st . Jacobsbrunnen über ,&#10;zwüschen der Herberg zum schwartzen Sternen und dem Gessli&#10;gelegen , und alten Pfirt , genannt ist" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1551" start="24" end="43" text="das Hus und Hofstatt , jun Eschamer Vorstatt , zwüschen&#10;dem Hus Luginsland und Wolfgang Seckelmans des Brotbecken&#10;Hus glegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1557" start="25" end="27" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+          <span id="1563" start="29" end="43" text="jun Eschamer Vorstatt , zwüschen&#10;dem Hus Luginsland und Wolfgang Seckelmans des Brotbecken&#10;Hus glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1569" start="30" end="31" text="Eschamer Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+              <span id="1569_head" start="30" end="31" element="head" class="nam" text="Eschamer Vorstatt" subclass=""/>
+            </span>
+            <span id="1677" start="34" end="42" text="dem Hus Luginsland und Wolfgang Seckelmans des Brotbecken&#10;Hus" element="list" class="fac" subclass="">
+              <span id="1671" start="34" end="36" text="dem Hus Luginsland" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1671_head" start="34" end="36" element="head" class="nam" text="dem Hus Luginsland" subclass=""/>
+              </span>
+              <span id="1575" start="38" end="42" text="Wolfgang Seckelmans des Brotbecken&#10;Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1581" start="38" end="41" text="Wolfgang Seckelmans des Brotbecken" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1587" start="38" end="41" text="Wolfgang Seckelmans des Brotbecken" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                    <span id="1593" start="38" end="39" text="Wolfgang Seckelmans" element="head" class="nam" subclass=""/>
+                    <span id="1599" start="40" end="41" text="des Brotbecken" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                      <span id="1605" start="41" end="41" text="Brotbecken" element="head" class="occ" subclass=""/>
+                    </span>
+                  </span>
+                </span>
+                <span id="1769" start="42" end="42" text="Hus" element="head" class="type" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+        <span id="1611" start="46" end="83" text="das Hus und Trotten , sampt dem hindern&#10;Hus , auch in Eschamer Vorstatt , gegen st . Jacobsbrunnen über ,&#10;zwüschen der Herberg zum schwartzen Sternen und dem Gessli&#10;gelegen , und alten Pfirt , genannt ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1617" start="47" end="49" text="Hus und Trotten" element="head" class="type" subclass=""/>
+          <span id="1623" start="51" end="54" text="sampt dem hindern&#10;Hus" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1629" start="52" end="54" text="dem hindern&#10;Hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1635" start="54" end="54" text="Hus" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+          <span id="1641" start="56" end="76" text="auch in Eschamer Vorstatt , gegen st . Jacobsbrunnen über ,&#10;zwüschen der Herberg zum schwartzen Sternen und dem Gessli&#10;gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1647" start="58" end="59" text="Eschamer Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+              <span id="1647_head" start="58" end="59" element="head" class="nam" text="Eschamer Vorstatt" subclass=""/>
+            </span>
+            <span id="1653" start="62" end="64" text="st . Jacobsbrunnen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1653_head" start="62" end="64" element="head" class="nam" text="st . Jacobsbrunnen" subclass=""/>
+            </span>
+            <span id="1695" start="68" end="75" text="der Herberg zum schwartzen Sternen und dem Gessli" element="list" class="fac" subclass="">
+              <span id="1659" start="68" end="72" text="der Herberg zum schwartzen Sternen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1665" start="69" end="72" text="Herberg zum schwartzen Sternen" element="head" class="nam" subclass=""/>
+              </span>
+              <span id="1683" start="74" end="75" text="dem Gessli" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+                <span id="1689" start="75" end="75" text="Gessli" element="head" class="type" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1701" start="79" end="80" text="alten Pfirt" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1701_head" start="79" end="80" element="head" class="nam" text="alten Pfirt" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1781" start="85" end="98" text="versessener zinsen halp&#10;als soliche güeter jährl . der Presentz 2 fl . zinsen" element="eventspan" class="due" tense="pres" polarity="neg" modality="ass" subclass="">
+      <span id="1787" start="86" end="86" text="zinsen" element="trigger" class="type" subclass=""/>
+      <span id="1707" start="89" end="90" text="soliche güeter" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1713" start="90" end="90" text="güeter" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1719" start="91" end="92" text="jährl ." element="value" class="time" subclass="rec"/>
+      <span id="1725" start="93" end="94" text="der Presentz" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1731" start="94" end="94" text="Presentz" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1744" start="95" end="97" text="2 fl ." element="value" class="money" subclass=""/>
+    </span>
+    <span id="1775" start="100" end="100" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1737" from="1725" to="1473" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1762" from="1707" to="1750" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="85" end="98" ref="1781" type="state">
+      <trigger start="86" end="86" text="zinsen" ref="1787"/>
+      <event event_id="0.0">
+        <role role="property" ref="1707" text="soliche güeter"/>
+        <role role="interval" ref="1719" text="jährl ."/>
+        <role role="beneficiary" ref="1725" text="der Presentz"/>
+        <role role="interest" ref="1744" text="2 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="9" end="15" ref="1503" type="state">
+      <trigger start="15" end="15" text="Witwe" ref="1509"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1485" text="Verena Eckhlin , Clausen Valchysen&#10;des Schmids sel . Witwe"/>
+        <role role="family-b" ref="1497" text="Clausen Valchysen&#10;des Schmids sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="6" end="15" ref="1756" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1750" text="Verena Eckhlin , Clausen Valchysen&#10;des Schmids sel . Witwe , hernachgeschriebene liegende Güeter , als man&#10;lich das Hus und Hofstatt , jun Eschamer Vorstatt , zwüschen&#10;dem Hus Luginsland und Wolfgang Seckelmans des Brotbecken&#10;Hus glegen . Sodann das Hus und Trotten , sampt dem hindern&#10;Hus , auch in Eschamer Vorstatt , gegen st . Jacobsbrunnen über ,&#10;zwüschen der Herberg zum schwartzen Sternen und dem Gessli&#10;gelegen , und alten Pfirt , genannt ist"/>
+        <role role="owner" ref="1485" text="Verena Eckhlin , Clausen Valchysen&#10;des Schmids sel . Witwe"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="21" end="83" ref="1545" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1750" text="Verena Eckhlin , Clausen Valchysen&#10;des Schmids sel . Witwe , hernachgeschriebene liegende Güeter , als man&#10;lich das Hus und Hofstatt , jun Eschamer Vorstatt , zwüschen&#10;dem Hus Luginsland und Wolfgang Seckelmans des Brotbecken&#10;Hus glegen . Sodann das Hus und Trotten , sampt dem hindern&#10;Hus , auch in Eschamer Vorstatt , gegen st . Jacobsbrunnen über ,&#10;zwüschen der Herberg zum schwartzen Sternen und dem Gessli&#10;gelegen , und alten Pfirt , genannt ist"/>
+        <role role="part" ref="1551" text="das Hus und Hofstatt , jun Eschamer Vorstatt , zwüschen&#10;dem Hus Luginsland und Wolfgang Seckelmans des Brotbecken&#10;Hus glegen"/>
+        <role role="part" ref="1611" text="das Hus und Trotten , sampt dem hindern&#10;Hus , auch in Eschamer Vorstatt , gegen st . Jacobsbrunnen über ,&#10;zwüschen der Herberg zum schwartzen Sternen und dem Gessli&#10;gelegen , und alten Pfirt , genannt ist"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="29" end="43" ref="1563" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1551" text="das Hus und Hofstatt , jun Eschamer Vorstatt , zwüschen&#10;dem Hus Luginsland und Wolfgang Seckelmans des Brotbecken&#10;Hus glegen"/>
+        <role role="location-b" ref="1569" text="Eschamer Vorstatt"/>
+        <role role="location-b" ref="1671" text="dem Hus Luginsland"/>
+        <role role="location-b" ref="1575" text="Wolfgang Seckelmans des Brotbecken&#10;Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="38" end="41" ref="1581" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1575" text="Wolfgang Seckelmans des Brotbecken&#10;Hus"/>
+        <role role="owner" ref="1587" text="Wolfgang Seckelmans des Brotbecken"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="part_whole" polarity="pos" tense="pres" modality="ass" start="51" end="54" ref="1623" type="state">
+      <event event_id="6.0">
+        <role role="whole" ref="1611" text="das Hus und Trotten , sampt dem hindern&#10;Hus , auch in Eschamer Vorstatt , gegen st . Jacobsbrunnen über ,&#10;zwüschen der Herberg zum schwartzen Sternen und dem Gessli&#10;gelegen , und alten Pfirt , genannt ist"/>
+        <role role="part" ref="1629" text="dem hindern&#10;Hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="56" end="76" ref="1641" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1611" text="das Hus und Trotten , sampt dem hindern&#10;Hus , auch in Eschamer Vorstatt , gegen st . Jacobsbrunnen über ,&#10;zwüschen der Herberg zum schwartzen Sternen und dem Gessli&#10;gelegen , und alten Pfirt , genannt ist"/>
+        <role role="location-b" ref="1647" text="Eschamer Vorstatt"/>
+        <role role="location-b" ref="1653" text="st . Jacobsbrunnen"/>
+        <role role="location-b" ref="1659" text="der Herberg zum schwartzen Sternen"/>
+        <role role="location-b" ref="1683" text="dem Gessli"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="98" ref="" type="event">
+      <trigger start="100" end="100" text="gefrönt" ref="1775"/>
+      <event event_id="8.0">
+        <role role="claimant" ref="1473" text="Die Presentz hoher Stifft"/>
+        <role role="property" ref="1750" text="Verena Eckhlin , Clausen Valchysen&#10;des Schmids sel . Witwe , hernachgeschriebene liegende Güeter , als man&#10;lich das Hus und Hofstatt , jun Eschamer Vorstatt , zwüschen&#10;dem Hus Luginsland und Wolfgang Seckelmans des Brotbecken&#10;Hus glegen . Sodann das Hus und Trotten , sampt dem hindern&#10;Hus , auch in Eschamer Vorstatt , gegen st . Jacobsbrunnen über ,&#10;zwüschen der Herberg zum schwartzen Sternen und dem Gessli&#10;gelegen , und alten Pfirt , genannt ist"/>
+        <role role="cause" ref="1781" text="versessener zinsen halp&#10;als soliche güeter jährl . der Presentz 2 fl . zinsen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

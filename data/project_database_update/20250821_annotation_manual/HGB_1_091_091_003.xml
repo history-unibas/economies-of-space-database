@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 91/91 S. [3]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Johanns-Vorstadt 65</tei:title>
+            <tei:idno>HGB 1 91/91</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1482275</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1408">1408</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610867.266941599 1268283.9888211288</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">do</token>
+    <token token_id="2">gab</token>
+    <token token_id="3">ze</token>
+    <token token_id="4">koffende</token>
+    <token token_id="5">Pet</token>
+    <token token_id="6">überschrieben</token>
+    <token token_id="7">Ben</token>
+    <token token_id="8">ner</token>
+    <token token_id="9">Hasenberg</token>
+    <token token_id="10">der</token>
+    <token token_id="11">winrüffer</token>
+    <token token_id="12">burger</token>
+    <token token_id="13">ze</token>
+    <token token_id="14">Basel</token>
+    <token token_id="15">Hugen</token>
+    <token token_id="16">Meder</token>
+    <token token_id="17">demme</token>
+    <token token_id="18">vischer</token>
+    <token token_id="19">burger</token>
+    <token token_id="20">ze</token>
+    <token token_id="21">Basel</token>
+    <token token_id="22">sin</token>
+    <token token_id="23">zwenteil</token>
+    <token token_id="24">und</token>
+    <token token_id="25">alle</token>
+    <token token_id="26">die</token>
+    <token token_id="27">reht</token>
+    <token token_id="28">so</token>
+    <token token_id="29">er</token>
+    <token token_id="30">geerbet</token>
+    <token token_id="31">het</token>
+    <token token_id="32">von</token>
+    <token token_id="33">Peter</token>
+    <token token_id="34">Benner</token>
+    <token token_id="35">sine</token>
+    <token token_id="36">vatter</token>
+    <token token_id="37">und</token>
+    <token token_id="38">het</token>
+    <token token_id="39">oder</token>
+    <token token_id="40">haben</token>
+    <token token_id="41">solt</token>
+    <token token_id="42">an</token>
+    <token token_id="43">demme</token>
+    <token token_id="44">huse</token>
+    <token token_id="45">und</token>
+    <token token_id="46">hofstat</token>
+    <token token_id="47">gelegen</token>
+    <token token_id="48">in</token>
+    <token token_id="49">der</token>
+    <token token_id="50">vorstat</token>
+    <token token_id="51">ze</token>
+    <token token_id="52">Crütz</token>
+    <token token_id="53">zwüschent</token>
+    <token token_id="54">Lücke</token>
+    <token token_id="55">)</token>
+    <token token_id="56">Geissinen</token>
+    <token token_id="57">und</token>
+    <token token_id="58">(</token>
+    <token token_id="59">Lüke</token>
+    <token token_id="60">,</token>
+    <token token_id="61">Schilling</token>
+    <token token_id="62">,</token>
+    <token token_id="63">so</token>
+    <token token_id="64">erbe</token>
+    <token token_id="65">ist</token>
+    <token token_id="66">von</token>
+    <token token_id="67">den</token>
+    <token token_id="68">frowen</token>
+    <token token_id="69">ze</token>
+    <token token_id="70">sant</token>
+    <token token_id="71">Claren</token>
+    <token token_id="72">,</token>
+    <token token_id="73">(</token>
+    <token token_id="74">s</token>
+    <token token_id="75">ist</token>
+    <token token_id="76">gestrichen</token>
+    <token token_id="77">umb</token>
+    <token token_id="78">3</token>
+    <token token_id="79">℔</token>
+    <token token_id="80">5ß</token>
+    <token token_id="81">dit</token>
+    <token token_id="82">und</token>
+    <token token_id="83">was</token>
+    <token token_id="84">zinsen</token>
+    <token token_id="85">da</token>
+    <token token_id="86">von</token>
+    <token token_id="87">gat</token>
+    <token token_id="88">die</token>
+    <token token_id="89">sol</token>
+    <token token_id="90">der</token>
+    <token token_id="91">Köffer</token>
+    <token token_id="92">hinanthin</token>
+    <token token_id="93">abtragen</token>
+    <token token_id="94">,</token>
+    <token token_id="95">Kessenen</token>
+    <token token_id="96">des</token>
+    <token token_id="97">neben</token>
+    <token token_id="98">67</token>
+    <token token_id="99">auf</token>
+    <token token_id="100">S</token>
+    <token token_id="101">.</token>
+    <token token_id="102">Ao</token>
+    <token token_id="103">1401</token>
+    <token token_id="104">,</token>
+    <token token_id="105">nicht</token>
+    <token token_id="106">nich</token>
+  </text>
+  <spans>
+    <span id="2011" start="4" end="4" text="koffende" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1773" start="5" end="14" text="Pet überschrieben Ben&#10;ner Hasenberg der winrüffer burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1779" start="5" end="9" text="Pet überschrieben Ben&#10;ner Hasenberg" element="head" class="nam" subclass=""/>
+      <span id="1785" start="10" end="11" text="der winrüffer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1791" start="11" end="11" text="winrüffer" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1797" start="12" end="14" text="burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1803" start="12" end="12" text="burger" element="head" class="org-aff" subclass=""/>
+        <span id="1809" start="14" end="14" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1809_head" start="14" end="14" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1815" start="15" end="21" text="Hugen Meder demme vischer burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1821" start="15" end="16" text="Hugen Meder" element="head" class="nam" subclass=""/>
+      <span id="1827" start="17" end="18" text="demme vischer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1833" start="18" end="18" text="vischer" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1839" start="19" end="21" text="burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1845" start="19" end="19" text="burger" element="head" class="org-aff" subclass=""/>
+        <span id="1851" start="21" end="21" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1851_head" start="21" end="21" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1857" start="22" end="22" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1857_head" start="22" end="22" element="head" class="pro" text="sin" subclass=""/>
+    </span>
+    <span id="2023" start="23" end="23" text="zwenteil" element="other" class="other" subclass=""/>
+    <span id="1870" start="29" end="29" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1870_head" start="29" end="29" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="2029" start="30" end="30" text="geerbet" element="trigger" class="inheritance" tense="past" polarity="pos" modality="ass" subclass=""/>
+    <span id="1883" start="33" end="36" text="Peter Benner sine vatter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1889" start="33" end="34" text="Peter Benner" element="head" class="nam" subclass=""/>
+      <span id="1895" start="35" end="36" text="sine vatter" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1907" start="35" end="35" text="sine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1907_head" start="35" end="35" element="head" class="pro" text="sine" subclass=""/>
+        </span>
+        <span id="1901" start="36" end="36" text="vatter" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1920" start="43" end="76" text="demme huse und hofstat&#10;gelegen in der vorstat ze Crütz zwüschent Lücke )&#10;Geissinen und ( Lüke , Schilling , so erbe ist&#10;von den frowen ze sant Claren , ( s ist gestrichen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1926" start="44" end="46" text="huse und hofstat" element="head" class="type" subclass=""/>
+      <span id="1932" start="47" end="56" text="gelegen in der vorstat ze Crütz zwüschent Lücke )&#10;Geissinen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1938" start="49" end="52" text="der vorstat ze Crütz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1944" start="50" end="52" text="vorstat ze Crütz" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1950" start="56" end="56" text="Geissinen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1950_head" start="56" end="56" element="head" class="nam" text="Geissinen" subclass=""/>
+        </span>
+      </span>
+      <span id="1956" start="63" end="76" text="so erbe ist&#10;von den frowen ze sant Claren , ( s ist gestrichen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1962" start="67" end="71" text="den frowen ze sant Claren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1968" start="69" end="71" text="ze sant Claren" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1974" start="78" end="80" text="3 ℔ 5ß" element="value" class="money" subclass=""/>
+    <span id="2017" start="82" end="93" text="und was zinsen da von&#10;gat die sol der Köffer hinanthin abtragen" element="other" class="other" subclass="">
+      <span id="1980" start="90" end="91" text="der Köffer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1986" start="91" end="91" text="Köffer" element="head" class="role" subclass=""/>
+      </span>
+    </span>
+    <span id="1999" start="102" end="103" text="Ao 1401" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1863" from="1857" to="1773" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1992" from="1980" to="1815" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1876" from="1870" to="1857" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1913" from="1907" to="1870" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="12" end="14" ref="1797" type="state">
+      <trigger start="12" end="12" text="burger" ref="1803"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1773" text="Pet überschrieben Ben&#10;ner Hasenberg der winrüffer burger ze Basel"/>
+        <role role="geopolitical-entity" ref="1809" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="19" end="21" ref="1839" type="state">
+      <trigger start="19" end="19" text="burger" ref="1845"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1815" text="Hugen Meder demme vischer burger ze Basel"/>
+        <role role="geopolitical-entity" ref="1851" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="35" end="36" ref="1895" type="state">
+      <trigger start="36" end="36" text="vatter" ref="1901"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1883" text="Peter Benner sine vatter"/>
+        <role role="family-b" ref="1907" text="sine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="47" end="56" ref="1932" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1920" text="demme huse und hofstat&#10;gelegen in der vorstat ze Crütz zwüschent Lücke )&#10;Geissinen und ( Lüke , Schilling , so erbe ist&#10;von den frowen ze sant Claren , ( s ist gestrichen"/>
+        <role role="location-b" ref="1938" text="der vorstat ze Crütz"/>
+        <role role="location-b" ref="1950" text="Geissinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="63" end="76" ref="1956" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1920" text="demme huse und hofstat&#10;gelegen in der vorstat ze Crütz zwüschent Lücke )&#10;Geissinen und ( Lüke , Schilling , so erbe ist&#10;von den frowen ze sant Claren , ( s ist gestrichen"/>
+        <role role="owner" ref="1962" text="den frowen ze sant Claren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="4" end="93" ref="" type="event">
+      <trigger start="4" end="4" text="koffende" ref="2011"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1773" text="Pet überschrieben Ben&#10;ner Hasenberg der winrüffer burger ze Basel"/>
+        <role role="buyer" ref="1815" text="Hugen Meder demme vischer burger ze Basel"/>
+        <role role="detail_property-detail" ref="2023" text="zwenteil"/>
+        <role role="property" ref="1920" text="demme huse und hofstat&#10;gelegen in der vorstat ze Crütz zwüschent Lücke )&#10;Geissinen und ( Lüke , Schilling , so erbe ist&#10;von den frowen ze sant Claren , ( s ist gestrichen"/>
+        <role role="price" ref="1974" text="3 ℔ 5ß"/>
+        <role role="detail_condition" ref="2017" text="und was zinsen da von&#10;gat die sol der Köffer hinanthin abtragen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="inheritance" polarity="pos" tense="past" modality="ass" start="29" end="76" ref="" type="event">
+      <trigger start="30" end="30" text="geerbet" ref="2029"/>
+      <event event_id="6.0">
+        <role role="heir" ref="1870" text="er"/>
+        <role role="decedent" ref="1883" text="Peter Benner sine vatter"/>
+        <role role="property" ref="1920" text="demme huse und hofstat&#10;gelegen in der vorstat ze Crütz zwüschent Lücke )&#10;Geissinen und ( Lüke , Schilling , so erbe ist&#10;von den frowen ze sant Claren , ( s ist gestrichen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

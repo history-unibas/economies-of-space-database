@@ -1,0 +1,498 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 50/36 S. [6, 7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Eisengasse 2, 4</tei:title>
+            <tei:idno>HGB 1 50/36</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1465132</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Prediger</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1339">1339</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611281.646110122 1267657.000727615</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Jungfrowe</token>
+    <token token_id="4">Katherine</token>
+    <token token_id="5">am</token>
+    <token token_id="6">Wege</token>
+    <token token_id="7">vergabt</token>
+    <token token_id="8">den</token>
+    <token token_id="9">Frowen</token>
+    <token token_id="10">von</token>
+    <token token_id="11">Klingendal</token>
+    <token token_id="12">Bredier</token>
+    <token token_id="13">Ordens</token>
+    <token token_id="14">zer</token>
+    <token token_id="15">Minren</token>
+    <token token_id="16">Basel</token>
+    <token token_id="17">uffen</token>
+    <token token_id="18">den</token>
+    <token token_id="19">Hoofstetten</token>
+    <token token_id="20">Hüsern</token>
+    <token token_id="21">und</token>
+    <token token_id="22">Gesessen</token>
+    <token token_id="23">,</token>
+    <token token_id="24">so</token>
+    <token token_id="25">gelegen</token>
+    <token token_id="26">sint</token>
+    <token token_id="27">ze</token>
+    <token token_id="28">Basel</token>
+    <token token_id="29">in</token>
+    <token token_id="30">der</token>
+    <token token_id="31">Stat</token>
+    <token token_id="32">vor</token>
+    <token token_id="33">der</token>
+    <token token_id="34">Rinbrugge</token>
+    <token token_id="35">über</token>
+    <token token_id="36">,</token>
+    <token token_id="37">zwischent</token>
+    <token token_id="38">der</token>
+    <token token_id="39">Huse</token>
+    <token token_id="40">von</token>
+    <token token_id="41">Zegningen</token>
+    <token token_id="42">der</token>
+    <token token_id="43">Brotbeckin</token>
+    <token token_id="44">und</token>
+    <token token_id="45">dem</token>
+    <token token_id="46">Huse</token>
+    <token token_id="47">zer</token>
+    <token token_id="48">Barten</token>
+    <token token_id="49">,</token>
+    <token token_id="50">die</token>
+    <token token_id="51">da</token>
+    <token token_id="52">Wernher</token>
+    <token token_id="53">der</token>
+    <token token_id="54">Habermelwer</token>
+    <token token_id="55">,</token>
+    <token token_id="56">und</token>
+    <token token_id="57">Heinrich</token>
+    <token token_id="58">von</token>
+    <token token_id="59">Strassburg</token>
+    <token token_id="60">der</token>
+    <token token_id="61">Jsener</token>
+    <token token_id="62">,</token>
+    <token token_id="63">Burger</token>
+    <token token_id="64">ze</token>
+    <token token_id="65">Basel</token>
+    <token token_id="66">ze</token>
+    <token token_id="67">Erbe</token>
+    <token token_id="68">ant</token>
+    <token token_id="69">,</token>
+    <token token_id="70">4</token>
+    <token token_id="71">℔</token>
+    <token token_id="72">.</token>
+    <token token_id="73">ze</token>
+    <token token_id="74">Zinse</token>
+    <token token_id="75">und</token>
+    <token token_id="76">6</token>
+    <token token_id="77">Ringe</token>
+    <token token_id="78">ze</token>
+    <token token_id="79">Wisunge</token>
+    <token token_id="80">und</token>
+    <token token_id="81">5sh</token>
+    <token token_id="82">.</token>
+    <token token_id="83">ze</token>
+    <token token_id="84">Erschatze</token>
+    <token token_id="85">,</token>
+    <token token_id="86">swenne</token>
+    <token token_id="87">sich</token>
+    <token token_id="88">die</token>
+    <token token_id="89">Hant</token>
+    <token token_id="90">verwandelt</token>
+    <token token_id="91">,</token>
+    <token token_id="92">git</token>
+    <token token_id="93">Heinrich</token>
+    <token token_id="94">von</token>
+    <token token_id="95">Strassburg</token>
+    <token token_id="96">von</token>
+    <token token_id="97">sinem</token>
+    <token token_id="98">Teile</token>
+    <token token_id="99">und</token>
+    <token token_id="100">Gesesse</token>
+    <token token_id="101">,</token>
+    <token token_id="102">und</token>
+    <token token_id="103">H</token>
+    <token token_id="104">.</token>
+    <token token_id="105">6</token>
+    <token token_id="106">Rünge</token>
+    <token token_id="107">und</token>
+    <token token_id="108">5</token>
+    <token token_id="109">sh</token>
+    <token token_id="110">.</token>
+    <token token_id="111">git</token>
+    <token token_id="112">Werner</token>
+    <token token_id="113">der</token>
+    <token token_id="114">Habermelwer</token>
+    <token token_id="115">von</token>
+    <token token_id="116">sinem</token>
+    <token token_id="117">Tüle</token>
+    <token token_id="118">und</token>
+    <token token_id="119">Gesesse</token>
+    <token token_id="120">,</token>
+    <token token_id="121">und</token>
+    <token token_id="122">gant</token>
+    <token token_id="123">och</token>
+    <token token_id="124">von</token>
+    <token token_id="125">denselben</token>
+    <token token_id="126">Hü</token>
+    <token token_id="127">¬</token>
+    <token token_id="128">sern</token>
+    <token token_id="129">und</token>
+    <token token_id="130">Hofstetten</token>
+    <token token_id="131">2sh</token>
+    <token token_id="132">.</token>
+    <token token_id="133">ze</token>
+    <token token_id="134">unser</token>
+    <token token_id="135">Frowen</token>
+    <token token_id="136">uf</token>
+    <token token_id="137">Burg</token>
+    <token token_id="138">ze</token>
+    <token token_id="139">Basel</token>
+    <token token_id="140">ze</token>
+    <token token_id="141">einem</token>
+    <token token_id="142">Jargezite</token>
+    <token token_id="143">,</token>
+    <token token_id="144">von</token>
+    <token token_id="145">ir</token>
+    <token token_id="146">ietweders</token>
+    <token token_id="147">Gesesse</token>
+    <token token_id="148">1</token>
+    <token token_id="149">sh</token>
+    <token token_id="150">.</token>
+  </text>
+  <spans>
+    <span id="2192" start="3" end="6" text="Jungfrowe Katherine am Wege" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2476" start="3" end="3" text="Jungfrowe" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2476_head" start="3" end="3" element="head" class="title" text="Jungfrowe" subclass=""/>
+      </span>
+      <span id="2198" start="4" end="6" text="Katherine am Wege" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2611" start="7" end="7" text="vergabt" element="trigger" class="testament" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2488" start="8" end="16" text="den Frowen&#10;von Klingendal Bredier Ordens zer Minren Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="2204" start="9" end="13" text="Frowen&#10;von Klingendal Bredier Ordens" element="head" class="nam" subclass=""/>
+      <span id="2482" start="14" end="16" text="zer Minren Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2210" start="15" end="16" text="Minren Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2210_head" start="15" end="16" element="head" class="nam" text="Minren Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2494" start="18" end="150" text="den Hoofstetten Hüsern und Gesessen , so gelegen&#10;sint ze Basel in der Stat vor der Rinbrugge über ,&#10;zwischent der Huse von Zegningen der Brotbeckin und&#10;dem Huse zer Barten , die da Wernher der Habermelwer ,&#10;und Heinrich von Strassburg der Jsener , Burger ze Basel&#10;ze Erbe ant , 4 ℔. ze Zinse und 6 Ringe ze Wisunge und&#10;5sh . ze Erschatze , swenne sich die Hant verwandelt , git&#10;Heinrich von Strassburg von sinem Teile und Gesesse , und&#10;H . 6 Rünge und 5 sh . git Werner der Habermelwer von&#10;sinem Tüle und Gesesse , und gant och von denselben Hü ¬&#10;sern und Hofstetten 2sh . ze unser Frowen uf Burg ze&#10;Basel ze einem Jargezite , von ir ietweders Gesesse 1 sh ." element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2216" start="19" end="22" text="Hoofstetten Hüsern und Gesessen" element="head" class="type" subclass=""/>
+      <span id="2222" start="25" end="48" text="gelegen&#10;sint ze Basel in der Stat vor der Rinbrugge über ,&#10;zwischent der Huse von Zegningen der Brotbeckin und&#10;dem Huse zer Barten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2228" start="28" end="28" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2228_head" start="28" end="28" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="2234" start="30" end="31" text="der Stat" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2252" start="31" end="31" text="Stat" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2240" start="33" end="34" text="der Rinbrugge" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2246" start="34" end="34" text="Rinbrugge" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2586" start="38" end="48" text="der Huse von Zegningen der Brotbeckin und&#10;dem Huse zer Barten" element="list" class="fac" subclass="">
+          <span id="2258" start="38" end="43" text="der Huse von Zegningen der Brotbeckin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2264" start="39" end="39" text="Huse" element="head" class="type" subclass=""/>
+            <span id="2598" start="40" end="43" text="von Zegningen der Brotbeckin" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2270" start="41" end="43" text="Zegningen der Brotbeckin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2276" start="41" end="41" text="Zegningen" element="head" class="nam" subclass=""/>
+                <span id="2282" start="42" end="43" text="der Brotbeckin" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="2288" start="43" end="43" text="Brotbeckin" element="head" class="occ" subclass=""/>
+                </span>
+              </span>
+            </span>
+          </span>
+          <span id="2294" start="45" end="48" text="dem Huse zer Barten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2300" start="46" end="48" text="Huse zer Barten" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2500" start="50" end="68" text="die da Wernher der Habermelwer ,&#10;und Heinrich von Strassburg der Jsener , Burger ze Basel&#10;ze Erbe ant" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2580" start="52" end="65" text="Wernher der Habermelwer ,&#10;und Heinrich von Strassburg der Jsener , Burger ze Basel" element="list" class="per" subclass="">
+          <span id="2306" start="52" end="54" text="Wernher der Habermelwer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2385" start="52" end="52" text="Wernher" element="head" class="nam" subclass=""/>
+            <span id="2391" start="53" end="54" text="der Habermelwer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2397" start="54" end="54" text="Habermelwer" element="head" class="occ" subclass=""/>
+            </span>
+          </span>
+          <span id="2318" start="57" end="65" text="Heinrich von Strassburg der Jsener , Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2671" start="57" end="57" text="Heinrich" element="head" class="nam" subclass=""/>
+            <span id="2677" start="58" end="59" text="von Strassburg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2683" start="59" end="59" text="Strassburg" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2683_head" start="59" end="59" element="head" class="nam" text="Strassburg" subclass=""/>
+              </span>
+            </span>
+            <span id="2312" start="60" end="61" text="der Jsener" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2592" start="61" end="61" text="Jsener" element="head" class="occ" subclass=""/>
+            </span>
+            <span id="2464" start="63" end="65" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2506" start="63" end="63" text="Burger" element="head" class="org-aff" subclass=""/>
+              <span id="2324" start="65" end="65" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2324_head" start="65" end="65" element="head" class="nam" text="Basel" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2574" start="70" end="150" text="4 ℔. ze Zinse und 6 Ringe ze Wisunge und&#10;5sh . ze Erschatze , swenne sich die Hant verwandelt , git&#10;Heinrich von Strassburg von sinem Teile und Gesesse , und&#10;H . 6 Rünge und 5 sh . git Werner der Habermelwer von&#10;sinem Tüle und Gesesse , und gant och von denselben Hü ¬&#10;sern und Hofstetten 2sh . ze unser Frowen uf Burg ze&#10;Basel ze einem Jargezite , von ir ietweders Gesesse 1 sh ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2512" start="70" end="72" text="4 ℔." element="value" class="money" subclass=""/>
+        <span id="2623" start="73" end="74" text="ze Zinse" element="other" class="other" subclass=""/>
+        <span id="2470" start="76" end="77" text="6 Ringe" element="value" class="money" subclass=""/>
+        <span id="2629" start="78" end="79" text="ze Wisunge" element="other" class="other" subclass=""/>
+        <span id="2518" start="81" end="82" text="5sh ." element="value" class="money" subclass=""/>
+        <span id="2635" start="83" end="84" text="ze Erschatze" element="other" class="other" subclass=""/>
+        <span id="2617" start="92" end="92" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2330" start="93" end="95" text="Heinrich von Strassburg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2361" start="93" end="93" text="Heinrich" element="head" class="nam" subclass=""/>
+          <span id="2524" start="94" end="95" text="von Strassburg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2530" start="95" end="95" text="Strassburg" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2530_head" start="95" end="95" element="head" class="nam" text="Strassburg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2349" start="97" end="100" text="sinem Teile und Gesesse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2659" start="97" end="97" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2336" start="97" end="97" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2336_head" start="97" end="97" element="head" class="pro" text="sinem" subclass=""/>
+            </span>
+          </span>
+          <span id="2355" start="98" end="100" text="Teile und Gesesse" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2367" start="105" end="106" text="6 Rünge" element="value" class="money" subclass=""/>
+        <span id="2536" start="108" end="110" text="5 sh ." element="value" class="money" subclass=""/>
+        <span id="2641" start="111" end="111" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2373" start="112" end="114" text="Werner der Habermelwer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2379" start="112" end="112" text="Werner" element="head" class="nam" subclass=""/>
+          <span id="2403" start="113" end="114" text="der Habermelwer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2409" start="114" end="114" text="Habermelwer" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="2415" start="116" end="119" text="sinem Tüle und Gesesse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2665" start="116" end="116" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2427" start="116" end="116" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2427_head" start="116" end="116" element="head" class="pro" text="sinem" subclass=""/>
+            </span>
+          </span>
+          <span id="2421" start="117" end="119" text="Tüle und Gesesse" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2647" start="122" end="122" text="gant" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2440" start="125" end="130" text="denselben Hü ¬&#10;sern und Hofstetten" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2446" start="126" end="130" text="Hü ¬&#10;sern und Hofstetten" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2452" start="131" end="131" text="2sh" element="value" class="money" subclass=""/>
+        <span id="2556" start="134" end="139" text="unser Frowen uf Burg ze&#10;Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2556_head" start="134" end="139" element="head" class="nam" text="unser Frowen uf Burg ze Basel" subclass=""/>
+        </span>
+        <span id="2653" start="140" end="142" text="ze einem Jargezite" element="other" class="other" subclass=""/>
+        <span id="2562" start="146" end="147" text="ietweders Gesesse" element="reference" class="fac" numerus="sgl" specificity="uspc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2568" start="147" end="147" text="Gesesse" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2458" start="148" end="149" text="1 sh" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2604" from="2330" to="2318" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2342" from="2336" to="2330" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2549" from="2440" to="2349" class="comp" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2433" from="2427" to="2373" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2542" from="2440" to="2415" class="comp" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2617_role" from="2617" to="2494" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2641_role" from="2641" to="2494" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2647_role" from="2647" to="2494" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="63" end="65" ref="2464" type="state">
+      <trigger start="63" end="63" text="Burger" ref="2506"/>
+      <event event_id="0.0">
+        <role role="resident" ref="2318" text="Heinrich von Strassburg der Jsener , Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="2324" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="14" end="16" ref="2482" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="2488" text="den Frowen&#10;von Klingendal Bredier Ordens zer Minren Basel"/>
+        <role role="location-b" ref="2210" text="Minren Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="25" end="48" ref="2222" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="2494" text="den Hoofstetten Hüsern und Gesessen , so gelegen&#10;sint ze Basel in der Stat vor der Rinbrugge über ,&#10;zwischent der Huse von Zegningen der Brotbeckin und&#10;dem Huse zer Barten , die da Wernher der Habermelwer ,&#10;und Heinrich von Strassburg der Jsener , Burger ze Basel&#10;ze Erbe ant , 4 ℔. ze Zinse und 6 Ringe ze Wisunge und&#10;5sh . ze Erschatze , swenne sich die Hant verwandelt , git&#10;Heinrich von Strassburg von sinem Teile und Gesesse , und&#10;H . 6 Rünge und 5 sh . git Werner der Habermelwer von&#10;sinem Tüle und Gesesse , und gant och von denselben Hü ¬&#10;sern und Hofstetten 2sh . ze unser Frowen uf Burg ze&#10;Basel ze einem Jargezite , von ir ietweders Gesesse 1 sh ."/>
+        <role role="location-b" ref="2228" text="Basel"/>
+        <role role="location-b" ref="2234" text="der Stat"/>
+        <role role="location-b" ref="2240" text="der Rinbrugge"/>
+        <role role="location-b" ref="2258" text="der Huse von Zegningen der Brotbeckin"/>
+        <role role="location-b" ref="2294" text="dem Huse zer Barten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="40" end="43" ref="2598" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="2258" text="der Huse von Zegningen der Brotbeckin"/>
+        <role role="owner" ref="2270" text="Zegningen der Brotbeckin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="50" end="68" ref="2500" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="2494" text="den Hoofstetten Hüsern und Gesessen , so gelegen&#10;sint ze Basel in der Stat vor der Rinbrugge über ,&#10;zwischent der Huse von Zegningen der Brotbeckin und&#10;dem Huse zer Barten , die da Wernher der Habermelwer ,&#10;und Heinrich von Strassburg der Jsener , Burger ze Basel&#10;ze Erbe ant , 4 ℔. ze Zinse und 6 Ringe ze Wisunge und&#10;5sh . ze Erschatze , swenne sich die Hant verwandelt , git&#10;Heinrich von Strassburg von sinem Teile und Gesesse , und&#10;H . 6 Rünge und 5 sh . git Werner der Habermelwer von&#10;sinem Tüle und Gesesse , und gant och von denselben Hü ¬&#10;sern und Hofstetten 2sh . ze unser Frowen uf Burg ze&#10;Basel ze einem Jargezite , von ir ietweders Gesesse 1 sh ."/>
+        <role role="owner" ref="2306" text="Wernher der Habermelwer"/>
+        <role role="owner" ref="2318" text="Heinrich von Strassburg der Jsener , Burger ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="58" end="59" ref="2677" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2318" text="Heinrich von Strassburg der Jsener , Burger ze Basel"/>
+        <role role="location-b" ref="2683" text="Strassburg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="94" end="95" ref="2524" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="2330" text="Heinrich von Strassburg"/>
+        <role role="location-b" ref="2530" text="Strassburg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="97" end="97" ref="2659" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="2349" text="sinem Teile und Gesesse"/>
+        <role role="owner" ref="2336" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="ownership" polarity="pos" tense="pres" modality="ass" start="116" end="116" ref="2665" type="state">
+      <event event_id="8.0">
+        <role role="property" ref="2415" text="sinem Tüle und Gesesse"/>
+        <role role="owner" ref="2427" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="testament" polarity="pos" tense="pres" modality="ass" start="3" end="7" ref="" type="event">
+      <trigger start="7" end="7" text="vergabt" ref="2611"/>
+      <event event_id="9.0">
+        <role role="bequeather" ref="2192" text="Jungfrowe Katherine am Wege"/>
+        <role role="beneficiary" ref="2488" text="den Frowen&#10;von Klingendal Bredier Ordens zer Minren Basel"/>
+        <role role="property" ref="2494" text="den Hoofstetten Hüsern und Gesessen , so gelegen&#10;sint ze Basel in der Stat vor der Rinbrugge über ,&#10;zwischent der Huse von Zegningen der Brotbeckin und&#10;dem Huse zer Barten , die da Wernher der Habermelwer ,&#10;und Heinrich von Strassburg der Jsener , Burger ze Basel&#10;ze Erbe ant , 4 ℔. ze Zinse und 6 Ringe ze Wisunge und&#10;5sh . ze Erschatze , swenne sich die Hant verwandelt , git&#10;Heinrich von Strassburg von sinem Teile und Gesesse , und&#10;H . 6 Rünge und 5 sh . git Werner der Habermelwer von&#10;sinem Tüle und Gesesse , und gant och von denselben Hü ¬&#10;sern und Hofstetten 2sh . ze unser Frowen uf Burg ze&#10;Basel ze einem Jargezite , von ir ietweders Gesesse 1 sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="18" end="92" ref="2574" type="state">
+      <trigger start="92" end="92" text="git" ref="2617"/>
+      <event event_id="10.0">
+        <role role="interest" ref="2512" text="4 ℔."/>
+        <role role="cause" ref="2623" text="ze Zinse"/>
+        <role role="payer" ref="2330" text="Heinrich von Strassburg"/>
+        <role role="property" ref="2349" text="sinem Teile und Gesesse"/>
+      </event>
+      <event event_id="10.1">
+        <role role="interest" ref="2470" text="6 Ringe"/>
+        <role role="cause" ref="2629" text="ze Wisunge"/>
+        <role role="payer" ref="2330" text="Heinrich von Strassburg"/>
+        <role role="property" ref="2349" text="sinem Teile und Gesesse"/>
+      </event>
+      <event event_id="10.2">
+        <role role="interest" ref="2518" text="5sh ."/>
+        <role role="cause" ref="2635" text="ze Erschatze"/>
+        <role role="payer" ref="2330" text="Heinrich von Strassburg"/>
+        <role role="property" ref="2349" text="sinem Teile und Gesesse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="111" end="150" ref="2574" type="state">
+      <trigger start="111" end="111" text="git" ref="2641"/>
+      <event event_id="11.0">
+        <role role="interest" ref="2367" text="6 Rünge"/>
+        <role role="interest" ref="2536" text="5 sh ."/>
+        <role role="property" ref="2415" text="sinem Tüle und Gesesse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="122" end="150" ref="2574" type="state">
+      <trigger start="122" end="122" text="gant" ref="2647"/>
+      <event event_id="12.0">
+        <role role="property" ref="2440" text="denselben Hü ¬&#10;sern und Hofstetten"/>
+        <role role="interest" ref="2452" text="2sh"/>
+        <role role="beneficiary" ref="2556" text="unser Frowen uf Burg ze&#10;Basel"/>
+        <role role="cause" ref="2653" text="ze einem Jargezite"/>
+        <role role="detail_interest-conv" ref="2458" text="1 sh"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="13.0">
+        <role role="whole" ref="2440" text="denselben Hü ¬&#10;sern und Hofstetten"/>
+        <role role="part" ref="2349" text="sinem Teile und Gesesse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="14.0">
+        <role role="whole" ref="2440" text="denselben Hü ¬&#10;sern und Hofstetten"/>
+        <role role="part" ref="2415" text="sinem Tüle und Gesesse"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

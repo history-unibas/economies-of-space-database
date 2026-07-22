@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 17/12 S. [14]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Badergässlein 2, 4</tei:title>
+            <tei:idno>HGB 1 17/12</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1461027</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Steinenkloster</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1438">1438</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611469.47822741 1267895.1142362454</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">item</token>
+    <token token_id="1">ein</token>
+    <token token_id="2">tütscher</token>
+    <token token_id="3">brieff</token>
+    <token token_id="4">der</token>
+    <token token_id="5">wiset</token>
+    <token token_id="6">,</token>
+    <token token_id="7">wie</token>
+    <token token_id="8">Dietrich</token>
+    <token token_id="9">von</token>
+    <token token_id="10">Senn</token>
+    <token token_id="11">¬</token>
+    <token token_id="12">heim</token>
+    <token token_id="13">für</token>
+    <token token_id="14">sich</token>
+    <token token_id="15">und</token>
+    <token token_id="16">seine</token>
+    <token token_id="17">2</token>
+    <token token_id="18">tochter</token>
+    <token token_id="19">zu</token>
+    <token token_id="20">einem</token>
+    <token token_id="21">ewigen</token>
+    <token token_id="22">jar</token>
+    <token token_id="23">¬</token>
+    <token token_id="24">zit</token>
+    <token token_id="25">vergobt</token>
+    <token token_id="26">300</token>
+    <token token_id="27">fl</token>
+    <token token_id="28">.</token>
+    <token token_id="29">haubtguts</token>
+    <token token_id="30">,</token>
+    <token token_id="31">den</token>
+    <token token_id="32">frowen</token>
+    <token token_id="33">des</token>
+    <token token_id="34">closters</token>
+    <token token_id="35">Maria</token>
+    <token token_id="36">Magdalena</token>
+    <token token_id="37">an</token>
+    <token token_id="38">Steinen</token>
+    <token token_id="39">und</token>
+    <token token_id="40">setzt</token>
+    <token token_id="41">ihren</token>
+    <token token_id="42">dafür</token>
+    <token token_id="43">zum</token>
+    <token token_id="44">Unterpfand</token>
+    <token token_id="45">ein</token>
+    <token token_id="46">:</token>
+    <token token_id="47">5</token>
+    <token token_id="48">.</token>
+    <token token_id="49">und</token>
+    <token token_id="50">letztens</token>
+    <token token_id="51">uff</token>
+    <token token_id="52">seine</token>
+    <token token_id="53">badsterben</token>
+    <token token_id="54">genannt</token>
+    <token token_id="55">zem</token>
+    <token token_id="56">Trölin</token>
+    <token token_id="57">ouch</token>
+    <token token_id="58">enent</token>
+    <token token_id="59">Rins</token>
+    <token token_id="60">gelegen</token>
+    <token token_id="61">,</token>
+    <token token_id="62">die</token>
+    <token token_id="63">git</token>
+    <token token_id="64">alle</token>
+    <token token_id="65">Wochen</token>
+    <token token_id="66">einlif</token>
+    <token token_id="67">sh</token>
+    <token token_id="68">.</token>
+    <token token_id="69">und</token>
+    <token token_id="70">die</token>
+    <token token_id="71">zinset</token>
+    <token token_id="72">dem</token>
+    <token token_id="73">Spital</token>
+    <token token_id="74">von</token>
+    <token token_id="75">eigenschafft</token>
+    <token token_id="76">1</token>
+    <token token_id="77">℔</token>
+    <token token_id="78">.</token>
+    <token token_id="79">sonst</token>
+    <token token_id="80">frey</token>
+    <token token_id="81">.</token>
+  </text>
+  <spans>
+    <span id="1187" start="8" end="12" text="Dietrich von Senn ¬&#10;heim" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1187_head" start="8" end="12" element="head" class="nam" text="Dietrich von Senn ¬ heim" subclass=""/>
+    </span>
+    <span id="1193" start="14" end="18" text="sich und seine 2 tochter" element="list" class="per" subclass="">
+      <span id="1199" start="14" end="14" text="sich" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1199_head" start="14" end="14" element="head" class="pro" text="sich" subclass=""/>
+      </span>
+      <span id="1212" start="16" end="18" text="seine 2 tochter" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1218" start="16" end="16" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1218_head" start="16" end="16" element="head" class="pro" text="seine" subclass=""/>
+        </span>
+        <span id="1224" start="17" end="18" text="2 tochter" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1347" start="25" end="25" text="vergobt" element="trigger" class="testament" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1230" start="26" end="28" text="300 fl ." element="value" class="money" subclass=""/>
+    <span id="1236" start="31" end="38" text="den frowen des closters&#10;Maria Magdalena an Steinen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1321" start="32" end="38" text="frowen des closters&#10;Maria Magdalena an Steinen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1384" start="40" end="40" text="setzt" element="trigger" class="pledge" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1242" start="41" end="41" text="ihren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1242_head" start="41" end="41" element="head" class="pro" text="ihren" subclass=""/>
+    </span>
+    <span id="1255" start="52" end="80" text="seine badsterben genannt zem Trölin&#10;ouch enent Rins gelegen , die git alle Wochen einlif sh .&#10;und die zinset dem Spital von eigenschafft 1 ℔.&#10;sonst frey" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1341" start="52" end="52" text="seine" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1303" start="52" end="52" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1303_head" start="52" end="52" element="head" class="pro" text="seine" subclass=""/>
+        </span>
+      </span>
+      <span id="1261" start="53" end="53" text="badsterben" element="head" class="type" subclass=""/>
+      <span id="1267" start="55" end="56" text="zem Trölin" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1267_head" start="55" end="56" element="head" class="nam" text="zem Trölin" subclass=""/>
+      </span>
+      <span id="1273" start="58" end="60" text="enent Rins gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1279" start="59" end="59" text="Rins" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="river">
+          <span id="1279_head" start="59" end="59" element="head" class="nam" text="Rins" subclass=""/>
+        </span>
+      </span>
+      <span id="1315" start="62" end="80" text="die git alle Wochen einlif sh .&#10;und die zinset dem Spital von eigenschafft 1 ℔.&#10;sonst frey" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1360" start="63" end="63" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1366" start="64" end="65" text="alle Wochen" element="value" class="time" subclass="rec"/>
+        <span id="1285" start="66" end="68" text="einlif sh ." element="value" class="money" subclass=""/>
+        <span id="1372" start="71" end="71" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1297" start="72" end="73" text="dem Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1309" start="73" end="73" text="Spital" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1378" start="74" end="75" text="von eigenschafft" element="other" class="other" subclass=""/>
+        <span id="1291" start="76" end="77" text="1 ℔" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1334" from="1303" to="1187" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1353" from="1187" to="1193" class="per-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1205" from="1187" to="1199" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1327" from="1218" to="1199" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1248" from="1236" to="1242" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1360_role" from="1360" to="1255" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1372_role" from="1372" to="1255" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="16" end="18" ref="1212" type="state">
+      <trigger start="17" end="18" text="2 tochter" ref="1224"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1212" text="seine 2 tochter"/>
+        <role role="family-b" ref="1218" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="52" end="52" ref="1341" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1255" text="seine badsterben genannt zem Trölin&#10;ouch enent Rins gelegen , die git alle Wochen einlif sh .&#10;und die zinset dem Spital von eigenschafft 1 ℔.&#10;sonst frey"/>
+        <role role="owner" ref="1303" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="58" end="60" ref="1273" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1255" text="seine badsterben genannt zem Trölin&#10;ouch enent Rins gelegen , die git alle Wochen einlif sh .&#10;und die zinset dem Spital von eigenschafft 1 ℔.&#10;sonst frey"/>
+        <role role="location-b" ref="1279" text="Rins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="testament" polarity="pos" tense="pres" modality="ass" start="25" end="38" ref="" type="event">
+      <trigger start="25" end="25" text="vergobt" ref="1347"/>
+      <event event_id="3.0">
+        <role role="bequeather" ref="1187" text="Dietrich von Senn ¬&#10;heim"/>
+        <role role="property" ref="1230" text="300 fl ."/>
+        <role role="beneficiary" ref="1236" text="den frowen des closters&#10;Maria Magdalena an Steinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="pledge" polarity="pos" tense="pres" modality="ass" start="40" end="80" ref="" type="event">
+      <trigger start="40" end="40" text="setzt" ref="1384"/>
+      <event event_id="4.0">
+        <role role="pledger" ref="1187" text="Dietrich von Senn ¬&#10;heim"/>
+        <role role="cause" ref="1347" text="vergobt"/>
+        <role role="property" ref="1255" text="seine badsterben genannt zem Trölin&#10;ouch enent Rins gelegen , die git alle Wochen einlif sh .&#10;und die zinset dem Spital von eigenschafft 1 ℔.&#10;sonst frey"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="52" end="80" ref="1315" type="state">
+      <trigger start="63" end="63" text="git" ref="1360"/>
+      <event event_id="5.0">
+        <role role="interval" ref="1366" text="alle Wochen"/>
+        <role role="interest" ref="1285" text="einlif sh ."/>
+        <role role="property" ref="1255" text="seine badsterben genannt zem Trölin&#10;ouch enent Rins gelegen , die git alle Wochen einlif sh .&#10;und die zinset dem Spital von eigenschafft 1 ℔.&#10;sonst frey"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="52" end="80" ref="1315" type="state">
+      <trigger start="71" end="71" text="zinset" ref="1372"/>
+      <event event_id="6.0">
+        <role role="beneficiary" ref="1297" text="dem Spital"/>
+        <role role="cause" ref="1378" text="von eigenschafft"/>
+        <role role="interest" ref="1291" text="1 ℔"/>
+        <role role="property" ref="1255" text="seine badsterben genannt zem Trölin&#10;ouch enent Rins gelegen , die git alle Wochen einlif sh .&#10;und die zinset dem Spital von eigenschafft 1 ℔.&#10;sonst frey"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="7.0">
+        <role role="representative" ref="1187" text="Dietrich von Senn ¬&#10;heim"/>
+        <role role="represented" ref="1199" text="sich"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="8.0">
+        <role role="representative" ref="1187" text="Dietrich von Senn ¬&#10;heim"/>
+        <role role="represented" ref="1212" text="seine 2 tochter"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

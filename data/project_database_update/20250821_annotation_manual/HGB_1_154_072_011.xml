@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 154/72 S. [11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rebgasse 24</tei:title>
+            <tei:idno>HGB 1 154/72</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1505637</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1683">1683</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611728.2915910985 1267763.091557863</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Johann</token>
+    <token token_id="1">Sigrist</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Hafner</token>
+    <token token_id="4">ehuet</token>
+    <token token_id="5">Rheins</token>
+    <token token_id="6">,</token>
+    <token token_id="7">bringt</token>
+    <token token_id="8">vor</token>
+    <token token_id="9">er</token>
+    <token token_id="10">habe</token>
+    <token token_id="11">an</token>
+    <token token_id="12">der</token>
+    <token token_id="13">Rebgasse</token>
+    <token token_id="14">ein</token>
+    <token token_id="15">Haus</token>
+    <token token_id="16">erkauft</token>
+    <token token_id="17">,</token>
+    <token token_id="18">bittet</token>
+    <token token_id="19">um</token>
+    <token token_id="20">das</token>
+    <token token_id="21">Feuerrecht</token>
+    <token token_id="22">.</token>
+    <token token_id="23">Fritsche</token>
+    <token token_id="24">und</token>
+    <token token_id="25">Michel</token>
+    <token token_id="26">Freyburger</token>
+    <token token_id="27">sind</token>
+    <token token_id="28">Nachbarn</token>
+    <token token_id="29">.</token>
+  </text>
+  <spans>
+    <span id="538" start="0" end="5" text="Johann Sigrist der Hafner ehuet Rheins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="544" start="0" end="1" text="Johann Sigrist" element="head" class="nam" subclass=""/>
+      <span id="550" start="2" end="3" text="der Hafner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="556" start="3" end="3" text="Hafner" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="562" start="4" end="5" text="ehuet Rheins" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="568" start="5" end="5" text="Rheins" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="river">
+          <span id="568_head" start="5" end="5" element="head" class="nam" text="Rheins" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="574" start="9" end="9" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="574_head" start="9" end="9" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="587" start="12" end="13" text="der Rebgasse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+      <span id="593" start="13" end="13" text="Rebgasse" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="599" start="14" end="15" text="ein Haus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="605" start="15" end="15" text="Haus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="623" start="16" end="16" text="erkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="629" start="23" end="26" text="Fritsche und Michel Freyburger" element="list" class="per" subclass="">
+      <span id="611" start="23" end="23" text="Fritsche" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="611_head" start="23" end="23" element="head" class="nam" text="Fritsche" subclass=""/>
+      </span>
+      <span id="617" start="25" end="26" text="Michel Freyburger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="617_head" start="25" end="26" element="head" class="nam" text="Michel Freyburger" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="580" from="574" to="538" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="4" end="5" ref="562" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="538" text="Johann Sigrist der Hafner ehuet Rheins"/>
+        <role role="location-b" ref="568" text="Rheins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="16" end="16" ref="" type="event">
+      <trigger start="16" end="16" text="erkauft" ref="623"/>
+      <event event_id="1.0">
+        <role role="buyer" ref="574" text="er"/>
+        <role role="property" ref="599" text="ein Haus"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/13 S. [29]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 1</tei:title>
+            <tei:idno>HGB 1 194/13</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1513939</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Johanniter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1531">1531</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611154.0380530576 1267430.4777040654</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">ZINS</token>
+    <token token_id="1">GROSS</token>
+    <token token_id="2">-</token>
+    <token token_id="3">BASEL</token>
+    <token token_id="4">item</token>
+    <token token_id="5">8</token>
+    <token token_id="6">½</token>
+    <token token_id="7">sh</token>
+    <token token_id="8">.</token>
+    <token token_id="9">das</token>
+    <token token_id="10">Hus</token>
+    <token token_id="11">zum</token>
+    <token token_id="12">roten</token>
+    <token token_id="13">Adler</token>
+    <token token_id="14">oben</token>
+    <token token_id="15">an</token>
+    <token token_id="16">der</token>
+    <token token_id="17">Hutgassen</token>
+    <token token_id="18">.</token>
+  </text>
+  <spans>
+    <span id="452" start="1" end="3" text="GROSS - BASEL" element="reference" class="gpe-gpe" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="452_head" start="1" end="3" element="head" class="nam" text="GROSS - BASEL" subclass=""/>
+    </span>
+    <span id="500" start="4" end="17" text="item 8 ½ sh . das Hus zum roten Adler oben an&#10;der Hutgassen" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="458" start="5" end="8" text="8 ½ sh ." element="value" class="money" subclass=""/>
+      <span id="470" start="9" end="17" text="das Hus zum roten Adler oben an&#10;der Hutgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="476" start="10" end="13" text="Hus zum roten Adler" element="head" class="nam" subclass=""/>
+        <span id="482" start="14" end="17" text="oben an&#10;der Hutgassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="488" start="16" end="17" text="der Hutgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="494" start="17" end="17" text="Hutgassen" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="4" end="17" ref="500" type="state">
+      <event event_id="0.0">
+        <role role="interest" ref="458" text="8 ½ sh ."/>
+        <role role="property" ref="470" text="das Hus zum roten Adler oben an&#10;der Hutgassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="14" end="17" ref="482" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="470" text="das Hus zum roten Adler oben an&#10;der Hutgassen"/>
+        <role role="location-b" ref="488" text="der Hutgassen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

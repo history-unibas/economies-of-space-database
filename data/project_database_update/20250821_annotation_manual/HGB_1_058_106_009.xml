@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/106 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse</tei:title>
+            <tei:idno>HGB 1 58/106</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467889</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1451">1451</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611275.4650489828 1267437.9141451404</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">gend</token>
+    <token token_id="2">ze</token>
+    <token token_id="3">kaufen</token>
+    <token token_id="4">Hanns</token>
+    <token token_id="5">Strübli</token>
+    <token token_id="6">u</token>
+    <token token_id="7">seine</token>
+    <token token_id="8">Frau</token>
+    <token token_id="9">Ennelin</token>
+    <token token_id="10">,</token>
+    <token token_id="11">an</token>
+    <token token_id="12">Clausen</token>
+    <token token_id="13">Gottzschalk</token>
+    <token token_id="14">den</token>
+    <token token_id="15">Kremer</token>
+    <token token_id="16">u</token>
+    <token token_id="17">seine</token>
+    <token token_id="18">Frau</token>
+    <token token_id="19">Urselen</token>
+    <token token_id="20">,</token>
+    <token token_id="21">das</token>
+    <token token_id="22">Hus</token>
+    <token token_id="23">&amp;</token>
+    <token token_id="24">Hofstatt</token>
+    <token token_id="25">genant</token>
+    <token token_id="26">Ach</token>
+    <token token_id="27">,</token>
+    <token token_id="28">gelegen</token>
+    <token token_id="29">under</token>
+    <token token_id="30">den</token>
+    <token token_id="31">Becheren</token>
+    <token token_id="32">,</token>
+    <token token_id="33">neben</token>
+    <token token_id="34">dem</token>
+    <token token_id="35">Hus</token>
+    <token token_id="36">zem</token>
+    <token token_id="37">wissen</token>
+    <token token_id="38">Kurn</token>
+    <token token_id="39">ze</token>
+    <token token_id="40">einer</token>
+    <token token_id="41">siten</token>
+    <token token_id="42">,</token>
+    <token token_id="43">u</token>
+    <token token_id="44">.</token>
+    <token token_id="45">dem</token>
+    <token token_id="46">Huse</token>
+    <token token_id="47">ze</token>
+    <token token_id="48">Helfenstein</token>
+    <token token_id="49">zer</token>
+    <token token_id="50">andern</token>
+    <token token_id="51">siten</token>
+    <token token_id="52">,</token>
+    <token token_id="53">zinset</token>
+    <token token_id="54">von</token>
+    <token token_id="55">eig</token>
+    <token token_id="56">.</token>
+    <token token_id="57">Jkr</token>
+    <token token_id="58">.</token>
+    <token token_id="59">Dietrich</token>
+    <token token_id="60">Sürlin</token>
+    <token token_id="61">dem</token>
+    <token token_id="62">jährl</token>
+    <token token_id="63">darab</token>
+    <token token_id="64">gand</token>
+    <token token_id="65">2</token>
+    <token token_id="66">1</token>
+    <token token_id="67">/</token>
+    <token token_id="68">2</token>
+    <token token_id="69">℔</token>
+    <token token_id="70">,</token>
+    <token token_id="71">u</token>
+    <token token_id="72">.</token>
+    <token token_id="73">1</token>
+    <token token_id="74">℔</token>
+    <token token_id="75">.</token>
+    <token token_id="76">Pfeffer</token>
+    <token token_id="77">wisung</token>
+    <token token_id="78">,</token>
+    <token token_id="79">sonstfrei</token>
+    <token token_id="80">,</token>
+    <token token_id="81">um</token>
+    <token token_id="82">200</token>
+    <token token_id="83">fl</token>
+    <token token_id="84">.</token>
+  </text>
+  <spans>
+    <span id="1505" start="3" end="3" text="kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1311" start="4" end="9" text="Hanns Strübli u seine Frau Ennelin" element="list" class="per" subclass="">
+      <span id="1268" start="4" end="5" text="Hanns Strübli" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1268_head" start="4" end="5" element="head" class="nam" text="Hanns Strübli" subclass=""/>
+      </span>
+      <span id="1274" start="7" end="9" text="seine Frau Ennelin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1286" start="7" end="8" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1298" start="7" end="7" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1298_head" start="7" end="7" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1292" start="8" end="8" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1280" start="9" end="9" text="Ennelin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1378" start="12" end="19" text="Clausen Gottzschalk den Kremer u seine Frau Urselen" element="list" class="per" subclass="">
+      <span id="1317" start="12" end="15" text="Clausen Gottzschalk den Kremer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1323" start="12" end="13" text="Clausen Gottzschalk" element="head" class="nam" subclass=""/>
+        <span id="1329" start="14" end="15" text="den Kremer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1335" start="15" end="15" text="Kremer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1341" start="17" end="19" text="seine Frau Urselen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1353" start="17" end="18" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1365" start="17" end="17" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1365_head" start="17" end="17" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1359" start="18" end="18" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1347" start="19" end="19" text="Urselen" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1384" start="21" end="79" text="das Hus &amp; Hofstatt genant Ach , gelegen under den&#10;Becheren , neben dem Hus zem wissen Kurn ze einer siten ,&#10;u . dem Huse ze Helfenstein zer andern siten , zinset von&#10;eig . Jkr . Dietrich Sürlin dem jährl darab gand 2 1 / 2 ℔, u . 1 ℔.&#10;Pfeffer wisung , sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1390" start="22" end="24" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1396" start="26" end="26" text="Ach" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1396_head" start="26" end="26" element="head" class="nam" text="Ach" subclass=""/>
+      </span>
+      <span id="1402" start="28" end="51" text="gelegen under den&#10;Becheren , neben dem Hus zem wissen Kurn ze einer siten ,&#10;u . dem Huse ze Helfenstein zer andern siten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1408" start="30" end="31" text="den&#10;Becheren" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1414" start="31" end="31" text="Becheren" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1420" start="34" end="38" text="dem Hus zem wissen Kurn" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1426" start="35" end="38" text="Hus zem wissen Kurn" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1432" start="45" end="48" text="dem Huse ze Helfenstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1438" start="46" end="48" text="Huse ze Helfenstein" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1444" start="53" end="79" text="zinset von&#10;eig . Jkr . Dietrich Sürlin dem jährl darab gand 2 1 / 2 ℔, u . 1 ℔.&#10;Pfeffer wisung , sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1511" start="53" end="53" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1517" start="55" end="56" text="eig ." element="other" class="other" subclass=""/>
+        <span id="1450" start="57" end="60" text="Jkr . Dietrich Sürlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1462" start="57" end="58" text="Jkr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1462_head" start="57" end="58" element="head" class="title" text="Jkr ." subclass=""/>
+          </span>
+          <span id="1456" start="59" end="60" text="Dietrich Sürlin" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1468" start="61" end="61" text="dem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1468_head" start="61" end="61" element="head" class="pro" text="dem" subclass=""/>
+        </span>
+        <span id="1481" start="62" end="62" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="1523" start="63" end="63" text="darab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1523_head" start="63" end="63" element="head" class="pro" text="darab" subclass=""/>
+        </span>
+        <span id="1487" start="65" end="69" text="2 1 / 2 ℔" element="value" class="money" subclass=""/>
+        <span id="1493" start="73" end="76" text="1 ℔.&#10;Pfeffer" element="value" class="money" subclass=""/>
+        <span id="1529" start="77" end="77" text="wisung" element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="1499" start="82" end="84" text="200 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1304" from="1298" to="1268" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1371" from="1365" to="1317" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1474" from="1468" to="1450" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="custom_0" from="1523" to="1384" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1511_role" from="1511" to="1384" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="8" ref="1286" type="state">
+      <trigger start="8" end="8" text="Frau" ref="1292"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1274" text="seine Frau Ennelin"/>
+        <role role="family-b" ref="1298" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="17" end="18" ref="1353" type="state">
+      <trigger start="18" end="18" text="Frau" ref="1359"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1341" text="seine Frau Urselen"/>
+        <role role="family-b" ref="1365" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="28" end="51" ref="1402" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1384" text="das Hus &amp; Hofstatt genant Ach , gelegen under den&#10;Becheren , neben dem Hus zem wissen Kurn ze einer siten ,&#10;u . dem Huse ze Helfenstein zer andern siten , zinset von&#10;eig . Jkr . Dietrich Sürlin dem jährl darab gand 2 1 / 2 ℔, u . 1 ℔.&#10;Pfeffer wisung , sonstfrei"/>
+        <role role="location-b" ref="1408" text="den&#10;Becheren"/>
+        <role role="location-b" ref="1420" text="dem Hus zem wissen Kurn"/>
+        <role role="location-b" ref="1432" text="dem Huse ze Helfenstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="84" ref="" type="event">
+      <trigger start="3" end="3" text="kaufen" ref="1505"/>
+      <event event_id="3.0">
+        <role role="seller" ref="1268" text="Hanns Strübli"/>
+        <role role="seller" ref="1274" text="seine Frau Ennelin"/>
+        <role role="buyer" ref="1317" text="Clausen Gottzschalk den Kremer"/>
+        <role role="buyer" ref="1341" text="seine Frau Urselen"/>
+        <role role="property" ref="1384" text="das Hus &amp; Hofstatt genant Ach , gelegen under den&#10;Becheren , neben dem Hus zem wissen Kurn ze einer siten ,&#10;u . dem Huse ze Helfenstein zer andern siten , zinset von&#10;eig . Jkr . Dietrich Sürlin dem jährl darab gand 2 1 / 2 ℔, u . 1 ℔.&#10;Pfeffer wisung , sonstfrei"/>
+        <role role="price" ref="1499" text="200 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="21" end="79" ref="1444" type="state">
+      <trigger start="53" end="53" text="zinset" ref="1511"/>
+      <event event_id="4.0">
+        <role role="cause" ref="1517" text="eig ."/>
+        <role role="beneficiary" ref="1450" text="Jkr . Dietrich Sürlin"/>
+        <role role="interval" ref="1481" text="jährl"/>
+        <role role="property" ref="1523" text="darab"/>
+        <role role="interest" ref="1487" text="2 1 / 2 ℔"/>
+      </event>
+      <event event_id="4.1">
+        <role role="beneficiary" ref="1450" text="Jkr . Dietrich Sürlin"/>
+        <role role="interval" ref="1481" text="jährl"/>
+        <role role="property" ref="1523" text="darab"/>
+        <role role="interest" ref="1493" text="1 ℔.&#10;Pfeffer"/>
+        <role role="cause" ref="1529" text="wisung"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

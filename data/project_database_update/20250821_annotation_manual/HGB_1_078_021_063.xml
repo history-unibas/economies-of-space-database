@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 78/21 S. [63]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Heuberg 17</tei:title>
+            <tei:idno>HGB 1 78/21</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1480171</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1690">1690</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611142.9341763104 1267275.3017120073</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Heinrich</token>
+    <token token_id="1">Bientz</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Metzger</token>
+    <token token_id="4">,</token>
+    <token token_id="5">bittet</token>
+    <token token_id="6">um</token>
+    <token token_id="7">Bewilligung</token>
+    <token token_id="8">,</token>
+    <token token_id="9">dass</token>
+    <token token_id="10">er</token>
+    <token token_id="11">den</token>
+    <token token_id="12">in</token>
+    <token token_id="13">dem</token>
+    <token token_id="14">Höflin</token>
+    <token token_id="15">,</token>
+    <token token_id="16">hinter</token>
+    <token token_id="17">seinem</token>
+    <token token_id="18">Haus</token>
+    <token token_id="19">auf</token>
+    <token token_id="20">dem</token>
+    <token token_id="21">Höwberg</token>
+    <token token_id="22">an</token>
+    <token token_id="23">weyl</token>
+    <token token_id="24">.</token>
+    <token token_id="25">Caspar</token>
+    <token token_id="26">Kellers</token>
+    <token token_id="27">sel</token>
+    <token token_id="28">.</token>
+    <token token_id="29">Wu</token>
+    <token token_id="30">Schiedmans</token>
+    <token token_id="31">stehenden</token>
+    <token token_id="32">Schopf</token>
+    <token token_id="33">höher</token>
+    <token token_id="34">aufführen</token>
+    <token token_id="35">dürfe</token>
+    <token token_id="36">.</token>
+    <token token_id="37">Mathis</token>
+    <token token_id="38">Vest</token>
+    <token token_id="39">der</token>
+    <token token_id="40">Metzger</token>
+    <token token_id="41">ist</token>
+    <token token_id="42">auch</token>
+    <token token_id="43">Nachbar</token>
+    <token token_id="44">.</token>
+  </text>
+  <spans>
+    <span id="756" start="0" end="3" text="Heinrich Bientz der Metzger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="762" start="0" end="1" text="Heinrich Bientz" element="head" class="nam" subclass=""/>
+      <span id="768" start="2" end="3" text="der Metzger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="774" start="3" end="3" text="Metzger" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="945" start="5" end="5" text="bittet" element="trigger" class="consent" tense="pres" polarity="pos" modality="requ" subclass=""/>
+    <span id="780" start="10" end="10" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="780_head" start="10" end="10" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="897" start="11" end="32" text="den in dem Höflin , hinter seinem Haus auf dem&#10;Höwberg an weyl . Caspar Kellers sel . Wu Schiedmans&#10;stehenden Schopf" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="909" start="12" end="31" text="in dem Höflin , hinter seinem Haus auf dem&#10;Höwberg an weyl . Caspar Kellers sel . Wu Schiedmans&#10;stehenden" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="915" start="13" end="14" text="dem Höflin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="793" start="14" end="14" text="Höflin" element="head" class="type" subclass=""/>
+        </span>
+        <span id="799" start="17" end="18" text="seinem Haus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="921" start="17" end="17" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="811" start="17" end="17" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="811_head" start="17" end="17" element="head" class="pro" text="seinem" subclass=""/>
+            </span>
+          </span>
+          <span id="805" start="18" end="18" text="Haus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="824" start="20" end="21" text="dem&#10;Höwberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="830" start="21" end="21" text="Höwberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="927" start="23" end="30" text="weyl . Caspar Kellers sel . Wu Schiedmans" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="939" start="23" end="29" text="weyl . Caspar Kellers sel . Wu" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="872" start="23" end="29" text="weyl . Caspar Kellers sel . Wu" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="836" start="23" end="28" text="weyl . Caspar Kellers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="842" start="25" end="26" text="Caspar Kellers" element="head" class="nam" subclass=""/>
+                <span id="848" start="27" end="28" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              </span>
+              <span id="878" start="29" end="29" text="Wu" element="head" class="fam" subclass=""/>
+            </span>
+          </span>
+          <span id="933" start="30" end="30" text="Schiedmans" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="903" start="32" end="32" text="Schopf" element="head" class="type" subclass=""/>
+    </span>
+    <span id="951" start="34" end="34" text="aufführen" element="trigger" class="construction" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="884" start="37" end="40" text="Mathis Vest der Metzger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="854" start="37" end="38" text="Mathis Vest" element="head" class="nam" subclass=""/>
+      <span id="860" start="39" end="40" text="der Metzger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="866" start="40" end="40" text="Metzger" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="786" from="780" to="756" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="817" from="811" to="756" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="890" from="884" to="756" class="rel" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="23" end="29" ref="872" type="state">
+      <trigger start="29" end="29" text="Wu" ref="878"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="872" text="weyl . Caspar Kellers sel . Wu"/>
+        <role role="family-b" ref="836" text="weyl . Caspar Kellers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="12" end="31" ref="909" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="897" text="den in dem Höflin , hinter seinem Haus auf dem&#10;Höwberg an weyl . Caspar Kellers sel . Wu Schiedmans&#10;stehenden Schopf"/>
+        <role role="location-b" ref="915" text="dem Höflin"/>
+        <role role="location-b" ref="799" text="seinem Haus"/>
+        <role role="location-b" ref="824" text="dem&#10;Höwberg"/>
+        <role role="location-b" ref="927" text="weyl . Caspar Kellers sel . Wu Schiedmans"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="17" end="17" ref="921" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="799" text="seinem Haus"/>
+        <role role="owner" ref="811" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="23" end="29" ref="939" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="927" text="weyl . Caspar Kellers sel . Wu Schiedmans"/>
+        <role role="owner" ref="872" text="weyl . Caspar Kellers sel . Wu"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="consent" polarity="pos" tense="pres" modality="requ" start="0" end="5" ref="" type="event">
+      <trigger start="5" end="5" text="bittet" ref="945"/>
+      <event event_id="4.0">
+        <role role="addressee" ref="756" text="Heinrich Bientz der Metzger"/>
+        <role role="subject" ref="951" text="aufführen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="construction" polarity="pos" tense="pres" modality="ass" start="10" end="34" ref="" type="event">
+      <trigger start="34" end="34" text="aufführen" ref="951"/>
+      <event event_id="5.0">
+        <role role="builder" ref="780" text="er"/>
+        <role role="structure" ref="897" text="den in dem Höflin , hinter seinem Haus auf dem&#10;Höwberg an weyl . Caspar Kellers sel . Wu Schiedmans&#10;stehenden Schopf"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="other_interpersonal_relation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="6.0">
+        <role role="person-a" ref="884" text="Mathis Vest der Metzger"/>
+        <role role="person-b" ref="756" text="Heinrich Bientz der Metzger"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

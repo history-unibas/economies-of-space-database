@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 122/43 S. [19]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Marktplatz Theil von 6 neben Freiestrasse</tei:title>
+            <tei:idno>HGB 1 122/43</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494821</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Liber copiarum</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1492">1492</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611279.5401511835 1267456.1283033183</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Rathsurkunde</token>
+    <token token_id="1">Die</token>
+    <token token_id="2">Fünfe</token>
+    <token token_id="3">über</token>
+    <token token_id="4">der</token>
+    <token token_id="5">Stadt</token>
+    <token token_id="6">Ban</token>
+    <token token_id="7">,</token>
+    <token token_id="8">zwischen</token>
+    <token token_id="9">Clausen</token>
+    <token token_id="10">Kleynbrüder</token>
+    <token token_id="11">dem</token>
+    <token token_id="12">Koch</token>
+    <token token_id="13">als</token>
+    <token token_id="14">Eigenthümer</token>
+    <token token_id="15">des</token>
+    <token token_id="16">Huses</token>
+    <token token_id="17">Apfentzelt</token>
+    <token token_id="18">und</token>
+    <token token_id="19">Heinrichen</token>
+    <token token_id="20">Werdenberg</token>
+    <token token_id="21">dem</token>
+    <token token_id="22">Brotbeck</token>
+    <token token_id="23">als</token>
+    <token token_id="24">Eigentümer</token>
+    <token token_id="25">des</token>
+    <token token_id="26">Hus</token>
+    <token token_id="27">zem</token>
+    <token token_id="28">Schappell</token>
+    <token token_id="29">erkennen</token>
+    <token token_id="30">,</token>
+    <token token_id="31">daß</token>
+    <token token_id="32">Kleinbruder</token>
+    <token token_id="33">nicht</token>
+    <token token_id="34">befügt</token>
+    <token token_id="35">sei</token>
+    <token token_id="36">,</token>
+    <token token_id="37">eine</token>
+    <token token_id="38">Bertiefung</token>
+    <token token_id="39">in</token>
+    <token token_id="40">die</token>
+    <token token_id="41">Scheidemauer</token>
+    <token token_id="42">behufs</token>
+    <token token_id="43">Aufstellung</token>
+    <token token_id="44">einer</token>
+    <token token_id="45">Hertstatt</token>
+    <token token_id="46">ze</token>
+    <token token_id="47">brechen</token>
+    <token token_id="48">.</token>
+  </text>
+  <spans>
+    <span id="805" start="1" end="6" text="Die Fünfe über der Stadt Ban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="811" start="2" end="6" text="Fünfe über der Stadt Ban" element="head" class="type" subclass=""/>
+    </span>
+    <span id="817" start="9" end="12" text="Clausen&#10;Kleynbrüder dem Koch" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="823" start="9" end="10" text="Clausen&#10;Kleynbrüder" element="head" class="nam" subclass=""/>
+      <span id="829" start="11" end="12" text="dem Koch" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="835" start="12" end="12" text="Koch" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="841" start="14" end="17" text="Eigenthümer des Huses&#10;Apfentzelt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="847" start="14" end="14" text="Eigenthümer" element="head" class="owner" subclass=""/>
+      <span id="853" start="15" end="17" text="des Huses&#10;Apfentzelt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="859" start="16" end="17" text="Huses&#10;Apfentzelt" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="872" start="19" end="22" text="Heinrichen Werdenberg dem Brotbeck" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="878" start="19" end="20" text="Heinrichen Werdenberg" element="head" class="nam" subclass=""/>
+      <span id="884" start="21" end="22" text="dem Brotbeck" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="890" start="22" end="22" text="Brotbeck" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="896" start="24" end="28" text="Eigentümer des Hus zem Schappell" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="902" start="24" end="24" text="Eigentümer" element="head" class="owner" subclass=""/>
+      <span id="908" start="25" end="28" text="des Hus zem Schappell" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="914" start="26" end="28" text="Hus zem Schappell" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="946" start="29" end="29" text="erkennen" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="952" start="32" end="47" text="Kleinbruder nicht befügt sei , eine Bertiefung in die&#10;Scheidemauer behufs Aufstellung einer Hertstatt ze&#10;brechen" element="other" class="other" subclass="">
+      <span id="933" start="32" end="32" text="Kleinbruder" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="933_head" start="32" end="32" element="head" class="nam" text="Kleinbruder" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="865" from="841" to="817" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="939" from="933" to="817" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="920" from="896" to="872" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="14" end="17" ref="841" type="state">
+      <trigger start="14" end="14" text="Eigenthümer" ref="847"/>
+      <event event_id="0.0">
+        <role role="owner" ref="841" text="Eigenthümer des Huses&#10;Apfentzelt"/>
+        <role role="property" ref="853" text="des Huses&#10;Apfentzelt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="24" end="28" ref="896" type="state">
+      <trigger start="24" end="24" text="Eigentümer" ref="902"/>
+      <event event_id="1.0">
+        <role role="owner" ref="896" text="Eigentümer des Hus zem Schappell"/>
+        <role role="property" ref="908" text="des Hus zem Schappell"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="litigation" polarity="pos" tense="pres" modality="ass" start="1" end="47" ref="" type="event">
+      <trigger start="29" end="29" text="erkennen" ref="946"/>
+      <event event_id="2.0">
+        <role role="court" ref="805" text="Die Fünfe über der Stadt Ban"/>
+        <role role="party1" ref="817" text="Clausen&#10;Kleynbrüder dem Koch"/>
+        <role role="party2" ref="872" text="Heinrichen Werdenberg dem Brotbeck"/>
+        <role role="decision" ref="952" text="Kleinbruder nicht befügt sei , eine Bertiefung in die&#10;Scheidemauer behufs Aufstellung einer Hertstatt ze&#10;brechen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

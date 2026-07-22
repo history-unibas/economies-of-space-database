@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 85/15 S. [10]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hutgasse 9</tei:title>
+            <tei:idno>HGB 1 85/15</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1481879</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1423">1423</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611212.2302906374 1267428.8301636847</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">git</token>
+    <token token_id="1">ze</token>
+    <token token_id="2">kaufen</token>
+    <token token_id="3">Mr</token>
+    <token token_id="4">.</token>
+    <token token_id="5">Balthasar</token>
+    <token token_id="6">von</token>
+    <token token_id="7">Hachberg</token>
+    <token token_id="8">des</token>
+    <token token_id="9">artzat</token>
+    <token token_id="10">Mr</token>
+    <token token_id="11">.</token>
+    <token token_id="12">Heinrichs</token>
+    <token token_id="13">von</token>
+    <token token_id="14">Hachberg</token>
+    <token token_id="15">der</token>
+    <token token_id="16">Stett</token>
+    <token token_id="17">artzat</token>
+    <token token_id="18">ze</token>
+    <token token_id="19">Liburg</token>
+    <token token_id="20">el</token>
+    <token token_id="21">.</token>
+    <token token_id="22">sin</token>
+    <token token_id="23">,</token>
+    <token token_id="24">an</token>
+    <token token_id="25">Clausen</token>
+    <token token_id="26">Ryplin</token>
+    <token token_id="27">dem</token>
+    <token token_id="28">phlegler</token>
+    <token token_id="29">u</token>
+    <token token_id="30">Els</token>
+    <token token_id="31">men</token>
+    <token token_id="32">siner</token>
+    <token token_id="33">ewirtin</token>
+    <token token_id="34">,</token>
+    <token token_id="35">den</token>
+    <token token_id="36">Stogk</token>
+    <token token_id="37">.</token>
+    <token token_id="38">gelegen</token>
+    <token token_id="39">nebend</token>
+    <token token_id="40">an</token>
+    <token token_id="41">dem</token>
+    <token token_id="42">Hus</token>
+    <token token_id="43">Thauemberg</token>
+    <token token_id="44">so</token>
+    <token token_id="45">gelegen</token>
+    <token token_id="46">ist</token>
+    <token token_id="47">an</token>
+    <token token_id="48">Mienhartz</token>
+    <token token_id="49">gassen</token>
+    <token token_id="50">,</token>
+    <token token_id="51">u</token>
+    <token token_id="52">.</token>
+    <token token_id="53">denne</token>
+    <token token_id="54">sch</token>
+    <token token_id="55">daz</token>
+    <token token_id="56">Kangaden</token>
+    <token token_id="57">nebend</token>
+    <token token_id="58">an</token>
+    <token token_id="59">der</token>
+    <token token_id="60">phleglerin</token>
+    <token token_id="61">hus</token>
+    <token token_id="62">u</token>
+    <token token_id="63">Krangaden</token>
+    <token token_id="64">,</token>
+    <token token_id="65">ist</token>
+    <token token_id="66">erb</token>
+    <token token_id="67">von</token>
+    <token token_id="68">Hansen</token>
+    <token token_id="69">Phlegler</token>
+    <token token_id="70">.</token>
+    <token token_id="71">dem</token>
+    <token token_id="72">darab</token>
+    <token token_id="73">gand</token>
+    <token token_id="74">3</token>
+    <token token_id="75">℔</token>
+    <token token_id="76">sum</token>
+    <token token_id="77">300</token>
+    <token token_id="78">fl</token>
+    <token token_id="79">.</token>
+  </text>
+  <spans>
+    <span id="1576" start="2" end="2" text="kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1315" start="3" end="22" text="Mr . Balthasar von Hachberg&#10;des&#10;artzat Mr . Heinrichs von Hachberg der Stett artzat&#10;ze Liburg el . sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1285" start="5" end="7" text="Balthasar von Hachberg" element="head" class="nam" subclass=""/>
+      <span id="1564" start="8" end="9" text="des&#10;artzat" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1564_head" start="8" end="9" element="head" class="occ" text="des artzat" subclass=""/>
+      </span>
+      <span id="1321" start="10" end="22" text="Mr . Heinrichs von Hachberg der Stett artzat&#10;ze Liburg el . sin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1291" start="10" end="19" text="Mr . Heinrichs von Hachberg der Stett artzat&#10;ze Liburg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1297" start="12" end="14" text="Heinrichs von Hachberg" element="head" class="nam" subclass=""/>
+          <span id="1540" start="15" end="17" text="der Stett artzat" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+            <span id="1552" start="15" end="16" text="der Stett" element="reference" class="gpe-gpe" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1558" start="16" end="16" text="Stett" element="head" class="type" subclass=""/>
+            </span>
+            <span id="1546" start="17" end="17" text="artzat" element="head" class="occ" subclass="org-job"/>
+          </span>
+          <span id="1303" start="18" end="19" text="ze Liburg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1309" start="19" end="19" text="Liburg" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1309_head" start="19" end="19" element="head" class="nam" text="Liburg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1327" start="20" end="22" text="el . sin" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1508" start="25" end="33" text="Clausen Ryplin dem&#10;phlegler u Els men siner ewirtin" element="list" class="per" subclass="">
+      <span id="1333" start="25" end="28" text="Clausen Ryplin dem&#10;phlegler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1339" start="25" end="26" text="Clausen Ryplin" element="head" class="nam" subclass=""/>
+        <span id="1345" start="27" end="28" text="dem&#10;phlegler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1351" start="28" end="28" text="phlegler" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1357" start="30" end="33" text="Els men siner ewirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1363" start="30" end="31" text="Els men" element="head" class="nam" subclass=""/>
+        <span id="1369" start="32" end="33" text="siner ewirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1381" start="32" end="32" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1381_head" start="32" end="32" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="1375" start="33" end="33" text="ewirtin" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1570" start="35" end="61" text="den Stogk .&#10;gelegen nebend an dem Hus Thauemberg so&#10;gelegen ist an Mienhartz gassen , u . denne sch&#10;daz Kangaden nebend an der phleglerin hus" element="list" class="fac" subclass="">
+      <span id="1400" start="35" end="49" text="den Stogk .&#10;gelegen nebend an dem Hus Thauemberg so&#10;gelegen ist an Mienhartz gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1406" start="36" end="36" text="Stogk" element="head" class="type" subclass=""/>
+        <span id="1412" start="38" end="49" text="gelegen nebend an dem Hus Thauemberg so&#10;gelegen ist an Mienhartz gassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1418" start="41" end="49" text="dem Hus Thauemberg so&#10;gelegen ist an Mienhartz gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1424" start="42" end="43" text="Hus Thauemberg" element="head" class="nam" subclass=""/>
+            <span id="1430" start="44" end="49" text="so&#10;gelegen ist an Mienhartz gassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1436" start="48" end="49" text="Mienhartz gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+                <span id="1436_head" start="48" end="49" element="head" class="nam" text="Mienhartz gassen" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1442" start="55" end="61" text="daz Kangaden nebend an der phleglerin hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1448" start="56" end="56" text="Kangaden" element="head" class="type" subclass=""/>
+        <span id="1454" start="57" end="61" text="nebend an der phleglerin hus" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1460" start="59" end="61" text="der phleglerin hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1460_desc_owner" start="59" end="60" text="der phleglerin" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1472" start="59" end="60" text="der phleglerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1478" start="60" end="60" text="phleglerin" element="head" class="fam" subclass=""/>
+              </span>
+            </span>
+            <span id="1466" start="61" end="61" text="hus" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1514" start="63" end="75" text="Krangaden , ist erb von Hansen Phlegler .&#10;dem darab gand 3 ℔" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1484" start="63" end="63" text="Krangaden" element="head" class="type" subclass=""/>
+      <span id="1582" start="65" end="75" text="ist erb von Hansen Phlegler .&#10;dem darab gand 3 ℔" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1594" start="65" end="69" text="ist erb von Hansen Phlegler" element="other" class="other" subclass="">
+          <span id="1490" start="68" end="69" text="Hansen Phlegler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1490_head" start="68" end="69" element="head" class="nam" text="Hansen Phlegler" subclass=""/>
+          </span>
+        </span>
+        <span id="1527" start="71" end="71" text="dem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1527_head" start="71" end="71" element="head" class="pro" text="dem" subclass=""/>
+        </span>
+        <span id="1588" start="73" end="73" text="gand" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1496" start="74" end="75" text="3 ℔" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1502" start="77" end="79" text="300 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1387" from="1381" to="1333" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1520" from="1514" to="1442" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1533" from="1527" to="1490" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1588_role" from="1588" to="1514" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="10" end="22" ref="1321" type="state">
+      <trigger start="20" end="22" text="el . sin" ref="1327"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1315" text="Mr . Balthasar von Hachberg&#10;des&#10;artzat Mr . Heinrichs von Hachberg der Stett artzat&#10;ze Liburg el . sin"/>
+        <role role="family-b" ref="1291" text="Mr . Heinrichs von Hachberg der Stett artzat&#10;ze Liburg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="15" end="17" ref="1540" type="state">
+      <trigger start="17" end="17" text="artzat" ref="1546"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1291" text="Mr . Heinrichs von Hachberg der Stett artzat&#10;ze Liburg"/>
+        <role role="employer" ref="1552" text="der Stett"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="32" end="33" ref="1369" type="state">
+      <trigger start="33" end="33" text="ewirtin" ref="1375"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1357" text="Els men siner ewirtin"/>
+        <role role="family-b" ref="1381" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="18" end="19" ref="1303" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1291" text="Mr . Heinrichs von Hachberg der Stett artzat&#10;ze Liburg"/>
+        <role role="location-b" ref="1309" text="Liburg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="38" end="49" ref="1412" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1400" text="den Stogk .&#10;gelegen nebend an dem Hus Thauemberg so&#10;gelegen ist an Mienhartz gassen"/>
+        <role role="location-b" ref="1418" text="dem Hus Thauemberg so&#10;gelegen ist an Mienhartz gassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="44" end="49" ref="1430" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1418" text="dem Hus Thauemberg so&#10;gelegen ist an Mienhartz gassen"/>
+        <role role="location-b" ref="1436" text="Mienhartz gassen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="57" end="61" ref="1454" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1442" text="daz Kangaden nebend an der phleglerin hus"/>
+        <role role="location-b" ref="1460" text="der phleglerin hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="59" end="60" ref="1460_desc_owner" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1460" text="der phleglerin hus"/>
+        <role role="owner" ref="1472" text="der phleglerin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="2" end="79" ref="" type="event">
+      <trigger start="2" end="2" text="kaufen" ref="1576"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1315" text="Mr . Balthasar von Hachberg&#10;des&#10;artzat Mr . Heinrichs von Hachberg der Stett artzat&#10;ze Liburg el . sin"/>
+        <role role="buyer" ref="1333" text="Clausen Ryplin dem&#10;phlegler"/>
+        <role role="buyer" ref="1357" text="Els men siner ewirtin"/>
+        <role role="property" ref="1400" text="den Stogk .&#10;gelegen nebend an dem Hus Thauemberg so&#10;gelegen ist an Mienhartz gassen"/>
+        <role role="property" ref="1442" text="daz Kangaden nebend an der phleglerin hus"/>
+        <role role="property" ref="1514" text="Krangaden , ist erb von Hansen Phlegler .&#10;dem darab gand 3 ℔"/>
+        <role role="price" ref="1502" text="300 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="63" end="75" ref="1582" type="state">
+      <trigger start="73" end="73" text="gand" ref="1588"/>
+      <event event_id="9.0">
+        <role role="detail_hereditary-owner" ref="1594" text="ist erb von Hansen Phlegler"/>
+        <role role="beneficiary" ref="1527" text="dem"/>
+        <role role="interest" ref="1496" text="3 ℔"/>
+        <role role="property" ref="1514" text="Krangaden , ist erb von Hansen Phlegler .&#10;dem darab gand 3 ℔"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

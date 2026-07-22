@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 229/29 S. [29]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Weisse Gasse 6</tei:title>
+            <tei:idno>HGB 1 229/29</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1535090</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1651">1651</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611356.967229245 1267248.0388756536</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Anschlög</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Herr</token>
+    <token token_id="3">Jacob</token>
+    <token token_id="4">Schweitzer</token>
+    <token token_id="5">Notar</token>
+    <token token_id="6">und</token>
+    <token token_id="7">Cantor</token>
+    <token token_id="8">im</token>
+    <token token_id="9">Münster</token>
+    <token token_id="10">hat</token>
+    <token token_id="11">als</token>
+    <token token_id="12">Vollmechtiger</token>
+    <token token_id="13">Anwaldt</token>
+    <token token_id="14">und</token>
+    <token token_id="15">Gewalthaber</token>
+    <token token_id="16">weiland</token>
+    <token token_id="17">H</token>
+    <token token_id="18">.</token>
+    <token token_id="19">Magistri</token>
+    <token token_id="20">Conrad</token>
+    <token token_id="21">Pfisterers</token>
+    <token token_id="22">sel</token>
+    <token token_id="23">.</token>
+    <token token_id="24">gewesten</token>
+    <token token_id="25">Professoris</token>
+    <token token_id="26">bey</token>
+    <token token_id="27">lobl</token>
+    <token token_id="28">.</token>
+    <token token_id="29">Universität</token>
+    <token token_id="30">allhie</token>
+    <token token_id="31">zuruckhgelassener</token>
+    <token token_id="32">gesambter</token>
+    <token token_id="33">erben</token>
+    <token token_id="34">,</token>
+    <token token_id="35">wegen</token>
+    <token token_id="36">jeniger</token>
+    <token token_id="37">150</token>
+    <token token_id="38">℔</token>
+    <token token_id="39">Capital</token>
+    <token token_id="40">,</token>
+    <token token_id="41">welches</token>
+    <token token_id="42">ermelten</token>
+    <token token_id="43">Pfisteri</token>
+    <token token_id="44">,</token>
+    <token token_id="45">schen</token>
+    <token token_id="46">Erben</token>
+    <token token_id="47">Meister</token>
+    <token token_id="48">Eusebius</token>
+    <token token_id="49">Müller</token>
+    <token token_id="50">Schuhmacher</token>
+    <token token_id="51">und</token>
+    <token token_id="52">Burger</token>
+    <token token_id="53">allhie</token>
+    <token token_id="54">laut</token>
+    <token token_id="55">eines</token>
+    <token token_id="56">Kaufbriefs</token>
+    <token token_id="57">p</token>
+    <token token_id="58">.</token>
+    <token token_id="59">rest</token>
+    <token token_id="60">zu</token>
+    <token token_id="61">thun</token>
+    <token token_id="62">schuldig</token>
+    <token token_id="63">,</token>
+    <token token_id="64">desselben</token>
+    <token token_id="65">hierumben</token>
+    <token token_id="66">zum</token>
+    <token token_id="67">Underpfandt</token>
+    <token token_id="68">verschrie</token>
+    <token token_id="69">¬</token>
+    <token token_id="70">bene</token>
+    <token token_id="71">Behausung</token>
+    <token token_id="72">und</token>
+    <token token_id="73">Hoofstatt</token>
+    <token token_id="74">zum</token>
+    <token token_id="75">Tempel</token>
+    <token token_id="76">genant</token>
+    <token token_id="77">in</token>
+    <token token_id="78">der</token>
+    <token token_id="79">weissen</token>
+    <token token_id="80">Gassen</token>
+    <token token_id="81">,</token>
+    <token token_id="82">einseits</token>
+    <token token_id="83">neben</token>
+    <token token_id="84">H</token>
+    <token token_id="85">.</token>
+    <token token_id="86">Heinrich</token>
+    <token token_id="87">Werenfelsen</token>
+    <token token_id="88">dem</token>
+    <token token_id="89">jetzigen</token>
+    <token token_id="90">Spittahlmeister</token>
+    <token token_id="91">gelegen</token>
+    <token token_id="92">,</token>
+    <token token_id="93">gefrönt</token>
+    <token token_id="94">,</token>
+    <token token_id="95">und</token>
+    <token token_id="96">wirdt</token>
+    <token token_id="97">man</token>
+    <token token_id="98">solche</token>
+    <token token_id="99">Behausung</token>
+    <token token_id="100">auf</token>
+    <token token_id="101">Zeinstag</token>
+    <token token_id="102">den</token>
+    <token token_id="103">23</token>
+    <token token_id="104">.</token>
+    <token token_id="105">Abris</token>
+    <token token_id="106">verkaufen</token>
+    <token token_id="107">.</token>
+  </text>
+  <spans>
+    <span id="1584" start="2" end="9" text="Herr Jacob Schweitzer Notar und Cantor im Münster" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1590" start="3" end="4" text="Jacob Schweitzer" element="head" class="nam" subclass=""/>
+      <span id="1596" start="5" end="5" text="Notar" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1596_head" start="5" end="5" element="head" class="occ" text="Notar" subclass=""/>
+      </span>
+      <span id="1602" start="7" end="9" text="Cantor im Münster" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1608" start="7" end="7" text="Cantor" element="head" class="occ" subclass="org-job"/>
+        <span id="1614" start="8" end="9" text="im Münster" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1620" start="9" end="9" text="Münster" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1626" start="12" end="33" text="Vollmechtiger Anwaldt und Gewalthaber weiland&#10;H . Magistri Conrad Pfisterers sel . gewesten Professoris bey&#10;lobl . Universität allhie zuruckhgelassener gesambter erben" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1632" start="12" end="15" text="Vollmechtiger Anwaldt und Gewalthaber" element="head" class="repr" subclass=""/>
+      <span id="1638" start="16" end="33" text="weiland&#10;H . Magistri Conrad Pfisterers sel . gewesten Professoris bey&#10;lobl . Universität allhie zuruckhgelassener gesambter erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1650" start="16" end="29" text="weiland&#10;H . Magistri Conrad Pfisterers sel . gewesten Professoris bey&#10;lobl . Universität" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1668" start="19" end="19" text="Magistri" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1668_head" start="19" end="19" element="head" class="title" text="Magistri" subclass=""/>
+          </span>
+          <span id="1656" start="20" end="21" text="Conrad Pfisterers" element="head" class="nam" subclass=""/>
+          <span id="1662" start="22" end="23" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          <span id="1674" start="24" end="29" text="gewesten Professoris bey&#10;lobl . Universität" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+            <span id="1680" start="25" end="25" text="Professoris" element="head" class="occ" subclass="org-job"/>
+            <span id="1686" start="27" end="29" text="lobl . Universität" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="edu">
+              <span id="1692" start="29" end="29" text="Universität" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1644" start="33" end="33" text="erben" element="head" class="heir" subclass=""/>
+      </span>
+    </span>
+    <span id="1698" start="37" end="38" text="150 ℔" element="value" class="money" subclass=""/>
+    <span id="1704" start="42" end="46" text="ermelten Pfisteri ,&#10;schen Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1716" start="42" end="43" text="ermelten Pfisteri" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1722" start="43" end="43" text="Pfisteri" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1710" start="46" end="46" text="Erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="1735" start="47" end="52" text="Meister Eusebius Müller Schuhmacher und&#10;Burger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1747" start="47" end="47" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1747_head" start="47" end="47" element="head" class="title" text="Meister" subclass=""/>
+      </span>
+      <span id="1741" start="48" end="49" text="Eusebius Müller" element="head" class="nam" subclass=""/>
+      <span id="1753" start="50" end="50" text="Schuhmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1753_head" start="50" end="50" element="head" class="occ" text="Schuhmacher" subclass=""/>
+      </span>
+      <span id="1759" start="52" end="52" text="Burger" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1759_head" start="52" end="52" element="head" class="org-aff" text="Burger" subclass=""/>
+      </span>
+    </span>
+    <span id="1882" start="62" end="62" text="schuldig" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1765" start="64" end="91" text="desselben hierumben zum Underpfandt verschrie ¬&#10;bene Behausung und Hoofstatt zum Tempel genant in der&#10;weissen Gassen , einseits neben H . Heinrich Werenfelsen&#10;dem jetzigen Spittahlmeister gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1783" start="64" end="64" text="desselben" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1789" start="64" end="64" text="desselben" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1789_head" start="64" end="64" element="head" class="pro" text="desselben" subclass=""/>
+        </span>
+      </span>
+      <span id="1771" start="71" end="73" text="Behausung und Hoofstatt" element="head" class="type" subclass=""/>
+      <span id="1777" start="74" end="75" text="zum Tempel" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1777_head" start="74" end="75" element="head" class="nam" text="zum Tempel" subclass=""/>
+      </span>
+      <span id="1802" start="77" end="91" text="in der&#10;weissen Gassen , einseits neben H . Heinrich Werenfelsen&#10;dem jetzigen Spittahlmeister gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1808" start="78" end="80" text="der&#10;weissen Gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1814" start="79" end="80" text="weissen Gassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1820" start="84" end="90" text="H . Heinrich Werenfelsen&#10;dem jetzigen Spittahlmeister" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1826" start="86" end="87" text="Heinrich Werenfelsen" element="head" class="nam" subclass=""/>
+          <span id="1832" start="88" end="90" text="dem jetzigen Spittahlmeister" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+            <span id="1838" start="90" end="90" text="Spittahlmeister" element="head" class="occ" subclass="org-job"/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1876" start="93" end="93" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1844" start="98" end="99" text="solche Behausung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1850" start="99" end="99" text="Behausung" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1863" start="100" end="105" text="auf Zeinstag den 23 . Abris" element="value" class="date" subclass=""/>
+    <span id="1888" start="106" end="106" text="verkaufen" element="trigger" class="sale" tense="fut" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1869" from="1626" to="1584" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1728" from="1716" to="1650" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1795" from="1789" to="1735" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1856" from="1844" to="1765" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="representation" polarity="pos" tense="pres" modality="ass" start="12" end="33" ref="1626" type="state">
+      <trigger start="12" end="15" text="Vollmechtiger Anwaldt und Gewalthaber" ref="1632"/>
+      <event event_id="0.0">
+        <role role="representative" ref="1626" text="Vollmechtiger Anwaldt und Gewalthaber weiland&#10;H . Magistri Conrad Pfisterers sel . gewesten Professoris bey&#10;lobl . Universität allhie zuruckhgelassener gesambter erben"/>
+        <role role="represented" ref="1638" text="weiland&#10;H . Magistri Conrad Pfisterers sel . gewesten Professoris bey&#10;lobl . Universität allhie zuruckhgelassener gesambter erben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="inheritance" polarity="pos" tense="pres" modality="ass" start="16" end="33" ref="1638" type="event">
+      <trigger start="33" end="33" text="erben" ref="1644"/>
+      <event event_id="1.0">
+        <role role="heir" ref="1638" text="weiland&#10;H . Magistri Conrad Pfisterers sel . gewesten Professoris bey&#10;lobl . Universität allhie zuruckhgelassener gesambter erben"/>
+        <role role="decedent" ref="1650" text="weiland&#10;H . Magistri Conrad Pfisterers sel . gewesten Professoris bey&#10;lobl . Universität"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="inheritance" polarity="pos" tense="pres" modality="ass" start="42" end="46" ref="1704" type="event">
+      <trigger start="46" end="46" text="Erben" ref="1710"/>
+      <event event_id="2.0">
+        <role role="heir" ref="1704" text="ermelten Pfisteri ,&#10;schen Erben"/>
+        <role role="decedent" ref="1716" text="ermelten Pfisteri"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="employment" polarity="pos" tense="pres" modality="ass" start="7" end="9" ref="1602" type="state">
+      <trigger start="7" end="7" text="Cantor" ref="1608"/>
+      <event event_id="3.0">
+        <role role="employee" ref="1584" text="Herr Jacob Schweitzer Notar und Cantor im Münster"/>
+        <role role="employer" ref="1614" text="im Münster"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="employment" polarity="pos" tense="pres" modality="ass" start="24" end="29" ref="1674" type="state">
+      <trigger start="25" end="25" text="Professoris" ref="1680"/>
+      <event event_id="4.0">
+        <role role="employee" ref="1650" text="weiland&#10;H . Magistri Conrad Pfisterers sel . gewesten Professoris bey&#10;lobl . Universität"/>
+        <role role="employer" ref="1686" text="lobl . Universität"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="64" end="64" ref="1783" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1765" text="desselben hierumben zum Underpfandt verschrie ¬&#10;bene Behausung und Hoofstatt zum Tempel genant in der&#10;weissen Gassen , einseits neben H . Heinrich Werenfelsen&#10;dem jetzigen Spittahlmeister gelegen"/>
+        <role role="owner" ref="1789" text="desselben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="77" end="91" ref="1802" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1765" text="desselben hierumben zum Underpfandt verschrie ¬&#10;bene Behausung und Hoofstatt zum Tempel genant in der&#10;weissen Gassen , einseits neben H . Heinrich Werenfelsen&#10;dem jetzigen Spittahlmeister gelegen"/>
+        <role role="location-b" ref="1808" text="der&#10;weissen Gassen"/>
+        <role role="location-b" ref="1820" text="H . Heinrich Werenfelsen&#10;dem jetzigen Spittahlmeister"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="37" end="62" ref="" type="state">
+      <trigger start="62" end="62" text="schuldig" ref="1882"/>
+      <event event_id="7.0">
+        <role role="capital" ref="1698" text="150 ℔"/>
+        <role role="beneficiary" ref="1704" text="ermelten Pfisteri ,&#10;schen Erben"/>
+        <role role="payer" ref="1735" text="Meister Eusebius Müller Schuhmacher und&#10;Burger"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="93" ref="" type="event">
+      <trigger start="93" end="93" text="gefrönt" ref="1876"/>
+      <event event_id="8.0">
+        <role role="claimant" ref="1584" text="Herr Jacob Schweitzer Notar und Cantor im Münster"/>
+        <role role="cause" ref="1882" text="schuldig"/>
+        <role role="property" ref="1765" text="desselben hierumben zum Underpfandt verschrie ¬&#10;bene Behausung und Hoofstatt zum Tempel genant in der&#10;weissen Gassen , einseits neben H . Heinrich Werenfelsen&#10;dem jetzigen Spittahlmeister gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="fut" modality="ass" start="106" end="106" ref="" type="event">
+      <trigger start="106" end="106" text="verkaufen" ref="1888"/>
+      <event event_id="9.0">
+        <role role="property" ref="1844" text="solche Behausung"/>
+        <role role="date" ref="1863" text="auf Zeinstag den 23 . Abris"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

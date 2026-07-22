@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/97 S. [22]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 32</tei:title>
+            <tei:idno>HGB 1 63/97</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472962</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1695">1695</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611279.022349255 1267337.3663579207</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hans</token>
+    <token token_id="1">Conrad</token>
+    <token token_id="2">Holtzingers</token>
+    <token token_id="3">sel</token>
+    <token token_id="4">.</token>
+    <token token_id="5">des</token>
+    <token token_id="6">Raths</token>
+    <token token_id="7">gesambte</token>
+    <token token_id="8">Erben</token>
+    <token token_id="9">haben</token>
+    <token token_id="10">wegen</token>
+    <token token_id="11">jeniger</token>
+    <token token_id="12">1100</token>
+    <token token_id="13">℔</token>
+    <token token_id="14">Capital</token>
+    <token token_id="15">,</token>
+    <token token_id="16">welches</token>
+    <token token_id="17">ihnen</token>
+    <token token_id="18">Hans</token>
+    <token token_id="19">Ludwig</token>
+    <token token_id="20">Jselin</token>
+    <token token_id="21">der</token>
+    <token token_id="22">Handelsmann</token>
+    <token token_id="23">zu</token>
+    <token token_id="24">thun</token>
+    <token token_id="25">schuldig</token>
+    <token token_id="26">,</token>
+    <token token_id="27">desselben</token>
+    <token token_id="28">Behausung</token>
+    <token token_id="29">zum</token>
+    <token token_id="30">Nuss</token>
+    <token token_id="31">¬</token>
+    <token token_id="32">bann</token>
+    <token token_id="33">genannt</token>
+    <token token_id="34">,</token>
+    <token token_id="35">an</token>
+    <token token_id="36">der</token>
+    <token token_id="37">Gerwergassen</token>
+    <token token_id="38">,</token>
+    <token token_id="39">einseits</token>
+    <token token_id="40">neben</token>
+    <token token_id="41">Theodor</token>
+    <token token_id="42">Falckh</token>
+    <token token_id="43">,</token>
+    <token token_id="44">eisen</token>
+    <token token_id="45">,</token>
+    <token token_id="46">anderseits</token>
+    <token token_id="47">neben</token>
+    <token token_id="48">Mr</token>
+    <token token_id="49">.</token>
+    <token token_id="50">Sebastian</token>
+    <token token_id="51">Freyburger</token>
+    <token token_id="52">dem</token>
+    <token token_id="53">Kirssner</token>
+    <token token_id="54">,</token>
+    <token token_id="55">gelegen</token>
+    <token token_id="56">,</token>
+    <token token_id="57">gefrönt</token>
+    <token token_id="58">.</token>
+    <token token_id="59">Wernhard</token>
+    <token token_id="60">Faesch</token>
+    <token token_id="61">des</token>
+    <token token_id="62">Raths</token>
+    <token token_id="63">kauft</token>
+    <token token_id="64">sie</token>
+    <token token_id="65">um</token>
+    <token token_id="66">2640</token>
+    <token token_id="67">℔</token>
+    <token token_id="68">.</token>
+  </text>
+  <spans>
+    <span id="1034" start="0" end="8" text="Hans Conrad Holtzingers sel . des Raths gesambte Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1046" start="0" end="6" text="Hans Conrad Holtzingers sel . des Raths" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1052" start="0" end="2" text="Hans Conrad Holtzingers" element="head" class="nam" subclass=""/>
+        <span id="1058" start="3" end="4" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1070" start="5" end="6" text="des Raths" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1064" start="6" end="6" text="Raths" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+            <span id="1064_head" start="6" end="6" element="head" class="type" text="Raths" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1040" start="8" end="8" text="Erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="1235" start="11" end="25" text="jeniger 1100 ℔ Capital , welches ihnen Hans Ludwig Jselin der&#10;Handelsmann zu thun schuldig" element="eventspan" class="debt" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1076" start="12" end="13" text="1100 ℔" element="value" class="money" subclass=""/>
+      <span id="1082" start="17" end="17" text="ihnen" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1082_head" start="17" end="17" element="head" class="pro" text="ihnen" subclass=""/>
+      </span>
+      <span id="1095" start="18" end="22" text="Hans Ludwig Jselin der&#10;Handelsmann" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1101" start="18" end="20" text="Hans Ludwig Jselin" element="head" class="nam" subclass=""/>
+        <span id="1107" start="21" end="22" text="der&#10;Handelsmann" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1113" start="22" end="22" text="Handelsmann" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1241" start="25" end="25" text="schuldig" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1119" start="27" end="55" text="desselben Behausung zum Nuss ¬&#10;bann genannt , an der Gerwergassen , einseits neben Theodor Falckh ,&#10;eisen , anderseits neben Mr . Sebastian Freyburger dem Kirssner ,&#10;gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1247" start="27" end="27" text="desselben" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1131" start="27" end="27" text="desselben" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1131_head" start="27" end="27" element="head" class="pro" text="desselben" subclass=""/>
+        </span>
+      </span>
+      <span id="1125" start="28" end="28" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="1144" start="29" end="32" text="zum Nuss ¬&#10;bann" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1144_head" start="29" end="32" element="head" class="nam" text="zum Nuss ¬ bann" subclass=""/>
+      </span>
+      <span id="custom_desc_loc" start="35" end="54" text="an der Gerwergassen , einseits neben Theodor Falckh ,&#10;eisen , anderseits neben Mr . Sebastian Freyburger dem Kirssner ," element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1150" start="36" end="37" text="der Gerwergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1156" start="37" end="37" text="Gerwergassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1162" start="41" end="44" text="Theodor Falckh ,&#10;eisen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1162_head" start="41" end="44" element="head" class="nam" text="Theodor Falckh , eisen" subclass=""/>
+        </span>
+        <span id="1168" start="48" end="53" text="Mr . Sebastian Freyburger dem Kirssner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1174" start="50" end="51" text="Sebastian Freyburger" element="head" class="nam" subclass=""/>
+          <span id="1180" start="52" end="53" text="dem Kirssner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1186" start="53" end="53" text="Kirssner" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1253" start="57" end="57" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1259" start="59" end="68" text="Wernhard Faesch des Raths kauft sie um 2640 ℔." element="eventspan" class="sale" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1192" start="59" end="62" text="Wernhard Faesch des Raths" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1198" start="59" end="60" text="Wernhard Faesch" element="head" class="nam" subclass=""/>
+        <span id="1204" start="61" end="62" text="des Raths" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1210" start="62" end="62" text="Raths" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+            <span id="1210_head" start="62" end="62" element="head" class="type" text="Raths" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1265" start="63" end="63" text="kauft" element="trigger" class="type" subclass=""/>
+      <span id="1216" start="64" end="64" text="sie" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1216_head" start="64" end="64" element="head" class="pro" text="sie" subclass=""/>
+      </span>
+      <span id="1229" start="66" end="68" text="2640 ℔." element="value" class="money" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1088" from="1082" to="1034" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1137" from="1131" to="1095" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1222" from="1216" to="1119" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="debt" polarity="pos" tense="pres" modality="ass" start="11" end="25" ref="1235" type="state">
+      <trigger start="25" end="25" text="schuldig" ref="1241"/>
+      <event event_id="0.0">
+        <role role="capital" ref="1076" text="1100 ℔"/>
+        <role role="creditor" ref="1082" text="ihnen"/>
+        <role role="debitor" ref="1095" text="Hans Ludwig Jselin der&#10;Handelsmann"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="59" end="68" ref="1259" type="event">
+      <trigger start="63" end="63" text="kauft" ref="1265"/>
+      <event event_id="1.0">
+        <role role="buyer" ref="1192" text="Wernhard Faesch des Raths"/>
+        <role role="property" ref="1216" text="sie"/>
+        <role role="price" ref="1229" text="2640 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="inheritance" polarity="pos" tense="pres" modality="ass" start="0" end="8" ref="1034" type="event">
+      <trigger start="8" end="8" text="Erben" ref="1040"/>
+      <event event_id="2.0">
+        <role role="heir" ref="1034" text="Hans Conrad Holtzingers sel . des Raths gesambte Erben"/>
+        <role role="decedent" ref="1046" text="Hans Conrad Holtzingers sel . des Raths"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="membership" polarity="pos" tense="pres" modality="ass" start="5" end="6" ref="1070" type="state">
+      <event event_id="3.0">
+        <role role="member" ref="1046" text="Hans Conrad Holtzingers sel . des Raths"/>
+        <role role="organization" ref="1064" text="Raths"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="27" end="27" ref="1247" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1119" text="desselben Behausung zum Nuss ¬&#10;bann genannt , an der Gerwergassen , einseits neben Theodor Falckh ,&#10;eisen , anderseits neben Mr . Sebastian Freyburger dem Kirssner ,&#10;gelegen"/>
+        <role role="owner" ref="1131" text="desselben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="54" ref="custom_desc_loc" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1119" text="desselben Behausung zum Nuss ¬&#10;bann genannt , an der Gerwergassen , einseits neben Theodor Falckh ,&#10;eisen , anderseits neben Mr . Sebastian Freyburger dem Kirssner ,&#10;gelegen"/>
+        <role role="location-b" ref="1150" text="der Gerwergassen"/>
+        <role role="location-b" ref="1162" text="Theodor Falckh ,&#10;eisen"/>
+        <role role="location-b" ref="1168" text="Mr . Sebastian Freyburger dem Kirssner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="membership" polarity="pos" tense="pres" modality="ass" start="61" end="62" ref="1204" type="state">
+      <event event_id="6.0">
+        <role role="member" ref="1192" text="Wernhard Faesch des Raths"/>
+        <role role="organization" ref="1210" text="Raths"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="57" ref="" type="event">
+      <trigger start="57" end="57" text="gefrönt" ref="1253"/>
+      <event event_id="7.0">
+        <role role="claimant" ref="1034" text="Hans Conrad Holtzingers sel . des Raths gesambte Erben"/>
+        <role role="cause" ref="1235" text="jeniger 1100 ℔ Capital , welches ihnen Hans Ludwig Jselin der&#10;Handelsmann zu thun schuldig"/>
+        <role role="property" ref="1119" text="desselben Behausung zum Nuss ¬&#10;bann genannt , an der Gerwergassen , einseits neben Theodor Falckh ,&#10;eisen , anderseits neben Mr . Sebastian Freyburger dem Kirssner ,&#10;gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

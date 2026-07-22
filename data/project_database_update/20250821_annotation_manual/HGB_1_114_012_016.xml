@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 114/12 S. [16]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Leonhardskirchplatz Theil von 2, neben St. Leonhardsberg 15</tei:title>
+            <tei:idno>HGB 1 114/12</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1493739</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Leonhard</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1548">1548</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611217.896561056 1267212.4215169284</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Fronfastenzins</token>
+    <token token_id="1">.</token>
+    <token token_id="2">1548</token>
+    <token token_id="3">Curbatzin</token>
+    <token token_id="4">git</token>
+    <token token_id="5">10</token>
+    <token token_id="6">sh</token>
+    <token token_id="7">.</token>
+    <token token_id="8">von</token>
+    <token token_id="9">der</token>
+    <token token_id="10">Schul</token>
+    <token token_id="11">.</token>
+    <token token_id="12">jerl</token>
+    <token token_id="13">.</token>
+    <token token_id="14">2</token>
+    <token token_id="15">℔</token>
+    <token token_id="16">.</token>
+    <token token_id="17">Extantz</token>
+    <token token_id="18">Hans</token>
+    <token token_id="19">Schürer</token>
+    <token token_id="20">sol</token>
+    <token token_id="21">.</token>
+    <token token_id="22">10</token>
+    <token token_id="23">sh</token>
+    <token token_id="24">.</token>
+    <token token_id="25">1549</token>
+    <token token_id="26">.</token>
+    <token token_id="27">Ebenso</token>
+    <token token_id="28">.</token>
+    <token token_id="29">Extantz</token>
+    <token token_id="30">.</token>
+    <token token_id="31">1550</token>
+    <token token_id="32">Ebenso</token>
+    <token token_id="33">.</token>
+    <token token_id="34">Extantz</token>
+    <token token_id="35">.</token>
+    <token token_id="36">1551</token>
+    <token token_id="37">Ebenso</token>
+    <token token_id="38">.</token>
+    <token token_id="39">Extantz</token>
+    <token token_id="40">.</token>
+    <token token_id="41">1552</token>
+    <token token_id="42">Ebenso</token>
+    <token token_id="43">.</token>
+    <token token_id="44">Extantz</token>
+    <token token_id="45">.</token>
+    <token token_id="46">1553</token>
+    <token token_id="47">.</token>
+    <token token_id="48">Ebenso</token>
+    <token token_id="49">.</token>
+    <token token_id="50">Extantz</token>
+    <token token_id="51">.</token>
+    <token token_id="52">1554</token>
+    <token token_id="53">Hans</token>
+    <token token_id="54">Zeller</token>
+    <token token_id="55">git</token>
+    <token token_id="56">obigen</token>
+    <token token_id="57">zins</token>
+    <token token_id="58">.</token>
+  </text>
+  <spans>
+    <span id="901" start="2" end="2" text="1548" element="value" class="date" subclass=""/>
+    <span id="943" start="3" end="3" text="Curbatzin" element="reference" class="unk" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="943_head" start="3" end="3" element="head" class="unk" text="Curbatzin" subclass=""/>
+    </span>
+    <span id="1003" start="4" end="4" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="949" start="5" end="7" text="10 sh ." element="value" class="money" subclass=""/>
+    <span id="991" start="9" end="11" text="der Schul ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="997" start="10" end="11" text="Schul ." element="head" class="type" subclass=""/>
+    </span>
+    <span id="955" start="12" end="13" text="jerl ." element="value" class="time" subclass="rec"/>
+    <span id="961" start="14" end="16" text="2 ℔." element="value" class="money" subclass=""/>
+    <span id="967" start="18" end="19" text="Hans Schürer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="967_head" start="18" end="19" element="head" class="nam" text="Hans Schürer" subclass=""/>
+    </span>
+    <span id="973" start="22" end="24" text="10 sh ." element="value" class="money" subclass=""/>
+    <span id="907" start="25" end="25" text="1549" element="value" class="date" subclass=""/>
+    <span id="913" start="31" end="31" text="1550" element="value" class="date" subclass=""/>
+    <span id="919" start="36" end="36" text="1551" element="value" class="date" subclass=""/>
+    <span id="925" start="41" end="41" text="1552" element="value" class="date" subclass=""/>
+    <span id="931" start="46" end="46" text="1553" element="value" class="date" subclass=""/>
+    <span id="937" start="52" end="52" text="1554" element="value" class="date" subclass=""/>
+    <span id="979" start="53" end="54" text="Hans Zeller" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="979_head" start="53" end="54" element="head" class="nam" text="Hans Zeller" subclass=""/>
+    </span>
+    <span id="1009" start="55" end="55" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="1015" start="57" end="57" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1021" from="1015" to="1003" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="2" end="46" ref="" type="event">
+      <trigger start="4" end="4" text="git" ref="1003"/>
+      <event event_id="0.0">
+        <role role="date" ref="901" text="1548"/>
+        <role role="payer" ref="943" text="Curbatzin"/>
+        <role role="interest" ref="949" text="10 sh ."/>
+        <role role="property" ref="991" text="der Schul ."/>
+        <role role="interval" ref="955" text="jerl ."/>
+        <role role="interest" ref="961" text="2 ℔."/>
+      </event>
+      <event event_id="0.1">
+        <role role="payer" ref="943" text="Curbatzin"/>
+        <role role="interest" ref="949" text="10 sh ."/>
+        <role role="property" ref="991" text="der Schul ."/>
+        <role role="interval" ref="955" text="jerl ."/>
+        <role role="interest" ref="961" text="2 ℔."/>
+        <role role="date-missing" ref="907" text="1549"/>
+        <role role="date-missing" ref="913" text="1550"/>
+        <role role="date-missing" ref="919" text="1551"/>
+        <role role="date-missing" ref="925" text="1552"/>
+        <role role="date-missing" ref="931" text="1553"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="52" end="57" ref="" type="event">
+      <trigger start="55" end="55" text="git" ref="1009"/>
+      <event event_id="1.0">
+        <role role="date" ref="937" text="1554"/>
+        <role role="payer" ref="979" text="Hans Zeller"/>
+        <role role="previous-due" ref="1015" text="zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="57" end="57" ref="" type="event">
+      <trigger start="57" end="57" text="zins" ref="1015"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 18/11 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Bäumleingasse Theil von 1, Mitte</tei:title>
+            <tei:idno>HGB 1 18/11</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1461052</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1436">1436</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611529.073301839 1267139.233483081</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Von</token>
+    <token token_id="1">den</token>
+    <token token_id="2">Augustinern</token>
+    <token token_id="3">und</token>
+    <token token_id="4">über</token>
+    <token token_id="5">Burg</token>
+    <token token_id="6">für</token>
+    <token token_id="7">den</token>
+    <token token_id="8">Spital</token>
+    <token token_id="9">.</token>
+    <token token_id="10">item</token>
+    <token token_id="11">Relta</token>
+    <token token_id="12">quda</token>
+    <token token_id="13">Heinrici</token>
+    <token token_id="14">Jsenlin</token>
+    <token token_id="15">git</token>
+    <token token_id="16">jerklich</token>
+    <token token_id="17">uff</token>
+    <token token_id="18">sant</token>
+    <token token_id="19">Martin</token>
+    <token token_id="20">tag</token>
+    <token token_id="21">.</token>
+    <token token_id="22">5</token>
+    <token token_id="23">sh</token>
+    <token token_id="24">.</token>
+    <token token_id="25">zinnsen</token>
+    <token token_id="26">von</token>
+    <token token_id="27">dem</token>
+    <token token_id="28">Hus</token>
+    <token token_id="29">zem</token>
+    <token token_id="30">Kalb</token>
+    <token token_id="31">ne</token>
+    <token token_id="32">¬</token>
+    <token token_id="33">bent</token>
+    <token token_id="34">Rechenstein</token>
+    <token token_id="35">.</token>
+    <token token_id="36">item</token>
+    <token token_id="37">aber</token>
+    <token token_id="38">git</token>
+    <token token_id="39">er</token>
+    <token token_id="40">10</token>
+    <token token_id="41">sh</token>
+    <token token_id="42">.</token>
+    <token token_id="43">zinnsdn</token>
+    <token token_id="44">.</token>
+    <token token_id="45">von</token>
+    <token token_id="46">einem</token>
+    <token token_id="47">Garten</token>
+    <token token_id="48">.</token>
+  </text>
+  <spans>
+    <span id="769" start="1" end="2" text="den Augustinern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="775" start="2" end="2" text="Augustinern" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="781" start="5" end="5" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="781_head" start="5" end="5" element="head" class="nam" text="Burg" subclass=""/>
+    </span>
+    <span id="787" start="7" end="8" text="den Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="793" start="8" end="8" text="Spital" element="head" class="type" subclass=""/>
+    </span>
+    <span id="799" start="11" end="14" text="Relta quda Heinrici Jsenlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="805" start="11" end="11" text="Relta" element="head" class="heir" subclass=""/>
+      <span id="811" start="13" end="14" text="Heinrici Jsenlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="811_head" start="13" end="14" element="head" class="nam" text="Heinrici Jsenlin" subclass=""/>
+      </span>
+    </span>
+    <span id="817" start="16" end="16" text="jerklich" element="value" class="time" subclass="rec"/>
+    <span id="823" start="17" end="20" text="uff sant&#10;Martin tag" element="value" class="date" subclass=""/>
+    <span id="829" start="22" end="24" text="5 sh ." element="value" class="money" subclass=""/>
+    <span id="884" start="25" end="25" text="zinnsen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="835" start="27" end="34" text="dem Hus zem Kalb ne ¬&#10;bent Rechenstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="841" start="28" end="30" text="Hus zem Kalb" element="head" class="nam" subclass=""/>
+      <span id="847" start="31" end="34" text="ne ¬&#10;bent Rechenstein" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="853" start="34" end="34" text="Rechenstein" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="853_head" start="34" end="34" element="head" class="nam" text="Rechenstein" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="890" start="38" end="38" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="859" start="39" end="39" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="859_head" start="39" end="39" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="896" start="40" end="44" text="10 sh . zinnsdn ." element="value" class="money" subclass=""/>
+    <span id="872" start="46" end="47" text="einem Garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="878" start="47" end="47" text="Garten" element="head" class="type" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="865" from="859" to="799" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="11" end="14" ref="799" type="event">
+      <trigger start="11" end="11" text="Relta" ref="805"/>
+      <event event_id="0.0">
+        <role role="heir" ref="799" text="Relta quda Heinrici Jsenlin"/>
+        <role role="decedent" ref="811" text="Heinrici Jsenlin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="31" end="34" ref="847" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="835" text="dem Hus zem Kalb ne ¬&#10;bent Rechenstein"/>
+        <role role="location-b" ref="853" text="Rechenstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="11" end="34" ref="" type="state">
+      <trigger start="25" end="25" text="zinnsen" ref="884"/>
+      <event event_id="2.0">
+        <role role="payer" ref="799" text="Relta quda Heinrici Jsenlin"/>
+        <role role="interval" ref="817" text="jerklich"/>
+        <role role="due-date" ref="823" text="uff sant&#10;Martin tag"/>
+        <role role="interest" ref="829" text="5 sh ."/>
+        <role role="property" ref="835" text="dem Hus zem Kalb ne ¬&#10;bent Rechenstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="38" end="47" ref="" type="state">
+      <trigger start="38" end="38" text="git" ref="890"/>
+      <event event_id="3.0">
+        <role role="payer" ref="859" text="er"/>
+        <role role="interest" ref="896" text="10 sh . zinnsdn ."/>
+        <role role="property" ref="872" text="einem Garten"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

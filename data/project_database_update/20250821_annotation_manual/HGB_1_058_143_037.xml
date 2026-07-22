@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/143 S. [37]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 26</tei:title>
+            <tei:idno>HGB 1 58/143</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1468083</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Peter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1559">1559</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611357.4464680483 1267342.9159884935</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1559</token>
+    <token token_id="1">.</token>
+    <token token_id="2">freye</token>
+    <token token_id="3">Straß</token>
+    <token token_id="4">und</token>
+    <token token_id="5">wißi</token>
+    <token token_id="6">gaßen</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Item</token>
+    <token token_id="9">ratz</token>
+    <token token_id="10">her</token>
+    <token token_id="11">und</token>
+    <token token_id="12">meyster</token>
+    <token token_id="13">der</token>
+    <token token_id="14">Pfister</token>
+    <token token_id="15">zunfft</token>
+    <token token_id="16">gendt</token>
+    <token token_id="17">uff</token>
+    <token token_id="18">Marttini</token>
+    <token token_id="19">.</token>
+    <token token_id="20">2</token>
+    <token token_id="21">℔</token>
+    <token token_id="22">5ß</token>
+    <token token_id="23">Ebenso</token>
+    <token token_id="24">1560</token>
+    <token token_id="25">.</token>
+    <token token_id="26">Ebenso</token>
+    <token token_id="27">1561</token>
+    <token token_id="28">.</token>
+    <token token_id="29">Ebenso</token>
+    <token token_id="30">1562</token>
+    <token token_id="31">.</token>
+    <token token_id="32">Ebenso</token>
+    <token token_id="33">1563</token>
+    <token token_id="34">.</token>
+    <token token_id="35">Ebenso</token>
+    <token token_id="36">1564</token>
+    <token token_id="37">.</token>
+    <token token_id="38">Ebenso</token>
+    <token token_id="39">1565</token>
+    <token token_id="40">.</token>
+    <token token_id="41">Ebenso</token>
+    <token token_id="42">1566</token>
+    <token token_id="43">.</token>
+    <token token_id="44">Ebenso</token>
+    <token token_id="45">1568</token>
+    <token token_id="46">.</token>
+    <token token_id="47">Ebenso</token>
+    <token token_id="48">1567</token>
+    <token token_id="49">.</token>
+    <token token_id="50">1569</token>
+    <token token_id="51">/</token>
+    <token token_id="52">78</token>
+    <token token_id="53">fehlen</token>
+    <token token_id="54">.</token>
+    <token token_id="55">1579</token>
+    <token token_id="56">wie</token>
+    <token token_id="57">oben</token>
+    <token token_id="58">.</token>
+  </text>
+  <spans>
+    <span id="1082" start="0" end="0" text="1559" element="value" class="date" subclass=""/>
+    <span id="962" start="2" end="3" text="freye Straß" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+      <span id="962_head" start="2" end="3" element="head" class="nam" text="freye Straß" subclass=""/>
+    </span>
+    <span id="968" start="5" end="6" text="wißi gaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+      <span id="968_head" start="5" end="6" element="head" class="nam" text="wißi gaßen" subclass=""/>
+    </span>
+    <span id="974" start="9" end="10" text="ratz her" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="974_head" start="9" end="10" element="head" class="occ" text="ratz her" subclass="org-job"/>
+    </span>
+    <span id="980" start="12" end="15" text="meyster der Pfister zunfft" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="986" start="12" end="12" text="meyster" element="head" class="occ" subclass="org-job"/>
+      <span id="992" start="14" end="15" text="Pfister zunfft" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+        <span id="992_head" start="14" end="15" element="head" class="nam" text="Pfister zunfft" subclass=""/>
+      </span>
+    </span>
+    <span id="1088" start="16" end="16" text="gendt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="998" start="17" end="18" text="uff Marttini" element="value" class="date" subclass=""/>
+    <span id="1004" start="20" end="22" text="2 ℔ 5ß" element="value" class="money" subclass=""/>
+    <span id="1010" start="24" end="24" text="1560" element="value" class="date" subclass=""/>
+    <span id="1016" start="27" end="27" text="1561" element="value" class="date" subclass=""/>
+    <span id="1022" start="30" end="30" text="1562" element="value" class="date" subclass=""/>
+    <span id="1028" start="33" end="33" text="1563" element="value" class="date" subclass=""/>
+    <span id="1034" start="36" end="36" text="1564" element="value" class="date" subclass=""/>
+    <span id="1040" start="39" end="39" text="1565" element="value" class="date" subclass=""/>
+    <span id="1046" start="42" end="42" text="1566" element="value" class="date" subclass=""/>
+    <span id="1052" start="45" end="45" text="1568" element="value" class="date" subclass=""/>
+    <span id="1058" start="48" end="48" text="1567" element="value" class="date" subclass=""/>
+    <span id="1064" start="50" end="50" text="1569" element="value" class="date" subclass=""/>
+    <span id="1070" start="52" end="52" text="78" element="value" class="date" subclass=""/>
+    <span id="1076" start="55" end="55" text="1579" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="12" end="15" ref="980" type="state">
+      <trigger start="12" end="12" text="meyster" ref="986"/>
+      <event event_id="0.0">
+        <role role="employee" ref="980" text="meyster der Pfister zunfft"/>
+        <role role="employer" ref="992" text="Pfister zunfft"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="55" ref="" type="event">
+      <trigger start="16" end="16" text="gendt" ref="1088"/>
+      <event event_id="1.0">
+        <role role="date" ref="1082" text="1559"/>
+        <role role="payer" ref="974" text="ratz her"/>
+        <role role="payer" ref="980" text="meyster der Pfister zunfft"/>
+        <role role="due-date" ref="998" text="uff Marttini"/>
+        <role role="interest" ref="1004" text="2 ℔ 5ß"/>
+      </event>
+      <event event_id="1.1">
+        <role role="payer" ref="974" text="ratz her"/>
+        <role role="payer" ref="980" text="meyster der Pfister zunfft"/>
+        <role role="due-date" ref="998" text="uff Marttini"/>
+        <role role="interest" ref="1004" text="2 ℔ 5ß"/>
+        <role role="date" ref="1010" text="1560"/>
+        <role role="date" ref="1016" text="1561"/>
+        <role role="date" ref="1022" text="1562"/>
+        <role role="date" ref="1028" text="1563"/>
+        <role role="date" ref="1034" text="1564"/>
+        <role role="date" ref="1040" text="1565"/>
+        <role role="date" ref="1046" text="1566"/>
+        <role role="date" ref="1052" text="1568"/>
+        <role role="date" ref="1058" text="1567"/>
+      </event>
+      <event event_id="1.2">
+        <role role="payer" ref="974" text="ratz her"/>
+        <role role="payer" ref="980" text="meyster der Pfister zunfft"/>
+        <role role="due-date" ref="998" text="uff Marttini"/>
+        <role role="interest" ref="1004" text="2 ℔ 5ß"/>
+        <role role="date-missing" ref="1064" text="1569"/>
+        <role role="date-missing" ref="1070" text="78"/>
+      </event>
+      <event event_id="1.3">
+        <role role="payer" ref="974" text="ratz her"/>
+        <role role="payer" ref="980" text="meyster der Pfister zunfft"/>
+        <role role="due-date" ref="998" text="uff Marttini"/>
+        <role role="interest" ref="1004" text="2 ℔ 5ß"/>
+        <role role="date" ref="1076" text="1579"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 147/22 S. [18]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Petersgasse 23, laut Löffelschem Stadtplan Th. v. 23  neben Petersberg, laut Adressbuch v. 1862</tei:title>
+            <tei:idno>HGB 1 147/22</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1502457</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1448">1448</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611097.1240939577 1267676.5172830115</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Henman</token>
+    <token token_id="1">von</token>
+    <token token_id="2">Pffenburg</token>
+    <token token_id="3">Ritter</token>
+    <token token_id="4">,</token>
+    <token token_id="5">verkauft</token>
+    <token token_id="6">an</token>
+    <token token_id="7">Hr</token>
+    <token token_id="8">.</token>
+    <token token_id="9">Hans</token>
+    <token token_id="10">von</token>
+    <token token_id="11">Flachslanden</token>
+    <token token_id="12">Meyger</token>
+    <token token_id="13">zu</token>
+    <token token_id="14">Biell</token>
+    <token token_id="15">,</token>
+    <token token_id="16">u</token>
+    <token token_id="17">.</token>
+    <token token_id="18">Frau</token>
+    <token token_id="19">Susannen</token>
+    <token token_id="20">das</token>
+    <token token_id="21">Hus</token>
+    <token token_id="22">u</token>
+    <token token_id="23">.</token>
+    <token token_id="24">Hofstatt</token>
+    <token token_id="25">genant</token>
+    <token token_id="26">Butenhein</token>
+    <token token_id="27">gelegen</token>
+    <token token_id="28">uf</token>
+    <token token_id="29">s</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Peters</token>
+    <token token_id="32">-</token>
+    <token token_id="33">berg</token>
+    <token token_id="34">gegen</token>
+    <token token_id="35">des</token>
+    <token token_id="36">Verkäufers</token>
+    <token token_id="37">hof</token>
+    <token token_id="38">über</token>
+    <token token_id="39">u</token>
+    <token token_id="40">.</token>
+    <token token_id="41">reichet</token>
+    <token token_id="42">herab</token>
+    <token token_id="43">uf</token>
+    <token token_id="44">der</token>
+    <token token_id="45">Herrenstuben</token>
+    <token token_id="46">zem</token>
+    <token token_id="47">Brunnen</token>
+    <token token_id="48">,</token>
+    <token token_id="49">neben</token>
+    <token token_id="50">den</token>
+    <token token_id="51">Hüsern</token>
+    <token token_id="52">Fryburg</token>
+    <token token_id="53">ư</token>
+    <token token_id="54">Murg</token>
+    <token token_id="55">ze</token>
+    <token token_id="56">einer</token>
+    <token token_id="57">siten</token>
+    <token token_id="58">,</token>
+    <token token_id="59">ư</token>
+    <token token_id="60">dem</token>
+    <token token_id="61">Hus</token>
+    <token token_id="62">Frordenberg</token>
+    <token token_id="63">zer</token>
+    <token token_id="64">andern</token>
+    <token token_id="65">siten</token>
+    <token token_id="66">,</token>
+    <token token_id="67">zinst</token>
+    <token token_id="68">voneig</token>
+    <token token_id="69">.</token>
+    <token token_id="70">et</token>
+    <token token_id="71">.</token>
+    <token token_id="72">Peter</token>
+    <token token_id="73">2</token>
+    <token token_id="74">℔</token>
+    <token token_id="75">u</token>
+    <token token_id="76">.</token>
+    <token token_id="77">5</token>
+    <token token_id="78">sh</token>
+    <token token_id="79">erschatz</token>
+    <token token_id="80">um</token>
+    <token token_id="81">200</token>
+    <token token_id="82">fl</token>
+    <token token_id="83">.</token>
+  </text>
+  <spans>
+    <span id="1247" start="0" end="3" text="Henman von Pffenburg Ritter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1253" start="0" end="2" text="Henman von Pffenburg" element="head" class="nam" subclass=""/>
+      <span id="1259" start="3" end="3" text="Ritter" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1259_head" start="3" end="3" element="head" class="title" text="Ritter" subclass=""/>
+      </span>
+    </span>
+    <span id="1458" start="5" end="5" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1265" start="7" end="19" text="Hr . Hans&#10;von Flachslanden Meyger zu Biell , u . Frau Susannen" element="list" class="per" subclass="">
+      <span id="1271" start="7" end="14" text="Hr . Hans&#10;von Flachslanden Meyger zu Biell" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1277" start="9" end="11" text="Hans&#10;von Flachslanden" element="head" class="nam" subclass=""/>
+        <span id="1289" start="12" end="14" text="Meyger zu Biell" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+          <span id="1295" start="12" end="12" text="Meyger" element="head" class="occ" subclass="org-job"/>
+          <span id="1283" start="14" end="14" text="Biell" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1283_head" start="14" end="14" element="head" class="nam" text="Biell" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1301" start="18" end="19" text="Frau Susannen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1307" start="19" end="19" text="Susannen" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1313" start="20" end="79" text="das Hus u . Hofstatt genant Butenhein gelegen uf s . Peters -&#10;berg gegen des Verkäufers hof über u . reichet herab&#10;uf der Herrenstuben zem Brunnen , neben den Hüsern&#10;Fryburg ư Murg ze einer siten , ư dem Hus Frordenberg&#10;zer andern siten , zinst voneig . et . Peter 2 ℔ u . 5 sh erschatz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1319" start="21" end="24" text="Hus u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1325" start="26" end="26" text="Butenhein" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1325_head" start="26" end="26" element="head" class="nam" text="Butenhein" subclass=""/>
+      </span>
+      <span id="1331" start="27" end="65" text="gelegen uf s . Peters -&#10;berg gegen des Verkäufers hof über u . reichet herab&#10;uf der Herrenstuben zem Brunnen , neben den Hüsern&#10;Fryburg ư Murg ze einer siten , ư dem Hus Frordenberg&#10;zer andern siten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1337" start="29" end="33" text="s . Peters -&#10;berg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1337_head" start="29" end="33" element="head" class="nam" text="s . Peters - berg" subclass=""/>
+        </span>
+        <span id="1343" start="35" end="37" text="des Verkäufers hof" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1343_desc_owner" start="35" end="36" text="des Verkäufers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1355" start="35" end="36" text="des Verkäufers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1361" start="36" end="36" text="Verkäufers" element="head" class="role" subclass=""/>
+            </span>
+          </span>
+          <span id="1349" start="37" end="37" text="hof" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1374" start="44" end="47" text="der Herrenstuben zem Brunnen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1380" start="45" end="47" text="Herrenstuben zem Brunnen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1386" start="50" end="54" text="den Hüsern&#10;Fryburg ư Murg" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1392" start="51" end="51" text="Hüsern" element="head" class="type" subclass=""/>
+          <span id="1398" start="52" end="54" text="Fryburg ư Murg" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1404" start="52" end="52" text="Fryburg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1404_head" start="52" end="52" element="head" class="nam" text="Fryburg" subclass=""/>
+            </span>
+            <span id="1410" start="54" end="54" text="Murg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1410_head" start="54" end="54" element="head" class="nam" text="Murg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1416" start="60" end="62" text="dem Hus Frordenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1422" start="61" end="62" text="Hus Frordenberg" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1452" start="67" end="79" text="zinst voneig . et . Peter 2 ℔ u . 5 sh erschatz" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1464" start="67" end="67" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1470" start="68" end="69" text="voneig ." element="other" class="other" subclass=""/>
+        <span id="1428" start="70" end="72" text="et . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1428_head" start="70" end="72" element="head" class="nam" text="et . Peter" subclass=""/>
+        </span>
+        <span id="1434" start="73" end="74" text="2 ℔" element="value" class="money" subclass=""/>
+        <span id="1440" start="77" end="78" text="5 sh" element="value" class="money" subclass=""/>
+        <span id="1476" start="79" end="79" text="erschatz" element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="1446" start="81" end="83" text="200 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1367" from="1355" to="1247" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="12" end="14" ref="1289" type="state">
+      <trigger start="12" end="12" text="Meyger" ref="1295"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1271" text="Hr . Hans&#10;von Flachslanden Meyger zu Biell"/>
+        <role role="employer" ref="1283" text="Biell"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="27" end="65" ref="1331" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1313" text="das Hus u . Hofstatt genant Butenhein gelegen uf s . Peters -&#10;berg gegen des Verkäufers hof über u . reichet herab&#10;uf der Herrenstuben zem Brunnen , neben den Hüsern&#10;Fryburg ư Murg ze einer siten , ư dem Hus Frordenberg&#10;zer andern siten , zinst voneig . et . Peter 2 ℔ u . 5 sh erschatz"/>
+        <role role="location-b" ref="1337" text="s . Peters -&#10;berg"/>
+        <role role="location-b" ref="1343" text="des Verkäufers hof"/>
+        <role role="location-b" ref="1374" text="der Herrenstuben zem Brunnen"/>
+        <role role="location-b" ref="1386" text="den Hüsern&#10;Fryburg ư Murg"/>
+        <role role="location-b" ref="1416" text="dem Hus Frordenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="35" end="36" ref="1343_desc_owner" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1343" text="des Verkäufers hof"/>
+        <role role="owner" ref="1355" text="des Verkäufers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="52" end="54" ref="1398" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1386" text="den Hüsern&#10;Fryburg ư Murg"/>
+        <role role="part" ref="1404" text="Fryburg"/>
+        <role role="part" ref="1410" text="Murg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="67" end="79" ref="1452" type="state">
+      <trigger start="67" end="67" text="zinst" ref="1464"/>
+      <event event_id="4.0">
+        <role role="property" ref="1313" text="das Hus u . Hofstatt genant Butenhein gelegen uf s . Peters -&#10;berg gegen des Verkäufers hof über u . reichet herab&#10;uf der Herrenstuben zem Brunnen , neben den Hüsern&#10;Fryburg ư Murg ze einer siten , ư dem Hus Frordenberg&#10;zer andern siten , zinst voneig . et . Peter 2 ℔ u . 5 sh erschatz"/>
+        <role role="cause" ref="1470" text="voneig ."/>
+        <role role="beneficiary" ref="1428" text="et . Peter"/>
+        <role role="interest" ref="1434" text="2 ℔"/>
+      </event>
+      <event event_id="4.1">
+        <role role="property" ref="1313" text="das Hus u . Hofstatt genant Butenhein gelegen uf s . Peters -&#10;berg gegen des Verkäufers hof über u . reichet herab&#10;uf der Herrenstuben zem Brunnen , neben den Hüsern&#10;Fryburg ư Murg ze einer siten , ư dem Hus Frordenberg&#10;zer andern siten , zinst voneig . et . Peter 2 ℔ u . 5 sh erschatz"/>
+        <role role="beneficiary" ref="1428" text="et . Peter"/>
+        <role role="interest" ref="1440" text="5 sh"/>
+        <role role="cause" ref="1476" text="erschatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="83" ref="" type="event">
+      <trigger start="5" end="5" text="verkauft" ref="1458"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1247" text="Henman von Pffenburg Ritter"/>
+        <role role="buyer" ref="1271" text="Hr . Hans&#10;von Flachslanden Meyger zu Biell"/>
+        <role role="buyer" ref="1301" text="Frau Susannen"/>
+        <role role="property" ref="1313" text="das Hus u . Hofstatt genant Butenhein gelegen uf s . Peters -&#10;berg gegen des Verkäufers hof über u . reichet herab&#10;uf der Herrenstuben zem Brunnen , neben den Hüsern&#10;Fryburg ư Murg ze einer siten , ư dem Hus Frordenberg&#10;zer andern siten , zinst voneig . et . Peter 2 ℔ u . 5 sh erschatz"/>
+        <role role="price" ref="1446" text="200 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

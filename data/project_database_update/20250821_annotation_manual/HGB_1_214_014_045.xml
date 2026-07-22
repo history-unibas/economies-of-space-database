@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 214/14 S. [45]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Steinentorstrasse 3</tei:title>
+            <tei:idno>HGB 1 214/14</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1527937</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1671">1671</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611374.878241215 1266845.9746484477</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Rudolf</token>
+    <token token_id="1">Blewenstein</token>
+    <token token_id="2">,</token>
+    <token token_id="3">Besitzer</token>
+    <token token_id="4">des</token>
+    <token token_id="5">Hauses</token>
+    <token token_id="6">an</token>
+    <token token_id="7">der</token>
+    <token token_id="8">hindern</token>
+    <token token_id="9">Steinenvorstatt</token>
+    <token token_id="10">neben</token>
+    <token token_id="11">Emanuel</token>
+    <token token_id="12">Stupand</token>
+    <token token_id="13">Scheuren</token>
+    <token token_id="14">gelegen</token>
+    <token token_id="15">Contra</token>
+    <token token_id="16">Jacob</token>
+    <token token_id="17">Bader</token>
+    <token token_id="18">dem</token>
+    <token token_id="19">Rebmann</token>
+    <token token_id="20">seinem</token>
+    <token token_id="21">Nachbar</token>
+    <token token_id="22">,</token>
+    <token token_id="23">betr</token>
+    <token token_id="24">.</token>
+    <token token_id="25">dem</token>
+    <token token_id="26">Höflin</token>
+    <token token_id="27">.</token>
+  </text>
+  <spans>
+    <span id="543" start="0" end="14" text="Rudolf Blewenstein , Besitzer des Hauses an&#10;der hindern Steinenvorstatt neben Emanuel Stupand&#10;Scheuren gelegen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="549" start="0" end="1" text="Rudolf Blewenstein" element="head" class="nam" subclass=""/>
+      <span id="555" start="3" end="14" text="Besitzer des Hauses an&#10;der hindern Steinenvorstatt neben Emanuel Stupand&#10;Scheuren gelegen" element="appo" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="561" start="3" end="3" text="Besitzer" element="head" class="owner" subclass=""/>
+        <span id="567" start="4" end="14" text="des Hauses an&#10;der hindern Steinenvorstatt neben Emanuel Stupand&#10;Scheuren gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="573" start="5" end="5" text="Hauses" element="head" class="type" subclass=""/>
+          <span id="579" start="6" end="14" text="an&#10;der hindern Steinenvorstatt neben Emanuel Stupand&#10;Scheuren gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="585" start="6" end="9" text="an&#10;der hindern Steinenvorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+              <span id="591" start="8" end="9" text="hindern Steinenvorstatt" element="head" class="nam" subclass=""/>
+            </span>
+            <span id="597" start="11" end="13" text="Emanuel Stupand&#10;Scheuren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="609" start="11" end="12" text="Emanuel Stupand" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="615" start="11" end="12" text="Emanuel Stupand" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="615_head" start="11" end="12" element="head" class="nam" text="Emanuel Stupand" subclass=""/>
+                </span>
+              </span>
+              <span id="603" start="13" end="13" text="Scheuren" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="682" start="15" end="15" text="Contra" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="621" start="16" end="21" text="Jacob Bader dem Rebmann&#10;seinem Nachbar" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="627" start="16" end="17" text="Jacob Bader" element="head" class="nam" subclass=""/>
+      <span id="633" start="18" end="19" text="dem Rebmann" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="639" start="19" end="19" text="Rebmann" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="645" start="20" end="21" text="seinem Nachbar" element="appo" class="rel" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="657" start="20" end="20" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="657_head" start="20" end="20" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+        <span id="651" start="21" end="21" text="Nachbar" element="head" class="rel" subclass=""/>
+      </span>
+    </span>
+    <span id="670" start="25" end="26" text="dem Höflin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="676" start="26" end="26" text="Höflin" element="head" class="type" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="663" from="657" to="543" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="3" end="14" ref="555" type="state">
+      <trigger start="3" end="3" text="Besitzer" ref="561"/>
+      <event event_id="0.0">
+        <role role="owner" ref="543" text="Rudolf Blewenstein , Besitzer des Hauses an&#10;der hindern Steinenvorstatt neben Emanuel Stupand&#10;Scheuren gelegen"/>
+        <role role="property" ref="567" text="des Hauses an&#10;der hindern Steinenvorstatt neben Emanuel Stupand&#10;Scheuren gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="other_interpersonal_relation" polarity="pos" tense="pres" modality="ass" start="20" end="21" ref="645" type="state">
+      <trigger start="21" end="21" text="Nachbar" ref="651"/>
+      <event event_id="1.0">
+        <role role="person-a" ref="621" text="Jacob Bader dem Rebmann&#10;seinem Nachbar"/>
+        <role role="person-b" ref="657" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="6" end="14" ref="579" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="567" text="des Hauses an&#10;der hindern Steinenvorstatt neben Emanuel Stupand&#10;Scheuren gelegen"/>
+        <role role="location-b" ref="585" text="an&#10;der hindern Steinenvorstatt"/>
+        <role role="location-b" ref="597" text="Emanuel Stupand&#10;Scheuren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="11" end="12" ref="609" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="597" text="Emanuel Stupand&#10;Scheuren"/>
+        <role role="owner" ref="615" text="Emanuel Stupand"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="litigation" polarity="pos" tense="pres" modality="ass" start="0" end="26" ref="" type="event">
+      <trigger start="15" end="15" text="Contra" ref="682"/>
+      <event event_id="4.0">
+        <role role="party1" ref="543" text="Rudolf Blewenstein , Besitzer des Hauses an&#10;der hindern Steinenvorstatt neben Emanuel Stupand&#10;Scheuren gelegen"/>
+        <role role="party2" ref="621" text="Jacob Bader dem Rebmann&#10;seinem Nachbar"/>
+        <role role="subject" ref="670" text="dem Höflin"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

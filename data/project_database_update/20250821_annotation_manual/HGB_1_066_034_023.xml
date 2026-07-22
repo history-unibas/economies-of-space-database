@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 66/34 S. [23]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Greifengasse 27</tei:title>
+            <tei:idno>HGB 1 66/34</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1477792</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Theodor</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1480">1480</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611579.684258346 1267861.3498424075</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1480</token>
+    <token token_id="1">,</token>
+    <token token_id="2">Mentag</token>
+    <token token_id="3">nach</token>
+    <token token_id="4">Erasmus</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Mathis</token>
+    <token token_id="7">Eberlin</token>
+    <token token_id="8">der</token>
+    <token token_id="9">jünger</token>
+    <token token_id="10">in</token>
+    <token token_id="11">namen</token>
+    <token token_id="12">sein</token>
+    <token token_id="13">selbs</token>
+    <token token_id="14">und</token>
+    <token token_id="15">frauw</token>
+    <token token_id="16">Barbara</token>
+    <token token_id="17">Hafengiesserin</token>
+    <token token_id="18">sei</token>
+    <token token_id="19">¬</token>
+    <token token_id="20">ner</token>
+    <token token_id="21">efrouw</token>
+    <token token_id="22">,</token>
+    <token token_id="23">zinsen</token>
+    <token token_id="24">ierlich</token>
+    <token token_id="25">uf</token>
+    <token token_id="26">Misericordia</token>
+    <token token_id="27">domini</token>
+    <token token_id="28">1</token>
+    <token token_id="29">1</token>
+    <token token_id="30">/</token>
+    <token token_id="31">2</token>
+    <token token_id="32">gld</token>
+    <token token_id="33">.</token>
+    <token token_id="34">,</token>
+    <token token_id="35">1</token>
+    <token token_id="36">℔</token>
+    <token token_id="37">3ß</token>
+    <token token_id="38">für</token>
+    <token token_id="39">den</token>
+    <token token_id="40">gld</token>
+    <token token_id="41">.</token>
+    <token token_id="42">und</token>
+    <token token_id="43">widerkäufig</token>
+    <token token_id="44">mit</token>
+    <token token_id="45">30</token>
+    <token token_id="46">gld</token>
+    <token token_id="47">.</token>
+    <token token_id="48">von</token>
+    <token token_id="49">uf</token>
+    <token token_id="50">und</token>
+    <token token_id="51">ab</token>
+    <token token_id="52">irem</token>
+    <token token_id="53">Hus</token>
+    <token token_id="54">und</token>
+    <token token_id="55">Hofstatt</token>
+    <token token_id="56">genant</token>
+    <token token_id="57">Wythenouw</token>
+    <token token_id="58">,</token>
+    <token token_id="59">so</token>
+    <token token_id="60">an</token>
+    <token token_id="61">ein</token>
+    <token token_id="62">jarzit</token>
+    <token token_id="63">geben</token>
+    <token token_id="64">und</token>
+    <token token_id="65">vergobt</token>
+    <token token_id="66">ist</token>
+    <token token_id="67">.</token>
+    <token token_id="68">git</token>
+    <token token_id="69">nun</token>
+    <token token_id="70">Baltasar</token>
+    <token token_id="71">Lang</token>
+    <token token_id="72">,</token>
+    <token token_id="73">git</token>
+    <token token_id="74">nun</token>
+    <token token_id="75">Benedict</token>
+    <token token_id="76">Lang</token>
+    <token token_id="77">Rand</token>
+    <token token_id="78">:</token>
+    <token token_id="79">deser</token>
+    <token token_id="80">Zins</token>
+    <token token_id="81">ist</token>
+    <token token_id="82">abgelöst</token>
+    <token token_id="83">78</token>
+    <token token_id="84">.</token>
+  </text>
+  <spans>
+    <span id="1346" start="0" end="21" text="1480, Mentag nach Erasmus. Mathis Eberlin der jünger in namen&#10;sein selbs und frauw Barbara Hafengiesserin sei ¬&#10;ner efrouw" element="list" class="per" subclass="">
+      <span id="1200" start="6" end="9" text="Mathis Eberlin der jünger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1206" start="6" end="7" text="Mathis Eberlin" element="head" class="nam" subclass=""/>
+        <span id="1309" start="8" end="9" text="der jünger" element="appo" class="gen" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1315" start="9" end="9" text="jünger" element="head" class="gen" subclass=""/>
+        </span>
+      </span>
+      <span id="1321" start="12" end="13" text="sein selbs" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1321_head" start="12" end="13" element="head" class="pro" text="sein selbs" subclass=""/>
+      </span>
+      <span id="1212" start="15" end="21" text="frauw Barbara Hafengiesserin sei ¬&#10;ner efrouw" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1218" start="16" end="17" text="Barbara Hafengiesserin" element="head" class="nam" subclass=""/>
+        <span id="1224" start="18" end="21" text="sei ¬&#10;ner efrouw" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1236" start="18" end="20" text="sei ¬&#10;ner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1236_head" start="18" end="20" element="head" class="pro" text="sei ¬ ner" subclass=""/>
+          </span>
+          <span id="1230" start="21" end="21" text="efrouw" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1359" start="23" end="23" text="zinsen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1249" start="24" end="24" text="ierlich" element="value" class="time" subclass="rec"/>
+    <span id="1255" start="25" end="27" text="uf Misericordia domini" element="value" class="date" subclass=""/>
+    <span id="1261" start="28" end="32" text="1 1 / 2 gld" element="value" class="money" subclass=""/>
+    <span id="1267" start="35" end="37" text="1 ℔ 3ß" element="value" class="money" subclass=""/>
+    <span id="1365" start="43" end="43" text="widerkäufig" element="trigger" class="redemption" tense="pres" polarity="pos" modality="hypo" subclass=""/>
+    <span id="1273" start="45" end="46" text="30 gld" element="value" class="money" subclass=""/>
+    <span id="1279" start="52" end="57" text="irem Hus und Hofstatt genant&#10;Wythenouw" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1340" start="52" end="52" text="irem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1334" start="52" end="52" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1334_head" start="52" end="52" element="head" class="pro" text="irem" subclass=""/>
+        </span>
+      </span>
+      <span id="1285" start="53" end="55" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1291" start="57" end="57" text="Wythenouw" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1291_head" start="57" end="57" element="head" class="nam" text="Wythenouw" subclass=""/>
+      </span>
+    </span>
+    <span id="1371" start="59" end="59" text="so" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1371_head" start="59" end="59" element="head" class="pro" text="so" subclass=""/>
+    </span>
+    <span id="1384" start="63" end="63" text="geben" element="trigger" class="endowment" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1390" start="68" end="68" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="1297" start="70" end="71" text="Baltasar Lang" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1297_head" start="70" end="71" element="head" class="nam" text="Baltasar Lang" subclass=""/>
+    </span>
+    <span id="1396" start="73" end="73" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="1303" start="75" end="76" text="Benedict&#10;Lang" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1303_head" start="75" end="76" element="head" class="nam" text="Benedict Lang" subclass=""/>
+    </span>
+    <span id="1408" start="79" end="80" text="deser Zins" element="other" class="other" subclass=""/>
+    <span id="1402" start="82" end="82" text="abgelöst" element="trigger" class="redemption" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1421" start="83" end="83" text="78" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1352" from="1200" to="1346" class="per-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1242" from="1236" to="1200" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1327" from="1321" to="1200" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1414" from="1408" to="1359" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1377" from="1371" to="1279" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="18" end="21" ref="1224" type="state">
+      <trigger start="21" end="21" text="efrouw" ref="1230"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1212" text="frauw Barbara Hafengiesserin sei ¬&#10;ner efrouw"/>
+        <role role="family-b" ref="1236" text="sei ¬&#10;ner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="52" end="52" ref="1340" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1279" text="irem Hus und Hofstatt genant&#10;Wythenouw"/>
+        <role role="owner" ref="1334" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="23" end="57" ref="" type="state">
+      <trigger start="23" end="23" text="zinsen" ref="1359"/>
+      <event event_id="2.0">
+        <role role="payer" ref="1200" text="Mathis Eberlin der jünger"/>
+        <role role="interval" ref="1249" text="ierlich"/>
+        <role role="due-date" ref="1255" text="uf Misericordia domini"/>
+        <role role="interest" ref="1261" text="1 1 / 2 gld"/>
+        <role role="detail_interest-conv" ref="1267" text="1 ℔ 3ß"/>
+        <role role="property" ref="1279" text="irem Hus und Hofstatt genant&#10;Wythenouw"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="redemption" polarity="pos" tense="pres" modality="hypo" start="23" end="46" ref="" type="event">
+      <trigger start="43" end="43" text="widerkäufig" ref="1365"/>
+      <event event_id="3.0">
+        <role role="due" ref="1359" text="zinsen"/>
+        <role role="capital" ref="1273" text="30 gld"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="endowment" polarity="pos" tense="pres" modality="ass" start="59" end="63" ref="" type="event">
+      <trigger start="63" end="63" text="geben" ref="1384"/>
+      <event event_id="4.0">
+        <role role="property" ref="1371" text="so"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="23" end="71" ref="" type="state">
+      <trigger start="68" end="68" text="git" ref="1390"/>
+      <event event_id="5.0">
+        <role role="previous-due" ref="1359" text="zinsen"/>
+        <role role="payer" ref="1297" text="Baltasar Lang"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="23" end="76" ref="" type="state">
+      <trigger start="73" end="73" text="git" ref="1396"/>
+      <event event_id="6.0">
+        <role role="previous-due" ref="1359" text="zinsen"/>
+        <role role="payer" ref="1303" text="Benedict&#10;Lang"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="redemption" polarity="pos" tense="pres" modality="ass" start="79" end="83" ref="" type="event">
+      <trigger start="82" end="82" text="abgelöst" ref="1402"/>
+      <event event_id="7.0">
+        <role role="due" ref="1408" text="deser Zins"/>
+        <role role="date" ref="1421" text="78"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="8.0">
+        <role role="representative" ref="1200" text="Mathis Eberlin der jünger"/>
+        <role role="represented" ref="1200" text="Mathis Eberlin der jünger"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="9.0">
+        <role role="representative" ref="1200" text="Mathis Eberlin der jünger"/>
+        <role role="represented" ref="1321" text="sein selbs"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="10.0">
+        <role role="representative" ref="1200" text="Mathis Eberlin der jünger"/>
+        <role role="represented" ref="1212" text="frauw Barbara Hafengiesserin sei ¬&#10;ner efrouw"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

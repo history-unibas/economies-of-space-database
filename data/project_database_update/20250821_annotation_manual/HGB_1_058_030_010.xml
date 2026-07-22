@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/30 S. [10]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 19</tei:title>
+            <tei:idno>HGB 1 58/30</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467813</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1517">1517</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611317.891862052 1267406.7463303881</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Ist</token>
+    <token token_id="1">Heinrichen</token>
+    <token token_id="2">von</token>
+    <token token_id="3">Oringen</token>
+    <token token_id="4">des</token>
+    <token token_id="5">Cremers</token>
+    <token token_id="6">,</token>
+    <token token_id="7">als</token>
+    <token token_id="8">eins</token>
+    <token token_id="9">flüchtigen</token>
+    <token token_id="10">Mans</token>
+    <token token_id="11">güeter</token>
+    <token token_id="12">,</token>
+    <token token_id="13">gefrönt</token>
+    <token token_id="14">.</token>
+    <token token_id="15">Item</token>
+    <token token_id="16">das</token>
+    <token token_id="17">Hus</token>
+    <token token_id="18">und</token>
+    <token token_id="19">Hofstatt</token>
+    <token token_id="20">,</token>
+    <token token_id="21">genannt</token>
+    <token token_id="22">zur</token>
+    <token token_id="23">Sonnen</token>
+    <token token_id="24">,</token>
+    <token token_id="25">under</token>
+    <token token_id="26">den</token>
+    <token token_id="27">Bechern</token>
+    <token token_id="28">,</token>
+    <token token_id="29">vor</token>
+    <token token_id="30">dem</token>
+    <token token_id="31">Kaufhus</token>
+    <token token_id="32">über</token>
+    <token token_id="33">,</token>
+    <token token_id="34">zwischen</token>
+    <token token_id="35">Felixen</token>
+    <token token_id="36">Jrund</token>
+    <token token_id="37">und</token>
+    <token token_id="38">Hannsen</token>
+    <token token_id="39">Gallicans</token>
+    <token token_id="40">Hüsern</token>
+    <token token_id="41">glegen</token>
+    <token token_id="42">,</token>
+  </text>
+  <spans>
+    <span id="725" start="1" end="5" text="Heinrichen von Oringen des Cremers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="743" start="1" end="1" text="Heinrichen" element="head" class="nam" subclass=""/>
+      <span id="749" start="2" end="3" text="von Oringen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="755" start="3" end="3" text="Oringen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="755_head" start="3" end="3" element="head" class="nam" text="Oringen" subclass=""/>
+        </span>
+      </span>
+      <span id="731" start="4" end="5" text="des Cremers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="737" start="5" end="5" text="Cremers" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="761" start="8" end="11" text="eins flüchtigen&#10;Mans güeter" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="773" start="8" end="10" text="eins flüchtigen&#10;Mans" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="779" start="8" end="10" text="eins flüchtigen&#10;Mans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="785" start="10" end="10" text="Mans" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="767" start="11" end="11" text="güeter" element="head" class="type" subclass=""/>
+    </span>
+    <span id="875" start="13" end="13" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="791" start="16" end="41" text="das Hus und Hofstatt , genannt zur Sonnen , under&#10;den Bechern , vor dem Kaufhus über , zwischen Felixen Jrund&#10;und Hannsen Gallicans Hüsern glegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="797" start="17" end="19" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="803" start="22" end="23" text="zur Sonnen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="803_head" start="22" end="23" element="head" class="nam" text="zur Sonnen" subclass=""/>
+      </span>
+      <span id="809" start="25" end="41" text="under&#10;den Bechern , vor dem Kaufhus über , zwischen Felixen Jrund&#10;und Hannsen Gallicans Hüsern glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="815" start="26" end="27" text="den Bechern" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="821" start="27" end="27" text="Bechern" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="827" start="30" end="31" text="dem Kaufhus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="833" start="31" end="31" text="Kaufhus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="839" start="35" end="40" text="Felixen Jrund&#10;und Hannsen Gallicans Hüsern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="869" start="35" end="39" text="Felixen Jrund&#10;und Hannsen Gallicans" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="851" start="35" end="39" text="Felixen Jrund&#10;und Hannsen Gallicans" element="list" class="per" subclass="">
+              <span id="857" start="35" end="36" text="Felixen Jrund" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="857_head" start="35" end="36" element="head" class="nam" text="Felixen Jrund" subclass=""/>
+              </span>
+              <span id="863" start="38" end="39" text="Hannsen Gallicans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="863_head" start="38" end="39" element="head" class="nam" text="Hannsen Gallicans" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="845" start="40" end="40" text="Hüsern" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="2" end="3" ref="749" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="725" text="Heinrichen von Oringen des Cremers"/>
+        <role role="location-b" ref="755" text="Oringen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="8" end="10" ref="773" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="761" text="eins flüchtigen&#10;Mans güeter"/>
+        <role role="owner" ref="779" text="eins flüchtigen&#10;Mans"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="25" end="41" ref="809" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="791" text="das Hus und Hofstatt , genannt zur Sonnen , under&#10;den Bechern , vor dem Kaufhus über , zwischen Felixen Jrund&#10;und Hannsen Gallicans Hüsern glegen"/>
+        <role role="location-b" ref="815" text="den Bechern"/>
+        <role role="location-b" ref="827" text="dem Kaufhus"/>
+        <role role="location-b" ref="839" text="Felixen Jrund&#10;und Hannsen Gallicans Hüsern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="35" end="39" ref="869" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="839" text="Felixen Jrund&#10;und Hannsen Gallicans Hüsern"/>
+        <role role="owner" ref="857" text="Felixen Jrund"/>
+        <role role="owner" ref="863" text="Hannsen Gallicans"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="ass" start="1" end="5" ref="" type="event">
+      <trigger start="13" end="13" text="gefrönt" ref="875"/>
+      <event event_id="4.0">
+        <role role="debitor" ref="725" text="Heinrichen von Oringen des Cremers"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 2/97 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Aeschenvorstadt 20</tei:title>
+            <tei:idno>HGB 1 2/97</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1432898</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Steinenkloster</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1415">1415</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611609.416751304 1266927.1729340872</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Jacob</token>
+    <token token_id="5">Sunnentag</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Rebman</token>
+    <token token_id="8">,</token>
+    <token token_id="9">Burger</token>
+    <token token_id="10">ze</token>
+    <token token_id="11">Basel</token>
+    <token token_id="12">,</token>
+    <token token_id="13">und</token>
+    <token token_id="14">Nese</token>
+    <token token_id="15">sin</token>
+    <token token_id="16">eliche</token>
+    <token token_id="17">Frowe</token>
+    <token token_id="18">verkaufen</token>
+    <token token_id="19">Heinrich</token>
+    <token token_id="20">Brenner</token>
+    <token token_id="21">dem</token>
+    <token token_id="22">Küffer</token>
+    <token token_id="23">,</token>
+    <token token_id="24">Burger</token>
+    <token token_id="25">ze</token>
+    <token token_id="26">Basel</token>
+    <token token_id="27">.</token>
+    <token token_id="28">und</token>
+    <token token_id="29">Enneli</token>
+    <token token_id="30">siner</token>
+    <token token_id="31">Efrowen</token>
+    <token token_id="32">,</token>
+    <token token_id="33">das</token>
+    <token token_id="34">Huse</token>
+    <token token_id="35">und</token>
+    <token token_id="36">Hoffstatt</token>
+    <token token_id="37">,</token>
+    <token token_id="38">gelegen</token>
+    <token token_id="39">ze</token>
+    <token token_id="40">Basel</token>
+    <token token_id="41">in</token>
+    <token token_id="42">der</token>
+    <token token_id="43">Vorstat</token>
+    <token token_id="44">ze</token>
+    <token token_id="45">Eschmerthor</token>
+    <token token_id="46">,</token>
+    <token token_id="47">zwüschent</token>
+    <token token_id="48">Hanns</token>
+    <token token_id="49">Hesingers</token>
+    <token token_id="50">Huse</token>
+    <token token_id="51">und</token>
+    <token token_id="52">Henman</token>
+    <token token_id="53">Zschegkabürlis</token>
+    <token token_id="54">sel</token>
+    <token token_id="55">.</token>
+    <token token_id="56">Garten</token>
+    <token token_id="57">,</token>
+    <token token_id="58">ist</token>
+    <token token_id="59">Erbe</token>
+    <token token_id="60">von</token>
+    <token token_id="61">Jung</token>
+    <token token_id="62">frowe</token>
+    <token token_id="63">ren</token>
+    <token token_id="64">Ursellin</token>
+    <token token_id="65">Henman</token>
+    <token token_id="66">Zschegkaburlis</token>
+    <token token_id="67">sel</token>
+    <token token_id="68">.</token>
+    <token token_id="69">Tochter</token>
+    <token token_id="70">,</token>
+    <token token_id="71">deren</token>
+    <token token_id="72">da</token>
+    <token token_id="73">¬</token>
+    <token token_id="74">von</token>
+    <token token_id="75">gangent</token>
+    <token token_id="76">4</token>
+    <token token_id="77">℔</token>
+    <token token_id="78">von</token>
+    <token token_id="79">der</token>
+    <token token_id="80">Eigenschafft</token>
+    <token token_id="81">ze</token>
+    <token token_id="82">Zinse</token>
+    <token token_id="83">,</token>
+    <token token_id="84">1</token>
+    <token token_id="85">Hun</token>
+    <token token_id="86">ze</token>
+    <token token_id="87">Wisunge</token>
+    <token token_id="88">und</token>
+    <token token_id="89">1sh</token>
+    <token token_id="90">.</token>
+    <token token_id="91">ze</token>
+    <token token_id="92">Erschatze</token>
+    <token token_id="93">,</token>
+    <token token_id="94">wenne</token>
+    <token token_id="95">sich</token>
+    <token token_id="96">die</token>
+    <token token_id="97">Hande</token>
+    <token token_id="98">verwandelt</token>
+    <token token_id="99">,</token>
+    <token token_id="100">umb</token>
+    <token token_id="101">35</token>
+    <token token_id="102">Gld</token>
+    <token token_id="103">.</token>
+    <token token_id="104">Uber</token>
+    <token token_id="105">das</token>
+    <token token_id="106">Hus</token>
+    <token token_id="107">zum</token>
+    <token token_id="108">Tracken</token>
+    <token token_id="109">,</token>
+    <token token_id="110">uff</token>
+    <token token_id="111">dem</token>
+    <token token_id="112">uns</token>
+    <token token_id="113">Ulrich</token>
+    <token token_id="114">Meltinger</token>
+    <token token_id="115">,</token>
+    <token token_id="116">hat</token>
+    <token token_id="117">vermacht</token>
+    <token token_id="118">1</token>
+    <token token_id="119">Gld</token>
+    <token token_id="120">.</token>
+    <token token_id="121">da</token>
+    <token token_id="122">von</token>
+    <token token_id="123">git</token>
+    <token token_id="124">ietz</token>
+    <token token_id="125">Hans</token>
+    <token token_id="126">3</token>
+    <token token_id="127">Gld</token>
+    <token token_id="128">.</token>
+  </text>
+  <spans>
+    <span id="2219" start="4" end="17" text="Jacob Sunnentag der Rebman , Burger ze Basel , und Nese sin eliche&#10;Frowe" element="list" class="per" subclass="">
+      <span id="1886" start="4" end="11" text="Jacob Sunnentag der Rebman , Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1946" start="4" end="5" text="Jacob Sunnentag" element="head" class="nam" subclass=""/>
+        <span id="1952" start="6" end="7" text="der Rebman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1958" start="7" end="7" text="Rebman" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1964" start="9" end="11" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2207" start="9" end="9" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="1970" start="11" end="11" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1970_head" start="11" end="11" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1892" start="14" end="17" text="Nese sin eliche&#10;Frowe" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1976" start="14" end="14" text="Nese" element="head" class="nam" subclass=""/>
+        <span id="1982" start="15" end="17" text="sin eliche&#10;Frowe" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1988" start="15" end="15" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1988_head" start="15" end="15" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="2213" start="16" end="17" text="eliche&#10;Frowe" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2285" start="18" end="18" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2225" start="19" end="31" text="Heinrich Brenner dem Küffer , Burger ze Basel .&#10;und Enneli siner Efrowen" element="list" class="per" subclass="">
+      <span id="1898" start="19" end="26" text="Heinrich Brenner dem Küffer , Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1940" start="19" end="20" text="Heinrich Brenner" element="head" class="nam" subclass=""/>
+        <span id="1922" start="21" end="22" text="dem Küffer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2195" start="22" end="22" text="Küffer" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1928" start="24" end="26" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2231" start="24" end="24" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="1934" start="26" end="26" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1934_head" start="26" end="26" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1904" start="29" end="31" text="Enneli siner Efrowen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2237" start="29" end="29" text="Enneli" element="head" class="nam" subclass=""/>
+        <span id="2001" start="30" end="31" text="siner Efrowen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2013" start="30" end="30" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2013_head" start="30" end="30" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="2007" start="31" end="31" text="Efrowen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1910" start="33" end="98" text="das Huse und Hoffstatt , gelegen ze&#10;Basel in der Vorstat ze Eschmerthor , zwüschent Hanns Hesingers&#10;Huse und Henman Zschegkabürlis sel . Garten , ist Erbe von Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter , deren da ¬&#10;von gangent 4 ℔ von der Eigenschafft ze Zinse , 1 Hun ze Wisunge und&#10;1sh . ze Erschatze , wenne sich die Hande verwandelt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2026" start="34" end="36" text="Huse und Hoffstatt" element="head" class="type" subclass=""/>
+      <span id="2032" start="38" end="56" text="gelegen ze&#10;Basel in der Vorstat ze Eschmerthor , zwüschent Hanns Hesingers&#10;Huse und Henman Zschegkabürlis sel . Garten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2201" start="40" end="40" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2201_head" start="40" end="40" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="2038" start="42" end="45" text="der Vorstat ze Eschmerthor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="2243" start="43" end="45" text="Vorstat ze Eschmerthor" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2044" start="48" end="50" text="Hanns Hesingers&#10;Huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2050" start="48" end="49" text="Hanns Hesingers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2267" start="48" end="49" text="Hanns Hesingers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2267_head" start="48" end="49" element="head" class="nam" text="Hanns Hesingers" subclass=""/>
+            </span>
+          </span>
+          <span id="2273" start="50" end="50" text="Huse" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2056" start="52" end="56" text="Henman Zschegkabürlis sel . Garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2062" start="52" end="55" text="Henman Zschegkabürlis sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2080" start="52" end="55" text="Henman Zschegkabürlis sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2068" start="52" end="53" text="Henman Zschegkabürlis" element="head" class="nam" subclass=""/>
+              <span id="2074" start="54" end="55" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+            </span>
+          </span>
+          <span id="2086" start="56" end="56" text="Garten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="2249" start="58" end="98" text="ist Erbe von Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter , deren da ¬&#10;von gangent 4 ℔ von der Eigenschafft ze Zinse , 1 Hun ze Wisunge und&#10;1sh . ze Erschatze , wenne sich die Hande verwandelt" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2340" start="58" end="69" text="ist Erbe von Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter" element="other" class="other" subclass="">
+          <span id="2092" start="61" end="69" text="Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2255" start="61" end="63" text="Jung&#10;frowe ren" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2255_head" start="61" end="63" element="head" class="title" text="Jung frowe ren" subclass=""/>
+            </span>
+            <span id="2098" start="64" end="64" text="Ursellin" element="head" class="nam" subclass=""/>
+            <span id="2104" start="65" end="69" text="Henman Zschegkaburlis sel . Tochter" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2110" start="65" end="68" text="Henman Zschegkaburlis sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2116" start="65" end="66" text="Henman Zschegkaburlis" element="head" class="nam" subclass=""/>
+                <span id="2122" start="67" end="68" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              </span>
+              <span id="2261" start="69" end="69" text="Tochter" element="head" class="fam" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2128" start="71" end="71" text="deren" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2128_head" start="71" end="71" element="head" class="pro" text="deren" subclass=""/>
+        </span>
+        <span id="2291" start="75" end="75" text="gangent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2141" start="76" end="77" text="4 ℔" element="value" class="money" subclass=""/>
+        <span id="2297" start="78" end="80" text="von der Eigenschafft" element="other" class="other" subclass=""/>
+        <span id="2147" start="84" end="85" text="1 Hun" element="value" class="money" subclass=""/>
+        <span id="2303" start="86" end="87" text="ze Wisunge" element="other" class="other" subclass=""/>
+        <span id="2153" start="89" end="89" text="1sh" element="value" class="money" subclass=""/>
+        <span id="2309" start="91" end="92" text="ze Erschatze" element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="1916" start="101" end="102" text="35 Gld" element="value" class="money" subclass=""/>
+    <span id="2159" start="105" end="108" text="das Hus zum Tracken" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2279" start="106" end="108" text="Hus zum Tracken" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2165" start="112" end="112" text="uns" element="reference" class="unk" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2165_head" start="112" end="112" element="head" class="pro" text="uns" subclass=""/>
+    </span>
+    <span id="2171" start="113" end="114" text="Ulrich Meltinger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2171_head" start="113" end="114" element="head" class="nam" text="Ulrich Meltinger" subclass=""/>
+    </span>
+    <span id="2315" start="117" end="117" text="vermacht" element="trigger" class="testament" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2177" start="118" end="119" text="1 Gld" element="value" class="money" subclass=""/>
+    <span id="2327" start="121" end="122" text="da von" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2327_head" start="121" end="122" element="head" class="pro" text="da von" subclass=""/>
+    </span>
+    <span id="2321" start="123" end="123" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2183" start="125" end="125" text="Hans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2183_head" start="125" end="125" element="head" class="nam" text="Hans" subclass=""/>
+    </span>
+    <span id="2189" start="126" end="128" text="3 Gld ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1994" from="1988" to="1886" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2019" from="2013" to="1898" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2134" from="2128" to="2092" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2333" from="2327" to="2159" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2291_role" from="2291" to="1910" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="9" end="11" ref="1964" type="state">
+      <trigger start="9" end="9" text="Burger" ref="2207"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1886" text="Jacob Sunnentag der Rebman , Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="1970" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="15" end="17" ref="1982" type="state">
+      <trigger start="16" end="17" text="eliche&#10;Frowe" ref="2213"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1892" text="Nese sin eliche&#10;Frowe"/>
+        <role role="family-b" ref="1988" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="24" end="26" ref="1928" type="state">
+      <trigger start="24" end="24" text="Burger" ref="2231"/>
+      <event event_id="2.0">
+        <role role="resident" ref="1898" text="Heinrich Brenner dem Küffer , Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="1934" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="30" end="31" ref="2001" type="state">
+      <trigger start="31" end="31" text="Efrowen" ref="2007"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1904" text="Enneli siner Efrowen"/>
+        <role role="family-b" ref="2013" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="family" polarity="pos" tense="pres" modality="ass" start="65" end="69" ref="2104" type="state">
+      <trigger start="69" end="69" text="Tochter" ref="2261"/>
+      <event event_id="4.0">
+        <role role="family-a" ref="2092" text="Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter"/>
+        <role role="family-b" ref="2110" text="Henman Zschegkaburlis sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="38" end="56" ref="2032" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1910" text="das Huse und Hoffstatt , gelegen ze&#10;Basel in der Vorstat ze Eschmerthor , zwüschent Hanns Hesingers&#10;Huse und Henman Zschegkabürlis sel . Garten , ist Erbe von Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter , deren da ¬&#10;von gangent 4 ℔ von der Eigenschafft ze Zinse , 1 Hun ze Wisunge und&#10;1sh . ze Erschatze , wenne sich die Hande verwandelt"/>
+        <role role="location-b" ref="2201" text="Basel"/>
+        <role role="location-b" ref="2038" text="der Vorstat ze Eschmerthor"/>
+        <role role="location-b" ref="2044" text="Hanns Hesingers&#10;Huse"/>
+        <role role="location-b" ref="2056" text="Henman Zschegkabürlis sel . Garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="48" end="49" ref="2050" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="2044" text="Hanns Hesingers&#10;Huse"/>
+        <role role="owner" ref="2267" text="Hanns Hesingers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="52" end="55" ref="2062" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="2056" text="Henman Zschegkabürlis sel . Garten"/>
+        <role role="owner" ref="2080" text="Henman Zschegkabürlis sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="18" end="18" ref="" type="event">
+      <trigger start="18" end="18" text="verkaufen" ref="2285"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1886" text="Jacob Sunnentag der Rebman , Burger ze Basel"/>
+        <role role="seller" ref="1892" text="Nese sin eliche&#10;Frowe"/>
+        <role role="buyer" ref="1898" text="Heinrich Brenner dem Küffer , Burger ze Basel"/>
+        <role role="buyer" ref="1904" text="Enneli siner Efrowen"/>
+        <role role="property" ref="1910" text="das Huse und Hoffstatt , gelegen ze&#10;Basel in der Vorstat ze Eschmerthor , zwüschent Hanns Hesingers&#10;Huse und Henman Zschegkabürlis sel . Garten , ist Erbe von Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter , deren da ¬&#10;von gangent 4 ℔ von der Eigenschafft ze Zinse , 1 Hun ze Wisunge und&#10;1sh . ze Erschatze , wenne sich die Hande verwandelt"/>
+        <role role="price" ref="1916" text="35 Gld"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="33" end="98" ref="2249" type="state">
+      <trigger start="75" end="75" text="gangent" ref="2291"/>
+      <event event_id="9.0">
+        <role role="detail_hereditary-owner" ref="2340" text="ist Erbe von Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter"/>
+        <role role="beneficiary" ref="2128" text="deren"/>
+        <role role="interest" ref="2141" text="4 ℔"/>
+        <role role="cause" ref="2297" text="von der Eigenschafft"/>
+        <role role="property" ref="1910" text="das Huse und Hoffstatt , gelegen ze&#10;Basel in der Vorstat ze Eschmerthor , zwüschent Hanns Hesingers&#10;Huse und Henman Zschegkabürlis sel . Garten , ist Erbe von Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter , deren da ¬&#10;von gangent 4 ℔ von der Eigenschafft ze Zinse , 1 Hun ze Wisunge und&#10;1sh . ze Erschatze , wenne sich die Hande verwandelt"/>
+      </event>
+      <event event_id="9.1">
+        <role role="detail_hereditary-owner" ref="2340" text="ist Erbe von Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter"/>
+        <role role="beneficiary" ref="2128" text="deren"/>
+        <role role="interest" ref="2147" text="1 Hun"/>
+        <role role="cause" ref="2303" text="ze Wisunge"/>
+        <role role="property" ref="1910" text="das Huse und Hoffstatt , gelegen ze&#10;Basel in der Vorstat ze Eschmerthor , zwüschent Hanns Hesingers&#10;Huse und Henman Zschegkabürlis sel . Garten , ist Erbe von Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter , deren da ¬&#10;von gangent 4 ℔ von der Eigenschafft ze Zinse , 1 Hun ze Wisunge und&#10;1sh . ze Erschatze , wenne sich die Hande verwandelt"/>
+      </event>
+      <event event_id="9.2">
+        <role role="detail_hereditary-owner" ref="2340" text="ist Erbe von Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter"/>
+        <role role="beneficiary" ref="2128" text="deren"/>
+        <role role="interest" ref="2153" text="1sh"/>
+        <role role="cause" ref="2309" text="ze Erschatze"/>
+        <role role="property" ref="1910" text="das Huse und Hoffstatt , gelegen ze&#10;Basel in der Vorstat ze Eschmerthor , zwüschent Hanns Hesingers&#10;Huse und Henman Zschegkabürlis sel . Garten , ist Erbe von Jung&#10;frowe ren Ursellin Henman Zschegkaburlis sel . Tochter , deren da ¬&#10;von gangent 4 ℔ von der Eigenschafft ze Zinse , 1 Hun ze Wisunge und&#10;1sh . ze Erschatze , wenne sich die Hande verwandelt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="testament" polarity="pos" tense="pres" modality="ass" start="105" end="119" ref="" type="event">
+      <trigger start="117" end="117" text="vermacht" ref="2315"/>
+      <event event_id="10.0">
+        <role role="property" ref="2159" text="das Hus zum Tracken"/>
+        <role role="beneficiary" ref="2165" text="uns"/>
+        <role role="bequeather" ref="2171" text="Ulrich Meltinger"/>
+        <role role="property" ref="2177" text="1 Gld"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="121" end="128" ref="" type="state">
+      <trigger start="123" end="123" text="git" ref="2321"/>
+      <event event_id="11.0">
+        <role role="property" ref="2327" text="da von"/>
+        <role role="payer" ref="2183" text="Hans"/>
+        <role role="interest" ref="2189" text="3 Gld ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 208/21 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Steinenbachgässlein 8, 10</tei:title>
+            <tei:idno>HGB 1 208/21</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1527861</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Basler Urkundenbuch</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1474">1474</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611280.4280743166 1267008.4071532537</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">414</token>
+    <token token_id="1">Lienhart</token>
+    <token token_id="2">Hertiberg</token>
+    <token token_id="3">u</token>
+    <token token_id="4">.</token>
+    <token token_id="5">s</token>
+    <token token_id="6">.</token>
+    <token token_id="7">W</token>
+    <token token_id="8">.</token>
+    <token token_id="9">wie</token>
+    <token token_id="10">in</token>
+    <token token_id="11">v</token>
+    <token token_id="12">458</token>
+    <token token_id="13">thut</token>
+    <token token_id="14">hund</token>
+    <token token_id="15">,</token>
+    <token token_id="16">dass</token>
+    <token token_id="17">Conrat</token>
+    <token token_id="18">Frug</token>
+    <token token_id="19">der</token>
+    <token token_id="20">snider</token>
+    <token token_id="21">,</token>
+    <token token_id="22">burger</token>
+    <token token_id="23">zu</token>
+    <token token_id="24">Basel</token>
+    <token token_id="25">und</token>
+    <token token_id="26">seine</token>
+    <token token_id="27">Frau</token>
+    <token token_id="28">Verena</token>
+    <token token_id="29">dem</token>
+    <token token_id="30">Werten</token>
+    <token token_id="31">Wotet</token>
+    <token token_id="32">dem</token>
+    <token token_id="33">grautücher</token>
+    <token token_id="34">,</token>
+    <token token_id="35">och</token>
+    <token token_id="36">burger</token>
+    <token token_id="37">zu</token>
+    <token token_id="38">Basel</token>
+    <token token_id="39">,</token>
+    <token token_id="40">und</token>
+    <token token_id="41">dessen</token>
+    <token token_id="42">Frau</token>
+    <token token_id="43">Drsula</token>
+    <token token_id="44">einen</token>
+    <token token_id="45">jährlich</token>
+    <token token_id="46">zu</token>
+    <token token_id="47">Martini</token>
+    <token token_id="48">zahltaren</token>
+    <token token_id="49">Zins</token>
+    <token token_id="50">von</token>
+    <token token_id="51">3</token>
+    <token token_id="52">p</token>
+    <token token_id="53">.</token>
+    <token token_id="54">Rh</token>
+    <token token_id="55">.</token>
+    <token token_id="56">von</token>
+    <token token_id="57">ihrem</token>
+    <token token_id="58">Rebberg</token>
+    <token token_id="59">vor</token>
+    <token token_id="60">dem</token>
+    <token token_id="61">Kerthore</token>
+    <token token_id="62">und</token>
+    <token token_id="63">von</token>
+    <token token_id="64">irem</token>
+    <token token_id="65">huss</token>
+    <token token_id="66">hoffstatt</token>
+    <token token_id="67">und</token>
+    <token token_id="68">garten</token>
+    <token token_id="69">in</token>
+    <token token_id="70">Basel</token>
+    <token token_id="71">in</token>
+    <token token_id="72">der</token>
+    <token token_id="73">vorstatt</token>
+    <token token_id="74">an</token>
+    <token token_id="75">den</token>
+    <token token_id="76">Steinen</token>
+    <token token_id="77">uf</token>
+    <token token_id="78">dem</token>
+    <token token_id="79">obern</token>
+    <token token_id="80">Birsich</token>
+    <token token_id="81">zwüschent</token>
+    <token token_id="82">Hanns</token>
+    <token token_id="83">Küngen</token>
+    <token token_id="84">huss</token>
+    <token token_id="85">ze</token>
+    <token token_id="86">einer</token>
+    <token token_id="87">und</token>
+    <token token_id="88">des</token>
+    <token token_id="89">Baders</token>
+    <token token_id="90">an</token>
+    <token token_id="91">Steinen</token>
+    <token token_id="92">garten</token>
+    <token token_id="93">zer</token>
+    <token token_id="94">andern</token>
+    <token token_id="95">siten</token>
+    <token token_id="96">,</token>
+    <token token_id="97">zinset</token>
+    <token token_id="98">vormals</token>
+    <token token_id="99">den</token>
+    <token token_id="100">Peten</token>
+    <token token_id="101">18</token>
+    <token token_id="102">pfenning</token>
+    <token token_id="103">,</token>
+    <token token_id="104">um</token>
+    <token token_id="105">50</token>
+    <token token_id="106">f</token>
+    <token token_id="107">.</token>
+    <token token_id="108">Rh</token>
+    <token token_id="109">.</token>
+    <token token_id="110">verkauft</token>
+    <token token_id="111">haben</token>
+    <token token_id="112">.</token>
+  </text>
+  <spans>
+    <span id="1924" start="1" end="7" text="Lienhart Hertiberg u . s . W" element="list" class="loc" subclass="">
+      <span id="1912" start="1" end="1" text="Lienhart" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1912_head" start="1" end="1" element="head" class="nam" text="Lienhart" subclass=""/>
+      </span>
+      <span id="1918" start="2" end="2" text="Hertiberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1918_head" start="2" end="2" element="head" class="nam" text="Hertiberg" subclass=""/>
+      </span>
+      <span id="1930" start="3" end="7" text="u . s . W" element="reference" class="loc" numerus="grp" specificity="uspc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1930_head" start="3" end="7" element="head" class="unk" text="u . s . W" subclass=""/>
+      </span>
+    </span>
+    <span id="1978" start="17" end="28" text="Conrat&#10;Frug der snider , burger zu Basel und seine Frau Verena" element="list" class="per" subclass="">
+      <span id="1936" start="17" end="24" text="Conrat&#10;Frug der snider , burger zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1942" start="17" end="18" text="Conrat&#10;Frug" element="head" class="nam" subclass=""/>
+        <span id="1948" start="19" end="20" text="der snider" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1954" start="20" end="20" text="snider" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1960" start="22" end="24" text="burger zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1966" start="22" end="22" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="1972" start="24" end="24" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1972_head" start="24" end="24" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1984" start="26" end="28" text="seine Frau Verena" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1996" start="26" end="27" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2008" start="26" end="26" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2008_head" start="26" end="26" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="2002" start="27" end="27" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1990" start="28" end="28" text="Verena" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="2027" start="29" end="43" text="dem Werten Wotet&#10;dem grautücher , och burger zu Basel , und dessen Frau Drsula" element="list" class="per" subclass="">
+      <span id="2021" start="29" end="38" text="dem Werten Wotet&#10;dem grautücher , och burger zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2033" start="30" end="31" text="Werten Wotet" element="head" class="nam" subclass=""/>
+        <span id="2039" start="32" end="33" text="dem grautücher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2045" start="33" end="33" text="grautücher" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="2051" start="36" end="38" text="burger zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2057" start="36" end="36" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="2063" start="38" end="38" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2063_head" start="38" end="38" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2069" start="41" end="43" text="dessen Frau Drsula" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2081" start="41" end="42" text="dessen Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2093" start="41" end="41" text="dessen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2093_head" start="41" end="41" element="head" class="pro" text="dessen" subclass=""/>
+          </span>
+          <span id="2087" start="42" end="42" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="2075" start="43" end="43" text="Drsula" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="2106" start="45" end="45" text="jährlich" element="value" class="time" subclass="rec"/>
+    <span id="2112" start="46" end="47" text="zu Martini" element="value" class="date" subclass=""/>
+    <span id="2348" start="49" end="49" text="Zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2118" start="51" end="55" text="3 p . Rh ." element="value" class="money" subclass=""/>
+    <span id="2167" start="57" end="102" text="ihrem Rebberg vor dem Kerthore&#10;und von irem huss hoffstatt und garten in Basel in der vorstatt an den&#10;Steinen uf dem obern Birsich zwüschent Hanns Küngen huss ze einer und&#10;des Baders an Steinen garten zer andern siten , zinset vormals den Peten&#10;18 pfenning" element="list" class="fac" subclass="">
+      <span id="2124" start="57" end="61" text="ihrem Rebberg vor dem Kerthore" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2204" start="57" end="57" text="ihrem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2136" start="57" end="57" text="ihrem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2136_head" start="57" end="57" element="head" class="pro" text="ihrem" subclass=""/>
+          </span>
+        </span>
+        <span id="2130" start="58" end="58" text="Rebberg" element="head" class="type" subclass=""/>
+        <span id="2161" start="59" end="61" text="vor dem Kerthore" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2149" start="60" end="61" text="dem Kerthore" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2155" start="61" end="61" text="Kerthore" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2179" start="64" end="102" text="irem huss hoffstatt und garten in Basel in der vorstatt an den&#10;Steinen uf dem obern Birsich zwüschent Hanns Küngen huss ze einer und&#10;des Baders an Steinen garten zer andern siten , zinset vormals den Peten&#10;18 pfenning" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2210" start="64" end="64" text="irem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2191" start="64" end="64" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2191_head" start="64" end="64" element="head" class="pro" text="irem" subclass=""/>
+          </span>
+        </span>
+        <span id="2185" start="65" end="68" text="huss hoffstatt und garten" element="head" class="type" subclass=""/>
+        <span id="2216" start="69" end="95" text="in Basel in der vorstatt an den&#10;Steinen uf dem obern Birsich zwüschent Hanns Küngen huss ze einer und&#10;des Baders an Steinen garten zer andern siten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2222" start="70" end="70" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2222_head" start="70" end="70" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+          <span id="2228" start="72" end="76" text="der vorstatt an den&#10;Steinen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+            <span id="2234" start="73" end="76" text="vorstatt an den&#10;Steinen" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="2240" start="78" end="80" text="dem obern Birsich" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2246" start="79" end="80" text="obern Birsich" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="2252" start="82" end="84" text="Hanns Küngen huss" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2264" start="82" end="83" text="Hanns Küngen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2270" start="82" end="83" text="Hanns Küngen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2270_head" start="82" end="83" element="head" class="nam" text="Hanns Küngen" subclass=""/>
+              </span>
+            </span>
+            <span id="2258" start="84" end="84" text="huss" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2276" start="88" end="92" text="des Baders an Steinen garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2276_desc_owner" start="88" end="91" text="des Baders an Steinen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2288" start="88" end="91" text="des Baders an Steinen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2294" start="89" end="89" text="Baders" element="head" class="occ" subclass=""/>
+                <span id="2300" start="90" end="91" text="an Steinen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="2306" start="91" end="91" text="Steinen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                    <span id="2306_head" start="91" end="91" element="head" class="nam" text="Steinen" subclass=""/>
+                  </span>
+                </span>
+              </span>
+            </span>
+            <span id="2282" start="92" end="92" text="garten" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+        <span id="2342" start="97" end="102" text="zinset vormals den Peten&#10;18 pfenning" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2360" start="97" end="97" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          <span id="2312" start="99" end="100" text="den Peten" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="2318" start="100" end="100" text="Peten" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2324" start="101" end="102" text="18 pfenning" element="value" class="money" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2330" start="105" end="109" text="50 f . Rh ." element="value" class="money" subclass=""/>
+    <span id="2354" start="110" end="110" text="verkauft" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2142" from="2136" to="1978" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2014" from="2008" to="1936" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2099" from="2093" to="2021" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2197" from="2191" to="2136" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="22" end="24" ref="1960" type="state">
+      <trigger start="22" end="22" text="burger" ref="1966"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1936" text="Conrat&#10;Frug der snider , burger zu Basel"/>
+        <role role="geopolitical-entity" ref="1972" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="26" end="27" ref="1996" type="state">
+      <trigger start="27" end="27" text="Frau" ref="2002"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1984" text="seine Frau Verena"/>
+        <role role="family-b" ref="2008" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="36" end="38" ref="2051" type="state">
+      <trigger start="36" end="36" text="burger" ref="2057"/>
+      <event event_id="2.0">
+        <role role="resident" ref="2021" text="dem Werten Wotet&#10;dem grautücher , och burger zu Basel"/>
+        <role role="geopolitical-entity" ref="2063" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="41" end="42" ref="2081" type="state">
+      <trigger start="42" end="42" text="Frau" ref="2087"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="2069" text="dessen Frau Drsula"/>
+        <role role="family-b" ref="2093" text="dessen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="57" end="57" ref="2204" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="2124" text="ihrem Rebberg vor dem Kerthore"/>
+        <role role="owner" ref="2136" text="ihrem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="59" end="61" ref="2161" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2124" text="ihrem Rebberg vor dem Kerthore"/>
+        <role role="location-b" ref="2149" text="dem Kerthore"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="64" end="64" ref="2210" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="2179" text="irem huss hoffstatt und garten in Basel in der vorstatt an den&#10;Steinen uf dem obern Birsich zwüschent Hanns Küngen huss ze einer und&#10;des Baders an Steinen garten zer andern siten , zinset vormals den Peten&#10;18 pfenning"/>
+        <role role="owner" ref="2191" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="69" end="95" ref="2216" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="2179" text="irem huss hoffstatt und garten in Basel in der vorstatt an den&#10;Steinen uf dem obern Birsich zwüschent Hanns Küngen huss ze einer und&#10;des Baders an Steinen garten zer andern siten , zinset vormals den Peten&#10;18 pfenning"/>
+        <role role="location-b" ref="2222" text="Basel"/>
+        <role role="location-b" ref="2228" text="der vorstatt an den&#10;Steinen"/>
+        <role role="location-b" ref="2240" text="dem obern Birsich"/>
+        <role role="location-b" ref="2252" text="Hanns Küngen huss"/>
+        <role role="location-b" ref="2276" text="des Baders an Steinen garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="ownership" polarity="pos" tense="pres" modality="ass" start="82" end="83" ref="2264" type="state">
+      <event event_id="8.0">
+        <role role="property" ref="2252" text="Hanns Küngen huss"/>
+        <role role="owner" ref="2270" text="Hanns Küngen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="ownership" polarity="pos" tense="pres" modality="ass" start="88" end="91" ref="2276_desc_owner" type="state">
+      <event event_id="9.0">
+        <role role="property" ref="2276" text="des Baders an Steinen garten"/>
+        <role role="owner" ref="2288" text="des Baders an Steinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="topological" polarity="pos" tense="pres" modality="ass" start="90" end="91" ref="2300" type="state">
+      <event event_id="10.0">
+        <role role="location-a" ref="2288" text="des Baders an Steinen"/>
+        <role role="location-b" ref="2306" text="Steinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="97" end="102" ref="2342" type="state">
+      <trigger start="97" end="97" text="zinset" ref="2360"/>
+      <event event_id="11.0">
+        <role role="property" ref="2179" text="irem huss hoffstatt und garten in Basel in der vorstatt an den&#10;Steinen uf dem obern Birsich zwüschent Hanns Küngen huss ze einer und&#10;des Baders an Steinen garten zer andern siten , zinset vormals den Peten&#10;18 pfenning"/>
+        <role role="beneficiary" ref="2312" text="den Peten"/>
+        <role role="interest" ref="2324" text="18 pfenning"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="45" end="49" ref="" type="state">
+      <trigger start="49" end="49" text="Zins" ref="2348"/>
+      <event event_id="12.0">
+        <role role="interval" ref="2106" text="jährlich"/>
+        <role role="due-date" ref="2112" text="zu Martini"/>
+        <role role="interest" ref="2118" text="3 p . Rh ."/>
+        <role role="property" ref="2124" text="ihrem Rebberg vor dem Kerthore"/>
+        <role role="property" ref="2179" text="irem huss hoffstatt und garten in Basel in der vorstatt an den&#10;Steinen uf dem obern Birsich zwüschent Hanns Küngen huss ze einer und&#10;des Baders an Steinen garten zer andern siten , zinset vormals den Peten&#10;18 pfenning"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="1" end="110" ref="" type="event">
+      <trigger start="110" end="110" text="verkauft" ref="2354"/>
+      <event event_id="13.0">
+        <role role="place" ref="1912" text="Lienhart"/>
+        <role role="place" ref="1918" text="Hertiberg"/>
+        <role role="place" ref="1930" text="u . s . W"/>
+        <role role="seller" ref="1936" text="Conrat&#10;Frug der snider , burger zu Basel"/>
+        <role role="seller" ref="1984" text="seine Frau Verena"/>
+        <role role="buyer" ref="2021" text="dem Werten Wotet&#10;dem grautücher , och burger zu Basel"/>
+        <role role="buyer" ref="2069" text="dessen Frau Drsula"/>
+        <role role="due" ref="2348" text="Zins"/>
+        <role role="price" ref="2330" text="50 f . Rh ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 122/32 S. [41]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Marktplatz Theil von 9 neben Hutgasse 2</tei:title>
+            <tei:idno>HGB 1 122/32</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494810</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1459">1459</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611222.596001329 1267460.945237481</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Joachin</token>
+    <token token_id="1">eltorower</token>
+    <token token_id="2">der</token>
+    <token token_id="3">deschenmacher</token>
+    <token token_id="4">u</token>
+    <token token_id="5">.</token>
+    <token token_id="6">seine</token>
+    <token token_id="7">Frau</token>
+    <token token_id="8">Julins</token>
+    <token token_id="9">,</token>
+    <token token_id="10">verkaufen</token>
+    <token token_id="11">an</token>
+    <token token_id="12">Ennelin</token>
+    <token token_id="13">Gebhartin</token>
+    <token token_id="14">jetzt</token>
+    <token token_id="15">Mr</token>
+    <token token_id="16">.</token>
+    <token token_id="17">Clausen</token>
+    <token token_id="18">segkingers</token>
+    <token token_id="19">ewirtin</token>
+    <token token_id="20">2</token>
+    <token token_id="21">1</token>
+    <token token_id="22">/</token>
+    <token token_id="23">2</token>
+    <token token_id="24">fl</token>
+    <token token_id="25">.</token>
+    <token token_id="26">gelts</token>
+    <token token_id="27">,</token>
+    <token token_id="28">abaren</token>
+    <token token_id="29">Huse</token>
+    <token token_id="30">&amp;</token>
+    <token token_id="31">Hofstatt</token>
+    <token token_id="32">genant</token>
+    <token token_id="33">Angelberg</token>
+    <token token_id="34">gelegen</token>
+    <token token_id="35">am</token>
+    <token token_id="36">Kornmerckt</token>
+    <token token_id="37">,</token>
+    <token token_id="38">zwuschent</token>
+    <token token_id="39">Hartmanns</token>
+    <token token_id="40">des</token>
+    <token token_id="41">seklers</token>
+    <token token_id="42">uff</token>
+    <token token_id="43">ein</token>
+    <token token_id="44">,</token>
+    <token token_id="45">ư</token>
+    <token token_id="46">dem</token>
+    <token token_id="47">Huse</token>
+    <token token_id="48">genant</token>
+    <token token_id="49">Oppenhein</token>
+    <token token_id="50">andersite</token>
+    <token token_id="51">,</token>
+    <token token_id="52">ist</token>
+    <token token_id="53">erbe</token>
+    <token token_id="54">von</token>
+    <token token_id="55">dem</token>
+    <token token_id="56">Spital</token>
+    <token token_id="57">dem</token>
+    <token token_id="58">jährl</token>
+    <token token_id="59">.</token>
+    <token token_id="60">davon</token>
+    <token token_id="61">gehörent</token>
+    <token token_id="62">2</token>
+    <token token_id="63">1</token>
+    <token token_id="64">/</token>
+    <token token_id="65">2</token>
+    <token token_id="66">℔</token>
+    <token token_id="67">ze</token>
+    <token token_id="68">zinse</token>
+    <token token_id="69">,</token>
+    <token token_id="70">5</token>
+    <token token_id="71">sh</token>
+    <token token_id="72">erschatz</token>
+    <token token_id="73">,</token>
+    <token token_id="74">sodan</token>
+    <token token_id="75">aber</token>
+    <token token_id="76">demselben</token>
+    <token token_id="77">Spital</token>
+    <token token_id="78">3</token>
+    <token token_id="79">fl</token>
+    <token token_id="80">.</token>
+    <token token_id="81">widerk</token>
+    <token token_id="82">mit</token>
+    <token token_id="83">45</token>
+    <token token_id="84">fl</token>
+    <token token_id="85">.</token>
+    <token token_id="86">sodan</token>
+    <token token_id="87">hand</token>
+    <token token_id="88">die</token>
+    <token token_id="89">closterfrauen</token>
+    <token token_id="90">ze</token>
+    <token token_id="91">Clingental</token>
+    <token token_id="92">auch</token>
+    <token token_id="93">daruf</token>
+    <token token_id="94">Jährl</token>
+    <token token_id="95">3</token>
+    <token token_id="96">fl</token>
+    <token token_id="97">widerk</token>
+    <token token_id="98">.</token>
+    <token token_id="99">mit</token>
+    <token token_id="100">45</token>
+    <token token_id="101">fl</token>
+    <token token_id="102">.</token>
+    <token token_id="103">sonstfrei</token>
+    <token token_id="104">um</token>
+    <token token_id="105">50</token>
+    <token token_id="106">fl</token>
+    <token token_id="107">widerk</token>
+    <token token_id="108">.</token>
+  </text>
+  <spans>
+    <span id="1682" start="0" end="8" text="Joachin eltorower der deschenmacher u . seine Frau Julins" element="list" class="per" subclass="">
+      <span id="1621" start="0" end="3" text="Joachin eltorower der deschenmacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1627" start="0" end="1" text="Joachin eltorower" element="head" class="nam" subclass=""/>
+        <span id="1633" start="2" end="3" text="der deschenmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1639" start="3" end="3" text="deschenmacher" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1645" start="6" end="8" text="seine Frau Julins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1657" start="6" end="7" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1669" start="6" end="6" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1669_head" start="6" end="6" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1663" start="7" end="7" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1651" start="8" end="8" text="Julins" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1899" start="10" end="10" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1688" start="12" end="19" text="Ennelin Gebhartin jetzt Mr . Clausen&#10;segkingers ewirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1694" start="12" end="13" text="Ennelin Gebhartin" element="head" class="nam" subclass=""/>
+      <span id="1700" start="14" end="19" text="jetzt Mr . Clausen&#10;segkingers ewirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1712" start="15" end="18" text="Mr . Clausen&#10;segkingers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1718" start="17" end="18" text="Clausen&#10;segkingers" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1706" start="19" end="19" text="ewirtin" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1905" start="20" end="25" text="2 1 / 2 fl ." element="value" class="money" subclass=""/>
+    <span id="1911" start="26" end="26" text="gelts" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1724" start="29" end="103" text="Huse &amp;&#10;Hofstatt genant Angelberg gelegen am Kornmerckt ,&#10;zwuschent Hartmanns des seklers uff ein , ư dem Huse&#10;genant Oppenhein andersite , ist erbe von dem Spital&#10;dem jährl . davon gehörent 2 1 / 2 ℔ ze zinse , 5 sh erschatz ,&#10;sodan aber demselben Spital 3 fl . widerk mit 45 fl .&#10;sodan hand die closterfrauen ze Clingental auch daruf&#10;Jährl 3 fl widerk . mit 45 fl . sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1730" start="29" end="31" text="Huse &amp;&#10;Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1736" start="33" end="33" text="Angelberg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1736_head" start="33" end="33" element="head" class="nam" text="Angelberg" subclass=""/>
+      </span>
+      <span id="1742" start="34" end="50" text="gelegen am Kornmerckt ,&#10;zwuschent Hartmanns des seklers uff ein , ư dem Huse&#10;genant Oppenhein andersite" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1748" start="35" end="36" text="am Kornmerckt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="1754" start="36" end="36" text="Kornmerckt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1760" start="39" end="41" text="Hartmanns des seklers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1766" start="39" end="39" text="Hartmanns" element="head" class="nam" subclass=""/>
+          <span id="1772" start="40" end="41" text="des seklers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1778" start="41" end="41" text="seklers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1784" start="46" end="49" text="dem Huse&#10;genant Oppenhein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1790" start="47" end="47" text="Huse" element="head" class="type" subclass=""/>
+          <span id="1796" start="49" end="49" text="Oppenhein" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1796_head" start="49" end="49" element="head" class="nam" text="Oppenhein" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1802" start="52" end="103" text="ist erbe von dem Spital&#10;dem jährl . davon gehörent 2 1 / 2 ℔ ze zinse , 5 sh erschatz ,&#10;sodan aber demselben Spital 3 fl . widerk mit 45 fl .&#10;sodan hand die closterfrauen ze Clingental auch daruf&#10;Jährl 3 fl widerk . mit 45 fl . sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1978" start="52" end="56" text="ist erbe von dem Spital" element="other" class="other" subclass="">
+          <span id="1808" start="55" end="56" text="dem Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="1814" start="56" end="56" text="Spital" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+        <span id="1965" start="57" end="57" text="dem" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1965_head" start="57" end="57" element="head" class="pro" text="dem" subclass=""/>
+        </span>
+        <span id="1820" start="58" end="59" text="jährl ." element="value" class="time" subclass="rec"/>
+        <span id="1923" start="61" end="61" text="gehörent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1826" start="62" end="66" text="2 1 / 2 ℔" element="value" class="money" subclass=""/>
+        <span id="1935" start="68" end="68" text="zinse" element="other" class="other" subclass=""/>
+        <span id="1832" start="70" end="71" text="5 sh" element="value" class="money" subclass=""/>
+        <span id="1929" start="72" end="72" text="erschatz" element="other" class="other" subclass=""/>
+        <span id="1838" start="76" end="77" text="demselben Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1844" start="77" end="77" text="Spital" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1857" start="78" end="80" text="3 fl ." element="value" class="money" subclass=""/>
+        <span id="1941" start="81" end="81" text="widerk" element="other" class="other" subclass=""/>
+        <span id="1863" start="83" end="85" text="45 fl ." element="value" class="money" subclass=""/>
+        <span id="1947" start="87" end="87" text="hand" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1869" start="88" end="91" text="die closterfrauen ze Clingental" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1953" start="89" end="91" text="closterfrauen ze Clingental" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1875" start="94" end="94" text="Jährl" element="value" class="time" subclass="rec"/>
+        <span id="1881" start="95" end="96" text="3 fl" element="value" class="money" subclass=""/>
+        <span id="1959" start="97" end="98" text="widerk ." element="other" class="other" subclass=""/>
+        <span id="1887" start="100" end="102" text="45 fl ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1893" start="105" end="106" text="50 fl" element="value" class="money" subclass=""/>
+    <span id="1917" start="107" end="108" text="widerk ." element="other" class="other" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1675" from="1669" to="1621" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1850" from="1838" to="1808" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1971" from="1965" to="1808" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1923_role" from="1923" to="1724" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1947_role" from="1947" to="1724" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="6" end="7" ref="1657" type="state">
+      <trigger start="7" end="7" text="Frau" ref="1663"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1645" text="seine Frau Julins"/>
+        <role role="family-b" ref="1669" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="14" end="19" ref="1700" type="state">
+      <trigger start="19" end="19" text="ewirtin" ref="1706"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1688" text="Ennelin Gebhartin jetzt Mr . Clausen&#10;segkingers ewirtin"/>
+        <role role="family-b" ref="1712" text="Mr . Clausen&#10;segkingers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="34" end="50" ref="1742" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1724" text="Huse &amp;&#10;Hofstatt genant Angelberg gelegen am Kornmerckt ,&#10;zwuschent Hartmanns des seklers uff ein , ư dem Huse&#10;genant Oppenhein andersite , ist erbe von dem Spital&#10;dem jährl . davon gehörent 2 1 / 2 ℔ ze zinse , 5 sh erschatz ,&#10;sodan aber demselben Spital 3 fl . widerk mit 45 fl .&#10;sodan hand die closterfrauen ze Clingental auch daruf&#10;Jährl 3 fl widerk . mit 45 fl . sonstfrei"/>
+        <role role="location-b" ref="1748" text="am Kornmerckt"/>
+        <role role="location-b" ref="1760" text="Hartmanns des seklers"/>
+        <role role="location-b" ref="1784" text="dem Huse&#10;genant Oppenhein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="108" ref="" type="event">
+      <trigger start="10" end="10" text="verkaufen" ref="1899"/>
+      <event event_id="3.0">
+        <role role="seller" ref="1621" text="Joachin eltorower der deschenmacher"/>
+        <role role="seller" ref="1645" text="seine Frau Julins"/>
+        <role role="buyer" ref="1688" text="Ennelin Gebhartin jetzt Mr . Clausen&#10;segkingers ewirtin"/>
+        <role role="due" ref="1911" text="gelts"/>
+        <role role="collateral" ref="1724" text="Huse &amp;&#10;Hofstatt genant Angelberg gelegen am Kornmerckt ,&#10;zwuschent Hartmanns des seklers uff ein , ư dem Huse&#10;genant Oppenhein andersite , ist erbe von dem Spital&#10;dem jährl . davon gehörent 2 1 / 2 ℔ ze zinse , 5 sh erschatz ,&#10;sodan aber demselben Spital 3 fl . widerk mit 45 fl .&#10;sodan hand die closterfrauen ze Clingental auch daruf&#10;Jährl 3 fl widerk . mit 45 fl . sonstfrei"/>
+        <role role="price" ref="1893" text="50 fl"/>
+        <role role="interest-redeemable" ref="1917" text="widerk ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="20" end="26" ref="" type="state">
+      <trigger start="26" end="26" text="gelts" ref="1911"/>
+      <event event_id="4.0">
+        <role role="interest" ref="1905" text="2 1 / 2 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="29" end="61" ref="1802" type="state">
+      <trigger start="61" end="61" text="gehörent" ref="1923"/>
+      <event event_id="5.0">
+        <role role="detail_hereditary-owner" ref="1978" text="ist erbe von dem Spital"/>
+        <role role="beneficiary" ref="1965" text="dem"/>
+        <role role="interval" ref="1820" text="jährl ."/>
+        <role role="interest" ref="1826" text="2 1 / 2 ℔"/>
+        <role role="cause" ref="1935" text="zinse"/>
+        <role role="property" ref="1724" text="Huse &amp;&#10;Hofstatt genant Angelberg gelegen am Kornmerckt ,&#10;zwuschent Hartmanns des seklers uff ein , ư dem Huse&#10;genant Oppenhein andersite , ist erbe von dem Spital&#10;dem jährl . davon gehörent 2 1 / 2 ℔ ze zinse , 5 sh erschatz ,&#10;sodan aber demselben Spital 3 fl . widerk mit 45 fl .&#10;sodan hand die closterfrauen ze Clingental auch daruf&#10;Jährl 3 fl widerk . mit 45 fl . sonstfrei"/>
+      </event>
+      <event event_id="5.1">
+        <role role="detail_hereditary-owner" ref="1978" text="ist erbe von dem Spital"/>
+        <role role="beneficiary" ref="1965" text="dem"/>
+        <role role="interval" ref="1820" text="jährl ."/>
+        <role role="interest" ref="1832" text="5 sh"/>
+        <role role="cause" ref="1929" text="erschatz"/>
+        <role role="property" ref="1724" text="Huse &amp;&#10;Hofstatt genant Angelberg gelegen am Kornmerckt ,&#10;zwuschent Hartmanns des seklers uff ein , ư dem Huse&#10;genant Oppenhein andersite , ist erbe von dem Spital&#10;dem jährl . davon gehörent 2 1 / 2 ℔ ze zinse , 5 sh erschatz ,&#10;sodan aber demselben Spital 3 fl . widerk mit 45 fl .&#10;sodan hand die closterfrauen ze Clingental auch daruf&#10;Jährl 3 fl widerk . mit 45 fl . sonstfrei"/>
+      </event>
+      <event event_id="5.2">
+        <role role="detail_hereditary-owner" ref="1978" text="ist erbe von dem Spital"/>
+        <role role="beneficiary" ref="1965" text="dem"/>
+        <role role="interval" ref="1820" text="jährl ."/>
+        <role role="beneficiary" ref="1838" text="demselben Spital"/>
+        <role role="interest" ref="1857" text="3 fl ."/>
+        <role role="interest-redeemable" ref="1941" text="widerk"/>
+        <role role="capital" ref="1863" text="45 fl ."/>
+        <role role="property" ref="1724" text="Huse &amp;&#10;Hofstatt genant Angelberg gelegen am Kornmerckt ,&#10;zwuschent Hartmanns des seklers uff ein , ư dem Huse&#10;genant Oppenhein andersite , ist erbe von dem Spital&#10;dem jährl . davon gehörent 2 1 / 2 ℔ ze zinse , 5 sh erschatz ,&#10;sodan aber demselben Spital 3 fl . widerk mit 45 fl .&#10;sodan hand die closterfrauen ze Clingental auch daruf&#10;Jährl 3 fl widerk . mit 45 fl . sonstfrei"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="29" end="87" ref="1802" type="state">
+      <trigger start="87" end="87" text="hand" ref="1947"/>
+      <event event_id="6.0">
+        <role role="beneficiary" ref="1869" text="die closterfrauen ze Clingental"/>
+        <role role="interval" ref="1875" text="Jährl"/>
+        <role role="interest" ref="1881" text="3 fl"/>
+        <role role="interest-redeemable" ref="1959" text="widerk ."/>
+        <role role="capital" ref="1887" text="45 fl ."/>
+        <role role="property" ref="1724" text="Huse &amp;&#10;Hofstatt genant Angelberg gelegen am Kornmerckt ,&#10;zwuschent Hartmanns des seklers uff ein , ư dem Huse&#10;genant Oppenhein andersite , ist erbe von dem Spital&#10;dem jährl . davon gehörent 2 1 / 2 ℔ ze zinse , 5 sh erschatz ,&#10;sodan aber demselben Spital 3 fl . widerk mit 45 fl .&#10;sodan hand die closterfrauen ze Clingental auch daruf&#10;Jährl 3 fl widerk . mit 45 fl . sonstfrei"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

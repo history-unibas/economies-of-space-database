@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 51/86 S. [76]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Elisabethenstrasse 30, 32, 34</tei:title>
+            <tei:idno>HGB 1 51/86</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1466537</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1582">1582</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611464.6488600946 1266730.4820686176</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">in</token>
+    <token token_id="1">sant</token>
+    <token token_id="2">Ulrii</token>
+    <token token_id="3">.</token>
+    <token token_id="4">1582</token>
+    <token token_id="5">Herr</token>
+    <token token_id="6">Carol</token>
+    <token token_id="7">Glesser</token>
+    <token token_id="8">Obervogt</token>
+    <token token_id="9">uff</token>
+    <token token_id="10">Waldenburg</token>
+    <token token_id="11">,</token>
+    <token token_id="12">gibt</token>
+    <token token_id="13">mehr</token>
+    <token token_id="14">ab</token>
+    <token token_id="15">seinem</token>
+    <token token_id="16">Haus</token>
+    <token token_id="17">und</token>
+    <token token_id="18">Gartten</token>
+    <token token_id="19">zum</token>
+    <token token_id="20">Paradys</token>
+    <token token_id="21">,</token>
+    <token token_id="22">4</token>
+    <token token_id="23">sh</token>
+    <token token_id="24">.</token>
+    <token token_id="25">2</token>
+    <token token_id="26">hüener</token>
+    <token token_id="27">und</token>
+    <token token_id="28">zu</token>
+    <token token_id="29">erschatz</token>
+    <token token_id="30">5</token>
+    <token token_id="31">sh</token>
+    <token token_id="32">.</token>
+    <token token_id="33">Ebenso</token>
+    <token token_id="34">.</token>
+    <token token_id="35">1583</token>
+    <token token_id="36">.</token>
+    <token token_id="37">1584</token>
+    <token token_id="38">.</token>
+    <token token_id="39">1585</token>
+    <token token_id="40">.</token>
+    <token token_id="41">1586</token>
+    <token token_id="42">.</token>
+    <token token_id="43">1587</token>
+    <token token_id="44">.</token>
+    <token token_id="45">1588</token>
+    <token token_id="46">.</token>
+    <token token_id="47">1589</token>
+    <token token_id="48">.</token>
+    <token token_id="49">1590</token>
+    <token token_id="50">.</token>
+    <token token_id="51">1591</token>
+    <token token_id="52">.</token>
+    <token token_id="53">1592</token>
+    <token token_id="54">.</token>
+    <token token_id="55">1593</token>
+    <token token_id="56">.</token>
+    <token token_id="57">1594</token>
+    <token token_id="58">.</token>
+    <token token_id="59">Ebenso</token>
+    <token token_id="60">.</token>
+    <token token_id="61">1595</token>
+    <token token_id="62">.</token>
+    <token token_id="63">1596</token>
+    <token token_id="64">.</token>
+    <token token_id="65">1597</token>
+    <token token_id="66">.</token>
+    <token token_id="67">Herr</token>
+    <token token_id="68">Samuel</token>
+    <token token_id="69">Marschal</token>
+    <token token_id="70">der</token>
+    <token token_id="71">Orgaist</token>
+    <token token_id="72">gibt</token>
+    <token token_id="73">nun</token>
+    <token token_id="74">den</token>
+    <token token_id="75">zins</token>
+    <token token_id="76">.</token>
+  </text>
+  <spans>
+    <span id="1112" start="1" end="2" text="sant Ulrii" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1112_head" start="1" end="2" element="head" class="nam" text="sant Ulrii" subclass=""/>
+    </span>
+    <span id="1118" start="4" end="4" text="1582" element="value" class="date" subclass=""/>
+    <span id="1214" start="5" end="10" text="Herr Carol Glesser Obervogt uff Waldenburg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1220" start="6" end="7" text="Carol Glesser" element="head" class="nam" subclass=""/>
+      <span id="1226" start="8" end="10" text="Obervogt uff Waldenburg" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1232" start="8" end="8" text="Obervogt" element="head" class="occ" subclass="org-job"/>
+        <span id="1238" start="9" end="10" text="uff Waldenburg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1244" start="10" end="10" text="Waldenburg" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1244_head" start="10" end="10" element="head" class="nam" text="Waldenburg" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1323" start="12" end="12" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1250" start="15" end="20" text="seinem Haus und Gartten zum Paradys" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1262" start="15" end="15" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1268" start="15" end="15" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1268_head" start="15" end="15" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1256" start="16" end="20" text="Haus und Gartten zum Paradys" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1281" start="22" end="24" text="4 sh ." element="value" class="money" subclass=""/>
+    <span id="1287" start="25" end="26" text="2 hüener" element="value" class="money" subclass=""/>
+    <span id="1329" start="29" end="29" text="erschatz" element="other" class="other" subclass=""/>
+    <span id="1293" start="30" end="32" text="5 sh ." element="value" class="money" subclass=""/>
+    <span id="1124" start="35" end="35" text="1583" element="value" class="date" subclass=""/>
+    <span id="1130" start="37" end="37" text="1584" element="value" class="date" subclass=""/>
+    <span id="1136" start="39" end="39" text="1585" element="value" class="date" subclass=""/>
+    <span id="1142" start="41" end="41" text="1586" element="value" class="date" subclass=""/>
+    <span id="1148" start="43" end="43" text="1587" element="value" class="date" subclass=""/>
+    <span id="1154" start="45" end="45" text="1588" element="value" class="date" subclass=""/>
+    <span id="1160" start="47" end="47" text="1589" element="value" class="date" subclass=""/>
+    <span id="1166" start="49" end="49" text="1590" element="value" class="date" subclass=""/>
+    <span id="1172" start="51" end="51" text="1591" element="value" class="date" subclass=""/>
+    <span id="1178" start="53" end="53" text="1592" element="value" class="date" subclass=""/>
+    <span id="1184" start="55" end="55" text="1593" element="value" class="date" subclass=""/>
+    <span id="1190" start="57" end="57" text="1594" element="value" class="date" subclass=""/>
+    <span id="1196" start="61" end="61" text="1595" element="value" class="date" subclass=""/>
+    <span id="1202" start="63" end="63" text="1596" element="value" class="date" subclass=""/>
+    <span id="1208" start="65" end="65" text="1597" element="value" class="date" subclass=""/>
+    <span id="1299" start="67" end="71" text="Herr Samuel Marschal der Orgaist" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1305" start="68" end="69" text="Samuel Marschal" element="head" class="nam" subclass=""/>
+      <span id="1311" start="70" end="71" text="der Orgaist" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1317" start="71" end="71" text="Orgaist" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1341" start="72" end="72" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1274" from="1268" to="1214" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="9" end="10" ref="1238" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="1214" text="Herr Carol Glesser Obervogt uff Waldenburg"/>
+        <role role="location-b" ref="1244" text="Waldenburg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="15" end="15" ref="1262" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1250" text="seinem Haus und Gartten zum Paradys"/>
+        <role role="owner" ref="1268" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="12" end="63" ref="" type="event">
+      <trigger start="12" end="12" text="gibt" ref="1323"/>
+      <event event_id="2.0">
+        <role role="date" ref="1118" text="1582"/>
+        <role role="payer" ref="1214" text="Herr Carol Glesser Obervogt uff Waldenburg"/>
+        <role role="property" ref="1250" text="seinem Haus und Gartten zum Paradys"/>
+        <role role="interest" ref="1281" text="4 sh ."/>
+        <role role="interest" ref="1287" text="2 hüener"/>
+        <role role="date" ref="1124" text="1583"/>
+        <role role="date" ref="1130" text="1584"/>
+        <role role="date" ref="1136" text="1585"/>
+        <role role="date" ref="1142" text="1586"/>
+        <role role="date" ref="1148" text="1587"/>
+        <role role="date" ref="1154" text="1588"/>
+        <role role="date" ref="1160" text="1589"/>
+        <role role="date" ref="1166" text="1590"/>
+        <role role="date" ref="1172" text="1591"/>
+        <role role="date" ref="1178" text="1592"/>
+        <role role="date" ref="1184" text="1593"/>
+        <role role="date" ref="1190" text="1594"/>
+        <role role="date" ref="1196" text="1595"/>
+        <role role="date" ref="1202" text="1596"/>
+      </event>
+      <event event_id="2.1">
+        <role role="date" ref="1118" text="1582"/>
+        <role role="payer" ref="1214" text="Herr Carol Glesser Obervogt uff Waldenburg"/>
+        <role role="property" ref="1250" text="seinem Haus und Gartten zum Paradys"/>
+        <role role="cause" ref="1329" text="erschatz"/>
+        <role role="interest" ref="1293" text="5 sh ."/>
+        <role role="date" ref="1124" text="1583"/>
+        <role role="date" ref="1130" text="1584"/>
+        <role role="date" ref="1136" text="1585"/>
+        <role role="date" ref="1142" text="1586"/>
+        <role role="date" ref="1148" text="1587"/>
+        <role role="date" ref="1154" text="1588"/>
+        <role role="date" ref="1160" text="1589"/>
+        <role role="date" ref="1166" text="1590"/>
+        <role role="date" ref="1172" text="1591"/>
+        <role role="date" ref="1178" text="1592"/>
+        <role role="date" ref="1184" text="1593"/>
+        <role role="date" ref="1190" text="1594"/>
+        <role role="date" ref="1196" text="1595"/>
+        <role role="date" ref="1202" text="1596"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="65" end="72" ref="" type="event">
+      <trigger start="72" end="72" text="gibt" ref="1341"/>
+      <event event_id="3.0">
+        <role role="date" ref="1208" text="1597"/>
+        <role role="payer" ref="1299" text="Herr Samuel Marschal der Orgaist"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

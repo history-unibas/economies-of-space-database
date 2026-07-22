@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 215/13 S. [4]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Steinenvorstadt 3</tei:title>
+            <tei:idno>HGB 1 215/13</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532594</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1440">1440</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611324.019449559 1267019.1895102588</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Meister</token>
+    <token token_id="1">Michel</token>
+    <token token_id="2">Birbrung</token>
+    <token token_id="3">der</token>
+    <token token_id="4">besetzer</token>
+    <token token_id="5">u</token>
+    <token token_id="6">Engel</token>
+    <token token_id="7">sin</token>
+    <token token_id="8">ewirtin</token>
+    <token token_id="9">,</token>
+    <token token_id="10">verkaufen</token>
+    <token token_id="11">an</token>
+    <token token_id="12">Johansen</token>
+    <token token_id="13">von</token>
+    <token token_id="14">Bürgen</token>
+    <token token_id="15">Stettschriber</token>
+    <token token_id="16">miner</token>
+    <token token_id="17">herren</token>
+    <token token_id="18">der</token>
+    <token token_id="19">Reten</token>
+    <token token_id="20">ze</token>
+    <token token_id="21">Basel</token>
+    <token token_id="22">,</token>
+    <token token_id="23">der</token>
+    <token token_id="24">jnnamen</token>
+    <token token_id="25">miner</token>
+    <token token_id="26">herren</token>
+    <token token_id="27">kauft</token>
+    <token token_id="28">3fl</token>
+    <token token_id="29">gelts</token>
+    <token token_id="30">,</token>
+    <token token_id="31">ab</token>
+    <token token_id="32">irem</token>
+    <token token_id="33">Hus</token>
+    <token token_id="34">&amp;</token>
+    <token token_id="35">Hofstatt</token>
+    <token token_id="36">genant</token>
+    <token token_id="37">Miltenberg</token>
+    <token token_id="38">,</token>
+    <token token_id="39">gelegen</token>
+    <token token_id="40">in</token>
+    <token token_id="41">der</token>
+    <token token_id="42">vorstatt</token>
+    <token token_id="43">an</token>
+    <token token_id="44">dem</token>
+    <token token_id="45">Steinen</token>
+    <token token_id="46">,</token>
+    <token token_id="47">nebend</token>
+    <token token_id="48">Kuttingers</token>
+    <token token_id="49">ư</token>
+    <token token_id="50">Thüringers</token>
+    <token token_id="51">sel</token>
+    <token token_id="52">.</token>
+    <token token_id="53">hüsern</token>
+    <token token_id="54">,</token>
+    <token token_id="55">zinset</token>
+    <token token_id="56">voneig</token>
+    <token token_id="57">.</token>
+    <token token_id="58">Hans</token>
+    <token token_id="59">von</token>
+    <token token_id="60">Hegenhein</token>
+    <token token_id="61">sel</token>
+    <token token_id="62">.</token>
+    <token token_id="63">erben</token>
+    <token token_id="64">4</token>
+    <token token_id="65">℔</token>
+    <token token_id="66">ư</token>
+    <token token_id="67">zwen</token>
+    <token token_id="68">Kappen</token>
+    <token token_id="69">gelts</token>
+    <token token_id="70">,</token>
+    <token token_id="71">sum</token>
+    <token token_id="72">60</token>
+    <token token_id="73">fl</token>
+    <token token_id="74">widerk</token>
+    <token token_id="75">.</token>
+  </text>
+  <spans>
+    <span id="1228" start="0" end="8" text="Meister Michel Birbrung der besetzer u Engel&#10;sin ewirtin" element="list" class="per" subclass="">
+      <span id="1161" start="0" end="4" text="Meister Michel Birbrung der besetzer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1173" start="0" end="0" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1173_head" start="0" end="0" element="head" class="title" text="Meister" subclass=""/>
+        </span>
+        <span id="1167" start="1" end="2" text="Michel Birbrung" element="head" class="nam" subclass=""/>
+        <span id="1179" start="3" end="4" text="der besetzer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1185" start="4" end="4" text="besetzer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1191" start="6" end="8" text="Engel&#10;sin ewirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1197" start="6" end="6" text="Engel" element="head" class="nam" subclass=""/>
+        <span id="1203" start="7" end="8" text="sin ewirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1215" start="7" end="7" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1215_head" start="7" end="7" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1209" start="8" end="8" text="ewirtin" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1465" start="10" end="10" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1234" start="12" end="21" text="Johansen von Bürgen&#10;Stettschriber miner herren der Reten ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1240" start="12" end="14" text="Johansen von Bürgen" element="head" class="nam" subclass=""/>
+      <span id="1246" start="15" end="21" text="Stettschriber miner herren der Reten ze Basel" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1252" start="15" end="15" text="Stettschriber" element="head" class="occ" subclass="org-job"/>
+        <span id="1258" start="16" end="21" text="miner herren der Reten ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="1264" start="16" end="19" text="miner herren der Reten" element="head" class="type" subclass=""/>
+          <span id="1270" start="20" end="21" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1276" start="21" end="21" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1276_head" start="21" end="21" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1307" start="23" end="23" text="der" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1307_head" start="23" end="23" element="head" class="pro" text="der" subclass=""/>
+    </span>
+    <span id="1294" start="25" end="26" text="miner herren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="1294_head" start="25" end="26" element="head" class="type" text="miner herren" subclass=""/>
+    </span>
+    <span id="1282" start="28" end="28" text="3fl" element="value" class="money" subclass=""/>
+    <span id="1288" start="32" end="69" text="irem Hus &amp; Hofstatt genant Miltenberg , gelegen&#10;in der vorstatt an dem Steinen , nebend Kuttingers&#10;ư Thüringers sel . hüsern , zinset voneig . Hans&#10;von Hegenhein sel . erben 4 ℔ ư zwen Kappen gelts" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1332" start="32" end="32" text="irem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1338" start="32" end="32" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1338_head" start="32" end="32" element="head" class="pro" text="irem" subclass=""/>
+        </span>
+      </span>
+      <span id="1320" start="33" end="35" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1326" start="37" end="37" text="Miltenberg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1326_head" start="37" end="37" element="head" class="nam" text="Miltenberg" subclass=""/>
+      </span>
+      <span id="1351" start="39" end="53" text="gelegen&#10;in der vorstatt an dem Steinen , nebend Kuttingers&#10;ư Thüringers sel . hüsern" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1357" start="41" end="45" text="der vorstatt an dem Steinen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1363" start="43" end="45" text="an dem Steinen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1369" start="48" end="53" text="Kuttingers&#10;ư Thüringers sel . hüsern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1381" start="48" end="52" text="Kuttingers&#10;ư Thüringers sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1411" start="48" end="52" text="Kuttingers&#10;ư Thüringers sel ." element="list" class="per" subclass="">
+              <span id="1387" start="48" end="48" text="Kuttingers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1387_head" start="48" end="48" element="head" class="nam" text="Kuttingers" subclass=""/>
+              </span>
+              <span id="1393" start="50" end="52" text="Thüringers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1399" start="50" end="50" text="Thüringers" element="head" class="nam" subclass=""/>
+                <span id="1405" start="51" end="52" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1375" start="53" end="53" text="hüsern" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1417" start="55" end="69" text="zinset voneig . Hans&#10;von Hegenhein sel . erben 4 ℔ ư zwen Kappen gelts" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1478" start="55" end="55" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1423" start="58" end="63" text="Hans&#10;von Hegenhein sel . erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1435" start="58" end="62" text="Hans&#10;von Hegenhein sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1441" start="58" end="60" text="Hans&#10;von Hegenhein" element="head" class="nam" subclass=""/>
+            <span id="1447" start="61" end="62" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="1429" start="63" end="63" text="erben" element="head" class="heir" subclass=""/>
+        </span>
+        <span id="1453" start="64" end="68" text="4 ℔ ư zwen Kappen" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1459" start="72" end="73" text="60 fl" element="value" class="money" subclass=""/>
+    <span id="1484" start="74" end="74" text="widerk" element="other" class="other" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1344" from="1338" to="1228" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1221" from="1215" to="1161" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1313" from="1307" to="1234" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1300" from="1294" to="1258" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1471" from="1307" to="1294" class="org-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1478_role" from="1478" to="1288" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="58" end="63" ref="1423" type="event">
+      <trigger start="63" end="63" text="erben" ref="1429"/>
+      <event event_id="0.0">
+        <role role="heir" ref="1423" text="Hans&#10;von Hegenhein sel . erben"/>
+        <role role="decedent" ref="1435" text="Hans&#10;von Hegenhein sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="8" ref="1203" type="state">
+      <trigger start="8" end="8" text="ewirtin" ref="1209"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1191" text="Engel&#10;sin ewirtin"/>
+        <role role="family-b" ref="1215" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="employment" polarity="pos" tense="pres" modality="ass" start="15" end="21" ref="1246" type="state">
+      <trigger start="15" end="15" text="Stettschriber" ref="1252"/>
+      <event event_id="2.0">
+        <role role="employee" ref="1234" text="Johansen von Bürgen&#10;Stettschriber miner herren der Reten ze Basel"/>
+        <role role="employer" ref="1258" text="miner herren der Reten ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="21" ref="1270" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1258" text="miner herren der Reten ze Basel"/>
+        <role role="location-b" ref="1276" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="32" end="32" ref="1332" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1288" text="irem Hus &amp; Hofstatt genant Miltenberg , gelegen&#10;in der vorstatt an dem Steinen , nebend Kuttingers&#10;ư Thüringers sel . hüsern , zinset voneig . Hans&#10;von Hegenhein sel . erben 4 ℔ ư zwen Kappen gelts"/>
+        <role role="owner" ref="1338" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="39" end="53" ref="1351" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1288" text="irem Hus &amp; Hofstatt genant Miltenberg , gelegen&#10;in der vorstatt an dem Steinen , nebend Kuttingers&#10;ư Thüringers sel . hüsern , zinset voneig . Hans&#10;von Hegenhein sel . erben 4 ℔ ư zwen Kappen gelts"/>
+        <role role="location-b" ref="1357" text="der vorstatt an dem Steinen"/>
+        <role role="location-b" ref="1369" text="Kuttingers&#10;ư Thüringers sel . hüsern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="48" end="52" ref="1381" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1369" text="Kuttingers&#10;ư Thüringers sel . hüsern"/>
+        <role role="owner" ref="1387" text="Kuttingers"/>
+        <role role="owner" ref="1393" text="Thüringers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="74" ref="" type="event">
+      <trigger start="10" end="10" text="verkaufen" ref="1465"/>
+      <event event_id="7.0">
+        <role role="seller" ref="1161" text="Meister Michel Birbrung der besetzer"/>
+        <role role="seller" ref="1191" text="Engel&#10;sin ewirtin"/>
+        <role role="buyer" ref="1234" text="Johansen von Bürgen&#10;Stettschriber miner herren der Reten ze Basel"/>
+        <role role="interest" ref="1282" text="3fl"/>
+        <role role="collateral" ref="1288" text="irem Hus &amp; Hofstatt genant Miltenberg , gelegen&#10;in der vorstatt an dem Steinen , nebend Kuttingers&#10;ư Thüringers sel . hüsern , zinset voneig . Hans&#10;von Hegenhein sel . erben 4 ℔ ư zwen Kappen gelts"/>
+        <role role="price" ref="1459" text="60 fl"/>
+        <role role="interest-redeemable" ref="1484" text="widerk"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="32" end="69" ref="1417" type="state">
+      <trigger start="55" end="55" text="zinset" ref="1478"/>
+      <event event_id="8.0">
+        <role role="beneficiary" ref="1423" text="Hans&#10;von Hegenhein sel . erben"/>
+        <role role="interest" ref="1453" text="4 ℔ ư zwen Kappen"/>
+        <role role="property" ref="1288" text="irem Hus &amp; Hofstatt genant Miltenberg , gelegen&#10;in der vorstatt an dem Steinen , nebend Kuttingers&#10;ư Thüringers sel . hüsern , zinset voneig . Hans&#10;von Hegenhein sel . erben 4 ℔ ư zwen Kappen gelts"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="9.0">
+        <role role="representative" ref="1307" text="der"/>
+        <role role="represented" ref="1294" text="miner herren"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

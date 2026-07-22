@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 91/129 S. [22]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Johanns-Vorstadt 36</tei:title>
+            <tei:idno>HGB 1 91/129</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1482584</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Domstift</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1695">1695</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610967.517852448 1268130.776521398</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">Jacob</token>
+    <token token_id="2">Brändlin</token>
+    <token token_id="3">der</token>
+    <token token_id="4">Fischer</token>
+    <token token_id="5">-</token>
+    <token token_id="6">2</token>
+    <token token_id="7">℔</token>
+    <token token_id="8">.</token>
+    <token token_id="9">Ebenso</token>
+    <token token_id="10">1696</token>
+    <token token_id="11">.</token>
+    <token token_id="12">Ebenso</token>
+    <token token_id="13">1698</token>
+    <token token_id="14">.</token>
+    <token token_id="15">Ebenso</token>
+    <token token_id="16">1697</token>
+    <token token_id="17">.</token>
+    <token token_id="18">1700</token>
+    <token token_id="19">wie</token>
+    <token token_id="20">oben</token>
+    <token token_id="21">.</token>
+    <token token_id="22">1699</token>
+    <token token_id="23">fehlt</token>
+    <token token_id="24">.</token>
+    <token token_id="25">Ebenso</token>
+    <token token_id="26">1701</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Ebenso</token>
+    <token token_id="29">1703</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Ebenso</token>
+    <token token_id="32">1704</token>
+    <token token_id="33">.</token>
+    <token token_id="34">Ebenso</token>
+    <token token_id="35">1702</token>
+    <token token_id="36">.</token>
+    <token token_id="37">Ebenso</token>
+    <token token_id="38">1706</token>
+    <token token_id="39">.</token>
+    <token token_id="40">Ebenso</token>
+    <token token_id="41">1705</token>
+    <token token_id="42">.</token>
+    <token token_id="43">Ebenso</token>
+    <token token_id="44">1707</token>
+    <token token_id="45">.</token>
+    <token token_id="46">Ebenso</token>
+    <token token_id="47">1708</token>
+    <token token_id="48">.</token>
+    <token token_id="49">Ebenso</token>
+    <token token_id="50">1709</token>
+    <token token_id="51">.</token>
+    <token token_id="52">1710</token>
+    <token token_id="53">Jacob</token>
+    <token token_id="54">Brändlin</token>
+    <token token_id="55">des</token>
+    <token token_id="56">Vischers</token>
+    <token token_id="57">s</token>
+    <token token_id="58">.</token>
+    <token token_id="59">frau</token>
+    <token token_id="60">2</token>
+    <token token_id="61">℔</token>
+    <token token_id="62">barbara</token>
+    <token token_id="63">Brändlerin</token>
+  </text>
+  <spans>
+    <span id="1210" start="0" end="51" text="Item Jacob Brändlin der Fischer&#10;- 2 ℔.&#10;Ebenso 1696 .&#10;Ebenso 1698 .&#10;Ebenso 1697 .&#10;1700 wie oben .&#10;1699 fehlt .&#10;Ebenso 1701 .&#10;Ebenso 1703 .&#10;Ebenso 1704 .&#10;Ebenso 1702 .&#10;Ebenso 1706 .&#10;Ebenso 1705 .&#10;Ebenso 1707 .&#10;Ebenso 1708 .&#10;Ebenso 1709 ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1042" start="1" end="4" text="Jacob Brändlin der Fischer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1048" start="1" end="2" text="Jacob Brändlin" element="head" class="nam" subclass=""/>
+        <span id="1054" start="3" end="4" text="der Fischer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1060" start="4" end="4" text="Fischer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1066" start="6" end="7" text="2 ℔" element="value" class="money" subclass=""/>
+      <span id="1072" start="10" end="10" text="1696" element="value" class="date" subclass=""/>
+      <span id="1078" start="13" end="13" text="1698" element="value" class="date" subclass=""/>
+      <span id="1084" start="16" end="16" text="1697" element="value" class="date" subclass=""/>
+      <span id="1090" start="18" end="18" text="1700" element="value" class="date" subclass=""/>
+      <span id="1096" start="22" end="22" text="1699" element="value" class="date" subclass=""/>
+      <span id="1102" start="26" end="26" text="1701" element="value" class="date" subclass=""/>
+      <span id="1108" start="29" end="29" text="1703" element="value" class="date" subclass=""/>
+      <span id="1114" start="32" end="32" text="1704" element="value" class="date" subclass=""/>
+      <span id="1120" start="35" end="35" text="1702" element="value" class="date" subclass=""/>
+      <span id="1126" start="38" end="38" text="1706" element="value" class="date" subclass=""/>
+      <span id="1132" start="41" end="41" text="1705" element="value" class="date" subclass=""/>
+      <span id="1138" start="44" end="44" text="1707" element="value" class="date" subclass=""/>
+      <span id="1144" start="47" end="47" text="1708" element="value" class="date" subclass=""/>
+      <span id="1150" start="50" end="50" text="1709" element="value" class="date" subclass=""/>
+    </span>
+    <span id="1235" start="52" end="63" text="1710 Jacob Brändlin des Vischers s . frau&#10;2 ℔&#10;barbara Brändlerin" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1156" start="52" end="52" text="1710" element="value" class="date" subclass=""/>
+      <span id="1162" start="53" end="59" text="Jacob Brändlin des Vischers s . frau" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1174" start="53" end="58" text="Jacob Brändlin des Vischers s ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1180" start="53" end="54" text="Jacob Brändlin" element="head" class="nam" subclass=""/>
+          <span id="1186" start="55" end="56" text="des Vischers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1192" start="56" end="56" text="Vischers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1168" start="59" end="59" text="frau" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="1198" start="60" end="61" text="2 ℔" element="value" class="money" subclass=""/>
+      <span id="1204" start="62" end="63" text="barbara Brändlerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1204_head" start="62" end="63" element="head" class="nam" text="barbara Brändlerin" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1228" from="1204" to="1162" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="51" ref="1210" type="event">
+      <event event_id="0.0">
+        <role role="payer" ref="1042" text="Jacob Brändlin der Fischer"/>
+        <role role="interest" ref="1066" text="2 ℔"/>
+        <role role="date" ref="1072" text="1696"/>
+        <role role="date" ref="1078" text="1698"/>
+        <role role="date" ref="1084" text="1697"/>
+        <role role="date" ref="1090" text="1700"/>
+        <role role="date-missing" ref="1096" text="1699"/>
+        <role role="date" ref="1102" text="1701"/>
+        <role role="date" ref="1108" text="1703"/>
+        <role role="date" ref="1114" text="1704"/>
+        <role role="date" ref="1120" text="1702"/>
+        <role role="date" ref="1126" text="1706"/>
+        <role role="date" ref="1132" text="1705"/>
+        <role role="date" ref="1138" text="1707"/>
+        <role role="date" ref="1144" text="1708"/>
+        <role role="date" ref="1150" text="1709"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="52" end="63" ref="1235" type="event">
+      <event event_id="1.0">
+        <role role="date" ref="1156" text="1710"/>
+        <role role="payer" ref="1162" text="Jacob Brändlin des Vischers s . frau"/>
+        <role role="interest" ref="1198" text="2 ℔"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="53" end="59" ref="1162" type="state">
+      <trigger start="59" end="59" text="frau" ref="1168"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1162" text="Jacob Brändlin des Vischers s . frau"/>
+        <role role="family-b" ref="1174" text="Jacob Brändlin des Vischers s ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

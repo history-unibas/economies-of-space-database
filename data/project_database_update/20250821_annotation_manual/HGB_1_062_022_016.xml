@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 62/22 S. [16]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gemsberg Theil von 7 neben Unt. Heuberg 1</tei:title>
+            <tei:idno>HGB 1 62/22</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472789</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1474">1474</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611123.7198974844 1267329.5246354775</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">sic</token>
+    <token token_id="1">)</token>
+    <token token_id="2">Hanns</token>
+    <token token_id="3">von</token>
+    <token token_id="4">Lietrigen</token>
+    <token token_id="5">der</token>
+    <token token_id="6">Mezger</token>
+    <token token_id="7">verkauft</token>
+    <token token_id="8">an</token>
+    <token token_id="9">Heinrich</token>
+    <token token_id="10">von</token>
+    <token token_id="11">Brunn</token>
+    <token token_id="12">des</token>
+    <token token_id="13">Rats</token>
+    <token token_id="14">,</token>
+    <token token_id="15">2</token>
+    <token token_id="16">fl</token>
+    <token token_id="17">gelts</token>
+    <token token_id="18">,</token>
+    <token token_id="19">ab</token>
+    <token token_id="20">sinem</token>
+    <token token_id="21">Hus</token>
+    <token token_id="22">&amp;</token>
+    <token token_id="23">Hofstatt</token>
+    <token token_id="24">genant</token>
+    <token token_id="25">Fridberg</token>
+    <token token_id="26">gelegen</token>
+    <token token_id="27">uff</token>
+    <token token_id="28">s</token>
+    <token token_id="29">.</token>
+    <token token_id="30">Lienhartsberg</token>
+    <token token_id="31">,</token>
+    <token token_id="32">bym</token>
+    <token token_id="33">durren</token>
+    <token token_id="34">Sode</token>
+    <token token_id="35">,</token>
+    <token token_id="36">zwüschen</token>
+    <token token_id="37">Peter</token>
+    <token token_id="38">Byschoffs</token>
+    <token token_id="39">sel</token>
+    <token token_id="40">.</token>
+    <token token_id="41">ư</token>
+    <token token_id="42">Hanns</token>
+    <token token_id="43">Keller</token>
+    <token token_id="44">des</token>
+    <token token_id="45">gartners</token>
+    <token token_id="46">husern</token>
+    <token token_id="47">Zinst</token>
+    <token token_id="48">jährl</token>
+    <token token_id="49">.</token>
+    <token token_id="50">voneig</token>
+    <token token_id="51">.</token>
+    <token token_id="52">den</token>
+    <token token_id="53">Predigern</token>
+    <token token_id="54">2sh</token>
+    <token token_id="55">.</token>
+    <token token_id="56">sonstfrei</token>
+    <token token_id="57">,</token>
+    <token token_id="58">sum</token>
+    <token token_id="59">40</token>
+    <token token_id="60">fl</token>
+    <token token_id="61">.</token>
+    <token token_id="62">widerk</token>
+    <token token_id="63">.</token>
+  </text>
+  <spans>
+    <span id="1425" start="2" end="6" text="Hanns von Lietrigen der Mezger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1564" start="2" end="2" text="Hanns" element="head" class="nam" subclass=""/>
+      <span id="1570" start="3" end="4" text="von Lietrigen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1576" start="4" end="4" text="Lietrigen" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1576_head" start="4" end="4" element="head" class="nam" text="Lietrigen" subclass=""/>
+        </span>
+      </span>
+      <span id="1431" start="5" end="6" text="der Mezger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1437" start="6" end="6" text="Mezger" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1648" start="7" end="7" text="verkauft" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1443" start="9" end="13" text="Heinrich von Brunn des Rats" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1449" start="9" end="11" text="Heinrich von Brunn" element="head" class="nam" subclass=""/>
+      <span id="1455" start="12" end="13" text="des Rats" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1582" start="13" end="13" text="Rats" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="1582_head" start="13" end="13" element="head" class="type" text="Rats" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1461" start="15" end="17" text="2 fl gelts" element="value" class="money" subclass=""/>
+    <span id="1624" start="20" end="56" text="sinem&#10;Hus &amp; Hofstatt genant Fridberg gelegen uff s .&#10;Lienhartsberg , bym durren Sode , zwüschen Peter&#10;Byschoffs sel . ư Hanns Keller des gartners husern&#10;Zinst jährl . voneig . den Predigern 2sh . sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1588" start="20" end="20" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1467" start="20" end="20" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1467_head" start="20" end="20" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1480" start="21" end="23" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1486" start="25" end="25" text="Fridberg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1486_head" start="25" end="25" element="head" class="nam" text="Fridberg" subclass=""/>
+      </span>
+      <span id="1492" start="26" end="46" text="gelegen uff s .&#10;Lienhartsberg , bym durren Sode , zwüschen Peter&#10;Byschoffs sel . ư Hanns Keller des gartners husern" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1498" start="28" end="30" text="s .&#10;Lienhartsberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1498_head" start="28" end="30" element="head" class="nam" text="s . Lienhartsberg" subclass=""/>
+        </span>
+        <span id="1594" start="33" end="34" text="durren Sode" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="unk">
+          <span id="1594_head" start="33" end="34" element="head" class="nam" text="durren Sode" subclass=""/>
+        </span>
+        <span id="1600" start="37" end="46" text="Peter&#10;Byschoffs sel . ư Hanns Keller des gartners husern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="custom_desc_owner_x" start="37" end="45" text="Peter&#10;Byschoffs sel . ư Hanns Keller des gartners" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1606" start="37" end="45" text="Peter&#10;Byschoffs sel . ư Hanns Keller des gartners" element="list" class="per" subclass="">
+              <span id="1612" start="37" end="40" text="Peter&#10;Byschoffs sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1504" start="37" end="38" text="Peter&#10;Byschoffs" element="head" class="nam" subclass=""/>
+                <span id="1558" start="39" end="40" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              </span>
+              <span id="1510" start="42" end="45" text="Hanns Keller des gartners" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1516" start="42" end="43" text="Hanns Keller" element="head" class="nam" subclass=""/>
+                <span id="1522" start="44" end="45" text="des gartners" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1528" start="45" end="45" text="gartners" element="head" class="occ" subclass=""/>
+                </span>
+              </span>
+            </span>
+          </span>
+          <span id="1618" start="46" end="46" text="husern" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1636" start="47" end="56" text="Zinst jährl . voneig . den Predigern 2sh . sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1534" start="48" end="48" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="1540" start="52" end="53" text="den Predigern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1546" start="53" end="53" text="Predigern" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1630" start="54" end="55" text="2sh ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1642" start="59" end="61" text="40 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1473" from="1467" to="1425" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="3" end="4" ref="1570" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="1425" text="Hanns von Lietrigen der Mezger"/>
+        <role role="location-b" ref="1576" text="Lietrigen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="membership" polarity="pos" tense="pres" modality="ass" start="12" end="13" ref="1455" type="state">
+      <event event_id="1.0">
+        <role role="member" ref="1443" text="Heinrich von Brunn des Rats"/>
+        <role role="organization" ref="1582" text="Rats"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="20" end="20" ref="1588" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1624" text="sinem&#10;Hus &amp; Hofstatt genant Fridberg gelegen uff s .&#10;Lienhartsberg , bym durren Sode , zwüschen Peter&#10;Byschoffs sel . ư Hanns Keller des gartners husern&#10;Zinst jährl . voneig . den Predigern 2sh . sonstfrei"/>
+        <role role="owner" ref="1467" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="26" end="46" ref="1492" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1624" text="sinem&#10;Hus &amp; Hofstatt genant Fridberg gelegen uff s .&#10;Lienhartsberg , bym durren Sode , zwüschen Peter&#10;Byschoffs sel . ư Hanns Keller des gartners husern&#10;Zinst jährl . voneig . den Predigern 2sh . sonstfrei"/>
+        <role role="location-b" ref="1498" text="s .&#10;Lienhartsberg"/>
+        <role role="location-b" ref="1594" text="durren Sode"/>
+        <role role="location-b" ref="1600" text="Peter&#10;Byschoffs sel . ư Hanns Keller des gartners husern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="37" end="45" ref="custom_desc_owner_x" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1600" text="Peter&#10;Byschoffs sel . ư Hanns Keller des gartners husern"/>
+        <role role="owner" ref="1612" text="Peter&#10;Byschoffs sel ."/>
+        <role role="owner" ref="1510" text="Hanns Keller des gartners"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="47" end="56" ref="1636" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1624" text="sinem&#10;Hus &amp; Hofstatt genant Fridberg gelegen uff s .&#10;Lienhartsberg , bym durren Sode , zwüschen Peter&#10;Byschoffs sel . ư Hanns Keller des gartners husern&#10;Zinst jährl . voneig . den Predigern 2sh . sonstfrei"/>
+        <role role="interval" ref="1534" text="jährl"/>
+        <role role="beneficiary" ref="1540" text="den Predigern"/>
+        <role role="interest" ref="1630" text="2sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="2" end="7" ref="" type="event">
+      <trigger start="7" end="7" text="verkauft" ref="1648"/>
+      <event event_id="6.0">
+        <role role="seller" ref="1425" text="Hanns von Lietrigen der Mezger"/>
+        <role role="buyer" ref="1443" text="Heinrich von Brunn des Rats"/>
+        <role role="interest" ref="1461" text="2 fl gelts"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

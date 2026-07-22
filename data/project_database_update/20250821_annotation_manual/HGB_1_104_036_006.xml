@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 104/36 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Kohlenberggasse 16</tei:title>
+            <tei:idno>HGB 1 104/36</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1493395</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1439">1439</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611257.2254562937 1266998.4720596296</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">überkoffte</token>
+    <token token_id="2">Heusslin</token>
+    <token token_id="3">von</token>
+    <token token_id="4">Seuf</token>
+    <token token_id="5">,</token>
+    <token token_id="6">Conraten</token>
+    <token token_id="7">von</token>
+    <token token_id="8">Oberehr</token>
+    <token token_id="9">an</token>
+    <token token_id="10">dem</token>
+    <token token_id="11">Hus</token>
+    <token token_id="12">u</token>
+    <token token_id="13">.</token>
+    <token token_id="14">garten</token>
+    <token token_id="15">so</token>
+    <token token_id="16">kyers</token>
+    <token token_id="17">des</token>
+    <token token_id="18">gratuchers</token>
+    <token token_id="19">ist</token>
+    <token token_id="20">,</token>
+    <token token_id="21">gelegen</token>
+    <token token_id="22">uf</token>
+    <token token_id="23">dem</token>
+    <token token_id="24">Kolenberg</token>
+    <token token_id="25">,</token>
+    <token token_id="26">nebend</token>
+    <token token_id="27">Breutzlins</token>
+    <token token_id="28">und</token>
+    <token token_id="29">Wylers</token>
+    <token token_id="30">garten</token>
+    <token token_id="31">,</token>
+    <token token_id="32">von</token>
+    <token token_id="33">8</token>
+    <token token_id="34">fl</token>
+    <token token_id="35">wegen</token>
+    <token token_id="36">so</token>
+    <token token_id="37">man</token>
+    <token token_id="38">demselben</token>
+    <token token_id="39">,</token>
+    <token token_id="40">Conraten</token>
+    <token token_id="41">schuldig</token>
+    <token token_id="42">ist</token>
+    <token token_id="43">umb</token>
+    <token token_id="44">4sh</token>
+    <token token_id="45">.</token>
+    <token token_id="46">1</token>
+    <token token_id="47">℔</token>
+    <token token_id="48">,</token>
+    <token token_id="49">u</token>
+    <token token_id="50">.</token>
+    <token token_id="51">behub</token>
+    <token token_id="52">auch</token>
+    <token token_id="53">der</token>
+    <token token_id="54">obgenant</token>
+    <token token_id="55">Conrat</token>
+    <token token_id="56">8</token>
+    <token token_id="57">fl</token>
+    <token token_id="58">.</token>
+    <token token_id="59">sin</token>
+    <token token_id="60">schuld</token>
+    <token token_id="61">u</token>
+    <token token_id="62">.</token>
+    <token token_id="63">1sh</token>
+    <token token_id="64">.</token>
+    <token token_id="65">für</token>
+    <token token_id="66">kosten</token>
+    <token token_id="67">daruff</token>
+    <token token_id="68">gangen</token>
+    <token token_id="69">am</token>
+    <token token_id="70">Rande</token>
+    <token token_id="71">steht</token>
+    <token token_id="72">:</token>
+    <token token_id="73">Sabto</token>
+    <token token_id="74">vidz</token>
+    <token token_id="75">vig</token>
+    <token token_id="76">sci</token>
+    <token token_id="77">Laurencii</token>
+    <token token_id="78">do</token>
+    <token token_id="79">ward</token>
+    <token token_id="80">Conrat</token>
+    <token token_id="81">von</token>
+    <token token_id="82">Oberwil</token>
+    <token token_id="83">nach</token>
+    <token token_id="84">dem</token>
+    <token token_id="85">u</token>
+    <token token_id="86">.</token>
+    <token token_id="87">er</token>
+    <token token_id="88">vormalen</token>
+    <token token_id="89">als</token>
+    <token token_id="90">zu</token>
+    <token token_id="91">Heuslin</token>
+    <token token_id="92">,</token>
+    <token token_id="93">sel</token>
+    <token token_id="94">abtragen</token>
+    <token token_id="95">soll</token>
+    <token token_id="96">von</token>
+    <token token_id="97">dem</token>
+    <token token_id="98">gericht</token>
+    <token token_id="99">erbetten</token>
+    <token token_id="100">,</token>
+    <token token_id="101">ward</token>
+    <token token_id="102">Erkennt</token>
+    <token token_id="103">der</token>
+    <token token_id="104">er</token>
+    <token token_id="105">vorab</token>
+    <token token_id="106">bezalt</token>
+    <token token_id="107">soll</token>
+    <token token_id="108">werdent</token>
+    <token token_id="109">.</token>
+  </text>
+  <spans>
+    <span id="1872" start="1" end="1" text="überkoffte" element="trigger" class="other" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1626" start="2" end="4" text="Heusslin von Seuf" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1626_head" start="2" end="4" element="head" class="nam" text="Heusslin von Seuf" subclass=""/>
+    </span>
+    <span id="1632" start="6" end="8" text="Conraten von&#10;Oberehr" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1632_head" start="6" end="8" element="head" class="nam" text="Conraten von Oberehr" subclass=""/>
+    </span>
+    <span id="1638" start="10" end="30" text="dem Hus u . garten so kyers des gratuchers&#10;ist , gelegen uf dem Kolenberg , nebend Breutzlins und&#10;Wylers garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1644" start="11" end="14" text="Hus u . garten" element="head" class="type" subclass=""/>
+      <span id="1650" start="15" end="19" text="so kyers des gratuchers&#10;ist" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1656" start="16" end="18" text="kyers des gratuchers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1662" start="16" end="16" text="kyers" element="head" class="nam" subclass=""/>
+          <span id="1668" start="17" end="18" text="des gratuchers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1674" start="18" end="18" text="gratuchers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1680" start="21" end="30" text="gelegen uf dem Kolenberg , nebend Breutzlins und&#10;Wylers garten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1686" start="23" end="24" text="dem Kolenberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1692" start="24" end="24" text="Kolenberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1704" start="27" end="30" text="Breutzlins und&#10;Wylers garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1716" start="27" end="29" text="Breutzlins und&#10;Wylers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1698" start="27" end="27" text="Breutzlins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1698_head" start="27" end="27" element="head" class="nam" text="Breutzlins" subclass=""/>
+            </span>
+            <span id="1710" start="29" end="29" text="Wylers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1710_head" start="29" end="29" element="head" class="nam" text="Wylers" subclass=""/>
+            </span>
+          </span>
+          <span id="1921" start="30" end="30" text="garten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1722" start="33" end="34" text="8 fl" element="value" class="money" subclass=""/>
+    <span id="1860" start="37" end="37" text="man" element="reference" class="per" numerus="sgl" specificity="uspc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1860_head" start="37" end="37" element="head" class="pro" text="man" subclass=""/>
+    </span>
+    <span id="1728" start="38" end="40" text="demselben , Conraten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1734" start="40" end="40" text="Conraten" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1866" start="41" end="41" text="schuldig" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1747" start="44" end="47" text="4sh . 1 ℔" element="value" class="money" subclass=""/>
+    <span id="1878" start="51" end="51" text="behub" element="trigger" class="assertion" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1753" start="53" end="55" text="der obgenant&#10;Conrat" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1759" start="55" end="55" text="Conrat" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1772" start="56" end="58" text="8 fl ." element="value" class="money" subclass=""/>
+    <span id="1778" start="63" end="64" text="1sh ." element="value" class="money" subclass=""/>
+    <span id="1784" start="73" end="77" text="Sabto vidz vig sci Laurencii" element="value" class="date" subclass=""/>
+    <span id="1790" start="80" end="82" text="Conrat von Oberwil" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1790_head" start="80" end="82" element="head" class="nam" text="Conrat von Oberwil" subclass=""/>
+    </span>
+    <span id="1803" start="87" end="87" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1803_head" start="87" end="87" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="1822" start="90" end="90" text="zu" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1822_head" start="90" end="90" element="head" class="pro" text="zu" subclass=""/>
+    </span>
+    <span id="1884" start="91" end="93" text="Heuslin , sel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1816" start="91" end="91" text="Heuslin" element="head" class="nam" subclass=""/>
+      <span id="1897" start="93" end="93" text="sel" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1903" start="94" end="94" text="abtragen" element="trigger" class="payment" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1848" start="97" end="98" text="dem gericht" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="1854" start="98" end="98" text="gericht" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1909" start="102" end="102" text="Erkennt" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1835" start="104" end="104" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1835_head" start="104" end="104" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="1915" start="106" end="106" text="bezalt" element="trigger" class="payment" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1890" from="1884" to="1626" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1740" from="1728" to="1632" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1765" from="1753" to="1728" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1796" from="1790" to="1753" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1809" from="1803" to="1790" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1828" from="1822" to="1803" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1841" from="1835" to="1822" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="15" end="19" ref="1650" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1638" text="dem Hus u . garten so kyers des gratuchers&#10;ist , gelegen uf dem Kolenberg , nebend Breutzlins und&#10;Wylers garten"/>
+        <role role="owner" ref="1656" text="kyers des gratuchers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="21" end="30" ref="1680" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1638" text="dem Hus u . garten so kyers des gratuchers&#10;ist , gelegen uf dem Kolenberg , nebend Breutzlins und&#10;Wylers garten"/>
+        <role role="location-b" ref="1686" text="dem Kolenberg"/>
+        <role role="location-b" ref="1704" text="Breutzlins und&#10;Wylers garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="27" end="29" ref="1716" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1704" text="Breutzlins und&#10;Wylers garten"/>
+        <role role="owner" ref="1698" text="Breutzlins"/>
+        <role role="owner" ref="1710" text="Wylers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="other" polarity="pos" tense="pres" modality="ass" start="1" end="47" ref="" type="event">
+      <trigger start="1" end="1" text="überkoffte" ref="1872"/>
+      <event event_id="3.0">
+        <role role="bidder" ref="1626" text="Heusslin von Seuf"/>
+        <role role="lower-bidder" ref="1632" text="Conraten von&#10;Oberehr"/>
+        <role role="property" ref="1638" text="dem Hus u . garten so kyers des gratuchers&#10;ist , gelegen uf dem Kolenberg , nebend Breutzlins und&#10;Wylers garten"/>
+        <role role="bid-difference" ref="1747" text="4sh . 1 ℔"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="10" end="41" ref="" type="state">
+      <trigger start="41" end="41" text="schuldig" ref="1866"/>
+      <event event_id="4.0">
+        <role role="property" ref="1638" text="dem Hus u . garten so kyers des gratuchers&#10;ist , gelegen uf dem Kolenberg , nebend Breutzlins und&#10;Wylers garten"/>
+        <role role="capital" ref="1722" text="8 fl"/>
+        <role role="payer" ref="1860" text="man"/>
+        <role role="beneficiary" ref="1728" text="demselben , Conraten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="redemption" polarity="pos" tense="pres" modality="ass" start="51" end="64" ref="" type="event">
+      <trigger start="51" end="51" text="behub" ref="1878"/>
+      <event event_id="5.0">
+        <role role="beneficiary" ref="1753" text="der obgenant&#10;Conrat"/>
+        <role role="capital" ref="1772" text="8 fl ."/>
+        <role role="capital" ref="1778" text="1sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="payment" polarity="neg" tense="pres" modality="ass" start="90" end="94" ref="" type="event">
+      <trigger start="94" end="94" text="abtragen" ref="1903"/>
+      <event event_id="6.0">
+        <role role="beneficiary" ref="1822" text="zu"/>
+        <role role="payer" ref="1884" text="Heuslin , sel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="litigation" polarity="pos" tense="pres" modality="ass" start="102" end="106" ref="" type="event">
+      <trigger start="102" end="102" text="Erkennt" ref="1909"/>
+      <event event_id="7.0">
+        <role role="date" ref="1784" text="Sabto vidz vig sci Laurencii"/>
+        <role role="party1" ref="1790" text="Conrat von Oberwil"/>
+        <role role="court" ref="1848" text="dem gericht"/>
+        <role role="subject" ref="1915" text="bezalt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="payment" polarity="pos" tense="pres" modality="ass" start="104" end="106" ref="" type="event">
+      <trigger start="106" end="106" text="bezalt" ref="1915"/>
+      <event event_id="8.0">
+        <role role="beneficiary" ref="1835" text="er"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

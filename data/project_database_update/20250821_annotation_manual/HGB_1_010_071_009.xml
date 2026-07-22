@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 10/71 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Alban-Vorstadt 47</tei:title>
+            <tei:idno>HGB 1 10/71</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1433444</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1469">1469</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611958.283953532 1267118.5223553965</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Heinrich</token>
+    <token token_id="1">Halbgi</token>
+    <token token_id="2">Bgr</token>
+    <token token_id="3">.</token>
+    <token token_id="4">zu</token>
+    <token token_id="5">Basel</token>
+    <token token_id="6">,</token>
+    <token token_id="7">verkauft</token>
+    <token token_id="8">an</token>
+    <token token_id="9">Peter</token>
+    <token token_id="10">Jschanen</token>
+    <token token_id="11">den</token>
+    <token token_id="12">schindler</token>
+    <token token_id="13">,</token>
+    <token token_id="14">das</token>
+    <token token_id="15">Hus</token>
+    <token token_id="16">Hofstatt</token>
+    <token token_id="17">u</token>
+    <token token_id="18">.</token>
+    <token token_id="19">Schüren</token>
+    <token token_id="20">,</token>
+    <token token_id="21">&amp;</token>
+    <token token_id="22">gertlin</token>
+    <token token_id="23">darhinder</token>
+    <token token_id="24">,</token>
+    <token token_id="25">genant</token>
+    <token token_id="26">Hanen</token>
+    <token token_id="27">Kopff</token>
+    <token token_id="28">hus</token>
+    <token token_id="29">,</token>
+    <token token_id="30">in</token>
+    <token token_id="31">der</token>
+    <token token_id="32">vorstatt</token>
+    <token token_id="33">ze</token>
+    <token token_id="34">s</token>
+    <token token_id="35">.</token>
+    <token token_id="36">Alban</token>
+    <token token_id="37">aneinander</token>
+    <token token_id="38">,</token>
+    <token token_id="39">by</token>
+    <token token_id="40">dem</token>
+    <token token_id="41">ussern</token>
+    <token token_id="42">brunnen</token>
+    <token token_id="43">uff</token>
+    <token token_id="44">der</token>
+    <token token_id="45">Rinhalden</token>
+    <token token_id="46">,</token>
+    <token token_id="47">nebent</token>
+    <token token_id="48">Hans</token>
+    <token token_id="49">Hirten</token>
+    <token token_id="50">genant</token>
+    <token token_id="51">Göldlin</token>
+    <token token_id="52">den</token>
+    <token token_id="53">decker</token>
+    <token token_id="54">uff</token>
+    <token token_id="55">einer</token>
+    <token token_id="56">und</token>
+    <token token_id="57">zer</token>
+    <token token_id="58">andern</token>
+    <token token_id="59">siten</token>
+    <token token_id="60">an</token>
+    <token token_id="61">dem</token>
+    <token token_id="62">hus</token>
+    <token token_id="63">so</token>
+    <token token_id="64">da</token>
+    <token token_id="65">zu</token>
+    <token token_id="66">gehört</token>
+    <token token_id="67">s</token>
+    <token token_id="68">.</token>
+    <token token_id="69">Andres</token>
+    <token token_id="70">altar</token>
+    <token token_id="71">in</token>
+    <token token_id="72">der</token>
+    <token token_id="73">hohen</token>
+    <token token_id="74">Stiff</token>
+    <token token_id="75">gelegen</token>
+    <token token_id="76">ist</token>
+    <token token_id="77">,</token>
+    <token token_id="78">zinst</token>
+    <token token_id="79">jährl</token>
+    <token token_id="80">von</token>
+    <token token_id="81">eig</token>
+    <token token_id="82">.</token>
+    <token token_id="83">einem</token>
+    <token token_id="84">Probsts</token>
+    <token token_id="85">.</token>
+    <token token_id="86">Alban</token>
+    <token token_id="87">6</token>
+    <token token_id="88">sh</token>
+    <token token_id="89">.</token>
+    <token token_id="90">u</token>
+    <token token_id="91">.</token>
+    <token token_id="92">1</token>
+    <token token_id="93">hun</token>
+    <token token_id="94">und</token>
+    <token token_id="95">einem</token>
+    <token token_id="96">Löwer</token>
+    <token token_id="97">Wen</token>
+    <token token_id="98">man</token>
+    <token token_id="99">Löwen</token>
+    <token token_id="100">sol</token>
+    <token token_id="101">ze</token>
+    <token token_id="102">wisung</token>
+    <token token_id="103">v</token>
+    <token token_id="104">6</token>
+    <token token_id="105">sh</token>
+    <token token_id="106">.</token>
+    <token token_id="107">erschat</token>
+    <token token_id="108">für</token>
+    <token token_id="109">zinset</token>
+    <token token_id="110">solich</token>
+    <token token_id="111">hus</token>
+    <token token_id="112">14</token>
+    <token token_id="113">sh</token>
+    <token token_id="114">.</token>
+    <token token_id="115">widerk</token>
+    <token token_id="116">.</token>
+    <token token_id="117">mit</token>
+    <token token_id="118">14</token>
+    <token token_id="119">℔</token>
+    <token token_id="120">s</token>
+    <token token_id="121">.</token>
+    <token token_id="122">Joh</token>
+    <token token_id="123">.</token>
+    <token token_id="124">Brud</token>
+    <token token_id="125">.</token>
+    <token token_id="126">uf</token>
+    <token token_id="127">Burg</token>
+    <token token_id="128">im</token>
+    <token token_id="129">fl</token>
+    <token token_id="130">.</token>
+    <token token_id="131">(</token>
+    <token token_id="132">undentlich</token>
+    <token token_id="133">deseit</token>
+    <token token_id="134">pfund</token>
+    <token token_id="135">.</token>
+  </text>
+  <spans>
+    <span id="1961" start="0" end="5" text="Heinrich Halbgi Bgr . zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1967" start="0" end="1" text="Heinrich Halbgi" element="head" class="nam" subclass=""/>
+      <span id="1973" start="2" end="5" text="Bgr . zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1979" start="2" end="3" text="Bgr ." element="head" class="org-aff" subclass=""/>
+        <span id="1985" start="5" end="5" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1985_head" start="5" end="5" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2298" start="7" end="7" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1991" start="9" end="12" text="Peter&#10;Jschanen den schindler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1997" start="9" end="10" text="Peter&#10;Jschanen" element="head" class="nam" subclass=""/>
+      <span id="2003" start="11" end="12" text="den schindler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2009" start="12" end="12" text="schindler" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="2015" start="14" end="127" text="das Hus Hofstatt u . Schüren , &amp;&#10;gertlin darhinder , genant Hanen Kopff hus , in der vorstatt&#10;ze s . Alban aneinander , by dem ussern brunnen uff der&#10;Rinhalden , nebent Hans Hirten genant Göldlin den decker&#10;uff einer und zer andern siten an dem hus so da zu gehört&#10;s . Andres altar in der hohen Stiff gelegen ist , zinst jährl&#10;von eig . einem Probsts . Alban 6 sh . u . 1 hun und einem&#10;Löwer Wen man Löwen sol ze wisung v 6 sh . erschat&#10;für zinset solich hus 14 sh . widerk . mit 14 ℔&#10;s . Joh . Brud . uf Burg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2021" start="15" end="19" text="Hus Hofstatt u . Schüren" element="head" class="type" subclass=""/>
+      <span id="2027" start="21" end="23" text="&amp;&#10;gertlin darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2033" start="22" end="22" text="gertlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2033_head" start="22" end="22" element="head" class="type" text="gertlin" subclass=""/>
+        </span>
+      </span>
+      <span id="2039" start="26" end="28" text="Hanen Kopff hus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2039_head" start="26" end="28" element="head" class="nam" text="Hanen Kopff hus" subclass=""/>
+      </span>
+      <span id="2045" start="30" end="76" text="in der vorstatt&#10;ze s . Alban aneinander , by dem ussern brunnen uff der&#10;Rinhalden , nebent Hans Hirten genant Göldlin den decker&#10;uff einer und zer andern siten an dem hus so da zu gehört&#10;s . Andres altar in der hohen Stiff gelegen ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2051" start="31" end="36" text="der vorstatt&#10;ze s . Alban" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="2057" start="32" end="32" text="vorstatt" element="head" class="type" subclass=""/>
+          <span id="2063" start="33" end="36" text="ze s . Alban" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2069" start="34" end="36" text="s . Alban" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="2069_head" start="34" end="36" element="head" class="nam" text="s . Alban" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2075" start="40" end="42" text="dem ussern brunnen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2081" start="42" end="42" text="brunnen" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2087" start="44" end="45" text="der&#10;Rinhalden" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2093" start="45" end="45" text="Rinhalden" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2099" start="48" end="53" text="Hans Hirten genant Göldlin den decker" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2105" start="48" end="49" text="Hans Hirten" element="head" class="nam" subclass=""/>
+          <span id="2111" start="51" end="51" text="Göldlin" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2111_head" start="51" end="51" element="head" class="nam" text="Göldlin" subclass=""/>
+          </span>
+          <span id="2117" start="52" end="53" text="den decker" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2123" start="53" end="53" text="decker" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="2129" start="61" end="74" text="dem hus so da zu gehört&#10;s . Andres altar in der hohen Stiff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2135" start="62" end="62" text="hus" element="head" class="type" subclass=""/>
+          <span id="2141" start="63" end="74" text="so da zu gehört&#10;s . Andres altar in der hohen Stiff" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2147" start="67" end="74" text="s . Andres altar in der hohen Stiff" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="2153" start="67" end="70" text="s . Andres altar" element="head" class="nam" subclass=""/>
+              <span id="2159" start="71" end="74" text="in der hohen Stiff" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2165" start="72" end="74" text="der hohen Stiff" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+                  <span id="2171" start="73" end="74" text="hohen Stiff" element="head" class="type" subclass=""/>
+                </span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2177" start="78" end="127" text="zinst jährl&#10;von eig . einem Probsts . Alban 6 sh . u . 1 hun und einem&#10;Löwer Wen man Löwen sol ze wisung v 6 sh . erschat&#10;für zinset solich hus 14 sh . widerk . mit 14 ℔&#10;s . Joh . Brud . uf Burg" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2310" start="78" end="78" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2183" start="79" end="79" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="2316" start="80" end="82" text="von eig ." element="other" class="other" subclass=""/>
+        <span id="2189" start="83" end="86" text="einem Probsts . Alban" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2195" start="84" end="84" text="Probsts" element="head" class="occ" subclass="org-job"/>
+          <span id="2201" start="85" end="86" text=". Alban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="2201_head" start="85" end="86" element="head" class="nam" text=". Alban" subclass=""/>
+          </span>
+        </span>
+        <span id="2207" start="87" end="89" text="6 sh ." element="value" class="money" subclass=""/>
+        <span id="2213" start="92" end="93" text="1 hun" element="value" class="money" subclass=""/>
+        <span id="2219" start="95" end="96" text="einem&#10;Löwer" element="value" class="money" subclass=""/>
+        <span id="2304" start="101" end="102" text="ze wisung" element="other" class="other" subclass=""/>
+        <span id="2225" start="104" end="106" text="6 sh ." element="value" class="money" subclass=""/>
+        <span id="2322" start="107" end="107" text="erschat" element="other" class="other" subclass=""/>
+        <span id="2328" start="109" end="109" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2231" start="110" end="111" text="solich hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2237" start="111" end="111" text="hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2250" start="112" end="114" text="14 sh ." element="value" class="money" subclass=""/>
+        <span id="2256" start="118" end="119" text="14 ℔" element="value" class="money" subclass=""/>
+        <span id="2262" start="120" end="127" text="s . Joh . Brud . uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2268" start="120" end="125" text="s . Joh . Brud ." element="head" class="nam" subclass=""/>
+          <span id="2274" start="126" end="127" text="uf Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2280" start="127" end="127" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2280_head" start="127" end="127" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2286" start="129" end="130" text="fl ." element="value" class="money" subclass=""/>
+    <span id="2292" start="134" end="134" text="pfund" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2243" from="2231" to="2015" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2310_role" from="2310" to="2015" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2328_role" from="2328" to="2015" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="83" end="86" ref="2189" type="state">
+      <trigger start="84" end="84" text="Probsts" ref="2195"/>
+      <event event_id="0.0">
+        <role role="employee" ref="2189" text="einem Probsts . Alban"/>
+        <role role="employer" ref="2201" text=". Alban"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="2" end="5" ref="1973" type="state">
+      <trigger start="2" end="3" text="Bgr ." ref="1979"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1961" text="Heinrich Halbgi Bgr . zu Basel"/>
+        <role role="geopolitical-entity" ref="1985" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="part_whole" polarity="pos" tense="pres" modality="ass" start="21" end="23" ref="2027" type="state">
+      <event event_id="2.0">
+        <role role="whole" ref="2015" text="das Hus Hofstatt u . Schüren , &amp;&#10;gertlin darhinder , genant Hanen Kopff hus , in der vorstatt&#10;ze s . Alban aneinander , by dem ussern brunnen uff der&#10;Rinhalden , nebent Hans Hirten genant Göldlin den decker&#10;uff einer und zer andern siten an dem hus so da zu gehört&#10;s . Andres altar in der hohen Stiff gelegen ist , zinst jährl&#10;von eig . einem Probsts . Alban 6 sh . u . 1 hun und einem&#10;Löwer Wen man Löwen sol ze wisung v 6 sh . erschat&#10;für zinset solich hus 14 sh . widerk . mit 14 ℔&#10;s . Joh . Brud . uf Burg"/>
+        <role role="part" ref="2033" text="gertlin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="76" ref="2045" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="2015" text="das Hus Hofstatt u . Schüren , &amp;&#10;gertlin darhinder , genant Hanen Kopff hus , in der vorstatt&#10;ze s . Alban aneinander , by dem ussern brunnen uff der&#10;Rinhalden , nebent Hans Hirten genant Göldlin den decker&#10;uff einer und zer andern siten an dem hus so da zu gehört&#10;s . Andres altar in der hohen Stiff gelegen ist , zinst jährl&#10;von eig . einem Probsts . Alban 6 sh . u . 1 hun und einem&#10;Löwer Wen man Löwen sol ze wisung v 6 sh . erschat&#10;für zinset solich hus 14 sh . widerk . mit 14 ℔&#10;s . Joh . Brud . uf Burg"/>
+        <role role="location-b" ref="2051" text="der vorstatt&#10;ze s . Alban"/>
+        <role role="location-b" ref="2075" text="dem ussern brunnen"/>
+        <role role="location-b" ref="2087" text="der&#10;Rinhalden"/>
+        <role role="location-b" ref="2099" text="Hans Hirten genant Göldlin den decker"/>
+        <role role="location-b" ref="2129" text="dem hus so da zu gehört&#10;s . Andres altar in der hohen Stiff"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="33" end="36" ref="2063" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="2051" text="der vorstatt&#10;ze s . Alban"/>
+        <role role="location-b" ref="2069" text="s . Alban"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="63" end="74" ref="2141" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="2129" text="dem hus so da zu gehört&#10;s . Andres altar in der hohen Stiff"/>
+        <role role="owner" ref="2147" text="s . Andres altar in der hohen Stiff"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="71" end="74" ref="2159" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="2147" text="s . Andres altar in der hohen Stiff"/>
+        <role role="location-b" ref="2165" text="der hohen Stiff"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="126" end="127" ref="2274" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="2262" text="s . Joh . Brud . uf Burg"/>
+        <role role="location-b" ref="2280" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="7" ref="" type="event">
+      <trigger start="7" end="7" text="verkauft" ref="2298"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1961" text="Heinrich Halbgi Bgr . zu Basel"/>
+        <role role="buyer" ref="1991" text="Peter&#10;Jschanen den schindler"/>
+        <role role="property" ref="2015" text="das Hus Hofstatt u . Schüren , &amp;&#10;gertlin darhinder , genant Hanen Kopff hus , in der vorstatt&#10;ze s . Alban aneinander , by dem ussern brunnen uff der&#10;Rinhalden , nebent Hans Hirten genant Göldlin den decker&#10;uff einer und zer andern siten an dem hus so da zu gehört&#10;s . Andres altar in der hohen Stiff gelegen ist , zinst jährl&#10;von eig . einem Probsts . Alban 6 sh . u . 1 hun und einem&#10;Löwer Wen man Löwen sol ze wisung v 6 sh . erschat&#10;für zinset solich hus 14 sh . widerk . mit 14 ℔&#10;s . Joh . Brud . uf Burg"/>
+        <role role="price" ref="2286" text="fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="14" end="78" ref="2177" type="state">
+      <trigger start="78" end="78" text="zinst" ref="2310"/>
+      <event event_id="9.0">
+        <role role="interval" ref="2183" text="jährl"/>
+        <role role="cause" ref="2316" text="von eig ."/>
+        <role role="beneficiary" ref="2189" text="einem Probsts . Alban"/>
+        <role role="interest" ref="2207" text="6 sh ."/>
+        <role role="interest" ref="2213" text="1 hun"/>
+        <role role="property" ref="2015" text="das Hus Hofstatt u . Schüren , &amp;&#10;gertlin darhinder , genant Hanen Kopff hus , in der vorstatt&#10;ze s . Alban aneinander , by dem ussern brunnen uff der&#10;Rinhalden , nebent Hans Hirten genant Göldlin den decker&#10;uff einer und zer andern siten an dem hus so da zu gehört&#10;s . Andres altar in der hohen Stiff gelegen ist , zinst jährl&#10;von eig . einem Probsts . Alban 6 sh . u . 1 hun und einem&#10;Löwer Wen man Löwen sol ze wisung v 6 sh . erschat&#10;für zinset solich hus 14 sh . widerk . mit 14 ℔&#10;s . Joh . Brud . uf Burg"/>
+      </event>
+      <event event_id="9.1">
+        <role role="interval" ref="2183" text="jährl"/>
+        <role role="beneficiary" ref="2189" text="einem Probsts . Alban"/>
+        <role role="interest" ref="2219" text="einem&#10;Löwer"/>
+        <role role="cause" ref="2304" text="ze wisung"/>
+        <role role="property" ref="2015" text="das Hus Hofstatt u . Schüren , &amp;&#10;gertlin darhinder , genant Hanen Kopff hus , in der vorstatt&#10;ze s . Alban aneinander , by dem ussern brunnen uff der&#10;Rinhalden , nebent Hans Hirten genant Göldlin den decker&#10;uff einer und zer andern siten an dem hus so da zu gehört&#10;s . Andres altar in der hohen Stiff gelegen ist , zinst jährl&#10;von eig . einem Probsts . Alban 6 sh . u . 1 hun und einem&#10;Löwer Wen man Löwen sol ze wisung v 6 sh . erschat&#10;für zinset solich hus 14 sh . widerk . mit 14 ℔&#10;s . Joh . Brud . uf Burg"/>
+      </event>
+      <event event_id="9.2">
+        <role role="interval" ref="2183" text="jährl"/>
+        <role role="beneficiary" ref="2189" text="einem Probsts . Alban"/>
+        <role role="interest" ref="2225" text="6 sh ."/>
+        <role role="cause" ref="2322" text="erschat"/>
+        <role role="property" ref="2015" text="das Hus Hofstatt u . Schüren , &amp;&#10;gertlin darhinder , genant Hanen Kopff hus , in der vorstatt&#10;ze s . Alban aneinander , by dem ussern brunnen uff der&#10;Rinhalden , nebent Hans Hirten genant Göldlin den decker&#10;uff einer und zer andern siten an dem hus so da zu gehört&#10;s . Andres altar in der hohen Stiff gelegen ist , zinst jährl&#10;von eig . einem Probsts . Alban 6 sh . u . 1 hun und einem&#10;Löwer Wen man Löwen sol ze wisung v 6 sh . erschat&#10;für zinset solich hus 14 sh . widerk . mit 14 ℔&#10;s . Joh . Brud . uf Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="109" end="127" ref="2177" type="state">
+      <trigger start="109" end="109" text="zinset" ref="2328"/>
+      <event event_id="10.0">
+        <role role="property" ref="2231" text="solich hus"/>
+        <role role="interest" ref="2250" text="14 sh ."/>
+        <role role="interest-redeemable" ref="2256" text="14 ℔"/>
+        <role role="beneficiary" ref="2262" text="s . Joh . Brud . uf Burg"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

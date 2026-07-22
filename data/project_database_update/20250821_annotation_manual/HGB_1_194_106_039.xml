@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/106 S. [39]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 52</tei:title>
+            <tei:idno>HGB 1 194/106</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1515809</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1576">1576</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611018.3144062036 1267357.4472500612</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Bläsin</token>
+    <token token_id="1">Schenckhlin</token>
+    <token token_id="2">,</token>
+    <token token_id="3">genannt</token>
+    <token token_id="4">Gerster</token>
+    <token token_id="5">,</token>
+    <token token_id="6">Schaffner</token>
+    <token token_id="7">des</token>
+    <token token_id="8">Gottshuses</token>
+    <token token_id="9">Clingenthal</token>
+    <token token_id="10">im</token>
+    <token token_id="11">mindern</token>
+    <token token_id="12">Basel</token>
+    <token token_id="13">,</token>
+    <token token_id="14">hat</token>
+    <token token_id="15">Martin</token>
+    <token token_id="16">Sprengers</token>
+    <token token_id="17">des</token>
+    <token token_id="18">Siebmachers</token>
+    <token token_id="19">und</token>
+    <token token_id="20">seiner</token>
+    <token token_id="21">Frau</token>
+    <token token_id="22">Katharina</token>
+    <token token_id="23">Fäserin</token>
+    <token token_id="24">,</token>
+    <token token_id="25">Hus</token>
+    <token token_id="26">und</token>
+    <token token_id="27">Hofstatt</token>
+    <token token_id="28">,</token>
+    <token token_id="29">jm</token>
+    <token token_id="30">jnnern</token>
+    <token token_id="31">Spalen</token>
+    <token token_id="32">Schwibogen</token>
+    <token token_id="33">,</token>
+    <token token_id="34">zu</token>
+    <token token_id="35">einer</token>
+    <token token_id="36">dem</token>
+    <token token_id="37">Hus</token>
+    <token token_id="38">Leüwenberg</token>
+    <token token_id="39">,</token>
+    <token token_id="40">andersyt</token>
+    <token token_id="41">neben</token>
+    <token token_id="42">Velltin</token>
+    <token token_id="43">Abbt</token>
+    <token token_id="44">dem</token>
+    <token token_id="45">Schlosser</token>
+    <token token_id="46">¬</token>
+    <token token_id="47">gelegen</token>
+    <token token_id="48">,</token>
+    <token token_id="49">und</token>
+    <token token_id="50">zu</token>
+    <token token_id="51">dem</token>
+    <token token_id="52">Rossbaum</token>
+    <token token_id="53">genannt</token>
+    <token token_id="54">ist</token>
+    <token token_id="55">,</token>
+    <token token_id="56">versessener</token>
+    <token token_id="57">zinsen</token>
+    <token token_id="58">wegen</token>
+    <token token_id="59">,</token>
+    <token token_id="60">als</token>
+    <token token_id="61">dem</token>
+    <token token_id="62">Gottshus</token>
+    <token token_id="63">jährl</token>
+    <token token_id="64">.</token>
+    <token token_id="65">darab</token>
+    <token token_id="66">7</token>
+    <token token_id="67">℔</token>
+    <token token_id="68">.</token>
+    <token token_id="69">zinst</token>
+    <token token_id="70">wird</token>
+    <token token_id="71">,</token>
+    <token token_id="72">gefrönt</token>
+    <token token_id="73">.</token>
+  </text>
+  <spans>
+    <span id="1094" start="0" end="12" text="Bläsin Schenckhlin , genannt Gerster , Schaffner des Gottshuses Clingenthal im&#10;mindern Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1100" start="0" end="1" text="Bläsin Schenckhlin" element="head" class="nam" subclass=""/>
+      <span id="1106" start="4" end="4" text="Gerster" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1106_head" start="4" end="4" element="head" class="nam" text="Gerster" subclass=""/>
+      </span>
+      <span id="1112" start="6" end="12" text="Schaffner des Gottshuses Clingenthal im&#10;mindern Basel" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-repr">
+        <span id="1118" start="6" end="6" text="Schaffner" element="head" class="occ" subclass="org-repr"/>
+        <span id="1124" start="8" end="12" text="Gottshuses Clingenthal im&#10;mindern Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1130" start="8" end="12" text="Gottshuses Clingenthal im&#10;mindern Basel" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1306" start="15" end="54" text="Martin Sprengers des Siebmachers und seiner Frau&#10;Katharina Fäserin , Hus und Hofstatt , jm jnnern Spalen Schwibogen ,&#10;zu einer dem Hus Leüwenberg , andersyt neben Velltin Abbt dem Schlosser ¬&#10;gelegen , und zu dem Rossbaum genannt ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1312" start="15" end="23" text="Martin Sprengers des Siebmachers und seiner Frau&#10;Katharina Fäserin" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1197" start="15" end="23" text="Martin Sprengers des Siebmachers und seiner Frau&#10;Katharina Fäserin" element="list" class="per" subclass="">
+          <span id="1136" start="15" end="18" text="Martin Sprengers des Siebmachers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1142" start="15" end="16" text="Martin Sprengers" element="head" class="nam" subclass=""/>
+            <span id="1148" start="17" end="18" text="des Siebmachers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1154" start="18" end="18" text="Siebmachers" element="head" class="occ" subclass=""/>
+            </span>
+          </span>
+          <span id="1160" start="20" end="23" text="seiner Frau&#10;Katharina Fäserin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1172" start="20" end="21" text="seiner Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1184" start="20" end="20" text="seiner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1184_head" start="20" end="20" element="head" class="pro" text="seiner" subclass=""/>
+              </span>
+              <span id="1178" start="21" end="21" text="Frau" element="head" class="fam" subclass=""/>
+            </span>
+            <span id="1166" start="22" end="23" text="Katharina Fäserin" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1203" start="25" end="27" text="Hus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1209" start="29" end="47" text="jm jnnern Spalen Schwibogen ,&#10;zu einer dem Hus Leüwenberg , andersyt neben Velltin Abbt dem Schlosser ¬&#10;gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1215" start="29" end="32" text="jm jnnern Spalen Schwibogen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="unk">
+          <span id="1221" start="30" end="32" text="jnnern Spalen Schwibogen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1227" start="36" end="38" text="dem Hus Leüwenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1233" start="37" end="38" text="Hus Leüwenberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1239" start="42" end="45" text="Velltin Abbt dem Schlosser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1245" start="42" end="43" text="Velltin Abbt" element="head" class="nam" subclass=""/>
+          <span id="1251" start="44" end="45" text="dem Schlosser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1257" start="45" end="45" text="Schlosser" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1263" start="50" end="52" text="zu dem Rossbaum" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1263_head" start="50" end="52" element="head" class="nam" text="zu dem Rossbaum" subclass=""/>
+      </span>
+    </span>
+    <span id="1318" start="57" end="57" text="zinsen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1269" start="61" end="62" text="dem Gottshus" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1275" start="62" end="62" text="Gottshus" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1288" start="63" end="64" text="jährl ." element="value" class="time" subclass="rec"/>
+    <span id="1337" start="65" end="65" text="darab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1337_head" start="65" end="65" element="head" class="pro" text="darab" subclass=""/>
+    </span>
+    <span id="1294" start="66" end="68" text="7 ℔." element="value" class="money" subclass=""/>
+    <span id="1324" start="69" end="69" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1300" start="72" end="72" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1281" from="1269" to="1124" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1343" from="1337" to="1306" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1190" from="1184" to="1136" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1330" from="1324" to="1318" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="6" end="12" ref="1112" type="state">
+      <trigger start="6" end="6" text="Schaffner" ref="1118"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1094" text="Bläsin Schenckhlin , genannt Gerster , Schaffner des Gottshuses Clingenthal im&#10;mindern Basel"/>
+        <role role="employer" ref="1124" text="Gottshuses Clingenthal im&#10;mindern Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="20" end="21" ref="1172" type="state">
+      <trigger start="21" end="21" text="Frau" ref="1178"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1160" text="seiner Frau&#10;Katharina Fäserin"/>
+        <role role="family-b" ref="1184" text="seiner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="15" end="23" ref="1312" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1306" text="Martin Sprengers des Siebmachers und seiner Frau&#10;Katharina Fäserin , Hus und Hofstatt , jm jnnern Spalen Schwibogen ,&#10;zu einer dem Hus Leüwenberg , andersyt neben Velltin Abbt dem Schlosser ¬&#10;gelegen , und zu dem Rossbaum genannt ist"/>
+        <role role="owner" ref="1136" text="Martin Sprengers des Siebmachers"/>
+        <role role="owner" ref="1160" text="seiner Frau&#10;Katharina Fäserin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="29" end="47" ref="1209" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1306" text="Martin Sprengers des Siebmachers und seiner Frau&#10;Katharina Fäserin , Hus und Hofstatt , jm jnnern Spalen Schwibogen ,&#10;zu einer dem Hus Leüwenberg , andersyt neben Velltin Abbt dem Schlosser ¬&#10;gelegen , und zu dem Rossbaum genannt ist"/>
+        <role role="location-b" ref="1215" text="jm jnnern Spalen Schwibogen"/>
+        <role role="location-b" ref="1227" text="dem Hus Leüwenberg"/>
+        <role role="location-b" ref="1239" text="Velltin Abbt dem Schlosser"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="neg" tense="pres" modality="ass" start="57" end="57" ref="" type="event">
+      <trigger start="57" end="57" text="zinsen" ref="1318"/>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="61" end="69" ref="" type="state">
+      <trigger start="69" end="69" text="zinst" ref="1324"/>
+      <event event_id="5.0">
+        <role role="beneficiary" ref="1269" text="dem Gottshus"/>
+        <role role="interval" ref="1288" text="jährl ."/>
+        <role role="property" ref="1337" text="darab"/>
+        <role role="interest" ref="1294" text="7 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="72" ref="" type="event">
+      <trigger start="72" end="72" text="gefrönt" ref="1300"/>
+      <event event_id="6.0">
+        <role role="claimant" ref="1094" text="Bläsin Schenckhlin , genannt Gerster , Schaffner des Gottshuses Clingenthal im&#10;mindern Basel"/>
+        <role role="property" ref="1306" text="Martin Sprengers des Siebmachers und seiner Frau&#10;Katharina Fäserin , Hus und Hofstatt , jm jnnern Spalen Schwibogen ,&#10;zu einer dem Hus Leüwenberg , andersyt neben Velltin Abbt dem Schlosser ¬&#10;gelegen , und zu dem Rossbaum genannt ist"/>
+        <role role="cause" ref="1318" text="zinsen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

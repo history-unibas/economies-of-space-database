@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 154/27 S. [4]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rebgasse Th. v. 21, 1. Th. v. 19</tei:title>
+            <tei:idno>HGB 1 154/27</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1505555</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1431">1431</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611770.373983885 1267742.8735450804</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Mindern</token>
+    <token token_id="1">Basel</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Heitzman</token>
+    <token token_id="4">Tollingers</token>
+    <token token_id="5">wyb</token>
+    <token token_id="6">gab</token>
+    <token token_id="7">(</token>
+    <token token_id="8">darnach</token>
+    <token token_id="9">Hans</token>
+    <token token_id="10">Hapmacher</token>
+    <token token_id="11">,</token>
+    <token token_id="12">darnach</token>
+    <token token_id="13">Conrad</token>
+    <token token_id="14">Tüfel</token>
+    <token token_id="15">uf</token>
+    <token token_id="16">Simonis</token>
+    <token token_id="17">und</token>
+    <token token_id="18">Jude</token>
+    <token token_id="19">1</token>
+    <token token_id="20">gld</token>
+    <token token_id="21">.</token>
+    <token token_id="22">rinisch</token>
+    <token token_id="23">,</token>
+    <token token_id="24">widerkauffig</token>
+    <token token_id="25">mit</token>
+    <token token_id="26">15</token>
+    <token token_id="27">gld</token>
+    <token token_id="28">.</token>
+    <token token_id="29">von</token>
+    <token token_id="30">item</token>
+    <token token_id="31">einer</token>
+    <token token_id="32">trotten</token>
+    <token token_id="33">und</token>
+    <token token_id="34">schüren</token>
+    <token token_id="35">neben</token>
+    <token token_id="36">genan</token>
+    <token token_id="37">¬</token>
+    <token token_id="38">tem</token>
+    <token token_id="39">Hus</token>
+    <token token_id="40">Rotenstein</token>
+    <token token_id="41">und</token>
+    <token token_id="42">Oswald</token>
+    <token token_id="43">Valckensteins</token>
+    <token token_id="44">garten</token>
+    <token token_id="45">,</token>
+    <token token_id="46">zinst</token>
+    <token token_id="47">gen</token>
+    <token token_id="48">sant</token>
+    <token token_id="49">Alban</token>
+    <token token_id="50">9</token>
+    <token token_id="51">ȡ</token>
+    <token token_id="52">zins</token>
+    <token token_id="53">pfennig</token>
+    <token token_id="54">.</token>
+  </text>
+  <spans>
+    <span id="831" start="0" end="1" text="Mindern Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="831_head" start="0" end="1" element="head" class="nam" text="Mindern Basel" subclass=""/>
+    </span>
+    <span id="837" start="3" end="5" text="Heitzman Tollingers wyb" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="849" start="3" end="4" text="Heitzman Tollingers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="849_head" start="3" end="4" element="head" class="nam" text="Heitzman Tollingers" subclass=""/>
+      </span>
+      <span id="843" start="5" end="5" text="wyb" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="957" start="6" end="6" text="gab" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="975" start="8" end="8" text="darnach" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="855" start="9" end="10" text="Hans Hapmacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="855_head" start="9" end="10" element="head" class="nam" text="Hans Hapmacher" subclass=""/>
+    </span>
+    <span id="981" start="12" end="12" text="darnach" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="861" start="13" end="14" text="Conrad Tüfel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="861_head" start="13" end="14" element="head" class="nam" text="Conrad Tüfel" subclass=""/>
+    </span>
+    <span id="867" start="15" end="18" text="uf&#10;Simonis und Jude" element="value" class="date" subclass=""/>
+    <span id="873" start="19" end="22" text="1 gld . rinisch" element="value" class="money" subclass=""/>
+    <span id="963" start="24" end="24" text="widerkauffig" element="other" class="other" subclass=""/>
+    <span id="879" start="26" end="28" text="15 gld ." element="value" class="money" subclass=""/>
+    <span id="885" start="31" end="53" text="einer trotten und schüren neben genan ¬&#10;tem Hus Rotenstein und Oswald Valckensteins&#10;garten , zinst gen sant Alban 9 ȡ zins pfennig" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="891" start="32" end="34" text="trotten und schüren" element="head" class="type" subclass=""/>
+      <span id="897" start="35" end="44" text="neben genan ¬&#10;tem Hus Rotenstein und Oswald Valckensteins&#10;garten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="945" start="36" end="40" text="genan ¬&#10;tem Hus Rotenstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="903" start="39" end="40" text="Hus Rotenstein" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="909" start="42" end="44" text="Oswald Valckensteins&#10;garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="921" start="42" end="43" text="Oswald Valckensteins" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="927" start="42" end="43" text="Oswald Valckensteins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="927_head" start="42" end="43" element="head" class="nam" text="Oswald Valckensteins" subclass=""/>
+            </span>
+          </span>
+          <span id="915" start="44" end="44" text="garten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="933" start="46" end="53" text="zinst gen sant Alban 9 ȡ zins pfennig" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="969" start="46" end="46" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="939" start="48" end="49" text="sant Alban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="939_head" start="48" end="49" element="head" class="nam" text="sant Alban" subclass=""/>
+        </span>
+        <span id="951" start="50" end="53" text="9 ȡ zins pfennig" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="969_role" from="969" to="885" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="3" end="5" ref="837" type="state">
+      <trigger start="5" end="5" text="wyb" ref="843"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="837" text="Heitzman Tollingers wyb"/>
+        <role role="family-b" ref="849" text="Heitzman Tollingers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="44" ref="897" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="885" text="einer trotten und schüren neben genan ¬&#10;tem Hus Rotenstein und Oswald Valckensteins&#10;garten , zinst gen sant Alban 9 ȡ zins pfennig"/>
+        <role role="location-b" ref="945" text="genan ¬&#10;tem Hus Rotenstein"/>
+        <role role="location-b" ref="909" text="Oswald Valckensteins&#10;garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="42" end="43" ref="921" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="909" text="Oswald Valckensteins&#10;garten"/>
+        <role role="owner" ref="927" text="Oswald Valckensteins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="3" end="6" ref="" type="state">
+      <trigger start="6" end="6" text="gab" ref="957"/>
+      <event event_id="3.0">
+        <role role="payer" ref="837" text="Heitzman Tollingers wyb"/>
+        <role role="due-date" ref="867" text="uf&#10;Simonis und Jude"/>
+        <role role="interest" ref="873" text="1 gld . rinisch"/>
+        <role role="interest-redeemable" ref="963" text="widerkauffig"/>
+        <role role="capital" ref="879" text="15 gld ."/>
+        <role role="property" ref="885" text="einer trotten und schüren neben genan ¬&#10;tem Hus Rotenstein und Oswald Valckensteins&#10;garten , zinst gen sant Alban 9 ȡ zins pfennig"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="6" end="8" ref="" type="state">
+      <trigger start="8" end="8" text="darnach" ref="975"/>
+      <event event_id="4.0">
+        <role role="previous-due" ref="957" text="gab"/>
+        <role role="payer" ref="855" text="Hans Hapmacher"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="12" end="14" ref="" type="state">
+      <trigger start="12" end="12" text="darnach" ref="981"/>
+      <event event_id="5.0">
+        <role role="previous-due" ref="957" text="gab"/>
+        <role role="payer" ref="861" text="Conrad Tüfel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="31" end="53" ref="933" type="state">
+      <trigger start="46" end="46" text="zinst" ref="969"/>
+      <event event_id="6.0">
+        <role role="beneficiary" ref="939" text="sant Alban"/>
+        <role role="interest" ref="951" text="9 ȡ zins pfennig"/>
+        <role role="property" ref="885" text="einer trotten und schüren neben genan ¬&#10;tem Hus Rotenstein und Oswald Valckensteins&#10;garten , zinst gen sant Alban 9 ȡ zins pfennig"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

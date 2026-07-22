@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/50 S. [26]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 51, ohne alt 1435</tei:title>
+            <tei:idno>HGB 1 58/50</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467833</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1683">1683</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611408.880195439 1267278.9871398073</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Heinrich</token>
+    <token token_id="2">Beckh</token>
+    <token token_id="3">der</token>
+    <token token_id="4">Jüngere</token>
+    <token token_id="5">Handelsmann</token>
+    <token token_id="6">,</token>
+    <token token_id="7">Besitzer</token>
+    <token token_id="8">des</token>
+    <token token_id="9">Hauses</token>
+    <token token_id="10">zum</token>
+    <token token_id="11">Falckhen</token>
+    <token token_id="12">an</token>
+    <token token_id="13">der</token>
+    <token token_id="14">Freyen</token>
+    <token token_id="15">¬</token>
+    <token token_id="16">strasse</token>
+    <token token_id="17">Contra</token>
+    <token token_id="18">Jacob</token>
+    <token token_id="19">von</token>
+    <token token_id="20">Bruckh</token>
+    <token token_id="21">dem</token>
+    <token token_id="22">Reittsattler</token>
+    <token token_id="23">Besitzer</token>
+    <token token_id="24">des</token>
+    <token token_id="25">Hauses</token>
+    <token token_id="26">zum</token>
+    <token token_id="27">Grüenenberg</token>
+    <token token_id="28">,</token>
+    <token token_id="29">wegen</token>
+    <token token_id="30">der</token>
+    <token token_id="31">zwischen</token>
+    <token token_id="32">Ihr</token>
+    <token token_id="33">beider</token>
+    <token token_id="34">Höflin</token>
+    <token token_id="35">sich</token>
+    <token token_id="36">befind</token>
+    <token token_id="37">.</token>
+    <token token_id="38">Scheidmauer</token>
+    <token token_id="39">welche</token>
+    <token token_id="40">der</token>
+    <token token_id="41">Kläger</token>
+    <token token_id="42">höher</token>
+    <token token_id="43">aufführen</token>
+    <token token_id="44">will</token>
+    <token token_id="45">,</token>
+    <token token_id="46">und</token>
+    <token token_id="47">prod</token>
+    <token token_id="48">.</token>
+    <token token_id="49">ein</token>
+    <token token_id="50">Br</token>
+    <token token_id="51">.</token>
+    <token token_id="52">Brief</token>
+    <token token_id="53">vom</token>
+    <token token_id="54">1</token>
+    <token token_id="55">.</token>
+    <token token_id="56">Mai</token>
+    <token token_id="57">1537</token>
+    <token token_id="58">.</token>
+  </text>
+  <spans>
+    <span id="1019" start="0" end="16" text="Hanns Heinrich Beckh der Jüngere Handelsmann ,&#10;Besitzer des Hauses zum Falckhen an der Freyen ¬&#10;strasse" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1025" start="0" end="2" text="Hanns Heinrich Beckh" element="head" class="nam" subclass=""/>
+      <span id="1031" start="3" end="4" text="der Jüngere" element="appo" class="gen" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1031_head" start="3" end="4" element="head" class="gen" text="der Jüngere" subclass=""/>
+      </span>
+      <span id="1037" start="5" end="5" text="Handelsmann" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1037_head" start="5" end="5" element="head" class="occ" text="Handelsmann" subclass=""/>
+      </span>
+      <span id="1043" start="7" end="16" text="Besitzer des Hauses zum Falckhen an der Freyen ¬&#10;strasse" element="appo" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1049" start="7" end="7" text="Besitzer" element="head" class="owner" subclass=""/>
+        <span id="1055" start="8" end="16" text="des Hauses zum Falckhen an der Freyen ¬&#10;strasse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1061" start="9" end="11" text="Hauses zum Falckhen" element="head" class="nam" subclass=""/>
+          <span id="1067" start="12" end="16" text="an der Freyen ¬&#10;strasse" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1073" start="13" end="16" text="der Freyen ¬&#10;strasse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+              <span id="1079" start="14" end="16" text="Freyen ¬&#10;strasse" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1190" start="17" end="17" text="Contra" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1085" start="18" end="27" text="Jacob von Bruckh dem Reittsattler&#10;Besitzer des Hauses zum Grüenenberg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1091" start="18" end="20" text="Jacob von Bruckh" element="head" class="nam" subclass=""/>
+      <span id="1097" start="21" end="22" text="dem Reittsattler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1103" start="22" end="22" text="Reittsattler" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1109" start="23" end="27" text="Besitzer des Hauses zum Grüenenberg" element="appo" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1115" start="23" end="23" text="Besitzer" element="head" class="owner" subclass=""/>
+        <span id="1121" start="24" end="27" text="des Hauses zum Grüenenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1127" start="25" end="27" text="Hauses zum Grüenenberg" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1202" start="30" end="44" text="der&#10;zwischen Ihr beider Höflin sich befind . Scheidmauer&#10;welche der Kläger höher aufführen will" element="other" class="other" subclass="">
+      <span id="1139" start="32" end="34" text="Ihr beider Höflin" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1139_desc_owner" start="32" end="32" text="Ihr" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1151" start="32" end="32" text="Ihr" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1151_head" start="32" end="32" element="head" class="pro" text="Ihr" subclass=""/>
+          </span>
+        </span>
+        <span id="1145" start="34" end="34" text="Höflin" element="head" class="type" subclass=""/>
+      </span>
+      <span id="1171" start="40" end="41" text="der Kläger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1177" start="41" end="41" text="Kläger" element="head" class="role" subclass=""/>
+      </span>
+    </span>
+    <span id="1133" start="54" end="58" text="1 . Mai 1537 ." element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1164" from="1151" to="1019" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1183" from="1171" to="1019" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1157" from="1151" to="1085" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="7" end="16" ref="1043" type="state">
+      <trigger start="7" end="7" text="Besitzer" ref="1049"/>
+      <event event_id="0.0">
+        <role role="owner" ref="1019" text="Hanns Heinrich Beckh der Jüngere Handelsmann ,&#10;Besitzer des Hauses zum Falckhen an der Freyen ¬&#10;strasse"/>
+        <role role="property" ref="1055" text="des Hauses zum Falckhen an der Freyen ¬&#10;strasse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="23" end="27" ref="1109" type="state">
+      <trigger start="23" end="23" text="Besitzer" ref="1115"/>
+      <event event_id="1.0">
+        <role role="owner" ref="1085" text="Jacob von Bruckh dem Reittsattler&#10;Besitzer des Hauses zum Grüenenberg"/>
+        <role role="property" ref="1121" text="des Hauses zum Grüenenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="12" end="16" ref="1067" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1055" text="des Hauses zum Falckhen an der Freyen ¬&#10;strasse"/>
+        <role role="location-b" ref="1073" text="der Freyen ¬&#10;strasse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="32" end="32" ref="1139_desc_owner" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1139" text="Ihr beider Höflin"/>
+        <role role="owner" ref="1151" text="Ihr"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="litigation" polarity="pos" tense="pres" modality="ass" start="0" end="44" ref="" type="event">
+      <trigger start="17" end="17" text="Contra" ref="1190"/>
+      <event event_id="4.0">
+        <role role="party1" ref="1019" text="Hanns Heinrich Beckh der Jüngere Handelsmann ,&#10;Besitzer des Hauses zum Falckhen an der Freyen ¬&#10;strasse"/>
+        <role role="party2" ref="1085" text="Jacob von Bruckh dem Reittsattler&#10;Besitzer des Hauses zum Grüenenberg"/>
+        <role role="subject" ref="1202" text="der&#10;zwischen Ihr beider Höflin sich befind . Scheidmauer&#10;welche der Kläger höher aufführen will"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

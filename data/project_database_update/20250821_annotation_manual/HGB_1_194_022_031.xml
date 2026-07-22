@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/22 S. [31]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 13</tei:title>
+            <tei:idno>HGB 1 194/22</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1513948</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Liber copiarum</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1594">1594</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611129.6022503045 1267402.1445183891</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Raths</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Die</token>
+    <token token_id="5">Fünf</token>
+    <token token_id="6">über</token>
+    <token token_id="7">die</token>
+    <token token_id="8">Gebeuw</token>
+    <token token_id="9">erkennen</token>
+    <token token_id="10">in</token>
+    <token token_id="11">der</token>
+    <token token_id="12">Klage</token>
+    <token token_id="13">des</token>
+    <token token_id="14">ge</token>
+    <token token_id="15">¬</token>
+    <token token_id="16">wesenen</token>
+    <token token_id="17">Schaffners</token>
+    <token token_id="18">des</token>
+    <token token_id="19">Gottshauses</token>
+    <token token_id="20">zur</token>
+    <token token_id="21">Clingenthall</token>
+    <token token_id="22">sel</token>
+    <token token_id="23">.</token>
+    <token token_id="24">Erben</token>
+    <token token_id="25">gegen</token>
+    <token token_id="26">Meister</token>
+    <token token_id="27">Mathisen</token>
+    <token token_id="28">Ehnigern</token>
+    <token token_id="29">dem</token>
+    <token token_id="30">Wullwäberen</token>
+    <token token_id="31">,</token>
+    <token token_id="32">die</token>
+    <token token_id="33">weil</token>
+    <token token_id="34">klas</token>
+    <token token_id="35">ist</token>
+    <token token_id="36">,</token>
+    <token token_id="37">das</token>
+    <token token_id="38">der</token>
+    <token token_id="39">Besitzer</token>
+    <token token_id="40">und</token>
+    <token token_id="41">Inhaber</token>
+    <token token_id="42">,</token>
+    <token token_id="43">des</token>
+    <token token_id="44">Hauses</token>
+    <token token_id="45">genandt</token>
+    <token token_id="46">zur</token>
+    <token token_id="47">Allmendt</token>
+    <token token_id="48">,</token>
+    <token token_id="49">einschen</token>
+    <token token_id="50">Bauw</token>
+    <token token_id="51">,</token>
+    <token token_id="52">daduch</token>
+    <token token_id="53">den</token>
+    <token token_id="54">Sun</token>
+    <token token_id="55">¬</token>
+    <token token_id="56">habern</token>
+    <token token_id="57">des</token>
+    <token token_id="58">Hausses</token>
+    <token token_id="59">genandt</token>
+    <token token_id="60">zum</token>
+    <token token_id="61">Dolden</token>
+    <token token_id="62">,</token>
+    <token token_id="63">wass</token>
+    <token token_id="64">Gesichts</token>
+    <token token_id="65">und</token>
+    <token token_id="66">Liechts</token>
+    <token token_id="67">verschlager</token>
+    <token token_id="68">würdet</token>
+    <token token_id="69">,</token>
+    <token token_id="70">einswegs</token>
+    <token token_id="71">fürguenmmen</token>
+    <token token_id="72">befügt</token>
+    <token token_id="73">,</token>
+    <token token_id="74">das</token>
+    <token token_id="75">Mathis</token>
+    <token token_id="76">Einger</token>
+    <token token_id="77">von</token>
+    <token token_id="78">seinem</token>
+    <token token_id="79">Bauw</token>
+    <token token_id="80">absten</token>
+    <token token_id="81">,</token>
+    <token token_id="82">und</token>
+    <token token_id="83">auch</token>
+    <token token_id="84">sen</token>
+    <token token_id="85">Höfflin</token>
+    <token token_id="86">,</token>
+    <token token_id="87">das</token>
+    <token token_id="88">er</token>
+    <token token_id="89">höcher</token>
+    <token token_id="90">und</token>
+    <token token_id="91">Grundt</token>
+    <token token_id="92">aufschüttenlossen</token>
+    <token token_id="93">,</token>
+    <token token_id="94">neide</token>
+    <token token_id="95">in</token>
+    <token token_id="96">der</token>
+    <token token_id="97">Mitte</token>
+    <token token_id="98">widerumben</token>
+    <token token_id="99">ausgeworffen</token>
+    <token token_id="100">solle</token>
+    <token token_id="101">.</token>
+  </text>
+  <spans>
+    <span id="1488" start="4" end="8" text="Die Fünf über die Gebeuw" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="1494" start="5" end="8" text="Fünf über die Gebeuw" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1676" start="9" end="9" text="erkennen" element="trigger" class="litigation" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1500" start="13" end="24" text="des ge ¬&#10;wesenen Schaffners des Gottshauses zur Clingenthall sel . Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1512" start="13" end="23" text="des ge ¬&#10;wesenen Schaffners des Gottshauses zur Clingenthall sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+        <span id="1518" start="17" end="17" text="Schaffners" element="head" class="occ" subclass="org-job"/>
+        <span id="1524" start="18" end="21" text="des Gottshauses zur Clingenthall" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1530" start="19" end="21" text="Gottshauses zur Clingenthall" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1536" start="22" end="23" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="1506" start="24" end="24" text="Erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="1542" start="26" end="30" text="Meister Mathisen Ehnigern dem Wullwäberen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1548" start="26" end="26" text="Meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1548_head" start="26" end="26" element="head" class="title" text="Meister" subclass=""/>
+      </span>
+      <span id="1554" start="27" end="28" text="Mathisen Ehnigern" element="head" class="nam" subclass=""/>
+      <span id="1560" start="29" end="30" text="dem Wullwäberen" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1566" start="30" end="30" text="Wullwäberen" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1688" start="38" end="47" text="der Besitzer und Inhaber , des Hauses&#10;genandt zur Allmendt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1590" start="39" end="41" text="Besitzer und Inhaber" element="head" class="owner" subclass=""/>
+      <span id="1572" start="43" end="47" text="des Hauses&#10;genandt zur Allmendt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1578" start="44" end="44" text="Hauses" element="head" class="type" subclass=""/>
+        <span id="1584" start="46" end="47" text="zur Allmendt" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1584_head" start="46" end="47" element="head" class="nam" text="zur Allmendt" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1682" start="49" end="50" text="einschen Bauw" element="other" class="other" subclass=""/>
+    <span id="1596" start="54" end="61" text="Sun ¬&#10;habern des Hausses genandt zum Dolden" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1602" start="54" end="56" text="Sun ¬&#10;habern" element="head" class="owner" subclass=""/>
+      <span id="1614" start="57" end="61" text="des Hausses genandt zum Dolden" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1620" start="58" end="58" text="Hausses" element="head" class="type" subclass=""/>
+        <span id="1626" start="60" end="61" text="zum Dolden" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1626_head" start="60" end="61" element="head" class="nam" text="zum Dolden" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1632" start="75" end="76" text="Mathis Einger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1632_head" start="75" end="76" element="head" class="nam" text="Mathis Einger" subclass=""/>
+    </span>
+    <span id="1694" start="79" end="79" text="Bauw" element="trigger" class="construction" tense="pres" polarity="neg" modality="requ" subclass=""/>
+    <span id="1645" start="84" end="85" text="sen Höfflin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1651" start="84" end="84" text="sen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1657" start="84" end="84" text="sen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1657_head" start="84" end="84" element="head" class="pro" text="sen" subclass=""/>
+        </span>
+      </span>
+      <span id="1670" start="85" end="85" text="Höfflin" element="head" class="type" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1638" from="1632" to="1542" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1663" from="1657" to="1632" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="13" end="24" ref="1500" type="event">
+      <trigger start="24" end="24" text="Erben" ref="1506"/>
+      <event event_id="0.0">
+        <role role="heir" ref="1500" text="des ge ¬&#10;wesenen Schaffners des Gottshauses zur Clingenthall sel . Erben"/>
+        <role role="decedent" ref="1512" text="des ge ¬&#10;wesenen Schaffners des Gottshauses zur Clingenthall sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="past" modality="ass" start="13" end="23" ref="1512" type="state">
+      <trigger start="17" end="17" text="Schaffners" ref="1518"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1512" text="des ge ¬&#10;wesenen Schaffners des Gottshauses zur Clingenthall sel ."/>
+        <role role="employer" ref="1524" text="des Gottshauses zur Clingenthall"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="38" end="47" ref="1688" type="state">
+      <trigger start="39" end="41" text="Besitzer und Inhaber" ref="1590"/>
+      <event event_id="2.0">
+        <role role="owner" ref="1688" text="der Besitzer und Inhaber , des Hauses&#10;genandt zur Allmendt"/>
+        <role role="property" ref="1572" text="des Hauses&#10;genandt zur Allmendt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="54" end="61" ref="1596" type="state">
+      <trigger start="54" end="56" text="Sun ¬&#10;habern" ref="1602"/>
+      <event event_id="3.0">
+        <role role="owner" ref="1596" text="Sun ¬&#10;habern des Hausses genandt zum Dolden"/>
+        <role role="property" ref="1614" text="des Hausses genandt zum Dolden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="84" end="84" ref="1651" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1645" text="sen Höfflin"/>
+        <role role="owner" ref="1657" text="sen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="litigation" polarity="pos" tense="pres" modality="ass" start="4" end="9" ref="" type="event">
+      <trigger start="9" end="9" text="erkennen" ref="1676"/>
+      <event event_id="5.0">
+        <role role="court" ref="1488" text="Die Fünf über die Gebeuw"/>
+        <role role="party1" ref="1500" text="des ge ¬&#10;wesenen Schaffners des Gottshauses zur Clingenthall sel . Erben"/>
+        <role role="party2" ref="1542" text="Meister Mathisen Ehnigern dem Wullwäberen"/>
+        <role role="subject" ref="1682" text="einschen Bauw"/>
+        <role role="subject" ref="1694" text="Bauw"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="construction" polarity="neg" tense="pres" modality="requ" start="75" end="85" ref="" type="event">
+      <trigger start="79" end="79" text="Bauw" ref="1694"/>
+      <event event_id="6.0">
+        <role role="builder" ref="1632" text="Mathis Einger"/>
+        <role role="property" ref="1645" text="sen Höfflin"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

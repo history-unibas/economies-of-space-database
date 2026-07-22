@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 137/25 S. [4]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Nadelberg Theil von 17 neben 15</tei:title>
+            <tei:idno>HGB 1 137/25</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1500732</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Klara</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1362">1362</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611060.8355750907 1267506.373137001</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">zu</token>
+    <token token_id="1">St</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Claren</token>
+    <token token_id="4">hug</token>
+    <token token_id="5">zum</token>
+    <token token_id="6">Trackhen</token>
+    <token token_id="7">gibt</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Abtessin</token>
+    <token token_id="10">1</token>
+    <token token_id="11">℔</token>
+    <token token_id="12">pfenning</token>
+    <token token_id="13">gelts</token>
+    <token token_id="14">zinses</token>
+    <token token_id="15">,</token>
+    <token token_id="16">so</token>
+    <token token_id="17">er</token>
+    <token token_id="18">hat</token>
+    <token token_id="19">auf</token>
+    <token token_id="20">der</token>
+    <token token_id="21">halben</token>
+    <token token_id="22">hofstatt</token>
+    <token token_id="23">des</token>
+    <token token_id="24">alten</token>
+    <token token_id="25">Paulers</token>
+    <token token_id="26">haus</token>
+    <token token_id="27">genannt</token>
+    <token token_id="28">an</token>
+    <token token_id="29">der</token>
+    <token token_id="30">freyenstrasse</token>
+    <token token_id="31">gelegen</token>
+    <token token_id="32">zwischen</token>
+    <token token_id="33">dem</token>
+    <token token_id="34">grauen</token>
+    <token token_id="35">beren</token>
+    <token token_id="36">und</token>
+    <token token_id="37">des</token>
+    <token token_id="38">alten</token>
+    <token token_id="39">fuchs</token>
+    <token token_id="40">hoffstatt</token>
+    <token token_id="41">,</token>
+    <token token_id="42">von</token>
+    <token token_id="43">der</token>
+    <token token_id="44">eigenschaft</token>
+    <token token_id="45">zu</token>
+    <token token_id="46">zins</token>
+    <token token_id="47">2ring</token>
+    <token token_id="48">zur</token>
+    <token token_id="49">wisung</token>
+    <token token_id="50">und</token>
+    <token token_id="51">5ß</token>
+    <token token_id="52">Erschatz</token>
+    <token token_id="53">.</token>
+    <token token_id="54">die</token>
+    <token token_id="55">Abtissen</token>
+    <token token_id="56">gibt</token>
+    <token token_id="57">dem</token>
+    <token token_id="58">hug</token>
+    <token token_id="59">hingegen</token>
+    <token token_id="60">15ß</token>
+    <token token_id="61">pfen</token>
+    <token token_id="62">ing</token>
+    <token token_id="63">zins</token>
+    <token token_id="64">,</token>
+    <token token_id="65">so</token>
+    <token token_id="66">ihr</token>
+    <token token_id="67">jährlich</token>
+    <token token_id="68">gab</token>
+    <token token_id="69">Otto</token>
+    <token token_id="70">von</token>
+    <token token_id="71">Schlungen</token>
+    <token token_id="72">ab</token>
+    <token token_id="73">dem</token>
+    <token token_id="74">Haus</token>
+    <token token_id="75">,</token>
+    <token token_id="76">so</token>
+    <token token_id="77">man</token>
+    <token token_id="78">nambsti</token>
+    <token token_id="79">Symund</token>
+    <token token_id="80">Schuren</token>
+    <token token_id="81">gelegen</token>
+    <token token_id="82">ze</token>
+    <token token_id="83">Basel</token>
+    <token token_id="84">auf</token>
+    <token token_id="85">dem</token>
+    <token token_id="86">Nadelberg</token>
+    <token token_id="87">zwischen</token>
+    <token token_id="88">Fritschmans</token>
+    <token token_id="89">zu</token>
+    <token token_id="90">Rhin</token>
+    <token token_id="91">hofstatt</token>
+    <token token_id="92">und</token>
+    <token token_id="93">des</token>
+    <token token_id="94">Stammlers</token>
+    <token token_id="95">haus</token>
+    <token token_id="96">,</token>
+    <token token_id="97">von</token>
+    <token token_id="98">der</token>
+    <token token_id="99">eigenschaft</token>
+    <token token_id="100">zer</token>
+    <token token_id="101">zinse</token>
+    <token token_id="102">1ring</token>
+    <token token_id="103">zu</token>
+    <token token_id="104">wisung</token>
+    <token token_id="105">und</token>
+    <token token_id="106">15ß</token>
+    <token token_id="107">Erschatz</token>
+    <token token_id="108">.</token>
+    <token token_id="109">Datum</token>
+    <token token_id="110">.</token>
+    <token token_id="111">Sambstag</token>
+    <token token_id="112">vor</token>
+    <token token_id="113">Laurenti</token>
+    <token token_id="114">Ao</token>
+    <token token_id="115">1362</token>
+  </text>
+  <spans>
+    <span id="1815" start="1" end="3" text="St . Claren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1815_head" start="1" end="3" element="head" class="nam" text="St . Claren" subclass=""/>
+    </span>
+    <span id="1821" start="4" end="6" text="hug zum Trackhen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1821_head" start="4" end="6" element="head" class="nam" text="hug zum Trackhen" subclass=""/>
+    </span>
+    <span id="2107" start="7" end="7" text="gibt" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass="switch"/>
+    <span id="1827" start="8" end="9" text="der Abtessin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1833" start="9" end="9" text="Abtessin" element="head" class="occ" subclass="org-repr"/>
+    </span>
+    <span id="2101" start="10" end="12" text="1 ℔ pfenning" element="value" class="money" subclass=""/>
+    <span id="2113" start="13" end="14" text="gelts&#10;zinses" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1839" start="17" end="17" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1839_head" start="17" end="17" element="head" class="pro" text="er" subclass=""/>
+    </span>
+    <span id="1852" start="20" end="52" text="der halben hofstatt des alten Paulers&#10;haus genannt an der freyenstrasse gelegen zwischen dem&#10;grauen beren und des alten fuchs hoffstatt , von der&#10;eigenschaft zu zins 2ring zur wisung und 5ß Erschatz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1858" start="21" end="22" text="halben hofstatt" element="head" class="type" subclass=""/>
+      <span id="1864" start="23" end="26" text="des alten Paulers&#10;haus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1864_head" start="23" end="26" element="head" class="nam" text="des alten Paulers haus" subclass=""/>
+      </span>
+      <span id="1870" start="28" end="40" text="an der freyenstrasse gelegen zwischen dem&#10;grauen beren und des alten fuchs hoffstatt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1876" start="29" end="30" text="der freyenstrasse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1882" start="30" end="30" text="freyenstrasse" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1900" start="33" end="40" text="dem&#10;grauen beren und des alten fuchs hoffstatt" element="list" class="fac" subclass="">
+          <span id="1888" start="33" end="35" text="dem&#10;grauen beren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1888_head" start="33" end="35" element="head" class="nam" text="dem grauen beren" subclass=""/>
+          </span>
+          <span id="1894" start="37" end="40" text="des alten fuchs hoffstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1894_head" start="37" end="40" element="head" class="nam" text="des alten fuchs hoffstatt" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2155" start="42" end="52" text="von der&#10;eigenschaft zu zins 2ring zur wisung und 5ß Erschatz" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1906" start="47" end="47" text="2ring" element="value" class="money" subclass=""/>
+        <span id="1912" start="51" end="51" text="5ß" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1918" start="54" end="55" text="die Abtissen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1924" start="55" end="55" text="Abtissen" element="head" class="occ" subclass="org-repr"/>
+    </span>
+    <span id="2119" start="56" end="56" text="gibt" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass="switch"/>
+    <span id="1937" start="57" end="58" text="dem hug" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1943" start="58" end="58" text="hug" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1956" start="60" end="62" text="15ß pfen&#10;ing" element="value" class="money" subclass=""/>
+    <span id="2125" start="63" end="63" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1962" start="66" end="66" text="ihr" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1962_head" start="66" end="66" element="head" class="pro" text="ihr" subclass=""/>
+    </span>
+    <span id="1975" start="67" end="67" text="jährlich" element="value" class="time" subclass="rec"/>
+    <span id="1981" start="69" end="71" text="Otto von Schlungen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1981_head" start="69" end="71" element="head" class="nam" text="Otto von Schlungen" subclass=""/>
+    </span>
+    <span id="2131" start="73" end="95" text="dem&#10;Haus , so man nambsti Symund Schuren gelegen ze&#10;Basel auf dem Nadelberg zwischen Fritschmans zu&#10;Rhin hofstatt und des Stammlers haus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1987" start="74" end="74" text="Haus" element="head" class="type" subclass=""/>
+      <span id="1993" start="79" end="80" text="Symund Schuren" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1993_head" start="79" end="80" element="head" class="nam" text="Symund Schuren" subclass=""/>
+      </span>
+      <span id="1999" start="81" end="95" text="gelegen ze&#10;Basel auf dem Nadelberg zwischen Fritschmans zu&#10;Rhin hofstatt und des Stammlers haus" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2005" start="83" end="83" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2005_head" start="83" end="83" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="2011" start="85" end="86" text="dem Nadelberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2017" start="86" end="86" text="Nadelberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2077" start="88" end="95" text="Fritschmans zu&#10;Rhin hofstatt und des Stammlers haus" element="list" class="fac" subclass="">
+          <span id="2023" start="88" end="91" text="Fritschmans zu&#10;Rhin hofstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2041" start="88" end="90" text="Fritschmans zu&#10;Rhin" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2035" start="88" end="90" text="Fritschmans zu&#10;Rhin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2035_head" start="88" end="90" element="head" class="nam" text="Fritschmans zu Rhin" subclass=""/>
+              </span>
+            </span>
+            <span id="2029" start="91" end="91" text="hofstatt" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2047" start="93" end="95" text="des Stammlers haus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2071" start="93" end="94" text="des Stammlers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2059" start="93" end="94" text="des Stammlers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2065" start="94" end="94" text="Stammlers" element="head" class="nam" subclass=""/>
+              </span>
+            </span>
+            <span id="2053" start="95" end="95" text="haus" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2137" start="99" end="99" text="eigenschaft" element="other" class="other" subclass=""/>
+    <span id="2083" start="102" end="102" text="1ring" element="value" class="money" subclass=""/>
+    <span id="2143" start="104" end="104" text="wisung" element="other" class="other" subclass=""/>
+    <span id="2089" start="106" end="106" text="15ß" element="value" class="money" subclass=""/>
+    <span id="2149" start="107" end="107" text="Erschatz" element="other" class="other" subclass=""/>
+    <span id="2095" start="111" end="115" text="Sambstag vor Laurenti Ao 1362" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1845" from="1839" to="1821" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1930" from="1918" to="1827" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1949" from="1937" to="1839" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1968" from="1962" to="1918" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="28" end="40" ref="1870" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="1852" text="der halben hofstatt des alten Paulers&#10;haus genannt an der freyenstrasse gelegen zwischen dem&#10;grauen beren und des alten fuchs hoffstatt , von der&#10;eigenschaft zu zins 2ring zur wisung und 5ß Erschatz"/>
+        <role role="location-b" ref="1876" text="der freyenstrasse"/>
+        <role role="location-b" ref="1888" text="dem&#10;grauen beren"/>
+        <role role="location-b" ref="1894" text="des alten fuchs hoffstatt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="42" end="52" ref="2155" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1852" text="der halben hofstatt des alten Paulers&#10;haus genannt an der freyenstrasse gelegen zwischen dem&#10;grauen beren und des alten fuchs hoffstatt , von der&#10;eigenschaft zu zins 2ring zur wisung und 5ß Erschatz"/>
+        <role role="interest" ref="1906" text="2ring"/>
+        <role role="interest" ref="1912" text="5ß"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="81" end="95" ref="1999" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="2131" text="dem&#10;Haus , so man nambsti Symund Schuren gelegen ze&#10;Basel auf dem Nadelberg zwischen Fritschmans zu&#10;Rhin hofstatt und des Stammlers haus"/>
+        <role role="location-b" ref="2005" text="Basel"/>
+        <role role="location-b" ref="2011" text="dem Nadelberg"/>
+        <role role="location-b" ref="2023" text="Fritschmans zu&#10;Rhin hofstatt"/>
+        <role role="location-b" ref="2047" text="des Stammlers haus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="88" end="90" ref="2041" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="2023" text="Fritschmans zu&#10;Rhin hofstatt"/>
+        <role role="owner" ref="2035" text="Fritschmans zu&#10;Rhin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="93" end="94" ref="2071" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="2047" text="des Stammlers haus"/>
+        <role role="owner" ref="2059" text="des Stammlers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="1" end="7" ref="" type="event">
+      <trigger start="7" end="7" text="gibt" ref="2107"/>
+      <event event_id="5.0">
+        <role role="place" ref="1815" text="St . Claren"/>
+        <role role="seller" ref="1821" text="hug zum Trackhen"/>
+        <role role="buyer" ref="1827" text="der Abtessin"/>
+        <role role="due" ref="2113" text="gelts&#10;zinses"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="10" end="52" ref="" type="state">
+      <trigger start="13" end="14" text="gelts&#10;zinses" ref="2113"/>
+      <event event_id="6.0">
+        <role role="interest" ref="2101" text="1 ℔ pfenning"/>
+        <role role="beneficiary" ref="1839" text="er"/>
+        <role role="property" ref="1852" text="der halben hofstatt des alten Paulers&#10;haus genannt an der freyenstrasse gelegen zwischen dem&#10;grauen beren und des alten fuchs hoffstatt , von der&#10;eigenschaft zu zins 2ring zur wisung und 5ß Erschatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="54" end="56" ref="" type="event">
+      <trigger start="56" end="56" text="gibt" ref="2119"/>
+      <event event_id="7.0">
+        <role role="seller" ref="1918" text="die Abtissen"/>
+        <role role="buyer" ref="1937" text="dem hug"/>
+        <role role="due" ref="2125" text="zins"/>
+        <role role="date" ref="2095" text="Sambstag vor Laurenti Ao 1362"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="60" end="63" ref="" type="state">
+      <trigger start="63" end="63" text="zins" ref="2125"/>
+      <event event_id="8.0">
+        <role role="interest" ref="1956" text="15ß pfen&#10;ing"/>
+        <role role="beneficiary" ref="1962" text="ihr"/>
+        <role role="interval" ref="1975" text="jährlich"/>
+        <role role="payer" ref="1981" text="Otto von Schlungen"/>
+        <role role="property" ref="2131" text="dem&#10;Haus , so man nambsti Symund Schuren gelegen ze&#10;Basel auf dem Nadelberg zwischen Fritschmans zu&#10;Rhin hofstatt und des Stammlers haus"/>
+        <role role="cause" ref="2137" text="eigenschaft"/>
+      </event>
+      <event event_id="8.1">
+        <role role="beneficiary" ref="1962" text="ihr"/>
+        <role role="interval" ref="1975" text="jährlich"/>
+        <role role="payer" ref="1981" text="Otto von Schlungen"/>
+        <role role="property" ref="2131" text="dem&#10;Haus , so man nambsti Symund Schuren gelegen ze&#10;Basel auf dem Nadelberg zwischen Fritschmans zu&#10;Rhin hofstatt und des Stammlers haus"/>
+        <role role="interest" ref="2083" text="1ring"/>
+        <role role="cause" ref="2143" text="wisung"/>
+      </event>
+      <event event_id="8.2">
+        <role role="beneficiary" ref="1962" text="ihr"/>
+        <role role="interval" ref="1975" text="jährlich"/>
+        <role role="payer" ref="1981" text="Otto von Schlungen"/>
+        <role role="property" ref="2131" text="dem&#10;Haus , so man nambsti Symund Schuren gelegen ze&#10;Basel auf dem Nadelberg zwischen Fritschmans zu&#10;Rhin hofstatt und des Stammlers haus"/>
+        <role role="interest" ref="2089" text="15ß"/>
+        <role role="cause" ref="2149" text="Erschatz"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

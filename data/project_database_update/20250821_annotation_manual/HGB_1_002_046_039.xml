@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 2/46 S. [39]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Aeschenvorstadt 37</tei:title>
+            <tei:idno>HGB 1 2/46</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1432847</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Domstift</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1680">1680</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611636.8499404876 1266908.6451173725</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">h</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Jacob</token>
+    <token token_id="4">Müller</token>
+    <token token_id="5">zum</token>
+    <token token_id="6">Paradeiß</token>
+    <token token_id="7">7ß</token>
+    <token token_id="8">6ȡ</token>
+    <token token_id="9">.</token>
+    <token token_id="10">Ebenso</token>
+    <token token_id="11">1682</token>
+    <token token_id="12">.</token>
+    <token token_id="13">Ebenso</token>
+    <token token_id="14">1681</token>
+    <token token_id="15">.</token>
+    <token token_id="16">Ebenso</token>
+    <token token_id="17">1683</token>
+    <token token_id="18">.</token>
+    <token token_id="19">Ebenso</token>
+    <token token_id="20">1686</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Ebenso</token>
+    <token token_id="23">1684</token>
+    <token token_id="24">.</token>
+    <token token_id="25">Ebenso</token>
+    <token token_id="26">1685</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Ebenso</token>
+    <token token_id="29">1688</token>
+    <token token_id="30">.</token>
+    <token token_id="31">1689</token>
+    <token token_id="32">/</token>
+    <token token_id="33">90</token>
+    <token token_id="34">fehlen</token>
+    <token token_id="35">.</token>
+    <token token_id="36">Ebenso</token>
+    <token token_id="37">1687</token>
+    <token token_id="38">.</token>
+    <token token_id="39">Ebenso</token>
+    <token token_id="40">1692</token>
+    <token token_id="41">.</token>
+    <token token_id="42">1691</token>
+    <token token_id="43">wie</token>
+    <token token_id="44">oben</token>
+    <token token_id="45">.</token>
+  </text>
+  <spans>
+    <span id="893" start="0" end="0" text="Item" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="773" start="1" end="6" text="h . Jacob Müller zum Paradeiß" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="779" start="3" end="4" text="Jacob Müller" element="head" class="nam" subclass=""/>
+      <span id="785" start="5" end="6" text="zum Paradeiß" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="791" start="6" end="6" text="Paradeiß" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="791_head" start="6" end="6" element="head" class="nam" text="Paradeiß" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="797" start="7" end="8" text="7ß 6ȡ" element="value" class="money" subclass=""/>
+    <span id="803" start="11" end="11" text="1682" element="value" class="date" subclass=""/>
+    <span id="809" start="14" end="14" text="1681" element="value" class="date" subclass=""/>
+    <span id="815" start="17" end="17" text="1683" element="value" class="date" subclass=""/>
+    <span id="821" start="20" end="20" text="1686" element="value" class="date" subclass=""/>
+    <span id="827" start="23" end="23" text="1684" element="value" class="date" subclass=""/>
+    <span id="833" start="26" end="26" text="1685" element="value" class="date" subclass=""/>
+    <span id="839" start="29" end="29" text="1688" element="value" class="date" subclass=""/>
+    <span id="863" start="31" end="31" text="1689" element="value" class="date" subclass=""/>
+    <span id="869" start="33" end="33" text="90" element="value" class="date" subclass=""/>
+    <span id="845" start="37" end="37" text="1687" element="value" class="date" subclass=""/>
+    <span id="851" start="40" end="40" text="1692" element="value" class="date" subclass=""/>
+    <span id="857" start="42" end="42" text="1691" element="value" class="date" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="5" end="6" ref="785" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="773" text="h . Jacob Müller zum Paradeiß"/>
+        <role role="location-b" ref="791" text="Paradeiß"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="42" ref="" type="event">
+      <trigger start="0" end="0" text="Item" ref="893"/>
+      <event event_id="1.0">
+        <role role="payer" ref="773" text="h . Jacob Müller zum Paradeiß"/>
+        <role role="interest" ref="797" text="7ß 6ȡ"/>
+        <role role="date" ref="803" text="1682"/>
+        <role role="date" ref="809" text="1681"/>
+        <role role="date" ref="815" text="1683"/>
+        <role role="date" ref="821" text="1686"/>
+        <role role="date" ref="827" text="1684"/>
+        <role role="date" ref="833" text="1685"/>
+        <role role="date" ref="839" text="1688"/>
+        <role role="date-missing" ref="863" text="1689"/>
+        <role role="date-missing" ref="869" text="90"/>
+        <role role="date" ref="845" text="1687"/>
+        <role role="date" ref="851" text="1692"/>
+        <role role="date" ref="857" text="1691"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

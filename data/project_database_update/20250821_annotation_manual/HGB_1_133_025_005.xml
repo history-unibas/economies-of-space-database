@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 133/25 S. [5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Münsterberg Theil von 2 neben Freiestrasse</tei:title>
+            <tei:idno>HGB 1 133/25</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1497138</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Städtische Urkunden</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1405">1405</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611479.810609689 1267173.3092363377</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Heintzman</token>
+    <token token_id="5">zem</token>
+    <token token_id="6">Golde</token>
+    <token token_id="7">ein</token>
+    <token token_id="8">Knmant</token>
+    <token token_id="9">Burger</token>
+    <token token_id="10">ze</token>
+    <token token_id="11">Basel</token>
+    <token token_id="12">,</token>
+    <token token_id="13">und</token>
+    <token token_id="14">Grede</token>
+    <token token_id="15">sin</token>
+    <token token_id="16">eliche</token>
+    <token token_id="17">Frowe</token>
+    <token token_id="18">verkaufen</token>
+    <token token_id="19">an</token>
+    <token token_id="20">Rudi</token>
+    <token token_id="21">Klingenberg</token>
+    <token token_id="22">den</token>
+    <token token_id="23">Schuchmacher</token>
+    <token token_id="24">,</token>
+    <token token_id="25">Burger</token>
+    <token token_id="26">ze</token>
+    <token token_id="27">Basel</token>
+    <token token_id="28">.</token>
+    <token token_id="29">das</token>
+    <token token_id="30">Huse</token>
+    <token token_id="31">und</token>
+    <token token_id="32">Hofstat</token>
+    <token token_id="33">,</token>
+    <token token_id="34">so</token>
+    <token token_id="35">man</token>
+    <token token_id="36">nemet</token>
+    <token token_id="37">zer</token>
+    <token token_id="38">Schüfelen</token>
+    <token token_id="39">,</token>
+    <token token_id="40">so</token>
+    <token token_id="41">gelegen</token>
+    <token token_id="42">ist</token>
+    <token token_id="43">ze</token>
+    <token token_id="44">Basel</token>
+    <token token_id="45">in</token>
+    <token token_id="46">der</token>
+    <token token_id="47">Stat</token>
+    <token token_id="48">an</token>
+    <token token_id="49">den</token>
+    <token token_id="50">Swellen</token>
+    <token token_id="51">zwis</token>
+    <token token_id="52">schent</token>
+    <token token_id="53">den</token>
+    <token token_id="54">Hüsern</token>
+    <token token_id="55">zem</token>
+    <token token_id="56">guldin</token>
+    <token token_id="57">Horn</token>
+    <token token_id="58">und</token>
+    <token token_id="59">zer</token>
+    <token token_id="60">Kripfen</token>
+    <token token_id="61">da</token>
+    <token token_id="62">die</token>
+    <token token_id="63">Eigenschaft</token>
+    <token token_id="64">zugehöret</token>
+    <token token_id="65">dem</token>
+    <token token_id="66">Spitale</token>
+    <token token_id="67">der</token>
+    <token token_id="68">armen</token>
+    <token token_id="69">Lüten</token>
+    <token token_id="70">ze</token>
+    <token token_id="71">Basel</token>
+    <token token_id="72">,</token>
+    <token token_id="73">deme</token>
+    <token token_id="74">davon</token>
+    <token token_id="75">gangent</token>
+    <token token_id="76">30</token>
+    <token token_id="77">sh</token>
+    <token token_id="78">.</token>
+    <token token_id="79">von</token>
+    <token token_id="80">der</token>
+    <token token_id="81">Eigenschaft</token>
+    <token token_id="82">,</token>
+    <token token_id="83">zwen</token>
+    <token token_id="84">Ringe</token>
+    <token token_id="85">Brottes</token>
+    <token token_id="86">ze</token>
+    <token token_id="87">Wisunge</token>
+    <token token_id="88">und</token>
+    <token token_id="89">5</token>
+    <token token_id="90">sh</token>
+    <token token_id="91">.</token>
+    <token token_id="92">ze</token>
+    <token token_id="93">Erschatze</token>
+    <token token_id="94">,</token>
+    <token token_id="95">so</token>
+    <token token_id="96">sich</token>
+    <token token_id="97">die</token>
+    <token token_id="98">Hand</token>
+    <token token_id="99">verwandelt</token>
+    <token token_id="100">so</token>
+    <token token_id="101">denne</token>
+    <token token_id="102">2</token>
+    <token token_id="103">1</token>
+    <token token_id="104">/</token>
+    <token token_id="105">2</token>
+    <token token_id="106">℔</token>
+    <token token_id="107">Annen</token>
+    <token token_id="108">wilent</token>
+    <token token_id="109">elich</token>
+    <token token_id="110">Frowen</token>
+    <token token_id="111">Johannes</token>
+    <token token_id="112">Baldeger</token>
+    <token token_id="113">,</token>
+    <token token_id="114">so</token>
+    <token token_id="115">etwene</token>
+    <token token_id="116">der</token>
+    <token token_id="117">Grawen</token>
+    <token token_id="118">von</token>
+    <token token_id="119">Kyburg</token>
+    <token token_id="120">Schriber</token>
+    <token token_id="121">waz</token>
+    <token token_id="122">und</token>
+    <token token_id="123">iren</token>
+    <token token_id="124">Kinden</token>
+    <token token_id="125">,</token>
+    <token token_id="126">die</token>
+    <token token_id="127">ouch</token>
+    <token token_id="128">gegen</token>
+    <token token_id="129">dem</token>
+    <token token_id="130">obg</token>
+    <token token_id="131">Spitale</token>
+    <token token_id="132">ein</token>
+    <token token_id="133">Frager</token>
+    <token token_id="134">ist</token>
+    <token token_id="135">,</token>
+    <token token_id="136">um</token>
+    <token token_id="137">55</token>
+    <token token_id="138">Guldin</token>
+    <token token_id="139">rinscher</token>
+    <token token_id="140">.</token>
+  </text>
+  <spans>
+    <span id="2119" start="4" end="17" text="Heintzman zem Golde ein Knmant Burger ze&#10;Basel , und Grede sin eliche Frowe" element="list" class="per" subclass="">
+      <span id="2125" start="4" end="11" text="Heintzman zem Golde ein Knmant Burger ze&#10;Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2131" start="4" end="6" text="Heintzman zem Golde" element="head" class="nam" subclass=""/>
+        <span id="2137" start="7" end="8" text="ein Knmant" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2143" start="8" end="8" text="Knmant" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="2149" start="9" end="11" text="Burger ze&#10;Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2155" start="9" end="9" text="Burger" element="head" class="org-aff" subclass=""/>
+          <span id="2161" start="11" end="11" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2161_head" start="11" end="11" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2167" start="14" end="17" text="Grede sin eliche Frowe" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2173" start="14" end="14" text="Grede" element="head" class="nam" subclass=""/>
+        <span id="2179" start="15" end="17" text="sin eliche Frowe" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2191" start="15" end="15" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2191_head" start="15" end="15" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="2185" start="16" end="17" text="eliche Frowe" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2540" start="18" end="18" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2204" start="20" end="27" text="Rudi Klingenberg den Schuchmacher , Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2210" start="20" end="21" text="Rudi Klingenberg" element="head" class="nam" subclass=""/>
+      <span id="2216" start="22" end="23" text="den Schuchmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2222" start="23" end="23" text="Schuchmacher" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="2228" start="25" end="27" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2234" start="25" end="25" text="Burger" element="head" class="org-aff" subclass=""/>
+        <span id="2240" start="27" end="27" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2240_head" start="27" end="27" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2495" start="29" end="134" text="das Huse und Hofstat , so man nemet zer Schüfelen ,&#10;so gelegen ist ze Basel in der Stat an den Swellen zwis&#10;schent den Hüsern zem guldin Horn und zer Kripfen&#10;da die Eigenschaft zugehöret dem Spitale der armen&#10;Lüten ze Basel , deme davon gangent 30 sh . von der&#10;Eigenschaft , zwen Ringe Brottes ze Wisunge und 5 sh .&#10;ze Erschatze , so sich die Hand verwandelt so denne&#10;2 1 / 2 ℔ Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz und&#10;iren Kinden , die ouch gegen dem obg Spitale ein Frager&#10;ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2246" start="30" end="32" text="Huse und Hofstat" element="head" class="type" subclass=""/>
+      <span id="2252" start="37" end="38" text="zer Schüfelen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2252_head" start="37" end="38" element="head" class="nam" text="zer Schüfelen" subclass=""/>
+      </span>
+      <span id="2258" start="40" end="60" text="so gelegen ist ze Basel in der Stat an den Swellen zwis&#10;schent den Hüsern zem guldin Horn und zer Kripfen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2264" start="44" end="44" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2264_head" start="44" end="44" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="2366" start="46" end="47" text="der Stat" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2372" start="47" end="47" text="Stat" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2385" start="48" end="50" text="an den Swellen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2391" start="50" end="50" text="Swellen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2270" start="53" end="60" text="den Hüsern zem guldin Horn und zer Kripfen" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2300" start="54" end="54" text="Hüsern" element="head" class="type" subclass=""/>
+          <span id="2282" start="55" end="60" text="zem guldin Horn und zer Kripfen" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2276" start="55" end="60" text="zem guldin Horn und zer Kripfen" element="list" class="fac" subclass="">
+              <span id="2288" start="55" end="57" text="zem guldin Horn" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2288_head" start="55" end="57" element="head" class="nam" text="zem guldin Horn" subclass=""/>
+              </span>
+              <span id="2294" start="59" end="60" text="zer Kripfen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2294_head" start="59" end="60" element="head" class="nam" text="zer Kripfen" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2582" start="61" end="71" text="da die Eigenschaft zugehöret dem Spitale der armen&#10;Lüten ze Basel" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2360" start="65" end="71" text="dem Spitale der armen&#10;Lüten ze Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2397" start="66" end="69" text="Spitale der armen&#10;Lüten" element="head" class="type" subclass=""/>
+          <span id="2403" start="70" end="71" text="ze Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2306" start="71" end="71" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2306_head" start="71" end="71" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2576" start="73" end="134" text="deme davon gangent 30 sh . von der&#10;Eigenschaft , zwen Ringe Brottes ze Wisunge und 5 sh .&#10;ze Erschatze , so sich die Hand verwandelt so denne&#10;2 1 / 2 ℔ Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz und&#10;iren Kinden , die ouch gegen dem obg Spitale ein Frager&#10;ist" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2409" start="73" end="73" text="deme" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2409_head" start="73" end="73" element="head" class="pro" text="deme" subclass=""/>
+        </span>
+        <span id="2546" start="75" end="75" text="gangent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2312" start="76" end="78" text="30 sh ." element="value" class="money" subclass=""/>
+        <span id="2552" start="80" end="81" text="der&#10;Eigenschaft" element="other" class="other" subclass=""/>
+        <span id="2318" start="83" end="85" text="zwen Ringe Brottes" element="value" class="money" subclass=""/>
+        <span id="2558" start="86" end="87" text="ze Wisunge" element="other" class="other" subclass=""/>
+        <span id="2324" start="89" end="91" text="5 sh ." element="value" class="money" subclass=""/>
+        <span id="2564" start="92" end="93" text="ze Erschatze" element="other" class="other" subclass=""/>
+        <span id="2330" start="102" end="106" text="2 1 / 2 ℔" element="value" class="money" subclass=""/>
+        <span id="2489" start="107" end="124" text="Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz und&#10;iren Kinden" element="list" class="per" subclass="">
+          <span id="2422" start="107" end="121" text="Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2336" start="107" end="107" text="Annen" element="head" class="nam" subclass=""/>
+            <span id="2428" start="108" end="121" text="wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz" element="appo" class="fam" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+              <span id="2434" start="109" end="110" text="elich Frowen" element="head" class="fam" subclass=""/>
+              <span id="2440" start="111" end="121" text="Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2446" start="111" end="112" text="Johannes Baldeger" element="head" class="nam" subclass=""/>
+                <span id="2452" start="114" end="121" text="so etwene der Grawen von Kyburg Schriber waz" element="appo" class="occ" numerus="sgl" specificity="spc" tense="past" polarity="pos" modality="ass" subclass="">
+                  <span id="2464" start="116" end="119" text="der Grawen von Kyburg" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                    <span id="2570" start="117" end="119" text="Grawen von Kyburg" element="head" class="title" subclass=""/>
+                  </span>
+                  <span id="2458" start="120" end="120" text="Schriber" element="head" class="occ" subclass=""/>
+                </span>
+              </span>
+            </span>
+          </span>
+          <span id="2342" start="123" end="124" text="iren Kinden" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2354" start="123" end="123" text="iren" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2354_head" start="123" end="123" element="head" class="pro" text="iren" subclass=""/>
+            </span>
+            <span id="2348" start="124" end="124" text="Kinden" element="head" class="fam" subclass=""/>
+          </span>
+        </span>
+        <span id="2501" start="126" end="126" text="die" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2501_head" start="126" end="126" element="head" class="pro" text="die" subclass=""/>
+        </span>
+        <span id="2514" start="129" end="131" text="dem obg Spitale" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2520" start="131" end="131" text="Spitale" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2483" start="137" end="139" text="55 Guldin rinscher" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2197" from="2191" to="2125" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2378" from="2366" to="2264" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2415" from="2409" to="2360" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2526" from="2514" to="2360" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2470" from="2354" to="2422" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2507" from="2501" to="2422" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2533" from="2501" to="2514" class="org-aff" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="123" end="124" ref="2342" type="state">
+      <trigger start="124" end="124" text="Kinden" ref="2348"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="2342" text="iren Kinden"/>
+        <role role="family-b" ref="2354" text="iren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="9" end="11" ref="2149" type="state">
+      <trigger start="9" end="9" text="Burger" ref="2155"/>
+      <event event_id="1.0">
+        <role role="resident" ref="2125" text="Heintzman zem Golde ein Knmant Burger ze&#10;Basel"/>
+        <role role="geopolitical-entity" ref="2161" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="15" end="17" ref="2179" type="state">
+      <trigger start="16" end="17" text="eliche Frowe" ref="2185"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="2167" text="Grede sin eliche Frowe"/>
+        <role role="family-b" ref="2191" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="25" end="27" ref="2228" type="state">
+      <trigger start="25" end="25" text="Burger" ref="2234"/>
+      <event event_id="3.0">
+        <role role="resident" ref="2204" text="Rudi Klingenberg den Schuchmacher , Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="2240" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="family" polarity="pos" tense="past" modality="ass" start="108" end="121" ref="2428" type="state">
+      <trigger start="109" end="110" text="elich Frowen" ref="2434"/>
+      <event event_id="4.0">
+        <role role="family-a" ref="2422" text="Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz"/>
+        <role role="family-b" ref="2440" text="Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="employment" polarity="pos" tense="past" modality="ass" start="114" end="121" ref="2452" type="state">
+      <trigger start="120" end="120" text="Schriber" ref="2458"/>
+      <event event_id="5.0">
+        <role role="employee" ref="2440" text="Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz"/>
+        <role role="employer" ref="2464" text="der Grawen von Kyburg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="40" end="60" ref="2258" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="2495" text="das Huse und Hofstat , so man nemet zer Schüfelen ,&#10;so gelegen ist ze Basel in der Stat an den Swellen zwis&#10;schent den Hüsern zem guldin Horn und zer Kripfen&#10;da die Eigenschaft zugehöret dem Spitale der armen&#10;Lüten ze Basel , deme davon gangent 30 sh . von der&#10;Eigenschaft , zwen Ringe Brottes ze Wisunge und 5 sh .&#10;ze Erschatze , so sich die Hand verwandelt so denne&#10;2 1 / 2 ℔ Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz und&#10;iren Kinden , die ouch gegen dem obg Spitale ein Frager&#10;ist"/>
+        <role role="location-b" ref="2264" text="Basel"/>
+        <role role="location-b" ref="2366" text="der Stat"/>
+        <role role="location-b" ref="2385" text="an den Swellen"/>
+        <role role="location-b" ref="2270" text="den Hüsern zem guldin Horn und zer Kripfen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="part_whole" polarity="pos" tense="pres" modality="ass" start="55" end="60" ref="2282" type="state">
+      <event event_id="7.0">
+        <role role="whole" ref="2270" text="den Hüsern zem guldin Horn und zer Kripfen"/>
+        <role role="part" ref="2288" text="zem guldin Horn"/>
+        <role role="part" ref="2294" text="zer Kripfen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="ownership" polarity="pos" tense="pres" modality="ass" start="61" end="71" ref="2582" type="state">
+      <event event_id="8.0">
+        <role role="property" ref="2495" text="das Huse und Hofstat , so man nemet zer Schüfelen ,&#10;so gelegen ist ze Basel in der Stat an den Swellen zwis&#10;schent den Hüsern zem guldin Horn und zer Kripfen&#10;da die Eigenschaft zugehöret dem Spitale der armen&#10;Lüten ze Basel , deme davon gangent 30 sh . von der&#10;Eigenschaft , zwen Ringe Brottes ze Wisunge und 5 sh .&#10;ze Erschatze , so sich die Hand verwandelt so denne&#10;2 1 / 2 ℔ Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz und&#10;iren Kinden , die ouch gegen dem obg Spitale ein Frager&#10;ist"/>
+        <role role="owner" ref="2360" text="dem Spitale der armen&#10;Lüten ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="topological" polarity="pos" tense="pres" modality="ass" start="70" end="71" ref="2403" type="state">
+      <event event_id="9.0">
+        <role role="location-a" ref="2360" text="dem Spitale der armen&#10;Lüten ze Basel"/>
+        <role role="location-b" ref="2306" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="73" end="134" ref="2576" type="state">
+      <trigger start="75" end="75" text="gangent" ref="2546"/>
+      <event event_id="10.0">
+        <role role="property" ref="2495" text="das Huse und Hofstat , so man nemet zer Schüfelen ,&#10;so gelegen ist ze Basel in der Stat an den Swellen zwis&#10;schent den Hüsern zem guldin Horn und zer Kripfen&#10;da die Eigenschaft zugehöret dem Spitale der armen&#10;Lüten ze Basel , deme davon gangent 30 sh . von der&#10;Eigenschaft , zwen Ringe Brottes ze Wisunge und 5 sh .&#10;ze Erschatze , so sich die Hand verwandelt so denne&#10;2 1 / 2 ℔ Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz und&#10;iren Kinden , die ouch gegen dem obg Spitale ein Frager&#10;ist"/>
+        <role role="beneficiary" ref="2409" text="deme"/>
+        <role role="interest" ref="2312" text="30 sh ."/>
+        <role role="cause" ref="2552" text="der&#10;Eigenschaft"/>
+        <role role="detail_proxy" ref="2501" text="die"/>
+      </event>
+      <event event_id="10.1">
+        <role role="property" ref="2495" text="das Huse und Hofstat , so man nemet zer Schüfelen ,&#10;so gelegen ist ze Basel in der Stat an den Swellen zwis&#10;schent den Hüsern zem guldin Horn und zer Kripfen&#10;da die Eigenschaft zugehöret dem Spitale der armen&#10;Lüten ze Basel , deme davon gangent 30 sh . von der&#10;Eigenschaft , zwen Ringe Brottes ze Wisunge und 5 sh .&#10;ze Erschatze , so sich die Hand verwandelt so denne&#10;2 1 / 2 ℔ Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz und&#10;iren Kinden , die ouch gegen dem obg Spitale ein Frager&#10;ist"/>
+        <role role="beneficiary" ref="2409" text="deme"/>
+        <role role="interest" ref="2318" text="zwen Ringe Brottes"/>
+        <role role="cause" ref="2558" text="ze Wisunge"/>
+        <role role="detail_proxy" ref="2501" text="die"/>
+      </event>
+      <event event_id="10.2">
+        <role role="property" ref="2495" text="das Huse und Hofstat , so man nemet zer Schüfelen ,&#10;so gelegen ist ze Basel in der Stat an den Swellen zwis&#10;schent den Hüsern zem guldin Horn und zer Kripfen&#10;da die Eigenschaft zugehöret dem Spitale der armen&#10;Lüten ze Basel , deme davon gangent 30 sh . von der&#10;Eigenschaft , zwen Ringe Brottes ze Wisunge und 5 sh .&#10;ze Erschatze , so sich die Hand verwandelt so denne&#10;2 1 / 2 ℔ Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz und&#10;iren Kinden , die ouch gegen dem obg Spitale ein Frager&#10;ist"/>
+        <role role="beneficiary" ref="2409" text="deme"/>
+        <role role="interest" ref="2324" text="5 sh ."/>
+        <role role="cause" ref="2564" text="ze Erschatze"/>
+        <role role="detail_proxy" ref="2501" text="die"/>
+      </event>
+      <event event_id="10.3">
+        <role role="property" ref="2495" text="das Huse und Hofstat , so man nemet zer Schüfelen ,&#10;so gelegen ist ze Basel in der Stat an den Swellen zwis&#10;schent den Hüsern zem guldin Horn und zer Kripfen&#10;da die Eigenschaft zugehöret dem Spitale der armen&#10;Lüten ze Basel , deme davon gangent 30 sh . von der&#10;Eigenschaft , zwen Ringe Brottes ze Wisunge und 5 sh .&#10;ze Erschatze , so sich die Hand verwandelt so denne&#10;2 1 / 2 ℔ Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz und&#10;iren Kinden , die ouch gegen dem obg Spitale ein Frager&#10;ist"/>
+        <role role="interest" ref="2330" text="2 1 / 2 ℔"/>
+        <role role="beneficiary" ref="2422" text="Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz"/>
+        <role role="beneficiary" ref="2342" text="iren Kinden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="18" end="18" ref="" type="event">
+      <trigger start="18" end="18" text="verkaufen" ref="2540"/>
+      <event event_id="11.0">
+        <role role="seller" ref="2125" text="Heintzman zem Golde ein Knmant Burger ze&#10;Basel"/>
+        <role role="seller" ref="2167" text="Grede sin eliche Frowe"/>
+        <role role="buyer" ref="2204" text="Rudi Klingenberg den Schuchmacher , Burger ze Basel"/>
+        <role role="property" ref="2495" text="das Huse und Hofstat , so man nemet zer Schüfelen ,&#10;so gelegen ist ze Basel in der Stat an den Swellen zwis&#10;schent den Hüsern zem guldin Horn und zer Kripfen&#10;da die Eigenschaft zugehöret dem Spitale der armen&#10;Lüten ze Basel , deme davon gangent 30 sh . von der&#10;Eigenschaft , zwen Ringe Brottes ze Wisunge und 5 sh .&#10;ze Erschatze , so sich die Hand verwandelt so denne&#10;2 1 / 2 ℔ Annen wilent elich Frowen Johannes Baldeger ,&#10;so etwene der Grawen von Kyburg Schriber waz und&#10;iren Kinden , die ouch gegen dem obg Spitale ein Frager&#10;ist"/>
+        <role role="price" ref="2483" text="55 Guldin rinscher"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="membership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="12.0">
+        <role role="member" ref="2501" text="die"/>
+        <role role="organization" ref="2514" text="dem obg Spitale"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 176/18 S. [24]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rümelinsplatz 17</tei:title>
+            <tei:idno>HGB 1 176/18</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1511215</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1619">1619</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611183.3293820727 1267347.604372263</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Ludwig</token>
+    <token token_id="2">Meyer</token>
+    <token token_id="3">,</token>
+    <token token_id="4">hat</token>
+    <token token_id="5">wegen</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Summ</token>
+    <token token_id="8">Gelts</token>
+    <token token_id="9">,</token>
+    <token token_id="10">so</token>
+    <token token_id="11">ihme</token>
+    <token token_id="12">Wolfgang</token>
+    <token token_id="13">Küeffer</token>
+    <token token_id="14">Notarius</token>
+    <token token_id="15">zu</token>
+    <token token_id="16">thun</token>
+    <token token_id="17">schuldig</token>
+    <token token_id="18">ist</token>
+    <token token_id="19">,</token>
+    <token token_id="20">auch</token>
+    <token token_id="21">der</token>
+    <token token_id="22">davon</token>
+    <token token_id="23">verfallenen</token>
+    <token token_id="24">zinsen</token>
+    <token token_id="25">,</token>
+    <token token_id="26">desselben</token>
+    <token token_id="27">Küeffers</token>
+    <token token_id="28">Haus</token>
+    <token token_id="29">und</token>
+    <token token_id="30">Hofstatt</token>
+    <token token_id="31">,</token>
+    <token token_id="32">hinder</token>
+    <token token_id="33">der</token>
+    <token token_id="34">Schmider</token>
+    <token token_id="35">Zunfthaus</token>
+    <token token_id="36">,</token>
+    <token token_id="37">unfehrn</token>
+    <token token_id="38">von</token>
+    <token token_id="39">Rümelins</token>
+    <token token_id="40">Mühlin</token>
+    <token token_id="41">,</token>
+    <token token_id="42">einseit</token>
+    <token token_id="43">neben</token>
+    <token token_id="44">Simon</token>
+    <token token_id="45">Blech</token>
+    <token token_id="46">dem</token>
+    <token token_id="47">Metzger</token>
+    <token token_id="48">,</token>
+    <token token_id="49">anderseits</token>
+    <token token_id="50">Claudi</token>
+    <token token_id="51">Vrolet</token>
+    <token token_id="52">dem</token>
+    <token token_id="53">Nestler</token>
+    <token token_id="54">gelegen</token>
+    <token token_id="55">,</token>
+    <token token_id="56">gefrönt</token>
+    <token token_id="57">.</token>
+  </text>
+  <spans>
+    <span id="881" start="0" end="2" text="Hanns Ludwig Meyer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="881_head" start="0" end="2" element="head" class="nam" text="Hanns Ludwig Meyer" subclass=""/>
+    </span>
+    <span id="1039" start="6" end="8" text="der Summ Gelts" element="other" class="other" subclass=""/>
+    <span id="887" start="11" end="11" text="ihme" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="887_head" start="11" end="11" element="head" class="pro" text="ihme" subclass=""/>
+    </span>
+    <span id="900" start="12" end="14" text="Wolfgang Küeffer&#10;Notarius" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="906" start="12" end="13" text="Wolfgang Küeffer" element="head" class="nam" subclass=""/>
+      <span id="912" start="14" end="14" text="Notarius" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="912_head" start="14" end="14" element="head" class="occ" text="Notarius" subclass=""/>
+      </span>
+    </span>
+    <span id="1033" start="17" end="17" text="schuldig" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1045" start="24" end="24" text="zinsen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="930" start="26" end="54" text="desselben Küeffers&#10;Haus und Hofstatt , hinder der Schmider Zunfthaus , unfehrn von Rümelins&#10;Mühlin , einseit neben Simon Blech dem Metzger , anderseits Claudi Vrolet&#10;dem Nestler gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="936" start="26" end="27" text="desselben Küeffers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="942" start="26" end="27" text="desselben Küeffers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="924" start="27" end="27" text="Küeffers" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="918" start="28" end="30" text="Haus und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="955" start="32" end="54" text="hinder der Schmider Zunfthaus , unfehrn von Rümelins&#10;Mühlin , einseit neben Simon Blech dem Metzger , anderseits Claudi Vrolet&#10;dem Nestler gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="961" start="33" end="35" text="der Schmider Zunfthaus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+          <span id="967" start="34" end="35" text="Schmider Zunfthaus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="973" start="39" end="40" text="Rümelins&#10;Mühlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="973_head" start="39" end="40" element="head" class="nam" text="Rümelins Mühlin" subclass=""/>
+        </span>
+        <span id="979" start="44" end="47" text="Simon Blech dem Metzger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="985" start="44" end="45" text="Simon Blech" element="head" class="nam" subclass=""/>
+          <span id="991" start="46" end="47" text="dem Metzger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="997" start="47" end="47" text="Metzger" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1003" start="50" end="53" text="Claudi Vrolet&#10;dem Nestler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1009" start="50" end="51" text="Claudi Vrolet" element="head" class="nam" subclass=""/>
+          <span id="1015" start="52" end="53" text="dem Nestler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1021" start="53" end="53" text="Nestler" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1027" start="56" end="56" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="893" from="887" to="881" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="948" from="942" to="900" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="26" end="27" ref="936" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="930" text="desselben Küeffers&#10;Haus und Hofstatt , hinder der Schmider Zunfthaus , unfehrn von Rümelins&#10;Mühlin , einseit neben Simon Blech dem Metzger , anderseits Claudi Vrolet&#10;dem Nestler gelegen"/>
+        <role role="owner" ref="942" text="desselben Küeffers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="32" end="54" ref="955" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="930" text="desselben Küeffers&#10;Haus und Hofstatt , hinder der Schmider Zunfthaus , unfehrn von Rümelins&#10;Mühlin , einseit neben Simon Blech dem Metzger , anderseits Claudi Vrolet&#10;dem Nestler gelegen"/>
+        <role role="location-b" ref="961" text="der Schmider Zunfthaus"/>
+        <role role="location-b" ref="973" text="Rümelins&#10;Mühlin"/>
+        <role role="location-b" ref="979" text="Simon Blech dem Metzger"/>
+        <role role="location-b" ref="1003" text="Claudi Vrolet&#10;dem Nestler"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="17" end="17" ref="" type="state">
+      <trigger start="17" end="17" text="schuldig" ref="1033"/>
+      <event event_id="2.0">
+        <role role="capital" ref="1039" text="der Summ Gelts"/>
+        <role role="beneficiary" ref="887" text="ihme"/>
+        <role role="payer" ref="900" text="Wolfgang Küeffer&#10;Notarius"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="24" end="8" ref="" type="state">
+      <trigger start="24" end="24" text="zinsen" ref="1045"/>
+      <event event_id="3.0">
+        <role role="capital" ref="1039" text="der Summ Gelts"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="56" ref="" type="event">
+      <trigger start="56" end="56" text="gefrönt" ref="1027"/>
+      <event event_id="4.0">
+        <role role="claimant" ref="881" text="Hanns Ludwig Meyer"/>
+        <role role="cause" ref="1033" text="schuldig"/>
+        <role role="cause" ref="1045" text="zinsen"/>
+        <role role="property" ref="930" text="desselben Küeffers&#10;Haus und Hofstatt , hinder der Schmider Zunfthaus , unfehrn von Rümelins&#10;Mühlin , einseit neben Simon Blech dem Metzger , anderseits Claudi Vrolet&#10;dem Nestler gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

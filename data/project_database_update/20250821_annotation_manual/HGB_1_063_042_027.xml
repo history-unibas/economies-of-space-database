@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/42 S. [27]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 43</tei:title>
+            <tei:idno>HGB 1 63/42</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1472897</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1527">1527</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611297.358660449 1267263.3989014733</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Scherer</token>
+    <token token_id="2">von</token>
+    <token token_id="3">Altensteig</token>
+    <token token_id="4">der</token>
+    <token token_id="5">scherer</token>
+    <token token_id="6">,</token>
+    <token token_id="7">u</token>
+    <token token_id="8">.</token>
+    <token token_id="9">seine</token>
+    <token token_id="10">Frau</token>
+    <token token_id="11">Anna</token>
+    <token token_id="12">,</token>
+    <token token_id="13">verkaufen</token>
+    <token token_id="14">an</token>
+    <token token_id="15">den</token>
+    <token token_id="16">Spital</token>
+    <token token_id="17">4</token>
+    <token token_id="18">fl</token>
+    <token token_id="19">.</token>
+    <token token_id="20">jährl</token>
+    <token token_id="21">.</token>
+    <token token_id="22">zinses</token>
+    <token token_id="23">,</token>
+    <token token_id="24">ab</token>
+    <token token_id="25">jrem</token>
+    <token token_id="26">Hus</token>
+    <token token_id="27">u</token>
+    <token token_id="28">.</token>
+    <token token_id="29">Hofstatt</token>
+    <token token_id="30">an</token>
+    <token token_id="31">der</token>
+    <token token_id="32">gerwergassen</token>
+    <token token_id="33">,</token>
+    <token token_id="34">vor</token>
+    <token token_id="35">dem</token>
+    <token token_id="36">Richtbrunnen</token>
+    <token token_id="37">über</token>
+    <token token_id="38">,</token>
+    <token token_id="39">an</token>
+    <token token_id="40">Hansen</token>
+    <token token_id="41">Stuben</token>
+    <token token_id="42">des</token>
+    <token token_id="43">gerwers</token>
+    <token token_id="44">hus</token>
+    <token token_id="45">glegen</token>
+    <token token_id="46">,</token>
+    <token token_id="47">ist</token>
+    <token token_id="48">ein</token>
+    <token token_id="49">Eckhus</token>
+    <token token_id="50">am</token>
+    <token token_id="51">gessli</token>
+    <token token_id="52">,</token>
+    <token token_id="53">als</token>
+    <token token_id="54">man</token>
+    <token token_id="55">in</token>
+    <token token_id="56">die</token>
+    <token token_id="57">wissengassen</token>
+    <token token_id="58">gat</token>
+    <token token_id="59">,</token>
+    <token token_id="60">stosst</token>
+    <token token_id="61">an</token>
+    <token token_id="62">die</token>
+    <token token_id="63">wissenbruckh</token>
+    <token token_id="64">zinset</token>
+    <token token_id="65">von</token>
+    <token token_id="66">eig</token>
+    <token token_id="67">.</token>
+    <token token_id="68">an</token>
+    <token token_id="69">der</token>
+    <token token_id="70">unschuld</token>
+    <token token_id="71">.</token>
+    <token token_id="72">Undlin</token>
+    <token token_id="73">altar</token>
+    <token token_id="74">uff</token>
+    <token token_id="75">Burg</token>
+    <token token_id="76">jährl</token>
+    <token token_id="77">.</token>
+    <token token_id="78">2</token>
+    <token token_id="79">℔</token>
+    <token token_id="80">.</token>
+    <token token_id="81">sonst</token>
+    <token token_id="82">frei</token>
+    <token token_id="83">,</token>
+    <token token_id="84">sum</token>
+    <token token_id="85">80</token>
+    <token token_id="86">fl</token>
+    <token token_id="87">.</token>
+  </text>
+  <spans>
+    <span id="1403" start="0" end="11" text="Hanns Scherer von Altensteig der scherer , u . seine Frau&#10;Anna" element="list" class="per" subclass="">
+      <span id="1330" start="0" end="5" text="Hanns Scherer von Altensteig der scherer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1336" start="0" end="1" text="Hanns Scherer" element="head" class="nam" subclass=""/>
+        <span id="1342" start="2" end="3" text="von Altensteig" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1348" start="3" end="3" text="Altensteig" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1348_head" start="3" end="3" element="head" class="nam" text="Altensteig" subclass=""/>
+          </span>
+        </span>
+        <span id="1354" start="4" end="5" text="der scherer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1360" start="5" end="5" text="scherer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1366" start="9" end="11" text="seine Frau&#10;Anna" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1378" start="9" end="10" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1390" start="9" end="9" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1390_head" start="9" end="9" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1384" start="10" end="10" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1372" start="11" end="11" text="Anna" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1638" start="13" end="13" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1409" start="15" end="16" text="den Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1415" start="16" end="16" text="Spital" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1421" start="17" end="19" text="4 fl ." element="value" class="money" subclass=""/>
+    <span id="1427" start="20" end="21" text="jährl ." element="value" class="time" subclass="rec"/>
+    <span id="1433" start="25" end="82" text="jrem&#10;Hus u . Hofstatt an der gerwergassen , vor dem Richtbrunnen über ,&#10;an Hansen Stuben des gerwers hus glegen , ist ein Eckhus am&#10;gessli , als man in die wissengassen gat , stosst an die wissenbruckh&#10;zinset von eig . an der unschuld . Undlin altar uff Burg jährl . 2 ℔.&#10;sonst frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1433_desc_owner" start="25" end="25" text="jrem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1445" start="25" end="25" text="jrem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1445_head" start="25" end="25" element="head" class="pro" text="jrem" subclass=""/>
+        </span>
+      </span>
+      <span id="1439" start="26" end="29" text="Hus u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1524" start="30" end="45" text="an der gerwergassen , vor dem Richtbrunnen über ,&#10;an Hansen Stuben des gerwers hus glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1458" start="31" end="32" text="der gerwergassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1464" start="32" end="32" text="gerwergassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1470" start="35" end="36" text="dem Richtbrunnen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1476" start="36" end="36" text="Richtbrunnen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1482" start="40" end="44" text="Hansen Stuben des gerwers hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1494" start="40" end="43" text="Hansen Stuben des gerwers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1500" start="40" end="43" text="Hansen Stuben des gerwers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1506" start="40" end="41" text="Hansen Stuben" element="head" class="nam" subclass=""/>
+              <span id="1512" start="42" end="43" text="des gerwers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1518" start="43" end="43" text="gerwers" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1488" start="44" end="44" text="hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1530" start="47" end="63" text="ist ein Eckhus am&#10;gessli , als man in die wissengassen gat , stosst an die wissenbruckh" element="appo" class="type" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1536" start="49" end="49" text="Eckhus" element="head" class="type" subclass=""/>
+        <span id="1542" start="50" end="63" text="am&#10;gessli , als man in die wissengassen gat , stosst an die wissenbruckh" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1548" start="50" end="51" text="am&#10;gessli" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="1554" start="51" end="51" text="gessli" element="head" class="type" subclass=""/>
+          </span>
+          <span id="1560" start="56" end="57" text="die wissengassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="1566" start="57" end="57" text="wissengassen" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1572" start="62" end="63" text="die wissenbruckh" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="1578" start="63" end="63" text="wissenbruckh" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1584" start="64" end="82" text="zinset von eig . an der unschuld . Undlin altar uff Burg jährl . 2 ℔.&#10;sonst frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1644" start="64" end="64" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1650" start="65" end="67" text="von eig ." element="other" class="other" subclass=""/>
+        <span id="1590" start="69" end="75" text="der unschuld . Undlin altar uff Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1596" start="70" end="73" text="unschuld . Undlin altar" element="head" class="nam" subclass=""/>
+          <span id="1602" start="74" end="75" text="uff Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1608" start="75" end="75" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1608_head" start="75" end="75" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1620" start="76" end="77" text="jährl ." element="value" class="time" subclass="rec"/>
+        <span id="1614" start="78" end="80" text="2 ℔." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1626" start="85" end="87" text="80 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1451" from="1445" to="1403" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1396" from="1390" to="1330" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="9" end="10" ref="1378" type="state">
+      <trigger start="10" end="10" text="Frau" ref="1384"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1366" text="seine Frau&#10;Anna"/>
+        <role role="family-b" ref="1390" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="2" end="3" ref="1342" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1330" text="Hanns Scherer von Altensteig der scherer"/>
+        <role role="location-b" ref="1348" text="Altensteig"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="25" end="25" ref="1433_desc_owner" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1433" text="jrem&#10;Hus u . Hofstatt an der gerwergassen , vor dem Richtbrunnen über ,&#10;an Hansen Stuben des gerwers hus glegen , ist ein Eckhus am&#10;gessli , als man in die wissengassen gat , stosst an die wissenbruckh&#10;zinset von eig . an der unschuld . Undlin altar uff Burg jährl . 2 ℔.&#10;sonst frei"/>
+        <role role="owner" ref="1445" text="jrem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="45" ref="1524" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1433" text="jrem&#10;Hus u . Hofstatt an der gerwergassen , vor dem Richtbrunnen über ,&#10;an Hansen Stuben des gerwers hus glegen , ist ein Eckhus am&#10;gessli , als man in die wissengassen gat , stosst an die wissenbruckh&#10;zinset von eig . an der unschuld . Undlin altar uff Burg jährl . 2 ℔.&#10;sonst frei"/>
+        <role role="location-b" ref="1458" text="der gerwergassen"/>
+        <role role="location-b" ref="1470" text="dem Richtbrunnen"/>
+        <role role="location-b" ref="1482" text="Hansen Stuben des gerwers hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="40" end="43" ref="1494" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1482" text="Hansen Stuben des gerwers hus"/>
+        <role role="owner" ref="1500" text="Hansen Stuben des gerwers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="50" end="63" ref="1542" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1433" text="jrem&#10;Hus u . Hofstatt an der gerwergassen , vor dem Richtbrunnen über ,&#10;an Hansen Stuben des gerwers hus glegen , ist ein Eckhus am&#10;gessli , als man in die wissengassen gat , stosst an die wissenbruckh&#10;zinset von eig . an der unschuld . Undlin altar uff Burg jährl . 2 ℔.&#10;sonst frei"/>
+        <role role="location-b" ref="1548" text="am&#10;gessli"/>
+        <role role="location-b" ref="1560" text="die wissengassen"/>
+        <role role="location-b" ref="1572" text="die wissenbruckh"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="64" end="82" ref="1584" type="state">
+      <trigger start="64" end="64" text="zinset" ref="1644"/>
+      <event event_id="6.0">
+        <role role="property" ref="1433" text="jrem&#10;Hus u . Hofstatt an der gerwergassen , vor dem Richtbrunnen über ,&#10;an Hansen Stuben des gerwers hus glegen , ist ein Eckhus am&#10;gessli , als man in die wissengassen gat , stosst an die wissenbruckh&#10;zinset von eig . an der unschuld . Undlin altar uff Burg jährl . 2 ℔.&#10;sonst frei"/>
+        <role role="cause" ref="1650" text="von eig ."/>
+        <role role="beneficiary" ref="1590" text="der unschuld . Undlin altar uff Burg"/>
+        <role role="interval" ref="1620" text="jährl ."/>
+        <role role="interest" ref="1614" text="2 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="74" end="75" ref="1602" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1590" text="der unschuld . Undlin altar uff Burg"/>
+        <role role="location-b" ref="1608" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="87" ref="" type="event">
+      <trigger start="13" end="13" text="verkaufen" ref="1638"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1330" text="Hanns Scherer von Altensteig der scherer"/>
+        <role role="seller" ref="1366" text="seine Frau&#10;Anna"/>
+        <role role="buyer" ref="1409" text="den Spital"/>
+        <role role="interest" ref="1421" text="4 fl ."/>
+        <role role="interval" ref="1427" text="jährl ."/>
+        <role role="collateral" ref="1433" text="jrem&#10;Hus u . Hofstatt an der gerwergassen , vor dem Richtbrunnen über ,&#10;an Hansen Stuben des gerwers hus glegen , ist ein Eckhus am&#10;gessli , als man in die wissengassen gat , stosst an die wissenbruckh&#10;zinset von eig . an der unschuld . Undlin altar uff Burg jährl . 2 ℔.&#10;sonst frei"/>
+        <role role="price" ref="1626" text="80 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

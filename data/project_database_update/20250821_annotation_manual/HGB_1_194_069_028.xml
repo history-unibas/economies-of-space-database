@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/69 S. [28]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 8</tei:title>
+            <tei:idno>HGB 1 194/69</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1515772</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1480">1480</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611131.585835311 1267421.37511436</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Stern</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Armbröster</token>
+    <token token_id="4">&amp;</token>
+    <token token_id="5">seine</token>
+    <token token_id="6">Frau</token>
+    <token token_id="7">Margret</token>
+    <token token_id="8">,</token>
+    <token token_id="9">verkaufen</token>
+    <token token_id="10">an</token>
+    <token token_id="11">die</token>
+    <token token_id="12">Augustiner</token>
+    <token token_id="13">,</token>
+    <token token_id="14">3</token>
+    <token token_id="15">℔</token>
+    <token token_id="16">gelts</token>
+    <token token_id="17">,</token>
+    <token token_id="18">ab</token>
+    <token token_id="19">jrem</token>
+    <token token_id="20">Hus</token>
+    <token token_id="21">&amp;</token>
+    <token token_id="22">hofstatt</token>
+    <token token_id="23">hinden</token>
+    <token token_id="24">&amp;</token>
+    <token token_id="25">vor</token>
+    <token token_id="26">genant</token>
+    <token token_id="27">zem</token>
+    <token token_id="28">nidern</token>
+    <token token_id="29">liecht</token>
+    <token token_id="30">,</token>
+    <token token_id="31">an</token>
+    <token token_id="32">den</token>
+    <token token_id="33">Spalen</token>
+    <token token_id="34">,</token>
+    <token token_id="35">zwuschen</token>
+    <token token_id="36">dem</token>
+    <token token_id="37">Hus</token>
+    <token token_id="38">Wildenstein</token>
+    <token token_id="39">ze</token>
+    <token token_id="40">einer</token>
+    <token token_id="41">,</token>
+    <token token_id="42">&amp;</token>
+    <token token_id="43">dem</token>
+    <token token_id="44">Hus</token>
+    <token token_id="45">zem</token>
+    <token token_id="46">obern</token>
+    <token token_id="47">Liecht</token>
+    <token token_id="48">zer</token>
+    <token token_id="49">andern</token>
+    <token token_id="50">siten</token>
+    <token token_id="51">,</token>
+    <token token_id="52">gegen</token>
+    <token token_id="53">dem</token>
+    <token token_id="54">Hus</token>
+    <token token_id="55">zem</token>
+    <token token_id="56">Sperwer</token>
+    <token token_id="57">über</token>
+    <token token_id="58">gelegen</token>
+    <token token_id="59">ist</token>
+    <token token_id="60">,</token>
+    <token token_id="61">.</token>
+    <token token_id="62">zinst</token>
+    <token token_id="63">vormals</token>
+    <token token_id="64">von</token>
+    <token token_id="65">eig</token>
+    <token token_id="66">.</token>
+    <token token_id="67">6sh</token>
+    <token token_id="68">der</token>
+    <token token_id="69">Besenz</token>
+    <token token_id="70">uf</token>
+    <token token_id="71">Burg</token>
+    <token token_id="72">,</token>
+    <token token_id="73">2</token>
+    <token token_id="74">sh</token>
+    <token token_id="75">.</token>
+    <token token_id="76">zu</token>
+    <token token_id="77">s</token>
+    <token token_id="78">.</token>
+    <token token_id="79">Lienhart</token>
+    <token token_id="80">,</token>
+    <token token_id="81">2</token>
+    <token token_id="82">sh</token>
+    <token token_id="83">.</token>
+    <token token_id="84">ziu</token>
+    <token token_id="85">s</token>
+    <token token_id="86">.</token>
+    <token token_id="87">Peter</token>
+    <token token_id="88">&amp;</token>
+    <token token_id="89">6sh</token>
+    <token token_id="90">.</token>
+    <token token_id="91">den</token>
+    <token token_id="92">Augustinern</token>
+    <token token_id="93">sonstfrei</token>
+    <token token_id="94">,</token>
+    <token token_id="95">um</token>
+    <token token_id="96">60</token>
+    <token token_id="97">℔</token>
+    <token token_id="98">,</token>
+    <token token_id="99">widerk</token>
+    <token token_id="100">.</token>
+  </text>
+  <spans>
+    <span id="1723" start="0" end="7" text="Hanns Stern der Armbröster &amp; seine Frau Margret" element="list" class="per" subclass="">
+      <span id="1486" start="0" end="3" text="Hanns Stern der Armbröster" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1492" start="0" end="1" text="Hanns Stern" element="head" class="nam" subclass=""/>
+        <span id="1498" start="2" end="3" text="der Armbröster" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1504" start="3" end="3" text="Armbröster" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1654" start="5" end="7" text="seine Frau Margret" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1510" start="5" end="6" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1710" start="5" end="5" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1710_head" start="5" end="5" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1516" start="6" end="6" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1522" start="7" end="7" text="Margret" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1729" start="9" end="9" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1660" start="11" end="12" text="die Augustiner" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1648" start="12" end="12" text="Augustiner" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1759" start="14" end="15" text="3 ℔" element="value" class="money" subclass=""/>
+    <span id="1692" start="19" end="93" text="jrem Hus&#10;&amp; hofstatt hinden &amp; vor genant zem nidern liecht ,&#10;an den Spalen , zwuschen dem Hus Wildenstein ze einer ,&#10;&amp; dem Hus zem obern Liecht zer andern siten , gegen dem&#10;Hus zem Sperwer über gelegen ist ,. zinst vormals von&#10;eig . 6sh der Besenz uf Burg , 2 sh . zu s . Lienhart , 2 sh . ziu&#10;s . Peter &amp; 6sh . den Augustinern sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1735" start="19" end="19" text="jrem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1666" start="19" end="19" text="jrem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1666_head" start="19" end="19" element="head" class="pro" text="jrem" subclass=""/>
+        </span>
+      </span>
+      <span id="1528" start="20" end="22" text="Hus&#10;&amp; hofstatt" element="head" class="type" subclass=""/>
+      <span id="1686" start="27" end="29" text="zem nidern liecht" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1686_head" start="27" end="29" element="head" class="nam" text="zem nidern liecht" subclass=""/>
+      </span>
+      <span id="1534" start="31" end="61" text="an den Spalen , zwuschen dem Hus Wildenstein ze einer ,&#10;&amp; dem Hus zem obern Liecht zer andern siten , gegen dem&#10;Hus zem Sperwer über gelegen ist ,." element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1540" start="32" end="33" text="den Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1546" start="33" end="33" text="Spalen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1552" start="36" end="38" text="dem Hus Wildenstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1558" start="37" end="38" text="Hus Wildenstein" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1564" start="43" end="47" text="dem Hus zem obern Liecht" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1570" start="44" end="47" text="Hus zem obern Liecht" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1576" start="53" end="56" text="dem&#10;Hus zem Sperwer" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1582" start="54" end="56" text="Hus zem Sperwer" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1698" start="62" end="93" text="zinst vormals von&#10;eig . 6sh der Besenz uf Burg , 2 sh . zu s . Lienhart , 2 sh . ziu&#10;s . Peter &amp; 6sh . den Augustinern sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1747" start="62" end="62" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1753" start="64" end="66" text="von&#10;eig ." element="other" class="other" subclass=""/>
+        <span id="1588" start="67" end="67" text="6sh" element="value" class="money" subclass=""/>
+        <span id="1618" start="68" end="71" text="der Besenz uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1704" start="69" end="71" text="Besenz uf Burg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1594" start="73" end="74" text="2 sh" element="value" class="money" subclass=""/>
+        <span id="1624" start="77" end="79" text="s . Lienhart" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1624_head" start="77" end="79" element="head" class="nam" text="s . Lienhart" subclass=""/>
+        </span>
+        <span id="1600" start="81" end="82" text="2 sh" element="value" class="money" subclass=""/>
+        <span id="1630" start="85" end="87" text="s . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1630_head" start="85" end="87" element="head" class="nam" text="s . Peter" subclass=""/>
+        </span>
+        <span id="1606" start="89" end="89" text="6sh" element="value" class="money" subclass=""/>
+        <span id="1636" start="91" end="92" text="den Augustinern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1642" start="92" end="92" text="Augustinern" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1612" start="96" end="97" text="60 ℔" element="value" class="money" subclass=""/>
+    <span id="1741" start="99" end="100" text="widerk ." element="other" class="other" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1672" from="1666" to="1486" class="comp" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1716" from="1710" to="1486" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1679" from="1666" to="1654" class="comp" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1747_role" from="1747" to="1692" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="5" end="6" ref="1510" type="state">
+      <trigger start="6" end="6" text="Frau" ref="1516"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1654" text="seine Frau Margret"/>
+        <role role="family-b" ref="1710" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="19" end="19" ref="1735" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1692" text="jrem Hus&#10;&amp; hofstatt hinden &amp; vor genant zem nidern liecht ,&#10;an den Spalen , zwuschen dem Hus Wildenstein ze einer ,&#10;&amp; dem Hus zem obern Liecht zer andern siten , gegen dem&#10;Hus zem Sperwer über gelegen ist ,. zinst vormals von&#10;eig . 6sh der Besenz uf Burg , 2 sh . zu s . Lienhart , 2 sh . ziu&#10;s . Peter &amp; 6sh . den Augustinern sonstfrei"/>
+        <role role="owner" ref="1666" text="jrem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="31" end="61" ref="1534" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1692" text="jrem Hus&#10;&amp; hofstatt hinden &amp; vor genant zem nidern liecht ,&#10;an den Spalen , zwuschen dem Hus Wildenstein ze einer ,&#10;&amp; dem Hus zem obern Liecht zer andern siten , gegen dem&#10;Hus zem Sperwer über gelegen ist ,. zinst vormals von&#10;eig . 6sh der Besenz uf Burg , 2 sh . zu s . Lienhart , 2 sh . ziu&#10;s . Peter &amp; 6sh . den Augustinern sonstfrei"/>
+        <role role="location-b" ref="1540" text="den Spalen"/>
+        <role role="location-b" ref="1552" text="dem Hus Wildenstein"/>
+        <role role="location-b" ref="1564" text="dem Hus zem obern Liecht"/>
+        <role role="location-b" ref="1576" text="dem&#10;Hus zem Sperwer"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="9" ref="" type="event">
+      <trigger start="9" end="9" text="verkaufen" ref="1729"/>
+      <event event_id="3.0">
+        <role role="seller" ref="1486" text="Hanns Stern der Armbröster"/>
+        <role role="seller" ref="1654" text="seine Frau Margret"/>
+        <role role="buyer" ref="1660" text="die Augustiner"/>
+        <role role="interest" ref="1759" text="3 ℔"/>
+        <role role="collateral" ref="1692" text="jrem Hus&#10;&amp; hofstatt hinden &amp; vor genant zem nidern liecht ,&#10;an den Spalen , zwuschen dem Hus Wildenstein ze einer ,&#10;&amp; dem Hus zem obern Liecht zer andern siten , gegen dem&#10;Hus zem Sperwer über gelegen ist ,. zinst vormals von&#10;eig . 6sh der Besenz uf Burg , 2 sh . zu s . Lienhart , 2 sh . ziu&#10;s . Peter &amp; 6sh . den Augustinern sonstfrei"/>
+        <role role="price" ref="1612" text="60 ℔"/>
+        <role role="interest-redeemable" ref="1741" text="widerk ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="19" end="93" ref="1698" type="state">
+      <trigger start="62" end="62" text="zinst" ref="1747"/>
+      <event event_id="4.0">
+        <role role="cause" ref="1753" text="von&#10;eig ."/>
+        <role role="interest" ref="1588" text="6sh"/>
+        <role role="beneficiary" ref="1618" text="der Besenz uf Burg"/>
+        <role role="property" ref="1692" text="jrem Hus&#10;&amp; hofstatt hinden &amp; vor genant zem nidern liecht ,&#10;an den Spalen , zwuschen dem Hus Wildenstein ze einer ,&#10;&amp; dem Hus zem obern Liecht zer andern siten , gegen dem&#10;Hus zem Sperwer über gelegen ist ,. zinst vormals von&#10;eig . 6sh der Besenz uf Burg , 2 sh . zu s . Lienhart , 2 sh . ziu&#10;s . Peter &amp; 6sh . den Augustinern sonstfrei"/>
+      </event>
+      <event event_id="4.1">
+        <role role="cause" ref="1753" text="von&#10;eig ."/>
+        <role role="interest" ref="1594" text="2 sh"/>
+        <role role="beneficiary" ref="1624" text="s . Lienhart"/>
+        <role role="property" ref="1692" text="jrem Hus&#10;&amp; hofstatt hinden &amp; vor genant zem nidern liecht ,&#10;an den Spalen , zwuschen dem Hus Wildenstein ze einer ,&#10;&amp; dem Hus zem obern Liecht zer andern siten , gegen dem&#10;Hus zem Sperwer über gelegen ist ,. zinst vormals von&#10;eig . 6sh der Besenz uf Burg , 2 sh . zu s . Lienhart , 2 sh . ziu&#10;s . Peter &amp; 6sh . den Augustinern sonstfrei"/>
+      </event>
+      <event event_id="4.2">
+        <role role="cause" ref="1753" text="von&#10;eig ."/>
+        <role role="interest" ref="1600" text="2 sh"/>
+        <role role="beneficiary" ref="1630" text="s . Peter"/>
+        <role role="property" ref="1692" text="jrem Hus&#10;&amp; hofstatt hinden &amp; vor genant zem nidern liecht ,&#10;an den Spalen , zwuschen dem Hus Wildenstein ze einer ,&#10;&amp; dem Hus zem obern Liecht zer andern siten , gegen dem&#10;Hus zem Sperwer über gelegen ist ,. zinst vormals von&#10;eig . 6sh der Besenz uf Burg , 2 sh . zu s . Lienhart , 2 sh . ziu&#10;s . Peter &amp; 6sh . den Augustinern sonstfrei"/>
+      </event>
+      <event event_id="4.3">
+        <role role="cause" ref="1753" text="von&#10;eig ."/>
+        <role role="interest" ref="1606" text="6sh"/>
+        <role role="beneficiary" ref="1636" text="den Augustinern"/>
+        <role role="property" ref="1692" text="jrem Hus&#10;&amp; hofstatt hinden &amp; vor genant zem nidern liecht ,&#10;an den Spalen , zwuschen dem Hus Wildenstein ze einer ,&#10;&amp; dem Hus zem obern Liecht zer andern siten , gegen dem&#10;Hus zem Sperwer über gelegen ist ,. zinst vormals von&#10;eig . 6sh der Besenz uf Burg , 2 sh . zu s . Lienhart , 2 sh . ziu&#10;s . Peter &amp; 6sh . den Augustinern sonstfrei"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="5.0">
+        <role role="whole" ref="1666" text="jrem"/>
+        <role role="part" ref="1486" text="Hanns Stern der Armbröster"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="6.0">
+        <role role="whole" ref="1666" text="jrem"/>
+        <role role="part" ref="1654" text="seine Frau Margret"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

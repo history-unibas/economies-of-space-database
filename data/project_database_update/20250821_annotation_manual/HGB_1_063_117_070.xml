@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 63/117 S. [70]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergasse 62</tei:title>
+            <tei:idno>HGB 1 63/117</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1473000</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Prediger</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1679">1679</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611292.742802019 1267217.7283162114</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">Heinrich</token>
+    <token token_id="2">Buchin</token>
+    <token token_id="3">zuvor</token>
+    <token token_id="4">Jacob</token>
+    <token token_id="5">Göbelin</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Wullenwäber</token>
+    <token token_id="8">von</token>
+    <token token_id="9">seinem</token>
+    <token token_id="10">hauß</token>
+    <token token_id="11">gelburg</token>
+    <token token_id="12">genant</token>
+    <token token_id="13">an</token>
+    <token token_id="14">der</token>
+    <token token_id="15">Gerbergaßen</token>
+    <token token_id="16">auf</token>
+    <token token_id="17">Galli</token>
+    <token token_id="18">11ß</token>
+    <token token_id="19">.</token>
+    <token token_id="20">Ebens</token>
+    <token token_id="21">1680</token>
+    <token token_id="22">.</token>
+    <token token_id="23">Ebenso</token>
+    <token token_id="24">1682</token>
+    <token token_id="25">.</token>
+    <token token_id="26">Ebenso</token>
+    <token token_id="27">1681</token>
+    <token token_id="28">.</token>
+    <token token_id="29">Ebenso</token>
+    <token token_id="30">1683</token>
+    <token token_id="31">.</token>
+    <token token_id="32">Ebenso</token>
+    <token token_id="33">1684</token>
+    <token token_id="34">.</token>
+    <token token_id="35">Ebenso</token>
+    <token token_id="36">1685</token>
+    <token token_id="37">.</token>
+    <token token_id="38">Ebenso</token>
+    <token token_id="39">1686</token>
+    <token token_id="40">.</token>
+    <token token_id="41">Ebenso</token>
+    <token token_id="42">1687</token>
+    <token token_id="43">.</token>
+    <token token_id="44">Ebenso</token>
+    <token token_id="45">1688</token>
+    <token token_id="46">.</token>
+    <token token_id="47">Ebenso</token>
+    <token token_id="48">1689</token>
+    <token token_id="49">.</token>
+    <token token_id="50">Ebenso</token>
+    <token token_id="51">1691</token>
+    <token token_id="52">.</token>
+    <token token_id="53">Ebenso</token>
+    <token token_id="54">1690</token>
+    <token token_id="55">.</token>
+    <token token_id="56">Ebenso</token>
+    <token token_id="57">1692</token>
+    <token token_id="58">.</token>
+  </text>
+  <spans>
+    <span id="custom_0" start="1" end="58" text="Heinrich Buchin zuvor Jacob Göbelin&#10;der Wullenwäber von seinem hauß gelburg&#10;genant an der Gerbergaßen auf Galli&#10;11ß .&#10;Ebens 1680 .&#10;Ebenso 1682 .&#10;Ebenso 1681 .&#10;Ebenso 1683 .&#10;Ebenso 1684 .&#10;Ebenso 1685 .&#10;Ebenso 1686 .&#10;Ebenso 1687 .&#10;Ebenso 1688 .&#10;Ebenso 1689 .&#10;Ebenso 1691 .&#10;Ebenso 1690 .&#10;Ebenso 1692 ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="993" start="1" end="2" text="Heinrich Buchin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="993_head" start="1" end="2" element="head" class="nam" text="Heinrich Buchin" subclass=""/>
+      </span>
+      <span id="999" start="4" end="7" text="Jacob Göbelin&#10;der Wullenwäber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1005" start="4" end="5" text="Jacob Göbelin" element="head" class="nam" subclass=""/>
+        <span id="1011" start="6" end="7" text="der Wullenwäber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1017" start="7" end="7" text="Wullenwäber" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1023" start="9" end="15" text="seinem hauß gelburg&#10;genant an der Gerbergaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1035" start="9" end="9" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1029" start="9" end="9" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1029_head" start="9" end="9" element="head" class="pro" text="seinem" subclass=""/>
+          </span>
+        </span>
+        <span id="1041" start="10" end="10" text="hauß" element="head" class="type" subclass=""/>
+        <span id="1047" start="11" end="11" text="gelburg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1047_head" start="11" end="11" element="head" class="nam" text="gelburg" subclass=""/>
+        </span>
+        <span id="1065" start="13" end="15" text="an der Gerbergaßen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1053" start="14" end="15" text="der Gerbergaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="1059" start="15" end="15" text="Gerbergaßen" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1071" start="16" end="17" text="auf Galli" element="value" class="date" subclass=""/>
+      <span id="1077" start="18" end="19" text="11ß ." element="value" class="money" subclass=""/>
+      <span id="1083" start="21" end="21" text="1680" element="value" class="date" subclass=""/>
+      <span id="1089" start="24" end="24" text="1682" element="value" class="date" subclass=""/>
+      <span id="1095" start="27" end="27" text="1681" element="value" class="date" subclass=""/>
+      <span id="1101" start="30" end="30" text="1683" element="value" class="date" subclass=""/>
+      <span id="1107" start="33" end="33" text="1684" element="value" class="date" subclass=""/>
+      <span id="1113" start="36" end="36" text="1685" element="value" class="date" subclass=""/>
+      <span id="1119" start="39" end="39" text="1686" element="value" class="date" subclass=""/>
+      <span id="1125" start="42" end="42" text="1687" element="value" class="date" subclass=""/>
+      <span id="1131" start="45" end="45" text="1688" element="value" class="date" subclass=""/>
+      <span id="1137" start="48" end="48" text="1689" element="value" class="date" subclass=""/>
+      <span id="1143" start="51" end="51" text="1691" element="value" class="date" subclass=""/>
+      <span id="1149" start="54" end="54" text="1690" element="value" class="date" subclass=""/>
+      <span id="1155" start="57" end="57" text="1692" element="value" class="date" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1161" from="1029" to="993" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="1" end="58" ref="custom_0" type="event">
+      <event event_id="0.0">
+        <role role="payer" ref="993" text="Heinrich Buchin"/>
+        <role role="previous-payer" ref="999" text="Jacob Göbelin&#10;der Wullenwäber"/>
+        <role role="property" ref="1023" text="seinem hauß gelburg&#10;genant an der Gerbergaßen"/>
+        <role role="due-date" ref="1071" text="auf Galli"/>
+        <role role="interest" ref="1077" text="11ß ."/>
+        <role role="date" ref="1083" text="1680"/>
+        <role role="date" ref="1089" text="1682"/>
+        <role role="date" ref="1095" text="1681"/>
+        <role role="date" ref="1101" text="1683"/>
+        <role role="date" ref="1107" text="1684"/>
+        <role role="date" ref="1113" text="1685"/>
+        <role role="date" ref="1119" text="1686"/>
+        <role role="date" ref="1125" text="1687"/>
+        <role role="date" ref="1131" text="1688"/>
+        <role role="date" ref="1137" text="1689"/>
+        <role role="date" ref="1143" text="1691"/>
+        <role role="date" ref="1149" text="1690"/>
+        <role role="date" ref="1155" text="1692"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="9" end="9" ref="1035" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1023" text="seinem hauß gelburg&#10;genant an der Gerbergaßen"/>
+        <role role="owner" ref="1029" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="15" ref="1065" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1023" text="seinem hauß gelburg&#10;genant an der Gerbergaßen"/>
+        <role role="location-b" ref="1053" text="der Gerbergaßen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

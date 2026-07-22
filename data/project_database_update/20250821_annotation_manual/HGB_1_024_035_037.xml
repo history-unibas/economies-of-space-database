@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 24/35 S. [37]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Barfüsserplatz 11, 12</tei:title>
+            <tei:idno>HGB 1 24/35</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1462882</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Leonhard</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1507">1507</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611301.041257322 1267096.3582307168</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Der</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Schaffner</token>
+    <token token_id="3">des</token>
+    <token token_id="4">Gotzhuss</token>
+    <token token_id="5">zu</token>
+    <token token_id="6">S</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Lienhart</token>
+    <token token_id="9">zicht</token>
+    <token token_id="10">die</token>
+    <token token_id="11">Badstuben</token>
+    <token token_id="12">genant</token>
+    <token token_id="13">Rünberg</token>
+    <token token_id="14">von</token>
+    <token token_id="15">versessner</token>
+    <token token_id="16">Zinsen</token>
+    <token token_id="17">halb</token>
+    <token token_id="18">widerumb</token>
+    <token token_id="19">an</token>
+    <token token_id="20">das</token>
+    <token token_id="21">Gotzhuss</token>
+    <token token_id="22">.</token>
+  </text>
+  <spans>
+    <span id="460" start="0" end="8" text="Der . Schaffner des Gotzhuss zu S . Lienhart" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="466" start="2" end="2" text="Schaffner" element="head" class="occ" subclass="org-repr"/>
+      <span id="472" start="4" end="8" text="Gotzhuss zu S . Lienhart" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="472_head" start="4" end="8" element="head" class="nam" text="Gotzhuss zu S . Lienhart" subclass=""/>
+      </span>
+    </span>
+    <span id="508" start="9" end="9" text="zicht" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="478" start="10" end="13" text="die Badstuben genant Rünberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="484" start="11" end="11" text="Badstuben" element="head" class="type" subclass=""/>
+      <span id="490" start="13" end="13" text="Rünberg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="490_head" start="13" end="13" element="head" class="nam" text="Rünberg" subclass=""/>
+      </span>
+    </span>
+    <span id="521" start="16" end="16" text="Zinsen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="496" start="20" end="21" text="das Gotzhuss" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="502" start="21" end="21" text="Gotzhuss" element="head" class="type" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="514" from="496" to="472" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="0" end="8" ref="460" type="state">
+      <trigger start="2" end="2" text="Schaffner" ref="466"/>
+      <event event_id="0.0">
+        <role role="employee" ref="460" text="Der . Schaffner des Gotzhuss zu S . Lienhart"/>
+        <role role="employer" ref="472" text="Gotzhuss zu S . Lienhart"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="9" ref="" type="event">
+      <trigger start="9" end="9" text="zicht" ref="508"/>
+      <event event_id="1.0">
+        <role role="claimant" ref="460" text="Der . Schaffner des Gotzhuss zu S . Lienhart"/>
+        <role role="property" ref="478" text="die Badstuben genant Rünberg"/>
+        <role role="cause" ref="521" text="Zinsen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="neg" tense="pres" modality="ass" start="16" end="16" ref="" type="event">
+      <trigger start="16" end="16" text="Zinsen" ref="521"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

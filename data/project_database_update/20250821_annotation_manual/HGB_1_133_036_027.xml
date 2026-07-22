@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 133/36 S. [27]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Münsterberg 14, 16</tei:title>
+            <tei:idno>HGB 1 133/36</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1497149</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Domstift</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1531">1531</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611485.7470767237 1267212.9004870686</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">enntpfangen</token>
+    <token token_id="2">von</token>
+    <token token_id="3">dem</token>
+    <token token_id="4">Junckere</token>
+    <token token_id="5">von</token>
+    <token token_id="6">Sultz</token>
+    <token token_id="7">von</token>
+    <token token_id="8">dem</token>
+    <token token_id="9">Hus</token>
+    <token token_id="10">Beiburg</token>
+    <token token_id="11">genandt</token>
+    <token token_id="12">A</token>
+    <token token_id="13">17ß</token>
+    <token token_id="14">6ȡ</token>
+    <token token_id="15">.</token>
+    <token token_id="16">1581</token>
+    <token token_id="17">.</token>
+    <token token_id="18">Fronfasten</token>
+    <token token_id="19">zu</token>
+    <token token_id="20">Winechten</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Ebenso</token>
+    <token token_id="23">.</token>
+    <token token_id="24">der</token>
+    <token token_id="25">Pfuncker</token>
+    <token token_id="26">von</token>
+    <token token_id="27">Lultz</token>
+    <token token_id="28">.</token>
+    <token token_id="29">℔</token>
+    <token token_id="30">17ß</token>
+    <token token_id="31">6ȡ</token>
+    <token token_id="32">.</token>
+  </text>
+  <spans>
+    <span id="655" start="1" end="1" text="enntpfangen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="577" start="3" end="6" text="dem Junckere von&#10;Sultz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="583" start="4" end="4" text="Junckere" element="head" class="title" subclass=""/>
+      <span id="589" start="6" end="6" text="Sultz" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="589_head" start="6" end="6" element="head" class="nam" text="Sultz" subclass=""/>
+      </span>
+    </span>
+    <span id="595" start="8" end="11" text="dem Hus Beiburg genandt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="601" start="9" end="9" text="Hus" element="head" class="type" subclass=""/>
+      <span id="607" start="10" end="10" text="Beiburg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="607_head" start="10" end="10" element="head" class="nam" text="Beiburg" subclass=""/>
+      </span>
+    </span>
+    <span id="613" start="13" end="15" text="17ß 6ȡ ." element="value" class="money" subclass=""/>
+    <span id="661" start="16" end="32" text="1581 . Fronfasten zu Winechten .&#10;Ebenso . der Pfuncker von Lultz . ℔ 17ß 6ȡ ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="change">
+      <span id="619" start="16" end="16" text="1581" element="value" class="date" subclass=""/>
+      <span id="625" start="18" end="20" text="Fronfasten zu Winechten" element="value" class="date" subclass=""/>
+      <span id="631" start="24" end="27" text="der Pfuncker von Lultz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="637" start="25" end="25" text="Pfuncker" element="head" class="title" subclass=""/>
+        <span id="643" start="27" end="27" text="Lultz" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="643_head" start="27" end="27" element="head" class="nam" text="Lultz" subclass=""/>
+        </span>
+      </span>
+      <span id="649" start="28" end="32" text=". ℔ 17ß 6ȡ ." element="value" class="money" subclass=""/>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="16" end="32" ref="661" type="event">
+      <event event_id="0.0">
+        <role role="date" ref="619" text="1581"/>
+        <role role="due-date" ref="625" text="Fronfasten zu Winechten"/>
+        <role role="payer" ref="631" text="der Pfuncker von Lultz"/>
+        <role role="interest" ref="649" text=". ℔ 17ß 6ȡ ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="holds_landed_title" polarity="pos" tense="pres" modality="ass" start="3" end="6" ref="577" type="state">
+      <trigger start="4" end="4" text="Junckere" ref="583"/>
+      <event event_id="1.0">
+        <role role="holder" ref="577" text="dem Junckere von&#10;Sultz"/>
+        <role role="title" ref="589" text="Sultz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="holds_landed_title" polarity="pos" tense="pres" modality="ass" start="24" end="27" ref="631" type="state">
+      <trigger start="25" end="25" text="Pfuncker" ref="637"/>
+      <event event_id="2.0">
+        <role role="holder" ref="631" text="der Pfuncker von Lultz"/>
+        <role role="title" ref="643" text="Lultz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="1" end="15" ref="" type="state">
+      <trigger start="1" end="1" text="enntpfangen" ref="655"/>
+      <event event_id="3.0">
+        <role role="payer" ref="577" text="dem Junckere von&#10;Sultz"/>
+        <role role="property" ref="595" text="dem Hus Beiburg genandt"/>
+        <role role="interest" ref="613" text="17ß 6ȡ ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

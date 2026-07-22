@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/22 S. [39]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 13</tei:title>
+            <tei:idno>HGB 1 194/22</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1513948</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1615">1615</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611129.6022503045 1267402.1445183891</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Bartholome</token>
+    <token token_id="1">Ginat</token>
+    <token token_id="2">,</token>
+    <token token_id="3">der</token>
+    <token token_id="4">Ambtman</token>
+    <token token_id="5">,</token>
+    <token token_id="6">hat</token>
+    <token token_id="7">von</token>
+    <token token_id="8">wegen</token>
+    <token token_id="9">Mariel</token>
+    <token token_id="10">Srinels</token>
+    <token token_id="11">,</token>
+    <token token_id="12">Verkini</token>
+    <token token_id="13">der</token>
+    <token token_id="14">Götlichen</token>
+    <token token_id="15">Worts</token>
+    <token token_id="16">zu</token>
+    <token token_id="17">Weil</token>
+    <token token_id="18">in</token>
+    <token token_id="19">der</token>
+    <token token_id="20">Herschaft</token>
+    <token token_id="21">Röteln</token>
+    <token token_id="22">,</token>
+    <token token_id="23">Stophel</token>
+    <token token_id="24">Wüesten</token>
+    <token token_id="25">sein</token>
+    <token token_id="26">Haus</token>
+    <token token_id="27">am</token>
+    <token token_id="28">Spälenberg</token>
+    <token token_id="29">gelegen</token>
+    <token token_id="30">,</token>
+    <token token_id="31">aufgekhundt</token>
+    <token token_id="32">.</token>
+    <token token_id="33">dasselbige</token>
+    <token token_id="34">bis</token>
+    <token token_id="35">nechrtkem</token>
+    <token token_id="36">¬</token>
+    <token token_id="37">ende</token>
+    <token token_id="38">Fronfasten</token>
+    <token token_id="39">zu</token>
+    <token token_id="40">raunen</token>
+    <token token_id="41">und</token>
+    <token token_id="42">daraus</token>
+    <token token_id="43">zu</token>
+    <token token_id="44">ziehn</token>
+    <token token_id="45">.</token>
+  </text>
+  <spans>
+    <span id="763" start="0" end="4" text="Bartholome Ginat , der Ambtman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="757" start="0" end="1" text="Bartholome Ginat" element="head" class="nam" subclass=""/>
+      <span id="769" start="3" end="4" text="der Ambtman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="739" start="4" end="4" text="Ambtman" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="775" start="9" end="21" text="Mariel Srinels , Verkini&#10;der Götlichen Worts zu Weil in der Herschaft Röteln" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="745" start="9" end="10" text="Mariel Srinels" element="head" class="nam" subclass=""/>
+      <span id="781" start="12" end="21" text="Verkini&#10;der Götlichen Worts zu Weil in der Herschaft Röteln" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="787" start="12" end="15" text="Verkini&#10;der Götlichen Worts" element="head" class="occ" subclass=""/>
+        <span id="793" start="16" end="21" text="zu Weil in der Herschaft Röteln" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="799" start="17" end="21" text="Weil in der Herschaft Röteln" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="817" start="17" end="17" text="Weil" element="head" class="nam" subclass=""/>
+            <span id="805" start="18" end="21" text="in der Herschaft Röteln" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="811" start="19" end="21" text="der Herschaft Röteln" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="823" start="21" end="21" text="Röteln" element="head" class="nam" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="859" start="23" end="24" text="Stophel Wüesten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="859_head" start="23" end="24" element="head" class="nam" text="Stophel Wüesten" subclass=""/>
+    </span>
+    <span id="865" start="25" end="29" text="sein Haus am Spälenberg gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="877" start="25" end="25" text="sein" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="871" start="25" end="25" text="sein" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="871_head" start="25" end="25" element="head" class="pro" text="sein" subclass=""/>
+        </span>
+      </span>
+      <span id="733" start="26" end="26" text="Haus" element="head" class="type" subclass=""/>
+      <span id="829" start="27" end="29" text="am Spälenberg gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="751" start="28" end="28" text="Spälenberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="751_head" start="28" end="28" element="head" class="nam" text="Spälenberg" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="847" start="31" end="31" text="aufgekhundt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="requ" subclass=""/>
+    <span id="853" start="33" end="33" text="dasselbige" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="853_head" start="33" end="33" element="head" class="pro" text="dasselbige" subclass=""/>
+    </span>
+    <span id="841" start="35" end="38" text="nechrtkem ¬&#10;ende Fronfasten" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="883" from="871" to="859" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="890" from="853" to="865" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="16" end="21" ref="793" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="775" text="Mariel Srinels , Verkini&#10;der Götlichen Worts zu Weil in der Herschaft Röteln"/>
+        <role role="location-b" ref="799" text="Weil in der Herschaft Röteln"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="18" end="21" ref="805" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="799" text="Weil in der Herschaft Röteln"/>
+        <role role="location-b" ref="811" text="der Herschaft Röteln"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="25" end="25" ref="877" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="865" text="sein Haus am Spälenberg gelegen"/>
+        <role role="location-b" ref="871" text="sein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="27" end="29" ref="829" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="865" text="sein Haus am Spälenberg gelegen"/>
+        <role role="location-b" ref="751" text="Spälenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="seizure" polarity="pos" tense="pres" modality="requ" start="0" end="31" ref="" type="event">
+      <trigger start="31" end="31" text="aufgekhundt" ref="847"/>
+      <event event_id="4.0">
+        <role role="executor" ref="763" text="Bartholome Ginat , der Ambtman"/>
+        <role role="claimant" ref="775" text="Mariel Srinels , Verkini&#10;der Götlichen Worts zu Weil in der Herschaft Röteln"/>
+        <role role="debitor" ref="859" text="Stophel Wüesten"/>
+        <role role="property" ref="865" text="sein Haus am Spälenberg gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

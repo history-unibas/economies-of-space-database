@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 2/26 S. [28]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Aeschenvorstadt 9</tei:title>
+            <tei:idno>HGB 1 2/26</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1432499</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1622">1622</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611592.3723795014 1266982.8450398108</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Ulrich</token>
+    <token token_id="2">Falckhner</token>
+    <token token_id="3">verkauft</token>
+    <token token_id="4">an</token>
+    <token token_id="5">Hanns</token>
+    <token token_id="6">Jacob</token>
+    <token token_id="7">Beckhen</token>
+    <token token_id="8">,</token>
+    <token token_id="9">Schaffner</token>
+    <token token_id="10">des</token>
+    <token token_id="11">Closters</token>
+    <token token_id="12">Maria</token>
+    <token token_id="13">Magdalenen</token>
+    <token token_id="14">an</token>
+    <token token_id="15">der</token>
+    <token token_id="16">Steinen</token>
+    <token token_id="17">,</token>
+    <token token_id="18">die</token>
+    <token token_id="19">Behausung</token>
+    <token token_id="20">und</token>
+    <token token_id="21">Hofstatt</token>
+    <token token_id="22">zum</token>
+    <token token_id="23">Mülhurad</token>
+    <token token_id="24">genannt</token>
+    <token token_id="25">,</token>
+    <token token_id="26">samt</token>
+    <token token_id="27">dem</token>
+    <token token_id="28">Gärtlin</token>
+    <token token_id="29">darhinder</token>
+    <token token_id="30">,</token>
+    <token token_id="31">in</token>
+    <token token_id="32">Eschennervorstatt</token>
+    <token token_id="33">,</token>
+    <token token_id="34">einseits</token>
+    <token token_id="35">neben</token>
+    <token token_id="36">der</token>
+    <token token_id="37">Gesellschaft</token>
+    <token token_id="38">zum</token>
+    <token token_id="39">hohen</token>
+    <token token_id="40">Rüpf</token>
+    <token token_id="41">,</token>
+    <token token_id="42">anderseiten</token>
+    <token token_id="43">Junckher</token>
+    <token token_id="44">Hanns</token>
+    <token token_id="45">Jacob</token>
+    <token token_id="46">Waldners</token>
+    <token token_id="47">von</token>
+    <token token_id="48">Freundtstein</token>
+    <token token_id="49">sel</token>
+    <token token_id="50">.</token>
+    <token token_id="51">Erben</token>
+    <token token_id="52">gelegen</token>
+    <token token_id="53">,</token>
+    <token token_id="54">hinden</token>
+    <token token_id="55">an</token>
+    <token token_id="56">dieselben</token>
+    <token token_id="57">Waldnerischen</token>
+    <token token_id="58">,</token>
+    <token token_id="59">Erben</token>
+    <token token_id="60">stossend</token>
+    <token token_id="61">,</token>
+    <token token_id="62">um</token>
+    <token token_id="63">900</token>
+    <token token_id="64">fl</token>
+    <token token_id="65">.</token>
+    <token token_id="66">zinst</token>
+    <token token_id="67">Heinrich</token>
+    <token token_id="68">Gisen</token>
+    <token token_id="69">des</token>
+    <token token_id="70">Rahts</token>
+    <token token_id="71">sel</token>
+    <token token_id="72">.</token>
+    <token token_id="73">jüngster</token>
+    <token token_id="74">Tochter</token>
+    <token token_id="75">von</token>
+    <token token_id="76">400</token>
+    <token token_id="77">fl</token>
+    <token token_id="78">.</token>
+    <token token_id="79">Hauptgut</token>
+    <token token_id="80">,</token>
+    <token token_id="81">jährl</token>
+    <token token_id="82">.</token>
+    <token token_id="83">20</token>
+    <token token_id="84">fl</token>
+    <token token_id="85">.</token>
+    <token token_id="86">sodann</token>
+    <token token_id="87">hat</token>
+    <token token_id="88">Jacob</token>
+    <token token_id="89">Werdenberg</token>
+    <token token_id="90">Württ</token>
+    <token token_id="91">zum</token>
+    <token token_id="92">Rappen</token>
+    <token token_id="93">,</token>
+    <token token_id="94">darab</token>
+    <token token_id="95">300</token>
+    <token token_id="96">fl</token>
+    <token token_id="97">.</token>
+    <token token_id="98">zu</token>
+    <token token_id="99">empfahen</token>
+    <token token_id="100">,</token>
+    <token token_id="101">sonsten</token>
+    <token token_id="102">frey</token>
+    <token token_id="103">.</token>
+  </text>
+  <spans>
+    <span id="1509" start="0" end="2" text="Hanns Ulrich Falckhner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1509_head" start="0" end="2" element="head" class="nam" text="Hanns Ulrich Falckhner" subclass=""/>
+    </span>
+    <span id="1773" start="3" end="3" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1515" start="5" end="16" text="Hanns Jacob Beckhen ,&#10;Schaffner des Closters Maria Magdalenen an der Steinen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1521" start="5" end="7" text="Hanns Jacob Beckhen" element="head" class="nam" subclass=""/>
+      <span id="1731" start="9" end="16" text="Schaffner des Closters Maria Magdalenen an der Steinen" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1527" start="9" end="9" text="Schaffner" element="head" class="occ" subclass="org-job"/>
+        <span id="1533" start="10" end="16" text="des Closters Maria Magdalenen an der Steinen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1785" start="11" end="13" text="Closters Maria Magdalenen" element="head" class="type" subclass=""/>
+          <span id="1539" start="14" end="16" text="an der Steinen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1545" start="15" end="16" text="der Steinen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1551" start="16" end="16" text="Steinen" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1557" start="18" end="60" text="die&#10;Behausung und Hofstatt zum Mülhurad genannt , samt dem&#10;Gärtlin darhinder , in Eschennervorstatt , einseits neben der Gesellschaft&#10;zum hohen Rüpf , anderseiten Junckher Hanns Jacob Waldners von&#10;Freundtstein sel . Erben gelegen , hinden an dieselben Waldnerischen ,&#10;Erben stossend" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1563" start="19" end="21" text="Behausung und Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1569" start="22" end="23" text="zum Mülhurad" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1569_head" start="22" end="23" element="head" class="nam" text="zum Mülhurad" subclass=""/>
+      </span>
+      <span id="1575" start="26" end="29" text="samt dem&#10;Gärtlin darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1581" start="27" end="28" text="dem&#10;Gärtlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1587" start="28" end="28" text="Gärtlin" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1593" start="31" end="60" text="in Eschennervorstatt , einseits neben der Gesellschaft&#10;zum hohen Rüpf , anderseiten Junckher Hanns Jacob Waldners von&#10;Freundtstein sel . Erben gelegen , hinden an dieselben Waldnerischen ,&#10;Erben stossend" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1599" start="32" end="32" text="Eschennervorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1599_head" start="32" end="32" element="head" class="nam" text="Eschennervorstatt" subclass=""/>
+        </span>
+        <span id="1605" start="36" end="40" text="der Gesellschaft&#10;zum hohen Rüpf" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1611" start="37" end="40" text="Gesellschaft&#10;zum hohen Rüpf" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1617" start="43" end="51" text="Junckher Hanns Jacob Waldners von&#10;Freundtstein sel . Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1629" start="43" end="50" text="Junckher Hanns Jacob Waldners von&#10;Freundtstein sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1737" start="43" end="43" text="Junckher" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1737_head" start="43" end="43" element="head" class="title" text="Junckher" subclass=""/>
+            </span>
+            <span id="1743" start="44" end="48" text="Hanns Jacob Waldners von&#10;Freundtstein" element="head" class="nam" subclass=""/>
+            <span id="1635" start="49" end="50" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          </span>
+          <span id="1623" start="51" end="51" text="Erben" element="head" class="heir" subclass=""/>
+        </span>
+        <span id="1761" start="56" end="59" text="dieselben Waldnerischen ,&#10;Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1755" start="57" end="57" text="Waldnerischen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1755_head" start="57" end="57" element="head" class="nam" text="Waldnerischen" subclass=""/>
+          </span>
+          <span id="1749" start="59" end="59" text="Erben" element="head" class="heir" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1641" start="63" end="65" text="900 fl ." element="value" class="money" subclass=""/>
+    <span id="1779" start="66" end="66" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1647" start="67" end="74" text="Heinrich Gisen des Rahts sel . jüngster Tochter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1653" start="67" end="72" text="Heinrich Gisen des Rahts sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1659" start="67" end="68" text="Heinrich Gisen" element="head" class="nam" subclass=""/>
+        <span id="1665" start="69" end="70" text="des Rahts" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1671" start="70" end="70" text="Rahts" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+            <span id="1671_head" start="70" end="70" element="head" class="type" text="Rahts" subclass=""/>
+          </span>
+        </span>
+        <span id="1677" start="71" end="72" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="1767" start="74" end="74" text="Tochter" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="1683" start="76" end="78" text="400 fl ." element="value" class="money" subclass=""/>
+    <span id="1689" start="81" end="82" text="jährl ." element="value" class="time" subclass="rec"/>
+    <span id="1695" start="83" end="85" text="20 fl ." element="value" class="money" subclass=""/>
+    <span id="1701" start="88" end="92" text="Jacob Werdenberg Württ zum Rappen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1707" start="88" end="89" text="Jacob Werdenberg" element="head" class="nam" subclass=""/>
+      <span id="1713" start="90" end="92" text="Württ zum Rappen" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1797" start="90" end="90" text="Württ" element="head" class="occ" subclass="org-job"/>
+        <span id="1719" start="91" end="92" text="zum Rappen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1719_head" start="91" end="92" element="head" class="nam" text="zum Rappen" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1803" start="94" end="94" text="darab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1803_head" start="94" end="94" element="head" class="pro" text="darab" subclass=""/>
+    </span>
+    <span id="1725" start="95" end="97" text="300 fl ." element="value" class="money" subclass=""/>
+    <span id="1791" start="99" end="99" text="empfahen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1809" from="1803" to="1557" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="inheritance" polarity="pos" tense="pres" modality="ass" start="43" end="51" ref="1617" type="event">
+      <trigger start="51" end="51" text="Erben" ref="1623"/>
+      <event event_id="0.0">
+        <role role="heir" ref="1617" text="Junckher Hanns Jacob Waldners von&#10;Freundtstein sel . Erben"/>
+        <role role="decedent" ref="1629" text="Junckher Hanns Jacob Waldners von&#10;Freundtstein sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="inheritance" polarity="pos" tense="pres" modality="ass" start="56" end="59" ref="1761" type="event">
+      <trigger start="59" end="59" text="Erben" ref="1749"/>
+      <event event_id="1.0">
+        <role role="heir" ref="1761" text="dieselben Waldnerischen ,&#10;Erben"/>
+        <role role="decedent" ref="1755" text="Waldnerischen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="67" end="74" ref="1647" type="state">
+      <trigger start="74" end="74" text="Tochter" ref="1767"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1647" text="Heinrich Gisen des Rahts sel . jüngster Tochter"/>
+        <role role="family-b" ref="1653" text="Heinrich Gisen des Rahts sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="employment" polarity="pos" tense="pres" modality="ass" start="9" end="16" ref="1731" type="state">
+      <trigger start="9" end="9" text="Schaffner" ref="1527"/>
+      <event event_id="3.0">
+        <role role="employee" ref="1515" text="Hanns Jacob Beckhen ,&#10;Schaffner des Closters Maria Magdalenen an der Steinen"/>
+        <role role="employer" ref="1533" text="des Closters Maria Magdalenen an der Steinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="employment" polarity="pos" tense="pres" modality="ass" start="90" end="92" ref="1713" type="state">
+      <trigger start="90" end="90" text="Württ" ref="1797"/>
+      <event event_id="4.0">
+        <role role="employee" ref="1701" text="Jacob Werdenberg Württ zum Rappen"/>
+        <role role="employer" ref="1719" text="zum Rappen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="14" end="16" ref="1539" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1533" text="des Closters Maria Magdalenen an der Steinen"/>
+        <role role="location-b" ref="1545" text="der Steinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="part_whole" polarity="pos" tense="pres" modality="ass" start="26" end="29" ref="1575" type="state">
+      <event event_id="6.0">
+        <role role="whole" ref="1557" text="die&#10;Behausung und Hofstatt zum Mülhurad genannt , samt dem&#10;Gärtlin darhinder , in Eschennervorstatt , einseits neben der Gesellschaft&#10;zum hohen Rüpf , anderseiten Junckher Hanns Jacob Waldners von&#10;Freundtstein sel . Erben gelegen , hinden an dieselben Waldnerischen ,&#10;Erben stossend"/>
+        <role role="part" ref="1581" text="dem&#10;Gärtlin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="31" end="60" ref="1593" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1557" text="die&#10;Behausung und Hofstatt zum Mülhurad genannt , samt dem&#10;Gärtlin darhinder , in Eschennervorstatt , einseits neben der Gesellschaft&#10;zum hohen Rüpf , anderseiten Junckher Hanns Jacob Waldners von&#10;Freundtstein sel . Erben gelegen , hinden an dieselben Waldnerischen ,&#10;Erben stossend"/>
+        <role role="location-b" ref="1599" text="Eschennervorstatt"/>
+        <role role="location-b" ref="1605" text="der Gesellschaft&#10;zum hohen Rüpf"/>
+        <role role="location-b" ref="1617" text="Junckher Hanns Jacob Waldners von&#10;Freundtstein sel . Erben"/>
+        <role role="location-b" ref="1761" text="dieselben Waldnerischen ,&#10;Erben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="membership" polarity="pos" tense="pres" modality="ass" start="69" end="70" ref="1665" type="state">
+      <event event_id="8.0">
+        <role role="member" ref="1653" text="Heinrich Gisen des Rahts sel ."/>
+        <role role="organization" ref="1671" text="Rahts"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="65" ref="" type="event">
+      <trigger start="3" end="3" text="verkauft" ref="1773"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1509" text="Hanns Ulrich Falckhner"/>
+        <role role="buyer" ref="1515" text="Hanns Jacob Beckhen ,&#10;Schaffner des Closters Maria Magdalenen an der Steinen"/>
+        <role role="property" ref="1557" text="die&#10;Behausung und Hofstatt zum Mülhurad genannt , samt dem&#10;Gärtlin darhinder , in Eschennervorstatt , einseits neben der Gesellschaft&#10;zum hohen Rüpf , anderseiten Junckher Hanns Jacob Waldners von&#10;Freundtstein sel . Erben gelegen , hinden an dieselben Waldnerischen ,&#10;Erben stossend"/>
+        <role role="price" ref="1641" text="900 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="66" end="85" ref="" type="state">
+      <trigger start="66" end="66" text="zinst" ref="1779"/>
+      <event event_id="10.0">
+        <role role="beneficiary" ref="1647" text="Heinrich Gisen des Rahts sel . jüngster Tochter"/>
+        <role role="capital" ref="1683" text="400 fl ."/>
+        <role role="interval" ref="1689" text="jährl ."/>
+        <role role="interest" ref="1695" text="20 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="88" end="99" ref="" type="state">
+      <trigger start="99" end="99" text="empfahen" ref="1791"/>
+      <event event_id="11.0">
+        <role role="beneficiary" ref="1701" text="Jacob Werdenberg Württ zum Rappen"/>
+        <role role="property" ref="1803" text="darab"/>
+        <role role="capital" ref="1725" text="300 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 122/20 S. [49]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Marktplatz Theil von Th. v. 3 neben 2</tei:title>
+            <tei:idno>HGB 1 122/20</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494798</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Kartause</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1487">1487</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611261.357279927 1267487.426100149</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Privaturkunde</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Ludwig</token>
+    <token token_id="3">Seyer</token>
+    <token token_id="4">der</token>
+    <token token_id="5">Gloggengesser</token>
+    <token token_id="6">,</token>
+    <token token_id="7">Bürger</token>
+    <token token_id="8">zu</token>
+    <token token_id="9">Basel</token>
+    <token token_id="10">,</token>
+    <token token_id="11">und</token>
+    <token token_id="12">Else</token>
+    <token token_id="13">von</token>
+    <token token_id="14">Krütznach</token>
+    <token token_id="15">,</token>
+    <token token_id="16">sin</token>
+    <token token_id="17">eliche</token>
+    <token token_id="18">Gemahel</token>
+    <token token_id="19">,</token>
+    <token token_id="20">verkaufen</token>
+    <token token_id="21">den</token>
+    <token token_id="22">Karthäusern</token>
+    <token token_id="23">11</token>
+    <token token_id="24">.</token>
+    <token token_id="25">Guldin</token>
+    <token token_id="26">Gelts</token>
+    <token token_id="27">jerlichs</token>
+    <token token_id="28">Zinses</token>
+    <token token_id="29">rinscher</token>
+    <token token_id="30">uff</token>
+    <token token_id="31">St</token>
+    <token token_id="32">.</token>
+    <token token_id="33">Ambrosiustag</token>
+    <token token_id="34">ab</token>
+    <token token_id="35">den</token>
+    <token token_id="36">nachgeschriebenen</token>
+    <token token_id="37">iren</token>
+    <token token_id="38">hüsern</token>
+    <token token_id="39">zu</token>
+    <token token_id="40">Basel</token>
+    <token token_id="41">am</token>
+    <token token_id="42">Kornmerkt</token>
+    <token token_id="43">gelegen</token>
+    <token token_id="44">,</token>
+    <token token_id="45">nemlich</token>
+    <token token_id="46">sodenn</token>
+    <token token_id="47">ab</token>
+    <token token_id="48">irem</token>
+    <token token_id="49">hus</token>
+    <token token_id="50">,</token>
+    <token token_id="51">hoffstat</token>
+    <token token_id="52">und</token>
+    <token token_id="53">Gesess</token>
+    <token token_id="54">,</token>
+    <token token_id="55">genannt</token>
+    <token token_id="56">Nuwenburg</token>
+    <token token_id="57">ouch</token>
+    <token token_id="58">daselbs</token>
+    <token token_id="59">gelegen</token>
+    <token token_id="60">zwüschen</token>
+    <token token_id="61">den</token>
+    <token token_id="62">hüsern</token>
+    <token token_id="63">zem</token>
+    <token token_id="64">husen</token>
+    <token token_id="65">und</token>
+    <token token_id="66">kleinen</token>
+    <token token_id="67">Nuwenburg</token>
+    <token token_id="68">,</token>
+    <token token_id="69">zinset</token>
+    <token token_id="70">von</token>
+    <token token_id="71">Eigenschaft</token>
+    <token token_id="72">wegen</token>
+    <token token_id="73">dem</token>
+    <token token_id="74">Spital</token>
+    <token token_id="75">zu</token>
+    <token token_id="76">Basel</token>
+    <token token_id="77">jerlich</token>
+    <token token_id="78">30ß</token>
+    <token token_id="79">ȡ</token>
+    <token token_id="80">und</token>
+    <token token_id="81">zu</token>
+    <token token_id="82">St</token>
+    <token token_id="83">.</token>
+    <token token_id="84">Peter</token>
+    <token token_id="85">auch</token>
+    <token token_id="86">30ßd</token>
+    <token token_id="87">,</token>
+    <token token_id="88">darzu</token>
+    <token token_id="89">costat</token>
+    <token token_id="90">dasselb</token>
+    <token token_id="91">hus</token>
+    <token token_id="92">Nuwenburg</token>
+    <token token_id="93">der</token>
+    <token token_id="94">Statt</token>
+    <token token_id="95">Basel</token>
+    <token token_id="96">200</token>
+    <token token_id="97">fl</token>
+    <token token_id="98">.</token>
+    <token token_id="99">von</token>
+    <token token_id="100">dem</token>
+    <token token_id="101">Kouff</token>
+    <token token_id="102">desselben</token>
+    <token token_id="103">husz</token>
+    <token token_id="104">darürende</token>
+    <token token_id="105">,</token>
+    <token token_id="106">ouch</token>
+    <token token_id="107">habend</token>
+    <token token_id="108">die</token>
+    <token token_id="109">Carthuser</token>
+    <token token_id="110">vormals</token>
+    <token token_id="111">uff</token>
+    <token token_id="112">den</token>
+    <token token_id="113">chegemelten</token>
+    <token token_id="114">zweyen</token>
+    <token token_id="115">husern</token>
+    <token token_id="116">jerlich</token>
+    <token token_id="117">15</token>
+    <token token_id="118">fl</token>
+    <token token_id="119">.</token>
+    <token token_id="120">Gelts</token>
+    <token token_id="121">uff</token>
+    <token token_id="122">St</token>
+    <token token_id="123">.</token>
+    <token token_id="124">Martinstag</token>
+    <token token_id="125">koufft</token>
+    <token token_id="126">und</token>
+    <token token_id="127">widerkouffig</token>
+    <token token_id="128">mit</token>
+    <token token_id="129">300</token>
+    <token token_id="130">fl</token>
+    <token token_id="131">.</token>
+    <token token_id="132">umb</token>
+    <token token_id="133">220</token>
+    <token token_id="134">Guldin</token>
+    <token token_id="135">.</token>
+  </text>
+  <spans>
+    <span id="1979" start="2" end="18" text="Ludwig Seyer der Gloggengesser , Bürger zu Basel , und Else von&#10;Krütznach , sin eliche Gemahel" element="list" class="per" subclass="">
+      <span id="1985" start="2" end="9" text="Ludwig Seyer der Gloggengesser , Bürger zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1991" start="2" end="3" text="Ludwig Seyer" element="head" class="nam" subclass=""/>
+        <span id="1997" start="4" end="5" text="der Gloggengesser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2003" start="5" end="5" text="Gloggengesser" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="2009" start="7" end="9" text="Bürger zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2015" start="7" end="7" text="Bürger" element="head" class="org-aff" subclass=""/>
+          <span id="2021" start="9" end="9" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2021_head" start="9" end="9" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2027" start="12" end="18" text="Else von&#10;Krütznach , sin eliche Gemahel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2033" start="12" end="14" text="Else von&#10;Krütznach" element="head" class="nam" subclass=""/>
+        <span id="2039" start="16" end="18" text="sin eliche Gemahel" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2051" start="16" end="16" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2051_head" start="16" end="16" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="2045" start="17" end="18" text="eliche Gemahel" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2382" start="20" end="20" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2064" start="21" end="22" text="den Karthäusern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="2070" start="22" end="22" text="Karthäusern" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2301" start="23" end="26" text="11 .&#10;Guldin Gelts" element="value" class="money" subclass=""/>
+    <span id="2076" start="27" end="27" text="jerlichs" element="value" class="time" subclass="rec"/>
+    <span id="2307" start="30" end="33" text="uff St . Ambrosiustag" element="value" class="date" subclass=""/>
+    <span id="2388" start="35" end="43" text="den nachgeschriebenen iren hüsern zu Basel am Kornmerkt&#10;gelegen" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2313" start="37" end="37" text="iren" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2088" start="37" end="37" text="iren" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2088_head" start="37" end="37" element="head" class="pro" text="iren" subclass=""/>
+        </span>
+      </span>
+      <span id="2082" start="38" end="38" text="hüsern" element="head" class="type" subclass=""/>
+      <span id="2101" start="39" end="43" text="zu Basel am Kornmerkt&#10;gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2107" start="40" end="40" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2107_head" start="40" end="40" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="2394" start="41" end="42" text="am Kornmerkt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="2113" start="42" end="42" text="Kornmerkt" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2119" start="48" end="86" text="irem hus , hoffstat und Gesess , genannt Nuwenburg&#10;ouch daselbs gelegen zwüschen den hüsern zem husen und kleinen&#10;Nuwenburg , zinset von Eigenschaft wegen dem Spital zu Basel&#10;jerlich 30ß ȡ und zu St . Peter auch 30ßd" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2119_desc_owner" start="48" end="48" text="irem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2131" start="48" end="48" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2131_head" start="48" end="48" element="head" class="pro" text="irem" subclass=""/>
+        </span>
+      </span>
+      <span id="2125" start="49" end="53" text="hus , hoffstat und Gesess" element="head" class="type" subclass=""/>
+      <span id="2144" start="56" end="56" text="Nuwenburg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2144_head" start="56" end="56" element="head" class="nam" text="Nuwenburg" subclass=""/>
+      </span>
+      <span id="2150" start="59" end="67" text="gelegen zwüschen den hüsern zem husen und kleinen&#10;Nuwenburg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2156" start="61" end="67" text="den hüsern zem husen und kleinen&#10;Nuwenburg" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2162" start="62" end="62" text="hüsern" element="head" class="nam" subclass=""/>
+          <span id="2289" start="63" end="67" text="zem husen und kleinen&#10;Nuwenburg" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2295" start="63" end="67" text="zem husen und kleinen&#10;Nuwenburg" element="list" class="fac" subclass="">
+              <span id="2168" start="63" end="64" text="zem husen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2168_head" start="63" end="64" element="head" class="nam" text="zem husen" subclass=""/>
+              </span>
+              <span id="2174" start="66" end="67" text="kleinen&#10;Nuwenburg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2174_head" start="66" end="67" element="head" class="nam" text="kleinen Nuwenburg" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2180" start="69" end="86" text="zinset von Eigenschaft wegen dem Spital zu Basel&#10;jerlich 30ß ȡ und zu St . Peter auch 30ßd" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2413" start="69" end="69" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2419" start="70" end="72" text="von Eigenschaft wegen" element="other" class="other" subclass=""/>
+        <span id="2186" start="73" end="76" text="dem Spital zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2192" start="74" end="74" text="Spital" element="head" class="type" subclass=""/>
+          <span id="2198" start="75" end="76" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2204" start="76" end="76" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2204_head" start="76" end="76" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2210" start="77" end="77" text="jerlich" element="value" class="time" subclass="rec"/>
+        <span id="2216" start="78" end="79" text="30ß ȡ" element="value" class="money" subclass=""/>
+        <span id="2222" start="82" end="84" text="St . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2222_head" start="82" end="84" element="head" class="nam" text="St . Peter" subclass=""/>
+        </span>
+        <span id="2228" start="86" end="86" text="30ßd" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="2425" start="89" end="89" text="costat" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2325" start="90" end="92" text="dasselb hus&#10;Nuwenburg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2234" start="91" end="92" text="hus&#10;Nuwenburg" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2319" start="93" end="95" text="der Statt Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2400" start="94" end="95" text="Statt Basel" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2240" start="96" end="98" text="200 fl ." element="value" class="money" subclass=""/>
+    <span id="2431" start="101" end="101" text="Kouff" element="trigger" class="sale" tense="past" polarity="pos" modality="ass" subclass=""/>
+    <span id="2356" start="102" end="103" text="desselben&#10;husz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2362" start="103" end="103" text="husz" element="head" class="type" subclass=""/>
+    </span>
+    <span id="2246" start="108" end="109" text="die Carthuser" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="2252" start="109" end="109" text="Carthuser" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="2258" start="112" end="115" text="den&#10;chegemelten zweyen husern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2338" start="115" end="115" text="husern" element="head" class="type" subclass=""/>
+    </span>
+    <span id="2264" start="116" end="116" text="jerlich" element="value" class="time" subclass="rec"/>
+    <span id="2344" start="117" end="120" text="15 fl . Gelts" element="value" class="money" subclass=""/>
+    <span id="2350" start="121" end="124" text="uff St . Martinstag" element="value" class="date" subclass=""/>
+    <span id="2437" start="125" end="125" text="koufft" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2443" start="127" end="127" text="widerkouffig" element="trigger" class="redemption" tense="pres" polarity="pos" modality="hypo" subclass=""/>
+    <span id="2270" start="129" end="131" text="300 fl ." element="value" class="money" subclass=""/>
+    <span id="2276" start="133" end="134" text="220 Guldin" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2094" from="2088" to="1979" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2137" from="2131" to="1979" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2057" from="2051" to="1985" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2375" from="2246" to="2064" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2406" from="2119" to="2388" class="comp" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2331" from="2325" to="2119" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2282" from="2258" to="2156" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2368" from="2356" to="2325" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="7" end="9" ref="2009" type="state">
+      <trigger start="7" end="7" text="Bürger" ref="2015"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1985" text="Ludwig Seyer der Gloggengesser , Bürger zu Basel"/>
+        <role role="geopolitical-entity" ref="2021" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="16" end="18" ref="2039" type="state">
+      <trigger start="17" end="18" text="eliche Gemahel" ref="2045"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="2027" text="Else von&#10;Krütznach , sin eliche Gemahel"/>
+        <role role="family-b" ref="2051" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="37" end="37" ref="2313" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="2388" text="den nachgeschriebenen iren hüsern zu Basel am Kornmerkt&#10;gelegen"/>
+        <role role="owner" ref="2088" text="iren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="39" end="43" ref="2101" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="2388" text="den nachgeschriebenen iren hüsern zu Basel am Kornmerkt&#10;gelegen"/>
+        <role role="location-b" ref="2107" text="Basel"/>
+        <role role="location-b" ref="2394" text="am Kornmerkt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="48" end="48" ref="2119_desc_owner" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="2119" text="irem hus , hoffstat und Gesess , genannt Nuwenburg&#10;ouch daselbs gelegen zwüschen den hüsern zem husen und kleinen&#10;Nuwenburg , zinset von Eigenschaft wegen dem Spital zu Basel&#10;jerlich 30ß ȡ und zu St . Peter auch 30ßd"/>
+        <role role="owner" ref="2131" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="59" end="67" ref="2150" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2119" text="irem hus , hoffstat und Gesess , genannt Nuwenburg&#10;ouch daselbs gelegen zwüschen den hüsern zem husen und kleinen&#10;Nuwenburg , zinset von Eigenschaft wegen dem Spital zu Basel&#10;jerlich 30ß ȡ und zu St . Peter auch 30ßd"/>
+        <role role="location-b" ref="2156" text="den hüsern zem husen und kleinen&#10;Nuwenburg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="part_whole" polarity="pos" tense="pres" modality="ass" start="63" end="67" ref="2289" type="state">
+      <event event_id="6.0">
+        <role role="whole" ref="2156" text="den hüsern zem husen und kleinen&#10;Nuwenburg"/>
+        <role role="part" ref="2168" text="zem husen"/>
+        <role role="part" ref="2174" text="kleinen&#10;Nuwenburg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="69" end="86" ref="2180" type="state">
+      <trigger start="69" end="69" text="zinset" ref="2413"/>
+      <event event_id="7.0">
+        <role role="property" ref="2119" text="irem hus , hoffstat und Gesess , genannt Nuwenburg&#10;ouch daselbs gelegen zwüschen den hüsern zem husen und kleinen&#10;Nuwenburg , zinset von Eigenschaft wegen dem Spital zu Basel&#10;jerlich 30ß ȡ und zu St . Peter auch 30ßd"/>
+        <role role="cause" ref="2419" text="von Eigenschaft wegen"/>
+        <role role="beneficiary" ref="2186" text="dem Spital zu Basel"/>
+        <role role="interest" ref="2216" text="30ß ȡ"/>
+      </event>
+      <event event_id="7.1">
+        <role role="property" ref="2119" text="irem hus , hoffstat und Gesess , genannt Nuwenburg&#10;ouch daselbs gelegen zwüschen den hüsern zem husen und kleinen&#10;Nuwenburg , zinset von Eigenschaft wegen dem Spital zu Basel&#10;jerlich 30ß ȡ und zu St . Peter auch 30ßd"/>
+        <role role="beneficiary" ref="2222" text="St . Peter"/>
+        <role role="interest" ref="2228" text="30ßd"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="75" end="76" ref="2198" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="2186" text="dem Spital zu Basel"/>
+        <role role="location-b" ref="2204" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="2" end="20" ref="" type="event">
+      <trigger start="20" end="20" text="verkaufen" ref="2382"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1985" text="Ludwig Seyer der Gloggengesser , Bürger zu Basel"/>
+        <role role="seller" ref="2027" text="Else von&#10;Krütznach , sin eliche Gemahel"/>
+        <role role="buyer" ref="2064" text="den Karthäusern"/>
+        <role role="interest" ref="2301" text="11 .&#10;Guldin Gelts"/>
+        <role role="interval" ref="2076" text="jerlichs"/>
+        <role role="due-date" ref="2307" text="uff St . Ambrosiustag"/>
+        <role role="collateral" ref="2388" text="den nachgeschriebenen iren hüsern zu Basel am Kornmerkt&#10;gelegen"/>
+        <role role="price" ref="2276" text="220 Guldin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="89" end="89" ref="" type="state">
+      <trigger start="89" end="89" text="costat" ref="2425"/>
+      <event event_id="10.0">
+        <role role="property" ref="2325" text="dasselb hus&#10;Nuwenburg"/>
+        <role role="beneficiary" ref="2319" text="der Statt Basel"/>
+        <role role="capital" ref="2240" text="200 fl ."/>
+        <role role="cause" ref="2431" text="Kouff"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="property-purchase" polarity="pos" tense="past" modality="ass" start="101" end="103" ref="" type="event">
+      <trigger start="101" end="101" text="Kouff" ref="2431"/>
+      <event event_id="11.0">
+        <role role="property" ref="2356" text="desselben&#10;husz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="108" end="125" ref="" type="state">
+      <trigger start="125" end="125" text="koufft" ref="2437"/>
+      <event event_id="12.0">
+        <role role="beneficiary" ref="2246" text="die Carthuser"/>
+        <role role="property" ref="2258" text="den&#10;chegemelten zweyen husern"/>
+        <role role="interval" ref="2264" text="jerlich"/>
+        <role role="interest" ref="2344" text="15 fl . Gelts"/>
+        <role role="due-date" ref="2350" text="uff St . Martinstag"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="redemption" polarity="pos" tense="pres" modality="hypo" start="125" end="131" ref="" type="event">
+      <trigger start="127" end="127" text="widerkouffig" ref="2443"/>
+      <event event_id="13.0">
+        <role role="due" ref="2437" text="koufft"/>
+        <role role="capital" ref="2270" text="300 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="14.0">
+        <role role="whole" ref="2119" text="irem hus , hoffstat und Gesess , genannt Nuwenburg&#10;ouch daselbs gelegen zwüschen den hüsern zem husen und kleinen&#10;Nuwenburg , zinset von Eigenschaft wegen dem Spital zu Basel&#10;jerlich 30ß ȡ und zu St . Peter auch 30ßd"/>
+        <role role="part" ref="2388" text="den nachgeschriebenen iren hüsern zu Basel am Kornmerkt&#10;gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

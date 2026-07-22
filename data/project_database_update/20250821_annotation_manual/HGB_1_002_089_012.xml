@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 2/89 S. [12]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Aeschenvorstadt 6</tei:title>
+            <tei:idno>HGB 1 2/89</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1432890</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1438">1438</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611584.8573164227 1266967.6685220636</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Gregorius</token>
+    <token token_id="1">Zorn</token>
+    <token token_id="2">ein</token>
+    <token token_id="3">schriber</token>
+    <token token_id="4">Bgr</token>
+    <token token_id="5">ze</token>
+    <token token_id="6">Basel</token>
+    <token token_id="7">,</token>
+    <token token_id="8">u</token>
+    <token token_id="9">.</token>
+    <token token_id="10">Lena</token>
+    <token token_id="11">sin</token>
+    <token token_id="12">ewirtin</token>
+    <token token_id="13">,</token>
+    <token token_id="14">verkaufen</token>
+    <token token_id="15">an</token>
+    <token token_id="16">Henezman</token>
+    <token token_id="17">von</token>
+    <token token_id="18">Buchsi</token>
+    <token token_id="19">Rebman</token>
+    <token token_id="20">,</token>
+    <token token_id="21">Gredlin</token>
+    <token token_id="22">von</token>
+    <token token_id="23">Buchss</token>
+    <token token_id="24">sin</token>
+    <token token_id="25">swester</token>
+    <token token_id="26">dem</token>
+    <token token_id="27">halben</token>
+    <token token_id="28">teil</token>
+    <token token_id="29">des</token>
+    <token token_id="30">Huses</token>
+    <token token_id="31">genant</token>
+    <token token_id="32">sant</token>
+    <token token_id="33">Panthelion</token>
+    <token token_id="34">,</token>
+    <token token_id="35">gelegen</token>
+    <token token_id="36">in</token>
+    <token token_id="37">der</token>
+    <token token_id="38">vorstatt</token>
+    <token token_id="39">ze</token>
+    <token token_id="40">Eschemerthor</token>
+    <token token_id="41">,</token>
+    <token token_id="42">nebent</token>
+    <token token_id="43">Henni</token>
+    <token token_id="44">Zellner</token>
+    <token token_id="45">ze</token>
+    <token token_id="46">einer</token>
+    <token token_id="47">siten</token>
+    <token token_id="48">,</token>
+    <token token_id="49">u</token>
+    <token token_id="50">.</token>
+    <token token_id="51">Angnes</token>
+    <token token_id="52">Zinlerin</token>
+    <token token_id="53">u</token>
+    <token token_id="54">jrs</token>
+    <token token_id="55">suns</token>
+    <token token_id="56">hus</token>
+    <token token_id="57">zer</token>
+    <token token_id="58">andern</token>
+    <token token_id="59">siten</token>
+    <token token_id="60">,</token>
+    <token token_id="61">zinst</token>
+    <token token_id="62">der</token>
+    <token token_id="63">brudersch</token>
+    <token token_id="64">.</token>
+    <token token_id="65">uf</token>
+    <token token_id="66">Burg</token>
+    <token token_id="67">1sh</token>
+    <token token_id="68">.</token>
+    <token token_id="69">u</token>
+    <token token_id="70">denne</token>
+    <token token_id="71">den</token>
+    <token token_id="72">Barfüssen</token>
+    <token token_id="73">2sh</token>
+    <token token_id="74">.</token>
+    <token token_id="75">widerkmit</token>
+    <token token_id="76">2fl</token>
+    <token token_id="77">.</token>
+    <token token_id="78">sum</token>
+    <token token_id="79">25</token>
+    <token token_id="80">fl</token>
+    <token token_id="81">.</token>
+    <token token_id="82">u</token>
+    <token token_id="83">.</token>
+    <token token_id="84">4sh</token>
+    <token token_id="85">.</token>
+  </text>
+  <spans>
+    <span id="1362" start="0" end="12" text="Gregorius Zorn ein schriber Bgr ze Basel , u . Lena&#10;sin ewirtin" element="list" class="per" subclass="">
+      <span id="1283" start="0" end="6" text="Gregorius Zorn ein schriber Bgr ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1289" start="0" end="1" text="Gregorius Zorn" element="head" class="nam" subclass=""/>
+        <span id="1295" start="2" end="3" text="ein schriber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1301" start="3" end="3" text="schriber" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1307" start="4" end="6" text="Bgr ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1313" start="4" end="4" text="Bgr" element="head" class="org-aff" subclass=""/>
+          <span id="1319" start="6" end="6" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1319_head" start="6" end="6" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1325" start="10" end="12" text="Lena&#10;sin ewirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1331" start="10" end="10" text="Lena" element="head" class="nam" subclass=""/>
+        <span id="1337" start="11" end="12" text="sin ewirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1349" start="11" end="11" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1349_head" start="11" end="11" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1343" start="12" end="12" text="ewirtin" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1598" start="14" end="14" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1423" start="16" end="25" text="Henezman von Buchsi&#10;Rebman , Gredlin von Buchss sin swester" element="list" class="per" subclass="">
+      <span id="1368" start="16" end="19" text="Henezman von Buchsi&#10;Rebman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1374" start="16" end="18" text="Henezman von Buchsi" element="head" class="nam" subclass=""/>
+        <span id="1380" start="19" end="19" text="Rebman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1380_head" start="19" end="19" element="head" class="occ" text="Rebman" subclass=""/>
+        </span>
+      </span>
+      <span id="1386" start="21" end="25" text="Gredlin von Buchss sin swester" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1392" start="21" end="23" text="Gredlin von Buchss" element="head" class="nam" subclass=""/>
+        <span id="1398" start="24" end="25" text="sin swester" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1410" start="24" end="24" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1410_head" start="24" end="24" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1404" start="25" end="25" text="swester" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1429" start="26" end="77" text="dem&#10;halben teil des Huses genant sant Panthelion , gelegen&#10;in der vorstatt ze Eschemerthor , nebent Henni Zellner&#10;ze einer siten , u . Angnes Zinlerin u jrs suns hus&#10;zer andern siten ,&#10;zinst der brudersch . uf Burg 1sh .&#10;u denne den Barfüssen 2sh . widerkmit 2fl ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1604" start="30" end="30" text="Huses" element="head" class="type" subclass=""/>
+      <span id="1435" start="32" end="33" text="sant Panthelion" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1435_head" start="32" end="33" element="head" class="nam" text="sant Panthelion" subclass=""/>
+      </span>
+      <span id="1441" start="35" end="59" text="gelegen&#10;in der vorstatt ze Eschemerthor , nebent Henni Zellner&#10;ze einer siten , u . Angnes Zinlerin u jrs suns hus&#10;zer andern siten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1447" start="37" end="40" text="der vorstatt ze Eschemerthor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1453" start="38" end="38" text="vorstatt" element="head" class="type" subclass=""/>
+          <span id="custom_loc" start="39" end="40" text="ze Eschemerthor" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1459" start="40" end="40" text="Eschemerthor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1459_head" start="40" end="40" element="head" class="nam" text="Eschemerthor" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1465" start="43" end="44" text="Henni Zellner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1465_head" start="43" end="44" element="head" class="nam" text="Henni Zellner" subclass=""/>
+        </span>
+        <span id="1471" start="51" end="56" text="Angnes Zinlerin u jrs suns hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1483" start="51" end="55" text="Angnes Zinlerin u jrs suns" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1489" start="51" end="55" text="Angnes Zinlerin u jrs suns" element="list" class="per" subclass="">
+              <span id="1495" start="51" end="52" text="Angnes Zinlerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1495_head" start="51" end="52" element="head" class="nam" text="Angnes Zinlerin" subclass=""/>
+              </span>
+              <span id="1501" start="54" end="55" text="jrs suns" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1513" start="54" end="54" text="jrs" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1513_head" start="54" end="54" element="head" class="pro" text="jrs" subclass=""/>
+                </span>
+                <span id="1507" start="55" end="55" text="suns" element="head" class="fam" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1477" start="56" end="56" text="hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1592" start="61" end="77" text="zinst der brudersch . uf Burg 1sh .&#10;u denne den Barfüssen 2sh . widerkmit 2fl ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1616" start="61" end="61" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1526" start="62" end="66" text="der brudersch . uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1532" start="63" end="64" text="brudersch ." element="head" class="type" subclass=""/>
+          <span id="1538" start="65" end="66" text="uf Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1544" start="66" end="66" text="Burg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="1544_head" start="66" end="66" element="head" class="type" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1550" start="67" end="68" text="1sh ." element="value" class="money" subclass=""/>
+        <span id="1556" start="71" end="72" text="den Barfüssen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1562" start="72" end="72" text="Barfüssen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1568" start="73" end="74" text="2sh ." element="value" class="money" subclass=""/>
+        <span id="1622" start="75" end="75" text="widerkmit" element="other" class="other" subclass=""/>
+        <span id="1574" start="76" end="77" text="2fl ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1580" start="79" end="81" text="25 fl ." element="value" class="money" subclass=""/>
+    <span id="1586" start="84" end="85" text="4sh ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1355" from="1349" to="1283" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1416" from="1410" to="1368" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1519" from="1513" to="1495" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="54" end="55" ref="1501" type="state">
+      <trigger start="55" end="55" text="suns" ref="1507"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1501" text="jrs suns"/>
+        <role role="family-b" ref="1513" text="jrs"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="4" end="6" ref="1307" type="state">
+      <trigger start="4" end="4" text="Bgr" ref="1313"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1283" text="Gregorius Zorn ein schriber Bgr ze Basel"/>
+        <role role="geopolitical-entity" ref="1319" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="11" end="12" ref="1337" type="state">
+      <trigger start="12" end="12" text="ewirtin" ref="1343"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1325" text="Lena&#10;sin ewirtin"/>
+        <role role="family-b" ref="1349" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="24" end="25" ref="1398" type="state">
+      <trigger start="25" end="25" text="swester" ref="1404"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1386" text="Gredlin von Buchss sin swester"/>
+        <role role="family-b" ref="1410" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="59" ref="1441" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1429" text="dem&#10;halben teil des Huses genant sant Panthelion , gelegen&#10;in der vorstatt ze Eschemerthor , nebent Henni Zellner&#10;ze einer siten , u . Angnes Zinlerin u jrs suns hus&#10;zer andern siten ,&#10;zinst der brudersch . uf Burg 1sh .&#10;u denne den Barfüssen 2sh . widerkmit 2fl ."/>
+        <role role="location-b" ref="1447" text="der vorstatt ze Eschemerthor"/>
+        <role role="location-b" ref="1465" text="Henni Zellner"/>
+        <role role="location-b" ref="1471" text="Angnes Zinlerin u jrs suns hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="39" end="40" ref="custom_loc" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1447" text="der vorstatt ze Eschemerthor"/>
+        <role role="location-b" ref="1459" text="Eschemerthor"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="51" end="55" ref="1483" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1471" text="Angnes Zinlerin u jrs suns hus"/>
+        <role role="owner" ref="1495" text="Angnes Zinlerin"/>
+        <role role="owner" ref="1501" text="jrs suns"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="61" end="77" ref="1592" type="state">
+      <trigger start="61" end="61" text="zinst" ref="1616"/>
+      <event event_id="7.0">
+        <role role="property" ref="1429" text="dem&#10;halben teil des Huses genant sant Panthelion , gelegen&#10;in der vorstatt ze Eschemerthor , nebent Henni Zellner&#10;ze einer siten , u . Angnes Zinlerin u jrs suns hus&#10;zer andern siten ,&#10;zinst der brudersch . uf Burg 1sh .&#10;u denne den Barfüssen 2sh . widerkmit 2fl ."/>
+        <role role="beneficiary" ref="1526" text="der brudersch . uf Burg"/>
+        <role role="interest" ref="1550" text="1sh ."/>
+      </event>
+      <event event_id="7.1">
+        <role role="property" ref="1429" text="dem&#10;halben teil des Huses genant sant Panthelion , gelegen&#10;in der vorstatt ze Eschemerthor , nebent Henni Zellner&#10;ze einer siten , u . Angnes Zinlerin u jrs suns hus&#10;zer andern siten ,&#10;zinst der brudersch . uf Burg 1sh .&#10;u denne den Barfüssen 2sh . widerkmit 2fl ."/>
+        <role role="beneficiary" ref="1556" text="den Barfüssen"/>
+        <role role="interest" ref="1568" text="2sh ."/>
+        <role role="interest-redeemable" ref="1622" text="widerkmit"/>
+        <role role="capital" ref="1574" text="2fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="65" end="66" ref="1538" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="1526" text="der brudersch . uf Burg"/>
+        <role role="location-b" ref="1544" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="85" ref="" type="event">
+      <trigger start="14" end="14" text="verkaufen" ref="1598"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1283" text="Gregorius Zorn ein schriber Bgr ze Basel"/>
+        <role role="seller" ref="1325" text="Lena&#10;sin ewirtin"/>
+        <role role="buyer" ref="1368" text="Henezman von Buchsi&#10;Rebman"/>
+        <role role="buyer" ref="1386" text="Gredlin von Buchss sin swester"/>
+        <role role="property" ref="1429" text="dem&#10;halben teil des Huses genant sant Panthelion , gelegen&#10;in der vorstatt ze Eschemerthor , nebent Henni Zellner&#10;ze einer siten , u . Angnes Zinlerin u jrs suns hus&#10;zer andern siten ,&#10;zinst der brudersch . uf Burg 1sh .&#10;u denne den Barfüssen 2sh . widerkmit 2fl ."/>
+        <role role="price" ref="1580" text="25 fl ."/>
+        <role role="price" ref="1586" text="4sh ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

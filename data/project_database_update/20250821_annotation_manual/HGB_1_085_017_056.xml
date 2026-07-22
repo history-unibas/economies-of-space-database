@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 85/17 S. [56]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hutgasse 13</tei:title>
+            <tei:idno>HGB 1 85/17</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1481881</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Elendenherberge</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1680">1680</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611201.1958272685 1267437.3666291423</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Gellt</token>
+    <token token_id="1">Zinse</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Item</token>
+    <token token_id="4">Hanns</token>
+    <token token_id="5">Jacob</token>
+    <token token_id="6">Ubelin</token>
+    <token token_id="7">Nestler</token>
+    <token token_id="8">,</token>
+    <token token_id="9">vor</token>
+    <token token_id="10">ihme</token>
+    <token token_id="11">Johannes</token>
+    <token token_id="12">Lundel</token>
+    <token token_id="13">der</token>
+    <token token_id="14">Rothgerwer</token>
+    <token token_id="15">zuvor</token>
+    <token token_id="16">Heinrich</token>
+    <token token_id="17">Rüedin</token>
+    <token token_id="18">zuvor</token>
+    <token token_id="19">Johann</token>
+    <token token_id="20">Freiswerkh</token>
+    <token token_id="21">,</token>
+    <token token_id="22">zinßt</token>
+    <token token_id="23">von</token>
+    <token token_id="24">40</token>
+    <token token_id="25">R</token>
+    <token token_id="26">.</token>
+    <token token_id="27">rheinisch</token>
+    <token token_id="28">.</token>
+    <token token_id="29">ab</token>
+    <token token_id="30">seinem</token>
+    <token token_id="31">haus</token>
+    <token token_id="32">an</token>
+    <token token_id="33">der</token>
+    <token token_id="34">Weinharts</token>
+    <token token_id="35">jetz</token>
+    <token token_id="36">Hutgaßen</token>
+    <token token_id="37">auf</token>
+    <token token_id="38">Johannis</token>
+    <token token_id="39">bapto</token>
+    <token token_id="40">1681</token>
+    <token token_id="41">.</token>
+    <token token_id="42">2</token>
+    <token token_id="43">℔</token>
+    <token token_id="44">10ß</token>
+    <token token_id="45">.</token>
+    <token token_id="46">1681</token>
+    <token token_id="47">-</token>
+    <token token_id="48">1703</token>
+    <token token_id="49">fehlen</token>
+    <token token_id="50">.</token>
+  </text>
+  <spans>
+    <span id="779" start="4" end="7" text="Hanns Jacob Ubelin Nestler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="785" start="4" end="6" text="Hanns Jacob Ubelin" element="head" class="nam" subclass=""/>
+      <span id="791" start="7" end="7" text="Nestler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="791_head" start="7" end="7" element="head" class="occ" text="Nestler" subclass=""/>
+      </span>
+    </span>
+    <span id="797" start="10" end="10" text="ihme" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="797_head" start="10" end="10" element="head" class="pro" text="ihme" subclass=""/>
+    </span>
+    <span id="810" start="11" end="14" text="Johannes Lundel der Rothgerwer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="816" start="11" end="12" text="Johannes Lundel" element="head" class="nam" subclass=""/>
+      <span id="822" start="13" end="14" text="der Rothgerwer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="828" start="14" end="14" text="Rothgerwer" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="834" start="16" end="17" text="Heinrich&#10;Rüedin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="834_head" start="16" end="17" element="head" class="nam" text="Heinrich Rüedin" subclass=""/>
+    </span>
+    <span id="840" start="19" end="20" text="Johann Freiswerkh" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="840_head" start="19" end="20" element="head" class="nam" text="Johann Freiswerkh" subclass=""/>
+    </span>
+    <span id="925" start="22" end="22" text="zinßt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="846" start="24" end="28" text="40&#10;R . rheinisch ." element="value" class="money" subclass=""/>
+    <span id="852" start="30" end="36" text="seinem haus an der Weinharts&#10;jetz Hutgaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="858" start="30" end="30" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="864" start="30" end="30" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="864_head" start="30" end="30" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="877" start="31" end="31" text="haus" element="head" class="type" subclass=""/>
+      <span id="883" start="32" end="36" text="an der Weinharts&#10;jetz Hutgaßen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="889" start="33" end="34" text="der Weinharts" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="895" start="34" end="34" text="Weinharts" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="901" start="36" end="36" text="Hutgaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="901_head" start="36" end="36" element="head" class="nam" text="Hutgaßen" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="907" start="37" end="40" text="auf Johannis bapto 1681" element="value" class="date" subclass=""/>
+    <span id="913" start="42" end="45" text="2 ℔ 10ß ." element="value" class="money" subclass=""/>
+    <span id="919" start="46" end="48" text="1681 - 1703" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="803" from="797" to="779" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="870" from="864" to="779" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="30" end="30" ref="858" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="852" text="seinem haus an der Weinharts&#10;jetz Hutgaßen"/>
+        <role role="owner" ref="864" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="32" end="36" ref="883" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="852" text="seinem haus an der Weinharts&#10;jetz Hutgaßen"/>
+        <role role="location-b" ref="889" text="der Weinharts"/>
+        <role role="location-b" ref="901" text="Hutgaßen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="22" end="48" ref="" type="event">
+      <trigger start="22" end="22" text="zinßt" ref="925"/>
+      <event event_id="2.0">
+        <role role="payer" ref="779" text="Hanns Jacob Ubelin Nestler"/>
+        <role role="previous-payer" ref="810" text="Johannes Lundel der Rothgerwer"/>
+        <role role="capital" ref="846" text="40&#10;R . rheinisch ."/>
+        <role role="property" ref="852" text="seinem haus an der Weinharts&#10;jetz Hutgaßen"/>
+        <role role="date" ref="907" text="auf Johannis bapto 1681"/>
+        <role role="interest" ref="913" text="2 ℔ 10ß ."/>
+        <role role="date-missing" ref="919" text="1681 - 1703"/>
+      </event>
+      <event event_id="2.1">
+        <role role="payer" ref="779" text="Hanns Jacob Ubelin Nestler"/>
+        <role role="previous-payer" ref="834" text="Heinrich&#10;Rüedin"/>
+        <role role="capital" ref="846" text="40&#10;R . rheinisch ."/>
+        <role role="property" ref="852" text="seinem haus an der Weinharts&#10;jetz Hutgaßen"/>
+        <role role="date" ref="907" text="auf Johannis bapto 1681"/>
+        <role role="interest" ref="913" text="2 ℔ 10ß ."/>
+        <role role="date-missing" ref="919" text="1681 - 1703"/>
+      </event>
+      <event event_id="2.2">
+        <role role="payer" ref="779" text="Hanns Jacob Ubelin Nestler"/>
+        <role role="previous-payer" ref="840" text="Johann Freiswerkh"/>
+        <role role="capital" ref="846" text="40&#10;R . rheinisch ."/>
+        <role role="property" ref="852" text="seinem haus an der Weinharts&#10;jetz Hutgaßen"/>
+        <role role="date" ref="907" text="auf Johannis bapto 1681"/>
+        <role role="interest" ref="913" text="2 ℔ 10ß ."/>
+        <role role="date-missing" ref="919" text="1681 - 1703"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

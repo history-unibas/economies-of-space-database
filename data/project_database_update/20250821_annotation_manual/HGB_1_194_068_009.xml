@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/68 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 6</tei:title>
+            <tei:idno>HGB 1 194/68</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1515771</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Basler Urkundenbuch</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1285">1285</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611133.598243878 1267424.6881697555</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">lt</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Wir</token>
+    <token token_id="3">Angnes</token>
+    <token token_id="4">eptissin</token>
+    <token token_id="5">in</token>
+    <token token_id="6">der</token>
+    <token token_id="7">convent</token>
+    <token token_id="8">des</token>
+    <token token_id="9">Posters</token>
+    <token token_id="10">ze</token>
+    <token token_id="11">Olsperg</token>
+    <token token_id="12">be</token>
+    <token token_id="13">¬</token>
+    <token token_id="14">kennen</token>
+    <token token_id="15">,</token>
+    <token token_id="16">dz</token>
+    <token token_id="17">wir</token>
+    <token token_id="18">durch</token>
+    <token token_id="19">unsern</token>
+    <token token_id="20">schaffner</token>
+    <token token_id="21">bruder</token>
+    <token token_id="22">Cunrat</token>
+    <token token_id="23">von</token>
+    <token token_id="24">Müsnach</token>
+    <token token_id="25">ein</token>
+    <token token_id="26">hofstatt</token>
+    <token token_id="27">gelegen</token>
+    <token token_id="28">an</token>
+    <token token_id="29">den</token>
+    <token token_id="30">Spalen</token>
+    <token token_id="31">gegen</token>
+    <token token_id="32">dem</token>
+    <token token_id="33">hus</token>
+    <token token_id="34">zem</token>
+    <token token_id="35">Adler</token>
+    <token token_id="36">verlichen</token>
+    <token token_id="37">hand</token>
+    <token token_id="38">Rudolf</token>
+    <token token_id="39">Struben</token>
+    <token token_id="40">an</token>
+    <token token_id="41">Mechilden</token>
+    <token token_id="42">siner</token>
+    <token token_id="43">Fröwen</token>
+    <token token_id="44">umb</token>
+    <token token_id="45">ist</token>
+    <token token_id="46">zins</token>
+    <token token_id="47">glich</token>
+    <token token_id="48">geteilt</token>
+    <token token_id="49">zu</token>
+    <token token_id="50">den</token>
+    <token token_id="51">Dier</token>
+    <token token_id="52">fronfasten</token>
+    <token token_id="53">in</token>
+    <token token_id="54">1</token>
+    <token token_id="55">lb</token>
+    <token token_id="56">.</token>
+    <token token_id="57">Stetter</token>
+    <token token_id="58">an</token>
+    <token token_id="59">in</token>
+    <token token_id="60">ring</token>
+    <token token_id="61">ze</token>
+    <token token_id="62">wisung</token>
+    <token token_id="63">un</token>
+    <token token_id="64">1</token>
+    <token token_id="65">lb</token>
+    <token token_id="66">.</token>
+    <token token_id="67">ze</token>
+    <token token_id="68">erschatz</token>
+    <token token_id="69">.</token>
+    <token token_id="70">Dis</token>
+    <token token_id="71">beschach</token>
+    <token token_id="72">,</token>
+    <token token_id="73">do</token>
+    <token token_id="74">man</token>
+    <token token_id="75">zalt</token>
+    <token token_id="76">der</token>
+    <token token_id="77">jar</token>
+    <token token_id="78">,</token>
+    <token token_id="79">under</token>
+    <token token_id="80">unsers</token>
+    <token token_id="81">Posters</token>
+    <token token_id="82">ingesigel</token>
+    <token token_id="83">.</token>
+    <token token_id="84">1285</token>
+    <token token_id="85">Zintrag</token>
+    <token token_id="86">des</token>
+    <token token_id="87">25</token>
+    <token token_id="88">.</token>
+    <token token_id="89">I</token>
+    <token token_id="90">.</token>
+    <token token_id="91">in</token>
+    <token token_id="92">St</token>
+    <token token_id="93">.</token>
+    <token token_id="94">d</token>
+    <token token_id="95">.</token>
+    <token token_id="96">fol</token>
+    <token token_id="97">.</token>
+    <token token_id="98">413</token>
+    <token token_id="99">.</token>
+  </text>
+  <spans>
+    <span id="1403" start="2" end="11" text="Wir Angnes eptissin in der convent des Posters ze Olsperg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1409" start="3" end="3" text="Angnes" element="head"/>
+      <span id="1415" start="4" end="11" text="eptissin in der convent des Posters ze Olsperg" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1421" start="4" end="4" text="eptissin" element="head" class="occ" subclass="org-job"/>
+        <span id="1427" start="6" end="11" text="der convent des Posters ze Olsperg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1433" start="7" end="9" text="convent des Posters" element="head" class="type" subclass=""/>
+          <span id="1439" start="10" end="11" text="ze Olsperg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1445" start="11" end="11" text="Olsperg" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1445_head" start="11" end="11" element="head" class="nam" text="Olsperg" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1660" start="12" end="14" text="be ¬&#10;kennen" element="trigger" class="declaration" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1451" start="17" end="17" text="wir" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1451_head" start="17" end="17" element="head" class="pro" text="wir" subclass=""/>
+    </span>
+    <span id="1464" start="19" end="24" text="unsern schaffner bruder Cunrat von Müsnach" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1476" start="19" end="20" text="unsern schaffner" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1488" start="19" end="19" text="unsern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1488_head" start="19" end="19" element="head" class="pro" text="unsern" subclass=""/>
+        </span>
+        <span id="1482" start="20" end="20" text="schaffner" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1494" start="21" end="21" text="bruder" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1494_head" start="21" end="21" element="head" class="title" text="bruder" subclass=""/>
+      </span>
+      <span id="1470" start="22" end="24" text="Cunrat von Müsnach" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1500" start="25" end="35" text="ein&#10;hofstatt gelegen an den Spalen gegen dem hus zem Adler" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1506" start="26" end="26" text="hofstatt" element="head" class="type" subclass=""/>
+      <span id="1512" start="27" end="35" text="gelegen an den Spalen gegen dem hus zem Adler" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1518" start="29" end="30" text="den Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1524" start="30" end="30" text="Spalen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1530" start="32" end="35" text="dem hus zem Adler" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1536" start="33" end="35" text="hus zem Adler" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1666" start="36" end="36" text="verlichen" element="trigger" class="hereditary" tense="pres" polarity="pos" modality="ass" subclass="lease"/>
+    <span id="1654" start="38" end="43" text="Rudolf Struben an Mechilden siner Fröwen" element="list" class="per" subclass="">
+      <span id="1542" start="38" end="39" text="Rudolf Struben" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1542_head" start="38" end="39" element="head" class="nam" text="Rudolf Struben" subclass=""/>
+      </span>
+      <span id="1548" start="41" end="43" text="Mechilden siner Fröwen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1554" start="41" end="41" text="Mechilden" element="head" class="nam" subclass=""/>
+        <span id="1560" start="42" end="43" text="siner Fröwen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1572" start="42" end="42" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1572_head" start="42" end="42" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="1566" start="43" end="43" text="Fröwen" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1672" start="45" end="68" text="ist zins glich geteilt zu den&#10;Dier fronfasten in 1 lb . Stetter an in ring ze wisung un 1 lb . ze erschatz" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1678" start="45" end="45" text="ist" element="value" class="money" subclass=""/>
+      <span id="1684" start="46" end="46" text="zins" element="trigger" class="type" subclass=""/>
+      <span id="1690" start="47" end="48" text="glich geteilt" element="other" class="other" subclass=""/>
+      <span id="1585" start="49" end="52" text="zu den&#10;Dier fronfasten" element="value" class="date" subclass=""/>
+      <span id="1591" start="54" end="57" text="1 lb . Stetter" element="value" class="money" subclass=""/>
+      <span id="1597" start="59" end="60" text="in ring" element="value" class="money" subclass=""/>
+      <span id="1696" start="61" end="62" text="ze wisung" element="other" class="other" subclass=""/>
+      <span id="1603" start="64" end="66" text="1 lb ." element="value" class="money" subclass=""/>
+      <span id="1702" start="67" end="68" text="ze erschatz" element="other" class="other" subclass=""/>
+    </span>
+    <span id="1609" start="80" end="81" text="unsers Posters" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1621_desc_org_aff" start="80" end="80" text="unsers" element="attr" class="has-member" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1621" start="80" end="80" text="unsers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1621_head" start="80" end="80" element="head" class="pro" text="unsers" subclass=""/>
+        </span>
+      </span>
+      <span id="1615" start="81" end="81" text="Posters" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1641" start="84" end="84" text="1285" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1457" from="1451" to="1403" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1627" from="1621" to="1403" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1634" from="1609" to="1427" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1647" from="1488" to="1451" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1578" from="1572" to="1542" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="45" end="68" ref="1672" type="state">
+      <trigger start="46" end="46" text="zins" ref="1684"/>
+      <event event_id="0.0">
+        <role role="interest" ref="1678" text="ist"/>
+        <role role="detail_distribution" ref="1690" text="glich geteilt"/>
+        <role role="due-date" ref="1585" text="zu den&#10;Dier fronfasten"/>
+      </event>
+      <event event_id="0.1">
+        <role role="interest" ref="1591" text="1 lb . Stetter"/>
+        <role role="interest" ref="1597" text="in ring"/>
+        <role role="cause" ref="1696" text="ze wisung"/>
+      </event>
+      <event event_id="0.2">
+        <role role="interest" ref="1603" text="1 lb ."/>
+        <role role="cause" ref="1702" text="ze erschatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="4" end="11" ref="1415" type="state">
+      <trigger start="4" end="4" text="eptissin" ref="1421"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1403" text="Wir Angnes eptissin in der convent des Posters ze Olsperg"/>
+        <role role="employer" ref="1427" text="der convent des Posters ze Olsperg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="employment" polarity="pos" tense="pres" modality="ass" start="19" end="20" ref="1476" type="state">
+      <trigger start="20" end="20" text="schaffner" ref="1482"/>
+      <event event_id="2.0">
+        <role role="employee" ref="1464" text="unsern schaffner bruder Cunrat von Müsnach"/>
+        <role role="employer" ref="1488" text="unsern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="42" end="43" ref="1560" type="state">
+      <trigger start="43" end="43" text="Fröwen" ref="1566"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1548" text="Mechilden siner Fröwen"/>
+        <role role="family-b" ref="1572" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="10" end="11" ref="1439" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1427" text="der convent des Posters ze Olsperg"/>
+        <role role="location-b" ref="1445" text="Olsperg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="27" end="35" ref="1512" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1500" text="ein&#10;hofstatt gelegen an den Spalen gegen dem hus zem Adler"/>
+        <role role="location-b" ref="1518" text="den Spalen"/>
+        <role role="location-b" ref="1530" text="dem hus zem Adler"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="membership" polarity="pos" tense="pres" modality="ass" start="80" end="80" ref="1621_desc_org_aff" type="state">
+      <event event_id="6.0">
+        <role role="organization" ref="1609" text="unsers Posters"/>
+        <role role="member" ref="1621" text="unsers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="declaration" polarity="pos" tense="pres" modality="ass" start="12" end="36" ref="" type="event">
+      <trigger start="12" end="14" text="be ¬&#10;kennen" ref="1660"/>
+      <event event_id="7.0">
+        <role role="proclaimer" ref="1403" text="Wir Angnes eptissin in der convent des Posters ze Olsperg"/>
+        <role role="content" ref="1666" text="verlichen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="heritable-lease-grant" polarity="pos" tense="pres" modality="ass" start="17" end="84" ref="" type="event">
+      <trigger start="36" end="36" text="verlichen" ref="1666"/>
+      <event event_id="8.0">
+        <role role="grantor" ref="1451" text="wir"/>
+        <role role="detail_grantor-repr" ref="1464" text="unsern schaffner bruder Cunrat von Müsnach"/>
+        <role role="property" ref="1500" text="ein&#10;hofstatt gelegen an den Spalen gegen dem hus zem Adler"/>
+        <role role="lessee" ref="1542" text="Rudolf Struben"/>
+        <role role="lessee" ref="1548" text="Mechilden siner Fröwen"/>
+        <role role="interest" ref="1672" text="ist zins glich geteilt zu den&#10;Dier fronfasten in 1 lb . Stetter an in ring ze wisung un 1 lb . ze erschatz"/>
+        <role role="date" ref="1641" text="1285"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

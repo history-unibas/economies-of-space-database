@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 51/19 S. [65]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Elisabethenstrasse 5</tei:title>
+            <tei:idno>HGB 1 51/19</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1466416</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1630">1630</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611540.372324105 1266962.5669335965</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Jahr</token>
+    <token token_id="1">Zinse</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Item</token>
+    <token token_id="4">Conradt</token>
+    <token token_id="5">Bennckhers</token>
+    <token token_id="6">seeligen</token>
+    <token token_id="7">wittib</token>
+    <token token_id="8">vor</token>
+    <token token_id="9">ihr</token>
+    <token token_id="10">Erhardt</token>
+    <token token_id="11">Küen</token>
+    <token token_id="12">zinst</token>
+    <token token_id="13">järlichen</token>
+    <token token_id="14">von</token>
+    <token token_id="15">seinem</token>
+    <token token_id="16">hauß</token>
+    <token token_id="17">bey</token>
+    <token token_id="18">s</token>
+    <token token_id="19">.</token>
+    <token token_id="20">Elsbethen</token>
+    <token token_id="21">gelegen</token>
+    <token token_id="22">5ß</token>
+    <token token_id="23">.</token>
+    <token token_id="24">Ebenso</token>
+    <token token_id="25">1631</token>
+    <token token_id="26">.</token>
+    <token token_id="27">Ebenso</token>
+    <token token_id="28">1633</token>
+    <token token_id="29">.</token>
+    <token token_id="30">Ebenso</token>
+    <token token_id="31">1632</token>
+    <token token_id="32">.</token>
+    <token token_id="33">Ebenso</token>
+    <token token_id="34">1634</token>
+    <token token_id="35">.</token>
+    <token token_id="36">Ebenso</token>
+    <token token_id="37">1636</token>
+    <token token_id="38">.</token>
+    <token token_id="39">Ebenso</token>
+    <token token_id="40">1635</token>
+    <token token_id="41">.</token>
+    <token token_id="42">1638</token>
+    <token token_id="43">-</token>
+    <token token_id="44">1651</token>
+    <token token_id="45">fehlen</token>
+    <token token_id="46">.</token>
+    <token token_id="47">Ebenso</token>
+    <token token_id="48">1637</token>
+    <token token_id="49">.</token>
+  </text>
+  <spans>
+    <span id="791" start="4" end="7" text="Conradt Bennckhers seeligen wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="919" start="4" end="6" text="Conradt Bennckhers seeligen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="925" start="4" end="5" text="Conradt Bennckhers" element="head" class="nam" subclass=""/>
+        <span id="931" start="6" end="6" text="seeligen" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="913" start="7" end="7" text="wittib" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="797" start="9" end="9" text="ihr" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="797_head" start="9" end="9" element="head" class="pro" text="ihr" subclass=""/>
+    </span>
+    <span id="816" start="10" end="11" text="Erhardt Küen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="816_head" start="10" end="11" element="head" class="nam" text="Erhardt Küen" subclass=""/>
+    </span>
+    <span id="943" start="12" end="12" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="810" start="13" end="13" text="järlichen" element="value" class="time" subclass="rec"/>
+    <span id="822" start="15" end="21" text="seinem&#10;hauß bey s . Elsbethen gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="937" start="15" end="15" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="834" start="15" end="15" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="834_head" start="15" end="15" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="828" start="16" end="16" text="hauß" element="head" class="type" subclass=""/>
+      <span id="847" start="17" end="21" text="bey s . Elsbethen gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="853" start="18" end="20" text="s . Elsbethen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="853_head" start="18" end="20" element="head" class="nam" text="s . Elsbethen" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="859" start="22" end="23" text="5ß ." element="value" class="money" subclass=""/>
+    <span id="865" start="25" end="25" text="1631" element="value" class="date" subclass=""/>
+    <span id="871" start="28" end="28" text="1633" element="value" class="date" subclass=""/>
+    <span id="877" start="31" end="31" text="1632" element="value" class="date" subclass=""/>
+    <span id="883" start="34" end="34" text="1634" element="value" class="date" subclass=""/>
+    <span id="889" start="37" end="37" text="1636" element="value" class="date" subclass=""/>
+    <span id="895" start="40" end="40" text="1635" element="value" class="date" subclass=""/>
+    <span id="901" start="42" end="44" text="1638 - 1651" element="value" class="date" subclass=""/>
+    <span id="907" start="48" end="48" text="1637" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="803" from="797" to="791" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="840" from="834" to="816" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="4" end="7" ref="791" type="state">
+      <trigger start="7" end="7" text="wittib" ref="913"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="791" text="Conradt Bennckhers seeligen wittib"/>
+        <role role="family-b" ref="919" text="Conradt Bennckhers seeligen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="15" end="15" ref="937" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="822" text="seinem&#10;hauß bey s . Elsbethen gelegen"/>
+        <role role="owner" ref="834" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="17" end="21" ref="847" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="822" text="seinem&#10;hauß bey s . Elsbethen gelegen"/>
+        <role role="location-b" ref="853" text="s . Elsbethen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="12" end="48" ref="" type="event">
+      <trigger start="12" end="12" text="zinst" ref="943"/>
+      <event event_id="3.0">
+        <role role="payer" ref="791" text="Conradt Bennckhers seeligen wittib"/>
+        <role role="previous-payer" ref="816" text="Erhardt Küen"/>
+        <role role="interval" ref="810" text="järlichen"/>
+        <role role="property" ref="822" text="seinem&#10;hauß bey s . Elsbethen gelegen"/>
+        <role role="capital" ref="859" text="5ß ."/>
+        <role role="date" ref="865" text="1631"/>
+        <role role="date" ref="871" text="1633"/>
+        <role role="date" ref="877" text="1632"/>
+        <role role="date" ref="883" text="1634"/>
+        <role role="date" ref="889" text="1636"/>
+        <role role="date" ref="895" text="1635"/>
+        <role role="date-missing" ref="901" text="1638 - 1651"/>
+        <role role="date" ref="907" text="1637"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

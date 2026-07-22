@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 117/20 S. [8]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Lindenberg 17, 19</tei:title>
+            <tei:idno>HGB 1 117/20</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494486</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1483">1483</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611763.259941234 1267606.7790057654</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">git</token>
+    <token token_id="2">zu</token>
+    <token token_id="3">koffend</token>
+    <token token_id="4">meister</token>
+    <token token_id="5">Hans</token>
+    <token token_id="6">Eschker</token>
+    <token token_id="7">der</token>
+    <token token_id="8">brotbeck</token>
+    <token token_id="9">oder</token>
+    <token token_id="10">hußfürer</token>
+    <token token_id="11">burger</token>
+    <token token_id="12">,</token>
+    <token token_id="13">Hansen</token>
+    <token token_id="14">Schernen</token>
+    <token token_id="15">burger</token>
+    <token token_id="16">zu</token>
+    <token token_id="17">Telsperg</token>
+    <token token_id="18">,</token>
+    <token token_id="19">2</token>
+    <token token_id="20">guld</token>
+    <token token_id="21">geltz</token>
+    <token token_id="22">jerliches</token>
+    <token token_id="23">zinses</token>
+    <token token_id="24">uff</token>
+    <token token_id="25">die</token>
+    <token token_id="26">alte</token>
+    <token token_id="27">vasnacht</token>
+    <token token_id="28">von</token>
+    <token token_id="29">(</token>
+    <token token_id="30">sic</token>
+    <token token_id="31">)</token>
+    <token token_id="32">und</token>
+    <token token_id="33">ab</token>
+    <token token_id="34">sinem</token>
+    <token token_id="35">huß</token>
+    <token token_id="36">und</token>
+    <token token_id="37">hoffstatt</token>
+    <token token_id="38">genant</token>
+    <token token_id="39">Wilen</token>
+    <token token_id="40">zu</token>
+    <token token_id="41">mindern</token>
+    <token token_id="42">Basel</token>
+    <token token_id="43">in</token>
+    <token token_id="44">der</token>
+    <token token_id="45">obern</token>
+    <token token_id="46">statt</token>
+    <token token_id="47">gegen</token>
+    <token token_id="48">den</token>
+    <token token_id="49">mitten</token>
+    <token token_id="50">ziegelhoff</token>
+    <token token_id="51">über</token>
+    <token token_id="52">gelegen</token>
+    <token token_id="53">zwüschent</token>
+    <token token_id="54">Conrat</token>
+    <token token_id="55">Sufels</token>
+    <token token_id="56">und</token>
+    <token token_id="57">der</token>
+    <token token_id="58">Bitschmen</token>
+    <token token_id="59">huser</token>
+    <token token_id="60">zinset</token>
+    <token token_id="61">6ß</token>
+    <token token_id="62">cenß</token>
+    <token token_id="63">dem</token>
+    <token token_id="64">gotzhuß</token>
+    <token token_id="65">zu</token>
+    <token token_id="66">sant</token>
+    <token token_id="67">Alban</token>
+    <token token_id="68">als</token>
+    <token token_id="69">etc</token>
+    <token token_id="70">,</token>
+    <token token_id="71">pro</token>
+    <token token_id="72">sund</token>
+    <token token_id="73">40</token>
+    <token token_id="74">guld</token>
+    <token token_id="75">.</token>
+  </text>
+  <spans>
+    <span id="1516" start="3" end="3" text="koffend" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1293" start="4" end="11" text="meister Hans Eschker&#10;der brotbeck oder hußfürer burger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1299" start="4" end="4" text="meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1299_head" start="4" end="4" element="head" class="title" text="meister" subclass=""/>
+      </span>
+      <span id="1305" start="5" end="6" text="Hans Eschker" element="head" class="nam" subclass=""/>
+      <span id="1311" start="7" end="8" text="der brotbeck" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1317" start="8" end="8" text="brotbeck" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="1323" start="10" end="10" text="hußfürer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1323_head" start="10" end="10" element="head" class="occ" text="hußfürer" subclass=""/>
+      </span>
+      <span id="1329" start="11" end="11" text="burger" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1329_head" start="11" end="11" element="head" class="org-aff" text="burger" subclass=""/>
+      </span>
+    </span>
+    <span id="1335" start="13" end="17" text="Hansen&#10;Schernen burger zu Telsperg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1341" start="13" end="14" text="Hansen&#10;Schernen" element="head" class="nam" subclass=""/>
+      <span id="1347" start="15" end="17" text="burger zu Telsperg" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1353" start="15" end="15" text="burger" element="head" class="org-aff" subclass=""/>
+        <span id="1359" start="17" end="17" text="Telsperg" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1359_head" start="17" end="17" element="head" class="nam" text="Telsperg" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1365" start="19" end="20" text="2 guld" element="value" class="money" subclass=""/>
+    <span id="1510" start="22" end="22" text="jerliches" element="value" class="time" subclass="rec"/>
+    <span id="1371" start="24" end="27" text="uff die alte vasnacht" element="value" class="date" subclass=""/>
+    <span id="1377" start="34" end="69" text="sinem huß und hoffstatt genant&#10;Wilen zu mindern Basel in der obern statt&#10;gegen den mitten ziegelhoff über gelegen&#10;zwüschent Conrat Sufels und der Bitschmen&#10;huser zinset 6ß cenß dem gotzhuß zu sant&#10;Alban als etc" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1389" start="34" end="34" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1395" start="34" end="34" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1395_head" start="34" end="34" element="head" class="pro" text="sinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1383" start="35" end="37" text="huß und hoffstatt" element="head" class="type" subclass=""/>
+      <span id="1408" start="39" end="39" text="Wilen" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1408_head" start="39" end="39" element="head" class="nam" text="Wilen" subclass=""/>
+      </span>
+      <span id="1414" start="40" end="59" text="zu mindern Basel in der obern statt&#10;gegen den mitten ziegelhoff über gelegen&#10;zwüschent Conrat Sufels und der Bitschmen&#10;huser" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1420" start="41" end="42" text="mindern Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1420_head" start="41" end="42" element="head" class="nam" text="mindern Basel" subclass=""/>
+        </span>
+        <span id="1426" start="44" end="46" text="der obern statt" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1432" start="45" end="46" text="obern statt" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1438" start="48" end="50" text="den mitten ziegelhoff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1444" start="49" end="50" text="mitten ziegelhoff" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1450" start="54" end="59" text="Conrat Sufels und der Bitschmen&#10;huser" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1456" start="54" end="58" text="Conrat Sufels und der Bitschmen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1462" start="54" end="55" text="Conrat Sufels" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1462_head" start="54" end="55" element="head" class="nam" text="Conrat Sufels" subclass=""/>
+            </span>
+            <span id="1468" start="57" end="58" text="der Bitschmen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1474" start="58" end="58" text="Bitschmen" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+          <span id="1528" start="59" end="59" text="huser" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1534" start="60" end="69" text="zinset 6ß cenß dem gotzhuß zu sant&#10;Alban als etc" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1522" start="60" end="60" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1480" start="61" end="61" text="6ß" element="value" class="money" subclass=""/>
+        <span id="1486" start="63" end="67" text="dem gotzhuß zu sant&#10;Alban" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1492" start="64" end="67" text="gotzhuß zu sant&#10;Alban" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1498" start="73" end="75" text="40 guld ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1401" from="1395" to="1293" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1522_role" from="1522" to="1377" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="15" end="17" ref="1347" type="state">
+      <trigger start="15" end="15" text="burger" ref="1353"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1335" text="Hansen&#10;Schernen burger zu Telsperg"/>
+        <role role="geopolitical-entity" ref="1359" text="Telsperg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="34" end="34" ref="1389" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1377" text="sinem huß und hoffstatt genant&#10;Wilen zu mindern Basel in der obern statt&#10;gegen den mitten ziegelhoff über gelegen&#10;zwüschent Conrat Sufels und der Bitschmen&#10;huser zinset 6ß cenß dem gotzhuß zu sant&#10;Alban als etc"/>
+        <role role="owner" ref="1395" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="40" end="59" ref="1414" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1377" text="sinem huß und hoffstatt genant&#10;Wilen zu mindern Basel in der obern statt&#10;gegen den mitten ziegelhoff über gelegen&#10;zwüschent Conrat Sufels und der Bitschmen&#10;huser zinset 6ß cenß dem gotzhuß zu sant&#10;Alban als etc"/>
+        <role role="location-b" ref="1420" text="mindern Basel"/>
+        <role role="location-b" ref="1426" text="der obern statt"/>
+        <role role="location-b" ref="1438" text="den mitten ziegelhoff"/>
+        <role role="location-b" ref="1450" text="Conrat Sufels und der Bitschmen&#10;huser"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="54" end="58" ref="1456" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1450" text="Conrat Sufels und der Bitschmen&#10;huser"/>
+        <role role="owner" ref="1462" text="Conrat Sufels"/>
+        <role role="owner" ref="1468" text="der Bitschmen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="75" ref="" type="event">
+      <trigger start="3" end="3" text="koffend" ref="1516"/>
+      <event event_id="4.0">
+        <role role="seller" ref="1293" text="meister Hans Eschker&#10;der brotbeck oder hußfürer burger"/>
+        <role role="buyer" ref="1335" text="Hansen&#10;Schernen burger zu Telsperg"/>
+        <role role="interest" ref="1365" text="2 guld"/>
+        <role role="interval" ref="1510" text="jerliches"/>
+        <role role="due-date" ref="1371" text="uff die alte vasnacht"/>
+        <role role="collateral" ref="1377" text="sinem huß und hoffstatt genant&#10;Wilen zu mindern Basel in der obern statt&#10;gegen den mitten ziegelhoff über gelegen&#10;zwüschent Conrat Sufels und der Bitschmen&#10;huser zinset 6ß cenß dem gotzhuß zu sant&#10;Alban als etc"/>
+        <role role="price" ref="1498" text="40 guld ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="34" end="69" ref="1534" type="state">
+      <trigger start="60" end="60" text="zinset" ref="1522"/>
+      <event event_id="5.0">
+        <role role="interest" ref="1480" text="6ß"/>
+        <role role="beneficiary" ref="1486" text="dem gotzhuß zu sant&#10;Alban"/>
+        <role role="property" ref="1377" text="sinem huß und hoffstatt genant&#10;Wilen zu mindern Basel in der obern statt&#10;gegen den mitten ziegelhoff über gelegen&#10;zwüschent Conrat Sufels und der Bitschmen&#10;huser zinset 6ß cenß dem gotzhuß zu sant&#10;Alban als etc"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 133/27 S. [10]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Münsterberg 4</tei:title>
+            <tei:idno>HGB 1 133/27</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1497140</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1461">1461</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611481.114762606 1267180.284221819</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">hat</token>
+    <token token_id="2">ze</token>
+    <token token_id="3">kaufen</token>
+    <token token_id="4">geben</token>
+    <token token_id="5">Mr</token>
+    <token token_id="6">.</token>
+    <token token_id="7">Jacob</token>
+    <token token_id="8">von</token>
+    <token token_id="9">Wicker</token>
+    <token token_id="10">der</token>
+    <token token_id="11">bartscherer</token>
+    <token token_id="12">,</token>
+    <token token_id="13">Walthern</token>
+    <token token_id="14">von</token>
+    <token token_id="15">Leidich</token>
+    <token token_id="16">ouch</token>
+    <token token_id="17">dem</token>
+    <token token_id="18">barfscherer</token>
+    <token token_id="19">,</token>
+    <token token_id="20">u</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Greden</token>
+    <token token_id="23">Ennelin</token>
+    <token token_id="24">siner</token>
+    <token token_id="25">Ewirtin</token>
+    <token token_id="26">,</token>
+    <token token_id="27">das</token>
+    <token token_id="28">Hus</token>
+    <token token_id="29">&amp;</token>
+    <token token_id="30">Hofstatt</token>
+    <token token_id="31">genant</token>
+    <token token_id="32">zem</token>
+    <token token_id="33">Vogelgesange</token>
+    <token token_id="34">als</token>
+    <token token_id="35">das</token>
+    <token token_id="36">oben</token>
+    <token token_id="37">an</token>
+    <token token_id="38">den</token>
+    <token token_id="39">Swellen</token>
+    <token token_id="40">gelegen</token>
+    <token token_id="41">ist</token>
+    <token token_id="42">,</token>
+    <token token_id="43">einsit</token>
+    <token token_id="44">neben</token>
+    <token token_id="45">dem</token>
+    <token token_id="46">Hus</token>
+    <token token_id="47">zem</token>
+    <token token_id="48">Horn</token>
+    <token token_id="49">u</token>
+    <token token_id="50">andersite</token>
+    <token token_id="51">neben</token>
+    <token token_id="52">dem</token>
+    <token token_id="53">Huse</token>
+    <token token_id="54">zem</token>
+    <token token_id="55">nidern</token>
+    <token token_id="56">vogelgesang</token>
+    <token token_id="57">,</token>
+    <token token_id="58">zinset</token>
+    <token token_id="59">jährl</token>
+    <token token_id="60">.</token>
+    <token token_id="61">voneig</token>
+    <token token_id="62">.</token>
+    <token token_id="63">dem</token>
+    <token token_id="64">Spital</token>
+    <token token_id="65">15sh</token>
+    <token token_id="66">.</token>
+    <token token_id="67">die</token>
+    <token token_id="68">100</token>
+    <token token_id="69">fl</token>
+    <token token_id="70">.</token>
+    <token token_id="71">sol</token>
+    <token token_id="72">der</token>
+    <token token_id="73">Käufer</token>
+    <token token_id="74">bezalen</token>
+    <token token_id="75">nemb</token>
+    <token token_id="76">.</token>
+    <token token_id="77">den</token>
+    <token token_id="78">herren</token>
+    <token token_id="79">s</token>
+    <token token_id="80">.</token>
+    <token token_id="81">Martin</token>
+    <token token_id="82">60</token>
+    <token token_id="83">fl</token>
+    <token token_id="84">oder</token>
+    <token token_id="85">jnen</token>
+    <token token_id="86">die</token>
+    <token token_id="87">verzinnsen</token>
+    <token token_id="88">mit</token>
+    <token token_id="89">3</token>
+    <token token_id="90">fl</token>
+    <token token_id="91">.</token>
+    <token token_id="92">ư</token>
+    <token token_id="93">dem</token>
+    <token token_id="94">Spital</token>
+    <token token_id="95">20fl</token>
+    <token token_id="96">.</token>
+    <token token_id="97">oder</token>
+    <token token_id="98">die</token>
+    <token token_id="99">mit</token>
+    <token token_id="100">2fl</token>
+    <token token_id="101">gelt</token>
+    <token token_id="102">verzinsen</token>
+    <token token_id="103">,</token>
+    <token token_id="104">die</token>
+    <token token_id="105">abrigen</token>
+    <token token_id="106">5</token>
+    <token token_id="107">fl</token>
+    <token token_id="108">.</token>
+    <token token_id="109">sint</token>
+    <token token_id="110">bezalt</token>
+    <token token_id="111">.</token>
+    <token token_id="112">sum</token>
+    <token token_id="113">108</token>
+    <token token_id="114">fl</token>
+    <token token_id="115">.</token>
+  </text>
+  <spans>
+    <span id="1973" start="3" end="3" text="kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1701" start="5" end="11" text="Mr . Jacob von Wicker der bartscherer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1725" start="5" end="6" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1725_head" start="5" end="6" element="head" class="title" text="Mr ." subclass=""/>
+      </span>
+      <span id="1707" start="7" end="9" text="Jacob von Wicker" element="head" class="nam" subclass=""/>
+      <span id="1713" start="10" end="11" text="der bartscherer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1719" start="11" end="11" text="bartscherer" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1961" start="13" end="25" text="Walthern von&#10;Leidich ouch dem barfscherer , u . Greden Ennelin siner&#10;Ewirtin" element="list" class="per" subclass="">
+      <span id="1731" start="13" end="18" text="Walthern von&#10;Leidich ouch dem barfscherer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1737" start="13" end="15" text="Walthern von&#10;Leidich" element="head" class="nam" subclass=""/>
+        <span id="1743" start="17" end="18" text="dem barfscherer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1749" start="18" end="18" text="barfscherer" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1755" start="22" end="25" text="Greden Ennelin siner&#10;Ewirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1761" start="22" end="23" text="Greden Ennelin" element="head" class="nam" subclass=""/>
+        <span id="1767" start="24" end="25" text="siner&#10;Ewirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1779" start="24" end="24" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1779_head" start="24" end="24" element="head" class="pro" text="siner" subclass=""/>
+          </span>
+          <span id="1773" start="25" end="25" text="Ewirtin" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1798" start="27" end="70" text="das Hus &amp; Hofstatt genant zem Vogelgesange&#10;als das oben an den Swellen gelegen ist , einsit neben&#10;dem Hus zem Horn u andersite neben dem Huse zem&#10;nidern vogelgesang , zinset jährl . voneig . dem Spital&#10;15sh .&#10;die 100 fl ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1804" start="28" end="30" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1810" start="32" end="33" text="zem Vogelgesange" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1810_head" start="32" end="33" element="head" class="nam" text="zem Vogelgesange" subclass=""/>
+      </span>
+      <span id="1816" start="35" end="56" text="das oben an den Swellen gelegen ist , einsit neben&#10;dem Hus zem Horn u andersite neben dem Huse zem&#10;nidern vogelgesang" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1828" start="38" end="39" text="den Swellen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1834" start="39" end="39" text="Swellen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1840" start="45" end="48" text="dem Hus zem Horn" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1846" start="46" end="48" text="Hus zem Horn" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1852" start="52" end="56" text="dem Huse zem&#10;nidern vogelgesang" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1858" start="53" end="56" text="Huse zem&#10;nidern vogelgesang" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1864" start="58" end="70" text="zinset jährl . voneig . dem Spital&#10;15sh .&#10;die 100 fl ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1979" start="58" end="58" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1870" start="59" end="60" text="jährl ." element="value" class="time" subclass="rec"/>
+        <span id="1985" start="61" end="62" text="voneig ." element="other" class="other" subclass=""/>
+        <span id="1876" start="63" end="64" text="dem Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1882" start="64" end="64" text="Spital" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1888" start="65" end="66" text="15sh ." element="value" class="money" subclass=""/>
+        <span id="1894" start="68" end="70" text="100 fl ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1900" start="72" end="73" text="der Käufer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1906" start="73" end="73" text="Käufer" element="head" class="role" subclass=""/>
+    </span>
+    <span id="1991" start="74" end="74" text="bezalen" element="trigger" class="payment" tense="pres" polarity="pos" modality="other" subclass=""/>
+    <span id="1919" start="77" end="81" text="den herren s . Martin" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1997" start="78" end="81" text="herren s . Martin" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1925" start="82" end="83" text="60 fl" element="value" class="money" subclass=""/>
+    <span id="2003" start="85" end="85" text="jnen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="2003_head" start="85" end="85" element="head" class="pro" text="jnen" subclass=""/>
+    </span>
+    <span id="2016" start="87" end="87" text="verzinnsen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1931" start="89" end="91" text="3 fl ." element="value" class="money" subclass=""/>
+    <span id="1937" start="93" end="94" text="dem Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1943" start="94" end="94" text="Spital" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1949" start="95" end="96" text="20fl ." element="value" class="money" subclass=""/>
+    <span id="2028" start="100" end="100" text="2fl" element="value" class="money" subclass=""/>
+    <span id="2022" start="102" end="102" text="verzinsen" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1955" start="106" end="108" text="5 fl ." element="value" class="money" subclass=""/>
+    <span id="1967" start="113" end="115" text="108 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1785" from="1779" to="1731" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1912" from="1900" to="1731" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2009" from="2003" to="1919" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1979_role" from="1979" to="1798" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="24" end="25" ref="1767" type="state">
+      <trigger start="25" end="25" text="Ewirtin" ref="1773"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1755" text="Greden Ennelin siner&#10;Ewirtin"/>
+        <role role="family-b" ref="1779" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="56" ref="1816" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1798" text="das Hus &amp; Hofstatt genant zem Vogelgesange&#10;als das oben an den Swellen gelegen ist , einsit neben&#10;dem Hus zem Horn u andersite neben dem Huse zem&#10;nidern vogelgesang , zinset jährl . voneig . dem Spital&#10;15sh .&#10;die 100 fl ."/>
+        <role role="location-b" ref="1828" text="den Swellen"/>
+        <role role="location-b" ref="1840" text="dem Hus zem Horn"/>
+        <role role="location-b" ref="1852" text="dem Huse zem&#10;nidern vogelgesang"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="3" ref="" type="event">
+      <trigger start="3" end="3" text="kaufen" ref="1973"/>
+      <event event_id="2.0">
+        <role role="seller" ref="1701" text="Mr . Jacob von Wicker der bartscherer"/>
+        <role role="buyer" ref="1731" text="Walthern von&#10;Leidich ouch dem barfscherer"/>
+        <role role="buyer" ref="1755" text="Greden Ennelin siner&#10;Ewirtin"/>
+        <role role="property" ref="1798" text="das Hus &amp; Hofstatt genant zem Vogelgesange&#10;als das oben an den Swellen gelegen ist , einsit neben&#10;dem Hus zem Horn u andersite neben dem Huse zem&#10;nidern vogelgesang , zinset jährl . voneig . dem Spital&#10;15sh .&#10;die 100 fl ."/>
+        <role role="price" ref="1967" text="108 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="27" end="70" ref="1864" type="state">
+      <trigger start="58" end="58" text="zinset" ref="1979"/>
+      <event event_id="3.0">
+        <role role="interval" ref="1870" text="jährl ."/>
+        <role role="cause" ref="1985" text="voneig ."/>
+        <role role="beneficiary" ref="1876" text="dem Spital"/>
+        <role role="interest" ref="1888" text="15sh ."/>
+        <role role="property" ref="1798" text="das Hus &amp; Hofstatt genant zem Vogelgesange&#10;als das oben an den Swellen gelegen ist , einsit neben&#10;dem Hus zem Horn u andersite neben dem Huse zem&#10;nidern vogelgesang , zinset jährl . voneig . dem Spital&#10;15sh .&#10;die 100 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="payment" polarity="pos" tense="pres" modality="other" start="72" end="96" ref="" type="event">
+      <trigger start="74" end="74" text="bezalen" ref="1991"/>
+      <event event_id="4.0">
+        <role role="payer" ref="1900" text="der Käufer"/>
+        <role role="beneficiary" ref="1919" text="den herren s . Martin"/>
+        <role role="sum" ref="1925" text="60 fl"/>
+        <role role="detail_alternative-payment" ref="2016" text="verzinnsen"/>
+      </event>
+      <event event_id="4.1">
+        <role role="payer" ref="1900" text="der Käufer"/>
+        <role role="beneficiary" ref="1937" text="dem Spital"/>
+        <role role="sum" ref="1949" text="20fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="85" end="91" ref="" type="state">
+      <trigger start="87" end="87" text="verzinnsen" ref="2016"/>
+      <event event_id="5.0">
+        <role role="beneficiary" ref="2003" text="jnen"/>
+        <role role="interest" ref="1931" text="3 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="100" end="102" ref="" type="state">
+      <trigger start="102" end="102" text="verzinsen" ref="2022"/>
+      <event event_id="6.0">
+        <role role="interest" ref="2028" text="2fl"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

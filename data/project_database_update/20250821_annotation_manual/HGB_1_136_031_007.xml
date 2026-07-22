@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 136/31 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Münzgasse 16</tei:title>
+            <tei:idno>HGB 1 136/31</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1500649</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1429">1429</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611165.352436158 1267391.988798749</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">koffte</token>
+    <token token_id="2">als</token>
+    <token token_id="3">uf</token>
+    <token token_id="4">die</token>
+    <token token_id="5">andern</token>
+    <token token_id="6">acht</token>
+    <token token_id="7">tag</token>
+    <token token_id="8">Huglin</token>
+    <token token_id="9">,</token>
+    <token token_id="10">von</token>
+    <token token_id="11">Vach</token>
+    <token token_id="12">Peter</token>
+    <token token_id="13">Hans</token>
+    <token token_id="14">Sobs</token>
+    <token token_id="15">hus</token>
+    <token token_id="16">&amp;</token>
+    <token token_id="17">hofstatt</token>
+    <token token_id="18">,</token>
+    <token token_id="19">gelegen</token>
+    <token token_id="20">in</token>
+    <token token_id="21">der</token>
+    <token token_id="22">Kuttelgassen</token>
+    <token token_id="23">,</token>
+    <token token_id="24">nebent</token>
+    <token token_id="25">Peter</token>
+    <token token_id="26">Heinerlis</token>
+    <token token_id="27">hus</token>
+    <token token_id="28">ze</token>
+    <token token_id="29">einer</token>
+    <token token_id="30">siten</token>
+    <token token_id="31">,</token>
+    <token token_id="32">ư</token>
+    <token token_id="33">zem</token>
+    <token token_id="34">hindern</token>
+    <token token_id="35">Solden</token>
+    <token token_id="36">zer</token>
+    <token token_id="37">andern</token>
+    <token token_id="38">siten</token>
+    <token token_id="39">,</token>
+    <token token_id="40">u</token>
+    <token token_id="41">.</token>
+    <token token_id="42">bot</token>
+    <token token_id="43">62</token>
+    <token token_id="44">fl</token>
+    <token token_id="45">.</token>
+  </text>
+  <spans>
+    <span id="829" start="1" end="1" text="koffte" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="751" start="3" end="7" text="uf die andern acht tag" element="value" class="date" subclass=""/>
+    <span id="757" start="8" end="11" text="Huglin ,&#10;von Vach" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="757_head" start="8" end="11" element="head" class="nam" text="Huglin , von Vach" subclass=""/>
+    </span>
+    <span id="763" start="12" end="38" text="Peter Hans Sobs hus &amp; hofstatt , gelegen&#10;in der Kuttelgassen , nebent Peter Heinerlis hus&#10;ze einer siten , ư zem hindern Solden zer andern&#10;siten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="775" start="12" end="14" text="Peter Hans Sobs" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="769" start="12" end="14" text="Peter Hans Sobs" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="769_head" start="12" end="14" element="head" class="nam" text="Peter Hans Sobs" subclass=""/>
+        </span>
+      </span>
+      <span id="781" start="15" end="17" text="hus &amp; hofstatt" element="head" class="type" subclass=""/>
+      <span id="787" start="19" end="38" text="gelegen&#10;in der Kuttelgassen , nebent Peter Heinerlis hus&#10;ze einer siten , ư zem hindern Solden zer andern&#10;siten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="793" start="21" end="22" text="der Kuttelgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="799" start="22" end="22" text="Kuttelgassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="805" start="25" end="27" text="Peter Heinerlis hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="805_desc_owner" start="25" end="26" text="Peter Heinerlis" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="817" start="25" end="26" text="Peter Heinerlis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="817_head" start="25" end="26" element="head" class="nam" text="Peter Heinerlis" subclass=""/>
+            </span>
+          </span>
+          <span id="811" start="27" end="27" text="hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="823" start="33" end="35" text="zem hindern Solden" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="835" start="34" end="35" text="hindern Solden" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="841" start="42" end="42" text="bot" element="trigger" class="offer" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="847" start="43" end="45" text="62 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="12" end="14" ref="775" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="763" text="Peter Hans Sobs hus &amp; hofstatt , gelegen&#10;in der Kuttelgassen , nebent Peter Heinerlis hus&#10;ze einer siten , ư zem hindern Solden zer andern&#10;siten"/>
+        <role role="owner" ref="769" text="Peter Hans Sobs"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="19" end="38" ref="787" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="763" text="Peter Hans Sobs hus &amp; hofstatt , gelegen&#10;in der Kuttelgassen , nebent Peter Heinerlis hus&#10;ze einer siten , ư zem hindern Solden zer andern&#10;siten"/>
+        <role role="location-b" ref="793" text="der Kuttelgassen"/>
+        <role role="location-b" ref="805" text="Peter Heinerlis hus"/>
+        <role role="location-b" ref="823" text="zem hindern Solden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="25" end="26" ref="805_desc_owner" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="805" text="Peter Heinerlis hus"/>
+        <role role="owner" ref="817" text="Peter Heinerlis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="1" end="42" ref="" type="event">
+      <trigger start="1" end="1" text="koffte" ref="829"/>
+      <event event_id="3.0">
+        <role role="buyer" ref="757" text="Huglin ,&#10;von Vach"/>
+        <role role="property" ref="763" text="Peter Hans Sobs hus &amp; hofstatt , gelegen&#10;in der Kuttelgassen , nebent Peter Heinerlis hus&#10;ze einer siten , ư zem hindern Solden zer andern&#10;siten"/>
+        <role role="detail_offer" ref="841" text="bot"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="offer" polarity="pos" tense="pres" modality="ass" start="42" end="45" ref="" type="event">
+      <trigger start="42" end="42" text="bot" ref="841"/>
+      <event event_id="4.0">
+        <role role="price" ref="847" text="62 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

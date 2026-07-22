@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 137/84 S. [44]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Nadelberg 32</tei:title>
+            <tei:idno>HGB 1 137/84</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1500831</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1587">1587</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611054.37030277 1267377.957220929</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Jacob</token>
+    <token token_id="2">Wentz</token>
+    <token token_id="3">,</token>
+    <token token_id="4">hat</token>
+    <token token_id="5">Hanns</token>
+    <token token_id="6">Kackher</token>
+    <token token_id="7">des</token>
+    <token token_id="8">Amptmanns</token>
+    <token token_id="9">Ent</token>
+    <token token_id="10">Reins</token>
+    <token token_id="11">,</token>
+    <token token_id="12">Haus</token>
+    <token token_id="13">und</token>
+    <token token_id="14">Hoffstatt</token>
+    <token token_id="15">,</token>
+    <token token_id="16">an</token>
+    <token token_id="17">der</token>
+    <token token_id="18">Spalen</token>
+    <token token_id="19">,</token>
+    <token token_id="20">am</token>
+    <token token_id="21">Nodelberg</token>
+    <token token_id="22">,</token>
+    <token token_id="23">zwüschen</token>
+    <token token_id="24">den</token>
+    <token token_id="25">Heüsern</token>
+    <token token_id="26">Lützelburg</token>
+    <token token_id="27">und</token>
+    <token token_id="28">Bettlach</token>
+    <token token_id="29">gelegen</token>
+    <token token_id="30">und</token>
+    <token token_id="31">Muospach</token>
+    <token token_id="32">genant</token>
+    <token token_id="33">ist</token>
+    <token token_id="34">,</token>
+    <token token_id="35">versessener</token>
+    <token token_id="36">zinsen</token>
+    <token token_id="37">wegen</token>
+    <token token_id="38">,</token>
+    <token token_id="39">als</token>
+    <token token_id="40">ihm</token>
+    <token token_id="41">jährl</token>
+    <token token_id="42">.</token>
+    <token token_id="43">darab</token>
+    <token token_id="44">4</token>
+    <token token_id="45">℔</token>
+    <token token_id="46">.</token>
+    <token token_id="47">zinst</token>
+    <token token_id="48">wid</token>
+    <token token_id="49">,</token>
+    <token token_id="50">gefrönt</token>
+    <token token_id="51">.</token>
+  </text>
+  <spans>
+    <span id="803" start="0" end="2" text="Hanns Jacob Wentz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="803_head" start="0" end="2" element="head" class="nam" text="Hanns Jacob Wentz" subclass=""/>
+    </span>
+    <span id="809" start="5" end="33" text="Hanns Kackher des Amptmanns&#10;Ent Reins , Haus und Hoffstatt , an der Spalen , am Nodelberg ,&#10;zwüschen den Heüsern Lützelburg und Bettlach gelegen und&#10;Muospach genant ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="821" start="5" end="10" text="Hanns Kackher des Amptmanns&#10;Ent Reins" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="815" start="5" end="10" text="Hanns Kackher des Amptmanns&#10;Ent Reins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="827" start="5" end="6" text="Hanns Kackher" element="head" class="nam" subclass=""/>
+          <span id="833" start="7" end="10" text="des Amptmanns&#10;Ent Reins" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+            <span id="839" start="8" end="8" text="Amptmanns" element="head" class="occ" subclass="org-job"/>
+            <span id="845" start="9" end="10" text="Ent Reins" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="851" start="10" end="10" text="Reins" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="river">
+                <span id="851_head" start="10" end="10" element="head" class="nam" text="Reins" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="857" start="12" end="14" text="Haus und Hoffstatt" element="head" class="type" subclass=""/>
+      <span id="863" start="16" end="29" text="an der Spalen , am Nodelberg ,&#10;zwüschen den Heüsern Lützelburg und Bettlach gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="869" start="17" end="18" text="der Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="875" start="18" end="18" text="Spalen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="881" start="20" end="21" text="am Nodelberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="887" start="21" end="21" text="Nodelberg" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="893" start="24" end="28" text="den Heüsern Lützelburg und Bettlach" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="899" start="25" end="25" text="Heüsern" element="head" class="type" subclass=""/>
+          <span id="905" start="26" end="28" text="Lützelburg und Bettlach" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="911" start="26" end="26" text="Lützelburg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="911_head" start="26" end="26" element="head" class="nam" text="Lützelburg" subclass=""/>
+            </span>
+            <span id="917" start="28" end="28" text="Bettlach" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="917_head" start="28" end="28" element="head" class="nam" text="Bettlach" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="923" start="31" end="31" text="Muospach" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="923_head" start="31" end="31" element="head" class="nam" text="Muospach" subclass=""/>
+      </span>
+    </span>
+    <span id="973" start="35" end="36" text="versessener zinsen" element="eventspan" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="979" start="40" end="48" text="ihm&#10;jährl . darab 4 ℔. zinst wid" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="929" start="40" end="40" text="ihm" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="929_head" start="40" end="40" element="head" class="pro" text="ihm" subclass=""/>
+      </span>
+      <span id="942" start="41" end="42" text="jährl ." element="value" class="time" subclass="rec"/>
+      <span id="948" start="43" end="43" text="darab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="948_head" start="43" end="43" element="head" class="pro" text="darab" subclass=""/>
+      </span>
+      <span id="961" start="44" end="46" text="4 ℔." element="value" class="money" subclass=""/>
+      <span id="992" start="47" end="47" text="zinst" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="967" start="50" end="50" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="935" from="929" to="803" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="954" from="948" to="809" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="985" from="979" to="973" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="neg" tense="pres" modality="ass" start="35" end="36" ref="973" type="event"/>
+    <eventGroup event_id="1" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="40" end="48" ref="979" type="state">
+      <trigger start="47" end="47" text="zinst" ref="992"/>
+      <event event_id="1.0">
+        <role role="beneficiary" ref="929" text="ihm"/>
+        <role role="interval" ref="942" text="jährl ."/>
+        <role role="property" ref="948" text="darab"/>
+        <role role="interest" ref="961" text="4 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="5" end="10" ref="821" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="809" text="Hanns Kackher des Amptmanns&#10;Ent Reins , Haus und Hoffstatt , an der Spalen , am Nodelberg ,&#10;zwüschen den Heüsern Lützelburg und Bettlach gelegen und&#10;Muospach genant ist"/>
+        <role role="owner" ref="815" text="Hanns Kackher des Amptmanns&#10;Ent Reins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="9" end="10" ref="845" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="815" text="Hanns Kackher des Amptmanns&#10;Ent Reins"/>
+        <role role="location-b" ref="851" text="Reins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="16" end="29" ref="863" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="809" text="Hanns Kackher des Amptmanns&#10;Ent Reins , Haus und Hoffstatt , an der Spalen , am Nodelberg ,&#10;zwüschen den Heüsern Lützelburg und Bettlach gelegen und&#10;Muospach genant ist"/>
+        <role role="location-b" ref="869" text="der Spalen"/>
+        <role role="location-b" ref="881" text="am Nodelberg"/>
+        <role role="location-b" ref="893" text="den Heüsern Lützelburg und Bettlach"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" start="26" end="28" ref="905" type="state">
+      <event event_id="5.0">
+        <role role="whole" ref="893" text="den Heüsern Lützelburg und Bettlach"/>
+        <role role="part" ref="911" text="Lützelburg"/>
+        <role role="part" ref="917" text="Bettlach"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="50" ref="" type="event">
+      <trigger start="50" end="50" text="gefrönt" ref="967"/>
+      <event event_id="6.0">
+        <role role="claimant" ref="803" text="Hanns Jacob Wentz"/>
+        <role role="property" ref="809" text="Hanns Kackher des Amptmanns&#10;Ent Reins , Haus und Hoffstatt , an der Spalen , am Nodelberg ,&#10;zwüschen den Heüsern Lützelburg und Bettlach gelegen und&#10;Muospach genant ist"/>
+        <role role="cause" ref="973" text="versessener zinsen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

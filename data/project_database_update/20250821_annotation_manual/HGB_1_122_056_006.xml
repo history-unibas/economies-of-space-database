@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 122/56 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Marktplatz 16</tei:title>
+            <tei:idno>HGB 1 122/56</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494835</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Prediger</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1405">1405</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611202.6728325277 1267499.6706221516</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">-</token>
+    <token token_id="2">Urkunde</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Henman</token>
+    <token token_id="5">von</token>
+    <token token_id="6">Phirt</token>
+    <token token_id="7">den</token>
+    <token token_id="8">man</token>
+    <token token_id="9">nemmet</token>
+    <token token_id="10">Harder</token>
+    <token token_id="11">,</token>
+    <token token_id="12">der</token>
+    <token token_id="13">¬</token>
+    <token token_id="14">Metziger</token>
+    <token token_id="15">,</token>
+    <token token_id="16">Burger</token>
+    <token token_id="17">ze</token>
+    <token token_id="18">Basel</token>
+    <token token_id="19">,</token>
+    <token token_id="20">verkauft</token>
+    <token token_id="21">Henman</token>
+    <token token_id="22">von</token>
+    <token token_id="23">Luters</token>
+    <token token_id="24">torf</token>
+    <token token_id="25">dem</token>
+    <token token_id="26">Kremer</token>
+    <token token_id="27">Burger</token>
+    <token token_id="28">ze</token>
+    <token token_id="29">Basel</token>
+    <token token_id="30">,</token>
+    <token token_id="31">daz</token>
+    <token token_id="32">Huse</token>
+    <token token_id="33">und</token>
+    <token token_id="34">Hofstat</token>
+    <token token_id="35">gelegen</token>
+    <token token_id="36">in</token>
+    <token token_id="37">der</token>
+    <token token_id="38">Stat</token>
+    <token token_id="39">Basel</token>
+    <token token_id="40">hinder</token>
+    <token token_id="41">der</token>
+    <token token_id="42">Schalen</token>
+    <token token_id="43">an</token>
+    <token token_id="44">der</token>
+    <token token_id="45">Gratucher</token>
+    <token token_id="46">Löben</token>
+    <token token_id="47">einsite</token>
+    <token token_id="48">und</token>
+    <token token_id="49">an</token>
+    <token token_id="50">dem</token>
+    <token token_id="51">Huse</token>
+    <token token_id="52">da</token>
+    <token token_id="53">nu</token>
+    <token token_id="54">ze</token>
+    <token token_id="55">Ziten</token>
+    <token token_id="56">inne</token>
+    <token token_id="57">sesshaft</token>
+    <token token_id="58">ist</token>
+    <token token_id="59">Jacob</token>
+    <token token_id="60">Jurner</token>
+    <token token_id="61">der</token>
+    <token token_id="62">Teschenmacher</token>
+    <token token_id="63">und</token>
+    <token token_id="64">es</token>
+    <token token_id="65">zinset</token>
+    <token token_id="66">Claus</token>
+    <token token_id="67">Schilling</token>
+    <token token_id="68">,</token>
+    <token token_id="69">Burger</token>
+    <token token_id="70">ze</token>
+    <token token_id="71">Basel</token>
+    <token token_id="72">,</token>
+    <token token_id="73">andersite</token>
+    <token token_id="74">ist</token>
+    <token token_id="75">Erbe</token>
+    <token token_id="76">des</token>
+    <token token_id="77">Rats</token>
+    <token token_id="78">von</token>
+    <token token_id="79">Basel</token>
+    <token token_id="80">,</token>
+    <token token_id="81">dem</token>
+    <token token_id="82">davon</token>
+    <token token_id="83">gangent</token>
+    <token token_id="84">1</token>
+    <token token_id="85">℔</token>
+    <token token_id="86">.</token>
+    <token token_id="87">Zinsphg</token>
+    <token token_id="88">.</token>
+    <token token_id="89">von</token>
+    <token token_id="90">der</token>
+    <token token_id="91">Eigenschaft</token>
+    <token token_id="92">ze</token>
+    <token token_id="93">Zinse</token>
+    <token token_id="94">und</token>
+    <token token_id="95">5</token>
+    <token token_id="96">sh</token>
+    <token token_id="97">.</token>
+    <token token_id="98">ze</token>
+    <token token_id="99">Erschatz</token>
+    <token token_id="100">,</token>
+    <token token_id="101">so</token>
+    <token token_id="102">sich</token>
+    <token token_id="103">die</token>
+    <token token_id="104">Hand</token>
+    <token token_id="105">verwandelt</token>
+    <token token_id="106">,</token>
+    <token token_id="107">sodenne</token>
+    <token token_id="108">über</token>
+    <token token_id="109">diesen</token>
+    <token token_id="110">Zins</token>
+    <token token_id="111">gangent</token>
+    <token token_id="112">ouch</token>
+    <token token_id="113">von</token>
+    <token token_id="114">der</token>
+    <token token_id="115">Erbschaft</token>
+    <token token_id="116">jerlichs</token>
+    <token token_id="117">10sh</token>
+    <token token_id="118">.</token>
+    <token token_id="119">an</token>
+    <token token_id="120">das</token>
+    <token token_id="121">gen</token>
+    <token token_id="122">.</token>
+    <token token_id="123">Huse</token>
+    <token token_id="124">,</token>
+    <token token_id="125">da</token>
+    <token token_id="126">Jacob</token>
+    <token token_id="127">Surner</token>
+    <token token_id="128">inne</token>
+    <token token_id="129">sesshafft</token>
+    <token token_id="130">ist</token>
+    <token token_id="131">ze</token>
+    <token token_id="132">Stür</token>
+    <token token_id="133">,</token>
+    <token token_id="134">umb</token>
+    <token token_id="135">35</token>
+    <token token_id="136">Gld</token>
+    <token token_id="137">.</token>
+  </text>
+  <spans>
+    <span id="2309" start="4" end="18" text="Henman von Phirt den man nemmet Harder , der ¬&#10;Metziger , Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2513" start="4" end="4" text="Henman" element="head" class="nam" subclass=""/>
+      <span id="2519" start="5" end="6" text="von Phirt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2525" start="6" end="6" text="Phirt" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2525_head" start="6" end="6" element="head" class="nam" text="Phirt" subclass=""/>
+        </span>
+      </span>
+      <span id="2315" start="10" end="10" text="Harder" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2315_head" start="10" end="10" element="head" class="nam" text="Harder" subclass=""/>
+      </span>
+      <span id="2321" start="12" end="14" text="der ¬&#10;Metziger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2327" start="14" end="14" text="Metziger" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="2333" start="16" end="18" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2339" start="16" end="16" text="Burger" element="head" class="org-aff" subclass=""/>
+        <span id="2345" start="18" end="18" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2345_head" start="18" end="18" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2611" start="20" end="20" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2351" start="21" end="29" text="Henman von Luters&#10;torf dem Kremer Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2531" start="21" end="21" text="Henman" element="head" class="nam" subclass=""/>
+      <span id="2537" start="22" end="24" text="von Luters&#10;torf" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2543" start="23" end="24" text="Luters&#10;torf" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2543_head" start="23" end="24" element="head" class="nam" text="Luters torf" subclass=""/>
+        </span>
+      </span>
+      <span id="2357" start="25" end="26" text="dem Kremer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2363" start="26" end="26" text="Kremer" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="2369" start="27" end="29" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2375" start="27" end="27" text="Burger" element="head" class="org-aff" subclass=""/>
+        <span id="2381" start="29" end="29" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2381_head" start="29" end="29" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2555" start="31" end="132" text="daz Huse und Hofstat&#10;gelegen in der Stat Basel hinder der Schalen an der&#10;Gratucher Löben einsite und an dem Huse da nu&#10;ze Ziten inne sesshaft ist Jacob Jurner der Teschenmacher&#10;und es zinset Claus Schilling , Burger ze Basel , andersite&#10;ist Erbe des Rats von Basel , dem davon gangent 1 ℔.&#10;Zinsphg . von der Eigenschaft ze Zinse und 5 sh . ze Erschatz ,&#10;so sich die Hand verwandelt , sodenne über diesen Zins&#10;gangent ouch von der Erbschaft jerlichs 10sh . an das gen .&#10;Huse , da Jacob Surner inne sesshafft ist ze Stür" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2387" start="32" end="34" text="Huse und Hofstat" element="head" class="type" subclass=""/>
+      <span id="2689" start="35" end="73" text="gelegen in der Stat Basel hinder der Schalen an der&#10;Gratucher Löben einsite und an dem Huse da nu&#10;ze Ziten inne sesshaft ist Jacob Jurner der Teschenmacher&#10;und es zinset Claus Schilling , Burger ze Basel , andersite" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2393" start="37" end="39" text="der Stat Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2399" start="38" end="39" text="Stat Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2635" start="41" end="42" text="der Schalen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2549" start="42" end="42" text="Schalen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2641" start="44" end="46" text="der&#10;Gratucher Löben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2653" start="44" end="45" text="der&#10;Gratucher" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2659" start="44" end="45" text="der&#10;Gratucher" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+              <span id="2665" start="45" end="45" text="Gratucher" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+          <span id="2647" start="46" end="46" text="Löben" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2671" start="50" end="71" text="dem Huse da nu&#10;ze Ziten inne sesshaft ist Jacob Jurner der Teschenmacher&#10;und es zinset Claus Schilling , Burger ze Basel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2405" start="51" end="51" text="Huse" element="head" class="type" subclass=""/>
+          <span id="2435" start="59" end="62" text="Jacob Jurner der Teschenmacher" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2411" start="59" end="62" text="Jacob Jurner der Teschenmacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2417" start="59" end="60" text="Jacob Jurner" element="head" class="nam" subclass=""/>
+              <span id="2423" start="61" end="62" text="der Teschenmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2429" start="62" end="62" text="Teschenmacher" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="2677" start="63" end="71" text="und es zinset Claus Schilling , Burger ze Basel" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2617" start="65" end="65" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+            <span id="2561" start="66" end="71" text="Claus Schilling , Burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2441" start="66" end="67" text="Claus Schilling" element="head" class="nam" subclass=""/>
+              <span id="2447" start="69" end="71" text="Burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2453" start="69" end="69" text="Burger" element="head" class="org-aff" subclass=""/>
+                <span id="2459" start="71" end="71" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="2459_head" start="71" end="71" element="head" class="nam" text="Basel" subclass=""/>
+                </span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2683" start="74" end="132" text="ist Erbe des Rats von Basel , dem davon gangent 1 ℔.&#10;Zinsphg . von der Eigenschaft ze Zinse und 5 sh . ze Erschatz ,&#10;so sich die Hand verwandelt , sodenne über diesen Zins&#10;gangent ouch von der Erbschaft jerlichs 10sh . an das gen .&#10;Huse , da Jacob Surner inne sesshafft ist ze Stür" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2738" start="74" end="79" text="ist Erbe des Rats von Basel" element="other" class="other" subclass="">
+          <span id="2567" start="76" end="79" text="des Rats von Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+            <span id="2579" start="77" end="77" text="Rats" element="head" class="type" subclass=""/>
+            <span id="2701" start="78" end="79" text="von Basel" element="attr" class="part-of" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2573" start="79" end="79" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2573_head" start="79" end="79" element="head" class="nam" text="Basel" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+        <span id="2585" start="81" end="81" text="dem" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="2585_head" start="81" end="81" element="head" class="pro" text="dem" subclass=""/>
+        </span>
+        <span id="2695" start="83" end="83" text="gangent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2598" start="84" end="88" text="1 ℔.&#10;Zinsphg ." element="value" class="money" subclass=""/>
+        <span id="2623" start="90" end="91" text="der Eigenschaft" element="other" class="other" subclass=""/>
+        <span id="2465" start="95" end="97" text="5 sh ." element="value" class="money" subclass=""/>
+        <span id="2629" start="98" end="99" text="ze Erschatz" element="other" class="other" subclass=""/>
+        <span id="2725" start="109" end="110" text="diesen Zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2707" start="111" end="111" text="gangent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2713" start="113" end="115" text="von der Erbschaft" element="other" class="other" subclass=""/>
+        <span id="2471" start="116" end="116" text="jerlichs" element="value" class="time" subclass="rec"/>
+        <span id="2477" start="117" end="118" text="10sh ." element="value" class="money" subclass=""/>
+        <span id="2719" start="120" end="130" text="das gen .&#10;Huse , da Jacob Surner inne sesshafft ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2483" start="123" end="123" text="Huse" element="head" class="type" subclass=""/>
+          <span id="2495" start="126" end="127" text="Jacob Surner" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2489" start="126" end="127" text="Jacob Surner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2489_head" start="126" end="127" element="head" class="nam" text="Jacob Surner" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="2501" start="135" end="137" text="35 Gld ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2604" from="2489" to="2411" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2591" from="2585" to="2567" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2731" from="2725" to="2695" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2617_role" from="2617" to="2671" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2695_role" from="2695" to="2555" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2725_role" from="2725" to="2555" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2707_role" from="2707" to="2555" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="16" end="18" ref="2333" type="state">
+      <trigger start="16" end="16" text="Burger" ref="2339"/>
+      <event event_id="0.0">
+        <role role="resident" ref="2309" text="Henman von Phirt den man nemmet Harder , der ¬&#10;Metziger , Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="2345" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="27" end="29" ref="2369" type="state">
+      <trigger start="27" end="27" text="Burger" ref="2375"/>
+      <event event_id="1.0">
+        <role role="resident" ref="2351" text="Henman von Luters&#10;torf dem Kremer Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="2381" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="69" end="71" ref="2447" type="state">
+      <trigger start="69" end="69" text="Burger" ref="2453"/>
+      <event event_id="2.0">
+        <role role="resident" ref="2561" text="Claus Schilling , Burger ze Basel"/>
+        <role role="geopolitical-entity" ref="2459" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="5" end="6" ref="2519" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="2309" text="Henman von Phirt den man nemmet Harder , der ¬&#10;Metziger , Burger ze Basel"/>
+        <role role="location-b" ref="2525" text="Phirt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="22" end="24" ref="2537" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="2351" text="Henman von Luters&#10;torf dem Kremer Burger ze Basel"/>
+        <role role="location-b" ref="2543" text="Luters&#10;torf"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="35" end="73" ref="2689" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="2555" text="daz Huse und Hofstat&#10;gelegen in der Stat Basel hinder der Schalen an der&#10;Gratucher Löben einsite und an dem Huse da nu&#10;ze Ziten inne sesshaft ist Jacob Jurner der Teschenmacher&#10;und es zinset Claus Schilling , Burger ze Basel , andersite&#10;ist Erbe des Rats von Basel , dem davon gangent 1 ℔.&#10;Zinsphg . von der Eigenschaft ze Zinse und 5 sh . ze Erschatz ,&#10;so sich die Hand verwandelt , sodenne über diesen Zins&#10;gangent ouch von der Erbschaft jerlichs 10sh . an das gen .&#10;Huse , da Jacob Surner inne sesshafft ist ze Stür"/>
+        <role role="location-b" ref="2393" text="der Stat Basel"/>
+        <role role="location-b" ref="2635" text="der Schalen"/>
+        <role role="location-b" ref="2641" text="der&#10;Gratucher Löben"/>
+        <role role="location-b" ref="2671" text="dem Huse da nu&#10;ze Ziten inne sesshaft ist Jacob Jurner der Teschenmacher&#10;und es zinset Claus Schilling , Burger ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="44" end="45" ref="2653" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="2641" text="der&#10;Gratucher Löben"/>
+        <role role="owner" ref="2659" text="der&#10;Gratucher"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="59" end="62" ref="2435" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="2671" text="dem Huse da nu&#10;ze Ziten inne sesshaft ist Jacob Jurner der Teschenmacher&#10;und es zinset Claus Schilling , Burger ze Basel"/>
+        <role role="owner" ref="2411" text="Jacob Jurner der Teschenmacher"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="part_whole" polarity="pos" tense="pres" modality="ass" start="78" end="79" ref="2701" type="state">
+      <event event_id="8.0">
+        <role role="part" ref="2567" text="des Rats von Basel"/>
+        <role role="whole" ref="2573" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="ownership" polarity="pos" tense="pres" modality="ass" start="126" end="127" ref="2495" type="state">
+      <event event_id="9.0">
+        <role role="property" ref="2719" text="das gen .&#10;Huse , da Jacob Surner inne sesshafft ist"/>
+        <role role="owner" ref="2489" text="Jacob Surner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="20" end="20" ref="" type="event">
+      <trigger start="20" end="20" text="verkauft" ref="2611"/>
+      <event event_id="10.0">
+        <role role="seller" ref="2309" text="Henman von Phirt den man nemmet Harder , der ¬&#10;Metziger , Burger ze Basel"/>
+        <role role="buyer" ref="2351" text="Henman von Luters&#10;torf dem Kremer Burger ze Basel"/>
+        <role role="property" ref="2555" text="daz Huse und Hofstat&#10;gelegen in der Stat Basel hinder der Schalen an der&#10;Gratucher Löben einsite und an dem Huse da nu&#10;ze Ziten inne sesshaft ist Jacob Jurner der Teschenmacher&#10;und es zinset Claus Schilling , Burger ze Basel , andersite&#10;ist Erbe des Rats von Basel , dem davon gangent 1 ℔.&#10;Zinsphg . von der Eigenschaft ze Zinse und 5 sh . ze Erschatz ,&#10;so sich die Hand verwandelt , sodenne über diesen Zins&#10;gangent ouch von der Erbschaft jerlichs 10sh . an das gen .&#10;Huse , da Jacob Surner inne sesshafft ist ze Stür"/>
+        <role role="price" ref="2501" text="35 Gld ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="50" end="71" ref="2677" type="state">
+      <trigger start="65" end="65" text="zinset" ref="2617"/>
+      <event event_id="11.0">
+        <role role="beneficiary" ref="2561" text="Claus Schilling , Burger ze Basel"/>
+        <role role="property" ref="2671" text="dem Huse da nu&#10;ze Ziten inne sesshaft ist Jacob Jurner der Teschenmacher&#10;und es zinset Claus Schilling , Burger ze Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="31" end="83" ref="2683" type="state">
+      <trigger start="83" end="83" text="gangent" ref="2695"/>
+      <event event_id="12.0">
+        <role role="detail_hereditary-owner" ref="2738" text="ist Erbe des Rats von Basel"/>
+        <role role="beneficiary" ref="2585" text="dem"/>
+        <role role="interest" ref="2598" text="1 ℔.&#10;Zinsphg ."/>
+        <role role="cause" ref="2623" text="der Eigenschaft"/>
+        <role role="property" ref="2555" text="daz Huse und Hofstat&#10;gelegen in der Stat Basel hinder der Schalen an der&#10;Gratucher Löben einsite und an dem Huse da nu&#10;ze Ziten inne sesshaft ist Jacob Jurner der Teschenmacher&#10;und es zinset Claus Schilling , Burger ze Basel , andersite&#10;ist Erbe des Rats von Basel , dem davon gangent 1 ℔.&#10;Zinsphg . von der Eigenschaft ze Zinse und 5 sh . ze Erschatz ,&#10;so sich die Hand verwandelt , sodenne über diesen Zins&#10;gangent ouch von der Erbschaft jerlichs 10sh . an das gen .&#10;Huse , da Jacob Surner inne sesshafft ist ze Stür"/>
+      </event>
+      <event event_id="12.1">
+        <role role="detail_hereditary-owner" ref="2738" text="ist Erbe des Rats von Basel"/>
+        <role role="beneficiary" ref="2585" text="dem"/>
+        <role role="interest" ref="2465" text="5 sh ."/>
+        <role role="cause" ref="2629" text="ze Erschatz"/>
+        <role role="property" ref="2555" text="daz Huse und Hofstat&#10;gelegen in der Stat Basel hinder der Schalen an der&#10;Gratucher Löben einsite und an dem Huse da nu&#10;ze Ziten inne sesshaft ist Jacob Jurner der Teschenmacher&#10;und es zinset Claus Schilling , Burger ze Basel , andersite&#10;ist Erbe des Rats von Basel , dem davon gangent 1 ℔.&#10;Zinsphg . von der Eigenschaft ze Zinse und 5 sh . ze Erschatz ,&#10;so sich die Hand verwandelt , sodenne über diesen Zins&#10;gangent ouch von der Erbschaft jerlichs 10sh . an das gen .&#10;Huse , da Jacob Surner inne sesshafft ist ze Stür"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="109" end="132" ref="2683" type="state">
+      <trigger start="109" end="110" text="diesen Zins" ref="2725"/>
+      <event event_id="13.0">
+        <role role="property" ref="2555" text="daz Huse und Hofstat&#10;gelegen in der Stat Basel hinder der Schalen an der&#10;Gratucher Löben einsite und an dem Huse da nu&#10;ze Ziten inne sesshaft ist Jacob Jurner der Teschenmacher&#10;und es zinset Claus Schilling , Burger ze Basel , andersite&#10;ist Erbe des Rats von Basel , dem davon gangent 1 ℔.&#10;Zinsphg . von der Eigenschaft ze Zinse und 5 sh . ze Erschatz ,&#10;so sich die Hand verwandelt , sodenne über diesen Zins&#10;gangent ouch von der Erbschaft jerlichs 10sh . an das gen .&#10;Huse , da Jacob Surner inne sesshafft ist ze Stür"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="111" end="132" ref="2683" type="state">
+      <trigger start="111" end="111" text="gangent" ref="2707"/>
+      <event event_id="14.0">
+        <role role="cause" ref="2713" text="von der Erbschaft"/>
+        <role role="interval" ref="2471" text="jerlichs"/>
+        <role role="interest" ref="2477" text="10sh ."/>
+        <role role="beneficiary" ref="2719" text="das gen .&#10;Huse , da Jacob Surner inne sesshafft ist"/>
+        <role role="property" ref="2555" text="daz Huse und Hofstat&#10;gelegen in der Stat Basel hinder der Schalen an der&#10;Gratucher Löben einsite und an dem Huse da nu&#10;ze Ziten inne sesshaft ist Jacob Jurner der Teschenmacher&#10;und es zinset Claus Schilling , Burger ze Basel , andersite&#10;ist Erbe des Rats von Basel , dem davon gangent 1 ℔.&#10;Zinsphg . von der Eigenschaft ze Zinse und 5 sh . ze Erschatz ,&#10;so sich die Hand verwandelt , sodenne über diesen Zins&#10;gangent ouch von der Erbschaft jerlichs 10sh . an das gen .&#10;Huse , da Jacob Surner inne sesshafft ist ze Stür"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

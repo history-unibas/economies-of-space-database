@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 64/36 S. [30]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Gerbergässlein Theil von 30 neben 28</tei:title>
+            <tei:idno>HGB 1 64/36</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1477750</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1547">1547</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611263.406981794 1267246.2595206485</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Wylhelm</token>
+    <token token_id="1">Wyler</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Glaser</token>
+    <token token_id="4">,</token>
+    <token token_id="5">u</token>
+    <token token_id="6">.</token>
+    <token token_id="7">seine</token>
+    <token token_id="8">Frau</token>
+    <token token_id="9">Barbara</token>
+    <token token_id="10">Pfisterin</token>
+    <token token_id="11">,</token>
+    <token token_id="12">verkaufen</token>
+    <token token_id="13">an</token>
+    <token token_id="14">Heinrichen</token>
+    <token token_id="15">von</token>
+    <token token_id="16">Bysanntz</token>
+    <token token_id="17">,</token>
+    <token token_id="18">den</token>
+    <token token_id="19">schlacher</token>
+    <token token_id="20">hindersess</token>
+    <token token_id="21">zu</token>
+    <token token_id="22">Basel</token>
+    <token token_id="23">,</token>
+    <token token_id="24">u</token>
+    <token token_id="25">.</token>
+    <token token_id="26">seine</token>
+    <token token_id="27">Frau</token>
+    <token token_id="28">Gladma</token>
+    <token token_id="29">,</token>
+    <token token_id="30">das</token>
+    <token token_id="31">Hus</token>
+    <token token_id="32">u</token>
+    <token token_id="33">.</token>
+    <token token_id="34">Hofstatt</token>
+    <token token_id="35">,</token>
+    <token token_id="36">under</token>
+    <token token_id="37">den</token>
+    <token token_id="38">gerwern</token>
+    <token token_id="39">,</token>
+    <token token_id="40">am</token>
+    <token token_id="41">obern</token>
+    <token token_id="42">Byrsich</token>
+    <token token_id="43">,</token>
+    <token token_id="44">zwüschen</token>
+    <token token_id="45">dem</token>
+    <token token_id="46">Hus</token>
+    <token token_id="47">crützberg</token>
+    <token token_id="48">,</token>
+    <token token_id="49">und</token>
+    <token token_id="50">Hansen</token>
+    <token token_id="51">Huttners</token>
+    <token token_id="52">des</token>
+    <token token_id="53">gerwers</token>
+    <token token_id="54">sel</token>
+    <token token_id="55">.</token>
+    <token token_id="56">hus</token>
+    <token token_id="57">u</token>
+    <token token_id="58">.</token>
+    <token token_id="59">hinden</token>
+    <token token_id="60">an</token>
+    <token token_id="61">Hans</token>
+    <token token_id="62">Wernhers</token>
+    <token token_id="63">des</token>
+    <token token_id="64">Metzgers</token>
+    <token token_id="65">gartten</token>
+    <token token_id="66">glegen</token>
+    <token token_id="67">,</token>
+    <token token_id="68">und</token>
+    <token token_id="69">indern</token>
+    <token token_id="70">Egckhenhein</token>
+    <token token_id="71">genant</token>
+    <token token_id="72">ist</token>
+    <token token_id="73">,</token>
+    <token token_id="74">um</token>
+    <token token_id="75">185</token>
+    <token token_id="76">℔</token>
+    <token token_id="77">.</token>
+    <token token_id="78">zinst</token>
+    <token token_id="79">jährl</token>
+    <token token_id="80">.</token>
+    <token token_id="81">der</token>
+    <token token_id="82">Bruderschaft</token>
+    <token token_id="83">s</token>
+    <token token_id="84">.</token>
+    <token token_id="85">Johans</token>
+    <token token_id="86">uff</token>
+    <token token_id="87">Burg</token>
+    <token token_id="88">5sh</token>
+    <token token_id="89">.</token>
+    <token token_id="90">u</token>
+    <token token_id="91">.</token>
+    <token token_id="92">dem</token>
+    <token token_id="93">Augustinercloster</token>
+    <token token_id="94">10</token>
+    <token token_id="95">sh</token>
+    <token token_id="96">.</token>
+    <token token_id="97">sonst</token>
+    <token token_id="98">frei</token>
+    <token token_id="99">.</token>
+  </text>
+  <spans>
+    <span id="1719" start="0" end="10" text="Wylhelm Wyler der Glaser , u . seine Frau Barbara Pfisterin" element="list" class="per" subclass="">
+      <span id="1447" start="0" end="3" text="Wylhelm Wyler der Glaser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1453" start="0" end="1" text="Wylhelm Wyler" element="head" class="nam" subclass=""/>
+        <span id="1459" start="2" end="3" text="der Glaser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1465" start="3" end="3" text="Glaser" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1471" start="7" end="10" text="seine Frau Barbara Pfisterin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1490" start="7" end="8" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1477" start="7" end="7" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1477_head" start="7" end="7" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1496" start="8" end="8" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1502" start="9" end="10" text="Barbara Pfisterin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1809" start="12" end="12" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1725" start="14" end="28" text="Heinrichen von Bysanntz , den schlacher&#10;hindersess zu Basel , u . seine Frau Gladma" element="list" class="per" subclass="">
+      <span id="1508" start="14" end="22" text="Heinrichen von Bysanntz , den schlacher&#10;hindersess zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1743" start="14" end="14" text="Heinrichen" element="head" class="nam" subclass=""/>
+        <span id="1731" start="15" end="16" text="von Bysanntz" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1737" start="16" end="16" text="Bysanntz" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1737_head" start="16" end="16" element="head" class="nam" text="Bysanntz" subclass=""/>
+          </span>
+        </span>
+        <span id="1514" start="18" end="19" text="den schlacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1520" start="19" end="19" text="schlacher" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1749" start="20" end="22" text="hindersess zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1755" start="20" end="20" text="hindersess" element="head" class="org-aff" subclass=""/>
+          <span id="1526" start="22" end="22" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1526_head" start="22" end="22" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1532" start="26" end="28" text="seine Frau Gladma" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1544" start="26" end="27" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1556" start="26" end="26" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1556_head" start="26" end="26" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1550" start="27" end="27" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1538" start="28" end="28" text="Gladma" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1569" start="30" end="72" text="das Hus u .&#10;Hofstatt , under den gerwern , am obern Byrsich , zwüschen&#10;dem Hus crützberg , und Hansen Huttners des gerwers sel . hus&#10;u . hinden an Hans Wernhers des Metzgers gartten glegen ,&#10;und indern Egckhenhein genant ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1575" start="31" end="34" text="Hus u .&#10;Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1581" start="36" end="66" text="under den gerwern , am obern Byrsich , zwüschen&#10;dem Hus crützberg , und Hansen Huttners des gerwers sel . hus&#10;u . hinden an Hans Wernhers des Metzgers gartten glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1587" start="37" end="38" text="den gerwern" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1761" start="38" end="38" text="gerwern" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1593" start="41" end="42" text="obern Byrsich" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1593_head" start="41" end="42" element="head" class="nam" text="obern Byrsich" subclass=""/>
+        </span>
+        <span id="1767" start="45" end="56" text="dem Hus crützberg , und Hansen Huttners des gerwers sel . hus" element="list" class="fac" subclass="">
+          <span id="1599" start="45" end="47" text="dem Hus crützberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1605" start="46" end="47" text="Hus crützberg" element="head" class="type" subclass=""/>
+          </span>
+          <span id="1611" start="50" end="56" text="Hansen Huttners des gerwers sel . hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1797" start="50" end="55" text="Hansen Huttners des gerwers sel ." element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1773" start="50" end="55" text="Hansen Huttners des gerwers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1623" start="50" end="51" text="Hansen Huttners" element="head" class="nam" subclass=""/>
+                <span id="1629" start="52" end="53" text="des gerwers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1635" start="53" end="53" text="gerwers" element="head" class="occ" subclass=""/>
+                </span>
+                <span id="1707" start="54" end="55" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              </span>
+            </span>
+            <span id="1617" start="56" end="56" text="hus" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+        <span id="1779" start="61" end="65" text="Hans Wernhers des Metzgers gartten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1803" start="61" end="64" text="Hans Wernhers des Metzgers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1647" start="61" end="64" text="Hans Wernhers des Metzgers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1653" start="61" end="62" text="Hans Wernhers" element="head" class="nam" subclass=""/>
+              <span id="1659" start="63" end="64" text="des Metzgers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1665" start="64" end="64" text="Metzgers" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1641" start="65" end="65" text="gartten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1671" start="70" end="70" text="Egckhenhein" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1671_head" start="70" end="70" element="head" class="nam" text="Egckhenhein" subclass=""/>
+      </span>
+    </span>
+    <span id="1677" start="75" end="77" text="185 ℔." element="value" class="money" subclass=""/>
+    <span id="1815" start="78" end="78" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1713" start="79" end="80" text="jährl ." element="value" class="time" subclass="rec"/>
+    <span id="1683" start="81" end="87" text="der Bruderschaft s . Johans uff Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1689" start="82" end="87" text="Bruderschaft s . Johans uff Burg" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1785" start="88" end="89" text="5sh ." element="value" class="money" subclass=""/>
+    <span id="1695" start="92" end="93" text="dem Augustinercloster" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1701" start="93" end="93" text="Augustinercloster" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1791" start="94" end="96" text="10 sh ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1483" from="1477" to="1447" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1562" from="1556" to="1508" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="8" ref="1490" type="state">
+      <trigger start="8" end="8" text="Frau" ref="1496"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1471" text="seine Frau Barbara Pfisterin"/>
+        <role role="family-b" ref="1477" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="20" end="22" ref="1749" type="state">
+      <trigger start="20" end="20" text="hindersess" ref="1755"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1508" text="Heinrichen von Bysanntz , den schlacher&#10;hindersess zu Basel"/>
+        <role role="geopolitical-entity" ref="1526" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="26" end="27" ref="1544" type="state">
+      <trigger start="27" end="27" text="Frau" ref="1550"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1532" text="seine Frau Gladma"/>
+        <role role="family-b" ref="1556" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="16" ref="1731" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1508" text="Heinrichen von Bysanntz , den schlacher&#10;hindersess zu Basel"/>
+        <role role="location-b" ref="1737" text="Bysanntz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="36" end="66" ref="1581" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1569" text="das Hus u .&#10;Hofstatt , under den gerwern , am obern Byrsich , zwüschen&#10;dem Hus crützberg , und Hansen Huttners des gerwers sel . hus&#10;u . hinden an Hans Wernhers des Metzgers gartten glegen ,&#10;und indern Egckhenhein genant ist"/>
+        <role role="location-b" ref="1587" text="den gerwern"/>
+        <role role="location-b" ref="1593" text="obern Byrsich"/>
+        <role role="location-b" ref="1599" text="dem Hus crützberg"/>
+        <role role="location-b" ref="1611" text="Hansen Huttners des gerwers sel . hus"/>
+        <role role="location-b" ref="1779" text="Hans Wernhers des Metzgers gartten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="50" end="55" ref="1797" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1611" text="Hansen Huttners des gerwers sel . hus"/>
+        <role role="owner" ref="1773" text="Hansen Huttners des gerwers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="61" end="64" ref="1803" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1779" text="Hans Wernhers des Metzgers gartten"/>
+        <role role="owner" ref="1647" text="Hans Wernhers des Metzgers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="77" ref="" type="event">
+      <trigger start="12" end="12" text="verkaufen" ref="1809"/>
+      <event event_id="7.0">
+        <role role="seller" ref="1447" text="Wylhelm Wyler der Glaser"/>
+        <role role="seller" ref="1471" text="seine Frau Barbara Pfisterin"/>
+        <role role="buyer" ref="1508" text="Heinrichen von Bysanntz , den schlacher&#10;hindersess zu Basel"/>
+        <role role="buyer" ref="1532" text="seine Frau Gladma"/>
+        <role role="property" ref="1569" text="das Hus u .&#10;Hofstatt , under den gerwern , am obern Byrsich , zwüschen&#10;dem Hus crützberg , und Hansen Huttners des gerwers sel . hus&#10;u . hinden an Hans Wernhers des Metzgers gartten glegen ,&#10;und indern Egckhenhein genant ist"/>
+        <role role="price" ref="1677" text="185 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="30" end="96" ref="" type="state">
+      <trigger start="78" end="78" text="zinst" ref="1815"/>
+      <event event_id="8.0">
+        <role role="property" ref="1569" text="das Hus u .&#10;Hofstatt , under den gerwern , am obern Byrsich , zwüschen&#10;dem Hus crützberg , und Hansen Huttners des gerwers sel . hus&#10;u . hinden an Hans Wernhers des Metzgers gartten glegen ,&#10;und indern Egckhenhein genant ist"/>
+        <role role="interval" ref="1713" text="jährl ."/>
+        <role role="beneficiary" ref="1683" text="der Bruderschaft s . Johans uff Burg"/>
+        <role role="interest" ref="1785" text="5sh ."/>
+      </event>
+      <event event_id="8.1">
+        <role role="property" ref="1569" text="das Hus u .&#10;Hofstatt , under den gerwern , am obern Byrsich , zwüschen&#10;dem Hus crützberg , und Hansen Huttners des gerwers sel . hus&#10;u . hinden an Hans Wernhers des Metzgers gartten glegen ,&#10;und indern Egckhenhein genant ist"/>
+        <role role="interval" ref="1713" text="jährl ."/>
+        <role role="beneficiary" ref="1695" text="dem Augustinercloster"/>
+        <role role="interest" ref="1791" text="10 sh ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

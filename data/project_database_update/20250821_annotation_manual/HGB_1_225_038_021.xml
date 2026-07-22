@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 225/38 S. [21, 22]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Utengasse 31</tei:title>
+            <tei:idno>HGB 1 225/38</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1534883</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1545">1545</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611676.143877335 1267682.0183070595</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">do</token>
+    <token token_id="2">gebenn</token>
+    <token token_id="3">zu</token>
+    <token token_id="4">kuffenn</token>
+    <token token_id="5">der</token>
+    <token token_id="6">ersam</token>
+    <token token_id="7">her</token>
+    <token token_id="8">Johann</token>
+    <token token_id="9">Aldenberger</token>
+    <token token_id="10">burger</token>
+    <token token_id="11">zu</token>
+    <token token_id="12">Basel</token>
+    <token token_id="13">und</token>
+    <token token_id="14">fruw</token>
+    <token token_id="15">Setronella</token>
+    <token token_id="16">Wekerin</token>
+    <token token_id="17">genant</token>
+    <token token_id="18">Riffin</token>
+    <token token_id="19">von</token>
+    <token token_id="20">Bledeck</token>
+    <token token_id="21">sin</token>
+    <token token_id="22">eren</token>
+    <token token_id="23">gmachel</token>
+    <token token_id="24">,</token>
+    <token token_id="25">dem</token>
+    <token token_id="26">ersamen</token>
+    <token token_id="27">Jo</token>
+    <token token_id="28">.</token>
+    <token token_id="29">hann</token>
+    <token token_id="30">Rust</token>
+    <token token_id="31">hindersess</token>
+    <token token_id="32">zu</token>
+    <token token_id="33">Basel</token>
+    <token token_id="34">,</token>
+    <token token_id="35">daß</token>
+    <token token_id="36">huß</token>
+    <token token_id="37">und</token>
+    <token token_id="38">hoffstatt</token>
+    <token token_id="39">sampt</token>
+    <token token_id="40">bedenn</token>
+    <token token_id="41">gertten</token>
+    <token token_id="42">dorhin</token>
+    <token token_id="43">der</token>
+    <token token_id="44">und</token>
+    <token token_id="45">dornebenn</token>
+    <token token_id="46">,</token>
+    <token token_id="47">alß</token>
+    <token token_id="48">dan</token>
+    <token token_id="49">daß</token>
+    <token token_id="50">zu</token>
+    <token token_id="51">minde</token>
+    <token token_id="52">¬</token>
+    <token token_id="53">obenn</token>
+    <token token_id="54">an</token>
+    <token token_id="55">der</token>
+    <token token_id="56">Uttengassenn</token>
+    <token token_id="57">glegen</token>
+    <token token_id="58">ist</token>
+    <token token_id="59">stoßt</token>
+    <token token_id="60">daß</token>
+    <token token_id="61">huß</token>
+    <token token_id="62">zu</token>
+    <token token_id="63">einer</token>
+    <token token_id="64">siten</token>
+    <token token_id="65">an</token>
+    <token token_id="66">Fridlin</token>
+    <token token_id="67">Hüslers</token>
+    <token token_id="68">des</token>
+    <token token_id="69">papirers</token>
+    <token token_id="70">garttenn</token>
+    <token token_id="71">und</token>
+    <token token_id="72">zur</token>
+    <token token_id="73">andren</token>
+    <token token_id="74">sittenn</token>
+    <token token_id="75">mit</token>
+    <token token_id="76">dem</token>
+    <token token_id="77">neben</token>
+    <token token_id="78">garttenn</token>
+    <token token_id="79">an</token>
+    <token token_id="80">Hanß</token>
+    <token token_id="81">Hart</token>
+    <token token_id="82">manns</token>
+    <token token_id="83">garttenn</token>
+    <token token_id="84">und</token>
+    <token token_id="85">stoßt</token>
+    <token token_id="86">hinden</token>
+    <token token_id="87">an</token>
+    <token token_id="88">miner</token>
+    <token token_id="89">herrenn</token>
+    <token token_id="90">werckhoff</token>
+    <token token_id="91">,</token>
+    <token token_id="92">zinsett</token>
+    <token token_id="93">daß</token>
+    <token token_id="94">huß</token>
+    <token token_id="95">und</token>
+    <token token_id="96">garttenn</token>
+    <token token_id="97">dorhinder</token>
+    <token token_id="98">jerlichs</token>
+    <token token_id="99">der</token>
+    <token token_id="100">lüttkilchenn</token>
+    <token token_id="101">sant</token>
+    <token token_id="102">Martin</token>
+    <token token_id="103">zu</token>
+    <token token_id="104">Basel</token>
+    <token token_id="105">uff</token>
+    <token token_id="106">mitfastenn</token>
+    <token token_id="107">fünff</token>
+    <token token_id="108">gulden</token>
+    <token token_id="109">gelts</token>
+    <token token_id="110">,</token>
+    <token token_id="111">so</token>
+    <token token_id="112">dann</token>
+    <token token_id="113">ouch</token>
+    <token token_id="114">der</token>
+    <token token_id="115">presentz</token>
+  </text>
+  <spans>
+    <span id="2127" start="4" end="4" text="kuffenn" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1850" start="5" end="23" text="der ersam her&#10;Johann Aldenberger burger zu Basel und&#10;fruw Setronella Wekerin genant Riffin von&#10;Bledeck sin eren gmachel" element="list" class="per" subclass="">
+      <span id="1760" start="5" end="12" text="der ersam her&#10;Johann Aldenberger burger zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1766" start="8" end="9" text="Johann Aldenberger" element="head" class="nam" subclass=""/>
+        <span id="1772" start="10" end="12" text="burger zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1778" start="10" end="10" text="burger" element="head" class="org-aff" subclass=""/>
+          <span id="1784" start="12" end="12" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1784_head" start="12" end="12" element="head" class="nam" text="Basel" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1856" start="14" end="23" text="fruw Setronella Wekerin genant Riffin von&#10;Bledeck sin eren gmachel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1796" start="15" end="16" text="Setronella Wekerin" element="head" class="nam" subclass=""/>
+        <span id="1802" start="18" end="18" text="Riffin" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1802_head" start="18" end="18" element="head" class="nam" text="Riffin" subclass=""/>
+        </span>
+        <span id="1814" start="19" end="20" text="von&#10;Bledeck" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1808" start="20" end="20" text="Bledeck" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1808_head" start="20" end="20" element="head" class="nam" text="Bledeck" subclass=""/>
+          </span>
+        </span>
+        <span id="1862" start="21" end="23" text="sin eren gmachel" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1874" start="21" end="21" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1874_head" start="21" end="21" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1868" start="23" end="23" text="gmachel" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1820" start="25" end="33" text="dem ersamen Jo .&#10;hann Rust hindersess zu Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1826" start="27" end="30" text="Jo .&#10;hann Rust" element="head" class="nam" subclass=""/>
+      <span id="1832" start="31" end="33" text="hindersess zu Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1838" start="31" end="31" text="hindersess" element="head" class="org-aff" subclass=""/>
+        <span id="1844" start="33" end="33" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1844_head" start="33" end="33" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1917" start="35" end="115" text="daß huß&#10;und hoffstatt sampt bedenn gertten dorhin&#10;der und dornebenn , alß dan daß zu minde ¬&#10;obenn an der Uttengassenn glegen ist stoßt&#10;daß huß zu einer siten an Fridlin Hüslers&#10;des papirers garttenn und zur andren sittenn&#10;mit dem neben garttenn an Hanß Hart&#10;manns garttenn und stoßt hinden an miner&#10;herrenn werckhoff , zinsett daß huß und&#10;garttenn dorhinder jerlichs der lüttkilchenn&#10;sant Martin zu Basel uff mitfastenn&#10;fünff gulden gelts , so dann ouch der presentz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1887" start="36" end="38" text="huß&#10;und hoffstatt" element="head" class="type" subclass=""/>
+      <span id="1893" start="39" end="45" text="sampt bedenn gertten dorhin&#10;der und dornebenn" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1899" start="40" end="41" text="bedenn gertten" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1905" start="41" end="41" text="gertten" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1923" start="47" end="90" text="alß dan daß zu minde ¬&#10;obenn an der Uttengassenn glegen ist stoßt&#10;daß huß zu einer siten an Fridlin Hüslers&#10;des papirers garttenn und zur andren sittenn&#10;mit dem neben garttenn an Hanß Hart&#10;manns garttenn und stoßt hinden an miner&#10;herrenn werckhoff" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1929" start="55" end="56" text="der Uttengassenn" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1935" start="56" end="56" text="Uttengassenn" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1941" start="60" end="61" text="daß huß" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1947" start="61" end="61" text="huß" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1953" start="66" end="70" text="Fridlin Hüslers&#10;des papirers garttenn" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1989" start="66" end="69" text="Fridlin Hüslers&#10;des papirers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1965" start="66" end="69" text="Fridlin Hüslers&#10;des papirers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1971" start="66" end="67" text="Fridlin Hüslers" element="head" class="nam" subclass=""/>
+              <span id="1977" start="68" end="69" text="des papirers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1983" start="69" end="69" text="papirers" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1959" start="70" end="70" text="garttenn" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1995" start="76" end="78" text="dem neben garttenn" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2001" start="77" end="78" text="neben garttenn" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2007" start="80" end="83" text="Hanß Hart&#10;manns garttenn" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2025" start="80" end="82" text="Hanß Hart&#10;manns" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2019" start="80" end="82" text="Hanß Hart&#10;manns" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2019_head" start="80" end="82" element="head" class="nam" text="Hanß Hart manns" subclass=""/>
+            </span>
+          </span>
+          <span id="2013" start="83" end="83" text="garttenn" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2031" start="88" end="90" text="miner&#10;herrenn werckhoff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2049" start="88" end="89" text="miner&#10;herrenn" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2043" start="88" end="89" text="miner&#10;herrenn" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2043_head" start="88" end="89" element="head" class="type" text="miner herrenn" subclass=""/>
+            </span>
+          </span>
+          <span id="2037" start="90" end="90" text="werckhoff" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="2121" start="92" end="115" text="zinsett daß huß und&#10;garttenn dorhinder jerlichs der lüttkilchenn&#10;sant Martin zu Basel uff mitfastenn&#10;fünff gulden gelts , so dann ouch der presentz" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2159" start="92" end="92" text="zinsett" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2139" start="93" end="97" text="daß huß und&#10;garttenn dorhinder" element="list" class="fac" subclass="">
+          <span id="2055" start="93" end="94" text="daß huß" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2061" start="94" end="94" text="huß" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2133" start="96" end="97" text="garttenn dorhinder" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2165" start="96" end="96" text="garttenn" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+        <span id="2067" start="98" end="98" text="jerlichs" element="value" class="time" subclass="rec"/>
+        <span id="2073" start="99" end="104" text="der lüttkilchenn&#10;sant Martin zu Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2079" start="100" end="102" text="lüttkilchenn&#10;sant Martin" element="head" class="nam" subclass=""/>
+          <span id="2085" start="103" end="104" text="zu Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2091" start="104" end="104" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2091_head" start="104" end="104" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2097" start="105" end="106" text="uff mitfastenn" element="value" class="date" subclass=""/>
+        <span id="2103" start="107" end="109" text="fünff gulden gelts" element="value" class="money" subclass=""/>
+        <span id="2109" start="114" end="115" text="der presentz" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2115" start="115" end="115" text="presentz" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1880" from="1874" to="1760" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2145" from="2055" to="1917" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2152" from="2133" to="1899" class="part-of" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="10" end="12" ref="1772" type="state">
+      <trigger start="10" end="10" text="burger" ref="1778"/>
+      <event event_id="0.0">
+        <role role="resident" ref="1760" text="der ersam her&#10;Johann Aldenberger burger zu Basel"/>
+        <role role="geopolitical-entity" ref="1784" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="21" end="23" ref="1862" type="state">
+      <trigger start="23" end="23" text="gmachel" ref="1868"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1856" text="fruw Setronella Wekerin genant Riffin von&#10;Bledeck sin eren gmachel"/>
+        <role role="family-b" ref="1874" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="31" end="33" ref="1832" type="state">
+      <trigger start="31" end="31" text="hindersess" ref="1838"/>
+      <event event_id="2.0">
+        <role role="resident" ref="1820" text="dem ersamen Jo .&#10;hann Rust hindersess zu Basel"/>
+        <role role="geopolitical-entity" ref="1844" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="19" end="20" ref="1814" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1856" text="fruw Setronella Wekerin genant Riffin von&#10;Bledeck sin eren gmachel"/>
+        <role role="location-b" ref="1808" text="Bledeck"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="39" end="45" ref="1893" type="state">
+      <event event_id="4.0">
+        <role role="whole" ref="1917" text="daß huß&#10;und hoffstatt sampt bedenn gertten dorhin&#10;der und dornebenn , alß dan daß zu minde ¬&#10;obenn an der Uttengassenn glegen ist stoßt&#10;daß huß zu einer siten an Fridlin Hüslers&#10;des papirers garttenn und zur andren sittenn&#10;mit dem neben garttenn an Hanß Hart&#10;manns garttenn und stoßt hinden an miner&#10;herrenn werckhoff , zinsett daß huß und&#10;garttenn dorhinder jerlichs der lüttkilchenn&#10;sant Martin zu Basel uff mitfastenn&#10;fünff gulden gelts , so dann ouch der presentz"/>
+        <role role="part" ref="1899" text="bedenn gertten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="47" end="90" ref="1923" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1917" text="daß huß&#10;und hoffstatt sampt bedenn gertten dorhin&#10;der und dornebenn , alß dan daß zu minde ¬&#10;obenn an der Uttengassenn glegen ist stoßt&#10;daß huß zu einer siten an Fridlin Hüslers&#10;des papirers garttenn und zur andren sittenn&#10;mit dem neben garttenn an Hanß Hart&#10;manns garttenn und stoßt hinden an miner&#10;herrenn werckhoff , zinsett daß huß und&#10;garttenn dorhinder jerlichs der lüttkilchenn&#10;sant Martin zu Basel uff mitfastenn&#10;fünff gulden gelts , so dann ouch der presentz"/>
+        <role role="location-b" ref="1929" text="der Uttengassenn"/>
+        <role role="location-b" ref="1941" text="daß huß"/>
+        <role role="location-b" ref="1953" text="Fridlin Hüslers&#10;des papirers garttenn"/>
+        <role role="location-b" ref="1995" text="dem neben garttenn"/>
+        <role role="location-b" ref="2007" text="Hanß Hart&#10;manns garttenn"/>
+        <role role="location-b" ref="2031" text="miner&#10;herrenn werckhoff"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="66" end="69" ref="1989" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1953" text="Fridlin Hüslers&#10;des papirers garttenn"/>
+        <role role="owner" ref="1965" text="Fridlin Hüslers&#10;des papirers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="80" end="82" ref="2025" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="2007" text="Hanß Hart&#10;manns garttenn"/>
+        <role role="owner" ref="2019" text="Hanß Hart&#10;manns"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="ownership" polarity="pos" tense="pres" modality="ass" start="88" end="89" ref="2049" type="state">
+      <event event_id="8.0">
+        <role role="property" ref="2031" text="miner&#10;herrenn werckhoff"/>
+        <role role="owner" ref="2043" text="miner&#10;herrenn"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="92" end="115" ref="2121" type="state">
+      <trigger start="92" end="92" text="zinsett" ref="2159"/>
+      <event event_id="9.0">
+        <role role="property" ref="2055" text="daß huß"/>
+        <role role="property" ref="2133" text="garttenn dorhinder"/>
+        <role role="interval" ref="2067" text="jerlichs"/>
+        <role role="beneficiary" ref="2073" text="der lüttkilchenn&#10;sant Martin zu Basel"/>
+        <role role="due-date" ref="2097" text="uff mitfastenn"/>
+        <role role="interest" ref="2103" text="fünff gulden gelts"/>
+      </event>
+      <event event_id="9.1">
+        <role role="property" ref="2055" text="daß huß"/>
+        <role role="property" ref="2133" text="garttenn dorhinder"/>
+        <role role="beneficiary" ref="2109" text="der presentz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="topological" polarity="pos" tense="pres" modality="ass" start="103" end="104" ref="2085" type="state">
+      <event event_id="10.0">
+        <role role="location-a" ref="2073" text="der lüttkilchenn&#10;sant Martin zu Basel"/>
+        <role role="location-b" ref="2091" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="4" end="4" ref="" type="event">
+      <trigger start="4" end="4" text="kuffenn" ref="2127"/>
+      <event event_id="11.0">
+        <role role="seller" ref="1760" text="der ersam her&#10;Johann Aldenberger burger zu Basel"/>
+        <role role="seller" ref="1856" text="fruw Setronella Wekerin genant Riffin von&#10;Bledeck sin eren gmachel"/>
+        <role role="buyer" ref="1820" text="dem ersamen Jo .&#10;hann Rust hindersess zu Basel"/>
+        <role role="property" ref="1917" text="daß huß&#10;und hoffstatt sampt bedenn gertten dorhin&#10;der und dornebenn , alß dan daß zu minde ¬&#10;obenn an der Uttengassenn glegen ist stoßt&#10;daß huß zu einer siten an Fridlin Hüslers&#10;des papirers garttenn und zur andren sittenn&#10;mit dem neben garttenn an Hanß Hart&#10;manns garttenn und stoßt hinden an miner&#10;herrenn werckhoff , zinsett daß huß und&#10;garttenn dorhinder jerlichs der lüttkilchenn&#10;sant Martin zu Basel uff mitfastenn&#10;fünff gulden gelts , so dann ouch der presentz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="12.0">
+        <role role="part" ref="2133" text="garttenn dorhinder"/>
+        <role role="whole" ref="1899" text="bedenn gertten"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

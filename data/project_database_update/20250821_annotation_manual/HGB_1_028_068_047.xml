@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 28/68 S. [47]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Blumenrain 28</tei:title>
+            <tei:idno>HGB 1 28/68</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1464844</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1646">1646</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611145.353374399 1267845.0492066455</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Auf</token>
+    <token token_id="1">weil</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Daniel</token>
+    <token token_id="4">Dierris</token>
+    <token token_id="5">des</token>
+    <token token_id="6">Goldarbeiters</token>
+    <token token_id="7">Behausung</token>
+    <token token_id="8">bey</token>
+    <token token_id="9">st</token>
+    <token token_id="10">.</token>
+    <token token_id="11">Johannsen</token>
+    <token token_id="12">Schwibogen</token>
+    <token token_id="13">,</token>
+    <token token_id="14">hinden</token>
+    <token token_id="15">auf</token>
+    <token token_id="16">den</token>
+    <token token_id="17">Rhein</token>
+    <token token_id="18">stossend</token>
+    <token token_id="19">,</token>
+    <token token_id="20">haben</token>
+    <token token_id="21">sich</token>
+    <token token_id="22">angeben</token>
+    <token token_id="23">und</token>
+    <token token_id="24">einschreiben</token>
+    <token token_id="25">lassen</token>
+    <token token_id="26">.</token>
+    <token token_id="27">Frauw</token>
+    <token token_id="28">Elisabeth</token>
+    <token token_id="29">Adriannin</token>
+    <token token_id="30">,</token>
+    <token token_id="31">Jacob</token>
+    <token token_id="32">Wyberts</token>
+    <token token_id="33">Eheweib</token>
+    <token token_id="34">weger</token>
+    <token token_id="35">der</token>
+    <token token_id="36">Zugs</token>
+    <token token_id="37">derechtigkeit</token>
+    <token token_id="38">,</token>
+    <token token_id="39">dass</token>
+    <token token_id="40">sie</token>
+    <token token_id="41">nämblich</token>
+    <token token_id="42">solche</token>
+    <token token_id="43">Behausung</token>
+    <token token_id="44">ziehen</token>
+    <token token_id="45">wolle</token>
+    <token token_id="46">.</token>
+    <token token_id="47">Item</token>
+    <token token_id="48">Peter</token>
+    <token token_id="49">und</token>
+    <token token_id="50">Frantz</token>
+    <token token_id="51">Dierri</token>
+    <token token_id="52">die</token>
+    <token token_id="53">Verkäufer</token>
+    <token token_id="54">als</token>
+    <token token_id="55">Vogt</token>
+    <token token_id="56">sein</token>
+    <token token_id="57">Daniel</token>
+    <token token_id="58">Dierris</token>
+    <token token_id="59">sel</token>
+    <token token_id="60">.</token>
+    <token token_id="61">Rhinder</token>
+    <token token_id="62">,</token>
+    <token token_id="63">wollen</token>
+    <token token_id="64">den</token>
+    <token token_id="65">Kauf</token>
+    <token token_id="66">nicht</token>
+    <token token_id="67">gelten</token>
+    <token token_id="68">lassen</token>
+    <token token_id="69">,</token>
+    <token token_id="70">wen</token>
+    <token token_id="71">Augustin</token>
+    <token token_id="72">Schnell</token>
+    <token token_id="73">der</token>
+    <token token_id="74">Keufer</token>
+    <token token_id="75">die</token>
+    <token token_id="76">Behausung</token>
+    <token token_id="77">für</token>
+    <token token_id="78">jemand</token>
+    <token token_id="79">ander</token>
+    <token token_id="80">¬</token>
+    <token token_id="81">als</token>
+    <token token_id="82">für</token>
+    <token token_id="83">sich</token>
+    <token token_id="84">selbst</token>
+    <token token_id="85">erkaufft</token>
+    <token token_id="86">habe</token>
+    <token token_id="87">und</token>
+    <token token_id="88">er</token>
+    <token token_id="89">solches</token>
+    <token token_id="90">mit</token>
+    <token token_id="91">einem</token>
+    <token token_id="92">leiblichen</token>
+    <token token_id="93">Eydt</token>
+    <token token_id="94">bestehdigen</token>
+    <token token_id="95">müsse</token>
+    <token token_id="96">.</token>
+  </text>
+  <spans>
+    <span id="1387" start="1" end="18" text="weil . Daniel Dierris des Goldarbeiters Behausung bey st . Johannsen&#10;Schwibogen , hinden auf den Rhein stossend" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1638" start="1" end="6" text="weil . Daniel Dierris des Goldarbeiters" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1399" start="1" end="6" text="weil . Daniel Dierris des Goldarbeiters" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1405" start="3" end="4" text="Daniel Dierris" element="head" class="nam" subclass=""/>
+          <span id="1411" start="5" end="6" text="des Goldarbeiters" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1417" start="6" end="6" text="Goldarbeiters" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1393" start="7" end="7" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="1423" start="8" end="18" text="bey st . Johannsen&#10;Schwibogen , hinden auf den Rhein stossend" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1429" start="9" end="12" text="st . Johannsen&#10;Schwibogen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1429_head" start="9" end="12" element="head" class="nam" text="st . Johannsen Schwibogen" subclass=""/>
+        </span>
+        <span id="1435" start="16" end="17" text="den Rhein" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1441" start="17" end="17" text="Rhein" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1447" start="27" end="33" text="Frauw Elisabeth Adriannin , Jacob Wyberts Eheweib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1453" start="28" end="29" text="Elisabeth Adriannin" element="head" class="nam" subclass=""/>
+      <span id="1550" start="31" end="33" text="Jacob Wyberts Eheweib" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1459" start="31" end="32" text="Jacob Wyberts" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1459_head" start="31" end="32" element="head" class="nam" text="Jacob Wyberts" subclass=""/>
+        </span>
+        <span id="1556" start="33" end="33" text="Eheweib" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1562" start="40" end="40" text="sie" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1562_head" start="40" end="40" element="head" class="pro" text="sie" subclass=""/>
+    </span>
+    <span id="1465" start="42" end="43" text="solche Behausung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1471" start="43" end="43" text="Behausung" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1582" start="48" end="53" text="Peter und Frantz Dierri die Verkäufer" element="list" class="per" subclass="">
+      <span id="1477" start="48" end="48" text="Peter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1477_head" start="48" end="48" element="head" class="nam" text="Peter" subclass=""/>
+      </span>
+      <span id="1483" start="50" end="51" text="Frantz Dierri" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1483_head" start="50" end="51" element="head" class="nam" text="Frantz Dierri" subclass=""/>
+      </span>
+      <span id="1588" start="52" end="53" text="die Verkäufer" element="appo" class="role" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1594" start="53" end="53" text="Verkäufer" element="head" class="role" subclass=""/>
+      </span>
+    </span>
+    <span id="1619" start="56" end="61" text="sein Daniel&#10;Dierris sel . Rhinder" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1613" start="56" end="60" text="sein Daniel&#10;Dierris sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1489" start="57" end="58" text="Daniel&#10;Dierris" element="head" class="nam" subclass=""/>
+        <span id="1495" start="59" end="60" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="1501" start="61" end="61" text="Rhinder" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="1507" start="71" end="74" text="Augustin Schnell der Keufer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1513" start="71" end="72" text="Augustin Schnell" element="head" class="nam" subclass=""/>
+      <span id="1519" start="73" end="74" text="der Keufer" element="appo" class="role" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1525" start="74" end="74" text="Keufer" element="head" class="role" subclass=""/>
+      </span>
+    </span>
+    <span id="1531" start="75" end="76" text="die Behausung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1537" start="76" end="76" text="Behausung" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1632" start="78" end="80" text="jemand ander ¬" element="reference" class="per" numerus="sgl" specificity="uspc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1632_head" start="78" end="80" element="head" class="pro" text="jemand ander ¬" subclass=""/>
+    </span>
+    <span id="1600" start="88" end="88" text="er" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1600_head" start="88" end="88" element="head" class="pro" text="er" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1575" from="1465" to="1387" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1568" from="1562" to="1447" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1543" from="1531" to="1465" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1625" from="1582" to="1619" class="per-repr" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1606" from="1600" to="1507" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="56" end="61" ref="1619" type="state">
+      <trigger start="61" end="61" text="Rhinder" ref="1501"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1619" text="sein Daniel&#10;Dierris sel . Rhinder"/>
+        <role role="family-b" ref="1613" text="sein Daniel&#10;Dierris sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="31" end="33" ref="1550" type="state">
+      <trigger start="33" end="33" text="Eheweib" ref="1556"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1447" text="Frauw Elisabeth Adriannin , Jacob Wyberts Eheweib"/>
+        <role role="family-b" ref="1459" text="Jacob Wyberts"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="1" end="6" ref="1638" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1387" text="weil . Daniel Dierris des Goldarbeiters Behausung bey st . Johannsen&#10;Schwibogen , hinden auf den Rhein stossend"/>
+        <role role="owner" ref="1399" text="weil . Daniel Dierris des Goldarbeiters"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="8" end="18" ref="1423" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1387" text="weil . Daniel Dierris des Goldarbeiters Behausung bey st . Johannsen&#10;Schwibogen , hinden auf den Rhein stossend"/>
+        <role role="location-b" ref="1429" text="st . Johannsen&#10;Schwibogen"/>
+        <role role="location-b" ref="1435" text="den Rhein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="4.0">
+        <role role="representative" ref="1477" text="Peter"/>
+        <role role="represented" ref="1619" text="sein Daniel&#10;Dierris sel . Rhinder"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="5.0">
+        <role role="representative" ref="1483" text="Frantz Dierri"/>
+        <role role="represented" ref="1619" text="sein Daniel&#10;Dierris sel . Rhinder"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

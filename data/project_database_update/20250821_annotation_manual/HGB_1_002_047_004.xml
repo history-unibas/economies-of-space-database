@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 2/47 S. [4, 5]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Aeschenvorstadt 39</tei:title>
+            <tei:idno>HGB 1 2/47</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1432848</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1412">1412</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611639.564595794 1266904.2783845486</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">git</token>
+    <token token_id="2">ze</token>
+    <token token_id="3">koffende</token>
+    <token token_id="4">Grede</token>
+    <token token_id="5">von</token>
+    <token token_id="6">Arx</token>
+    <token token_id="7">Elscimen</token>
+    <token token_id="8">von</token>
+    <token token_id="9">Arx</token>
+    <token token_id="10">selige</token>
+    <token token_id="11">tohter</token>
+    <token token_id="12">in</token>
+    <token token_id="13">ze</token>
+    <token token_id="14">ziten</token>
+    <token token_id="15">efrow</token>
+    <token token_id="16">Ulrich</token>
+    <token token_id="17">Geburensint</token>
+    <token token_id="18">dez</token>
+    <token token_id="19">zimermans</token>
+    <token token_id="20">ze</token>
+    <token token_id="21">Nuwemburg</token>
+    <token token_id="22">gesessen</token>
+    <token token_id="23">,</token>
+    <token token_id="24">Heintzi</token>
+    <token token_id="25">Tnider</token>
+    <token token_id="26">von</token>
+    <token token_id="27">Dornach</token>
+    <token token_id="28">dem</token>
+    <token token_id="29">Karrer</token>
+    <token token_id="30">burger</token>
+    <token token_id="31">ze</token>
+    <token token_id="32">Basel</token>
+    <token token_id="33">daz</token>
+    <token token_id="34">huse</token>
+    <token token_id="35">und</token>
+    <token token_id="36">hofstat</token>
+    <token token_id="37">so</token>
+    <token token_id="38">man</token>
+    <token token_id="39">nemmet</token>
+    <token token_id="40">zem</token>
+    <token token_id="41">(</token>
+    <token token_id="42">folgt</token>
+    <token token_id="43">ein</token>
+    <token token_id="44">überschrieben</token>
+    <token token_id="45">unlesserlich</token>
+    <token token_id="46">Wort</token>
+    <token token_id="47">)</token>
+    <token token_id="48">vor</token>
+    <token token_id="49">und</token>
+    <token token_id="50">hinder</token>
+    <token token_id="51">gelegen</token>
+    <token token_id="52">in</token>
+    <token token_id="53">der</token>
+    <token token_id="54">vorstat</token>
+    <token token_id="55">ze</token>
+    <token token_id="56">Eschemertor</token>
+    <token token_id="57">an</token>
+    <token token_id="58">demme</token>
+    <token token_id="59">huse</token>
+    <token token_id="60">so</token>
+    <token token_id="61">man</token>
+    <token token_id="62">nemmete</token>
+    <token token_id="63">Wagenberg</token>
+    <token token_id="64">und</token>
+    <token token_id="65">He</token>
+    <token token_id="66">Brunlig</token>
+    <token token_id="67">von</token>
+    <token token_id="68">Cappelle</token>
+    <token token_id="69">ist</token>
+    <token token_id="70">erbe</token>
+    <token token_id="71">von</token>
+    <token token_id="72">eime</token>
+    <token token_id="73">cappellon</token>
+    <token token_id="74">so</token>
+    <token token_id="75">ie</token>
+    <token token_id="76">ist</token>
+    <token token_id="77">der</token>
+    <token token_id="78">phrunde</token>
+    <token token_id="79">sant</token>
+    <token token_id="80">Veren</token>
+    <token token_id="81">altars</token>
+    <token token_id="82">in</token>
+    <token token_id="83">ettia</token>
+    <token token_id="84">Basel</token>
+    <token token_id="85">,</token>
+    <token token_id="86">Joh</token>
+    <token token_id="87">Bratteller</token>
+    <token token_id="88">git</token>
+    <token token_id="89">man</token>
+    <token token_id="90">1</token>
+    <token token_id="91">℔</token>
+    <token token_id="92">zins</token>
+    <token token_id="93">ȡ</token>
+    <token token_id="94">angati</token>
+    <token token_id="95">2</token>
+    <token token_id="96">hunre</token>
+    <token token_id="97">2ring</token>
+    <token token_id="98">ze</token>
+    <token token_id="99">wiß</token>
+    <token token_id="100">halb</token>
+    <token token_id="101">Martini</token>
+    <token token_id="102">halb</token>
+    <token token_id="103">an</token>
+    <token token_id="104">carnis</token>
+    <token token_id="105">hino</token>
+    <token token_id="106">und</token>
+    <token token_id="107">5ß</token>
+    <token token_id="108">erschatz</token>
+    <token token_id="109">,</token>
+    <token token_id="110">item</token>
+    <token token_id="111">2</token>
+    <token token_id="112">guldin</token>
+    <token token_id="113">geltz</token>
+    <token token_id="114">Hedilz</token>
+    <token token_id="115">gud</token>
+    <token token_id="116">Bertzschi</token>
+    <token token_id="117">Eberli</token>
+    <token token_id="118">dnnatt</token>
+    <token token_id="119">Joh</token>
+    <token token_id="120">bapte</token>
+    <token token_id="121">et</token>
+    <token token_id="122">,</token>
+    <token token_id="123">mni</token>
+    <token token_id="124">ji</token>
+    <token token_id="125">Joh</token>
+    <token token_id="126">ent</token>
+    <token token_id="127">pro</token>
+    <token token_id="128">20gl</token>
+    <token token_id="129">.</token>
+  </text>
+  <spans>
+    <span id="2223" start="1" end="3" text="git ze koffende" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1898" start="4" end="22" text="Grede von Arx Elscimen&#10;von Arx selige tohter in ze ziten efrow Ulrich&#10;Geburensint dez zimermans ze Nuwemburg&#10;gesessen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1904" start="4" end="6" text="Grede von Arx" element="head" class="nam" subclass=""/>
+      <span id="1910" start="7" end="11" text="Elscimen&#10;von Arx selige tohter" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1922" start="7" end="10" text="Elscimen&#10;von Arx selige" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1928" start="7" end="9" text="Elscimen&#10;von Arx" element="head" class="nam" subclass=""/>
+          <span id="1934" start="10" end="10" text="selige" element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        </span>
+        <span id="1916" start="11" end="11" text="tohter" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="1940" start="13" end="22" text="ze ziten efrow Ulrich&#10;Geburensint dez zimermans ze Nuwemburg&#10;gesessen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1946" start="15" end="15" text="efrow" element="head" class="fam" subclass=""/>
+        <span id="1952" start="16" end="22" text="Ulrich&#10;Geburensint dez zimermans ze Nuwemburg&#10;gesessen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1958" start="16" end="17" text="Ulrich&#10;Geburensint" element="head" class="nam" subclass=""/>
+          <span id="1964" start="18" end="19" text="dez zimermans" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1970" start="19" end="19" text="zimermans" element="head" class="occ" subclass=""/>
+          </span>
+          <span id="1976" start="20" end="22" text="ze Nuwemburg&#10;gesessen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1982" start="21" end="21" text="Nuwemburg" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1982_head" start="21" end="21" element="head" class="nam" text="Nuwemburg" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1988" start="24" end="32" text="Heintzi Tnider von Dornach dem&#10;Karrer burger ze Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1994" start="24" end="25" text="Heintzi Tnider" element="head" class="nam" subclass=""/>
+      <span id="2000" start="26" end="27" text="von Dornach" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2006" start="27" end="27" text="Dornach" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2006_head" start="27" end="27" element="head" class="nam" text="Dornach" subclass=""/>
+        </span>
+      </span>
+      <span id="2012" start="28" end="29" text="dem&#10;Karrer" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2018" start="29" end="29" text="Karrer" element="head" class="occ" subclass=""/>
+      </span>
+      <span id="2024" start="30" end="32" text="burger ze Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2030" start="30" end="30" text="burger" element="head" class="org-aff" subclass=""/>
+        <span id="2036" start="32" end="32" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2036_head" start="32" end="32" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2217" start="33" end="120" text="daz huse und hofstat&#10;so man nemmet zem ( folgt ein überschrieben&#10;unlesserlich Wort ) vor und hinder gelegen in&#10;der vorstat ze Eschemertor an demme huse so&#10;man nemmete Wagenberg und He Brunlig&#10;von Cappelle ist erbe von eime cappellon&#10;so ie ist der phrunde sant Veren altars in&#10;ettia Basel , Joh Bratteller git man 1 ℔ zins ȡ&#10;angati 2 hunre 2ring ze wiß halb Martini&#10;halb an carnis hino und 5ß erschatz , item&#10;2 guldin geltz Hedilz gud Bertzschi Eberli dnnatt&#10;Joh bapte" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2042" start="34" end="36" text="huse und hofstat" element="head" class="type" subclass=""/>
+      <span id="2048" start="48" end="63" text="vor und hinder gelegen in&#10;der vorstat ze Eschemertor an demme huse so&#10;man nemmete Wagenberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2054" start="53" end="56" text="der vorstat ze Eschemertor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="2060" start="54" end="54" text="vorstat" element="head" class="type" subclass=""/>
+          <span id="2066" start="55" end="56" text="ze Eschemertor" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2072" start="56" end="56" text="Eschemertor" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2072_head" start="56" end="56" element="head" class="nam" text="Eschemertor" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2078" start="58" end="63" text="demme huse so&#10;man nemmete Wagenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2084" start="59" end="59" text="huse" element="head" class="type" subclass=""/>
+          <span id="2090" start="63" end="63" text="Wagenberg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2090_head" start="63" end="63" element="head" class="nam" text="Wagenberg" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="2096" start="65" end="68" text="He Brunlig&#10;von Cappelle" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2108" start="65" end="65" text="He" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2108_head" start="65" end="65" element="head" class="title" text="He" subclass=""/>
+        </span>
+        <span id="2102" start="66" end="68" text="Brunlig&#10;von Cappelle" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="2265" start="69" end="84" text="ist erbe von eime cappellon&#10;so ie ist der phrunde sant Veren altars in&#10;ettia Basel" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2114" start="72" end="73" text="eime cappellon" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2120" start="73" end="73" text="cappellon" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2133" start="77" end="84" text="der phrunde sant Veren altars in&#10;ettia Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2139" start="78" end="81" text="phrunde sant Veren altars" element="head" class="nam" subclass=""/>
+          <span id="2145" start="82" end="84" text="in&#10;ettia Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2151" start="83" end="84" text="ettia Basel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="2151_head" start="83" end="84" element="head" class="nam" text="ettia Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2271" start="86" end="120" text="Joh Bratteller git man 1 ℔ zins ȡ&#10;angati 2 hunre 2ring ze wiß halb Martini&#10;halb an carnis hino und 5ß erschatz , item&#10;2 guldin geltz Hedilz gud Bertzschi Eberli dnnatt&#10;Joh bapte" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2157" start="86" end="87" text="Joh Bratteller" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2157_head" start="86" end="87" element="head" class="nam" text="Joh Bratteller" subclass=""/>
+        </span>
+        <span id="2229" start="88" end="88" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2181" start="90" end="93" text="1 ℔ zins ȡ" element="value" class="money" subclass=""/>
+        <span id="2277" start="94" end="94" text="angati" element="other" class="other" subclass=""/>
+        <span id="2169" start="95" end="96" text="2 hunre" element="value" class="money" subclass=""/>
+        <span id="2175" start="97" end="97" text="2ring" element="value" class="money" subclass=""/>
+        <span id="2235" start="98" end="99" text="ze wiß" element="other" class="other" subclass=""/>
+        <span id="2241" start="100" end="105" text="halb Martini&#10;halb an carnis hino" element="other" class="other" subclass="">
+          <span id="2193" start="101" end="101" text="Martini" element="value" class="date" subclass=""/>
+          <span id="2199" start="103" end="105" text="an carnis hino" element="value" class="date" subclass=""/>
+        </span>
+        <span id="2187" start="107" end="107" text="5ß" element="value" class="money" subclass=""/>
+        <span id="2247" start="108" end="108" text="erschatz" element="other" class="other" subclass=""/>
+        <span id="2253" start="111" end="112" text="2 guldin" element="value" class="money" subclass=""/>
+        <span id="2259" start="113" end="113" text="geltz" element="other" class="other" subclass=""/>
+        <span id="2289" start="115" end="117" text="gud Bertzschi Eberli" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2163" start="116" end="117" text="Bertzschi Eberli" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2205" start="118" end="120" text="dnnatt&#10;Joh bapte" element="value" class="date" subclass=""/>
+      </span>
+    </span>
+    <span id="2295" start="125" end="126" text="Joh ent" element="value" class="date" subclass=""/>
+    <span id="2211" start="128" end="129" text="20gl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2126" from="2096" to="2114" class="heir" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="11" ref="1910" type="state">
+      <trigger start="11" end="11" text="tohter" ref="1916"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1898" text="Grede von Arx Elscimen&#10;von Arx selige tohter in ze ziten efrow Ulrich&#10;Geburensint dez zimermans ze Nuwemburg&#10;gesessen"/>
+        <role role="family-b" ref="1922" text="Elscimen&#10;von Arx selige"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="13" end="22" ref="1940" type="state">
+      <trigger start="15" end="15" text="efrow" ref="1946"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1898" text="Grede von Arx Elscimen&#10;von Arx selige tohter in ze ziten efrow Ulrich&#10;Geburensint dez zimermans ze Nuwemburg&#10;gesessen"/>
+        <role role="family-b" ref="1952" text="Ulrich&#10;Geburensint dez zimermans ze Nuwemburg&#10;gesessen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="30" end="32" ref="2024" type="state">
+      <trigger start="30" end="30" text="burger" ref="2030"/>
+      <event event_id="3.0">
+        <role role="resident" ref="1988" text="Heintzi Tnider von Dornach dem&#10;Karrer burger ze Basel"/>
+        <role role="geopolitical-entity" ref="2036" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="22" ref="1976" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1952" text="Ulrich&#10;Geburensint dez zimermans ze Nuwemburg&#10;gesessen"/>
+        <role role="location-b" ref="1982" text="Nuwemburg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="26" end="27" ref="2000" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1988" text="Heintzi Tnider von Dornach dem&#10;Karrer burger ze Basel"/>
+        <role role="location-b" ref="2006" text="Dornach"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="48" end="63" ref="2048" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="2217" text="daz huse und hofstat&#10;so man nemmet zem ( folgt ein überschrieben&#10;unlesserlich Wort ) vor und hinder gelegen in&#10;der vorstat ze Eschemertor an demme huse so&#10;man nemmete Wagenberg und He Brunlig&#10;von Cappelle ist erbe von eime cappellon&#10;so ie ist der phrunde sant Veren altars in&#10;ettia Basel , Joh Bratteller git man 1 ℔ zins ȡ&#10;angati 2 hunre 2ring ze wiß halb Martini&#10;halb an carnis hino und 5ß erschatz , item&#10;2 guldin geltz Hedilz gud Bertzschi Eberli dnnatt&#10;Joh bapte"/>
+        <role role="location-b" ref="2054" text="der vorstat ze Eschemertor"/>
+        <role role="location-b" ref="2078" text="demme huse so&#10;man nemmete Wagenberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="55" end="56" ref="2066" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="2054" text="der vorstat ze Eschemertor"/>
+        <role role="location-b" ref="2072" text="Eschemertor"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="ownership" polarity="pos" tense="pres" modality="ass" start="69" end="84" ref="2265" type="state">
+      <event event_id="8.0">
+        <role role="property" ref="2217" text="daz huse und hofstat&#10;so man nemmet zem ( folgt ein überschrieben&#10;unlesserlich Wort ) vor und hinder gelegen in&#10;der vorstat ze Eschemertor an demme huse so&#10;man nemmete Wagenberg und He Brunlig&#10;von Cappelle ist erbe von eime cappellon&#10;so ie ist der phrunde sant Veren altars in&#10;ettia Basel , Joh Bratteller git man 1 ℔ zins ȡ&#10;angati 2 hunre 2ring ze wiß halb Martini&#10;halb an carnis hino und 5ß erschatz , item&#10;2 guldin geltz Hedilz gud Bertzschi Eberli dnnatt&#10;Joh bapte"/>
+        <role role="owner" ref="2114" text="eime cappellon"/>
+        <role role="owner" ref="2133" text="der phrunde sant Veren altars in&#10;ettia Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="topological" polarity="pos" tense="pres" modality="ass" start="82" end="84" ref="2145" type="state">
+      <event event_id="9.0">
+        <role role="location-a" ref="2133" text="der phrunde sant Veren altars in&#10;ettia Basel"/>
+        <role role="location-b" ref="2151" text="ettia Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="86" end="120" ref="2271" type="state">
+      <trigger start="88" end="88" text="git" ref="2229"/>
+      <event event_id="10.0">
+        <role role="property" ref="2217" text="daz huse und hofstat&#10;so man nemmet zem ( folgt ein überschrieben&#10;unlesserlich Wort ) vor und hinder gelegen in&#10;der vorstat ze Eschemertor an demme huse so&#10;man nemmete Wagenberg und He Brunlig&#10;von Cappelle ist erbe von eime cappellon&#10;so ie ist der phrunde sant Veren altars in&#10;ettia Basel , Joh Bratteller git man 1 ℔ zins ȡ&#10;angati 2 hunre 2ring ze wiß halb Martini&#10;halb an carnis hino und 5ß erschatz , item&#10;2 guldin geltz Hedilz gud Bertzschi Eberli dnnatt&#10;Joh bapte"/>
+        <role role="beneficiary" ref="2157" text="Joh Bratteller"/>
+        <role role="interest" ref="2181" text="1 ℔ zins ȡ"/>
+        <role role="interval" ref="2277" text="angati"/>
+      </event>
+      <event event_id="10.1">
+        <role role="property" ref="2217" text="daz huse und hofstat&#10;so man nemmet zem ( folgt ein überschrieben&#10;unlesserlich Wort ) vor und hinder gelegen in&#10;der vorstat ze Eschemertor an demme huse so&#10;man nemmete Wagenberg und He Brunlig&#10;von Cappelle ist erbe von eime cappellon&#10;so ie ist der phrunde sant Veren altars in&#10;ettia Basel , Joh Bratteller git man 1 ℔ zins ȡ&#10;angati 2 hunre 2ring ze wiß halb Martini&#10;halb an carnis hino und 5ß erschatz , item&#10;2 guldin geltz Hedilz gud Bertzschi Eberli dnnatt&#10;Joh bapte"/>
+        <role role="beneficiary" ref="2157" text="Joh Bratteller"/>
+        <role role="interest" ref="2169" text="2 hunre"/>
+        <role role="interest" ref="2175" text="2ring"/>
+        <role role="cause" ref="2235" text="ze wiß"/>
+        <role role="detail_date-due-detail" ref="2241" text="halb Martini&#10;halb an carnis hino"/>
+      </event>
+      <event event_id="10.2">
+        <role role="property" ref="2217" text="daz huse und hofstat&#10;so man nemmet zem ( folgt ein überschrieben&#10;unlesserlich Wort ) vor und hinder gelegen in&#10;der vorstat ze Eschemertor an demme huse so&#10;man nemmete Wagenberg und He Brunlig&#10;von Cappelle ist erbe von eime cappellon&#10;so ie ist der phrunde sant Veren altars in&#10;ettia Basel , Joh Bratteller git man 1 ℔ zins ȡ&#10;angati 2 hunre 2ring ze wiß halb Martini&#10;halb an carnis hino und 5ß erschatz , item&#10;2 guldin geltz Hedilz gud Bertzschi Eberli dnnatt&#10;Joh bapte"/>
+        <role role="beneficiary" ref="2157" text="Joh Bratteller"/>
+        <role role="interest" ref="2187" text="5ß"/>
+        <role role="cause" ref="2247" text="erschatz"/>
+      </event>
+      <event event_id="10.3">
+        <role role="property" ref="2217" text="daz huse und hofstat&#10;so man nemmet zem ( folgt ein überschrieben&#10;unlesserlich Wort ) vor und hinder gelegen in&#10;der vorstat ze Eschemertor an demme huse so&#10;man nemmete Wagenberg und He Brunlig&#10;von Cappelle ist erbe von eime cappellon&#10;so ie ist der phrunde sant Veren altars in&#10;ettia Basel , Joh Bratteller git man 1 ℔ zins ȡ&#10;angati 2 hunre 2ring ze wiß halb Martini&#10;halb an carnis hino und 5ß erschatz , item&#10;2 guldin geltz Hedilz gud Bertzschi Eberli dnnatt&#10;Joh bapte"/>
+        <role role="interest" ref="2253" text="2 guldin"/>
+        <role role="detail_payment-mode" ref="2259" text="geltz"/>
+        <role role="beneficiary" ref="2289" text="gud Bertzschi Eberli"/>
+        <role role="due-date" ref="2205" text="dnnatt&#10;Joh bapte"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="1" end="3" ref="" type="event">
+      <trigger start="1" end="3" text="git ze koffende" ref="2223"/>
+      <event event_id="11.0">
+        <role role="seller" ref="1898" text="Grede von Arx Elscimen&#10;von Arx selige tohter in ze ziten efrow Ulrich&#10;Geburensint dez zimermans ze Nuwemburg&#10;gesessen"/>
+        <role role="buyer" ref="1988" text="Heintzi Tnider von Dornach dem&#10;Karrer burger ze Basel"/>
+        <role role="property" ref="2217" text="daz huse und hofstat&#10;so man nemmet zem ( folgt ein überschrieben&#10;unlesserlich Wort ) vor und hinder gelegen in&#10;der vorstat ze Eschemertor an demme huse so&#10;man nemmete Wagenberg und He Brunlig&#10;von Cappelle ist erbe von eime cappellon&#10;so ie ist der phrunde sant Veren altars in&#10;ettia Basel , Joh Bratteller git man 1 ℔ zins ȡ&#10;angati 2 hunre 2ring ze wiß halb Martini&#10;halb an carnis hino und 5ß erschatz , item&#10;2 guldin geltz Hedilz gud Bertzschi Eberli dnnatt&#10;Joh bapte"/>
+        <role role="price" ref="2211" text="20gl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="inheritance" polarity="pos" tense="pres" modality="ass" type="event">
+      <event event_id="12.0">
+        <role role="heir" ref="2096" text="He Brunlig&#10;von Cappelle"/>
+        <role role="decedent" ref="2114" text="eime cappellon"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

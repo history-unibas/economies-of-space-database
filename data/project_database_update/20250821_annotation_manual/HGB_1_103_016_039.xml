@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 103/16 S. [39]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Kohlenberg 5</tei:title>
+            <tei:idno>HGB 1 103/16</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1491723</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1514">1514</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611287.8081739536 1267049.8867312907</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Peter</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Weber</token>
+    <token token_id="4">u</token>
+    <token token_id="5">.</token>
+    <token token_id="6">seine</token>
+    <token token_id="7">Frau</token>
+    <token token_id="8">Margreth</token>
+    <token token_id="9">,</token>
+    <token token_id="10">verkaufen</token>
+    <token token_id="11">an</token>
+    <token token_id="12">Heuman</token>
+    <token token_id="13">Langbon</token>
+    <token token_id="14">des</token>
+    <token token_id="15">Webers</token>
+    <token token_id="16">sel</token>
+    <token token_id="17">.</token>
+    <token token_id="18">Kinder</token>
+    <token token_id="19">,</token>
+    <token token_id="20">2</token>
+    <token token_id="21">℔</token>
+    <token token_id="22">jährl</token>
+    <token token_id="23">zinses</token>
+    <token token_id="24">,</token>
+    <token token_id="25">ab</token>
+    <token token_id="26">jrem</token>
+    <token token_id="27">Hus</token>
+    <token token_id="28">u</token>
+    <token token_id="29">.</token>
+    <token token_id="30">Hofstatt</token>
+    <token token_id="31">in</token>
+    <token token_id="32">Steinenvorstatt</token>
+    <token token_id="33">,</token>
+    <token token_id="34">gegen</token>
+    <token token_id="35">dem</token>
+    <token token_id="36">Eselthurnle</token>
+    <token token_id="37">.</token>
+    <token token_id="38">zwüschen</token>
+    <token token_id="39">der</token>
+    <token token_id="40">alten</token>
+    <token token_id="41">Badstuben</token>
+    <token token_id="42">zu</token>
+    <token token_id="43">einer</token>
+    <token token_id="44">,</token>
+    <token token_id="45">u</token>
+    <token token_id="46">.</token>
+    <token token_id="47">dem</token>
+    <token token_id="48">Hus</token>
+    <token token_id="49">Hammerstein</token>
+    <token token_id="50">zur</token>
+    <token token_id="51">andern</token>
+    <token token_id="52">siten</token>
+    <token token_id="53">gelegen</token>
+    <token token_id="54">ist</token>
+    <token token_id="55">.</token>
+    <token token_id="56">zinst</token>
+    <token token_id="57">dem</token>
+    <token token_id="58">Spital</token>
+    <token token_id="59">jährl</token>
+    <token token_id="60">.</token>
+    <token token_id="61">6</token>
+    <token token_id="62">sh</token>
+    <token token_id="63">.</token>
+    <token token_id="64">von</token>
+    <token token_id="65">eig</token>
+    <token token_id="66">.</token>
+    <token token_id="67">sonst</token>
+    <token token_id="68">frei</token>
+    <token token_id="69">,</token>
+    <token token_id="70">sum</token>
+    <token token_id="71">40</token>
+    <token token_id="72">℔</token>
+    <token token_id="73">widerk</token>
+    <token token_id="74">.</token>
+    <token token_id="75">zu</token>
+    <token token_id="76">der</token>
+    <token token_id="77">genanten</token>
+    <token token_id="78">Margreth</token>
+    <token token_id="79">der</token>
+    <token token_id="80">Verkauferin</token>
+    <token token_id="81">eel</token>
+    <token token_id="82">.</token>
+    <token token_id="83">Kinden</token>
+    <token token_id="84">¬</token>
+  </text>
+  <spans>
+    <span id="1399" start="0" end="8" text="Hanns Peter der Weber u . seine Frau Margreth" element="list" class="per" subclass="">
+      <span id="1338" start="0" end="3" text="Hanns Peter der Weber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1344" start="0" end="1" text="Hanns Peter" element="head" class="nam" subclass=""/>
+        <span id="1350" start="2" end="3" text="der Weber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1356" start="3" end="3" text="Weber" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1362" start="6" end="8" text="seine Frau Margreth" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1374" start="6" end="7" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1386" start="6" end="6" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1386_head" start="6" end="6" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1380" start="7" end="7" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1368" start="8" end="8" text="Margreth" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1629" start="10" end="10" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1405" start="12" end="18" text="Heuman Langbon des Webers sel . Kinder" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1417" start="12" end="17" text="Heuman Langbon des Webers sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1423" start="12" end="13" text="Heuman Langbon" element="head" class="nam" subclass=""/>
+        <span id="1429" start="14" end="15" text="des Webers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1435" start="15" end="15" text="Webers" element="head" class="occ" subclass=""/>
+        </span>
+        <span id="1441" start="16" end="17" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+      <span id="1411" start="18" end="18" text="Kinder" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="1635" start="20" end="23" text="2 ℔ jährl zinses" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1447" start="20" end="21" text="2 ℔" element="value" class="money" subclass=""/>
+      <span id="1453" start="22" end="22" text="jährl" element="value" class="time" subclass="rec"/>
+      <span id="1641" start="23" end="23" text="zinses" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1519" start="26" end="68" text="jrem Hus u . Hofstatt in Steinenvorstatt , gegen dem Eselthurnle .&#10;zwüschen der alten Badstuben zu einer , u . dem Hus Hammerstein&#10;zur andern siten gelegen ist .&#10;zinst dem Spital jährl . 6 sh . von eig .&#10;sonst frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1573" start="26" end="26" text="jrem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1567" start="26" end="26" text="jrem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1567_head" start="26" end="26" element="head" class="pro" text="jrem" subclass=""/>
+        </span>
+      </span>
+      <span id="1465" start="27" end="30" text="Hus u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1471" start="31" end="49" text="in Steinenvorstatt , gegen dem Eselthurnle .&#10;zwüschen der alten Badstuben zu einer , u . dem Hus Hammerstein" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1477" start="32" end="32" text="Steinenvorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1477_head" start="32" end="32" element="head" class="nam" text="Steinenvorstatt" subclass=""/>
+        </span>
+        <span id="1483" start="35" end="36" text="dem Eselthurnle" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1489" start="36" end="36" text="Eselthurnle" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1495" start="39" end="41" text="der alten Badstuben" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1501" start="41" end="41" text="Badstuben" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1507" start="47" end="49" text="dem Hus Hammerstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1513" start="48" end="49" text="Hus Hammerstein" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1555" start="56" end="66" text="zinst dem Spital jährl . 6 sh . von eig ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="custom_dues" start="56" end="56" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1531" start="57" end="58" text="dem Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1537" start="58" end="58" text="Spital" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1525" start="59" end="60" text="jährl ." element="value" class="time" subclass="rec"/>
+        <span id="1543" start="61" end="63" text="6 sh ." element="value" class="money" subclass=""/>
+      </span>
+      <span id="1549" start="67" end="68" text="sonst frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1561" start="71" end="72" text="40 ℔" element="value" class="money" subclass=""/>
+    <span id="1647" start="73" end="83" text="widerk .&#10;zu der genanten Margreth der Verkauferin eel . Kinden" element="eventspan" class="redemption" tense="pres" polarity="pos" modality="hypo" subclass="">
+      <span id="1653" start="73" end="74" text="widerk ." element="trigger" class="type" subclass=""/>
+      <span id="1586" start="76" end="83" text="der genanten Margreth der Verkauferin eel . Kinden" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1598" start="76" end="80" text="der genanten Margreth der Verkauferin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1604" start="78" end="78" text="Margreth" element="head" class="nam" subclass=""/>
+          <span id="1610" start="79" end="80" text="der Verkauferin" element="appo" class="role" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1616" start="80" end="80" text="Verkauferin" element="head" class="role" subclass=""/>
+          </span>
+        </span>
+        <span id="1592" start="83" end="83" text="Kinden" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1579" from="1567" to="1399" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1392" from="1386" to="1338" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1622" from="1598" to="1362" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="20" end="23" ref="1635" type="state">
+      <trigger start="23" end="23" text="zinses" ref="1641"/>
+      <event event_id="0.0">
+        <role role="interest" ref="1447" text="2 ℔"/>
+        <role role="interval" ref="1453" text="jährl"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="redemption" polarity="pos" tense="pres" modality="hypo" start="73" end="83" ref="1647" type="event">
+      <trigger start="73" end="74" text="widerk ." ref="1653"/>
+      <event event_id="1.0">
+        <role role="beneficiary" ref="1586" text="der genanten Margreth der Verkauferin eel . Kinden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="12" end="18" ref="1405" type="state">
+      <trigger start="18" end="18" text="Kinder" ref="1411"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1405" text="Heuman Langbon des Webers sel . Kinder"/>
+        <role role="family-b" ref="1417" text="Heuman Langbon des Webers sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="76" end="83" ref="1586" type="state">
+      <trigger start="83" end="83" text="Kinden" ref="1592"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1586" text="der genanten Margreth der Verkauferin eel . Kinden"/>
+        <role role="family-b" ref="1598" text="der genanten Margreth der Verkauferin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="family" polarity="pos" tense="pres" modality="ass" start="6" end="7" ref="1374" type="state">
+      <trigger start="7" end="7" text="Frau" ref="1380"/>
+      <event event_id="4.0">
+        <role role="family-a" ref="1362" text="seine Frau Margreth"/>
+        <role role="family-b" ref="1386" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="26" end="26" ref="1573" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1519" text="jrem Hus u . Hofstatt in Steinenvorstatt , gegen dem Eselthurnle .&#10;zwüschen der alten Badstuben zu einer , u . dem Hus Hammerstein&#10;zur andern siten gelegen ist .&#10;zinst dem Spital jährl . 6 sh . von eig .&#10;sonst frei"/>
+        <role role="owner" ref="1567" text="jrem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="31" end="49" ref="1471" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1519" text="jrem Hus u . Hofstatt in Steinenvorstatt , gegen dem Eselthurnle .&#10;zwüschen der alten Badstuben zu einer , u . dem Hus Hammerstein&#10;zur andern siten gelegen ist .&#10;zinst dem Spital jährl . 6 sh . von eig .&#10;sonst frei"/>
+        <role role="location-b" ref="1477" text="Steinenvorstatt"/>
+        <role role="location-b" ref="1483" text="dem Eselthurnle"/>
+        <role role="location-b" ref="1495" text="der alten Badstuben"/>
+        <role role="location-b" ref="1507" text="dem Hus Hammerstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="56" end="66" ref="1555" type="state">
+      <trigger start="56" end="56" text="zinst" ref="custom_dues"/>
+      <event event_id="7.0">
+        <role role="property" ref="1519" text="jrem Hus u . Hofstatt in Steinenvorstatt , gegen dem Eselthurnle .&#10;zwüschen der alten Badstuben zu einer , u . dem Hus Hammerstein&#10;zur andern siten gelegen ist .&#10;zinst dem Spital jährl . 6 sh . von eig .&#10;sonst frei"/>
+        <role role="beneficiary" ref="1531" text="dem Spital"/>
+        <role role="interval" ref="1525" text="jährl ."/>
+        <role role="interest" ref="1543" text="6 sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="83" ref="" type="event">
+      <trigger start="10" end="10" text="verkaufen" ref="1629"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1338" text="Hanns Peter der Weber"/>
+        <role role="seller" ref="1362" text="seine Frau Margreth"/>
+        <role role="buyer" ref="1405" text="Heuman Langbon des Webers sel . Kinder"/>
+        <role role="due" ref="1635" text="2 ℔ jährl zinses"/>
+        <role role="collateral" ref="1519" text="jrem Hus u . Hofstatt in Steinenvorstatt , gegen dem Eselthurnle .&#10;zwüschen der alten Badstuben zu einer , u . dem Hus Hammerstein&#10;zur andern siten gelegen ist .&#10;zinst dem Spital jährl . 6 sh . von eig .&#10;sonst frei"/>
+        <role role="price" ref="1561" text="40 ℔"/>
+        <role role="interest-redeemable" ref="1647" text="widerk .&#10;zu der genanten Margreth der Verkauferin eel . Kinden"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

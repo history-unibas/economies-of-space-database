@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 136/40 S. [61]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Münzgasse 26</tei:title>
+            <tei:idno>HGB 1 136/40</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1500658</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1613">1613</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611185.365608108 1267369.4589621625</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Jaar</token>
+    <token token_id="1">Zinse</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Item</token>
+    <token token_id="4">Heinrich</token>
+    <token token_id="5">Hellwagen</token>
+    <token token_id="6">gibt</token>
+    <token token_id="7">järlichen</token>
+    <token token_id="8">auf</token>
+    <token token_id="9">Martini</token>
+    <token token_id="10">von</token>
+    <token token_id="11">seinem</token>
+    <token token_id="12">hauß</token>
+    <token token_id="13">an</token>
+    <token token_id="14">der</token>
+    <token token_id="15">Kuttelgaßen</token>
+    <token token_id="16">,</token>
+    <token token_id="17">gelegen</token>
+    <token token_id="18">des</token>
+    <token token_id="19">Lüßmers</token>
+    <token token_id="20">hauß</token>
+    <token token_id="21">genant</token>
+    <token token_id="22">thut</token>
+    <token token_id="23">10ß</token>
+    <token token_id="24">,</token>
+    <token token_id="25">erschatz</token>
+    <token token_id="26">10ß</token>
+    <token token_id="27">.</token>
+    <token token_id="28">1615</token>
+    <token token_id="29">fehlt</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Ebenso</token>
+    <token token_id="32">1614</token>
+    <token token_id="33">.</token>
+    <token token_id="34">1616</token>
+    <token token_id="35">wie</token>
+    <token token_id="36">oben</token>
+    <token token_id="37">.</token>
+    <token token_id="38">Ebenso</token>
+    <token token_id="39">1617</token>
+    <token token_id="40">mit</token>
+    <token token_id="41">dem</token>
+    <token token_id="42">Zusatz</token>
+    <token token_id="43">:</token>
+    <token token_id="44">der</token>
+    <token token_id="45">Hosenlismer</token>
+    <token token_id="46">.</token>
+    <token token_id="47">Ebenso</token>
+    <token token_id="48">1618</token>
+    <token token_id="49">.</token>
+    <token token_id="50">1619</token>
+    <token token_id="51">fehlt</token>
+    <token token_id="52">.</token>
+    <token token_id="53">1620</token>
+    <token token_id="54">wie</token>
+    <token token_id="55">oben</token>
+    <token token_id="56">.</token>
+    <token token_id="57">Ebenso</token>
+    <token token_id="58">1621</token>
+    <token token_id="59">.</token>
+    <token token_id="60">Ebenso</token>
+    <token token_id="61">1622</token>
+    <token token_id="62">.</token>
+    <token token_id="63">Ebenso</token>
+    <token token_id="64">1623</token>
+    <token token_id="65">.</token>
+    <token token_id="66">Ebenso</token>
+    <token token_id="67">1625</token>
+    <token token_id="68">.</token>
+    <token token_id="69">Ebenso</token>
+    <token token_id="70">1624</token>
+    <token token_id="71">.</token>
+  </text>
+  <spans>
+    <span id="1102" start="4" end="5" text="Heinrich Hellwagen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1102_head" start="4" end="5" element="head" class="nam" text="Heinrich Hellwagen" subclass=""/>
+    </span>
+    <span id="1277" start="6" end="6" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1108" start="7" end="7" text="järlichen" element="value" class="time" subclass="rec"/>
+    <span id="1114" start="8" end="9" text="auf&#10;Martini" element="value" class="date" subclass=""/>
+    <span id="1120" start="11" end="21" text="seinem hauß an der Kuttelgaßen ,&#10;gelegen des Lüßmers hauß genant" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1132" start="11" end="11" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1138" start="11" end="11" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1138_head" start="11" end="11" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="1126" start="12" end="12" text="hauß" element="head" class="type" subclass=""/>
+      <span id="1151" start="13" end="17" text="an der Kuttelgaßen ,&#10;gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1157" start="14" end="15" text="der Kuttelgaßen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1163" start="15" end="15" text="Kuttelgaßen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1169" start="18" end="20" text="des Lüßmers hauß" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1175" start="19" end="20" text="Lüßmers hauß" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1181" start="23" end="24" text="10ß ," element="value" class="money" subclass=""/>
+    <span id="1283" start="25" end="25" text="erschatz" element="other" class="other" subclass=""/>
+    <span id="1187" start="26" end="27" text="10ß ." element="value" class="money" subclass=""/>
+    <span id="1193" start="28" end="28" text="1615" element="value" class="date" subclass=""/>
+    <span id="1199" start="32" end="32" text="1614" element="value" class="date" subclass=""/>
+    <span id="1205" start="34" end="34" text="1616" element="value" class="date" subclass=""/>
+    <span id="1211" start="39" end="39" text="1617" element="value" class="date" subclass=""/>
+    <span id="1265" start="44" end="45" text="der Hosenlismer" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1271" start="45" end="45" text="Hosenlismer" element="head" class="occ" subclass=""/>
+    </span>
+    <span id="1217" start="48" end="48" text="1618" element="value" class="date" subclass=""/>
+    <span id="1223" start="50" end="50" text="1619" element="value" class="date" subclass=""/>
+    <span id="1229" start="53" end="53" text="1620" element="value" class="date" subclass=""/>
+    <span id="1235" start="58" end="58" text="1621" element="value" class="date" subclass=""/>
+    <span id="1241" start="61" end="61" text="1622" element="value" class="date" subclass=""/>
+    <span id="1247" start="64" end="64" text="1623" element="value" class="date" subclass=""/>
+    <span id="1253" start="67" end="67" text="1625" element="value" class="date" subclass=""/>
+    <span id="1259" start="70" end="70" text="1624" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1144" from="1138" to="1102" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="11" end="11" ref="1132" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="1120" text="seinem hauß an der Kuttelgaßen ,&#10;gelegen des Lüßmers hauß genant"/>
+        <role role="owner" ref="1138" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="13" end="17" ref="1151" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1120" text="seinem hauß an der Kuttelgaßen ,&#10;gelegen des Lüßmers hauß genant"/>
+        <role role="location-b" ref="1157" text="der Kuttelgaßen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="4" end="70" ref="" type="event">
+      <trigger start="6" end="6" text="gibt" ref="1277"/>
+      <event event_id="2.0">
+        <role role="payer" ref="1102" text="Heinrich Hellwagen"/>
+        <role role="interval" ref="1108" text="järlichen"/>
+        <role role="due-date" ref="1114" text="auf&#10;Martini"/>
+        <role role="property" ref="1120" text="seinem hauß an der Kuttelgaßen ,&#10;gelegen des Lüßmers hauß genant"/>
+        <role role="interest" ref="1181" text="10ß ,"/>
+        <role role="date-missing" ref="1193" text="1615"/>
+        <role role="date" ref="1199" text="1614"/>
+        <role role="date" ref="1205" text="1616"/>
+        <role role="date" ref="1211" text="1617"/>
+        <role role="date" ref="1217" text="1618"/>
+        <role role="date-missing" ref="1223" text="1619"/>
+        <role role="date" ref="1229" text="1620"/>
+        <role role="date" ref="1235" text="1621"/>
+        <role role="date" ref="1241" text="1622"/>
+        <role role="date" ref="1247" text="1623"/>
+        <role role="date" ref="1253" text="1625"/>
+        <role role="date" ref="1259" text="1624"/>
+      </event>
+      <event event_id="2.1">
+        <role role="payer" ref="1102" text="Heinrich Hellwagen"/>
+        <role role="interval" ref="1108" text="järlichen"/>
+        <role role="due-date" ref="1114" text="auf&#10;Martini"/>
+        <role role="property" ref="1120" text="seinem hauß an der Kuttelgaßen ,&#10;gelegen des Lüßmers hauß genant"/>
+        <role role="cause" ref="1283" text="erschatz"/>
+        <role role="interest" ref="1187" text="10ß ."/>
+        <role role="date-missing" ref="1193" text="1615"/>
+        <role role="date" ref="1199" text="1614"/>
+        <role role="date" ref="1205" text="1616"/>
+        <role role="date" ref="1211" text="1617"/>
+        <role role="date" ref="1217" text="1618"/>
+        <role role="date-missing" ref="1223" text="1619"/>
+        <role role="date" ref="1229" text="1620"/>
+        <role role="date" ref="1235" text="1621"/>
+        <role role="date" ref="1241" text="1622"/>
+        <role role="date" ref="1247" text="1623"/>
+        <role role="date" ref="1253" text="1625"/>
+        <role role="date" ref="1259" text="1624"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

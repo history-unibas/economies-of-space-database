@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 24/115 S. [73]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Barfüsserplatz 28</tei:title>
+            <tei:idno>HGB 1 24/115</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1463043</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Barfüsser</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1755">1755</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611327.614136818 1267149.1169899958</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Jahr</token>
+    <token token_id="1">Zinse</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Item</token>
+    <token token_id="4">Joh</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Jacob</token>
+    <token token_id="7">Holzach</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Schuster</token>
+    <token token_id="10">:</token>
+    <token token_id="11">zuvor</token>
+    <token token_id="12">herr</token>
+    <token token_id="13">rahtsherr</token>
+    <token token_id="14">Johannes</token>
+    <token token_id="15">Lescho</token>
+    <token token_id="16">gibt</token>
+    <token token_id="17">von</token>
+    <token token_id="18">seinem</token>
+    <token token_id="19">hause</token>
+    <token token_id="20">zum</token>
+    <token token_id="21">Narren</token>
+    <token token_id="22">genant</token>
+    <token token_id="23">auf</token>
+    <token token_id="24">dem</token>
+    <token token_id="25">Paarfüßer</token>
+    <token token_id="26">platz</token>
+    <token token_id="27">gelegen</token>
+    <token token_id="28">-</token>
+    <token token_id="29">8ß</token>
+    <token token_id="30">.</token>
+    <token token_id="31">Ebenso</token>
+    <token token_id="32">1756</token>
+    <token token_id="33">.</token>
+    <token token_id="34">1757</token>
+    <token token_id="35">-</token>
+    <token token_id="36">1758</token>
+    <token token_id="37">fehlen</token>
+    <token token_id="38">.</token>
+    <token token_id="39">1759</token>
+    <token token_id="40">wie</token>
+    <token token_id="41">oben</token>
+    <token token_id="42">.</token>
+    <token token_id="43">Ebenso</token>
+    <token token_id="44">1761</token>
+    <token token_id="45">Ebenso</token>
+    <token token_id="46">1760</token>
+    <token token_id="47">.</token>
+    <token token_id="48">Ebenso</token>
+    <token token_id="49">1762</token>
+    <token token_id="50">.</token>
+    <token token_id="51">Ebenso</token>
+    <token token_id="52">1763</token>
+    <token token_id="53">.</token>
+    <token token_id="54">Ebenso</token>
+    <token token_id="55">1765</token>
+    <token token_id="56">.</token>
+    <token token_id="57">Ebenso</token>
+    <token token_id="58">1764</token>
+    <token token_id="59">.</token>
+  </text>
+  <spans>
+    <span id="947" start="4" end="9" text="Joh . Jacob Holzach der Schuster" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="953" start="4" end="7" text="Joh . Jacob Holzach" element="head" class="nam" subclass=""/>
+      <span id="959" start="8" end="9" text="der Schuster" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1073" start="9" end="9" text="Schuster" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="965" start="12" end="15" text="herr rahtsherr Johannes Lescho" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1079" start="12" end="12" text="herr" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1079_head" start="12" end="12" element="head" class="title" text="herr" subclass=""/>
+      </span>
+      <span id="977" start="13" end="13" text="rahtsherr" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="977_head" start="13" end="13" element="head" class="occ" text="rahtsherr" subclass="org-job"/>
+      </span>
+      <span id="971" start="14" end="15" text="Johannes Lescho" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1122" start="16" end="16" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="983" start="18" end="27" text="seinem hause zum Narren genant auf&#10;dem Paarfüßer platz gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1104" start="18" end="18" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1091" start="18" end="18" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1091_head" start="18" end="18" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="989" start="19" end="19" text="hause" element="head" class="type" subclass=""/>
+      <span id="1110" start="20" end="21" text="zum Narren" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="995" start="21" end="21" text="Narren" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1001" start="23" end="27" text="auf&#10;dem Paarfüßer platz gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1116" start="24" end="26" text="dem Paarfüßer platz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="1007" start="25" end="26" text="Paarfüßer platz" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1013" start="29" end="29" text="8ß" element="value" class="money" subclass=""/>
+    <span id="1019" start="32" end="32" text="1756" element="value" class="date" subclass=""/>
+    <span id="1025" start="34" end="36" text="1757 - 1758" element="value" class="date" subclass=""/>
+    <span id="1031" start="39" end="39" text="1759" element="value" class="date" subclass=""/>
+    <span id="1037" start="44" end="44" text="1761" element="value" class="date" subclass=""/>
+    <span id="1043" start="46" end="46" text="1760" element="value" class="date" subclass=""/>
+    <span id="1049" start="49" end="49" text="1762" element="value" class="date" subclass=""/>
+    <span id="1055" start="52" end="52" text="1763" element="value" class="date" subclass=""/>
+    <span id="1061" start="55" end="55" text="1765" element="value" class="date" subclass=""/>
+    <span id="1067" start="58" end="58" text="1764" element="value" class="date" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1097" from="1091" to="947" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="18" end="18" ref="1104" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="983" text="seinem hause zum Narren genant auf&#10;dem Paarfüßer platz gelegen"/>
+        <role role="owner" ref="1091" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="23" end="27" ref="1001" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="983" text="seinem hause zum Narren genant auf&#10;dem Paarfüßer platz gelegen"/>
+        <role role="location-b" ref="1116" text="dem Paarfüßer platz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="16" end="58" ref="" type="event">
+      <trigger start="16" end="16" text="gibt" ref="1122"/>
+      <event event_id="2.0">
+        <role role="payer" ref="947" text="Joh . Jacob Holzach der Schuster"/>
+        <role role="previous-payer" ref="965" text="herr rahtsherr Johannes Lescho"/>
+        <role role="property" ref="983" text="seinem hause zum Narren genant auf&#10;dem Paarfüßer platz gelegen"/>
+        <role role="interest" ref="1013" text="8ß"/>
+        <role role="date" ref="1019" text="1756"/>
+        <role role="date-missing" ref="1025" text="1757 - 1758"/>
+        <role role="date" ref="1031" text="1759"/>
+        <role role="date" ref="1037" text="1761"/>
+        <role role="date" ref="1043" text="1760"/>
+        <role role="date" ref="1049" text="1762"/>
+        <role role="date" ref="1055" text="1763"/>
+        <role role="date" ref="1061" text="1765"/>
+        <role role="date" ref="1067" text="1764"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

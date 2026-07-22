@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 215/32 S. [57]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Steinenvorstadt 37</tei:title>
+            <tei:idno>HGB 1 215/32</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532618</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1693">1693</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611306.4134898055 1266921.0330566443</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Kaufpublicatio</token>
+    <token token_id="1">Mr</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Johannes</token>
+    <token token_id="4">Dader</token>
+    <token token_id="5">imanen</token>
+    <token token_id="6">Salome</token>
+    <token token_id="7">Baderin</token>
+    <token token_id="8">seiner</token>
+    <token token_id="9">Tochter</token>
+    <token token_id="10">verkauft</token>
+    <token token_id="11">Mr</token>
+    <token token_id="12">Adam</token>
+    <token token_id="13">Dietschin</token>
+    <token token_id="14">dem</token>
+    <token token_id="15">Weissbecken</token>
+    <token token_id="16">eins</token>
+    <token token_id="17">Behausung</token>
+    <token token_id="18">an</token>
+    <token token_id="19">der</token>
+    <token token_id="20">vorderen</token>
+    <token token_id="21">Sternen</token>
+    <token token_id="22">eins</token>
+    <token token_id="23">.</token>
+    <token token_id="24">neben</token>
+    <token token_id="25">Mr</token>
+    <token token_id="26">hieronyio</token>
+    <token token_id="27">Reictzdem</token>
+    <token token_id="28">Leinouwäber</token>
+    <token token_id="29">,</token>
+    <token token_id="30">anders</token>
+    <token token_id="31">.</token>
+    <token token_id="32">neben</token>
+    <token token_id="33">Mr</token>
+    <token token_id="34">Samuel</token>
+    <token token_id="35">Obermeyer</token>
+    <token token_id="36">den</token>
+    <token token_id="37">Grepeper</token>
+    <token token_id="38">gelegen</token>
+    <token token_id="39">.</token>
+  </text>
+  <spans>
+    <span id="657" start="1" end="4" text="Mr . Johannes Dader" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="663" start="3" end="4" text="Johannes Dader" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="669" start="6" end="9" text="Salome Baderin&#10;seiner Tochter" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="675" start="6" end="7" text="Salome Baderin" element="head" class="nam" subclass=""/>
+      <span id="681" start="8" end="9" text="seiner Tochter" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="693" start="8" end="8" text="seiner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="693_head" start="8" end="8" element="head" class="pro" text="seiner" subclass=""/>
+        </span>
+        <span id="687" start="9" end="9" text="Tochter" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="809" start="10" end="10" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="706" start="11" end="15" text="Mr Adam Dietschin&#10;dem Weissbecken" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="712" start="12" end="13" text="Adam Dietschin" element="head" class="nam" subclass=""/>
+      <span id="718" start="14" end="15" text="dem Weissbecken" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="724" start="15" end="15" text="Weissbecken" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="796" start="16" end="38" text="eins Behausung an der vorderen&#10;Sternen eins . neben Mr hieronyio Reictzdem&#10;Leinouwäber , anders . neben Mr Samuel Obermeyer&#10;den Grepeper gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="730" start="17" end="17" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="736" start="18" end="38" text="an der vorderen&#10;Sternen eins . neben Mr hieronyio Reictzdem&#10;Leinouwäber , anders . neben Mr Samuel Obermeyer&#10;den Grepeper gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="742" start="19" end="22" text="der vorderen&#10;Sternen eins" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="748" start="20" end="21" text="vorderen&#10;Sternen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="754" start="25" end="28" text="Mr hieronyio Reictzdem&#10;Leinouwäber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="760" start="26" end="27" text="hieronyio Reictzdem" element="head" class="nam" subclass=""/>
+          <span id="766" start="28" end="28" text="Leinouwäber" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="766_head" start="28" end="28" element="head" class="occ" text="Leinouwäber" subclass=""/>
+          </span>
+        </span>
+        <span id="772" start="33" end="37" text="Mr Samuel Obermeyer&#10;den Grepeper" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="778" start="34" end="35" text="Samuel Obermeyer" element="head" class="nam" subclass=""/>
+          <span id="784" start="36" end="37" text="den Grepeper" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="790" start="37" end="37" text="Grepeper" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="699" from="693" to="657" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="802" from="657" to="669" class="per-repr" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="8" end="9" ref="681" type="state">
+      <trigger start="9" end="9" text="Tochter" ref="687"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="669" text="Salome Baderin&#10;seiner Tochter"/>
+        <role role="family-b" ref="693" text="seiner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="18" end="38" ref="736" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="796" text="eins Behausung an der vorderen&#10;Sternen eins . neben Mr hieronyio Reictzdem&#10;Leinouwäber , anders . neben Mr Samuel Obermeyer&#10;den Grepeper gelegen"/>
+        <role role="location-b" ref="742" text="der vorderen&#10;Sternen eins"/>
+        <role role="location-b" ref="754" text="Mr hieronyio Reictzdem&#10;Leinouwäber"/>
+        <role role="location-b" ref="772" text="Mr Samuel Obermeyer&#10;den Grepeper"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="1" end="38" ref="" type="event">
+      <trigger start="10" end="10" text="verkauft" ref="809"/>
+      <event event_id="2.0">
+        <role role="seller" ref="657" text="Mr . Johannes Dader"/>
+        <role role="buyer" ref="706" text="Mr Adam Dietschin&#10;dem Weissbecken"/>
+        <role role="property" ref="796" text="eins Behausung an der vorderen&#10;Sternen eins . neben Mr hieronyio Reictzdem&#10;Leinouwäber , anders . neben Mr Samuel Obermeyer&#10;den Grepeper gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="representation" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="3.0">
+        <role role="representative" ref="657" text="Mr . Johannes Dader"/>
+        <role role="represented" ref="669" text="Salome Baderin&#10;seiner Tochter"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

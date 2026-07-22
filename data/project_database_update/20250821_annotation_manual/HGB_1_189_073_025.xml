@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 189/73 S. [25]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schützenmattstrasse 24</tei:title>
+            <tei:idno>HGB 1 189/73</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1513777</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1568">1568</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610772.849996284 1267343.8615124833</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Ettlich</token>
+    <token token_id="1">Bürgere</token>
+    <token token_id="2">,</token>
+    <token token_id="3">denen</token>
+    <token token_id="4">dan</token>
+    <token token_id="5">Johann</token>
+    <token token_id="6">Pforinus</token>
+    <token token_id="7">der</token>
+    <token token_id="8">tuckerher</token>
+    <token token_id="9">sel</token>
+    <token token_id="10">.</token>
+    <token token_id="11">zu</token>
+    <token token_id="12">thun</token>
+    <token token_id="13">schuldig</token>
+    <token token_id="14">verbliben</token>
+    <token token_id="15">ist</token>
+    <token token_id="16">,</token>
+    <token token_id="17">haben</token>
+    <token token_id="18">desselben</token>
+    <token token_id="19">gepurenden</token>
+    <token token_id="20">halben</token>
+    <token token_id="21">theil</token>
+    <token token_id="22">der</token>
+    <token token_id="23">Behusung</token>
+    <token token_id="24">u</token>
+    <token token_id="25">.</token>
+    <token token_id="26">Hofstatt</token>
+    <token token_id="27">,</token>
+    <token token_id="28">so</token>
+    <token token_id="29">zur</token>
+    <token token_id="30">zyt</token>
+    <token token_id="31">Peter</token>
+    <token token_id="32">Hymber</token>
+    <token token_id="33">der</token>
+    <token token_id="34">Metzger</token>
+    <token token_id="35">sin</token>
+    <token token_id="36">Schwager</token>
+    <token token_id="37">besitzt</token>
+    <token token_id="38">,</token>
+    <token token_id="39">zu</token>
+    <token token_id="40">Spalenvorstatt</token>
+    <token token_id="41">,</token>
+    <token token_id="42">zu</token>
+    <token token_id="43">einer</token>
+    <token token_id="44">syten</token>
+    <token token_id="45">,</token>
+    <token token_id="46">ge</token>
+    <token token_id="47">nechst</token>
+    <token token_id="48">am</token>
+    <token token_id="49">Bollwerckh</token>
+    <token token_id="50">,</token>
+    <token token_id="51">und</token>
+    <token token_id="52">zur</token>
+    <token token_id="53">andern</token>
+    <token token_id="54">syten</token>
+    <token token_id="55">an</token>
+    <token token_id="56">Jergen</token>
+    <token token_id="57">scherer</token>
+    <token token_id="58">des</token>
+    <token token_id="59">Metzgers</token>
+    <token token_id="60">schüren</token>
+    <token token_id="61">glegen</token>
+    <token token_id="62">,</token>
+    <token token_id="63">als</token>
+    <token token_id="64">eins</token>
+    <token token_id="65">erblosen</token>
+    <token token_id="66">Mans</token>
+    <token token_id="67">gut</token>
+    <token token_id="68">,</token>
+    <token token_id="69">gefrönt</token>
+    <token token_id="70">.</token>
+    <token token_id="71">der</token>
+    <token token_id="72">obgemelt</token>
+    <token token_id="73">Peter</token>
+    <token token_id="74">Hymber</token>
+    <token token_id="75">kauft</token>
+    <token token_id="76">sie</token>
+    <token token_id="77">um</token>
+    <token token_id="78">75</token>
+    <token token_id="79">℔</token>
+    <token token_id="80">.</token>
+  </text>
+  <spans>
+    <span id="1207" start="0" end="15" text="Ettlich Bürgere , denen dan Johann Pforinus der tuckerher&#10;sel . zu thun schuldig verbliben ist" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1213" start="1" end="1" text="Bürgere" element="head" class="org-aff" subclass=""/>
+      <span id="1225" start="3" end="15" text="denen dan Johann Pforinus der tuckerher&#10;sel . zu thun schuldig verbliben ist" element="attr" class="creditor" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1195" start="5" end="10" text="Johann Pforinus der tuckerher&#10;sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1201" start="5" end="6" text="Johann Pforinus" element="head" class="nam" subclass=""/>
+          <span id="1237" start="7" end="8" text="der tuckerher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1243" start="8" end="8" text="tuckerher" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1445" start="13" end="13" text="schuldig" element="trigger" class="debt" tense="pres" polarity="pos" modality="ass" subclass=""/>
+      </span>
+    </span>
+    <span id="1341" start="18" end="61" text="desselben gepurenden&#10;halben theil der Behusung u . Hofstatt , so zur zyt Peter Hymber&#10;der Metzger sin Schwager besitzt , zu Spalenvorstatt , zu einer&#10;syten , ge nechst am Bollwerckh , und zur andern syten an&#10;Jergen scherer des Metzgers schüren glegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1255" start="18" end="18" text="desselben" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1249" start="18" end="18" text="desselben" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1249_head" start="18" end="18" element="head" class="pro" text="desselben" subclass=""/>
+        </span>
+      </span>
+      <span id="1268" start="23" end="26" text="Behusung u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1280" start="28" end="37" text="so zur zyt Peter Hymber&#10;der Metzger sin Schwager besitzt" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1286" start="31" end="36" text="Peter Hymber&#10;der Metzger sin Schwager" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1292" start="31" end="32" text="Peter Hymber" element="head" class="nam" subclass=""/>
+          <span id="1298" start="33" end="34" text="der Metzger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1304" start="34" end="34" text="Metzger" element="head" class="occ" subclass=""/>
+          </span>
+          <span id="1310" start="35" end="36" text="sin Schwager" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1316" start="35" end="35" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1316_head" start="35" end="35" element="head" class="pro" text="sin" subclass=""/>
+            </span>
+            <span id="1329" start="36" end="36" text="Schwager" element="head" class="fam" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1335" start="39" end="61" text="zu Spalenvorstatt , zu einer&#10;syten , ge nechst am Bollwerckh , und zur andern syten an&#10;Jergen scherer des Metzgers schüren glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1347" start="40" end="40" text="Spalenvorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1347_head" start="40" end="40" element="head" class="nam" text="Spalenvorstatt" subclass=""/>
+        </span>
+        <span id="1353" start="48" end="49" text="am Bollwerckh" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="defense">
+          <span id="1359" start="49" end="49" text="Bollwerckh" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1365" start="56" end="60" text="Jergen scherer des Metzgers schüren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1389" start="56" end="59" text="Jergen scherer des Metzgers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1383" start="56" end="59" text="Jergen scherer des Metzgers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1377" start="56" end="57" text="Jergen scherer" element="head" class="nam" subclass=""/>
+              <span id="1395" start="58" end="59" text="des Metzgers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1401" start="59" end="59" text="Metzgers" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1371" start="60" end="60" text="schüren" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1451" start="63" end="67" text="als eins erblosen&#10;Mans gut" element="other" class="other" subclass=""/>
+    <span id="1457" start="69" end="69" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1463" start="71" end="80" text="der obgemelt Peter Hymber kauft sie um 75 ℔." element="eventspan" class="sale" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1407" start="71" end="74" text="der obgemelt Peter Hymber" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1413" start="73" end="74" text="Peter Hymber" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1469" start="75" end="75" text="kauft" element="trigger" class="type" subclass=""/>
+      <span id="1426" start="76" end="76" text="sie" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1426_head" start="76" end="76" element="head" class="pro" text="sie" subclass=""/>
+      </span>
+      <span id="1439" start="78" end="80" text="75 ℔." element="value" class="money" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1261" from="1249" to="1195" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1432" from="1426" to="1341" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1322" from="1316" to="1249" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1419" from="1407" to="1286" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="71" end="80" ref="1463" type="event">
+      <trigger start="75" end="75" text="kauft" ref="1469"/>
+      <event event_id="0.0">
+        <role role="buyer" ref="1407" text="der obgemelt Peter Hymber"/>
+        <role role="property" ref="1426" text="sie"/>
+        <role role="price" ref="1439" text="75 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="35" end="36" ref="1310" type="state">
+      <trigger start="36" end="36" text="Schwager" ref="1329"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1286" text="Peter Hymber&#10;der Metzger sin Schwager"/>
+        <role role="family-b" ref="1316" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="debt" polarity="pos" tense="pres" modality="ass" start="3" end="15" ref="1225" type="state">
+      <trigger start="13" end="13" text="schuldig" ref="1445"/>
+      <event event_id="2.0">
+        <role role="creditor" ref="1207" text="Ettlich Bürgere , denen dan Johann Pforinus der tuckerher&#10;sel . zu thun schuldig verbliben ist"/>
+        <role role="debitor" ref="1195" text="Johann Pforinus der tuckerher&#10;sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="18" end="18" ref="1255" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1341" text="desselben gepurenden&#10;halben theil der Behusung u . Hofstatt , so zur zyt Peter Hymber&#10;der Metzger sin Schwager besitzt , zu Spalenvorstatt , zu einer&#10;syten , ge nechst am Bollwerckh , und zur andern syten an&#10;Jergen scherer des Metzgers schüren glegen"/>
+        <role role="owner" ref="1249" text="desselben"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="28" end="37" ref="1280" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1341" text="desselben gepurenden&#10;halben theil der Behusung u . Hofstatt , so zur zyt Peter Hymber&#10;der Metzger sin Schwager besitzt , zu Spalenvorstatt , zu einer&#10;syten , ge nechst am Bollwerckh , und zur andern syten an&#10;Jergen scherer des Metzgers schüren glegen"/>
+        <role role="owner" ref="1286" text="Peter Hymber&#10;der Metzger sin Schwager"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="39" end="61" ref="1335" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1341" text="desselben gepurenden&#10;halben theil der Behusung u . Hofstatt , so zur zyt Peter Hymber&#10;der Metzger sin Schwager besitzt , zu Spalenvorstatt , zu einer&#10;syten , ge nechst am Bollwerckh , und zur andern syten an&#10;Jergen scherer des Metzgers schüren glegen"/>
+        <role role="location-b" ref="1347" text="Spalenvorstatt"/>
+        <role role="location-b" ref="1353" text="am Bollwerckh"/>
+        <role role="location-b" ref="1365" text="Jergen scherer des Metzgers schüren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="56" end="59" ref="1389" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1365" text="Jergen scherer des Metzgers schüren"/>
+        <role role="owner" ref="1383" text="Jergen scherer des Metzgers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="seizure" polarity="pos" tense="pres" modality="ass" start="0" end="69" ref="" type="event">
+      <trigger start="69" end="69" text="gefrönt" ref="1457"/>
+      <event event_id="7.0">
+        <role role="claimant" ref="1207" text="Ettlich Bürgere , denen dan Johann Pforinus der tuckerher&#10;sel . zu thun schuldig verbliben ist"/>
+        <role role="property" ref="1341" text="desselben gepurenden&#10;halben theil der Behusung u . Hofstatt , so zur zyt Peter Hymber&#10;der Metzger sin Schwager besitzt , zu Spalenvorstatt , zu einer&#10;syten , ge nechst am Bollwerckh , und zur andern syten an&#10;Jergen scherer des Metzgers schüren glegen"/>
+        <role role="cause" ref="1451" text="als eins erblosen&#10;Mans gut"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

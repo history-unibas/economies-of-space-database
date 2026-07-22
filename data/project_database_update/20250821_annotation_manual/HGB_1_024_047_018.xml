@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 24/47 S. [18]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Barfüsserplatz 21</tei:title>
+            <tei:idno>HGB 1 24/47</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1462894</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Leonhard</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1547">1547</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611301.102097962 1267157.2493024177</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1547</token>
+    <token token_id="1">Augustin</token>
+    <token token_id="2">Steck</token>
+    <token token_id="3">und</token>
+    <token token_id="4">Matheus</token>
+    <token token_id="5">Batz</token>
+    <token token_id="6">gent</token>
+    <token token_id="7">13</token>
+    <token token_id="8">dn</token>
+    <token token_id="9">.</token>
+    <token token_id="10">und</token>
+    <token token_id="11">2</token>
+    <token token_id="12">Hüner</token>
+    <token token_id="13">von</token>
+    <token token_id="14">2</token>
+    <token token_id="15">Hüsern</token>
+    <token token_id="16">zum</token>
+    <token token_id="17">blowen</token>
+    <token token_id="18">ring</token>
+    <token token_id="19">einsit</token>
+    <token token_id="20">dem</token>
+    <token token_id="21">Hus</token>
+    <token token_id="22">zum</token>
+    <token token_id="23">Lemlin</token>
+    <token token_id="24">Ebenso</token>
+    <token token_id="25">.</token>
+    <token token_id="26">1548</token>
+    <token token_id="27">.</token>
+    <token token_id="28">1549</token>
+    <token token_id="29">.</token>
+    <token token_id="30">1550</token>
+    <token token_id="31">.</token>
+    <token token_id="32">1551</token>
+    <token token_id="33">.</token>
+    <token token_id="34">1552</token>
+    <token token_id="35">Adelberg</token>
+    <token token_id="36">Sorger</token>
+    <token token_id="37">der</token>
+    <token token_id="38">Kartenmaler</token>
+    <token token_id="39">git</token>
+    <token token_id="40">mit</token>
+    <token token_id="41">Matheus</token>
+    <token token_id="42">Batz</token>
+    <token token_id="43">den</token>
+    <token token_id="44">zins</token>
+    <token token_id="45">.</token>
+  </text>
+  <spans>
+    <span id="704" start="0" end="0" text="1547" element="value" class="date" subclass=""/>
+    <span id="710" start="1" end="5" text="Augustin Steck und Matheus Batz" element="list" class="per" subclass="">
+      <span id="716" start="1" end="2" text="Augustin Steck" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="716_head" start="1" end="2" element="head" class="nam" text="Augustin Steck" subclass=""/>
+      </span>
+      <span id="722" start="4" end="5" text="Matheus Batz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="722_head" start="4" end="5" element="head" class="nam" text="Matheus Batz" subclass=""/>
+      </span>
+    </span>
+    <span id="830" start="6" end="6" text="gent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="728" start="7" end="9" text="13 dn ." element="value" class="money" subclass=""/>
+    <span id="734" start="11" end="12" text="2 Hüner" element="value" class="money" subclass=""/>
+    <span id="740" start="14" end="23" text="2 Hüsern zum blowen ring&#10;einsit dem Hus zum Lemlin" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="746" start="15" end="18" text="Hüsern zum blowen ring" element="head" class="nam" subclass=""/>
+      <span id="752" start="19" end="23" text="einsit dem Hus zum Lemlin" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="758" start="20" end="23" text="dem Hus zum Lemlin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="764" start="21" end="23" text="Hus zum Lemlin" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="770" start="26" end="26" text="1548" element="value" class="date" subclass=""/>
+    <span id="776" start="28" end="28" text="1549" element="value" class="date" subclass=""/>
+    <span id="782" start="30" end="30" text="1550" element="value" class="date" subclass=""/>
+    <span id="788" start="32" end="32" text="1551" element="value" class="date" subclass=""/>
+    <span id="794" start="34" end="34" text="1552" element="value" class="date" subclass=""/>
+    <span id="800" start="35" end="38" text="Adelberg Sorger der Kartenmaler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="806" start="35" end="36" text="Adelberg Sorger" element="head" class="nam" subclass=""/>
+      <span id="812" start="37" end="38" text="der Kartenmaler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="818" start="38" end="38" text="Kartenmaler" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="848" start="39" end="39" text="git" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="824" start="41" end="42" text="Matheus&#10;Batz" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="824_head" start="41" end="42" element="head" class="nam" text="Matheus Batz" subclass=""/>
+    </span>
+    <span id="854" start="44" end="44" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="860" from="854" to="830" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="19" end="23" ref="752" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="740" text="2 Hüsern zum blowen ring&#10;einsit dem Hus zum Lemlin"/>
+        <role role="location-b" ref="758" text="dem Hus zum Lemlin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="6" ref="" type="event">
+      <trigger start="6" end="6" text="gent" ref="830"/>
+      <event event_id="1.0">
+        <role role="date" ref="704" text="1547"/>
+        <role role="payer" ref="716" text="Augustin Steck"/>
+        <role role="payer" ref="722" text="Matheus Batz"/>
+        <role role="interest" ref="728" text="13 dn ."/>
+        <role role="interest" ref="734" text="2 Hüner"/>
+        <role role="property" ref="740" text="2 Hüsern zum blowen ring&#10;einsit dem Hus zum Lemlin"/>
+        <role role="date" ref="770" text="1548"/>
+        <role role="date" ref="776" text="1549"/>
+        <role role="date" ref="782" text="1550"/>
+        <role role="date" ref="788" text="1551"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="34" end="44" ref="" type="event">
+      <trigger start="39" end="39" text="git" ref="848"/>
+      <event event_id="2.0">
+        <role role="date" ref="794" text="1552"/>
+        <role role="payer" ref="800" text="Adelberg Sorger der Kartenmaler"/>
+        <role role="payer" ref="824" text="Matheus&#10;Batz"/>
+        <role role="previous-due" ref="854" text="zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="due-payment" polarity="pos" tense="pres" modality="ass" start="44" end="44" ref="" type="event">
+      <trigger start="44" end="44" text="zins" ref="854"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

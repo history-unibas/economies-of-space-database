@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 184/10 S. [47]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Schneidergasse 1</tei:title>
+            <tei:idno>HGB 1 184/10</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1512543</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Prediger</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1600">1600</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611156.0572601813 1267543.599879393</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Item</token>
+    <token token_id="1">Jacob</token>
+    <token token_id="2">Reckh</token>
+    <token token_id="3">de</token>
+    <token token_id="4">Sumacher</token>
+    <token token_id="5">gibt</token>
+    <token token_id="6">12ß</token>
+    <token token_id="7">6ȡ</token>
+    <token token_id="8">thut</token>
+    <token token_id="9">jars</token>
+    <token token_id="10">-</token>
+    <token token_id="11">2</token>
+    <token token_id="12">℔</token>
+    <token token_id="13">10ß</token>
+    <token token_id="14">,</token>
+    <token token_id="15">1</token>
+    <token token_id="16">/</token>
+    <token token_id="17">2</token>
+    <token token_id="18">quart</token>
+    <token token_id="19">pfeffer</token>
+    <token token_id="20">.</token>
+    <token token_id="21">1601</token>
+    <token token_id="22">fehlt</token>
+    <token token_id="23">.</token>
+    <token token_id="24">1602</token>
+    <token token_id="25">Andreas</token>
+    <token token_id="26">Ryser</token>
+    <token token_id="27">der</token>
+    <token token_id="28">Goltschmidt</token>
+    <token token_id="29">gibt</token>
+    <token token_id="30">obigen</token>
+    <token token_id="31">Zins</token>
+    <token token_id="32">.</token>
+  </text>
+  <spans>
+    <span id="574" start="1" end="4" text="Jacob Reckh de Sumacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="580" start="1" end="2" text="Jacob Reckh" element="head" class="nam" subclass=""/>
+      <span id="586" start="3" end="4" text="de Sumacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="592" start="4" end="4" text="Sumacher" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="658" start="5" end="5" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="598" start="6" end="7" text="12ß&#10;6ȡ" element="value" class="money" subclass=""/>
+    <span id="604" start="9" end="9" text="jars" element="value" class="time" subclass="rec"/>
+    <span id="610" start="11" end="13" text="2 ℔ 10ß" element="value" class="money" subclass=""/>
+    <span id="616" start="15" end="19" text="1 / 2 quart&#10;pfeffer" element="value" class="money" subclass=""/>
+    <span id="622" start="21" end="21" text="1601" element="value" class="date" subclass=""/>
+    <span id="628" start="24" end="24" text="1602" element="value" class="date" subclass=""/>
+    <span id="634" start="25" end="28" text="Andreas Ryser der Goltschmidt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="640" start="25" end="26" text="Andreas Ryser" element="head" class="nam" subclass=""/>
+      <span id="646" start="27" end="28" text="der Goltschmidt" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="652" start="28" end="28" text="Goltschmidt" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="664" start="29" end="29" text="gibt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass="change"/>
+    <span id="670" start="31" end="31" text="Zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="676" from="670" to="658" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="1" end="5" ref="" type="state">
+      <trigger start="5" end="5" text="gibt" ref="658"/>
+      <event event_id="0.0">
+        <role role="payer" ref="574" text="Jacob Reckh de Sumacher"/>
+        <role role="interest" ref="598" text="12ß&#10;6ȡ"/>
+        <role role="interval" ref="604" text="jars"/>
+        <role role="interest" ref="610" text="2 ℔ 10ß"/>
+        <role role="interest" ref="616" text="1 / 2 quart&#10;pfeffer"/>
+        <role role="date-missing" ref="622" text="1601"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="24" end="31" ref="" type="event">
+      <trigger start="29" end="29" text="gibt" ref="664"/>
+      <event event_id="1.0">
+        <role role="date" ref="628" text="1602"/>
+        <role role="payer" ref="634" text="Andreas Ryser der Goltschmidt"/>
+        <role role="previous-due" ref="670" text="Zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="31" end="31" ref="" type="event">
+      <trigger start="31" end="31" text="Zins" ref="670"/>
+    </eventGroup>
+  </eventGroups>
+</doc>

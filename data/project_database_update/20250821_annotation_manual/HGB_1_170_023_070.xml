@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 170/23 S. [70]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Rittergasse 17</tei:title>
+            <tei:idno>HGB 1 170/23</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1510595</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Privat</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1542">1542</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611690.7573079453 1267236.4930840498</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissenurkunde</token>
+    <token token_id="1">Junckher</token>
+    <token token_id="2">Niclaus</token>
+    <token token_id="3">Escher</token>
+    <token token_id="4">des</token>
+    <token token_id="5">Radts</token>
+    <token token_id="6">und</token>
+    <token token_id="7">seine</token>
+    <token token_id="8">Frau</token>
+    <token token_id="9">Ursula</token>
+    <token token_id="10">Grieben</token>
+    <token token_id="11">verkaufen</token>
+    <token token_id="12">an</token>
+    <token token_id="13">Junckher</token>
+    <token token_id="14">Hanns</token>
+    <token token_id="15">Friderich</token>
+    <token token_id="16">von</token>
+    <token token_id="17">Landeckh</token>
+    <token token_id="18">und</token>
+    <token token_id="19">seine</token>
+    <token token_id="20">Frau</token>
+    <token token_id="21">Rickhart</token>
+    <token token_id="22">von</token>
+    <token token_id="23">Landtsperg</token>
+    <token token_id="24">den</token>
+    <token token_id="25">hoff</token>
+    <token token_id="26">mit</token>
+    <token token_id="27">den</token>
+    <token token_id="28">beiden</token>
+    <token token_id="29">hüsern</token>
+    <token token_id="30">und</token>
+    <token token_id="31">Gesess</token>
+    <token token_id="32">mit</token>
+    <token token_id="33">dem</token>
+    <token token_id="34">Brunnen</token>
+    <token token_id="35">,</token>
+    <token token_id="36">hinder</token>
+    <token token_id="37">sant</token>
+    <token token_id="38">Ulrichs</token>
+    <token token_id="39">Lutkilchen</token>
+    <token token_id="40">zu</token>
+    <token token_id="41">hindern</token>
+    <token token_id="42">Ramstein</token>
+    <token token_id="43">,</token>
+    <token token_id="44">zwischen</token>
+    <token token_id="45">der</token>
+    <token token_id="46">Rot</token>
+    <token token_id="47">perger</token>
+    <token token_id="48">und</token>
+    <token token_id="49">Junckher</token>
+    <token token_id="50">hansen</token>
+    <token token_id="51">von</token>
+    <token token_id="52">Utenheins</token>
+    <token token_id="53">hof</token>
+    <token token_id="54">kleinen</token>
+    <token token_id="55">Ramstein</token>
+    <token token_id="56">genannt</token>
+    <token token_id="57">,</token>
+    <token token_id="58">und</token>
+    <token token_id="59">uff</token>
+    <token token_id="60">dem</token>
+    <token token_id="61">Rhyn</token>
+    <token token_id="62">glegen</token>
+    <token token_id="63">und</token>
+    <token token_id="64">Grossen</token>
+    <token token_id="65">Ramstein</token>
+    <token token_id="66">genant</token>
+    <token token_id="67">,</token>
+    <token token_id="68">ist</token>
+    <token token_id="69">zins</token>
+    <token token_id="70">frey</token>
+    <token token_id="71">fryg</token>
+    <token token_id="72">lidig</token>
+    <token token_id="73">eygen</token>
+    <token token_id="74">,</token>
+    <token token_id="75">um</token>
+    <token token_id="76">1100</token>
+    <token token_id="77">Gulden</token>
+    <token token_id="78">zu</token>
+    <token token_id="79">1</token>
+    <token token_id="80">℔</token>
+    <token token_id="81">5ß</token>
+  </text>
+  <spans>
+    <span id="1272" start="1" end="10" text="Junckher Niclaus Escher des Radts und seine Frau&#10;Ursula Grieben" element="list" class="per" subclass="">
+      <span id="1236" start="1" end="5" text="Junckher Niclaus Escher des Radts" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1248" start="1" end="1" text="Junckher" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1248_head" start="1" end="1" element="head" class="title" text="Junckher" subclass=""/>
+        </span>
+        <span id="1242" start="2" end="3" text="Niclaus Escher" element="head" class="nam" subclass=""/>
+        <span id="1254" start="4" end="5" text="des Radts" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1260" start="4" end="5" text="des Radts" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+            <span id="1266" start="5" end="5" text="Radts" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="1278" start="7" end="10" text="seine Frau&#10;Ursula Grieben" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1297" start="7" end="8" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1284" start="7" end="7" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1284_head" start="7" end="7" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1303" start="8" end="8" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1309" start="9" end="10" text="Ursula Grieben" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1544" start="11" end="11" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1315" start="13" end="23" text="Junckher Hanns&#10;Friderich von Landeckh und seine Frau Rickhart&#10;von Landtsperg" element="list" class="per" subclass="">
+      <span id="1321" start="13" end="17" text="Junckher Hanns&#10;Friderich von Landeckh" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1327" start="13" end="13" text="Junckher" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1327_head" start="13" end="13" element="head" class="title" text="Junckher" subclass=""/>
+        </span>
+        <span id="1333" start="14" end="17" text="Hanns&#10;Friderich von Landeckh" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1339" start="19" end="23" text="seine Frau Rickhart&#10;von Landtsperg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1345" start="19" end="20" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1357" start="19" end="19" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1357_head" start="19" end="19" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1351" start="20" end="20" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1370" start="21" end="23" text="Rickhart&#10;von Landtsperg" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1376" start="24" end="73" text="den hoff mit den beiden hüsern&#10;und Gesess mit dem Brunnen , hinder sant Ulrichs&#10;Lutkilchen zu hindern Ramstein , zwischen der Rot&#10;perger und Junckher hansen von Utenheins hof&#10;kleinen Ramstein genannt , und uff dem Rhyn glegen&#10;und Grossen Ramstein genant , ist zins frey fryg&#10;lidig eygen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1382" start="25" end="25" text="hoff" element="head" class="type" subclass=""/>
+      <span id="1388" start="26" end="34" text="mit den beiden hüsern&#10;und Gesess mit dem Brunnen" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1394" start="27" end="29" text="den beiden hüsern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1400" start="29" end="29" text="hüsern" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1406" start="31" end="31" text="Gesess" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1406_head" start="31" end="31" element="head" class="type" text="Gesess" subclass=""/>
+        </span>
+        <span id="1412" start="33" end="34" text="dem Brunnen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="fountain">
+          <span id="1418" start="34" end="34" text="Brunnen" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1448" start="36" end="62" text="hinder sant Ulrichs&#10;Lutkilchen zu hindern Ramstein , zwischen der Rot&#10;perger und Junckher hansen von Utenheins hof&#10;kleinen Ramstein genannt , und uff dem Rhyn glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1424" start="37" end="42" text="sant Ulrichs&#10;Lutkilchen zu hindern Ramstein" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1430" start="37" end="39" text="sant Ulrichs&#10;Lutkilchen" element="head" class="nam" subclass=""/>
+          <span id="1436" start="40" end="42" text="zu hindern Ramstein" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1442" start="41" end="42" text="hindern Ramstein" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1442_head" start="41" end="42" element="head" class="nam" text="hindern Ramstein" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1454" start="45" end="47" text="der Rot&#10;perger" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1460" start="46" end="47" text="Rot&#10;perger" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1466" start="49" end="56" text="Junckher hansen von Utenheins hof&#10;kleinen Ramstein genannt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1490" start="49" end="52" text="Junckher hansen von Utenheins" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1472" start="49" end="52" text="Junckher hansen von Utenheins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1478" start="49" end="49" text="Junckher" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1478_head" start="49" end="49" element="head" class="title" text="Junckher" subclass=""/>
+              </span>
+              <span id="1484" start="50" end="52" text="hansen von Utenheins" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+          <span id="1532" start="53" end="53" text="hof" element="head" class="type" subclass=""/>
+          <span id="1538" start="54" end="55" text="kleinen Ramstein" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1538_head" start="54" end="55" element="head" class="nam" text="kleinen Ramstein" subclass=""/>
+          </span>
+        </span>
+        <span id="1496" start="60" end="61" text="dem Rhyn" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="river">
+          <span id="1502" start="61" end="61" text="Rhyn" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1508" start="64" end="65" text="Grossen Ramstein" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1508_head" start="64" end="65" element="head" class="nam" text="Grossen Ramstein" subclass=""/>
+      </span>
+      <span id="1526" start="68" end="73" text="ist zins frey fryg&#10;lidig eygen" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1514" start="76" end="77" text="1100 Gulden" element="value" class="money" subclass=""/>
+    <span id="1520" start="79" end="81" text="1 ℔ 5ß" element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1290" from="1284" to="1236" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1363" from="1357" to="1321" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="8" ref="1297" type="state">
+      <trigger start="8" end="8" text="Frau" ref="1303"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1278" text="seine Frau&#10;Ursula Grieben"/>
+        <role role="family-b" ref="1284" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="19" end="20" ref="1345" type="state">
+      <trigger start="20" end="20" text="Frau" ref="1351"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1339" text="seine Frau Rickhart&#10;von Landtsperg"/>
+        <role role="family-b" ref="1357" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="membership" polarity="pos" tense="pres" modality="ass" start="4" end="5" ref="1254" type="state">
+      <event event_id="2.0">
+        <role role="member" ref="1236" text="Junckher Niclaus Escher des Radts"/>
+        <role role="organization" ref="1260" text="des Radts"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="26" end="34" ref="1388" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1376" text="den hoff mit den beiden hüsern&#10;und Gesess mit dem Brunnen , hinder sant Ulrichs&#10;Lutkilchen zu hindern Ramstein , zwischen der Rot&#10;perger und Junckher hansen von Utenheins hof&#10;kleinen Ramstein genannt , und uff dem Rhyn glegen&#10;und Grossen Ramstein genant , ist zins frey fryg&#10;lidig eygen"/>
+        <role role="part" ref="1394" text="den beiden hüsern"/>
+        <role role="part" ref="1406" text="Gesess"/>
+        <role role="part" ref="1412" text="dem Brunnen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="36" end="62" ref="1448" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1376" text="den hoff mit den beiden hüsern&#10;und Gesess mit dem Brunnen , hinder sant Ulrichs&#10;Lutkilchen zu hindern Ramstein , zwischen der Rot&#10;perger und Junckher hansen von Utenheins hof&#10;kleinen Ramstein genannt , und uff dem Rhyn glegen&#10;und Grossen Ramstein genant , ist zins frey fryg&#10;lidig eygen"/>
+        <role role="location-b" ref="1424" text="sant Ulrichs&#10;Lutkilchen zu hindern Ramstein"/>
+        <role role="location-b" ref="1454" text="der Rot&#10;perger"/>
+        <role role="location-b" ref="1466" text="Junckher hansen von Utenheins hof&#10;kleinen Ramstein genannt"/>
+        <role role="location-b" ref="1496" text="dem Rhyn"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="40" end="42" ref="1436" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1424" text="sant Ulrichs&#10;Lutkilchen zu hindern Ramstein"/>
+        <role role="location-b" ref="1442" text="hindern Ramstein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="49" end="52" ref="1490" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1466" text="Junckher hansen von Utenheins hof&#10;kleinen Ramstein genannt"/>
+        <role role="owner" ref="1472" text="Junckher hansen von Utenheins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="1" end="81" ref="" type="event">
+      <trigger start="11" end="11" text="verkaufen" ref="1544"/>
+      <event event_id="7.0">
+        <role role="seller" ref="1236" text="Junckher Niclaus Escher des Radts"/>
+        <role role="seller" ref="1278" text="seine Frau&#10;Ursula Grieben"/>
+        <role role="buyer" ref="1321" text="Junckher Hanns&#10;Friderich von Landeckh"/>
+        <role role="buyer" ref="1339" text="seine Frau Rickhart&#10;von Landtsperg"/>
+        <role role="property" ref="1376" text="den hoff mit den beiden hüsern&#10;und Gesess mit dem Brunnen , hinder sant Ulrichs&#10;Lutkilchen zu hindern Ramstein , zwischen der Rot&#10;perger und Junckher hansen von Utenheins hof&#10;kleinen Ramstein genannt , und uff dem Rhyn glegen&#10;und Grossen Ramstein genant , ist zins frey fryg&#10;lidig eygen"/>
+        <role role="price" ref="1514" text="1100 Gulden"/>
+        <role role="detail_price-conv" ref="1520" text="1 ℔ 5ß"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

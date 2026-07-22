@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 85/46 S. [11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hutgasse 12</tei:title>
+            <tei:idno>HGB 1 85/46</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1481910</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Hausurkunden</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1429">1429</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611187.8457444045 1267443.243592385</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissenurkunde</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Heintzman</token>
+    <token token_id="3">Glantz</token>
+    <token token_id="4">der</token>
+    <token token_id="5">Spengler</token>
+    <token token_id="6">und</token>
+    <token token_id="7">Elsin</token>
+    <token token_id="8">sein</token>
+    <token token_id="9">Ewirtin</token>
+    <token token_id="10">widenen</token>
+    <token token_id="11">einandt</token>
+    <token token_id="12">ihre</token>
+    <token token_id="13">Rechte</token>
+    <token token_id="14">an</token>
+    <token token_id="15">den</token>
+    <token token_id="16">husen</token>
+    <token token_id="17">,</token>
+    <token token_id="18">und</token>
+    <token token_id="19">hofstetten</token>
+    <token token_id="20">,</token>
+    <token token_id="21">dem</token>
+    <token token_id="22">vordern</token>
+    <token token_id="23">und</token>
+    <token token_id="24">dem</token>
+    <token token_id="25">hinden</token>
+    <token token_id="26">an</token>
+    <token token_id="27">Wienhartzgassen</token>
+    <token token_id="28">nebend</token>
+    <token token_id="29">Heinrich</token>
+    <token token_id="30">Domers</token>
+    <token token_id="31">huse</token>
+    <token token_id="32">dem</token>
+    <token token_id="33">man</token>
+    <token token_id="34">sprichet</token>
+    <token token_id="35">Pheugenberg</token>
+    <token token_id="36">ze</token>
+    <token token_id="37">einer</token>
+    <token token_id="38">siten</token>
+    <token token_id="39">und</token>
+    <token token_id="40">Hennman</token>
+    <token token_id="41">Stenlis</token>
+    <token token_id="42">des</token>
+    <token token_id="43">Schidenmachers</token>
+    <token token_id="44">hus</token>
+    <token token_id="45">zer</token>
+    <token token_id="46">andern</token>
+    <token token_id="47">siten</token>
+  </text>
+  <spans>
+    <span id="809" start="2" end="9" text="Heintzman Glantz der Spengler und Elsin sein&#10;Ewirtin" element="list" class="per" subclass="">
+      <span id="779" start="2" end="5" text="Heintzman Glantz der Spengler" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="785" start="2" end="3" text="Heintzman Glantz" element="head" class="nam" subclass=""/>
+        <span id="791" start="4" end="5" text="der Spengler" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="797" start="5" end="5" text="Spengler" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="803" start="7" end="9" text="Elsin sein&#10;Ewirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="959" start="7" end="7" text="Elsin" element="head" class="nam" subclass=""/>
+        <span id="815" start="8" end="9" text="sein&#10;Ewirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="971" start="8" end="8" text="sein" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="971_head" start="8" end="8" element="head" class="pro" text="sein" subclass=""/>
+          </span>
+          <span id="821" start="9" end="9" text="Ewirtin" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="991" start="10" end="10" text="widenen" element="trigger" class="bequest" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="827" start="12" end="12" text="ihre" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="827_head" start="12" end="12" element="head" class="pro" text="ihre" subclass=""/>
+    </span>
+    <span id="965" start="15" end="47" text="den husen ,&#10;und hofstetten , dem vordern und dem hinden an&#10;Wienhartzgassen nebend Heinrich Domers huse&#10;dem man sprichet Pheugenberg ze einer siten und&#10;Hennman Stenlis des Schidenmachers hus zer&#10;andern siten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="833" start="16" end="19" text="husen ,&#10;und hofstetten" element="head" class="type" subclass=""/>
+      <span id="869" start="21" end="25" text="dem vordern und dem hinden" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="875" start="21" end="25" text="dem vordern und dem hinden" element="list" class="fac" subclass="">
+          <span id="845" start="21" end="22" text="dem vordern" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="851" start="22" end="22" text="vordern" element="head" class="type" subclass=""/>
+          </span>
+          <span id="857" start="24" end="25" text="dem hinden" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="863" start="25" end="25" text="hinden" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="839" start="26" end="47" text="an&#10;Wienhartzgassen nebend Heinrich Domers huse&#10;dem man sprichet Pheugenberg ze einer siten und&#10;Hennman Stenlis des Schidenmachers hus zer&#10;andern siten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="881" start="27" end="27" text="Wienhartzgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="881_head" start="27" end="27" element="head" class="nam" text="Wienhartzgassen" subclass=""/>
+        </span>
+        <span id="887" start="29" end="35" text="Heinrich Domers huse&#10;dem man sprichet Pheugenberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="893" start="29" end="30" text="Heinrich Domers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="899" start="29" end="30" text="Heinrich Domers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="899_head" start="29" end="30" element="head" class="nam" text="Heinrich Domers" subclass=""/>
+            </span>
+          </span>
+          <span id="905" start="31" end="31" text="huse" element="head" class="type" subclass=""/>
+          <span id="911" start="35" end="35" text="Pheugenberg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="911_head" start="35" end="35" element="head" class="nam" text="Pheugenberg" subclass=""/>
+          </span>
+        </span>
+        <span id="917" start="40" end="44" text="Hennman Stenlis des Schidenmachers hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="929" start="40" end="43" text="Hennman Stenlis des Schidenmachers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="935" start="40" end="43" text="Hennman Stenlis des Schidenmachers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="941" start="40" end="41" text="Hennman Stenlis" element="head" class="nam" subclass=""/>
+              <span id="947" start="42" end="43" text="des Schidenmachers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="953" start="43" end="43" text="Schidenmachers" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="923" start="44" end="44" text="hus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="984" from="827" to="809" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="977" from="971" to="779" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="8" end="9" ref="815" type="state">
+      <trigger start="9" end="9" text="Ewirtin" ref="821"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="803" text="Elsin sein&#10;Ewirtin"/>
+        <role role="family-b" ref="971" text="sein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="part_whole" polarity="pos" tense="pres" modality="ass" start="21" end="25" ref="869" type="state">
+      <event event_id="1.0">
+        <role role="whole" ref="965" text="den husen ,&#10;und hofstetten , dem vordern und dem hinden an&#10;Wienhartzgassen nebend Heinrich Domers huse&#10;dem man sprichet Pheugenberg ze einer siten und&#10;Hennman Stenlis des Schidenmachers hus zer&#10;andern siten"/>
+        <role role="part" ref="845" text="dem vordern"/>
+        <role role="part" ref="857" text="dem hinden"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="26" end="47" ref="839" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="965" text="den husen ,&#10;und hofstetten , dem vordern und dem hinden an&#10;Wienhartzgassen nebend Heinrich Domers huse&#10;dem man sprichet Pheugenberg ze einer siten und&#10;Hennman Stenlis des Schidenmachers hus zer&#10;andern siten"/>
+        <role role="location-b" ref="881" text="Wienhartzgassen"/>
+        <role role="location-b" ref="887" text="Heinrich Domers huse&#10;dem man sprichet Pheugenberg"/>
+        <role role="location-b" ref="917" text="Hennman Stenlis des Schidenmachers hus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="29" end="30" ref="893" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="887" text="Heinrich Domers huse&#10;dem man sprichet Pheugenberg"/>
+        <role role="owner" ref="899" text="Heinrich Domers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="40" end="43" ref="929" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="917" text="Hennman Stenlis des Schidenmachers hus"/>
+        <role role="owner" ref="935" text="Hennman Stenlis des Schidenmachers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="bequest" polarity="pos" tense="pres" modality="ass" start="10" end="47" ref="" type="event">
+      <trigger start="10" end="10" text="widenen" ref="991"/>
+      <event event_id="5.0">
+        <role role="bequeather" ref="779" text="Heintzman Glantz der Spengler"/>
+        <role role="bequeather" ref="803" text="Elsin sein&#10;Ewirtin"/>
+        <role role="property" ref="965" text="den husen ,&#10;und hofstetten , dem vordern und dem hinden an&#10;Wienhartzgassen nebend Heinrich Domers huse&#10;dem man sprichet Pheugenberg ze einer siten und&#10;Hennman Stenlis des Schidenmachers hus zer&#10;andern siten"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

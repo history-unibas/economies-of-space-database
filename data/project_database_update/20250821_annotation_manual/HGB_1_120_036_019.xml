@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 120/36 S. [19]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Malzgasse 23</tei:title>
+            <tei:idno>HGB 1 120/36</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1494591</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Spital</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1501">1501</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611948.4592345115 1266919.080935597</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">in</token>
+    <token token_id="1">sannt</token>
+    <token token_id="2">Ulrich</token>
+    <token token_id="3">.</token>
+    <token token_id="4">1501</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Hanns</token>
+    <token token_id="7">Kuen</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Fronnenwirt</token>
+    <token token_id="10">gibt</token>
+    <token token_id="11">vonn</token>
+    <token token_id="12">sinem</token>
+    <token token_id="13">Hus</token>
+    <token token_id="14">.</token>
+    <token token_id="15">in</token>
+    <token token_id="16">der</token>
+    <token token_id="17">Maltzgassen</token>
+    <token token_id="18">,</token>
+    <token token_id="19">7</token>
+    <token token_id="20">sh</token>
+    <token token_id="21">.</token>
+    <token token_id="22">Ebenso</token>
+    <token token_id="23">:</token>
+    <token token_id="24">1502</token>
+    <token token_id="25">.</token>
+    <token token_id="26">1503</token>
+    <token token_id="27">.</token>
+    <token token_id="28">1504</token>
+    <token token_id="29">.</token>
+    <token token_id="30">1505</token>
+    <token token_id="31">.</token>
+    <token token_id="32">1506</token>
+    <token token_id="33">.</token>
+    <token token_id="34">1507</token>
+    <token token_id="35">.</token>
+    <token token_id="36">1508</token>
+    <token token_id="37">.</token>
+    <token token_id="38">1509</token>
+    <token token_id="39">.</token>
+    <token token_id="40">1510</token>
+    <token token_id="41">.</token>
+    <token token_id="42">1511</token>
+    <token token_id="43">.</token>
+    <token token_id="44">1512</token>
+    <token token_id="45">.</token>
+    <token token_id="46">1513</token>
+    <token token_id="47">.</token>
+    <token token_id="48">1514</token>
+    <token token_id="49">.</token>
+    <token token_id="50">Hanns</token>
+    <token token_id="51">Kuoll</token>
+    <token token_id="52">gibt</token>
+    <token token_id="53">nun</token>
+    <token token_id="54">den</token>
+    <token token_id="55">zinns</token>
+    <token token_id="56">.</token>
+  </text>
+  <spans>
+    <span id="1023" start="0" end="47" text="in sannt Ulrich .&#10;1501 . Hanns Kuen der Fronnenwirt gibt vonn sinem Hus .&#10;in der Maltzgassen , 7 sh .&#10;Ebenso : 1502 . 1503 . 1504 . 1505 . 1506 . 1507 . 1508 . 1509 . 1510 . 1511 . 1512 . 1513 ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="842" start="1" end="2" text="sannt Ulrich" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="842_head" start="1" end="2" element="head" class="nam" text="sannt Ulrich" subclass=""/>
+      </span>
+      <span id="848" start="4" end="4" text="1501" element="value" class="date" subclass=""/>
+      <span id="932" start="6" end="9" text="Hanns Kuen der Fronnenwirt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="938" start="6" end="7" text="Hanns Kuen" element="head" class="nam" subclass=""/>
+        <span id="944" start="8" end="9" text="der Fronnenwirt" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+          <span id="950" start="9" end="9" text="Fronnenwirt" element="head" class="occ" subclass="org-job"/>
+        </span>
+      </span>
+      <span id="1011" start="10" end="10" text="gibt" element="trigger" class="type" subclass=""/>
+      <span id="981" start="12" end="17" text="sinem Hus .&#10;in der Maltzgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="962" start="12" end="12" text="sinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="968" start="12" end="12" text="sinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="968_head" start="12" end="12" element="head" class="pro" text="sinem" subclass=""/>
+          </span>
+        </span>
+        <span id="956" start="13" end="13" text="Hus" element="head" class="type" subclass=""/>
+        <span id="987" start="15" end="17" text="in der Maltzgassen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="993" start="16" end="17" text="der Maltzgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+            <span id="993_head" start="16" end="17" element="head" class="nam" text="der Maltzgassen" subclass=""/>
+          </span>
+        </span>
+      </span>
+      <span id="999" start="19" end="21" text="7 sh ." element="value" class="money" subclass=""/>
+      <span id="854" start="24" end="24" text="1502" element="value" class="date" subclass=""/>
+      <span id="860" start="26" end="26" text="1503" element="value" class="date" subclass=""/>
+      <span id="866" start="28" end="28" text="1504" element="value" class="date" subclass=""/>
+      <span id="872" start="30" end="30" text="1505" element="value" class="date" subclass=""/>
+      <span id="878" start="32" end="32" text="1506" element="value" class="date" subclass=""/>
+      <span id="884" start="34" end="34" text="1507" element="value" class="date" subclass=""/>
+      <span id="890" start="36" end="36" text="1508" element="value" class="date" subclass=""/>
+      <span id="896" start="38" end="38" text="1509" element="value" class="date" subclass=""/>
+      <span id="902" start="40" end="40" text="1510" element="value" class="date" subclass=""/>
+      <span id="908" start="42" end="42" text="1511" element="value" class="date" subclass=""/>
+      <span id="914" start="44" end="44" text="1512" element="value" class="date" subclass=""/>
+      <span id="920" start="46" end="46" text="1513" element="value" class="date" subclass=""/>
+    </span>
+    <span id="1029" start="48" end="56" text="1514 . Hanns Kuoll gibt nun den zinns ." element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="change">
+      <span id="926" start="48" end="48" text="1514" element="value" class="date" subclass=""/>
+      <span id="1005" start="50" end="51" text="Hanns Kuoll" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1005_head" start="50" end="51" element="head" class="nam" text="Hanns Kuoll" subclass=""/>
+      </span>
+      <span id="1035" start="52" end="52" text="gibt" element="trigger" class="type" subclass=""/>
+      <span id="1041" start="54" end="55" text="den zinns" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1047" start="55" end="55" text="zinns" element="trigger" class="type" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1053" from="1041" to="1023" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="974" from="968" to="932" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="47" ref="1023" type="event">
+      <trigger start="10" end="10" text="gibt" ref="1011"/>
+      <event event_id="0.0">
+        <role role="place" ref="842" text="sannt Ulrich"/>
+        <role role="date" ref="848" text="1501"/>
+        <role role="payer" ref="932" text="Hanns Kuen der Fronnenwirt"/>
+        <role role="property" ref="981" text="sinem Hus .&#10;in der Maltzgassen"/>
+        <role role="interest" ref="999" text="7 sh ."/>
+        <role role="date" ref="854" text="1502"/>
+        <role role="date" ref="860" text="1503"/>
+        <role role="date" ref="866" text="1504"/>
+        <role role="date" ref="872" text="1505"/>
+        <role role="date" ref="878" text="1506"/>
+        <role role="date" ref="884" text="1507"/>
+        <role role="date" ref="890" text="1508"/>
+        <role role="date" ref="896" text="1509"/>
+        <role role="date" ref="902" text="1510"/>
+        <role role="date" ref="908" text="1511"/>
+        <role role="date" ref="914" text="1512"/>
+        <role role="date" ref="920" text="1513"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="48" end="56" ref="1029" type="event">
+      <trigger start="52" end="52" text="gibt" ref="1035"/>
+      <event event_id="1.0">
+        <role role="date" ref="926" text="1514"/>
+        <role role="payer" ref="1005" text="Hanns Kuoll"/>
+        <role role="previous-due" ref="1041" text="den zinns"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-payment" polarity="pos" tense="pres" modality="ass" start="54" end="55" ref="1041" type="event">
+      <trigger start="55" end="55" text="zinns" ref="1047"/>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="12" end="12" ref="962" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="981" text="sinem Hus .&#10;in der Maltzgassen"/>
+        <role role="owner" ref="968" text="sinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="17" ref="987" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="981" text="sinem Hus .&#10;in der Maltzgassen"/>
+        <role role="location-b" ref="993" text="der Maltzgassen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

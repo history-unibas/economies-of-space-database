@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 28/51 S. [49]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Blumenrain 8</tei:title>
+            <tei:idno>HGB 1 28/51</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1464824</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Peter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1572">1572</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611211.338946881 1267754.5736544426</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">St</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Peter</token>
+    <token token_id="3">gestattet</token>
+    <token token_id="4">dem</token>
+    <token token_id="5">Wernher</token>
+    <token token_id="6">Wölfflin</token>
+    <token token_id="7">3</token>
+    <token token_id="8">Schilling</token>
+    <token token_id="9">zinspfennig</token>
+    <token token_id="10">,</token>
+    <token token_id="11">so</token>
+    <token token_id="12">das</token>
+    <token token_id="13">Stift</token>
+    <token token_id="14">von</token>
+    <token token_id="15">seinem</token>
+    <token token_id="16">haus</token>
+    <token token_id="17">zu</token>
+    <token token_id="18">dem</token>
+    <token token_id="19">weissen</token>
+    <token token_id="20">Adler</token>
+    <token token_id="21">genannt</token>
+    <token token_id="22">hinter</token>
+    <token token_id="23">dem</token>
+    <token token_id="24">Blumen</token>
+    <token token_id="25">gelegen</token>
+    <token token_id="26">,</token>
+    <token token_id="27">mit</token>
+    <token token_id="28">6</token>
+    <token token_id="29">℔</token>
+    <token token_id="30">ablösen</token>
+    <token token_id="31">dar</token>
+    <token token_id="32">¬</token>
+  </text>
+  <spans>
+    <span id="559" start="0" end="2" text="St . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="559_head" start="0" end="2" element="head" class="nam" text="St . Peter" subclass=""/>
+    </span>
+    <span id="565" start="4" end="6" text="dem Wernher Wölfflin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="571" start="5" end="6" text="Wernher Wölfflin" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="657" start="7" end="9" text="3 Schilling&#10;zinspfennig" element="value" class="money" subclass=""/>
+    <span id="675" start="11" end="11" text="so" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="577" start="12" end="13" text="das Stift" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="651" start="13" end="13" text="Stift" element="head" class="type" subclass=""/>
+    </span>
+    <span id="590" start="15" end="25" text="seinem haus zu dem weissen Adler&#10;genannt hinter dem Blumen gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="596" start="15" end="15" text="seinem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="602" start="15" end="15" text="seinem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="602_head" start="15" end="15" element="head" class="pro" text="seinem" subclass=""/>
+        </span>
+      </span>
+      <span id="615" start="16" end="16" text="haus" element="head" class="type" subclass=""/>
+      <span id="663" start="18" end="20" text="dem weissen Adler" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="621" start="19" end="20" text="weissen Adler" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="627" start="22" end="25" text="hinter dem Blumen gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="633" start="23" end="24" text="dem Blumen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="639" start="24" end="24" text="Blumen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="645" start="28" end="29" text="6 ℔" element="value" class="money" subclass=""/>
+    <span id="669" start="30" end="30" text="ablösen" element="trigger" class="redemption" tense="pres" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="583" from="577" to="559" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="608" from="602" to="565" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="ownership" polarity="pos" tense="pres" modality="ass" start="15" end="15" ref="596" type="state">
+      <event event_id="0.0">
+        <role role="property" ref="590" text="seinem haus zu dem weissen Adler&#10;genannt hinter dem Blumen gelegen"/>
+        <role role="owner" ref="602" text="seinem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="22" end="25" ref="627" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="590" text="seinem haus zu dem weissen Adler&#10;genannt hinter dem Blumen gelegen"/>
+        <role role="location-b" ref="633" text="dem Blumen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="11" end="25" ref="" type="state">
+      <trigger start="11" end="11" text="so" ref="675"/>
+      <event event_id="2.0">
+        <role role="interest" ref="657" text="3 Schilling&#10;zinspfennig"/>
+        <role role="beneficiary" ref="577" text="das Stift"/>
+        <role role="property" ref="590" text="seinem haus zu dem weissen Adler&#10;genannt hinter dem Blumen gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="redemption" polarity="pos" tense="pres" modality="ass" start="0" end="30" ref="" type="event">
+      <trigger start="30" end="30" text="ablösen" ref="669"/>
+      <event event_id="3.0">
+        <role role="beneficiary" ref="559" text="St . Peter"/>
+        <role role="redeemer" ref="565" text="dem Wernher Wölfflin"/>
+        <role role="due" ref="675" text="so"/>
+        <role role="capital" ref="645" text="6 ℔"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

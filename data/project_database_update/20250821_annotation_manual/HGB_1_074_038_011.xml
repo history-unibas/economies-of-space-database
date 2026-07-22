@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 74/38 S. [11]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hebelstrasse 23, 25, vorderer Theil</tei:title>
+            <tei:idno>HGB 1 74/38</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1478160</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1456">1456</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610760.149474565 1267805.8380262586</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">gabent</token>
+    <token token_id="2">ze</token>
+    <token token_id="3">kaufen</token>
+    <token token_id="4">Heinrich</token>
+    <token token_id="5">Wysse</token>
+    <token token_id="6">der</token>
+    <token token_id="7">Koufman</token>
+    <token token_id="8">,</token>
+    <token token_id="9">J</token>
+    <token token_id="10">.</token>
+    <token token_id="11">Jergen</token>
+    <token token_id="12">zer</token>
+    <token token_id="13">Sunnen</token>
+    <token token_id="14">u</token>
+    <token token_id="15">.</token>
+    <token token_id="16">seine</token>
+    <token token_id="17">Frau</token>
+    <token token_id="18">Barbara</token>
+    <token token_id="19">,</token>
+    <token token_id="20">einen</token>
+    <token token_id="21">garten</token>
+    <token token_id="22">gelegen</token>
+    <token token_id="23">uff</token>
+    <token token_id="24">dem</token>
+    <token token_id="25">platz</token>
+    <token token_id="26">ze</token>
+    <token token_id="27">sant</token>
+    <token token_id="28">Petersberg</token>
+    <token token_id="29">,</token>
+    <token token_id="30">in</token>
+    <token token_id="31">dem</token>
+    <token token_id="32">gesslin</token>
+    <token token_id="33">,</token>
+    <token token_id="34">hinder</token>
+    <token token_id="35">der</token>
+    <token token_id="36">schuezen</token>
+    <token token_id="37">hus</token>
+    <token token_id="38">stosset</token>
+    <token token_id="39">herfür</token>
+    <token token_id="40">zu</token>
+    <token token_id="41">der</token>
+    <token token_id="42">Ringer</token>
+    <token token_id="43">u</token>
+    <token token_id="44">.</token>
+    <token token_id="45">hinder</token>
+    <token token_id="46">in</token>
+    <token token_id="47">die</token>
+    <token token_id="48">nuwe</token>
+    <token token_id="49">vorstatt</token>
+    <token token_id="50">,</token>
+    <token token_id="51">einsit</token>
+    <token token_id="52">neben</token>
+    <token token_id="53">Johannsen</token>
+    <token token_id="54">Zschegkaburlins</token>
+    <token token_id="55">garten</token>
+    <token token_id="56">ư</token>
+    <token token_id="57">andersite</token>
+    <token token_id="58">niden</token>
+    <token token_id="59">an</token>
+    <token token_id="60">Rudolff</token>
+    <token token_id="61">Herstrossen</token>
+    <token token_id="62">garte</token>
+    <token token_id="63">u</token>
+    <token token_id="64">oben</token>
+    <token token_id="65">an</token>
+    <token token_id="66">Jacob</token>
+    <token token_id="67">von</token>
+    <token token_id="68">Sennhein</token>
+    <token token_id="69">des</token>
+    <token token_id="70">Appoteckers</token>
+    <token token_id="71">garte</token>
+    <token token_id="72">,</token>
+    <token token_id="73">zinst</token>
+    <token token_id="74">jährl</token>
+    <token token_id="75">.</token>
+    <token token_id="76">zu</token>
+    <token token_id="77">s</token>
+    <token token_id="78">.</token>
+    <token token_id="79">Cloren</token>
+    <token token_id="80">6</token>
+    <token token_id="81">sh</token>
+    <token token_id="82">.</token>
+    <token token_id="83">u</token>
+    <token token_id="84">.</token>
+    <token token_id="85">3sh</token>
+    <token token_id="86">.</token>
+    <token token_id="87">um</token>
+    <token token_id="88">150</token>
+    <token token_id="89">fl</token>
+    <token token_id="90">.</token>
+  </text>
+  <spans>
+    <span id="1707" start="3" end="3" text="kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1400" start="4" end="7" text="Heinrich Wysse der Koufman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1418" start="4" end="5" text="Heinrich Wysse" element="head" class="nam" subclass=""/>
+      <span id="1424" start="6" end="7" text="der Koufman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1430" start="7" end="7" text="Koufman" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1659" start="9" end="18" text="J . Jergen zer Sunnen u . seine Frau Barbara" element="list" class="per" subclass="">
+      <span id="1406" start="9" end="13" text="J . Jergen zer Sunnen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1695" start="9" end="10" text="J ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1695_head" start="9" end="10" element="head" class="title" text="J ." subclass=""/>
+        </span>
+        <span id="1701" start="11" end="13" text="Jergen zer Sunnen" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="1412" start="16" end="18" text="seine Frau Barbara" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1442" start="16" end="17" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1454" start="16" end="16" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1454_head" start="16" end="16" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1448" start="17" end="17" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1436" start="18" end="18" text="Barbara" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1665" start="20" end="86" text="einen garten&#10;gelegen uff dem platz ze sant Petersberg , in dem gesslin ,&#10;hinder der schuezen hus stosset herfür zu der Ringer&#10;u . hinder in die nuwe vorstatt , einsit neben Johannsen&#10;Zschegkaburlins garten ư andersite niden an Rudolff&#10;Herstrossen garte u oben an Jacob von Sennhein des&#10;Appoteckers garte , zinst jährl . zu s . Cloren 6 sh . u . 3sh ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1467" start="21" end="21" text="garten" element="head" class="type" subclass=""/>
+      <span id="1473" start="22" end="71" text="gelegen uff dem platz ze sant Petersberg , in dem gesslin ,&#10;hinder der schuezen hus stosset herfür zu der Ringer&#10;u . hinder in die nuwe vorstatt , einsit neben Johannsen&#10;Zschegkaburlins garten ư andersite niden an Rudolff&#10;Herstrossen garte u oben an Jacob von Sennhein des&#10;Appoteckers garte" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1479" start="24" end="28" text="dem platz ze sant Petersberg" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="1485" start="25" end="25" text="platz" element="head" class="type" subclass=""/>
+          <span id="1491" start="26" end="28" text="ze sant Petersberg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1497" start="27" end="28" text="sant Petersberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1497_head" start="27" end="28" element="head" class="nam" text="sant Petersberg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1503" start="31" end="32" text="dem gesslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1509" start="32" end="32" text="gesslin" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1515" start="35" end="37" text="der schuezen hus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1689" start="36" end="37" text="schuezen hus" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1521" start="41" end="42" text="der Ringer" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="defense">
+          <span id="1527" start="42" end="42" text="Ringer" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1533" start="47" end="49" text="die nuwe vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1653" start="48" end="49" text="nuwe vorstatt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1539" start="53" end="55" text="Johannsen&#10;Zschegkaburlins garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1557" start="53" end="54" text="Johannsen&#10;Zschegkaburlins" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1551" start="53" end="54" text="Johannsen&#10;Zschegkaburlins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1551_head" start="53" end="54" element="head" class="nam" text="Johannsen Zschegkaburlins" subclass=""/>
+            </span>
+          </span>
+          <span id="1545" start="55" end="55" text="garten" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1563" start="60" end="62" text="Rudolff&#10;Herstrossen garte" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1581" start="60" end="61" text="Rudolff&#10;Herstrossen" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1575" start="60" end="61" text="Rudolff&#10;Herstrossen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1575_head" start="60" end="61" element="head" class="nam" text="Rudolff Herstrossen" subclass=""/>
+            </span>
+          </span>
+          <span id="1569" start="62" end="62" text="garte" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1587" start="66" end="71" text="Jacob von Sennhein des&#10;Appoteckers garte" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1671" start="66" end="70" text="Jacob von Sennhein des&#10;Appoteckers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1599" start="66" end="70" text="Jacob von Sennhein des&#10;Appoteckers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1605" start="66" end="68" text="Jacob von Sennhein" element="head" class="nam" subclass=""/>
+              <span id="1611" start="69" end="70" text="des&#10;Appoteckers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1617" start="70" end="70" text="Appoteckers" element="head" class="occ" subclass=""/>
+              </span>
+            </span>
+          </span>
+          <span id="1593" start="71" end="71" text="garte" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1677" start="73" end="86" text="zinst jährl . zu s . Cloren 6 sh . u . 3sh ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1713" start="73" end="73" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1623" start="74" end="74" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="1629" start="77" end="79" text="s . Cloren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1629_head" start="77" end="79" element="head" class="nam" text="s . Cloren" subclass=""/>
+        </span>
+        <span id="1635" start="80" end="82" text="6 sh ." element="value" class="money" subclass=""/>
+        <span id="1641" start="85" end="86" text="3sh ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1647" start="88" end="90" text="150 fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1460" from="1454" to="1406" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1713_role" from="1713" to="1665" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="16" end="17" ref="1442" type="state">
+      <trigger start="17" end="17" text="Frau" ref="1448"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1412" text="seine Frau Barbara"/>
+        <role role="family-b" ref="1454" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="22" end="71" ref="1473" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1665" text="einen garten&#10;gelegen uff dem platz ze sant Petersberg , in dem gesslin ,&#10;hinder der schuezen hus stosset herfür zu der Ringer&#10;u . hinder in die nuwe vorstatt , einsit neben Johannsen&#10;Zschegkaburlins garten ư andersite niden an Rudolff&#10;Herstrossen garte u oben an Jacob von Sennhein des&#10;Appoteckers garte , zinst jährl . zu s . Cloren 6 sh . u . 3sh ."/>
+        <role role="location-b" ref="1479" text="dem platz ze sant Petersberg"/>
+        <role role="location-b" ref="1503" text="dem gesslin"/>
+        <role role="location-b" ref="1515" text="der schuezen hus"/>
+        <role role="location-b" ref="1521" text="der Ringer"/>
+        <role role="location-b" ref="1533" text="die nuwe vorstatt"/>
+        <role role="location-b" ref="1539" text="Johannsen&#10;Zschegkaburlins garten"/>
+        <role role="location-b" ref="1563" text="Rudolff&#10;Herstrossen garte"/>
+        <role role="location-b" ref="1587" text="Jacob von Sennhein des&#10;Appoteckers garte"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="26" end="28" ref="1491" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1479" text="dem platz ze sant Petersberg"/>
+        <role role="location-b" ref="1497" text="sant Petersberg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="53" end="54" ref="1557" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1539" text="Johannsen&#10;Zschegkaburlins garten"/>
+        <role role="owner" ref="1551" text="Johannsen&#10;Zschegkaburlins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="60" end="61" ref="1581" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1563" text="Rudolff&#10;Herstrossen garte"/>
+        <role role="owner" ref="1575" text="Rudolff&#10;Herstrossen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="66" end="70" ref="1671" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1587" text="Jacob von Sennhein des&#10;Appoteckers garte"/>
+        <role role="owner" ref="1599" text="Jacob von Sennhein des&#10;Appoteckers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="90" ref="" type="event">
+      <trigger start="3" end="3" text="kaufen" ref="1707"/>
+      <event event_id="6.0">
+        <role role="seller" ref="1400" text="Heinrich Wysse der Koufman"/>
+        <role role="buyer" ref="1406" text="J . Jergen zer Sunnen"/>
+        <role role="buyer" ref="1412" text="seine Frau Barbara"/>
+        <role role="property" ref="1665" text="einen garten&#10;gelegen uff dem platz ze sant Petersberg , in dem gesslin ,&#10;hinder der schuezen hus stosset herfür zu der Ringer&#10;u . hinder in die nuwe vorstatt , einsit neben Johannsen&#10;Zschegkaburlins garten ư andersite niden an Rudolff&#10;Herstrossen garte u oben an Jacob von Sennhein des&#10;Appoteckers garte , zinst jährl . zu s . Cloren 6 sh . u . 3sh ."/>
+        <role role="price" ref="1647" text="150 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="20" end="86" ref="1677" type="state">
+      <trigger start="73" end="73" text="zinst" ref="1713"/>
+      <event event_id="7.0">
+        <role role="interval" ref="1623" text="jährl"/>
+        <role role="beneficiary" ref="1629" text="s . Cloren"/>
+        <role role="interest" ref="1635" text="6 sh ."/>
+        <role role="interest" ref="1641" text="3sh ."/>
+        <role role="property" ref="1665" text="einen garten&#10;gelegen uff dem platz ze sant Petersberg , in dem gesslin ,&#10;hinder der schuezen hus stosset herfür zu der Ringer&#10;u . hinder in die nuwe vorstatt , einsit neben Johannsen&#10;Zschegkaburlins garten ư andersite niden an Rudolff&#10;Herstrossen garte u oben an Jacob von Sennhein des&#10;Appoteckers garte , zinst jährl . zu s . Cloren 6 sh . u . 3sh ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 215/23 S. [17]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Steinenvorstadt 19</tei:title>
+            <tei:idno>HGB 1 215/23</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532604</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1459">1459</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611321.577073307 1266971.1059638173</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">koufte</token>
+    <token token_id="2">Johan</token>
+    <token token_id="3">Colin</token>
+    <token token_id="4">Tumhere</token>
+    <token token_id="5">u</token>
+    <token token_id="6">.</token>
+    <token token_id="7">Lutpriester</token>
+    <token token_id="8">ze</token>
+    <token token_id="9">Münster</token>
+    <token token_id="10">in</token>
+    <token token_id="11">Grenfelt</token>
+    <token token_id="12">meister</token>
+    <token token_id="13">Sifriden</token>
+    <token token_id="14">des</token>
+    <token token_id="15">Grotuchers</token>
+    <token token_id="16">jetzmt</token>
+    <token token_id="17">pfrunders</token>
+    <token token_id="18">im</token>
+    <token token_id="19">Spital</token>
+    <token token_id="20">Hus</token>
+    <token token_id="21">&amp;</token>
+    <token token_id="22">Hofstatt</token>
+    <token token_id="23">nebent</token>
+    <token token_id="24">der</token>
+    <token token_id="25">Weber</token>
+    <token token_id="26">Zunfthus</token>
+    <token token_id="27">gelegen</token>
+    <token token_id="28">,</token>
+    <token token_id="29">zem</token>
+    <token token_id="30">dritten</token>
+    <token token_id="31">kouff</token>
+    <token token_id="32">um</token>
+    <token token_id="33">1</token>
+    <token token_id="34">℔</token>
+    <token token_id="35">3sh</token>
+    <token token_id="36">.</token>
+    <token token_id="37">do</token>
+    <token token_id="38">ist</token>
+    <token token_id="39">harzu</token>
+    <token token_id="40">verkundt</token>
+    <token token_id="41">bruder</token>
+    <token token_id="42">Heinrich</token>
+    <token token_id="43">enwil</token>
+    <token token_id="44">schaffner</token>
+    <token token_id="45">an</token>
+    <token token_id="46">den</token>
+    <token token_id="47">steinen</token>
+    <token token_id="48">als</token>
+    <token token_id="49">jährl</token>
+    <token token_id="50">ouch</token>
+    <token token_id="51">darab</token>
+    <token token_id="52">gat</token>
+    <token token_id="53">den</token>
+    <token token_id="54">frauen</token>
+    <token token_id="55">an</token>
+    <token token_id="56">den</token>
+    <token token_id="57">Steinen</token>
+    <token token_id="58">1</token>
+    <token token_id="59">℔</token>
+    <token token_id="60">gelts</token>
+    <token token_id="61">voneig</token>
+    <token token_id="62">.</token>
+    <token token_id="63">auch</token>
+    <token token_id="64">dem</token>
+    <token token_id="65">Spitalmeister</token>
+    <token token_id="66">der</token>
+    <token token_id="67">hat</token>
+    <token token_id="68">den</token>
+    <token token_id="69">Kauf</token>
+    <token token_id="70">verwilliget</token>
+    <token token_id="71">,</token>
+    <token token_id="72">ze</token>
+    <token token_id="73">überkaufen</token>
+    <token token_id="74">offen</token>
+    <token token_id="75">behalten</token>
+    <token token_id="76">sin</token>
+    <token token_id="77">solle</token>
+    <token token_id="78">hal</token>
+    <token token_id="79">behept</token>
+    <token token_id="80">das</token>
+    <token token_id="81">die</token>
+    <token token_id="82">pfrunde</token>
+    <token token_id="83">s</token>
+    <token token_id="84">.</token>
+    <token token_id="85">Oswalts</token>
+    <token token_id="86">altar</token>
+    <token token_id="87">ze</token>
+    <token token_id="88">munster</token>
+    <token token_id="89">in</token>
+    <token token_id="90">gerenfelt</token>
+    <token token_id="91">jährl</token>
+    <token token_id="92">daruf</token>
+    <token token_id="93">habe</token>
+    <token token_id="94">8</token>
+    <token token_id="95">des</token>
+    <token token_id="96">standen</token>
+    <token token_id="97">sum</token>
+    <token token_id="98">10</token>
+    <token token_id="99">℔</token>
+    <token token_id="100">u</token>
+    <token token_id="101">.</token>
+    <token token_id="102">der</token>
+    <token token_id="103">husen</token>
+    <token token_id="104">sint</token>
+    <token token_id="105">zwei</token>
+    <token token_id="106">heisset</token>
+    <token token_id="107">das</token>
+    <token token_id="108">eine</token>
+    <token token_id="109">zu</token>
+    <token token_id="110">sant</token>
+    <token token_id="111">Jergen</token>
+    <token token_id="112">das</token>
+    <token token_id="113">ander</token>
+    <token token_id="114">zem</token>
+    <token token_id="115">blowen</token>
+    <token token_id="116">Steinen</token>
+    <token token_id="117">lyt</token>
+    <token token_id="118">an</token>
+    <token token_id="119">Mr</token>
+    <token token_id="120">.</token>
+    <token token_id="121">Thürings</token>
+    <token token_id="122">orthus</token>
+    <token token_id="123">,</token>
+  </text>
+  <spans>
+    <span id="2183" start="1" end="1" text="koufte" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1787" start="2" end="11" text="Johan Colin Tumhere u . Lutpriester ze&#10;Münster in Grenfelt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1793" start="2" end="3" text="Johan Colin" element="head" class="nam" subclass=""/>
+      <span id="1799" start="4" end="11" text="Tumhere u . Lutpriester ze&#10;Münster in Grenfelt" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1805" start="4" end="7" text="Tumhere u . Lutpriester" element="head" class="occ" subclass=""/>
+        <span id="1811" start="8" end="11" text="ze&#10;Münster in Grenfelt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2153" start="9" end="11" text="Münster in Grenfelt" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2153_head" start="9" end="11" element="head" class="nam" text="Münster in Grenfelt" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1817" start="12" end="27" text="meister Sifriden des Grotuchers&#10;jetzmt pfrunders im Spital Hus &amp; Hofstatt nebent&#10;der Weber Zunfthus gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1829" start="12" end="19" text="meister Sifriden des Grotuchers&#10;jetzmt pfrunders im Spital" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1835" start="12" end="19" text="meister Sifriden des Grotuchers&#10;jetzmt pfrunders im Spital" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1847" start="12" end="12" text="meister" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1847_head" start="12" end="12" element="head" class="title" text="meister" subclass=""/>
+          </span>
+          <span id="1841" start="13" end="13" text="Sifriden" element="head" class="nam" subclass=""/>
+          <span id="1853" start="14" end="15" text="des Grotuchers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1859" start="15" end="15" text="Grotuchers" element="head" class="occ" subclass=""/>
+          </span>
+          <span id="1865" start="17" end="19" text="pfrunders im Spital" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1871" start="17" end="17" text="pfrunders" element="head" class="org-aff" subclass=""/>
+            <span id="1877" start="18" end="19" text="im Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="1883" start="19" end="19" text="Spital" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1823" start="20" end="22" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1889" start="23" end="27" text="nebent&#10;der Weber Zunfthus gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1895" start="24" end="26" text="der Weber Zunfthus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2165" start="24" end="25" text="der Weber" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2171" start="24" end="25" text="der Weber" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="occ">
+              <span id="2177" start="25" end="25" text="Weber" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+          <span id="2159" start="26" end="26" text="Zunfthus" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1901" start="33" end="36" text="1 ℔ 3sh ." element="value" class="money" subclass=""/>
+    <span id="2189" start="40" end="40" text="verkundt" element="trigger" class="declaration" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1907" start="41" end="47" text="bruder Heinrich enwil&#10;schaffner an den steinen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1919" start="41" end="41" text="bruder" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1919_head" start="41" end="41" element="head" class="title" text="bruder" subclass=""/>
+      </span>
+      <span id="1913" start="42" end="43" text="Heinrich enwil" element="head" class="nam" subclass=""/>
+      <span id="1925" start="44" end="47" text="schaffner an den steinen" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1931" start="44" end="44" text="schaffner" element="head" class="occ" subclass="org-job"/>
+        <span id="1937" start="45" end="47" text="an den steinen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1943" start="47" end="47" text="steinen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1949" start="49" end="49" text="jährl" element="value" class="time" subclass="rec"/>
+    <span id="2201" start="51" end="51" text="darab" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2201_head" start="51" end="51" element="head" class="pro" text="darab" subclass=""/>
+    </span>
+    <span id="2195" start="52" end="52" text="gat" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1955" start="53" end="57" text="den frauen&#10;an den Steinen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1961" start="54" end="57" text="frauen&#10;an den Steinen" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1974" start="58" end="59" text="1 ℔" element="value" class="money" subclass=""/>
+    <span id="2214" start="61" end="62" text="voneig ." element="other" class="other" subclass=""/>
+    <span id="1980" start="64" end="65" text="dem Spitalmeister" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1986" start="65" end="65" text="Spitalmeister" element="head" class="occ" subclass=""/>
+    </span>
+    <span id="1992" start="66" end="66" text="der" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1992_head" start="66" end="66" element="head" class="pro" text="der" subclass=""/>
+    </span>
+    <span id="2232" start="69" end="69" text="Kauf" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2226" start="70" end="70" text="verwilliget" element="trigger" class="consent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2005" start="81" end="90" text="die pfrunde s . Oswalts altar ze munster&#10;in gerenfelt" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="2011" start="82" end="86" text="pfrunde s . Oswalts altar" element="head" class="nam" subclass=""/>
+      <span id="2017" start="87" end="90" text="ze munster&#10;in gerenfelt" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2023" start="88" end="88" text="munster" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2023_head" start="88" end="88" element="head" class="nam" text="munster" subclass=""/>
+        </span>
+        <span id="2029" start="90" end="90" text="gerenfelt" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2029_head" start="90" end="90" element="head" class="nam" text="gerenfelt" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2035" start="91" end="91" text="jährl" element="value" class="time" subclass="rec"/>
+    <span id="2220" start="93" end="93" text="habe" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2041" start="94" end="95" text="8 des" element="value" class="money" subclass=""/>
+    <span id="2047" start="98" end="99" text="10 ℔" element="value" class="money" subclass=""/>
+    <span id="2053" start="102" end="103" text="der husen" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2059" start="103" end="103" text="husen" element="head" class="type" subclass=""/>
+    </span>
+    <span id="2065" start="107" end="108" text="das eine" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2065_head" start="107" end="108" element="head" class="pro" text="das eine" subclass=""/>
+    </span>
+    <span id="2071" start="109" end="111" text="zu sant Jergen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2071_head" start="109" end="111" element="head" class="nam" text="zu sant Jergen" subclass=""/>
+    </span>
+    <span id="2084" start="112" end="113" text="das ander" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2084_head" start="112" end="113" element="head" class="pro" text="das ander" subclass=""/>
+    </span>
+    <span id="2090" start="114" end="116" text="zem blowen Steinen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2090_head" start="114" end="116" element="head" class="nam" text="zem blowen Steinen" subclass=""/>
+    </span>
+    <span id="2103" start="119" end="122" text="Mr . Thürings orthus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2109" start="119" end="121" text="Mr . Thürings" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2115" start="119" end="121" text="Mr . Thürings" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2127" start="119" end="120" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2127_head" start="119" end="120" element="head" class="title" text="Mr ." subclass=""/>
+          </span>
+          <span id="2121" start="121" end="121" text="Thürings" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="2133" start="122" end="122" text="orthus" element="head" class="type" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2238" from="2232" to="2183" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2207" from="2201" to="1817" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1967" from="1955" to="1937" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1998" from="1992" to="1980" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2139" from="2065" to="2053" class="part-of" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2146" from="2084" to="2053" class="part-of" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2077" from="2071" to="2065" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2096" from="2090" to="2084" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="membership" polarity="pos" tense="pres" modality="ass" start="17" end="19" ref="1865" type="state">
+      <trigger start="17" end="17" text="pfrunders" ref="1871"/>
+      <event event_id="0.0">
+        <role role="member" ref="1835" text="meister Sifriden des Grotuchers&#10;jetzmt pfrunders im Spital"/>
+        <role role="organization" ref="1877" text="im Spital"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="44" end="47" ref="1925" type="state">
+      <trigger start="44" end="44" text="schaffner" ref="1931"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1907" text="bruder Heinrich enwil&#10;schaffner an den steinen"/>
+        <role role="employer" ref="1937" text="an den steinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="8" end="11" ref="1811" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1787" text="Johan Colin Tumhere u . Lutpriester ze&#10;Münster in Grenfelt"/>
+        <role role="location-b" ref="2153" text="Münster in Grenfelt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="12" end="19" ref="1829" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1817" text="meister Sifriden des Grotuchers&#10;jetzmt pfrunders im Spital Hus &amp; Hofstatt nebent&#10;der Weber Zunfthus gelegen"/>
+        <role role="owner" ref="1835" text="meister Sifriden des Grotuchers&#10;jetzmt pfrunders im Spital"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="23" end="27" ref="1889" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1817" text="meister Sifriden des Grotuchers&#10;jetzmt pfrunders im Spital Hus &amp; Hofstatt nebent&#10;der Weber Zunfthus gelegen"/>
+        <role role="location-b" ref="1895" text="der Weber Zunfthus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="24" end="25" ref="2165" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1895" text="der Weber Zunfthus"/>
+        <role role="owner" ref="2171" text="der Weber"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="87" end="90" ref="2017" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="2005" text="die pfrunde s . Oswalts altar ze munster&#10;in gerenfelt"/>
+        <role role="location-b" ref="2023" text="munster"/>
+        <role role="location-b" ref="2029" text="gerenfelt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="119" end="121" ref="2109" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="2103" text="Mr . Thürings orthus"/>
+        <role role="owner" ref="2115" text="Mr . Thürings"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="1" end="36" ref="" type="event">
+      <trigger start="1" end="1" text="koufte" ref="2183"/>
+      <event event_id="8.0">
+        <role role="buyer" ref="1787" text="Johan Colin Tumhere u . Lutpriester ze&#10;Münster in Grenfelt"/>
+        <role role="property" ref="1817" text="meister Sifriden des Grotuchers&#10;jetzmt pfrunders im Spital Hus &amp; Hofstatt nebent&#10;der Weber Zunfthus gelegen"/>
+        <role role="price" ref="1901" text="1 ℔ 3sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="declaration" polarity="pos" tense="pres" modality="ass" start="1" end="65" ref="" type="event">
+      <trigger start="40" end="40" text="verkundt" ref="2189"/>
+      <event event_id="9.0">
+        <role role="content" ref="2183" text="koufte"/>
+        <role role="addressee" ref="1907" text="bruder Heinrich enwil&#10;schaffner an den steinen"/>
+      </event>
+      <event event_id="9.1">
+        <role role="content" ref="2183" text="koufte"/>
+        <role role="addressee" ref="1980" text="dem Spitalmeister"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="49" end="62" ref="" type="state">
+      <trigger start="52" end="52" text="gat" ref="2195"/>
+      <event event_id="10.0">
+        <role role="interval" ref="1949" text="jährl"/>
+        <role role="property" ref="2201" text="darab"/>
+        <role role="beneficiary" ref="1955" text="den frauen&#10;an den Steinen"/>
+        <role role="interest" ref="1974" text="1 ℔"/>
+        <role role="cause" ref="2214" text="voneig ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="69" end="69" ref="" type="event">
+      <trigger start="69" end="69" text="Kauf" ref="2232"/>
+    </eventGroup>
+    <eventGroup event_id="12" class="consent" polarity="pos" tense="pres" modality="ass" start="66" end="70" ref="" type="event">
+      <trigger start="70" end="70" text="verwilliget" ref="2226"/>
+      <event event_id="12.0">
+        <role role="consenting" ref="1992" text="der"/>
+        <role role="subject" ref="2232" text="Kauf"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="81" end="99" ref="" type="state">
+      <trigger start="93" end="93" text="habe" ref="2220"/>
+      <event event_id="13.0">
+        <role role="beneficiary" ref="2005" text="die pfrunde s . Oswalts altar ze munster&#10;in gerenfelt"/>
+        <role role="interval" ref="2035" text="jährl"/>
+        <role role="interest" ref="2041" text="8 des"/>
+        <role role="capital" ref="2047" text="10 ℔"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="14.0">
+        <role role="part" ref="2065" text="das eine"/>
+        <role role="whole" ref="2053" text="der husen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="15" class="part_whole" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="15.0">
+        <role role="part" ref="2084" text="das ander"/>
+        <role role="whole" ref="2053" text="der husen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

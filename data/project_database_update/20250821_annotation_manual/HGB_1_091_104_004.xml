@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 91/104 S. [4]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>St. Johanns-Vorstadt 10</tei:title>
+            <tei:idno>HGB 1 91/104</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1482327</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1443">1443</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611040.3400228997 1267993.6532228286</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Da</token>
+    <token token_id="1">hat</token>
+    <token token_id="2">verbotten</token>
+    <token token_id="3">hin</token>
+    <token token_id="4">Bekingerin</token>
+    <token token_id="5">,</token>
+    <token token_id="6">Cunratz</token>
+    <token token_id="7">Wachters</token>
+    <token token_id="8">des</token>
+    <token token_id="9">Vischers</token>
+    <token token_id="10">mütterlich</token>
+    <token token_id="11">erb</token>
+    <token token_id="12">,</token>
+    <token token_id="13">jm</token>
+    <token token_id="14">Hus</token>
+    <token token_id="15">jn</token>
+    <token token_id="16">der</token>
+    <token token_id="17">Vorstatt</token>
+    <token token_id="18">ze</token>
+    <token token_id="19">sant</token>
+    <token token_id="20">Johanns</token>
+    <token token_id="21">.</token>
+  </text>
+  <spans>
+    <span id="591" start="2" end="2" text="verbotten" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="525" start="3" end="4" text="hin Bekingerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="525_head" start="3" end="4" element="head" class="nam" text="hin Bekingerin" subclass=""/>
+    </span>
+    <span id="531" start="6" end="9" text="Cunratz Wachters&#10;des Vischers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="537" start="6" end="7" text="Cunratz Wachters" element="head" class="nam" subclass=""/>
+      <span id="549" start="8" end="9" text="des Vischers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="543" start="9" end="9" text="Vischers" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="597" start="11" end="11" text="erb" element="trigger" class="inheritance" tense="past" polarity="pos" modality="ass" subclass=""/>
+    <span id="555" start="13" end="20" text="jm Hus jn der Vorstatt&#10;ze sant Johanns" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="561" start="14" end="14" text="Hus" element="head" class="type" subclass=""/>
+      <span id="567" start="15" end="20" text="jn der Vorstatt&#10;ze sant Johanns" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="573" start="16" end="20" text="der Vorstatt&#10;ze sant Johanns" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="579" start="17" end="20" text="Vorstatt&#10;ze sant Johanns" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="20" ref="567" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="555" text="jm Hus jn der Vorstatt&#10;ze sant Johanns"/>
+        <role role="location-b" ref="573" text="der Vorstatt&#10;ze sant Johanns"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="20" ref="" type="event">
+      <trigger start="2" end="2" text="verbotten" ref="591"/>
+      <event event_id="1.0">
+        <role role="claimant" ref="525" text="hin Bekingerin"/>
+        <role role="property" ref="597" text="erb"/>
+        <role role="place" ref="555" text="jm Hus jn der Vorstatt&#10;ze sant Johanns"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="inheritance" polarity="pos" tense="past" modality="ass" start="11" end="9" ref="" type="event">
+      <trigger start="11" end="11" text="erb" ref="597"/>
+      <event event_id="2.0">
+        <role role="heir" ref="531" text="Cunratz Wachters&#10;des Vischers"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 229/37 S. [15]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Weisse Gasse 20</tei:title>
+            <tei:idno>HGB 1 229/37</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1535098</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1525">1525</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611368.561751122 1267216.9636338989</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Johans</token>
+    <token token_id="1">Berkman</token>
+    <token token_id="2">von</token>
+    <token token_id="3">Ope</token>
+    <token token_id="4">dechant</token>
+    <token token_id="5">s</token>
+    <token token_id="6">.</token>
+    <token token_id="7">Johans</token>
+    <token token_id="8">Bruderschaft</token>
+    <token token_id="9">,</token>
+    <token token_id="10">u</token>
+    <token token_id="11">.</token>
+    <token token_id="12">Caplan</token>
+    <token token_id="13">des</token>
+    <token token_id="14">altars</token>
+    <token token_id="15">s</token>
+    <token token_id="16">.</token>
+    <token token_id="17">Peters</token>
+    <token token_id="18">hinder</token>
+    <token token_id="19">dem</token>
+    <token token_id="20">Fronaltar</token>
+    <token token_id="21">der</token>
+    <token token_id="22">hohen</token>
+    <token token_id="23">Stift</token>
+    <token token_id="24">,</token>
+    <token token_id="25">verkauft</token>
+    <token token_id="26">an</token>
+    <token token_id="27">Martin</token>
+    <token token_id="28">Leple</token>
+    <token token_id="29">,</token>
+    <token token_id="30">ouch</token>
+    <token token_id="31">einem</token>
+    <token token_id="32">Caplanen</token>
+    <token token_id="33">jezgemelter</token>
+    <token token_id="34">hohen</token>
+    <token token_id="35">Stift</token>
+    <token token_id="36">,</token>
+    <token token_id="37">das</token>
+    <token token_id="38">Hus</token>
+    <token token_id="39">u</token>
+    <token token_id="40">.</token>
+    <token token_id="41">Hofstatt</token>
+    <token token_id="42">samt</token>
+    <token token_id="43">dem</token>
+    <token token_id="44">gertli</token>
+    <token token_id="45">darhinder</token>
+    <token token_id="46">,</token>
+    <token token_id="47">in</token>
+    <token token_id="48">der</token>
+    <token token_id="49">wyssen</token>
+    <token token_id="50">gassen</token>
+    <token token_id="51">,</token>
+    <token token_id="52">zwüschen</token>
+    <token token_id="53">der</token>
+    <token token_id="54">alten</token>
+    <token token_id="55">Gipsmüli</token>
+    <token token_id="56">,</token>
+    <token token_id="57">u</token>
+    <token token_id="58">.</token>
+    <token token_id="59">dem</token>
+    <token token_id="60">Hus</token>
+    <token token_id="61">zum</token>
+    <token token_id="62">Elibon</token>
+    <token token_id="63">glegen</token>
+    <token token_id="64">,</token>
+    <token token_id="65">u</token>
+    <token token_id="66">.</token>
+    <token token_id="67">Kargen</token>
+    <token token_id="68">Hus</token>
+    <token token_id="69">genant</token>
+    <token token_id="70">,</token>
+    <token token_id="71">wie</token>
+    <token token_id="72">dan</token>
+    <token token_id="73">das</token>
+    <token token_id="74">obgemelter</token>
+    <token token_id="75">caplanie</token>
+    <token token_id="76">zugehörig</token>
+    <token token_id="77">gwesen</token>
+    <token token_id="78">ist</token>
+    <token token_id="79">,</token>
+    <token token_id="80">zinset</token>
+    <token token_id="81">von</token>
+    <token token_id="82">eig</token>
+    <token token_id="83">.</token>
+    <token token_id="84">der</token>
+    <token token_id="85">Besenz</token>
+    <token token_id="86">gemelten</token>
+    <token token_id="87">Stift</token>
+    <token token_id="88">,</token>
+    <token token_id="89">2</token>
+    <token token_id="90">℔</token>
+    <token token_id="91">,</token>
+    <token token_id="92">u</token>
+    <token token_id="93">.</token>
+    <token token_id="94">dan</token>
+    <token token_id="95">aber</token>
+    <token token_id="96">derselben</token>
+    <token token_id="97">Presenz</token>
+    <token token_id="98">3</token>
+    <token token_id="99">fl</token>
+    <token token_id="100">.</token>
+    <token token_id="101">sonstfrei</token>
+    <token token_id="102">,</token>
+    <token token_id="103">sum</token>
+    <token token_id="104">85</token>
+    <token token_id="105">℔</token>
+    <token token_id="106">.</token>
+  </text>
+  <spans>
+    <span id="1507" start="0" end="23" text="Johans Berkman von Ope dechant s . Johans Bruderschaft , u .&#10;Caplan des altars s . Peters hinder dem Fronaltar der hohen Stift" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1513" start="0" end="1" text="Johans Berkman" element="head" class="nam" subclass=""/>
+      <span id="1519" start="2" end="3" text="von Ope" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1525" start="3" end="3" text="Ope" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1525_head" start="3" end="3" element="head" class="nam" text="Ope" subclass=""/>
+        </span>
+      </span>
+      <span id="1531" start="4" end="8" text="dechant s . Johans Bruderschaft" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1537" start="4" end="4" text="dechant" element="head" class="occ" subclass="org-job"/>
+        <span id="1543" start="5" end="8" text="s . Johans Bruderschaft" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1543_head" start="5" end="8" element="head" class="nam" text="s . Johans Bruderschaft" subclass=""/>
+        </span>
+      </span>
+      <span id="1549" start="12" end="23" text="Caplan des altars s . Peters hinder dem Fronaltar der hohen Stift" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1555" start="12" end="12" text="Caplan" element="head" class="occ" subclass="org-job"/>
+        <span id="1561" start="13" end="23" text="des altars s . Peters hinder dem Fronaltar der hohen Stift" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1768" start="14" end="20" text="altars s . Peters hinder dem Fronaltar" element="head" class="nam" subclass=""/>
+          <span id="1786" start="21" end="23" text="der hohen Stift" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1774" start="21" end="23" text="der hohen Stift" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="1780" start="22" end="23" text="hohen Stift" element="head" class="nam" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1799" start="25" end="25" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1567" start="27" end="35" text="Martin Leple , ouch einem Caplanen jezgemelter hohen&#10;Stift" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1573" start="27" end="28" text="Martin Leple" element="head" class="nam" subclass=""/>
+      <span id="1579" start="31" end="35" text="einem Caplanen jezgemelter hohen&#10;Stift" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1585" start="32" end="32" text="Caplanen" element="head" class="occ" subclass="org-job"/>
+        <span id="1591" start="33" end="35" text="jezgemelter hohen&#10;Stift" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1597" start="34" end="35" text="hohen&#10;Stift" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1610" start="37" end="101" text="das Hus u . Hofstatt samt dem gertli darhinder , in der&#10;wyssen gassen , zwüschen der alten Gipsmüli , u . dem Hus zum&#10;Elibon glegen , u . Kargen Hus genant , wie dan das obgemelter&#10;caplanie zugehörig gwesen ist , zinset von eig . der Besenz gemelten Stift ,&#10;2 ℔, u . dan aber derselben Presenz 3 fl . sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1616" start="38" end="41" text="Hus u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1622" start="42" end="45" text="samt dem gertli darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1628" start="43" end="44" text="dem gertli" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1634" start="44" end="44" text="gertli" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1640" start="47" end="63" text="in der&#10;wyssen gassen , zwüschen der alten Gipsmüli , u . dem Hus zum&#10;Elibon glegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1646" start="48" end="50" text="der&#10;wyssen gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1652" start="49" end="50" text="wyssen gassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1658" start="53" end="55" text="der alten Gipsmüli" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1664" start="54" end="55" text="alten Gipsmüli" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1670" start="59" end="62" text="dem Hus zum&#10;Elibon" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1676" start="60" end="62" text="Hus zum&#10;Elibon" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1682" start="67" end="68" text="Kargen Hus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1682_head" start="67" end="68" element="head" class="nam" text="Kargen Hus" subclass=""/>
+      </span>
+      <span id="1700" start="71" end="78" text="wie dan das obgemelter&#10;caplanie zugehörig gwesen ist" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1694" start="73" end="75" text="das obgemelter&#10;caplanie" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1688" start="75" end="75" text="caplanie" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1762" start="80" end="101" text="zinset von eig . der Besenz gemelten Stift ,&#10;2 ℔, u . dan aber derselben Presenz 3 fl . sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1805" start="80" end="80" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1811" start="81" end="83" text="von eig ." element="other" class="other" subclass=""/>
+        <span id="1713" start="84" end="87" text="der Besenz gemelten Stift" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1719" start="85" end="87" text="Besenz gemelten Stift" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1725" start="89" end="91" text="2 ℔," element="value" class="money" subclass=""/>
+        <span id="1731" start="96" end="97" text="derselben Presenz" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1737" start="97" end="97" text="Presenz" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1750" start="98" end="100" text="3 fl ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1756" start="104" end="106" text="85 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1603" from="1591" to="1561" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1706" from="1694" to="1561" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1792" from="1713" to="1774" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1743" from="1731" to="1713" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="4" end="8" ref="1531" type="state">
+      <trigger start="4" end="4" text="dechant" ref="1537"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1507" text="Johans Berkman von Ope dechant s . Johans Bruderschaft , u .&#10;Caplan des altars s . Peters hinder dem Fronaltar der hohen Stift"/>
+        <role role="employer" ref="1543" text="s . Johans Bruderschaft"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="employment" polarity="pos" tense="pres" modality="ass" start="12" end="23" ref="1549" type="state">
+      <trigger start="12" end="12" text="Caplan" ref="1555"/>
+      <event event_id="1.0">
+        <role role="employee" ref="1507" text="Johans Berkman von Ope dechant s . Johans Bruderschaft , u .&#10;Caplan des altars s . Peters hinder dem Fronaltar der hohen Stift"/>
+        <role role="employer" ref="1561" text="des altars s . Peters hinder dem Fronaltar der hohen Stift"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="employment" polarity="pos" tense="pres" modality="ass" start="31" end="35" ref="1579" type="state">
+      <trigger start="32" end="32" text="Caplanen" ref="1585"/>
+      <event event_id="2.0">
+        <role role="employee" ref="1567" text="Martin Leple , ouch einem Caplanen jezgemelter hohen&#10;Stift"/>
+        <role role="employer" ref="1591" text="jezgemelter hohen&#10;Stift"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="2" end="3" ref="1519" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1507" text="Johans Berkman von Ope dechant s . Johans Bruderschaft , u .&#10;Caplan des altars s . Peters hinder dem Fronaltar der hohen Stift"/>
+        <role role="location-b" ref="1525" text="Ope"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="part_whole" polarity="pos" tense="pres" modality="ass" start="21" end="23" ref="1786" type="state">
+      <event event_id="4.0">
+        <role role="part" ref="1561" text="des altars s . Peters hinder dem Fronaltar der hohen Stift"/>
+        <role role="whole" ref="1774" text="der hohen Stift"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" start="42" end="45" ref="1622" type="state">
+      <event event_id="5.0">
+        <role role="whole" ref="1610" text="das Hus u . Hofstatt samt dem gertli darhinder , in der&#10;wyssen gassen , zwüschen der alten Gipsmüli , u . dem Hus zum&#10;Elibon glegen , u . Kargen Hus genant , wie dan das obgemelter&#10;caplanie zugehörig gwesen ist , zinset von eig . der Besenz gemelten Stift ,&#10;2 ℔, u . dan aber derselben Presenz 3 fl . sonstfrei"/>
+        <role role="part" ref="1628" text="dem gertli"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="47" end="63" ref="1640" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1610" text="das Hus u . Hofstatt samt dem gertli darhinder , in der&#10;wyssen gassen , zwüschen der alten Gipsmüli , u . dem Hus zum&#10;Elibon glegen , u . Kargen Hus genant , wie dan das obgemelter&#10;caplanie zugehörig gwesen ist , zinset von eig . der Besenz gemelten Stift ,&#10;2 ℔, u . dan aber derselben Presenz 3 fl . sonstfrei"/>
+        <role role="location-b" ref="1646" text="der&#10;wyssen gassen"/>
+        <role role="location-b" ref="1658" text="der alten Gipsmüli"/>
+        <role role="location-b" ref="1670" text="dem Hus zum&#10;Elibon"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="ownership" polarity="pos" tense="pres" modality="ass" start="71" end="78" ref="1700" type="state">
+      <event event_id="7.0">
+        <role role="property" ref="1610" text="das Hus u . Hofstatt samt dem gertli darhinder , in der&#10;wyssen gassen , zwüschen der alten Gipsmüli , u . dem Hus zum&#10;Elibon glegen , u . Kargen Hus genant , wie dan das obgemelter&#10;caplanie zugehörig gwesen ist , zinset von eig . der Besenz gemelten Stift ,&#10;2 ℔, u . dan aber derselben Presenz 3 fl . sonstfrei"/>
+        <role role="owner" ref="1694" text="das obgemelter&#10;caplanie"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="80" end="101" ref="1762" type="state">
+      <trigger start="80" end="80" text="zinset" ref="1805"/>
+      <event event_id="8.0">
+        <role role="property" ref="1610" text="das Hus u . Hofstatt samt dem gertli darhinder , in der&#10;wyssen gassen , zwüschen der alten Gipsmüli , u . dem Hus zum&#10;Elibon glegen , u . Kargen Hus genant , wie dan das obgemelter&#10;caplanie zugehörig gwesen ist , zinset von eig . der Besenz gemelten Stift ,&#10;2 ℔, u . dan aber derselben Presenz 3 fl . sonstfrei"/>
+        <role role="cause" ref="1811" text="von eig ."/>
+        <role role="beneficiary" ref="1713" text="der Besenz gemelten Stift"/>
+        <role role="interest" ref="1725" text="2 ℔,"/>
+      </event>
+      <event event_id="8.1">
+        <role role="property" ref="1610" text="das Hus u . Hofstatt samt dem gertli darhinder , in der&#10;wyssen gassen , zwüschen der alten Gipsmüli , u . dem Hus zum&#10;Elibon glegen , u . Kargen Hus genant , wie dan das obgemelter&#10;caplanie zugehörig gwesen ist , zinset von eig . der Besenz gemelten Stift ,&#10;2 ℔, u . dan aber derselben Presenz 3 fl . sonstfrei"/>
+        <role role="beneficiary" ref="1731" text="derselben Presenz"/>
+        <role role="interest" ref="1750" text="3 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="25" ref="" type="event">
+      <trigger start="25" end="25" text="verkauft" ref="1799"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1507" text="Johans Berkman von Ope dechant s . Johans Bruderschaft , u .&#10;Caplan des altars s . Peters hinder dem Fronaltar der hohen Stift"/>
+        <role role="buyer" ref="1567" text="Martin Leple , ouch einem Caplanen jezgemelter hohen&#10;Stift"/>
+        <role role="property" ref="1610" text="das Hus u . Hofstatt samt dem gertli darhinder , in der&#10;wyssen gassen , zwüschen der alten Gipsmüli , u . dem Hus zum&#10;Elibon glegen , u . Kargen Hus genant , wie dan das obgemelter&#10;caplanie zugehörig gwesen ist , zinset von eig . der Besenz gemelten Stift ,&#10;2 ℔, u . dan aber derselben Presenz 3 fl . sonstfrei"/>
+        <role role="price" ref="1756" text="85 ℔."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

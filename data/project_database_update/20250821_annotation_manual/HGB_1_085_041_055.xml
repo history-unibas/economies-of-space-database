@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 85/41 S. [55]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hutgasse Theil von 4 neben 2</tei:title>
+            <tei:idno>HGB 1 85/41</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1481905</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1652">1652</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611209.758726576 1267449.2480075955</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Kaufpublication</token>
+    <token token_id="1">.</token>
+    <token token_id="2">Es</token>
+    <token token_id="3">verkauft</token>
+    <token token_id="4">M</token>
+    <token token_id="5">.</token>
+    <token token_id="6">Christoph</token>
+    <token token_id="7">Fischer</token>
+    <token token_id="8">der</token>
+    <token token_id="9">Hutmacher</token>
+    <token token_id="10">und</token>
+    <token token_id="11">gibt</token>
+    <token token_id="12">zu</token>
+    <token token_id="13">kaufen</token>
+    <token token_id="14">H</token>
+    <token token_id="15">.</token>
+    <token token_id="16">Hanns</token>
+    <token token_id="17">Ludwig</token>
+    <token token_id="18">Krugen</token>
+    <token token_id="19">,</token>
+    <token token_id="20">Statt</token>
+    <token token_id="21">¬</token>
+    <token token_id="22">gerichts</token>
+    <token token_id="23">Beysitzern</token>
+    <token token_id="24">im</token>
+    <token token_id="25">Mehrern</token>
+    <token token_id="26">Basell</token>
+    <token token_id="27">,</token>
+    <token token_id="28">eine</token>
+    <token token_id="29">Behausung</token>
+    <token token_id="30">an</token>
+    <token token_id="31">der</token>
+    <token token_id="32">Hutgassen</token>
+    <token token_id="33">,</token>
+    <token token_id="34">neben</token>
+    <token token_id="35">ihme</token>
+    <token token_id="36">H</token>
+    <token token_id="37">.</token>
+    <token token_id="38">Käufer</token>
+    <token token_id="39">selbsten</token>
+    <token token_id="40">gelegen</token>
+    <token token_id="41">.</token>
+  </text>
+  <spans>
+    <span id="794" start="3" end="3" text="verkauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="691" start="4" end="9" text="M . Christoph Fischer der Hutmacher" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="697" start="6" end="7" text="Christoph Fischer" element="head" class="nam" subclass=""/>
+      <span id="703" start="8" end="9" text="der Hutmacher" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="709" start="9" end="9" text="Hutmacher" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="715" start="14" end="26" text="H . Hanns Ludwig Krugen , Statt ¬&#10;gerichts Beysitzern im Mehrern Basell" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="721" start="16" end="18" text="Hanns Ludwig Krugen" element="head" class="nam" subclass=""/>
+      <span id="727" start="20" end="26" text="Statt ¬&#10;gerichts Beysitzern im Mehrern Basell" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="733" start="20" end="23" text="Statt ¬&#10;gerichts Beysitzern" element="head" class="occ" subclass="org-job"/>
+        <span id="739" start="25" end="26" text="Mehrern Basell" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="739_head" start="25" end="26" element="head" class="nam" text="Mehrern Basell" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="745" start="28" end="40" text="eine Behausung&#10;an der Hutgassen , neben ihme H . Käufer selbsten&#10;gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="751" start="29" end="29" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="757" start="30" end="40" text="an der Hutgassen , neben ihme H . Käufer selbsten&#10;gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="763" start="31" end="32" text="der Hutgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="769" start="32" end="32" text="Hutgassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="775" start="35" end="39" text="ihme H . Käufer selbsten" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="781" start="38" end="38" text="Käufer" element="head" class="role" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="787" from="775" to="715" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="20" end="26" ref="727" type="state">
+      <trigger start="20" end="23" text="Statt ¬&#10;gerichts Beysitzern" ref="733"/>
+      <event event_id="0.0">
+        <role role="employee" ref="715" text="H . Hanns Ludwig Krugen , Statt ¬&#10;gerichts Beysitzern im Mehrern Basell"/>
+        <role role="employer" ref="739" text="Mehrern Basell"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="30" end="40" ref="757" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="745" text="eine Behausung&#10;an der Hutgassen , neben ihme H . Käufer selbsten&#10;gelegen"/>
+        <role role="location-b" ref="763" text="der Hutgassen"/>
+        <role role="location-b" ref="775" text="ihme H . Käufer selbsten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="40" ref="" type="event">
+      <trigger start="3" end="3" text="verkauft" ref="794"/>
+      <event event_id="2.0">
+        <role role="seller" ref="691" text="M . Christoph Fischer der Hutmacher"/>
+        <role role="buyer" ref="715" text="H . Hanns Ludwig Krugen , Statt ¬&#10;gerichts Beysitzern im Mehrern Basell"/>
+        <role role="property" ref="745" text="eine Behausung&#10;an der Hutgassen , neben ihme H . Käufer selbsten&#10;gelegen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 101/21 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Klosterberg 2</tei:title>
+            <tei:idno>HGB 1 101/21</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1491681</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1438">1438</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611393.76391483 1266852.3018686245</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">git</token>
+    <token token_id="1">ze</token>
+    <token token_id="2">kaufen</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Oswald</token>
+    <token token_id="5">Sprecht</token>
+    <token token_id="6">von</token>
+    <token token_id="7">Fryburg</token>
+    <token token_id="8">,</token>
+    <token token_id="9">och</token>
+    <token token_id="10">mit</token>
+    <token token_id="11">willen</token>
+    <token token_id="12">Henman</token>
+    <token token_id="13">Ladenmachers</token>
+    <token token_id="14">sins</token>
+    <token token_id="15">swehers</token>
+    <token token_id="16">der</token>
+    <token token_id="17">ze</token>
+    <token token_id="18">gegen</token>
+    <token token_id="19">war</token>
+    <token token_id="20">Elsin</token>
+    <token token_id="21">Segklerin</token>
+    <token token_id="22">,</token>
+    <token token_id="23">daz</token>
+    <token token_id="24">Hüslin</token>
+    <token token_id="25">u</token>
+    <token token_id="26">.</token>
+    <token token_id="27">Hofstatt</token>
+    <token token_id="28">mit</token>
+    <token token_id="29">dem</token>
+    <token token_id="30">Stall</token>
+    <token token_id="31">,</token>
+    <token token_id="32">als</token>
+    <token token_id="33">es</token>
+    <token token_id="34">gelegen</token>
+    <token token_id="35">ist</token>
+    <token token_id="36">in</token>
+    <token token_id="37">der</token>
+    <token token_id="38">vorstatt</token>
+    <token token_id="39">an</token>
+    <token token_id="40">den</token>
+    <token token_id="41">Steinen</token>
+    <token token_id="42">und</token>
+    <token token_id="43">Sturggon</token>
+    <token token_id="44">,</token>
+    <token token_id="45">gegen</token>
+    <token token_id="46">dem</token>
+    <token token_id="47">Closterhoff</token>
+    <token token_id="48">über</token>
+    <token token_id="49">an</token>
+    <token token_id="50">dem</token>
+    <token token_id="51">ort</token>
+    <token token_id="52">,</token>
+    <token token_id="53">undenen</token>
+    <token token_id="54">an</token>
+    <token token_id="55">Conraten</token>
+    <token token_id="56">von</token>
+    <token token_id="57">Herwil</token>
+    <token token_id="58">ư</token>
+    <token token_id="59">nebend</token>
+    <token token_id="60">Henmans</token>
+    <token token_id="61">Ladenmachers</token>
+    <token token_id="62">husern</token>
+    <token token_id="63">,</token>
+    <token token_id="64">zinset</token>
+    <token token_id="65">voneitz</token>
+    <token token_id="66">Jn</token>
+    <token token_id="67">Hans</token>
+    <token token_id="68">Conrat</token>
+    <token token_id="69">Sürlin</token>
+    <token token_id="70">u</token>
+    <token token_id="71">.</token>
+    <token token_id="72">frow</token>
+    <token token_id="73">Tudelin</token>
+    <token token_id="74">von</token>
+    <token token_id="75">Utingen</token>
+    <token token_id="76">siner</token>
+    <token token_id="77">el</token>
+    <token token_id="78">Husfrowen</token>
+    <token token_id="79">,</token>
+    <token token_id="80">18</token>
+    <token token_id="81">.</token>
+    <token token_id="82">dn</token>
+    <token token_id="83">.</token>
+    <token token_id="84">u</token>
+    <token token_id="85">denne</token>
+    <token token_id="86">gant</token>
+    <token token_id="87">ab</token>
+    <token token_id="88">der</token>
+    <token token_id="89">erbsch</token>
+    <token token_id="90">,</token>
+    <token token_id="91">dem</token>
+    <token token_id="92">gotshuss</token>
+    <token token_id="93">.</token>
+    <token token_id="94">Ulrich</token>
+    <token token_id="95">20</token>
+    <token token_id="96">dn</token>
+    <token token_id="97">widerk</token>
+    <token token_id="98">um</token>
+    <token token_id="99">1</token>
+    <token token_id="100">1</token>
+    <token token_id="101">/</token>
+    <token token_id="102">2</token>
+    <token token_id="103">fl</token>
+    <token token_id="104">.</token>
+    <token token_id="105">sum</token>
+    <token token_id="106">62fl</token>
+    <token token_id="107">.</token>
+  </text>
+  <spans>
+    <span id="1870" start="2" end="2" text="kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1574" start="4" end="7" text="Oswald Sprecht von Fryburg" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1580" start="4" end="5" text="Oswald Sprecht" element="head" class="nam" subclass=""/>
+      <span id="1586" start="6" end="7" text="von Fryburg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1592" start="7" end="7" text="Fryburg" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1592_head" start="7" end="7" element="head" class="nam" text="Fryburg" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1821" start="12" end="19" text="Henman Ladenmachers sins swehers der ze gegen&#10;war" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1827" start="12" end="13" text="Henman Ladenmachers" element="head" class="nam" subclass=""/>
+      <span id="1833" start="14" end="15" text="sins swehers" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1845" start="14" end="14" text="sins" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1845_head" start="14" end="14" element="head" class="pro" text="sins" subclass=""/>
+        </span>
+        <span id="1839" start="15" end="15" text="swehers" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="1858" start="16" end="19" text="der ze gegen&#10;war" element="attr" class="type" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    </span>
+    <span id="1815" start="20" end="21" text="Elsin Segklerin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1815_head" start="20" end="21" element="head" class="nam" text="Elsin Segklerin" subclass=""/>
+    </span>
+    <span id="1598" start="23" end="104" text="daz Hüslin u . Hofstatt mit dem&#10;Stall , als es gelegen ist in der vorstatt an den Steinen&#10;und Sturggon , gegen dem Closterhoff über an dem ort ,&#10;undenen an Conraten von Herwil ư nebend Henmans&#10;Ladenmachers husern , zinset voneitz Jn Hans Conrat&#10;Sürlin u . frow Tudelin von Utingen siner el Husfrowen ,&#10;18 . dn . u denne gant ab der erbsch , dem gotshuss . Ulrich&#10;20 dn widerk um 1 1 / 2 fl ." element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1610" start="24" end="27" text="Hüslin u . Hofstatt" element="head" class="type" subclass=""/>
+      <span id="1616" start="28" end="30" text="mit dem&#10;Stall" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1622" start="29" end="30" text="dem&#10;Stall" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1628" start="30" end="30" text="Stall" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1634" start="32" end="62" text="als es gelegen ist in der vorstatt an den Steinen&#10;und Sturggon , gegen dem Closterhoff über an dem ort ,&#10;undenen an Conraten von Herwil ư nebend Henmans&#10;Ladenmachers husern" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1646" start="37" end="41" text="der vorstatt an den Steinen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1652" start="38" end="41" text="vorstatt an den Steinen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1664" start="43" end="43" text="Sturggon" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="unk">
+          <span id="1664_head" start="43" end="43" element="head" class="nam" text="Sturggon" subclass=""/>
+        </span>
+        <span id="1670" start="46" end="47" text="dem Closterhoff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1676" start="47" end="47" text="Closterhoff" element="head" class="type" subclass=""/>
+        </span>
+        <span id="1682" start="55" end="57" text="Conraten von Herwil" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1688" start="55" end="55" text="Conraten" element="head" class="nam" subclass=""/>
+          <span id="1694" start="56" end="57" text="von Herwil" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1700" start="57" end="57" text="Herwil" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1700_head" start="57" end="57" element="head" class="nam" text="Herwil" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1706" start="60" end="62" text="Henmans&#10;Ladenmachers husern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1718" start="60" end="61" text="Henmans&#10;Ladenmachers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1724" start="60" end="61" text="Henmans&#10;Ladenmachers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1724_head" start="60" end="61" element="head" class="nam" text="Henmans Ladenmachers" subclass=""/>
+            </span>
+          </span>
+          <span id="1712" start="62" end="62" text="husern" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1730" start="64" end="104" text="zinset voneitz Jn Hans Conrat&#10;Sürlin u . frow Tudelin von Utingen siner el Husfrowen ,&#10;18 . dn . u denne gant ab der erbsch , dem gotshuss . Ulrich&#10;20 dn widerk um 1 1 / 2 fl ." element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1876" start="64" end="64" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1882" start="65" end="65" text="voneitz" element="other" class="other" subclass=""/>
+        <span id="1736" start="67" end="78" text="Hans Conrat&#10;Sürlin u . frow Tudelin von Utingen siner el Husfrowen" element="list" class="per" subclass="">
+          <span id="1742" start="67" end="69" text="Hans Conrat&#10;Sürlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1742_head" start="67" end="69" element="head" class="nam" text="Hans Conrat Sürlin" subclass=""/>
+          </span>
+          <span id="1748" start="72" end="78" text="frow Tudelin von Utingen siner el Husfrowen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1754" start="73" end="75" text="Tudelin von Utingen" element="head" class="nam" subclass=""/>
+            <span id="1760" start="76" end="78" text="siner el Husfrowen" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1772" start="76" end="76" text="siner" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1772_head" start="76" end="76" element="head" class="pro" text="siner" subclass=""/>
+              </span>
+              <span id="1766" start="77" end="78" text="el Husfrowen" element="head" class="fam" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1785" start="80" end="83" text="18 . dn ." element="value" class="money" subclass=""/>
+        <span id="1888" start="86" end="86" text="gant" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1894" start="89" end="89" text="erbsch" element="other" class="other" subclass=""/>
+        <span id="1791" start="91" end="94" text="dem gotshuss . Ulrich" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1797" start="92" end="94" text="gotshuss . Ulrich" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1803" start="95" end="96" text="20 dn" element="value" class="money" subclass=""/>
+        <span id="1900" start="97" end="97" text="widerk" element="other" class="other" subclass=""/>
+        <span id="1809" start="99" end="104" text="1 1 / 2 fl ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1604" start="106" end="107" text="62fl ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1851" from="1845" to="1574" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1778" from="1772" to="1742" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1876_role" from="1876" to="1598" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1888_role" from="1888" to="1598" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="14" end="15" ref="1833" type="state">
+      <trigger start="15" end="15" text="swehers" ref="1839"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1821" text="Henman Ladenmachers sins swehers der ze gegen&#10;war"/>
+        <role role="family-b" ref="1845" text="sins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="76" end="78" ref="1760" type="state">
+      <trigger start="77" end="78" text="el Husfrowen" ref="1766"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1748" text="frow Tudelin von Utingen siner el Husfrowen"/>
+        <role role="family-b" ref="1772" text="siner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="6" end="7" ref="1586" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1574" text="Oswald Sprecht von Fryburg"/>
+        <role role="location-b" ref="1592" text="Fryburg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="28" end="30" ref="1616" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="1598" text="daz Hüslin u . Hofstatt mit dem&#10;Stall , als es gelegen ist in der vorstatt an den Steinen&#10;und Sturggon , gegen dem Closterhoff über an dem ort ,&#10;undenen an Conraten von Herwil ư nebend Henmans&#10;Ladenmachers husern , zinset voneitz Jn Hans Conrat&#10;Sürlin u . frow Tudelin von Utingen siner el Husfrowen ,&#10;18 . dn . u denne gant ab der erbsch , dem gotshuss . Ulrich&#10;20 dn widerk um 1 1 / 2 fl ."/>
+        <role role="part" ref="1622" text="dem&#10;Stall"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="32" end="62" ref="1634" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1598" text="daz Hüslin u . Hofstatt mit dem&#10;Stall , als es gelegen ist in der vorstatt an den Steinen&#10;und Sturggon , gegen dem Closterhoff über an dem ort ,&#10;undenen an Conraten von Herwil ư nebend Henmans&#10;Ladenmachers husern , zinset voneitz Jn Hans Conrat&#10;Sürlin u . frow Tudelin von Utingen siner el Husfrowen ,&#10;18 . dn . u denne gant ab der erbsch , dem gotshuss . Ulrich&#10;20 dn widerk um 1 1 / 2 fl ."/>
+        <role role="location-b" ref="1646" text="der vorstatt an den Steinen"/>
+        <role role="location-b" ref="1664" text="Sturggon"/>
+        <role role="location-b" ref="1670" text="dem Closterhoff"/>
+        <role role="location-b" ref="1682" text="Conraten von Herwil"/>
+        <role role="location-b" ref="1706" text="Henmans&#10;Ladenmachers husern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="56" end="57" ref="1694" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1682" text="Conraten von Herwil"/>
+        <role role="location-b" ref="1700" text="Herwil"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="ownership" polarity="pos" tense="pres" modality="ass" start="60" end="61" ref="1718" type="state">
+      <event event_id="6.0">
+        <role role="property" ref="1706" text="Henmans&#10;Ladenmachers husern"/>
+        <role role="owner" ref="1724" text="Henmans&#10;Ladenmachers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="2" end="2" ref="" type="event">
+      <trigger start="2" end="2" text="kaufen" ref="1870"/>
+      <event event_id="7.0">
+        <role role="seller" ref="1574" text="Oswald Sprecht von Fryburg"/>
+        <role role="consenting" ref="1821" text="Henman Ladenmachers sins swehers der ze gegen&#10;war"/>
+        <role role="buyer" ref="1815" text="Elsin Segklerin"/>
+        <role role="property" ref="1598" text="daz Hüslin u . Hofstatt mit dem&#10;Stall , als es gelegen ist in der vorstatt an den Steinen&#10;und Sturggon , gegen dem Closterhoff über an dem ort ,&#10;undenen an Conraten von Herwil ư nebend Henmans&#10;Ladenmachers husern , zinset voneitz Jn Hans Conrat&#10;Sürlin u . frow Tudelin von Utingen siner el Husfrowen ,&#10;18 . dn . u denne gant ab der erbsch , dem gotshuss . Ulrich&#10;20 dn widerk um 1 1 / 2 fl ."/>
+        <role role="price" ref="1604" text="62fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="23" end="64" ref="1730" type="state">
+      <trigger start="64" end="64" text="zinset" ref="1876"/>
+      <event event_id="8.0">
+        <role role="cause" ref="1882" text="voneitz"/>
+        <role role="beneficiary" ref="1742" text="Hans Conrat&#10;Sürlin"/>
+        <role role="beneficiary" ref="1748" text="frow Tudelin von Utingen siner el Husfrowen"/>
+        <role role="interest" ref="1785" text="18 . dn ."/>
+        <role role="property" ref="1598" text="daz Hüslin u . Hofstatt mit dem&#10;Stall , als es gelegen ist in der vorstatt an den Steinen&#10;und Sturggon , gegen dem Closterhoff über an dem ort ,&#10;undenen an Conraten von Herwil ư nebend Henmans&#10;Ladenmachers husern , zinset voneitz Jn Hans Conrat&#10;Sürlin u . frow Tudelin von Utingen siner el Husfrowen ,&#10;18 . dn . u denne gant ab der erbsch , dem gotshuss . Ulrich&#10;20 dn widerk um 1 1 / 2 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="23" end="86" ref="1730" type="state">
+      <trigger start="86" end="86" text="gant" ref="1888"/>
+      <event event_id="9.0">
+        <role role="cause" ref="1894" text="erbsch"/>
+        <role role="beneficiary" ref="1791" text="dem gotshuss . Ulrich"/>
+        <role role="interest" ref="1803" text="20 dn"/>
+        <role role="interest-redeemable" ref="1900" text="widerk"/>
+        <role role="capital" ref="1809" text="1 1 / 2 fl ."/>
+        <role role="property" ref="1598" text="daz Hüslin u . Hofstatt mit dem&#10;Stall , als es gelegen ist in der vorstatt an den Steinen&#10;und Sturggon , gegen dem Closterhoff über an dem ort ,&#10;undenen an Conraten von Herwil ư nebend Henmans&#10;Ladenmachers husern , zinset voneitz Jn Hans Conrat&#10;Sürlin u . frow Tudelin von Utingen siner el Husfrowen ,&#10;18 . dn . u denne gant ab der erbsch , dem gotshuss . Ulrich&#10;20 dn widerk um 1 1 / 2 fl ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

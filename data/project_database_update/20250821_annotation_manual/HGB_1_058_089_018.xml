@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 58/89 S. [18]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Freie Strasse 105</tei:title>
+            <tei:idno>HGB 1 58/89</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1467872</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Martin</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1596">1596</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611522.7932835002 1267092.135499964</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Der</token>
+    <token token_id="4">Schaffner</token>
+    <token token_id="5">der</token>
+    <token token_id="6">Leutkilchen</token>
+    <token token_id="7">St</token>
+    <token token_id="8">.</token>
+    <token token_id="9">Martin</token>
+    <token token_id="10">fröhnt</token>
+    <token token_id="11">Han</token>
+    <token token_id="12">¬</token>
+    <token token_id="13">sen</token>
+    <token token_id="14">Kürwang</token>
+    <token token_id="15">und</token>
+    <token token_id="16">Andresen</token>
+    <token token_id="17">Ritters</token>
+    <token token_id="18">beeder</token>
+    <token token_id="19">Burgere</token>
+    <token token_id="20">zu</token>
+    <token token_id="21">Basel</token>
+    <token token_id="22">,</token>
+    <token token_id="23">zwey</token>
+    <token token_id="24">Häusere</token>
+    <token token_id="25">und</token>
+    <token token_id="26">Hofstetten</token>
+    <token token_id="27">,</token>
+    <token token_id="28">in</token>
+    <token token_id="29">der</token>
+    <token token_id="30">Statt</token>
+    <token token_id="31">Basel</token>
+    <token token_id="32">bey</token>
+    <token token_id="33">schemer</token>
+    <token token_id="34">Schwybogen</token>
+    <token token_id="35">an</token>
+    <token token_id="36">der</token>
+    <token token_id="37">Schwellen</token>
+    <token token_id="38">,</token>
+    <token token_id="39">deren</token>
+    <token token_id="40">das</token>
+    <token token_id="41">ein</token>
+    <token token_id="42">neben</token>
+    <token token_id="43">Rudolff</token>
+    <token token_id="44">Halteren</token>
+    <token token_id="45">einseit</token>
+    <token token_id="46">,</token>
+    <token token_id="47">und</token>
+    <token token_id="48">anderseiten</token>
+    <token token_id="49">Gregorio</token>
+    <token token_id="50">Wadir</token>
+    <token token_id="51">sodann</token>
+    <token token_id="52">das</token>
+    <token token_id="53">ander</token>
+    <token token_id="54">¬</token>
+    <token token_id="55">zu</token>
+    <token token_id="56">einer</token>
+    <token token_id="57">an</token>
+    <token token_id="58">Hans</token>
+    <token token_id="59">Bussen</token>
+    <token token_id="60">und</token>
+    <token token_id="61">zur</token>
+    <token token_id="62">anderen</token>
+    <token token_id="63">Seiter</token>
+    <token token_id="64">an</token>
+    <token token_id="65">Jacob</token>
+    <token token_id="66">Koppen</token>
+    <token token_id="67">gelegen</token>
+    <token token_id="68">,</token>
+    <token token_id="69">versessener</token>
+    <token token_id="70">Zinsen</token>
+    <token token_id="71">wegen</token>
+    <token token_id="72">,</token>
+    <token token_id="73">als</token>
+    <token token_id="74">der</token>
+    <token token_id="75">gen</token>
+    <token token_id="76">.</token>
+    <token token_id="77">Creutkilchen</token>
+    <token token_id="78">darab</token>
+    <token token_id="79">10</token>
+    <token token_id="80">℔</token>
+    <token token_id="81">.</token>
+    <token token_id="82">Gelts</token>
+    <token token_id="83">verzinst</token>
+    <token token_id="84">wird</token>
+    <token token_id="85">,</token>
+    <token token_id="86">und</token>
+    <token token_id="87">kauft</token>
+    <token token_id="88">dieselben</token>
+    <token token_id="89">um</token>
+    <token token_id="90">1</token>
+    <token token_id="91">℔</token>
+    <token token_id="92">3sh</token>
+    <token token_id="93">.</token>
+    <token token_id="94">Zinspfg</token>
+    <token token_id="95">.</token>
+  </text>
+  <spans>
+    <span id="1418" start="3" end="9" text="Der Schaffner der Leutkilchen St . Martin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1424" start="4" end="4" text="Schaffner" element="head" class="occ" subclass="org-job"/>
+      <span id="1430" start="5" end="9" text="der Leutkilchen St . Martin" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+        <span id="1436" start="6" end="9" text="Leutkilchen St . Martin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1605" start="10" end="10" text="fröhnt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1654" start="11" end="67" text="Han ¬&#10;sen Kürwang und Andresen Ritters beeder Burgere zu&#10;Basel , zwey Häusere und Hofstetten , in der Statt&#10;Basel bey schemer Schwybogen an der Schwellen ,&#10;deren das ein neben Rudolff Halteren einseit , und&#10;anderseiten Gregorio Wadir sodann das ander ¬&#10;zu einer an Hans Bussen und zur anderen Seiter&#10;an Jacob Koppen gelegen" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1660" start="11" end="21" text="Han ¬&#10;sen Kürwang und Andresen Ritters beeder Burgere zu&#10;Basel" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1472" start="11" end="21" text="Han ¬&#10;sen Kürwang und Andresen Ritters beeder Burgere zu&#10;Basel" element="list" class="per" subclass="">
+          <span id="1442" start="11" end="14" text="Han ¬&#10;sen Kürwang" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1442_head" start="11" end="14" element="head" class="nam" text="Han ¬ sen Kürwang" subclass=""/>
+          </span>
+          <span id="1448" start="16" end="17" text="Andresen Ritters" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1448_head" start="16" end="17" element="head" class="nam" text="Andresen Ritters" subclass=""/>
+          </span>
+          <span id="1454" start="18" end="21" text="beeder Burgere zu&#10;Basel" element="appo" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1460" start="19" end="19" text="Burgere" element="head" class="org-aff" subclass=""/>
+            <span id="1466" start="21" end="21" text="Basel" element="reference" class="gpe-org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1466_head" start="21" end="21" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1478" start="24" end="26" text="Häusere und Hofstetten" element="head" class="type" subclass=""/>
+      <span id="1484" start="28" end="37" text="in der Statt&#10;Basel bey schemer Schwybogen an der Schwellen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1490" start="29" end="31" text="der Statt&#10;Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1581" start="31" end="31" text="Basel" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1496" start="33" end="34" text="schemer Schwybogen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1496_head" start="33" end="34" element="head" class="nam" text="schemer Schwybogen" subclass=""/>
+        </span>
+        <span id="1593" start="36" end="37" text="der Schwellen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1599" start="37" end="37" text="Schwellen" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1648" start="39" end="67" text="deren das ein neben Rudolff Halteren einseit , und&#10;anderseiten Gregorio Wadir sodann das ander ¬&#10;zu einer an Hans Bussen und zur anderen Seiter&#10;an Jacob Koppen gelegen" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1642" start="40" end="50" text="das ein neben Rudolff Halteren einseit , und&#10;anderseiten Gregorio Wadir" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1502" start="40" end="41" text="das ein" element="head" class="pro" subclass=""/>
+          <span id="1508" start="42" end="50" text="neben Rudolff Halteren einseit , und&#10;anderseiten Gregorio Wadir" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1514" start="43" end="44" text="Rudolff Halteren" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1514_head" start="43" end="44" element="head" class="nam" text="Rudolff Halteren" subclass=""/>
+            </span>
+            <span id="1520" start="49" end="50" text="Gregorio Wadir" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1520_head" start="49" end="50" element="head" class="nam" text="Gregorio Wadir" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1636" start="52" end="67" text="das ander ¬&#10;zu einer an Hans Bussen und zur anderen Seiter&#10;an Jacob Koppen gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1526" start="52" end="53" text="das ander" element="head" class="pro" subclass=""/>
+          <span id="1587" start="55" end="67" text="zu einer an Hans Bussen und zur anderen Seiter&#10;an Jacob Koppen gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1532" start="58" end="59" text="Hans Bussen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1532_head" start="58" end="59" element="head" class="nam" text="Hans Bussen" subclass=""/>
+            </span>
+            <span id="1538" start="65" end="66" text="Jacob Koppen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1538_head" start="65" end="66" element="head" class="nam" text="Jacob Koppen" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1611" start="70" end="70" text="Zinsen" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+    <span id="1544" start="74" end="77" text="der gen . Creutkilchen" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1550" start="77" end="77" text="Creutkilchen" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1563" start="79" end="81" text="10 ℔." element="value" class="money" subclass=""/>
+    <span id="1617" start="83" end="83" text="verzinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1630" start="87" end="87" text="kauft" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1569" start="88" end="88" text="dieselben" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1569_head" start="88" end="88" element="head" class="pro" text="dieselben" subclass=""/>
+    </span>
+    <span id="1575" start="90" end="95" text="1 ℔ 3sh . Zinspfg ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1556" from="1544" to="1430" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1666" from="1569" to="1654" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1623" from="1617" to="1611" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="3" end="9" ref="1418" type="state">
+      <trigger start="4" end="4" text="Schaffner" ref="1424"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1418" text="Der Schaffner der Leutkilchen St . Martin"/>
+        <role role="employer" ref="1430" text="der Leutkilchen St . Martin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="18" end="21" ref="1454" type="state">
+      <trigger start="19" end="19" text="Burgere" ref="1460"/>
+      <event event_id="1.0">
+        <role role="resident" ref="1442" text="Han ¬&#10;sen Kürwang"/>
+        <role role="geopolitical-entity" ref="1466" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="civic-affiliation" polarity="pos" tense="pres" modality="ass" start="18" end="21" ref="1454" type="state">
+      <trigger start="19" end="19" text="Burgere" ref="1460"/>
+      <event event_id="2.0">
+        <role role="resident" ref="1448" text="Andresen Ritters"/>
+        <role role="geopolitical-entity" ref="1466" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="11" end="21" ref="1660" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1654" text="Han ¬&#10;sen Kürwang und Andresen Ritters beeder Burgere zu&#10;Basel , zwey Häusere und Hofstetten , in der Statt&#10;Basel bey schemer Schwybogen an der Schwellen ,&#10;deren das ein neben Rudolff Halteren einseit , und&#10;anderseiten Gregorio Wadir sodann das ander ¬&#10;zu einer an Hans Bussen und zur anderen Seiter&#10;an Jacob Koppen gelegen"/>
+        <role role="owner" ref="1442" text="Han ¬&#10;sen Kürwang"/>
+        <role role="owner" ref="1448" text="Andresen Ritters"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="28" end="37" ref="1484" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1654" text="Han ¬&#10;sen Kürwang und Andresen Ritters beeder Burgere zu&#10;Basel , zwey Häusere und Hofstetten , in der Statt&#10;Basel bey schemer Schwybogen an der Schwellen ,&#10;deren das ein neben Rudolff Halteren einseit , und&#10;anderseiten Gregorio Wadir sodann das ander ¬&#10;zu einer an Hans Bussen und zur anderen Seiter&#10;an Jacob Koppen gelegen"/>
+        <role role="location-b" ref="1490" text="der Statt&#10;Basel"/>
+        <role role="location-b" ref="1496" text="schemer Schwybogen"/>
+        <role role="location-b" ref="1593" text="der Schwellen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="part_whole" polarity="pos" tense="pres" modality="ass" start="39" end="67" ref="1648" type="state">
+      <event event_id="5.0">
+        <role role="whole" ref="1654" text="Han ¬&#10;sen Kürwang und Andresen Ritters beeder Burgere zu&#10;Basel , zwey Häusere und Hofstetten , in der Statt&#10;Basel bey schemer Schwybogen an der Schwellen ,&#10;deren das ein neben Rudolff Halteren einseit , und&#10;anderseiten Gregorio Wadir sodann das ander ¬&#10;zu einer an Hans Bussen und zur anderen Seiter&#10;an Jacob Koppen gelegen"/>
+        <role role="part" ref="1642" text="das ein neben Rudolff Halteren einseit , und&#10;anderseiten Gregorio Wadir"/>
+        <role role="part" ref="1636" text="das ander ¬&#10;zu einer an Hans Bussen und zur anderen Seiter&#10;an Jacob Koppen gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="42" end="50" ref="1508" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1642" text="das ein neben Rudolff Halteren einseit , und&#10;anderseiten Gregorio Wadir"/>
+        <role role="location-b" ref="1514" text="Rudolff Halteren"/>
+        <role role="location-b" ref="1520" text="Gregorio Wadir"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="55" end="67" ref="1587" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1636" text="das ander ¬&#10;zu einer an Hans Bussen und zur anderen Seiter&#10;an Jacob Koppen gelegen"/>
+        <role role="location-b" ref="1532" text="Hans Bussen"/>
+        <role role="location-b" ref="1538" text="Jacob Koppen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="seizure" polarity="pos" tense="pres" modality="ass" start="10" end="70" ref="" type="event">
+      <trigger start="10" end="10" text="fröhnt" ref="1605"/>
+      <event event_id="8.0">
+        <role role="claimant" ref="1418" text="Der Schaffner der Leutkilchen St . Martin"/>
+        <role role="property" ref="1654" text="Han ¬&#10;sen Kürwang und Andresen Ritters beeder Burgere zu&#10;Basel , zwey Häusere und Hofstetten , in der Statt&#10;Basel bey schemer Schwybogen an der Schwellen ,&#10;deren das ein neben Rudolff Halteren einseit , und&#10;anderseiten Gregorio Wadir sodann das ander ¬&#10;zu einer an Hans Bussen und zur anderen Seiter&#10;an Jacob Koppen gelegen"/>
+        <role role="cause" ref="1611" text="Zinsen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="due-payment" polarity="neg" tense="pres" modality="ass" start="70" end="70" ref="" type="event">
+      <trigger start="70" end="70" text="Zinsen" ref="1611"/>
+    </eventGroup>
+    <eventGroup event_id="10" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="74" end="83" ref="" type="state">
+      <trigger start="83" end="83" text="verzinst" ref="1617"/>
+      <event event_id="10.0">
+        <role role="beneficiary" ref="1544" text="der gen . Creutkilchen"/>
+        <role role="interest" ref="1563" text="10 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="95" ref="" type="event">
+      <trigger start="87" end="87" text="kauft" ref="1630"/>
+      <event event_id="11.0">
+        <role role="buyer" ref="1418" text="Der Schaffner der Leutkilchen St . Martin"/>
+        <role role="property" ref="1569" text="dieselben"/>
+        <role role="price" ref="1575" text="1 ℔ 3sh . Zinspfg ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

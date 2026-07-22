@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 24/115 S. [45]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Barfüsserplatz 28</tei:title>
+            <tei:idno>HGB 1 24/115</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1463043</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1659">1659</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611327.614136818 1267149.1169899958</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Anschlag</token>
+    <token token_id="1">.</token>
+    <token token_id="2">H</token>
+    <token token_id="3">.</token>
+    <token token_id="4">Theodosius</token>
+    <token token_id="5">Eckhenstein</token>
+    <token token_id="6">hat</token>
+    <token token_id="7">als</token>
+    <token token_id="8">vollmächt</token>
+    <token token_id="9">ger</token>
+    <token token_id="10">Anwald</token>
+    <token token_id="11">und</token>
+    <token token_id="12">Gewalthaber</token>
+    <token token_id="13">weil</token>
+    <token token_id="14">.</token>
+    <token token_id="15">M</token>
+    <token token_id="16">.</token>
+    <token token_id="17">Bal</token>
+    <token token_id="18">¬</token>
+    <token token_id="19">thasar</token>
+    <token token_id="20">Schlichters</token>
+    <token token_id="21">des</token>
+    <token token_id="22">Balbierers</token>
+    <token token_id="23">Wittib</token>
+    <token token_id="24">,</token>
+    <token token_id="25">jetzgemelter</token>
+    <token token_id="26">frl</token>
+    <token token_id="27">.</token>
+    <token token_id="28">Wittib</token>
+    <token token_id="29">,</token>
+    <token token_id="30">Behausung</token>
+    <token token_id="31">auf</token>
+    <token token_id="32">dem</token>
+    <token token_id="33">Parfüsserblatz</token>
+    <token token_id="34">einseits</token>
+    <token token_id="35">neben</token>
+    <token token_id="36">weil</token>
+    <token token_id="37">.</token>
+    <token token_id="38">auch</token>
+    <token token_id="39">Catharina</token>
+    <token token_id="40">Stoltzen</token>
+    <token token_id="41">H</token>
+    <token token_id="42">.</token>
+    <token token_id="43">Conrad</token>
+    <token token_id="44">Ronns</token>
+    <token token_id="45">des</token>
+    <token token_id="46">Rhats</token>
+    <token token_id="47">sel</token>
+    <token token_id="48">.</token>
+    <token token_id="49">Wittib</token>
+    <token token_id="50">Erben</token>
+    <token token_id="51">,</token>
+    <token token_id="52">ander</token>
+    <token token_id="53">¬</token>
+    <token token_id="54">seits</token>
+    <token token_id="55">neben</token>
+    <token token_id="56">Sebastian</token>
+    <token token_id="57">Fischerrn</token>
+    <token token_id="58">dem</token>
+    <token token_id="59">Passament</token>
+    <token token_id="60">.</token>
+    <token token_id="61">webern</token>
+    <token token_id="62">gelegen</token>
+    <token token_id="63">,</token>
+    <token token_id="64">frewillig</token>
+    <token token_id="65">gefrönt</token>
+    <token token_id="66">,</token>
+    <token token_id="67">und</token>
+    <token token_id="68">wird</token>
+    <token token_id="69">,</token>
+    <token token_id="70">man</token>
+    <token token_id="71">solche</token>
+    <token token_id="72">Behausung</token>
+    <token token_id="73">auf</token>
+    <token token_id="74">Zeinstag</token>
+    <token token_id="75">den</token>
+    <token token_id="76">18</token>
+    <token token_id="77">.</token>
+    <token token_id="78">Octobris</token>
+    <token token_id="79">verkaufen</token>
+    <token token_id="80">.</token>
+  </text>
+  <spans>
+    <span id="1223" start="2" end="5" text="H . Theodosius Eckhenstein" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1229" start="4" end="5" text="Theodosius Eckhenstein" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1235" start="8" end="23" text="vollmächt&#10;ger Anwald und Gewalthaber weil . M . Bal ¬&#10;thasar Schlichters des Balbierers Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1241" start="10" end="12" text="Anwald und Gewalthaber" element="head" class="repr" subclass=""/>
+      <span id="1247" start="13" end="23" text="weil . M . Bal ¬&#10;thasar Schlichters des Balbierers Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1259" start="13" end="22" text="weil . M . Bal ¬&#10;thasar Schlichters des Balbierers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1265" start="17" end="20" text="Bal ¬&#10;thasar Schlichters" element="head" class="nam" subclass=""/>
+          <span id="1271" start="21" end="22" text="des Balbierers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1277" start="22" end="22" text="Balbierers" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1253" start="23" end="23" text="Wittib" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1283" start="25" end="62" text="jetzgemelter&#10;frl . Wittib , Behausung auf dem Parfüsserblatz&#10;einseits neben weil . auch Catharina Stoltzen H .&#10;Conrad Ronns des Rhats sel . Wittib Erben , ander ¬&#10;seits neben Sebastian Fischerrn dem Passament .&#10;webern gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1283_desc_owner" start="25" end="28" text="jetzgemelter&#10;frl . Wittib" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1295" start="25" end="28" text="jetzgemelter&#10;frl . Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1301" start="28" end="28" text="Wittib" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+      <span id="1289" start="30" end="30" text="Behausung" element="head" class="type" subclass=""/>
+      <span id="1314" start="31" end="62" text="auf dem Parfüsserblatz&#10;einseits neben weil . auch Catharina Stoltzen H .&#10;Conrad Ronns des Rhats sel . Wittib Erben , ander ¬&#10;seits neben Sebastian Fischerrn dem Passament .&#10;webern gelegen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1320" start="32" end="33" text="dem Parfüsserblatz" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="1326" start="33" end="33" text="Parfüsserblatz" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1332" start="36" end="50" text="weil . auch Catharina Stoltzen H .&#10;Conrad Ronns des Rhats sel . Wittib Erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1344" start="36" end="49" text="weil . auch Catharina Stoltzen H .&#10;Conrad Ronns des Rhats sel . Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1350" start="39" end="40" text="Catharina Stoltzen" element="head" class="nam" subclass=""/>
+            <span id="1356" start="41" end="49" text="H .&#10;Conrad Ronns des Rhats sel . Wittib" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1368" start="41" end="48" text="H .&#10;Conrad Ronns des Rhats sel ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1374" start="43" end="44" text="Conrad Ronns" element="head" class="nam" subclass=""/>
+                <span id="1380" start="45" end="46" text="des Rhats" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1386" start="46" end="46" text="Rhats" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+                    <span id="1386_head" start="46" end="46" element="head" class="type" text="Rhats" subclass=""/>
+                  </span>
+                </span>
+                <span id="1392" start="47" end="48" text="sel ." element="attr" class="dead" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass=""/>
+              </span>
+              <span id="1362" start="49" end="49" text="Wittib" element="head" class="fam" subclass=""/>
+            </span>
+          </span>
+          <span id="1338" start="50" end="50" text="Erben" element="head" class="heir" subclass=""/>
+        </span>
+        <span id="1398" start="56" end="61" text="Sebastian Fischerrn dem Passament .&#10;webern" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1404" start="56" end="57" text="Sebastian Fischerrn" element="head" class="nam" subclass=""/>
+          <span id="1410" start="58" end="61" text="dem Passament .&#10;webern" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1416" start="59" end="61" text="Passament .&#10;webern" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1460" start="64" end="64" text="frewillig" element="other" class="other" subclass=""/>
+    <span id="1454" start="65" end="65" text="gefrönt" element="trigger" class="seizure" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1422" start="71" end="72" text="solche Behausung" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1428" start="72" end="72" text="Behausung" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1441" start="73" end="78" text="auf Zeinstag den 18 .&#10;Octobris" element="value" class="date" subclass=""/>
+    <span id="1466" start="79" end="79" text="verkaufen" element="trigger" class="sale" tense="fut" polarity="pos" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1447" from="1235" to="1223" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1307" from="1295" to="1247" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1434" from="1422" to="1283" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="representation" polarity="pos" tense="pres" modality="ass" start="8" end="23" ref="1235" type="state">
+      <trigger start="10" end="12" text="Anwald und Gewalthaber" ref="1241"/>
+      <event event_id="0.0">
+        <role role="representative" ref="1235" text="vollmächt&#10;ger Anwald und Gewalthaber weil . M . Bal ¬&#10;thasar Schlichters des Balbierers Wittib"/>
+        <role role="represented" ref="1247" text="weil . M . Bal ¬&#10;thasar Schlichters des Balbierers Wittib"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="13" end="23" ref="1247" type="state">
+      <trigger start="23" end="23" text="Wittib" ref="1253"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1247" text="weil . M . Bal ¬&#10;thasar Schlichters des Balbierers Wittib"/>
+        <role role="family-b" ref="1259" text="weil . M . Bal ¬&#10;thasar Schlichters des Balbierers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="inheritance" polarity="pos" tense="pres" modality="ass" start="36" end="50" ref="1332" type="event">
+      <trigger start="50" end="50" text="Erben" ref="1338"/>
+      <event event_id="2.0">
+        <role role="heir" ref="1332" text="weil . auch Catharina Stoltzen H .&#10;Conrad Ronns des Rhats sel . Wittib Erben"/>
+        <role role="decedent" ref="1344" text="weil . auch Catharina Stoltzen H .&#10;Conrad Ronns des Rhats sel . Wittib"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="41" end="49" ref="1356" type="state">
+      <trigger start="49" end="49" text="Wittib" ref="1362"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1344" text="weil . auch Catharina Stoltzen H .&#10;Conrad Ronns des Rhats sel . Wittib"/>
+        <role role="family-b" ref="1368" text="H .&#10;Conrad Ronns des Rhats sel ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="25" end="28" ref="1283_desc_owner" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="1283" text="jetzgemelter&#10;frl . Wittib , Behausung auf dem Parfüsserblatz&#10;einseits neben weil . auch Catharina Stoltzen H .&#10;Conrad Ronns des Rhats sel . Wittib Erben , ander ¬&#10;seits neben Sebastian Fischerrn dem Passament .&#10;webern gelegen"/>
+        <role role="owner" ref="1295" text="jetzgemelter&#10;frl . Wittib"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="31" end="62" ref="1314" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1283" text="jetzgemelter&#10;frl . Wittib , Behausung auf dem Parfüsserblatz&#10;einseits neben weil . auch Catharina Stoltzen H .&#10;Conrad Ronns des Rhats sel . Wittib Erben , ander ¬&#10;seits neben Sebastian Fischerrn dem Passament .&#10;webern gelegen"/>
+        <role role="location-b" ref="1320" text="dem Parfüsserblatz"/>
+        <role role="location-b" ref="1332" text="weil . auch Catharina Stoltzen H .&#10;Conrad Ronns des Rhats sel . Wittib Erben"/>
+        <role role="location-b" ref="1398" text="Sebastian Fischerrn dem Passament .&#10;webern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="membership" polarity="pos" tense="pres" modality="ass" start="45" end="46" ref="1380" type="state">
+      <event event_id="6.0">
+        <role role="member" ref="1368" text="H .&#10;Conrad Ronns des Rhats sel ."/>
+        <role role="organization" ref="1386" text="Rhats"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="seizure" polarity="pos" tense="pres" modality="ass" start="2" end="65" ref="" type="event">
+      <trigger start="65" end="65" text="gefrönt" ref="1454"/>
+      <event event_id="7.0">
+        <role role="claimant" ref="1223" text="H . Theodosius Eckhenstein"/>
+        <role role="property" ref="1283" text="jetzgemelter&#10;frl . Wittib , Behausung auf dem Parfüsserblatz&#10;einseits neben weil . auch Catharina Stoltzen H .&#10;Conrad Ronns des Rhats sel . Wittib Erben , ander ¬&#10;seits neben Sebastian Fischerrn dem Passament .&#10;webern gelegen"/>
+        <role role="detail_other" ref="1460" text="frewillig"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="property-purchase" polarity="pos" tense="fut" modality="ass" start="71" end="79" ref="" type="event">
+      <trigger start="79" end="79" text="verkaufen" ref="1466"/>
+      <event event_id="8.0">
+        <role role="property" ref="1422" text="solche Behausung"/>
+        <role role="date" ref="1441" text="auf Zeinstag den 18 .&#10;Octobris"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 85/27 S. [38]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hutgasse 21</tei:title>
+            <tei:idno>HGB 1 85/27</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1481891</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1508">1508</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611173.379628188 1267430.3927718778</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Andres</token>
+    <token token_id="1">Suchdentrunck</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Kannengiesser</token>
+    <token token_id="4">,</token>
+    <token token_id="5">u</token>
+    <token token_id="6">.</token>
+    <token token_id="7">seine</token>
+    <token token_id="8">Frau</token>
+    <token token_id="9">Byda</token>
+    <token token_id="10">¬</token>
+    <token token_id="11">verkaufen</token>
+    <token token_id="12">an</token>
+    <token token_id="13">Matheus</token>
+    <token token_id="14">Gebhart</token>
+    <token token_id="15">u</token>
+    <token token_id="16">.</token>
+    <token token_id="17">seine</token>
+    <token token_id="18">Frau</token>
+    <token token_id="19">Verenen</token>
+    <token token_id="20">,</token>
+    <token token_id="21">das</token>
+    <token token_id="22">Hus</token>
+    <token token_id="23">Hofstatt</token>
+    <token token_id="24">&amp;</token>
+    <token token_id="25">gesess</token>
+    <token token_id="26">,</token>
+    <token token_id="27">so</token>
+    <token token_id="28">man</token>
+    <token token_id="29">nempt</token>
+    <token token_id="30">zum</token>
+    <token token_id="31">Rindsfus</token>
+    <token token_id="32">gelegen</token>
+    <token token_id="33">,</token>
+    <token token_id="34">in</token>
+    <token token_id="35">der</token>
+    <token token_id="36">Wienhartsgassen</token>
+    <token token_id="37">,</token>
+    <token token_id="38">an</token>
+    <token token_id="39">dem</token>
+    <token token_id="40">ort</token>
+    <token token_id="41">wider</token>
+    <token token_id="42">die</token>
+    <token token_id="43">Kuttelgasse</token>
+    <token token_id="44">,</token>
+    <token token_id="45">neben</token>
+    <token token_id="46">dem</token>
+    <token token_id="47">Hus</token>
+    <token token_id="48">zum</token>
+    <token token_id="49">Wider</token>
+    <token token_id="50">,</token>
+    <token token_id="51">zinst</token>
+    <token token_id="52">jährl</token>
+    <token token_id="53">von</token>
+    <token token_id="54">eig</token>
+    <token token_id="55">der</token>
+    <token token_id="56">Carthus</token>
+    <token token_id="57">6</token>
+    <token token_id="58">fl</token>
+    <token token_id="59">.</token>
+    <token token_id="60">2ring</token>
+    <token token_id="61">brot</token>
+    <token token_id="62">ze</token>
+    <token token_id="63">wysung</token>
+    <token token_id="64">u</token>
+    <token token_id="65">.</token>
+    <token token_id="66">5</token>
+    <token token_id="67">sh</token>
+    <token token_id="68">erschatz</token>
+    <token token_id="69">,</token>
+    <token token_id="70">sodan</token>
+    <token token_id="71">2</token>
+    <token token_id="72">℔</token>
+    <token token_id="73">1sh</token>
+    <token token_id="74">.</token>
+    <token token_id="75">widerk</token>
+    <token token_id="76">der</token>
+    <token token_id="77">Qotidian</token>
+    <token token_id="78">der</token>
+    <token token_id="79">meren</token>
+    <token token_id="80">Stift</token>
+    <token token_id="81">,</token>
+    <token token_id="82">sonst</token>
+    <token token_id="83">frei</token>
+    <token token_id="84">,</token>
+    <token token_id="85">sum</token>
+    <token token_id="86">117</token>
+    <token token_id="87">℔</token>
+    <token token_id="88">10sh</token>
+    <token token_id="89">.</token>
+  </text>
+  <spans>
+    <span id="1514" start="0" end="9" text="Andres Suchdentrunck der Kannengiesser , u . seine Frau Byda" element="list" class="per" subclass="">
+      <span id="1320" start="0" end="3" text="Andres Suchdentrunck der Kannengiesser" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1326" start="0" end="1" text="Andres Suchdentrunck" element="head" class="nam" subclass=""/>
+        <span id="1332" start="2" end="3" text="der Kannengiesser" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1338" start="3" end="3" text="Kannengiesser" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="1344" start="7" end="9" text="seine Frau Byda" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1356" start="7" end="8" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1368" start="7" end="7" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1368_head" start="7" end="7" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1362" start="8" end="8" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1350" start="9" end="9" text="Byda" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1574" start="11" end="11" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1520" start="13" end="19" text="Matheus Gebhart u . seine Frau Verenen" element="list" class="per" subclass="">
+      <span id="1381" start="13" end="14" text="Matheus Gebhart" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1381_head" start="13" end="14" element="head" class="nam" text="Matheus Gebhart" subclass=""/>
+      </span>
+      <span id="1387" start="17" end="19" text="seine Frau Verenen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1393" start="17" end="18" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1411" start="17" end="17" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1411_head" start="17" end="17" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="1399" start="18" end="18" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="1405" start="19" end="19" text="Verenen" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="1538" start="21" end="83" text="das&#10;Hus Hofstatt &amp; gesess , so man nempt zum Rindsfus gelegen ,&#10;in der Wienhartsgassen , an dem ort wider die Kuttelgasse ,&#10;neben dem Hus zum Wider , zinst jährl von eig der Carthus&#10;6 fl . 2ring brot ze wysung u . 5 sh erschatz , sodan 2 ℔ 1sh .&#10;widerk der Qotidian der meren Stift , sonst frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1424" start="22" end="25" text="Hus Hofstatt &amp; gesess" element="head" class="type" subclass=""/>
+      <span id="1526" start="30" end="31" text="zum Rindsfus" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1526_head" start="30" end="31" element="head" class="nam" text="zum Rindsfus" subclass=""/>
+      </span>
+      <span id="1532" start="32" end="49" text="gelegen ,&#10;in der Wienhartsgassen , an dem ort wider die Kuttelgasse ,&#10;neben dem Hus zum Wider" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1430" start="35" end="36" text="der Wienhartsgassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1436" start="36" end="36" text="Wienhartsgassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1442" start="42" end="43" text="die Kuttelgasse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1448" start="43" end="43" text="Kuttelgasse" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1454" start="46" end="49" text="dem Hus zum Wider" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1460" start="47" end="49" text="Hus zum Wider" element="head" class="nam" subclass=""/>
+        </span>
+      </span>
+      <span id="1544" start="51" end="83" text="zinst jährl von eig der Carthus&#10;6 fl . 2ring brot ze wysung u . 5 sh erschatz , sodan 2 ℔ 1sh .&#10;widerk der Qotidian der meren Stift , sonst frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1580" start="51" end="51" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1466" start="52" end="52" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="1586" start="53" end="54" text="von eig" element="other" class="other" subclass=""/>
+        <span id="1472" start="55" end="56" text="der Carthus" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1478" start="56" end="56" text="Carthus" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1484" start="57" end="59" text="6 fl ." element="value" class="money" subclass=""/>
+        <span id="1490" start="60" end="61" text="2ring brot" element="value" class="money" subclass=""/>
+        <span id="1592" start="62" end="63" text="ze wysung" element="other" class="other" subclass=""/>
+        <span id="1496" start="66" end="67" text="5 sh" element="value" class="money" subclass=""/>
+        <span id="1598" start="68" end="68" text="erschatz" element="other" class="other" subclass=""/>
+        <span id="1502" start="71" end="74" text="2 ℔ 1sh ." element="value" class="money" subclass=""/>
+        <span id="1604" start="75" end="75" text="widerk" element="other" class="other" subclass=""/>
+        <span id="1550" start="76" end="80" text="der Qotidian der meren Stift" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1556" start="77" end="77" text="Qotidian" element="head" class="occ" subclass="org-repr"/>
+          <span id="1562" start="78" end="80" text="der meren Stift" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="1568" start="79" end="80" text="meren Stift" element="head" class="type" subclass=""/>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1508" start="86" end="89" text="117 ℔ 10sh ." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1374" from="1368" to="1320" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1417" from="1411" to="1381" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="76" end="80" ref="1550" type="state">
+      <trigger start="77" end="77" text="Qotidian" ref="1556"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1550" text="der Qotidian der meren Stift"/>
+        <role role="employer" ref="1562" text="der meren Stift"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="8" ref="1356" type="state">
+      <trigger start="8" end="8" text="Frau" ref="1362"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1344" text="seine Frau Byda"/>
+        <role role="family-b" ref="1368" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="17" end="18" ref="1393" type="state">
+      <trigger start="18" end="18" text="Frau" ref="1399"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1387" text="seine Frau Verenen"/>
+        <role role="family-b" ref="1411" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="32" end="49" ref="1532" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="1538" text="das&#10;Hus Hofstatt &amp; gesess , so man nempt zum Rindsfus gelegen ,&#10;in der Wienhartsgassen , an dem ort wider die Kuttelgasse ,&#10;neben dem Hus zum Wider , zinst jährl von eig der Carthus&#10;6 fl . 2ring brot ze wysung u . 5 sh erschatz , sodan 2 ℔ 1sh .&#10;widerk der Qotidian der meren Stift , sonst frei"/>
+        <role role="location-b" ref="1430" text="der Wienhartsgassen"/>
+        <role role="location-b" ref="1442" text="die Kuttelgasse"/>
+        <role role="location-b" ref="1454" text="dem Hus zum Wider"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="51" end="83" ref="1544" type="state">
+      <trigger start="51" end="51" text="zinst" ref="1580"/>
+      <event event_id="4.0">
+        <role role="property" ref="1538" text="das&#10;Hus Hofstatt &amp; gesess , so man nempt zum Rindsfus gelegen ,&#10;in der Wienhartsgassen , an dem ort wider die Kuttelgasse ,&#10;neben dem Hus zum Wider , zinst jährl von eig der Carthus&#10;6 fl . 2ring brot ze wysung u . 5 sh erschatz , sodan 2 ℔ 1sh .&#10;widerk der Qotidian der meren Stift , sonst frei"/>
+        <role role="interval" ref="1466" text="jährl"/>
+        <role role="cause" ref="1586" text="von eig"/>
+        <role role="beneficiary" ref="1472" text="der Carthus"/>
+        <role role="interest" ref="1484" text="6 fl ."/>
+      </event>
+      <event event_id="4.1">
+        <role role="property" ref="1538" text="das&#10;Hus Hofstatt &amp; gesess , so man nempt zum Rindsfus gelegen ,&#10;in der Wienhartsgassen , an dem ort wider die Kuttelgasse ,&#10;neben dem Hus zum Wider , zinst jährl von eig der Carthus&#10;6 fl . 2ring brot ze wysung u . 5 sh erschatz , sodan 2 ℔ 1sh .&#10;widerk der Qotidian der meren Stift , sonst frei"/>
+        <role role="interval" ref="1466" text="jährl"/>
+        <role role="cause" ref="1586" text="von eig"/>
+        <role role="beneficiary" ref="1472" text="der Carthus"/>
+        <role role="interest" ref="1490" text="2ring brot"/>
+        <role role="cause" ref="1592" text="ze wysung"/>
+      </event>
+      <event event_id="4.2">
+        <role role="property" ref="1538" text="das&#10;Hus Hofstatt &amp; gesess , so man nempt zum Rindsfus gelegen ,&#10;in der Wienhartsgassen , an dem ort wider die Kuttelgasse ,&#10;neben dem Hus zum Wider , zinst jährl von eig der Carthus&#10;6 fl . 2ring brot ze wysung u . 5 sh erschatz , sodan 2 ℔ 1sh .&#10;widerk der Qotidian der meren Stift , sonst frei"/>
+        <role role="interval" ref="1466" text="jährl"/>
+        <role role="cause" ref="1586" text="von eig"/>
+        <role role="beneficiary" ref="1472" text="der Carthus"/>
+        <role role="interest" ref="1496" text="5 sh"/>
+        <role role="cause" ref="1598" text="erschatz"/>
+      </event>
+      <event event_id="4.3">
+        <role role="property" ref="1538" text="das&#10;Hus Hofstatt &amp; gesess , so man nempt zum Rindsfus gelegen ,&#10;in der Wienhartsgassen , an dem ort wider die Kuttelgasse ,&#10;neben dem Hus zum Wider , zinst jährl von eig der Carthus&#10;6 fl . 2ring brot ze wysung u . 5 sh erschatz , sodan 2 ℔ 1sh .&#10;widerk der Qotidian der meren Stift , sonst frei"/>
+        <role role="interest" ref="1502" text="2 ℔ 1sh ."/>
+        <role role="interest-redeemable" ref="1604" text="widerk"/>
+        <role role="beneficiary" ref="1550" text="der Qotidian der meren Stift"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="89" ref="" type="event">
+      <trigger start="11" end="11" text="verkaufen" ref="1574"/>
+      <event event_id="5.0">
+        <role role="seller" ref="1320" text="Andres Suchdentrunck der Kannengiesser"/>
+        <role role="seller" ref="1344" text="seine Frau Byda"/>
+        <role role="buyer" ref="1381" text="Matheus Gebhart"/>
+        <role role="buyer" ref="1387" text="seine Frau Verenen"/>
+        <role role="property" ref="1538" text="das&#10;Hus Hofstatt &amp; gesess , so man nempt zum Rindsfus gelegen ,&#10;in der Wienhartsgassen , an dem ort wider die Kuttelgasse ,&#10;neben dem Hus zum Wider , zinst jährl von eig der Carthus&#10;6 fl . 2ring brot ze wysung u . 5 sh erschatz , sodan 2 ℔ 1sh .&#10;widerk der Qotidian der meren Stift , sonst frei"/>
+        <role role="price" ref="1508" text="117 ℔ 10sh ."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

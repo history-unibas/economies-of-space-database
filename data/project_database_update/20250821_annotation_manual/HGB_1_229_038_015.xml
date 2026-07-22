@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 229/38 S. [15]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Weisse Gasse 22</tei:title>
+            <tei:idno>HGB 1 229/38</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1535099</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1418">1418</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611370.110380886 1267211.5256795965</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">item</token>
+    <token token_id="1">da</token>
+    <token token_id="2">gab</token>
+    <token token_id="3">ze</token>
+    <token token_id="4">kouffende</token>
+    <token token_id="5">Grede</token>
+    <token token_id="6">Jengerin</token>
+    <token token_id="7">ein</token>
+    <token token_id="8">frow</token>
+    <token token_id="9">ze</token>
+    <token token_id="10">Basel</token>
+    <token token_id="11">wonhaft</token>
+    <token token_id="12">dem</token>
+    <token token_id="13">Rat</token>
+    <token token_id="14">vom</token>
+    <token token_id="15">Basel</token>
+    <token token_id="16">das</token>
+    <token token_id="17">huse</token>
+    <token token_id="18">und</token>
+    <token token_id="19">hofstatt</token>
+    <token token_id="20">vor</token>
+    <token token_id="21">und</token>
+    <token token_id="22">hinden</token>
+    <token token_id="23">ze</token>
+    <token token_id="24">Basel</token>
+    <token token_id="25">in</token>
+    <token token_id="26">der</token>
+    <token token_id="27">wyssen</token>
+    <token token_id="28">Gassen</token>
+    <token token_id="29">zwüschent</token>
+    <token token_id="30">dem</token>
+    <token token_id="31">dem</token>
+    <token token_id="32">huse</token>
+    <token token_id="33">ze</token>
+    <token token_id="34">sant</token>
+    <token token_id="35">Peter</token>
+    <token token_id="36">und</token>
+    <token token_id="37">heinrichs</token>
+    <token token_id="38">von</token>
+    <token token_id="39">Bysel</token>
+    <token token_id="40">huse</token>
+    <token token_id="41">,</token>
+    <token token_id="42">ist</token>
+    <token token_id="43">erbe</token>
+    <token token_id="44">von</token>
+    <token token_id="45">armen</token>
+    <token token_id="46">veltsiechen</token>
+    <token token_id="47">lüten</token>
+    <token token_id="48">des</token>
+    <token token_id="49">huses</token>
+    <token token_id="50">ze</token>
+    <token token_id="51">sancht</token>
+    <token token_id="52">Jacob</token>
+    <token token_id="53">an</token>
+    <token token_id="54">der</token>
+    <token token_id="55">Birs</token>
+    <token token_id="56">,</token>
+    <token token_id="57">denen</token>
+    <token token_id="58">davon</token>
+    <token token_id="59">gangent</token>
+    <token token_id="60">3</token>
+    <token token_id="61">℔</token>
+    <token token_id="62">gewönlicher</token>
+    <token token_id="63">Basler</token>
+    <token token_id="64">zins</token>
+    <token token_id="65">ȡ</token>
+    <token token_id="66">angar</token>
+    <token token_id="67">.</token>
+    <token token_id="68">2</token>
+    <token token_id="69">ring</token>
+    <token token_id="70">brotes</token>
+    <token token_id="71">ze</token>
+    <token token_id="72">wisung</token>
+    <token token_id="73">u</token>
+    <token token_id="74">.</token>
+    <token token_id="75">5ß</token>
+    <token token_id="76">erschatz</token>
+    <token token_id="77">,</token>
+    <token token_id="78">und</token>
+    <token token_id="79">über</token>
+    <token token_id="80">demselben</token>
+    <token token_id="81">den</token>
+    <token token_id="82">Barfüssern</token>
+    <token token_id="83">2</token>
+    <token token_id="84">℔</token>
+    <token token_id="85">zins</token>
+    <token token_id="86">ȡ</token>
+    <token token_id="87">ze</token>
+    <token token_id="88">Ostern</token>
+    <token token_id="89">von</token>
+    <token token_id="90">selgeret</token>
+    <token token_id="91">oder</token>
+    <token token_id="92">Jorziten</token>
+    <token token_id="93">,</token>
+    <token token_id="94">für</token>
+    <token token_id="95">155</token>
+    <token token_id="96">Gulden</token>
+    <token token_id="97">,</token>
+  </text>
+  <spans>
+    <span id="1690" start="4" end="4" text="kouffende" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1473" start="5" end="11" text="Grede Jengerin ein frow&#10;ze Basel wonhaft" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1497" start="5" end="6" text="Grede Jengerin" element="head" class="nam" subclass=""/>
+      <span id="1503" start="7" end="8" text="ein frow" element="appo" class="type" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1503_head" start="7" end="8" element="head" class="type" text="ein frow" subclass=""/>
+      </span>
+      <span id="1509" start="9" end="11" text="ze Basel wonhaft" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1515" start="10" end="10" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1515_head" start="10" end="10" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1479" start="12" end="15" text="dem Rat vom Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+      <span id="1521" start="13" end="15" text="Rat vom Basel" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1485" start="16" end="92" text="das huse und hofstatt&#10;vor und hinden ze Basel in der wyssen Gassen zwüschent dem&#10;dem huse ze sant Peter und heinrichs von Bysel huse , ist&#10;erbe von armen veltsiechen lüten des huses ze sancht Jacob&#10;an der Birs , denen davon gangent 3 ℔ gewönlicher Basler&#10;zins ȡ angar . 2 ring brotes ze wisung u . 5ß erschatz , und&#10;über demselben den Barfüssern 2 ℔ zins ȡ ze Ostern von&#10;selgeret oder Jorziten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1527" start="17" end="19" text="huse und hofstatt" element="head" class="type" subclass=""/>
+      <span id="1533" start="20" end="40" text="vor und hinden ze Basel in der wyssen Gassen zwüschent dem&#10;dem huse ze sant Peter und heinrichs von Bysel huse" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1539" start="24" end="24" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1539_head" start="24" end="24" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="1545" start="26" end="28" text="der wyssen Gassen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1551" start="27" end="28" text="wyssen Gassen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1557" start="31" end="35" text="dem huse ze sant Peter" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1563" start="32" end="35" text="huse ze sant Peter" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1569" start="37" end="40" text="heinrichs von Bysel huse" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1581" start="37" end="39" text="heinrichs von Bysel" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1587" start="37" end="39" text="heinrichs von Bysel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1587_head" start="37" end="39" element="head" class="nam" text="heinrichs von Bysel" subclass=""/>
+            </span>
+          </span>
+          <span id="1575" start="40" end="40" text="huse" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1726" start="42" end="55" text="ist&#10;erbe von armen veltsiechen lüten des huses ze sancht Jacob&#10;an der Birs" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1593" start="45" end="55" text="armen veltsiechen lüten des huses ze sancht Jacob&#10;an der Birs" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1599" start="47" end="47" text="lüten" element="head" class="type" subclass=""/>
+          <span id="1605" start="48" end="55" text="des huses ze sancht Jacob&#10;an der Birs" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1611" start="48" end="55" text="des huses ze sancht Jacob&#10;an der Birs" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1617" start="49" end="49" text="huses" element="head" class="type" subclass=""/>
+              <span id="1623" start="50" end="55" text="ze sancht Jacob&#10;an der Birs" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1629" start="51" end="55" text="sancht Jacob&#10;an der Birs" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1629_head" start="51" end="55" element="head" class="nam" text="sancht Jacob an der Birs" subclass=""/>
+                </span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1732" start="57" end="92" text="denen davon gangent 3 ℔ gewönlicher Basler&#10;zins ȡ angar . 2 ring brotes ze wisung u . 5ß erschatz , und&#10;über demselben den Barfüssern 2 ℔ zins ȡ ze Ostern von&#10;selgeret oder Jorziten" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1635" start="57" end="57" text="denen" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1635_head" start="57" end="57" element="head" class="pro" text="denen" subclass=""/>
+        </span>
+        <span id="1696" start="59" end="59" text="gangent" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1648" start="60" end="65" text="3 ℔ gewönlicher Basler&#10;zins ȡ" element="value" class="money" subclass=""/>
+        <span id="1702" start="66" end="67" text="angar ." element="value" class="time" subclass="rec"/>
+        <span id="1654" start="68" end="70" text="2 ring brotes" element="value" class="money" subclass=""/>
+        <span id="1708" start="71" end="72" text="ze wisung" element="other" class="other" subclass=""/>
+        <span id="1660" start="75" end="75" text="5ß" element="value" class="money" subclass=""/>
+        <span id="1714" start="76" end="76" text="erschatz" element="other" class="other" subclass=""/>
+        <span id="1666" start="81" end="82" text="den Barfüssern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1672" start="82" end="82" text="Barfüssern" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1678" start="83" end="86" text="2 ℔ zins ȡ" element="value" class="money" subclass=""/>
+        <span id="1684" start="87" end="88" text="ze Ostern" element="value" class="date" subclass=""/>
+        <span id="1720" start="89" end="92" text="von&#10;selgeret oder Jorziten" element="other" class="other" subclass=""/>
+      </span>
+    </span>
+    <span id="1491" start="95" end="97" text="155 Gulden ," element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1641" from="1635" to="1593" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="9" end="11" ref="1509" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="1473" text="Grede Jengerin ein frow&#10;ze Basel wonhaft"/>
+        <role role="location-b" ref="1515" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="topological" polarity="pos" tense="pres" modality="ass" start="20" end="40" ref="1533" type="state">
+      <event event_id="1.0">
+        <role role="location-a" ref="1485" text="das huse und hofstatt&#10;vor und hinden ze Basel in der wyssen Gassen zwüschent dem&#10;dem huse ze sant Peter und heinrichs von Bysel huse , ist&#10;erbe von armen veltsiechen lüten des huses ze sancht Jacob&#10;an der Birs , denen davon gangent 3 ℔ gewönlicher Basler&#10;zins ȡ angar . 2 ring brotes ze wisung u . 5ß erschatz , und&#10;über demselben den Barfüssern 2 ℔ zins ȡ ze Ostern von&#10;selgeret oder Jorziten"/>
+        <role role="location-b" ref="1539" text="Basel"/>
+        <role role="location-b" ref="1545" text="der wyssen Gassen"/>
+        <role role="location-b" ref="1557" text="dem huse ze sant Peter"/>
+        <role role="location-b" ref="1569" text="heinrichs von Bysel huse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="37" end="39" ref="1581" type="state">
+      <event event_id="2.0">
+        <role role="property" ref="1569" text="heinrichs von Bysel huse"/>
+        <role role="owner" ref="1587" text="heinrichs von Bysel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="42" end="55" ref="1726" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1485" text="das huse und hofstatt&#10;vor und hinden ze Basel in der wyssen Gassen zwüschent dem&#10;dem huse ze sant Peter und heinrichs von Bysel huse , ist&#10;erbe von armen veltsiechen lüten des huses ze sancht Jacob&#10;an der Birs , denen davon gangent 3 ℔ gewönlicher Basler&#10;zins ȡ angar . 2 ring brotes ze wisung u . 5ß erschatz , und&#10;über demselben den Barfüssern 2 ℔ zins ȡ ze Ostern von&#10;selgeret oder Jorziten"/>
+        <role role="owner" ref="1593" text="armen veltsiechen lüten des huses ze sancht Jacob&#10;an der Birs"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="membership" polarity="pos" tense="pres" modality="ass" start="48" end="55" ref="1605" type="state">
+      <event event_id="4.0">
+        <role role="member" ref="1593" text="armen veltsiechen lüten des huses ze sancht Jacob&#10;an der Birs"/>
+        <role role="organization" ref="1611" text="des huses ze sancht Jacob&#10;an der Birs"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="50" end="55" ref="1623" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1611" text="des huses ze sancht Jacob&#10;an der Birs"/>
+        <role role="location-b" ref="1629" text="sancht Jacob&#10;an der Birs"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="57" end="92" ref="1732" type="state">
+      <trigger start="59" end="59" text="gangent" ref="1696"/>
+      <event event_id="6.0">
+        <role role="property" ref="1485" text="das huse und hofstatt&#10;vor und hinden ze Basel in der wyssen Gassen zwüschent dem&#10;dem huse ze sant Peter und heinrichs von Bysel huse , ist&#10;erbe von armen veltsiechen lüten des huses ze sancht Jacob&#10;an der Birs , denen davon gangent 3 ℔ gewönlicher Basler&#10;zins ȡ angar . 2 ring brotes ze wisung u . 5ß erschatz , und&#10;über demselben den Barfüssern 2 ℔ zins ȡ ze Ostern von&#10;selgeret oder Jorziten"/>
+        <role role="beneficiary" ref="1635" text="denen"/>
+        <role role="interest" ref="1648" text="3 ℔ gewönlicher Basler&#10;zins ȡ"/>
+        <role role="interval" ref="1702" text="angar ."/>
+      </event>
+      <event event_id="6.1">
+        <role role="property" ref="1485" text="das huse und hofstatt&#10;vor und hinden ze Basel in der wyssen Gassen zwüschent dem&#10;dem huse ze sant Peter und heinrichs von Bysel huse , ist&#10;erbe von armen veltsiechen lüten des huses ze sancht Jacob&#10;an der Birs , denen davon gangent 3 ℔ gewönlicher Basler&#10;zins ȡ angar . 2 ring brotes ze wisung u . 5ß erschatz , und&#10;über demselben den Barfüssern 2 ℔ zins ȡ ze Ostern von&#10;selgeret oder Jorziten"/>
+        <role role="beneficiary" ref="1635" text="denen"/>
+        <role role="interest" ref="1654" text="2 ring brotes"/>
+        <role role="cause" ref="1708" text="ze wisung"/>
+      </event>
+      <event event_id="6.2">
+        <role role="property" ref="1485" text="das huse und hofstatt&#10;vor und hinden ze Basel in der wyssen Gassen zwüschent dem&#10;dem huse ze sant Peter und heinrichs von Bysel huse , ist&#10;erbe von armen veltsiechen lüten des huses ze sancht Jacob&#10;an der Birs , denen davon gangent 3 ℔ gewönlicher Basler&#10;zins ȡ angar . 2 ring brotes ze wisung u . 5ß erschatz , und&#10;über demselben den Barfüssern 2 ℔ zins ȡ ze Ostern von&#10;selgeret oder Jorziten"/>
+        <role role="beneficiary" ref="1635" text="denen"/>
+        <role role="interest" ref="1660" text="5ß"/>
+        <role role="cause" ref="1714" text="erschatz"/>
+      </event>
+      <event event_id="6.3">
+        <role role="property" ref="1485" text="das huse und hofstatt&#10;vor und hinden ze Basel in der wyssen Gassen zwüschent dem&#10;dem huse ze sant Peter und heinrichs von Bysel huse , ist&#10;erbe von armen veltsiechen lüten des huses ze sancht Jacob&#10;an der Birs , denen davon gangent 3 ℔ gewönlicher Basler&#10;zins ȡ angar . 2 ring brotes ze wisung u . 5ß erschatz , und&#10;über demselben den Barfüssern 2 ℔ zins ȡ ze Ostern von&#10;selgeret oder Jorziten"/>
+        <role role="beneficiary" ref="1666" text="den Barfüssern"/>
+        <role role="interest" ref="1678" text="2 ℔ zins ȡ"/>
+        <role role="due-date" ref="1684" text="ze Ostern"/>
+        <role role="cause" ref="1720" text="von&#10;selgeret oder Jorziten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="4" end="97" ref="" type="event">
+      <trigger start="4" end="4" text="kouffende" ref="1690"/>
+      <event event_id="7.0">
+        <role role="seller" ref="1473" text="Grede Jengerin ein frow&#10;ze Basel wonhaft"/>
+        <role role="buyer" ref="1479" text="dem Rat vom Basel"/>
+        <role role="property" ref="1485" text="das huse und hofstatt&#10;vor und hinden ze Basel in der wyssen Gassen zwüschent dem&#10;dem huse ze sant Peter und heinrichs von Bysel huse , ist&#10;erbe von armen veltsiechen lüten des huses ze sancht Jacob&#10;an der Birs , denen davon gangent 3 ℔ gewönlicher Basler&#10;zins ȡ angar . 2 ring brotes ze wisung u . 5ß erschatz , und&#10;über demselben den Barfüssern 2 ℔ zins ȡ ze Ostern von&#10;selgeret oder Jorziten"/>
+        <role role="price" ref="1491" text="155 Gulden ,"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

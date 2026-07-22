@@ -1,0 +1,597 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 74/85 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hebelstrasse 18</tei:title>
+            <tei:idno>HGB 1 74/85</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1478301</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1477">1477</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610815.491056063 1267796.8336919178</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">geben</token>
+    <token token_id="2">zu</token>
+    <token token_id="3">kaufen</token>
+    <token token_id="4">Caspar</token>
+    <token token_id="5">Sonowers</token>
+    <token token_id="6">den</token>
+    <token token_id="7">zweiteil</token>
+    <token token_id="8">,</token>
+    <token token_id="9">sodan</token>
+    <token token_id="10">Mr</token>
+    <token token_id="11">.</token>
+    <token token_id="12">Peter</token>
+    <token token_id="13">von</token>
+    <token token_id="14">tiss</token>
+    <token token_id="15">des</token>
+    <token token_id="16">Rats</token>
+    <token token_id="17">,</token>
+    <token token_id="18">den</token>
+    <token token_id="19">dritteil</token>
+    <token token_id="20">,</token>
+    <token token_id="21">nachgeschr</token>
+    <token token_id="22">güter</token>
+    <token token_id="23">,</token>
+    <token token_id="24">dem</token>
+    <token token_id="25">Michel</token>
+    <token token_id="26">Jselin</token>
+    <token token_id="27">,</token>
+    <token token_id="28">dem</token>
+    <token token_id="29">gwantman</token>
+    <token token_id="30">u</token>
+    <token token_id="31">.</token>
+    <token token_id="32">seine</token>
+    <token token_id="33">Frau</token>
+    <token token_id="34">Elsa</token>
+    <token token_id="35">,</token>
+    <token token_id="36">die</token>
+    <token token_id="37">fier</token>
+    <token token_id="38">Hüser</token>
+    <token token_id="39">&amp;</token>
+    <token token_id="40">garten</token>
+    <token token_id="41">darhinder</token>
+    <token token_id="42">in</token>
+    <token token_id="43">der</token>
+    <token token_id="44">nuwen</token>
+    <token token_id="45">vorstatt</token>
+    <token token_id="46">,</token>
+    <token token_id="47">zwüschen</token>
+    <token token_id="48">Ulrichs</token>
+    <token token_id="49">zem</token>
+    <token token_id="50">Lufft</token>
+    <token token_id="51">garten</token>
+    <token token_id="52">ze</token>
+    <token token_id="53">einer</token>
+    <token token_id="54">,</token>
+    <token token_id="55">u</token>
+    <token token_id="56">.</token>
+    <token token_id="57">Mr</token>
+    <token token_id="58">.</token>
+    <token token_id="59">Heinrich</token>
+    <token token_id="60">Gygers</token>
+    <token token_id="61">garten</token>
+    <token token_id="62">der</token>
+    <token token_id="63">andern</token>
+    <token token_id="64">siten</token>
+    <token token_id="65">aneinander</token>
+    <token token_id="66">gelegen</token>
+    <token token_id="67">,</token>
+    <token token_id="68">mit</token>
+    <token token_id="69">stossen</token>
+    <token token_id="70">hinden</token>
+    <token token_id="71">an</token>
+    <token token_id="72">der</token>
+    <token token_id="73">Prediger</token>
+    <token token_id="74">muren</token>
+    <token token_id="75">,</token>
+    <token token_id="76">zinst</token>
+    <token token_id="77">uber</token>
+    <token token_id="78">&amp;</token>
+    <token token_id="79">uber</token>
+    <token token_id="80">2</token>
+    <token token_id="81">℔</token>
+    <token token_id="82">18</token>
+    <token token_id="83">den</token>
+    <token token_id="84">meml</token>
+    <token token_id="85">31</token>
+    <token token_id="86">sh</token>
+    <token token_id="87">.</token>
+    <token token_id="88">der</token>
+    <token token_id="89">Besenz</token>
+    <token token_id="90">uf</token>
+    <token token_id="91">Burg</token>
+    <token token_id="92">1</token>
+    <token token_id="93">Beschatz</token>
+    <token token_id="94">dem</token>
+    <token token_id="95">Bropst</token>
+    <token token_id="96">ein</token>
+    <token token_id="97">s</token>
+    <token token_id="98">.</token>
+    <token token_id="99">Peter</token>
+    <token token_id="100">1</token>
+    <token token_id="101">℔</token>
+    <token token_id="102">1sh</token>
+    <token token_id="103">.</token>
+    <token token_id="104">1</token>
+    <token token_id="105">sh</token>
+    <token token_id="106">erschatz</token>
+    <token token_id="107">den</token>
+    <token token_id="108">Carthinsern</token>
+    <token token_id="109">,</token>
+    <token token_id="110">1</token>
+    <token token_id="111">℔</token>
+    <token token_id="112">s</token>
+    <token token_id="113">.</token>
+    <token token_id="114">8</token>
+    <token token_id="115">sh</token>
+    <token token_id="116">erschatz</token>
+    <token token_id="117">dem</token>
+    <token token_id="118">Predigern</token>
+    <token token_id="119">,</token>
+    <token token_id="120">1</token>
+    <token token_id="121">℔</token>
+    <token token_id="122">2ring</token>
+    <token token_id="123">brot</token>
+    <token token_id="124">wysung</token>
+    <token token_id="125">5</token>
+    <token token_id="126">sh</token>
+    <token token_id="127">erschatz</token>
+    <token token_id="128">sodan</token>
+    <token token_id="129">aber</token>
+    <token token_id="130">1</token>
+    <token token_id="131">Hüslin</token>
+    <token token_id="132">&amp;</token>
+    <token token_id="133">garten</token>
+    <token token_id="134">dahinder</token>
+    <token token_id="135">ư</token>
+    <token token_id="136">ein</token>
+    <token token_id="137">mum</token>
+    <token token_id="138">Hus</token>
+    <token token_id="139">de</token>
+    <token token_id="140">garten</token>
+    <token token_id="141">och</token>
+    <token token_id="142">daran</token>
+    <token token_id="143">gelegen</token>
+    <token token_id="144">zinset</token>
+    <token token_id="145">das</token>
+    <token token_id="146">Hüslin</token>
+    <token token_id="147">&amp;</token>
+    <token token_id="148">garten</token>
+    <token token_id="149">6sh</token>
+    <token token_id="150">.</token>
+    <token token_id="151">s</token>
+    <token token_id="152">.</token>
+    <token token_id="153">Joh</token>
+    <token token_id="154">Brud</token>
+    <token token_id="155">.</token>
+    <token token_id="156">u</token>
+    <token token_id="157">.</token>
+    <token token_id="158">1</token>
+    <token token_id="159">℔</token>
+    <token token_id="160">5</token>
+    <token token_id="161">sh</token>
+    <token token_id="162">.</token>
+    <token token_id="163">thoma</token>
+    <token token_id="164">Sürlin</token>
+    <token token_id="165">widerk</token>
+    <token token_id="166">mit</token>
+    <token token_id="167">25</token>
+    <token token_id="168">℔</token>
+    <token token_id="169">.</token>
+    <token token_id="170">um</token>
+    <token token_id="171">80</token>
+    <token token_id="172">fl</token>
+    <token token_id="173">.</token>
+    <token token_id="174">das</token>
+    <token token_id="175">Hus</token>
+    <token token_id="176">one</token>
+    <token token_id="177">gatten</token>
+    <token token_id="178">ist</token>
+    <token token_id="179">frei</token>
+    <token token_id="180">,</token>
+  </text>
+  <spans>
+    <span id="3001" start="3" end="3" text="kaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2548" start="4" end="5" text="Caspar Sonowers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2548_head" start="4" end="5" element="head" class="nam" text="Caspar Sonowers" subclass=""/>
+    </span>
+    <span id="2764" start="6" end="7" text="den zweiteil" element="other" class="other" subclass=""/>
+    <span id="2554" start="10" end="16" text="Mr . Peter von tiss&#10;des Rats" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2746" start="10" end="11" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2746_head" start="10" end="11" element="head" class="title" text="Mr ." subclass=""/>
+      </span>
+      <span id="2560" start="12" end="14" text="Peter von tiss" element="head" class="nam" subclass=""/>
+      <span id="2566" start="15" end="16" text="des Rats" element="attr" class="org-aff" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2758" start="16" end="16" text="Rats" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="2758_head" start="16" end="16" element="head" class="type" text="Rats" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2770" start="18" end="22" text="den dritteil , nachgeschr güter" element="other" class="other" subclass=""/>
+    <span id="2783" start="24" end="34" text="dem Michel Jselin ,&#10;dem gwantman u . seine Frau Elsa" element="list" class="per" subclass="">
+      <span id="2752" start="25" end="29" text="Michel Jselin ,&#10;dem gwantman" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2572" start="25" end="26" text="Michel Jselin" element="head" class="nam" subclass=""/>
+        <span id="2578" start="28" end="29" text="dem gwantman" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2584" start="29" end="29" text="gwantman" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="2590" start="32" end="34" text="seine Frau Elsa" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2596" start="32" end="33" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2602" start="32" end="32" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2602_head" start="32" end="32" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="2608" start="33" end="33" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="2614" start="34" end="34" text="Elsa" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="3092" start="36" end="143" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz&#10;sodan aber 1 Hüslin &amp; garten dahinder ư ein mum Hus de&#10;garten och daran gelegen" element="list" class="fac" subclass="">
+      <span id="2897" start="36" end="127" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2789" start="37" end="38" text="fier Hüser" element="head" class="type" subclass=""/>
+        <span id="2795" start="39" end="41" text="&amp;&#10;garten darhinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2801" start="40" end="40" text="garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2801_head" start="40" end="40" element="head" class="type" text="garten" subclass=""/>
+          </span>
+        </span>
+        <span id="2807" start="42" end="74" text="in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2620" start="43" end="45" text="der nuwen vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+            <span id="2813" start="44" end="45" text="nuwen vorstatt" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="2819" start="48" end="51" text="Ulrichs&#10;zem Lufft garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3007" start="48" end="50" text="Ulrichs&#10;zem Lufft" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2831" start="48" end="50" text="Ulrichs&#10;zem Lufft" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2831_head" start="48" end="50" element="head" class="nam" text="Ulrichs zem Lufft" subclass=""/>
+              </span>
+            </span>
+            <span id="2825" start="51" end="51" text="garten" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2837" start="57" end="61" text="Mr . Heinrich Gygers garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3019" start="57" end="60" text="Mr . Heinrich Gygers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2843" start="57" end="60" text="Mr . Heinrich Gygers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="3013" start="57" end="58" text="Mr ." element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="3013_head" start="57" end="58" element="head" class="title" text="Mr ." subclass=""/>
+                </span>
+                <span id="2626" start="59" end="60" text="Heinrich Gygers" element="head" class="nam" subclass=""/>
+              </span>
+            </span>
+            <span id="2837_head" start="61" end="61" element="head" class="type" text="garten" subclass=""/>
+          </span>
+          <span id="2849" start="72" end="74" text="der Prediger muren" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="2855" start="73" end="74" text="Prediger muren" element="head" class="nam" subclass=""/>
+          </span>
+        </span>
+        <span id="2891" start="76" end="127" text="zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3044" start="76" end="76" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+          <span id="2861" start="80" end="83" text="2 ℔ 18 den" element="value" class="money" subclass=""/>
+          <span id="2632" start="85" end="87" text="31 sh ." element="value" class="money" subclass=""/>
+          <span id="2638" start="88" end="91" text="der Besenz uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="2644" start="89" end="91" text="Besenz uf Burg" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="3050" start="92" end="93" text="1 Beschatz" element="value" class="money" subclass=""/>
+          <span id="2867" start="94" end="99" text="dem Bropst ein s . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="2873" start="95" end="99" text="Bropst ein s . Peter" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="2879" start="100" end="103" text="1 ℔ 1sh ." element="value" class="money" subclass=""/>
+          <span id="2885" start="104" end="105" text="1 sh" element="value" class="money" subclass=""/>
+          <span id="3056" start="106" end="106" text="erschatz" element="other" class="other" subclass=""/>
+          <span id="2650" start="107" end="108" text="den Carthinsern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="2656" start="108" end="108" text="Carthinsern" element="head" class="type" subclass=""/>
+          </span>
+          <span id="2662" start="110" end="111" text="1 ℔" element="value" class="money" subclass=""/>
+          <span id="2668" start="114" end="115" text="8 sh" element="value" class="money" subclass=""/>
+          <span id="3062" start="116" end="116" text="erschatz" element="other" class="other" subclass=""/>
+          <span id="2674" start="117" end="118" text="dem&#10;Predigern" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+            <span id="2680" start="118" end="118" text="Predigern" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="2686" start="120" end="121" text="1 ℔" element="value" class="money" subclass=""/>
+          <span id="2692" start="122" end="123" text="2ring brot" element="value" class="money" subclass=""/>
+          <span id="3068" start="124" end="124" text="wysung" element="other" class="other" subclass=""/>
+          <span id="2698" start="125" end="126" text="5 sh" element="value" class="money" subclass=""/>
+          <span id="3074" start="127" end="127" text="erschatz" element="other" class="other" subclass=""/>
+        </span>
+      </span>
+      <span id="2945" start="130" end="143" text="1 Hüslin &amp; garten dahinder ư ein mum Hus de&#10;garten och daran gelegen" element="list" class="fac" subclass="">
+        <span id="2903" start="130" end="134" text="1 Hüslin &amp; garten dahinder" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2909" start="131" end="131" text="Hüslin" element="head" class="type" subclass=""/>
+          <span id="2915" start="133" end="134" text="garten dahinder" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2921" start="133" end="133" text="garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="2921_head" start="133" end="133" element="head" class="type" text="garten" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="2927" start="136" end="143" text="ein mum Hus de&#10;garten och daran gelegen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2933" start="138" end="138" text="Hus" element="head" class="type" subclass=""/>
+          <span id="2939" start="139" end="143" text="de&#10;garten och daran gelegen" element="attr" class="includes" numerus="neg" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="3031" start="140" end="140" text="garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="3031_head" start="140" end="140" element="head" class="type" text="garten" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="3080" start="144" end="144" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2951" start="145" end="148" text="das Hüslin &amp; garten" element="list" class="fac" subclass="">
+      <span id="2957" start="145" end="146" text="das Hüslin" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2963" start="146" end="146" text="Hüslin" element="head" class="type" subclass=""/>
+      </span>
+      <span id="2969" start="148" end="148" text="garten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2969_head" start="148" end="148" element="head" class="type" text="garten" subclass=""/>
+      </span>
+    </span>
+    <span id="2704" start="149" end="150" text="6sh ." element="value" class="money" subclass=""/>
+    <span id="2989" start="151" end="155" text="s . Joh Brud ." element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="2989_head" start="151" end="155" element="head" class="nam" text="s . Joh Brud ." subclass=""/>
+    </span>
+    <span id="2710" start="158" end="162" text="1 ℔ 5 sh ." element="value" class="money" subclass=""/>
+    <span id="2716" start="163" end="164" text="thoma Sürlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2716_head" start="163" end="164" element="head" class="nam" text="thoma Sürlin" subclass=""/>
+    </span>
+    <span id="3086" start="165" end="165" text="widerk" element="other" class="other" subclass=""/>
+    <span id="2722" start="167" end="169" text="25 ℔." element="value" class="money" subclass=""/>
+    <span id="2728" start="171" end="173" text="80 fl ." element="value" class="money" subclass=""/>
+    <span id="2734" start="174" end="177" text="das Hus one gatten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2740" start="175" end="175" text="Hus" element="head" class="type" subclass=""/>
+      <span id="2995" start="176" end="177" text="one gatten" element="attr" class="includes" numerus="neg" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="3025" start="177" end="177" text="gatten" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="3025_head" start="177" end="177" element="head" class="type" text="gatten" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="3098" start="179" end="179" text="frei" element="trigger" class="due" tense="pres" polarity="neg" modality="ass" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="2776" from="2602" to="2752" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3104" from="2548" to="3092" class="owner" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3111" from="2554" to="2897" class="owner" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2975" from="2957" to="2903" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2982" from="2969" to="2921" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="3037" from="2734" to="2927" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="32" end="33" ref="2596" type="state">
+      <trigger start="33" end="33" text="Frau" ref="2608"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="2590" text="seine Frau Elsa"/>
+        <role role="family-b" ref="2602" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="membership" polarity="pos" tense="pres" modality="ass" start="15" end="16" ref="2566" type="state">
+      <event event_id="1.0">
+        <role role="member" ref="2554" text="Mr . Peter von tiss&#10;des Rats"/>
+        <role role="organization" ref="2758" text="Rats"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="part_whole" polarity="pos" tense="pres" modality="ass" start="39" end="41" ref="2795" type="state">
+      <event event_id="2.0">
+        <role role="whole" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+        <role role="part" ref="2801" text="garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="42" end="74" ref="2807" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+        <role role="location-b" ref="2620" text="der nuwen vorstatt"/>
+        <role role="location-b" ref="2819" text="Ulrichs&#10;zem Lufft garten"/>
+        <role role="location-b" ref="2837" text="Mr . Heinrich Gygers garten"/>
+        <role role="location-b" ref="2849" text="der Prediger muren"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="ownership" polarity="pos" tense="pres" modality="ass" start="48" end="50" ref="3007" type="state">
+      <event event_id="4.0">
+        <role role="property" ref="2819" text="Ulrichs&#10;zem Lufft garten"/>
+        <role role="owner" ref="2831" text="Ulrichs&#10;zem Lufft"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="57" end="60" ref="3019" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="2837" text="Mr . Heinrich Gygers garten"/>
+        <role role="owner" ref="2843" text="Mr . Heinrich Gygers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="76" end="127" ref="2891" type="state">
+      <trigger start="76" end="76" text="zinst" ref="3044"/>
+      <event event_id="6.0">
+        <role role="property" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+        <role role="interest" ref="2861" text="2 ℔ 18 den"/>
+        <role role="detail_interest-conv" ref="2632" text="31 sh ."/>
+        <role role="beneficiary" ref="2638" text="der Besenz uf Burg"/>
+      </event>
+      <event event_id="6.1">
+        <role role="property" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+        <role role="interest" ref="3050" text="1 Beschatz"/>
+        <role role="beneficiary" ref="2867" text="dem Bropst ein s . Peter"/>
+      </event>
+      <event event_id="6.2">
+        <role role="property" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+        <role role="interest" ref="2879" text="1 ℔ 1sh ."/>
+        <role role="beneficiary" ref="2650" text="den Carthinsern"/>
+      </event>
+      <event event_id="6.3">
+        <role role="property" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+        <role role="interest" ref="2885" text="1 sh"/>
+        <role role="cause" ref="3056" text="erschatz"/>
+        <role role="beneficiary" ref="2650" text="den Carthinsern"/>
+      </event>
+      <event event_id="6.4">
+        <role role="property" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+        <role role="interest" ref="2662" text="1 ℔"/>
+        <role role="beneficiary" ref="2674" text="dem&#10;Predigern"/>
+      </event>
+      <event event_id="6.5">
+        <role role="property" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+        <role role="interest" ref="2668" text="8 sh"/>
+        <role role="cause" ref="3062" text="erschatz"/>
+        <role role="beneficiary" ref="2674" text="dem&#10;Predigern"/>
+      </event>
+      <event event_id="6.6">
+        <role role="property" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+        <role role="interest" ref="2686" text="1 ℔"/>
+      </event>
+      <event event_id="6.7">
+        <role role="property" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+        <role role="interest" ref="2692" text="2ring brot"/>
+        <role role="cause" ref="3068" text="wysung"/>
+      </event>
+      <event event_id="6.8">
+        <role role="property" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+        <role role="interest" ref="2698" text="5 sh"/>
+        <role role="cause" ref="3074" text="erschatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="part_whole" polarity="pos" tense="pres" modality="ass" start="133" end="134" ref="2915" type="state">
+      <event event_id="7.0">
+        <role role="whole" ref="2903" text="1 Hüslin &amp; garten dahinder"/>
+        <role role="part" ref="2921" text="garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="part_whole" polarity="pos" tense="pres" modality="ass" start="139" end="143" ref="2939" type="state">
+      <event event_id="8.0">
+        <role role="whole" ref="2927" text="ein mum Hus de&#10;garten och daran gelegen"/>
+        <role role="part" ref="3031" text="garten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="part_whole" polarity="pos" tense="pres" modality="ass" start="176" end="177" ref="2995" type="state">
+      <event event_id="9.0">
+        <role role="whole" ref="2734" text="das Hus one gatten"/>
+        <role role="part" ref="3025" text="gatten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="10" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="3" end="3" ref="" type="event">
+      <trigger start="3" end="3" text="kaufen" ref="3001"/>
+      <event event_id="10.0">
+        <role role="seller" ref="2548" text="Caspar Sonowers"/>
+        <role role="detail_property-detail" ref="2764" text="den zweiteil"/>
+        <role role="seller" ref="2554" text="Mr . Peter von tiss&#10;des Rats"/>
+        <role role="detail_property-detail" ref="2770" text="den dritteil , nachgeschr güter"/>
+        <role role="buyer" ref="2752" text="Michel Jselin ,&#10;dem gwantman"/>
+        <role role="buyer" ref="2590" text="seine Frau Elsa"/>
+        <role role="property" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+        <role role="property" ref="2903" text="1 Hüslin &amp; garten dahinder"/>
+        <role role="property" ref="2927" text="ein mum Hus de&#10;garten och daran gelegen"/>
+        <role role="price" ref="2728" text="80 fl ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="11" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="144" end="169" ref="" type="state">
+      <trigger start="144" end="144" text="zinset" ref="3080"/>
+      <event event_id="11.0">
+        <role role="property" ref="2957" text="das Hüslin"/>
+        <role role="property" ref="2969" text="garten"/>
+        <role role="interest" ref="2704" text="6sh ."/>
+        <role role="beneficiary" ref="2989" text="s . Joh Brud ."/>
+      </event>
+      <event event_id="11.1">
+        <role role="property" ref="2957" text="das Hüslin"/>
+        <role role="property" ref="2969" text="garten"/>
+        <role role="interest" ref="2710" text="1 ℔ 5 sh ."/>
+        <role role="beneficiary" ref="2716" text="thoma Sürlin"/>
+        <role role="interest-redeemable" ref="3086" text="widerk"/>
+        <role role="capital" ref="2722" text="25 ℔."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="12" class="due-obligation" polarity="neg" tense="pres" modality="ass" start="174" end="179" ref="" type="state">
+      <trigger start="179" end="179" text="frei" ref="3098"/>
+      <event event_id="12.0">
+        <role role="property" ref="2734" text="das Hus one gatten"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="13" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="13.0">
+        <role role="owner" ref="2548" text="Caspar Sonowers"/>
+        <role role="property" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="14" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="14.0">
+        <role role="owner" ref="2548" text="Caspar Sonowers"/>
+        <role role="property" ref="2903" text="1 Hüslin &amp; garten dahinder"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="15" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="15.0">
+        <role role="owner" ref="2548" text="Caspar Sonowers"/>
+        <role role="property" ref="2927" text="ein mum Hus de&#10;garten och daran gelegen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="16" class="ownership" polarity="pos" tense="pres" modality="ass" type="state">
+      <event event_id="16.0">
+        <role role="owner" ref="2554" text="Mr . Peter von tiss&#10;des Rats"/>
+        <role role="property" ref="2897" text="die fier Hüser &amp;&#10;garten darhinder in der nuwen vorstatt , zwüschen Ulrichs&#10;zem Lufft garten ze einer , u . Mr . Heinrich Gygers garten&#10;der andern siten aneinander gelegen , mit stossen hinden an&#10;der Prediger muren , zinst uber &amp; uber 2 ℔ 18 den meml&#10;31 sh . der Besenz uf Burg 1 Beschatz dem Bropst ein s . Peter&#10;1 ℔ 1sh . 1 sh erschatz den Carthinsern , 1 ℔ s . 8 sh erschatz dem&#10;Predigern , 1 ℔ 2ring brot wysung 5 sh erschatz"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

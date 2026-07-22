@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 101/10 S. [9]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Klosterberg 13</tei:title>
+            <tei:idno>HGB 1 101/10</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1491670</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Universität</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1649">1649</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611438.125817921 1266820.527729602</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hans</token>
+    <token token_id="1">Jakob</token>
+    <token token_id="2">Gerwick</token>
+    <token token_id="3">und</token>
+    <token token_id="4">Sara</token>
+    <token token_id="5">Gass</token>
+    <token token_id="6">Cen</token>
+    <token token_id="7">sein</token>
+    <token token_id="8">Ehefrau</token>
+    <token token_id="9">versfanden</token>
+    <token token_id="10">der</token>
+    <token token_id="11">mitere</token>
+    <token token_id="12">Läl</token>
+    <token token_id="13">für</token>
+    <token token_id="14">ein</token>
+    <token token_id="15">Capital</token>
+    <token token_id="16">von</token>
+    <token token_id="17">200</token>
+    <token token_id="18">gl</token>
+    <token token_id="19">.</token>
+    <token token_id="20">ein</token>
+    <token token_id="21">10</token>
+    <token token_id="22">Gl</token>
+    <token token_id="23">.</token>
+    <token token_id="24">Verzins</token>
+    <token token_id="25">lich</token>
+    <token token_id="26">.</token>
+    <token token_id="27">isse</token>
+    <token token_id="28">Wohnbehausung</token>
+    <token token_id="29">Saches</token>
+    <token token_id="30">Torken</token>
+    <token token_id="31">an</token>
+    <token token_id="32">der</token>
+    <token token_id="33">Steinenvorstatt</token>
+    <token token_id="34">,</token>
+    <token token_id="35">einers</token>
+    <token token_id="36">.</token>
+    <token token_id="37">neben</token>
+    <token token_id="38">der</token>
+    <token token_id="39">Spittalt</token>
+    <token token_id="40">Kornhaus</token>
+    <token token_id="41">,</token>
+    <token token_id="42">zinst</token>
+    <token token_id="43">hn</token>
+    <token token_id="44">Peter</token>
+    <token token_id="45">Stocklin</token>
+    <token token_id="46">150</token>
+    <token token_id="47">℔</token>
+    <token token_id="48">.</token>
+    <token token_id="49">Sodann</token>
+    <token token_id="50">Mr</token>
+    <token token_id="51">Caspar</token>
+    <token token_id="52">Flich</token>
+    <token token_id="53">dem</token>
+    <token token_id="54">Griesens</token>
+    <token token_id="55">187</token>
+    <token token_id="56">℔</token>
+    <token token_id="57">10ß</token>
+    <token token_id="58">,</token>
+    <token token_id="59">sonst</token>
+    <token token_id="60">frei</token>
+    <token token_id="61">.</token>
+  </text>
+  <spans>
+    <span id="1034" start="0" end="8" text="Hans Jakob Gerwick und Sara Gass&#10;Cen sein Ehefrau" element="list" class="per" subclass="">
+      <span id="979" start="0" end="2" text="Hans Jakob Gerwick" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="991" start="0" end="2" text="Hans Jakob Gerwick" element="head" class="nam" subclass=""/>
+      </span>
+      <span id="997" start="4" end="8" text="Sara Gass&#10;Cen sein Ehefrau" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1003" start="4" end="6" text="Sara Gass&#10;Cen" element="head" class="nam" subclass=""/>
+        <span id="1009" start="7" end="8" text="sein Ehefrau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1021" start="7" end="7" text="sein" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1021_head" start="7" end="7" element="head" class="pro" text="sein" subclass=""/>
+          </span>
+          <span id="1015" start="8" end="8" text="Ehefrau" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1203" start="9" end="9" text="versfanden" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1191" start="10" end="12" text="der mitere&#10;Läl" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="edu">
+      <span id="1197" start="11" end="12" text="mitere&#10;Läl" element="head" class="type" subclass=""/>
+    </span>
+    <span id="1040" start="17" end="19" text="200 gl ." element="value" class="money" subclass=""/>
+    <span id="1046" start="21" end="23" text="10 Gl ." element="value" class="money" subclass=""/>
+    <span id="1052" start="27" end="60" text="isse Wohnbehausung Saches Torken an&#10;der Steinenvorstatt , einers . neben der Spittalt&#10;Kornhaus , zinst hn Peter Stocklin 150&#10;℔. Sodann Mr Caspar Flich dem Griesens&#10;187 ℔ 10ß , sonst frei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1058" start="27" end="27" text="isse" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1064" start="27" end="27" text="isse" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1064_head" start="27" end="27" element="head" class="pro" text="isse" subclass=""/>
+        </span>
+      </span>
+      <span id="1077" start="28" end="28" text="Wohnbehausung" element="head" class="type" subclass=""/>
+      <span id="1083" start="31" end="40" text="an&#10;der Steinenvorstatt , einers . neben der Spittalt&#10;Kornhaus" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1089" start="32" end="33" text="der Steinenvorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="vorstadt">
+          <span id="1095" start="33" end="33" text="Steinenvorstatt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1101" start="38" end="40" text="der Spittalt&#10;Kornhaus" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1113" start="38" end="39" text="der Spittalt" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1119" start="38" end="39" text="der Spittalt" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+              <span id="1125" start="39" end="39" text="Spittalt" element="head" class="type" subclass=""/>
+            </span>
+          </span>
+          <span id="1107" start="40" end="40" text="Kornhaus" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1185" start="42" end="60" text="zinst hn Peter Stocklin 150&#10;℔. Sodann Mr Caspar Flich dem Griesens&#10;187 ℔ 10ß , sonst frei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1209" start="42" end="42" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1131" start="43" end="45" text="hn Peter Stocklin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1137" start="44" end="45" text="Peter Stocklin" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1143" start="46" end="48" text="150&#10;℔." element="value" class="money" subclass=""/>
+        <span id="1149" start="50" end="54" text="Mr Caspar Flich dem Griesens" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1161" start="50" end="50" text="Mr" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1161_head" start="50" end="50" element="head" class="title" text="Mr" subclass=""/>
+          </span>
+          <span id="1155" start="51" end="52" text="Caspar Flich" element="head" class="nam" subclass=""/>
+          <span id="1167" start="53" end="54" text="dem Griesens" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1173" start="54" end="54" text="Griesens" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1179" start="55" end="57" text="187 ℔ 10ß" element="value" class="money" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1070" from="1064" to="1034" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1027" from="1021" to="979" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="7" end="8" ref="1009" type="state">
+      <trigger start="8" end="8" text="Ehefrau" ref="1015"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="997" text="Sara Gass&#10;Cen sein Ehefrau"/>
+        <role role="family-b" ref="1021" text="sein"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="27" end="27" ref="1058" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="1052" text="isse Wohnbehausung Saches Torken an&#10;der Steinenvorstatt , einers . neben der Spittalt&#10;Kornhaus , zinst hn Peter Stocklin 150&#10;℔. Sodann Mr Caspar Flich dem Griesens&#10;187 ℔ 10ß , sonst frei"/>
+        <role role="owner" ref="1064" text="isse"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="31" end="40" ref="1083" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1052" text="isse Wohnbehausung Saches Torken an&#10;der Steinenvorstatt , einers . neben der Spittalt&#10;Kornhaus , zinst hn Peter Stocklin 150&#10;℔. Sodann Mr Caspar Flich dem Griesens&#10;187 ℔ 10ß , sonst frei"/>
+        <role role="location-b" ref="1089" text="der Steinenvorstatt"/>
+        <role role="location-b" ref="1101" text="der Spittalt&#10;Kornhaus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="38" end="39" ref="1113" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1101" text="der Spittalt&#10;Kornhaus"/>
+        <role role="owner" ref="1119" text="der Spittalt"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="42" end="60" ref="1185" type="state">
+      <trigger start="42" end="42" text="zinst" ref="1209"/>
+      <event event_id="4.0">
+        <role role="property" ref="1052" text="isse Wohnbehausung Saches Torken an&#10;der Steinenvorstatt , einers . neben der Spittalt&#10;Kornhaus , zinst hn Peter Stocklin 150&#10;℔. Sodann Mr Caspar Flich dem Griesens&#10;187 ℔ 10ß , sonst frei"/>
+        <role role="beneficiary" ref="1131" text="hn Peter Stocklin"/>
+        <role role="capital" ref="1143" text="150&#10;℔."/>
+      </event>
+      <event event_id="4.1">
+        <role role="property" ref="1052" text="isse Wohnbehausung Saches Torken an&#10;der Steinenvorstatt , einers . neben der Spittalt&#10;Kornhaus , zinst hn Peter Stocklin 150&#10;℔. Sodann Mr Caspar Flich dem Griesens&#10;187 ℔ 10ß , sonst frei"/>
+        <role role="beneficiary" ref="1149" text="Mr Caspar Flich dem Griesens"/>
+        <role role="capital" ref="1179" text="187 ℔ 10ß"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="9" ref="" type="event">
+      <trigger start="9" end="9" text="versfanden" ref="1203"/>
+      <event event_id="5.0">
+        <role role="seller" ref="979" text="Hans Jakob Gerwick"/>
+        <role role="seller" ref="997" text="Sara Gass&#10;Cen sein Ehefrau"/>
+        <role role="buyer" ref="1191" text="der mitere&#10;Läl"/>
+        <role role="price" ref="1040" text="200 gl ."/>
+        <role role="interest" ref="1046" text="10 Gl ."/>
+        <role role="collateral" ref="1052" text="isse Wohnbehausung Saches Torken an&#10;der Steinenvorstatt , einers . neben der Spittalt&#10;Kornhaus , zinst hn Peter Stocklin 150&#10;℔. Sodann Mr Caspar Flich dem Griesens&#10;187 ℔ 10ß , sonst frei"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

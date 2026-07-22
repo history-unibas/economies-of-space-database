@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 194/70 S. [12]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenberg 10</tei:title>
+            <tei:idno>HGB 1 194/70</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1515773</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1489">1489</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611129.2655387153 1267417.9008620442</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Margret</token>
+    <token token_id="1">Sierin</token>
+    <token token_id="2">,</token>
+    <token token_id="3">widmet</token>
+    <token token_id="4">jrem</token>
+    <token token_id="5">Eeman</token>
+    <token token_id="6">Clowin</token>
+    <token token_id="7">Ammann</token>
+    <token token_id="8">,</token>
+    <token token_id="9">dem</token>
+    <token token_id="10">Messersmid</token>
+    <token token_id="11">,</token>
+    <token token_id="12">den</token>
+    <token token_id="13">dritteil</token>
+    <token token_id="14">jus</token>
+    <token token_id="15">huses</token>
+    <token token_id="16">so</token>
+    <token token_id="17">sy</token>
+    <token token_id="18">hat</token>
+    <token token_id="19">an</token>
+    <token token_id="20">dem</token>
+    <token token_id="21">Hus</token>
+    <token token_id="22">&amp;</token>
+    <token token_id="23">Hofstatt</token>
+    <token token_id="24">genant</token>
+    <token token_id="25">zem</token>
+    <token token_id="26">obern</token>
+    <token token_id="27">becht</token>
+    <token token_id="28">,</token>
+    <token token_id="29">als</token>
+    <token token_id="30">das</token>
+    <token token_id="31">an</token>
+    <token token_id="32">den</token>
+    <token token_id="33">Spalen</token>
+    <token token_id="34">,</token>
+    <token token_id="35">zwüschen</token>
+    <token token_id="36">dem</token>
+    <token token_id="37">Schurhoff</token>
+    <token token_id="38">ze</token>
+    <token token_id="39">einer</token>
+    <token token_id="40">,</token>
+    <token token_id="41">ư</token>
+    <token token_id="42">zem</token>
+    <token token_id="43">indern</token>
+    <token token_id="44">liecht</token>
+    <token token_id="45">zer</token>
+    <token token_id="46">andern</token>
+    <token token_id="47">siten</token>
+    <token token_id="48">gelegen</token>
+    <token token_id="49">ist</token>
+    <token token_id="50">.</token>
+  </text>
+  <spans>
+    <span id="840" start="0" end="1" text="Margret Sierin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="840_head" start="0" end="1" element="head" class="nam" text="Margret Sierin" subclass=""/>
+    </span>
+    <span id="993" start="3" end="3" text="widmet" element="trigger" class="bequest" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="846" start="4" end="10" text="jrem Eeman Clowin Ammann ,&#10;dem Messersmid" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="858" start="4" end="5" text="jrem Eeman" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="870" start="4" end="4" text="jrem" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="870_head" start="4" end="4" element="head" class="pro" text="jrem" subclass=""/>
+        </span>
+        <span id="864" start="5" end="5" text="Eeman" element="head" class="fam" subclass=""/>
+      </span>
+      <span id="852" start="6" end="7" text="Clowin Ammann" element="head" class="nam" subclass=""/>
+      <span id="883" start="9" end="10" text="dem Messersmid" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="889" start="10" end="10" text="Messersmid" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="1006" start="12" end="13" text="den dritteil" element="other" class="other" subclass=""/>
+    <span id="895" start="14" end="15" text="jus huses" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="895_desc_owner" start="14" end="14" text="jus" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="907" start="14" end="14" text="jus" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="907_head" start="14" end="14" element="head" class="pro" text="jus" subclass=""/>
+        </span>
+      </span>
+      <span id="901" start="15" end="15" text="huses" element="head" class="type" subclass=""/>
+    </span>
+    <span id="920" start="17" end="17" text="sy" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="920_head" start="17" end="17" element="head" class="pro" text="sy" subclass=""/>
+    </span>
+    <span id="933" start="20" end="49" text="dem Hus &amp; Hofstatt genant zem obern becht , als das&#10;an den Spalen , zwüschen dem Schurhoff ze einer , ư zem&#10;indern liecht zer andern siten gelegen ist" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="939" start="21" end="23" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="945" start="25" end="27" text="zem obern becht" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="945_head" start="25" end="27" element="head" class="nam" text="zem obern becht" subclass=""/>
+      </span>
+      <span id="951" start="29" end="49" text="als das&#10;an den Spalen , zwüschen dem Schurhoff ze einer , ư zem&#10;indern liecht zer andern siten gelegen ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="963" start="32" end="33" text="den Spalen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="969" start="33" end="33" text="Spalen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="975" start="36" end="37" text="dem Schurhoff" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="981" start="37" end="37" text="Schurhoff" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="987" start="42" end="44" text="zem&#10;indern liecht" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="987_head" start="42" end="44" element="head" class="nam" text="zem indern liecht" subclass=""/>
+        </span>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="876" from="870" to="840" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="913" from="907" to="840" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="926" from="920" to="840" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="999" from="933" to="895" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="4" end="5" ref="858" type="state">
+      <trigger start="5" end="5" text="Eeman" ref="864"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="846" text="jrem Eeman Clowin Ammann ,&#10;dem Messersmid"/>
+        <role role="family-b" ref="870" text="jrem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="ownership" polarity="pos" tense="pres" modality="ass" start="14" end="14" ref="895_desc_owner" type="state">
+      <event event_id="1.0">
+        <role role="property" ref="895" text="jus huses"/>
+        <role role="owner" ref="907" text="jus"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="29" end="49" ref="951" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="933" text="dem Hus &amp; Hofstatt genant zem obern becht , als das&#10;an den Spalen , zwüschen dem Schurhoff ze einer , ư zem&#10;indern liecht zer andern siten gelegen ist"/>
+        <role role="location-b" ref="963" text="den Spalen"/>
+        <role role="location-b" ref="975" text="dem Schurhoff"/>
+        <role role="location-b" ref="987" text="zem&#10;indern liecht"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="bequest" polarity="pos" tense="pres" modality="ass" start="0" end="3" ref="" type="event">
+      <trigger start="3" end="3" text="widmet" ref="993"/>
+      <event event_id="3.0">
+        <role role="bequeather" ref="840" text="Margret Sierin"/>
+        <role role="beneficiary" ref="846" text="jrem Eeman Clowin Ammann ,&#10;dem Messersmid"/>
+        <role role="detail_property-detail" ref="1006" text="den dritteil"/>
+        <role role="property" ref="895" text="jus huses"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 208/23 S. [15]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Steinenbachgässlein 12</tei:title>
+            <tei:idno>HGB 1 208/23</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1527863</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1476">1476</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611283.510411194 1266986.1549767458</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Schultheissen</token>
+    <token token_id="1">Urkunde</token>
+    <token token_id="2">.</token>
+    <token token_id="3">Claus</token>
+    <token token_id="4">Walch</token>
+    <token token_id="5">der</token>
+    <token token_id="6">Amptman</token>
+    <token token_id="7">des</token>
+    <token token_id="8">weltlichen</token>
+    <token token_id="9">Gerichtz</token>
+    <token token_id="10">zu</token>
+    <token token_id="11">Basel</token>
+    <token token_id="12">,</token>
+    <token token_id="13">und</token>
+    <token token_id="14">Anna</token>
+    <token token_id="15">sin</token>
+    <token token_id="16">Efrow</token>
+    <token token_id="17">verkaufen</token>
+    <token token_id="18">dem</token>
+    <token token_id="19">Closter</token>
+    <token token_id="20">Clingental</token>
+    <token token_id="21">2Gld</token>
+    <token token_id="22">.</token>
+    <token token_id="23">jerlichs</token>
+    <token token_id="24">Zinses</token>
+    <token token_id="25">von</token>
+    <token token_id="26">uff</token>
+    <token token_id="27">und</token>
+    <token token_id="28">ab</token>
+    <token token_id="29">irem</token>
+    <token token_id="30">Huse</token>
+    <token token_id="31">und</token>
+    <token token_id="32">Hoffstatt</token>
+    <token token_id="33">,</token>
+    <token token_id="34">so</token>
+    <token token_id="35">gelegen</token>
+    <token token_id="36">ist</token>
+    <token token_id="37">zu</token>
+    <token token_id="38">Basel</token>
+    <token token_id="39">an</token>
+    <token token_id="40">den</token>
+    <token token_id="41">Steinen</token>
+    <token token_id="42">am</token>
+    <token token_id="43">obern</token>
+    <token token_id="44">Birsich</token>
+    <token token_id="45">zwüschen</token>
+    <token token_id="46">Cunrat</token>
+    <token token_id="47">Vischer</token>
+    <token token_id="48">des</token>
+    <token token_id="49">Schmiders</token>
+    <token token_id="50">ze</token>
+    <token token_id="51">einer</token>
+    <token token_id="52">und</token>
+    <token token_id="53">Hanns</token>
+    <token token_id="54">Zippfis</token>
+    <token token_id="55">Hüsern</token>
+    <token token_id="56">zer</token>
+    <token token_id="57">andern</token>
+    <token token_id="58">Siten</token>
+    <token token_id="59">,</token>
+    <token token_id="60">zinset</token>
+    <token token_id="61">vormals</token>
+    <token token_id="62">von</token>
+    <token token_id="63">Eigenschafft</token>
+    <token token_id="64">4sh</token>
+    <token token_id="65">.</token>
+    <token token_id="66">dem</token>
+    <token token_id="67">Spittal</token>
+    <token token_id="68">der</token>
+    <token token_id="69">armen</token>
+    <token token_id="70">Lüten</token>
+    <token token_id="71">und</token>
+    <token token_id="72">3sh</token>
+    <token token_id="73">.</token>
+    <token token_id="74">den</token>
+    <token token_id="75">Reten</token>
+    <token token_id="76">zu</token>
+    <token token_id="77">Basel</token>
+    <token token_id="78">,</token>
+    <token token_id="79">um</token>
+    <token token_id="80">45</token>
+    <token token_id="81">℔</token>
+    <token token_id="82">.</token>
+  </text>
+  <spans>
+    <span id="1368" start="3" end="16" text="Claus Walch der Amptman des weltlichen Gerichtz zu&#10;Basel , und Anna sin Efrow" element="list" class="per" subclass="">
+      <span id="1283" start="3" end="11" text="Claus Walch der Amptman des weltlichen Gerichtz zu&#10;Basel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1289" start="3" end="4" text="Claus Walch" element="head" class="nam" subclass=""/>
+        <span id="1295" start="5" end="11" text="der Amptman des weltlichen Gerichtz zu&#10;Basel" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+          <span id="1301" start="6" end="6" text="Amptman" element="head" class="occ" subclass="org-job"/>
+          <span id="1307" start="7" end="11" text="des weltlichen Gerichtz zu&#10;Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+            <span id="1313" start="8" end="9" text="weltlichen Gerichtz" element="head" class="type" subclass=""/>
+            <span id="1319" start="10" end="11" text="zu&#10;Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1325" start="11" end="11" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1325_head" start="11" end="11" element="head" class="nam" text="Basel" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="1331" start="14" end="16" text="Anna sin Efrow" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1337" start="14" end="14" text="Anna" element="head" class="nam" subclass=""/>
+        <span id="1343" start="15" end="16" text="sin Efrow" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1355" start="15" end="15" text="sin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1355_head" start="15" end="15" element="head" class="pro" text="sin" subclass=""/>
+          </span>
+          <span id="1349" start="16" end="16" text="Efrow" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1555" start="17" end="17" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1374" start="18" end="20" text="dem Closter&#10;Clingental" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+      <span id="1380" start="19" end="20" text="Closter&#10;Clingental" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1386" start="21" end="22" text="2Gld ." element="value" class="money" subclass=""/>
+    <span id="1392" start="23" end="23" text="jerlichs" element="value" class="time" subclass="rec"/>
+    <span id="1398" start="29" end="77" text="irem&#10;Huse und Hoffstatt , so gelegen ist zu Basel an den&#10;Steinen am obern Birsich zwüschen Cunrat Vischer&#10;des Schmiders ze einer und Hanns Zippfis Hüsern zer&#10;andern Siten , zinset vormals von Eigenschafft 4sh .&#10;dem Spittal der armen Lüten und 3sh . den Reten zu&#10;Basel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1416" start="29" end="29" text="irem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1422" start="29" end="29" text="irem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1422_head" start="29" end="29" element="head" class="pro" text="irem" subclass=""/>
+        </span>
+      </span>
+      <span id="1410" start="30" end="32" text="Huse und Hoffstatt" element="head" class="type" subclass=""/>
+      <span id="1435" start="34" end="58" text="so gelegen ist zu Basel an den&#10;Steinen am obern Birsich zwüschen Cunrat Vischer&#10;des Schmiders ze einer und Hanns Zippfis Hüsern zer&#10;andern Siten" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1441" start="38" end="38" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1441_head" start="38" end="38" element="head" class="nam" text="Basel" subclass=""/>
+        </span>
+        <span id="1447" start="40" end="41" text="den&#10;Steinen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="street">
+          <span id="1549" start="41" end="41" text="Steinen" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1453" start="42" end="44" text="am obern Birsich" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="river">
+          <span id="1459" start="43" end="44" text="obern Birsich" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1465" start="46" end="49" text="Cunrat Vischer&#10;des Schmiders" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1471" start="46" end="47" text="Cunrat Vischer" element="head" class="nam" subclass=""/>
+          <span id="1477" start="48" end="49" text="des Schmiders" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1483" start="49" end="49" text="Schmiders" element="head" class="occ" subclass=""/>
+          </span>
+        </span>
+        <span id="1489" start="53" end="55" text="Hanns Zippfis Hüsern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1501" start="53" end="54" text="Hanns Zippfis" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1507" start="53" end="54" text="Hanns Zippfis" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1507_head" start="53" end="54" element="head" class="nam" text="Hanns Zippfis" subclass=""/>
+            </span>
+          </span>
+          <span id="1495" start="55" end="55" text="Hüsern" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1513" start="60" end="77" text="zinset vormals von Eigenschafft 4sh .&#10;dem Spittal der armen Lüten und 3sh . den Reten zu&#10;Basel" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1561" start="60" end="60" text="zinset" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1567" start="63" end="63" text="Eigenschafft" element="other" class="other" subclass=""/>
+        <span id="1519" start="64" end="65" text="4sh ." element="value" class="money" subclass=""/>
+        <span id="1525" start="66" end="70" text="dem Spittal der armen Lüten" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1531" start="67" end="70" text="Spittal der armen Lüten" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1537" start="72" end="73" text="3sh ." element="value" class="money" subclass=""/>
+        <span id="1543" start="74" end="77" text="den Reten zu&#10;Basel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="gov">
+          <span id="1573" start="75" end="75" text="Reten" element="head" class="type" subclass=""/>
+          <span id="1579" start="76" end="77" text="zu&#10;Basel" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1585" start="77" end="77" text="Basel" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1585_head" start="77" end="77" element="head" class="nam" text="Basel" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span id="1404" start="80" end="82" text="45 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1428" from="1422" to="1368" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1361" from="1355" to="1283" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="employment" polarity="pos" tense="pres" modality="ass" start="5" end="11" ref="1295" type="state">
+      <trigger start="6" end="6" text="Amptman" ref="1301"/>
+      <event event_id="0.0">
+        <role role="employee" ref="1283" text="Claus Walch der Amptman des weltlichen Gerichtz zu&#10;Basel"/>
+        <role role="employer" ref="1307" text="des weltlichen Gerichtz zu&#10;Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="15" end="16" ref="1343" type="state">
+      <trigger start="16" end="16" text="Efrow" ref="1349"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1331" text="Anna sin Efrow"/>
+        <role role="family-b" ref="1355" text="sin"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="10" end="11" ref="1319" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="1307" text="des weltlichen Gerichtz zu&#10;Basel"/>
+        <role role="location-b" ref="1325" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="29" end="29" ref="1416" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1398" text="irem&#10;Huse und Hoffstatt , so gelegen ist zu Basel an den&#10;Steinen am obern Birsich zwüschen Cunrat Vischer&#10;des Schmiders ze einer und Hanns Zippfis Hüsern zer&#10;andern Siten , zinset vormals von Eigenschafft 4sh .&#10;dem Spittal der armen Lüten und 3sh . den Reten zu&#10;Basel"/>
+        <role role="owner" ref="1422" text="irem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="34" end="58" ref="1435" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1398" text="irem&#10;Huse und Hoffstatt , so gelegen ist zu Basel an den&#10;Steinen am obern Birsich zwüschen Cunrat Vischer&#10;des Schmiders ze einer und Hanns Zippfis Hüsern zer&#10;andern Siten , zinset vormals von Eigenschafft 4sh .&#10;dem Spittal der armen Lüten und 3sh . den Reten zu&#10;Basel"/>
+        <role role="location-b" ref="1441" text="Basel"/>
+        <role role="location-b" ref="1447" text="den&#10;Steinen"/>
+        <role role="location-b" ref="1453" text="am obern Birsich"/>
+        <role role="location-b" ref="1465" text="Cunrat Vischer&#10;des Schmiders"/>
+        <role role="location-b" ref="1489" text="Hanns Zippfis Hüsern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="53" end="54" ref="1501" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1489" text="Hanns Zippfis Hüsern"/>
+        <role role="owner" ref="1507" text="Hanns Zippfis"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="60" end="77" ref="1513" type="state">
+      <trigger start="60" end="60" text="zinset" ref="1561"/>
+      <event event_id="6.0">
+        <role role="property" ref="1398" text="irem&#10;Huse und Hoffstatt , so gelegen ist zu Basel an den&#10;Steinen am obern Birsich zwüschen Cunrat Vischer&#10;des Schmiders ze einer und Hanns Zippfis Hüsern zer&#10;andern Siten , zinset vormals von Eigenschafft 4sh .&#10;dem Spittal der armen Lüten und 3sh . den Reten zu&#10;Basel"/>
+        <role role="cause" ref="1567" text="Eigenschafft"/>
+        <role role="interest" ref="1519" text="4sh ."/>
+        <role role="beneficiary" ref="1525" text="dem Spittal der armen Lüten"/>
+      </event>
+      <event event_id="6.1">
+        <role role="property" ref="1398" text="irem&#10;Huse und Hoffstatt , so gelegen ist zu Basel an den&#10;Steinen am obern Birsich zwüschen Cunrat Vischer&#10;des Schmiders ze einer und Hanns Zippfis Hüsern zer&#10;andern Siten , zinset vormals von Eigenschafft 4sh .&#10;dem Spittal der armen Lüten und 3sh . den Reten zu&#10;Basel"/>
+        <role role="interest" ref="1537" text="3sh ."/>
+        <role role="beneficiary" ref="1543" text="den Reten zu&#10;Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="topological" polarity="pos" tense="pres" modality="ass" start="76" end="77" ref="1579" type="state">
+      <event event_id="7.0">
+        <role role="location-a" ref="1543" text="den Reten zu&#10;Basel"/>
+        <role role="location-b" ref="1585" text="Basel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="17" end="82" ref="" type="event">
+      <trigger start="17" end="17" text="verkaufen" ref="1555"/>
+      <event event_id="8.0">
+        <role role="seller" ref="1283" text="Claus Walch der Amptman des weltlichen Gerichtz zu&#10;Basel"/>
+        <role role="seller" ref="1331" text="Anna sin Efrow"/>
+        <role role="buyer" ref="1374" text="dem Closter&#10;Clingental"/>
+        <role role="interest" ref="1386" text="2Gld ."/>
+        <role role="interval" ref="1392" text="jerlichs"/>
+        <role role="collateral" ref="1398" text="irem&#10;Huse und Hoffstatt , so gelegen ist zu Basel an den&#10;Steinen am obern Birsich zwüschen Cunrat Vischer&#10;des Schmiders ze einer und Hanns Zippfis Hüsern zer&#10;andern Siten , zinset vormals von Eigenschafft 4sh .&#10;dem Spittal der armen Lüten und 3sh . den Reten zu&#10;Basel"/>
+        <role role="price" ref="1404" text="45 ℔."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

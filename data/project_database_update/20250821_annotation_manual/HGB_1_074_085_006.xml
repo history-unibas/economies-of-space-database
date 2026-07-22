@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 74/85 S. [6]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Hebelstrasse 18</tei:title>
+            <tei:idno>HGB 1 74/85</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1478301</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1463">1463</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610815.491056063 1267796.8336919178</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Do</token>
+    <token token_id="1">gent</token>
+    <token token_id="2">Claus</token>
+    <token token_id="3">Martin</token>
+    <token token_id="4">Gilgen</token>
+    <token token_id="5">Martin</token>
+    <token token_id="6">des</token>
+    <token token_id="7">Hufmits</token>
+    <token token_id="8">sun</token>
+    <token token_id="9">,</token>
+    <token token_id="10">u</token>
+    <token token_id="11">Agnes</token>
+    <token token_id="12">des</token>
+    <token token_id="13">genanten</token>
+    <token token_id="14">Clausen</token>
+    <token token_id="15">Cewirtin</token>
+    <token token_id="16">,</token>
+    <token token_id="17">verkaufen</token>
+    <token token_id="18">an</token>
+    <token token_id="19">Jkra</token>
+    <token token_id="20">.</token>
+    <token token_id="21">Thoman</token>
+    <token token_id="22">Surlin</token>
+    <token token_id="23">,</token>
+    <token token_id="24">1</token>
+    <token token_id="25">℔</token>
+    <token token_id="26">5</token>
+    <token token_id="27">sh</token>
+    <token token_id="28">.</token>
+    <token token_id="29">gelts</token>
+    <token token_id="30">,</token>
+    <token token_id="31">ab</token>
+    <token token_id="32">einem</token>
+    <token token_id="33">jrem</token>
+    <token token_id="34">Hus</token>
+    <token token_id="35">&amp;</token>
+    <token token_id="36">dem</token>
+    <token token_id="37">garten</token>
+    <token token_id="38">darhinder</token>
+    <token token_id="39">,</token>
+    <token token_id="40">in</token>
+    <token token_id="41">der</token>
+    <token token_id="42">nuwen</token>
+    <token token_id="43">vorstatt</token>
+    <token token_id="44">,</token>
+    <token token_id="45">zwuschen</token>
+    <token token_id="46">der</token>
+    <token token_id="47">Verkäufern</token>
+    <token token_id="48">u</token>
+    <token token_id="49">.</token>
+    <token token_id="50">Hannsen</token>
+    <token token_id="51">von</token>
+    <token token_id="52">Heiltprinns</token>
+    <token token_id="53">des</token>
+    <token token_id="54">Kesslers</token>
+    <token token_id="55">husern</token>
+    <token token_id="56">gelegen</token>
+    <token token_id="57">ist</token>
+    <token token_id="58">zinst</token>
+    <token token_id="59">jährl</token>
+    <token token_id="60">voneig</token>
+    <token token_id="61">der</token>
+    <token token_id="62">Brud</token>
+    <token token_id="63">.</token>
+    <token token_id="64">Johanns</token>
+    <token token_id="65">capellen</token>
+    <token token_id="66">uf</token>
+    <token token_id="67">Burg</token>
+    <token token_id="68">6sh</token>
+    <token token_id="69">.</token>
+    <token token_id="70">sonstfrei</token>
+    <token token_id="71">,</token>
+    <token token_id="72">um</token>
+    <token token_id="73">25</token>
+    <token token_id="74">℔</token>
+    <token token_id="75">.</token>
+  </text>
+  <spans>
+    <span id="1163" start="2" end="15" text="Claus Martin Gilgen Martin des Hufmits sun ,&#10;u Agnes des genanten Clausen Cewirtin" element="list" class="per" subclass="">
+      <span id="1151" start="2" end="8" text="Claus Martin Gilgen Martin des Hufmits sun" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1157" start="2" end="3" text="Claus Martin" element="head" class="nam" subclass=""/>
+        <span id="1169" start="4" end="8" text="Gilgen Martin des Hufmits sun" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1199" start="4" end="7" text="Gilgen Martin des Hufmits" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1181" start="4" end="5" text="Gilgen Martin" element="head" class="nam" subclass=""/>
+            <span id="1187" start="6" end="7" text="des Hufmits" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1193" start="7" end="7" text="Hufmits" element="head" class="occ" subclass=""/>
+            </span>
+          </span>
+          <span id="1175" start="8" end="8" text="sun" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+      <span id="1205" start="11" end="15" text="Agnes des genanten Clausen Cewirtin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1211" start="11" end="11" text="Agnes" element="head" class="nam" subclass=""/>
+        <span id="1217" start="12" end="15" text="des genanten Clausen Cewirtin" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1229" start="12" end="14" text="des genanten Clausen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1235" start="14" end="14" text="Clausen" element="head" class="nam" subclass=""/>
+          </span>
+          <span id="1223" start="15" end="15" text="Cewirtin" element="head" class="fam" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1436" start="17" end="17" text="verkaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1248" start="19" end="22" text="Jkra . Thoman Surlin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1254" start="21" end="22" text="Thoman Surlin" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1448" start="24" end="29" text="1 ℔ 5 sh . gelts" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1260" start="24" end="28" text="1 ℔ 5 sh ." element="value" class="money" subclass=""/>
+      <span id="1442" start="29" end="29" text="gelts" element="trigger" class="type" subclass=""/>
+    </span>
+    <span id="1266" start="33" end="70" text="jrem Hus&#10;&amp; dem garten darhinder , in der nuwen vorstatt , zwuschen&#10;der Verkäufern u . Hannsen von Heiltprinns des Kesslers&#10;husern gelegen ist zinst jährl voneig der Brud . Johanns&#10;capellen uf Burg 6sh . sonstfrei" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1266_desc_owner" start="33" end="33" text="jrem" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1278" start="33" end="33" text="jrem" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1278_head" start="33" end="33" element="head" class="pro" text="jrem" subclass=""/>
+        </span>
+      </span>
+      <span id="1272" start="34" end="37" text="Hus&#10;&amp; dem garten" element="head" class="type" subclass=""/>
+      <span id="1315" start="40" end="57" text="in der nuwen vorstatt , zwuschen&#10;der Verkäufern u . Hannsen von Heiltprinns des Kesslers&#10;husern gelegen ist" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1291" start="41" end="43" text="der nuwen vorstatt" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1297" start="42" end="43" text="nuwen vorstatt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="1333" start="46" end="55" text="der Verkäufern u . Hannsen von Heiltprinns des Kesslers&#10;husern" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1327" start="46" end="54" text="der Verkäufern u . Hannsen von Heiltprinns des Kesslers" element="attr" class="owner" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1321" start="46" end="54" text="der Verkäufern u . Hannsen von Heiltprinns des Kesslers" element="list" class="per" subclass="">
+              <span id="1303" start="46" end="47" text="der Verkäufern" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1309" start="47" end="47" text="Verkäufern" element="head" class="role" subclass=""/>
+              </span>
+              <span id="1345" start="50" end="54" text="Hannsen von Heiltprinns des Kesslers" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="1363" start="50" end="50" text="Hannsen" element="head" class="nam" subclass=""/>
+                <span id="1369" start="51" end="52" text="von Heiltprinns" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1375" start="52" end="52" text="Heiltprinns" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                    <span id="1375_head" start="52" end="52" element="head" class="nam" text="Heiltprinns" subclass=""/>
+                  </span>
+                </span>
+                <span id="1351" start="53" end="54" text="des Kesslers" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                  <span id="1357" start="54" end="54" text="Kesslers" element="head" class="occ" subclass=""/>
+                </span>
+              </span>
+            </span>
+          </span>
+          <span id="1339" start="55" end="55" text="husern" element="head" class="type" subclass=""/>
+        </span>
+      </span>
+      <span id="1430" start="58" end="70" text="zinst jährl voneig der Brud . Johanns&#10;capellen uf Burg 6sh . sonstfrei" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1454" start="58" end="58" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="1381" start="59" end="59" text="jährl" element="value" class="time" subclass="rec"/>
+        <span id="1460" start="60" end="60" text="voneig" element="other" class="other" subclass=""/>
+        <span id="1387" start="61" end="67" text="der Brud . Johanns&#10;capellen uf Burg" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1393" start="62" end="65" text="Brud . Johanns&#10;capellen" element="head" class="type" subclass=""/>
+          <span id="1399" start="66" end="67" text="uf Burg" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="1405" start="67" end="67" text="Burg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="1405_head" start="67" end="67" element="head" class="nam" text="Burg" subclass=""/>
+            </span>
+          </span>
+        </span>
+        <span id="1411" start="68" end="69" text="6sh ." element="value" class="money" subclass=""/>
+      </span>
+    </span>
+    <span id="1417" start="73" end="75" text="25 ℔." element="value" class="money" subclass=""/>
+  </spans>
+  <relations>
+    <relation id="1284" from="1278" to="1163" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1423" from="1303" to="1163" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="1241" from="1229" to="1151" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="24" end="29" ref="1448" type="state">
+      <trigger start="29" end="29" text="gelts" ref="1442"/>
+      <event event_id="0.0">
+        <role role="interest" ref="1260" text="1 ℔ 5 sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="4" end="8" ref="1169" type="state">
+      <trigger start="8" end="8" text="sun" ref="1175"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1151" text="Claus Martin Gilgen Martin des Hufmits sun"/>
+        <role role="family-b" ref="1199" text="Gilgen Martin des Hufmits"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="family" polarity="pos" tense="pres" modality="ass" start="12" end="15" ref="1217" type="state">
+      <trigger start="15" end="15" text="Cewirtin" ref="1223"/>
+      <event event_id="2.0">
+        <role role="family-a" ref="1205" text="Agnes des genanten Clausen Cewirtin"/>
+        <role role="family-b" ref="1229" text="des genanten Clausen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="ownership" polarity="pos" tense="pres" modality="ass" start="33" end="33" ref="1266_desc_owner" type="state">
+      <event event_id="3.0">
+        <role role="property" ref="1266" text="jrem Hus&#10;&amp; dem garten darhinder , in der nuwen vorstatt , zwuschen&#10;der Verkäufern u . Hannsen von Heiltprinns des Kesslers&#10;husern gelegen ist zinst jährl voneig der Brud . Johanns&#10;capellen uf Burg 6sh . sonstfrei"/>
+        <role role="owner" ref="1278" text="jrem"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="topological" polarity="pos" tense="pres" modality="ass" start="40" end="57" ref="1315" type="state">
+      <event event_id="4.0">
+        <role role="location-a" ref="1266" text="jrem Hus&#10;&amp; dem garten darhinder , in der nuwen vorstatt , zwuschen&#10;der Verkäufern u . Hannsen von Heiltprinns des Kesslers&#10;husern gelegen ist zinst jährl voneig der Brud . Johanns&#10;capellen uf Burg 6sh . sonstfrei"/>
+        <role role="location-b" ref="1291" text="der nuwen vorstatt"/>
+        <role role="location-b" ref="1333" text="der Verkäufern u . Hannsen von Heiltprinns des Kesslers&#10;husern"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="ownership" polarity="pos" tense="pres" modality="ass" start="46" end="54" ref="1327" type="state">
+      <event event_id="5.0">
+        <role role="property" ref="1333" text="der Verkäufern u . Hannsen von Heiltprinns des Kesslers&#10;husern"/>
+        <role role="owner" ref="1303" text="der Verkäufern"/>
+        <role role="owner" ref="1345" text="Hannsen von Heiltprinns des Kesslers"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="topological" polarity="pos" tense="pres" modality="ass" start="51" end="52" ref="1369" type="state">
+      <event event_id="6.0">
+        <role role="location-a" ref="1345" text="Hannsen von Heiltprinns des Kesslers"/>
+        <role role="location-b" ref="1375" text="Heiltprinns"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="58" end="70" ref="1430" type="state">
+      <trigger start="58" end="58" text="zinst" ref="1454"/>
+      <event event_id="7.0">
+        <role role="property" ref="1266" text="jrem Hus&#10;&amp; dem garten darhinder , in der nuwen vorstatt , zwuschen&#10;der Verkäufern u . Hannsen von Heiltprinns des Kesslers&#10;husern gelegen ist zinst jährl voneig der Brud . Johanns&#10;capellen uf Burg 6sh . sonstfrei"/>
+        <role role="interval" ref="1381" text="jährl"/>
+        <role role="cause" ref="1460" text="voneig"/>
+        <role role="beneficiary" ref="1387" text="der Brud . Johanns&#10;capellen uf Burg"/>
+        <role role="interest" ref="1411" text="6sh ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="8" class="topological" polarity="pos" tense="pres" modality="ass" start="66" end="67" ref="1399" type="state">
+      <event event_id="8.0">
+        <role role="location-a" ref="1387" text="der Brud . Johanns&#10;capellen uf Burg"/>
+        <role role="location-b" ref="1405" text="Burg"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="9" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="17" end="75" ref="" type="event">
+      <trigger start="17" end="17" text="verkaufen" ref="1436"/>
+      <event event_id="9.0">
+        <role role="seller" ref="1151" text="Claus Martin Gilgen Martin des Hufmits sun"/>
+        <role role="seller" ref="1205" text="Agnes des genanten Clausen Cewirtin"/>
+        <role role="buyer" ref="1248" text="Jkra . Thoman Surlin"/>
+        <role role="due" ref="1448" text="1 ℔ 5 sh . gelts"/>
+        <role role="collateral" ref="1266" text="jrem Hus&#10;&amp; dem garten darhinder , in der nuwen vorstatt , zwuschen&#10;der Verkäufern u . Hannsen von Heiltprinns des Kesslers&#10;husern gelegen ist zinst jährl voneig der Brud . Johanns&#10;capellen uf Burg 6sh . sonstfrei"/>
+        <role role="price" ref="1417" text="25 ℔."/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

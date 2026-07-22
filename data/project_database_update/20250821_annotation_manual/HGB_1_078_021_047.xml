@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 78/21 S. [47]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Heuberg 17</tei:title>
+            <tei:idno>HGB 1 78/21</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1480171</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Felix Platter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1610">1610</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611142.9341763104 1267275.3017120073</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Heuberg</token>
+    <token token_id="1">Linke</token>
+    <token token_id="2">Seite</token>
+    <token token_id="3">vom</token>
+    <token token_id="4">Spalen</token>
+    <token token_id="5">,</token>
+    <token token_id="6">Schwibogen</token>
+    <token token_id="7">her</token>
+    <token token_id="8">.</token>
+    <token token_id="9">30</token>
+    <token token_id="10">℔</token>
+    <token token_id="11">.</token>
+    <token token_id="12">Buchbindter</token>
+    <token token_id="13">Conradt</token>
+    <token token_id="14">,</token>
+    <token token_id="15">7</token>
+    <token token_id="16">/</token>
+    <token token_id="17">424</token>
+    <token token_id="18">31</token>
+    <token token_id="19">.</token>
+    <token token_id="20">Dürkauff</token>
+    <token token_id="21">der</token>
+    <token token_id="22">Metzger</token>
+    <token token_id="23">.</token>
+    <token token_id="24">Metzger</token>
+    <token token_id="25">32</token>
+    <token token_id="26">.</token>
+    <token token_id="27">Heinrich</token>
+    <token token_id="28">von</token>
+    <token token_id="29">Gardt</token>
+    <token token_id="30">anderes</token>
+    <token token_id="31">Hauss</token>
+    <token token_id="32">.</token>
+  </text>
+  <spans>
+    <span id="535" start="0" end="0" text="Heuberg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="535_head" start="0" end="0" element="head" class="nam" text="Heuberg" subclass=""/>
+    </span>
+    <span id="619" start="1" end="7" text="Linke Seite vom Spalen , Schwibogen her" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="631" start="1" end="2" text="Linke Seite" element="head" class="type" subclass=""/>
+      <span id="625" start="3" end="6" text="vom Spalen , Schwibogen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="541" start="4" end="6" text="Spalen , Schwibogen" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="541_head" start="4" end="6" element="head" class="nam" text="Spalen , Schwibogen" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="547" start="9" end="10" text="30 ℔" element="value" class="money" subclass=""/>
+    <span id="553" start="12" end="13" text="Buchbindter Conradt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="565" start="12" end="12" text="Buchbindter" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="565_head" start="12" end="12" element="head" class="occ" text="Buchbindter" subclass=""/>
+      </span>
+      <span id="559" start="13" end="13" text="Conradt" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="571" start="20" end="22" text="Dürkauff der Metzger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="577" start="20" end="20" text="Dürkauff" element="head" class="nam" subclass=""/>
+      <span id="583" start="21" end="22" text="der Metzger" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="589" start="22" end="22" text="Metzger" element="head" class="occ" subclass=""/>
+      </span>
+    </span>
+    <span id="595" start="24" end="24" text="Metzger" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="595_head" start="24" end="24" element="head" class="occ" text="Metzger" subclass=""/>
+    </span>
+    <span id="601" start="27" end="29" text="Heinrich von Gardt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="601_head" start="27" end="29" element="head" class="nam" text="Heinrich von Gardt" subclass=""/>
+    </span>
+    <span id="607" start="30" end="31" text="anderes Hauss" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="613" start="31" end="31" text="Hauss" element="head" class="type" subclass=""/>
+    </span>
+  </spans>
+  <relations/>
+  <eventGroups>
+    <eventGroup event_id="0" class="topological" polarity="pos" tense="pres" modality="ass" start="3" end="6" ref="625" type="state">
+      <event event_id="0.0">
+        <role role="location-a" ref="619" text="Linke Seite vom Spalen , Schwibogen her"/>
+        <role role="location-b" ref="541" text="Spalen , Schwibogen"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

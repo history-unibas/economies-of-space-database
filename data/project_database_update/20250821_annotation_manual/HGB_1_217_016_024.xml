@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 217/16 S. [24]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Stiftsgasse 11</tei:title>
+            <tei:idno>HGB 1 217/16</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1532822</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>St. Peter</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1540">1540</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611003.8137513404 1267581.7815442802</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">1559</token>
+    <token token_id="1">.</token>
+    <token token_id="2">by</token>
+    <token token_id="3">und</token>
+    <token token_id="4">uff</token>
+    <token token_id="5">sant</token>
+    <token token_id="6">Petters</token>
+    <token token_id="7">berg</token>
+    <token token_id="8">.</token>
+    <token token_id="9">Item</token>
+    <token token_id="10">docktor</token>
+    <token token_id="11">Petter</token>
+    <token token_id="12">Gewyller</token>
+    <token token_id="13">landt</token>
+    <token token_id="14">schrybers</token>
+    <token token_id="15">zu</token>
+    <token token_id="16">Redelens</token>
+    <token token_id="17">erben</token>
+    <token token_id="18">gendt</token>
+    <token token_id="19">von</token>
+    <token token_id="20">dem</token>
+    <token token_id="21">hus</token>
+    <token token_id="22">zu</token>
+    <token token_id="23">der</token>
+    <token token_id="24">Rossen</token>
+    <token token_id="25">edwan</token>
+    <token token_id="26">Schenowers</token>
+    <token token_id="27">hoff</token>
+    <token token_id="28">genant</token>
+    <token token_id="29">6ß</token>
+    <token token_id="30">.</token>
+    <token token_id="31">uff</token>
+    <token token_id="32">Martini</token>
+    <token token_id="33">Ebenso</token>
+    <token token_id="34">1561</token>
+    <token token_id="35">.</token>
+    <token token_id="36">Ebenso</token>
+    <token token_id="37">1562</token>
+    <token token_id="38">.</token>
+    <token token_id="39">Ebenso</token>
+    <token token_id="40">1560</token>
+    <token token_id="41">.</token>
+    <token token_id="42">Ebenso</token>
+    <token token_id="43">1564</token>
+    <token token_id="44">.</token>
+    <token token_id="45">Ebenso</token>
+    <token token_id="46">1563</token>
+    <token token_id="47">.</token>
+    <token token_id="48">1565</token>
+    <token token_id="49">Bernhartt</token>
+    <token token_id="50">Mernach</token>
+    <token token_id="51">giebt</token>
+    <token token_id="52">obigen</token>
+    <token token_id="53">Zins</token>
+    <token token_id="54">.</token>
+  </text>
+  <spans>
+    <span id="890" start="0" end="0" text="1559" element="value" class="date" subclass=""/>
+    <span id="896" start="5" end="7" text="sant Petters berg" element="reference" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="896_head" start="5" end="7" element="head" class="nam" text="sant Petters berg" subclass=""/>
+    </span>
+    <span id="902" start="10" end="17" text="docktor Petter Gewyller landt schrybers&#10;zu Redelens erben" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="908" start="10" end="16" text="docktor Petter Gewyller landt schrybers&#10;zu Redelens" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="926" start="10" end="10" text="docktor" element="appo" class="title" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="926_head" start="10" end="10" element="head" class="title" text="docktor" subclass=""/>
+        </span>
+        <span id="920" start="11" end="12" text="Petter Gewyller" element="head" class="nam" subclass=""/>
+        <span id="932" start="13" end="16" text="landt schrybers&#10;zu Redelens" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1022" start="13" end="14" text="landt schrybers" element="head" class="occ" subclass=""/>
+          <span id="944" start="15" end="16" text="zu Redelens" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="938" start="16" end="16" text="Redelens" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+              <span id="938_head" start="16" end="16" element="head" class="nam" text="Redelens" subclass=""/>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="914" start="17" end="17" text="erben" element="head" class="heir" subclass=""/>
+    </span>
+    <span id="1028" start="18" end="18" text="gendt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="950" start="20" end="28" text="dem hus zu&#10;der Rossen edwan Schenowers hoff genant" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="956" start="21" end="24" text="hus zu&#10;der Rossen" element="head" class="nam" subclass=""/>
+      <span id="962" start="26" end="27" text="Schenowers hoff" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="962_head" start="26" end="27" element="head" class="nam" text="Schenowers hoff" subclass=""/>
+      </span>
+    </span>
+    <span id="968" start="29" end="30" text="6ß ." element="value" class="money" subclass=""/>
+    <span id="974" start="31" end="32" text="uff Martini" element="value" class="date" subclass=""/>
+    <span id="980" start="34" end="34" text="1561" element="value" class="date" subclass=""/>
+    <span id="986" start="37" end="37" text="1562" element="value" class="date" subclass=""/>
+    <span id="992" start="40" end="40" text="1560" element="value" class="date" subclass=""/>
+    <span id="998" start="43" end="43" text="1564" element="value" class="date" subclass=""/>
+    <span id="1004" start="46" end="46" text="1563" element="value" class="date" subclass=""/>
+    <span id="1040" start="48" end="53" text="1565 Bernhartt Mernach giebt obigen Zins" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="change">
+      <span id="1010" start="48" end="48" text="1565" element="value" class="date" subclass=""/>
+      <span id="1016" start="49" end="50" text="Bernhartt Mernach" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1016_head" start="49" end="50" element="head" class="nam" text="Bernhartt Mernach" subclass=""/>
+      </span>
+      <span id="1065" start="51" end="51" text="giebt" element="trigger" class="type" subclass=""/>
+      <span id="1046" start="52" end="53" text="obigen Zins" element="eventspan" class="due" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1052" start="53" end="53" text="Zins" element="trigger" class="type" subclass=""/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1058" from="1046" to="1028" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="due-payment" polarity="pos" tense="pres" modality="ass" start="48" end="53" ref="1040" type="event">
+      <trigger start="51" end="51" text="giebt" ref="1065"/>
+      <event event_id="0.0">
+        <role role="date" ref="1010" text="1565"/>
+        <role role="payer" ref="1016" text="Bernhartt Mernach"/>
+        <role role="previous-due" ref="1046" text="obigen Zins"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="due-payment" polarity="pos" tense="pres" modality="ass" start="52" end="53" ref="1046" type="event">
+      <trigger start="53" end="53" text="Zins" ref="1052"/>
+    </eventGroup>
+    <eventGroup event_id="2" class="inheritance" polarity="pos" tense="pres" modality="ass" start="10" end="17" ref="902" type="event">
+      <trigger start="17" end="17" text="erben" ref="914"/>
+      <event event_id="2.0">
+        <role role="heir" ref="902" text="docktor Petter Gewyller landt schrybers&#10;zu Redelens erben"/>
+        <role role="decedent" ref="908" text="docktor Petter Gewyller landt schrybers&#10;zu Redelens"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="topological" polarity="pos" tense="pres" modality="ass" start="15" end="16" ref="944" type="state">
+      <event event_id="3.0">
+        <role role="location-a" ref="908" text="docktor Petter Gewyller landt schrybers&#10;zu Redelens"/>
+        <role role="location-b" ref="938" text="Redelens"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="due-payment" polarity="pos" tense="pres" modality="ass" start="0" end="46" ref="" type="event">
+      <trigger start="18" end="18" text="gendt" ref="1028"/>
+      <event event_id="4.0">
+        <role role="date" ref="890" text="1559"/>
+        <role role="place" ref="896" text="sant Petters berg"/>
+        <role role="payer" ref="902" text="docktor Petter Gewyller landt schrybers&#10;zu Redelens erben"/>
+        <role role="property" ref="950" text="dem hus zu&#10;der Rossen edwan Schenowers hoff genant"/>
+        <role role="interest" ref="968" text="6ß ."/>
+        <role role="due-date" ref="974" text="uff Martini"/>
+        <role role="date" ref="980" text="1561"/>
+        <role role="date" ref="986" text="1562"/>
+        <role role="date" ref="992" text="1560"/>
+        <role role="date" ref="998" text="1564"/>
+        <role role="date" ref="1004" text="1563"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

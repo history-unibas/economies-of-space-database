@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 197/20 S. [7]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Spalenvorstadt Th. v. 3 neben 1</tei:title>
+            <tei:idno>HGB 1 197/20</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1526772</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Klingental</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1357">1357</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2610918.600343249 1267377.03793279</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Jarliche</token>
+    <token token_id="1">Pfennig</token>
+    <token token_id="2">zins</token>
+    <token token_id="3">in</token>
+    <token token_id="4">der</token>
+    <token token_id="5">mehrern</token>
+    <token token_id="6">Statt</token>
+    <token token_id="7">.</token>
+    <token token_id="8">Anna</token>
+    <token token_id="9">Walther</token>
+    <token token_id="10">Armbrosters</token>
+    <token token_id="11">Ehefraw</token>
+    <token token_id="12">gab</token>
+    <token token_id="13">Heinrich</token>
+    <token token_id="14">von</token>
+    <token token_id="15">Walpach</token>
+    <token token_id="16">zu</token>
+    <token token_id="17">kaufen</token>
+    <token token_id="18">1</token>
+    <token token_id="19">℔</token>
+    <token token_id="20">und</token>
+    <token token_id="21">1</token>
+    <token token_id="22">ring</token>
+    <token token_id="23">ze</token>
+    <token token_id="24">wysung</token>
+    <token token_id="25">järlichs</token>
+    <token token_id="26">zinses</token>
+    <token token_id="27">auf</token>
+    <token token_id="28">Martini</token>
+    <token token_id="29">fallendt</token>
+    <token token_id="30">,</token>
+    <token token_id="31">von</token>
+    <token token_id="32">und</token>
+    <token token_id="33">ab</token>
+    <token token_id="34">dem</token>
+    <token token_id="35">Haus</token>
+    <token token_id="36">Braunenfels</token>
+    <token token_id="37">genant</token>
+    <token token_id="38">in</token>
+    <token token_id="39">der</token>
+    <token token_id="40">Spalen</token>
+    <token token_id="41">Vorstatt</token>
+    <token token_id="42">gelegen</token>
+    <token token_id="43">gegen</token>
+    <token token_id="44">Gnadenthal</token>
+    <token token_id="45">über</token>
+    <token token_id="46">,</token>
+    <token token_id="47">jetz</token>
+    <token token_id="48">Grünen</token>
+    <token token_id="49">¬</token>
+    <token token_id="50">berg</token>
+    <token token_id="51">genant</token>
+    <token token_id="52">.</token>
+    <token token_id="53">Datum</token>
+    <token token_id="54">:</token>
+    <token token_id="55">Freytag</token>
+    <token token_id="56">vor</token>
+    <token token_id="57">Letare</token>
+    <token token_id="58">Ao</token>
+    <token token_id="59">1357</token>
+    <token token_id="60">.</token>
+    <token token_id="61">Heinrich</token>
+    <token token_id="62">Hofmans</token>
+    <token token_id="63">Wittib</token>
+    <token token_id="64">,</token>
+    <token token_id="65">zuvor</token>
+    <token token_id="66">Beat</token>
+    <token token_id="67">Osin</token>
+    <token token_id="68">auf</token>
+    <token token_id="69">Martini</token>
+    <token token_id="70">10ß</token>
+    <token token_id="71">,</token>
+    <token token_id="72">ze</token>
+    <token token_id="73">wysenz</token>
+    <token token_id="74">tring</token>
+    <token token_id="75">.</token>
+    <token token_id="76">Oswald</token>
+    <token token_id="77">Nodler</token>
+    <token token_id="78">der</token>
+    <token token_id="79">Würt</token>
+    <token token_id="80">zum</token>
+    <token token_id="81">Engel</token>
+    <token token_id="82">Daniel</token>
+    <token token_id="83">Gass</token>
+    <token token_id="84">.</token>
+    <token token_id="85">Wittib</token>
+    <token token_id="86">oder</token>
+    <token token_id="87">Erben</token>
+    <token token_id="88">zum</token>
+    <token token_id="89">Engel</token>
+    <token token_id="90">Conradt</token>
+    <token token_id="91">Ottendorff</token>
+    <token token_id="92">,</token>
+    <token token_id="93">Frantz</token>
+    <token token_id="94">Marin</token>
+    <token token_id="95">der</token>
+    <token token_id="96">Engelwürt</token>
+    <token token_id="97">.</token>
+  </text>
+  <spans>
+    <span id="1537" start="0" end="0" text="Jarliche" element="value" class="time" subclass="rec"/>
+    <span id="1543" start="4" end="6" text="der mehrern Statt" element="reference" class="gpe-loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1549" start="5" end="6" text="mehrern Statt" element="head" class="nam" subclass=""/>
+    </span>
+    <span id="1555" start="8" end="11" text="Anna Walther Armbrosters Ehefraw" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1561" start="8" end="8" text="Anna" element="head" class="nam" subclass=""/>
+      <span id="1573" start="9" end="11" text="Walther Armbrosters Ehefraw" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1567" start="9" end="10" text="Walther Armbrosters" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1567_head" start="9" end="10" element="head" class="nam" text="Walther Armbrosters" subclass=""/>
+        </span>
+        <span id="1579" start="11" end="11" text="Ehefraw" element="head" class="fam" subclass=""/>
+      </span>
+    </span>
+    <span id="1585" start="13" end="15" text="Heinrich von Walpach" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1585_head" start="13" end="15" element="head" class="nam" text="Heinrich von Walpach" subclass=""/>
+    </span>
+    <span id="1808" start="17" end="17" text="kaufen" element="trigger" class="rent" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1591" start="18" end="19" text="1 ℔" element="value" class="money" subclass=""/>
+    <span id="1597" start="21" end="22" text="1 ring" element="value" class="money" subclass=""/>
+    <span id="1820" start="24" end="24" text="wysung" element="other" class="other" subclass=""/>
+    <span id="1603" start="25" end="25" text="järlichs" element="value" class="time" subclass="rec"/>
+    <span id="1814" start="26" end="26" text="zinses" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="1609" start="27" end="28" text="auf Martini" element="value" class="date" subclass=""/>
+    <span id="1615" start="34" end="51" text="dem Haus Braunenfels genant in der Spalen&#10;Vorstatt gelegen gegen Gnadenthal über , jetz Grünen ¬&#10;berg genant" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1621" start="35" end="35" text="Haus" element="head" class="type" subclass=""/>
+      <span id="1627" start="36" end="36" text="Braunenfels" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1627_head" start="36" end="36" element="head" class="nam" text="Braunenfels" subclass=""/>
+      </span>
+      <span id="1633" start="38" end="45" text="in der Spalen&#10;Vorstatt gelegen gegen Gnadenthal über" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1639" start="39" end="41" text="der Spalen&#10;Vorstatt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="district">
+          <span id="1639_head" start="39" end="41" element="head" class="nam" text="der Spalen Vorstatt" subclass=""/>
+        </span>
+        <span id="1645" start="44" end="44" text="Gnadenthal" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="1645_head" start="44" end="44" element="head" class="nam" text="Gnadenthal" subclass=""/>
+        </span>
+      </span>
+      <span id="1651" start="48" end="50" text="Grünen ¬&#10;berg" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1651_head" start="48" end="50" element="head" class="nam" text="Grünen ¬ berg" subclass=""/>
+      </span>
+    </span>
+    <span id="1657" start="55" end="59" text="Freytag vor Letare Ao 1357" element="value" class="date" subclass=""/>
+    <span id="1663" start="61" end="63" text="Heinrich Hofmans Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1675" start="61" end="62" text="Heinrich Hofmans" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1675_head" start="61" end="62" element="head" class="nam" text="Heinrich Hofmans" subclass=""/>
+      </span>
+      <span id="1669" start="63" end="63" text="Wittib" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="1681" start="66" end="67" text="Beat Osin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1681_head" start="66" end="67" element="head" class="nam" text="Beat Osin" subclass=""/>
+    </span>
+    <span id="1687" start="68" end="69" text="auf&#10;Martini" element="value" class="date" subclass=""/>
+    <span id="1693" start="70" end="70" text="10ß" element="value" class="money" subclass=""/>
+    <span id="1699" start="74" end="74" text="tring" element="value" class="money" subclass=""/>
+    <span id="1705" start="76" end="81" text="Oswald Nodler&#10;der Würt zum Engel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1711" start="76" end="77" text="Oswald Nodler" element="head" class="nam" subclass=""/>
+      <span id="1717" start="78" end="81" text="der Würt zum Engel" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1723" start="79" end="79" text="Würt" element="head" class="occ" subclass="org-job"/>
+        <span id="1729" start="80" end="81" text="zum Engel" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="1729_head" start="80" end="81" element="head" class="nam" text="zum Engel" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="1735" start="82" end="85" text="Daniel Gass . Wittib" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1747" start="82" end="84" text="Daniel Gass ." element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1747_head" start="82" end="84" element="head" class="nam" text="Daniel Gass ." subclass=""/>
+      </span>
+      <span id="1741" start="85" end="85" text="Wittib" element="head" class="fam" subclass=""/>
+    </span>
+    <span id="1753" start="87" end="89" text="Erben zum Engel" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1759" start="87" end="87" text="Erben" element="head" class="owner" subclass=""/>
+      <span id="1765" start="88" end="89" text="zum Engel" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="1765_head" start="88" end="89" element="head" class="nam" text="zum Engel" subclass=""/>
+      </span>
+    </span>
+    <span id="1778" start="90" end="91" text="Conradt Ottendorff" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1778_head" start="90" end="91" element="head" class="nam" text="Conradt Ottendorff" subclass=""/>
+    </span>
+    <span id="1784" start="93" end="96" text="Frantz&#10;Marin der Engelwürt" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="1790" start="93" end="94" text="Frantz&#10;Marin" element="head" class="nam" subclass=""/>
+      <span id="1796" start="95" end="96" text="der Engelwürt" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="org-job">
+        <span id="1802" start="96" end="96" text="Engelwürt" element="head" class="occ" subclass="org-job"/>
+      </span>
+    </span>
+  </spans>
+  <relations>
+    <relation id="1771" from="1729" to="1765" class="coref" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="61" end="63" ref="1663" type="state">
+      <trigger start="63" end="63" text="Wittib" ref="1669"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="1663" text="Heinrich Hofmans Wittib"/>
+        <role role="family-b" ref="1675" text="Heinrich Hofmans"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="82" end="85" ref="1735" type="state">
+      <trigger start="85" end="85" text="Wittib" ref="1741"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="1735" text="Daniel Gass . Wittib"/>
+        <role role="family-b" ref="1747" text="Daniel Gass ."/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="ownership" polarity="pos" tense="pres" modality="ass" start="87" end="89" ref="1753" type="state">
+      <trigger start="87" end="87" text="Erben" ref="1759"/>
+      <event event_id="2.0">
+        <role role="owner" ref="1753" text="Erben zum Engel"/>
+        <role role="property" ref="1765" text="zum Engel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="family" polarity="pos" tense="pres" modality="ass" start="9" end="11" ref="1573" type="state">
+      <trigger start="11" end="11" text="Ehefraw" ref="1579"/>
+      <event event_id="3.0">
+        <role role="family-a" ref="1555" text="Anna Walther Armbrosters Ehefraw"/>
+        <role role="family-b" ref="1567" text="Walther Armbrosters"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="employment" polarity="pos" tense="pres" modality="ass" start="78" end="81" ref="1717" type="state">
+      <trigger start="79" end="79" text="Würt" ref="1723"/>
+      <event event_id="4.0">
+        <role role="employee" ref="1705" text="Oswald Nodler&#10;der Würt zum Engel"/>
+        <role role="employer" ref="1729" text="zum Engel"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="topological" polarity="pos" tense="pres" modality="ass" start="38" end="45" ref="1633" type="state">
+      <event event_id="5.0">
+        <role role="location-a" ref="1615" text="dem Haus Braunenfels genant in der Spalen&#10;Vorstatt gelegen gegen Gnadenthal über , jetz Grünen ¬&#10;berg genant"/>
+        <role role="location-b" ref="1639" text="der Spalen&#10;Vorstatt"/>
+        <role role="location-b" ref="1645" text="Gnadenthal"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="rent-purchase" polarity="pos" tense="pres" modality="ass" start="17" end="51" ref="" type="event">
+      <trigger start="17" end="17" text="kaufen" ref="1808"/>
+      <event event_id="6.0">
+        <role role="seller" ref="1555" text="Anna Walther Armbrosters Ehefraw"/>
+        <role role="buyer" ref="1585" text="Heinrich von Walpach"/>
+        <role role="due" ref="1814" text="zinses"/>
+        <role role="collateral" ref="1615" text="dem Haus Braunenfels genant in der Spalen&#10;Vorstatt gelegen gegen Gnadenthal über , jetz Grünen ¬&#10;berg genant"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="18" end="28" ref="" type="state">
+      <trigger start="26" end="26" text="zinses" ref="1814"/>
+      <event event_id="7.0">
+        <role role="interest" ref="1591" text="1 ℔"/>
+        <role role="interval" ref="1603" text="järlichs"/>
+        <role role="due-date" ref="1609" text="auf Martini"/>
+      </event>
+      <event event_id="7.1">
+        <role role="interest" ref="1597" text="1 ring"/>
+        <role role="cause" ref="1820" text="wysung"/>
+        <role role="interval" ref="1603" text="järlichs"/>
+        <role role="due-date" ref="1609" text="auf Martini"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>

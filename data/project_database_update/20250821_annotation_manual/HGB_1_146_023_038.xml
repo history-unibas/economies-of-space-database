@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<doc xmlns="https://dhbern.github.io/BeNASch/ns">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title>HGB 1 146/23 S. [38]</tei:title>
+        <tei:editor>Ismail Prada Ziegler</tei:editor>
+        <tei:sponsor>Departement of History, Faculty of Philosophy and History, University of Basel</tei:sponsor>
+        <tei:sponsor>Digital Humanities, Walter-Benjamin-Kolleg, University of Bern</tei:sponsor>
+        <tei:funder>Schweizerischer Nationalfonds (SNF)</tei:funder>
+        <tei:principal>Lucas Burkart</tei:principal>
+        <tei:principal>Tobias Hodel</tei:principal>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>annotation, postprocessing</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Benjamin Hitz</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Katrin Fuchs</tei:name>
+          <tei:resp>transcription, annotation</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Aline Vonwiller</tei:name>
+          <tei:resp>transcription</tei:resp>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:name>Jonas Aeby</tei:name>
+          <tei:resp>automated transcription</tei:resp>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:p>This file was created as part of the Economies of Space project by a team from the University of Basel and the University of Berne. Published in August of 2025.</tei:p>
+      </tei:publicationStmt>
+      <tei:seriesStmt>
+        <tei:title>Manually annotated Ground Truth from the Historical Land Records of Basel.</tei:title>
+        <tei:respStmt>
+          <tei:name>Ismail Prada Ziegler</tei:name>
+          <tei:resp>compiler</tei:resp>
+        </tei:respStmt>
+      </tei:seriesStmt>
+      <tei:sourceDesc>
+        <tei:listBibl>
+          <tei:desc>This document is a digitalization of a register card which holds an excerpt from an original source document. The register-item element holds information pertaining to the register card while the source element names the original archive or corpus the excerpt was taken from. The date given under profileDesc/creation/date refers to the creation of the original document, the exact date of creation of the register item is unknown.</tei:desc>
+          <tei:bibl type="register-item">
+            <tei:title>Petersberg 9</tei:title>
+            <tei:idno>HGB 1 146/23</tei:idno>
+            <tei:ref>https://ld.bs.ch/ais/Record/1501516</tei:ref>
+          </tei:bibl>
+          <tei:bibl type="source">
+            <tei:title>Gerichtsarchiv</tei:title>
+          </tei:bibl>
+        </tei:listBibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+    <tei:encodingDesc>
+      <tei:projectDesc>
+        <tei:p>Manually annotated text for machine training and evaluation purposes in the project Economies of Space.</tei:p>
+      </tei:projectDesc>
+      <tei:classDecl>
+        <tei:taxonomy xml:id="lv95">
+          <tei:desc>Coordinates in CH1903+ / LV95 (EPSG:2056)</tei:desc>
+        </tei:taxonomy>
+      </tei:classDecl>
+    </tei:encodingDesc>
+    <tei:profileDesc>
+      <tei:creation>
+        <tei:date when="1507">1507</tei:date>
+      </tei:creation>
+      <tei:langUsage>
+        <tei:language ident="de">German</tei:language>
+      </tei:langUsage>
+      <tei:settingDesc>
+        <tei:place>
+          <tei:location>
+            <tei:geo decls="#lv95">2611149.8076952915 1267652.727052408</tei:geo>
+            <tei:desc>Location of the main property the document is about.</tei:desc>
+          </tei:location>
+        </tei:place>
+      </tei:settingDesc>
+    </tei:profileDesc>
+  </tei:teiHeader>
+  <text>
+    <token token_id="0">Hanns</token>
+    <token token_id="1">Tschan</token>
+    <token token_id="2">der</token>
+    <token token_id="3">Brumenmeister</token>
+    <token token_id="4">u</token>
+    <token token_id="5">.</token>
+    <token token_id="6">seine</token>
+    <token token_id="7">Frau</token>
+    <token token_id="8">Veronia</token>
+    <token token_id="9">verkaufen</token>
+    <token token_id="10">an</token>
+    <token token_id="11">Hannsen</token>
+    <token token_id="12">Müller</token>
+    <token token_id="13">den</token>
+    <token token_id="14">Steinmetzen</token>
+    <token token_id="15">,</token>
+    <token token_id="16">u</token>
+    <token token_id="17">.</token>
+    <token token_id="18">seine</token>
+    <token token_id="19">Frau</token>
+    <token token_id="20">Elsin</token>
+    <token token_id="21">,</token>
+    <token token_id="22">das</token>
+    <token token_id="23">Hus</token>
+    <token token_id="24">&amp;</token>
+    <token token_id="25">Hofstatt</token>
+    <token token_id="26">gelegen</token>
+    <token token_id="27">am</token>
+    <token token_id="28">Vischmarkt</token>
+    <token token_id="29">,</token>
+    <token token_id="30">zwüschen</token>
+    <token token_id="31">den</token>
+    <token token_id="32">husern</token>
+    <token token_id="33">zum</token>
+    <token token_id="34">rotten</token>
+    <token token_id="35">schwert</token>
+    <token token_id="36">,</token>
+    <token token_id="37">u</token>
+    <token token_id="38">.</token>
+    <token token_id="39">zum</token>
+    <token token_id="40">grünen</token>
+    <token token_id="41">steinen</token>
+    <token token_id="42">,</token>
+    <token token_id="43">u</token>
+    <token token_id="44">.</token>
+    <token token_id="45">zum</token>
+    <token token_id="46">vorden</token>
+    <token token_id="47">Bickell</token>
+    <token token_id="48">genant</token>
+    <token token_id="49">ist</token>
+    <token token_id="50">,</token>
+    <token token_id="51">zinst</token>
+    <token token_id="52">überhaupt</token>
+    <token token_id="53">von</token>
+    <token token_id="54">eig</token>
+    <token token_id="55">.</token>
+    <token token_id="56">2</token>
+    <token token_id="57">℔</token>
+    <token token_id="58">.</token>
+    <token token_id="59">1</token>
+    <token token_id="60">/</token>
+    <token token_id="61">2</token>
+    <token token_id="62">℔</token>
+    <token token_id="63">Pfeffer</token>
+    <token token_id="64">u</token>
+    <token token_id="65">.</token>
+    <token token_id="66">8ring</token>
+    <token token_id="67">brot</token>
+    <token token_id="68">ze</token>
+    <token token_id="69">wysung</token>
+    <token token_id="70">,</token>
+    <token token_id="71">u</token>
+    <token token_id="72">.</token>
+    <token token_id="73">5sh</token>
+    <token token_id="74">.</token>
+    <token token_id="75">erschatz</token>
+    <token token_id="76">,</token>
+    <token token_id="77">u</token>
+    <token token_id="78">.</token>
+    <token token_id="79">wird</token>
+    <token token_id="80">der</token>
+    <token token_id="81">zins</token>
+    <token token_id="82">geteilt</token>
+    <token token_id="83">namt</token>
+    <token token_id="84">dem</token>
+    <token token_id="85">gotshus</token>
+    <token token_id="86">s</token>
+    <token token_id="87">.</token>
+    <token token_id="88">Claren</token>
+    <token token_id="89">,</token>
+    <token token_id="90">14sh</token>
+    <token token_id="91">.</token>
+    <token token_id="92">2</token>
+    <token token_id="93">zinsden</token>
+    <token token_id="94">4</token>
+    <token token_id="95">lot</token>
+    <token token_id="96">pfeffer</token>
+    <token token_id="97">,</token>
+    <token token_id="98">u</token>
+    <token token_id="99">.</token>
+    <token token_id="100">4</token>
+    <token token_id="101">ring</token>
+    <token token_id="102">brot</token>
+    <token token_id="103">,</token>
+    <token token_id="104">jtem</token>
+    <token token_id="105">dem</token>
+    <token token_id="106">Spital</token>
+    <token token_id="107">19</token>
+    <token token_id="108">sh</token>
+    <token token_id="109">.</token>
+    <token token_id="110">u</token>
+    <token token_id="111">2</token>
+    <token token_id="112">zinsdn</token>
+    <token token_id="113">.</token>
+    <token token_id="114">1</token>
+    <token token_id="115">lot</token>
+    <token token_id="116">pfeffer</token>
+    <token token_id="117">,</token>
+    <token token_id="118">u</token>
+    <token token_id="119">.</token>
+    <token token_id="120">4</token>
+    <token token_id="121">ring</token>
+    <token token_id="122">brot</token>
+    <token token_id="123">,</token>
+    <token token_id="124">jtem</token>
+    <token token_id="125">u</token>
+    <token token_id="126">.</token>
+    <token token_id="127">die</token>
+    <token token_id="128">5</token>
+    <token token_id="129">sh</token>
+    <token token_id="130">erschatz</token>
+    <token token_id="131">,</token>
+    <token token_id="132">zuziten</token>
+    <token token_id="133">beden</token>
+    <token token_id="134">bestimten</token>
+    <token token_id="135">teilen</token>
+    <token token_id="136">glich</token>
+    <token token_id="137">geteilt</token>
+    <token token_id="138">,</token>
+    <token token_id="139">soden</token>
+    <token token_id="140">die</token>
+    <token token_id="141">übrigen</token>
+    <token token_id="142">7sh</token>
+    <token token_id="143">.</token>
+    <token token_id="144">zu</token>
+    <token token_id="145">s</token>
+    <token token_id="146">.</token>
+    <token token_id="147">Peter</token>
+    <token token_id="148">,</token>
+    <token token_id="149">um</token>
+    <token token_id="150">35</token>
+    <token token_id="151">℔</token>
+    <token token_id="152">.</token>
+    <token token_id="153">u</token>
+    <token token_id="154">.</token>
+    <token token_id="155">willigen</token>
+    <token token_id="156">die</token>
+    <token token_id="157">Schaffner</token>
+    <token token_id="158">ein</token>
+  </text>
+  <spans>
+    <span id="2326" start="0" end="8" text="Hanns Tschan der Brumenmeister u . seine Frau Veronia" element="list" class="per" subclass="">
+      <span id="2265" start="0" end="3" text="Hanns Tschan der Brumenmeister" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2271" start="0" end="1" text="Hanns Tschan" element="head" class="nam" subclass=""/>
+        <span id="2277" start="2" end="3" text="der Brumenmeister" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2283" start="3" end="3" text="Brumenmeister" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="2289" start="6" end="8" text="seine Frau Veronia" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2301" start="6" end="7" text="seine Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2313" start="6" end="6" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2313_head" start="6" end="6" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="2307" start="7" end="7" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="2295" start="8" end="8" text="Veronia" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="2603" start="9" end="9" text="verkaufen" element="trigger" class="sale" tense="pres" polarity="pos" modality="ass" subclass=""/>
+    <span id="2393" start="11" end="20" text="Hannsen Müller den Steinmetzen , u . seine&#10;Frau Elsin" element="list" class="per" subclass="">
+      <span id="2332" start="11" end="14" text="Hannsen Müller den Steinmetzen" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2338" start="11" end="12" text="Hannsen Müller" element="head" class="nam" subclass=""/>
+        <span id="2344" start="13" end="14" text="den Steinmetzen" element="appo" class="occ" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2350" start="14" end="14" text="Steinmetzen" element="head" class="occ" subclass=""/>
+        </span>
+      </span>
+      <span id="2356" start="18" end="20" text="seine&#10;Frau Elsin" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2368" start="18" end="19" text="seine&#10;Frau" element="appo" class="fam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2380" start="18" end="18" text="seine" element="reference" class="per" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2380_head" start="18" end="18" element="head" class="pro" text="seine" subclass=""/>
+          </span>
+          <span id="2374" start="19" end="19" text="Frau" element="head" class="fam" subclass=""/>
+        </span>
+        <span id="2362" start="20" end="20" text="Elsin" element="head" class="nam" subclass=""/>
+      </span>
+    </span>
+    <span id="2399" start="22" end="147" text="das Hus &amp; Hofstatt gelegen am Vischmarkt ,&#10;zwüschen den husern zum rotten schwert , u . zum grünen steinen , u . zum vorden Bickell genant ist , zinst überhaupt&#10;von eig . 2 ℔. 1 / 2 ℔ Pfeffer u . 8ring brot ze wysung , u . 5sh . erschatz ,&#10;u . wird der zins geteilt namt dem gotshus s . Claren , 14sh .&#10;2 zinsden 4 lot pfeffer , u . 4 ring brot , jtem dem Spital 19 sh .&#10;u 2 zinsdn . 1 lot pfeffer , u . 4 ring brot ,&#10;jtem u . die 5 sh erschatz ,&#10;zuziten beden bestimten teilen glich geteilt , soden die übrigen&#10;7sh . zu s . Peter" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2405" start="23" end="25" text="Hus &amp; Hofstatt" element="head" class="type" subclass=""/>
+      <span id="2417" start="26" end="41" text="gelegen am Vischmarkt ,&#10;zwüschen den husern zum rotten schwert , u . zum grünen steinen" element="attr" class="loc" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2423" start="27" end="28" text="am Vischmarkt" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="square">
+          <span id="2429" start="28" end="28" text="Vischmarkt" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2435" start="31" end="41" text="den husern zum rotten schwert , u . zum grünen steinen" element="reference" class="fac" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2441" start="32" end="32" text="husern" element="head" class="type" subclass=""/>
+          <span id="2447" start="33" end="41" text="zum rotten schwert , u . zum grünen steinen" element="attr" class="includes" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+            <span id="2453" start="33" end="41" text="zum rotten schwert , u . zum grünen steinen" element="list" class="fac" subclass="">
+              <span id="2459" start="33" end="35" text="zum rotten schwert" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2459_head" start="33" end="35" element="head" class="nam" text="zum rotten schwert" subclass=""/>
+              </span>
+              <span id="2465" start="39" end="41" text="zum grünen steinen" element="reference" class="fac" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+                <span id="2465_head" start="39" end="41" element="head" class="nam" text="zum grünen steinen" subclass=""/>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span id="2471" start="45" end="47" text="zum vorden Bickell" element="appo" class="nam" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2471_head" start="45" end="47" element="head" class="nam" text="zum vorden Bickell" subclass=""/>
+      </span>
+      <span id="2477" start="51" end="147" text="zinst überhaupt&#10;von eig . 2 ℔. 1 / 2 ℔ Pfeffer u . 8ring brot ze wysung , u . 5sh . erschatz ,&#10;u . wird der zins geteilt namt dem gotshus s . Claren , 14sh .&#10;2 zinsden 4 lot pfeffer , u . 4 ring brot , jtem dem Spital 19 sh .&#10;u 2 zinsdn . 1 lot pfeffer , u . 4 ring brot ,&#10;jtem u . die 5 sh erschatz ,&#10;zuziten beden bestimten teilen glich geteilt , soden die übrigen&#10;7sh . zu s . Peter" element="attr" class="dues" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+        <span id="2609" start="51" end="51" text="zinst" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2615" start="54" end="55" text="eig ." element="other" class="other" subclass=""/>
+        <span id="2621" start="56" end="58" text="2 ℔." element="value" class="money" subclass=""/>
+        <span id="2627" start="59" end="63" text="1 / 2 ℔ Pfeffer" element="value" class="money" subclass=""/>
+        <span id="2483" start="66" end="67" text="8ring brot" element="value" class="money" subclass=""/>
+        <span id="2633" start="69" end="69" text="wysung" element="other" class="other" subclass=""/>
+        <span id="2489" start="73" end="74" text="5sh ." element="value" class="money" subclass=""/>
+        <span id="2639" start="75" end="75" text="erschatz" element="other" class="other" subclass=""/>
+        <span id="2645" start="81" end="81" text="zins" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2658" start="83" end="83" text="namt" element="trigger" class="due" tense="pres" polarity="pos" modality="ass" subclass=""/>
+        <span id="2501" start="84" end="88" text="dem gotshus s . Claren" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2507" start="85" end="88" text="gotshus s . Claren" element="head" class="nam" subclass=""/>
+        </span>
+        <span id="2495" start="90" end="91" text="14sh ." element="value" class="money" subclass=""/>
+        <span id="2555" start="92" end="93" text="2 zinsden" element="value" class="money" subclass=""/>
+        <span id="2513" start="94" end="96" text="4 lot pfeffer" element="value" class="money" subclass=""/>
+        <span id="2519" start="100" end="102" text="4 ring brot" element="value" class="money" subclass=""/>
+        <span id="2525" start="105" end="106" text="dem Spital" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2531" start="106" end="106" text="Spital" element="head" class="type" subclass=""/>
+        </span>
+        <span id="2537" start="107" end="109" text="19 sh ." element="value" class="money" subclass=""/>
+        <span id="2561" start="111" end="113" text="2 zinsdn ." element="value" class="money" subclass=""/>
+        <span id="2549" start="114" end="116" text="1 lot pfeffer" element="value" class="money" subclass=""/>
+        <span id="2567" start="120" end="122" text="4 ring brot" element="value" class="money" subclass=""/>
+        <span id="2543" start="128" end="129" text="5 sh" element="value" class="money" subclass=""/>
+        <span id="2670" start="130" end="130" text="erschatz" element="other" class="other" subclass=""/>
+        <span id="2676" start="133" end="133" text="beden" element="reference" class="org" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+          <span id="2676_head" start="133" end="133" element="head" class="pro" text="beden" subclass=""/>
+        </span>
+        <span id="2696" start="134" end="137" text="bestimten teilen glich geteilt" element="other" class="other" subclass=""/>
+        <span id="2573" start="142" end="143" text="7sh ." element="value" class="money" subclass=""/>
+        <span id="2585" start="145" end="147" text="s . Peter" element="reference" class="org" numerus="sgl" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="rel">
+          <span id="2585_head" start="145" end="147" element="head" class="nam" text="s . Peter" subclass=""/>
+        </span>
+      </span>
+    </span>
+    <span id="2579" start="150" end="152" text="35 ℔." element="value" class="money" subclass=""/>
+    <span id="2591" start="156" end="157" text="die Schaffner" element="reference" class="per" numerus="grp" specificity="spc" tense="pres" polarity="pos" modality="ass" subclass="">
+      <span id="2597" start="157" end="157" text="Schaffner" element="head" class="occ" subclass=""/>
+    </span>
+  </spans>
+  <relations>
+    <relation id="2319" from="2313" to="2265" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2386" from="2380" to="2332" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2651" from="2645" to="2609" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2682" from="2676" to="2501" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2689" from="2676" to="2525" class="coref" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2609_role" from="2609" to="2399" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2645_role" from="2645" to="2399" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+    <relation id="2658_role" from="2658" to="2399" class="role" detail="source" tense="pres" polarity="pos" modality="ass"/>
+  </relations>
+  <eventGroups>
+    <eventGroup event_id="0" class="family" polarity="pos" tense="pres" modality="ass" start="6" end="7" ref="2301" type="state">
+      <trigger start="7" end="7" text="Frau" ref="2307"/>
+      <event event_id="0.0">
+        <role role="family-a" ref="2289" text="seine Frau Veronia"/>
+        <role role="family-b" ref="2313" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="1" class="family" polarity="pos" tense="pres" modality="ass" start="18" end="19" ref="2368" type="state">
+      <trigger start="19" end="19" text="Frau" ref="2374"/>
+      <event event_id="1.0">
+        <role role="family-a" ref="2356" text="seine&#10;Frau Elsin"/>
+        <role role="family-b" ref="2380" text="seine"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="2" class="topological" polarity="pos" tense="pres" modality="ass" start="26" end="41" ref="2417" type="state">
+      <event event_id="2.0">
+        <role role="location-a" ref="2399" text="das Hus &amp; Hofstatt gelegen am Vischmarkt ,&#10;zwüschen den husern zum rotten schwert , u . zum grünen steinen , u . zum vorden Bickell genant ist , zinst überhaupt&#10;von eig . 2 ℔. 1 / 2 ℔ Pfeffer u . 8ring brot ze wysung , u . 5sh . erschatz ,&#10;u . wird der zins geteilt namt dem gotshus s . Claren , 14sh .&#10;2 zinsden 4 lot pfeffer , u . 4 ring brot , jtem dem Spital 19 sh .&#10;u 2 zinsdn . 1 lot pfeffer , u . 4 ring brot ,&#10;jtem u . die 5 sh erschatz ,&#10;zuziten beden bestimten teilen glich geteilt , soden die übrigen&#10;7sh . zu s . Peter"/>
+        <role role="location-b" ref="2423" text="am Vischmarkt"/>
+        <role role="location-b" ref="2435" text="den husern zum rotten schwert , u . zum grünen steinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="3" class="part_whole" polarity="pos" tense="pres" modality="ass" start="33" end="41" ref="2447" type="state">
+      <event event_id="3.0">
+        <role role="whole" ref="2435" text="den husern zum rotten schwert , u . zum grünen steinen"/>
+        <role role="part" ref="2459" text="zum rotten schwert"/>
+        <role role="part" ref="2465" text="zum grünen steinen"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="4" class="property-purchase" polarity="pos" tense="pres" modality="ass" start="0" end="9" ref="" type="event">
+      <trigger start="9" end="9" text="verkaufen" ref="2603"/>
+      <event event_id="4.0">
+        <role role="seller" ref="2265" text="Hanns Tschan der Brumenmeister"/>
+        <role role="seller" ref="2289" text="seine Frau Veronia"/>
+        <role role="buyer" ref="2332" text="Hannsen Müller den Steinmetzen"/>
+        <role role="buyer" ref="2356" text="seine&#10;Frau Elsin"/>
+        <role role="property" ref="2399" text="das Hus &amp; Hofstatt gelegen am Vischmarkt ,&#10;zwüschen den husern zum rotten schwert , u . zum grünen steinen , u . zum vorden Bickell genant ist , zinst überhaupt&#10;von eig . 2 ℔. 1 / 2 ℔ Pfeffer u . 8ring brot ze wysung , u . 5sh . erschatz ,&#10;u . wird der zins geteilt namt dem gotshus s . Claren , 14sh .&#10;2 zinsden 4 lot pfeffer , u . 4 ring brot , jtem dem Spital 19 sh .&#10;u 2 zinsdn . 1 lot pfeffer , u . 4 ring brot ,&#10;jtem u . die 5 sh erschatz ,&#10;zuziten beden bestimten teilen glich geteilt , soden die übrigen&#10;7sh . zu s . Peter"/>
+        <role role="price" ref="2579" text="35 ℔."/>
+        <role role="consenting" ref="2591" text="die Schaffner"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="5" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="22" end="51" ref="2477" type="state">
+      <trigger start="51" end="51" text="zinst" ref="2609"/>
+      <event event_id="5.0">
+        <role role="cause" ref="2615" text="eig ."/>
+        <role role="interest" ref="2621" text="2 ℔."/>
+        <role role="interest" ref="2627" text="1 / 2 ℔ Pfeffer"/>
+        <role role="property" ref="2399" text="das Hus &amp; Hofstatt gelegen am Vischmarkt ,&#10;zwüschen den husern zum rotten schwert , u . zum grünen steinen , u . zum vorden Bickell genant ist , zinst überhaupt&#10;von eig . 2 ℔. 1 / 2 ℔ Pfeffer u . 8ring brot ze wysung , u . 5sh . erschatz ,&#10;u . wird der zins geteilt namt dem gotshus s . Claren , 14sh .&#10;2 zinsden 4 lot pfeffer , u . 4 ring brot , jtem dem Spital 19 sh .&#10;u 2 zinsdn . 1 lot pfeffer , u . 4 ring brot ,&#10;jtem u . die 5 sh erschatz ,&#10;zuziten beden bestimten teilen glich geteilt , soden die übrigen&#10;7sh . zu s . Peter"/>
+      </event>
+      <event event_id="5.1">
+        <role role="interest" ref="2483" text="8ring brot"/>
+        <role role="cause" ref="2633" text="wysung"/>
+        <role role="property" ref="2399" text="das Hus &amp; Hofstatt gelegen am Vischmarkt ,&#10;zwüschen den husern zum rotten schwert , u . zum grünen steinen , u . zum vorden Bickell genant ist , zinst überhaupt&#10;von eig . 2 ℔. 1 / 2 ℔ Pfeffer u . 8ring brot ze wysung , u . 5sh . erschatz ,&#10;u . wird der zins geteilt namt dem gotshus s . Claren , 14sh .&#10;2 zinsden 4 lot pfeffer , u . 4 ring brot , jtem dem Spital 19 sh .&#10;u 2 zinsdn . 1 lot pfeffer , u . 4 ring brot ,&#10;jtem u . die 5 sh erschatz ,&#10;zuziten beden bestimten teilen glich geteilt , soden die übrigen&#10;7sh . zu s . Peter"/>
+      </event>
+      <event event_id="5.2">
+        <role role="interest" ref="2489" text="5sh ."/>
+        <role role="cause" ref="2639" text="erschatz"/>
+        <role role="property" ref="2399" text="das Hus &amp; Hofstatt gelegen am Vischmarkt ,&#10;zwüschen den husern zum rotten schwert , u . zum grünen steinen , u . zum vorden Bickell genant ist , zinst überhaupt&#10;von eig . 2 ℔. 1 / 2 ℔ Pfeffer u . 8ring brot ze wysung , u . 5sh . erschatz ,&#10;u . wird der zins geteilt namt dem gotshus s . Claren , 14sh .&#10;2 zinsden 4 lot pfeffer , u . 4 ring brot , jtem dem Spital 19 sh .&#10;u 2 zinsdn . 1 lot pfeffer , u . 4 ring brot ,&#10;jtem u . die 5 sh erschatz ,&#10;zuziten beden bestimten teilen glich geteilt , soden die übrigen&#10;7sh . zu s . Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="6" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="22" end="81" ref="2477" type="state">
+      <trigger start="81" end="81" text="zins" ref="2645"/>
+      <event event_id="6.0">
+        <role role="detail_distribution" ref="2658" text="namt"/>
+        <role role="property" ref="2399" text="das Hus &amp; Hofstatt gelegen am Vischmarkt ,&#10;zwüschen den husern zum rotten schwert , u . zum grünen steinen , u . zum vorden Bickell genant ist , zinst überhaupt&#10;von eig . 2 ℔. 1 / 2 ℔ Pfeffer u . 8ring brot ze wysung , u . 5sh . erschatz ,&#10;u . wird der zins geteilt namt dem gotshus s . Claren , 14sh .&#10;2 zinsden 4 lot pfeffer , u . 4 ring brot , jtem dem Spital 19 sh .&#10;u 2 zinsdn . 1 lot pfeffer , u . 4 ring brot ,&#10;jtem u . die 5 sh erschatz ,&#10;zuziten beden bestimten teilen glich geteilt , soden die übrigen&#10;7sh . zu s . Peter"/>
+      </event>
+    </eventGroup>
+    <eventGroup event_id="7" class="due-obligation" polarity="pos" tense="pres" modality="ass" start="22" end="83" ref="2477" type="state">
+      <trigger start="83" end="83" text="namt" ref="2658"/>
+      <event event_id="7.0">
+        <role role="beneficiary" ref="2501" text="dem gotshus s . Claren"/>
+        <role role="interest" ref="2495" text="14sh ."/>
+        <role role="interest" ref="2555" text="2 zinsden"/>
+        <role role="interest" ref="2513" text="4 lot pfeffer"/>
+        <role role="interest" ref="2519" text="4 ring brot"/>
+        <role role="property" ref="2399" text="das Hus &amp; Hofstatt gelegen am Vischmarkt ,&#10;zwüschen den husern zum rotten schwert , u . zum grünen steinen , u . zum vorden Bickell genant ist , zinst überhaupt&#10;von eig . 2 ℔. 1 / 2 ℔ Pfeffer u . 8ring brot ze wysung , u . 5sh . erschatz ,&#10;u . wird der zins geteilt namt dem gotshus s . Claren , 14sh .&#10;2 zinsden 4 lot pfeffer , u . 4 ring brot , jtem dem Spital 19 sh .&#10;u 2 zinsdn . 1 lot pfeffer , u . 4 ring brot ,&#10;jtem u . die 5 sh erschatz ,&#10;zuziten beden bestimten teilen glich geteilt , soden die übrigen&#10;7sh . zu s . Peter"/>
+      </event>
+      <event event_id="7.1">
+        <role role="beneficiary" ref="2525" text="dem Spital"/>
+        <role role="interest" ref="2537" text="19 sh ."/>
+        <role role="interest" ref="2561" text="2 zinsdn ."/>
+        <role role="interest" ref="2549" text="1 lot pfeffer"/>
+        <role role="interest" ref="2567" text="4 ring brot"/>
+        <role role="property" ref="2399" text="das Hus &amp; Hofstatt gelegen am Vischmarkt ,&#10;zwüschen den husern zum rotten schwert , u . zum grünen steinen , u . zum vorden Bickell genant ist , zinst überhaupt&#10;von eig . 2 ℔. 1 / 2 ℔ Pfeffer u . 8ring brot ze wysung , u . 5sh . erschatz ,&#10;u . wird der zins geteilt namt dem gotshus s . Claren , 14sh .&#10;2 zinsden 4 lot pfeffer , u . 4 ring brot , jtem dem Spital 19 sh .&#10;u 2 zinsdn . 1 lot pfeffer , u . 4 ring brot ,&#10;jtem u . die 5 sh erschatz ,&#10;zuziten beden bestimten teilen glich geteilt , soden die übrigen&#10;7sh . zu s . Peter"/>
+      </event>
+      <event event_id="7.2">
+        <role role="interest" ref="2543" text="5 sh"/>
+        <role role="cause" ref="2670" text="erschatz"/>
+        <role role="beneficiary" ref="2676" text="beden"/>
+        <role role="detail_other" ref="2696" text="bestimten teilen glich geteilt"/>
+        <role role="property" ref="2399" text="das Hus &amp; Hofstatt gelegen am Vischmarkt ,&#10;zwüschen den husern zum rotten schwert , u . zum grünen steinen , u . zum vorden Bickell genant ist , zinst überhaupt&#10;von eig . 2 ℔. 1 / 2 ℔ Pfeffer u . 8ring brot ze wysung , u . 5sh . erschatz ,&#10;u . wird der zins geteilt namt dem gotshus s . Claren , 14sh .&#10;2 zinsden 4 lot pfeffer , u . 4 ring brot , jtem dem Spital 19 sh .&#10;u 2 zinsdn . 1 lot pfeffer , u . 4 ring brot ,&#10;jtem u . die 5 sh erschatz ,&#10;zuziten beden bestimten teilen glich geteilt , soden die übrigen&#10;7sh . zu s . Peter"/>
+      </event>
+      <event event_id="7.3">
+        <role role="interest" ref="2573" text="7sh ."/>
+        <role role="beneficiary" ref="2585" text="s . Peter"/>
+        <role role="property" ref="2399" text="das Hus &amp; Hofstatt gelegen am Vischmarkt ,&#10;zwüschen den husern zum rotten schwert , u . zum grünen steinen , u . zum vorden Bickell genant ist , zinst überhaupt&#10;von eig . 2 ℔. 1 / 2 ℔ Pfeffer u . 8ring brot ze wysung , u . 5sh . erschatz ,&#10;u . wird der zins geteilt namt dem gotshus s . Claren , 14sh .&#10;2 zinsden 4 lot pfeffer , u . 4 ring brot , jtem dem Spital 19 sh .&#10;u 2 zinsdn . 1 lot pfeffer , u . 4 ring brot ,&#10;jtem u . die 5 sh erschatz ,&#10;zuziten beden bestimten teilen glich geteilt , soden die übrigen&#10;7sh . zu s . Peter"/>
+      </event>
+    </eventGroup>
+  </eventGroups>
+</doc>
